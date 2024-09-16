@@ -1,0 +1,16 @@
+government = monarchy
+add_government_reform = imperial_knight_reform
+government_rank = 1
+technology_group = chaos
+religion = chaos_undivided
+primary_culture = chaos_knight_culture
+capital = 1720
+
+1970.12.12 = {
+	monarch = {
+		name = "Dam Marta"	
+		adm = 3
+		dip = 1
+		mil = 4
+	}
+}

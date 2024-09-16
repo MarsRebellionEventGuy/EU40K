@@ -1,0 +1,10 @@
+add_core = XYC
+owner = XYC
+controller = XYC
+religion = chaos_undivided
+culture = dark_mechanicum_culture
+base_tax = 2
+base_production = 4
+base_manpower = 3
+trade_goods = military_equipment
+

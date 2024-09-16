@@ -1,0 +1,9 @@
+add_core = XYG
+owner = XYG
+controller = XYG
+religion = tzeentch
+culture = heretic_astartes_culture
+base_tax = 6
+base_production = 6
+base_manpower = 4
+trade_goods = military_equipment

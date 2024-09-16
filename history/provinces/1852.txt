@@ -1,0 +1,9 @@
+owner = XHB
+controller = XHB
+add_core = XHB
+religion = destroyer_cult
+culture = necron_culture
+base_tax = 2
+base_production = 4
+base_manpower = 2
+trade_goods = minerals

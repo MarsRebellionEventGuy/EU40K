@@ -1,0 +1,31 @@
+annex_country_warhammer = {
+	type = take_capital
+	
+	attacker = {
+		badboy_factor = 1
+		prestige_factor = 0.5
+		peace_cost_factor = 2.0
+		
+		allowed_provinces = {
+			is_claim = ROOT
+		}
+
+		peace_options = {
+			po_demand_provinces
+		}
+		
+		allow_annex = yes
+	}
+	
+	defender = {
+		badboy_factor = 1
+		prestige_factor = 1
+		peace_cost_factor = 2
+
+		peace_options = {
+			po_demand_provinces
+		}
+	}
+
+	war_name = PRIMITIVE_WAR_NAME
+}

@@ -1,0 +1,18 @@
+﻿l_english:
+ BANNER_CANT_HAVE:1 "Your nation cannot train Space Marine Companies.\n"
+ BANNER_NOT_OWNED_PROV:0 "You can only train Space Marine Companies from states that you own. Please select a province that you are the owner of.\n"
+
+ allow_local_banners_modifier:0 "Allow Local Space Marine Company"
+ desc_allow_local_banners_modifier:0 " "
+ REGCAT_banner:0 "Space Marine Chapter"
+ BANNERS_DESC:0 "Countries of §YAstartes§! culture or the Imperium can raise Space Marine Companies. Companies cost Corruption to raise and have higher Discipline than normal troops."
+ BANNER_NAME:0 "$HOME$'s $NUM$$ORDER$ Space Marine Company"
+ BANNER_NOWHERE_TO_GO:0 "There is no province fully under our control in $NAME$ for us to be able to raise Space Marine Companies."
+ BANNER_NONE_AVAIL:3 "There are not enough Astartes in full cores within the $NAME$ to raise any Space Marine Companies."
+ BANNER_ALL_RAISED:1 "$NAME$ cannot raise more Space Marine Companies, as there are already $CURR|Y$ raised.\n"
+ BANNER_TOO_HIGH_CORRUPTION:0 "Raising this Space Marine Company would increase our corruption by $VAL|R$, taking us beyond 100."
+ RAISE_MANCHU_BANNERS:0 "Train Space Marine Company"
+ BANNER_TXT:0 "$CURR|Y$ of $ALLOW|Y$"
+ BANNERS_FROM_TT:3 "§YSpace Marine Forcelimit§!\nThis is the amount of current and possible Space Marine Companies our nation can have.\nSpace Marine Companies cost Corruption to raise and have higher Discipline than normal troops.\n\nCompanies are raised from the state's full core provinces with Astartes culture.\n\n$NAME$ provide $AMOUNT|Y$ Force Limit of Space Marine Companies due to the development in:\n"
+ AVAILABLE_BANNERS_LIMIT:0 "The number is reduced to $VAL|Y$ because we already raised $CURRENT|Y$ out of $MAX|Y$ Space Marine Companies."
+ CONFIRRAISEBANNER:0 "Confirm Train Space Marine Company"

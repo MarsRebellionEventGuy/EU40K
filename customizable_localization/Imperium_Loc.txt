@@ -1,0 +1,17 @@
+defined_text = {
+	name = Imperial_Spires_Bonus
+	random = no
+
+	text = {
+		localisation_key = AB_yes
+		trigger = {
+			num_of_estate_privileges = {
+				estate = estate_nobles
+				value = 3
+			}
+		}
+	}
+	text = {
+		localisation_key = AB_no
+	}
+}

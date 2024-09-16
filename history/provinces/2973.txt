@@ -1,0 +1,9 @@
+add_core = XLN
+owner = XLN
+controller = XLN
+religion = chaos_undivided
+culture = heretic_astartes_culture
+base_tax = 6
+base_production = 4
+base_manpower = 5
+trade_goods = clerks

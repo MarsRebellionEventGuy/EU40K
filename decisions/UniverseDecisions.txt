@@ -1,0 +1,64 @@
+country_decisions = {
+	repair_phalanx = {
+		potential = {
+			always = no
+		}
+		provinces_to_highlight = {
+		}
+		allow = {
+		}
+		effect = {
+			ROOT = {
+				capital_scope = {
+					create_flagship = {
+						name = "Phalanx"
+						type = heavy_ship
+					}
+				}
+			}
+			ROOT = {
+				capital_scope = {
+					create_flagship = {
+						name = "Phalanx"
+						type = heavy_ship
+					}
+				}
+			}
+			ROOT = {
+				capital_scope = {
+					create_flagship = {
+						name = "Phalanx"
+						type = heavy_ship
+					}
+				}
+			}
+			ROOT = {
+				capital_scope = {
+					create_flagship = {
+						name = "Phalanx"
+						type = heavy_ship
+					}
+				}
+			}
+			ROOT = {
+				capital_scope = {
+					create_flagship = {
+						name = "Phalanx"
+						type = heavy_ship
+					}
+				}
+			}
+			ROOT = {
+				capital_scope = {
+					create_flagship = {
+						name = "Phalanx"
+						type = heavy_ship
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

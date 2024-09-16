@@ -1,0 +1,9 @@
+add_core = XLO
+owner = XLO
+controller = XLO
+religion = tzeentch
+culture = chaos_culture
+base_tax = 4
+base_production = 4
+base_manpower = 3
+trade_goods = slaves

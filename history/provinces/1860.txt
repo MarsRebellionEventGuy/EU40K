@@ -1,0 +1,10 @@
+add_core = XNB
+owner = XNB
+controller = XNB
+religion = slaanesh
+culture = heretic_astartes_culture
+base_tax = 3
+base_production = 3
+base_manpower = 4
+trade_goods = slaves
+

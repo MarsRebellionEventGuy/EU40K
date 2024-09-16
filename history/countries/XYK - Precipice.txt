@@ -1,0 +1,16 @@
+government = theocracy
+add_government_reform = xeno_government_reform
+government_rank = 1
+technology_group = xeno
+religion = xeno
+primary_culture = xeno_culture
+capital = 960
+
+1970.12.12 = {
+	monarch = {
+		name = "The Tinkerer"	
+		adm = 4
+		dip = 3
+		mil = 5
+	}
+}

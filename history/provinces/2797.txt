@@ -1,0 +1,9 @@
+add_core = XKN
+owner = XKN
+controller = XKN
+religion = nurgle
+culture = chaos_culture
+base_tax = 3
+base_production = 4
+base_manpower = 4
+trade_goods = slaves

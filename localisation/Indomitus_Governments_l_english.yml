@@ -1,0 +1,285 @@
+﻿l_english:
+ imperium_mechanic:0 "Crusading Momentum Mechanic"
+ imperium_mechanic_desc:0 ""
+
+ imperium_power:0 "Crusade Momentum"
+ imperium_power_desc:0 "We gain §YCrusade Momentum§! by winning battles with a Leader (§G3§!)\nWe gain §YCrusade Momentum§! by winning battles with Special Forces (§G5§!)\nWe lose §YCrusade Momentum§! by losing battles (§R-5§!)\nWe lose §YCrusade Momentum§! by losing a Flagship (§R-25§!)"
+
+ imperium_increase_button:0 "Found New Astartes Chapters"
+ imperium_increase_button_desc:0 "The Ultima Founding is at hand. The advent of the improved Primaris variant of Space Marines allows countless new chapters to be founded and many old ones to be reborn anew."
+
+
+ imperium_government_action_cost:0 "Geneseed Tithes"
+ imperium_government_action_tooltip:0 "In §Y5§! years we will receive the following:"
+ imperium_government_action_bonus:0 "New Chapters Founded"
+
+
+ IMPERIUM_RANK_3: "Imperium of Man"
+ IMPERIUM_RULER_MALE_3: "Lord Commander"
+
+ ASTARTES_RANK_1: "Astartes Chapter"
+ ASTARTES_RANK_2: "Astartes Legion"
+ ASTARTES_RANK_3: "Astartes Protectorate"
+
+ ASTARTES_RULER_MALE_1: "Chapter Master"
+ ASTARTES_RULER_MALE_2: "Chapter Master"
+ ASTARTES_RULER_MALE_3: "Lord Protector"
+
+ MARS_MECHANICUS_RANK_1: "Adeptus Mechanicus"
+ MARS_MECHANICUS_RANK_2: "Adeptus Mechanicus"
+ MARS_MECHANICUS_RANK_3: "Adeptus Mechanicus"
+
+ MECHANICUS_RANK_1: "Forge World"
+ MECHANICUS_RANK_2: "Mechanicus Holdfast"
+ MECHANICUS_RANK_3: "Mechanicus Protectorate"
+
+ MECHANICUS_RULER_MALE_1: "Magos"
+ MECHANICUS_RULER_MALE_2: "Prime Hermeticon"
+ MECHANICUS_RULER_MALE_3: "Fabricator-General"
+
+ DEATH_WATCH_RANK_1: "Watch Fortress"
+ DEATH_WATCH_RANK_2: "Chamber Militant"
+ DEATH_WATCH_RANK_3: "Watch Protectorate"
+
+ DEATH_WATCH_RULER_MALE_1: "Watch Captain"
+ DEATH_WATCH_RULER_MALE_2: "Watch Master"
+ DEATH_WATCH_RULER_MALE_3: "Watch Commander"
+
+ IMPERIAL_GOVERNORATE_RANK_1: "Imperial Governorate"
+ IMPERIAL_GOVERNORATE_RANK_2: "Imperial Garrison"
+ IMPERIAL_GOVERNORATE_RANK_3: "Imperial Protectorate"
+
+ IMPERIAL_GOVERNORATE_RULER_MALE_1: "Governor"
+ IMPERIAL_GOVERNORATE_RULER_MALE_2: "Sector Lord"
+ IMPERIAL_GOVERNORATE_RULER_MALE_3: "Lord Protector"
+
+ IMPERIAL_GOVERNORATE_RULER_FEMALE_1: "Governor"
+ IMPERIAL_GOVERNORATE_RULER_FEMALE_2: "Sector Lord"
+ IMPERIAL_GOVERNORATE_RULER_FEMALE_3: "Lord Protector"
+
+ CRAFTWORLD_RANK_1: "Craftworld"
+ CRAFTWORLD_RANK_2: "Craftworld"
+ CRAFTWORLD_RANK_3: "Craftworld"
+
+ CRAFTWORLD_RULER_MALE_1: "Exarch"
+ CRAFTWORLD_RULER_MALE_2: "Exarch"
+ CRAFTWORLD_RULER_MALE_3: "Exarch"
+
+ CRAFTWORLD_RULER_FEMALE_1: "Exarch"
+ CRAFTWORLD_RULER_FEMALE_2: "Exarch"
+ CRAFTWORLD_RULER_FEMALE_3: "Exarch"
+
+ ORK_RANK_1: "Tribe"
+ ORK_RANK_2: "Waaagh"
+ ORK_RANK_3: "Great Waaagh"
+
+ ORK_RULER_MALE_1: "Warchief"
+ ORK_RULER_MALE_2: "Warboss"
+ ORK_RULER_MALE_3: "Warlord"
+
+ TAU_RANK_1: "Ethereal High Council"
+ TAU_RANK_2: "Ethereal High Council"
+ TAU_RANK_3: "Ethereal High Council"
+
+ TAU_RULER_MALE_1: "Ethereal Supreme"
+ TAU_RULER_MALE_2: "Ethereal Supreme"
+ TAU_RULER_MALE_3: "Ethereal Supreme"
+
+ TAU_RULER_FEMALE_1: "Ethereal Supreme"
+ TAU_RULER_FEMALE_2: "Ethereal Supreme"
+ TAU_RULER_FEMALE_3: "Ethereal Supreme"
+
+ FARSIGHT_ENCLAVES_RANK_1: "Fire Caste Enclave"
+ FARSIGHT_ENCLAVES_RANK_2: "Fire Caste Enclave"
+ FARSIGHT_ENCLAVES_RANK_3: "Fire Caste Enclave"
+
+ FARSIGHT_ENCLAVES_RULER_MALE_1: "Knight"
+ FARSIGHT_ENCLAVES_RULER_MALE_2: "Commander"
+ FARSIGHT_ENCLAVES_RULER_MALE_3: "Commander Supreme"
+
+ FARSIGHT_ENCLAVES_RULER_FEMALE_1: "Knight"
+ FARSIGHT_ENCLAVES_RULER_FEMALE_2: "Commander"
+ FARSIGHT_ENCLAVES_RULER_FEMALE_3: "Commander Supreme"
+
+ TYRANID_RANK_1: "Splinter Fleet"
+ TYRANID_RANK_2: "Hive Fleet"
+ TYRANID_RANK_3: "Hive Fleet"
+
+ TYRANID_RULER_MALE_1: "Hive Mind"
+ TYRANID_RULER_MALE_2: "Hive Mind"
+ TYRANID_RULER_MALE_3: "Hive Mind"
+
+ GENESTEALER_CULT_RANK_1: "Genestealer Cult"
+ GENESTEALER_CULT_RANK_2: "Genestealer Cult"
+ GENESTEALER_CULT_RANK_3: "Genestealer Cult"
+
+ GENESTEALER_CULT_RULER_MALE_1: "Patriarch"
+ GENESTEALER_CULT_RULER_MALE_2: "Patriarch"
+ GENESTEALER_CULT_RULER_MALE_3: "Patriarch"
+
+ GENESTEALER_CULT_RULER_FEMALE_1: "Patriarch"
+ GENESTEALER_CULT_RULER_FEMALE_2: "Patriarch"
+ GENESTEALER_CULT_RULER_FEMALE_3: "Patriarch"
+
+ CHAOS_CULT_RANK_1: "Chaos Cult"
+ CHAOS_CULT_RANK_2: "Dark Commune"
+ CHAOS_CULT_RANK_3: "Dark Empire"
+
+ CHAOS_CULT_RULER_MALE_1: "Demagogue"
+ CHAOS_CULT_RULER_MALE_2: "Demagogue"
+ CHAOS_CULT_RULER_MALE_3: "Demagogue"
+
+ CHAOS_CULT_RULER_FEMALE_1: "Demagogue"
+ CHAOS_CULT_RULER_FEMALE_2: "Demagogue"
+ CHAOS_CULT_RULER_FEMALE_3: "Demagogue"
+
+ CHAOS_ASTARTES_RANK_1: "Chaos Warband"
+ CHAOS_ASTARTES_RANK_2: "Chaos Legion"
+ CHAOS_ASTARTES_RANK_3: "Dark Empire"
+
+ CHAOS_ASTARTES_RULER_MALE_1: "Captain"
+ CHAOS_ASTARTES_RULER_MALE_2: "Chaos Lord"
+ CHAOS_ASTARTES_RULER_MALE_3: "Warmaster"
+
+ DARK_MECHANICUS_RANK_1: "Hell Forge"
+ DARK_MECHANICUS_RANK_2: "Mechanicum Holdfast"
+ DARK_MECHANICUS_RANK_3: "Dark Mechanicum"
+
+ DARK_MECHANICUS_RULER_MALE_1: "Dark Magos"
+ DARK_MECHANICUS_RULER_MALE_2: "Arch-Heretek"
+ DARK_MECHANICUS_RULER_MALE_3: "Fabricator-General"
+
+ EXODITE_RANK_1: "Exodite Tribe"
+ EXODITE_RANK_2: "Exodite Federation"
+ EXODITE_RANK_3: "Exodite High Kingdom"
+
+ EXODITE_RULER_MALE_1: "Chieftain"
+ EXODITE_RULER_MALE_2: "High Chieftain"
+ EXODITE_RULER_MALE_3: "High King"
+
+ XENO_RANK_1: "Xeno Domain"
+ XENO_RANK_2: "Xeno Domain"
+ XENO_RANK_3: "Xeno Empire"
+
+ XENO_RULER_MALE_1: "High Priest"
+ XENO_RULER_MALE_2: "High Priest"
+ XENO_RULER_MALE_3: "Emperor"
+
+ XENO_RULER_FEMALE_1: "High Priest"
+ XENO_RULER_FEMALE_2: "High Priest"
+ XENO_RULER_FEMALE_3: "Empress"
+
+ KNIGHTS_RANK_1: "Knight House"
+ KNIGHTS_RANK_2: "Greater Knight House"
+ KNIGHTS_RANK_3: "Knight Protectorate"
+
+ KNIGHTS_RULER_MALE_1: "Viscount"
+ KNIGHTS_RULER_MALE_2: "High King"
+ KNIGHTS_RULER_MALE_3: "Princeps"
+
+ KNIGHTS_RULER_MALE_1: "Viscountess"
+ KNIGHTS_RULER_MALE_2: "High Queen"
+ KNIGHTS_RULER_MALE_3: "Princeps"
+
+ CHAOS_KNIGHTS_RANK_1: "Knight House"
+ CHAOS_KNIGHTS_RANK_2: "Greater Knight House"
+ CHAOS_KNIGHTS_RANK_3: "Knight Protectorate"
+
+ CHAOS_KNIGHTS_RULER_MALE_1: "Viscount"
+ CHAOS_KNIGHTS_RULER_MALE_2: "High King"
+ CHAOS_KNIGHTS_RULER_MALE_3: "Chaos Lord"
+
+ CHAOS_KNIGHTS_RULER_MALE_1: "Viscountess"
+ CHAOS_KNIGHTS_RULER_MALE_2: "High Queen"
+ CHAOS_KNIGHTS_RULER_MALE_3: "Chaos Lord"
+
+ KIN_RANK_1: "Votann League"
+ KIN_RANK_2: "Greater Votann League"
+ KIN_RANK_3: "Kin Confederation"
+
+ KIN_RULER_MALE_1: "Guildmaster"
+ KIN_RULER_MALE_2: "Living Ancestor"
+ KIN_RULER_MALE_3: "Living Ancestor"
+
+ KIN_RULER_FEMALE_1: "Guildmaster"
+ KIN_RULER_FEMALE_2: "Living Ancestor"
+ KIN_RULER_FEMALE_3: "Living Ancestor"
+
+ NECRON_RANK_1: "Tomb World"
+ NECRON_RANK_2: "Necron Dynasty"
+ NECRON_RANK_3: "Infinite Empire"
+
+ NECRON_RULER_MALE_1: "Overlord"
+ NECRON_RULER_MALE_2: "Phaeron"
+ NECRON_RULER_MALE_3: "Silent King"
+
+ NECRON_RULER_FEMALE_1: "Overlord"
+ NECRON_RULER_FEMALE_2: "Phaerakh"
+ NECRON_RULER_FEMALE_3: "Silent Queen"
+
+ PRIMARCH_RANK: "Astartes Protectorate"
+ PRIMARCH_RULER: "Primarch"
+ CHAOS_PRIMARCH_RANK: "Chaos Legion"
+
+ senatorum_imperialis_reform: "Senatorum Imperialis"
+ senatorum_imperialis_reform_desc: "The Imperium of Man is nominally ruled by the Emperor and, more recently, the reawakened primarch Roboute Guilliman. Actual governance, however, is overseen by the Senatorum Imperialis. Power remains divided between the High Lords of Terra, each leading various factions such as the Adeptus Administratum, Inquisition, and Navigator Guilds."
+
+ imperium_regency_reform: "Imperial Regency"
+ imperium_regency_reform_desc: "The Imperium of Man is ruled by primarch of the Ultramarines and Imperial Regent, Roboute Guilliman. Any power previously held by the High Lords of Terra which extended beyond their primary purpose has been diminished and the Senatorum Imperialis itself has been relegated to a largely ceremonial role."
+
+ imperial_governorate_reform: "Imperial Governorate"
+ imperial_governorate_reform_desc: "Hive worlds and garrisons of the Imperium are ruled autonomously by planetary governors with Administratum representatives maintaining ceremonial positions. Forms of governance vary greatly between worlds, ranging from oligarchic republics to hereditary fiefdoms."
+
+ imperial_knight_reform: "Knight House"
+ imperial_knight_reform_desc: "Knight Houses are noble families responsible for piloting powerful bipedal engines of war known as Imperial Knights. They are sworn to the service of either the Imperium itself or the Adeptus Mechanicus."
+
+ chaos_knight_reform: "Fallen Knight House"
+ chaos_knight_reform_desc: "Fallen Knight Houses are noble families who have turned to Chaos and abandoned their vows to the Imperium. The powerful Knight suits they once piloted for the good of humanity are instead used to terrorize their subjects and pursue personal feuds."
+
+ farsight_enclaves_reform: "Fire Caste Enclave"
+ farsight_enclaves_reform_desc: "The Farsight Enclaves are governed by military rule, reflective of the Fire Caste T'au responsible for its creation. Power is divided among members of a war council known as the Eight, each reflecting the T'au warrior spirit and weilding the mightiest weapons systems available to their civilization."
+
+ necron_dynasty_reform: "Necron Dynasty"
+ necron_dynasty_reform_desc: "The Necron are governed by the great houses which once ruled as mortals prior to their transformation from the Necrontyr. While previously held together through familial ties and tradition, the biotransference process which stripped the Necron civilization of their spirits has since bound the dynasties of the Necrons through programmed obedience and brutal conquest."
+
+ league_votann_reform: "League of Votann"
+ league_votann_reform_desc: "The Leagues of Votann are confederations of Kin social groupings known as Kindreds. Councils known as Hearthspakes are convened to collectively decide on important issues with the participation of guildmasters, military officers, and psychically active priests known as the Grimnyr."
+
+ tau_reform: "Aun't'au'retha"
+ tau_reform_desc: "The Aun't'au'retha is a council in which the ruling Ethereal Caste of T’au deliberates on matters pertaining to the Greater Good as well as its proliferation and maintenance."
+
+ astartes_reform: "Astartes Chapter"
+ astartes_reform_desc: ""
+
+ death_watch_reform: "Watch Garrison"
+ death_watch_reform_desc: ""
+
+ heretic_astartes_reform: "Renegade Astartes Chapter"
+ heretic_astartes_reform_desc: ""
+
+ forge_world_reform: "Forge World"
+ forge_world_reform_desc: ""
+
+ chaos_forge_world_reform: "Hellforge"
+ chaos_forge_world_reform_desc: ""
+
+ chaos_cult_reform: "Chaos Cult"
+ chaos_cult_reform_desc: ""
+
+ xeno_government_reform: "Xeno Government"
+ xeno_government_reform_desc: ""
+
+ craftworld_reform: "Craftworld"
+ craftworld_reform_desc: ""
+
+ genestealer_cult_reform: "Genestealer Cult"
+ genestealer_cult_reform_desc: ""
+
+ ork_government_reform: "Ork Tribe"
+ ork_government_reform_desc: ""
+
+ exodite_government_reform: "Exodite Tribe"
+ exodite_government_reform_desc: ""
+
+ hive_fleet_reform: "Hive Fleet"
+ hive_fleet_reform_desc: ""

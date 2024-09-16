@@ -1,0 +1,9 @@
+add_core = XAY
+owner = XAY
+controller = XAY
+religion = chaos_undivided
+culture = heretic_astartes_culture
+base_tax = 3
+base_production = 4
+base_manpower = 4
+trade_goods = military_equipment

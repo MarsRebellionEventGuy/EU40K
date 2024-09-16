@@ -1,0 +1,16 @@
+government = theocracy
+add_government_reform = xeno_government_reform
+government_rank = 1
+technology_group = xeno
+religion = xeno
+primary_culture = xeno_culture
+capital = 2005
+
+1970.12.12 = {
+	monarch = {
+		name = "J'Kaara"	
+		adm = 2
+		dip = 5
+		mil = 3
+	}
+}

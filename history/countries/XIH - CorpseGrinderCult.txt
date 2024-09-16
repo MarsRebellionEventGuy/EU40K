@@ -1,0 +1,16 @@
+government = theocracy
+add_government_reform = chaos_cult_reform
+government_rank = 1
+technology_group = chaos
+religion = khorne
+primary_culture = chaos_culture
+capital = 2839
+
+1970.12.12 = {
+	monarch = {
+		name = "Sarkars Quintoxter"	
+		adm = 3
+		dip = 2
+		mil = 4
+	}
+}

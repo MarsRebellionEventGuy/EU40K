@@ -1,0 +1,9 @@
+add_core = XJB
+owner = XJB
+controller = XJB
+religion = xeno
+culture = xeno_culture
+base_tax = 3
+base_production = 2
+base_manpower = 2
+trade_goods = xeno_technology

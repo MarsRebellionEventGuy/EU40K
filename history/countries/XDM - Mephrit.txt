@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = necron_dynasty_reform
+government_rank = 1
+technology_group = necron
+religion = destroyer_cult
+primary_culture = necron_culture
+capital = 1691
+
+1970.12.12 = {
+		monarch = {
+			name = "Anubitar"
+			dynasty = " "
+			adm = 5
+			dip = 3
+			mil = 2
+		}
+	}
+}

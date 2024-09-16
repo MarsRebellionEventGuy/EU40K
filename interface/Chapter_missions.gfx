@@ -1,0 +1,22 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "mission_astropath"
+		texturefile = "gfx/interface/mission_astropath.dds"
+	}
+	spriteType = {
+		name = "mission_noctis"
+		texturefile = "gfx/interface/mission_noctis.dds"
+	}
+	spriteType = {
+		name = "mission_guilliman"
+		texturefile = "gfx/interface/mission_guilliman.dds"
+	}
+
+	spriteType = {
+		name = "mission_chapter_peasant"
+		texturefile = "gfx/interface/mission_chapter_peasant.dds"
+	}
+
+}
+

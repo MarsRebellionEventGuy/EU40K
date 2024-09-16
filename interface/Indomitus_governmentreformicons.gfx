@@ -1,0 +1,87 @@
+spriteTypes = {
+	spriteType = {
+		name = "government_reform_imperial_regency"
+		texturefile = "gfx//interface//imperial_regency.dds"
+	}
+	spriteType = {
+		name = "government_reform_imperial_governorate"
+		texturefile = "gfx//interface//imperial_governorate.dds"
+	}
+	spriteType = {
+		name = "government_reform_imperial_knight"
+		texturefile = "gfx//interface//imperial_knight.dds"
+	}
+	spriteType = {
+		name = "government_reform_farsight_enclaves"
+		texturefile = "gfx//interface//farsight_enclaves.dds"
+	}
+
+	spriteType = {
+		name = "government_reform_necron_dynasty"
+		texturefile = "gfx//interface//necron_dynasty.dds"
+	}
+
+	spriteType = {
+		name = "government_reform_league_votann"
+		texturefile = "gfx//interface//league_votann.dds"
+	}
+
+	spriteType = {
+		name = "government_reform_tau"
+		texturefile = "gfx//interface//tau.dds"
+	}
+	spriteType = {
+		name = "government_reform_astartes"
+		texturefile = "gfx//interface//astartes.dds"
+	}
+
+	spriteType = {
+		name = "government_reform_death_watch"
+		texturefile = "gfx//interface//death_watch.dds"
+	}
+
+	spriteType = {
+		name = "government_reform_heretic_astartes"
+		texturefile = "gfx//interface//heretic_astartes.dds"
+	}
+
+	spriteType = {
+		name = "government_reform_forge_world"
+		texturefile = "gfx//interface//forge_world.dds"
+	}
+
+	spriteType = {
+		name = "government_reform_chaos_forge_world"
+		texturefile = "gfx//interface//chaos_forge_world.dds"
+	}
+
+	spriteType = {
+		name = "government_reform_chaos_cult"
+		texturefile = "gfx//interface//chaos_cult.dds"
+	}
+
+	spriteType = {
+		name = "government_reform_xeno_government"
+		texturefile = "gfx//interface//xeno_government.dds"
+	}
+
+	spriteType = {
+		name = "government_reform_craftworld_reform"
+		texturefile = "gfx//interface//craftworld_reform.dds"
+	}
+
+	spriteType = {
+		name = "government_reform_ork_government"
+		texturefile = "gfx//interface//ork_government.dds"
+	}
+
+	spriteType = {
+		name = "government_reform_exodite_government"
+		texturefile = "gfx//interface//exodite_government.dds"
+	}
+
+	spriteType = {
+		name = "government_reform_hive_fleet"
+		texturefile = "gfx//interface//hive_fleet.dds"
+	}
+}

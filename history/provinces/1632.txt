@@ -1,0 +1,9 @@
+add_core = XCV
+owner = XCV
+controller = XCV
+religion = tzeentch
+culture = dark_mechanicum_culture
+base_tax = 3
+base_production = 4
+base_manpower = 2
+trade_goods = military_equipment

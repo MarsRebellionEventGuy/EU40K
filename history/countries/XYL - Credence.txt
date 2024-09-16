@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = chaos_knight_reform
+government_rank = 1
+technology_group = chaos
+religion = chaos_undivided
+primary_culture = chaos_knight_culture
+capital = 973
+
+1980.1.1 = {
+		monarch = {
+			name = "Zararus Pyrescourge"	
+			adm = 3
+			dip = 2
+			mil = 1
+		}
+	}
+}

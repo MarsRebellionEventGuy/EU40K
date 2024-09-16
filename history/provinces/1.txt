@@ -1,0 +1,11 @@
+add_core = XXA
+owner = XXA
+controller = XXA
+culture = human_culture
+religion = imperial_cult
+base_tax = 15
+base_production = 8
+base_manpower = 15
+capital = "Imperial Palace"
+trade_goods = archaotech
+center_of_trade = 1

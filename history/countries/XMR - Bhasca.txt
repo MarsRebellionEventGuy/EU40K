@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = imperial_governorate_reform
+government_rank = 1
+technology_group = imperial
+religion = imperial_cult
+primary_culture = human_culture
+capital = 3090
+
+1970.12.12 = {
+		monarch = {
+			name = "Vortryn Heimven"	
+			adm = 2
+			dip = 3
+			mil = 2
+			female  = yes
+		}
+	}
+}

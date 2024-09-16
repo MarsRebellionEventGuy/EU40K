@@ -1,0 +1,410 @@
+country_decisions = {
+	imperium_secundus_nation = {
+		major = yes
+		potential = {
+			is_free_or_tributary_trigger = yes
+			NOT = { exists = XXA }
+			NOT = { has_country_flag = indomitus_formed_country }
+		}
+		provinces_to_highlight = {
+			continent = segmentum_ultima
+			NOT = { is_core = ROOT }
+		}
+		allow = {
+			is_at_war = no
+			government_rank = 3
+			num_of_owned_provinces_with = {
+				value = 50
+				is_core = ROOT
+				continent = segmentum_ultima
+			}
+		}
+		effect = {
+			override_country_name = IS_RENAME
+			set_country_flag = indomitus_formed_country
+			add_prestige = 25
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			segmentum_ultima = {
+				add_permanent_claim = ROOT
+			}
+			if = {
+				limit = { NOT = { government_rank = 3 } }
+				set_government_rank = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	unite_night_lords = {
+		major = yes
+		potential = {
+			tag = XMB
+			NOT = { has_country_flag = indomitus_formed_country }
+		}
+		provinces_to_highlight = {
+			province_id = 3133
+		}
+		allow = {
+			3133 = {
+				is_state_core = ROOT
+				num_of_times_improved_by_owner = 5
+			}
+			total_development = 50
+			is_free_or_tributary_trigger = yes
+			is_at_war = no	
+		}
+		effect = {
+			override_country_name = NL_RENAME
+			set_country_flag = indomitus_formed_country
+			add_prestige = 25
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			if = {
+				limit = { NOT = { government_rank = 2 } }
+				set_government_rank = 2
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	unite_infinite_empire = {
+		major = yes
+		potential = {
+			primary_culture = necron_culture
+			NOT = { has_country_flag = indomitus_formed_country }
+		}
+		provinces_to_highlight = {
+			has_terrain = tomb_world
+			NOT = { is_core = ROOT }
+		}
+		allow = {
+			num_of_owned_provinces_with = {
+				value = 25
+				is_core = ROOT
+				has_terrain = tomb_world
+			}
+		}
+		effect = {
+			override_country_name = IE_RENAME
+			set_country_flag = indomitus_formed_country
+			add_prestige = 25
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			if = {
+				limit = { NOT = { government_rank = 3 } }
+				set_government_rank = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	unite_dark_empire = {
+		major = yes
+		potential = {
+			capital_scope = { continent = segmentum_rift }
+			religion_group = chaos_group
+			NOT = { has_country_flag = indomitus_formed_country }
+		}
+		provinces_to_highlight = {
+			continent = segmentum_rift
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		allow = {
+			segmentum_rift = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			set_country_flag = indomitus_formed_country
+			override_country_name = DE_RENAME
+			add_prestige = 25
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			segmentum_solar = {
+				add_permanent_claim = ROOT
+			}
+			agripinaa_region = {
+				add_permanent_claim = ROOT
+			}
+			if = {
+				limit = { NOT = { government_rank = 3 } }
+				set_government_rank = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	unite_leagues_votann = {
+		major = yes
+		potential = {
+			primary_culture = kin_culture
+			NOT = { has_country_flag = indomitus_formed_country }
+		}
+		provinces_to_highlight = {
+			region = galactic_core_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		allow = {
+			galactic_core_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			
+		}
+		effect = {
+			set_country_flag = indomitus_formed_country
+			override_country_name = LV_RENAME
+			add_prestige = 25
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			if = {
+				limit = { NOT = { government_rank = 3 } }
+				set_government_rank = 3
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	unite_new_mechanicum = {
+		major = yes
+		potential = {
+			primary_culture = dark_mechanicum_culture
+			NOT = { has_country_flag = indomitus_formed_country }
+		}
+		provinces_to_highlight = {
+			OR = {
+				AND = { 
+					province_id = 2
+					OR = {
+						NOT = { is_core = ROOT }
+						NOT = { religion = ROOT }
+					}
+				}
+				AND = {
+					has_terrain = forge_world
+					OR = {
+						NOT = { is_core = ROOT }
+						NOT = { religion = ROOT }
+					}
+				}
+			}
+		}
+		allow = {
+			2 = {
+				is_core = ROOT
+				religion = ROOT
+			}
+			num_of_owned_provinces_with = {
+				value = 5
+				has_terrain = forge_world
+				religion = ROOT
+			}
+		}
+		effect = {
+			set_country_flag = indomitus_formed_country
+			override_country_name = NM_RENAME
+			add_prestige = 25
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			if = {
+				limit = { NOT = { government_rank = 3 } }
+				set_government_rank = 3
+			}
+			custom_tooltip = New_Mechanicus_Tooltip
+			hidden_effect = {
+				every_province = {
+					limit = {
+						has_terrain = forge_world
+						religion = cult_mechanicus
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	reunite_dark_angels = {
+		major = yes
+		potential = {
+			NOT = { exists = XCX }
+			OR = {
+				tag = XOH
+				tag = XDH
+			}
+			NOT = { has_country_flag = indomitus_formed_country }
+		}
+		provinces_to_highlight = {
+			province_id = 1643
+			NOT = { is_state_core = ROOT }
+		}
+		allow = {
+			1643 = {
+				is_state_core = ROOT
+				num_of_times_improved_by_owner = 5
+			}
+			total_development = 50
+			is_free_or_tributary_trigger = yes
+			is_at_war = no	
+		}
+		effect = {
+			set_country_flag = indomitus_formed_country
+			add_prestige = 25
+			change_tag = XCX
+			on_change_tag_effect = yes
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	reunite_iron_warriors = {
+		major = yes
+		potential = {
+			NOT = { exists = XIF }
+			OR = {
+				tag = XMW
+				tag = XDD
+				tag = XAT
+			}
+			NOT = { has_country_flag = indomitus_formed_country }
+			
+		}
+		provinces_to_highlight = {
+			province_id = 1327
+			NOT = { is_state_core = ROOT }
+		}
+		allow = {
+			1327 = {
+				is_state_core = ROOT
+				num_of_times_improved_by_owner = 5
+			}
+			total_development = 50
+			is_free_or_tributary_trigger = yes
+			is_at_war = no	
+		}
+		effect = {
+			set_country_flag = indomitus_formed_country
+			add_prestige = 25
+			change_tag = XIF
+			on_change_tag_effect = yes
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	reunite_iron_hands = {
+		major = yes
+		potential = {
+			NOT = { exists = XZI }
+			OR = {
+				tag = XIU
+				tag = XHO
+			}
+			NOT = { has_country_flag = indomitus_formed_country }
+		}
+		provinces_to_highlight = {
+			province_id = 1102
+			NOT = { is_state_core = ROOT }
+		}
+		allow = {
+			1102 = {
+				is_state_core = ROOT
+				num_of_times_improved_by_owner = 5
+			}
+			total_development = 50
+			is_free_or_tributary_trigger = yes
+			is_at_war = no	
+		}
+		effect = {
+			set_country_flag = indomitus_formed_country
+			add_prestige = 25
+			change_tag = XZI
+			on_change_tag_effect = yes
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	reunite_raven_guard = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = indomitus_formed_country }
+			NOT = { exists = XCA }
+			OR = {
+				tag = XAH
+				tag = XCA
+				tag = XMZ
+				tag = XFJ
+				tag = XHU
+				tag = XNM
+			}
+		}
+		provinces_to_highlight = {
+			province_id = 1547
+			NOT = { is_state_core = ROOT }
+		}
+		allow = {
+			1547 = {
+				is_state_core = ROOT
+				num_of_times_improved_by_owner = 5
+			}
+			total_development = 50
+			is_free_or_tributary_trigger = yes
+			is_at_war = no	
+		}
+		effect = {
+			set_country_flag = indomitus_formed_country
+			add_prestige = 25
+			change_tag = XCA
+			on_change_tag_effect = yes
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

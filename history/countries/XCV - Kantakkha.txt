@@ -1,0 +1,17 @@
+government = theocracy
+add_government_reform = chaos_forge_world_reform
+government_rank = 1
+technology_group = mechanicus
+religion = tzeentch
+primary_culture = dark_mechanicum_culture
+capital = 1632
+
+1970.12.12 = {
+		monarch = {
+			name = "Xixos-511"	
+			adm = 3
+			dip = 2
+			mil = 5
+		}
+	}
+}

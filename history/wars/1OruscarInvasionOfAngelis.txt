@@ -1,0 +1,18 @@
+name = "Oruscar Invasion of Angelis"
+war_goal = {
+	type = take_border
+	casus_belli = cb_border_war
+	province = 2834
+}
+
+1999.1.1 = {
+	add_attacker = XJP
+	add_defender = XID
+	add_defender = XIC
+}
+
+2001.1.1 = {
+	rem_attacker = XJP
+	rem_defender = XID
+	rem_defender = XIC
+}

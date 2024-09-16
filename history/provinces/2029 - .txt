@@ -1,0 +1,9 @@
+add_core = XKF
+owner = XKF
+controller = XKF
+religion = imperial_cult
+culture = knight_culture
+base_tax = 3
+base_production = 3
+base_manpower = 3
+trade_goods = living_metal

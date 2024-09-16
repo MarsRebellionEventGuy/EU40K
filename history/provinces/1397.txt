@@ -1,0 +1,9 @@
+add_core = XCS
+owner = XCS
+controller = XCS
+religion = imperial_cult
+culture = human_culture
+base_tax = 3
+base_production = 3
+base_manpower = 2
+trade_goods = consumer_goods

@@ -1,0 +1,9 @@
+add_core = XGH
+owner = XGH
+controller = XGH
+religion = mechanicus
+culture = knight_culture
+base_tax = 2
+base_production = 2
+base_manpower = 3
+trade_goods = military_equipment

@@ -1,0 +1,18 @@
+government = tribal
+add_government_reform = exodite_government_reform
+government_rank = 1
+technology_group = eldar
+religion = aeldari
+primary_culture = exodite_culture
+capital = 1998
+
+1970.12.12 = {
+		monarch = {
+			name = "Ishylla Yn Farwolloch"	
+			adm = 3
+			dip = 5
+			mil = 5
+			female = yes
+		}
+	}
+}

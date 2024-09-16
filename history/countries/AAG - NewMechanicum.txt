@@ -1,0 +1,7 @@
+government = theocracy
+add_government_reform = chaos_forge_world_reform
+government_rank = 3
+technology_group = mechanicus
+religion = chaos_undivided
+primary_culture = dark_mechanicum_culture
+capital = 2

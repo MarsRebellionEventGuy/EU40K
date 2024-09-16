@@ -1,0 +1,17 @@
+government = theocracy
+add_government_reform = heretic_astartes_reform
+government_rank = 1
+technology_group = chaos
+religion = tzeentch
+primary_culture = heretic_astartes_culture
+capital = 199
+
+1970.12.12 = {
+		monarch = {
+			name = "Apophitar"	
+			adm = 1
+			dip = 5
+			mil = 1
+		}
+	}
+}

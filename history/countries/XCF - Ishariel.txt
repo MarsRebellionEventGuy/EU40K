@@ -1,0 +1,17 @@
+government = republic
+add_government_reform = exodite_government_reform
+government_rank = 1
+technology_group = eldar
+religion = aeldari
+primary_culture = exodite_culture
+capital = 1577
+
+1970.12.12 = {
+		monarch = {
+			name = "Lann Elarique"	
+			adm = 4
+			dip = 5
+			mil = 6
+		}
+	}
+}

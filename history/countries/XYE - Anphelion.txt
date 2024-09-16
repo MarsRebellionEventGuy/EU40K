@@ -1,0 +1,17 @@
+government = theocracy
+add_government_reform = hive_fleet_reform
+government_rank = 1
+technology_group = tyranid
+religion = tyranid
+primary_culture = tyranid_culture
+capital = 865
+
+1970.12.12 = {
+		monarch = {
+			name = "Synapse"	
+			adm = 5
+			dip = 6
+			mil = 4
+		}
+	}
+}

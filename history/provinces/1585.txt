@@ -1,0 +1,10 @@
+add_core = XCN
+owner = XCN
+controller = XCN
+religion = votann
+culture = kin_culture
+base_tax = 4
+base_production = 6
+base_manpower = 5
+trade_goods = military_equipment
+capital = "Brôkhfyre"

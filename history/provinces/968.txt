@@ -1,0 +1,9 @@
+owner = XDR
+controller = XDR
+add_core = XDR
+religion = destroyer_cult
+culture = necron_culture
+base_tax = 8
+base_production = 9
+base_manpower = 7
+trade_goods = living_metal

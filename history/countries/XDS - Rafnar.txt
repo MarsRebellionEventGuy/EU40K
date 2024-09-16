@@ -1,0 +1,17 @@
+government = theocracy
+add_government_reform = chaos_cult_reform
+government_rank = 1
+technology_group = chaos
+religion = chaos_undivided
+primary_culture = chaos_culture
+capital = 1331
+
+1970.12.12 = {
+		monarch = {
+			name = "Blithimarr von Meck"	
+			adm = 5
+			dip = 2
+			mil = 4
+		}
+	}
+}

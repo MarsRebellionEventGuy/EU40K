@@ -1,0 +1,9 @@
+owner = XHM
+controller = XHM
+add_core = XHM
+religion = imperial_cult
+culture = loyalist_astartes_culture
+base_tax = 1
+base_production = 2
+base_manpower = 2
+trade_goods = promethium

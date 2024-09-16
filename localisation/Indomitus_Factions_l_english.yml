@@ -1,0 +1,7 @@
+﻿l_english:
+ imperial_army_faction:0 "Astra Militarum"
+ imperial_army_faction_FACTION_DESC:0 "The Astra Militarum is the primary fighting force of the Imperium, overwhelming adversaries through prodigious force and sheer numbers. Each Regiment maintains its own unique culture and organizational structure.\n§YGain influence by winning battles with Special Forces§!"
+ imperial_navy_faction:0 "Navis Imperialis"
+ imperial_navy_faction_FACTION_DESC:0 "The Navis Imperialis is the naval force of the Imperium, maintaining order between the vast void that separates the Imperium's countless worlds while providing transportation and air support to its ground forces.\n§YGain influence by maintaining a navy at full maintenance and above 90% of its Force Limit.§!"
+ space_marines_faction:0 "Adeptus Astartes"
+ space_marines_faction_FACTION_DESC:0 "The Adeptus Astartes are the transhuman elite strike forces of the Imperium. Though limited in number, their strength and will are unrivaled\n§YGain influence by activating the Order New Founding government interaction\n§YGain influence by establishing Space Marine Chapters§!"

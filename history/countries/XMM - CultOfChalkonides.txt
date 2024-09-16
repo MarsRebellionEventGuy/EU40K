@@ -1,0 +1,16 @@
+government = theocracy
+add_government_reform = chaos_cult_reform
+government_rank = 1
+technology_group = chaos
+religion = tzeentch
+primary_culture = chaos_culture
+capital = 3116
+
+1970.12.12 = {
+	monarch = {
+		name = "Ygeragrax Klox"	
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}

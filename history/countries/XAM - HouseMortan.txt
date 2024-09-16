@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = imperial_knight_reform
+government_rank = 1
+technology_group = mechanicus
+religion = imperial_cult
+primary_culture = knight_culture
+capital = 458
+
+1970.12.12 = {
+		monarch = {
+			name = "Gerrolt Mortan"	
+			adm = 5
+			dip = 4
+			mil = 5
+		}
+	}
+}

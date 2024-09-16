@@ -1,0 +1,17 @@
+government = tribal
+add_government_reform = ork_government_reform
+government_rank = 1
+technology_group = ork
+religion = ork
+primary_culture = ork_culture
+capital = 1213
+
+1970.12.12 = {
+		monarch = {
+			name = "Ghenghiz Grimtoof"	
+			adm = 5
+			dip = 5
+			mil = 6
+		}
+	}
+}

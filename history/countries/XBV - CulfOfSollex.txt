@@ -1,0 +1,18 @@
+government = theocracy
+add_government_reform = forge_world_reform
+government_rank = 2
+technology_group = mechanicus
+religion = mechanicus
+primary_culture = mechanicus_culture
+capital = 1209
+
+1970.12.12 = {
+		monarch = {
+			name = "Thea Decandid"	
+			adm = 1
+			dip = 2
+			mil = 6
+			female = yes
+		}
+	}
+}

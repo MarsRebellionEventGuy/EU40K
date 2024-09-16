@@ -1,0 +1,9 @@
+add_core = XXH
+owner = XXH
+controller = XXH
+culture = chaos_culture
+religion = chaos_undivided
+base_tax = 3
+base_production = 1
+base_manpower = 2
+trade_goods = clerks

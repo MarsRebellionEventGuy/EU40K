@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = necron_dynasty_reform
+government_rank = 1
+technology_group = necron
+religion = necron
+primary_culture = necron_culture
+capital = 251
+
+1970.12.12 = {
+	monarch = {
+		name = "Anathrosis of the Black Star"	
+			dynasty = " "
+		adm = 1
+		dip = 6
+		mil = 5
+	}
+}

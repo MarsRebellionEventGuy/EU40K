@@ -1,0 +1,9 @@
+native_size = 6
+native_ferocity = 7
+native_hostileness = 9
+religion = destroyer_cult
+culture = necron_culture
+base_tax = 4
+base_production = 5
+base_manpower = 2
+trade_goods = living_metal

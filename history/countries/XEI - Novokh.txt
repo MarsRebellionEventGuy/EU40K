@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = necron_dynasty_reform
+government_rank = 1
+technology_group = necron
+religion = destroyer_cult
+primary_culture = necron_culture
+capital = 3128
+
+1970.12.12 = {
+	monarch = {
+		name = "Galmakh the Moonkiller"
+		dynasty = " "
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}

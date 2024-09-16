@@ -1,0 +1,9 @@
+add_core = XYN
+owner = XYN
+controller = XYN
+religion = ork
+culture = ork_culture
+base_tax = 3
+base_production = 4
+base_manpower = 5
+trade_goods = minerals

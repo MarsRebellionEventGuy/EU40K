@@ -1,0 +1,52 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "mission_hive_mind_synapse"
+		texturefile = "gfx/interface/mission_hive_mind_synapse.dds"
+	}
+
+	spriteType = {
+		name = "mission_genestealer_propaganda"
+		texturefile = "gfx/interface/mission_genestealer_propaganda.dds"
+	}
+
+	spriteType = {
+		name = "mission_kellermorph"
+		texturefile = "gfx/interface/mission_kellermorph.dds"
+	}
+
+	spriteType = {
+		name = "mission_hybrids"
+		texturefile = "gfx/interface/mission_hybrids.dds"
+	}
+
+	spriteType = {
+		name = "mission_locus"
+		texturefile = "gfx/interface/mission_locus.dds"
+	}
+
+	spriteType = {
+		name = "mission_genestealer_revolution"
+		texturefile = "gfx/interface/mission_genestealer_revolution.dds"
+	}
+
+	spriteType = {
+		name = "mission_genestealer_diplomacy"
+		texturefile = "gfx/interface/mission_genestealer_diplomacy.dds"
+	}
+
+	spriteType = {
+		name = "mission_imperial_nobles"
+		texturefile = "gfx/interface/mission_imperial_nobles.dds"
+	}
+	spriteType = {
+		name = "mission_astra_militarum"
+		texturefile = "gfx/interface/mission_astra_militarum.dds"
+	}
+	spriteType = {
+		name = "mission_voidship"
+		texturefile = "gfx/interface/mission_voidship.dds"
+	}
+
+}
+

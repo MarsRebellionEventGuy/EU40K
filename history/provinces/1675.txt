@@ -1,0 +1,9 @@
+owner = XDC
+controller = XDC
+add_core = XDC
+religion = chaos_undivided
+culture = chaos_culture
+base_tax = 2
+base_production = 2
+base_manpower = 3
+trade_goods = slaves

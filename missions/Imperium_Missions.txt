@@ -1,0 +1,791 @@
+XXA_Branch_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = XXA
+	}
+	has_country_shield = yes
+	
+	XXA_Mission_1 = {
+		icon = mission_astra_militarum
+		required_missions = { XXA_Mission_28 }
+		position = 3
+		
+		provinces_to_highlight = {
+			area = fenris_region
+			OR = {
+				NOT = {
+					OR = {
+						country_or_non_sovereign_subject_holds = ROOT
+						owned_by = XZS
+					}
+				}
+				NOT = { religion_group = emperor_group }
+			}
+		}
+		
+		trigger = {
+			fenris_region = {
+				type = all
+				OR = {
+					country_or_non_sovereign_subject_holds = ROOT
+					owned_by = XZS
+				}
+				religion_group = emperor_group
+			}
+		}
+		
+		effect = {
+			golgotha_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	XXA_Mission_2 = {
+		icon = mission_orks
+		required_missions = { XXA_Mission_1 }
+		position = 4
+		
+		provinces_to_highlight = {
+			OR = {
+				AND = {
+					region = golgotha_region
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+				owned_by = XZT
+			}
+		}
+		
+		trigger = {
+			golgotha_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			NOT = { exists = XZT }
+		}
+		
+		effect = {
+			add_country_modifier = { 
+				name = XXA_Ghazghkull_Bonus
+				duration = -1
+			}
+			custom_tooltip = XXA_Ork_Tooltip
+			tooltip = {
+				add_province_modifier = { 
+					name = XXA_Ork_Bonus
+					duration = -1
+				}
+			}
+			hidden_effect = {
+				every_owned_province = {
+					limit = {
+						culture_group = ork_culture_group
+					}
+					add_province_modifier = { 
+						name = XXA_Ork_Bonus
+						duration = -1
+					}
+				}
+			}
+		}
+	}
+	XXA_Mission_3 = {
+		icon = mission_genestealer_revolution
+		required_missions = { XXA_Mission_15 }
+		position = 5
+		
+		provinces_to_highlight = {
+			OR = {
+				region = uhulis_region
+				region = amerikon_region
+				region = inwit_cluster_region
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		
+		trigger = {
+			uhulis_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			amerikon_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			inwit_cluster_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		
+		effect = {
+			add_casus_belli = {
+				target = XYB
+				type = cb_annex
+				months = 36500
+			}
+			add_country_modifier = { 
+				name = XXA_Solblades
+				duration = -1
+			}
+		}
+	}
+}
+XXA_Branch_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = XXA
+	}
+	has_country_shield = yes
+
+	XXA_Mission_13 = {
+		icon = mission_terra
+		required_missions = {}
+		position = 1
+		
+		provinces_to_highlight = {
+			owned_by = ROOT
+		}
+		
+		trigger = {
+			NOT = { has_estate_privilege = estate_church_land_rights }
+			NOT = { has_estate_privilege = estate_nobles_land_rights }
+		}
+		
+		effect = {
+			add_government_power = {
+				mechanic_type = imperium_mechanic
+				power_type = imperium_power
+				value = 33
+			}
+			add_corruption = -10
+		}
+	}
+
+	XXA_Mission_14 = {
+		icon = mission_genestealer_diplomacy
+		required_missions = { XXA_Mission_28 }
+		position = 3
+		
+		provinces_to_highlight = {
+			NOT = { owned_by = ROOT }
+			OR = {
+				province_id = 474
+				province_id = 490
+				province_id = 211
+				province_id = 182
+				province_id = 183
+			}
+		}
+		
+		trigger = {
+			is_core = 474
+			is_core = 490
+			is_core = 211
+			is_core = 182
+			is_core = 183
+		}
+		
+		effect = {
+			474 = {
+				add_province_modifier = { 
+					name = XXA_Routed_Chaos
+					duration = 18250 
+				}
+			}
+			490 = {
+				add_province_modifier = { 
+					name = XXA_Routed_Chaos
+					duration = 18250 
+				}
+			}
+			211 = {
+				add_province_modifier = { 
+					name = XXA_Routed_Chaos
+					duration = 18250 
+				}
+			}
+			182 = {
+				add_province_modifier = { 
+					name = XXA_Routed_Chaos
+					duration = 18250 
+				}
+			}
+			183 = {
+				add_province_modifier = { 
+					name = XXA_Routed_Chaos
+					duration = 18250 
+				}
+			}
+			segmentum_solar = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	XXA_Mission_15 = {
+		icon = mission_terra
+		required_missions = { XXA_Mission_14 }
+		position = 4
+		
+		provinces_to_highlight = {
+			continent = segmentum_solar
+			OR = {
+				NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				AND = {
+					country_or_non_sovereign_subject_holds = ROOT
+					NOT = { religion_group = emperor_group }
+				}
+			}
+		}
+		
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 50
+				continent = segmentum_solar
+				religion_group = emperor_group
+			}
+		}
+		
+		effect = {
+			prosperan_rift_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			karthago_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			amerikon_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			uhulis_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			inwit_cluster_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	XXA_Mission_16 = {
+		icon = mission_new_kingdom
+		required_missions = { XXA_Mission_15 }
+		position = 5
+		
+		provinces_to_highlight = {
+			region = prosperan_rift_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		
+		trigger = {
+			NOT = { exists = XTG }
+			prosperan_rift_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		
+		effect = {
+			add_country_modifier = { 
+				name = XXA_Psykers_Astronamican
+				duration = 18250
+			}
+			956 = {
+				change_culture = human_culture
+				change_religion = imperial_cult
+				add_province_modifier = { 
+					name = XXA_Scouring_Of_Prospero
+					duration = -1
+				}
+				decolonize = THIS
+			}
+			957 = {
+				change_culture = human_culture
+				change_religion = imperial_cult
+				add_province_modifier = { 
+					name = XXA_Scouring_Of_Prospero
+					duration = -1
+				}
+				decolonize = THIS
+			}
+		}
+	}
+}
+
+XXA_Branch_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = XXA
+	}
+	has_country_shield = yes
+
+	XXA_Mission_27 = {
+		icon = mission_imperial_nobles
+		required_missions = {}
+		position = 1
+		
+		provinces_to_highlight = {
+			owned_by = XXA
+		}
+		
+		trigger = {
+			NOT = { advisor = irthuhaemotalion }
+			NOT = { advisor = mereldapereth }
+			NOT = { advisor = avelizadrachmar }
+			custom_trigger_tooltip = {
+				tooltip = XXA_Advisor_Mission_Tooltip
+				tag = XXA
+			}
+		}
+		
+		effect = {
+			define_advisor = {
+				name = "Arfon Hoiditma"
+				type = inquisitor
+				skill = 2
+				discount = yes
+			}
+			define_advisor = {
+				name = "Dho Gan Mey"
+				type = naval_reformer
+				skill = 2
+				discount = yes
+			}
+			define_advisor = {
+				name = "Andiramus"
+				type = commandant
+				skill = 2
+				discount = yes
+			}
+		}
+	}
+	XXA_Mission_28 = {
+		icon = mission_guilliman
+		required_missions = { XXA_Mission_13 XXA_Mission_27 XXA_Mission_40 }
+		position = 2
+		
+		provinces_to_highlight = {
+			owned_by = ROOT
+		}
+		
+		trigger = {
+			navy_size_percentage = 1
+			num_of_admirals = 3
+		}
+		
+		effect = {
+			add_country_modifier = { 
+				name = XXA_Indomitus
+				duration = 36500
+			}
+			country_event = { 
+				id = imperium_events.3
+			}
+			fenris_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			474 = {
+				add_permanent_claim = ROOT
+			}
+			490 = {
+				add_permanent_claim = ROOT
+			}
+			211 = {
+				add_permanent_claim = ROOT
+			}
+			182 = {
+				add_permanent_claim = ROOT
+			}
+			183 = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	XXA_Mission_29 = {
+		icon = mission_necromunda
+		required_missions = { XXA_Mission_28 }
+		position = 3
+		
+		provinces_to_highlight = {
+			owner = {
+       				capital_scope = {
+					OR = {
+						area = western_necromunda
+						area = eastern_necromunda
+					}
+				}
+				OR = {
+					naval_strength = {
+						who = ROOT
+						value = 0.50
+					}
+					NOT = {
+						has_spy_network_from = {
+							who = ROOT
+							value = 30
+						}
+					}
+				}
+			}
+		}
+		
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = XXA_Necromunda_Trigger_Tooltip
+				NOT = {
+					any_country = {
+						naval_strength = {
+							who = ROOT
+							value = 0.50
+						}
+						capital_scope = {
+							OR = {
+								area = western_necromunda
+								area = eastern_necromunda
+							}
+						}
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = XXA_Necromunda_Trigger_Tooltip_Two
+				calc_true_if = {
+					all_country = {
+						capital_scope = {
+							OR = {
+								area = western_necromunda
+								area = eastern_necromunda
+							}
+						}
+						has_spy_network_from = {
+							who = ROOT
+							value = 30
+						}
+					}
+					amount = 3
+				}
+			}
+		}
+		
+		effect = {
+			custom_tooltip = XXA_Necromunda_Effect_Tooltip
+			custom_tooltip = XXA_Necromunda_Effect_Tooltip_Two
+			custom_tooltip = XXA_Necromunda_Effect_Tooltip_Three
+			hidden_effect = {
+				every_country = {
+					limit = {
+						capital_scope = {
+							OR = {
+								area = western_necromunda
+								area = eastern_necromunda
+							}
+						}
+						has_spy_network_from = {
+							who = XXA
+							value = 30
+						}
+					}
+					random_list = {
+						60 = {
+							XXA = {
+								inherit = THIS
+							}
+						}
+						40 = {
+							set_country_flag = imperium_necromunda_will_revolt
+						}
+					}
+				}
+				every_country = {
+					limit = {
+						capital_scope = {
+							OR = {
+								area = western_necromunda
+								area = eastern_necromunda
+							}
+						}
+						NOT = {
+							has_spy_network_from = {
+								who = XXA
+								value = 30
+							}
+						}
+					}
+					random_list = {
+						40 = {
+							XXA = {
+								inherit = THIS
+							}
+						}
+						60 = {
+							set_country_flag = imperium_necromunda_will_revolt
+						}
+					}
+				}
+			}
+		}
+	}
+	XXA_Mission_30 = {
+		icon = mission_catachan
+		required_missions = { XXA_Mission_15 }
+		position = 5
+		
+		provinces_to_highlight = {
+			region = karthago_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		
+		trigger = {
+			karthago_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		
+		effect = {
+			octarius_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+}
+XXA_Branch_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = XXA
+	}
+	has_country_shield = yes
+
+	XXA_Mission_40 = {
+		icon = mission_hybrids
+		required_missions = {}
+		position = 1
+		
+		provinces_to_highlight = {
+			owned_by = XXA
+		}
+		
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = XXA_Exploit_Trigger_Tooltip
+				has_country_flag = XXA_exploit
+			}
+		}
+		
+		effect = {
+			add_corruption = -10
+			1 = { remove_province_modifier = terra_starting_modifier }
+		}
+	}
+	XXA_Mission_41 = {
+		icon = mission_logisticarum
+		required_missions = { XXA_Mission_28 }
+		position = 3
+		
+		provinces_to_highlight = {
+			owned_by = ROOT
+		}
+		
+		trigger = {
+			OR = {
+				treasurer = 3
+				naval_reformer = 3
+				army_reformer = 3
+				army_organiser = 3
+				quartermaster = 3
+			}
+		}
+		
+		effect = {
+			add_country_modifier = { 
+				name = XXA_Logistics
+				duration = 18250
+			}
+		}
+	}
+	XXA_Mission_42 = {
+		icon = mission_hub_fort
+		required_missions = { XXA_Mission_41 }
+		position = 4
+		
+		provinces_to_highlight = {
+			owned_by = ROOT
+			NOT = { has_fort_building_trigger = yes }
+		}
+		
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 10
+				has_fort_building_trigger = yes
+			}
+		}
+		
+		effect = {
+			add_country_modifier = { 
+				name = xxa_hub_fortresses
+				duration = -1
+			}
+		}
+	}
+}
+XXA_Branch_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		tag = XXA
+	}
+	has_country_shield = yes
+
+	XXA_Mission_50 = {
+		icon = mission_noctis
+		required_missions = { XXA_Mission_28 }
+		position = 3
+		
+		provinces_to_highlight = {
+			is_empty = yes
+			is_sea = no
+		}
+		
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = XXA_Colinization_Tooltip
+				check_variable = {
+					which = XXAColonies
+					value = 10
+				}
+			}
+		}
+		
+		effect = {
+			add_country_modifier = { 
+				name = XXA_Colonization
+				duration = 18250
+			}
+		}
+	}
+
+	XXA_Mission_Astartes = {
+		icon = mission_chapter_ultramarines
+		required_missions = { XXA_Mission_41 }
+		position = 4
+		
+		provinces_to_highlight = {
+			owned_by = ROOT
+			culture = loyalist_astartes_culture
+		}
+		
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = XXA_Astartes_Companies_Tooltip
+				num_of_banners = 20
+			}
+			reverse_has_opinion = {
+				who = XXB
+				value = 120
+			}
+		}
+		
+		effect = {
+			add_country_modifier = { 
+				name = XXA_Chapters
+				duration = -1
+			}
+		}
+	}
+
+	XXA_Mission_Chapters = {
+		icon = mission_aspirant
+		required_missions = { XXA_Mission_Astartes }
+		position = 5
+		
+		provinces_to_highlight = {
+			owned_by = ROOT
+			NOT = {
+				OR = {
+					holy_order = blood_angels_chapter
+					holy_order = dark_angels_chapter
+					holy_order = ultramarines_chapter
+					holy_order = salamanders_chapter
+					holy_order = iron_hands_chapter
+					holy_order = imperial_fists_chapter
+				}
+			}
+		}
+		
+		trigger = {
+			num_of_provinces_owned_or_owned_by_subjects_with = {
+				value = 10
+				OR = {
+					holy_order = blood_angels_chapter
+					holy_order = dark_angels_chapter
+					holy_order = ultramarines_chapter
+					holy_order = salamanders_chapter
+					holy_order = iron_hands_chapter
+					holy_order = imperial_fists_chapter
+				}
+			}
+		}
+		
+		effect = {
+			custom_tooltip = XXA_Chapters_Bonus_Tooltip
+			hidden_effect = {
+				every_owned_province = {
+					limit = {
+						OR = {
+							holy_order = blood_angels_chapter
+							holy_order = dark_angels_chapter
+							holy_order = ultramarines_chapter
+							holy_order = salamanders_chapter
+							holy_order = iron_hands_chapter
+							holy_order = imperial_fists_chapter
+						}
+					}
+				}
+				add_base_manpower = 1
+			}
+		}
+	}
+}

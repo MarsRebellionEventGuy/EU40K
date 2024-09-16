@@ -1,0 +1,31 @@
+﻿l_english:
+ estate_ecclesiarchy:0 "Ecclesiarchy"
+ estate_techpriests:0 "Tech-Priests"
+ estate_chaplains:0 "Chaplains"
+ estate_seers:0 "Seers"
+ estate_shamans:0 "Shamans"
+ estate_clamavi:0 "Clamavi"
+ estate_chaos_cults:0 "Chaos Cults"
+ estate_grimnyr:0 "Grimnyr"
+ estate_ethereals:0 "Ethereals"
+ estate_highborn:0 "Highborn"
+ estate_mechanicus_orders:0 "Holy Orders"
+ estate_veterans:0 "Veterans"
+ estate_exarchs:0 "Exarchs"
+ estate_necron_nobles:0 "Overlords"
+ estate_dragon_knights:0 "Dragon Knights"
+ estate_primuses:0 "Primuses"
+ estate_warlords:0 "Warlords"
+ estate_hearthguard:0 "Hearthguard"
+ estate_fire_caste:0 "Fire Caste"
+ estate_rogue_traders:0 "Rogue Traders"
+
+ estate_adeptus_mechanicus: "Adeptus Mechanicus"
+ estate_adeptus_mechanicus_desc: "This estate represents the tech-priests of Mars and the countless other Forge Worlds adherent to the Cult Mechanicus. Though mired by convoluted dogma and obfuscated rites, they fuel the  Imperium's warmaking capabilities through their scientific and technical expertise."
+ estate_navis_nobilite: "Navis Nobilite"
+ estate_navis_nobilite_desc: "This estate represents the noble families of the Navigators, psychically gifted mutants essential in directing Imperial ships through the transdimensional tides of the Warp. Unlike most abhumans within the Imperium, often persecuted or hunted for their mutations, the status of the Navis Nobilite render them largely exempt from Imperial law entirely."
+ estate_astartes: "Adeptus Astartes"
+ estate_astartes_desc: "This estate represents the space marines, the foremost defenders of mankind. Extensive genetic engineering and psychological reconditioning has made these superhumans martially superior to the average human in every aspect. Originally divided between the twenty Legiones Astartes, the nine who remained loyal following the Horus Heresy of the 30th Millenium have since been fragmented into individual Successor Chapters. These organizations continue to uphold the shared ties between their former legions alongisde their unique traditions."
+
+
+ 

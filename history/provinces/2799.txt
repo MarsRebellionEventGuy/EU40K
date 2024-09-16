@@ -1,0 +1,9 @@
+add_core = XKT
+owner = XKT
+controller = XKT
+religion = chaos_undivided
+culture = dark_mechanicum_culture
+base_tax = 3
+base_production = 5
+base_manpower = 2
+trade_goods = military_equipment

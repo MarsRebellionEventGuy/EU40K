@@ -1,0 +1,37 @@
+######################################################
+irthuhaemotalion = {
+	monarch_power = ADM
+	legitimacy = -1
+	chance = {
+		factor = 0
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+mereldapereth = {
+	monarch_power = DIP
+	stability_cost_to_declare_war = 1
+
+	chance = {
+		factor = 0
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+avelizadrachmar = {
+	monarch_power = MIL
+	special_unit_forcelimit = -0.50
+	chance = {
+		factor = 0
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+}

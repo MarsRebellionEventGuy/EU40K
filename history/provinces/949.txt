@@ -1,0 +1,9 @@
+add_core = XZT
+owner = XZT
+controller = XZT
+culture = ork_culture
+religion = ork
+base_tax = 1
+base_production = 1
+base_manpower = 1
+trade_goods = agricultural_goods

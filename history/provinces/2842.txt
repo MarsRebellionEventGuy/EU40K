@@ -1,0 +1,9 @@
+add_core = XIK
+owner = XIK
+controller = XIK
+religion = imperial_cult
+culture = human_culture
+base_tax = 2
+base_production = 1
+base_manpower = 1
+trade_goods = archaotech

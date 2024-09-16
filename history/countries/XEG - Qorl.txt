@@ -1,0 +1,16 @@
+government = theocracy
+add_government_reform = xeno_government_reform
+government_rank = 1
+technology_group = xeno
+religion = xeno
+primary_culture = xeno_culture
+capital = 1118
+
+1970.12.12 = {
+	monarch = {
+		name = "Q'orl"	
+		adm = 5
+		dip = 1
+		mil = 3
+	}
+}

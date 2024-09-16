@@ -1,0 +1,17 @@
+government = tribal
+add_government_reform = exodite_government_reform
+government_rank = 1
+technology_group = eldar
+religion = aeldari
+primary_culture = exodite_culture
+capital = 2036
+
+1970.12.12 = {
+		monarch = {
+			name = "Hrythai Anvar"	
+			adm = 1
+			dip = 5
+			mil = 1
+		}
+	}
+}

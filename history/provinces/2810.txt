@@ -1,0 +1,9 @@
+add_core = XKO
+owner = XKO
+controller = XKO
+religion = chaos_undivided
+culture = heretic_astartes_culture
+base_tax = 8
+base_production = 5
+base_manpower = 7
+trade_goods = clerks

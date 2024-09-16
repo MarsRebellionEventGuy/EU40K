@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = chaos_cult
+government_rank = 1
+technology_group = imperial
+religion = chaos_undivided
+primary_culture = chaos_culture
+capital = 1398
+
+1970.12.12 = {
+		monarch = {
+			name = "Jirobonius Pelimus"	
+			adm = 3
+			dip = 2
+			mil = 6
+		}
+	}
+}

@@ -1,0 +1,111 @@
+namespace = imperial_events
+normal_or_historical_nations = yes
+
+country_event = {
+	id = imperial_events.1
+	title = "imperial_events.1.t"
+	desc = "imperial_events.1.d"
+	picture = CONQUEST_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+	}
+
+	immediate = {
+		hidden_effect = {
+			segmentum_solar  = {
+				discover_country = ROOT
+			}
+		}
+	}
+	
+	option = {
+		name = "imperial_events.1.a"
+		switch_tag = XXA
+		XXA = {
+			integrate = event_target:my_country
+		}	
+	}
+	option = {
+		name = "imperial_events.1.b"
+		reverse_add_opinion = {
+			who = XXA
+			modifier = imperial_secession_opinion
+		}
+		reverse_add_casus_belli = {
+			target = XXAA
+			type = cb_annex
+			months = 120
+		}
+		
+	}
+	option = {
+		name = "imperial_events.1.c"
+		reverse_add_opinion = {
+			who = XXA
+			modifier = imperial_warp_opinion
+		}
+		reverse_add_casus_belli = {
+			target = XXA
+			type = cb_annex
+			months = 120
+		}
+		country_event = { 
+			id = imperial_events.2
+		}
+	}
+}
+
+country_event = {
+	id = imperial_events.2
+	title = "imperial_events.2.t"
+	desc = "imperial_events.2.d"
+	picture = northamericagfx_ARTWORK_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+	}
+	
+	option = {
+		name = "imperial_events.2.a"
+		change_religion = chaos_undivided
+		add_country_modifier = { 
+			name = warp_conversion_zeal
+			duration = 1825
+		}	
+	}
+	option = {
+		name = "imperial_events.2.b"
+		change_religion = khorne
+		add_country_modifier = { 
+			name = warp_conversion_zeal
+			duration = 1825
+		}
+	}
+	option = {
+		name = "imperial_events.2.c"
+		change_religion = nurgle
+		add_country_modifier = { 
+			name = warp_conversion_zeal
+			duration = 1825
+		}
+	}
+	option = {
+		name = "imperial_events.2.e"
+		change_religion = slaanesh
+		add_country_modifier = { 
+			name = warp_conversion_zeal
+			duration = 1825
+		}
+	}
+	option = {
+		name = "imperial_events.2.f"
+		change_religion = tzeentch
+		add_country_modifier = { 
+			name = warp_conversion_zeal
+			duration = 1825
+		}
+	}
+}

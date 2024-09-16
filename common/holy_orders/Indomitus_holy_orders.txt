@@ -1,0 +1,136 @@
+blood_angels_chapter = {
+    icon = GFX_holy_order_blood_angels
+    trigger = {
+	tag = XXA
+    }
+    cost = 50
+    cost_type = mil_power
+    per_province_effect = {
+        add_base_manpower = 1
+    }
+    per_province_abandon_effect = {
+        add_base_manpower = -1
+    }
+    modifier = {
+	local_own_coast_naval_combat_bonus = 1
+	blockade_force_required = 0.25
+    }
+    ai_priority = {
+        factor = 1
+    }
+    localization = astartes_order
+}
+
+dark_angels_chapter = {
+    icon = GFX_holy_order_dark_angels
+    trigger = {
+	tag = XXA
+    }
+    cost = 50
+    cost_type = mil_power
+    per_province_effect = {
+        add_base_manpower = 1
+    }
+    per_province_abandon_effect = {
+        add_base_manpower = -1
+    }
+    modifier = {
+	local_governing_cost = -0.15
+	local_garrison_size = 0.33
+    }
+    ai_priority = {
+        factor = 1
+    }
+    localization = astartes_order
+}
+
+ultramarines_chapter = {
+    icon = GFX_holy_order_ultramarines
+    trigger = {
+	tag = XXA
+    }
+    cost = 50
+    cost_type = mil_power
+    per_province_effect = {
+        add_base_manpower = 1
+    }
+    per_province_abandon_effect = {
+        add_base_manpower = -1
+    }
+    modifier = {
+	local_build_cost = -0.20
+	regiment_recruit_speed = -0.15
+    }
+    ai_priority = {
+        factor = 1
+    }
+    localization = astartes_order
+}
+
+salamanders_chapter = {
+    icon = GFX_holy_order_salamanders
+    trigger = {
+	tag = XXA
+    }
+    cost = 50
+    cost_type = mil_power
+    per_province_effect = {
+        add_base_manpower = 1
+    }
+    per_province_abandon_effect = {
+        add_base_manpower = -1
+    }
+    modifier = {
+	local_regiment_cost = -0.20
+	supply_limit_modifier = 0.33
+    }
+    ai_priority = {
+        factor = 1
+    }
+    localization = astartes_order
+}
+
+iron_hands_chapter = {
+    icon = GFX_holy_order_iron_hands
+    trigger = {
+	tag = XXA
+    }
+    cost = 50
+    cost_type = mil_power
+    per_province_effect = {
+        add_base_manpower = 1
+    }
+    per_province_abandon_effect = {
+        add_base_manpower = -1
+    }
+    modifier = {
+	local_hostile_attrition = 2
+	local_garrison_damage = 0.33
+    }
+    ai_priority = {
+        factor = 1
+    }
+    localization = astartes_order
+}
+
+imperial_fists_chapter = {
+    icon = GFX_holy_order_imperial_fists
+    trigger = {
+	tag = XXA
+    }
+    cost = 50
+    cost_type = mil_power
+    per_province_effect = {
+        add_base_manpower = 1
+    }
+    per_province_abandon_effect = {
+        add_base_manpower = -1
+    }
+    modifier = {
+	local_fort_maintenance_modifier = -0.33
+    }
+    ai_priority = {
+        factor = 1
+    }
+    localization = astartes_order
+}

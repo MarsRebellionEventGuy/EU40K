@@ -1,0 +1,18 @@
+government = theocracy
+add_government_reform = chaos_cult_reform
+government_rank = 1
+technology_group = chaos
+religion = chaos_undivided
+primary_culture = chaos_culture
+capital = 1322
+
+1970.12.12 = {
+		monarch = {
+			name = "Edyth Blackstrike"	
+			adm = 4
+			dip = 3
+			mil = 1
+			female = yes
+		}
+	}
+}

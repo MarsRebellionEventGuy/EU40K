@@ -1,0 +1,9 @@
+owner = XEB
+controller = XEB
+add_core = XEB
+religion = khorne
+culture = chaos_culture
+base_tax = 2
+base_production = 3
+base_manpower = 4
+trade_goods = military_equipment

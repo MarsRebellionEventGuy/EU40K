@@ -1,0 +1,17 @@
+government = theocracy
+add_government_reform = chaos_cult_reform
+government_rank = 1
+technology_group = chaos
+religion = chaos_undivided
+primary_culture = chaos_culture
+capital = 2803
+
+1980.1.1 = {
+		monarch = {
+			name = "Tsevekh Spinemonger"	
+			adm = 1
+			dip = 3
+			mil = 2
+		}
+	}
+}

@@ -1,0 +1,9 @@
+add_core = XCR
+owner = XCR
+controller = XCR
+religion = xeno
+culture = xeno_culture
+base_tax = 2
+base_production = 3
+base_manpower = 2
+trade_goods = xeno_technology

@@ -1,0 +1,9 @@
+add_core = XGG
+owner = XGG
+controller = XGG
+religion = greater_good
+culture = earth_caste_culture
+base_tax = 2
+base_production = 4
+base_manpower = 3
+trade_goods = military_equipment

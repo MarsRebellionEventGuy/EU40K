@@ -1,0 +1,10 @@
+native_size = 3
+native_ferocity = 9
+native_hostileness = 9
+religion = dark_muses
+culture = drukhari_culture
+base_tax = 1
+base_production = 1
+base_manpower = 1
+trade_goods = minerals
+

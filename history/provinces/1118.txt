@@ -1,0 +1,9 @@
+add_core = XEG
+owner = XEG
+controller = XEG
+culture = xeno_culture
+religion = xeno
+base_tax = 9
+base_production = 12
+base_manpower = 12
+trade_goods = xeno_technology

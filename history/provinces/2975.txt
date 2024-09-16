@@ -1,0 +1,9 @@
+add_core = XLP
+owner = XLP
+controller = XLP
+religion = slaanesh
+culture = chaos_culture
+base_tax = 4
+base_production = 3
+base_manpower = 4
+trade_goods = slaves

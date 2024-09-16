@@ -1,0 +1,9 @@
+religion = chaos_undivided
+culture = dark_mechanicum_culture
+base_tax = 1
+base_production = 4
+base_manpower = 2
+add_core = XXJ
+owner = XXJ
+controller = XXJ
+trade_goods = military_equipment

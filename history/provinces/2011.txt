@@ -1,0 +1,9 @@
+add_core = XNN
+owner = XNN
+controller = XNN
+religion = imperial_cult
+culture = loyalist_astartes_culture
+base_tax = 2
+base_production = 2
+base_manpower = 3
+trade_goods = clerks

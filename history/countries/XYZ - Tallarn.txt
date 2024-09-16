@@ -1,0 +1,16 @@
+government = theocracy
+add_government_reform = heretic_astartes_reform
+government_rank = 1
+technology_group = chaos
+religion = chaos_undivided
+primary_culture = heretic_astartes_culture
+capital = 944
+
+1970.12.12 = {
+	monarch = {
+		name = "Korthranus Naxos"	
+		adm = 1
+		dip = 4
+		mil = 1
+	}
+}

@@ -1,0 +1,9 @@
+add_core = XJO
+owner = XJO
+controller = XJO
+religion = destroyer_cult
+culture = necron_culture
+base_tax = 6
+base_production = 7
+base_manpower = 7
+trade_goods = living_metal

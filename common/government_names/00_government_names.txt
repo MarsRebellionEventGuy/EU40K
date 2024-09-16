@@ -1,0 +1,1111 @@
+imperium_localisation = {
+	rank = {
+		1 = IMPERIUM_RANK_1
+		2 = IMPERIUM_RANK_2
+		3 = IMPERIUM_RANK_3
+	}
+
+	ruler_male = {
+		1 = IMPERIUM_RULER_MALE_1
+		2 = IMPERIUM_RULER_MALE_2
+		3 = IMPERIUM_RULER_MALE_3
+	}
+
+	ruler_female = {
+		1 = KNEZNA
+		2 = KRALOVNA
+		3 = CISAROVNA
+	}
+
+	consort_male = {
+		1 = KNIZE
+		2 = KRAL
+		3 = CISAR
+	}
+
+	consort_female = {
+		1 = KNEZNA
+		2 = KRALOVNA
+		3 = CISAROVNA
+	}
+	
+	heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+
+	heir_female = {
+		1 = HEIR_fem
+		2 = HEIR_fem
+		3 = HEIR_fem
+	}
+
+	trigger = {
+		has_reform = imperium_regency_reform
+	}
+}
+
+astartes_localisation = {
+	rank = {
+		1 = ASTARTES_RANK_1
+		2 = ASTARTES_RANK_2
+		3 = ASTARTES_RANK_3
+	}
+
+	ruler_male = {
+		1 = ASTARTES_RULER_MALE_1
+		2 = ASTARTES_RULER_MALE_2
+		3 = ASTARTES_RULER_MALE_3
+	}
+
+	ruler_female = {
+		1 = KNEZNA
+		2 = KRALOVNA
+		3 = CISAROVNA
+	}
+
+	consort_male = {
+		1 = KNIZE
+		2 = KRAL
+		3 = CISAR
+	}
+
+	consort_female = {
+		1 = KNEZNA
+		2 = KRALOVNA
+		3 = CISAROVNA
+	}
+	
+	heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+
+	heir_female = {
+		1 = HEIR_fem
+		2 = HEIR_fem
+		3 = HEIR_fem
+	}
+
+	trigger = {
+		has_reform = astartes_reform
+	}
+}
+
+mechanicus_mars_localisation = {
+	rank = {
+		1 = MARS_MECHANICUS_RANK_1
+		2 = MARS_MECHANICUS_RANK_2
+		3 = MARS_MECHANICUS_RANK_3
+	}
+
+	ruler_male = {
+		1 = MECHANICUS_RULER_MALE_1
+		2 = MECHANICUS_RULER_MALE_2
+		3 = MECHANICUS_RULER_MALE_3
+	}
+
+	ruler_female = {
+		1 = MECHANICUS_RULER_FEMALE_1
+		2 = MECHANICUS_RULER_FEMALE_2
+		3 = MECHANICUS_RULER_FEMALE_3
+	}
+
+	consort_male = {
+		1 = KNIZE
+		2 = KRAL
+		3 = CISAR
+	}
+
+	consort_female = {
+		1 = KNEZNA
+		2 = KRALOVNA
+		3 = CISAROVNA
+	}
+	
+	heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+
+	heir_female = {
+		1 = HEIR_fem
+		2 = HEIR_fem
+		3 = HEIR_fem
+	}
+
+	trigger = {
+		tag = XXB
+		has_reform = forge_world_reform
+	}
+}
+
+mechanicus_localisation = {
+	rank = {
+		1 = MECHANICUS_RANK_1
+		2 = MECHANICUS_RANK_2
+		3 = MECHANICUS_RANK_3
+	}
+
+	ruler_male = {
+		1 = MECHANICUS_RULER_MALE_1
+		2 = MECHANICUS_RULER_MALE_2
+		3 = MECHANICUS_RULER_MALE_3
+	}
+
+	ruler_female = {
+		1 = MECHANICUS_RULER_FEMALE_1
+		2 = MECHANICUS_RULER_FEMALE_2
+		3 = MECHANICUS_RULER_FEMALE_3
+	}
+
+	consort_male = {
+		1 = KNIZE
+		2 = KRAL
+		3 = CISAR
+	}
+
+	consort_female = {
+		1 = KNEZNA
+		2 = KRALOVNA
+		3 = CISAROVNA
+	}
+	
+	heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+
+	heir_female = {
+		1 = HEIR_fem
+		2 = HEIR_fem
+		3 = HEIR_fem
+	}
+
+	trigger = {
+		NOT = { tag = XXB }
+		has_reform = forge_world_reform
+	}
+}
+
+death_watch_localisation = {
+	rank = {
+		1 = DEATH_WATCH_RANK_1
+		2 = DEATH_WATCH_RANK_2
+		3 = DEATH_WATCH_RANK_3
+	}
+
+	ruler_male = {
+		1 = DEATH_WATCH_RULER_MALE_1
+		2 = DEATH_WATCH_RULER_MALE_2
+		3 = DEATH_WATCH_RULER_MALE_3
+	}
+
+	ruler_female = {
+		1 = DEATH_WATCH_RULER_FEMALE_1
+		2 = DEATH_WATCH_RULER_FEMALE_2
+		3 = DEATH_WATCH_RULER_FEMALE_3
+	}
+
+	consort_male = {
+		1 = KNIZE
+		2 = KRAL
+		3 = CISAR
+	}
+
+	consort_female = {
+		1 = KNEZNA
+		2 = KRALOVNA
+		3 = CISAROVNA
+	}
+	
+	heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+
+	heir_female = {
+		1 = HEIR_fem
+		2 = HEIR_fem
+		3 = HEIR_fem
+	}
+
+	trigger = {
+		has_reform = death_watch_reform
+	}
+}
+
+imperial_governorate_localisation = {
+	rank = {
+		1 = IMPERIAL_GOVERNORATE_RANK_1
+		2 = IMPERIAL_GOVERNORATE_RANK_2
+		3 = IMPERIAL_GOVERNORATE_RANK_3
+	}
+
+	ruler_male = {
+		1 = IMPERIAL_GOVERNORATE_RULER_MALE_1
+		2 = IMPERIAL_GOVERNORATE_RULER_MALE_2
+		3 = IMPERIAL_GOVERNORATE_RULER_MALE_3
+	}
+
+	ruler_female = {
+		1 = IMPERIAL_GOVERNORATE_RULER_FEMALE_1
+		2 = IMPERIAL_GOVERNORATE_RULER_FEMALE_2
+		3 = IMPERIAL_GOVERNORATE_RULER_FEMALE_3
+	}
+
+	consort_male = {
+		1 = IMPERIAL_GOVERNORATE_RULER_MALE_1
+		2 = IMPERIAL_GOVERNORATE_RULER_MALE_2
+		3 = IMPERIAL_GOVERNORATE_RULER_MALE_3
+	}
+
+	consort_female = {
+		1 = IMPERIAL_GOVERNORATE_RULER_FEMALE_1
+		2 = IMPERIAL_GOVERNORATE_RULER_FEMALE_2
+		3 = IMPERIAL_GOVERNORATE_RULER_FEMALE_3
+	}
+	
+	heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+
+	heir_female = {
+		1 = HEIR_fem
+		2 = HEIR_fem
+		3 = HEIR_fem
+	}
+
+	trigger = {
+		has_reform = imperial_governorate_reform
+	}
+}
+
+craftworld_localisation = {
+	rank = {
+		1 = CRAFTWORLD_RANK_1
+		2 = CRAFTWORLD_RANK_2
+		3 = CRAFTWORLD_RANK_3
+	}
+
+	ruler_male = {
+		1 = CRAFTWORLD_RULER_MALE_1
+		2 = CRAFTWORLD_RULER_MALE_2
+		3 = CRAFTWORLD_RULER_MALE_3
+	}
+
+	ruler_female = {
+		1 = CRAFTWORLD_RULER_FEMALE_1
+		2 = CRAFTWORLD_RULER_FEMALE_2
+		3 = CRAFTWORLD_RULER_FEMALE_3
+	}
+
+	consort_male = {
+		1 = KNIZE
+		2 = KRAL
+		3 = CISAR
+	}
+
+	consort_female = {
+		1 = KNEZNA
+		2 = KRALOVNA
+		3 = CISAROVNA
+	}
+	
+	heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+
+	heir_female = {
+		1 = HEIR_fem
+		2 = HEIR_fem
+		3 = HEIR_fem
+	}
+
+	trigger = {
+		has_reform = craftworld_reform
+	}
+}
+
+ork_localisation = {
+	rank = {
+		1 = ORK_RANK_1
+		2 = ORK_RANK_2
+		3 = ORK_RANK_3
+	}
+
+	ruler_male = {
+		1 = ORK_RULER_MALE_1
+		2 = ORK_RULER_MALE_2
+		3 = ORK_RULER_MALE_3
+	}
+
+	ruler_female = {
+		1 = ORK_RULER_FEMALE_1
+		2 = ORK_RULER_FEMALE_2
+		3 = ORK_RULER_FEMALE_3
+	}
+
+	consort_male = {
+		1 = KNIZE
+		2 = KRAL
+		3 = CISAR
+	}
+
+	consort_female = {
+		1 = KNEZNA
+		2 = KRALOVNA
+		3 = CISAROVNA
+	}
+	
+	heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+
+	heir_female = {
+		1 = HEIR_fem
+		2 = HEIR_fem
+		3 = HEIR_fem
+	}
+
+	trigger = {
+		has_reform = ork_government_reform
+	}
+}
+
+tau_localisation = {
+	rank = {
+		1 = TAU_RANK_1
+		2 = TAU_RANK_2
+		3 = TAU_RANK_3
+	}
+
+	ruler_male = {
+		1 = TAU_RULER_MALE_1
+		2 = TAU_RULER_MALE_2
+		3 = TAU_RULER_MALE_3
+	}
+
+	ruler_female = {
+		1 = TAU_RULER_FEMALE_1
+		2 = TAU_RULER_FEMALE_2
+		3 = TAU_RULER_FEMALE_3
+	}
+
+	consort_male = {
+		1 = KNIZE
+		2 = KRAL
+		3 = CISAR
+	}
+
+	consort_female = {
+		1 = KNEZNA
+		2 = KRALOVNA
+		3 = CISAROVNA
+	}
+	
+	heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+
+	heir_female = {
+		1 = HEIR_fem
+		2 = HEIR_fem
+		3 = HEIR_fem
+	}
+
+	trigger = {
+		has_reform = tau_reform
+	}
+}
+
+farsight_enclaves_localisation = {
+	rank = {
+		1 = FARSIGHT_ENCLAVES_RANK_1
+		2 = FARSIGHT_ENCLAVES_RANK_2
+		3 = FARSIGHT_ENCLAVES_RANK_3
+	}
+
+	ruler_male = {
+		1 = FARSIGHT_ENCLAVES_RULER_MALE_1
+		2 = FARSIGHT_ENCLAVES_RULER_MALE_2
+		3 = FARSIGHT_ENCLAVES_RULER_MALE_3
+	}
+
+	ruler_female = {
+		1 = FARSIGHT_ENCLAVES_RULER_FEMALE_1
+		2 = FARSIGHT_ENCLAVES_RULER_FEMALE_2
+		3 = FARSIGHT_ENCLAVES_RULER_FEMALE_3
+	}
+
+	consort_male = {
+		1 = KNIZE
+		2 = KRAL
+		3 = CISAR
+	}
+
+	consort_female = {
+		1 = KNEZNA
+		2 = KRALOVNA
+		3 = CISAROVNA
+	}
+	
+	heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+
+	heir_female = {
+		1 = HEIR_fem
+		2 = HEIR_fem
+		3 = HEIR_fem
+	}
+
+	trigger = {
+		has_reform = farsight_enclaves_reform
+	}
+}
+
+tyranid_localisation = {
+	rank = {
+		1 = TYRANID_RANK_1
+		2 = TYRANID_RANK_2
+		3 = TYRANID_RANK_3
+	}
+
+	ruler_male = {
+		1 = TYRANID_RULER_MALE_1
+		2 = TYRANID_RULER_MALE_2
+		3 = TYRANID_RULER_MALE_3
+	}
+
+	ruler_female = {
+		1 = TYRANID_RULER_MALE_1
+		2 = TYRANID_RULER_MALE_2
+		3 = TYRANID_RULER_MALE_3
+	}
+
+	consort_male = {
+		1 = KNIZE
+		2 = KRAL
+		3 = CISAR
+	}
+
+	consort_female = {
+		1 = KNEZNA
+		2 = KRALOVNA
+		3 = CISAROVNA
+	}
+	
+	heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+
+	heir_female = {
+		1 = HEIR_fem
+		2 = HEIR_fem
+		3 = HEIR_fem
+	}
+
+	trigger = {
+		has_reform = hive_fleet_reform
+	}
+}
+
+genestealer_localisation = {
+	rank = {
+		1 = GENESTEALER_CULT_RANK_1	
+		2 = GENESTEALER_CULT_RANK_2
+		3 = GENESTEALER_CULT_RANK_3
+	}
+
+	ruler_male = {
+		1 = GENESTEALER_CULT_RULER_MALE_1
+		2 = GENESTEALER_CULT_RULER_MALE_2
+		3 = GENESTEALER_CULT_RULER_MALE_3
+	}
+
+	ruler_female = {
+		1 = GENESTEALER_CULT_RULER_FEMALE_1
+		2 = GENESTEALER_CULT_RULER_FEMALE_2
+		3 = GENESTEALER_CULT_RULER_FEMALE_3
+	}
+
+	consort_male = {
+		1 = KNIZE
+		2 = KRAL
+		3 = CISAR
+	}
+
+	consort_female = {
+		1 = KNEZNA
+		2 = KRALOVNA
+		3 = CISAROVNA
+	}
+	
+	heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+
+	heir_female = {
+		1 = HEIR_fem
+		2 = HEIR_fem
+		3 = HEIR_fem
+	}
+
+	trigger = {
+		has_reform = genestealer_cult_reform
+	}
+}
+
+chaos_cult_localisation = {
+	rank = {
+		1 = CHAOS_CULT_RANK_1
+		2 = CHAOS_CULT_RANK_2
+		3 = CHAOS_CULT_RANK_3
+	}
+
+	ruler_male = {
+		1 = CHAOS_CULT_RULER_MALE_1
+		2 = CHAOS_CULT_RULER_MALE_2
+		3 = CHAOS_CULT_RULER_MALE_3
+	}
+
+	ruler_female = {
+		1 = CHAOS_CULT_RULER_FEMALE_1
+		2 = CHAOS_CULT_RULER_FEMALE_2
+		3 = CHAOS_CULT_RULER_FEMALE_3
+	}
+
+	consort_male = {
+		1 = KNIZE
+		2 = KRAL
+		3 = CISAR
+	}
+
+	consort_female = {
+		1 = KNEZNA
+		2 = KRALOVNA
+		3 = CISAROVNA
+	}
+	
+	heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+
+	heir_female = {
+		1 = HEIR_fem
+		2 = HEIR_fem
+		3 = HEIR_fem
+	}
+
+	trigger = {
+		has_reform = chaos_cult_reform
+	}
+}
+
+chaos_astartes_localisation = {
+	rank = {
+		1 = CHAOS_ASTARTES_RANK_1
+		2 = CHAOS_ASTARTES_RANK_2
+		3 = CHAOS_ASTARTES_RANK_3
+	}
+
+	ruler_male = {
+		1 = CHAOS_ASTARTES_RULER_MALE_1
+		2 = CHAOS_ASTARTES_RULER_MALE_2
+		3 = CHAOS_ASTARTES_RULER_MALE_3
+	}
+
+	ruler_female = {
+		1 = CHAOS_ASTARTES_RULER_MALE_1
+		2 = CHAOS_ASTARTES_RULER_MALE_2
+		3 = CHAOS_ASTARTES_RULER_MALE_3
+	}
+
+	consort_male = {
+		1 = KNIZE
+		2 = KRAL
+		3 = CISAR
+	}
+
+	consort_female = {
+		1 = KNEZNA
+		2 = KRALOVNA
+		3 = CISAROVNA
+	}
+	
+	heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+
+	heir_female = {
+		1 = HEIR_fem
+		2 = HEIR_fem
+		3 = HEIR_fem
+	}
+
+	trigger = {
+		has_reform = heretic_astartes_reform
+	}
+}
+
+dark_mechanicus_localisation = {
+	rank = {
+		1 = DARK_MECHANICUS_RANK_1
+		2 = DARK_MECHANICUS_RANK_2
+		3 = DARK_MECHANICUS_RANK_3
+	}
+
+	ruler_male = {
+		1 = DARK_MECHANICUS_RULER_MALE_1
+		2 = DARK_MECHANICUS_RULER_MALE_2
+		3 = DARK_MECHANICUS_RULER_MALE_3
+	}
+
+	ruler_female = {
+		1 = DARK_MECHANICUS_RULER_MALE_1
+		2 = DARK_MECHANICUS_RULER_MALE_2
+		3 = DARK_MECHANICUS_RULER_MALE_3
+	}
+
+	consort_male = {
+		1 = KNIZE
+		2 = KRAL
+		3 = CISAR
+	}
+
+	consort_female = {
+		1 = KNEZNA
+		2 = KRALOVNA
+		3 = CISAROVNA
+	}
+	
+	heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+
+	heir_female = {
+		1 = HEIR_fem
+		2 = HEIR_fem
+		3 = HEIR_fem
+	}
+
+	trigger = {
+		has_reform = chaos_forge_world_reform
+	}
+}
+
+exodite_localisation = {
+	rank = {
+		1 = EXODITE_RANK_1
+		2 = EXODITE_RANK_2
+		3 = EXODITE_RANK_3
+	}
+
+	ruler_male = {
+		1 = EXODITE_RULER_MALE_1
+		2 = EXODITE_RULER_MALE_2
+		3 = EXODITE_RULER_MALE_3
+	}
+
+	ruler_female = {
+		1 = EXODITE_RULER_MALE_1
+		2 = EXODITE_RULER_MALE_2
+		3 = EXODITE_RULER_MALE_3
+	}
+
+	consort_male = {
+		1 = KNIZE
+		2 = KRAL
+		3 = CISAR
+	}
+
+	consort_female = {
+		1 = KNEZNA
+		2 = KRALOVNA
+		3 = CISAROVNA
+	}
+	
+	heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+
+	heir_female = {
+		1 = HEIR_fem
+		2 = HEIR_fem
+		3 = HEIR_fem
+	}
+
+	trigger = {
+		has_reform = exodite_government_reform
+	}
+}
+
+xeno_localisation = {
+	rank = {
+		1 = XENO_RANK_1
+		2 = XENO_RANK_2
+		3 = XENO_RANK_3
+	}
+
+	ruler_male = {
+		1 = XENO_RULER_MALE_1
+		2 = XENO_RULER_MALE_2
+		3 = XENO_RULER_MALE_3
+	}
+
+	ruler_female = {
+		1 = XENO_RULER_FEMALE_1
+		2 = XENO_RULER_FEMALE_2
+		3 = XENO_RULER_FEMALE_3
+	}
+
+	consort_male = {
+		1 = XENO_RULER_MALE_1
+		2 = XENO_RULER_MALE_2
+		3 = XENO_RULER_MALE_3
+	}
+
+	consort_female = {
+		1 = XENO_RULER_FEMALE_1
+		2 = XENO_RULER_FEMALE_2
+		3 = XENO_RULER_FEMALE_3
+	}
+	
+	heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+
+	heir_female = {
+		1 = HEIR_fem
+		2 = HEIR_fem
+		3 = HEIR_fem
+	}
+
+	trigger = {
+		has_reform = xeno_government_reform
+	}
+}
+
+imperial_knights_localisation = {
+	rank = {
+		1 = KNIGHTS_RANK_1
+		2 = KNIGHTS_RANK_2
+		3 = KNIGHTS_RANK_3
+	}
+
+	ruler_male = {
+		1 = KNIGHTS_RULER_MALE_1
+		2 = KNIGHTS_RULER_MALE_2
+		3 = KNIGHTS_RULER_MALE_3
+	}
+
+	ruler_female = {
+		1 = KNIGHTS_RULER_FEMALE_1
+		2 = KNIGHTS_RULER_FEMALE_2
+		3 = KNIGHTS_RULER_FEMALE_3
+	}
+
+	consort_male = {
+		1 = KNIGHTS_RULER_MALE_1
+		2 = KNIGHTS_RULER_MALE_2
+		3 = KNIGHTS_RULER_MALE_3
+	}
+
+	consort_female = {
+		1 = KNIGHTS_RULER_FEMALE_1
+		2 = KNIGHTS_RULER_FEMALE_2
+		3 = KNIGHTS_RULER_FEMALE_3
+	}
+	
+	heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+
+	heir_female = {
+		1 = HEIR_fem
+		2 = HEIR_fem
+		3 = HEIR_fem
+	}
+
+	trigger = {
+		has_reform = imperial_knight_reform
+	}
+}
+
+chaos_knights_localisation = {
+	rank = {
+		1 = CHAOS_KNIGHTS_RANK_1
+		2 = CHAOS_KNIGHTS_RANK_2
+		3 = CHAOS_KNIGHTS_RANK_3
+	}
+
+	ruler_male = {
+		1 = CHAOS_KNIGHTS_RULER_MALE_1
+		2 = CHAOS_KNIGHTS_RULER_MALE_2
+		3 = CHAOS_KNIGHTS_RULER_MALE_3
+	}
+
+	ruler_female = {
+		1 = CHAOS_KNIGHTS_RULER_FEMALE_1
+		2 = CHAOS_KNIGHTS_RULER_FEMALE_2
+		3 = CHAOS_KNIGHTS_RULER_FEMALE_3
+	}
+
+	consort_male = {
+		1 = CHAOS_KNIGHTS_RULER_MALE_1
+		2 = CHAOS_KNIGHTS_RULER_MALE_2
+		3 = CHAOS_KNIGHTS_RULER_MALE_3
+	}
+
+	consort_female = {
+		1 = CHAOS_KNIGHTS_RULER_FEMALE_1
+		2 = CHAOS_KNIGHTS_RULER_FEMALE_2
+		3 = CHAOS_KNIGHTS_RULER_FEMALE_3
+	}
+	
+	heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+
+	heir_female = {
+		1 = HEIR_fem
+		2 = HEIR_fem
+		3 = HEIR_fem
+	}
+
+	trigger = {
+		has_reform = chaos_knight_reform
+	}
+}
+
+kin_localisation = {
+	rank = {
+		1 = KIN_RANK_1
+		2 = KIN_RANK_2
+		3 = KIN_RANK_3
+	}
+
+	ruler_male = {
+		1 = KIN_RULER_MALE_1
+		2 = KIN_RULER_MALE_2
+		3 = KIN_RULER_MALE_3
+	}
+
+	ruler_female = {
+		1 = KIN_RULER_FEMALE_1
+		2 = KIN_RULER_FEMALE_2
+		3 = KIN_RULER_FEMALE_3
+	}
+
+	consort_male = {
+		1 = KIN_RULER_MALE_1
+		2 = KIN_RULER_MALE_2
+		3 = KIN_RULER_MALE_3
+	}
+
+	consort_female = {
+		1 = KIN_RULER_FEMALE_1
+		2 = KIN_RULER_FEMALE_2
+		3 = KIN_RULER_FEMALE_3
+	}
+	
+	heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+
+	heir_female = {
+		1 = HEIR_fem
+		2 = HEIR_fem
+		3 = HEIR_fem
+	}
+
+	trigger = {
+		has_reform = league_votann_reform
+	}
+}
+
+necron_localisation = {
+	rank = {
+		1 = NECRON_RANK_1
+		2 = NECRON_RANK_2
+		3 = NECRON_RANK_3
+	}
+
+	ruler_male = {
+		1 = NECRON_RULER_MALE_1
+		2 = NECRON_RULER_MALE_2
+		3 = NECRON_RULER_MALE_3
+	}
+
+	ruler_female = {
+		1 = NECRON_RULER_FEMALE_1
+		2 = NECRON_RULER_FEMALE_2
+		3 = NECRON_RULER_FEMALE_3
+	}
+
+	consort_male = {
+		1 = NECRON_RULER_MALE_1
+		2 = NECRON_RULER_MALE_2
+		3 = NECRON_RULER_MALE_3
+	}
+
+	consort_female = {
+		1 = NECRON_RULER_FEMALE_1
+		2 = NECRON_RULER_FEMALE_2
+		3 = NECRON_RULER_FEMALE_3
+	}
+	
+	heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+
+	heir_female = {
+		1 = HEIR_fem
+		2 = HEIR_fem
+		3 = HEIR_fem
+	}
+
+	trigger = {
+		has_reform = necron_dynasty_reform
+	}
+}
+
+
+primarch_localisation = {
+	rank = {
+		1 = PRIMARCH_RANK
+		2 = PRIMARCH_RANK
+		3 = PRIMARCH_RANK
+	}
+
+	ruler_male = {
+		1 = PRIMARCH_RULER
+		2 = PRIMARCH_RULER
+		3 = PRIMARCH_RULER
+	}
+
+	ruler_female = {
+		1 = PRIMARCH_RULER
+		2 = PRIMARCH_RULER
+		3 = PRIMARCH_RULER
+	}
+
+	consort_male = {
+		1 = PRIMARCH_RULER
+		2 = PRIMARCH_RULER
+		3 = PRIMARCH_RULER
+	}
+
+	consort_female = {
+		1 = PRIMARCH_RULER
+		2 = PRIMARCH_RULER
+		3 = PRIMARCH_RULER
+	}
+	
+	heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+
+	heir_female = {
+		1 = HEIR_fem
+		2 = HEIR_fem
+		3 = HEIR_fem
+	}
+
+	trigger = {
+		tag = XDH
+	}
+}
+
+primarch_localisation = {
+	rank = {
+		1 = CHAOS_PRIMARCH_RANK
+		2 = CHAOS_PRIMARCH_RANK
+		3 = CHAOS_PRIMARCH_RANK
+	}
+
+	ruler_male = {
+		1 = PRIMARCH_RULER
+		2 = PRIMARCH_RULER
+		3 = PRIMARCH_RULER
+	}
+
+	ruler_female = {
+		1 = PRIMARCH_RULER
+		2 = PRIMARCH_RULER
+		3 = PRIMARCH_RULER
+	}
+
+	consort_male = {
+		1 = PRIMARCH_RULER
+		2 = PRIMARCH_RULER
+		3 = PRIMARCH_RULER
+	}
+
+	consort_female = {
+		1 = PRIMARCH_RULER
+		2 = PRIMARCH_RULER
+		3 = PRIMARCH_RULER
+	}
+	
+	heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+
+	heir_female = {
+		1 = HEIR_fem
+		2 = HEIR_fem
+		3 = HEIR_fem
+	}
+
+	trigger = {
+		OR = {
+			tag = XYG
+			tag = XIF
+			tag = XIG
+			tag = XKI
+		}
+	}
+}

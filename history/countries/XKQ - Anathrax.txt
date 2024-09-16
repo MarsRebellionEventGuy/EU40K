@@ -1,0 +1,16 @@
+government = theocracy
+add_government_reform = heretic_astartes_reform
+government_rank = 1
+technology_group = chaos
+religion = nurgle
+primary_culture = heretic_astartes_culture
+capital = 2811
+
+1970.12.12 = {
+	monarch = {
+		name = "Mulgh the Pestilent"	
+		adm = 5
+		dip = 2
+		mil = 3
+	}
+}

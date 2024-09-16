@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = necron_dynasty_reform
+government_rank = 2
+technology_group = necron
+religion = necron
+primary_culture = necron_culture
+capital = 1668
+
+1970.12.12 = {
+		monarch = {
+			name = "Sepulchrant Akatotakh"
+			dynasty = " "
+			adm = 3
+			dip = 6
+			mil = 2
+		}
+	}
+}

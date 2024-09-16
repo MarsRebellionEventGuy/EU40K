@@ -1,0 +1,9 @@
+add_core = XMQ
+owner = XMQ
+controller = XMQ
+religion = mechanicus
+culture = mechanicus_culture
+base_tax = 1
+base_production = 4
+base_manpower = 3
+trade_goods = military_equipment

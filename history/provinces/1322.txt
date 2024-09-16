@@ -1,0 +1,10 @@
+add_core = XBL
+owner = XBL
+controller = XBL
+religion = imperial_cult
+culture = human_culture
+base_tax = 2
+base_production = 2
+base_manpower = 2
+trade_goods = luxury_goods
+

@@ -1,0 +1,406 @@
+Chapter_Branch_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		always = no
+		primary_culture = loyalist_astartes_culture
+	}
+	has_country_shield = yes
+	
+	Chapter_1 = {
+		icon = mission_chapter_peasant
+		required_missions = { Chapter_3 }
+		position = 2
+		
+		provinces_to_highlight = {
+		}
+		
+		trigger = {
+		}
+		
+		effect = {
+		}
+	}
+	Chapter_2 = {
+		icon = mission_bedouins
+		required_missions = { Chapter_1 }
+		position = 3
+		
+		provinces_to_highlight = {
+		}
+		
+		trigger = {
+		}
+		
+		effect = {
+		}
+	}
+}
+
+
+Chapter_Branch_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		always = no
+		primary_culture = loyalist_astartes_culture
+	}
+	has_country_shield = yes
+	
+	Chapter_3 = {
+		icon = mission_noctis
+		required_missions = { }
+		position = 1
+		
+		provinces_to_highlight = {
+		}
+		
+		trigger = {
+		}
+		
+		effect = {
+		}
+	}
+	Chapter_4 = {
+		icon = mission_hands_praying
+		required_missions = { Chapter_3 }
+		position = 3
+		
+		provinces_to_highlight = {
+		}
+		
+		trigger = {
+		}
+		
+		effect = {
+		}
+	}
+	Chapter_5 = {
+		icon = mission_hands_praying
+		required_missions = { Chapter_2 Chapter_4 }
+		position = 3
+		
+		provinces_to_highlight = {
+		}
+		
+		trigger = {
+		}
+		
+		effect = {
+		}
+	}
+}
+
+Chapter_Branch_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		always = no
+		primary_culture = loyalist_astartes_culture
+	}
+	has_country_shield = yes
+	
+	Chapter_6 = {
+		icon = mission_astropath
+		required_missions = { }
+		position = 2
+		
+		provinces_to_highlight = {
+		}
+		
+		trigger = {
+		}
+		
+		effect = {
+		}
+	}
+	Chapter_7 = {
+		icon = mission_hands_praying
+		required_missions = { Chapter_6 }
+		position = 3
+		
+		provinces_to_highlight = {
+		}
+		
+		trigger = {
+		}
+		
+		effect = {
+		}
+	}
+	Chapter_8 = {
+		icon = mission_guilliman
+		required_missions = { Chapter_4 Chapter_7 Chapter_10 }
+		position = 4
+		
+		provinces_to_highlight = {
+		}
+		
+		trigger = {
+		}
+		
+		effect = {
+		}
+	}
+}
+
+Chapter_Branching_Hidden_Branch_1 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		always = no
+		primary_culture = loyalist_astartes_culture
+		NOT = { has_country_flag = Chapter_Branching_Imperium }
+		NOT = { has_country_flag = Chapter_Branching_Protectorate }		
+	}
+	has_country_shield = yes
+	
+	Chapter_Branching_Hidden_1 = {
+		icon = mission_unknown_mission
+		position = 5
+		required_missions = { Chapter_8 }
+		
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = CHAPTER_BRANCH_TOOLTIP
+			}
+		}
+		
+		effect = {
+			custom_tooltip = CHAPTER_BRANCH_TOOLTIP
+		}
+	}
+	Chapter_Branching_Hidden_2 = {
+		icon = mission_unknown_mission
+		position = 6
+		required_missions = { Chapter_Branching_Hidden_1 }
+		
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = CHAPTER_BRANCH_TOOLTIP
+			}
+		}
+		
+		effect = {
+			custom_tooltip = CHAPTER_BRANCH_TOOLTIP
+		}
+	}
+	Chapter_Branching_Hidden_3 = {
+		icon = mission_unknown_mission
+		position = 7
+		required_missions = { Chapter_Branching_Hidden_2 }
+		
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = CHAPTER_BRANCH_TOOLTIP
+			}
+		}
+		
+		effect = {
+			custom_tooltip = CHAPTER_BRANCH_TOOLTIP
+		}
+	}
+}
+
+
+Chapter_Branching_Imperium_Branch_1 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		always = no
+		primary_culture = loyalist_astartes_culture
+		has_country_flag = Chapter_Branching_Imperium
+	}
+	has_country_shield = yes
+	
+	Chapter_Branching_Imperium_1 = {
+		icon = mission_into_arabia
+		position = 5
+		required_missions = { Chapter_8 }
+		
+		provinces_to_highlight = {
+		}
+		trigger = {
+		}
+		
+		effect = {
+		}
+	}
+	Chapter_Branching_Imperium_2 = {
+		icon = mission_into_arabia
+		position = 6
+		required_missions = { Chapter_Branching_Imperium_1 }
+		
+		provinces_to_highlight = {
+		}
+		trigger = {
+		}
+		
+		effect = {
+		}
+	}
+	Chapter_Branching_Imperium_3 = {
+		icon = mission_into_arabia
+		position = 7
+		required_missions = { Chapter_Branching_Imperium_2 }
+		
+		provinces_to_highlight = {
+		}
+		trigger = {
+		}
+		
+		effect = {
+		}
+	}
+}
+
+Chapter_Branching_Protectorate_Branch_1 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		always = no
+		primary_culture = loyalist_astartes_culture
+		has_country_flag = Chapter_Branching_Protectorate
+	}
+	has_country_shield = yes
+	
+	Chapter_Branching_Protectorate_1 = {
+		icon = mission_into_arabia
+		position = 5
+		required_missions = { Chapter_8 }
+		
+		provinces_to_highlight = {
+		}
+		trigger = {
+		}
+		
+		effect = {
+		}
+	}
+	Chapter_Branching_Protectorate_2 = {
+		icon = mission_into_arabia
+		position = 6
+		required_missions = { Chapter_Branching_Imperium_1 }
+		
+		provinces_to_highlight = {
+		}
+		trigger = {
+		}
+		
+		effect = {
+		}
+	}
+	Chapter_Branching_Protectorate_3 = {
+		icon = mission_into_arabia
+		position = 7
+		required_missions = { Chapter_Branching_Protectorate_2 }
+		
+		provinces_to_highlight = {
+		}
+		trigger = {
+		}
+		
+		effect = {
+		}
+	}
+}
+
+Chapter_Branch_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		always = no
+		primary_culture = loyalist_astartes_culture
+	}
+	has_country_shield = yes
+	
+	Chapter_9 = {
+		icon = mission_hands_praying
+		required_missions = { }
+		position = 1
+		
+		provinces_to_highlight = {
+		}
+		
+		trigger = {
+		}
+		
+		effect = {
+		}
+	}
+	Chapter_10 = {
+		icon = mission_hands_praying
+		required_missions = { Chapter_9 }
+		position = 3
+		
+		provinces_to_highlight = {
+		}
+		
+		trigger = {
+		}
+		
+		effect = {
+		}
+	}
+	Chapter_11 = {
+		icon = mission_hands_praying
+		required_missions = { Chapter_10 Chapter_13 }
+		position = 4
+		
+		provinces_to_highlight = {
+		}
+		
+		trigger = {
+		}
+		
+		effect = {
+		}
+	}
+}
+
+Chapter_Branch_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		always = no
+		primary_culture = loyalist_astartes_culture
+	}
+	has_country_shield = yes
+	
+	Chapter_12 = {
+		icon = mission_hands_praying
+		required_missions = { Chapter_9 }
+		position = 2
+		
+		provinces_to_highlight = {
+		}
+		
+		trigger = {
+		}
+		
+		effect = {
+		}
+	}
+	Chapter_13 = {
+		icon = mission_hands_praying
+		required_missions = { Chapter_12 }
+		position = 3
+		
+		provinces_to_highlight = {
+		}
+		
+		trigger = {
+		}
+		
+		effect = {
+		}
+	}
+}

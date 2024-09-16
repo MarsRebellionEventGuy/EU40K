@@ -1,0 +1,17 @@
+government = theocracy
+add_government_reform = tau_reform
+government_rank = 1
+technology_group = tau
+religion = greater_good
+primary_culture = ethereal_culture
+capital = 1981
+
+1970.12.12 = {
+		monarch = {
+			name = "Aun'La Kor'tal Suam'oya"	
+			adm = 3
+			dip = 1
+			mil = 5
+		}
+	}
+}

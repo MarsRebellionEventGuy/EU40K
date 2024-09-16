@@ -1,0 +1,350 @@
+imperial_culture_group = {
+	graphical_culture = westerngfx
+	
+	human_culture = {
+		male_names = {
+			Jack Tiber Ackenvol Deinos Lukas Dilen Gerard Antonid Dorian Azahel Maximillius Brakmann Dustyn Caernavar Finneax Andreas Lex Nikolaas Erwell Tyras Ursurkar Armand Mikal Cyrus Galen Leopold Syvar Kasmund Demetrius Hechtor Durov Eugenian Geinst Jarodd Dravin Konstantin Otto Stefan Harkavian Alberich Arneld Henrig Rastomar Gustav Magnus Logan Lysander Macaroth Ollanius Throm Jonathor Octavius Rask Vasquez Orsani Tyrian Sebastus Illyich Yannick Zyvan Aloysius Titus Eskolios Iocanthos Cornelius Simion Ambros Pius Cornelis Goegoric Abelard Obedath Rulf Gideon Caspiel Enos Antonius Thaddeus Iago Abdulias Phaedrus Noum Erekart Volquan Uwoma Veynd Vuneris Vardoman Drakan Trajann Raphael Jethro Giselwin Corwin Konrad Bathasos Advalle Clovis Gallianus Silas Consuldyon Luther Ignatius Ratibor Castinus
+		}
+		female_names = {
+			Ada Adalya Adamanthea Adelynn Agatha Agentha Selena Agnes Alana Aldrathi Aliesha Kessola Amalica Amelda Anais Anarchia Rosetta Angelica Angelina Arabella Argenta Celeste Arlielle Verena Aspira Assumpta Astra Aurea Aveline Avra Beatrice Valabrist Befonica Berionne Temperance Elanor Briar Helena Callia Camille Carmina Carnelline Cassia Celiya Ceskina Charlotte Sigurd Chrisima Claire Corinn Danicia Alexis Decima Agathae Alicia Dorothea Olicia Ebba Elana Elenor Elivia Ellyrine Elveren Emiline Ereutha Erhynica Felicita Fidelia Gabriella Ghita Sabathine Magda Rosemaera Amalanthe Clarice Amity Iona Iridine Irinya Ishani Jasmine Jayne Jemreta Jocindyr Justyne Yulla Katherine Kerenna Larenta Laurelyn Liona Lucretia Erika LunariaMaelin Mari Meritia Miriya Moirelle Remidia Ophelia Petronella Miriael Ximena Ionica Elyza Imelda Ellsbeth
+		}
+		dynasty_names = {
+			Rudvald Vandire Cythera Ludovicia LaBray Kway Ornatov Ferrindon Haarlock Winterscale Valancius Trrozant Agamemnus Aggranoza Credo Drachmar Draconis Bjargbjorn Brayne Florienborque Crimson Catallus Chimaeros Condotti Garamach Goldenherm Goreman Helmawr Ludovicia Maghernus Madellan Absoluta Ravallion Merdena Roskavier Semper Noctis Nerhm Montante Esterant Valerius Venenum Callidus Vindicare Tharcher Vought Zhi-Meng Umboldt Threstinius Turannigen Angevin Arkthine Aquairre Balorodin Bravus Grim Slayde Sahansun Rathbone Okonawk Nusa Newmarrk Karamazov Rannick Horst Mendax Lymsis Pavo Nepythys Ruthven Rassilo Smythe Spinoza Tsouras Vinculus Tormun Vandevern Greyfax Emagna Aemos Kryptman Matthias Astromar Nomandes Ravenor Rorken Astolyev almenau Staccata Talaris Thysser Valeria Vasmire Vethric Grundvald Falx Swedyr Amaros Andarion Tectos Yoranta Aranthus Tamerocca Carpinus Nompherenti
+		}
+	}
+	mechanicus_culture = {
+		male_names = {
+			Alpha Alsmo Antigonus Arcotholitis Reylan Autarthix Barolomus Ultima Geard Nesium Cambrius Phra-Mu Cordus-Rho Corteswain Acheronian Daedalosus Dagnus-Zek Decimus-Rho Delta-3 Gregorius Dominus Benedict Draykavac Reston Vituvius Epsilon-Theta Erasmus Eyrotellamax Enabrin Fedorovich Gaius Mendel Gelentian Gerantor Recteion Itumade Hadron Hermiatus Herrode Sigulus Ketrllophil Hieronymus Iapetus Ivasnophon Zagreus Kelbor Heptus Kryptaestrex Kzarch Arkhan Phaeton Karolus Omnidus Ohmnix Aurgreus Quintus Regulus Magna-Delta-8v8 Lho-0.4343 53/3 Zeta-9 B0U/M4N K-T Trantium-01 A-34-Eliptyka Xi-Nu-73 X-101 I9A/E9Y T-S N-K Pi-Gamma Iota-8 Upsilon-Theta Ozmonolus Ohmnov-Tau
+		}
+		female_names = {
+			Cassia Curia Dalia Hieronyma Elizah Bellona Delpha Phea Dorthiya Telluria Curia Trimejia Dalia Galentia Felicia Magna-Delta-8v8 Lho-0.4343 53/3 Zeta-9 B0U/M4N K-T Transacta-7Y1 Xi-Nu-73 X-101 T-S N-K Pi-Gamma Iota-8 Upsilon-Theta
+		}
+		dynasty_names = {
+			Tayber Tal Tertian Rhoda Rheim Raskian Quavarian Phlagustok Phal Osmium Orlandriaz Norastye Heldentum Myhr Mojaro Modwen Maximal Mankata Mankata Malthirion Magna Lux Kotov Laurentis Khleng Gwelt Borgovda Kantum Kaudge Decima Dol Draconis Cythera Magna-Delta-8v8 Lho-0.4343 53/3 Zeta-9 B0U/M4N K-T Transacta-7Y1 Trantium-01 A-34-Eliptyka Xi-Nu-73 X-101 I9A/E9Y C8W/Y5A C2Q/H4I 5-Qveth
+			
+		}
+	}
+
+	knight_culture = {
+		male_names = {
+			Jack Tiber Ackenvol Deinos Lukas Dilen Gerard Antonid Dorian Azahel Maximillius Brakmann Dustyn Caernavar Finneax Andreas Lex Nikolaas Erwell Tyras Ursurkar Armand Mikal Cyrus Galen Leopold Syvar Kasmund Demetrius Hechtor Durov Eugenian Geinst Jarodd Dravin Konstantin Otto Stefan Harkavian Alberich Arneld Henrig Rastomar Gustav Magnus Logan Lysander Macaroth Ollanius Throm Jonathor Octavius Rask Vasquez Orsani Tyrian Sebastus Illyich Yannick Zyvan Aloysius Titus Eskolios Iocanthos Cornelius Simion Ambros Pius Cornelis Goegoric Abelard Obedath Rulf Gideon Caspiel Enos Antonius Thaddeus Iago Abdulias Phaedrus Noum Erekart Volquan Uwoma Veynd Vuneris Vardoman Drakan Trajann Raphael Jethro Giselwin Corwin Konrad Bathasos Advalle Clovis Gallianus Silas Consuldyon Luther Ignatius Ratibor Castinus
+		}
+		female_names = {
+			Ada Adalya Adamanthea Adelynn Agatha Agentha Selena Agnes Alana Aldrathi Aliesha Kessola Amalica Amelda Anais Anarchia Rosetta Angelica Angelina Arabella Argenta Celeste Arlielle Verena Aspira Assumpta Astra Aurea Aveline Avra Beatrice Valabrist Befonica Berionne Temperance Elanor Briar Helena Callia Camille Carmina Carnelline Cassia Celiya Ceskina Charlotte Sigurd Chrisima Claire Corinn Danicia Alexis Decima Agathae Alicia Dorothea Olicia Ebba Elana Elenor Elivia Ellyrine Elveren Emiline Ereutha Erhynica Felicita Fidelia Gabriella Ghita Sabathine Magda Rosemaera Amalanthe Clarice Amity Iona Iridine Irinya Ishani Jasmine Jayne Jemreta Jocindyr Justyne Yulla Katherine Kerenna Larenta Laurelyn Liona Lucretia Erika LunariaMaelin Mari Meritia Miriya Moirelle Remidia Ophelia Petronella Miriael Ximena Ionica Elyza Imelda Ellsbeth
+		}
+		dynasty_names = {
+Acasta Adamant Alaric Althalos Arakon Aramos Arka Arundel Arx Canis Atorian Atum Barragon Barran Beaumaris Belligerus Blackskull Bonivarl Borgius Boros Brahmica Brieon Cadmus Callivant Canorem Casimir Cearara Col'Khak Coldshroud Coneale Corvec Curtana Daitan Degallio Derthos Donar Dorath Draconis Drakhs Drakkus Drudge du Frain Dunstan Durbach Empirius Erd Faustiaris Feardraken Fervans Feurus Fidelitor Firehame Fortis Murus Fvaber Galerius Griegoris Griffith Gryphonne Hasburg Hawkshroud Hawkwood Hermetika Hyperion Illius Indra Ironhelm Iyngor Kamata Kamidar Kandaj Kaska Kaushik Kestren Khamyrin Khord Klaze Konor Korun Korvath Krast Kresten Lakar Malorus Mamaragon Megron Mehdrisur Merridon Minotos Miranor Moritain Mortan Mortimer Mundast Nansus Navaros Neo-Ilius Nero Nurthen Octobus Oebbern Ordigia Orhlacc Ormyr Peak Pegasson Peredur "Procon Vi" Rau Raven Reinharn Riathan Sablus Salastii Scythe Sekuris Sidus Skandos Skramasax Steel Sterlund Stormfall Stryder T'orvanosh Taranis Tassos Tazkhar Terryn Th'arkone Thale Thalmus Thorne Thyvender Trainor Tyranus Tyrinth Vandensarg Varlen Varlock Velemestrin Veridis Veroth Vespidia Vornherr Vostris Vulker Vymar Vyronii Warwick Winterveil Xiphos Zavora
+		}
+	}
+	loyalist_astartes_culture = {
+		country = { has_banners = yes }
+		province = { local_has_banners = yes }
+		male_names = {
+			Ranean Galatathus Astelas Garonus Agnaen Nazronus Kazaram Galedis Kazrathio Harrech Girolimo Sidriel Proximiaen Ramiel Odaeneus Arrios Promicus Lazlathus Maximus Vaneas Odaenaius Marcellion Galateus Thassane Quintus Tiberius Denarius Severeos Lyreo Geros Keritreon Asteon Aralaius Gaius Achellus Adrastean Severus Agnathio Tassius Thaddeus Aradiel Artaeon Boreas Calistus Callimachus Cassian Endrion Marius Angelus Anzarael Asmasael Belarius 
+		}
+		female_names = {
+			Ada Adalya Adamanthea Adelynn Agatha Agentha Selena Agnes Alana Aldrathi Aliesha Kessola Amalica Amelda Anais Anarchia Rosetta Angelica Angelina Arabella Argenta Celeste Arlielle Verena Aspira Assumpta Astra Aurea Aveline Avra Beatrice Valabrist Befonica Berionne Temperance Elanor Briar Helena Callia Camille Carmina Carnelline Cassia Celiya Ceskina Charlotte Sigurd Chrisima Claire Corinn Danicia Alexis Decima Agathae Alicia Dorothea Olicia Ebba Elana Elenor Elivia Ellyrine Elveren Emiline Ereutha Erhynica Felicita Fidelia Gabriella Ghita Sabathine Magda Rosemaera Amalanthe Clarice Amity Iona Iridine Irinya Ishani Jasmine Jayne Jemreta Jocindyr Justyne Yulla Katherine Kerenna Larenta Laurelyn Liona Lucretia Erika LunariaMaelin Mari Meritia Miriya Moirelle Remidia Ophelia Petronella Miriael Ximena Ionica Elyza Imelda Ellsbeth
+		}
+		dynasty_names = {
+			Vendrandar Cordrecht Rosterius Calgrim Sadrim Sepaterus Sedranus Khaemulia Anatas Castivus Rosteth Empeios Tibanus Invictar Amyntos Decimaris Chronius Theros Thassane Aethian Tamorn Gadreo Decanus Corvo Decius Empion Atavian Epathus Manorian Maxim Nero Odinathus Phalaris Tiberius Titus Tyvus Ventris Thassius
+
+		}
+	}
+	abhuman_culture = {
+		male_names = {
+			Jack Tiber Ackenvol Deinos Lukas Dilen Gerard Antonid Dorian Azahel Maximillius Brakmann Dustyn Caernavar Finneax Andreas Lex Nikolaas Erwell Tyras Ursurkar Armand Mikal Cyrus Galen Leopold Syvar Kasmund Demetrius Hechtor Durov Eugenian Geinst Jarodd Dravin Konstantin Otto Stefan Harkavian Alberich Arneld Henrig Rastomar Gustav Magnus Logan Lysander Macaroth Ollanius Throm Jonathor Octavius Rask Vasquez Orsani Tyrian Sebastus Illyich Yannick Zyvan Aloysius Titus Eskolios Iocanthos Cornelius Simion Ambros Pius Cornelis Goegoric Abelard Obedath Rulf Gideon Caspiel Enos Antonius Thaddeus Iago Abdulias Phaedrus Noum Erekart Volquan Uwoma Veynd Vuneris Vardoman Drakan Trajann Raphael Jethro Giselwin Corwin Konrad Bathasos Advalle Clovis Gallianus Silas Consuldyon Luther Ignatius Ratibor Castinus
+		}
+		female_names = {
+			Ada Adalya Adamanthea Adelynn Agatha Agentha Selena Agnes Alana Aldrathi Aliesha Kessola Amalica Amelda Anais Anarchia Rosetta Angelica Angelina Arabella Argenta Celeste Arlielle Verena Aspira Assumpta Astra Aurea Aveline Avra Beatrice Valabrist Befonica Berionne Temperance Elanor Briar Helena Callia Camille Carmina Carnelline Cassia Celiya Ceskina Charlotte Sigurd Chrisima Claire Corinn Danicia Alexis Decima Agathae Alicia Dorothea Olicia Ebba Elana Elenor Elivia Ellyrine Elveren Emiline Ereutha Erhynica Felicita Fidelia Gabriella Ghita Sabathine Magda Rosemaera Amalanthe Clarice Amity Iona Iridine Irinya Ishani Jasmine Jayne Jemreta Jocindyr Justyne Yulla Katherine Kerenna Larenta Laurelyn Liona Lucretia Erika LunariaMaelin Mari Meritia Miriya Moirelle Remidia Ophelia Petronella Miriael Ximena Ionica Elyza Imelda Ellsbeth
+		}
+		dynasty_names = {
+			Rudvald Vandire Cythera Ludovicia LaBray Kway Ornatov Ferrindon Haarlock Winterscale Valancius Trrozant Agamemnus Aggranoza Credo Drachmar Draconis Bjargbjorn Brayne Florienborque Crimson Catallus Chimaeros Condotti Garamach Goldenherm Goreman Helmawr Ludovicia Maghernus Madellan Absoluta Ravallion Merdena Roskavier Semper Noctis Nerhm Montante Esterant Valerius Venenum Callidus Vindicare Tharcher Vought Zhi-Meng Umboldt Threstinius Turannigen Angevin Arkthine Aquairre Balorodin Bravus Grim Slayde Sahansun Rathbone Okonawk Nusa Newmarrk Karamazov Rannick Horst Mendax Lymsis Pavo Nepythys Ruthven Rassilo Smythe Spinoza Tsouras Vinculus Tormun Vandevern Greyfax Emagna Aemos Kryptman Matthias Astromar Nomandes Ravenor Rorken Astolyev almenau Staccata Talaris Thysser Valeria Vasmire Vethric Grundvald Falx Swedyr Amaros Andarion Tectos Yoranta Aranthus Tamerocca Carpinus Nompherenti
+		}
+	}
+}
+
+ork_culture_group = {
+	graphical_culture = westerngfx
+	
+	ork_culture = {
+		male_names = {
+			Krunch Slazbag Lagga Arbuttz Arrgard Azrukk  Orgruk Badgit Bargok Badlug Badmek Badrukk Badthug Gharag Bakrash Borok Mog Drak Biglug Bignatz Grak Biter Ghasrkul Gutrot Odlog Blagnutz Vorhgad Grimtoof Boargurr Boffin Bogg Bogg-bogga Boglob Bogrot Bogsnik Bolgrog Ulk Borgrot Borkrull Borzog Bounca Bragrak Brakka Brogg Brogrok Brug Bullgarg Thrugg Burzuruk Buzzgit Buzzgob Buzzkrank Mag Dreg Gregmek  Drogbag Drogg Drogzot Drokk Razgrod Dursnag Elgoz Garaghak Gargamek Garkoz Garmek Garskrak Garzulk Gashrakk Gatrog Gazgrim Gazklaw Gazmek Gazrog Gharka Ghenghiz Ghurrk Gibkrug Gigagob Nazdrab Gorbag Gorzag Gobklaw Golgrim Gorbag Gorblitz Gazrot Gorgrok Gragnatz Grashtak Grax Grazzgha Gruk Grymzag Gulgrog Gurgit Gurgruk Gutrak Orgruk Wazdakkka Ogruk Gorkug Mogrok
+		}
+		female_names = {
+			Krunch Slazbag Lagga Arbuttz Arrgard Azrukk  Orgruk Badgit Bargok Badlug Badmek Badrukk Badthug Gharag Bakrash Borok Mog Drak Biglug Bignatz Grak Biter Ghasrkul Gutrot Odlog Blagnutz Vorhgad Grimtoof Boargurr Boffin Bogg Bogg-bogga Boglob Bogrot Bogsnik Bolgrog Ulk Borgrot Borkrull Borzog Bounca Bragrak Brakka Brogg Brogrok Brug Bullgarg Thrugg Burzuruk Buzzgit Buzzgob Buzzkrank Mag Dreg Gregmek  Drogbag Drogg Drogzot Drokk Razgrod Dursnag Elgoz Garaghak Gargamek Garkoz Garmek Garskrak Garzulk Gashrakk Gatrog Gazgrim Gazklaw Gazmek Gazrog Gharka Ghenghiz Ghurrk Gibkrug Gigagob Nazdrab Gorbag Gorzag Gobklaw Golgrim Gorbag Gorblitz Gazrot Gorgrok Gragnatz Grashtak Grax Grazzgha Gruk Grymzag Gulgrog Gurgit Gurgruk Gutrak Orgruk Wazdakkka Ogruk Gorkug Mogrok
+		}
+		dynasty_names = {
+			'Ead-stompa 'Eadkrakka 'Eavystomp 'Edbiter Nazdrakka Baddakka Baddkrasha Baddfrag Badfang Snazzhammer Badklaw Rezmekka Badtoof Barag Bigchompa Bigskorcha Bigtanka Bigdakka Bigfang Bigtoof Blackaxe Blackfang Blackheart Blackskar Blacktoof Blitzrippa Bloodfang Bludcrumpa Bludflagg Bludtuz Bluemek Bonhamma Bonekraka Bonesnappa "Da Fist "Da Genrul" "Da Krusher" "Da Red Nob" Dakkabad Dakkahorn Dedfist Panzeehunta Dregdakka Dreggutz Blitzkart 'Eadcrumpa "Ed Zappa" Facepulpa Skullcleaver Git-Bomma Gitkrusha Gitsmasha Gobtoof Goresnappa Gorespitta Forang Grimclaw Grimgfang Gutgouger Gutrekka Teefsplita Tankskrappa 
+		}
+	}
+
+	freebooter_culture = {
+		male_names = {
+			Krunch Slazbag Lagga Arbuttz Arrgard Azrukk  Orgruk Badgit Bargok Badlug Badmek Badrukk Badthug Gharag Bakrash Borok Mog Drak Biglug Bignatz Grak Biter Ghasrkul Gutrot Odlog Blagnutz Vorhgad Grimtoof Boargurr Boffin Bogg Bogg-bogga Boglob Bogrot Bogsnik Bolgrog Ulk Borgrot Borkrull Borzog Bounca Bragrak Brakka Brogg Brogrok Brug Bullgarg Thrugg Burzuruk Buzzgit Buzzgob Buzzkrank Mag Dreg Gregmek  Drogbag Drogg Drogzot Drokk Razgrod Dursnag Elgoz Garaghak Gargamek Garkoz Garmek Garskrak Garzulk Gashrakk Gatrog Gazgrim Gazklaw Gazmek Gazrog Gharka Ghenghiz Ghurrk Gibkrug Gigagob Nazdrab Gorbag Gorzag Gobklaw Golgrim Gorbag Gorblitz Gazrot Gorgrok Gragnatz Grashtak Grax Grazzgha Gruk Grymzag Gulgrog Gurgit Gurgruk Gutrak Orgruk Wazdakkka Ogruk Gorkug Mogrok
+		}
+		female_names = {
+			Krunch Slazbag Lagga Arbuttz Arrgard Azrukk  Orgruk Badgit Bargok Badlug Badmek Badrukk Badthug Gharag Bakrash Borok Mog Drak Biglug Bignatz Grak Biter Ghasrkul Gutrot Odlog Blagnutz Vorhgad Grimtoof Boargurr Boffin Bogg Bogg-bogga Boglob Bogrot Bogsnik Bolgrog Ulk Borgrot Borkrull Borzog Bounca Bragrak Brakka Brogg Brogrok Brug Bullgarg Thrugg Burzuruk Buzzgit Buzzgob Buzzkrank Mag Dreg Gregmek  Drogbag Drogg Drogzot Drokk Razgrod Dursnag Elgoz Garaghak Gargamek Garkoz Garmek Garskrak Garzulk Gashrakk Gatrog Gazgrim Gazklaw Gazmek Gazrog Gharka Ghenghiz Ghurrk Gibkrug Gigagob Nazdrab Gorbag Gorzag Gobklaw Golgrim Gorbag Gorblitz Gazrot Gorgrok Gragnatz Grashtak Grax Grazzgha Gruk Grymzag Gulgrog Gurgit Gurgruk Gutrak Orgruk Wazdakkka Ogruk Gorkug Mogrok
+		}
+		dynasty_names = {
+			'Ead-stompa 'Eadkrakka 'Eavystomp 'Edbiter Nazdrakka Baddakka Baddkrasha Baddfrag Badfang Snazzhammer Badklaw Rezmekka Badtoof Barag Bigchompa Bigskorcha Bigtanka Bigdakka Bigfang Bigtoof Blackaxe Blackfang Blackheart Blackskar Blacktoof Blitzrippa Bloodfang Bludcrumpa Bludflagg Bludtuz Bluemek Bonhamma Bonekraka Bonesnappa "Da Fist "Da Genrul" "Da Krusher" "Da Red Nob" Dakkabad Dakkahorn Dedfist Panzeehunta Dregdakka Dreggutz Blitzkart 'Eadcrumpa "Ed Zappa" Facepulpa Skullcleaver Git-Bomma Gitkrusha Gitsmasha Gobtoof Goresnappa Gorespitta Forang Grimclaw Grimgfang Gutgouger Gutrekka Teefsplita Tankskrappa 
+		}
+	}
+}
+
+aeldari_culture_group = {
+	graphical_culture = westerngfx
+	
+	asuryani_culture = {
+		male_names = {
+			Achillrial Aethor Ailen Almic Alshyra Althenian Anath'lan Anaya Ardyelle Arhathain Ariganna Ariniae Iliathin Asurmen Githellion Aurian Auric Avele Avenelle Baharroth Maugan Bel-Annath Karus Bilgaedrin Birliel Invaril Caelec Celachia Tarvaril Irolac Draech Eleannar Elenduil Enimiah Envyan Eon Erannion Erathal Evanaeroth Taolis Excellion Faeruithir Farendis Morcan Kaevi Kelmon Fuegan Gaeloch Geruthain Gesbier Strilasnion Khiraen Oloriel Toralven Guerradille Vathwal Hekmonah Hilan Illanor Illic Illuthis Inessar Intrisiel Iqbraesil Jainan Zonayen Kaeleth-Tul Kaerial Kai Kaliell Kalrimon Karandras Karhaedron Ffaid Kauerith Anvirr Avandir Korhedron Korlandril Korothil Kryasanth Alladrios Kyanorath Aileer Kysaduras Lahessa Laoreth Legirion Lhoix Lhykosidae Lithandros Liurth Linril Eladen Lorinth Lsathranil Maechu Malenbrin Mandr'thiel Maur Mauryon Mieqo Anthrillien Yrrthilien Muon Narine Nuadhu Nueleth Amonther Oristran Petrillien Prothenulh Qelanaris Kael Rakanis Reminil Rhyloor Rhyoc Ruterias Seoci Hihdrel Shaydi Shear'ann Kalistri Silvanol Kyrlrir Illimitar Solcar Eldorath Tuaren Sathbuinn Lathriel Syndilian Taldeer Tylanriel Jur Teryen Adrallanar Theuria Antelyth Ealion Torhaedril Trekhulir Trialeorn Turial Tyladrhas Tyleannar Ul'uric Uldanoreth Fachean Ulthos Eldrad Umbrial Valansar Valiel Veldoran Vinduil Vihirrio Gesson Yrannae Yriel Yrn-fae Yrthrian Eiladar Tishriel Yuen Eliac
+		}
+		female_names = {
+			Alianna Alishazier Arquellia Athenys Bemenacth Caerys Catritheyn Chandh'ra Osinell Clyona Ehriahna Ehveline Elarique Elleria Erandel Talyesin Galánta Medreyal Guenvyr Idranel Illandra Ilthana Iraneth Iriass Irillyth Iyanna Kaorelle Kayleth Yrliet Liosa Macha Maireth A'yilsha Nestra Q'sandria Amallyn Mehlendri Anathroelle Eluinne Tatheya Yhunai Ylocu Jain
+		}
+		dynasty_names = {
+			Ath'ulwei Stormcloud Swifteye Belphoebe Bethaneal Boldseer Brightshard Ciaradh Dawnslayer Swiftblade Kull Voidsinger Eversong Fharenal Fiorinintal Firehand Firesight Ghaelyn Goldenheart Goldhelm Goldsight Gravesong Heavenlance Nightspear Arienal Karhedra Keltoc Kethalain Kulcassian Kyldroth Lanaevyss Esmanthil Longgaze Longstrider Voidwalker Saim-Ingrelli Mournsong Nol Numeriel Orphiel Shadespear Shadoweye Shadowguide Shadowwind Silgar Silvercloud Silvereye Skystorm Starbane Starseeker Starshaper Stormwarden Sunspear Swiftblade Swiftflight Shanyr Tarnalys Telissa Telerath Teuthlas Thyllian Ullamar Ulthran Warbringer Whitetreader Shaie Mardawn Ysbwrieli Zar Zephyrblade
+		}
+	}
+	drukhari_culture = {
+		male_names = {
+			Marazhai Akhara'Keth Arhra Bellathonis Cidik Croniarch Drael Yrekh Drazhar Drekarth Arakan Khalys El'uriaq Fenir Gharax Surasis Hexachires Iridivyst Jalaxlar Xurul Kabyryk Kaharhaedros Karhedros Kas'queil Kelithresh Khaeyl Khargiel Kheradruakh Kiliarq Andross Vyishnar Kraillach Kresthekia K’shaic Maestru Malivex Malothrack Melandyr Melivaq Menesh Halyx Morr Mydilian Naezir Nyos Elsek Qu Alithir Quvelich Urien Veth Rekkul S'aronai Kulith Sekereax Traevelliath Korai Sybralath Syndriq Valossian Tahril Tarsidhe Tchaeul Th'tysh Theskril Thyndrak Thysk Tliensic Vakillar Asdrubael Vhigis Khorrzh Vlokarion Vorl-Xoelanth Vradzek Vraesque Witherchill Xelxyx Xerathis Xeryndtuil Khaeghris Makaxev Iyshak Thraed Iruthyr Y'polleon Ysclyth Zorothriel
+		}
+		female_names = {
+			Aestra Aishah Khirareq Alianna Alikhiaketh Anyalra Atreixes Yctria Kariasche Evelancia Drisella Idyliane Ignyss Iremeryss Vivithrex Kith Kruellagh Aurelia Maugra Salaine Nefertari No'akei Saethra Sh'kira Amelica Dhaemira Helica Vestartha Vielle Vranak Vysa Xelian Yaelindra Syren
+		}
+		dynasty_names = {
+			Aezyrraesh Bhan'tarkah Sekh Ghularis Davenyr Malcorvin Drash X'uskul Drys Dzhar Faerughast Gruemenael Hesperax Ka'Teren Kharavyxis Tongueblade Klax Toir Thrylemnis Malys Vaulkhere Vaskadeen Morkath Morn Yllithian Orinth Quicksilver Rakarth Rayden Ariensis Veldraken Scourgehand Shardheart Sliscus Soulstalker Sythrac Theskis Thraex D'raque Ullth Urect U'riss Vect Venomkiss Vhrex Malidrach Kharavyxis Xhakt Xorl-Thodt Xosh Xynariis Zythlex
+		}
+	}
+	exodite_culture = {
+		male_names = {
+			Achillrial Aethor Ailen Almic Alshyra Althenian Anath'lan Anaya Ardyelle Arhathain Ariganna Ariniae Iliathin Asurmen Githellion Aurian Auric Avele Avenelle Baharroth Maugan Bel-Annath Karus Bilgaedrin Birliel Invaril Caelec Celachia Tarvaril Irolac Draech Eleannar Elenduil Enimiah Envyan Eon Erannion Erathal Evanaeroth Taolis Excellion Faeruithir Farendis Morcan Kaevi Kelmon Fuegan Gaeloch Geruthain Gesbier Strilasnion Khiraen Oloriel Toralven Guerradille Vathwal Hekmonah Hilan Illanor Illic Illuthis Inessar Intrisiel Iqbraesil Jainan Zonayen Kaeleth-Tul Kaerial Kai Kaliell Kalrimon Karandras Karhaedron Ffaid Kauerith Anvirr Avandir Korhedron Korlandril Korothil Kryasanth Alladrios Kyanorath Aileer Kysaduras Lahessa Laoreth Legirion Lhoix Lhykosidae Lithandros Liurth Linril Eladen Lorinth Lsathranil Maechu Malenbrin Mandr'thiel Maur Mauryon Mieqo Anthrillien Yrrthilien Muon Narine Nuadhu Nueleth Amonther Oristran Petrillien Prothenulh Qelanaris Kael Rakanis Reminil Rhyloor Rhyoc Ruterias Seoci Hihdrel Shaydi Shear'ann Kalistri Silvanol Kyrlrir Illimitar Solcar Eldorath Tuaren Sathbuinn Lathriel Syndilian Taldeer Tylanriel Jur Teryen Adrallanar Theuria Antelyth Ealion Torhaedril Trekhulir Trialeorn Turial Tyladrhas Tyleannar Ul'uric Uldanoreth Fachean Ulthos Eldrad Umbrial Valansar Valiel Veldoran Vinduil Vihirrio Gesson Yrannae Yriel Yrn-fae Yrthrian Eiladar Tishriel Yuen Eliac
+		}
+		female_names = {
+			Alianna Alishazier Arquellia Athenys Bemenacth Caerys Catritheyn Chandh'ra Osinell Clyona Ehriahna Ehveline Elarique Elleria Erandel Talyesin Galánta Medreyal Guenvyr Idranel Illandra Ilthana Iraneth Iriass Irillyth Iyanna Kaorelle Kayleth Yrliet Liosa Macha Maireth A'yilsha Nestra Q'sandria Amallyn Mehlendri Anathroelle Eluinne Tatheya Yhunai Ylocu Jain
+		}
+		dynasty_names = {
+			Ath'ulwei Stormcloud Swifteye Belphoebe Bethaneal Boldseer Brightshard Ciaradh Dawnslayer Swiftblade Kull Voidsinger Eversong Fharenal Fiorinintal Firehand Firesight Ghaelyn Goldenheart Goldhelm Goldsight Gravesong Heavenlance Nightspear Arienal Karhedra Keltoc Kethalain Kulcassian Kyldroth Lanaevyss Esmanthil Longgaze Longstrider Voidwalker Saim-Ingrelli Mournsong Nol Numeriel Orphiel Shadespear Shadoweye Shadowguide Shadowwind Silgar Silvercloud Silvereye Skystorm Starbane Starseeker Starshaper Stormwarden Sunspear Swiftblade Swiftflight Shanyr Tarnalys Telissa Telerath Teuthlas Thyllian Ullamar Ulthran Warbringer Whitetreader Shaie Mardawn Ysbwrieli Zar Zephyrblade
+		}
+	}
+}
+
+necron_culture_group = {
+	graphical_culture = westerngfx
+	
+	necron_culture = {
+		male_names = {
+Aetehk Ah-hotep Ahhotekh Ahmontekh Akanabekh Akanabeth Am-heht Amarkun Amonhotekh Amontar Amunteaph Anathrosis Anaurus Ankra Anrakyr Anubitar Aramakh Arkhassa Ashenti Asmothep Atun Azderon Djoseras Drizyan Dzukar Eknothet Emriit Galmakh Hakmephet Hamanet Hapthatra Harri'apt Hasist Hasmoteph Heqiroth Hixos Illmahnokh Imotekh Ixatotekh Janzikh Kamoteph Kanish Kepakh Kephrekh Khepra'nek Khertykh Khetmes Khyrek Korovoskh Kothorahn Krispekh Krozha Maktlan Kutlakh Kythok Karifar Lakshmet Menhotok Mentep Merlek Mesophet Metzoi Nahumekh Nakhmas Naszar Navgran Nephreth Neshkafar Oblis Obyron Ogdovakh Oltyx Onryx Orikan Osiskor Ozkan Mannok-pha Phaek Pharanteph Phillias Qemau R'zhan R'drah Ragahzh Rahkoz Rakszan Raznaak Ruadzhe Sannet Sartokh Sekh'Ren Sepa Sata Setekh Shabb Shemvokh Simut Suthtis Svarokh Sylphek Szarekh Szaron Szeras Taranekh Tarekh Tartorekh Teknoth Thakmatar Thaszar Thoekh Tholotep Thulekh Tlazolt Toholk Traedrekkh Trazyn Turakhin Tynakht Ulte[ Ulthakar Uluszekh Unnas Valgul Vishani Vitokh Imizhar Vokh Tahek Vordreska Xantokh Xun-'bakyr Zabareas Zahndrekh Zanatek Zaphet Zarathusa Hengast-zo Zotha Zozar
+		}
+		female_names = {
+Aetehk Ah-hotep Ahhotekh Ahmontekh Akanabekh Akanabeth Am-heht Amarkun Amonhotekh Amontar Amunteaph Anathrosis Anaurus Ankra Anrakyr Anubitar Aramakh Arkhassa Ashenti Asmothep Atun Azderon Djoseras Drizyan Dzukar Eknothet Emriit Galmakh Hakmephet Hamanet Hapthatra Harri'apt Hasist Hasmoteph Heqiroth Hixos Illmahnokh Imotekh Ixatotekh Janzikh Kamoteph Kanish Kepakh Kephrekh Khepra'nek Khertykh Khetmes Khyrek Korovoskh Kothorahn Krispekh Krozha Maktlan Kutlakh Kythok Karifar Lakshmet Menhotok Mentep Merlek Mesophet Metzoi Nahumekh Nakhmas Naszar Navgran Nephreth Neshkafar Oblis Obyron Ogdovakh Oltyx Onryx Orikan Osiskor Ozkan Mannok-pha Phaek Pharanteph Phillias Qemau R'zhan R'drah Ragahzh Rahkoz Rakszan Raznaak Ruadzhe Sannet Sartokh Sekh'Ren Sepa Sata Setekh Shabb Shemvokh Simut Suthtis Svarokh Sylphek Szarekh Szaron Szeras Taranekh Tarekh Tartorekh Teknoth Thakmatar Thaszar Thoekh Tholotep Thulekh Tlazolt Toholk Traedrekkh Trazyn Turakhin Tynakht Ulte[ Ulthakar Uluszekh Unnas Valgul Vishani Vitokh Imizhar Vokh Tahek Vordreska Xantokh Xun-'bakyr Zabareas Zahndrekh Zanatek Zaphet Zarathusa Hengast-zo Zotha Zozar
+		}
+		dynasty_names = { Agdagath Akannazad Altymhor Ammunos Arotepk Arrynmarok Atun Charnovokh Dyvanakh Erebur Horth Hyrekh Ithakas Jhaetekh Kardenath Karnokh Kayra Kefalahn Ketatrix Khansu Khuenaten Magadha Malfakhenn Maynarkh Mefhamnet Mephrit Muphekta Nekthyst Nepheru Nephrekh Nhemret Nihilakh Novokh Nuthyan Ogdobekh Oltep Omtekh Oroskh Oruscar Phet'zesh Rytak Samnokh Sarnekh Sautekh Sekemtar Suhbekhar Szarekhan Thokt Tsarakura Uretp Xonthar Zathanor
+		}
+	}
+}
+
+tyranid_culture_group = {
+	graphical_culture = westerngfx
+	
+	tyranid_culture = {
+		male_names = {
+			Synapse
+		}
+		female_names = {
+			Synapse
+		}
+		dynasty_names = {
+			Node
+		}
+	}
+	genestealer_culture = {
+		male_names = {
+Jack Tiber Ackenvol Deinos Lukas Dilen Gerard Antonid Dorian Azahel Maximillius Brakmann Dustyn Caernavar Finneax Andreas Lex Nikolaas Erwell Tyras Ursurkar Armand Mikal Cyrus Galen Leopold Syvar Kasmund Demetrius Hechtor Durov Eugenian Geinst Jarodd Dravin Konstantin Otto Stefan Harkavian Alberich Arneld Henrig Rastomar Gustav Magnus Logan Lysander Macaroth Ollanius Throm Jonathor Octavius Rask Vasquez Orsani Tyrian Sebastus Illyich Yannick Zyvan Aloysius Titus Eskolios Iocanthos Cornelius Simion Ambros Pius Cornelis Goegoric Abelard Obedath Rulf Gideon Caspiel Enos Antonius Thaddeus Iago Abdulias Phaedrus Noum Erekart Volquan Uwoma Veynd Vuneris Vardoman Drakan Trajann Raphael Jethro Giselwin Corwin Konrad Bathasos Advalle Clovis Gallianus Silas Consuldyon Luther Ignatius Ratibor Castinus Adamant Begeter Shanus Foresire Grandsire Grice Hermaphage Hermiatus Galaxos Lhor Dethru Crasker Sharrow Ghyrson Marovitch Vorgan
+		}
+		female_names = {
+			Ada Adalya Adamanthea Adelynn Agatha Agentha Selena Agnes Alana Aldrathi Aliesha Kessola Amalica Amelda Anais Anarchia Rosetta Angelica Angelina Arabella Argenta Celeste Arlielle Verena Aspira Assumpta Astra Aurea Aveline Avra Beatrice Valabrist Befonica Berionne Temperance Elanor Briar Helena Callia Camille Carmina Carnelline Cassia Celiya Ceskina Charlotte Sigurd Chrisima Claire Corinn Danicia Alexis Decima Agathae Alicia Dorothea Olicia Ebba Elana Elenor Elivia Ellyrine Elveren Emiline Ereutha Erhynica Felicita Fidelia Gabriella Ghita Sabathine Magda Rosemaera Amalanthe Clarice Amity Iona Iridine Irinya Ishani Jasmine Jayne Jemreta Jocindyr Justyne Yulla Katherine Kerenna Larenta Laurelyn Liona Lucretia Erika LunariaMaelin Mari Meritia Miriya Moirelle Remidia Ophelia Petronella Miriael Ximena Ionica Elyza Imelda Ellsbeth Astrid Phoenicia Mersea Veridielle 
+		}
+		dynasty_names = {
+			Rudvald Vandire Cythera Ludovicia LaBray Kway Ornatov Ferrindon Haarlock Winterscale Valancius Trrozant Agamemnus Aggranoza Credo Drachmar Draconis Bjargbjorn Brayne Florienborque Crimson Catallus Chimaeros Condotti Garamach Goldenherm Goreman Helmawr Ludovicia Maghernus Madellan Absoluta Ravallion Merdena Roskavier Semper Noctis Nerhm Montante Esterant Valerius Venenum Callidus Vindicare Tharcher Vought Zhi-Meng Umboldt Threstinius Turannigen Angevin Arkthine Aquairre Balorodin Bravus Grim Slayde Sahansun Rathbone Okonawk Nusa Newmarrk Karamazov Rannick Horst Mendax Lymsis Pavo Nepythys Ruthven Rassilo Smythe Spinoza Tsouras Vinculus Tormun Vandevern Greyfax Emagna Aemos Kryptman Matthias Astromar Nomandes Ravenor Rorken Astolyev almenau Staccata Talaris Thysser Valeria Vasmire Vethric Grundvald Falx Swedyr Amaros Andarion Tectos Yoranta Aranthus Tamerocca Carpinus Nompherenti Xeneca Calcaerius Daskovian Wurm Magos Davien Matterzhek Noan Starn Tenndarc
+		}
+	}
+}
+
+chaos_culture_group = {
+	graphical_culture = westerngfx
+	
+	chaos_culture = {
+		male_names = {
+			Jack Tiber Ackenvol Deinos Lukas Dilen Gerard Antonid Dorian Azahel Maximillius Brakmann Dustyn Caernavar Finneax Andreas Lex Nikolaas Erwell Tyras Ursurkar Armand Mikal Cyrus Galen Leopold Syvar Kasmund Demetrius Hechtor Durov Eugenian Geinst Jarodd Dravin Konstantin Otto Stefan Harkavian Alberich Arneld Henrig Rastomar Gustav Magnus Logan Lysander Macaroth Ollanius Throm Jonathor Octavius Rask Vasquez Orsani Tyrian Sebastus Illyich Yannick Zyvan Aloysius Titus Eskolios Iocanthos Cornelius Simion Ambros Pius Cornelis Goegoric Abelard Obedath Rulf Gideon Caspiel Enos Antonius Thaddeus Iago Abdulias Phaedrus Noum Erekart Volquan Uwoma Veynd Vuneris Vardoman Drakan Trajann Raphael Jethro Giselwin Corwin Konrad Bathasos Advalle Clovis Gallianus Silas Consuldyon Luther Ignatius Ratibor Castinus
+		}
+		female_names = {
+			Ada Adalya Adamanthea Adelynn Agatha Agentha Selena Agnes Alana Aldrathi Aliesha Kessola Amalica Amelda Anais Anarchia Rosetta Angelica Angelina Arabella Argenta Celeste Arlielle Verena Aspira Assumpta Astra Aurea Aveline Avra Beatrice Valabrist Befonica Berionne Temperance Elanor Briar Helena Callia Camille Carmina Carnelline Cassia Celiya Ceskina Charlotte Sigurd Chrisima Claire Corinn Danicia Alexis Decima Agathae Alicia Dorothea Olicia Ebba Elana Elenor Elivia Ellyrine Elveren Emiline Ereutha Erhynica Felicita Fidelia Gabriella Ghita Sabathine Magda Rosemaera Amalanthe Clarice Amity Iona Iridine Irinya Ishani Jasmine Jayne Jemreta Jocindyr Justyne Yulla Katherine Kerenna Larenta Laurelyn Liona Lucretia Erika LunariaMaelin Mari Meritia Miriya Moirelle Remidia Ophelia Petronella Miriael Ximena Ionica Elyza Imelda Ellsbeth
+		}
+		dynasty_names = {
+			Rudvald Vandire Cythera Ludovicia LaBray Kway Ornatov Ferrindon Haarlock Winterscale Valancius Trrozant Agamemnus Aggranoza Credo Drachmar Draconis Bjargbjorn Brayne Florienborque Crimson Catallus Chimaeros Condotti Garamach Goldenherm Goreman Helmawr Ludovicia Maghernus Madellan Absoluta Ravallion Merdena Roskavier Semper Noctis Nerhm Montante Esterant Valerius Venenum Callidus Vindicare Tharcher Vought Zhi-Meng Umboldt Threstinius Turannigen Angevin Arkthine Aquairre Balorodin Bravus Grim Slayde Sahansun Rathbone Okonawk Nusa Newmarrk Karamazov Rannick Horst Mendax Lymsis Pavo Nepythys Ruthven Rassilo Smythe Spinoza Tsouras Vinculus Tormun Vandevern Greyfax Emagna Aemos Kryptman Matthias Astromar Nomandes Ravenor Rorken Astolyev almenau Staccata Talaris Thysser Valeria Vasmire Vethric Grundvald Falx Swedyr Amaros Andarion Tectos Yoranta Aranthus Tamerocca Carpinus Nompherenti
+		}
+	}
+	heretic_astartes_culture = {
+		country = { has_banners = yes}
+		province = { local_has_banners = yes}
+		male_names = {
+			Narendos Breus Porphethmio Ghai Klam Demarese Eventob Khalagreb Heleandeo Kheradik Delvithok Phak Xorphiad Xeragren Reventig Xezyastam Dulthrox Feous Feraghath Vraxekh Cyrak-Kis Gius Lhorgarth Dulthrash-Kos Shai Xorandox Karaghath Pakrathes Lonethrek Kaithasos Rylarnian Korion-Glux Cyriax Caiphosk Carnopsos Veradok Skaladdoth Khoriel
+		}
+		female_names = {
+			Narendos Breus Porphethmio Ghai Klam Demarese Eventob Khalagreb Heleandeo Kheradik Delvithok Phak Xorphiad Xeragren Reventig Xezyastam Dulthrox Feous Feraghath Vraxekh Cyrak-Kis Gius Lhorgarth Dulthrash-Kos Shai Xorandox Karaghath Pakrathes Lonethrek Kaithasos Rylarnian Korion-Glux Cyriax Caiphosk Carnopsos Veradok Skaladdoth Khoriel
+		}
+		dynasty_names = {
+			Nightripper Hackblood Klaon Bloodpincer Coldfeast Scarblade Warp-Eater Janenax Warpcleaver Bittercurse Spinesplitter Whispertongue Deathdrinker Worldthirster Gnarlbane Razorscourge Fleshpiercer Doomskin Nighthunter Cravenmaul Nightspawn Skullclaimer Gnarlgrasp
+		}
+	}
+	dark_mechanicum_culture = {
+		male_names = {
+			Alpha Alsmo Antigonus Arcotholitis Reylan Autarthix Barolomus Ultima Geard Nesium Cambrius Phra-Mu Cordus-Rho Corteswain Acheronian Daedalosus Dagnus-Zek Decimus-Rho Delta-3 Gregorius Dominus Benedict Draykavac Reston Vituvius Epsilon-Theta Erasmus Eyrotellamax Enabrin Fedorovich Gaius Mendel Gelentian Gerantor Recteion Itumade Hadron Hermiatus Herrode Sigulus Ketrllophil Hieronymus Iapetus Ivasnophon Zagreus Kelbor Heptus Kryptaestrex Kzarch Arkhan Phaeton Karolus Omnidus Ohmnix Aurgreus Quintus Regulus Magna-Delta-8v8 Lho-0.4343 53/3 Zeta-9 B0U/M4N K-T Trantium-01 A-34-Eliptyka Xi-Nu-73 X-101 I9A/E9Y T-S N-K Pi-Gamma Iota-8 Upsilon-Theta Ozmonolus Ohmnov-Tau
+		}
+		female_names = {
+			Cassia Curia Dalia Hieronyma Elizah Bellona Delpha Phea Dorthiya Telluria Curia Trimejia Dalia Galentia Felicia Magna-Delta-8v8 Lho-0.4343 53/3 Zeta-9 B0U/M4N K-T Transacta-7Y1 Xi-Nu-73 X-101 T-S N-K Pi-Gamma Iota-8 Upsilon-Theta
+		}
+		dynasty_names = {
+			Tayber Tal Tertian Rhoda Rheim Raskian Quavarian Phlagustok Phal Osmium Orlandriaz Norastye Heldentum Myhr Mojaro Modwen Maximal Mankata Mankata Malthirion Magna Lux Kotov Laurentis Khleng Gwelt Borgovda Kantum Kaudge Decima Dol Draconis Cythera Magna-Delta-8v8 Lho-0.4343 53/3 Zeta-9 B0U/M4N K-T Transacta-7Y1 Trantium-01 A-34-Eliptyka Xi-Nu-73 X-101 I9A/E9Y C8W/Y5A C2Q/H4I 5-Qveth
+			
+		}
+	}
+	chaos_knight_culture = {
+		male_names = {
+			Jack Tiber Ackenvol Deinos Lukas Dilen Gerard Antonid Dorian Azahel Maximillius Brakmann Dustyn Caernavar Finneax Andreas Lex Nikolaas Erwell Tyras Ursurkar Armand Mikal Cyrus Galen Leopold Syvar Kasmund Demetrius Hechtor Durov Eugenian Geinst Jarodd Dravin Konstantin Otto Stefan Harkavian Alberich Arneld Henrig Rastomar Gustav Magnus Logan Lysander Macaroth Ollanius Throm Jonathor Octavius Rask Vasquez Orsani Tyrian Sebastus Illyich Yannick Zyvan Aloysius Titus Eskolios Iocanthos Cornelius Simion Ambros Pius Cornelis Goegoric Abelard Obedath Rulf Gideon Caspiel Enos Antonius Thaddeus Iago Abdulias Phaedrus Noum Erekart Volquan Uwoma Veynd Vuneris Vardoman Drakan Trajann Raphael Jethro Giselwin Corwin Konrad Bathasos Advalle Clovis Gallianus Silas Consuldyon Luther Ignatius Ratibor Castinus
+		}
+		female_names = {
+			Ada Adalya Adamanthea Adelynn Agatha Agentha Selena Agnes Alana Aldrathi Aliesha Kessola Amalica Amelda Anais Anarchia Rosetta Angelica Angelina Arabella Argenta Celeste Arlielle Verena Aspira Assumpta Astra Aurea Aveline Avra Beatrice Valabrist Befonica Berionne Temperance Elanor Briar Helena Callia Camille Carmina Carnelline Cassia Celiya Ceskina Charlotte Sigurd Chrisima Claire Corinn Danicia Alexis Decima Agathae Alicia Dorothea Olicia Ebba Elana Elenor Elivia Ellyrine Elveren Emiline Ereutha Erhynica Felicita Fidelia Gabriella Ghita Sabathine Magda Rosemaera Amalanthe Clarice Amity Iona Iridine Irinya Ishani Jasmine Jayne Jemreta Jocindyr Justyne Yulla Katherine Kerenna Larenta Laurelyn Liona Lucretia Erika LunariaMaelin Mari Meritia Miriya Moirelle Remidia Ophelia Petronella Miriael Ximena Ionica Elyza Imelda Ellsbeth
+		}
+		dynasty_names = {
+			Abbatrox Aerthegn Akumara Annihilation Araknis Arcanus Atrax Attakarna Bazhkar Beophane Black Blisterborn Caesarean Cerberan Chimaeros Chromatic Devine Drakon Drear Felcarn Gallerica Garras Ghast Gnaw Gotrith Grendyl Gurgeon Herpetrax Hyboras Hydrax Iattol Igrake Ioeden Ju'll Kepsydra Khomentis Khymere Kinxer Korvax Lucaris Makabius Malinax Mandrakor Manticos Medusos Mesmr Morbidia Mordred Mothrok Mutica Mykorphas Niagma Noctis Oroborn Parasitis Perdaxia Porvyx Qiln Rajha Redoubt Repugnor Senica Shan Mor Skorpiod Slughorn Solantari Thryn Thurengis Turbidos Vorran Vextrix Vrachul Vyridion Wyvorn Xerathon Yerrin
+		}
+	}
+}
+
+votann_culture_group = {
+	graphical_culture = westerngfx
+	
+	kin_culture = {
+		male_names = {
+			Akkyt Okyp Drukh Pyko Niyak Yoht Korv Tok Vak Vykat Toryk Hyvor Kottak Krynn Uthar Ynnok Adunn Ettok Vok Vynn Aktol Vann Tajuk Svekh Yahp Hyvor Hak Havyr Kovymm Utann 
+		}
+		female_names = {
+			Yva Yuka Kimm Vyha Simmka Ymma Ymme Vukha
+		}
+		dynasty_names = {
+			Blohdfyr Keen-Eye Faenwroght Farstryd Ghunnar Grendok Grudgekeeper Gaard Hegem Hyrthka  Kronn Iyrnwerke Warspeke Vatyk Urann Thurkann Thuurk Seyr Sturmm Stoyk Strykk Bane-Slayer Rokhewyr Rheyd Regyl Orkhunter
+		}
+	}
+}
+
+tau_culture_group = {
+	graphical_culture = westerngfx
+	country = { has_samurai = yes }
+	province = { local_has_samurai = yes }
+	ethereal_culture = {
+		male_names = {
+			Aun'chau Aun'cho Aun'do Aun'fyr Aun'hhu Aun'jash Aun'kais Aun'kathl Aun'kir Aun'ko Aun'la Aun'la Aun'pau Aun'Ro Aun'shar Aun'shi Aun'taniel Aun'thel Aun'ui Aun'va Aun'vessol Aun'vos Aun'vre Aun'wei
+		}
+		female_names = {
+			Arra'kon Aun'chau Aun'cho Aun'do Aun'fyr Aun'hhu Aun'jash Aun'kais Aun'kathl Aun'kir Aun'ko Aun'la Aun'la Aun'pau Aun'Ro Aun'shar Aun'shi Aun'taniel Aun'thel Aun'ui Aun'va Aun'vessol Aun'vos Aun'vre Aun'wei
+		}
+		dynasty_names = {
+			T'au T'au'n D'yanoi Bork'an Dal'yth Fal'shia Vior'la Sa'cea Au'taal N'dras Ke'lshan Elsy'eir Tash'var Vash'ya T'olku Ksi'm'yen Fi'rios Mu'gulath Fe'saan Kor'tal Yo'vai Uan'Voss Velk'Han Dy'aketh Hul'aan
+		}
+	}
+	fire_caste_culture = {
+		male_names = {
+			Shas'chau Shas'cho Shas'do Shas'fyr Shas'hhu Shas'jash Shas'kais Shas'kathl Shas'kir Shas'ko Shas'la Shas'la Shas'pau Shas'Ro Shas'shar Shas'shi Shas'taniel Shas'thel Shas'ui Shas'va Shas'vessol Shas'vos Shas'vre Shas'wei
+		}
+		female_names = {
+			Shas'chau Shas'cho Shas'do Shas'fyr Shas'hhu Shas'jash Shas'kais Shas'kathl Shas'kir Shas'ko Shas'la Shas'la Shas'pau Shas'Ro Shas'shar Shas'shi Shas'taniel Shas'thel Shas'ui Shas'va Shas'vessol Shas'vos Shas'vre Shas'wei
+		}
+		dynasty_names = {
+			T'au T'au'n D'yanoi Bork'an Dal'yth Fal'shia Vior'la Sa'cea Au'taal N'dras Ke'lshan Elsy'eir Tash'var Vash'ya T'olku Ksi'm'yen Fi'rios Mu'gulath Fe'saan Kor'tal Yo'vai Uan'Voss Velk'Han Dy'aketh Hul'aan
+		}
+	}
+	water_caste_culture = {
+		male_names = {
+			Por'chau Por'cho Por'do Por'fyr Por'hhu Por'jash Por'kais Por'kathl Por'kir Por'ko Por'la Por'la Por'pau Por'Ro Por'shar Por'shi Por'taniel Por'thel Por'ui Por'va Por'vessol Por'vos Por'vre Por'wei
+		}
+		female_names = {
+			Por'chau Por'cho Por'do Por'fyr Por'hhu Por'jash Por'kais Por'kathl Por'kir Por'ko Por'la Por'la Por'pau Por'Ro Por'shar Por'shi Por'taniel Por'thel Por'ui Por'va Por'vessol Por'vos Por'vre Por'wei
+		}
+		dynasty_names = {
+			T'au T'au'n D'yanoi Bork'an Dal'yth Fal'shia Vior'la Sa'cea Au'taal N'dras Ke'lshan Elsy'eir Tash'var Vash'ya T'olku Ksi'm'yen Fi'rios Mu'gulath Fe'saan Kor'tal Yo'vai Uan'Voss Velk'Han Dy'aketh Hul'aan
+		}
+	}
+	air_caste_culture = {
+		male_names = {
+			Kor'chau Kor'cho Kor'do Kor'fyr Kor'hhu Kor'jash Kor'kais Kor'kathl Kor'kir Kor'ko Kor'la Kor'la Kor'pau Kor'Ro Kor'shar Kor'shi Kor'taniel Kor'thel Kor'ui Kor'va Kor'vessol Kor'vos Kor'vre Kor'wei
+		}
+		female_names = {
+			Kor'chau Kor'cho Kor'do Kor'fyr Kor'hhu Kor'jash Kor'kais Kor'kathl Kor'kir Kor'ko Kor'la Kor'la Kor'pau Kor'Ro Kor'shar Kor'shi Kor'taniel Kor'thel Kor'ui Kor'va Kor'vessol Kor'vos Kor'vre Kor'wei
+		}
+		dynasty_names = {
+			T'au T'au'n D'yanoi Bork'an Dal'yth Fal'shia Vior'la Sa'cea Au'taal N'dras Ke'lshan Elsy'eir Tash'var Vash'ya T'olku Ksi'm'yen Fi'rios Mu'gulath Fe'saan Kor'tal Yo'vai Uan'Voss Velk'Han Dy'aketh Hul'aan
+		}
+	}
+	earth_caste_culture = {
+		male_names = {
+			Fio'chau Fio'cho Fio'do Fio'fyr Fio'hhu Fio'jash Fio'kais Fio'kathl Fio'kir Fio'ko Fio'la Fio'la Fio'pau Fio'Ro Fio'shar Fio'shi Fio'taniel Fio'thel Fio'ui Fio'va Fio'vessol Fio'vos Fio'vre Fio'wei
+		}
+		female_names = {
+			Fio'chau Fio'cho Fio'do Fio'fyr Fio'hhu Fio'jash Fio'kais Fio'kathl Fio'kir Fio'ko Fio'la Fio'la Fio'pau Fio'Ro Fio'shar Fio'shi Fio'taniel Fio'thel Fio'ui Fio'va Fio'vessol Fio'vos Fio'vre Fio'wei
+		}
+		dynasty_names = {
+			T'au T'au'n D'yanoi Bork'an Dal'yth Fal'shia Vior'la Sa'cea Au'taal N'dras Ke'lshan Elsy'eir Tash'var Vash'ya T'olku Ksi'm'yen Fi'rios Mu'gulath Fe'saan Kor'tal Yo'vai Uan'Voss Velk'Han Dy'aketh Hul'aan
+		}
+	}
+}
+
+xeno_culture_group = {
+	graphical_culture = westerngfx
+	
+	hrud_culture = {
+		male_names = {
+			Anghkor Tehkgrok Jiynko Yuka'yc Gohk-ah Khagguk Gorok Khrob'tcho Dahyak Griahgri Harbyx Grark Tohra'tcha Dohra'ohk Lokh Mataba Omutu Opukh Orak OrtrazkPechallai Dohra'to Doakhye Ohrak'tcha Khibala
+		}
+		female_names = {
+			Anghkor Tehkgrok Jiynko Yuka'yc Gohk-ah Khagguk Gorok Khrob'tcho Dahyak Griahgri Harbyx Grark Tohra'tcha Dohra'ohk Lokh Mataba Omutu Opukh Orak OrtrazkPechallai Dohra'to Doakhye Ohrak'tcha Khibala
+		}
+		dynasty_names = {
+			Prok Ch-Choh Chagrill Cho'yar Ga'ah Glekh Gota Grekh Krarh Kyr'am Kyrek Tak Tohrrok Trosk Yabek Yusra
+		}
+	}
+	slaugth_culture = {
+		male_names = {
+			Anghkor Tehkgrok Jiynko Yuka'yc Gohk-ah Khagguk Gorok Khrob'tcho Dahyak Griahgri Harbyx Grark Tohra'tcha Dohra'ohk Lokh Mataba Omutu Opukh Orak OrtrazkPechallai Dohra'to Doakhye Ohrak'tcha Khibala
+		}
+		female_names = {
+			Anghkor Tehkgrok Jiynko Yuka'yc Gohk-ah Khagguk Gorok Khrob'tcho Dahyak Griahgri Harbyx Grark Tohra'tcha Dohra'ohk Lokh Mataba Omutu Opukh Orak OrtrazkPechallai Dohra'to Doakhye Ohrak'tcha Khibala
+		}
+		dynasty_names = {
+			Prok Ch-Choh Chagrill Cho'yar Ga'ah Glekh Gota Grekh Krarh Kyr'am Kyrek Tak Tohrrok Trosk Yabek Yusra
+		}
+	}
+	kroot_culture = {
+		male_names = {
+			Anghkor Tehkgrok Jiynko Yuka'yc Gohk-ah Khagguk Gorok Khrob'tcho Dahyak Griahgri Harbyx Grark Tohra'tcha Dohra'ohk Lokh Mataba Omutu Opukh Orak OrtrazkPechallai Dohra'to Doakhye Ohrak'tcha Khibala
+		}
+		female_names = {
+			Anghkor Tehkgrok Jiynko Yuka'yc Gohk-ah Khagguk Gorok Khrob'tcho Dahyak Griahgri Harbyx Grark Tohra'tcha Dohra'ohk Lokh Mataba Omutu Opukh Orak OrtrazkPechallai Dohra'to Doakhye Ohrak'tcha Khibala
+		}
+		dynasty_names = {
+			Prok Ch-Choh Chagrill Cho'yar Ga'ah Glekh Gota Grekh Krarh Kyr'am Kyrek Tak Tohrrok Trosk Yabek Yusra
+		}
+	}
+	xeno_culture = {
+		male_names = {
+			Anghkor Tehkgrok Jiynko Yuka'yc Gohk-ah Khagguk Gorok Khrob'tcho Dahyak Griahgri Harbyx Grark Tohra'tcha Dohra'ohk Lokh Mataba Omutu Opukh Orak OrtrazkPechallai Dohra'to Doakhye Ohrak'tcha Khibala
+		}
+		female_names = {
+			Anghkor Tehkgrok Jiynko Yuka'yc Gohk-ah Khagguk Gorok Khrob'tcho Dahyak Griahgri Harbyx Grark Tohra'tcha Dohra'ohk Lokh Mataba Omutu Opukh Orak OrtrazkPechallai Dohra'to Doakhye Ohrak'tcha Khibala
+		}
+		dynasty_names = {
+			Prok Ch-Choh Chagrill Cho'yar Ga'ah Glekh Gota Grekh Krarh Kyr'am Kyrek Tak Tohrrok Trosk Yabek Yusra
+		}
+	}
+}

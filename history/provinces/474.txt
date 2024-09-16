@@ -1,0 +1,9 @@
+add_core = XAU
+owner = XAU
+controller = XAU
+religion = chaos_undivided
+culture = chaos_culture
+base_tax = 1
+base_production = 1
+base_manpower = 3
+trade_goods = promethium

@@ -1,0 +1,438 @@
+Imperial_Branch_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		NOT = { tag = XXA }
+		primary_culture = human_culture
+		
+	}
+	has_country_shield = yes
+	
+	Imperial_Mission_1 = {
+		icon = mission_imperial_nobles
+		required_missions = { Imperial_Mission_4 }
+		position = 2
+		
+		provinces_to_highlight = {
+			owned_by = ROOT
+			controlled_by = ROOT
+		}
+		
+		trigger = {
+			estate_loyalty = {
+				estate = estate_nobles
+				loyalty = 60
+			}
+		}
+		
+		effect = {
+			add_ruler_modifier = {
+				name = Imperial_Connections
+				duration = -1
+			}	
+			custom_tooltip = Imperial_Spires_Bonus_Tooltip
+			if = {
+				limit = {
+					num_of_estate_privileges = {
+						estate = estate_nobles
+						value = 3
+					}
+				}
+				custom_tooltip = BONUS_REWARD_YES
+			}
+			else = { custom_tooltip = BONUS_REWARD_NO }
+			tooltip = {
+				define_advisor = {
+					type = statesman
+					skill = 3
+					discount = yes
+				}
+			}
+			hidden_effect = {
+				if = {
+					limit = {
+						num_of_estate_privileges = {
+							estate = estate_nobles
+							value = 3
+						}
+					}
+					define_advisor = {
+						type = statesman
+						skill = 3
+						discount = yes
+					}
+				}
+			}
+		}
+	}
+}
+
+Imperial_Branch_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		NOT = { tag = XXA }
+		primary_culture = human_culture
+	}
+	has_country_shield = yes
+	
+	Imperial_Mission_2 = {
+		icon = mission_astra_militarum
+		required_missions = { Imperial_Mission_4 }
+		position = 2
+		
+		provinces_to_highlight = {
+			units_in_province = ROOT
+			owned_by = ROOT
+			controlled_by = ROOT
+		}
+		
+		trigger = {
+			num_of_regiments_at_full_drill = 5
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = PDF_Training
+				duration = 18250
+			}
+		}
+	}
+	Imperial_Mission_3 = {
+		icon = mission_logisticarum
+		required_missions = { Imperial_Mission_1 Imperial_Mission_2 }
+		position = 3
+		
+		provinces_to_highlight = {
+			owned_by = ROOT
+			is_capital = yes
+		}
+		
+		trigger = {
+			capital_scope = {
+				controlled_by = ROOT
+				num_of_times_improved_by_owner = 5
+			}
+		}
+		
+		effect = {
+			custom_tooltip = Imperial_Generatoria_Bonus_Tooltip
+		}
+	}
+}
+
+Imperial_Branch_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		NOT = { tag = XXA }
+		primary_culture = human_culture
+	}
+	has_country_shield = yes
+	
+	Imperial_Mission_4 = {
+		icon = mission_noctis
+		required_missions = {}
+		position = 1
+		
+		provinces_to_highlight = {
+		}
+		
+		trigger = {
+			army_size_percentage = 1
+			capital_scope = {
+				NOT = { devastation = 1 }
+			}
+		}
+		
+		effect = {
+			custom_tooltip = Imperial_Wargoals_Tooltip
+		}
+	}
+	Imperial_Mission_5 = {
+		icon = mission_guilliman
+		required_missions = { Imperial_Mission_2 Imperial_Mission_4 Imperial_Mission_6 }
+		position = 3
+		
+		provinces_to_highlight = {
+			controlled_by = XXA
+		}
+		
+		trigger = {	
+			OR = {
+				reverse_has_opinion = {
+					who = XXA
+					value = 100
+				}
+				has_spy_network_in = {
+					who = ROOT
+					value = 30
+				}
+			}
+		}
+		
+		effect = {
+			country_event = { 
+				id = imperial_events.1
+			}
+		}
+	}
+}
+
+Imperial_Branch_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		NOT = { tag = XXA }
+		primary_culture = human_culture
+	}
+	has_country_shield = yes
+	
+	Imperial_Mission_6 = {
+		icon = mission_chapter_peasant
+		required_missions = {  Imperial_Mission_4  }
+		position = 2
+		
+		provinces_to_highlight = {
+			owned_by = ROOT
+			is_capital = yes
+		}
+		
+		trigger = {
+			OR = {
+				custom_trigger_tooltip = {
+					tooltip = Imperial_Gangs_Trigger_Tooltip
+					check_variable = {
+						which = imperial_missions_exploited_development_count
+						value = 3
+					}
+				}
+				capital_scope = {
+					OR = {
+						has_building = courthouse
+						has_building = town_hall
+					}
+				}
+			}
+		}
+		
+		effect = {
+			custom_tooltip = Imperial_Gangs_Bonus_Tooltip
+			if = {
+				limit = {
+					check_variable = {
+						which = imperial_missions_exploited_development_count
+						value = 3
+					}
+				}
+				custom_tooltip = BONUS_REWARD_YES
+			}
+			else = { custom_tooltip = BONUS_REWARD_NO }
+			tooltip = {
+				add_estate_loyalty = {
+					estate = estate_nobles
+					loyalty = 25
+				}
+			}
+			hidden_effect = {
+				if = {
+					limit = {
+						check_variable = {
+							which = imperial_missions_exploited_development_count
+							value = 3
+						}
+					}
+					add_estate_loyalty = {
+						estate = estate_nobles
+						loyalty = 25
+					}
+				}
+			}
+
+
+			custom_tooltip = Imperial_Gangs_Bonus_Two_Tooltip
+			if = {
+				limit = {
+					capital_scope = {
+						OR = {
+							has_building = courthouse
+							has_building = town_hall
+						}
+					}
+				}
+				custom_tooltip = BONUS_REWARD_YES
+			}
+			else = { custom_tooltip = BONUS_REWARD_NO }
+			tooltip = {
+				capital_scope = {
+					add_base_production = 1
+					add_base_manpower = 2
+				}
+			}
+			hidden_effect = {
+				if = {
+					limit = {
+						capital_scope = {
+							OR = {
+								has_building = courthouse
+								has_building = town_hall
+							}
+						}
+					}
+					capital_scope = {
+						add_base_production = 1
+						add_base_manpower = 2
+					}
+				}
+			}
+		}
+	}
+	Imperial_Mission_7 = {
+		icon = mission_genestealer_propaganda
+		required_missions = { Imperial_Mission_6 Imperial_Mission_8 }
+		position = 3
+		
+		provinces_to_highlight = {
+		}
+		
+		trigger = {
+			OR = {
+				custom_trigger_tooltip = {
+					tooltip = Imperial_Purge_Chaos_Trigger_Tooltip
+					OR = {
+						has_country_modifier = inquisition_thorians
+						has_country_modifier = inquisition_amalathians
+						has_country_modifier = inquisition_ardentites
+						has_country_modifier = inquisition_monodominants
+					}
+				}
+				custom_trigger_tooltip = {
+					tooltip = Imperial_Purge_Chaos_Trigger_Two_Tooltip
+					OR = {
+						has_country_modifier = inquisition_xanthites
+						has_country_modifier = inquisition_recongregationists
+						has_country_modifier = inquisition_istvaanists
+						has_country_modifier = inquisition_libricaranists
+					}
+				}
+
+			}
+		}
+		
+		effect = {
+			custom_tooltip = Imperial_Purge_Chaos_Bonus_Tooltip
+			if = {
+				limit = {
+					OR = {
+						has_country_modifier = inquisition_thorians
+						has_country_modifier = inquisition_amalathians
+						has_country_modifier = inquisition_ardentites
+						has_country_modifier = inquisition_monodominants
+					}
+				}
+				custom_tooltip = BONUS_REWARD_YES
+			}
+			else = { custom_tooltip = BONUS_REWARD_NO }
+			tooltip = {
+				add_estate_loyalty = {
+					estate = estate_church
+					loyalty = 25
+				}
+			}
+			hidden_effect = {
+				if = {
+					limit = {
+						OR = {
+							has_country_modifier = inquisition_thorians
+							has_country_modifier = inquisition_amalathians
+							has_country_modifier = inquisition_ardentites
+							has_country_modifier = inquisition_monodominants
+						}
+					}
+					add_estate_loyalty = {
+						estate = estate_church
+						loyalty = 25
+					}
+				}
+			}
+			custom_tooltip = Imperial_Purge_Chaos_Bonus_Two_Tooltip
+			if = {
+				limit = {
+					OR = {
+						has_country_modifier = inquisition_xanthites
+						has_country_modifier = inquisition_recongregationists
+						has_country_modifier = inquisition_istvaanists
+						has_country_modifier = inquisition_libricaranists
+					}
+				}
+				custom_tooltip = BONUS_REWARD_YES
+			}
+			else = { custom_tooltip = BONUS_REWARD_NO }
+			tooltip = {
+				add_country_modifier = { 
+					name = imperial_purge_chaos_bonus
+					duration = 5475
+				}
+			}
+			hidden_effect = {
+				if = {
+					limit = {
+						OR = {
+							has_country_modifier = inquisition_xanthites
+							has_country_modifier = inquisition_recongregationists
+							has_country_modifier = inquisition_istvaanists
+							has_country_modifier = inquisition_libricaranists
+						}
+					}
+					add_country_modifier = { 
+						name = imperial_purge_chaos_bonus
+						duration = 5475
+					}
+				}
+			}
+		}
+	}
+}
+
+Imperial_Branch_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		NOT = { tag = XXA }
+		primary_culture = human_culture
+	}
+	has_country_shield = yes
+	
+	Imperial_Mission_8 = {
+		icon = mission_genestealer_diplomacy
+		required_missions = { Imperial_Mission_4 }
+		position = 2
+		
+		provinces_to_highlight = {
+		}
+		
+		trigger = {
+			OR = {
+				has_church_aspect = imperial_cult_inquisition_ordo_hereticus_aspect
+				has_church_aspect = imperial_cult_adeptus_terra_arbites_aspect
+				has_church_aspect = imperial_cult_ecclesiarchy_sororitas_aspect
+			}
+			estate_loyalty = {
+				estate = estate_church
+				loyalty = 60
+			}
+		}
+		
+		effect = {
+			add_country_modifier = { 
+				name = imperial_redemptionists_bonus
+				duration = 5475
+			}
+		}
+	}
+}

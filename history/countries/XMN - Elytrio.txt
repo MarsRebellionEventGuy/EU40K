@@ -1,0 +1,17 @@
+government = theocracy
+add_government_reform = genestealer_cult_reform
+government_rank = 1
+technology_group = imperial
+religion = tyranid
+primary_culture = genestealer_culture
+capital = 3117
+
+1970.12.12 = {
+		monarch = {
+			name = "Ardalle Makasat"	
+			adm = 2
+			dip = 4
+			mil = 5
+		}
+	}
+}

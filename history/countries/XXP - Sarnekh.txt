@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = necron_dynasty_reform
+government_rank = 1
+technology_group = necron
+religion = destroyer_cult
+primary_culture = necron_culture
+capital = 757
+
+1970.12.12 = {
+	monarch = {
+		name = "Thaszar the Invincible"	
+			dynasty = " "
+		adm = 1
+		dip = 3
+		mil = 4
+	}
+}

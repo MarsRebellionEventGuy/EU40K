@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = imperial_governorate_reform
+government_rank = 1
+technology_group = imperial
+religion = imperial_cult
+primary_culture = human_culture
+capital = 1845
+
+1970.12.12 = {
+		monarch = {
+			name = "Bella Sigholt"	
+			adm = 2
+			dip = 3
+			mil = 5
+			female = yes
+		}
+	}
+}

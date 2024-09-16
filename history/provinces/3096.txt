@@ -1,0 +1,9 @@
+add_core = XJL
+owner = XJL
+controller = XJL
+religion = aeldari
+culture = exodite_culture
+base_tax = 2
+base_production = 2
+base_manpower = 3
+trade_goods = wraithbone

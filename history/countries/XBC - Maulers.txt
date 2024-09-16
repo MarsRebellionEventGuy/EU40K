@@ -1,0 +1,17 @@
+government = theocracy
+add_government_reform = heretic_astartes_reform
+government_rank = 1
+technology_group = chaos
+religion = khorne
+primary_culture = chaos_culture
+capital = 490
+
+1970.12.12 = {
+		monarch = {
+			name = "Torgax Axefist"	
+			adm = 1
+			dip = 2
+			mil = 6
+		}
+	}
+}

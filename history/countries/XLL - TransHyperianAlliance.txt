@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = league_votann_reform
+government_rank = 1
+technology_group = votann
+religion = votann
+primary_culture = kin_culture
+capital = 3037
+
+1970.12.12 = {
+		monarch = {
+			name = "Yuka Gaard"	
+			adm = 5
+			dip = 2
+			mil = 1
+		}
+	}
+}

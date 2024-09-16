@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = imperial_knight_reform
+government_rank = 1
+technology_group = mechanicus
+religion = imperial_cult
+primary_culture = knight_culture
+capital = 3114
+
+1970.12.12 = {
+		monarch = {
+			name = "Lax van der Ryke"	
+			adm = 1
+			dip = 2
+			mil = 1
+		}
+	}
+}

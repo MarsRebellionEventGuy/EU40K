@@ -1,0 +1,10 @@
+add_core = XHC
+owner = XHC
+controller = XHC
+religion = tyranid
+culture = human_culture
+base_tax = 2
+base_production = 1
+base_manpower = 2
+trade_goods = clerks
+

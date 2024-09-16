@@ -1,0 +1,18 @@
+government = tribal
+add_government_reform = exodite_government_reform
+government_rank = 1
+technology_group = eldar
+religion = aeldari
+primary_culture = exodite_culture
+capital = 2865
+
+1970.12.12 = {
+		monarch = {
+			name = "Elleidhnuë Dyre"	
+			adm = 4
+			dip = 1
+			mil = 2
+			female = yes
+		}
+	}
+}

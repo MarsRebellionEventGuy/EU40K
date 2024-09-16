@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = league_votann_reform
+government_rank = 1
+technology_group = votann
+religion = votann
+primary_culture = kin_culture
+capital = 1588
+
+1970.12.12 = {
+		monarch = {
+			name = "Ammuk Skarstreng"	
+			adm = 3
+			dip = 1
+			mil = 3
+			female = yes
+		}
+	}
+}

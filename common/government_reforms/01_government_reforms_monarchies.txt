@@ -1,0 +1,254 @@
+monarchy_mechanic = {
+	monarchy = yes
+	heir = yes
+	queen = yes
+	basic_reform = yes # = invisible/does not take up a slot
+	is_eligible_for_hre_emperor = yes
+	valid_for_nation_designer = no
+	custom_attributes = {
+		enables_aristocratic_idea_group = yes
+	}
+	modifiers = {
+		nobles_influence_modifier = 0.05
+	}
+}
+
+imperium_regency_reform = {
+	icon = "imperial_regency"
+	legacy_equivalent = imperium_regency
+	allow_normal_conversion = no
+	potential = {
+		tag = XXA
+	}
+	trigger = {
+	}
+
+	custom_attributes = {
+		royal_marriage = no
+		queen = no
+		heir = no
+		fixed_rank = 3
+		allow_vassal_alliance = yes
+	}
+
+	modifiers = {
+		global_heathen_missionary_strength = 0.02
+		same_religion_advisor_cost = -0.25
+		relation_with_heathens = -50
+	}
+
+	ai = {
+		factor = 0 # AI should never pick this
+	}
+
+	removed_effect = {
+	}
+
+	factions = {
+		imperial_army_faction
+		imperial_navy_faction
+		space_marines_faction
+	}
+
+	government_abilities = {
+		imperium_mechanic
+	}
+}
+
+imperial_governorate_reform = {
+	icon = "imperial_governorate"
+	allow_normal_conversion = no
+	legacy_equivalent = imperial_governorate
+	potential = {
+		NOT = { tag = XXA }
+		primary_culture = human_culture
+	}
+	trigger = {
+	}
+
+	custom_attributes = {
+		royal_marriage = no
+		queen = no
+		heir = no
+	}
+
+	modifiers = {
+		stability_cost_modifier = -0.1
+		no_stability_loss_on_monarch_death = yes
+	}
+
+	ai = {
+		factor = 0 # AI should never pick this
+	}
+
+	removed_effect = {
+		country_event = { id = dutch_republic.33 }
+	}
+
+	conditional = {
+		allow = { has_dlc = "Res Publica" }
+		queen = no
+		heir = no
+		duration = 10
+		has_term_election = yes
+		is_eligible_for_hre_emperor = no
+		states_general_mechanic = {
+			statists = {
+				all_estate_loyalty_equilibrium = 0.10
+				global_tax_modifier = 0.10
+				legitimacy = -0.5
+			}
+
+			monarchists = {
+				harsh_treatment_cost = -0.33
+				land_forcelimit_modifier = 0.10
+				naval_forcelimit_modifier = 0.10
+				legitimacy = 0.5
+			}
+		}
+	}
+}
+
+imperial_knight_reform = {
+	icon = "imperial_knight"
+	allow_normal_conversion = no
+	legacy_equivalent = imperial_knight
+	potential = {
+		primary_culture = knight_culture
+	}
+	trigger = {
+	}
+
+	custom_attributes = {
+		royal_marriage = no
+		maintain_dynasty = yes
+	}
+
+	modifiers = {
+		nobles_loyalty_modifier = 0.10
+		land_forcelimit_modifier = 0.33
+	}
+
+	ai = {
+		factor = 0 # AI should never pick this
+	}
+
+	removed_effect = {
+	}
+}
+
+chaos_knight_reform = {
+	icon = "imperial_knight"
+	allow_normal_conversion = no
+	legacy_equivalent = chaos_knight
+	potential = {
+		primary_culture = chaos_knight_culture
+	}
+	trigger = {
+	}
+
+	custom_attributes = {
+		royal_marriage = no
+		maintain_dynasty = yes
+	}
+
+	modifiers = {
+		harsh_treatment_cost = -0.33
+		land_forcelimit_modifier = 0.33
+	}
+
+	ai = {
+		factor = 0 # AI should never pick this
+	}
+
+	removed_effect = {
+	}
+}
+
+farsight_enclaves_reform = {
+	icon = "farsight_enclaves"
+	allow_normal_conversion = no
+	legacy_equivalent = farsight_enclaves
+	potential = {
+		tag = XGG
+	}
+	trigger = {
+	}
+
+	custom_attributes = {
+		royal_marriage = no
+		queen = no
+		heir = no
+	}
+
+	modifiers = {
+		defensiveness = 0.20
+		war_exhaustion_cost = -0.25
+	}
+
+	ai = {
+		factor = 0 # AI should never pick this
+	}
+
+	removed_effect = {
+	}
+}
+
+necron_dynasty_reform = {
+	icon = "necron_dynasty"
+	allow_normal_conversion = no
+	legacy_equivalent = necron_dynasty
+	potential = {
+		primary_culture = necron_culture
+	}
+	trigger = {
+	}
+
+	custom_attributes = {
+		royal_marriage = no
+		queen = no
+		heir = no
+	}
+
+	modifiers = {
+		technology_cost = -0.10
+		autonomy_change_time = -0.25
+		may_return_manpower_on_disband = yes
+	}
+
+	ai = {
+		factor = 0 # AI should never pick this
+	}
+
+	removed_effect = {
+	}
+}
+
+league_votann_reform = {
+	icon = "league_votann"
+	allow_normal_conversion = no
+	legacy_equivalent = league_votann
+	potential = {
+		primary_culture = kin_culture
+	}
+	trigger = {
+	}
+
+	custom_attributes = {
+		royal_marriage = no
+		queen = no
+		heir = no
+	}
+
+	modifiers = {
+		production_efficiency = 0.10
+		development_cost_in_primary_culture = -0.15
+	}
+
+	ai = {
+		factor = 0 # AI should never pick this
+	}
+
+	removed_effect = {
+	}
+}

@@ -1,0 +1,16 @@
+government = theocracy
+add_government_reform = chaos_cult_reform
+government_rank = 1
+technology_group = chaos
+religion = nurgle
+primary_culture = chaos_culture
+capital = 3083
+
+1970.12.12 = {
+	monarch = {
+		name = "Toxus the Decayed"	
+		adm = 5
+		dip = 1
+		mil = 3
+	}
+}

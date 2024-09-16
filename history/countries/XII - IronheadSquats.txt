@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = league_votann_reform
+government_rank = 1
+technology_group = imperial
+religion = votann
+primary_culture = kin_culture
+capital = 2844
+
+1970.12.12 = {
+		monarch = {
+			name = "Ekhya Iyrnstede"	
+			adm = 5
+			dip = 2
+			mil = 3
+			female = yes
+		}
+	}
+}

@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = league_votann_reform
+government_rank = 2
+technology_group = votann
+religion = votann
+primary_culture = kin_culture
+capital = 1591
+
+1970.12.12 = {
+		monarch = {
+			name = "Ynnok Star Seeker"	
+			adm = 3
+			dip = 2
+			mil = 6
+		}
+	}
+}

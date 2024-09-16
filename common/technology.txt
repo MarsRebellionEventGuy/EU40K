@@ -1,0 +1,88 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new technology, make sure they are uniquely named.
+# If adding new technology, make sure they are AFTER THE LAST TECHNOLOGY
+
+# Groups must be defined BEFORE tables.
+
+#Nation Designer Cost is set to match triggers for starting institutions.
+
+groups = {
+	necron = {
+		start_level = 8
+		start_cost_modifier = 0
+		nation_designer_cost = {
+			value = 200
+		}
+	}
+	imperial = {
+		start_level = 3
+		start_cost_modifier = 0
+		nation_designer_cost = {
+			value = 200
+		}
+	}
+	mechanicus = {
+		start_level = 3
+		start_cost_modifier = 0
+		nation_designer_cost = {
+			value = 200
+		}
+	}
+	tau = {
+		start_level = 2
+		start_cost_modifier = 0
+		nation_designer_cost = {
+			value = 200
+		}
+	}
+	chaos = {
+		start_level = 3
+		start_cost_modifier = 0
+		nation_designer_cost = {
+			value = 200
+		}
+	}
+	ork = {
+		start_level = 2
+		start_cost_modifier = 0
+		nation_designer_cost = {
+			value = 200
+		}
+	}
+	xeno = {
+		start_level = 6
+		start_cost_modifier = 0
+		nation_designer_cost = {
+			value = 200
+		}
+	}
+	tyranid = {
+		start_level = 4
+		start_cost_modifier = 0
+		nation_designer_cost = {
+			value = 200
+		}
+	}
+	votann = {
+		start_level = 6
+		start_cost_modifier = 0
+		nation_designer_cost = {
+			value = 200
+		}
+	}
+	eldar = {
+		start_level = 6
+		start_cost_modifier = 0
+		nation_designer_cost = {
+			value = 200
+		}
+	}
+
+
+}
+
+tables = {
+	adm_tech = "technologies/adm.txt"
+	dip_tech = "technologies/dip.txt"
+	mil_tech = "technologies/mil.txt"
+}

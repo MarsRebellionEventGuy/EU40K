@@ -1,0 +1,17 @@
+government = theocracy
+add_government_reform = heretic_astartes
+government_rank = 1
+technology_group = chaos
+religion = chaos_undivided
+primary_culture = heretic_astartes
+capital = 1078
+
+41980.12.12 = {
+		monarch = {
+			name = "Manneus Drath"	
+			adm = 3
+			dip = 5
+			mil = 1
+		}
+	}
+}

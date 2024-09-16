@@ -1,0 +1,16 @@
+government = theocracy
+add_government_reform = heretic_astartes_reform
+government_rank = 1
+technology_group = chaos
+religion = nurgle
+primary_culture = heretic_astartes_culture
+capital = 2823
+
+1970.12.12 = {
+	monarch = {
+		name = "Cholerungus the Reaper"	
+		adm = 3
+		dip = 2
+		mil = 1
+	}
+}

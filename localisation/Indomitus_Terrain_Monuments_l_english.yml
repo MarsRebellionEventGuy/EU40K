@@ -1,0 +1,35 @@
+﻿l_english:
+ golden_throne:0 "Golden Throne"
+ macragge:0 "Fortress of Hera"
+ solemnace:0 "Prismatic Galleries"
+ arx_angelicum:0 "Arx Angelicum"
+
+ drylands:0 "Forge World"
+ drylands_desc:0 "Forge Worlds represent densely populated planets dedicated to the production of goods and armaments. Their environments are often toxic and severely polluted, rendered inhabitable only through extensive cybernetic augmentation."
+
+ ocean_world:0 "Ocean World"
+ ocean_world_desc:0 "Ocean Worlds represent planets which primarily consist of archipelagos or ocean-based settlements."
+
+ hills:0 "Craftworld"
+ hills_desc:0 "Craftworlds represent the ancient, planetoid-sized ships of the bygone Aeldari Empire used by their Asuryani successors to travel the stars."
+
+ forest:0 "Tomb Complex"
+ forest_desc:0 "Tomb Complexes represent the ancient blackstone sites in which the Necrons had once ruled and, until recently, hibernated."
+
+ space_station:0 "Space Station"
+ space_station_desc:0 "Space Stations represent all manner of artificial megastructures, ranging from the heavily fortified star-forts of the Deathwatch to the various research and trade stations scattered throughout the galaxy."
+
+ grasslands:0 "Dead World"
+ grasslands_desc:0 "Dead Worlds represent planets which have nonexistent or barely functioning ecosystems, created through natural processes, exterminatus, or consumption by the Tyranids."
+
+ coastal_desert:0 "Fortress World"
+ coastal_desert_desc:0 "Fortress Worlds represent planets which have been entirely oriented towards military functions, particularly safeguarding regions of space form threats."
+
+ blackstone_world:0 "Blackstone World"
+ blackstone_world_desc:0 "Blackstone Worlds represent planets part of the Necrons' Pariah Nexus, capable of completely severing organic species' connection to the Warp and eventually rendering them catatonic."
+
+ steppe:0 "Chaos World"
+ steppe_desc:0 "Chaos World represent planets that have been changed by the forces of the Immaterium, placing them between realspace and the Warp."
+
+ highlands:0 "Ecumenopolis"
+ highlands_desc:0 "Ecumenopoli represent planets that are completely covered by urban sprawl. In the Imperium these most often take the form of Hive Worlds, worlds dominated by towering, self-contained structures known as hive cities."

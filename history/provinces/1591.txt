@@ -1,0 +1,9 @@
+add_core = XCL
+owner = XCL
+controller = XCL
+religion = votann
+culture = kin_culture
+base_tax = 6
+base_production = 5
+base_manpower = 5
+trade_goods = minerals

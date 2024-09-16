@@ -1,0 +1,9 @@
+add_core = XFM
+owner = XFM
+controller = XFM
+religion = imperial_cult
+culture = human_culture
+base_tax = 4
+base_production = 4
+base_manpower = 4
+trade_goods = clerks

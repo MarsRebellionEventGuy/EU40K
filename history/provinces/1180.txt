@@ -1,0 +1,9 @@
+add_core = XBH
+owner = XBH
+controller = XBH
+religion = mechanicus
+culture = mechanicus_culture
+base_tax = 1
+base_production = 4
+base_manpower = 2
+trade_goods = military_equipment

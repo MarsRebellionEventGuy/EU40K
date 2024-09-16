@@ -1,0 +1,29 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_faction_imperial_army_faction"	
+		texturefile = "gfx//interface//imperial_army_faction_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_faction_imperial_navy_faction"	
+		texturefile = "gfx//interface//imperial_navy_faction_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_faction_space_marines_faction"	
+		texturefile = "gfx//interface//space_marine_faction_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_faction_bg_imperial_army_faction"	
+		texturefile = "gfx//interface//faction_red_frame.tga"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_faction_bg_imperial_navy_faction"	
+		texturefile = "gfx//interface//faction_red_frame.tga"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_faction_bg_space_marines_faction"	
+		texturefile = "gfx//interface//faction_red_frame.tga"
+		transparencecheck = yes
+	}
+}

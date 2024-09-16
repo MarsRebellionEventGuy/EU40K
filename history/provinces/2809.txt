@@ -1,0 +1,9 @@
+add_core = XKI
+owner = XKI
+controller = XKI
+religion = nurgle
+culture = heretic_astartes_culture
+base_tax = 5
+base_production = 7
+base_manpower = 8
+trade_goods = slaves

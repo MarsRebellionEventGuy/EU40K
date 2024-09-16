@@ -1,0 +1,383 @@
+death_korps_krieg_company = {
+	regiments_per_development = 0.04
+	home_province = 410
+	cavalry_weight = 0
+	cavalry_cap = 10
+	cost_modifier = 0.50
+	artillery_weight = 0.2
+	counts_towards_force_limit = yes
+	sprites = { westerngfx_sprite_pack }
+	trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		OR = {
+			tag = XXA
+			AND = {
+				primary_culture = human_culture
+				government_rank = 3
+			}
+		}
+	}
+	modifier = {
+		reinforce_cost_modifier = -0.25
+	}
+}
+
+vostroyan_firstborn_company = {
+	regiments_per_development = 0.04
+	home_province = 834
+	cavalry_weight = 0
+	cavalry_cap = 10
+	cost_modifier = 0.50
+	artillery_weight = 0.2
+	counts_towards_force_limit = yes
+	sprites = { westerngfx_sprite_pack }
+	trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		OR = {
+			tag = XXA
+			AND = {
+				primary_culture = human_culture
+				government_rank = 3
+			}
+		}
+	}
+	modifier = {
+		prestige_from_land = 0.33
+	}
+}
+
+catachan_jungle_fighters_company = {
+	regiments_per_development = 0.04
+	home_province = 340
+	cavalry_weight = 0
+	cavalry_cap = 10
+	cost_modifier = 0.50
+	artillery_weight = 0.2
+	counts_towards_force_limit = yes
+	sprites = { westerngfx_sprite_pack }
+	trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		OR = {
+			tag = XXA
+			AND = {
+				primary_culture = human_culture
+				government_rank = 3
+			}
+		}
+	}
+	modifier = {
+		land_attrition = -0.20
+	}
+}
+
+armageddon_steel_legion_company = {
+	regiments_per_development = 0.04
+	home_province = 198
+	cavalry_weight = 0.3
+	cavalry_cap = 10
+	cost_modifier = 0.50
+	artillery_weight = 0.2
+	counts_towards_force_limit = yes
+	sprites = { westerngfx_sprite_pack }
+	trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		OR = {
+			tag = XXA
+			AND = {
+				primary_culture = human_culture
+				government_rank = 3
+			}
+		}
+	}
+	modifier = {
+		cavalry_power = 0.15
+	}
+}
+
+elysian_drop_troops_company = {
+	regiments_per_development = 0.04
+	home_province = 199
+	cavalry_weight = 0
+	cavalry_cap = 10
+	cost_modifier = 0.50
+	artillery_weight = 0.2
+	counts_towards_force_limit = yes
+	sprites = { westerngfx_sprite_pack }
+	trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		OR = {
+			tag = XXA
+			AND = {
+				primary_culture = human_culture
+				government_rank = 3
+			}
+		}
+	}
+	modifier = { 
+		assault_fort_ability = 0.33
+	}
+}
+
+tallarn_desert_raiders_company = {
+	regiments_per_development = 0.04
+	home_province = 944
+	cavalry_weight = 0.3
+	cavalry_cap = 10
+	cost_modifier = 0.50
+	artillery_weight = 0.2
+	counts_towards_force_limit = yes
+	sprites = { westerngfx_sprite_pack }
+	trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		OR = {
+			tag = XXA
+			AND = {
+				primary_culture = human_culture
+				government_rank = 3
+			}
+		}
+	}
+	modifier = {
+		morale_damage = 0.05
+	}
+} 
+
+mordian_iron_guard_company = {
+	regiments_per_development = 0.04
+	home_province = 744
+	cavalry_weight = 0
+	cavalry_cap = 10
+	cost_modifier = 0.50
+	artillery_weight = 0.2
+	counts_towards_force_limit = yes
+	sprites = { westerngfx_sprite_pack }
+	trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		OR = {
+			tag = XXA
+			AND = {
+				primary_culture = human_culture
+				government_rank = 3
+			}
+		}
+	}
+	modifier = {
+		land_morale = 0.10 
+	}
+} 
+
+valhallan_ice_warriors_company = {
+	regiments_per_development = 0.04
+	home_province = 1642
+	cavalry_weight = 0
+	cavalry_cap = 10
+	cost_modifier = 0.50
+	artillery_weight = 0.2
+	counts_towards_force_limit = yes
+	sprites = { westerngfx_sprite_pack }
+	trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		OR = {
+			tag = XXA
+			AND = {
+				primary_culture = human_culture
+				government_rank = 3
+			}
+		}
+	}
+	modifier = {
+		morale_damage_received = -0.05
+	}
+} 
+
+tanith_first_and_only_company = {
+	regiments_per_development = 0.04
+	home_province = 1773
+	cavalry_weight = 0
+	cavalry_cap = 10
+	cost_modifier = 0.50
+	artillery_weight = 0.2
+	counts_towards_force_limit = yes
+	sprites = { westerngfx_sprite_pack }
+	trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		OR = {
+			tag = XXA
+			AND = {
+				primary_culture = human_culture
+				government_rank = 3
+			}
+		}
+	}
+	modifier = {
+		backrow_artillery_damage = 0.10
+	}
+} 
+
+praetorian_guard_company = {
+	regiments_per_development = 0.04
+	home_province = 1560
+	cavalry_weight = 0
+	cavalry_cap = 10
+	cost_modifier = 0.50
+	artillery_weight = 0.2
+	counts_towards_force_limit = yes
+	sprites = { westerngfx_sprite_pack }
+	trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		OR = {
+			tag = XXA
+			AND = {
+				primary_culture = human_culture
+				government_rank = 3
+			}
+		}
+	}
+	modifier = {
+		discipline = 0.05
+	}
+} 
+
+mordant_acid_dogs_company = {
+	regiments_per_development = 0.04
+	home_province = 459
+	cavalry_weight = 0
+	cavalry_cap = 10
+	cost_modifier = 0.50
+	artillery_weight = 0.2
+	counts_towards_force_limit = yes
+	sprites = { westerngfx_sprite_pack }
+	trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		OR = {
+			tag = XXA
+			AND = {
+				primary_culture = human_culture
+				government_rank = 3
+			}
+		}
+	}
+	modifier = {
+		shock_damage_received = -0.10
+	}
+} 
+
+scintillian_fusiliers_company = {
+	regiments_per_development = 0.04
+	home_province = 1235
+	cavalry_weight = 0.2
+	cavalry_cap = 10
+	cost_modifier = 0.50
+	artillery_weight = 0.2
+	counts_towards_force_limit = yes
+	sprites = { westerngfx_sprite_pack }
+	trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		OR = {
+			tag = XXA
+			AND = {
+				primary_culture = human_culture
+				government_rank = 3
+			}
+		}
+	}
+	modifier = {
+		fire_damage = 0.10
+	}
+} 
+
+jopali_indentured_squadrons_company = {
+	regiments_per_development = 0.04
+	home_province = 446
+	cavalry_weight = 0
+	cavalry_cap = 10
+	cost_modifier = 0.50
+	artillery_weight = 0.2
+	counts_towards_force_limit = yes
+	sprites = { westerngfx_sprite_pack }
+	trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		OR = {
+			tag = XXA
+			AND = {
+				primary_culture = human_culture
+				government_rank = 3
+			}
+		}
+	}
+	modifier = {
+		fire_damage_received = -0.10
+	}
+} 
+
+kanak_skull_takers_company = {
+	regiments_per_development = 0.04
+	home_province = 750
+	cavalry_weight = 0
+	cavalry_cap = 10
+	cost_modifier = 0.50
+	artillery_weight = 0.2
+	counts_towards_force_limit = yes
+	sprites = { westerngfx_sprite_pack }
+	trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		OR = {
+			tag = XXA
+			AND = {
+				primary_culture = human_culture
+				government_rank = 3
+			}
+		}
+	}
+	modifier = {
+		shock_damage = 0.10
+	}
+} 
+
+cadian_shock_troopers_company = {
+	regiments_per_development = 0.04
+	home_province = 1081
+	cavalry_weight = 0.2
+	cavalry_cap = 10
+	cost_modifier = 0.50
+	artillery_weight = 0.2
+	counts_towards_force_limit = yes
+	sprites = { westerngfx_sprite_pack }
+	trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		OR = {
+			tag = XXA
+			AND = {
+				primary_culture = human_culture
+				government_rank = 3
+			}
+		}
+	}
+	modifier = {
+		drill_gain_modifier = 0.33
+	}
+} 
+
+maccabian_janissaries_company = {
+	regiments_per_development = 0.04
+	home_province = 1209
+	cavalry_weight = 0
+	cavalry_cap = 10
+	cost_modifier = 0.50
+	artillery_weight = 0.2
+	counts_towards_force_limit = yes
+	sprites = { westerngfx_sprite_pack }
+	trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		OR = {
+			tag = XXA
+			AND = {
+				primary_culture = human_culture
+				government_rank = 3
+			}
+		}
+	}
+	modifier = {
+		recover_army_morale_speed = 0.25
+	}
+} 

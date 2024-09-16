@@ -1,0 +1,71 @@
+imperium_mechanic = {
+	alert_icon_gfx = GFX_alerticons_government_mechanics
+	alert_icon_index = 11
+	available = {
+	}
+
+	powers = {
+		imperium_power = {
+			max = 100
+			reset_on_new_ruler = no
+			base_monthly_growth = -0
+			development_scaled_monthly_growth = 0
+			scaled_modifier = {
+				modifier = {
+					land_morale = 0.20
+					naval_morale = 0.20
+					global_colonial_growth = 50
+					monthly_imperium_power = -0.5
+				}
+			}
+			is_good = yes
+		}
+	}
+	
+	interactions = {
+		imperium_increase_button = {
+			gui = imperium_gov_mech
+			cost_type = imperium_power
+			center = no
+			trigger = {
+				has_government_power = {
+					mechanic_type = imperium_mechanic
+					power_type = imperium_power
+					value = 25
+				}
+				NOT = { has_country_modifier = imperium_government_action_cost }
+			}
+			effect = {
+				add_years_of_income = -0.20
+				add_country_modifier = { 
+					name = imperium_government_action_cost
+					duration = 1825
+				}
+				custom_tooltip = imperium_government_action_tooltip
+				tooltip = {
+					add_government_power = {
+						mechanic_type = imperium_mechanic
+						power_type = imperium_power
+						value = 15
+					}
+					add_country_modifier = { 
+						name = imperium_government_action_bonus
+						duration = 7300  
+					}
+				}
+				set_country_flag = imperium_government_cooldown
+			}
+			ai_chance = {
+				factor = 0
+				modifier = {
+					factor = 1
+					has_government_power = {
+						mechanic_type = hessian_militarization_mechanic
+						power_type = hessian_militarization
+						value = 90
+					}
+				}
+			}
+		}
+	}
+}

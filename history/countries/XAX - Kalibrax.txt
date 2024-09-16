@@ -1,0 +1,17 @@
+government = republic
+add_government_reform = forge_world_reform
+government_rank = 1
+technology_group = mechanicus
+religion = mechanicus
+primary_culture = mechanicus_culture
+capital = 820
+
+1970.12.12 = {
+		monarch = {
+			name = "Nure van Rhodal"	
+			adm = 5
+			dip = 2
+			mil = 1
+		}
+	}
+}

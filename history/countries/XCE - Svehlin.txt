@@ -1,0 +1,17 @@
+government = republic
+add_government_reform = exodite_government_reform
+government_rank = 1
+technology_group = eldar
+religion = aeldari
+primary_culture = exodite_culture
+capital = 1558
+
+1970.12.12 = {
+		monarch = {
+			name = "Lann Tóir"	
+			adm = 3
+			dip = 1
+			mil = 6
+		}
+	}
+}

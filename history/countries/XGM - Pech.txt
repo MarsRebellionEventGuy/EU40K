@@ -1,0 +1,17 @@
+government = theocracy
+add_government_reform = xeno_government_reform
+government_rank = 1
+technology_group = xeno
+religion = greater_good
+primary_culture = kroot_culture
+capital = 1874
+
+1970.12.12 = {
+		monarch = {
+			name = "Kra'tcha Krrah"	
+			adm = 1
+			dip = 3
+			mil = 5
+		}
+	}
+}

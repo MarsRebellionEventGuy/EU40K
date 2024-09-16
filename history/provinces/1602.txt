@@ -1,0 +1,9 @@
+owner = XCW
+controller = XCW
+add_core = XCW
+religion = destroyer_cult
+culture = necron_culture
+base_tax = 11
+base_production = 11
+base_manpower = 8
+trade_goods = living_metal

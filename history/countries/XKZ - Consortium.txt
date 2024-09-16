@@ -1,0 +1,17 @@
+government = theocracy
+add_government_reform = heretic_astartes_reform
+government_rank = 1
+technology_group = chaos
+religion = chaos_undivided
+primary_culture = heretic_astartes_culture
+capital = 2798
+
+1980.1.1 = {
+		monarch = {
+			name = "Fabius Bile"	
+			adm = 3
+			dip = 5
+			mil = 3
+		}
+	}
+}

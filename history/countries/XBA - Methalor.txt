@@ -1,0 +1,17 @@
+government = theocracy
+add_government_reform = hive_world_reform
+government_rank = 1
+technology_group = imperial
+religion = imperial_cult
+primary_culture = human_culture
+capital = 479
+
+1970.12.12 = {
+		monarch = {
+			name = "Valderarr van der Gard"	
+			adm = 5
+			dip = 2
+			mil = 3
+		}
+	}
+}

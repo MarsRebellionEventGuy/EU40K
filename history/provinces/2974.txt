@@ -1,0 +1,9 @@
+add_core = XMO
+owner = XMO
+controller = XMO
+religion = khorne
+culture = chaos_culture
+base_tax = 2
+base_production = 2
+base_manpower = 4
+trade_goods = slaves

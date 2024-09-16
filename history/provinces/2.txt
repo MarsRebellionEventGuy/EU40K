@@ -1,0 +1,10 @@
+add_core = XXB
+owner = XXB
+controller = XXB
+religion = mechanicus
+culture = mechanicus_culture
+base_tax = 12
+base_production = 12
+base_manpower = 10
+capital = "Olympus Mons"
+trade_goods = archaotech

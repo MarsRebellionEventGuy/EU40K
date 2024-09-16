@@ -1,0 +1,16 @@
+government = theocracy
+add_government_reform = chaos_cult_reform
+government_rank = 1
+technology_group = chaos
+religion = chaos_undivided
+primary_culture = chaos_culture
+capital = 3126
+
+1970.12.12 = {
+	monarch = {
+		name = "Knor"	
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}

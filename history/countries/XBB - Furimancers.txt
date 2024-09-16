@@ -1,0 +1,17 @@
+government = theocracy
+add_government_reform = chaos_cult_reform
+government_rank = 1
+technology_group = chaos
+religion = khorne
+primary_culture = chaos_culture
+capital = 829
+
+1970.12.12 = {
+		monarch = {
+			name = "Abelard Angeroff"	
+			adm = 6
+			dip = 4
+			mil = 3
+		}
+	}
+}

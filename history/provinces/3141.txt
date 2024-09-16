@@ -1,0 +1,9 @@
+add_core = XJN
+owner = XJN
+controller = XJN
+religion = chaos_undivided
+culture = heretic_astartes_culture
+base_tax = 2
+base_production = 3
+base_manpower = 4
+trade_goods = military_equipment

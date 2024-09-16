@@ -1,0 +1,115 @@
+# base_price = X			base price in $. (default is 1.0 if not specified
+# goldtype = yes/no			This resource works like 'gold' if yes, using prices from mine-value in province instead of supply/demand and baseprice. Also creates gold-inflation
+
+
+# Base resources
+agricultural_goods = {
+	base_price = 2.5
+}
+
+consumer_goods = {
+	base_price = 3
+}
+
+military_equipment = {
+	base_price = 2
+}
+
+minerals = {
+	base_price = 3
+}
+
+xeno_technology = {
+	base_price = 4
+}
+
+living_metal = {
+	base_price = 4
+}
+
+slaves = {
+	base_price = 2
+}
+wraithbone = {
+	base_price = 4 
+}
+
+archaotech = {
+	base_price = 4
+}
+
+scientific_equipment = {
+	base_price = 3
+}
+
+luxury_goods = {
+	base_price = 3
+}
+
+promethium = {
+	base_price = 3
+}
+
+clerks = {
+	base_price = 2
+}
+
+sugar = {
+	base_price = 3 
+}
+
+tobacco = {
+	base_price = 3
+}
+
+cocoa = {
+	base_price = 4 
+}
+
+# New Non-European Tradegoods
+
+silk = {
+	base_price = 4
+}
+
+tropical_wood = {
+	base_price = 2
+}
+
+dyes = {
+	base_price = 4 
+}
+
+#Additional Trade Goods
+
+livestock = {
+	base_price = 2
+}
+
+incense = {
+	base_price = 2.5
+}
+
+glass = {
+	base_price = 3
+}
+
+gems = {
+	base_price = 4
+}
+
+paper = {
+	base_price = 3.5
+}
+
+coal = {
+	base_price = 10
+}
+
+cloves = {
+	base_price = 8
+}
+
+unknown = {
+	base_price = 0
+}

@@ -1,0 +1,59 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "mission_astropath"
+		texturefile = "gfx/interface/mission_astropath.dds"
+	}
+	spriteType = {
+		name = "mission_noctis"
+		texturefile = "gfx/interface/mission_noctis.dds"
+	}
+	spriteType = {
+		name = "mission_guilliman"
+		texturefile = "gfx/interface/mission_guilliman.dds"
+	}
+
+	spriteType = {
+		name = "mission_chapter_peasant"
+		texturefile = "gfx/interface/mission_chapter_peasant.dds"
+	}
+
+	spriteType = {
+		name = "mission_catachan"
+		texturefile = "gfx/interface/mission_catachan.dds"
+	}
+	spriteType = {
+		name = "mission_new_kingdom"
+		texturefile = "gfx/interface/mission_new_kingdom.dds"
+	}
+	spriteType = {
+		name = "mission_hub_fort"
+		texturefile = "gfx/interface/mission_hub_fort.dds"
+	}
+	spriteType = {
+		name = "mission_logisticarum"
+		texturefile = "gfx/interface/mission_logisticarum.dds"
+	}
+	spriteType = {
+		name = "mission_aspirant"
+		texturefile = "gfx/interface/mission_aspirant.dds"
+	}
+	spriteType = {
+		name = "mission_chapter_ultramarines"
+		texturefile = "gfx/interface/mission_chapter_ultramarines.dds"
+	}
+
+	spriteType = {
+		name = "mission_necromunda"
+		texturefile = "gfx/interface/mission_necromunda.dds"
+	}
+	spriteType = {
+		name = "mission_orks"
+		texturefile = "gfx/interface/mission_orks.dds"
+	}
+	spriteType = {
+		name = "mission_terra"
+		texturefile = "gfx/interface/mission_terra.dds"
+	}
+}
+

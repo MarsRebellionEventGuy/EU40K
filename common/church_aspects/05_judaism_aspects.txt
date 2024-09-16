@@ -1,0 +1,110 @@
+imperial_cult_adeptus_terra_administratum_aspect = {	#ADM aspect
+	cost = 100
+	modifier = {
+		autonomy_change_time = -0.25
+	}
+	monarch_power = adm
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+imperial_cult_adeptus_terra_arbites_aspect = {	#ADM aspect
+	cost = 100
+	modifier = {
+		harsh_treatment_cost = -0.33
+	}
+	monarch_power = adm
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+imperial_cult_adeptus_terra_astra_telepathica_aspect = {	#ADM aspect
+	cost = 100
+	modifier = {
+		national_focus_years = -5
+	}
+	monarch_power = adm
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+imperial_cult_inquisition_ordo_hereticus_aspect = {	#DIP aspect
+	cost = 100
+	effect = {
+	}
+	modifier = {
+		global_rebel_suppression_efficiency = 0.20
+	}
+	monarch_power = mil
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+imperial_cult_inquisition_ordo_malleus_aspect = {	#DIP aspect
+	cost = 100
+	effect = {
+	}
+	modifier = {
+		global_heathen_missionary_strength = 0.01
+	}
+	monarch_power = mil
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+imperial_cult_inquisition_ordo_xenos_aspect = {	#DIP aspect
+	cost = 100
+	effect = {
+	}
+	modifier = {
+		idea_cost = -0.15
+	}
+	monarch_power = mil
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+imperial_cult_ecclesiarchy_creed_temporal_aspect = {	#MIL aspect
+	cost = 100
+	effect = {
+	}
+	modifier = {
+		build_cost = -0.15
+	}
+	monarch_power = dip
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+imperial_cult_ecclesiarchy_sororitas_aspect = {	#MIL aspect
+	cost = 100
+	effect = {
+	}
+	modifier = {
+		establish_order_cost = -0.20
+	}
+	monarch_power = dip
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+imperial_cult_ecclesiarchy_missionarus_galaxia_aspect = { #MIL aspect
+	cost = 100
+	effect = {
+	}
+	modifier = {
+		missionary_maintenance_cost = -0.15
+	}
+	monarch_power = dip
+	ai_will_do = {
+		factor = 1
+	}
+}

@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = necron_dynasty_reform
+government_rank = 1
+technology_group = necron
+religion = destroyer_cult
+primary_culture = necron_culture
+capital = 1307
+
+1970.12.12 = {
+		monarch = {
+			name = "Kepatusakh"	
+			dynasty = " "
+			adm = 2
+			dip = 4
+			mil = 3
+		}
+	}
+}

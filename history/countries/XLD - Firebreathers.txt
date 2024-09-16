@@ -1,0 +1,16 @@
+government = theocracy
+add_government_reform = astartes_reform
+government_rank = 1
+technology_group = imperial
+religion = imperial_cult
+primary_culture = loyalist_astartes_culture
+capital = 870
+
+1970.12.12 = {
+	monarch = {
+		name = "Gravari Te'vo"	
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}

@@ -1,0 +1,17 @@
+government = theocracy
+add_government_reform = craftworld_reform
+government_rank = 1
+technology_group = eldar
+religion = aeldari
+primary_culture = asuryani_culture
+capital = 967
+
+1980.1.1 = {
+		monarch = {
+			name = "Tyladrhas"	
+			adm = 3
+			dip = 2
+			mil = 5
+		}
+	}
+}

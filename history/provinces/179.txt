@@ -1,0 +1,10 @@
+religion = imperial_cult
+culture = human_culture
+base_tax = 1
+base_production = 4
+base_manpower = 2
+add_core = XXA
+owner = XXA
+controller = XXA
+capital = "Aronis City"
+trade_goods = consumer_goods

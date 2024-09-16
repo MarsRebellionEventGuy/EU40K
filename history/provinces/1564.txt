@@ -1,0 +1,9 @@
+owner = XDW
+controller = XDW
+add_core = XDW
+religion = chaos_undivided
+culture = chaos_culture
+base_tax = 4
+base_production = 3
+base_manpower = 4
+trade_goods = luxury_goods

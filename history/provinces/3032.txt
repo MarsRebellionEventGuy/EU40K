@@ -1,0 +1,9 @@
+add_core = XOI
+owner = XOI
+controller = XOI
+religion = destroyer_cult
+culture = necron_culture
+base_tax = 6
+base_production = 8
+base_manpower = 8
+trade_goods = living_metal

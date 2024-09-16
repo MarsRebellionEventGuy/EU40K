@@ -1,0 +1,9 @@
+add_core = XJP
+owner = XJP
+controller = XJP
+religion = necron
+culture = necron_culture
+base_tax = 12
+base_production = 10
+base_manpower = 12
+trade_goods = living_metal

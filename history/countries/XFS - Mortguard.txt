@@ -1,0 +1,17 @@
+government = theocracy
+add_government_reform = death_watch_reform
+government_rank = 1
+technology_group = imperial
+religion = imperial_cult
+primary_culture = loyalist_astartes_culture
+capital = 1781
+
+1970.12.12 = {
+		monarch = {
+			name = "Magren Benedemnus"	
+			adm = 1
+			dip = 4
+			mil = 4
+		}
+	}
+}

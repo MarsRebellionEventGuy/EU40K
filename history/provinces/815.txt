@@ -1,0 +1,9 @@
+add_core = XXY
+owner = XXY
+controller = XXY
+religion = slaanesh
+culture = chaos_culture
+base_tax = 3
+base_production = 1
+base_manpower = 2
+trade_goods = clerks

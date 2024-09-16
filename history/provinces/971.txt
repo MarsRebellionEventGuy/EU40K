@@ -1,0 +1,9 @@
+add_core = XYI
+owner = XYI
+controller = XYI
+religion = chaos_undivided
+culture = chaos_culture
+base_tax = 2
+base_production = 3
+base_manpower = 3
+trade_goods = military_equipment

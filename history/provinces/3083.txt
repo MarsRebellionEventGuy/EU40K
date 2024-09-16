@@ -1,0 +1,9 @@
+add_core = XKV
+owner = XKV
+controller = XKV
+religion = nurgle
+culture = chaos_culture
+base_tax = 2
+base_production = 3
+base_manpower = 4
+trade_goods = slaves

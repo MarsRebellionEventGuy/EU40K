@@ -1,0 +1,18 @@
+government = theocracy
+add_government_reform = astartes_reform
+government_rank = 2
+technology_group = imperial
+religion = imperial_cult
+primary_culture = loyalist_astartes_culture
+capital = 1643
+fixed_capital = 1643
+
+1970.12.12 = {
+		monarch = {
+			name = "Azrael"	
+			adm = 4
+			dip = 2
+			mil = 5
+		}
+	}
+}

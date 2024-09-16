@@ -1,0 +1,92 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_combat_terrain_chaos_planet"
+		texturefile = "gfx/interface/combat_terrain_chaos_planet.dds"
+	}
+	spriteType = {
+		name = "GFX_colony_terrain_chaos_planet"
+		texturefile = "gfx/interface/colony_terrain_chaos_planet.dds"
+	}
+
+	spriteType = {
+		name = "GFX_combat_terrain_ecumenopolis"
+		texturefile = "gfx/interface/combat_terrain_ecumenopolis.dds"
+	}
+	spriteType = {
+		name = "GFX_colony_terrain_ecumenopolis"
+		texturefile = "gfx/interface/colony_terrain_ecumenopolis.dds"
+	}
+
+	spriteType = {
+		name = "GFX_combat_terrain_forge_world"
+		texturefile = "gfx/interface/combat_terrain_forge_world.dds"
+	}
+	spriteType = {
+		name = "GFX_colony_terrain_forge_world"
+		texturefile = "gfx/interface/colony_terrain_forge_world.dds"
+	}
+
+	spriteType = {
+		name = "GFX_combat_terrain_ocean_world"
+		texturefile = "gfx/interface/combat_terrain_ocean.dds"
+	}
+	spriteType = {
+		name = "GFX_colony_terrain_ocean_world"
+		texturefile = "gfx/interface/colony_terrain_ocean.dds"
+	}
+
+	spriteType = {
+		name = "GFX_combat_terrain_craftworld"
+		texturefile = "gfx/interface/combat_terrain_craftworld.dds"
+	}
+	spriteType = {
+		name = "GFX_colony_terrain_craftworld"
+		texturefile = "gfx/interface/colony_terrain_craftworld.dds"
+	}
+
+	spriteType = {
+		name = "GFX_combat_terrain_tomb_world"
+		texturefile = "gfx/interface/combat_terrain_tomb_world.dds"
+	}
+	spriteType = {
+		name = "GFX_colony_terrain_tomb_world"
+		texturefile = "gfx/interface/colony_terrain_tomb_world.dds"
+	}
+
+	spriteType = {
+		name = "GFX_combat_terrain_space_station"
+		texturefile = "gfx/interface/combat_terrain_space_station.dds"
+	}
+	spriteType = {
+		name = "GFX_colony_terrain_space_station"
+		texturefile = "gfx/interface/colony_terrain_space_station.dds"
+	}
+
+	spriteType = {
+		name = "GFX_combat_terrain_dead_world"
+		texturefile = "gfx/interface/combat_terrain_dead_world.dds"
+	}
+	spriteType = {
+		name = "GFX_colony_terrain_dead_world"
+		texturefile = "gfx/interface/colony_terrain_dead_world.dds"
+	}
+
+	spriteType = {
+		name = "GFX_combat_terrain_fortress_world"
+		texturefile = "gfx/interface/combat_terrain_fortress_world.dds"
+	}
+	spriteType = {
+		name = "GFX_colony_terrain_fortress_world"
+		texturefile = "gfx/interface/colony_terrain_fortress_world.dds"
+	}
+
+	spriteType = {
+		name = "GFX_combat_terrain_blackstone_world"
+		texturefile = "gfx/interface/combat_terrain_tomb_world.dds"
+	}
+	spriteType = {
+		name = "GFX_colony_terrain_blackstone_world"
+		texturefile = "gfx/interface/colony_terrain_tomb_world.dds"
+	}
+
+}

@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = necron_dynasty_reform
+government_rank = 2
+technology_group = necron
+religion = necron
+primary_culture = necron_culture
+capital = 1686
+
+1970.12.12 = {
+		monarch = {
+			name = "Tenebrophant Dyvanakh"
+			dynasty = " "
+			adm = 6
+			dip = 5
+			mil = 1
+		}
+	}
+}

@@ -1,0 +1,17 @@
+government = theocracy
+add_government_reform = heretic_astartes_reform
+government_rank = 1
+technology_group = imperial
+religion = khorne
+primary_culture = chaos_culture
+capital = 1868
+
+1970.12.12 = {
+		monarch = {
+			name = "Khargos the Butcher"	
+			adm = 5
+			dip = 4
+			mil = 5
+		}
+	}
+}

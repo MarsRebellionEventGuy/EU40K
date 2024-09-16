@@ -1,0 +1,9 @@
+add_core = XYQ
+owner = XYQ
+controller = XYQ
+religion = mechanicus
+culture = mechanicus_culture
+base_tax = 2
+base_production = 4
+base_manpower = 1
+trade_goods = xeno_technology

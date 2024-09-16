@@ -1,0 +1,9 @@
+add_core = XNS
+owner = XNS
+controller = XNS
+religion = mechanicus
+culture = mechanicus_culture
+base_tax = 1
+base_production = 4
+base_manpower = 3
+trade_goods = military_equipment

@@ -1,0 +1,9 @@
+owner = XZP
+controller = XZP
+add_core = XZP
+religion = ork
+culture = ork_culture
+base_tax = 3
+base_production = 4
+base_manpower = 4
+trade_goods = minerals

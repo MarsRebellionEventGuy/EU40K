@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = imperial_knight_reform
+government_rank = 1
+technology_group = chaos
+religion = chaos_undivided
+primary_culture = chaos_knight_culture
+capital = 1844
+
+1970.12.12 = {
+		monarch = {
+			name = "Octus Zinkle"	
+			adm = 2
+			dip = 1
+			mil = 1
+		}
+	}
+}

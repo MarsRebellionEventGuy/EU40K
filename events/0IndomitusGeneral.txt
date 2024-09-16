@@ -1,0 +1,200 @@
+namespace = indomitus_general
+normal_or_historical_nations = yes
+
+country_event = { #Warp FTL
+	id = indomitus_general.1
+	title = "indomitus_general.1.t"
+	desc = "indomitus_general.1.d"
+	picture = ANGRY_MOB_eventPicture
+
+	hidden = yes
+	
+	trigger = {
+		culture_group = imperial_culture_group
+		NOT = { has_country_modifier = warp_ftl }
+	}
+	
+	option = {
+		name = "indomitus_general.1.a"
+		add_country_modifier = { 
+			name = warp_ftl
+			duration = -1  
+		}
+		remove_country_modifier = { name = webway_ftl }
+		remove_country_modifier = { name = ether_drive_ftl }
+	}
+}
+
+country_event = { #Webway FTL
+	id = indomitus_general.2
+	title = "indomitus_general.2.t"
+	desc = "indomitus_general.2.d"
+	picture = ANGRY_MOB_eventPicture
+
+	hidden = yes
+	
+	trigger = {
+		culture_group = aeldari_culture_group
+		NOT = { has_country_modifier = webway_ftl }
+	}
+	
+	option = {
+		name = "indomitus_general.1.a"
+		add_country_modifier = { 
+			name = webway_ftl
+			duration = -1  
+		}
+		remove_country_modifier = { name = warp_ftl }
+		remove_country_modifier = { name = ether_drive_ftl }
+	}
+}
+
+country_event = { #Tau FTL
+	id = indomitus_general.3
+	title = "indomitus_general.3.t"
+	desc = "indomitus_general.3.d"
+	picture = ANGRY_MOB_eventPicture
+
+	hidden = yes
+	
+	trigger = {
+		culture_group = tau_culture_group
+		NOT = { has_country_modifier = ether_drive_ftl }
+	}
+	
+	option = {
+		name = "indomitus_general.3.a"
+		add_country_modifier = { 
+			name = ether_drive_ftl
+			duration = -1  
+		}
+		remove_country_modifier = { name = warp_ftl }
+		remove_country_modifier = { name = webway_ftl }
+	}
+}
+
+country_event = { #Inquisition
+	id = indomitus_general.4
+	title = "indomitus_general.4.t"
+	desc = "indomitus_general.4.d"
+	picture = RELIGION_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = {
+	}
+	
+	option = {
+		name = "indomitus_general.4.a"
+		add_country_modifier = { 
+			name = inquisition_thorians
+			duration = 3650
+			desc = thorians_tooltip
+		}
+	}
+	option = {
+		name = "indomitus_general.4.b"
+		add_country_modifier = { 
+			name = inquisition_amalathians
+			duration = 3650
+			desc = amalathians_tooltip
+		}
+	}
+	option = {
+		name = "indomitus_general.4.c"
+		add_country_modifier = { 
+			name = inquisition_ardentites
+			duration = 3650
+			desc = ardentites_tooltip
+		}
+	}
+	option = {
+		name = "indomitus_general.4.e"
+		add_country_modifier = { 
+			name = inquisition_monodominants
+			duration = 3650
+			desc = monodominants_tooltip
+		}
+	}
+	option = {
+		name = "indomitus_general.4.f"
+		add_country_modifier = { 
+			name = inquisition_xanthites
+			duration = 3650
+			desc = xanthites_tooltip
+		}
+	}
+	option = {
+		name = "indomitus_general.4.g"
+		add_country_modifier = { 
+			name = inquisition_recongregationists
+			duration = 3650
+			desc = recongregationists_tooltip
+		}
+	}
+	option = {
+		name = "indomitus_general.4.h"
+		add_country_modifier = { 
+			name = inquisition_istvaanists
+			duration = 3650
+			desc = istvaanists_tooltip
+		}
+	}
+	option = {
+		name = "indomitus_general.4.i"
+		add_country_modifier = { 
+			name = inquisition_libricaranists
+			duration = 3650
+			desc = libricanists_tooltip
+		}
+	}
+
+}
+
+country_event = {
+	id = indomitus_general.5
+	title = "indomitus_general.5.t"
+	desc = "indomitus_general.5.d"
+	picture = ANGRY_MOB_eventPicture
+
+	hidden = yes
+	
+	trigger = {
+		tag = XXA
+		NOT = { has_country_modifier = Imperium_Naval_Faction_Modifier }
+		naval_maintenance = 1
+		navy_size_percentage = 0.90
+	}
+	
+	option = {
+		name = "indomitus_general.5.a"
+		add_country_modifier = { 
+			name = Imperium_Naval_Faction_Modifier
+			duration = -1
+			hidden = yes
+		}
+	}
+}
+
+country_event = {
+	id = indomitus_general.6
+	title = "indomitus_general.6.t"
+	desc = "indomitus_general.6.d"
+	picture = ANGRY_MOB_eventPicture
+
+	hidden = yes
+	
+	trigger = {
+		tag = XXA
+		has_country_modifier = Imperium_Naval_Faction_Modifier
+		NOT = {
+			naval_maintenance = 1
+			navy_size_percentage = 0.90
+		}
+	}
+	
+	option = {
+		name = "indomitus_general.6.a"
+		remove_country_modifier = Imperium_Naval_Faction_Modifier
+	}
+}

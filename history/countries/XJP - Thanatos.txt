@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = necron_dynasty_reform
+government_rank = 1
+technology_group = necron
+religion = necron
+primary_culture = necron_culture
+capital = 1906
+
+1970.12.12 = {
+	monarch = {
+		name = "Hakmephet"	
+			dynasty = " "
+		adm = 3
+		dip = 5
+		mil = 5
+	}
+}

@@ -1,0 +1,9 @@
+add_core = XGM
+owner = XGM
+controller = XGM
+religion = greater_good
+culture = kroot_culture
+base_tax = 1
+base_production = 1
+base_manpower = 2
+trade_goods = agricultural_goods

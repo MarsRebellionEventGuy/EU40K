@@ -1,0 +1,17 @@
+government = theocracy
+add_government_reform = forge_world_reform
+government_rank = 1
+technology_group = mechanicus
+religion = mechanicus
+primary_culture = mechanicus_culture
+capital = 442
+
+1970.12.12 = {
+		monarch = {
+			name = "Lexane 82/2 Kelbowe"	
+			adm = 4
+			dip = 5
+			mil = 1
+		}
+	}
+}

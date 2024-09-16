@@ -1,0 +1,3136 @@
+on_startup = {
+	add_country_modifier = { 
+		name = startup_modifier
+		duration = -1  
+		hidden = yes
+	}
+	add_country_modifier = { 
+		name = tau_unit_bonus
+		duration = -1
+	}
+	592 = {
+		discover_country = ROOT
+	}
+	if = {
+		limit = { is_year = 1999 tag = XXA NOT = { ai = yes } }
+		hire_advisor = {
+			type = irthuhaemotalion
+			name = "Irthu Haemotalion"
+			skill = 1
+			culture = imperial_culture
+		}
+		hire_advisor = {
+			type = mereldapereth
+			name = "Merelda Pereth"
+			skill = 1
+			culture = imperial_culture
+		}
+		hire_advisor = {
+			type = avelizadrachmar
+			name = "Aveliza Drachmar"
+			skill = 1
+			culture = imperial_culture
+		}
+		add_corruption = 30
+		set_estate_privilege = estate_church_land_rights
+		set_estate_privilege = estate_nobles_land_rights
+		capital_scope = {
+			add_province_modifier = { 
+				name = terra_starting_modifier
+				duration = -1  
+			}
+		}
+	}
+	if = { 
+		limit = {
+			has_reform = astartes_reform
+		}
+		capital_scope = {
+			add_province_modifier = { 
+				name = astartes_unit_bonus
+				duration = -1  
+				hidden = yes
+			}
+		}
+	}
+	#if = { 
+	#	limit = {
+	#		culture_group = imperial_group
+	#	}
+	#	add_country_modifier = { 
+	#		name = imperial_trade_modifier
+	#		duration = -1  
+	#		hidden = yes
+	#	}
+	#}
+	#if = { 
+	#	limit = {
+	#		NOT = { culture_group = imperial_group }
+	#	}
+	#	add_country_modifier = { 
+	#		name = non_imperial_trade_modifier
+	#		duration = -1  
+	#		hidden = yes
+	#	}
+	#}
+	if = { 
+		limit = {
+			NOT = { ruler_has_personality = immortal_personality }
+			NOT = { tag = XXA }
+			OR = {
+				primary_culture = loyalist_astartes_culture
+				culture_group = ork_culture_group
+				culture_group = aeldari_culture_group
+				culture_group = necron_culture_group
+				primary_culture = chaos_culture
+				primary_culture = heretic_astartes_culture
+				primary_culture = hrud_culture
+			}
+		}
+		clear_scripted_personalities = yes
+		add_ruler_personality = immortal_personality
+	}
+	if = {
+		limit = {
+			culture_group = aeldari_culture_group
+		}
+		every_country = {
+			limit = {
+				culture_group = necron_culture_group
+			}
+			add_historical_rival = ROOT
+		}
+	}
+	if = {
+		limit = {
+			culture_group = necron_culture_group
+		}
+		every_country = {
+			limit = {
+				culture_group = aeldari_culture_group
+			}
+			add_historical_rival = ROOT
+		}
+	}
+	if = {
+		limit = {
+			capital_scope = { region = segmentum_solar_region }
+		}
+		segmentum_solar_region = {
+			discover_country = ROOT
+		}
+		talis_munus_region = {
+			discover_country = ROOT
+		}
+		talis_munus_sea_region = {
+			discover_country = ROOT
+		}
+		trail_evisser_region = {
+			discover_country = ROOT
+		}
+		evisser_trail_sea_region = {
+			discover_country = ROOT
+		}
+		fenris_region = {
+			discover_country = ROOT
+		}
+		fenris_sea_region = {
+			discover_country = ROOT
+		}
+		agripinaa_region = {
+			discover_country = ROOT
+		}
+		agripinaa_sector_sea_region = {
+			discover_country = ROOT
+		}
+		110 = {
+			discover_country = ROOT
+		}
+		589 = {
+			discover_country = ROOT
+		}
+		181 = {
+			discover_country = ROOT
+		}
+		211 = {
+			discover_country = ROOT
+		}
+		950 = {
+			undiscover_country = ROOT
+		}
+		1187 = {
+			undiscover_country = ROOT
+		}
+		123 = {
+			discover_country = ROOT
+		}
+		124 = {
+			discover_country = ROOT
+		}
+		125 = {
+			discover_country = ROOT
+		}
+		333 = {
+			discover_country = ROOT
+		}
+		334 = {
+			discover_country = ROOT
+		}
+		122 = {
+			discover_country = ROOT
+		}
+		154 = {
+			discover_country = ROOT
+		}
+		335 = {
+			discover_country = ROOT
+		}
+		337 = {
+			discover_country = ROOT
+		}
+	}
+	if = {
+		limit = {
+			capital_scope = { region = fenris_region }
+		}
+		fenris_region = {
+			discover_country = ROOT
+		}
+		fenris_sea_region = {
+			discover_country = ROOT
+		}
+		avellorn = {
+			discover_country = ROOT
+		}
+		benediction = {
+			discover_country = ROOT
+		}
+		keletros = {
+			discover_country = ROOT
+		}
+		golgotha_region = {
+			discover_country = ROOT
+		}
+		golgothan_sector_sea_region = {
+			discover_country = ROOT
+		}
+		agripinaa_region = {
+			discover_country = ROOT
+		}
+		agripinaa_sector_sea_region = {
+			discover_country = ROOT
+		}
+		prosperan_rift_region = {
+			discover_country = ROOT
+		}
+		prosperan_rift_sea_region = {
+			discover_country = ROOT
+		}
+		487 = {
+			discover_country = ROOT
+		}
+		3087 = {
+			discover_country = ROOT
+		}
+		1 = {
+			undiscover_country = ROOT
+		}
+		2 = {
+			undiscover_country = ROOT
+		}
+		3089 = {
+			discover_country = ROOT
+		}
+		465 = {
+			discover_country = ROOT
+		}
+		566 = {
+			discover_country = ROOT
+		}
+		567 = {
+			discover_country = ROOT
+		}
+
+	}
+
+
+
+	if = {
+		limit = {
+			capital_scope = { region = golgotha_region }
+		}
+		golgotha_region = {
+			discover_country = ROOT
+		}
+		golgothan_sector_sea_region = {
+			discover_country = ROOT
+		}
+		fenris_region = {
+			discover_country = ROOT
+		}
+		fenris_sea_region = {
+			discover_country = ROOT
+		}
+		prosperan_rift_region = {
+			discover_country = ROOT
+		}
+		prosperan_rift_sea_region = {
+			discover_country = ROOT
+		}
+		galactic_core_region = {
+			discover_country = ROOT
+		}
+		galactic_core_sector_sea_region = {
+			discover_country = ROOT
+		}
+		avellorn = {
+			discover_country = ROOT
+		}
+		benediction = {
+			discover_country = ROOT
+		}
+		keletros = {
+			discover_country = ROOT
+		}
+		2 = {
+			undiscover_country = ROOT
+		}
+		3089 = {
+			discover_country = ROOT
+		}
+		566 = {
+			discover_country = ROOT
+		}
+		567 = {
+			discover_country = ROOT
+		}
+
+	}
+
+
+	if = {
+		limit = {
+			capital_scope = { region = prosperan_rift_region }
+		}
+		prosperan_rift_region = {
+			discover_country = ROOT
+		}
+		prosperan_rift_sea_region = {
+			discover_country = ROOT
+		}
+		golgotha_region = {
+			discover_country = ROOT
+		}
+		golgothan_sector_sea_region = {
+			discover_country = ROOT
+		}
+		fenris_region = {
+			discover_country = ROOT
+		}
+		fenris_sea_region = {
+			discover_country = ROOT
+		}
+		talis_munus_region = {
+			discover_country = ROOT
+		}
+		talis_munus_sea_region = {
+			discover_country = ROOT
+		}
+		karthago_region = {
+			discover_country = ROOT
+		}
+		karthago_sector_sea_region = {
+			discover_country = ROOT
+		}
+		octarius_region = {
+			discover_country = ROOT
+		}
+		octarius_sector_sea_region = {
+			discover_country = ROOT
+		}
+		586 = {
+			discover_country = ROOT
+		}
+		566 = {
+			discover_country = ROOT
+		}
+		567 = {
+			discover_country = ROOT
+		}
+		3089 = {
+			discover_country = ROOT
+		}
+		3089 = {
+			discover_country = ROOT
+		}
+		181 = {
+			discover_country = ROOT
+		}
+		keletros = {
+			discover_country = ROOT
+		}
+		xenax = {
+			discover_country = ROOT
+		}
+		gathalamor = {
+			discover_country = ROOT
+		}
+		avellorn = {
+			discover_country = ROOT
+		}
+		benediction = {
+			discover_country = ROOT
+		}
+	}
+
+	if = {
+		limit = {
+			capital_scope = { region = karthago_region }
+		}
+		prosperan_rift_region = {
+			discover_country = ROOT
+		}
+		prosperan_rift_sea_region = {
+			discover_country = ROOT
+		}
+		golgotha_region = {
+			discover_country = ROOT
+		}
+		golgothan_sector_sea_region = {
+			discover_country = ROOT
+		}
+		talis_munus_region = {
+			discover_country = ROOT
+		}
+		talis_munus_sea_region = {
+			discover_country = ROOT
+		}
+		karthago_region = {
+			discover_country = ROOT
+		}
+		karthago_sector_sea_region = {
+			discover_country = ROOT
+		}
+		octarius_region = {
+			discover_country = ROOT
+		}
+		octarius_sector_sea_region = {
+			discover_country = ROOT
+		}
+		586 = {
+			discover_country = ROOT
+		}
+		566 = {
+			discover_country = ROOT
+		}
+		567 = {
+			discover_country = ROOT
+		}
+		950 = {
+			discover_country = ROOT
+		}
+		gathalamor = {
+			discover_country = ROOT
+		}
+		xenax = {
+			discover_country = ROOT
+		}
+		974 = {
+			undiscover_country = ROOT
+		}
+		181 = {
+			undiscover_country = ROOT
+		}
+	}
+
+	if = {
+		limit = {
+			capital_scope = { region = talis_munus_region }
+		}
+		talis_munus_region = {
+			discover_country = ROOT
+		}
+		talis_munus_sea_region = {
+			discover_country = ROOT
+		}
+		segmentum_solar_region = {
+			discover_country = ROOT
+		}
+		karthago_region = {
+			discover_country = ROOT
+		}
+		karthago_sector_sea_region = {
+			discover_country = ROOT
+		}
+		prosperan_rift_region = {
+			discover_country = ROOT
+		}
+		prosperan_rift_sea_region = {
+			discover_country = ROOT
+		}
+		fenris_region = {
+			discover_country = ROOT
+		}
+		fenris_sea_region = {
+			discover_country = ROOT
+		}
+		trail_evisser_region = {
+			discover_country = ROOT
+		}
+		evisser_trail_sea_region = {
+			discover_country = ROOT
+		}
+		macharia_region = {
+			discover_country = ROOT
+		}
+		macharian_sector_sea_region = {
+			discover_country = ROOT
+		}
+		uhulis_sector_sea_region = {
+			discover_country = ROOT
+		}
+		uhulis_region = {
+			discover_country = ROOT
+		}
+		inwit_cluster_sector_sea_region = {
+			discover_country = ROOT
+		}
+		inwit_cluster_region = {
+			discover_country = ROOT
+		}
+		586 = {
+			discover_country = ROOT
+		}
+	}
+
+	if = {
+		limit = {
+			capital_scope = { region = inwit_cluster_region }
+		}
+		inwit_cluster_sector_sea_region = {
+			discover_country = ROOT
+		}
+		inwit_cluster_region = {
+			discover_country = ROOT
+		}
+		karthago_region = {
+			discover_country = ROOT
+		}
+		karthago_sector_sea_region = {
+			discover_country = ROOT
+		}
+		octarius_region = {
+			discover_country = ROOT
+		}
+		octarius_sector_sea_region = {
+			discover_country = ROOT
+		}
+		uhulis_sector_sea_region = {
+			discover_country = ROOT
+		}
+		uhulis_region = {
+			discover_country = ROOT
+		}
+		talis_munus_region = {
+			discover_country = ROOT
+		}
+		talis_munus_sea_region = {
+			discover_country = ROOT
+		}
+		amerikon_region = {
+			discover_country = ROOT
+		}
+		amerikon_sector_sea_region = {
+			discover_country = ROOT
+		}
+		reductus_region = {
+			discover_country = ROOT
+		}
+		reductus_sector_sea_region = {
+			discover_country = ROOT
+		}
+		forsarr_sector_sea_region = {
+			discover_country = ROOT
+		}
+		forsarr_sector_sea_region = {
+			discover_country = ROOT
+		}
+		565 = {
+			discover_country = ROOT
+		}
+		570 = {
+			discover_country = ROOT
+		}
+		586 = {
+			discover_country = ROOT
+		}
+		raisa = {
+			discover_country = ROOT
+		}
+		lavantia = {
+			discover_country = ROOT
+		}
+		kiavahr = {
+			discover_country = ROOT
+		}
+		338 = {
+			discover_country = ROOT
+		}
+		gathalamor = {
+			discover_country = ROOT
+		}
+		xenax = {
+			discover_country = ROOT
+		}
+		338 = {
+			undiscover_country = ROOT
+		}
+		974 = {
+			undiscover_country = ROOT
+		}
+	}
+
+	if = {
+		limit = {
+			capital_scope = { region = amerikon_region }
+		}
+		amerikon_region = {
+			discover_country = ROOT
+		}
+		amerikon_sector_sea_region = {
+			discover_country = ROOT
+		}
+		uhulis_region = {
+			discover_country = ROOT
+		}
+		uhulis_sector_sea_region = {
+			discover_country = ROOT
+		}
+		forsarr_sector_sea_region = {
+			discover_country = ROOT
+		}
+		forsarr_region = {
+			discover_country = ROOT
+		}
+		inwit_cluster_sector_sea_region = {
+			discover_country = ROOT
+		}
+		inwit_cluster_region = {
+			discover_country = ROOT
+		}
+		talis_munus_region = {
+			discover_country = ROOT
+		}
+		talis_munus_sea_region = {
+			discover_country = ROOT
+		}
+		565 = {
+			discover_country = ROOT
+		}
+		570 = {
+			discover_country = ROOT
+		}
+		878 = {
+			undiscover_country = ROOT
+		}
+		gathalamor = {
+			discover_country = ROOT
+		}
+		xenax = {
+			discover_country = ROOT
+		}
+		181 = {
+			discover_country = ROOT
+		}
+	}
+
+	if = {
+		limit = {
+			capital_scope = { region = uhulis_region }
+		}
+		amerikon_region = {
+			discover_country = ROOT
+		}
+		amerikon_sector_sea_region = {
+			discover_country = ROOT
+		}
+		uhulis_region = {
+			discover_country = ROOT
+		}
+		uhulis_sector_sea_region = {
+			discover_country = ROOT
+		}
+		yarokin_veil_region = {
+			discover_country = ROOT
+		}
+		yarokin_veil_sector_sea_region = {
+			discover_country = ROOT
+		}
+		inwit_cluster_sector_sea_region = {
+			discover_country = ROOT
+		}
+		inwit_cluster_region = {
+			discover_country = ROOT
+		}
+		macharia_region = {
+			discover_country = ROOT
+		}
+		macharian_sector_sea_region = {
+			discover_country = ROOT
+		}
+		talis_munus_region = {
+			discover_country = ROOT
+		}
+		talis_munus_sea_region = {
+			discover_country = ROOT
+		}
+		gathalamor = {
+			discover_country = ROOT
+		}
+		xenax = {
+			discover_country = ROOT
+		}
+		181 = {
+			discover_country = ROOT
+		}
+	}
+
+	if = {
+		limit = {
+			capital_scope = { region = yarokin_veil_region }
+		}
+		yarokin_veil_region = {
+			discover_country = ROOT
+		}
+		yarokin_veil_sector_sea_region = {
+			discover_country = ROOT
+		}
+		orpheus_region = {
+			discover_country = ROOT
+		}
+		orpheus_sector_sea_region = {
+			discover_country = ROOT
+		}
+		cretacia = {
+			discover_country = ROOT
+		}
+		taongar = {
+			discover_country = ROOT
+		}
+		caradryad_sector_sea_region = {
+			discover_country = ROOT
+		}
+		sabbat_worlds_region = {
+			discover_country = ROOT
+		}
+		sabbat_worlds_sea_region = {
+			discover_country = ROOT
+		}
+		587 = {
+			discover_country = ROOT
+		}
+		amerikon_region = {
+			discover_country = ROOT
+		}
+		amerikon_sector_sea_region = {
+			discover_country = ROOT
+		}
+		uhulis_region = {
+			discover_country = ROOT
+		}
+		uhulis_sector_sea_region = {
+			discover_country = ROOT
+		}
+		macharia_region = {
+			discover_country = ROOT
+		}
+		macharian_sector_sea_region = {
+			discover_country = ROOT
+		}
+		569 = {
+			discover_country = ROOT
+		}
+		570 = {
+			discover_country = ROOT
+		}
+	}
+
+	if = {
+		limit = {
+			capital_scope = { region = orpheus_region }
+		}
+		yarokin_veil_region = {
+			discover_country = ROOT
+		}
+		yarokin_veil_sector_sea_region = {
+			discover_country = ROOT
+		}
+		orpheus_region = {
+			discover_country = ROOT
+		}
+		orpheus_sector_sea_region = {
+			discover_country = ROOT
+		}
+		caradryad_region = {
+			discover_country = ROOT
+		}
+		caradryad_sector_sea_region = {
+			discover_country = ROOT
+		}
+		sabbat_worlds_region = {
+			discover_country = ROOT
+		}
+		sabbat_worlds_sea_region = {
+			discover_country = ROOT
+		}
+		veiled_region_sector_sea_region = {
+			discover_country = ROOT
+		}
+		pleuric = {
+			discover_country = ROOT
+		}
+		myr = {
+			discover_country = ROOT
+		}
+		569 = {
+			discover_country = ROOT
+		}
+		570 = {
+			discover_country = ROOT
+		}
+		775 = {
+			discover_country = ROOT
+		}
+	}
+
+	if = {
+		limit = {
+			capital_scope = { region = sabbat_worlds_region }
+		}
+		sabbat_worlds_region = {
+			discover_country = ROOT
+		}
+		sabbat_worlds_sea_region = {
+			discover_country = ROOT
+		}
+		yarokin_veil_region = {
+			discover_country = ROOT
+		}
+		yarokin_veil_sector_sea_region = {
+			discover_country = ROOT
+		}
+		orpheus_region = {
+			discover_country = ROOT
+		}
+		orpheus_sector_sea_region = {
+			discover_country = ROOT
+		}
+		macharia_region = {
+			discover_country = ROOT
+		}
+		macharian_sector_sea_region = {
+			discover_country = ROOT
+		}
+		salient_stars_region = {
+			discover_country = ROOT
+		}
+		salient_stars_sector_sea_region = {
+			discover_country = ROOT
+		}
+		laanah_rifts_region = {
+			discover_country = ROOT
+		}
+		laanah_rifts_sector_sea_region = {
+			discover_country = ROOT
+		}
+		444 = {
+			discover_country = ROOT
+		}
+	}
+
+	if = {
+		limit = {
+			capital_scope = { region = laanah_rifts_region }
+		}
+		sabbat_worlds_region = {
+			discover_country = ROOT
+		}
+		sabbat_worlds_sea_region = {
+			discover_country = ROOT
+		}
+		salient_stars_region = {
+			discover_country = ROOT
+		}
+		salient_stars_sector_sea_region = {
+			discover_country = ROOT
+		}
+		laanah_rifts_region = {
+			discover_country = ROOT
+		}
+		laanah_rifts_sector_sea_region = {
+			discover_country = ROOT
+		}
+		hydraphur_region = {
+			discover_country = ROOT
+		}
+		hydraphur_sector_sea_region = {
+			discover_country = ROOT
+		}
+		medusan_reach_region = {
+			discover_country = ROOT
+		}
+		medusan_reach_sector_sea_region = {
+			discover_country = ROOT
+		}
+		444 = {
+			discover_country = ROOT
+		}
+		571 = {
+			discover_country = ROOT
+		}
+		3125 = {
+			discover_country = ROOT
+		}
+	}
+
+	if = {
+		limit = {
+			capital_scope = { region = salient_stars_region }
+		}
+		salient_stars_region = {
+			discover_country = ROOT
+		}
+		salient_stars_sector_sea_region = {
+			discover_country = ROOT
+		}
+		laanah_rifts_region = {
+			discover_country = ROOT
+		}
+		laanah_rifts_sector_sea_region = {
+			discover_country = ROOT
+		}
+		sabbat_worlds_region = {
+			discover_country = ROOT
+		}
+		sabbat_worlds_sea_region = {
+			discover_country = ROOT
+		}
+		macharia_region = {
+			discover_country = ROOT
+		}
+		macharian_sector_sea_region = {
+			discover_country = ROOT
+		}
+		trail_evisser_region = {
+			discover_country = ROOT
+		}
+		evisser_trail_sea_region = {
+			discover_country = ROOT
+		}
+		hydraphur_region = {
+			discover_country = ROOT
+		}
+		hydraphur_sector_sea_region = {
+			discover_country = ROOT
+		}
+		444 = {
+			discover_country = ROOT
+		}
+		voss = {
+			discover_country = ROOT
+		}
+	}
+
+	if = {
+		limit = {
+			capital_scope = { region = hydraphur_region }
+		}
+		hydraphur_region = {
+			discover_country = ROOT
+		}
+		hydraphur_sector_sea_region = {
+			discover_country = ROOT
+		}
+		trail_evisser_region = {
+			discover_country = ROOT
+		}
+		evisser_trail_sea_region = {
+			discover_country = ROOT
+		}
+		laanah_rifts_region = {
+			discover_country = ROOT
+		}
+		laanah_rifts_sector_sea_region = {
+			discover_country = ROOT
+		}
+		salient_stars_region = {
+			discover_country = ROOT
+		}
+		salient_stars_sector_sea_region = {
+			discover_country = ROOT
+		}
+		medusan_reach_region = {
+			discover_country = ROOT
+		}
+		medusan_reach_sector_sea_region = {
+			discover_country = ROOT
+		}
+		agripinaa_region = {
+			discover_country = ROOT
+		}
+		agripinaa_sector_sea_region = {
+			discover_country = ROOT
+		}
+		444 = {
+			discover_country = ROOT
+		}
+		589 = {
+			discover_country = ROOT
+		}
+		3125 = {
+			discover_country = ROOT
+		}
+		voss = {
+			discover_country = ROOT
+		}
+	}
+
+	if = {
+		limit = {
+			capital_scope = { region = agripinaa_region }
+		}
+		hydraphur_region = {
+			discover_country = ROOT
+		}
+		hydraphur_sector_sea_region = {
+			discover_country = ROOT
+		}
+		trail_evisser_region = {
+			discover_country = ROOT
+		}
+		evisser_trail_sea_region = {
+			discover_country = ROOT
+		}
+		agripinaa_region = {
+			discover_country = ROOT
+		}
+		agripinaa_sector_sea_region = {
+			discover_country = ROOT
+		}
+		fenris_region = {
+			discover_country = ROOT
+		}
+		fenris_sea_region = {
+			discover_country = ROOT
+		}
+		nachmund_region = {
+			discover_country = ROOT
+		}
+		belis_corona_sector_sea_region = {
+			discover_country = ROOT
+		}
+		589 = {
+			discover_country = ROOT
+		}
+		voss = {
+			discover_country = ROOT
+		}
+		avellorn = {
+			discover_country = ROOT
+		}
+		benediction = {
+			discover_country = ROOT
+		}
+		keletros = {
+			discover_country = ROOT
+		}
+		463 = {
+			discover_country = ROOT
+		}
+		464 = {
+			discover_country = ROOT
+		}
+		465 = {
+			discover_country = ROOT
+		}
+	}
+
+	if = {
+		limit = {
+			capital_scope = { region = nachmund_region }
+		}
+		nachmund_region = {
+			discover_country = ROOT
+		}
+		belis_corona_sector_sea_region = {
+			discover_country = ROOT
+		}
+		agripinaa_region = {
+			discover_country = ROOT
+		}
+		agripinaa_sector_sea_region = {
+			discover_country = ROOT
+		}
+		589 = {
+			discover_country = ROOT
+		}
+		stygius_region = {
+			discover_country = ROOT
+		}
+		stygius_sector_sea_region = {
+			discover_country = ROOT
+		}
+		stryken_region = {
+			discover_country = ROOT
+		}
+		stryken_sector_sea_region = {
+			discover_country = ROOT
+		}
+	}
+
+	if = {
+		limit = {
+			capital_scope = { region = stryken_region }
+		}
+		stryken_region = {
+			discover_country = ROOT
+		}
+		stryken_sector_sea_region = {
+			discover_country = ROOT
+		}
+		nachmund_region = {
+			discover_country = ROOT
+		}
+		belis_corona_sector_sea_region = {
+			discover_country = ROOT
+		}
+		stygius_region = {
+			discover_country = ROOT
+		}
+		stygius_sector_sea_region = {
+			discover_country = ROOT
+		}
+		577 = {
+			discover_country = ROOT
+		}
+		askellon_region = {
+			discover_country = ROOT
+		}
+		askellon_sector_sea_region = {
+			discover_country = ROOT
+		}
+		calixis_region = {
+			discover_country = ROOT
+		}
+		calixis_sea_region = {
+			discover_country = ROOT
+		}
+		koronus_expanse_sector_sea_region = {
+			discover_country = ROOT
+		}
+		halo_stars_sea_region = {
+			discover_country = ROOT
+		}
+		taninim_expanse_sector_sea_region = {
+			discover_country = ROOT
+		}
+	}
+
+	if = {
+		limit = {
+			capital_scope = { region = askellon_region }
+		}
+		askellon_region = {
+			discover_country = ROOT
+		}
+		askellon_sector_sea_region = {
+			discover_country = ROOT
+		}
+		stryken_region = {
+			discover_country = ROOT
+		}
+		stryken_sector_sea_region = {
+			discover_country = ROOT
+		}
+		577 = {
+			discover_country = ROOT
+		}
+		calixis_region = {
+			discover_country = ROOT
+		}
+		calixis_sea_region = {
+			discover_country = ROOT
+		}
+		koronus_expanse_sector_sea_region = {
+			discover_country = ROOT
+		}
+		halo_stars_sea_region = {
+			discover_country = ROOT
+		}
+		taninim_expanse_sector_sea_region = {
+			discover_country = ROOT
+		}
+	}
+
+	if = {
+		limit = {
+			capital_scope = { region = calixis_region }
+		}
+		askellon_region = {
+			discover_country = ROOT
+		}
+		askellon_sector_sea_region = {
+			discover_country = ROOT
+		}
+		stryken_region = {
+			discover_country = ROOT
+		}
+		stryken_sector_sea_region = {
+			discover_country = ROOT
+		}
+		calixis_region = {
+			discover_country = ROOT
+		}
+		calixis_sea_region = {
+			discover_country = ROOT
+		}
+		halo_stars_sea_region = {
+			discover_country = ROOT
+		}
+		taninim_expanse_sector_sea_region = {
+			discover_country = ROOT
+		}
+		medusan_reach_region = {
+			discover_country = ROOT
+		}
+		medusan_reach_sector_sea_region = {
+			discover_country = ROOT
+		}
+		koronus_expanse_sector_sea_region = {
+			discover_country = ROOT
+		}
+	}
+
+	if = {
+		limit = {
+			capital_scope = { region = medusan_reach_region }
+		}
+		medusan_reach_region = {
+			discover_country = ROOT
+		}
+		medusan_reach_sector_sea_region = {
+			discover_country = ROOT
+		}
+		calixis_region = {
+			discover_country = ROOT
+		}
+		calixis_sea_region = {
+			discover_country = ROOT
+		}
+		koronus_expanse_sector_sea_region = {
+			discover_country = ROOT
+		}
+		hydraphur_region = {
+			discover_country = ROOT
+		}
+		hydraphur_sector_sea_region = {
+			discover_country = ROOT
+		}
+		laanah_rifts_region = {
+			discover_country = ROOT
+		}
+		laanah_rifts_sector_sea_region = {
+			discover_country = ROOT
+		}
+	}
+
+	if = {
+		limit = {
+			capital_scope = { region = gothic_region }
+		}
+		gothic_region = {
+			discover_country = ROOT
+		}
+		gothic_sector_sea_region = {
+			discover_country = ROOT
+		}
+		stygius_region = {
+			discover_country = ROOT
+		}
+		stygius_sector_sea_region = {
+			discover_country = ROOT
+		}
+		palatine_region = {
+			discover_country = ROOT
+		}
+		palatine_sea_region = {
+			discover_country = ROOT
+		}
+		manachea_region = {
+			discover_country = ROOT
+		}
+		manachea_sea_region = {
+			discover_country = ROOT
+		}
+		grail_abyss_region = {
+			discover_country = ROOT
+		}
+		grail_abyss_sea_region = {
+			discover_country = ROOT
+		}
+		coronid_deeps_region = {
+			discover_country = ROOT
+		}
+		coronid_deeps_sea_region = {
+			discover_country = ROOT
+		}
+	}
+
+	if = {
+		limit = {
+			capital_scope = { region = grail_abyss_region }
+		}
+		grail_abyss_region = {
+			discover_country = ROOT
+		}
+		grail_abyss_sea_region = {
+			discover_country = ROOT
+		}
+		stryken_region = {
+			discover_country = ROOT
+		}
+		stryken_sector_sea_region = {
+			discover_country = ROOT
+		}
+		taninim_expanse_sector_sea_region = {
+			discover_country = ROOT
+		}
+		gothic_region = {
+			discover_country = ROOT
+		}
+		gothic_sector_sea_region = {
+			discover_country = ROOT
+		}
+		coronid_deeps_region = {
+			discover_country = ROOT
+		}
+		coronid_deeps_sea_region = {
+			discover_country = ROOT
+		}
+	}
+
+	if = {
+		limit = {
+			capital_scope = { region = coronid_deeps_region }
+		}
+		coronid_deeps_region = {
+			discover_country = ROOT
+		}
+		coronid_deeps_sea_region = {
+			discover_country = ROOT
+		}
+		grail_abyss_region = {
+			discover_country = ROOT
+		}
+		grail_abyss_sea_region = {
+			discover_country = ROOT
+		}
+		gothic_region = {
+			discover_country = ROOT
+		}
+		gothic_sector_sea_region = {
+			discover_country = ROOT
+		}
+		manachea_region = {
+			discover_country = ROOT
+		}
+		manachea_sea_region = {
+			discover_country = ROOT
+		}
+		pelegron_cluster_region = {
+			discover_country = ROOT
+		}
+		pelegron_cluster_sea_region = {
+			discover_country = ROOT
+		}
+		phantax_region = {
+			discover_country = ROOT
+		}
+		phantax_sector_sea_region = {
+			discover_country = ROOT
+		}
+	}
+
+
+
+
+	if = {
+		limit = {
+			capital_scope = { region = manachea_region }
+		}
+		manachea_region = {
+			discover_country = ROOT
+		}
+		manachea_sea_region = {
+			discover_country = ROOT
+		}
+		coronid_deeps_region = {
+			discover_country = ROOT
+		}
+		coronid_deeps_sea_region = {
+			discover_country = ROOT
+		}
+		gothic_region = {
+			discover_country = ROOT
+		}
+		gothic_sector_sea_region = {
+			discover_country = ROOT
+		}
+		phantax_region = {
+			discover_country = ROOT
+		}
+		phantax_sector_sea_region = {
+			discover_country = ROOT
+		}
+		fenright_region = {
+			discover_country = ROOT
+		}
+		fenright_sector_sea_region = {
+			discover_country = ROOT
+		}
+		red_scar_region = {
+			discover_country = ROOT
+		}
+		red_scar_sea_region = {
+			discover_country = ROOT
+		}
+		palatine_region = {
+			discover_country = ROOT
+		}
+		palatine_sea_region = {
+			discover_country = ROOT
+		}
+	}
+
+
+
+
+	if = {
+		limit = {
+			capital_scope = { region = palatine_region }
+		}
+
+		palatine_region = {
+			discover_country = ROOT
+		}
+		palatine_sea_region = {
+			discover_country = ROOT
+		}
+		manachea_region = {
+			discover_country = ROOT
+		}
+		manachea_sea_region = {
+			discover_country = ROOT
+		}
+		gothic_region = {
+			discover_country = ROOT
+		}
+		gothic_sector_sea_region = {
+			discover_country = ROOT
+		}
+		red_scar_region = {
+			discover_country = ROOT
+		}
+		red_scar_sea_region = {
+			discover_country = ROOT
+		}
+	}
+
+
+
+
+	if = {
+		limit = {
+			capital_scope = { region = red_scar_region }
+		}
+		red_scar_region = {
+			discover_country = ROOT
+		}
+		red_scar_sea_region = {
+			discover_country = ROOT
+		}
+		palatine_region = {
+			discover_country = ROOT
+		}
+		palatine_sea_region = {
+			discover_country = ROOT
+		}
+		manachea_region = {
+			discover_country = ROOT
+		}
+		manachea_sea_region = {
+			discover_country = ROOT
+		}
+		fenright_region = {
+			discover_country = ROOT
+		}
+		fenright_sector_sea_region = {
+			discover_country = ROOT
+		}
+		nepthis_region = {
+			discover_country = ROOT
+		}
+		nepthis_sector_sea_region = {
+			discover_country = ROOT
+		}
+	}
+
+
+
+	if = {
+		limit = {
+			capital_scope = { region = nepthis_region }
+		}
+		nepthis_region = {
+			discover_country = ROOT
+		}
+		nepthis_sector_sea_region = {
+			discover_country = ROOT
+		}
+		red_scar_region = {
+			discover_country = ROOT
+		}
+		red_scar_sea_region = {
+			discover_country = ROOT
+		}
+		fenright_region = {
+			discover_country = ROOT
+		}
+		fenright_sector_sea_region = {
+			discover_country = ROOT
+		}
+		chalnath_expanse_region = {
+			discover_country = ROOT
+		}
+		chalnath_expanse_sea_region = {
+			discover_country = ROOT
+		}
+	}
+
+	if = {
+		limit = {
+			capital_scope = { region = phantax_region }
+		}
+		phantax_region = {
+			discover_country = ROOT
+		}
+		phantax_sector_sea_region = {
+			discover_country = ROOT
+		}
+		fenright_region = {
+			discover_country = ROOT
+		}
+		fenright_sector_sea_region = {
+			discover_country = ROOT
+		}
+		manachea_region = {
+			discover_country = ROOT
+		}
+		manachea_sea_region = {
+			discover_country = ROOT
+		}
+		nostramo_region = {
+			discover_country = ROOT
+		}
+		huda_gulf_region = {
+			discover_country = ROOT
+		}
+		nostramo_sector_sea_region = {
+			discover_country = ROOT
+		}
+		coronid_deeps_region = {
+			discover_country = ROOT
+		}
+		coronid_deeps_sea_region = {
+			discover_country = ROOT
+		}
+		pelegron_cluster_region = {
+			discover_country = ROOT
+		}
+		pelegron_cluster_sea_region = {
+			discover_country = ROOT
+		}
+	}
+
+	if = {
+		limit = {
+			capital_scope = { region = pelegron_cluster_region }
+		}
+		pelegron_cluster_region = {
+			discover_country = ROOT
+		}
+		pelegron_cluster_sea_region = {
+			discover_country = ROOT
+		}
+		phantax_region = {
+			discover_country = ROOT
+		}
+		phantax_sector_sea_region = {
+			discover_country = ROOT
+		}
+		coronid_deeps_region = {
+			discover_country = ROOT
+		}
+		coronid_deeps_sea_region = {
+			discover_country = ROOT
+		}
+		580 = {
+			discover_country = ROOT
+		}
+		ghoul_stars_region = {
+			discover_country = ROOT
+		}
+		ghoul_stars_sector_sea_region = {
+			discover_country = ROOT
+		}
+	}
+
+	if = {
+		limit = {
+			capital_scope = { region = ghoul_stars_region }
+		}
+		ghoul_stars_region = {
+			discover_country = ROOT
+		}
+		ghoul_stars_sector_sea_region = {
+			discover_country = ROOT
+		}
+		pelegron_cluster_region = {
+			discover_country = ROOT
+		}
+		pelegron_cluster_sea_region = {
+			discover_country = ROOT
+		}
+		nostramo_region = {
+			discover_country = ROOT
+		}
+		huda_gulf_region = {
+			discover_country = ROOT
+		}
+		nostramo_sector_sea_region = {
+			discover_country = ROOT
+		}
+		thramas_sector_sea_region = {
+			discover_country = ROOT
+		}
+		thramas_region = {
+			discover_country = ROOT
+		}
+		580 = {
+			discover_country = ROOT
+		}
+	}
+
+	if = {
+		limit = {
+			capital_scope = {
+				OR = {
+					region = nostramo_region
+					region = huda_gulf_region
+				}
+			}
+		}
+		nostramo_region = {
+			discover_country = ROOT
+		}
+		huda_gulf_region = {
+			discover_country = ROOT
+		}
+		nostramo_sector_sea_region = {
+			discover_country = ROOT
+		}
+		ghoul_stars_region = {
+			discover_country = ROOT
+		}
+		ghoul_stars_sector_sea_region = {
+			discover_country = ROOT
+		}
+		fenright_region = {
+			discover_country = ROOT
+		}
+		fenright_sector_sea_region = {
+			discover_country = ROOT
+		}
+		phantax_region = {
+			discover_country = ROOT
+		}
+		phantax_sector_sea_region = {
+			discover_country = ROOT
+		}
+		gulgorahd_region = {
+			discover_country = ROOT
+		}
+		gulgorahd_sea_region = {
+			discover_country = ROOT
+		}
+
+	}
+
+	if = {
+		limit = {
+			capital_scope = { region = fenright_region }
+		}
+		fenright_region = {
+			discover_country = ROOT
+		}
+		fenright_sector_sea_region = {
+			discover_country = ROOT
+		}
+		nepthis_region = {
+			discover_country = ROOT
+		}
+		nepthis_sector_sea_region = {
+			discover_country = ROOT
+		}
+		red_scar_region = {
+			discover_country = ROOT
+		}
+		red_scar_sea_region = {
+			discover_country = ROOT
+		}
+		chalnath_expanse_region = {
+			discover_country = ROOT
+		}
+		chalnath_expanse_sea_region = {
+			discover_country = ROOT
+		}
+		manachea_region = {
+			discover_country = ROOT
+		}
+		manachea_sea_region = {
+			discover_country = ROOT
+		}
+		phantax_region = {
+			discover_country = ROOT
+		}
+		phantax_sector_sea_region = {
+			discover_country = ROOT
+		}
+		nostramo_region = {
+			discover_country = ROOT
+		}
+		huda_gulf_region = {
+			discover_country = ROOT
+		}
+		nostramo_sector_sea_region = {
+			discover_country = ROOT
+		}
+		gulgorahd_region = {
+			discover_country = ROOT
+		}
+		gulgorahd_sea_region = {
+			discover_country = ROOT
+		}
+	}
+
+	if = {
+		limit = {
+			capital_scope = { region = chalnath_expanse_region }
+		}
+		chalnath_expanse_region = {
+			discover_country = ROOT
+		}
+		chalnath_expanse_sea_region = {
+			discover_country = ROOT
+		}
+		gulgorahd_region = {
+			discover_country = ROOT
+		}
+		gulgorahd_sea_region = {
+			discover_country = ROOT
+		}
+		fenright_region = {
+			discover_country = ROOT
+		}
+		fenright_sector_sea_region = {
+			discover_country = ROOT
+		}
+		nepthis_region = {
+			discover_country = ROOT
+		}
+		nepthis_sector_sea_region = {
+			discover_country = ROOT
+		}
+		ullanor_region = {
+			discover_country = ROOT
+		}
+		ullanor_sector_sea_region = {
+			discover_country = ROOT
+		}
+	}
+
+
+
+
+
+
+
+	if = {
+		limit = {
+			capital_scope = { region = gulgorahd_region }
+		}
+		chalnath_expanse_region = {
+			discover_country = ROOT
+		}
+		chalnath_expanse_sea_region = {
+			discover_country = ROOT
+		}
+		gulgorahd_region = {
+			discover_country = ROOT
+		}
+		gulgorahd_sea_region = {
+			discover_country = ROOT
+		}
+		fenright_region = {
+			discover_country = ROOT
+		}
+		fenright_sector_sea_region = {
+			discover_country = ROOT
+		}
+		ullanor_region = {
+			discover_country = ROOT
+		}
+		ullanor_sector_sea_region = {
+			discover_country = ROOT
+		}
+		nostramo_region = {
+			discover_country = ROOT
+		}
+		huda_gulf_region = {
+			discover_country = ROOT
+		}
+		nostramo_sector_sea_region = {
+			discover_country = ROOT
+		}
+		thramas_region = {
+			discover_country = ROOT
+		}
+		thramas_sector_sea_region = {
+			discover_country = ROOT
+		}
+		triplex_region = {
+			discover_country = ROOT
+		}
+		triplex_sea_region = {
+			discover_country = ROOT
+		}
+	}
+
+
+
+
+	if = {
+		limit = {
+			capital_scope = { region = thramas_region }
+		}
+		thramas_region = {
+			discover_country = ROOT
+		}
+		thramas_sector_sea_region = {
+			discover_country = ROOT
+		}
+		gulgorahd_region = {
+			discover_country = ROOT
+		}
+		gulgorahd_sea_region = {
+			discover_country = ROOT
+		}
+		triplex_region = {
+			discover_country = ROOT
+		}
+		triplex_sea_region = {
+			discover_country = ROOT
+		}
+		ghoul_stars_region = {
+			discover_country = ROOT
+		}
+		ghoul_stars_sector_sea_region = {
+			discover_country = ROOT
+		}
+	}
+
+
+	if = {
+		limit = {
+			capital_scope = { region = thramas_region }
+		}
+		triplex_region = {
+			discover_country = ROOT
+		}
+		triplex_sea_region = {
+			discover_country = ROOT
+		}
+		thramas_region = {
+			discover_country = ROOT
+		}
+		thramas_sector_sea_region = {
+			discover_country = ROOT
+		}
+		gulgorahd_region = {
+			discover_country = ROOT
+		}
+		gulgorahd_sea_region = {
+			discover_country = ROOT
+		}
+		ullanor_region = {
+			discover_country = ROOT
+		}
+		ullanor_sector_sea_region = {
+			discover_country = ROOT
+		}
+		bakhar_region = {
+			discover_country = ROOT
+		}
+		bakhar_sector_sea_region = {
+			discover_country = ROOT
+		}
+	}
+
+
+
+
+
+	if = {
+		limit = {
+			capital_scope = { region = ullanor_region }
+		}
+		ullanor_region = {
+			discover_country = ROOT
+		}
+		ullanor_sector_sea_region = {
+			discover_country = ROOT
+		}
+		triplex_region = {
+			discover_country = ROOT
+		}
+		triplex_sea_region = {
+			discover_country = ROOT
+		}
+		gulgorahd_region = {
+			discover_country = ROOT
+		}
+		gulgorahd_sea_region = {
+			discover_country = ROOT
+		}
+		bakhar_region = {
+			discover_country = ROOT
+		}
+		bakhar_sector_sea_region = {
+			discover_country = ROOT
+		}
+		chalnath_expanse_region = {
+			discover_country = ROOT
+		}
+		chalnath_expanse_sea_region = {
+			discover_country = ROOT
+		}
+	}
+
+	if = {
+		limit = {
+			capital_scope = { region = triplex_region }
+		}
+		triplex_region = {
+			discover_country = ROOT
+		}
+		triplex_sea_region = {
+			discover_country = ROOT
+		}
+		ullanor_region = {
+			discover_country = ROOT
+		}
+		ullanor_sector_sea_region = {
+			discover_country = ROOT
+		}
+		gulgorahd_region = {
+			discover_country = ROOT
+		}
+		gulgorahd_sea_region = {
+			discover_country = ROOT
+		}
+		bakhar_region = {
+			discover_country = ROOT
+		}
+		bakhar_sector_sea_region = {
+			discover_country = ROOT
+		}
+		thramas_region = {
+			discover_country = ROOT
+		}
+		thramas_sector_sea_region = {
+			discover_country = ROOT
+		}
+	}
+	if = {
+		limit = {
+			capital_scope = { region = bakhar_region }
+		}
+		bakhar_region = {
+			discover_country = ROOT
+		}
+		bakhar_sector_sea_region = {
+			discover_country = ROOT
+		}
+		triplex_region = {
+			discover_country = ROOT
+		}
+		triplex_sea_region = {
+			discover_country = ROOT
+		}
+		ullanor_region = {
+			discover_country = ROOT
+		}
+		ullanor_sector_sea_region = {
+			discover_country = ROOT
+		}
+		grendl_stars_region = {
+			discover_country = ROOT
+		}
+		grendl_stars_sea_region = {
+			discover_country = ROOT
+		}
+	}
+	if = {
+		limit = {
+			capital_scope = { region = grendl_stars_region }
+		}
+		grendl_stars_region = {
+			discover_country = ROOT
+		}
+		grendl_stars_sea_region = {
+			discover_country = ROOT
+		}
+		bakhar_region = {
+			discover_country = ROOT
+		}
+		bakhar_sector_sea_region = {
+			discover_country = ROOT
+		}
+		sargos_region = {
+			discover_country = ROOT
+		}
+		sargos_sea_region = {
+			discover_country = ROOT
+		}
+	}
+	if = {
+		limit = {
+			capital_scope = { region = sargos_region }
+		}
+		sargos_region = {
+			discover_country = ROOT
+		}
+		sargos_sea_region = {
+			discover_country = ROOT
+		}
+		ultima_region = {
+			discover_country = ROOT
+		}
+		ultima_sector_sea_region = {
+			discover_country = ROOT
+		}
+		corribra_region = {
+			discover_country = ROOT
+		}
+		corribra_sector_sea_region = {
+			discover_country = ROOT
+		}
+		grendl_stars_region = {
+			discover_country = ROOT
+		}
+		grendl_stars_sea_region = {
+			discover_country = ROOT
+		}
+	}
+
+	if = {
+		limit = {
+			capital_scope = { region = ultima_region }
+		}
+		ultima_region = {
+			discover_country = ROOT
+		}
+		ultima_sector_sea_region = {
+			discover_country = ROOT
+		}
+		sargos_region = {
+			discover_country = ROOT
+		}
+		sargos_sea_region = {
+			discover_country = ROOT
+		}
+		mandragora_region = {
+			discover_country = ROOT
+		}
+		mandragora_sea_region = {
+			discover_country = ROOT
+		}
+		tau_region = {
+			discover_country = ROOT
+		}
+		tau_space_sea_region = {
+			discover_country = ROOT
+		}
+		vidar_region = {
+			discover_country = ROOT
+		}
+		vidar_sector_sea_region = {
+			discover_country = ROOT
+		}
+		charadon_region = {
+			discover_country = ROOT
+		}
+		charadon_sector_sea_region = {
+			discover_country = ROOT
+		}
+		578 = {
+			discover_country = ROOT
+		}
+	}
+
+	if = {
+		limit = {
+			capital_scope = { region = tau_region }
+		}
+		tau_region = {
+			discover_country = ROOT
+		}
+		tau_space_sea_region = {
+			discover_country = ROOT
+		}
+		mandragora_region = {
+			discover_country = ROOT
+		}
+		mandragora_sea_region = {
+			discover_country = ROOT
+		}
+		ultima_region = {
+			discover_country = ROOT
+		}
+		ultima_sector_sea_region = {
+			discover_country = ROOT
+		}
+	}
+
+	if = {
+		limit = {
+			capital_scope = { region = mandragora_region }
+		}
+		mandragora_region = {
+			discover_country = ROOT
+		}
+		mandragora_sea_region = {
+			discover_country = ROOT
+		}
+		tau_region = {
+			discover_country = ROOT
+		}
+		tau_space_sea_region = {
+			discover_country = ROOT
+		}
+		ultima_region = {
+			discover_country = ROOT
+		}
+		ultima_sector_sea_region = {
+			discover_country = ROOT
+		}
+		charadon_region = {
+			discover_country = ROOT
+		}
+		charadon_sector_sea_region = {
+			discover_country = ROOT
+		}
+		yasan_region = {
+			discover_country = ROOT
+		}
+		yasan_sector_sea_region = {
+			discover_country = ROOT
+		}
+		galactic_core_region = {
+			discover_country = ROOT
+		}
+		galactic_core_sector_sea_region = {
+			discover_country = ROOT
+		}
+	}
+
+	if = {
+		limit = {
+			capital_scope = { region = galactic_core_region }
+		}
+		galactic_core_region = {
+			discover_country = ROOT
+		}
+		galactic_core_sector_sea_region = {
+			discover_country = ROOT
+		}
+		golgotha_region = {
+			discover_country = ROOT
+		}
+		golgothan_sector_sea_region = {
+			discover_country = ROOT
+		}
+		yasan_region = {
+			discover_country = ROOT
+		}
+		yasan_sector_sea_region = {
+			discover_country = ROOT
+		}
+		mandragora_region = {
+			discover_country = ROOT
+		}
+		mandragora_sea_region = {
+			discover_country = ROOT
+		}
+		octarius_region = {
+			discover_country = ROOT
+		}
+		octarius_sector_sea_region = {
+			discover_country = ROOT
+		}
+		567 = {
+			discover_country = ROOT
+		}
+		568 = {
+			discover_country = ROOT
+		}
+		950 = {
+			discover_country = ROOT
+		}
+		3089 = {
+			discover_country = ROOT
+		}
+	}
+
+	if = {
+		limit = {
+			capital_scope = { region = yasan_region }
+		}
+		yasan_region = {
+			discover_country = ROOT
+		}
+		yasan_sector_sea_region = {
+			discover_country = ROOT
+		}
+		galactic_core_region = {
+			discover_country = ROOT
+		}
+		galactic_core_sector_sea_region = {
+			discover_country = ROOT
+		}
+		mandragora_region = {
+			discover_country = ROOT
+		}
+		mandragora_sea_region = {
+			discover_country = ROOT
+		}
+		octarius_region = {
+			discover_country = ROOT
+		}
+		octarius_sector_sea_region = {
+			discover_country = ROOT
+		}
+		nephilim_region = {
+			discover_country = ROOT
+		}
+		pariah_nexus_sea_region = {
+			discover_country = ROOT
+		}
+		loki_region = {
+			discover_country = ROOT
+		}
+		loki_sector_sea_region = {
+			discover_country = ROOT
+		}
+		charadon_region = {
+			discover_country = ROOT
+		}
+		charadon_sector_sea_region = {
+			discover_country = ROOT
+		}
+	}
+
+
+
+
+	if = {
+		limit = {
+			capital_scope = { region = charadon_region }
+		}
+		charadon_region = {
+			discover_country = ROOT
+		}
+		charadon_sector_sea_region = {
+			discover_country = ROOT
+		}
+		nephilim_region = {
+			discover_country = ROOT
+		}
+		pariah_nexus_sea_region = {
+			discover_country = ROOT
+		}
+		mandragora_region = {
+			discover_country = ROOT
+		}
+		mandragora_sea_region = {
+			discover_country = ROOT
+		}
+		yasan_region = {
+			discover_country = ROOT
+		}
+		yasan_sector_sea_region = {
+			discover_country = ROOT
+		}
+		ultima_region = {
+			discover_country = ROOT
+		}
+		ultima_sector_sea_region = {
+			discover_country = ROOT
+		}
+		vidar_region = {
+			discover_country = ROOT
+		}
+		vidar_sector_sea_region = {
+			discover_country = ROOT
+		}
+		corribra_region = {
+			discover_country = ROOT
+		}
+		corribra_sector_sea_region = {
+			discover_country = ROOT
+		}
+	}
+
+	if = {
+		limit = {
+			capital_scope = { region = vidar_region }
+		}
+		vidar_region = {
+			discover_country = ROOT
+		}
+		vidar_sector_sea_region = {
+			discover_country = ROOT
+		}
+		corribra_region = {
+			discover_country = ROOT
+		}
+		corribra_sector_sea_region = {
+			discover_country = ROOT
+		}
+		charadon_region = {
+			discover_country = ROOT
+		}
+		charadon_sector_sea_region = {
+			discover_country = ROOT
+		}
+		nephilim_region = {
+			discover_country = ROOT
+		}
+		pariah_nexus_sea_region = {
+			discover_country = ROOT
+		}
+		ultima_region = {
+			discover_country = ROOT
+		}
+		ultima_sector_sea_region = {
+			discover_country = ROOT
+		}
+	}
+
+	if = {
+		limit = {
+			capital_scope = { region = corribra_region }
+		}
+		corribra_region = {
+			discover_country = ROOT
+		}
+		corribra_sector_sea_region = {
+			discover_country = ROOT
+		}
+		vidar_region = {
+			discover_country = ROOT
+		}
+		vidar_sector_sea_region = {
+			discover_country = ROOT
+		}
+		charadon_region = {
+			discover_country = ROOT
+		}
+		charadon_sector_sea_region = {
+			discover_country = ROOT
+		}
+		nephilim_region = {
+			discover_country = ROOT
+		}
+		pariah_nexus_sea_region = {
+			discover_country = ROOT
+		}
+		reductus_region = {
+			discover_country = ROOT
+		}
+		reductus_sector_sea_region = {
+			discover_country = ROOT
+		}
+		forsarr_region = {
+			discover_country = ROOT
+		}
+		veiled_region_sector_sea_region = {
+			discover_country = ROOT
+		}
+		forsarr_sector_sea_region = {
+			discover_country = ROOT
+		}
+	}
+
+	if = {
+		limit = {
+			capital_scope = { region = nephilim_region }
+		}
+		nephilim_region = {
+			discover_country = ROOT
+		}
+		pariah_nexus_sea_region = {
+			discover_country = ROOT
+		}
+		reductus_region = {
+			discover_country = ROOT
+		}
+		reductus_sector_sea_region = {
+			discover_country = ROOT
+		}
+		corribra_region = {
+			discover_country = ROOT
+		}
+		corribra_sector_sea_region = {
+			discover_country = ROOT
+		}
+		vidar_region = {
+			discover_country = ROOT
+		}
+		vidar_sector_sea_region = {
+			discover_country = ROOT
+		}
+		charadon_region = {
+			discover_country = ROOT
+		}
+		charadon_sector_sea_region = {
+			discover_country = ROOT
+		}
+		loki_region = {
+			discover_country = ROOT
+		}
+		loki_sector_sea_region = {
+			discover_country = ROOT
+		}
+		yasan_region = {
+			discover_country = ROOT
+		}
+		yasan_sector_sea_region = {
+			discover_country = ROOT
+		}
+	}
+
+	if = {
+		limit = {
+			capital_scope = { region = octarius_region }
+		}
+		octarius_region = {
+			discover_country = ROOT
+		}
+		octarius_sector_sea_region = {
+			discover_country = ROOT
+		}
+		galactic_core_region = {
+			discover_country = ROOT
+		}
+		galactic_core_sector_sea_region = {
+			discover_country = ROOT
+		}
+		loki_region = {
+			discover_country = ROOT
+		}
+		loki_sector_sea_region = {
+			discover_country = ROOT
+		}
+		yasan_region = {
+			discover_country = ROOT
+		}
+		yasan_sector_sea_region = {
+			discover_country = ROOT
+		}
+		karthago_region = {
+			discover_country = ROOT
+		}
+		karthago_sector_sea_region = {
+			discover_country = ROOT
+		}
+		prosperan_rift_region = {
+			discover_country = ROOT
+		}
+		prosperan_rift_sea_region = {
+			discover_country = ROOT
+		}
+		92 = {
+			discover_country = ROOT
+		}
+		566 = {
+			discover_country = ROOT
+		}
+		568 = {
+			discover_country = ROOT
+		}
+		586 = {
+			discover_country = ROOT
+		}
+	}
+
+	if = {
+		limit = {
+			capital_scope = { region = reductus_region }
+		}
+		reductus_region = {
+			discover_country = ROOT
+		}
+		reductus_sector_sea_region = {
+			discover_country = ROOT
+		}
+		forsarr_region = {
+			discover_country = ROOT
+		}
+		veiled_region_sector_sea_region = {
+			discover_country = ROOT
+		}
+		forsarr_sector_sea_region = {
+			discover_country = ROOT
+		}
+		inwit_cluster_region = {
+			discover_country = ROOT
+		}
+		inwit_cluster_sector_sea_region = {
+			discover_country = ROOT
+		}
+		loki_region = {
+			discover_country = ROOT
+		}
+		loki_sector_sea_region = {
+			discover_country = ROOT
+		}
+		corribra_region = {
+			discover_country = ROOT
+		}
+		corribra_sector_sea_region = {
+			discover_country = ROOT
+		}
+		nephilim_region = {
+			discover_country = ROOT
+		}
+		pariah_nexus_sea_region = {
+			discover_country = ROOT
+		}
+	}
+
+	if = {
+		limit = {
+			capital_scope = { region = loki_region }
+		}
+		loki_region = {
+			discover_country = ROOT
+		}
+		loki_sector_sea_region = {
+			discover_country = ROOT
+		}
+		reductus_region = {
+			discover_country = ROOT
+		}
+		reductus_sector_sea_region = {
+			discover_country = ROOT
+		}
+		nephilim_region = {
+			discover_country = ROOT
+		}
+		pariah_nexus_sea_region = {
+			discover_country = ROOT
+		}
+		yasan_region = {
+			discover_country = ROOT
+		}
+		yasan_sector_sea_region = {
+			discover_country = ROOT
+		}
+		octarius_region = {
+			discover_country = ROOT
+		}
+		octarius_sector_sea_region = {
+			discover_country = ROOT
+		}
+	}
+
+	if = {
+		limit = {
+			capital_scope = { region = forsarr_region }
+		}
+		forsarr_region = {
+			discover_country = ROOT
+		}
+		forsarr_sector_sea_region = {
+			discover_country = ROOT
+		}
+		veiled_region_sector_sea_region = {
+			discover_country = ROOT
+		}
+		reductus_region = {
+			discover_country = ROOT
+		}
+		reductus_sector_sea_region = {
+			discover_country = ROOT
+		}
+		caradryad_region = {
+			discover_country = ROOT
+		}
+		caradryad_sector_sea_region = {
+			discover_country = ROOT
+		}
+		inwit_cluster_region = {
+			discover_country = ROOT
+		}
+		inwit_cluster_sector_sea_region = {
+			discover_country = ROOT
+		}
+		amerikon_region = {
+			discover_country = ROOT
+		}
+		amerikon_sector_sea_region = {
+			discover_country = ROOT
+		}
+	}
+
+	if = {
+		limit = {
+			capital_scope = { region = caradryad_region }
+		}
+		caradryad_region = {
+			discover_country = ROOT
+		}
+		caradryad_sector_sea_region = {
+			discover_country = ROOT
+		}
+		forsarr_region = {
+			discover_country = ROOT
+		}
+		forsarr_sector_sea_region = {
+			discover_country = ROOT
+		}
+		veiled_region_sector_sea_region = {
+			discover_country = ROOT
+		}
+		reductus_region = {
+			discover_country = ROOT
+		}
+		reductus_sector_sea_region = {
+			discover_country = ROOT
+		}
+		inwit_cluster_region = {
+			discover_country = ROOT
+		}
+		inwit_cluster_sector_sea_region = {
+			discover_country = ROOT
+		}
+		amerikon_region = {
+			discover_country = ROOT
+		}
+		amerikon_sector_sea_region = {
+			discover_country = ROOT
+		}
+		yarokin_veil_region = {
+			discover_country = ROOT
+		}
+		yarokin_veil_sector_sea_region = {
+			discover_country = ROOT
+		}
+		orpheus_region = {
+			discover_country = ROOT
+		}
+		orpheus_sector_sea_region = {
+			discover_country = ROOT
+		}
+		569 = {
+			discover_country = ROOT
+		}
+		570 = {
+			discover_country = ROOT
+		}
+		587 = {
+			discover_country = ROOT
+		}
+	}
+
+	if = {
+		limit = {
+			capital_scope = { continent = segmentum_rift }
+		}
+		cadian_gate_region = {
+			discover_country = ROOT
+		}
+		cadian_gate_sea_region = {
+			discover_country = ROOT
+		}
+		hellforges_region = {
+			discover_country = ROOT
+		}
+		hellforges_sector_sea_region = {
+			discover_country = ROOT
+		}
+		plague_sector_region = {
+			discover_country = ROOT
+		}
+		plague_stars_sector_sea_region = {
+			discover_country = ROOT
+		}
+		infinite_cascade_region = {
+			discover_country = ROOT
+		}
+		infinite_cascade_sea_region = {
+			discover_country = ROOT
+		}
+		blood_stars_sea_region = {
+			discover_country = ROOT
+		}
+		crone_worlds_region = {
+			discover_country = ROOT
+		}
+		crone_worlds_sector_sea_region = {
+			discover_country = ROOT
+		}
+		217 = {
+			discover_country = ROOT
+		}
+	}
+}
+
+# country
+on_monarch_death = {
+	if = { 
+		limit = {
+			NOT = { ruler_has_personality = immortal_personality }
+			OR = {
+				primary_culture = loyalist_astartes_culture
+				culture_group = ork_culture_group
+				culture_group = aeldari_culture_group
+				culture_group = necron_culture_group
+				primary_culture = heretic_astartes_culture
+				primary_culture = hrud_culture
+			}
+		}
+		add_ruler_personality = immortal_personality
+	}
+}
+
+on_buy_religious_reform = {
+	if = { 
+		limit = {
+			culture = genestealer_culture
+			NOT = 
+				check_variable = {
+					which = genestealer_reform_variable
+					value = 5
+				}
+			}
+		}
+		change_variable = {            
+			which = genestealer_reform_variable
+			value = 1
+		}
+		
+	}
+	events = {
+		genestealer_events.1
+	}
+}
+
+on_battle_won_unit = {
+	if = {
+		limit = {
+			is_ruler_commanding_unit = yes
+			unit_owner = {
+				mission_completed = Genestealer_Mission_4
+			}
+		}
+		add_country_modifier = { 
+			name = genestealer_kellermorph_bonus
+			duration = 365
+		}
+	}
+	if = {
+		limit = {
+			unit_owner = {
+				tag = XXA
+			}
+			OR = {
+				mercenary_company = death_korps_krieg_company
+				mercenary_company = vostroyan_firstborn_company
+				mercenary_company = catachan_jungle_fighters_company
+				mercenary_company = armageddon_steel_legion_company
+				mercenary_company = elysian_drop_troops_company
+				mercenary_company = tallarn_desert_raiders_company
+				mercenary_company = mordian_iron_guard_company
+				mercenary_company = valhallan_ice_warriors_company
+				mercenary_company = tanith_first_and_only_company
+				mercenary_company = praetorian_guard_company
+				mercenary_company = mordant_acid_dogs_company
+				mercenary_company = scintillian_fusiliers_company
+				mercenary_company = jopali_indentured_squadrons_company
+				mercenary_company = kanak_skull_takers_company
+				mercenary_company = cadian_shock_troopers_company
+				mercenary_company = maccabian_janissaries_company
+			}
+		}
+		unit_owner = {
+			add_faction_influence = {
+				faction = imperial_army_faction
+				influence = 5
+			}
+			add_government_power = {
+				mechanic_type = imperium_mechanic
+				power_type = imperium_power
+				value = 5
+			}
+		}
+	}
+	if = {
+		limit = {
+			is_ruler_commanding_unit = yes
+			unit_owner = {
+				tag = XXA
+			}
+		}
+		unit_owner = {
+			add_government_power = {
+				mechanic_type = imperium_mechanic
+				power_type = imperium_power
+				value = 3
+			}
+		}
+	}
+}
+
+# ROOT = Country establishing it
+# First province in state is set
+on_holy_order_established = {
+	ROOT = {
+		if = {
+			limit = {
+				tag = XXA
+			}
+			add_faction_influence = {
+				faction = space_marines_faction
+				influence = 10
+			}
+		}
+	}
+}
+
+# province
+on_dip_development = {
+	on_development_effect = { type = dip }
+	if = {
+		limit = {
+			is_capital = yes
+			owner = {
+				mission_completed = Imperial_Mission_3
+			}
+		}
+		owner = {
+			random = { 
+				chance = 33
+				add_dip_power = 50
+			}
+		}
+	}
+}
+
+on_colony_finished = { #ROOT - Province
+	on_colony_finished_effect = yes
+	if = {
+		limit = {
+			owner = {
+				tag = XXA
+				NOT = { mission_completed = XXA_Mission_50 }
+			}
+		}
+		owner = {
+			change_variable = {
+				which = XXAColonies
+				value = 1
+			}
+		}
+	}
+}
+
+on_province_owner_change = {
+	if = {
+		limit = {
+			has_province_modifier = astartes_unit_bonus
+		}
+		remove_province_modifier = astartes_unit_bonus
+	}
+}
+
+on_battle_lost_unit = {
+	on_battle_lost_unit_effect = yes
+	if = {
+		limit = { unit_owner = { tag = XXA } }
+		unit_owner = {
+			add_government_power = {
+				mechanic_type = imperium_mechanic
+				power_type = imperium_power
+				value = -5
+			}
+		}
+	}
+}
+
+# ROOT = Tag that captured the flagship, FROM = Tag that lost the flagship
+on_flagship_captured = {
+	FROM = {
+		set_country_flag = captured_flagship_country_flag
+	}
+	ROOT = {
+		country_event = { id = flagship_events.2 }
+		set_country_flag = trophy_hunter_flag
+	}
+	FROM = {
+		country_event = { id = flagship_events.1 }
+	}
+	FROM = { 
+		if = { 
+			limit = { has_country_modifier = hsa_pride_eagle_of_the_fleet_modifier }
+			remove_country_modifier = hsa_pride_eagle_of_the_fleet_modifier
+		}
+	}
+	FROM = {
+		if = { 
+			limit = { tag = XXA }
+			add_government_power = {
+				mechanic_type = imperium_mechanic
+				power_type = imperium_power
+				value = -25
+			}
+		}
+	}
+}
+
+# ROOT = Tag that destroyed the flagship, FROM = Tag that lost the flagship
+on_flagship_destroyed = {
+	FROM = {
+		set_country_flag = sunk_flagship_country_flag
+	}
+	ROOT = {
+		country_event = { id = flagship_events.4 }
+	}
+	FROM = {
+		country_event = { id = flagship_events.3 }
+	}
+	FROM = { 
+		if = { 
+			limit = { has_country_modifier = hsa_pride_eagle_of_the_fleet_modifier }
+			remove_country_modifier = hsa_pride_eagle_of_the_fleet_modifier
+		}
+	}
+	FROM = {
+		if = { 
+			limit = { tag = XXA }
+			add_government_power = {
+				mechanic_type = imperium_mechanic
+				power_type = imperium_power
+				value = -25
+			}
+		}
+	}
+}
+
+#ROOT = province
+on_adm_exploited = {
+	if = {
+		limit = {
+			owner = {
+				tag = XXA
+				NOT = { mission_completed = XXA_Mission_40 }
+			}
+		}
+		owner = { set_country_flag = XXA_exploit }
+	}
+	if = {
+		limit = { owner = { has_government_attribute = may_not_reduce_tax_on_exploitation } }
+		random = {
+			chance = 50
+			add_base_tax = 1
+		}
+	}
+	if = {
+		limit = { owner = { has_government_attribute = may_not_reduce_tax_on_own_exploitation culture_group = ROOT } }
+		random = {
+			chance = 25
+			add_base_tax = 1
+		}
+	}
+	if = {
+		limit = { owner = { has_government_attribute = may_not_reduce_tax_on_foreign_exploitation NOT = { culture_group = ROOT } } }
+		random = {
+			chance = 50
+			add_base_tax = 1
+		}
+	}
+    remove_province_modifier = estate_burghers_hungarian_royal_city_modifier
+}
+on_dip_exploited = {
+	if = {
+		limit = {
+			owner = {
+				tag = XXA
+				NOT = { mission_completed = XXA_Mission_40 }
+			}
+		}
+		owner = { set_country_flag = XXA_exploit }
+	}
+	if = {
+		limit = {
+			owner = { has_government_mechanic = blood_gathering_mechanic }
+		}
+		owner = {
+			add_government_power = {
+				mechanic_type = blood_gathering_mechanic
+				power_type = blood
+				value = 1
+			}
+		}
+	}
+	if = {
+        limit = {
+            has_province_modifier = estate_burghers_hungarian_royal_city_modifier
+			NOT = { development = 20 }
+		}
+    }
+    remove_province_modifier = estate_burghers_hungarian_royal_city_modifier
+}
+on_mil_exploited = {
+	if = {
+		limit = {
+			owner = {
+				tag = XXA
+				NOT = { mission_completed = XXA_Mission_40 }
+			}
+		}
+		owner = { set_country_flag = XXA_exploit }
+	}
+	if = {
+		limit = {
+			owner = { has_government_mechanic = blood_gathering_mechanic }
+		}
+		owner = {
+			add_government_power = {
+				mechanic_type = blood_gathering_mechanic
+				power_type = blood
+				value = 1
+			}
+		}
+	}
+	if = {
+        limit = {
+            has_province_modifier = estate_burghers_hungarian_royal_city_modifier
+			NOT = { development = 20 }
+		}
+    }
+    remove_province_modifier = estate_burghers_hungarian_royal_city_modifier
+}
+
+on_pre_adm_advisor_fired = {
+	if = {
+		limit = { tag = XXA NOT = { has_country_flag = xxa_fired_adm_advisor } }
+		set_country_flag = xxa_fired_adm_advisor
+		add_stability = -1
+	}
+	if = {
+		limit = {
+			has_country_flag = need_to_fire_adm_advisor
+		}
+		set_country_flag = just_fired_adm_advisor
+		remove_advisor_by_category_no_action = ADM
+	}
+}
+
+# this = country
+on_pre_dip_advisor_fired = {
+	if = {
+		limit = { tag = XXA NOT = { has_country_flag = xxa_fired_dip_advisor } }
+		set_country_flag = xxa_fired_dip_advisor
+		add_stability = -1
+	}
+	if = {
+		limit = {
+			has_country_flag = need_to_fire_dip_advisor
+		}
+		set_country_flag = just_fired_dip_advisor
+		remove_advisor_by_category_no_action = DIP
+	}
+}
+
+# this = country
+on_pre_mil_advisor_fired = {
+	if = {
+		limit = { tag = XXA NOT = { has_country_flag = xxa_fired_mil_advisor } }
+		set_country_flag = xxa_fired_mil_advisor
+		add_stability = -1
+	}
+	if = {
+		limit = {
+			has_country_flag = need_to_fire_mil_advisor
+		}
+		set_country_flag = just_fired_mil_advisor
+		remove_advisor_by_category_no_action = MIL
+	}
+}
+
+on_culture_promoted = {
+	on_culture_promoted_estate_privileges_effect = yes
+	judaism_on_culture_country_effect = yes
+	imperial_modifiers_on_culture_country_effect = yes
+	
+	GER_on_culture_promoted = yes
+	
+	if = { 
+		limit = { mission_completed = Genestealer_Mission_9 }
+		random_owned_province = {
+			limit = { has_owner_accepted_culture = yes }
+			change_culture = genestealer_culture
+		}
+		random_owned_province = {
+			limit = { has_owner_accepted_culture = yes }
+			change_culture = genestealer_culture
+		}
+		random_owned_province = {
+			limit = { has_owner_accepted_culture = yes }
+			change_culture = genestealer_culture
+		}
+	}
+
+	if = { 
+		limit = { has_country_flag = reduce_ae_from_prom_cultures_flag }
+		every_country = {
+			add_aggressive_expansion = {
+				who = ROOT 
+				value = -3
+				apply_calc = no 
+			}
+		}
+	}
+}

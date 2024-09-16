@@ -1,0 +1,973 @@
+monarch_power = MIL
+
+# applied when a country is ahead of time in this technology
+# no bonus for MIL currently
+ahead_of_time = {
+	monthly_russian_modernization = 0.05
+	ahead_of_time_benefit_mil = 1
+}
+
+# Pre-era techs
+technology = {
+	# Tech 0
+	year = 1850
+	
+	sprite_level = 1
+
+	infantry_fire		= 	0.25
+	infantry_shock 		= 	0.20	
+	cavalry_shock  		= 	0.8	
+	land_morale 		= 	2.0
+}
+
+technology = {
+	# Tech 1
+	year = 1900
+	expects_institution = {
+		feudalism = 0.25
+	}
+	
+	infantry_shock		= 	0.1
+	infantry_fire 		= 	0.1
+	
+	fort_15th = yes
+	
+	enable = Boarboy
+	enable = Gretchin
+
+	enable = KrootCarnivore
+	enable = OrkFreebooter
+
+	enable = EarlyKinWarrior
+	enable = EarlyKinDrone
+
+	enable = TarellianAuxiliary
+	enable = EarlyFireCasteWarrior
+
+	enable = Gaunt
+	enable = TyrantGuard
+
+	enable = SlaveSoldier
+	enable = ChaosSpawn
+
+	enable = PlanetaryDefenseForce
+	enable = Guardsman
+
+	enable = TechThrall
+	enable = BattleServitor
+}
+
+technology = {
+	# Tech 2
+	year = 1950
+	expects_institution = {
+		feudalism = 0.5
+	}
+	
+	infantry_shock		= 	0.2
+	cavalry_shock		= 	0.2
+	
+	combat_width = 5
+}
+
+# The 30 big techs from here on
+
+technology = {
+	# Tech 3
+	year = 1999
+	expects_institution = {
+		feudalism = 0.5
+	}
+	
+	land_morale = 	0.5
+	may_drill = yes
+}
+
+technology = {
+	# Tech 4
+	year = 2020
+	expects_institution = {
+		feudalism = 0.5
+	}
+
+	#Pike Square
+	
+
+	land_morale = 	0.5
+	military_tactics 	= 	0.25
+}
+
+technology = {
+	# Tech 5
+	year = 2040
+	expects_institution = {
+		feudalism = 0.5
+		renaissance = 0.15
+	}
+	
+	#Standardised Pikes
+	supply_limit 		= 	0.5
+	infantry_shock		= 	0.15
+	cavalry_shock		= 	0.2
+
+	enable = ShootaBoy
+	enable = SluggaBoy
+	enable = Loota
+
+	enable = KrootHeadhunter
+	enable = OrkBloodAxe
+	enable = StryxisMeatSoldier
+
+	enable = Embyr
+	enable = Hernkyn
+	enable = Hearthkyn
+
+	enable = HunterCadre
+	enable = KrootCarnivoreSquad
+	enable = GuevesaAuxiliary
+
+	enable = Genestealer
+	enable = TyranidWarrior
+	enable = Lictor
+
+	enable = TraitorGuard
+	enable = ChaosBeast
+	enable = AccusedCultistMutant
+
+	enable = StormGuardian
+	enable = Starstrider
+	enable = Wraithguard
+
+	enable = Grenadier
+	enable = Deathworlder
+	enable = PenalLegionnaire
+
+	enable = SkitariiHypaspist
+	enable = SkitariiRanger
+	enable = SkitariiRadTrooper
+
+	enable = NecronGaussTrooper
+	enable = CanoptekScarab
+	enable = FalseNecron
+	
+	combat_width = 2
+}
+
+technology = {
+	# Tech 6
+	year = 2060
+	expects_institution = {
+		feudalism = 0.5
+		renaissance = 0.3
+	}
+	
+	#Arquebus
+	military_tactics 	= 	0.25
+	infantry_shock		= 	0.30
+	infantry_fire 		= 	0.20
+	
+	
+	barracks = yes
+	
+	combat_width = 2
+}
+
+technology = {
+	# Tech 7
+	year = 2080
+	expects_institution = {
+		feudalism = 0.5
+		renaissance = 0.5
+	}
+	
+	#The limber
+	artillery_fire 		= 	1
+	artillery_shock 	=	0.05
+	military_tactics 	= 	0.25
+	enable = large_cast_bronze_mortar 
+	enable = houfnice
+}
+
+technology = {
+	# Tech 8
+	year = 2100
+	expects_institution = {
+		feudalism = 0.5
+		renaissance = 0.5
+	}
+
+	
+	#Pike and Shot
+	infantry_fire		= 	0.25
+	cavalry_shock		=	0.8
+
+	
+	regimental_camp = yes
+}
+
+technology = {
+	# Tech 9
+	year = 2120
+	expects_institution = {
+		feudalism = 0.5
+		renaissance = 0.5
+		new_world_i = 0.15
+	}
+	
+	#Ditch
+	
+	enable = StikkBomma
+	enable = FlashGit
+	enable = TrukkBoy
+
+	enable = KrootoxRider
+	enable = OrkAxebiter
+	enable = TarellianDogSoldier
+
+	enable = CthonianBeserk
+	enable = HearthkynLugger
+	enable = Ecog
+
+	enable = RapidRedeploymentTeam
+	enable = GuevesaCluster
+	enable = FireCasteWarrior
+
+	enable = Hormagaunt
+	enable = Termagaunt
+	enable = Neurogaunt
+
+	enable = AccursedCultistTorment
+	enable = Daemonhost
+	enable = Beastman
+
+	enable = EldarLasblaster
+	enable = Wraithblade
+	enable = EldarPathfinders
+
+	enable = ShockTrooper
+	enable = SteelLegionnaire
+	enable = DeathKorpsman
+
+	enable = SecurariiAxiarch
+	enable = SecutariiHoplite
+	enable = SecutariiPeltast
+
+	enable = Cryptothrall
+	enable = CanoptekSpyder
+	enable = FlayedOne
+
+	military_tactics 	= 	0.25
+	combat_width = 1	
+}
+
+technology = {
+	# Tech 10
+	year = 2140
+	expects_institution = {
+		feudalism = 0.5
+		renaissance = 0.5
+		new_world_i = 0.3
+	}
+	
+	#Reiter
+	maneuver_value 		= 	0.25
+}
+
+technology = {
+	# Tech 11
+	year = 2160
+	expects_institution = {
+		feudalism = 0.5
+		renaissance = 0.5
+		new_world_i = 0.5
+	}
+	
+	#Matchlock Musket
+	infantry_shock		= 	0.20
+	cavalry_fire		= 	0.5
+
+	
+	weapons = yes
+	
+	combat_width = 2
+}
+	
+technology = {
+	# Tech 12
+	year = 2180
+	expects_institution = {
+		feudalism = 0.5
+		renaissance = 0.5
+		new_world_i = 0.5
+	}
+	
+	#Spanish Square
+	sprite_level = 2
+	
+	supply_limit 		= 	0.5
+	military_tactics	=	0.25
+
+	enable = Mekboy
+	enable = Nob
+
+	enable = KrootVulture
+	enable = BloodAxeKommando
+
+	enable = Lcog
+	enable = Oathband
+
+	enable = CrisisBattlesuit
+	enable = ArmoredInterdictionCadre
+
+	enable = TyranidPrime
+	enable = Gargoyle
+
+	enable = Defiler
+	enable = GreaterDaemonhost
+
+	enable = Cloudsweeper
+	enable = GravPlatform
+
+	enable = ArmoredFistInfantry
+	enable = JumpTrooper
+
+	enable = Myrmidon
+	enable = ElectroPriest
+
+	enable = NecronImmortal
+	enable = Chronomancer
+}
+
+technology = {
+	# Tech 13
+	year = 2200
+	expects_institution = {
+		feudalism = 0.5
+		renaissance = 0.5
+		new_world_i = 0.5
+		printing_press = 0.15
+	}
+	
+	#Trunnions
+	artillery_shock 	= 	0.1
+	artillery_fire 		= 	0.4
+	
+	enable = small_cast_iron_bombard
+	enable = large_cast_iron_bombard
+}
+
+technology = {
+	# Tech 14
+	year = 2220
+	expects_institution = {
+		feudalism = 0.5
+		renaissance = 0.5
+		new_world_i = 0.5
+		printing_press = 0.3
+	}
+	
+	#Star Bastions
+	fort_16th = yes
+	infantry_fire		=	0.3
+	
+	combat_width = 2
+}
+
+technology = {
+	# Tech 15
+	year = 2240
+	expects_institution = {
+		feudalism = 0.5
+		renaissance = 0.5
+		new_world_i = 0.5
+		printing_press = 0.5
+	}
+	
+	#Maurician Infantry
+	land_morale 		=	1.0
+	military_tactics	=	0.25
+	
+
+	
+	enable = TellyportaBoy
+	enable = Tankbusta
+
+	enable = KrootoxRampager
+	enable = EnoulianWarrior
+
+	enable = HearthkynHeavyWeaponsTeam
+	enable = Corv
+
+	enable = XV88BroadsideBattlesuit
+	enable = FireCasteKnight
+
+	enable = Ravener
+	enable = Neurolictor
+
+	enable = DaemonBrute
+	enable = ChaosSorcerer
+
+	enable = FateDealer
+	enable = GhostWarriorExecutioner
+
+	enable = CadianPatternCarapaceInfantry
+	enable = HydraphurPatternCarapaceInfantry
+
+	enable = SicarianInfiltrator
+	enable = SicarianRuststalker
+
+	enable = SkorpekhDestroyer
+	enable = CanoptekTombSentinel
+}
+
+technology = {
+	# Tech 16
+	year = 2260
+	expects_institution = {
+		feudalism = 0.5
+		renaissance = 0.5
+		new_world_i = 0.5
+		printing_press = 0.5
+	}
+	
+	#Standardisation of Calibre
+	artillery_shock 	= 	0.1
+	artillery_fire 		= 	1.0	
+
+
+	training_fields = yes
+	
+	combat_width = 1
+	
+	enable = chambered_demi_cannon
+	enable = demi_culverin
+}
+
+technology = {
+	# Tech 17
+	year = 2280
+	expects_institution = {
+		feudalism = 0.5
+		renaissance = 0.5
+		new_world_i = 0.5
+		printing_press = 0.5
+		global_trade = 0.15
+	}
+	
+	cavalry_shock		=	1.0
+	supply_limit		= 	0.5	
+	
+	enable = maharathan_cavalry		
+	enable = manchu_banner		
+	enable = african_swarm
+}
+
+technology = {
+	# Tech 18
+	year = 2300
+	expects_institution = {
+		feudalism = 0.5
+		renaissance = 0.5
+		new_world_i = 0.5
+		printing_press = 0.5
+		global_trade = 0.3
+	}
+	
+	#Carbine
+	maneuver_value 		= 	0.25
+
+	
+	combat_width = 2
+}
+
+technology = {
+	# Tech 19
+	year = 2320
+	expects_institution = {
+		feudalism = 0.5
+		renaissance = 0.5
+		new_world_i = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+	}
+	
+	#Gustavian Infantry
+	military_tactics 	= 	0.25
+	supply_limit		=	0.5
+
+	fort_17th = yes
+
+	
+	enable = SquighogRaider
+	enable = ArdBoy
+	enable = BigMek
+
+	enable = KrootColdBlood
+	enable = RogueTraderRegiment
+	enable = LoxatlWarband
+
+	enable = BrokhyrThunderkyn
+	enable = HernkynPioneer
+	enable = CorvDua
+
+	enable = GuevesaJanissary
+	enable = SwiftProtectorWing
+	enable = FarstrikeBattlesuit
+
+	enable = CarnifexScreamerKiller
+	enable = CarnifexStoneCrusher
+	enable = CarnifexThornback
+
+	enable = SoulGrinder
+	enable = DaemonShrike
+	enable = InfernusAbomination
+
+	enable = DCannonBattery
+	enable = VibroCannonBattery
+	enable = ShadowWeaverBattery
+
+	enable = SolarPatternVoidInfantry
+	enable = OgrynCharonite
+	enable = ArchaotechPistoleer
+
+	enable = ArcoEviscerator
+	enable = Ursurax
+	enable = Thallax
+
+	enable = NecronPariah
+	enable = LokhustDestroyer
+	enable = CanoptekSkolopendra
+}
+
+technology = {
+	# Tech 20
+	year = 2340
+	expects_institution = {
+		feudalism = 0.5
+		renaissance = 0.5
+		new_world_i = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+	}
+	
+	#Killing Grounds
+	
+	infantry_fire		= 	0.5
+		
+	enable = swivel_cannon
+	enable = howitzer
+
+	combat_width = 2
+}
+
+technology = {
+	# Tech 21
+	year = 2360
+	expects_institution = {
+		feudalism = 0.5
+		renaissance = 0.5
+		new_world_i = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		manufactories = 0.15
+	}
+	
+	#Line Infantry
+	sprite_level = 3
+	military_tactics 	= 	0.25
+	
+	infantry_shock 		=	0.5
+}
+
+technology = {
+	# Tech 22
+	year = 2380
+	expects_institution = {
+		feudalism = 0.5
+		renaissance = 0.5
+		new_world_i = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		manufactories = 0.3
+	}
+	
+	#Cartridge	(1620)?)
+	cavalry_fire		=	0.5
+	artillery_shock 	=	0.1
+	artillery_fire		=	2.0
+	
+	combat_width = 2
+	
+	conscription_center = yes
+
+}
+
+technology = {
+	# Tech 23
+	year = 2400
+	expects_institution = {
+		feudalism = 0.5
+		renaissance = 0.5
+		new_world_i = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		manufactories = 0.5
+	}
+	
+	#Light Cavalry
+	
+	cavalry_shock		=	1.0
+	military_tactics 	= 	0.25
+	maneuver_value 		= 	0.5
+
+	enable = Stormboy
+	enable = Meganob
+	enable = Weirdboy
+
+	enable = VerminthiculianReaver
+	enable = NicassarPsyker
+	enable = CortaxWarband
+
+	enable = HearthkynJumpPackWarrior
+	enable = BrokhyrIronMaster
+	enable = BeserkMauler
+
+	enable = XV89CrisisBattlesuit
+	enable = Pathfinder
+	enable = XV8AgileCrisisBattlesuit
+
+	enable = Zoanthrope
+	enable = Dactylis
+	enable = Haruspex
+
+	enable = Maulerfiend
+	enable = Fury
+	enable = Forgefiend
+
+	enable = CorsairReaver
+	enable = HarlequinTrouper
+	enable = Wraithseer
+
+	enable = PlasteelCarapaceInfantry
+	enable = TempestusScion
+	enable = InfernoPistoleer
+
+	enable = KataphronBreacher
+	enable = KataphronDestroyer
+	enable = CastellaxBattleAutomata
+
+	enable = PerfectedNecronPariah
+	enable = LokhustHeavyDestroyer
+	enable = CanoptekAcanthrite
+}
+
+technology = {
+	# Tech 24
+	year = 2420
+	expects_institution = {
+		feudalism = 0.5
+		renaissance = 0.5
+		new_world_i = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		manufactories = 0.5
+		enlightenment = 0.15
+	}
+	
+	#Covered Way
+	fort_18th	= yes	
+	military_tactics 	= 	0.25
+
+	combat_width = 2
+}
+
+technology = {
+	# Tech 25
+	year = 2440
+	expects_institution = {
+		feudalism = 0.5
+		renaissance = 0.5
+		new_world_i = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		manufactories = 0.5
+		enlightenment = 0.3
+	}
+	
+	#Metallurgy
+	artillery_shock 	=	0.1
+	artillery_fire		=	2.0
+	
+	enable = royal_mortar
+	enable = licorne
+}
+
+technology = {
+	# Tech 26
+	year = 2460
+	expects_institution = {
+		feudalism = 0.5
+		renaissance = 0.5
+		new_world_i = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		manufactories = 0.5
+		enlightenment = 0.5
+	}
+	
+	#Light Infantry Companies
+	sprite_level = 4
+
+	land_morale			=	1.0
+
+	enable = Flyboy
+	enable = Kommando
+	enable = Warphead
+	enable = Warbiker
+
+	enable = DrukhariWarrior
+	enable = EldarCorsair
+	enable = MorralianDeathsworn
+	enable = ZoatCentauroid
+
+	enable = Hearthguard
+	enable = BrokhyrForgeMaster
+	enable = HernkynYaegir
+	enable = BeserkPlasmaAxeman
+
+	enable = BloodedPathfinder
+	enable = XV8ArmoredCrisisBattlesuit
+	enable = TauFireblade
+	enable = MorralianDeathswornAuxiliary
+
+	enable = Maleceptor
+	enable = Mawloc
+	enable = Trygon
+	enable = Tyrannofex
+
+	enable = Bloodletter
+	enable = Plaguebearer
+	enable = Daemonette
+	enable = PinkHorror
+
+	enable = AspectWarrior
+	enable = CorsairSkyreaver
+	enable = HarlequinVirtuoso
+	enable = Wraithlord
+
+	enable = DiamantineCarapaceInfantry
+	enable = GlandWarrior
+	enable = SanctionedPsyker
+	enable = GravitonInfantry
+
+	enable = KnightPaladin
+	enable = KnightCrusader
+	enable = KnightGallant
+	enable = KnightMageara	
+
+	enable = Plasmancer
+	enable = Technomancer
+	enable = Deathmark
+	enable = OphydianDestroyer 	
+	
+	combat_width = 2
+}
+
+technology = {
+	# Tech 27
+	year = 2480
+	expects_institution = {
+		feudalism = 0.5
+		renaissance = 0.5
+		new_world_i = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		manufactories = 0.5
+		enlightenment = 0.5
+	}
+	
+	#Bayonet
+	supply_limit		=	0.5
+	infantry_fire		= 	0.5	
+}
+
+technology = {
+	# Tech 28
+	year = 2500
+	expects_institution = {
+		feudalism = 0.5
+		renaissance = 0.5
+		new_world_i = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		manufactories = 0.5
+		enlightenment = 0.5
+		industrialization = 0.25
+	}
+	
+	#Cuirassier
+	maneuver_value 		= 	0.25
+	infantry_shock		=	0.5	
+	
+	enable = BigKrumpa
+	enable = Wurrboy
+
+	enable = EldarRanger
+	enable = ViskeonHunter
+
+	enable = LivingAncestor
+	enable = IronkinSalvager
+
+	enable = XV8CommandCrisisBattlesuit
+	enable = VorghAuxiliary
+
+	enable = NornEmissary
+	enable = NornAssimilator
+
+	enable = Decimator
+	enable = CorruptWraithguard
+
+	enable = DireAvenger
+	enable = WraithseerElite
+
+	enable = AdamantiumCarapaceInfantry
+	enable = StableGlandWarrior
+
+	enable = KnightCastellan
+	enable = KnightValiant
+
+	enable = CanoptekWraith
+	enable = CtanShard
+}
+
+technology = {
+	# Tech 29
+	year = 2520
+	expects_institution = {
+		feudalism = 0.5
+		renaissance = 0.5
+		new_world_i = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		manufactories = 0.5
+		enlightenment = 0.5
+		industrialization = 0.5
+	}
+	
+	#Defense in Depth
+		
+	enable = flying_battery
+	enable = grand_battery
+}
+
+technology = {
+	# Tech 30
+	year = 2540
+	expects_institution = {
+		feudalism = 0.5
+		renaissance = 0.5
+		new_world_i = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		manufactories = 0.5
+		enlightenment = 1
+		industrialization = 0.5
+	}
+	
+	#Impulse Warfare
+	#sprite_level = 5	
+	
+	military_tactics	=	0.25
+	land_morale			=	1.0
+	maneuver_value = 0.25
+	
+	enable = Squiggoth
+	enable = KillRig
+	enable = HuntaRig
+	enable = Skarboy
+
+	enable = DemiurgThunderkyn
+	enable = EldarPathfinder
+	enable = SslythGuard
+	enable = UrGhul
+
+	enable = IronkinKognitaar
+	enable = Grimnyr
+	enable = EinhyrHearthguard
+	enable = IronkinKillTeam
+
+	enable = EtherealGuard
+	enable = XV8LightCrisisBattlesuit
+	enable = ShasuiPathfinder
+	enable = XV802IridiumBattlesuit
+
+	enable = Nautiloid
+	enable = Viciator
+	enable = Viragon
+	enable = Hierophant
+
+	enable = Bloodcrusher
+	enable = Plagueridden
+	enable = Allurress
+	enable = IridescentHorror
+
+	enable = Battleseer
+	enable = HarlequinMime
+	enable = CorsairCloudDancer
+	enable = Wraithknight
+
+	enable = AuramiteCarapaceInfantry
+	enable = StableThunderWarrior
+	enable = PrimarisPsyker
+	enable = ManOfIron
+
+	enable = PsiTitan
+	enable = WarlordBattleTitan
+	enable = Baneblade
+	enable = DireWolfScoutTitan
+
+	enable = TranscendentCtan
+	enable = CanoptekDoomstalker
+	enable = Lychguard
+	enable = HexmarkDestroyer
+}
+
+technology = {
+	# Tech 31
+	year = 2560
+	expects_institution = {
+		feudalism = 0.5
+		renaissance = 0.5
+		new_world_i = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		manufactories = 0.5
+		enlightenment = 0.5
+		industrialization = 1
+	}
+	
+	#Rifle
+	cavalry_shock		=	1.0
+	infantry_fire		=	1.0
+	supply_limit		=	0.5
+}
+
+technology = {
+	# Tech 32
+	year = 2580
+	expects_institution = {
+		feudalism = 0.5
+		renaissance = 0.5
+		new_world_i = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		manufactories = 1
+		enlightenment = 1
+		industrialization = 1
+	}
+	
+	#Field Howitzer
+	military_tactics	=	0.25
+	artillery_shock		=	0.1
+	artillery_fire		=	2.0	
+}

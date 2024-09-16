@@ -1,0 +1,16 @@
+government = tribal
+add_government_reform = exodite_government_reform
+government_rank = 1
+technology_group = eldar
+religion = aeldari
+primary_culture = exodite_culture
+capital = 1703
+
+1970.12.12 = {
+	monarch = {
+		name = "Ylain Nuaden"	
+		adm = 1
+		dip = 3
+		mil = 4
+	}
+}

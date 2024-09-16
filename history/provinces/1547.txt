@@ -1,0 +1,11 @@
+add_core = XCA
+owner = XCA
+controller = XCA
+religion = imperial_cult
+culture = loyalist_astartes_culture
+base_tax = 1
+base_production = 1
+base_manpower = 3
+capital = "Ravenspire"
+trade_goods = minerals
+

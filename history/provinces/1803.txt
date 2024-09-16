@@ -1,0 +1,9 @@
+add_core = XIZ
+owner = XIZ
+controller = XIZ
+religion = chaos_undivided
+culture = heretic_astartes_culture
+base_tax = 1
+base_production = 1
+base_manpower = 2
+trade_goods = minerals

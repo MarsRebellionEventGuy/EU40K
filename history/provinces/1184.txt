@@ -1,0 +1,9 @@
+native_size = 3
+native_ferocity = 5
+native_hostileness = 5
+religion = chaos_undivided
+culture = chaos_culture
+base_tax = 1
+base_production = 1
+base_manpower = 1
+trade_goods = minerals

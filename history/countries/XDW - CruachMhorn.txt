@@ -1,0 +1,16 @@
+government = theocracy
+add_government_reform = chaos_cult_reform
+government_rank = 1
+technology_group = chaos
+religion = chaos_undivided
+primary_culture = chaos_culture
+capital = 1564
+
+1970.12.12 = {
+	monarch = {
+		name = "Giatrus Lerelius"	
+		adm = 5
+		dip = 1
+		mil = 3
+	}
+}

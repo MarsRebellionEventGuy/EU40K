@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = necron_dynasty_reform
+government_rank = 2
+technology_group = necron
+religion = destroyer_cult
+primary_culture = necron_culture
+capital = 3032
+
+1970.12.12 = {
+		monarch = {
+			name = "The Undying"	
+			dynasty = " "
+			adm = 3
+			dip = 2
+			mil = 6
+		}
+	}
+}

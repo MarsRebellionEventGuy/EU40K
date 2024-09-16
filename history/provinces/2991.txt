@@ -1,0 +1,9 @@
+add_core = XNQ
+owner = XNQ
+controller = XNQ
+religion = destroyer_cult
+culture = necron_culture
+base_tax = 8
+base_production = 9
+base_manpower = 9
+trade_goods = living_metal

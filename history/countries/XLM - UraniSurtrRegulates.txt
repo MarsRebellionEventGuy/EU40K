@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = league_votann_reform
+government_rank = 1
+technology_group = votann
+religion = votann
+primary_culture = kin_culture
+capital = 2981
+
+1970.12.12 = {
+		monarch = {
+			name = "Yymm Deyprokh"	
+			adm = 5
+			dip = 3
+			mil = 2
+			female = yes
+		}
+	}
+}

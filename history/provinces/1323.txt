@@ -1,0 +1,9 @@
+add_core = XAV
+owner = XAV
+controller = XAV
+religion = aeldari
+culture = asuryani_culture
+base_tax = 7
+base_production = 9
+base_manpower = 10
+trade_goods = wraithbone

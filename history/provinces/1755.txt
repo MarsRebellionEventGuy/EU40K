@@ -1,0 +1,9 @@
+add_core = XJG
+owner = XJG
+controller = XJG
+religion = chaos_undivided
+culture = chaos_knight_culture
+base_tax = 3
+base_production = 3
+base_manpower = 3
+trade_goods = archaotech

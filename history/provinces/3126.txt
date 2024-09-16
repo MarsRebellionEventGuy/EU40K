@@ -1,0 +1,9 @@
+add_core = XMI
+owner = XMI
+controller = XMI
+religion = chaos_undivided
+culture = chaos_culture
+base_tax = 3
+base_production = 2
+base_manpower = 4
+trade_goods = xeno_technology

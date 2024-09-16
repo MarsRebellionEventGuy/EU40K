@@ -1,0 +1,9 @@
+add_core = XBF
+owner = XBF
+controller = XBF
+religion = destroyer_cult
+culture = necron_culture
+base_tax = 10
+base_production = 11
+base_manpower = 9
+trade_goods = living_metal

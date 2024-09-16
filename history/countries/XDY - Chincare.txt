@@ -1,0 +1,16 @@
+government = theocracy
+add_government_reform = xeno_government_reform
+government_rank = 1
+technology_group = xeno
+religion = hrud
+primary_culture = hrud_culture
+capital = 1098
+
+1970.12.12 = {
+	monarch = {
+		name = "Spawn of Qah"	
+		adm = 3
+		dip = 2
+		mil = 6
+	}
+}

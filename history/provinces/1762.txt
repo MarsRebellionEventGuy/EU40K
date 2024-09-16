@@ -1,0 +1,9 @@
+owner = XEJ
+controller = XEJ
+add_core = XEJ
+religion = nurgle
+culture = heretic_astartes_culture
+base_tax = 2
+base_production = 3
+base_manpower = 2
+trade_goods = agricultural_goods

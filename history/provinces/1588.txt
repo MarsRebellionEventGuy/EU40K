@@ -1,0 +1,9 @@
+add_core = XCM
+owner = XCM
+controller = XCM
+religion = votann
+culture = kin_culture
+base_tax = 5
+base_production = 7
+base_manpower = 4
+trade_goods = promethium

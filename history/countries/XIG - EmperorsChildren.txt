@@ -1,0 +1,17 @@
+government = theocracy
+add_government_reform = heretic_astartes_reform
+government_rank = 1
+technology_group = chaos
+religion = slaanesh
+primary_culture = heretic_astartes_culture
+capital = 2822
+
+1970.12.12 = {
+		monarch = {
+			name = "Fulgrim"	
+			adm = 4
+			dip = 5
+			mil = 4
+		}
+	}
+}

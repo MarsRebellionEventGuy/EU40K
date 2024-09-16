@@ -1,0 +1,10 @@
+add_core = XFT
+owner = XFT
+controller = XFT
+religion = khorne
+culture = chaos_culture
+base_tax = 1
+base_production = 1
+base_manpower = 2
+trade_goods = agricultural_goods
+

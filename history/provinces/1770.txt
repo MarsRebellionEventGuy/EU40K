@@ -1,0 +1,9 @@
+owner = XED
+controller = XED
+add_core = XED
+religion = imperial_cult
+culture = human_culture
+base_tax = 4
+base_production = 3
+base_manpower = 3
+trade_goods = clerks

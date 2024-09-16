@@ -1,0 +1,9 @@
+owner = XDO
+controller = XDO
+add_core = XDO
+religion = mechanicus
+culture = mechanicus_culture
+base_tax = 3
+base_production = 5
+base_manpower = 3
+trade_goods = military_equipment

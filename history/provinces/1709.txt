@@ -1,0 +1,9 @@
+add_core = XET
+owner = XET
+controller = XET
+religion = necron
+culture = necron_culture
+base_tax = 14
+base_production = 15
+base_manpower = 14
+trade_goods = living_metal

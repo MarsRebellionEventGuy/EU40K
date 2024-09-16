@@ -1,0 +1,21 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_great_project_golden_throne"    
+		texturefile = "gfx//interface//great_project_golden_throne.dds"
+    }
+	spriteType = {
+		name = "GFX_great_project_macragge"    
+		texturefile = "gfx//interface//great_project_macragge.dds"
+    }
+	spriteType = {
+		name = "GFX_great_project_solemnace"    
+		texturefile = "gfx//interface//great_project_solemnace.dds"
+    }
+	spriteType = {
+		name = "GFX_great_project_arx_angelicum"    
+		texturefile = "gfx//interface//great_project_arx_angelicum.dds"
+    }
+}
+
+
+

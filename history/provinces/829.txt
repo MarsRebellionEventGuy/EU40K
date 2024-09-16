@@ -1,0 +1,9 @@
+add_core = XBB
+owner = XBB
+controller = XBB
+culture = chaos_culture
+religion = khorne
+base_tax = 2
+base_production = 2
+base_manpower = 3
+trade_goods = consumer_goods

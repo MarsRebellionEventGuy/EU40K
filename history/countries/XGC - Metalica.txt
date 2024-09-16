@@ -1,0 +1,17 @@
+government = theocracy
+add_government_reform = forge_world_reform
+government_rank = 2
+technology_group = mechanicus
+religion = mechanicus
+primary_culture = mechanicus_culture
+capital = 1813
+
+1970.12.12 = {
+		monarch = {
+			name = "Xi-Chi 70"	
+			adm = 4
+			dip = 1
+			mil = 5
+		}
+	}
+}

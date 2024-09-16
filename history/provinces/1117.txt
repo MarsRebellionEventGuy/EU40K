@@ -1,0 +1,9 @@
+add_core = XZV
+owner = XZV
+controller = XZV
+culture = mechanicus_culture
+religion = mechanicus
+base_tax = 1
+base_production = 4
+base_manpower = 2
+trade_goods = military_equipment

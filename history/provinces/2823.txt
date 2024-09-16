@@ -1,0 +1,9 @@
+add_core = XKY
+owner = XKY
+controller = XKY
+religion = nurgle
+culture = heretic_astartes_culture
+base_tax = 3
+base_production = 2
+base_manpower = 4
+trade_goods = slaves

@@ -1,0 +1,17 @@
+government = tribal
+add_government_reform = exodite_government_reform
+government_rank = 1
+technology_group = eldar
+religion = aeldari
+primary_culture = exodite_culture
+capital = 2885
+
+1970.12.12 = {
+		monarch = {
+			name = "Kinshar Eldrion"	
+			adm = 5
+			dip = 3
+			mil = 5
+		}
+	}
+}

@@ -1,0 +1,17 @@
+government = theocracy
+add_government_reform = astartes_reform
+government_rank = 1
+technology_group = imperial
+religion = imperial_cult
+primary_culture = loyalist_astartes_culture
+capital = 1126
+
+1970.12.12 = {
+		monarch = {
+			name = "Arkash Hakkon"	
+			adm = 3
+			dip = 1
+			mil = 6
+		}
+	}
+}

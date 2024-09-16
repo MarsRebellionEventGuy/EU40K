@@ -1,0 +1,283 @@
+theocracy_mechanic = {
+	has_devotion = yes
+	rulers_can_be_generals = yes
+	heirs_can_be_generals = no
+	royal_marriage = no
+	different_religion_acceptance = -20
+	different_religion_group_acceptance = -50
+	religion = yes
+	heir = yes
+	can_customise_heir = no
+	basic_reform = yes # = invisible/does not take up a slot
+	valid_for_nation_designer = no
+	custom_attributes = {
+		enables_divine_idea_group = yes
+		enables_aristocratic_idea_group = no
+	}
+
+	modifiers = {
+		brahmins_hindu_influence_modifier = 0.1
+		church_loyalty_modifier = 0.1
+		church_influence_modifier = 0.05
+	}
+}
+
+tau_reform = {
+	potential = {
+		primary_culture = ethereal_culture
+	}
+	allow_normal_conversion = no
+	legacy_equivalent = tau_government
+	icon = "tau"
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	modifiers = {
+		liberty_desire = -33
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Common Sense"
+		}
+		custom_attributes = {
+			gain_devotion_from_conversions = yes
+		}
+	}
+	custom_attributes = {
+		gain_monarch_power_from_force_converting = yes
+		allow_force_tributary = yes
+	}
+	assimilation_cultures = {
+		imperial_culture_group = {
+			leader_cost = -0.10
+			effect = { hidden_effect = { change_variable = { which = cultures_assimilated value = 1 } } }
+			removed_effect = { hidden_effect = { subtract_variable = { which = cultures_assimilated value = 1 } } }
+		}
+		ork_culture_group = {
+			loot_amount = 0.15
+			effect = { hidden_effect = { change_variable = { which = cultures_assimilated value = 1 } } }
+			removed_effect = { hidden_effect = { subtract_variable = { which = cultures_assimilated value = 1 } } }
+		}
+		aeldari_culture_group = {
+			yearly_corruption = -0.05
+			effect = { hidden_effect = { change_variable = { which = cultures_assimilated value = 1 } } }
+			removed_effect = { hidden_effect = { subtract_variable = { which = cultures_assimilated value = 1 } } }
+		}
+		necron_culture_group = {
+			technology_cost = -0.05
+			effect = { hidden_effect = { change_variable = { which = cultures_assimilated value = 1 } } }
+			removed_effect = { hidden_effect = { subtract_variable = { which = cultures_assimilated value = 1 } } }
+		}
+		votann_culture_group = {
+			production_efficiency = 0.05
+			effect = { hidden_effect = { change_variable = { which = cultures_assimilated value = 1 } } }
+			removed_effect = { hidden_effect = { subtract_variable = { which = cultures_assimilated value = 1 } } }
+		}
+		xeno_culture_group = {
+			global_unrest = -1
+			effect = { hidden_effect = { change_variable = { which = cultures_assimilated value = 1 } } }
+			removed_effect = { hidden_effect = { subtract_variable = { which = cultures_assimilated value = 1 } } }
+		}
+
+	}
+}
+
+astartes_reform = {
+	potential = {
+		primary_culture = loyalist_astartes_culture
+		NOT = {
+			OR = {
+				tag = XHY
+				tag = XCG
+				tag = XHH
+				tag = XJY
+				tag = XZD
+				tag = XJH
+				tag = XEK
+				tag = XGW
+				tag = XFS
+				tag = XLH
+			}
+		}
+	}
+
+	custom_attributes = {
+		militarised_society = yes
+	}
+	allow_normal_conversion = no
+	legacy_equivalent = astartes
+	icon = "astartes"
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	modifiers = {
+		army_tradition_from_battle = 0.15
+		naval_tradition_from_battle = 0.15
+		land_forcelimit_modifier = -0.33
+		amount_of_banners = 0.5
+		governing_capacity_modifier = -0.33
+		relation_with_heathens = -50
+	}
+}
+
+death_watch_reform = {
+	potential = {
+		primary_culture = loyalist_astartes_culture
+		OR = {
+			tag = XHY
+			tag = XCG
+			tag = XHH
+			tag = XJY
+			tag = XZD
+			tag = XJH
+			tag = XEK
+			tag = XGW
+			tag = XFS
+			tag = XLH
+		}
+	}
+	custom_attributes = {
+		militarised_society = yes
+	}
+	allow_normal_conversion = no
+	legacy_equivalent = death_watch
+	icon = "death_watch"
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	modifiers = {
+		drill_gain_modifier = 0.33
+		global_heathen_missionary_strength = 0.02
+		land_forcelimit_modifier = 0.33
+		governing_capacity_modifier = -0.50
+		relation_with_heathens = -200
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Common Sense"
+		}
+		custom_attributes = {
+			gain_devotion_from_conversions = yes
+		}
+	}
+}
+
+heretic_astartes_reform = {
+	potential = {
+		primary_culture = heretic_astartes_culture
+	}
+	allow_normal_conversion = no
+	legacy_equivalent = heretic_astartes
+	icon = "heretic_astartes"
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	custom_attributes = {
+		militarised_society = yes
+	}
+	modifiers = {
+		merc_maintenance_modifier = -0.25
+		mercenary_manpower = 0.33
+		governing_capacity_modifier = -0.33
+		relation_with_heathens = -50
+
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Common Sense"
+		}
+		custom_attributes = {
+			gain_devotion_from_conversions = yes
+		}
+	}
+}	
+
+forge_world_reform = {
+	potential = {
+		primary_culture = mechanicus_culture
+	}
+	allow_normal_conversion = no
+	legacy_equivalent = forge_world
+	icon = "forge_world"
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	modifiers = {
+		production_efficiency = 0.15
+		global_regiment_cost = -0.10
+		relation_with_heathens = -50
+	}
+}
+
+chaos_forge_world_reform = {
+	potential = {
+		primary_culture = dark_mechanicum_culture
+	}
+	allow_normal_conversion = no
+	legacy_equivalent = chaos_forge_world
+	icon = "chaos_forge_world"
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	modifiers = {
+		land_maintenance_modifier = -0.15
+		artillery_power = 0.20
+		relation_with_heathens = -50
+	}
+}
+
+chaos_cult_reform = {
+	potential = {
+		primary_culture = chaos_culture
+	}
+	allow_normal_conversion = no
+	legacy_equivalent = chaos_cult
+	icon = "chaos_cult"
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	modifiers = {
+		global_heathen_missionary_strength = 0.02
+		warscore_cost_vs_other_religion = -0.204
+		relation_with_heathens = -50
+	}
+}
+
+xeno_government_reform = {
+	potential = {
+		culture_group = xeno_culture_group
+	}
+	allow_normal_conversion = no
+	legacy_equivalent = xeno_government
+	icon = "xeno_government"
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	modifiers = {
+		morale_damage = 0.05
+		stability_cost_modifier = -0.15
+	}
+}
+
+craftworld_reform = {
+	potential = {
+		primary_culture = asuryani_culture
+	}
+	allow_normal_conversion = no
+	legacy_equivalent = craftworld
+	icon = "craftworld_reform"
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	modifiers = {
+		own_territory_dice_roll_bonus = 1
+		merc_maintenance_modifier = -0.33
+		governing_capacity_modifier = -0.50
+	}
+}
+
+genestealer_cult_reform = {
+	potential = {
+		primary_culture = genestealer_culture
+	}
+	allow_normal_conversion = no
+	legacy_equivalent = genestealer_cult
+	icon = "craftworld_reform"
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	modifiers = {
+		global_spy_defence = 0.25
+		monarch_diplomatic_power = 1
+	}
+}

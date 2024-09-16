@@ -1,0 +1,18 @@
+government = republic
+add_government_reform = hive_world_reform
+government_rank = 1
+technology_group = imperial
+religion = death_cult
+primary_culture = human_culture
+capital = 1396
+
+1970.12.12 = {
+		monarch = {
+			name = "Voreia Middenbrace"	
+			adm = 2
+			dip = 4
+			mil = 2
+			female = yes
+		}
+	}
+}

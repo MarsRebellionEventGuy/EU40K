@@ -1,0 +1,302 @@
+Genestealer_Branch_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		primary_culture = genestealer_culture
+	}
+	has_country_shield = yes
+	
+	Genestealer_Mission_1 = {
+		icon = mission_locus
+		required_missions = { Genestealer_Mission_2 }
+		position = 2
+		
+		provinces_to_highlight = {
+			owned_by = ROOT
+		}
+		
+		trigger = {
+			employed_advisor = {
+				category = MIL
+				religion = tyranid
+				skill = 3
+			}
+		}
+		
+		effect = {
+			add_country_modifier = { 
+				name = genestealer_locus_bodyguards_bonus
+				duration = -1
+			}
+		}
+	}
+}
+
+Genestealer_Branch_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		primary_culture = genestealer_culture
+	}
+	has_country_shield = yes
+	
+	Genestealer_Mission_2 = {
+		icon = mission_hybrids
+		required_missions = {}
+		position = 1
+		
+		provinces_to_highlight = {
+			owned_by = ROOT
+		}
+		
+		trigger = {
+			army_size_percentage = 1
+		}
+		
+		effect = {
+			add_country_modifier = { 
+				name = genestealer_drill_bonus
+				duration = 3650
+			}
+		}
+	}
+	Genestealer_Mission_3 = {
+		icon = mission_astra_militarum
+		required_missions = { Genestealer_Mission_2 }
+		position = 3
+		
+		provinces_to_highlight = {
+			owned_by = ROOT
+		}
+		
+		trigger = {
+			num_of_regiments_at_full_drill = 5
+		}
+		
+		effect = {
+			add_army_professionalism = 0.20
+		}
+	}
+}
+
+Genestealer_Branch_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		primary_culture = genestealer_culture
+	}
+	has_country_shield = yes
+	
+	Genestealer_Mission_4 = {
+		icon = mission_kellermorph
+		required_missions = {}
+		position = 1
+		
+		provinces_to_highlight = {
+			owned_by = ROOT
+		}
+		
+		trigger = {
+			has_leader_with = {
+				total_pips = 8
+			}
+		}
+		
+		effect = {
+			custom_tooltip = Genestealer_Kellermorph_Bonus_Tooltip
+			tooltip = {
+				add_country_modifier = { 
+					name = genestealer_kellermorph_bonus
+					duration = 365
+				}
+			}
+		}
+	}
+	Genestealer_Mission_5 = {
+		icon = mission_genestealer_propaganda
+		required_missions = { Genestealer_Mission_2 Genestealer_Mission_4 Genestealer_Mission_8 }
+		position = 2
+		
+		provinces_to_highlight = {
+		}
+		
+		trigger = {
+			religious_unity = 0.99
+			capital_scope = {
+				religion = tyranid
+			}
+		}
+		
+		effect = {
+			custom_tooltip = genestealer_authority_bonus_tt
+			hidden_effect = {
+				add_authority = 100
+			}
+		}
+	}
+	Genestealer_Mission_6 = {
+		icon = mission_genestealer_revolution
+		required_missions = { Genestealer_Mission_3 Genestealer_Mission_5 Genestealer_Mission_9 }
+		position = 4
+		
+		provinces_to_highlight = {
+			owned_by = ROOT
+		}
+		
+		trigger = {
+			check_variable = {
+				which = genestealer_reform_variable
+				value = 5
+			}
+		}
+		
+		effect = {
+			capital_scope = { add_devastation = 20 }
+			add_country_modifier = { 
+				name = genestealer_unification_bonus
+				duration = -1
+			}
+		}
+	}
+	Genestealer_Mission_7 = {
+		icon = mission_hive_mind_synapse
+		required_missions = {  Genestealer_Mission_6  }
+		position = 5
+		
+		provinces_to_highlight = {
+			owner = { has_reform = hive_fleet_reform }
+		}
+		
+		trigger = {
+			any_country = {
+				has_reform = hive_fleet_reform	
+				has_spy_network_from = {
+					who = ROOT
+					value = 50
+				}
+			}
+		}
+		
+		effect = {
+			country_event = { 
+				id = genestealer_events.2
+				days = 30
+				random = 15
+				tooltip = Genestealer_Connection_Tooltip
+			}
+		}
+	}
+}
+
+Genestealer_Branch_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		primary_culture = genestealer_culture
+	}
+	has_country_shield = yes
+	
+	Genestealer_Mission_8 = {
+		icon = mission_imperial_nobles
+		required_missions = {}
+		position = 1
+		
+		provinces_to_highlight = {
+			owned_by = ROOT
+		}
+		
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = genestealers_authority_tooltip
+				authority = 80
+			}
+		}
+		
+		effect = {
+			add_country_modifier = { 
+				name = genestealer_conversion_bonus
+				duration = 18250
+			}
+		}
+	}
+	Genestealer_Mission_9 = {
+		icon = mission_genestealer_diplomacy
+		required_missions = { Genestealer_Mission_8 }
+		position = 3
+		
+		provinces_to_highlight = {
+			owner = {
+				culture_group = imperial_culture_group
+				NOT = {
+					has_opinion = {
+						who = ROOT
+						value = 100
+					}
+				}
+			}
+		}
+		
+		trigger = {
+			accepted_culture = human_culture
+			calc_true_if = {
+				all_country = {
+					culture_group = imperial_culture_group
+					has_opinion = {
+						who = ROOT
+						value = 100
+					}
+				}
+			amount = 2
+			}
+		}
+		
+		effect = {
+			custom_tooltip = genestealer_culture_bonus_tooltip
+		}
+	}
+}
+
+Genestealer_Branch_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		primary_culture = genestealer_culture
+	}
+	has_country_shield = yes
+	
+	Genestealer_Mission_10 = {
+		icon = mission_voidship
+		required_missions = { Genestealer_Mission_8 }
+		position = 2
+		
+		provinces_to_highlight = {
+		}
+		
+		trigger = {
+			calc_true_if = {
+				all_country = {
+					culture_group = imperial_culture_group
+					has_spy_network_from = {
+						who = ROOT
+						value = 30
+					}
+				}
+			amount = 2
+			}
+		}
+		
+		effect = {
+			capital_scope = {
+				create_flagship = {
+					name = "Space Hulk"
+					type = galley
+				}
+			}
+		}
+	}
+}

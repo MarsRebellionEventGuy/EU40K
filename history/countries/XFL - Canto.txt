@@ -1,0 +1,18 @@
+government = theocracy
+add_government_reform = forge_world_reform
+government_rank = 1
+technology_group = mechanicus
+religion = mechanicus
+primary_culture = mechanicus_culture
+capital = 1750
+
+1970.12.12 = {
+		monarch = {
+			name = "Delpha-745"	
+			adm = 2
+			dip = 1
+			mil = 3
+			female = yes
+		}
+	}
+}

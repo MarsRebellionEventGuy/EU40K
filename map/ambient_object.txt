@@ -1,0 +1,1050 @@
+type={
+	type="nammi_tower_of_london_entity"
+	use_animation=no
+	scale=0.300000
+	time_duration=300.000000
+	object={
+		name="tower_of_london"
+		hidden_on_start=no
+		position={
+			2802.350 0.200 1550.400 
+		}
+		rotation={
+			0.000 13.000 0.000 
+		}
+	}
+}
+type={
+	type="nammi2_parthenon_entity"
+	use_animation=no
+	scale=0.290000
+	time_duration=300.000000
+	object={
+		name="parthenon"
+		hidden_on_start=no
+		position={
+			3173.300 0.000 1289.400 
+		}
+		rotation={
+			0.000 55.000 0.000 
+		}
+	}
+}
+type={
+	type="seagulls"
+	use_animation=yes
+	scale=0.300000
+	time_duration=300.000000
+	object={
+		name="Seagulls_zansibar"
+		hidden_on_start=no
+		position={
+			3124.000 11.000 62.000 
+		}
+		rotation={
+			0.000 45.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_zambia"
+		hidden_on_start=no
+		position={
+			3002.000 11.000 475.000 
+		}
+		rotation={
+			0.000 45.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_zansibar"
+		hidden_on_start=no
+		position={
+			3464.000 11.000 453.000 
+		}
+		rotation={
+			0.000 45.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_zansibar"
+		hidden_on_start=no
+		position={
+			4663.000 11.000 507.000 
+		}
+		rotation={
+			0.000 45.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_sierra_leon"
+		hidden_on_start=no
+		position={
+			2577.000 11.000 786.000 
+		}
+		rotation={
+			0.000 45.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_West_africa"
+		hidden_on_start=no
+		position={
+			2860.000 11.000 731.000 
+		}
+		rotation={
+			0.000 45.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_kongo"
+		hidden_on_start=no
+		position={
+			2945.400 11.000 599.930 
+		}
+		rotation={
+			0.000 45.000 0.000 
+		}
+	}
+	object={
+		name="INFANTRY"
+		hidden_on_start=no
+		position={
+			3319.000 11.000 631.000 
+		}
+		rotation={
+			0.000 45.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_Ethiopia"
+		hidden_on_start=no
+		position={
+			3514.000 11.000 840.000 
+		}
+		rotation={
+			0.000 45.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_srilanka"
+		hidden_on_start=no
+		position={
+			4043.810 11.000 784.800 
+		}
+		rotation={
+			0.000 45.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_west_india"
+		hidden_on_start=no
+		position={
+			3920.000 11.000 953.000 
+		}
+		rotation={
+			0.000 45.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_ganges_delta"
+		hidden_on_start=no
+		position={
+			4209.000 11.000 986.000 
+		}
+		rotation={
+			0.000 45.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_zansibar"
+		hidden_on_start=no
+		position={
+			4321.000 11.000 887.000 
+		}
+		rotation={
+			0.000 45.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_zansibar"
+		hidden_on_start=no
+		position={
+			4437.000 11.000 649.000 
+		}
+		rotation={
+			0.000 45.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_zansibar"
+		hidden_on_start=no
+		position={
+			4747.000 11.000 799.000 
+		}
+		rotation={
+			0.000 45.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_vietnam_delta"
+		hidden_on_start=no
+		position={
+			4473.000 11.000 801.000 
+		}
+		rotation={
+			0.000 45.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_north_vietnam"
+		hidden_on_start=no
+		position={
+			4486.000 11.000 976.000 
+		}
+		rotation={
+			0.000 45.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_Gibraltar"
+		hidden_on_start=no
+		position={
+			2700.000 11.000 1242.000 
+		}
+		rotation={
+			0.000 45.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_Venice"
+		hidden_on_start=no
+		position={
+			3014.000 11.000 1413.000 
+		}
+		rotation={
+			0.000 45.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_Cyperus"
+		hidden_on_start=no
+		position={
+			3348.000 11.000 1204.000 
+		}
+		rotation={
+			0.000 45.000 0.000 
+		}
+	}
+	object={
+		name="INFANTRY"
+		hidden_on_start=no
+		position={
+			3584.000 11.000 1121.000 
+		}
+		rotation={
+			0.000 45.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_taiwan"
+		hidden_on_start=no
+		position={
+			4678.000 11.000 1062.000 
+		}
+		rotation={
+			0.000 45.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_Neatherlands"
+		hidden_on_start=no
+		position={
+			2838.000 11.000 1553.000 
+		}
+		rotation={
+			0.000 45.000 0.000 
+		}
+	}
+	object={
+		name="INFANTRY"
+		hidden_on_start=no
+		position={
+			2988.000 10.900 1628.000 
+		}
+		rotation={
+			0.000 45.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_Aland"
+		hidden_on_start=no
+		position={
+			3121.000 10.800 1740.000 
+		}
+		rotation={
+			0.000 45.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_baltic"
+		hidden_on_start=no
+		position={
+			3110.000 11.000 1639.000 
+		}
+		rotation={
+			0.000 45.000 0.000 
+		}
+	}
+}
+type={
+	type="suez_canal"
+	use_animation=no
+	scale=0.800000
+	time_duration=300.000000
+	always_visible=yes
+	visible_in_all_map_modes=yes
+	object={
+		name="suez_canal"
+		hidden_on_start=yes
+		position={
+			3315.000 0.100 1149.000 
+		}
+		rotation={
+			0.000 2.000 0.000 
+		}
+	}
+}
+type={
+	type="nammi2_moai_entity"
+	use_animation=no
+	scale=0.300000
+	time_duration=300.000000
+	object={
+		name="moai"
+		hidden_on_start=no
+		position={
+			1053.000 0.150 314.000 
+		}
+		rotation={
+			0.000 -12.000 0.000 
+		}
+	}
+}
+type={
+	type="nammi2_chichen_itza_entity"
+	use_animation=no
+	scale=0.340000
+	time_duration=300.000000
+	object={
+		name="chichen_itza"
+		hidden_on_start=no
+		position={
+			1424.000 -0.050 1208.000 
+		}
+		rotation={
+			0.000 -103.000 0.000 
+		}
+	}
+}
+type={
+	type="panda_bear"
+	use_animation=yes
+	scale=0.200000
+	time_duration=300.000000
+	object={
+		name="Seagulls_english_channel"
+		hidden_on_start=no
+		position={
+			4647.000 0.100 1149.000 
+		}
+		rotation={
+			0.000 -60.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_english_channel"
+		hidden_on_start=no
+		position={
+			4517.000 0.100 1136.000 
+		}
+		rotation={
+			0.000 -60.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_english_channel"
+		hidden_on_start=no
+		position={
+			4729.000 0.100 1542.000 
+		}
+		rotation={
+			0.000 -40.000 0.000 
+		}
+	}
+}
+type={
+	type="kangaroo"
+	use_animation=yes
+	scale=0.200000
+	time_duration=300.000000
+	object={
+		name="Seagulls_english_channel"
+		hidden_on_start=no
+		position={
+			4706.000 0.100 158.000 
+		}
+		rotation={
+			0.000 -60.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_english_channel"
+		hidden_on_start=no
+		position={
+			4689.000 0.100 278.000 
+		}
+		rotation={
+			0.000 80.000 0.000 
+		}
+	}
+}
+type={
+	type="nammi2_hagia_sophia_minarets_entity"
+	use_animation=no
+	scale=0.260000
+	time_duration=300.000000
+	object={
+		name="hagia_sophia_minarets"
+		hidden_on_start=yes
+		position={
+			3241.000 0.150 1344.000 
+		}
+		rotation={
+			0.000 -30.000 0.000 
+		}
+	}
+}
+type={
+	type="nammi2_forbidden_city_entity"
+	use_animation=no
+	scale=0.350000
+	time_duration=300.000000
+	object={
+		name="forbidden_city"
+		hidden_on_start=no
+		position={
+			4641.000 -0.020 1321.000 
+		}
+		rotation={
+			0.000 -30.000 0.000 
+		}
+	}
+}
+type={
+	type="seal"
+	use_animation=yes
+	scale=0.250000
+	time_duration=300.000000
+	object={
+		name="Seagulls_english_channel"
+		hidden_on_start=no
+		position={
+			3090.000 0.100 99.000 
+		}
+		rotation={
+			0.000 -60.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_english_channel"
+		hidden_on_start=no
+		position={
+			3143.000 0.100 81.000 
+		}
+		rotation={
+			0.000 40.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_english_channel"
+		hidden_on_start=no
+		position={
+			496.000 0.100 1962.000 
+		}
+		rotation={
+			0.000 40.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_english_channel"
+		hidden_on_start=no
+		position={
+			222.000 0.100 1954.000 
+		}
+		rotation={
+			0.000 -60.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_english_channel"
+		hidden_on_start=no
+		position={
+			2892.000 0.100 1733.000 
+		}
+		rotation={
+			0.000 -60.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_english_channel"
+		hidden_on_start=no
+		position={
+			2997.000 0.100 1874.000 
+		}
+		rotation={
+			0.000 -130.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_english_channel"
+		hidden_on_start=no
+		position={
+			3324.000 0.100 1980.000 
+		}
+		rotation={
+			0.000 50.000 0.000 
+		}
+	}
+}
+type={
+	type="whale"
+	use_animation=yes
+	scale=0.800000
+	time_duration=300.000000
+	object={
+		name="Seagulls_english_channel"
+		hidden_on_start=no
+		position={
+			2906.000 0.100 1961.000 
+		}
+		rotation={
+			0.000 45.000 0.000 
+		}
+	}
+}
+type={
+	type="kiel_canal"
+	use_animation=no
+	scale=1.200000
+	time_duration=300.000000
+	always_visible=yes
+	visible_in_all_map_modes=yes
+	object={
+		name="kiel_canal"
+		hidden_on_start=yes
+		position={
+			2956.200 -0.100 1601.800 
+		}
+		rotation={
+			0.000 -42.000 0.000 
+		}
+	}
+}
+type={
+	type="nammi2_parthenon_minaret_entity"
+	use_animation=no
+	scale=0.290000
+	time_duration=300.000000
+	object={
+		name="parthenon_minaret"
+		hidden_on_start=yes
+		position={
+			3173.300 0.000 1289.400 
+		}
+		rotation={
+			0.000 55.000 0.000 
+		}
+	}
+}
+type={
+	type="elephant_AO"
+	use_animation=yes
+	scale=0.200000
+	time_duration=300.000000
+	object={
+		name="Seagulls_english_channel"
+		hidden_on_start=no
+		position={
+			3260.000 0.200 257.000 
+		}
+		rotation={
+			0.000 60.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_english_channel"
+		hidden_on_start=no
+		position={
+			3288.000 0.200 191.000 
+		}
+		rotation={
+			0.000 60.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_english_channel"
+		hidden_on_start=no
+		position={
+			3997.000 0.200 944.000 
+		}
+		rotation={
+			0.000 -60.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_english_channel"
+		hidden_on_start=no
+		position={
+			4082.000 0.200 992.000 
+		}
+		rotation={
+			0.000 40.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_english_channel"
+		hidden_on_start=no
+		position={
+			3978.000 0.200 1017.000 
+		}
+		rotation={
+			0.000 60.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_english_channel"
+		hidden_on_start=no
+		position={
+			3373.000 0.200 713.000 
+		}
+		rotation={
+			0.000 -60.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_english_channel"
+		hidden_on_start=no
+		position={
+			4364.000 0.200 956.000 
+		}
+		rotation={
+			0.000 60.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_english_channel"
+		hidden_on_start=no
+		position={
+			4468.000 0.200 886.000 
+		}
+		rotation={
+			0.000 60.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_english_channel"
+		hidden_on_start=no
+		position={
+			4476.000 0.200 827.000 
+		}
+		rotation={
+			0.000 60.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_english_channel"
+		hidden_on_start=no
+		position={
+			4066.000 0.200 1116.000 
+		}
+		rotation={
+			0.000 60.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_english_channel"
+		hidden_on_start=no
+		position={
+			4241.000 0.200 1061.000 
+		}
+		rotation={
+			0.000 60.000 0.000 
+		}
+	}
+}
+type={
+	type="elephant_indian"
+	use_animation=yes
+	scale=0.200000
+	time_duration=300.000000
+	object={
+		name="Seagulls_english_channel"
+		hidden_on_start=no
+		position={
+			4020.000 0.100 952.000 
+		}
+		rotation={
+			0.000 -60.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_english_channel"
+		hidden_on_start=no
+		position={
+			4107.000 0.600 989.000 
+		}
+		rotation={
+			0.000 -60.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_english_channel"
+		hidden_on_start=no
+		position={
+			4051.000 0.100 911.000 
+		}
+		rotation={
+			0.000 -60.000 0.000 
+		}
+	}
+}
+type={
+	type="nammi2_machu_picchu_entity"
+	use_animation=no
+	scale=0.180000
+	time_duration=300.000000
+	object={
+		name="machu_picchu"
+		hidden_on_start=no
+		position={
+			1661.800 -0.200 638.800 
+		}
+		rotation={
+			0.000 85.000 0.000 
+		}
+	}
+}
+type={
+	type="camel"
+	use_animation=yes
+	scale=0.250000
+	time_duration=300.000000
+	object={
+		name="Seagulls_english_channel"
+		hidden_on_start=no
+		position={
+			3587.000 0.100 1043.000 
+		}
+		rotation={
+			0.000 45.000 0.000 
+		}
+	}
+}
+type={
+	type="nammi2_petra_entity"
+	use_animation=no
+	scale=0.150000
+	time_duration=300.000000
+	object={
+		name="petra"
+		hidden_on_start=no
+		position={
+			3362.000 0.000 1138.000 
+		}
+		rotation={
+			0.000 -30.000 0.000 
+		}
+	}
+}
+type={
+	type="nammi2_hagia_sophia_entity"
+	use_animation=no
+	scale=0.260000
+	time_duration=300.000000
+	object={
+		name="hagia_sophia"
+		hidden_on_start=no
+		position={
+			3241.000 0.150 1344.000 
+		}
+		rotation={
+			0.000 -30.000 0.000 
+		}
+	}
+}
+type={
+	type="nammi2_himeji_castle_entity"
+	use_animation=no
+	scale=0.290000
+	time_duration=300.000000
+}
+type={
+	type="desert_skeleton_mesh"
+	use_animation=no
+	scale=0.400000
+	time_duration=300.000000
+	object={
+		name="Seagulls_english_channel"
+		hidden_on_start=no
+		position={
+			3150.000 0.100 270.000 
+		}
+		rotation={
+			0.000 50.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_english_channel"
+		hidden_on_start=no
+		position={
+			3584.000 0.100 934.000 
+		}
+		rotation={
+			0.000 50.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_english_channel"
+		hidden_on_start=no
+		position={
+			3654.000 0.100 981.000 
+		}
+		rotation={
+			0.000 50.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_english_channel"
+		hidden_on_start=no
+		position={
+			1198.000 0.100 1391.000 
+		}
+		rotation={
+			0.000 50.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_english_channel"
+		hidden_on_start=no
+		position={
+			1147.000 0.100 1421.000 
+		}
+		rotation={
+			0.000 50.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_english_channel"
+		hidden_on_start=no
+		position={
+			1027.000 0.100 1442.000 
+		}
+		rotation={
+			0.000 50.000 0.000 
+		}
+	}
+	object={
+		name="Seagulls_english_channel"
+		hidden_on_start=no
+		position={
+			3436.000 0.100 1158.000 
+		}
+		rotation={
+			0.000 50.000 0.000 
+		}
+	}
+}
+type={
+	type="nammi2_buddha_statues_small_entity"
+	use_animation=no
+	scale=0.120000
+	time_duration=300.000000
+	object={
+		name="buddha_small"
+		hidden_on_start=no
+		position={
+			3839.000 -0.200 1202.000 
+		}
+		rotation={
+			0.000 -15.000 0.000 
+		}
+	}
+}
+type={
+	type="nammi2_stonehenge_entity"
+	use_animation=no
+	scale=0.180000
+	time_duration=300.000000
+	object={
+		name="stonehenge"
+		hidden_on_start=no
+		position={
+			2784.000 0.150 1541.000 
+		}
+		rotation={
+			0.000 -0.800 0.000 
+		}
+	}
+}
+type={
+	type="nammi2_tenochtitlan_entity"
+	use_animation=no
+	scale=0.100000
+	time_duration=300.000000
+	object={
+		name="tenochtitlan"
+		hidden_on_start=no
+		position={
+			1257.000 0.300 1181.000 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
+}
+type={
+	type="nammi2_buddha_statues_big_entity"
+	use_animation=no
+	scale=0.190000
+	time_duration=300.000000
+	object={
+		name="buddha_big"
+		hidden_on_start=no
+		position={
+			3835.000 -1.000 1198.000 
+		}
+		rotation={
+			0.000 25.000 0.000 
+		}
+	}
+}
+type={
+	type="panama_canal"
+	use_animation=no
+	scale=1.500000
+	time_duration=300.000000
+	always_visible=yes
+	visible_in_all_map_modes=yes
+	object={
+		name="panama_canal"
+		hidden_on_start=yes
+		position={
+			1565.800 0.000 1016.500 
+		}
+		rotation={
+			0.000 25.000 0.000 
+		}
+	}
+}
+type={
+	type="nammi_angkor_wat_entity"
+	use_animation=no
+	scale=0.570000
+	time_duration=300.000000
+	object={
+		name="angkor_wat"
+		hidden_on_start=no
+		position={
+			4428.600 0.150 869.000 
+		}
+		rotation={
+			0.000 -103.000 0.000 
+		}
+	}
+}
+type={
+	type="nammi_cologne_cathedral_entity"
+	use_animation=no
+	scale=0.730000
+	time_duration=300.000000
+	object={
+		name="cologne"
+		hidden_on_start=no
+		position={
+			2908.300 0.350 1537.500 
+		}
+		rotation={
+			0.000 -90.000 0.000 
+		}
+	}
+}
+type={
+	type="nammi_kremlin_entity"
+	use_animation=no
+	scale=0.520000
+	time_duration=300.000000
+	object={
+		name="kremlin"
+		hidden_on_start=no
+		position={
+			3387.500 -0.150 1640.900 
+		}
+		rotation={
+			0.000 5.000 0.000 
+		}
+	}
+}
+type={
+	type="nammi_mount_fuji_entity"
+	use_animation=no
+	scale=0.900000
+	time_duration=300.000000
+}
+type={
+	type="nammi_notre_dame_cathedral_entity"
+	use_animation=no
+	scale=0.580000
+	time_duration=300.000000
+	object={
+		name="notre_dame"
+		hidden_on_start=no
+		position={
+			2843.600 0.200 1494.700 
+		}
+		rotation={
+			0.000 20.000 0.000 
+		}
+	}
+}
+type={
+	type="nammi_old_faithful_geyser_entity"
+	use_animation=no
+	scale=0.150000
+	time_duration=300.000000
+	object={
+		name="old_faithful"
+		hidden_on_start=no
+		position={
+			1082.500 0.010 1630.000 
+		}
+		rotation={
+			0.000 -60.000 0.000 
+		}
+	}
+}
+type={
+	type="nammi_stpeters_cathedral_entity"
+	use_animation=no
+	scale=0.500000
+	time_duration=300.000000
+	object={
+		name="stpeters"
+		hidden_on_start=no
+		position={
+			3000.000 0.260 1364.300 
+		}
+		rotation={
+			0.000 70.000 0.000 
+		}
+	}
+}

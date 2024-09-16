@@ -1,0 +1,9 @@
+owner = XZM
+controller = XZM
+add_core = XZM
+religion = ork
+culture = ork_culture
+base_tax = 2
+base_production = 2
+base_manpower = 2
+trade_goods = agricultural_goods

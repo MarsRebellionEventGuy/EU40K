@@ -1,0 +1,16 @@
+name = "Orpheus War"
+war_goal = {
+	type = take_border
+	casus_belli = cb_border_war
+	province = 1166
+}
+
+1999.1.1 = {
+	add_attacker = XAA
+	add_defender = XAE
+}
+
+2001.1.1 = {
+	rem_attacker = XAA
+	rem_defender = XAE
+}

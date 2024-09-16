@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = necron_dynasty_reform
+government_rank = 1
+technology_group = necron
+religion = necron
+primary_culture = necron_culture
+capital = 412
+
+1970.12.12 = {
+	monarch = {
+		name = "Oblis the Enslaver"	
+			dynasty = " "
+		adm = 5
+		dip = 3
+		mil = 5
+	}
+}

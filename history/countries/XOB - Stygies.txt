@@ -1,0 +1,17 @@
+government = theocracy
+add_government_reform = forge_world_reform
+government_rank = 1
+technology_group = mechanicus
+religion = mechanicus
+primary_culture = mechanicus_culture
+capital = 1114
+
+1970.12.12 = {
+		monarch = {
+			name = "Tyba-961.34254"	
+			adm = 3
+			dip = 1
+			mil = 3
+		}
+	}
+}

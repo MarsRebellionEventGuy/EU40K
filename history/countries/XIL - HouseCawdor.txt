@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = imperial_governorate_reform
+government_rank = 1
+technology_group = imperial
+religion = death_cult
+primary_culture = human_culture
+capital = 2846
+
+1970.12.12 = {
+		monarch = {
+			name = "Mormaer Cawdor"	
+			adm = 5
+			dip = 2
+			mil = 4
+		}
+	}
+}

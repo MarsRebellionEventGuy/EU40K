@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = imperial_governorate_reform
+government_rank = 1
+technology_group = imperial
+religion = imperial_cult
+primary_culture = human_culture
+capital = 3136
+
+1970.12.12 = {
+		monarch = {
+			name = "Makk Gospelghast"	
+			adm = 5
+			dip = 3
+			mil = 2
+		}
+	}
+}

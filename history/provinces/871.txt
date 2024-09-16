@@ -1,0 +1,9 @@
+add_core = XYB
+owner = XYB
+controller = XYB
+religion = tyranid
+culture = tyranid_culture
+base_tax = 2
+base_production = 2
+base_manpower = 3
+trade_goods = military_equipment

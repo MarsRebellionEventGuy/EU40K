@@ -1,0 +1,9 @@
+add_core = XAH
+owner = XAH
+controller = XAH
+culture = loyalist_astartes_culture
+religion = imperial_cult
+base_tax = 2
+base_production = 2
+base_manpower = 3
+trade_goods = military_equipment

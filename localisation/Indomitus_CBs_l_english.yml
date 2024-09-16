@@ -1,0 +1,5 @@
+﻿l_english:
+ cb_warhammer:0 "Regional Conquest"
+ cb_warhammer_desc:0 "In the grim darkness of the 42nd millenium there is only war. Bordering systems can be taken with little justification."
+ annex_country_warhammer:0 "Annex the Country"
+ annex_country_warhammer_desc:0 "War goal is to take the capital. You will be able to annex the target country even when other rules don't allow it."

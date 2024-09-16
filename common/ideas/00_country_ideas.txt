@@ -1,0 +1,1142 @@
+# Do not change tags in here without changing every other reference to them.
+# Do not change tags in here without changing every other reference to them.
+# If adding new groups or ideas, make sure they are unique.
+
+### Nation specific idea groups
+XXA_ideas = {
+	start = {
+		has_banners = yes
+		governing_capacity_modifier = 0.15
+		reverse_relation_with_same_religion = 5
+	}
+	
+	bonus = {
+		recover_army_morale_speed = 0.20
+	}	
+
+	trigger = {
+		tag = XXA
+	}
+	free = yes
+	
+	XXA_ideas_1 = {
+		loyalty_change_on_revoked = 0.20
+	}
+	XXA_ideas_2 = {
+		heavy_ship_cost = -0.15
+	}
+	XXA_ideas_3 = {
+		naval_attrition = -0.20
+	}
+	XXA_ideas_4 = {
+		reinforce_cost_modifier = -0.15
+	}
+	XXA_ideas_5 = {
+		war_exhaustion_cost = -0.20
+	}
+	XXA_ideas_6 = {
+		galley_power = 0.10
+	}
+	XXA_ideas_7 = {
+		global_heathen_missionary_strength = 0.02
+	}
+}
+
+XXB_ideas = {
+	start = {
+		advisor_pool = 1
+		global_ship_recruit_speed = -0.15
+	}
+	
+	bonus = {
+		hull_size_modifier = 0.10
+	}	
+
+	trigger = {
+		primary_culture = mechanicus_culture
+	}
+	free = yes
+	
+	XXB_ideas_1 = { #Quest for Knowledge
+		naval_attrition = -0.25
+		naval_morale_damage_received = -0.05
+	}
+	XXB_ideas_2 = { #Industrial Heart of Empire
+		production_efficiency = 0.15
+	}
+	XXB_ideas_3 = { #Cant Mechanicus
+		same_religion_advisor_cost = -0.20
+	}
+	XXB_ideas_4 = { #Partnerships with Knightly Houses
+		army_tradition_decay = -0.02
+	}
+	XXB_ideas_5 = { #Vat Grown
+		manpower_in_true_faith_provinces= 0.20
+	}
+	XXB_ideas_6 = { #Visions of the Omnissiah
+		idea_cost = -0.10
+	}
+	XXB_ideas_7 = { #Cybernetic Augmentations
+		land_attrition = -0.20
+		manpower_recovery_speed = 0.15
+	}
+}
+
+Craftworld_ideas = {
+	start = {
+		own_coast_naval_combat_bonus = 1.0
+		reverse_relation_with_same_religion = 10
+	}
+	
+	bonus = {
+		monthly_favor_modifier = 0.20
+	}	
+
+	trigger = {
+		culture = asuryani_culture
+	}
+	free = yes
+	
+	Craftworld_ideas_1 = { #Ai’elethra
+		all_estate_loyalty_equilibrium = 0.15
+	}
+	Craftworld_ideas_2 = { #Psyker Proficiency
+		all_power_cost = -0.10
+	}
+	Craftworld_ideas_3 = { #Aspect Warriors
+		shock_damage = 0.15
+	}
+	Craftworld_ideas_4 = { #Wraithbone Construction
+		global_ship_repair = 0.15
+		global_monthly_devastation = -0.05
+	}
+	Craftworld_ideas_5 = { #Rangers
+		light_ship_power = 0.20
+	}
+	Craftworld_ideas_6 = { # Infinity Matrix
+		same_culture_advisor_cost = -0.20
+	}
+	Craftworld_ideas_7 = { #Spirit Stone Scavenging
+		regiment_disembark_speed = 0.25
+	}
+}
+
+Exodite_ideas = {
+	start = {
+		garrison_damage = 0.50
+		land_maintenance_modifier = -0.15
+	}
+	
+	bonus = {
+		global_supply_limit_modifier = 0.20
+	}	
+
+	trigger = {
+		culture = exodite_culture
+	}
+	free = yes
+	
+	Exodite_ideas_1 = {
+		yearly_corruption = -0.1
+	}
+	Exodite_ideas_2 = {
+		build_cost = -0.15
+	}
+	Exodite_ideas_3 = {
+		rival_change_cost = -0.25
+		improve_relation_modifier = 0.10
+	}
+	Exodite_ideas_4 = {
+		defensiveness = 0.20
+	}
+	Exodite_ideas_5 = {
+		shock_damage = 0.10
+	}
+	Exodite_ideas_6 = {
+		advisor_pool = 1
+	}
+	Exodite_ideas_7 = {
+		movement_speed = 0.15
+	}
+}
+
+Hiveworld_ideas = {
+	start = {
+		defensiveness = 0.10
+		advisor_cost = -0.20
+	}
+	
+	bonus = {
+		global_tax_modifier = 0.15
+	}	
+
+	trigger = {
+		NOT = { tag = XXA }
+		primary_culture = human_culture
+	}
+	free = yes
+	
+	Hiveworld_ideas_1 = {
+		global_regiment_recruit_speed = -0.20
+	}
+	Hiveworld_ideas_2 = {
+		all_estate_loyalty_equilibrium = 0.1
+	}
+	Hiveworld_ideas_3 = {
+		stability_cost_modifier = -0.20
+	}
+	Hiveworld_ideas_4 = {
+		development_cost = -0.15
+	}
+	Hiveworld_ideas_5 = {
+		estate_interaction_cooldown_modifier = -0.33
+	}
+	Hiveworld_ideas_6 = {
+		harsh_treatment_cost = -0.25
+	}
+	Hiveworld_ideas_7 = {
+		build_cost = -0.20
+	}
+}
+
+Xeno_ideas = {
+	start = {
+		morale_damage = 0.05
+		naval_morale_damage = 0.10
+	}
+	
+	bonus = {
+		province_warscore_cost = -0.15
+	}	
+
+	trigger = {
+		culture_group = xeno_culture_group
+	}
+	free = yes
+	
+	Xeno_ideas_1 = {
+		idea_cost = -0.20
+	}
+	Xeno_ideas_2 = {
+		improve_relation_modifier = 0.25
+	}
+	Xeno_ideas_3 = {
+		yearly_corruption = -0.05
+	}
+	Xeno_ideas_4 = {
+		mercenary_discipline = 0.10
+	}
+	Xeno_ideas_5 = {
+		trade_range_modifier = 0.33
+	}
+	Xeno_ideas_6 = {
+		leader_land_manuever = 1
+	}
+	Xeno_ideas_7 = {
+		global_colonial_growth = 10
+	}
+}
+
+
+XDJ_ideas = {
+	start = {
+		war_exhaustion_cost = -0.20
+		garrison_size = 0.15
+	}
+	
+	bonus = {
+		army_tradition_from_battle = 0.50
+	}	
+
+	trigger = {
+		tag = XDJ
+	}
+	free = yes
+	
+	XDJ_ideas_1 = {
+		loot_amount = 0.15
+	}
+	XDJ_ideas_2 = {
+		morale_damage_received = -0.05
+	}
+	XDJ_ideas_3 = {
+		shock_damage = 0.10
+	}
+	XDJ_ideas_4 = {
+		own_territory_dice_roll_bonus = 1
+	}
+	XDJ_ideas_5 = {
+		yearly_corruption = -0.05
+	}
+	XDJ_ideas_6 = {
+		drill_gain_modifier = 0.20
+	}
+	XDJ_ideas_7 = {
+		all_estate_loyalty_equilibrium = 0.1
+	}
+}
+
+XYG_ideas = {
+	start = {
+		mercenary_discipline = 0.10
+		leader_land_fire = 1
+	}
+	
+	bonus = {
+		leader_cost = -0.15
+	}	
+
+	trigger = {
+		OR = {
+			tag = XJD
+			tag = XYG
+		}
+	}
+	free = yes
+	
+	XYG_ideas_1 = {
+		morale_damage_received = -0.05
+	}
+	XYG_ideas_2 = {
+		monthly_splendor = 1
+	}
+	XYG_ideas_3 = {
+		idea_cost = -0.15
+	}
+	XYG_ideas_4 = {
+		own_coast_naval_combat_bonus = 1.0
+	}
+	XYG_ideas_5 = {
+		manpower_in_true_faith_provinces= 0.20
+	}
+	XYG_ideas_6 = {
+		artillery_cost = -0.20
+	}
+	XYG_ideas_7 = {
+		spy_action_cost_modifier = -0.15
+	}
+}
+
+XGF_ideas = {
+	start = {
+		defensiveness = 0.15
+		idea_cost = -0.20
+	}
+	
+	bonus = {
+		expand_infrastructure_cost_modifier = -0.33
+	}	
+
+	trigger = {
+		tag = XGF
+	}
+	free = yes
+	
+	XGF_ideas_1 = {
+		all_estate_loyalty_equilibrium = 0.1
+	}
+	XGF_ideas_2 = {
+		institution_spread_from_true_faith = 0.33
+	}
+	XGF_ideas_3 = {
+		yearly_corruption = -0.1
+	}
+	XGF_ideas_4 = {
+		disengagement_chance = 0.05
+	}
+	XGF_ideas_5 = {
+		colonist_placement_chance = 0.10
+	}
+	XGF_ideas_6 = {
+		stability_cost_modifier = -0.15
+	}
+	XGF_ideas_7 = {
+		manpower_in_true_faith_provinces= 0.20
+	}
+}
+
+Necron_ideas = {
+	start = {
+		rival_change_cost = -0.33
+		may_return_manpower_on_disband = yes
+	}
+	
+	bonus = {
+		ae_impact = -0.15
+	}	
+
+	trigger = {
+		culture_group = necron_culture_group
+	}
+	free = yes
+	
+	Necron_ideas_1 = {
+		unjustified_demands = -0.15
+	}
+	Necron_ideas_2 = {
+		fire_damage = 0.10
+	}
+	Necron_ideas_3 = {
+		manpower_recovery_speed = 0.20
+	}
+	Necron_ideas_4 = {
+		mercenary_discipline = 0.05
+	}
+	Necron_ideas_5 = {
+		power_projection_from_insults = 0.33
+	}
+	Necron_ideas_6 = {
+		leader_naval_manuever = 1
+	}
+	Necron_ideas_7 = {
+		global_allowed_num_of_manufactories = 1
+	}
+}
+
+Astartes_ideas = {
+	start = {
+		yearly_army_professionalism = 0.01
+		has_banners = yes
+	}
+	
+	bonus = {
+		leader_cost = -0.20
+	}	
+
+	trigger = {
+		primary_culture = loyalist_astartes_culture
+	}
+	free = yes
+	
+	Astartes_ideas_1 = {
+		drill_gain_modifier = 0.25
+	}
+	Astartes_ideas_2 = {
+		reverse_relation_with_same_religion = 10
+	}
+	Astartes_ideas_3 = {
+		manpower_in_own_culture_provinces = 0.15
+	}
+	Astartes_ideas_4 = {
+		build_time = -0.20
+	}
+	Astartes_ideas_5 = {
+		prestige_from_land = 0.10
+		prestige_from_naval = 0.10
+	}
+	Astartes_ideas_6 = {
+		navy_tradition_decay = -0.02
+	}
+	Astartes_ideas_7 = {
+		reverse_relation_with_heretic_religion = 10
+	}
+}
+
+Ork_ideas = {
+	start = {
+		war_exhaustion_cost = -0.20
+		leader_land_shock = 1
+	}
+	
+	bonus = {
+		leader_cost = -0.25
+	}	
+
+	trigger = {
+		culture_group = ork_culture_group
+	}
+	free = yes
+	
+	Ork_ideas_1 = {
+		land_maintenance_modifier = -0.20
+	}
+	Ork_ideas_2 = {
+		regiment_disembark_speed = 0.25
+	}
+	Ork_ideas_3 = {
+		reinforce_speed = 0.33
+	}
+	Ork_ideas_4 = {
+		leader_land_manuever = 1
+		leader_naval_manuever = 1
+	}
+	Ork_ideas_5 = {
+		same_religion_advisor_cost = -0.20
+	}
+	Ork_ideas_6 = {
+		heavy_ship_cost = -0.20
+	}
+	Ork_ideas_7 = {
+		infantry_cost = -0.15
+	}
+}
+
+
+Genestealer_ideas = {
+	start = {
+		stability_cost_modifier = -0.20	
+		global_unrest = -1
+	}
+	
+	bonus = {
+		leader_cost = -0.15
+	}	
+
+	trigger = {
+		primary_culture = genestealer_culture
+	}
+	free = yes
+	
+	Genestealer_ideas_1 = {
+		all_estate_loyalty_equilibrium = 0.05
+	}
+	Genestealer_ideas_2 = {
+		core_creation = -0.15
+	}
+	Genestealer_ideas_3 = {
+		reserves_organisation = 0.10
+	}
+	Genestealer_ideas_4 = {
+		ae_impact = -0.15
+	}
+	Genestealer_ideas_5 = {
+		manpower_in_true_faith_provinces= 0.20
+	}
+	Genestealer_ideas_6 = {
+		spy_offence = 0.15
+	}
+	Genestealer_ideas_7 = {
+		global_supply_limit_modifier = 0.25
+	}
+}
+
+Iron_Warriors_ideas = {
+	start = {
+		siege_ability = 0.10
+		blockade_efficiency = 0.15	
+	}
+	
+	bonus = {
+		landing_penalty = -1
+	}	
+
+	trigger = {
+		OR = {
+			tag = XIF
+			tag = XMW
+			tag = XDD
+			tag = XAT
+		}
+	}
+	free = yes
+	
+	Iron_Warriors_ideas_1 = {
+		fire_damage = 0.10
+	}
+	Iron_Warriors_ideas_2 = {
+		artillery_barrage_cost = -0.25
+	}
+	Iron_Warriors_ideas_3 = {
+		garrison_damage = 0.33
+	}
+	Iron_Warriors_ideas_4 = {
+		assault_fort_ability = 0.20
+	}
+	Iron_Warriors_ideas_5 = {
+		mercenary_cost = -0.15
+	}
+	Iron_Warriors_ideas_6 = {
+		land_attrition = -0.20
+	}
+	Iron_Warriors_ideas_7 = {
+		coast_raid_range = 2
+	}
+}
+
+Raven_Guard_ideas = {
+	start = {
+		free_land_leader_pool = 1
+		movement_speed = 0.15
+	}
+	
+	bonus = {
+		ae_impact = -0.15
+	}	
+
+	trigger = {
+		OR = {
+			tag = XAH
+			tag = XCA
+			tag = XMZ
+			tag = XFJ
+			tag = XHU
+			tag = XNM
+		}
+	}
+	free = yes
+	
+	Raven_Guard_ideas_1 = {
+		rebel_support_efficiency = 0.50
+	}
+	Raven_Guard_ideas_2 = {
+		morale_damage_received = -0.05
+	}
+	Raven_Guard_ideas_3 = {
+		global_spy_defence = 0.15
+	}
+	Raven_Guard_ideas_4 = {
+		global_unrest = -1
+	}
+	Raven_Guard_ideas_5 = {
+		leader_land_manuever = 1
+	}
+	Raven_Guard_ideas_6 = {
+		spy_action_cost_modifier = -0.15
+	}
+	Raven_Guard_ideas_7 = {
+		army_tradition_decay = -0.02
+	}
+}
+
+Space_Wolves_ideas = {
+	start = {
+		shock_damage_received = -0.10	
+		culture_conversion_time = -0.25
+	}
+	
+	bonus = {
+		war_exhaustion_cost = -0.20
+	}	
+
+	trigger = {
+		OR = {
+			tag = XYR
+			tag = XBG
+		}
+	}
+	free = yes
+	
+	Space_Wolves_ideas_1 = {
+		leader_land_manuever = 1
+	}
+	Space_Wolves_ideas_2 = {
+		mercenary_discipline = 0.10
+	}
+	Space_Wolves_ideas_3 = {
+		idea_cost = -0.15
+	}
+	Space_Wolves_ideas_4 = {
+		global_manpower_modifier = 0.20
+	}
+	Space_Wolves_ideas_5 = {
+		yearly_corruption = -0.10
+	}
+	Space_Wolves_ideas_6 = {
+		shock_damage = 0.15
+	}
+	Space_Wolves_ideas_7 = {
+		prestige_from_naval = 0.33
+	}
+}
+
+Iron_Hands_ideas = {
+	start = {
+		reinforce_speed = 0.15
+		land_attrition = -0.20	
+	}
+	
+	bonus = {
+		land_forcelimit_modifier = 0.25
+	}	
+
+	trigger = {
+		OR = {
+			tag = XZI
+			tag = XIU
+			tag = XHO
+		}
+	}
+	free = yes
+	
+	Iron_Hands_ideas_1 = {
+		leader_land_fire = 1
+	}
+	Iron_Hands_ideas_2 = {
+		technology_cost = -0.10
+	}
+	Iron_Hands_ideas_3 = {
+		army_tradition_decay = -0.02
+	}
+	Iron_Hands_ideas_4 = {
+		nobles_loyalty_modifier = 0.10
+	}
+	Iron_Hands_ideas_5 = {
+		reinforce_cost_modifier = -0.20
+	}
+	Iron_Hands_ideas_6 = {
+		global_supply_limit_modifier = 0.33
+	}
+	Iron_Hands_ideas_7 = {
+		same_culture_advisor_cost = -0.20
+	}
+}
+
+Salamanders_ideas = {
+	start = {
+		culture_conversion_cost = -0.25	
+		infantry_cost = -0.15
+	}
+	
+	bonus = {
+		autonomy_change_time = -0.20
+	}	
+
+	trigger = {
+		tag = XAJ
+	}
+
+	free = yes
+	
+	Salamanders_ideas_1 = {
+		reserves_organisation = 0.15
+	}
+	Salamanders_ideas_2 = {
+		global_unrest = -2
+	}
+	Salamanders_ideas_3 = {
+		land_attrition = -0.20
+	}
+	Salamanders_ideas_4 = {
+		production_efficiency = 0.15
+	}
+	Salamanders_ideas_5 = {
+		fire_damage = 0.10
+	}
+	Salamanders_ideas_6 = {
+		morale_damage_received = -0.05
+	}
+	Salamanders_ideas_7 = {
+		naval_attrition = -0.33
+	}
+}
+
+Dark_Angels_ideas = {
+	start = {
+		advisor_pool = 1
+		expand_administration_cost = 0.20		
+	}
+	
+	bonus = {
+		free_adm_policy = 1
+	}	
+
+	trigger = {
+		OR = {
+			tag = XCX
+			tag = XOH
+			tag = XDH
+		}
+	}
+	free = yes
+	
+	Dark_Angels_ideas_1 = {
+		capture_ship_chance = 0.20
+	}
+	Dark_Angels_ideas_2 = {
+		prestige_from_land = 0.33
+	}
+	Dark_Angels_ideas_3 = {
+		global_spy_defence = 0.15
+	}
+	Dark_Angels_ideas_4 = {
+		improve_relation_modifier = 0.33
+	}
+	Dark_Angels_ideas_5 = {
+		prestige_decay = -0.02
+	}
+	Dark_Angels_ideas_6 = {
+		same_culture_advisor_cost = -0.15
+	}
+	Dark_Angels_ideas_7 = {
+		defensiveness = 0.10
+	}
+}
+
+Kin_ideas = {
+	start = {	
+		admiral_cost = -0.15
+		sailor_maintenance_modifer = -0.25	
+	}
+	
+	bonus = {
+		global_ship_repair = 0.20
+	}	
+
+	trigger = {
+		culture_group = votann_culture_group
+	}
+	free = yes
+	
+	Kin_ideas_1 = {
+		naval_attrition = -0.33
+	}
+	Kin_ideas_2 = {
+		adm_advisor_cost = -0.25
+	}
+	Kin_ideas_3 = {
+		free_leader_pool = 1
+	}
+	Kin_ideas_4 = {
+		production_efficiency = 0.15
+	}
+	Kin_ideas_5 = {
+		burghers_loyalty_modifier = 0.10
+	}
+	Kin_ideas_6 = {
+		manpower_in_culture_group_provinces = 0.20
+	}
+	Kin_ideas_7 = {
+		heavy_ship_power = 0.15
+	}
+}
+
+XGK_ideas = {
+	start = {
+		build_time = -0.25
+		state_maintenance_modifier = -0.15		
+	}
+	
+	bonus = {
+		global_tax_modifier = 0.10
+	}	
+
+	trigger = {
+		OR = {
+			tag = XGK
+			tag = XAE
+			tag = XNG
+			tag = XHX
+			tag = XHJ
+			tag = XYY
+			tag = XJC
+			tag = XNP
+			tag = XHK
+			tag = XDG
+			tag = XNN
+			tag = XJR
+			tag = XHL
+			tag = XKE
+			tag = XLJ
+			tag = XFU
+			tag = XIY
+			tag = XFI
+			tag = XFV
+		}
+	}
+	free = yes
+	
+	XGK_ideas_1 = {
+		governing_capacity_modifier = 0.15
+	}
+	XGK_ideas_2 = {
+		development_cost = -0.10
+	}
+	XGK_ideas_3 = {
+		war_exhaustion_cost = -0.33
+	}
+	XGK_ideas_4 = {
+		army_tradition = 1
+	}
+	XGK_ideas_5 = {
+		yearly_corruption = -0.10
+	}
+	XGK_ideas_6 = {
+		free_mil_policy = 1
+	}
+	XGK_ideas_7 = {
+		manpower_in_own_culture_provinces = 0.25
+	}
+}
+
+Chaos_ideas = {
+	start = {
+		infantry_cost = 0.20
+		reinforce_cost_modifier = -0.15	
+	}
+	
+	bonus = {
+		infantry_power = 0.15
+	}	
+
+	trigger = {
+		primary_culture = chaos_culture
+	}
+	free = yes
+	
+	Chaos_ideas_1 = {
+		mil_advisor_cost = -0.15
+	}
+	Chaos_ideas_2 = {
+		global_manpower_modifier = 0.20
+	}
+	Chaos_ideas_3 = {
+		global_spy_defence = 0.25
+	}
+	Chaos_ideas_4 = {
+		national_focus_years = -5
+	}
+	Chaos_ideas_5 = {
+		merc_leader_army_tradition = 0.25
+	}
+	Chaos_ideas_6 = {
+		core_creation = -0.20
+	}
+	Chaos_ideas_7 = {
+		morale_damage = 0.05
+	}
+}
+
+Tyranid_ideas = {
+	start = {
+		recover_army_morale_speed = 0.15
+		manpower_recovery_speed = 0.20	
+	}
+	
+	bonus = {
+		land_forcelimit_modifier = 0.20
+	}	
+
+	trigger = {
+		primary_culture = tyranid_culture
+	}
+	free = yes
+	
+	Tyranid_ideas_1 = {
+		morale_damage = 0.05
+	}
+	Tyranid_ideas_2 = {
+		global_regiment_recruit_speed = -0.20
+	}
+	Tyranid_ideas_3 = {
+		hostile_attrition = 1
+	}
+	Tyranid_ideas_4 = {
+		landing_penalty = -1
+	}
+	Tyranid_ideas_5 = {
+		development_cost = -0.20
+	}
+	Tyranid_ideas_6 = {
+		leader_land_fire = 1
+	}
+	Tyranid_ideas_7 = {
+		global_missionary_strength = 0.02
+	}
+}
+
+Deathwatch_ideas = {
+	start = {
+		defensiveness = 0.15
+		leader_cost = -0.20		
+	}
+	
+	bonus = {
+		leader_naval_manuever = 1
+	}	
+
+	trigger = {
+		OR = {
+			tag = XHY
+			tag = XCG
+			tag = XHH
+			tag = XJY
+			tag = XZD
+			tag = XJH
+			tag = XEK
+			tag = XGW
+			tag = XFS
+			tag = XLH
+		}
+	}
+	free = yes
+	
+	Deathwatch_ideas_1 = {
+		naval_morale = 0.10
+	}
+	Deathwatch_ideas_2 = {
+		fort_maintenance_modifier = -0.25
+	}
+	Deathwatch_ideas_3 = {
+		mil_tech_cost_modifier = -0.15
+	}
+	Deathwatch_ideas_4 = {
+		diplomatic_reputation = 1
+	}
+	Deathwatch_ideas_5 = {
+		backrow_artillery_damage = 0.10
+	}
+	Deathwatch_ideas_6 = {
+		devotion = 1
+	}
+	Deathwatch_ideas_7 = {
+		army_tradition = 1
+	}
+}
+
+Knight_ideas = {
+	start = {
+		prestige_from_land = 0.33
+		monthly_splendor = 1		
+	}
+	
+	bonus = {
+		general_cost = -0.20
+	}
+
+	trigger = {
+		primary_culture = knight_culture
+	}
+	free = yes
+	
+	Knight_ideas_1 = {
+		core_creation = -0.15
+	}
+	Knight_ideas_2 = {
+		nobles_loyalty_modifier = 0.10
+	}
+	Knight_ideas_3 = {
+		army_tradition = 1
+	}
+	Knight_ideas_4 = {
+		reverse_relation_with_heretic_religion = 10
+	}
+	Knight_ideas_5 = {
+		global_unrest = -2
+	}
+	Knight_ideas_6 = {
+		artillery_power = 0.15
+	}
+	Knight_ideas_7 = {
+		merc_leader_army_tradition = 0.5
+	}
+}
+
+Chaos_Knight_ideas = {
+	start = {	
+		power_projection_from_insults = 0.20	
+		mil_advisor_cost = -0.10
+	}
+	
+	bonus = {
+		fort_maintenance_modifier = -0.25
+	}	
+
+	trigger = {
+		primary_culture = chaos_knight_culture
+	}
+	free = yes
+	
+	Chaos_Knight_ideas_1 = {
+		fire_damage = 0.10
+	}
+	Chaos_Knight_ideas_2 = {
+		morale_damage_received = -0.05
+	}
+	Chaos_Knight_ideas_3 = {
+		available_province_loot = 0.33
+	}
+	Chaos_Knight_ideas_4 = {
+		land_maintenance_modifier = -0.15
+	}
+	Chaos_Knight_ideas_5 = {
+		harsh_treatment_cost = -0.25
+	}
+	Chaos_Knight_ideas_6 = {
+		morale_damage = 0.05
+	}
+	Chaos_Knight_ideas_7 = {
+		mercenary_discipline = 0.10
+	}
+}
+
+Chaos_Astartes_ideas = {
+	start = {	
+		envoy_travel_time = -0.25
+		rival_change_cost = -0.33
+		has_banners = yes	
+	}
+	
+	bonus = {
+		unjustified_demands = -0.20
+	}	
+
+	trigger = {
+		primary_culture = heretic_astartes_culture
+	}
+	free = yes
+	
+	Chaos_Astartes_ideas_1 = {
+		warscore_from_battles_modifier = 0.15
+	}
+	Chaos_Astartes_ideas_2 = {
+		land_morale = 0.10
+	}
+	Chaos_Astartes_ideas_3 = {
+		mercenary_discipline = 0.05
+	}
+	Chaos_Astartes_ideas_4 = {
+		war_exhaustion_cost = -0.33
+	}
+	Chaos_Astartes_ideas_5 = {
+		fire_damage = 0.10
+	}
+	Chaos_Astartes_ideas_6 = {
+		artillery_cost = -0.15
+	}
+	Chaos_Astartes_ideas_7 = {
+		leader_cost = -0.20
+	}
+}
+
+Alpha_Legion_ideas = {
+	start = {	
+		envoy_travel_time = -0.25
+		rival_change_cost = -0.33	
+	}
+	
+	bonus = {
+		unjustified_demands = -0.20
+	}	
+
+	trigger = {
+		OR = {
+			tag = XJN
+			tag = XIZ
+			tag = XXI
+			tag = XDZ
+		}
+	}
+	free = yes
+	
+	Alpha_Legion_ideas_1 = {
+		rebel_support_efficiency = 0.5
+	}
+	Alpha_Legion_ideas_2 = {
+		possible_mil_policy = 1
+	}
+	Alpha_Legion_ideas_3 = {
+		spy_offence = 0.15
+	}
+	Alpha_Legion_ideas_4 = {
+		global_spy_defence = 0.20
+	}
+	Alpha_Legion_ideas_5 = {
+		advisor_pool = 1
+	}
+	Alpha_Legion_ideas_6 = {
+		hostile_attrition = 1
+	}
+	Alpha_Legion_ideas_7 = {
+		global_manpower_modifier = 0.15
+	}
+}

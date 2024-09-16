@@ -1,0 +1,16 @@
+government = republic
+add_government_reform = exodite_government_reform
+government_rank = 1
+technology_group = eldar
+religion = aeldari
+primary_culture = exodite_culture
+capital = 1992
+
+1970.12.12 = {
+	monarch = {
+		name = "Cynbadrirr Mooneye"	
+		adm = 3
+		dip = 2
+		mil = 6
+	}
+}

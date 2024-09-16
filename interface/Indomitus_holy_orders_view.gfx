@@ -1,0 +1,32 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_holy_order_blood_angels"
+		texturefile = "gfx/interface/blood_angels_chapter.dds"
+		noOfFrames = 4		
+	}
+	spriteType = {
+		name = "GFX_holy_order_dark_angels"
+		texturefile = "gfx/interface/dark_angels_chapter.dds"
+		noOfFrames = 4		
+	}
+	spriteType = {
+		name = "GFX_holy_order_ultramarines"
+		texturefile = "gfx/interface/ultramarines_chapter.dds"
+		noOfFrames = 4		
+	}
+	spriteType = {
+		name = "GFX_holy_order_salamanders"
+		texturefile = "gfx/interface/salamanders_chapter.dds"
+		noOfFrames = 4		
+	}
+	spriteType = {
+		name = "GFX_holy_order_iron_hands"
+		texturefile = "gfx/interface/iron_hands_chapter.dds"
+		noOfFrames = 4		
+	}
+	spriteType = {
+		name = "GFX_holy_order_imperial_fists"
+		texturefile = "gfx/interface/imperial_fists_chapter.dds"
+		noOfFrames = 4		
+	}
+}

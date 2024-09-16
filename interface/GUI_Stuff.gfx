@@ -1,0 +1,6 @@
+spriteTypes = {	
+	textSpriteType = {
+		name = "GFX_standard_button_invisible"
+		texturefile = "gfx/interface/standard_button_invisible.dds"
+	}
+}

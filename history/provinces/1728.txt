@@ -1,0 +1,9 @@
+owner = XGB
+controller = XGB
+add_core = XGB
+religion = imperial_cult
+culture = human_culture
+base_tax = 1
+base_production = 1
+base_manpower = 1
+trade_goods = agricultural_goods #Nothing

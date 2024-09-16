@@ -1,0 +1,17 @@
+government = theocracy
+add_government_reform = forge_world_reform
+government_rank = 1
+technology_group = mechanicus
+religion = mechanicus
+primary_culture = mechanicus_culture
+capital = 812
+
+1970.12.12 = {
+		monarch = {
+			name = "Epsilon-Eta 05"	
+			adm = 5
+			dip = 3
+			mil = 5
+		}
+	}
+}

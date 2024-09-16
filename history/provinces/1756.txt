@@ -1,0 +1,9 @@
+owner = XEK
+controller = XEK
+add_core = XEK
+religion = imperial_cult
+culture = loyalist_astartes_culture
+base_tax = 1
+base_production = 1
+base_manpower = 1
+trade_goods = military_equipment

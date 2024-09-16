@@ -1,0 +1,37 @@
+genestealer_reforms = {
+	trigger = {
+		primary_culture = genestealer_culture
+	}	
+
+	can_buy_idea = {
+		is_at_war = no
+		NOT = { num_of_rebel_controlled_provinces = 1 }
+		stability = 1
+		authority = 100
+	}
+	
+	inti_reform_1 = {
+		global_manpower_modifier = 0.10
+		inti_reforms_passed = 1
+	}
+	inti_reform_2 = {
+		spy_offence = 0.10
+		inti_reforms_passed = 1
+	}
+	inti_reform_3 = {
+		devotion = 0.5
+		inti_reforms_passed = 1
+	}
+	inti_reform_4 = {
+		drill_gain_modifier = 0.15
+		inti_reforms_passed = 1
+	}
+	inti_reform_5 = {
+		land_morale = 0.10
+		inti_reforms_passed = 1
+	}	
+	
+	ai_will_do = {
+		factor = 1
+	}
+}

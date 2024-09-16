@@ -1,0 +1,16 @@
+government = theocracy
+add_government_reform = chaos_cult_reform
+government_rank = 1
+technology_group = chaos
+religion = chaos_undivided
+primary_culture = chaos_culture
+capital = 457
+
+1970.12.12 = {
+	monarch = {
+		name = "Nolis Rayne"	
+		adm = 5
+		dip = 4
+		mil = 3
+	}
+}

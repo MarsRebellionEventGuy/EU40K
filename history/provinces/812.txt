@@ -1,0 +1,9 @@
+add_core = XZW
+owner = XZW
+controller = XZW
+culture = human_culture
+religion = imperial_cult
+base_tax = 2
+base_production = 4
+base_manpower = 3
+trade_goods = military_equipment

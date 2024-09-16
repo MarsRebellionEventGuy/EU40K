@@ -1,0 +1,412 @@
+emperor_group = {
+	imperial_cult = {
+		color = { 255 196 0 }
+		icon = 1
+		country = {
+			tolerance_own = 1
+			same_religion_advisor_cost = -0.10
+		}
+		country_as_secondary = {
+			tolerance_own = 1
+			same_religion_advisor_cost = -0.10
+		}
+		province = {
+			local_missionary_strength = 0.02
+		}
+
+		uses_judaism_power = yes
+		aspects_name = imperial_cult_inquisition_aspects
+			
+		aspects = {
+			imperial_cult_adeptus_terra_administratum_aspect
+			imperial_cult_adeptus_terra_arbites_aspect
+			imperial_cult_adeptus_terra_astra_telepathica_aspect
+			imperial_cult_inquisition_ordo_hereticus_aspect
+			imperial_cult_inquisition_ordo_malleus_aspect
+			imperial_cult_inquisition_ordo_xenos_aspect
+			imperial_cult_ecclesiarchy_creed_temporal_aspect
+			imperial_cult_ecclesiarchy_sororitas_aspect
+			imperial_cult_ecclesiarchy_missionarus_galaxia_aspect
+		}
+
+		heretic = { CHAOSHERESY IMPERIALTRUTH XENOCULT }
+
+		celebrate = {
+			cost = 200
+			potential = {
+			}
+			allow = {
+				custom_trigger_tooltip = {
+					tooltip = IMPERIAL_HAS_DIP_ASPECT
+					OR = {
+						has_church_aspect = imperial_cult_inquisition_ordo_hereticus_aspect
+						has_church_aspect = imperial_cult_inquisition_ordo_malleus_aspect
+						has_church_aspect = imperial_cult_inquisition_ordo_xenos_aspect
+					}
+				}
+				custom_trigger_tooltip = {
+					tooltip = IMPERIAL_INQUISITION_BONUS
+					NOT = {
+						OR = {
+							has_country_modifier = inquisition_thorians
+							has_country_modifier = inquisition_amalathians
+							has_country_modifier = inquisition_ardentites
+							has_country_modifier = inquisition_monodominants
+							has_country_modifier = inquisition_xanthites
+							has_country_modifier = inquisition_recongregationists
+							has_country_modifier = inquisition_istvaanists
+							has_country_modifier = inquisition_libricaranists
+						}
+					}
+				}
+			}
+			effect = {
+				country_event = { 
+					id = indomitus_general.4
+				}
+				
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+	mechanicus = {
+		color = { 117 117 117 }
+		icon = 2
+		country = {
+			free_policy = 1
+			production_efficiency = 0.10
+		}
+		country_as_secondary = {
+			free_adm_policy = 1
+		}
+		province = {
+			local_missionary_strength = -0.01
+		}
+		
+		heretic = { CHAOSHERESY IMPERIALTRUTH XENOCULT }
+	}
+
+	death_cult = {
+		color = { 204 57 57 }
+		icon = 3
+		country = {
+			harsh_treatment_cost = -0.33
+			global_unrest = -1
+		}
+		country_as_secondary = {
+			harsh_treatment_cost = -0.33
+		}
+		province = {
+			local_missionary_strength = -0.01
+		}
+
+		can_have_secondary_religion = yes
+		
+		heretic = { CHAOSHERESY IMPERIALTRUTH XENOCULT }
+	}
+
+	promethean_cult = {
+		color = { 52 128 72 }
+		icon = 4
+		country = {
+			tolerance_heretic = 1
+			recover_army_morale_speed = 0.10
+		}
+		country_as_secondary = {
+			tolerance_heretic = 1
+			recover_army_morale_speed = 0.05
+		}
+
+		province = {
+			local_missionary_strength = -0.01
+		}
+
+		can_have_secondary_religion = yes
+		
+		heretic = { CHAOSHERESY XENOCULT }
+	}
+}
+
+aeldari_group = {
+	aeldari = {
+		color = { 0 145 119 }
+		icon = 5
+		country = {
+			yearly_corruption = -0.10
+			national_focus_years = -5
+		}
+		country_as_secondary = {
+			yearly_corruption = -0.05
+			national_focus_years = -3
+		}
+		province = {
+			local_missionary_strength = -0.02
+		}
+
+		personal_deity = yes
+		
+		heretic = { SLAANESHHERESY }
+	}
+	dark_muses = {
+		color = { 50 30 92 }
+		icon = 6
+		country = {
+			estate_interaction_cooldown_modifier = -0.2
+			mercenary_cost = -0.10
+		}
+		country_as_secondary = {
+			estate_interaction_cooldown_modifier = -0.10
+			mercenary_cost = -0.05
+		}
+		province = {
+			local_missionary_strength = -0.02
+		}
+
+		personal_deity = yes
+		
+		heretic = { SLAANESHHERESY }
+	}
+}
+
+chaos_group = {
+	chaos_undivided = {
+		color = { 35 35 35 }
+		icon = 7
+		country = {
+			prestige_per_development_from_conversion = 0.5
+			reverse_relation_with_heretic_religion = 10
+		}
+		country_as_secondary = {
+			prestige_per_development_from_conversion = 0.25
+			reverse_relation_with_heretic_religion = 5
+		}
+		province = {
+			local_missionary_strength = -0.01
+		}
+
+		personal_deity = yes
+		
+		heretic = { VASHTORR BELAKOR MALICE }
+	}
+	slaanesh = {
+		color = { 160 10 173 }
+		icon = 8
+		country = {
+			global_prosperity_growth = 0.1
+			improve_relation_modifier = 0.20
+		}
+		country_as_secondary = {
+			global_prosperity_growth = 0.05
+			improve_relation_modifier = 0.10
+		}
+		province = {
+			local_missionary_strength = -0.01
+		}
+		
+		heretic = { VASHTORR BELAKOR MALICE }
+	}
+	khorne = {
+		color = { 133 9 0 }
+		icon = 9
+		country = {
+			prestige_from_land = 0.25
+			morale_damage_received = -0.05
+		}
+		country_as_secondary = {
+			prestige_from_land = 0.15
+			morale_damage_received = -0.025
+		}
+		province = {
+			local_missionary_strength = -0.01
+		}
+		
+		heretic = { VASHTORR BELAKOR MALICE }
+	}
+	nurgle = {
+		color = { 98 128 77 }
+		icon = 10
+		country = {
+			global_manpower_modifier = 0.20
+			global_unrest = -1
+		}
+		country_as_secondary = {
+			global_manpower_modifier = 0.10
+			global_unrest = -1
+		}
+		province = {
+			local_missionary_strength = -0.01
+		}
+		
+		heretic = { VASHTORR BELAKOR MALICE }
+	}
+	tzeentch = {
+		color = { 14 73 117 }
+		icon = 11
+		country = {
+			spy_action_cost_modifier = -0.20
+			global_spy_defence = 0.15
+		}
+		country_as_secondary = {
+			spy_action_cost_modifier = -0.10
+			global_spy_defence = 0.075
+		}
+		province = {
+			local_missionary_strength = -0.01
+		}
+		
+		heretic = { VASHTORR BELAKOR MALICE }
+	}
+}
+
+tyranid_group = {
+	tyranid = {
+		color = { 94 21 189 }
+		icon = 12
+		country = {
+			leader_cost = -0.33
+			available_province_loot = 0.25
+		}
+		country_as_secondary = {
+			leader_cost = -0.20
+			available_province_loot = 0.15
+		}
+		province = {
+			local_missionary_strength = -0.02
+		}
+
+		authority = yes
+		religious_reforms = yes
+		#reform_tooltip = INTI_REFORM_TOOLTIP
+		
+		heretic = { FERALTYRANIDS }
+	}
+}
+
+ork_group = {
+	ork = {
+		color = { 115 156 116 }
+		icon = 13
+		country = {
+			army_tradition_from_battle = 0.20
+			prestige_from_land = 0.33
+		}
+		country_as_secondary = {
+			army_tradition_from_battle = 0.10
+			prestige_from_land = 0.20
+		}
+		province = {
+			local_missionary_strength = -0.02
+		}
+		
+		heretic = { FERALORKS }
+	}
+}
+
+necron_group = {
+	necron = {
+		color = { 143 99 34 }
+		icon = 14
+		country = {
+			prestige_decay = -0.02
+			same_culture_advisor_cost = -0.15
+		}
+		country_as_secondary = {
+			prestige_decay = -0.01
+			same_culture_advisor_cost = -0.075
+		}
+		province = {
+			local_missionary_strength = -0.02
+		}
+		
+		heretic = { FLAYEDONES DESTROYERS }
+	}
+	destroyer_cult = {
+		color = { 74 67 56 }
+		icon = 15
+		country = {
+			discipline = 0.05
+			infantry_cost = -0.20
+		}
+		country_as_secondary = {
+			discipline = 0.025
+			infantry_cost = -0.10
+		}
+		province = {
+			local_missionary_strength = -0.02
+		}
+		
+		heretic = { FLAYEDONES }
+	}
+}
+
+votann_group = {
+	votann = {
+		color = { 3 41 102 }
+		icon = 16
+		country = {
+			advisor_pool = 2
+			adm_advisor_cost = -0.10
+		}
+		country_as_secondary = {
+			adm_advisor_cost = -0.10
+		}
+
+		ancestors = yes
+		
+		heretic = { CHAOSHERESY }
+	}
+}
+
+xeno_group = {
+	greater_good = {
+		color = { 68 160 179 }
+		icon = 17
+		country = {
+			years_of_nationalism = -5
+			fire_damage = 0.10
+		}
+		country_as_secondary = {
+			years_of_nationalism = -3
+			fire_damage = 0.05
+		}
+		can_have_secondary_religion = yes
+		
+		heretic = { FARSIGHTHERESY }
+	}
+	hrud = {
+		color = { 112 130 34 }
+		icon = 18
+		country = {
+			core_creation = -0.15
+			global_unrest = -1
+		}
+		country_as_secondary = {
+			core_creation = -0.10
+			global_unrest = -1
+		}
+		province = {
+			local_missionary_strength = -0.02
+		}
+		
+		heretic = { CHAOSHERESY }
+	}
+	xeno = {
+		color = { 109 164 168 }
+		icon = 19
+		country = {
+			idea_cost = -0.15
+			manpower_in_true_faith_provinces= 0.10
+		}
+		country_as_secondary = {
+			idea_cost = -0.10
+			manpower_in_true_faith_provinces= 0.05
+		}
+		province = {
+			local_missionary_strength = -0.02
+		}
+		
+		heretic = { CHAOSHERESY }
+	}
+}

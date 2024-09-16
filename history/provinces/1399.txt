@@ -1,0 +1,9 @@
+add_core = XBX
+owner = XBX
+controller = XBX
+religion = mechanicus
+culture = mechanicus_culture
+base_tax = 2
+base_production = 3
+base_manpower = 3
+trade_goods = archaotech

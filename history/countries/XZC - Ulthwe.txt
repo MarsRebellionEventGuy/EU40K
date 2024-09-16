@@ -1,0 +1,17 @@
+government = theocracy
+add_government_reform = craftworld_reform
+government_rank = 1
+technology_group = eldar
+religion = aeldari
+primary_culture = asuryani_culture
+capital = 1080
+
+1970.12.12 = {
+		monarch = {
+			name = "Eldrad Ulthran"	
+			adm = 6
+			dip = 4
+			mil = 5
+		}
+	}
+}

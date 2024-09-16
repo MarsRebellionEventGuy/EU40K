@@ -1,0 +1,9 @@
+add_core = XLG
+owner = XLG
+controller = XLG
+religion = xeno
+culture = xeno_culture
+base_tax = 3
+base_production = 3
+base_manpower = 2
+trade_goods = xeno_technology

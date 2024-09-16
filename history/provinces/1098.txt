@@ -1,0 +1,9 @@
+owner = XDY
+controller = XDY
+add_core = XDY
+religion = hrud
+culture = xeno_culture
+base_tax = 3
+base_production = 3
+base_manpower = 4
+trade_goods = xeno_technology

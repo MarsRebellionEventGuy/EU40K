@@ -1,0 +1,17 @@
+government = theocracy
+add_government_reform = heretic_astartes_reform
+government_rank = 2
+technology_group = chaos
+religion = chaos_undivided
+primary_culture = heretic_astartes_culture
+capital = 3094
+
+1970.12.12 = {
+		monarch = {
+			name = "Huron Blackheart"	
+			adm = 3
+			dip = 2
+			mil = 6
+		}
+	}
+}

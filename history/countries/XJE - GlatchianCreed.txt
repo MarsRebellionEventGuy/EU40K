@@ -1,0 +1,18 @@
+government = theocracy
+add_government_reform = genestealer_cult_reform
+government_rank = 1
+technology_group = imperial
+religion = tyranid
+primary_culture = genestealer_culture
+capital = 3108
+
+1970.12.12 = {
+		monarch = {
+			name = "Felinda Sephexum"	
+			adm = 5
+			dip = 5
+			mil = 4
+			female = yes
+		}
+	}
+}

@@ -1,0 +1,100 @@
+namespace = genestealer_events
+
+country_event = {
+	id = genestealer_events.1
+	title = genestealer_events.1.t
+	desc = genestealer_events.1.d
+	picture = CIVIL_WAR_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		religion = tyranid
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		hidden_effect = {		
+			add_authority = -100 
+			add_stability = -2
+		}
+		capital_scope = {
+			spawn_rebels = {
+				type = anti_tax_rebels
+				size = 5
+				should_take_capital = yes
+				unrest = 3
+				religion = imperial_cult
+			}
+		}		
+	}	
+	
+	option = {
+		name = genestealer_events.1.a
+		tooltip = {
+			add_authority = -100 
+			add_stability = -2		
+		}		
+	}
+}
+
+country_event = {
+	id = genestealer_events.2
+	title = genestealer_events.2.t
+	desc = genestealer_events.2.d
+	picture = CIVIL_WAR_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+	}	
+	
+	option = {
+		name = genestealer_events.2.a
+		random_country = {
+			limit = {
+				has_reform = hive_fleet_reform	
+				has_spy_network_from = {
+					who = ROOT
+					value = 50
+				}
+			}
+			inherit = ROOT
+		}
+	}
+
+	option = {
+		name = genestealer_events.2.b
+		add_country_modifier = { 
+			name = genestealer_broodmind_disrupted
+			duration = 1825
+		}
+		add_country_modifier = { 
+			name = genestealer_self_sustaining_broodmind
+			duration = -1
+		}
+		random_country = {
+			limit = {
+				has_reform = hive_fleet_reform	
+				has_spy_network_from = {
+					who = ROOT
+					value = 50
+				}
+			}
+			declare_war_with_cb = {
+				who = ROOT
+				casus_belli = cb_annex
+			}
+		}
+	}
+}

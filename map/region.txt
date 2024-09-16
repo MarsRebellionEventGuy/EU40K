@@ -1,0 +1,1026 @@
+# A province can only belong to one region!
+
+########################################
+# EUROPE                               #
+########################################
+
+segmentum_solar_region = {
+	areas = {
+		solar
+		avellorn
+		benediction
+		voss
+		gathalamor
+		xenax
+		keletros
+		solar_star_keeps
+	}
+}
+
+talis_munus_region = {
+	areas = {
+		calverna
+		gravian
+		new_gidlam
+		western_necromunda
+		eastern_necromunda
+		rassios
+	}
+}
+
+inwit_cluster_region = {
+	areas = {
+		inwit
+		tallarn
+		luther_macintyre
+		ordex_thaag
+		goritus
+	}
+}
+
+fenris_region = {
+	areas = {
+		fenris
+		armageddon
+		garmon
+	}
+}
+
+macharia_region = {
+	areas = {
+		macharia
+		ultima_macharia
+	}
+}
+
+uhulis_region = {
+	areas = {
+		chiros
+		krieg
+		veradan
+	}
+}
+
+yarokin_veil_region = {
+	areas = {
+		ashek
+		arachnus
+	}
+}
+
+sabbat_worlds_region = {
+	areas = {
+		enothis
+		cabal_systems
+		khan_group
+		newfound_trailing
+		atar_median
+		carcaradon_cluster
+	}
+}
+
+orpheus_region = {
+	areas = {
+		capitoline
+		leyak
+		deluvian
+		barren_stars
+		drucillian
+		hesod_nebula
+	}
+}
+
+caradryad_region = {
+	areas = {
+		cretacia
+		taongar
+		galaspar
+	}
+}
+
+chalnath_expanse_region = {
+	areas = {
+		astorgius
+		irradium
+		ennua
+		haephos
+		vorotheion
+		chalnath_expanse
+	}
+}
+
+ghoul_stars_region = {
+	areas = {
+		northern_ghoul_stars
+		outer_ghoul_stars
+		occludus
+		dacia
+		eastern_ghoul_stars
+		
+	}
+}
+
+nostramo_region = {
+	areas = {
+		nostramo
+		elusia
+		gerontius
+	}
+}
+
+gothic_region = {
+	areas = {
+		goth
+		gethsemane
+		cyclops_cluster
+		bhein_morr
+	}
+}
+
+nachmund_region = {
+	areas = {
+		vigilus
+		shern
+	}
+}
+
+calixis_region = {
+	areas = {
+		malfi
+		drusus_marches
+		mausolea
+		golgenna_reach
+		josian_reach
+		periphery
+		castellain
+		stygies_deeps
+	}
+}
+
+medusan_reach_region = {
+	areas = {
+		medusan_reach
+		colchis
+		kinbriar
+		sarcosa
+	}
+}
+
+galactic_core_region = {
+	areas = {
+		northern_galactic_core
+		central_galactic_core
+		southern_galactic_core
+	}
+}
+
+octarius_region = {
+	areas = {
+		octarius
+		new_badab
+		kyro
+		badab
+		viridia
+	}
+}
+
+charadon_region = {
+	areas = {
+		charadon
+		traekonnis
+		metalica
+		vikatrina
+		kolossi
+		dhaku
+	}
+}
+
+nephilim_region = {
+	areas = {
+		northern_necron_nexus
+		western_necron_nexus
+		eastern_necron_nexus
+		southern_necron_nexus
+		endragiga
+		jedathra
+	}
+}
+
+ultima_region = {
+	areas = {
+		macragge_subsector
+		konor
+		talasa
+		talassar
+		magniat
+		pavonis
+		saramanth
+		damnos
+		iax
+		scourge_stars
+	}
+}
+
+red_scar_region = {
+	areas = {
+		northern_red_scar
+		southern_red_scar
+		baal
+		qyrakotosh
+		vitria
+		sycorax
+	}
+}
+
+askellon_region = {
+	areas = {
+		asphodel
+		cyclopia
+		stygies_cluster
+		rubicon
+		ophidia
+		scarus
+		lanorra
+		advex_mors
+	}
+}
+
+agripinaa_region = {
+	areas = {
+		agripinaa
+		cadmus
+		okomeia
+	}
+}
+
+golgotha_region = {
+	areas = {
+		golgotha
+		van_horne
+		gaivos
+		cornucopia
+	}
+}
+
+prosperan_rift_region = {
+	areas = {
+		western_prosperan_rift
+		eastern_prosperan_rift
+		ryza
+		mortain
+		cocholos
+	}
+}
+
+forsarr_region = {
+	areas = {
+		kiavahr
+		pleuric
+		raisa
+		lavantia
+		myr
+	}
+}
+
+laanah_rifts_region = {
+	areas = {
+		laanah_rifts
+		jerulas
+		cando
+	}
+}
+
+tau_region = {
+	areas = {
+		tau_one
+		tau_two
+		tau_three
+		tau_four
+		tau_five
+		tau_six
+		tau_seven
+		pech
+		okassis
+		damocles_nebula
+		radnar
+	}
+}
+
+gulgorahd_region = {
+	areas = {
+		northern_gulgorahd
+		southern_gulgorahd
+		kero_val
+		stormfall
+		parthac
+		gidrim
+	}
+}
+
+reductus_region = {
+	areas = {
+		vigilance_quadrex
+		vlax
+		bakka
+		mortant
+	}
+}
+
+mandragora_region = {
+	areas = {
+		mandragora
+		dsholtu
+		voltoris
+		trakonn
+		valentinium
+		accatran
+		dreer
+		sarlok
+	}
+}
+
+yasan_region = {
+	areas = {
+		yasan
+		zantragora
+		orestes
+	}
+}
+
+stygius_region = {
+	areas = {
+		western_stygius
+		eastern_stygius
+		talus
+		coronis_agathon
+		cousteau
+	}
+}
+
+coronid_deeps_region = {
+	areas = {
+		arrian
+		agathon
+		noricium
+		antakya
+		masuchi_parr
+		port_maw
+		gheren
+		canto
+	}
+}
+
+grail_abyss_region = {
+	areas = {
+		vindalex
+		lucius
+		dimmamar
+		isstvan
+		kronite
+	}
+}
+
+grendl_stars_region = {
+	areas = {
+		sternac
+		kimmeria
+		grendl_stars
+		veridian
+		cancri
+	}
+}
+
+trail_evisser_region = {
+	areas = {
+		rhanna
+		dolorosa
+		adrastapol
+		seraphina
+		ingiga
+	}
+}
+
+salient_stars_region = {
+	areas = {
+		methalor
+		bastior
+		guryan
+		stygies
+	}
+}
+
+hydraphur_region = {
+	areas = {
+		milhand
+		hydra_cordatus
+		hydraphur
+	}
+}
+
+sargos_region = {
+	areas = {
+		bormina
+		nortae
+		saran_luxor
+		moltova
+		ventrillia
+		tyran
+		ghosar_quintus
+	}
+}
+
+thramas_region = {
+	areas = {
+		thramas
+		rianoen
+		nagathar
+	}
+}
+
+bakhar_region = {
+	areas = {
+		obliterax
+		sotha
+		laeran
+	}
+}
+
+triplex_region = {
+	areas = {
+		triplex
+		coralax
+		mymeara
+		kenrac
+	}
+}
+
+loki_region = {
+	areas = {
+		nocturne
+		rynns_world
+		dreska
+		uralek
+		erenon
+	}
+}
+
+amerikon_region = {
+	areas = {
+		solstice
+		mordant
+	}
+}
+
+karthago_region = {
+	areas = {
+		felis
+		cato
+		catachan
+	}
+}
+
+vidar_region = {
+	areas = {
+		iap
+		gheden
+		nihilas
+		praedis
+		somonor
+	}
+}
+
+corribra_region = {
+	areas = {
+		tesla
+		zodiac
+		necris
+		san_leor
+		orinus
+	}
+}
+
+
+ullanor_region = {
+	areas = {
+		aurous
+		konig
+		helathel
+		armato
+		drathonis
+		heraldor
+	}
+}
+
+nepthis_region = {
+	areas = {
+		anvilus
+		olympia
+		jagga
+	}
+}
+
+fenright_region = {
+	areas = {
+		avalus
+		trevenum
+		saiph
+		hale
+		honorum
+		gorkamorka
+	}
+}
+
+phantax_region = {
+	areas = {
+		draven
+		kragh
+		macia
+	}
+}
+
+pelegron_cluster_region = {
+	areas = {
+		vagoris
+		cerada
+		quavansari
+		galat
+	}
+}
+
+palatine_region = {
+	areas = {
+		metahira
+		orana
+		coheria
+		varsavia
+		gathi
+	}
+}
+
+stryken_region = {
+	areas = {
+		vostroya
+		dregruk
+		cilix
+		holscht
+		cypra_mundi
+	}
+}
+
+huda_gulf_region = {
+	areas = {
+		orask
+		tsagualsa
+		kruun
+	}
+}
+
+manachea_region = {
+	areas = {
+		garagos
+		matarakh
+		mkhand
+		gildar
+		valhalla
+	}
+}
+
+crone_worlds_region = {
+	areas = {
+		medrengard
+		western_crone_worlds
+		eastern_crone_worlds
+	}
+}
+
+hellforges_region = {
+	areas = {
+		sicarus
+		xana
+		maeleum
+	}
+}
+
+cadian_gate_region = {
+	areas = {
+		cadian_gate
+		gallium
+		skalathrax
+	}
+}
+
+infinite_cascade_region = {
+	areas = {
+		urum
+		sublime
+	}
+}
+
+plague_sector_region = {
+	areas = {
+		plague_sector
+		harmony
+	}
+}
+
+evisser_trail_sea_region = {
+	areas = {
+		evisser_trail_sea_area
+	}
+}
+
+talis_munus_sea_region = {
+	areas = {
+		talis_munus_sea_area
+	}
+}
+
+fenris_sea_region = {
+	areas = {
+		fenris_sea_area
+	}
+}
+
+agripinaa_sector_sea_region = {
+	areas = {
+		agripinaa_sector_sea_area
+	}
+}
+
+amerikon_sector_sea_region = {
+	areas = {
+		amerikon_sector_sea_area
+	}
+}
+
+veiled_region_sector_sea_region = {
+	areas = {
+		veiled_region_sector_sea_area
+	}
+}
+
+orpheus_sector_sea_region = {
+	areas = {
+		orpheus_sector_sea_area
+	}
+}
+
+ghoul_stars_sector_sea_region = {
+	areas = {
+		ghoul_stars_sector_sea_area
+	}
+}
+
+ultima_sector_sea_region = {
+	areas = {
+		ultima_sector_sea_area
+	}
+}
+
+tau_space_sea_region = {
+	areas = {
+		tau_space_sea_area
+	}
+}
+
+fenright_sector_sea_region = {
+	areas = {
+		fenright_sector_sea_area
+	}
+}
+
+red_scar_sea_region = {
+	areas = {
+		red_scar_sea_area
+	}
+}
+
+calixis_sea_region = {
+	areas = {
+		calixis_sea_area
+	}
+}
+
+sabbat_worlds_sea_region = {
+	areas = {
+		sabbat_worlds_sea_area
+	}
+}
+
+sargos_sea_region = {
+	areas = {
+		sargos_sea_area
+	}
+}
+
+gothic_sector_sea_region = {
+	areas = {
+		gothic_sector_sea_area
+	}
+}
+
+stygius_sector_sea_region = {
+	areas = {
+		stygius_sector_sea_area
+	}
+}
+
+belis_corona_sector_sea_region = {
+	areas = {
+		belis_corona_sector_sea_area
+	}
+}
+
+askellon_sector_sea_region = {
+	areas = {
+		askellon_sector_sea_area
+	}
+}
+
+galactic_core_sector_sea_region = {
+	areas = {
+		galactic_core_sector_sea_area
+	}
+}
+
+golgothan_sector_sea_region = {
+	areas = {
+		golgothan_sector_sea_area
+	}
+}
+
+pariah_nexus_sea_region = {
+	areas = {
+		pariah_nexus_sea_area
+	}
+}
+
+taninim_expanse_sector_sea_region = {
+	areas = {
+		taninim_expanse_sector_sea_area
+	}
+}
+
+caradryad_sector_sea_region = {
+	areas = {
+		caradryad_sector_sea_area
+	}
+}
+
+reductus_sector_sea_region = {
+	areas = {
+		reductus_sector_sea_area
+	}
+}
+
+medusan_reach_sector_sea_region = {
+	areas = {
+		medusan_reach_sector_sea_area
+	}
+}
+
+halo_stars_sea_region = {
+	areas = {
+		halo_stars_sea_area
+	}
+}
+
+stryken_sector_sea_region = {
+	areas = {
+		stryken_sector_sea_area
+	}
+}
+
+laanah_rifts_sector_sea_region = {
+	areas = {
+		laanah_rifts_sector_sea_area
+	}
+}
+
+hydraphur_sector_sea_region = {
+	areas = {
+		hydraphur_sector_sea_area
+	}
+}
+
+crone_worlds_sector_sea_region = {
+	areas = {
+		crone_worlds_sector_sea_area
+	}
+}
+
+infinite_cascade_sea_region = {
+	areas = {
+		infinite_cascade_sea_area
+	}
+}
+
+salient_stars_sector_sea_region = {
+	areas = {
+		salient_stars_sector_sea_area
+	}
+}
+
+hellforges_sector_sea_region = {
+	areas = {
+		hellforges_sector_sea_area
+	}
+}
+
+grendl_stars_sea_region = {
+	areas = {
+		grendl_stars_sea_area
+	}
+}
+
+cadian_gate_sea_region = {
+	areas = {
+		cadian_gate_sea_area
+	}
+}
+
+chalnath_expanse_sea_region = {
+	areas = {
+		chalnath_expanse_sea_area
+	}
+}
+
+pelegron_cluster_sea_region = {
+	areas = {
+		pelegron_cluster_sea_area
+	}
+}
+
+coronid_deeps_sea_region = {
+	areas = {
+		coronid_deeps_sea_area
+	}
+}
+
+mandragora_sea_region = {
+	areas = {
+		mandragora_sea_area
+	}
+}
+
+grail_abyss_sea_region = {
+	areas = {
+		grail_abyss_sea_area
+	}
+}
+
+nostramo_sector_sea_region = {
+	areas = {
+		nostramo_sector_sea_area
+	}
+}
+
+koronus_expanse_sector_sea_region = {
+	areas = {
+		koronus_expanse_sector_sea_area
+	}
+}
+
+prosperan_rift_sea_region = {
+	areas = {
+		prosperan_rift_sea_area
+	}
+}
+
+thramas_sector_sea_region = {
+	areas = {
+		thramas_sector_sea_area
+	}
+}
+
+nepthis_sector_sea_region = {
+	areas = {
+		nepthis_sector_sea_area
+	}
+}
+
+forsarr_sector_sea_region = {
+	areas = {
+		forsarr_sector_sea_area
+	}
+}
+
+plague_stars_sector_sea_region = {
+	areas = {
+		plague_stars_sector_sea_area
+	}
+}
+
+blood_stars_sea_region = {
+	areas = {
+		blood_stars_sea_area
+	}
+}
+
+corribra_sector_sea_region = {
+	areas = {
+		corribra_sector_sea_area
+	}
+}
+
+vidar_sector_sea_region = {
+	areas = {
+		vidar_sector_sea_area
+	}
+}
+
+charadon_sector_sea_region = {
+	areas = {
+		charadon_sector_sea_area
+	}
+}
+
+palatine_sea_region = {
+	areas = {
+		palatine_sea_area
+	}
+}
+
+loki_sector_sea_region = {
+	areas = {
+		loki_sector_sea_area
+	}
+}
+
+macharian_sector_sea_region = {
+	areas = {
+		macharian_sector_sea_area
+	}
+}
+
+ullanor_sector_sea_region = {
+	areas = {
+		ullanor_sector_sea_area
+	}
+}
+
+yasan_sector_sea_region = {
+	areas = {
+		yasan_sector_sea_area
+	}
+}
+
+manachea_sea_region = {
+	areas = {
+		manachea_sea_area
+	}
+}
+
+inwit_cluster_sector_sea_region = {
+	areas = {
+		inwit_cluster_sector_sea_area
+	}
+}
+
+triplex_sea_region = {
+	areas = {
+		triplex_sea_area
+	}
+}
+
+bakhar_sector_sea_region = {
+	areas = {
+		bakhar_sector_sea_area
+	}
+}
+
+gulgorahd_sea_region = {
+	areas = {
+		gulgorahd_sea_area
+	}
+}
+
+phantax_sector_sea_region = {
+	areas = {
+		phantax_sector_sea_area
+	}
+}
+
+octarius_sector_sea_region = {
+	areas = {
+		octarius_sector_sea_area
+	}
+}
+
+uhulis_sector_sea_region = {
+	areas = {
+		uhulis_sector_sea_area
+	}
+}
+
+karthago_sector_sea_region = {
+	areas = {
+		karthago_sector_sea_area
+	}
+}
+
+yarokin_veil_sector_sea_region = {
+	areas = {
+		yarokin_veil_sector_sea_area
+	}
+}

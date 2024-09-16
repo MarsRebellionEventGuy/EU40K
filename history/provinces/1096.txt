@@ -1,0 +1,9 @@
+owner = XBO
+controller = XBO
+add_core = XBO
+religion = khorne
+culture = heretic_astartes_culture
+base_tax = 1
+base_production = 2
+base_manpower = 3
+trade_goods = minerals

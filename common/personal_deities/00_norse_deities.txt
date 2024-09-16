@@ -1,0 +1,233 @@
+khaine  = {
+	discipline = 0.05
+	war_exhaustion_cost = -0.15
+	
+	potential = { OR = { religion = aeldari religion = dark_muses } }
+	trigger = {}
+	sprite = 1
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			personality = ai_militarist
+		}	
+		modifier = {
+			factor = 0.5
+			personality = ai_diplomat
+		}
+	}
+}
+
+cegorach  = {
+	spy_offence = 0.15
+	own_territory_dice_roll_bonus = 1
+	
+	potential = { religion = aeldari }
+	trigger = {}
+	sprite = 2
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+isha  = {
+	manpower_in_culture_group_provinces = 0.20
+	idea_cost = -0.10
+	
+	potential = { religion = aeldari }
+	trigger = {}
+	sprite = 3
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+ynnead  = {
+	advisor_cost = -0.15
+	reverse_relation_with_heretic_religion = 5
+	
+	potential = { religion = aeldari }
+	trigger = {}
+	sprite = 4
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+asuryan  = {
+	global_unrest = -1
+	republican_tradition = 1
+	legitimacy = 1
+	
+	potential = { religion = aeldari }
+	trigger = {}
+	sprite = 5
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+vaul  = {
+	production_efficiency = 0.10
+	artillery_cost = -0.15
+	
+	potential = { religion = aeldari }
+	trigger = {}
+	sprite = 6
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+kurnous  = {
+	leader_land_manuever = 1
+	leader_naval_manuever = 1
+	
+	potential = { religion = aeldari }
+	trigger = {}
+	sprite = 7
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+morai_heg  = {
+	global_prosperity_growth = 0.1
+	global_monthly_devastation = -0.1
+	potential = { religion = aeldari }
+	trigger = {}
+	sprite = 8
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+cobra  = {
+	drill_gain_modifier = 0.33
+	shock_damage = 0.10
+
+	
+	potential = { religion = aeldari  culture = exodite_culture }
+	trigger = {}
+	sprite = 9
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+scorpion  = {
+	cavalry_power = 0.15
+	morale_damage = 0.05
+	
+	potential = { religion = aeldari  culture = exodite_culture }
+	trigger = {}
+	sprite = 10
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+serpent  = {
+	land_forcelimit_modifier = 0.20
+	land_maintenance_modifier = -0.15
+	
+	potential = { religion = aeldari culture = exodite_culture }
+	trigger = {}
+	sprite = 11
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+vect  = {
+	legitimacy = 1
+	same_culture_advisor_cost = -0.20
+	
+	potential = { religion = dark_muses }
+	trigger = {}
+	sprite = 12
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+shaimesh  = {
+	spy_offence = 0.20
+	morale_damage = 0.05
+	
+	potential = { religion = dark_muses }
+	trigger = {}
+	sprite = 13
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+red_crone  = {
+	church_loyalty_modifier = 0.10
+	mercenary_discipline = 0.05
+	
+	potential = { religion = dark_muses }
+	trigger = {}
+	sprite = 14
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+vileth  = {
+	advisor_pool = 1
+	cavalry_flanking = 0.15
+	
+	potential = { religion = dark_muses }
+	trigger = {}
+	sprite = 15
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1
+	}
+}

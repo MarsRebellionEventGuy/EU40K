@@ -1,0 +1,17 @@
+government = republic
+add_government_reform = farsight_enclaves_reform
+government_rank = 1
+technology_group = tau
+religion = greater_good
+primary_culture = fire_caste_culture
+capital = 1881
+
+1970.12.12 = {
+		monarch = {
+			name = "O'Shovah 'Farsight'"	
+			adm = 3
+			dip = 5
+			mil = 5
+		}
+	}
+}
