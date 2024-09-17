@@ -112,3 +112,31 @@ on_startup={
 		}
 	}
 }
+on_yearly_pulse = {
+	if = {#Golden Throne Degrades
+		limit = { 
+			has_global_flag = imperium_setup 
+			is_emperor_of_china = yes
+			check_variable = {
+				which = ImperiumGoldenThroneFailing
+				which = 0
+			}
+		}
+		change_variable = {
+			which = ImperiumGoldenThroneFailing
+			value = ImperiumGoldenThroneFailingChange
+		}
+		if={
+			limit={
+				check_variable = {
+					which = 0
+					which = ImperiumGoldenThroneFailing
+				}
+			}
+			set_variable = {
+				value = 0
+				which = ImperiumGoldenThroneFailing
+			}
+		}
+	}
+}

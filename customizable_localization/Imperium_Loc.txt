@@ -15,3 +15,59 @@ defined_text = {
 		localisation_key = AB_no
 	}
 }
+defined_text = {
+	name = GetMechanicusLoyalty
+	random = no
+	
+	text = {
+		localisation_key = Mechanicus_indepedenant
+		trigger = {
+			event_target:adeptus_mechanicus_tag={
+				is_subject = no
+			}
+		}
+	}
+	text = {
+		localisation_key = Mechanicus_disloyal
+		trigger = {
+			event_target:adeptus_mechanicus_tag={
+				liberty_desire = 50
+			}
+		}
+	}
+	text = {
+		localisation_key = Mechanicus_loyal
+		trigger = {
+			event_target:adeptus_mechanicus_tag={
+				NOT={liberty_desire = 30}
+			}
+		}
+	}
+	text = {
+		localisation_key = Mechanicus_neutral
+	}
+}
+defined_text = {
+	name = GetMechanicusStatus
+	random = no
+	
+	text = {
+		localisation_key = Mechanicus_united_tag
+		trigger = {
+			event_target:adeptus_mechanicus_tag={
+				tag = XXB
+			}
+		}
+	}
+	text = {
+		localisation_key = Mechanicus_divided_tag
+	}
+}
+defined_text = {
+	name = GetMechanicusProduction
+	random = no
+	
+	text = {
+		localisation_key = Mechanicus_Production_nominial
+	}
+}
