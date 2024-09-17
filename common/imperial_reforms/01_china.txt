@@ -1,0 +1,275 @@
+logos_historica_verita_decision = {
+	empire = celestial_empire
+	emperor = {
+		prestige_decay = -0.01
+	}
+}
+
+reign_in_senatorum_imperialls_decision = {
+	empire = celestial_empire
+	trigger = {
+		if = { 
+			limit = { has_estate = estate_eunuchs } 
+			OR = { 
+				estate_loyalty = {
+					estate = estate_eunuchs 
+					loyalty = 60 
+				}
+				NOT = { corruption = 1 } 
+			}
+		}
+		else = { 
+			NOT = { corruption = 1 } 
+		}
+		NOT = { advisor = irthuhaemotalion }
+		NOT = { advisor = mereldapereth }
+		NOT = { advisor = avelizadrachmar }
+	}
+	emperor = {
+		meritocracy = 0.5
+		eunuchs_influence_modifier = -0.15
+	}
+	on_effect = {
+		
+	}
+}
+
+tributum_administratum_decision = {
+	empire = celestial_empire
+	emperor = {
+		eunuchs_influence_modifier = 0.05
+		global_tax_modifier = 0.1
+		vassal_income = 0.1
+	}
+}
+
+reform_adeptus_administrum_decision = {
+	empire = celestial_empire
+	emperor = {
+		yearly_corruption = -0.1
+		eunuchs_influence_modifier = -0.1
+	}
+}
+
+centralizing_top_government_decision = {
+	empire = celestial_empire
+	trigger = { crown_land_share = 65 } 
+	member = { all_estate_influence_modifier = -0.05 }
+	emperor = { monarch_admin_power = 1 }
+	
+}
+
+curtail_inquisition_decision = {
+	empire = celestial_empire
+	trigger = {
+		not = { empire_of_china_reform_passed = empower_inquisition_decision }
+	}
+	member = {
+		
+	} 
+	emperor = { 
+		inquisition_influence_modifier = -0.10
+		inquisition_loyalty_modifier = -0.05
+		global_spy_defence = -0.1
+	}
+	disabled_by = empower_inquisition_decision
+}
+
+empower_inquisition_decision = {
+	empire = celestial_empire 
+	trigger = {
+		not = { empire_of_china_reform_passed = curtail_inquisition_decision }
+	}
+	member = {
+		
+	} 
+	emperor = { 
+		inquisition_influence_modifier = 0.1
+		inquisition_loyalty_modifier = 0.05
+		global_spy_defence = 0.1
+	}
+	disabled_by = curtail_inquisition_decision
+}
+
+reintegration_decision = {
+	empire = celestial_empire
+	trigger = { empire_of_china_num_reforms_passed = 8 }
+	emperor = {
+		imperial_mandate = 0.05
+	}
+	on_effect = {
+		custom_tooltip = vassalize_imperial_worlds_decision_tt
+		set_global_flag = eoc_vassalize_tributaries
+	}
+	off_effect = {
+		custom_tooltip = vassalize_imperial_worlds_decision_ct
+		clr_global_flag = eoc_vassalize_tributaries
+	}
+	
+}
+centralizated_imperium_decision = {
+	empire = celestial_empire
+	trigger = { 
+		empire_of_china_num_reforms_passed = 12 
+		empire_of_china_reform_passed = reintegration_decision
+	}
+	emperor = {
+		imperial_mandate = 0.05
+		liberty_desire_from_subject_development = -0.33
+	}
+	on_effect = {
+		custom_tooltip = integrate_imperial_worlds_decision_tt
+		set_global_flag = eoc_integrate_tributaries
+	}
+	off_effect = {
+		custom_tooltip = integrate_imperial_worlds_decision_ct
+		clr_global_flag = eoc_integrate_tributaries
+	}
+	
+}
+
+merchant_charter_decision = {
+	empire = celestial_empire
+	emperor = {
+		merchants = 1
+		trade_efficiency = 0.05
+	}
+}
+
+modernize_space_marines_decision = {
+	empire = celestial_empire 
+	trigger = { 
+		num_of_banners = 25 
+	}
+	emperor = { }
+}
+
+restore_ultramar_borders_decision = {
+	empire = celestial_empire 
+	trigger = { 
+		XGK={
+			OR={
+				is_subject_of_type_with_overlord = {
+					who = PREV
+					type = astartes_subject_type
+				}
+				is_subject_of_type_with_overlord = {
+					who = PREV
+					type = autonomus_astartes_subject_type
+				}
+			}
+		}
+	}
+	on_effect = {
+		custom_tooltip = unlocks_ultramar_decision_tt
+	}
+}
+curtail_astartes_autonomy_decision = {
+	empire = celestial_empire 
+	trigger = { 
+		
+	}
+	on_effect = {
+		custom_tooltip = vassalize_imperial_worlds_decision_tt
+		set_global_flag = eoc_vassalize_tributaries
+	}
+	off_effect = {
+		custom_tooltip = vassalize_imperial_worlds_decision_ct
+		clr_global_flag = eoc_vassalize_tributaries
+	}
+}
+
+reform_astra_militarum_decision = {
+	empire = celestial_empire
+	emperor = {
+		land_forcelimit_modifier = 0.15
+		land_morale = 0.05
+	}
+}
+
+imperial_navy_decision = {
+	empire = celestial_empire
+	emperor = {
+		naval_forcelimit_modifier = 0.1
+	}
+}
+
+centralize_imperial_defence_decision = {
+	empire = celestial_empire
+	trigger = {
+		not = { empire_of_china_reform_passed = decentralize_imperial_defence_decision }
+	}
+	member = {
+		global_manpower_modifier = -0.10
+		liberty_desire = 5
+	} 
+	emperor = { 
+		manpower_recovery_speed = 0.15 
+	}
+	disabled_by = decentralize_imperial_defence_decision
+}
+
+decentralize_imperial_defence_decision = {
+	empire = celestial_empire 
+	trigger = {
+		not = { empire_of_china_reform_passed = centralize_imperial_defence_decision }
+	}
+	member = {
+		global_manpower_modifier = 0.10
+		land_forcelimit_modifier = 0.10
+		liberty_desire = -10
+	} 
+	emperor = { 
+		global_manpower_modifier = -0.15
+	}
+	disabled_by = centralize_imperial_defence_decision
+}
+
+revitalize_imperial_grandeur_decision = {
+	empire = celestial_empire
+	emperor = {
+		prestige = 1.0
+		great_project_upgrade_cost = -0.15
+	}
+}
+
+reform_ecclesiarchy_decision = {
+	empire = celestial_empire
+	trigger = {
+		not = { empire_of_china_reform_passed = restore_imperial_truth_decision }
+		estate_loyalty = {
+			estate = estate_church 
+			loyalty = 60 
+		}
+	}
+	member = {
+		tolerance_own = 2
+	} 
+	emperor = { 
+		tolerance_own = 3
+		global_missionary_strength = 0.01
+	}
+	disabled_by = restore_imperial_truth_decision
+}
+
+restore_imperial_truth_decision = {
+	empire = celestial_empire 
+	trigger = {
+		not = { empire_of_china_reform_passed = reform_ecclesiarchy_decision }
+		estate_loyalty = {
+			estate = estate_church 
+			loyalty = 60 
+		}
+	}
+	member = {
+		
+	} 
+	emperor = { 
+		tolerance_own = -2
+		technology_cost = -0.1
+	}
+	on_effect = {
+		custom_tooltip = enables_imperial_truth_tt
+	}
+	disabled_by = reform_ecclesiarchy_decision
+}

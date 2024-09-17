@@ -1,0 +1,35 @@
+custom_text_box = {
+   name = independant_astartes_label #Must match a scripted instantTextBoxType in a .gui file
+   potential = { } #Determines when the text is visible
+   tooltip = independant_astartes_label_tt #Can use customizable localisation
+   #To localize it, use the name of the button as a key, can also use customizable localisation
+}
+custom_text_box = {
+   name = astartes_label 
+   potential = { } 
+   tooltip = astartes_label_tt 
+}
+custom_text_box = {
+   name = throne_integrity_value 
+   potential = { } 
+   tooltip = throne_integrity_tt 
+}
+custom_text_box = {
+   name = adeptus_mechanicus_label 
+   potential = { } 
+   tooltip = adeptus_mechanicus_tt 
+}
+custom_icon = {
+   name = throne_integrity_icon #Must match a scripted iconType in a .gui file
+   potential = { } #Determines when the icon is visible
+   tooltip = throne_integrity_tt #Can use customizable localisation
+}
+custom_shield = {
+   name = adeptus_mechanicus_shield #Must match a scripted guiButtonType in a .gui file
+   potential = { } #Determines when the shield is visible
+   trigger = { } #Determines when the shield is clickable
+   effect = { } #Effect for clicking
+   tooltip = adeptus_mechanicus_tt #Can use customizable localisation
+   global_event_target = adeptus_mechanicus_tag # Global event target name
+   open_country = yes #If clicking opens the country view
+}
