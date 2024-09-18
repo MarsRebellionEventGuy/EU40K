@@ -35,6 +35,7 @@ imperium_regency_reform = {
 		global_heathen_missionary_strength = 0.02
 		same_religion_advisor_cost = -0.25
 		relation_with_heathens = -50
+		yearly_corruption = 0.1
 	}
 
 	ai = {
@@ -53,6 +54,10 @@ imperium_regency_reform = {
 	government_abilities = {
 		imperium_mechanic
 	}
+	# conditional = {
+		# allow = { has_dlc = "Mandate of Heaven" }
+		# has_meritocracy = yes
+	# }
 }
 
 imperial_governorate_reform = {

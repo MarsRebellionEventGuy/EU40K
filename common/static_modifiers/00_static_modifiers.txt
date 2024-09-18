@@ -2463,3 +2463,9 @@ mechanicus_base_modifiers={
 mechanicus_base_overlord_modifiers={
 	global_trade_goods_size_modifier = 0.1
 }
+nominal_imperial_world_base_modifiers={
+	administrative_efficiency = 0.05
+}
+nominal_imperial_world_base_overlord_modifiers={
+	
+}
