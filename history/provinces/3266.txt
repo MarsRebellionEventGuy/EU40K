@@ -1,0 +1,9 @@
+owner = XEE
+controller = XEE
+add_core = XEE
+culture = chaos_culture
+religion = chaos_undivided
+base_tax = 1
+base_production = 1
+base_manpower = 1
+trade_goods = slaves
