@@ -60,9 +60,9 @@ astartes_localisation = {
 	}
 
 	ruler_female = {
-		1 = KNEZNA
-		2 = KRALOVNA
-		3 = CISAROVNA
+		1 = ASTARTES_RULER_FEMALE_1
+		2 = ASTARTES_RULER_FEMALE_2
+		3 = ASTARTES_RULER_FEMALE_3
 	}
 
 	consort_male = {
@@ -84,9 +84,9 @@ astartes_localisation = {
 	}
 
 	heir_female = {
-		1 = HEIR_fem
-		2 = HEIR_fem
-		3 = HEIR_fem
+		1 = ASTARTES_HEIR_FEMALE_1
+		2 = ASTARTES_HEIR_FEMALE_2
+		3 = ASTARTES_HEIR_FEMALE_3
 	}
 
 	trigger = {

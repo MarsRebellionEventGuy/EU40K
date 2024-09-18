@@ -1,9 +1,9 @@
-add_core = XXF
-owner = XXF
-controller = XXF
+add_core = XOK
+owner = XOK
+controller = XOK
 religion = imperial_cult
 culture = human_culture
 base_tax = 1
 base_production = 1
-base_manpower = 4
+base_manpower = 2
 trade_goods = military_equipment

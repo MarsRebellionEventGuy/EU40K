@@ -25,6 +25,14 @@
  ASTARTES_RULER_MALE_2: "Chapter Master"
  ASTARTES_RULER_MALE_3: "Lord Protector"
 
+ ASTARTES_RULER_FEMALE_1: "Canoness"
+ ASTARTES_RULER_FEMALE_2: "Canoness Preceptor"
+ ASTARTES_RULER_FEMALE_2: "Canoness Superior"
+
+ ASTARTES_HEIR_FEMALE_1: "Palatine"
+ ASTARTES_HEIR_FEMALE_2: "Palatine"
+ ASTARTES_HEIR_FEMALE_2: "Palatine"
+
  MARS_MECHANICUS_RANK_1: "Adeptus Mechanicus"
  MARS_MECHANICUS_RANK_2: "Adeptus Mechanicus"
  MARS_MECHANICUS_RANK_3: "Adeptus Mechanicus"

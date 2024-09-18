@@ -1,0 +1,9 @@
+owner = XZI
+controller = XZI
+add_core = XZI
+religion = imperial_cult
+culture = loyalist_astartes_culture
+base_tax = 2
+base_production = 3
+base_manpower = 4
+trade_goods = military_equipment

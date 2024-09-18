@@ -1,0 +1,9 @@
+add_core = XYG
+owner = XYG
+controller = XYG
+religion = tzeentch
+culture = heretic_astartes_culture
+base_tax = 1
+base_production = 1
+base_manpower = 1
+trade_goods = slaves

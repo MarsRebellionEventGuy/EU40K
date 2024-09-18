@@ -35,6 +35,7 @@ inwit_cluster_region = {
 		luther_macintyre
 		ordex_thaag
 		goritus
+		fergax
 	}
 }
 
@@ -43,12 +44,14 @@ fenris_region = {
 		fenris
 		armageddon
 		garmon
+		elysia
 	}
 }
 
 macharia_region = {
 	areas = {
 		macharia
+		macharia_planet
 		ultima_macharia
 	}
 }
@@ -58,6 +61,8 @@ uhulis_region = {
 		chiros
 		krieg
 		veradan
+		manask
+		graia
 	}
 }
 
@@ -146,6 +151,7 @@ nachmund_region = {
 
 calixis_region = {
 	areas = {
+		scintilla
 		malfi
 		drusus_marches
 		mausolea
@@ -163,6 +169,7 @@ medusan_reach_region = {
 		colchis
 		kinbriar
 		sarcosa
+		medusa
 	}
 }
 
@@ -218,6 +225,8 @@ ultima_region = {
 		damnos
 		iax
 		scourge_stars
+		talassar_planet
+		konor_planet
 	}
 }
 
@@ -269,6 +278,7 @@ prosperan_rift_region = {
 		ryza
 		mortain
 		cocholos
+		arkios
 	}
 }
 
@@ -303,6 +313,7 @@ tau_region = {
 		okassis
 		damocles_nebula
 		radnar
+		pech_planet
 	}
 }
 
@@ -323,6 +334,7 @@ reductus_region = {
 		vlax
 		bakka
 		mortant
+		bakka_planet
 	}
 }
 
@@ -344,6 +356,7 @@ yasan_region = {
 		yasan
 		zantragora
 		orestes
+		gartuli
 	}
 }
 
@@ -461,6 +474,7 @@ loki_region = {
 		dreska
 		uralek
 		erenon
+		vejovium
 	}
 }
 

@@ -453,3 +453,10 @@ XOF = "countries/Subinus.txt" #
 XOG = "countries/IronKnights.txt" #
 XOH = "countries/Absolvers.txt" #
 XOI = "countries/Damnos.txt" #
+XOJ = "countries/Ryza.txt"
+XOK = "countries/Krieg.txt"
+XOL = "countries/Graia.txt"
+XOM = "countries/ImperialTallarn.txt"
+XON = "countries/SamaelWarhost.txt"
+XOO = "countries/Sororitas.txt"
+

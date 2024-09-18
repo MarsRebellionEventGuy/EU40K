@@ -1,6 +1,6 @@
-add_core = XYG
-owner = XYG
-controller = XYG
+native_size = 5
+native_ferocity = 4
+native_hostileness = 5
 religion = tzeentch
 culture = chaos_culture
 base_tax = 1

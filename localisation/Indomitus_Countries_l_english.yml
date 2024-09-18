@@ -101,8 +101,8 @@
  XYX_ADJ:0 "Tenebrus"
  XYY:0 "Dark Sons"
  XYY_ADJ:0 "Dark Son"
- XYZ:0 "Tallarn"
- XYZ_ADJ:0 "Tallarn"
+ XYZ:0 "Drakkoth's Destroyers"
+ XYZ_ADJ:0 "Destroyer"
  XZA:0 "Blueflame Warhost"
  XZA_ADJ:0 "Blueflame"
  XZB:0 "Iybraesil"
@@ -243,9 +243,9 @@
  XBQ_ADJ:0 "Grimtoof"
  XBR:0 "Severan Dominate"
  XBR_ADJ:0 "Severan"
- XBS:0 "Scintilla"
+ XBS:0 "Scintillan Protectorate"
  XBS_ADJ:0 "Scintillan"
- XBT:0 "Malfi"
+ XBT:0 "League of Patented Nobility"
  XBT_ADJ:0 "Malfian"
  XBU:0 "Vorketh"
  XBU_ADJ:0 "Vorketh"
@@ -901,9 +901,18 @@
  XOH_ADJ:0 "Absolver"
  XOI:0 "Damnos"
  XOI_ADJ:0 "Damnosian"
-
-
-
+ XOJ:0 "Ryza"
+ XOJ_ADJ:0 "Ryzan"
+ XOK:0 "Krieg"
+ XOK_ADJ:0 "Krieg"
+ XOL:0 "Graia"
+ XOL_ADJ:0 "Graian"
+ XOM:0 "Tallarn"
+ XOM_ADJ:0 "Tallarn"
+ XON:0 "Samael Warhost"
+ XON_ADJ:0 "Samael"
+ XOO:0 "Order of Our Martyred Lady"
+ XOO_ADJ:0 "Sororitas"
 
  AAA:0 "Aeldari Empire"
  AAA_ADJ:0 "Aeldari"
@@ -933,6 +942,14 @@
  AAM_ADJ:0 "Aeldari"
  AAN:0 "Damnos" #Alsanta
  AAN_ADJ:0 "Damnosian"
+
+
+
+
+
+
+
+
 
 
 
