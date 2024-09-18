@@ -11,36 +11,6 @@ on_startup = {
 	592 = {
 		discover_country = ROOT
 	}
-	if = {
-		limit = { is_year = 1999 tag = XXA NOT = { ai = yes } }
-		hire_advisor = {
-			type = irthuhaemotalion
-			name = "Irthu Haemotalion"
-			skill = 1
-			culture = imperial_culture
-		}
-		hire_advisor = {
-			type = mereldapereth
-			name = "Merelda Pereth"
-			skill = 1
-			culture = imperial_culture
-		}
-		hire_advisor = {
-			type = avelizadrachmar
-			name = "Aveliza Drachmar"
-			skill = 1
-			culture = imperial_culture
-		}
-		add_corruption = 30
-		set_estate_privilege = estate_church_land_rights
-		set_estate_privilege = estate_nobles_land_rights
-		capital_scope = {
-			add_province_modifier = { 
-				name = terra_starting_modifier
-				duration = -1  
-			}
-		}
-	}
 	if = { 
 		limit = {
 			has_reform = astartes_reform

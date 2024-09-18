@@ -1834,10 +1834,12 @@ astartes_subject_type = {
 		other_overlord = all
 	}
 	can_ally = {
+		same_overlord = all
 		independent_nations = yes
 		other_overlord = all
 	}
 	can_marry = {
+		same_overlord = all
 		independent_nations = yes
 		other_overlord = all
 	}
@@ -1875,7 +1877,7 @@ autonomus_astartes_subject_type = {
 	manpower_to_overlord = 0.1
 	sailors_to_overlord = 0
 	military_focus = 1.0
-	base_liberty_desire = -0.1
+	base_liberty_desire = -10
 	
 	subsidize_armies = yes
 	scutage = no
@@ -1891,10 +1893,12 @@ autonomus_astartes_subject_type = {
 		other_overlord = all
 	}
 	can_ally = {
+		same_overlord = all
 		independent_nations = yes
 		other_overlord = all
 	}
 	can_marry = {
+		same_overlord = all
 		independent_nations = yes
 		other_overlord = all
 	}
@@ -1923,7 +1927,9 @@ mechanicus_subject_type = {
 	
 	can_have_subjects_of_other_types = yes
 	overlord_enforce_peace_attacking = yes	
-	can_transfer_in_peace = no	
+	can_transfer_in_peace = no
+
+	start_colonial_war = yes
 
 	takes_diplo_slot = no
 	
@@ -1957,10 +1963,12 @@ mechanicus_subject_type = {
 		other_overlord = all
 	}
 	can_ally = {
+		same_overlord = all
 		independent_nations = yes
 		other_overlord = all
 	}
 	can_marry = {
+		same_overlord = all
 		independent_nations = yes
 		other_overlord = all
 	}
@@ -2031,6 +2039,15 @@ imperial_world_subject_type = {
 	
 	relative_power_class = 1 
 	
+	can_fight = {
+		independent_nations = yes
+		other_overlord = all
+	}
+	can_rival = {
+		independent_nations = yes
+		other_overlord = all
+	}
+	
 	subsidize_armies = yes
 	scutage = no
 	send_officers = yes
@@ -2075,17 +2092,17 @@ nominal_imperial_world_subject_type = {
 		other_overlord = all
 	}
 	can_rival = {
-		same_overlord = nominal_imperial_world_subject_type
+		same_overlord = all
 		independent_nations = yes
 		other_overlord = all
 	}
 	can_ally = {
-		same_overlord = nominal_imperial_world_subject_type
+		same_overlord = all
 		independent_nations = yes
 		other_overlord = all
 	}
 	can_marry = {
-		same_overlord = nominal_imperial_world_subject_type
+		same_overlord = all
 		independent_nations = yes
 		other_overlord = all
 	}

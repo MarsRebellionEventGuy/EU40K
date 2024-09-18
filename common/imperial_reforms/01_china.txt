@@ -159,6 +159,9 @@ restore_ultramar_borders_decision = {
 				}
 			}
 		}
+		ultima_region={
+			has_discovered = PREV
+		}
 	}
 	on_effect = {
 		custom_tooltip = unlocks_ultramar_decision_tt
@@ -167,15 +170,15 @@ restore_ultramar_borders_decision = {
 curtail_astartes_autonomy_decision = {
 	empire = celestial_empire 
 	trigger = { 
-		
+		empire_of_china_num_reforms_passed = 8
 	}
 	on_effect = {
-		custom_tooltip = vassalize_imperial_worlds_decision_tt
-		set_global_flag = eoc_vassalize_tributaries
+		custom_tooltip = vassalize_astartes_decision_tt
+		set_global_flag = eoc_curtailed_astartes_autonomy
 	}
 	off_effect = {
-		custom_tooltip = vassalize_imperial_worlds_decision_ct
-		clr_global_flag = eoc_vassalize_tributaries
+		custom_tooltip = vassalize_astartes_decision_ct
+		clr_global_flag = eoc_curtailed_astartes_autonomy
 	}
 }
 
@@ -191,6 +194,8 @@ imperial_navy_decision = {
 	empire = celestial_empire
 	emperor = {
 		naval_forcelimit_modifier = 0.1
+		flagship_cost = -0.1
+		max_flagships = 1
 	}
 }
 
