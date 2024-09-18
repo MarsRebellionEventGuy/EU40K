@@ -12,7 +12,7 @@ on_startup = {
 		discover_country = ROOT
 	}
 	if = {
-		limit = { is_year = 1999 tag = XXA NOT = { ai = yes } }
+		limit = { NOT = { is_year = 2000 } tag = XXA NOT = { ai = yes } }
 		hire_advisor = {
 			type = irthuhaemotalion
 			name = "Irthu Haemotalion"
