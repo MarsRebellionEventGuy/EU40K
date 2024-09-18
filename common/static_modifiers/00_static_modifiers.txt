@@ -2444,3 +2444,22 @@ may_dynastic_influence_modifier = {
 	legitimacy = 0.25 
 	land_forcelimit = 3
 }
+
+astartes_base_modifiers = {
+	special_unit_cost_modifier = -0.2
+}
+astartes_base_overlord_modifiers = {
+	amount_of_banners = 0.05
+}
+autonomus_astartes_base_modifiers= {
+	
+}
+autonomus_astartes_base_overlord_modifiers={
+	amount_of_banners = 0.05
+}
+mechanicus_base_modifiers={
+	
+}
+mechanicus_base_overlord_modifiers={
+	global_trade_goods_size_modifier = 0.1
+}

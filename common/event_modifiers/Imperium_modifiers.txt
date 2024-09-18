@@ -1,0 +1,4 @@
+XXA_increased_ordo_machinum_overwatch = {
+	liberty_desire = 10
+	technology_cost = 0.05
+}

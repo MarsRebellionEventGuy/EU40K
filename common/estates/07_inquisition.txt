@@ -1,0 +1,72 @@
+estate_inquisition = {
+	icon = 7
+
+	# If true, country will get estate
+	trigger = {	
+		is_emperor_of_china = yes
+	}
+
+	# These scale with loyalty & power
+	country_modifier_happy = {
+	}
+	country_modifier_neutral = {
+	}	
+	country_modifier_angry = {
+	}
+	land_ownership_modifier = {
+		burghers_loyalty_modifier = 0.2
+	}
+	
+	province_independence_weight = {
+		factor = 0
+	}
+
+	# Influence modifiers
+	base_influence = 10
+	
+	influence_modifier = {
+		desc = EST_VAL_LOW_MANDATE
+		trigger = {
+			NOT = { imperial_mandate = 50 }
+		}
+		influence = 20		
+	}
+	influence_modifier = {
+		desc = EST_VAL_OTHER_ESTATE_IN_POWER
+		trigger = {
+			has_any_estate_disaster_active = yes
+			has_not_own_estate_disaster_active = { estate = estate_inquisition }
+		}
+		influence = -40
+	}
+	
+	#Loyalty Modifiers
+	loyalty_modifier = {
+		desc = EST_VAL_OTHER_ESTATE_IN_POWER_LOY
+		trigger = {
+			has_any_estate_disaster_active = yes
+			has_not_own_estate_disaster_active = { estate = estate_inquisition }
+		}
+		loyalty = -20
+	}
+	
+	#High Stability
+	loyalty_modifier = {
+		desc = EST_VAL_HIGH_STABILITY
+		trigger = { stability = 3 }
+		loyalty = 5
+	}
+
+	color = { 127 0 1 }
+
+	privileges = {
+		estate_inquisition_increase_ordo_machinum
+		estate_inquisition_increase_ordo_scriptorum
+	}
+
+	agendas = {
+		
+	}
+
+	influence_from_dev_modifier = 1.0
+}

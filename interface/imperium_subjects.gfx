@@ -1,0 +1,74 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_icon_nominal_imperial_subject_type"
+		texturefile = "gfx/interface/icon_nominal_world_subject.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_diplomacy_lead_nominal_imperial_subject_type"
+		texturefile = "gfx/interface/icon_diplomacy_lead_nominal_world.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_diplomacy_am_nominal_imperial_subject_type"
+		texturefile = "gfx/interface/icon_diplomacy_am_nominal_world.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_imperial_world_subject_type"
+		texturefile = "gfx/interface/icon_imperial_world_subject.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_diplomacy_lead_imperial_world_subject_type"
+		texturefile = "gfx/interface/icon_diplomacy_lead_imperial_world.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_diplomacy_am_imperial_world_subject_type"
+		texturefile = "gfx/interface/icon_diplomacy_am_imperial_world.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_integrated_world_subject_type"
+		texturefile = "gfx/interface/icon_integrated_imperial_world_subject.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_diplomacy_lead_integrated_world_subject_type"
+		texturefile = "gfx/interface/icon_diplomacy_lead_integrated_imperial_world.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_diplomacy_am_integrated_world_subject_type"
+		texturefile = "gfx/interface/icon_diplomacy_am_integrated_imperial_world.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_mechanicus_subject_type"
+		texturefile = "gfx/interface/icon_mechanicus_subject.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_diplomacy_lead_mechanicus_subject_type"
+		texturefile = "gfx/interface/icon_diplomacy_lead_mechanicus.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_diplomacy_am_mechanicus_subject_type"
+		texturefile = "gfx/interface/icon_diplomacy_am_mechanicus.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_autonomus_astartes_subject_type"
+		texturefile = "gfx/interface/icon_astartes_autonomus_chapter_subject.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_diplomacy_lead_autonomus_astartes_subject_type"
+		texturefile = "gfx/interface/icon_diplomacy_lead_autonomus_astartes_chapter.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_diplomacy_am_autonomus_astartes_subject_type"
+		texturefile = "gfx/interface/icon_diplomacy_am_autonomus_astartes_chapter.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_astartes_subject_type"
+		texturefile = "gfx/interface/icon_astartes_chapter_subject.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_diplomacy_lead_astartes_subject_type"
+		texturefile = "gfx/interface/icon_diplomacy_lead_astartes_chapter.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_diplomacy_am_astartes_subject_type"
+		texturefile = "gfx/interface/icon_diplomacy_am_astartes_chapter.dds"
+	}
+}

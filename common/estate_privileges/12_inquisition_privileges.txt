@@ -1,0 +1,99 @@
+estate_inquisition_independent = {
+	icon = privilege_empty_throne
+	max_absolutism = -5
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
+	influence = 0.05
+	loyalty = 0.05
+	penalties = {
+		stability_cost_modifier = 0.1
+	}
+	benefits = {
+		
+	}
+	ai_will_do = {
+		factor = 9
+		modifier = {
+			factor = 0.5
+			is_absolutism_active = yes
+		}
+		modifier = {
+			factor = 3
+			uses_meritocracy = yes
+		}
+	}
+}
+estate_inquisition_increase_ordo_machinum = {
+	icon = privilege_empty_throne
+	max_absolutism = -5
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
+	influence = 0.1
+	loyalty = 0.05
+	is_valid = {
+		XXB={
+			is_subject_of_type_with_overlord = {
+				who = ROOT
+				type = mechanicus_subject_type
+			}
+		}
+	}
+	penalties = {
+		stability_cost_modifier = 0.1
+	}
+	modifier_by_land_ownership = {
+		yearly_corruption = -0.1
+	}
+	on_granted = {
+		event_target:adeptus_mechanicus_tag={
+			add_country_modifier = { 
+				name = XXA_increased_ordo_machinum_overwatch
+				duration = -1  
+			}
+		}
+	}
+	on_invalid = {
+		event_target:adeptus_mechanicus_tag = {remove_country_modifier = XXA_increased_ordo_machinum_overwatch}
+	}
+	on_revoked = {
+		event_target:adeptus_mechanicus_tag = {remove_country_modifier = XXA_increased_ordo_machinum_overwatch}
+	}
+	ai_will_do = {
+		factor = 9
+		modifier = {
+			factor = 0.5
+			is_absolutism_active = yes
+		}
+		modifier = {
+			factor = 3
+			uses_meritocracy = yes
+		}
+	}
+}
+estate_inquisition_increase_ordo_scriptorum  = {
+	icon = privilege_empty_throne
+	max_absolutism = -5
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
+	influence = 0.1
+	loyalty = 0.05
+	penalties = {
+		eunuchs_loyalty_modifier = -0.1
+	}
+	benefits = {
+		eunuchs_influence_modifier = -0.1
+	}
+	modifier_by_land_ownership = {
+		yearly_corruption = -0.1
+	}
+	ai_will_do = {
+		factor = 9
+		modifier = {
+			factor = 0.5
+			is_absolutism_active = yes
+		}
+		modifier = {
+			factor = 3
+			uses_meritocracy = yes
+		}
+	}
+}
+
+
