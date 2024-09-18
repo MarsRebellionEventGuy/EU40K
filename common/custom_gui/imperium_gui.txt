@@ -29,7 +29,7 @@ custom_shield = {
    potential = { } #Determines when the shield is visible
    trigger = { } #Determines when the shield is clickable
    effect = { } #Effect for clicking
-   tooltip = adeptus_mechanicus_tt #Can use customizable localisation
+   tooltip = adeptus_mechanicus_label_tt #Can use customizable localisation
    global_event_target = adeptus_mechanicus_tag # Global event target name
    open_country = yes #If clicking opens the country view
 }

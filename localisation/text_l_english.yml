@@ -7666,7 +7666,7 @@
  IMPERIAL_MANDATE_GAIN_DESC:0 "Gained by:\n -Having a positive Stability.\n -Having Tributary States.\n -For each State enjoying Prosperity."
  IMPERIAL_MANDATE_LOSS_DESC:1 "Lost by:\n -Devastated provinces.\n -Corruption of the State.\n -Having loans."
  CELESTIAL_EMPEROR_BENEFIT:0 "Being the §YRegent of the Golden Throne§! gives the following benefits:\n"
- CELESTIAL_EMPEROR_BENEFIT_DESC:0 " -Bonuses from High Imperial Cohesion.\n -Uses Meritocracy Mechanics\n -Can enact Centralisation Decisions.\n -Permanent claims to Mankind.\n -Casus Belli to Unite Mankind.\n -Can Enforce Tributary on Neighbours"
+ CELESTIAL_EMPEROR_BENEFIT_DESC:0 " -Bonuses from High Imperial Cohesion.\n -Uses Meritocracy Mechanics\n -Can enact Centralisation Decisions.\n -Permanent claims to Mankind.\n -Casus Belli to Unite Mankind."
  CELESTIAL_EMPEROR_DIPLOMATIC_ACTIONS_DESC:0 "The §YRegent of the Golden Throne§! may take the following additional diplomatic actions:\n$LIST|Y$"
  CELESTIAL_EMPIRE_NO_DIPLOMATIC_ACTIONS:0 "None"
  CELESTIAL_EMPIRE_PAST_EMPERORS:0 "Previous Emperors:"

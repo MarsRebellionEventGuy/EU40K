@@ -1,0 +1,35 @@
+# Triggers will be evaluated in the scope of the Subject, with the Overlord as its FROM scope.
+XXB_allow_religious_conquests = {
+	can_upgrade_trigger = {
+		tag = event_target:adeptus_mechanicus_tag
+		colonial_parent = {
+			mil_power_cost = 100
+		}
+	}
+	
+	cost = 100
+	
+	effect = {
+		colonial_parent = {
+			mil_power_cost = 100
+		}
+		hidden_effect = {
+			set_country_flag = has_allowed_religious_conquests
+		}
+	}
+
+	removed_effect = {
+		hidden_effect = {
+			clr_country_flag = has_allowed_religious_conquests
+		}
+	}
+
+	modifier_overlord = {
+		missionaries = -1
+	}
+
+	modifier_subject = {
+		cb_on_religious_enemies = yes
+		global_missionary_strength = 0.02
+	}
+}

@@ -1,0 +1,16 @@
+trade_company_terra = {
+	color = { 50 0 200 }
+	
+	provinces = {
+		1
+	}
+	
+	# Specific
+	# Generic
+	names = {
+		name = "TRADE_COMPANY_WEST_AFRICA_Root_Culture_GetName"
+	}
+	names = {
+		name = "TRADE_COMPANY_WEST_AFRICA_Africa_Trade_Company"
+	}
+}

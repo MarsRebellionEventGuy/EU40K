@@ -1799,7 +1799,7 @@ dummy =
 
 astartes_subject_type = {
 	copy_from = vassal
-	#count = tributary_state
+	count = tributary_state
 
 	# Graphics:
 	sprite = GFX_icon_astartes_subject_type
@@ -1834,10 +1834,12 @@ astartes_subject_type = {
 		other_overlord = all
 	}
 	can_ally = {
+		same_overlord = all
 		independent_nations = yes
 		other_overlord = all
 	}
 	can_marry = {
+		same_overlord = all
 		independent_nations = yes
 		other_overlord = all
 	}
@@ -1852,7 +1854,7 @@ astartes_subject_type = {
 }
 autonomus_astartes_subject_type = {
 	copy_from = astartes_subject_type
-	#count = tributary_state
+	count = tributary_state
 
 	# Graphics:
 	sprite = GFX_icon_autonomus_astartes_subject_type
@@ -1875,7 +1877,7 @@ autonomus_astartes_subject_type = {
 	manpower_to_overlord = 0.1
 	sailors_to_overlord = 0
 	military_focus = 1.0
-	base_liberty_desire = -0.1
+	base_liberty_desire = -10
 	
 	subsidize_armies = yes
 	scutage = no
@@ -1891,10 +1893,12 @@ autonomus_astartes_subject_type = {
 		other_overlord = all
 	}
 	can_ally = {
+		same_overlord = all
 		independent_nations = yes
 		other_overlord = all
 	}
 	can_marry = {
+		same_overlord = all
 		independent_nations = yes
 		other_overlord = all
 	}
@@ -1923,7 +1927,9 @@ mechanicus_subject_type = {
 	
 	can_have_subjects_of_other_types = yes
 	overlord_enforce_peace_attacking = yes	
-	can_transfer_in_peace = no	
+	can_transfer_in_peace = no
+
+	start_colonial_war = yes
 
 	takes_diplo_slot = no
 	
@@ -1957,10 +1963,12 @@ mechanicus_subject_type = {
 		other_overlord = all
 	}
 	can_ally = {
+		same_overlord = all
 		independent_nations = yes
 		other_overlord = all
 	}
 	can_marry = {
+		same_overlord = all
 		independent_nations = yes
 		other_overlord = all
 	}
@@ -1975,7 +1983,7 @@ mechanicus_subject_type = {
 }
 integrated_world_subject_type = {
 	copy_from = vassal
-	#count = tributary_state
+	count = tributary_state
 
 	# Graphics:
 	sprite = GFX_icon_integrated_world_subject_type
@@ -1984,9 +1992,12 @@ integrated_world_subject_type = {
 
 	# Properties:
 	overlord_can_fabricate_for = yes
+	overlord_protects_external = yes
 
 	takes_diplo_slot = no
 	annex_cost_per_development = 16.0
+	
+	forcelimit_to_overlord = 0.1
 	
 	place_relative_on_throne = no
 	
@@ -2008,7 +2019,7 @@ integrated_world_subject_type = {
 }
 imperial_world_subject_type = {
 	copy_from = vassal
-	#count = tributary_state
+	count = tributary_state
 
 	# Graphics:
 	sprite = GFX_icon_imperial_world_subject_type
@@ -2018,6 +2029,7 @@ imperial_world_subject_type = {
 	# Properties:
 	extend_trading_range = yes
 	joins_overlords_wars = no
+	overlord_protects_external = yes
 	can_be_annexed = no
 
 	takes_diplo_slot = no
@@ -2030,6 +2042,17 @@ imperial_world_subject_type = {
 	pays_overlord = 0
 	
 	relative_power_class = 1 
+	
+	forcelimit_to_overlord = 0.1
+	
+	can_fight = {
+		independent_nations = yes
+		other_overlord = all
+	}
+	can_rival = {
+		independent_nations = yes
+		other_overlord = all
+	}
 	
 	subsidize_armies = yes
 	scutage = no
@@ -2067,6 +2090,8 @@ nominal_imperial_world_subject_type = {
 	can_have_great_projects_moved_by_overlord = no
 	is_voluntary = no
 	
+	forcelimit_to_overlord = 0.1
+	
 	place_relative_on_throne = no
 
 	can_fight = {
@@ -2075,17 +2100,17 @@ nominal_imperial_world_subject_type = {
 		other_overlord = all
 	}
 	can_rival = {
-		same_overlord = nominal_imperial_world_subject_type
+		same_overlord = all
 		independent_nations = yes
 		other_overlord = all
 	}
 	can_ally = {
-		same_overlord = nominal_imperial_world_subject_type
+		same_overlord = all
 		independent_nations = yes
 		other_overlord = all
 	}
 	can_marry = {
-		same_overlord = nominal_imperial_world_subject_type
+		same_overlord = all
 		independent_nations = yes
 		other_overlord = all
 	}
@@ -2093,9 +2118,9 @@ nominal_imperial_world_subject_type = {
 	modifier_overlord = clear
 	modifier_subject = clear
 	modifier_subject = {
-		modifier = soyurghal_base_modifiers
+		modifier = nominal_imperial_world_base_modifiers
 	}
 	modifier_overlord = {
-		modifier = soyurghal_base_overlord_modifiers
+		modifier = nominal_imperial_world_base_overlord_modifiers
 	}
 }

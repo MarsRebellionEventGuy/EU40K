@@ -63,14 +63,182 @@ dependency = {
 	start_date = 1000.8.20
 	end_date = 2100.8.3
 }
-#
 dependency = {
-	subject_type = "imperial_world_subject_type"
+	subject_type = "autonomus_astartes_subject_type"
 	first = XXA
-	second = XAQ
+	second = XAH
 	start_date = 1000.8.20
 	end_date = 2100.8.3
 }
+dependency = {
+	subject_type = "autonomus_astartes_subject_type"
+	first = XXA
+	second = XBE
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "autonomus_astartes_subject_type"
+	first = XXA
+	second = XLC
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "autonomus_astartes_subject_type"
+	first = XXA
+	second = XLD
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "autonomus_astartes_subject_type"
+	first = XXA
+	second = XCA
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "autonomus_astartes_subject_type"
+	first = XXA
+	second = XAF
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "autonomus_astartes_subject_type"
+	first = XXA
+	second = XAC
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "autonomus_astartes_subject_type"
+	first = XXA
+	second = XAE
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "autonomus_astartes_subject_type"
+	first = XXA
+	second = XHN
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "autonomus_astartes_subject_type"
+	first = XXA
+	second = XCG
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "autonomus_astartes_subject_type"
+	first = XXA
+	second = XFB
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "autonomus_astartes_subject_type"
+	first = XXA
+	second = XHL
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "autonomus_astartes_subject_type"
+	first = XXA
+	second = XHM
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "autonomus_astartes_subject_type"
+	first = XXA
+	second = XFY
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "autonomus_astartes_subject_type"
+	first = XXA
+	second = XAO
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "autonomus_astartes_subject_type"
+	first = XXA
+	second = XNG
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "autonomus_astartes_subject_type"
+	first = XXA
+	second = XFA
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "autonomus_astartes_subject_type"
+	first = XXA
+	second = XAJ
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "autonomus_astartes_subject_type"
+	first = XXA
+	second = XAL
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "autonomus_astartes_subject_type"
+	first = XXA
+	second = XAZ
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "autonomus_astartes_subject_type"
+	first = XXA
+	second = XDE
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "autonomus_astartes_subject_type"
+	first = XXA
+	second = XLI
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "autonomus_astartes_subject_type"
+	first = XXA
+	second = XHX
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "autonomus_astartes_subject_type"
+	first = XXA
+	second = XGA
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "autonomus_astartes_subject_type"
+	first = XXA
+	second = XDG
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+#
 dependency = {
 	subject_type = "imperial_world_subject_type"
 	first = XXA
@@ -79,6 +247,13 @@ dependency = {
 	end_date = 2100.8.3
 }
 # 
+dependency = {
+	subject_type = "nominal_imperial_world_subject_type"
+	first = XXA
+	second = XAQ
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
 dependency = {
 	subject_type = "nominal_imperial_world_subject_type"
 	first = XXA
@@ -160,6 +335,125 @@ dependency = {
 	subject_type = "nominal_imperial_world_subject_type"
 	first = XXA
 	second = XAM
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "nominal_imperial_world_subject_type"
+	first = XXA
+	second = XCH
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "nominal_imperial_world_subject_type"
+	first = XXA
+	second = XAD
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "nominal_imperial_world_subject_type"
+	first = XXA
+	second = XMU
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "nominal_imperial_world_subject_type"
+	first = XXA
+	second = XNI
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "nominal_imperial_world_subject_type"
+	first = XXA
+	second = XOD
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "nominal_imperial_world_subject_type"
+	first = XXA
+	second = XNV
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "nominal_imperial_world_subject_type"
+	first = XXA
+	second = XGH
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "nominal_imperial_world_subject_type"
+	first = XXA
+	second = XND
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "nominal_imperial_world_subject_type"
+	first = XXA
+	second = XEY
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "nominal_imperial_world_subject_type"
+	first = XXA
+	second = XNA
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "nominal_imperial_world_subject_type"
+	first = XXA
+	second = XNV
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "nominal_imperial_world_subject_type"
+	first = XXA
+	second = XHT
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "nominal_imperial_world_subject_type"
+	first = XXA
+	second = XIQ
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "nominal_imperial_world_subject_type"
+	first = XXA
+	second = XIM
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "nominal_imperial_world_subject_type"
+	first = XXA
+	second = XIN
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "nominal_imperial_world_subject_type"
+	first = XXA
+	second = XIK
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "nominal_imperial_world_subject_type"
+	first = XXA
+	second = XIL
 	start_date = 1000.8.20
 	end_date = 2100.8.3
 }
