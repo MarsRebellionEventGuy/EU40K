@@ -1,0 +1,2083 @@
+#
+has_5_forge_worlds_trigger = {
+	calc_true_if = {
+		2={	
+			owns_or_subject_of = PREV
+		}
+		180={	
+			owns_or_subject_of = PREV
+		}
+		186={	
+			owns_or_subject_of = PREV
+		}
+		200={	
+			owns_or_subject_of = PREV
+		}
+		196={	
+			owns_or_subject_of = PREV
+		}
+		192={	
+			owns_or_subject_of = PREV
+		}
+		487={	
+			owns_or_subject_of = PREV
+		}
+		1079={	
+			owns_or_subject_of = PREV
+		}
+		1094={	
+			owns_or_subject_of = PREV
+		}
+		1095={	
+			owns_or_subject_of = PREV
+		}
+		1120={	
+			owns_or_subject_of = PREV
+		}
+		1117={	
+			owns_or_subject_of = PREV
+		}
+		1114={	
+			owns_or_subject_of = PREV
+		}
+		1112={	
+			owns_or_subject_of = PREV
+		}
+		418={	
+			owns_or_subject_of = PREV
+		}
+		468={	
+			owns_or_subject_of = PREV
+		}
+		471={	
+			owns_or_subject_of = PREV
+		}
+		AND={
+			graia={	
+				owns_or_subject_of = PREV
+			}
+		}
+		456={	
+			owns_or_subject_of = PREV
+		}
+		816={	
+			owns_or_subject_of = PREV
+		}
+		812={	
+			owns_or_subject_of = PREV
+		}
+		1181={	
+			owns_or_subject_of = PREV
+		}
+		1180={	
+			owns_or_subject_of = PREV
+		}
+		452={	
+			owns_or_subject_of = PREV
+		}
+		820={	
+			owns_or_subject_of = PREV
+		}
+		443={	
+			owns_or_subject_of = PREV
+		}
+		1058={	
+			owns_or_subject_of = PREV
+		}
+		1548={	
+			owns_or_subject_of = PREV
+		}
+		AND={
+			3289={	
+				owns_or_subject_of = PREV
+			}
+			875={	
+				owns_or_subject_of = PREV
+			}
+		}
+		943={	
+			owns_or_subject_of = PREV
+		}
+		945={	
+			owns_or_subject_of = PREV
+		}
+		333={	
+			owns_or_subject_of = PREV
+		}
+		183={	
+			owns_or_subject_of = PREV
+		}
+		1076={	
+			owns_or_subject_of = PREV
+		}
+		333={	
+			owns_or_subject_of = PREV
+		}
+		AND={
+			ryza={	
+				owns_or_subject_of = PREV
+			}
+		}
+		1071={	
+			owns_or_subject_of = PREV
+		}
+		1066={	
+			owns_or_subject_of = PREV
+		}
+		1313={	
+			owns_or_subject_of = PREV
+		}
+		1671={	
+			owns_or_subject_of = PREV
+		}
+		1681={	
+			owns_or_subject_of = PREV
+		}
+		1813={	
+			owns_or_subject_of = PREV
+		}
+		1677={	
+			owns_or_subject_of = PREV
+		}
+		1806={	
+			owns_or_subject_of = PREV
+		}
+		AND={
+			dhaku={	
+				owns_or_subject_of = PREV
+			}
+		}
+		1726={	
+			owns_or_subject_of = PREV
+		}
+		1800={	
+			owns_or_subject_of = PREV
+		}
+		2010={	
+			owns_or_subject_of = PREV
+		}
+		1664={	
+			owns_or_subject_of = PREV
+		}
+		AND={
+			talassar_planet={	
+				owns_or_subject_of = PREV
+			}
+		}
+		1920={	
+			owns_or_subject_of = PREV
+		}
+		2871={	
+			owns_or_subject_of = PREV
+		}
+		2017={	
+			owns_or_subject_of = PREV
+		}
+		1902={	
+			owns_or_subject_of = PREV
+		}
+		1879={	
+			owns_or_subject_of = PREV
+		}
+		1790={	
+			owns_or_subject_of = PREV
+		}
+		2954={	
+			owns_or_subject_of = PREV
+		}
+		3093={	
+			owns_or_subject_of = PREV
+		}
+		2947={	
+			owns_or_subject_of = PREV
+		}
+		2851={	
+			owns_or_subject_of = PREV
+		}
+		2854={	
+			owns_or_subject_of = PREV
+		}
+		2025={	
+			owns_or_subject_of = PREV
+		}
+		1932={	
+			owns_or_subject_of = PREV
+		}
+		1849={	
+			owns_or_subject_of = PREV
+		}
+		1854={	
+			owns_or_subject_of = PREV
+		}
+		2028={	
+			owns_or_subject_of = PREV
+		}
+		1861={	
+			owns_or_subject_of = PREV
+		}
+		1778={	
+			owns_or_subject_of = PREV
+		}
+		1986={	
+			owns_or_subject_of = PREV
+		}
+		2978={	
+			owns_or_subject_of = PREV
+		}
+		2988={	
+			owns_or_subject_of = PREV
+		}
+		2987={	
+			owns_or_subject_of = PREV
+		}
+		2983={	
+			owns_or_subject_of = PREV
+		}
+		1656={	
+			owns_or_subject_of = PREV
+		}
+		2929={	
+			owns_or_subject_of = PREV
+		}
+		2936={	
+			owns_or_subject_of = PREV
+		}
+		3142={	
+			owns_or_subject_of = PREV
+		}
+		1909={	
+			owns_or_subject_of = PREV
+		}
+		1648={	
+			owns_or_subject_of = PREV
+		}
+		1733={	
+			owns_or_subject_of = PREV
+		}
+		3112={	
+			owns_or_subject_of = PREV
+		}
+		1745={	
+			owns_or_subject_of = PREV
+		}
+		1750={	
+			owns_or_subject_of = PREV
+		}
+		2039={	
+			owns_or_subject_of = PREV
+		}
+		2030={	
+			owns_or_subject_of = PREV
+		}
+		1748={	
+			owns_or_subject_of = PREV
+		}
+		1747={	
+			owns_or_subject_of = PREV
+		}
+		2995={	
+			owns_or_subject_of = PREV
+		}
+		1835={	
+			owns_or_subject_of = PREV
+		}
+		1831={	
+			owns_or_subject_of = PREV
+		}
+		1821={	
+			owns_or_subject_of = PREV
+		}
+		1637={	
+			owns_or_subject_of = PREV
+		}
+		1632={	
+			owns_or_subject_of = PREV
+		}
+		744={	
+			owns_or_subject_of = PREV
+		}
+		1088={	
+			owns_or_subject_of = PREV
+		}
+		755={	
+			owns_or_subject_of = PREV
+		}
+		754={	
+			owns_or_subject_of = PREV
+		}
+		981={	
+			owns_or_subject_of = PREV
+		}
+		1399={	
+			owns_or_subject_of = PREV
+		}
+		1212={	
+			owns_or_subject_of = PREV
+		}
+		1211={	
+			owns_or_subject_of = PREV
+		}
+		1230={	
+			owns_or_subject_of = PREV
+		}
+		1209={	
+			owns_or_subject_of = PREV
+		}
+		1404={	
+			owns_or_subject_of = PREV
+		}
+		2813={	
+			owns_or_subject_of = PREV
+		}
+		2815={	
+			owns_or_subject_of = PREV
+		}
+		2816={	
+			owns_or_subject_of = PREV
+		}
+		2802={	
+			owns_or_subject_of = PREV
+		}
+		2799={	
+			owns_or_subject_of = PREV
+		}
+
+
+		amount = 5
+	}
+}
+has_10_forge_worlds_trigger = {
+	calc_true_if = {
+		2={	
+			owns_or_subject_of = PREV
+		}
+		180={	
+			owns_or_subject_of = PREV
+		}
+		186={	
+			owns_or_subject_of = PREV
+		}
+		200={	
+			owns_or_subject_of = PREV
+		}
+		196={	
+			owns_or_subject_of = PREV
+		}
+		192={	
+			owns_or_subject_of = PREV
+		}
+		487={	
+			owns_or_subject_of = PREV
+		}
+		1079={	
+			owns_or_subject_of = PREV
+		}
+		1094={	
+			owns_or_subject_of = PREV
+		}
+		1095={	
+			owns_or_subject_of = PREV
+		}
+		1120={	
+			owns_or_subject_of = PREV
+		}
+		1117={	
+			owns_or_subject_of = PREV
+		}
+		1114={	
+			owns_or_subject_of = PREV
+		}
+		1112={	
+			owns_or_subject_of = PREV
+		}
+		418={	
+			owns_or_subject_of = PREV
+		}
+		468={	
+			owns_or_subject_of = PREV
+		}
+		471={	
+			owns_or_subject_of = PREV
+		}
+		AND={
+			graia={	
+				owns_or_subject_of = PREV
+			}
+		}
+		456={	
+			owns_or_subject_of = PREV
+		}
+		816={	
+			owns_or_subject_of = PREV
+		}
+		812={	
+			owns_or_subject_of = PREV
+		}
+		1181={	
+			owns_or_subject_of = PREV
+		}
+		1180={	
+			owns_or_subject_of = PREV
+		}
+		452={	
+			owns_or_subject_of = PREV
+		}
+		820={	
+			owns_or_subject_of = PREV
+		}
+		443={	
+			owns_or_subject_of = PREV
+		}
+		1058={	
+			owns_or_subject_of = PREV
+		}
+		1548={	
+			owns_or_subject_of = PREV
+		}
+		AND={
+			3289={	
+				owns_or_subject_of = PREV
+			}
+			875={	
+				owns_or_subject_of = PREV
+			}
+		}
+		943={	
+			owns_or_subject_of = PREV
+		}
+		945={	
+			owns_or_subject_of = PREV
+		}
+		333={	
+			owns_or_subject_of = PREV
+		}
+		183={	
+			owns_or_subject_of = PREV
+		}
+		1076={	
+			owns_or_subject_of = PREV
+		}
+		333={	
+			owns_or_subject_of = PREV
+		}
+		AND={
+			ryza={	
+				owns_or_subject_of = PREV
+			}
+		}
+		1071={	
+			owns_or_subject_of = PREV
+		}
+		1066={	
+			owns_or_subject_of = PREV
+		}
+		1313={	
+			owns_or_subject_of = PREV
+		}
+		1671={	
+			owns_or_subject_of = PREV
+		}
+		1681={	
+			owns_or_subject_of = PREV
+		}
+		1813={	
+			owns_or_subject_of = PREV
+		}
+		1677={	
+			owns_or_subject_of = PREV
+		}
+		1806={	
+			owns_or_subject_of = PREV
+		}
+		AND={
+			dhaku={	
+				owns_or_subject_of = PREV
+			}
+		}
+		1726={	
+			owns_or_subject_of = PREV
+		}
+		1800={	
+			owns_or_subject_of = PREV
+		}
+		2010={	
+			owns_or_subject_of = PREV
+		}
+		1664={	
+			owns_or_subject_of = PREV
+		}
+		AND={
+			talassar_planet={	
+				owns_or_subject_of = PREV
+			}
+		}
+		1920={	
+			owns_or_subject_of = PREV
+		}
+		2871={	
+			owns_or_subject_of = PREV
+		}
+		2017={	
+			owns_or_subject_of = PREV
+		}
+		1902={	
+			owns_or_subject_of = PREV
+		}
+		1879={	
+			owns_or_subject_of = PREV
+		}
+		1790={	
+			owns_or_subject_of = PREV
+		}
+		2954={	
+			owns_or_subject_of = PREV
+		}
+		3093={	
+			owns_or_subject_of = PREV
+		}
+		2947={	
+			owns_or_subject_of = PREV
+		}
+		2851={	
+			owns_or_subject_of = PREV
+		}
+		2854={	
+			owns_or_subject_of = PREV
+		}
+		2025={	
+			owns_or_subject_of = PREV
+		}
+		1932={	
+			owns_or_subject_of = PREV
+		}
+		1849={	
+			owns_or_subject_of = PREV
+		}
+		1854={	
+			owns_or_subject_of = PREV
+		}
+		2028={	
+			owns_or_subject_of = PREV
+		}
+		1861={	
+			owns_or_subject_of = PREV
+		}
+		1778={	
+			owns_or_subject_of = PREV
+		}
+		1986={	
+			owns_or_subject_of = PREV
+		}
+		2978={	
+			owns_or_subject_of = PREV
+		}
+		2988={	
+			owns_or_subject_of = PREV
+		}
+		2987={	
+			owns_or_subject_of = PREV
+		}
+		2983={	
+			owns_or_subject_of = PREV
+		}
+		1656={	
+			owns_or_subject_of = PREV
+		}
+		2929={	
+			owns_or_subject_of = PREV
+		}
+		2936={	
+			owns_or_subject_of = PREV
+		}
+		3142={	
+			owns_or_subject_of = PREV
+		}
+		1909={	
+			owns_or_subject_of = PREV
+		}
+		1648={	
+			owns_or_subject_of = PREV
+		}
+		1733={	
+			owns_or_subject_of = PREV
+		}
+		3112={	
+			owns_or_subject_of = PREV
+		}
+		1745={	
+			owns_or_subject_of = PREV
+		}
+		1750={	
+			owns_or_subject_of = PREV
+		}
+		2039={	
+			owns_or_subject_of = PREV
+		}
+		2030={	
+			owns_or_subject_of = PREV
+		}
+		1748={	
+			owns_or_subject_of = PREV
+		}
+		1747={	
+			owns_or_subject_of = PREV
+		}
+		2995={	
+			owns_or_subject_of = PREV
+		}
+		1835={	
+			owns_or_subject_of = PREV
+		}
+		1831={	
+			owns_or_subject_of = PREV
+		}
+		1821={	
+			owns_or_subject_of = PREV
+		}
+		1637={	
+			owns_or_subject_of = PREV
+		}
+		1632={	
+			owns_or_subject_of = PREV
+		}
+		744={	
+			owns_or_subject_of = PREV
+		}
+		1088={	
+			owns_or_subject_of = PREV
+		}
+		755={	
+			owns_or_subject_of = PREV
+		}
+		754={	
+			owns_or_subject_of = PREV
+		}
+		981={	
+			owns_or_subject_of = PREV
+		}
+		1399={	
+			owns_or_subject_of = PREV
+		}
+		1212={	
+			owns_or_subject_of = PREV
+		}
+		1211={	
+			owns_or_subject_of = PREV
+		}
+		1230={	
+			owns_or_subject_of = PREV
+		}
+		1209={	
+			owns_or_subject_of = PREV
+		}
+		1404={	
+			owns_or_subject_of = PREV
+		}
+		2813={	
+			owns_or_subject_of = PREV
+		}
+		2815={	
+			owns_or_subject_of = PREV
+		}
+		2816={	
+			owns_or_subject_of = PREV
+		}
+		2802={	
+			owns_or_subject_of = PREV
+		}
+		2799={	
+			owns_or_subject_of = PREV
+		}
+
+
+		amount = 10
+	}
+}
+has_25_forge_worlds_trigger = {
+	calc_true_if = {
+		2={	
+			owns_or_subject_of = PREV
+		}
+		180={	
+			owns_or_subject_of = PREV
+		}
+		186={	
+			owns_or_subject_of = PREV
+		}
+		200={	
+			owns_or_subject_of = PREV
+		}
+		196={	
+			owns_or_subject_of = PREV
+		}
+		192={	
+			owns_or_subject_of = PREV
+		}
+		487={	
+			owns_or_subject_of = PREV
+		}
+		1079={	
+			owns_or_subject_of = PREV
+		}
+		1094={	
+			owns_or_subject_of = PREV
+		}
+		1095={	
+			owns_or_subject_of = PREV
+		}
+		1120={	
+			owns_or_subject_of = PREV
+		}
+		1117={	
+			owns_or_subject_of = PREV
+		}
+		1114={	
+			owns_or_subject_of = PREV
+		}
+		1112={	
+			owns_or_subject_of = PREV
+		}
+		418={	
+			owns_or_subject_of = PREV
+		}
+		468={	
+			owns_or_subject_of = PREV
+		}
+		471={	
+			owns_or_subject_of = PREV
+		}
+		AND={
+			graia={	
+				owns_or_subject_of = PREV
+			}
+		}
+		456={	
+			owns_or_subject_of = PREV
+		}
+		816={	
+			owns_or_subject_of = PREV
+		}
+		812={	
+			owns_or_subject_of = PREV
+		}
+		1181={	
+			owns_or_subject_of = PREV
+		}
+		1180={	
+			owns_or_subject_of = PREV
+		}
+		452={	
+			owns_or_subject_of = PREV
+		}
+		820={	
+			owns_or_subject_of = PREV
+		}
+		443={	
+			owns_or_subject_of = PREV
+		}
+		1058={	
+			owns_or_subject_of = PREV
+		}
+		1548={	
+			owns_or_subject_of = PREV
+		}
+		AND={
+			3289={	
+				owns_or_subject_of = PREV
+			}
+			875={	
+				owns_or_subject_of = PREV
+			}
+		}
+		943={	
+			owns_or_subject_of = PREV
+		}
+		945={	
+			owns_or_subject_of = PREV
+		}
+		333={	
+			owns_or_subject_of = PREV
+		}
+		183={	
+			owns_or_subject_of = PREV
+		}
+		1076={	
+			owns_or_subject_of = PREV
+		}
+		333={	
+			owns_or_subject_of = PREV
+		}
+		AND={
+			ryza={	
+				owns_or_subject_of = PREV
+			}
+		}
+		1071={	
+			owns_or_subject_of = PREV
+		}
+		1066={	
+			owns_or_subject_of = PREV
+		}
+		1313={	
+			owns_or_subject_of = PREV
+		}
+		1671={	
+			owns_or_subject_of = PREV
+		}
+		1681={	
+			owns_or_subject_of = PREV
+		}
+		1813={	
+			owns_or_subject_of = PREV
+		}
+		1677={	
+			owns_or_subject_of = PREV
+		}
+		1806={	
+			owns_or_subject_of = PREV
+		}
+		AND={
+			dhaku={	
+				owns_or_subject_of = PREV
+			}
+		}
+		1726={	
+			owns_or_subject_of = PREV
+		}
+		1800={	
+			owns_or_subject_of = PREV
+		}
+		2010={	
+			owns_or_subject_of = PREV
+		}
+		1664={	
+			owns_or_subject_of = PREV
+		}
+		AND={
+			talassar_planet={	
+				owns_or_subject_of = PREV
+			}
+		}
+		1920={	
+			owns_or_subject_of = PREV
+		}
+		2871={	
+			owns_or_subject_of = PREV
+		}
+		2017={	
+			owns_or_subject_of = PREV
+		}
+		1902={	
+			owns_or_subject_of = PREV
+		}
+		1879={	
+			owns_or_subject_of = PREV
+		}
+		1790={	
+			owns_or_subject_of = PREV
+		}
+		2954={	
+			owns_or_subject_of = PREV
+		}
+		3093={	
+			owns_or_subject_of = PREV
+		}
+		2947={	
+			owns_or_subject_of = PREV
+		}
+		2851={	
+			owns_or_subject_of = PREV
+		}
+		2854={	
+			owns_or_subject_of = PREV
+		}
+		2025={	
+			owns_or_subject_of = PREV
+		}
+		1932={	
+			owns_or_subject_of = PREV
+		}
+		1849={	
+			owns_or_subject_of = PREV
+		}
+		1854={	
+			owns_or_subject_of = PREV
+		}
+		2028={	
+			owns_or_subject_of = PREV
+		}
+		1861={	
+			owns_or_subject_of = PREV
+		}
+		1778={	
+			owns_or_subject_of = PREV
+		}
+		1986={	
+			owns_or_subject_of = PREV
+		}
+		2978={	
+			owns_or_subject_of = PREV
+		}
+		2988={	
+			owns_or_subject_of = PREV
+		}
+		2987={	
+			owns_or_subject_of = PREV
+		}
+		2983={	
+			owns_or_subject_of = PREV
+		}
+		1656={	
+			owns_or_subject_of = PREV
+		}
+		2929={	
+			owns_or_subject_of = PREV
+		}
+		2936={	
+			owns_or_subject_of = PREV
+		}
+		3142={	
+			owns_or_subject_of = PREV
+		}
+		1909={	
+			owns_or_subject_of = PREV
+		}
+		1648={	
+			owns_or_subject_of = PREV
+		}
+		1733={	
+			owns_or_subject_of = PREV
+		}
+		3112={	
+			owns_or_subject_of = PREV
+		}
+		1745={	
+			owns_or_subject_of = PREV
+		}
+		1750={	
+			owns_or_subject_of = PREV
+		}
+		2039={	
+			owns_or_subject_of = PREV
+		}
+		2030={	
+			owns_or_subject_of = PREV
+		}
+		1748={	
+			owns_or_subject_of = PREV
+		}
+		1747={	
+			owns_or_subject_of = PREV
+		}
+		2995={	
+			owns_or_subject_of = PREV
+		}
+		1835={	
+			owns_or_subject_of = PREV
+		}
+		1831={	
+			owns_or_subject_of = PREV
+		}
+		1821={	
+			owns_or_subject_of = PREV
+		}
+		1637={	
+			owns_or_subject_of = PREV
+		}
+		1632={	
+			owns_or_subject_of = PREV
+		}
+		744={	
+			owns_or_subject_of = PREV
+		}
+		1088={	
+			owns_or_subject_of = PREV
+		}
+		755={	
+			owns_or_subject_of = PREV
+		}
+		754={	
+			owns_or_subject_of = PREV
+		}
+		981={	
+			owns_or_subject_of = PREV
+		}
+		1399={	
+			owns_or_subject_of = PREV
+		}
+		1212={	
+			owns_or_subject_of = PREV
+		}
+		1211={	
+			owns_or_subject_of = PREV
+		}
+		1230={	
+			owns_or_subject_of = PREV
+		}
+		1209={	
+			owns_or_subject_of = PREV
+		}
+		1404={	
+			owns_or_subject_of = PREV
+		}
+		2813={	
+			owns_or_subject_of = PREV
+		}
+		2815={	
+			owns_or_subject_of = PREV
+		}
+		2816={	
+			owns_or_subject_of = PREV
+		}
+		2802={	
+			owns_or_subject_of = PREV
+		}
+		2799={	
+			owns_or_subject_of = PREV
+		}
+
+
+		amount = 25
+	}
+}
+has_50_forge_worlds_trigger = {
+	calc_true_if = {
+		2={	
+			owns_or_subject_of = PREV
+		}
+		180={	
+			owns_or_subject_of = PREV
+		}
+		186={	
+			owns_or_subject_of = PREV
+		}
+		200={	
+			owns_or_subject_of = PREV
+		}
+		196={	
+			owns_or_subject_of = PREV
+		}
+		192={	
+			owns_or_subject_of = PREV
+		}
+		487={	
+			owns_or_subject_of = PREV
+		}
+		1079={	
+			owns_or_subject_of = PREV
+		}
+		1094={	
+			owns_or_subject_of = PREV
+		}
+		1095={	
+			owns_or_subject_of = PREV
+		}
+		1120={	
+			owns_or_subject_of = PREV
+		}
+		1117={	
+			owns_or_subject_of = PREV
+		}
+		1114={	
+			owns_or_subject_of = PREV
+		}
+		1112={	
+			owns_or_subject_of = PREV
+		}
+		418={	
+			owns_or_subject_of = PREV
+		}
+		468={	
+			owns_or_subject_of = PREV
+		}
+		471={	
+			owns_or_subject_of = PREV
+		}
+		AND={
+			graia={	
+				owns_or_subject_of = PREV
+			}
+		}
+		456={	
+			owns_or_subject_of = PREV
+		}
+		816={	
+			owns_or_subject_of = PREV
+		}
+		812={	
+			owns_or_subject_of = PREV
+		}
+		1181={	
+			owns_or_subject_of = PREV
+		}
+		1180={	
+			owns_or_subject_of = PREV
+		}
+		452={	
+			owns_or_subject_of = PREV
+		}
+		820={	
+			owns_or_subject_of = PREV
+		}
+		443={	
+			owns_or_subject_of = PREV
+		}
+		1058={	
+			owns_or_subject_of = PREV
+		}
+		1548={	
+			owns_or_subject_of = PREV
+		}
+		AND={
+			3289={	
+				owns_or_subject_of = PREV
+			}
+			875={	
+				owns_or_subject_of = PREV
+			}
+		}
+		943={	
+			owns_or_subject_of = PREV
+		}
+		945={	
+			owns_or_subject_of = PREV
+		}
+		333={	
+			owns_or_subject_of = PREV
+		}
+		183={	
+			owns_or_subject_of = PREV
+		}
+		1076={	
+			owns_or_subject_of = PREV
+		}
+		333={	
+			owns_or_subject_of = PREV
+		}
+		AND={
+			ryza={	
+				owns_or_subject_of = PREV
+			}
+		}
+		1071={	
+			owns_or_subject_of = PREV
+		}
+		1066={	
+			owns_or_subject_of = PREV
+		}
+		1313={	
+			owns_or_subject_of = PREV
+		}
+		1671={	
+			owns_or_subject_of = PREV
+		}
+		1681={	
+			owns_or_subject_of = PREV
+		}
+		1813={	
+			owns_or_subject_of = PREV
+		}
+		1677={	
+			owns_or_subject_of = PREV
+		}
+		1806={	
+			owns_or_subject_of = PREV
+		}
+		AND={
+			dhaku={	
+				owns_or_subject_of = PREV
+			}
+		}
+		1726={	
+			owns_or_subject_of = PREV
+		}
+		1800={	
+			owns_or_subject_of = PREV
+		}
+		2010={	
+			owns_or_subject_of = PREV
+		}
+		1664={	
+			owns_or_subject_of = PREV
+		}
+		AND={
+			talassar_planet={	
+				owns_or_subject_of = PREV
+			}
+		}
+		1920={	
+			owns_or_subject_of = PREV
+		}
+		2871={	
+			owns_or_subject_of = PREV
+		}
+		2017={	
+			owns_or_subject_of = PREV
+		}
+		1902={	
+			owns_or_subject_of = PREV
+		}
+		1879={	
+			owns_or_subject_of = PREV
+		}
+		1790={	
+			owns_or_subject_of = PREV
+		}
+		2954={	
+			owns_or_subject_of = PREV
+		}
+		3093={	
+			owns_or_subject_of = PREV
+		}
+		2947={	
+			owns_or_subject_of = PREV
+		}
+		2851={	
+			owns_or_subject_of = PREV
+		}
+		2854={	
+			owns_or_subject_of = PREV
+		}
+		2025={	
+			owns_or_subject_of = PREV
+		}
+		1932={	
+			owns_or_subject_of = PREV
+		}
+		1849={	
+			owns_or_subject_of = PREV
+		}
+		1854={	
+			owns_or_subject_of = PREV
+		}
+		2028={	
+			owns_or_subject_of = PREV
+		}
+		1861={	
+			owns_or_subject_of = PREV
+		}
+		1778={	
+			owns_or_subject_of = PREV
+		}
+		1986={	
+			owns_or_subject_of = PREV
+		}
+		2978={	
+			owns_or_subject_of = PREV
+		}
+		2988={	
+			owns_or_subject_of = PREV
+		}
+		2987={	
+			owns_or_subject_of = PREV
+		}
+		2983={	
+			owns_or_subject_of = PREV
+		}
+		1656={	
+			owns_or_subject_of = PREV
+		}
+		2929={	
+			owns_or_subject_of = PREV
+		}
+		2936={	
+			owns_or_subject_of = PREV
+		}
+		3142={	
+			owns_or_subject_of = PREV
+		}
+		1909={	
+			owns_or_subject_of = PREV
+		}
+		1648={	
+			owns_or_subject_of = PREV
+		}
+		1733={	
+			owns_or_subject_of = PREV
+		}
+		3112={	
+			owns_or_subject_of = PREV
+		}
+		1745={	
+			owns_or_subject_of = PREV
+		}
+		1750={	
+			owns_or_subject_of = PREV
+		}
+		2039={	
+			owns_or_subject_of = PREV
+		}
+		2030={	
+			owns_or_subject_of = PREV
+		}
+		1748={	
+			owns_or_subject_of = PREV
+		}
+		1747={	
+			owns_or_subject_of = PREV
+		}
+		2995={	
+			owns_or_subject_of = PREV
+		}
+		1835={	
+			owns_or_subject_of = PREV
+		}
+		1831={	
+			owns_or_subject_of = PREV
+		}
+		1821={	
+			owns_or_subject_of = PREV
+		}
+		1637={	
+			owns_or_subject_of = PREV
+		}
+		1632={	
+			owns_or_subject_of = PREV
+		}
+		744={	
+			owns_or_subject_of = PREV
+		}
+		1088={	
+			owns_or_subject_of = PREV
+		}
+		755={	
+			owns_or_subject_of = PREV
+		}
+		754={	
+			owns_or_subject_of = PREV
+		}
+		981={	
+			owns_or_subject_of = PREV
+		}
+		1399={	
+			owns_or_subject_of = PREV
+		}
+		1212={	
+			owns_or_subject_of = PREV
+		}
+		1211={	
+			owns_or_subject_of = PREV
+		}
+		1230={	
+			owns_or_subject_of = PREV
+		}
+		1209={	
+			owns_or_subject_of = PREV
+		}
+		1404={	
+			owns_or_subject_of = PREV
+		}
+		2813={	
+			owns_or_subject_of = PREV
+		}
+		2815={	
+			owns_or_subject_of = PREV
+		}
+		2816={	
+			owns_or_subject_of = PREV
+		}
+		2802={	
+			owns_or_subject_of = PREV
+		}
+		2799={	
+			owns_or_subject_of = PREV
+		}
+
+
+		amount = 50
+	}
+}
+has_75_forge_worlds_trigger = {
+	calc_true_if = {
+		2={	
+			owns_or_subject_of = PREV
+		}
+		180={	
+			owns_or_subject_of = PREV
+		}
+		186={	
+			owns_or_subject_of = PREV
+		}
+		200={	
+			owns_or_subject_of = PREV
+		}
+		196={	
+			owns_or_subject_of = PREV
+		}
+		192={	
+			owns_or_subject_of = PREV
+		}
+		487={	
+			owns_or_subject_of = PREV
+		}
+		1079={	
+			owns_or_subject_of = PREV
+		}
+		1094={	
+			owns_or_subject_of = PREV
+		}
+		1095={	
+			owns_or_subject_of = PREV
+		}
+		1120={	
+			owns_or_subject_of = PREV
+		}
+		1117={	
+			owns_or_subject_of = PREV
+		}
+		1114={	
+			owns_or_subject_of = PREV
+		}
+		1112={	
+			owns_or_subject_of = PREV
+		}
+		418={	
+			owns_or_subject_of = PREV
+		}
+		468={	
+			owns_or_subject_of = PREV
+		}
+		471={	
+			owns_or_subject_of = PREV
+		}
+		AND={
+			graia={	
+				owns_or_subject_of = PREV
+			}
+		}
+		456={	
+			owns_or_subject_of = PREV
+		}
+		816={	
+			owns_or_subject_of = PREV
+		}
+		812={	
+			owns_or_subject_of = PREV
+		}
+		1181={	
+			owns_or_subject_of = PREV
+		}
+		1180={	
+			owns_or_subject_of = PREV
+		}
+		452={	
+			owns_or_subject_of = PREV
+		}
+		820={	
+			owns_or_subject_of = PREV
+		}
+		443={	
+			owns_or_subject_of = PREV
+		}
+		1058={	
+			owns_or_subject_of = PREV
+		}
+		1548={	
+			owns_or_subject_of = PREV
+		}
+		AND={
+			3289={	
+				owns_or_subject_of = PREV
+			}
+			875={	
+				owns_or_subject_of = PREV
+			}
+		}
+		943={	
+			owns_or_subject_of = PREV
+		}
+		945={	
+			owns_or_subject_of = PREV
+		}
+		333={	
+			owns_or_subject_of = PREV
+		}
+		183={	
+			owns_or_subject_of = PREV
+		}
+		1076={	
+			owns_or_subject_of = PREV
+		}
+		333={	
+			owns_or_subject_of = PREV
+		}
+		AND={
+			ryza={	
+				owns_or_subject_of = PREV
+			}
+		}
+		1071={	
+			owns_or_subject_of = PREV
+		}
+		1066={	
+			owns_or_subject_of = PREV
+		}
+		1313={	
+			owns_or_subject_of = PREV
+		}
+		1671={	
+			owns_or_subject_of = PREV
+		}
+		1681={	
+			owns_or_subject_of = PREV
+		}
+		1813={	
+			owns_or_subject_of = PREV
+		}
+		1677={	
+			owns_or_subject_of = PREV
+		}
+		1806={	
+			owns_or_subject_of = PREV
+		}
+		AND={
+			dhaku={	
+				owns_or_subject_of = PREV
+			}
+		}
+		1726={	
+			owns_or_subject_of = PREV
+		}
+		1800={	
+			owns_or_subject_of = PREV
+		}
+		2010={	
+			owns_or_subject_of = PREV
+		}
+		1664={	
+			owns_or_subject_of = PREV
+		}
+		AND={
+			talassar_planet={	
+				owns_or_subject_of = PREV
+			}
+		}
+		1920={	
+			owns_or_subject_of = PREV
+		}
+		2871={	
+			owns_or_subject_of = PREV
+		}
+		2017={	
+			owns_or_subject_of = PREV
+		}
+		1902={	
+			owns_or_subject_of = PREV
+		}
+		1879={	
+			owns_or_subject_of = PREV
+		}
+		1790={	
+			owns_or_subject_of = PREV
+		}
+		2954={	
+			owns_or_subject_of = PREV
+		}
+		3093={	
+			owns_or_subject_of = PREV
+		}
+		2947={	
+			owns_or_subject_of = PREV
+		}
+		2851={	
+			owns_or_subject_of = PREV
+		}
+		2854={	
+			owns_or_subject_of = PREV
+		}
+		2025={	
+			owns_or_subject_of = PREV
+		}
+		1932={	
+			owns_or_subject_of = PREV
+		}
+		1849={	
+			owns_or_subject_of = PREV
+		}
+		1854={	
+			owns_or_subject_of = PREV
+		}
+		2028={	
+			owns_or_subject_of = PREV
+		}
+		1861={	
+			owns_or_subject_of = PREV
+		}
+		1778={	
+			owns_or_subject_of = PREV
+		}
+		1986={	
+			owns_or_subject_of = PREV
+		}
+		2978={	
+			owns_or_subject_of = PREV
+		}
+		2988={	
+			owns_or_subject_of = PREV
+		}
+		2987={	
+			owns_or_subject_of = PREV
+		}
+		2983={	
+			owns_or_subject_of = PREV
+		}
+		1656={	
+			owns_or_subject_of = PREV
+		}
+		2929={	
+			owns_or_subject_of = PREV
+		}
+		2936={	
+			owns_or_subject_of = PREV
+		}
+		3142={	
+			owns_or_subject_of = PREV
+		}
+		1909={	
+			owns_or_subject_of = PREV
+		}
+		1648={	
+			owns_or_subject_of = PREV
+		}
+		1733={	
+			owns_or_subject_of = PREV
+		}
+		3112={	
+			owns_or_subject_of = PREV
+		}
+		1745={	
+			owns_or_subject_of = PREV
+		}
+		1750={	
+			owns_or_subject_of = PREV
+		}
+		2039={	
+			owns_or_subject_of = PREV
+		}
+		2030={	
+			owns_or_subject_of = PREV
+		}
+		1748={	
+			owns_or_subject_of = PREV
+		}
+		1747={	
+			owns_or_subject_of = PREV
+		}
+		2995={	
+			owns_or_subject_of = PREV
+		}
+		1835={	
+			owns_or_subject_of = PREV
+		}
+		1831={	
+			owns_or_subject_of = PREV
+		}
+		1821={	
+			owns_or_subject_of = PREV
+		}
+		1637={	
+			owns_or_subject_of = PREV
+		}
+		1632={	
+			owns_or_subject_of = PREV
+		}
+		744={	
+			owns_or_subject_of = PREV
+		}
+		1088={	
+			owns_or_subject_of = PREV
+		}
+		755={	
+			owns_or_subject_of = PREV
+		}
+		754={	
+			owns_or_subject_of = PREV
+		}
+		981={	
+			owns_or_subject_of = PREV
+		}
+		1399={	
+			owns_or_subject_of = PREV
+		}
+		1212={	
+			owns_or_subject_of = PREV
+		}
+		1211={	
+			owns_or_subject_of = PREV
+		}
+		1230={	
+			owns_or_subject_of = PREV
+		}
+		1209={	
+			owns_or_subject_of = PREV
+		}
+		1404={	
+			owns_or_subject_of = PREV
+		}
+		2813={	
+			owns_or_subject_of = PREV
+		}
+		2815={	
+			owns_or_subject_of = PREV
+		}
+		2816={	
+			owns_or_subject_of = PREV
+		}
+		2802={	
+			owns_or_subject_of = PREV
+		}
+		2799={	
+			owns_or_subject_of = PREV
+		}
+
+
+		amount = 75
+	}
+}
+has_100_forge_worlds_trigger = {
+	calc_true_if = {
+		2={	
+			owns_or_subject_of = PREV
+		}
+		180={	
+			owns_or_subject_of = PREV
+		}
+		186={	
+			owns_or_subject_of = PREV
+		}
+		200={	
+			owns_or_subject_of = PREV
+		}
+		196={	
+			owns_or_subject_of = PREV
+		}
+		192={	
+			owns_or_subject_of = PREV
+		}
+		487={	
+			owns_or_subject_of = PREV
+		}
+		1079={	
+			owns_or_subject_of = PREV
+		}
+		1094={	
+			owns_or_subject_of = PREV
+		}
+		1095={	
+			owns_or_subject_of = PREV
+		}
+		1120={	
+			owns_or_subject_of = PREV
+		}
+		1117={	
+			owns_or_subject_of = PREV
+		}
+		1114={	
+			owns_or_subject_of = PREV
+		}
+		1112={	
+			owns_or_subject_of = PREV
+		}
+		418={	
+			owns_or_subject_of = PREV
+		}
+		468={	
+			owns_or_subject_of = PREV
+		}
+		471={	
+			owns_or_subject_of = PREV
+		}
+		AND={
+			graia={	
+				owns_or_subject_of = PREV
+			}
+		}
+		456={	
+			owns_or_subject_of = PREV
+		}
+		816={	
+			owns_or_subject_of = PREV
+		}
+		812={	
+			owns_or_subject_of = PREV
+		}
+		1181={	
+			owns_or_subject_of = PREV
+		}
+		1180={	
+			owns_or_subject_of = PREV
+		}
+		452={	
+			owns_or_subject_of = PREV
+		}
+		820={	
+			owns_or_subject_of = PREV
+		}
+		443={	
+			owns_or_subject_of = PREV
+		}
+		1058={	
+			owns_or_subject_of = PREV
+		}
+		1548={	
+			owns_or_subject_of = PREV
+		}
+		AND={
+			3289={	
+				owns_or_subject_of = PREV
+			}
+			875={	
+				owns_or_subject_of = PREV
+			}
+		}
+		943={	
+			owns_or_subject_of = PREV
+		}
+		945={	
+			owns_or_subject_of = PREV
+		}
+		333={	
+			owns_or_subject_of = PREV
+		}
+		183={	
+			owns_or_subject_of = PREV
+		}
+		1076={	
+			owns_or_subject_of = PREV
+		}
+		333={	
+			owns_or_subject_of = PREV
+		}
+		AND={
+			ryza={	
+				owns_or_subject_of = PREV
+			}
+		}
+		1071={	
+			owns_or_subject_of = PREV
+		}
+		1066={	
+			owns_or_subject_of = PREV
+		}
+		1313={	
+			owns_or_subject_of = PREV
+		}
+		1671={	
+			owns_or_subject_of = PREV
+		}
+		1681={	
+			owns_or_subject_of = PREV
+		}
+		1813={	
+			owns_or_subject_of = PREV
+		}
+		1677={	
+			owns_or_subject_of = PREV
+		}
+		1806={	
+			owns_or_subject_of = PREV
+		}
+		AND={
+			dhaku={	
+				owns_or_subject_of = PREV
+			}
+		}
+		1726={	
+			owns_or_subject_of = PREV
+		}
+		1800={	
+			owns_or_subject_of = PREV
+		}
+		2010={	
+			owns_or_subject_of = PREV
+		}
+		1664={	
+			owns_or_subject_of = PREV
+		}
+		AND={
+			talassar_planet={	
+				owns_or_subject_of = PREV
+			}
+		}
+		1920={	
+			owns_or_subject_of = PREV
+		}
+		2871={	
+			owns_or_subject_of = PREV
+		}
+		2017={	
+			owns_or_subject_of = PREV
+		}
+		1902={	
+			owns_or_subject_of = PREV
+		}
+		1879={	
+			owns_or_subject_of = PREV
+		}
+		1790={	
+			owns_or_subject_of = PREV
+		}
+		2954={	
+			owns_or_subject_of = PREV
+		}
+		3093={	
+			owns_or_subject_of = PREV
+		}
+		2947={	
+			owns_or_subject_of = PREV
+		}
+		2851={	
+			owns_or_subject_of = PREV
+		}
+		2854={	
+			owns_or_subject_of = PREV
+		}
+		2025={	
+			owns_or_subject_of = PREV
+		}
+		1932={	
+			owns_or_subject_of = PREV
+		}
+		1849={	
+			owns_or_subject_of = PREV
+		}
+		1854={	
+			owns_or_subject_of = PREV
+		}
+		2028={	
+			owns_or_subject_of = PREV
+		}
+		1861={	
+			owns_or_subject_of = PREV
+		}
+		1778={	
+			owns_or_subject_of = PREV
+		}
+		1986={	
+			owns_or_subject_of = PREV
+		}
+		2978={	
+			owns_or_subject_of = PREV
+		}
+		2988={	
+			owns_or_subject_of = PREV
+		}
+		2987={	
+			owns_or_subject_of = PREV
+		}
+		2983={	
+			owns_or_subject_of = PREV
+		}
+		1656={	
+			owns_or_subject_of = PREV
+		}
+		2929={	
+			owns_or_subject_of = PREV
+		}
+		2936={	
+			owns_or_subject_of = PREV
+		}
+		3142={	
+			owns_or_subject_of = PREV
+		}
+		1909={	
+			owns_or_subject_of = PREV
+		}
+		1648={	
+			owns_or_subject_of = PREV
+		}
+		1733={	
+			owns_or_subject_of = PREV
+		}
+		3112={	
+			owns_or_subject_of = PREV
+		}
+		1745={	
+			owns_or_subject_of = PREV
+		}
+		1750={	
+			owns_or_subject_of = PREV
+		}
+		2039={	
+			owns_or_subject_of = PREV
+		}
+		2030={	
+			owns_or_subject_of = PREV
+		}
+		1748={	
+			owns_or_subject_of = PREV
+		}
+		1747={	
+			owns_or_subject_of = PREV
+		}
+		2995={	
+			owns_or_subject_of = PREV
+		}
+		1835={	
+			owns_or_subject_of = PREV
+		}
+		1831={	
+			owns_or_subject_of = PREV
+		}
+		1821={	
+			owns_or_subject_of = PREV
+		}
+		1637={	
+			owns_or_subject_of = PREV
+		}
+		1632={	
+			owns_or_subject_of = PREV
+		}
+		744={	
+			owns_or_subject_of = PREV
+		}
+		1088={	
+			owns_or_subject_of = PREV
+		}
+		755={	
+			owns_or_subject_of = PREV
+		}
+		754={	
+			owns_or_subject_of = PREV
+		}
+		981={	
+			owns_or_subject_of = PREV
+		}
+		1399={	
+			owns_or_subject_of = PREV
+		}
+		1212={	
+			owns_or_subject_of = PREV
+		}
+		1211={	
+			owns_or_subject_of = PREV
+		}
+		1230={	
+			owns_or_subject_of = PREV
+		}
+		1209={	
+			owns_or_subject_of = PREV
+		}
+		1404={	
+			owns_or_subject_of = PREV
+		}
+		2813={	
+			owns_or_subject_of = PREV
+		}
+		2815={	
+			owns_or_subject_of = PREV
+		}
+		2816={	
+			owns_or_subject_of = PREV
+		}
+		2802={	
+			owns_or_subject_of = PREV
+		}
+		2799={	
+			owns_or_subject_of = PREV
+		}
+
+
+		amount = 100
+	}
+}

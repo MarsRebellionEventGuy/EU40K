@@ -1911,7 +1911,7 @@ autonomus_astartes_subject_type = {
 		modifier = autonomus_astartes_base_overlord_modifiers
 	}
 }
-mechanicus_subject_type = {
+0_mechanicus_subject_type = {
 	copy_from = default
 	count = tributary_state
 
@@ -1979,6 +1979,60 @@ mechanicus_subject_type = {
 	}
 	modifier_overlord = {
 		modifier = mechanicus_base_overlord_modifiers
+	}
+	modifier_overlord = {
+		modifier = mechanicus_overlord_modifiers_5_forge_worlds
+		trigger = {
+			has_5_forge_worlds_trigger = no
+		}
+	}
+	modifier_overlord = {
+		modifier = mechanicus_overlord_modifiers_10_forge_worlds
+		trigger = {
+			has_10_forge_worlds_trigger = yes
+		}
+	}
+	modifier_overlord = {
+		modifier = mechanicus_overlord_modifiers_25_forge_worlds
+		trigger = {
+			has_25_forge_worlds_trigger = yes
+		}
+	}
+	modifier_overlord = {
+		modifier = mechanicus_overlord_modifiers_50_forge_worlds
+		trigger = {
+			has_50_forge_worlds_trigger = yes
+		}
+	}
+	modifier_overlord = {
+		modifier = mechanicus_overlord_modifiers_75_forge_worlds
+		trigger = {
+			has_75_forge_worlds_trigger = yes
+		}
+	}
+	modifier_overlord = {
+		modifier = mechanicus_overlord_modifiers_100_forge_worlds
+		trigger = {
+			has_100_forge_worlds_trigger = yes
+		}
+	}
+	modifier_overlord = {
+		modifier = mechanicus_overlord_modifiers_loyal
+		trigger = {
+			NOT={liberty_desire = 30}
+		}
+	}
+	modifier_overlord = {
+		modifier = mechanicus_overlord_modifiers_disloyal
+		trigger = {
+			liberty_desire = 50
+		}
+	}
+	modifier_overlord = {
+		modifier = mechanicus_overlord_modifiers_in_disaster
+		trigger = {
+			has_any_disaster = yes
+		}
 	}
 }
 integrated_world_subject_type = {

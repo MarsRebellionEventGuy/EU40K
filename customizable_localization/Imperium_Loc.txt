@@ -66,8 +66,272 @@ defined_text = {
 defined_text = {
 	name = GetMechanicusProduction
 	random = no
-	
+	text = {
+		localisation_key = Mechanicus_Production_overclocked
+		trigger={
+			event_target:adeptus_mechanicus_tag={
+				has_100_forge_worlds_trigger = yes #+5
+				has_any_disaster = no #
+				NOT={liberty_desire = 30} #+1
+				has_country_flag = production_increased_1 #+1
+				has_country_flag = production_increased_2 #+1
+			}
+		}
+	}
+	text = {
+		localisation_key = Mechanicus_Production_maximal
+		trigger={
+			event_target:adeptus_mechanicus_tag={
+				calc_true_if = {
+					has_10_forge_worlds_trigger = yes
+					has_25_forge_worlds_trigger = yes
+					has_50_forge_worlds_trigger = yes
+					has_75_forge_worlds_trigger = yes
+					has_100_forge_worlds_trigger = yes
+					NOT={liberty_desire = 30} #+1
+					NOT={liberty_desire = 50} #
+					has_country_flag = production_increased_1 #+1
+					has_country_flag = production_increased_2 #+1
+					amount = 8
+				}
+				has_any_disaster = no #
+			}
+		}
+	}
+	text = {
+		localisation_key = Mechanicus_Production_improved
+		trigger={
+			event_target:adeptus_mechanicus_tag={
+				calc_true_if = {
+					has_10_forge_worlds_trigger = yes #+1
+					has_25_forge_worlds_trigger = yes #+1
+					has_50_forge_worlds_trigger = yes #+1
+					has_75_forge_worlds_trigger = yes #+1
+					has_100_forge_worlds_trigger = yes #+1
+					NOT={liberty_desire = 30} #+1
+					NOT={liberty_desire = 50} #+1
+					has_country_flag = production_increased_1 #+1
+					has_country_flag = production_increased_2 #+1
+					has_any_disaster = no #+1
+					has_any_disaster = no #+1
+					amount = 9
+				}
+				
+			}
+		}
+	}
+	text = {
+		localisation_key = Mechanicus_Production_productive
+		trigger={
+			event_target:adeptus_mechanicus_tag={
+				calc_true_if = {
+					has_10_forge_worlds_trigger = yes #+1
+					has_25_forge_worlds_trigger = yes #+1
+					has_50_forge_worlds_trigger = yes #+1
+					has_75_forge_worlds_trigger = yes #+1
+					has_100_forge_worlds_trigger = yes #+1
+					NOT={liberty_desire = 30} #+1
+					NOT={liberty_desire = 50} #+1
+					has_country_flag = production_increased_1 #+1
+					has_country_flag = production_increased_2 #+1
+					has_any_disaster = no #+1
+					has_any_disaster = no #+1
+					amount = 8
+				}
+				
+			}
+		}
+	}
+	text = {
+		localisation_key = Mechanicus_Production_elevated
+		trigger={
+			event_target:adeptus_mechanicus_tag={
+				calc_true_if = {
+					has_10_forge_worlds_trigger = yes #+1
+					has_25_forge_worlds_trigger = yes #+1
+					has_50_forge_worlds_trigger = yes #+1
+					has_75_forge_worlds_trigger = yes #+1
+					has_100_forge_worlds_trigger = yes #+1
+					NOT={liberty_desire = 30} #+1
+					NOT={liberty_desire = 50} #+1
+					has_country_flag = production_increased_1 #+1
+					has_country_flag = production_increased_2 #+1
+					has_any_disaster = no #+1
+					has_any_disaster = no #+1
+					amount = 7
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = Mechanicus_Production_increased
+		trigger={
+			event_target:adeptus_mechanicus_tag={
+				calc_true_if = {
+					has_5_forge_worlds_trigger = yes
+					has_10_forge_worlds_trigger = yes #+1
+					has_25_forge_worlds_trigger = yes #+1
+					has_50_forge_worlds_trigger = yes #+1
+					has_75_forge_worlds_trigger = yes #+1
+					has_100_forge_worlds_trigger = yes #+1
+					NOT={liberty_desire = 30} #+1
+					NOT={liberty_desire = 50} #+1
+					has_country_flag = production_increased_1 #+1
+					has_country_flag = production_increased_2 #+1
+					has_any_disaster = no #+1
+					has_any_disaster = no #+1
+					amount = 7
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = Mechanicus_Production_robust
+		trigger={
+			event_target:adeptus_mechanicus_tag={
+				calc_true_if = {
+					has_5_forge_worlds_trigger = yes
+					has_10_forge_worlds_trigger = yes #+1
+					has_25_forge_worlds_trigger = yes #+1
+					has_50_forge_worlds_trigger = yes #+1
+					has_75_forge_worlds_trigger = yes #+1
+					has_100_forge_worlds_trigger = yes #+1
+					NOT={liberty_desire = 30} #+1
+					NOT={liberty_desire = 50} #+1
+					has_country_flag = production_increased_1 #+1
+					has_country_flag = production_increased_2 #+1
+					has_any_disaster = no #+1
+					has_any_disaster = no #+1
+					amount = 6
+				}
+			}
+		}
+	}
 	text = {
 		localisation_key = Mechanicus_Production_nominial
+		trigger={
+			event_target:adeptus_mechanicus_tag={
+				calc_true_if = {
+					has_5_forge_worlds_trigger = yes
+					has_10_forge_worlds_trigger = yes #+1
+					has_25_forge_worlds_trigger = yes #+1
+					has_50_forge_worlds_trigger = yes #+1
+					has_75_forge_worlds_trigger = yes #+1
+					has_100_forge_worlds_trigger = yes #+1
+					NOT={liberty_desire = 30} #+1
+					NOT={liberty_desire = 50} #+1
+					has_country_flag = production_increased_1 #+1
+					has_country_flag = production_increased_2 #+1
+					has_any_disaster = no #+1
+					has_any_disaster = no #+1
+					amount = 5
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = Mechanicus_Production_minor_issue
+		trigger={
+			event_target:adeptus_mechanicus_tag={
+				calc_true_if = {
+					has_5_forge_worlds_trigger = yes
+					has_10_forge_worlds_trigger = yes #+1
+					has_25_forge_worlds_trigger = yes #+1
+					has_50_forge_worlds_trigger = yes #+1
+					has_75_forge_worlds_trigger = yes #+1
+					has_100_forge_worlds_trigger = yes #+1
+					NOT={liberty_desire = 30} #+1
+					NOT={liberty_desire = 50} #+1
+					has_country_flag = production_increased_1 #+1
+					has_country_flag = production_increased_2 #+1
+					has_any_disaster = no #+1
+					has_any_disaster = no #+1
+					amount = 4
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = Mechanicus_Production_major_issue
+		trigger={
+			event_target:adeptus_mechanicus_tag={
+				calc_true_if = {
+					has_5_forge_worlds_trigger = yes
+					has_10_forge_worlds_trigger = yes #+1
+					has_25_forge_worlds_trigger = yes #+1
+					has_50_forge_worlds_trigger = yes #+1
+					has_75_forge_worlds_trigger = yes #+1
+					has_100_forge_worlds_trigger = yes #+1
+					NOT={liberty_desire = 30} #+1
+					NOT={liberty_desire = 50} #+1
+					has_country_flag = production_increased_1 #+1
+					has_country_flag = production_increased_2 #+1
+					has_any_disaster = no #+1
+					has_any_disaster = no #+1
+					amount = 3
+				}
+			}
+		}
+	}
+	#invert
+	text = {
+		localisation_key = Mechanicus_Production_restricted
+		trigger={
+			event_target:adeptus_mechanicus_tag={
+				calc_true_if = {
+					has_5_forge_worlds_trigger = no #-1
+					has_10_forge_worlds_trigger = no #-1
+					has_25_forge_worlds_trigger = no #-1
+					has_50_forge_worlds_trigger = no #-1
+					has_75_forge_worlds_trigger = no #-1
+					has_100_forge_worlds_trigger = no #-1
+					liberty_desire = 30 #-1
+					liberty_desire = 50 #-1
+					NOT={has_country_flag = production_increased_1} #-1
+					NOT={has_country_flag = production_increased_2} #-1
+					has_any_disaster = yes #-1
+					has_any_disaster = yes #-1
+					amount = 10
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = Mechanicus_Production_minimal
+		trigger={
+			event_target:adeptus_mechanicus_tag={
+				calc_true_if = {
+					has_5_forge_worlds_trigger = no #-1
+					has_10_forge_worlds_trigger = no #-1
+					has_25_forge_worlds_trigger = no #-1
+					has_50_forge_worlds_trigger = no #-1
+					has_75_forge_worlds_trigger = no #-1
+					has_100_forge_worlds_trigger = no #-1
+					liberty_desire = 30 #-1
+					liberty_desire = 50 #-1
+					NOT={has_country_flag = production_increased_1} #-1
+					NOT={has_country_flag = production_increased_2} #-1
+					has_any_disaster = yes #-1
+					has_any_disaster = yes #-1
+					amount = 11
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = Mechanicus_Production_stopped
+		trigger={
+			event_target:adeptus_mechanicus_tag={
+				has_5_forge_worlds_trigger = no #-1
+				liberty_desire = 50 #-1
+				NOT={has_country_flag = production_increased_1} #-1
+				NOT={has_country_flag = production_increased_2} #-1
+				has_any_disaster = yes #-2
+			}
+		}
+	}
+
+	text = {
+		localisation_key = Mechanicus_Production_independant
 	}
 }

@@ -2461,7 +2461,34 @@ mechanicus_base_modifiers={
 	
 }
 mechanicus_base_overlord_modifiers={
-	global_trade_goods_size_modifier = 0.1
+	global_trade_goods_size_modifier = 0.05
+}
+mechanicus_overlord_modifiers_5_forge_worlds={
+	global_trade_goods_size_modifier = -0.05
+}
+mechanicus_overlord_modifiers_10_forge_worlds={
+	global_trade_goods_size_modifier = 0.05
+}
+mechanicus_overlord_modifiers_25_forge_worlds={
+	global_trade_goods_size_modifier = 0.05
+}
+mechanicus_overlord_modifiers_50_forge_worlds={
+	global_trade_goods_size_modifier = 0.05
+}
+mechanicus_overlord_modifiers_75_forge_worlds={
+	global_trade_goods_size_modifier = 0.05
+}
+mechanicus_overlord_modifiers_100_forge_worlds={
+	global_trade_goods_size_modifier = 0.05
+}
+mechanicus_overlord_modifiers_disloyal={
+	global_trade_goods_size_modifier = -0.05
+}
+mechanicus_overlord_modifiers_loyal={
+	global_trade_goods_size_modifier = 0.05
+}
+mechanicus_overlord_modifiers_in_disaster={
+	global_trade_goods_size_modifier = -0.1
 }
 nominal_imperial_world_base_modifiers={
 	administrative_efficiency = 0.05

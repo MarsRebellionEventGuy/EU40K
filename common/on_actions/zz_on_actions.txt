@@ -143,7 +143,6 @@ on_yearly_pulse = {
 	XXA = {
 		if = {#Golden Throne Degrades
 			limit = { 
-				has_global_flag = imperium_setup 
 				is_emperor_of_china = yes
 				check_variable = {
 					which = ImperiumGoldenThroneFailing
