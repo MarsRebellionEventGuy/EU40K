@@ -7,15 +7,14 @@ primary_culture = ethereal_culture
 capital = 1898
 
 1970.12.12 = {
-		monarch = {
-			name = "Aun'o'T'au'Acaya'Va'Denta"	
-			adm = 4
-			dip = 6
-			mil = 2
-		}
+	monarch = {
+		name = "Aun'o'T'au'Acaya'Va'Denta"	
+		adm = 4
+		dip = 6
+		mil = 2
 	}
 }
-1444.1.1 = {
+1999.1.1 = {
 	leader = {
 		name = "O'Shaserra 'Shadowsun'"
 		type = general

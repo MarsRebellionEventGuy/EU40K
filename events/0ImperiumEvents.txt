@@ -107,7 +107,7 @@ country_event = {
 		custom_tooltip = XXA_Indomitus_Fleets_Two_Tooltip
 		hidden_effect = {
 			ROOT = {
-				capital_scope = {
+				3336 = {
 					create_flagship = {
 						name = "Dawn of Fire"
 						type = heavy_ship
@@ -115,7 +115,7 @@ country_event = {
 				}
 			}
 			ROOT = {
-				capital_scope = {
+				3336 = {
 					create_flagship = {
 						name = "Thunder's Peal"
 						type = heavy_ship
@@ -123,7 +123,7 @@ country_event = {
 				}
 			}
 			ROOT = {
-				capital_scope = {
+				3336 = {
 					create_flagship = {
 						name = "Precept Magnificat"
 						type = heavy_ship
@@ -131,7 +131,7 @@ country_event = {
 				}
 			}
 			ROOT = {
-				capital_scope = {
+				3336 = {
 					create_flagship = {
 						name = "Throne of Terra"
 						type = heavy_ship

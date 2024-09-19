@@ -32,7 +32,7 @@ estate_inquisition_increase_ordo_machinum = {
 		XXB={
 			is_subject_of_type_with_overlord = {
 				who = ROOT
-				type = mechanicus_subject_type
+				type = 0_mechanicus_subject_type
 			}
 		}
 	}

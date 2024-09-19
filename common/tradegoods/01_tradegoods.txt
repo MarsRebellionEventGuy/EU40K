@@ -300,7 +300,6 @@ luxury_goods = { #Indomitus
 			NOT = { development_discounting_tribal = 9 }
 		}
 	}
-	}
 }
 
 dyes = { #Unused

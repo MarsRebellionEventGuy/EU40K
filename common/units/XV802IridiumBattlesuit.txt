@@ -1,7 +1,7 @@
 # Napoleonic Square
 
-unit_type = tau
 type = infantry
+unit_type = tau
 
 maneuver = 1
 offensive_morale = 4
