@@ -943,17 +943,6 @@
  AAN:0 "Damnos" #Alsanta
  AAN_ADJ:0 "Damnosian"
 
-
-
-
-
-
-
-
-
-
-
-
  NL_RENAME:0 "Night Lords"
  NL_RENAME_ADJ:0 "Night Lord"
  IS_RENAME:0 "Imperium Secundus"
@@ -968,8 +957,6 @@
  IE_RENAME_ADJ:0 "Necron"
  AL_RENAME:0 "Alpha Legion"
  AL_RENAME_ADJ:0 "Alpha Legion"
-
-
 
  imperial_culture_group:0 "Human"
  human_culture:0 "Imperial"
@@ -1008,6 +995,13 @@
  water_caste_culture:0 "Water Caste"
  air_caste_culture:0 "Air Caste"
  earth_caste_culture:0 "Earth Caste"
+
+ bentus'la_culture:0 "Bentus'la"
+ guevesa_culture:0 "Gue'vesa"
+ gueronsha_culture:0 "Gue'ron'sha"
+ gueelvesa_culture:0 "Gue'el’vesa"
+ guefioqan_culture:0 "Gue'fio'qan"
+ nfaan_culture:0 "N'Faan"
 
  xeno_culture_group:0 "Xeno"
  hrud_culture:0 "Hrud"

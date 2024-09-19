@@ -53,7 +53,7 @@ on_startup = {
 	#		hidden = yes
 	#	}
 	#}
-	if = { 
+	if = {
 		limit = {
 			NOT = { ruler_has_personality = immortal_personality }
 			NOT = { tag = XXA }

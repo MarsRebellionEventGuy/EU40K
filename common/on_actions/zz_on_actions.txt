@@ -27,14 +27,80 @@ on_startup={
 			add_corruption = 30
 			set_estate_privilege = estate_church_land_rights
 			set_estate_privilege = estate_nobles_land_rights
-			capital_scope = {
-				add_province_modifier = { 
-					name = terra_starting_modifier
-					duration = -1  
-				}
+		}
+		1 = {
+			add_province_modifier = { 
+				name = terra_starting_modifier
+				duration = -1  
 			}
 		}
-		XXB={save_global_event_target_as = adeptus_mechanicus_tag}
+		3281 = {
+			add_province_modifier = { 
+				name = terra_starting_modifier
+				duration = -1  
+			}
+		}
+		3332 = {
+			add_province_modifier = { 
+				name = terra_starting_modifier
+				duration = -1  
+			}
+			spawn_rebels = {
+				type = heretic_rebels
+				size = 2
+				should_take_capital = yes 
+			}
+			change_controller = REB
+		}
+		3333 = {
+			add_province_modifier = { 
+				name = terra_starting_modifier
+				duration = -1  
+			}
+			spawn_rebels = {
+				type = heretic_rebels
+				size = 2
+				should_take_capital = yes 
+			}
+			change_controller = REB
+		}
+		3334 = {
+			add_province_modifier = { 
+				name = terra_starting_modifier
+				duration = -1  
+			}
+		}
+		3335 = {
+			add_province_modifier = { 
+				name = terra_starting_modifier
+				duration = -1  
+			}
+		}
+		3336 = {
+			add_province_modifier = { 
+				name = terra_starting_modifier
+				duration = -1  
+			}
+		}
+		3337 = {
+			add_province_modifier = { 
+				name = terra_starting_modifier
+				duration = -1  
+			}
+		}
+		3338 = {
+			add_province_modifier = { 
+				name = terra_starting_modifier
+				duration = -1  
+			}
+			spawn_rebels = {
+				type = heretic_rebels
+				size = 3
+				should_take_capital = yes 
+			}
+			change_controller = REB
+		}
+		XXB={ save_global_event_target_as = adeptus_mechanicus_tag }
 		1 = {
 			set_variable = {
 				value = 97

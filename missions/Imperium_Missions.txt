@@ -608,15 +608,14 @@ XXA_Branch_4 = {
 		}
 		
 		trigger = {
-			custom_trigger_tooltip = {
-				tooltip = XXA_Exploit_Trigger_Tooltip
-				has_country_flag = XXA_exploit
+			solar = {
+				type = all
+				NOT = { has_rebel_faction = heretic_rebels }
 			}
 		}
 		
 		effect = {
-			add_corruption = -10
-			1 = { remove_province_modifier = terra_starting_modifier }
+			solar = { remove_province_modifier = terra_starting_modifier }
 		}
 	}
 	XXA_Mission_41 = {

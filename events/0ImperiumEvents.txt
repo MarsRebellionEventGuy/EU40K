@@ -122,22 +122,6 @@ country_event = {
 					}
 				}
 			}
-			ROOT = {
-				3336 = {
-					create_flagship = {
-						name = "Precept Magnificat"
-						type = heavy_ship
-					}
-				}
-			}
-			ROOT = {
-				3336 = {
-					create_flagship = {
-						name = "Throne of Terra"
-						type = heavy_ship
-					}
-				}
-			}
 		}
 	}
 }
