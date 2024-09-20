@@ -100,7 +100,63 @@ on_startup={
 			}
 			change_controller = REB
 		}
-		XXB={ save_global_event_target_as = adeptus_mechanicus_tag }
+		XXB={ 
+			save_global_event_target_as = adeptus_mechanicus_tag 
+			if = {
+				limit={
+					has_100_forge_worlds_trigger = yes
+				}
+				set_country_flag = XXB_has_100_forge_worlds
+			}
+			else={
+				clr_country_flag = XXB_has_100_forge_worlds
+			}
+			if = {
+				limit={
+					has_75_forge_worlds_trigger = yes
+				}
+				set_country_flag = XXB_has_75_forge_worlds
+			}
+			else={
+				clr_country_flag = XXB_has_75_forge_worlds
+			}
+			if = {
+				limit={
+					has_50_forge_worlds_trigger = yes
+				}
+				set_country_flag = XXB_has_50_forge_worlds
+			}
+			else={
+				clr_country_flag = XXB_has_50_forge_worlds
+			}
+			if = {
+				limit={
+					has_25_forge_worlds_trigger = yes
+				}
+				set_country_flag = XXB_has_25_forge_worlds
+			}
+			else={
+				clr_country_flag = XXB_has_25_forge_worlds
+			}
+			if = {
+				limit={
+					has_10_forge_worlds_trigger = yes
+				}
+				set_country_flag = XXB_has_10_forge_worlds
+			}
+			else={
+				clr_country_flag = XXB_has_10_forge_worlds
+			}
+			if = {
+				limit={
+					NOT={has_5_forge_worlds_trigger = yes}
+				}
+				set_country_flag = XXB_has_less_then_5_forge_worlds
+			}
+			else={
+				clr_country_flag = XXB_has_less_then_5_forge_worlds
+			}
+		}
 		1 = {
 			set_variable = {
 				value = 97
@@ -230,6 +286,154 @@ on_yearly_pulse = {
 					value = 0
 					which = ImperiumGoldenThroneFailing
 				}
+			}
+		}
+	}
+}
+on_annexed = {
+	if = {
+		limit = {
+			FROM = { 
+				is_subject_of_type = nominal_imperial_world_subject_type
+			}
+		}
+		1={
+			change_variable = {
+				which = ImperiumNbNominalWorlds
+				value = -1
+			}
+			change_variable = {
+				which = ImperiumNbTotalWorlds
+				value = -1
+			}
+		}
+	}
+	if = {
+		limit = {
+			FROM = { 
+				is_subject_of_type = imperial_world_subject_type
+			}
+		}
+		1={
+			change_variable = {
+				which = ImperiumNbWorlds
+				value = -1
+			}
+			change_variable = {
+				which = ImperiumNbTotalWorlds
+				value = -1
+			}
+		}
+	}
+	if = {
+		limit = {
+			FROM = { 
+				is_subject_of_type = integrated_world_subject_type
+			}
+		}
+		1={
+			change_variable = {
+				which = ImperiumNbIntgratedWorlds
+				value = -1
+			}
+			change_variable = {
+				which = ImperiumNbTotalWorlds
+				value = -1
+			}
+		}
+	}
+	if = {
+		limit = {
+			FROM = { 
+				is_subject_of_type = astartes_subject_type
+			}
+		}
+		1={
+			change_variable = {
+				which = ImperiumNbAstartes
+				value = -1
+			}
+		}
+	}
+	if = {
+		limit = {
+			FROM = { 
+				is_subject_of_type = autonomus_astartes_subject_type
+			}
+		}
+		1={
+			change_variable = {
+				which = ImperiumNbIndAstartes
+				value = -1
+			}
+		}
+	}
+}
+on_province_owner_change = { #
+	if = {
+		limit = {
+			has_saved_global_event_target = adeptus_mechanicus_tag
+			OR={
+				owner={
+					tag = event_target:adeptus_mechanicus_tag
+					is_subject_of = event_target:adeptus_mechanicus_tag
+				}
+			}	
+		}
+		event_target:adeptus_mechanicus_tag={
+			if = {
+				limit={
+					has_100_forge_worlds_trigger = yes
+				}
+				set_country_flag = XXB_has_100_forge_worlds
+			}
+			else={
+				clr_country_flag = XXB_has_100_forge_worlds
+			}
+			if = {
+				limit={
+					has_75_forge_worlds_trigger = yes
+				}
+				set_country_flag = XXB_has_75_forge_worlds
+			}
+			else={
+				clr_country_flag = XXB_has_75_forge_worlds
+			}
+			if = {
+				limit={
+					has_50_forge_worlds_trigger = yes
+				}
+				set_country_flag = XXB_has_50_forge_worlds
+			}
+			else={
+				clr_country_flag = XXB_has_50_forge_worlds
+			}
+			if = {
+				limit={
+					has_25_forge_worlds_trigger = yes
+				}
+				set_country_flag = XXB_has_25_forge_worlds
+			}
+			else={
+				clr_country_flag = XXB_has_25_forge_worlds
+			}
+			if = {
+				limit={
+					has_10_forge_worlds_trigger = yes
+				}
+				set_country_flag = XXB_has_10_forge_worlds
+			}
+			else={
+				clr_country_flag = XXB_has_10_forge_worlds
+			}
+			if = {
+				limit={
+					NOT={has_5_forge_worlds_trigger = yes}
+				}
+				set_country_flag = XXB_has_less_then_5_forge_worlds
+			}
+			else={
+				clr_country_flag = XXB_has_less_then_5_forge_worlds
 			}
 		}
 	}

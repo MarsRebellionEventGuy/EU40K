@@ -136,4 +136,5 @@
  integrate_imperial_worlds_decision_ct: "The Imperium of Man can no longer elevate Imperial Worlds."
  vassalize_astartes_decision_tt: "The Imperium of Man can use Imperial Cohesion to cutail a Autonomus Astartes Chapter to a direct Astartes Chapter."
  vassalize_astartes_decision_ct: "The Imperium of Man can no longer Curtial Astartes Autonomy."
+ PREV_OWNS_PLANET: "Under Dominion of [Prev.GetName]"
  
