@@ -239,7 +239,9 @@ guiTypes = {
 			font = "vic_18"
 			borderSize = {x = 4 y = 0}
 			maxWidth = 172
-			maxHeight = 32
+			maxHeight = 48
+			tooltipText ="adeptus_mechanicus_tt"
+			delayedTooltipText = "adeptus_mechanicus_tt_delayed"
 			format = center
 			scripted = yes
 		}

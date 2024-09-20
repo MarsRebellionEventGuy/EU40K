@@ -2052,6 +2052,7 @@ integrated_world_subject_type = {
 	annex_cost_per_development = 16.0
 	
 	forcelimit_to_overlord = 0.1
+	pays_overlord = 1.0
 	
 	place_relative_on_throne = no
 	
@@ -2065,7 +2066,7 @@ integrated_world_subject_type = {
 	modifier_overlord = clear
 	modifier_subject = clear
 	modifier_subject = {
-		modifier = soyurghal_base_modifiers
+		modifier = subject_nation
 	}
 	modifier_overlord = {
 		modifier = soyurghal_base_overlord_modifiers
@@ -2093,7 +2094,7 @@ imperial_world_subject_type = {
 	
 	gets_help_with_rebels = yes	
 	
-	pays_overlord = 0
+	pays_overlord = 0.5
 	
 	relative_power_class = 1 
 	
@@ -2116,7 +2117,7 @@ imperial_world_subject_type = {
 	modifier_overlord = clear
 	modifier_subject = clear
 	modifier_subject = {
-		modifier = soyurghal_base_modifiers
+		modifier = imperial_world_base_modifiers
 	}
 	modifier_overlord = {
 		modifier = soyurghal_base_overlord_modifiers

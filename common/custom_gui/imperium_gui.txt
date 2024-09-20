@@ -17,7 +17,7 @@ custom_text_box = {
 custom_text_box = {
    name = adeptus_mechanicus_label 
    potential = { } 
-   tooltip = adeptus_mechanicus_tt 
+   #tooltip = adeptus_mechanicus_tt 
 }
 custom_icon = {
    name = throne_integrity_icon #Must match a scripted iconType in a .gui file

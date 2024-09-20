@@ -2496,3 +2496,6 @@ nominal_imperial_world_base_modifiers={
 nominal_imperial_world_base_overlord_modifiers={
 	
 }
+imperial_world_base_modifiers={
+	
+}
