@@ -40,6 +40,16 @@ reign_in_nominal_world = {
 			keep_liberty_desire = yes
 		}
 		add_mandate = -5
+		1={
+			change_variable = {
+				which = ImperiumNbNominalWorlds
+				value = -1
+			}
+			change_variable = {
+				which = ImperiumNbWorlds
+				value = 1
+			}
+		}
 	}
 	on_decline = {
 	}
@@ -174,6 +184,16 @@ reign_in_imperial_world = {
 			keep_liberty_desire = yes
 		}
 		add_mandate = -10
+		1={
+			change_variable = {
+				which = ImperiumNbWorlds
+				value = -1
+			}
+			change_variable = {
+				which = ImperiumNbIntgratedWorlds
+				value = 1
+			}
+		}
 	}
 	on_decline = {
 	}
@@ -308,6 +328,16 @@ reign_in_astartes = {
 			keep_liberty_desire = yes
 		}
 		add_mandate = -10
+		1={
+			change_variable = {
+				which = ImperiumNbIndAstartes
+				value = -1
+			}
+			change_variable = {
+				which = ImperiumNbAstartes
+				value = 1
+			}
+		}
 	}
 	on_decline = {
 	}
@@ -623,11 +653,27 @@ invite_into_imperium = {
 				subject_type = autonomus_astartes_subject_type
 				subject = FROM
 			}
+			1={
+				change_variable = {
+					which = ImperiumNbAstartes
+					value = 1
+				}
+			}
 		}
 		else={
 			create_subject = {
 				subject_type = nominal_imperial_world_subject_type
 				subject = FROM
+			}
+			1={
+				change_variable = {
+					which = ImperiumNbNominalWorlds
+					value = 1
+				}
+				change_variable = {
+					which = ImperiumNbTotalWorlds
+					value = 1
+				}
 			}
 		}
 		add_mandate = 2
@@ -693,6 +739,14 @@ invite_into_imperium = {
 	}
 
 	ai_acceptance = {
+		add_entry = {
+            name = BASE_ROOT_IS_TRUE_IMPERIUM
+			limit = {
+				ROOT = { tag = XXA }
+			}
+			export_to_variable = { variable_name = ai_value value = 1 }
+			multiply_variable = { which = ai_value value = 30 }
+        }
         add_entry = {
             name = DIPLO_OPPINION
 			export_to_variable = {
@@ -765,7 +819,7 @@ invite_into_imperium = {
 		}
 		add_entry = {
 			name = ADDITIONAL_REASONS_FROM_EVENTS_AND_MISSIONS_TO_ACCEPT_TT
-			limit = { FROM = { has_country_flag = easier_to_get_into_persian_sphere } }
+			limit = { FROM = { has_country_flag = easier_to_get_into_IOM } }
 			export_to_variable = { variable_name = ai_value value = 1 }
 			multiply_variable = { which = ai_value value = 25 }
 		}
@@ -822,7 +876,7 @@ invite_into_imperium = {
 			#4 units = -1
 			multiply_variable = {
 				which = ai_value
-				value = -0.25
+				value = -0.1
 			}
 		}
 	}
@@ -913,11 +967,27 @@ join_imperium = {
 					subject_type = autonomus_astartes_subject_type
 					subject = ROOT
 				}
+				1={
+					change_variable = {
+						which = ImperiumNbAstartes
+						value = 1
+					}
+				}
 			}
 			else={
 				create_subject = {
 					subject_type = nominal_imperial_world_subject_type
 					subject = ROOT
+				}
+				1={
+					change_variable = {
+						which = ImperiumNbNominalWorlds
+						value = 1
+					}
+					change_variable = {
+						which = ImperiumNbTotalWorlds
+						value = 1
+					}
 				}
 			}
 			add_mandate = 2
@@ -998,6 +1068,14 @@ join_imperium = {
 	}
 
 	ai_acceptance = {
+		add_entry = {
+            name = BASE_ROOT_IS_TRUE_IMPERIUM
+			limit = {
+				ROOT = { tag = XXA }
+			}
+			export_to_variable = { variable_name = ai_value value = 1 }
+			multiply_variable = { which = ai_value value = 30 }
+        }
         add_entry = {
             name = DIPLO_OPPINION
 			export_to_variable = {
@@ -1107,12 +1185,12 @@ join_imperium = {
 			#4 units = -1
 			multiply_variable = {
 				which = ai_value
-				value = -0.25
+				value = -0.1
 			}
 		}
 		add_entry = {
 			name = ADDITIONAL_REASONS_FROM_EVENTS_AND_MISSIONS_TO_ACCEPT_TT
-			limit = { has_country_flag = easier_to_get_into_persian_sphere }
+			limit = { has_country_flag = easier_to_get_into_IOM }
 			export_to_variable = { variable_name = ai_value value = 1 }
 			multiply_variable = { which = ai_value value = 25 }
 		}

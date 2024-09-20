@@ -373,6 +373,86 @@ on_annexed = {
 		}
 	}
 }
+# ROOT = New vassal, FROM = Overlord
+on_create_vassal = {
+	if = {
+		limit = {
+			ROOT = { 
+				is_subject_of_type = nominal_imperial_world_subject_type
+			}
+		}
+		1={
+			change_variable = {
+				which = ImperiumNbNominalWorlds
+				value = 1
+			}
+			change_variable = {
+				which = ImperiumNbTotalWorlds
+				value = 1
+			}
+		}
+	}
+	if = {
+		limit = {
+			ROOT = { 
+				is_subject_of_type = imperial_world_subject_type
+			}
+		}
+		1={
+			change_variable = {
+				which = ImperiumNbWorlds
+				value = 1
+			}
+			change_variable = {
+				which = ImperiumNbTotalWorlds
+				value = 1
+			}
+		}
+	}
+	if = {
+		limit = {
+			ROOT = { 
+				is_subject_of_type = integrated_world_subject_type
+			}
+		}
+		1={
+			change_variable = {
+				which = ImperiumNbIntgratedWorlds
+				value = 1
+			}
+			change_variable = {
+				which = ImperiumNbTotalWorlds
+				value = 1
+			}
+		}
+	}
+	if = {
+		limit = {
+			ROOT = { 
+				is_subject_of_type = astartes_subject_type
+			}
+		}
+		1={
+			change_variable = {
+				which = ImperiumNbAstartes
+				value = 1
+			}
+		}
+	}
+	if = {
+		limit = {
+			ROOT = { 
+				is_subject_of_type = autonomus_astartes_subject_type
+			}
+		}
+		1={
+			change_variable = {
+				which = ImperiumNbIndAstartes
+				value = 1
+			}
+		}
+	}
+}
 on_province_owner_change = { #
 	if = {
 		limit = {

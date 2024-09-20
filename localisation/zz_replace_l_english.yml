@@ -127,6 +127,7 @@
  call_astartes_into_wars_title: "Call Chapter to War"
  invite_into_imperium_title: "Contact Lost World"
  join_imperium_title: "Return to the Imperium"
+ BASE_ROOT_IS_TRUE_IMPERIUM: "God Emperor"
  IMPERIAL_REINTEGRATION_NOT_PASSED_TT: "§YImperial Reintegration§! §Rhas NOT been§! §YEnacted§!"
  CENTRALIZATED_IMPERIUM_NOT_PASSED_TT: "The §YImperium§! §Rhas NOT been§! §YCentralized§!"
  CURTAIL_ASTARTES_AUTONOMY_NOT_PASSED_TT: "§YAstartes Autonomy§! §Rhas NOT been§! §YCurtailed§!"
