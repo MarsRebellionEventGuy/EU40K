@@ -1,0 +1,28 @@
+name = "Second Agrellan Campaign"
+war_goal = {
+	type = take_core
+	casus_belli = cb_core
+	province = 1886
+}
+
+1999.1.1 = {
+	add_attacker = XNA
+	add_attacker = XCA
+	add_attacker = XAZ
+	add_attacker = XNV
+	add_attacker = XNS
+	add_attacker = XEY
+	add_defender = XGF
+	add_defender = XGG
+}
+
+1999.11.20 = {
+	rem_attacker = XNA
+	rem_attacker = XCA
+	rem_attacker = XAZ
+	rem_attacker = XNV
+	add_attacker = XNS
+	add_attacker = XEY
+	rem_defender = XGG
+	rem_defender = XGF
+}

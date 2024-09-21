@@ -245,6 +245,27 @@ dependency = {
 	start_date = 1000.8.20
 	end_date = 2100.8.3
 }
+dependency = {
+	subject_type = "autonomus_astartes_subject_type"
+	first = XXA
+	second = XHU
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "autonomus_astartes_subject_type"
+	first = XXA
+	second = XOC
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "autonomus_astartes_subject_type"
+	first = XXA
+	second = XHK
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
 #
 dependency = {
 	subject_type = "imperial_world_subject_type"

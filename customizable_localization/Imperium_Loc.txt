@@ -335,3 +335,122 @@ defined_text = {
 		localisation_key = Mechanicus_Production_independant
 	}
 }
+#primarchs list
+defined_text = {
+	name = GetPrimarch_I_Status
+	random = no
+	
+	text = {
+		localisation_key = Primarch_Status_MIA
+	}
+}
+defined_text = {
+	name = GetPrimarch_III_Status
+	random = no
+	
+	text = {
+		localisation_key = Primarch_Status_MIA
+	}
+}
+defined_text = {
+	name = GetPrimarch_IV_Status
+	random = no
+	
+	text = {
+		localisation_key = Primarch_Status_MIA
+	}
+}
+defined_text = {
+	name = GetPrimarchV_Status
+	random = no
+	
+	text = {
+		localisation_key = Primarch_Status_MIA
+	}
+}
+defined_text = {
+	name = GetPrimarch_VI_Status
+	random = no
+	
+	text = {
+		localisation_key = Primarch_Status_MIA
+	}
+}
+defined_text = {
+	name = GetPrimarch_VII_Status
+	random = no
+	
+	text = {
+		localisation_key = Primarch_Status_DEAD
+	}
+}
+defined_text = {
+	name = GetPrimarch_XII_Status
+	random = no
+	
+	text = {
+		localisation_key = Primarch_Status_MIA
+	}
+}
+defined_text = {
+	name = GetPrimarch_XIII_Status
+	random = no
+	
+	text = {
+		localisation_key = Primarch_Status_MIA
+		trigger={
+			Primarch_XIII_Status_TERRA
+		}
+	}
+	text = {
+		localisation_key = Primarch_Status_MIA
+	}
+}
+defined_text = {
+	name = GetPrimarch_XIV_Status
+	random = no
+	
+	text = {
+		localisation_key = Primarch_Status_MIA
+	}
+}
+defined_text = {
+	name = GetPrimarch_XV_Status
+	random = no
+	
+	text = {
+		localisation_key = Primarch_Status_MIA
+	}
+}
+defined_text = {
+	name = GetPrimarch_XVII_Status
+	random = no
+	
+	text = {
+		localisation_key = Primarch_Status_MIA
+	}
+}
+defined_text = {
+	name = GetPrimarch_VIII_Status
+	random = no
+	
+	text = {
+		localisation_key = Primarch_Status_MIA
+	}
+}
+defined_text = {
+	name = GetPrimarch_XIX_Status
+	random = no
+	
+	text = {
+		localisation_key = Primarch_Status_MIA
+	}
+}
+defined_text = {
+	name = GetPrimarch_XX_Status
+	random = no
+	
+	text = {
+		localisation_key = Primarch_XX_Status_EVERYWHERE
+	}
+}

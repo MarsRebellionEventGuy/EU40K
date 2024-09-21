@@ -655,7 +655,7 @@ invite_into_imperium = {
 			}
 			1={
 				change_variable = {
-					which = ImperiumNbAstartes
+					which = ImperiumNbIndAstartes
 					value = 1
 				}
 			}
@@ -969,7 +969,7 @@ join_imperium = {
 				}
 				1={
 					change_variable = {
-						which = ImperiumNbAstartes
+						which = ImperiumNbIndAstartes
 						value = 1
 					}
 				}

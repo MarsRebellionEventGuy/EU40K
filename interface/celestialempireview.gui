@@ -186,19 +186,6 @@ guiTypes = {
 		}
 		
 		instantTextBoxType = {
-			name = "imperium_vassal_label"
-			position = { x = 555 y = 205 }
-			textureFile = ""
-			font = "vic_18"
-			borderSize = {x = 4 y = 0}
-			text = "IMPERIUM_VASSALS"
-			maxWidth = 172
-			maxHeight = 32
-			format = left
-			scripted = yes
-		}
-		
-		instantTextBoxType = {
 			name = "astartes_label"
 			position = { x = 511 y = 235 }
 			textureFile = ""
