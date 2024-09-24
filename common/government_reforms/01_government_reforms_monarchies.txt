@@ -54,10 +54,10 @@ imperium_regency_reform = {
 	government_abilities = {
 		imperium_mechanic
 	}
-	# conditional = {
-		# allow = { has_dlc = "Mandate of Heaven" }
-		# has_meritocracy = yes
-	# }
+	conditional = {
+		allow = { has_dlc = "Mandate of Heaven" }
+		has_meritocracy = yes
+	}
 }
 
 imperial_governorate_reform = {
