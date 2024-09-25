@@ -1,0 +1,235 @@
+Tau_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = XGF
+	}
+	has_country_shield = yes
+	TAU_greater_good_tau_region = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { TAU_forth_sphere_preperations }
+		provinces_to_highlight = {
+			region = tau_region
+			OR={
+				is_city = no
+				owner={
+					NOT = { religion = greater_good }
+					NOT = { secondary_religion = greater_good }
+				}
+			}
+		}
+		trigger = { 
+			tau_region = {
+				type = all
+				is_city = yes
+				owner={
+					OR={
+						religion = greater_good
+						secondary_religion = greater_good
+					}
+				}
+			}
+		}
+		effect = { }
+	}
+
+}
+
+Tau_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = XGF
+	}
+	has_country_shield = yes
+
+	TAU_study_FTL_methods = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { TAU_end_imperium_invasion }
+		trigger = {
+			OR={
+				dip_tech = 3
+				any_country={
+					religion_group = emperor_group
+					has_spy_network_from = {
+						who = ROOT
+						value = 35
+					}
+				}
+			}
+		}
+		effect = {
+			if={
+				limit={
+					dip_tech = 2
+				}
+				add_dip_tech = 1
+			}
+			else={
+				add_prestige = 10
+			}
+		}
+	}
+	TAU_expand_atoll = {
+		icon = mission_build_up_to_force_limit
+		position = 6
+		required_missions = { prepare_fifith_sphere }
+		provinces_to_highlight = {
+			region = chalnath_expanse_region
+			NOT={owned_by = ROOT}
+			NOT={owned_by_subject_of = ROOT}
+		}
+		trigger = { 
+			num_of_provinces_owned_or_owned_by_subjects_with = {
+				value = 8
+				region = chalnath_expanse_region
+			}
+		}
+		effect = { }
+	}
+}
+
+TAU_start_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = XGF
+	}
+	has_country_shield = yes
+
+	TAU_end_imperium_invasion = {
+		icon = mission_build_up_to_force_limit
+		position = 1
+		required_missions = {  }
+		trigger = {
+			is_at_war = no
+		}
+		effect = { }
+	}
+	TAU_revitilise_army = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { TAU_end_imperium_invasion }
+		trigger = {
+			army_size_percentage = 0.85
+			manpower_percentage = 0.75
+		}
+		effect = { 
+			add_country_modifier = {
+				name = "thriving_arms_industry"
+				duration = 9125 #25 years
+			}
+		}
+	}
+	TAU_forth_sphere_preperations = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { TAU_study_FTL_methods TAU_revitilise_army TAU_stabilizing_ethereal_council }
+		trigger = {
+			dip_tech = 3
+			treasury = 200
+			num_of_light_ship = 7
+			num_of_transport = 10
+		}
+		effect = {
+			add_treasury = -200
+			country_event = {
+				id=tau_events.1
+			}
+		}
+	}
+	TAU_buffer_1 = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { TAU_forth_sphere_preperations }
+		trigger = { }
+		effect = { }
+	}
+	prepare_fifith_sphere = {
+		icon = mission_build_up_to_force_limit
+		position = 5
+		required_missions = {  }
+		trigger = {
+			custom_trigger_tooltip={
+				tooltip = TAU_4_sphere_sent_tt
+				has_country_flag = TAU_sent_4th_sphere
+			}
+		}
+		effect = { }
+	}
+	TAU_fortify_startide_nexus = {
+		icon = mission_build_up_to_force_limit
+		position = 6
+		required_missions = { prepare_fifith_sphere }
+		trigger = { }
+		effect = { }
+	}
+	TAU_prepare_sixith_sphere = {
+		icon = mission_build_up_to_force_limit
+		position = 7
+		required_missions = {  }
+		trigger = {
+			custom_trigger_tooltip={
+				tooltip = TAU_5_sphere_sent_tt
+				has_country_flag = TAU_sent_5th_sphere
+			}
+		}
+		effect = { }
+	}
+}
+
+TAU_start_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = XGF
+	}
+	has_country_shield = yes
+
+	TAU_stabilizing_ethereal_council = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { TAU_end_imperium_invasion }
+		trigger = {
+			stability = 1
+			devotion = 85
+		}
+		effect = {
+			add_estate_loyalty = {
+				estate = estate_church
+				loyalty = 10
+			}
+		}
+	}
+}
+
+TAU_6_damoclese_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = XGF
+	}
+	has_country_shield = yes
+	
+	
+
+}
+
+TAU_6_atoll_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = XGF
+	}
+	has_country_shield = yes
+	
+}
+

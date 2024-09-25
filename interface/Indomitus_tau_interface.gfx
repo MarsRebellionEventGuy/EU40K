@@ -1,0 +1,14 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_icon_tau_auxiliary_subject_type"
+		texturefile = "gfx/interface/icon_tau_auxiliary_subject.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_diplomacy_lead_tau_auxiliary_subject_type"
+		texturefile = "gfx/interface/icon_diplomacy_lead_tau_auxiliary.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_diplomacy_am_tau_auxiliary_subject_type"
+		texturefile = "gfx/interface/icon_diplomacy_am_tau_auxiliary.dds"
+	}
+}

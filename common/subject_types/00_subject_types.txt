@@ -63,6 +63,8 @@ integrated_world_subject_type = {}
 imperial_world_subject_type = {}
 nominal_imperial_world_subject_type = {}
 
+tau_auxiliary = {}
+
 default = {
 	# Graphics:
 	sprite = GFX_icon_vassal
@@ -2177,5 +2179,64 @@ nominal_imperial_world_subject_type = {
 	}
 	modifier_overlord = {
 		modifier = nominal_imperial_world_base_overlord_modifiers
+	}
+}
+
+tau_auxiliary = {
+	copy_from = march
+	count = vassal
+    sprite = GFX_icon_tau_auxiliary_subject_type
+	diplomacy_overlord_sprite = GFX_icon_diplomacy_lead_tau_auxiliary_subject_type
+	diplomacy_subject_sprite = GFX_icon_diplomacy_am_tau_auxiliary_subject_type
+	
+	# Properties:
+	has_power_projection = yes
+	takes_diplo_slot = yes
+	gets_help_with_rebels = no
+	separatists_become_subjects = yes
+	allows_taking_land_without_independence = yes
+	forms_trade_companies = no
+	can_concentrate_development = no
+	liberty_desire_development_ratio = 0.25
+	trust_on_start = 100
+	military_focus = 1.2
+	forcelimit_to_overlord = 0.05
+
+	relative_power_class = 1
+	should_quit_wars_on_activation = yes
+	
+	is_march = no
+	
+	# Subject Interactions
+	request_extra_levies = yes
+	grant_administrative_autonomy = yes
+	#(disable)
+	scutage = yes
+	grant_core_claim = yes
+	grant_province = yes
+	place_relative_on_throne = no
+	enforce_religion = yes
+	seize_territory = no
+	#(enable)
+	return_land = yes
+	conscript_general = yes
+	
+	# Modifiers
+	
+	modifier_overlord = clear #We don't want to duplicate the ones inherited from vassal
+	modifier_subject = clear #Ditto
+	modifier_subject = {
+		modifier = appanage_subject
+	}
+	modifier_subject = {
+		modifier = subject_tax_modifier
+		trigger = {
+			overlord = {
+				has_government_attribute = subject_tax_modifier_25
+			}
+		}
+	}
+	modifier_overlord = {
+		modifier = appanage_overlord
 	}
 }

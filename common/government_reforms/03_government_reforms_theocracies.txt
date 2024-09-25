@@ -32,7 +32,7 @@ tau_reform = {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
 	modifiers = {
-		liberty_desire = -33
+		reduced_liberty_desire = 33
 	}
 	conditional = {
 		allow = {
@@ -47,6 +47,11 @@ tau_reform = {
 		allow_force_tributary = yes
 	}
 	assimilation_cultures = {
+		tau_culture_group = {
+			stability_cost_modifier = -0.1
+			effect = { hidden_effect = { change_variable = { which = cultures_assimilated value = 1 } } }
+			removed_effect = { hidden_effect = { subtract_variable = { which = cultures_assimilated value = 1 } } }
+		}
 		imperial_culture_group = {
 			leader_cost = -0.10
 			effect = { hidden_effect = { change_variable = { which = cultures_assimilated value = 1 } } }

@@ -1,0 +1,46 @@
+namespace = tau_events
+normal_or_historical_nations = yes
+
+country_event = {
+	id = tau_events.1
+	title = "tau_events.1.t"
+	desc = "tau_events.1.d"
+	picture = CONQUEST_eventPicture
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			set_country_flag = TAU_sent_4th_sphere
+			1981={
+				cede_province = XLV
+				add_core = XLV
+				change_culture = fire_caste_culture
+				change_religion = greater_good
+			}
+			1982={
+				cede_province = XLV
+				change_culture = water_caste_culture
+				change_religion = greater_good
+			}
+			2978={
+				cede_province = XLV
+				change_culture = fire_caste_culture
+				change_religion = greater_good
+			}
+		}
+	}
+
+	option = {
+		name = "tau_events.1.a"
+		custom_effect_tooltip
+		
+	}
+	option = {
+		name = "tau_events.1.b"
+		custom_effect_tooltip = tau_events.1.b_tt
+		switch_tag = XLV
+	}
+}

@@ -1,0 +1,14 @@
+dependency = {
+	subject_type = "tau_auxiliary"
+	first = XGF
+	second = XIR
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "tau_auxiliary"
+	first = XGF
+	second = XGM
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}

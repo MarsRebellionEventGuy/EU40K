@@ -262,36 +262,8 @@ on_startup={
 	}
 }
 on_yearly_pulse = {
-	if = {#Golden Throne Degrades
-		limit = { 
-			is_emperor_of_china = yes
-			1={
-				check_variable = {
-					which = ImperiumGoldenThroneFailing
-					value = 0
-				}
-			}
-		}
-		1={
-			change_variable = {
-				which = ImperiumGoldenThroneFailing
-				value = ImperiumGoldenThroneFailingChange
-			}
-			if={
-				limit={
-					NOT={
-						check_variable = {
-							which = ImperiumGoldenThroneFailing
-							value = 0
-						}
-					}
-				}
-				set_variable = {
-					which = ImperiumGoldenThroneFailing
-					value = 0
-				}
-			}
-		}
+	events={
+		imperium_events.4
 	}
 }
 on_annexed = {

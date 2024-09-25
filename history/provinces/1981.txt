@@ -1,8 +1,4 @@
-add_core = XLV
-owner = XLV
-controller = XLV
-religion = greater_good
-culture = fire_caste_culture
+
 base_tax = 1
 base_production = 2
 base_manpower = 2

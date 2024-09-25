@@ -336,6 +336,50 @@ xeno_culture_group = {
 			Prok Ch-Choh Chagrill Cho'yar Ga'ah Glekh Gota Grekh Krarh Kyr'am Kyrek Tak Tohrrok Trosk Yabek Yusra
 		}
 	}
+	vespid_culture = {
+		male_names = {
+			Anghkor Tehkgrok Jiynko Yuka'yc Gohk-ah Khagguk Gorok Khrob'tcho Dahyak Griahgri Harbyx Grark Tohra'tcha Dohra'ohk Lokh Mataba Omutu Opukh Orak OrtrazkPechallai Dohra'to Doakhye Ohrak'tcha Khibala
+		}
+		female_names = {
+			Anghkor Tehkgrok Jiynko Yuka'yc Gohk-ah Khagguk Gorok Khrob'tcho Dahyak Griahgri Harbyx Grark Tohra'tcha Dohra'ohk Lokh Mataba Omutu Opukh Orak OrtrazkPechallai Dohra'to Doakhye Ohrak'tcha Khibala
+		}
+		dynasty_names = {
+			Prok Ch-Choh Chagrill Cho'yar Ga'ah Glekh Gota Grekh Krarh Kyr'am Kyrek Tak Tohrrok Trosk Yabek Yusra
+		}
+	}
+	greet_culture = {
+		male_names = {
+			Anghkor Tehkgrok Jiynko Yuka'yc Gohk-ah Khagguk Gorok Khrob'tcho Dahyak Griahgri Harbyx Grark Tohra'tcha Dohra'ohk Lokh Mataba Omutu Opukh Orak OrtrazkPechallai Dohra'to Doakhye Ohrak'tcha Khibala
+		}
+		female_names = {
+			Anghkor Tehkgrok Jiynko Yuka'yc Gohk-ah Khagguk Gorok Khrob'tcho Dahyak Griahgri Harbyx Grark Tohra'tcha Dohra'ohk Lokh Mataba Omutu Opukh Orak OrtrazkPechallai Dohra'to Doakhye Ohrak'tcha Khibala
+		}
+		dynasty_names = {
+			Prok Ch-Choh Chagrill Cho'yar Ga'ah Glekh Gota Grekh Krarh Kyr'am Kyrek Tak Tohrrok Trosk Yabek Yusra
+		}
+	}
+	nagi_culture = {
+		male_names = {
+			Anghkor Tehkgrok Jiynko Yuka'yc Gohk-ah Khagguk Gorok Khrob'tcho Dahyak Griahgri Harbyx Grark Tohra'tcha Dohra'ohk Lokh Mataba Omutu Opukh Orak OrtrazkPechallai Dohra'to Doakhye Ohrak'tcha Khibala
+		}
+		female_names = {
+			Anghkor Tehkgrok Jiynko Yuka'yc Gohk-ah Khagguk Gorok Khrob'tcho Dahyak Griahgri Harbyx Grark Tohra'tcha Dohra'ohk Lokh Mataba Omutu Opukh Orak OrtrazkPechallai Dohra'to Doakhye Ohrak'tcha Khibala
+		}
+		dynasty_names = {
+			Prok Ch-Choh Chagrill Cho'yar Ga'ah Glekh Gota Grekh Krarh Kyr'am Kyrek Tak Tohrrok Trosk Yabek Yusra
+		}
+	}
+	ostense_culture = {
+		male_names = {
+			Anghkor Tehkgrok Jiynko Yuka'yc Gohk-ah Khagguk Gorok Khrob'tcho Dahyak Griahgri Harbyx Grark Tohra'tcha Dohra'ohk Lokh Mataba Omutu Opukh Orak OrtrazkPechallai Dohra'to Doakhye Ohrak'tcha Khibala
+		}
+		female_names = {
+			Anghkor Tehkgrok Jiynko Yuka'yc Gohk-ah Khagguk Gorok Khrob'tcho Dahyak Griahgri Harbyx Grark Tohra'tcha Dohra'ohk Lokh Mataba Omutu Opukh Orak OrtrazkPechallai Dohra'to Doakhye Ohrak'tcha Khibala
+		}
+		dynasty_names = {
+			Prok Ch-Choh Chagrill Cho'yar Ga'ah Glekh Gota Grekh Krarh Kyr'am Kyrek Tak Tohrrok Trosk Yabek Yusra
+		}
+	}
 	xeno_culture = {
 		male_names = {
 			Anghkor Tehkgrok Jiynko Yuka'yc Gohk-ah Khagguk Gorok Khrob'tcho Dahyak Griahgri Harbyx Grark Tohra'tcha Dohra'ohk Lokh Mataba Omutu Opukh Orak OrtrazkPechallai Dohra'to Doakhye Ohrak'tcha Khibala
