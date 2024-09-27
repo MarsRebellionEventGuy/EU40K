@@ -172,7 +172,7 @@ reign_in_imperial_world = {
 			limit = { NOT = { has_global_flag = eoc_inegrate_tributaries } } 
 			custom_trigger_tooltip = {
 				tooltip = CENTRALIZATED_IMPERIUM_NOT_PASSED_TT
-				has_global_flag = eoc_inegrate_tributaries 
+				has_global_flag = eoc_integrate_tributaries 
 			}
 		}
 		imperial_mandate = 10
