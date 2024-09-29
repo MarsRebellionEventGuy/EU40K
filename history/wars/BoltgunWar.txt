@@ -1,0 +1,16 @@
+name = "Chaos Invasion of Graia"
+war_goal = {
+	type = take_border
+	casus_belli = cb_border_war
+	province = 3309
+}
+
+1999.1.1 = {
+	add_attacker = XON
+	add_defender = XOL
+}
+
+2001.1.1 = {
+	rem_attacker = XON
+	rem_defender = XOL
+}

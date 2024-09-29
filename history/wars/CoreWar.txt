@@ -1,0 +1,18 @@
+name = "Chaos Invasion of Armageddon"
+war_goal = {
+	type = take_border
+	casus_belli = cb_border_war
+	province = 1393
+}
+
+1999.1.1 = {
+	add_attacker = XBP
+	add_defender = XZS
+	add_defender = XZT
+}
+
+2001.1.1 = {
+	rem_attacker = XBP
+	rem_defender = XZS
+	rem_defender = XZT
+}

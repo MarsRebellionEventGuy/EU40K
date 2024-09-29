@@ -1,0 +1,17 @@
+government = theocracy
+add_government_reform = chaos_cult_reform
+government_rank = 1
+technology_group = chaos
+religion = slaanesh
+primary_culture = chaos_culture
+capital = 184
+
+1970.12.12 = {
+		monarch = {
+			name = "Hector van Gard"	
+			adm = 3
+			dip = 3
+			mil = 4
+		}
+	}
+}

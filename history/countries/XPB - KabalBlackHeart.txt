@@ -1,0 +1,16 @@
+government = theocracy
+add_government_reform = drukhari_cult_reform
+government_rank = 3
+technology_group = eldar
+religion = dark_muses
+primary_culture = drukhari_culture
+capital = 3339
+
+1970.12.12 = {
+	monarch = {
+		name = "Asdrubael Vect"	
+		adm = 5
+		dip = 6
+		mil = 3
+	}
+}

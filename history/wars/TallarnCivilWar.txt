@@ -1,0 +1,16 @@
+name = "Chaos Invasion of Tallarn"
+war_goal = {
+	type = take_border
+	casus_belli = cb_border_war
+	province = 3032
+}
+
+1999.1.1 = {
+	add_attacker = XYZ
+	add_defender = XOM
+}
+
+2001.1.1 = {
+	rem_attacker = XYZ
+	rem_defender = XOM
+}

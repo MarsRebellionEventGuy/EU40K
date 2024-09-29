@@ -1,0 +1,9 @@
+add_core = XPJ
+owner = XPJ
+controller = XPJ
+religion = imperial_cult
+culture = human_culture
+base_tax = 1
+base_production = 1
+base_manpower = 1
+trade_goods = clerks
