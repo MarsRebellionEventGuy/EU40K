@@ -646,7 +646,7 @@ NCountry = {
 
 
 	EXPLORE_COAST_EVENT_CHANCE = 2,			-- Chance (in %) of getting an event when exploring coasts
-	MIN_TECH_FOR_CIRCUMNAVIGATE = 9,			-- Must have this level of dip tech to circumnavigate the globe
+	MIN_TECH_FOR_CIRCUMNAVIGATE = 40,			-- Must have this level of dip tech to circumnavigate the globe
 	CIRCUMNAVIGATION_PROVINCE_1 = 1468,			-- Provinces for circumnavigation (coast of gambia)
 	CIRCUMNAVIGATION_PROVINCE_2 = 1539,			-- Provinces for circumnavigation (magellan strait)
 	CIRCUMNAVIGATION_PROVINCE_3 = 1697,			-- Provinces for circumnavigation (hawaii sea)
