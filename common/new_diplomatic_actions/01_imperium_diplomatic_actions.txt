@@ -523,6 +523,19 @@ call_astartes_into_wars = {
 				FROM = { is_at_war = no }
 			}
 		}
+		if = {
+			limit = {
+				all_war_enemy_countries={
+					truce_with = FROM
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = FROM_NO_TRUCE_WITH_FOES_TT
+				any_war_enemy_country={
+					NOT={truce_with = FROM}
+				}
+			}
+		}
 	}
 	on_accept = {
 		FROM = {

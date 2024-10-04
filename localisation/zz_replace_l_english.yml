@@ -125,6 +125,7 @@
  reign_in_astartes_title: "End Chapter Autonomy"
  reign_in_astartes_tooltip: "Spend §Y10§! Imperial Cohesion to end the autonomy of [From.GetName]."
  call_astartes_into_wars_title: "Call Chapter to War"
+ FROM_NO_TRUCE_WITH_FOES_TT: "§Y[From.GetName]§! §Rhas no Truce with our current War Enemies.§!"
  invite_into_imperium_title: "Contact Lost World"
  join_imperium_title: "Return to the Imperium"
  BASE_ROOT_IS_TRUE_IMPERIUM: "God Emperor"
