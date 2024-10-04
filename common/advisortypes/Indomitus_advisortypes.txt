@@ -2,6 +2,10 @@
 irthuhaemotalion = {
 	monarch_power = ADM
 	legitimacy = -1
+	skill_scaled_modifier = {
+		trigger = { owner = { has_estate = estate_eunuchs } }
+		modifier = { eunuchs_influence_modifier = 0.05 }
+	}
 	chance = {
 		factor = 0
 	}
@@ -14,6 +18,10 @@ irthuhaemotalion = {
 mereldapereth = {
 	monarch_power = DIP
 	stability_cost_to_declare_war = 1
+	skill_scaled_modifier = {
+		trigger = { owner = { has_estate = estate_eunuchs } }
+		modifier = { eunuchs_influence_modifier = 0.05 }
+	}
 
 	chance = {
 		factor = 0
@@ -27,6 +35,11 @@ mereldapereth = {
 avelizadrachmar = {
 	monarch_power = MIL
 	special_unit_forcelimit = -0.50
+	skill_scaled_modifier = {
+		trigger = { owner = { has_estate = estate_eunuchs } }
+		modifier = { eunuchs_influence_modifier = 0.05 }
+	}
+	
 	chance = {
 		factor = 0
 	}

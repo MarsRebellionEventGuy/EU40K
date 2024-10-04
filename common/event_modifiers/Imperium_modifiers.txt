@@ -2,3 +2,12 @@ XXA_increased_ordo_machinum_overwatch = {
 	liberty_desire = 10
 	technology_cost = 0.05
 }
+estate_inquisition_independent_action_disloyal = {
+	global_unrest = 2 
+}
+estate_inquisition_independent_action_neutral = {
+	global_missionary_strength = 0.01
+}
+estate_inquisition_independent_action_loyal = {
+	global_missionary_strength = 0.03
+}

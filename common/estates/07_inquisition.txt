@@ -8,13 +8,19 @@ estate_inquisition = {
 
 	# These scale with loyalty & power
 	country_modifier_happy = {
+		yearly_corruption = -0.02
+		global_missionary_strength = 0.01
 	}
 	country_modifier_neutral = {
+		global_missionary_strength = 0.005
 	}	
 	country_modifier_angry = {
+		global_unrest = 2
+		yearly_corruption = 0.05
+		global_missionary_strength = -0.01
 	}
 	land_ownership_modifier = {
-		burghers_loyalty_modifier = 0.2
+		inquisition_loyalty_modifier = 0.2
 	}
 	
 	province_independence_weight = {
@@ -62,6 +68,8 @@ estate_inquisition = {
 	privileges = {
 		estate_inquisition_increase_ordo_machinum
 		estate_inquisition_increase_ordo_scriptorum
+		estate_inquisition_independent_action
+		estate_inquisition_land_rights
 	}
 
 	agendas = {

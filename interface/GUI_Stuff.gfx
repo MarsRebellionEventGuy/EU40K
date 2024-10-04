@@ -3,4 +3,8 @@ spriteTypes = {
 		name = "GFX_standard_button_invisible"
 		texturefile = "gfx/interface/standard_button_invisible.dds"
 	}
+	textSpriteType = {
+		name = "privilege_aged_paper_rosetta"
+		texturefile = "gfx/interface/privileges/privilege_aged_paper_rosetta.dds"
+	}
 }
