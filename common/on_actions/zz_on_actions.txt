@@ -167,8 +167,8 @@ on_startup={
 				which = ImperiumGoldenThroneFailing
 			}
 			set_variable = {
-				value = -1
 				which = ImperiumGoldenThroneFailingChange
+				value = -1
 			}
 			
 			set_variable = {
@@ -265,7 +265,7 @@ on_startup={
 		}
 	}
 }
-on_yearly_pulse = {
+on_yearly_pulse_2 = {
 	events={
 		imperium_events.4
 	}

@@ -1,0 +1,83 @@
+failed_golden_throne_disaster = {
+	ended_by_country_breaking_to_rebels = no
+	potential = {
+		NOT = { has_country_flag = had_golden_throne_fail }
+		is_free_or_tributary_trigger = yes
+		is_emperor_of_china = yes
+		1={
+			not={
+				check_variable = {
+					which = ImperiumGoldenThroneFailing
+					value = 15
+				}
+			}
+		}
+	}
+	
+	can_start = {
+		1={
+			not={
+				check_variable = {
+					which = ImperiumGoldenThroneFailing
+					value = 1
+				}
+			}
+		}
+	}
+	
+	can_stop = { 
+		check_variable = {
+			which = ImperiumGoldenThroneFailing
+			value = 1
+		}
+	}
+	
+	
+	progress = {
+		modifier = {
+			factor = 100
+			is_emperor_of_china = yes
+		}
+	}
+	
+	can_end = {
+		1={
+			has_great_project = {
+				type = golden_throne
+				tier = 1
+			}
+		}
+		solar={
+			type = all
+			OR={
+				province_id = 2
+				AND={
+					owned_by = ROOT
+					religion_group = emperor_group
+				}
+			}
+		}
+		mission_completed = mnd_maj_end_disaster
+	}
+	
+
+	modifier = {
+		all_power_cost = 0.15
+		imperial_mandate = -0.3
+		reduced_liberty_desire = -15
+	}
+	
+	on_start = imperium_events.5 # Fall of Terra
+	on_end = imperium_events.6 # Rebuilding the Golden Throne
+	
+	on_monthly = {
+		events = {
+
+		}
+		random_events = {
+			360 = 0
+
+		}
+	}
+}
+

@@ -3,18 +3,18 @@ golden_throne = {
 	start = 1
 	
 	# date built in real life (so anything built during game time will be there if you start a game after that date)
-	date = 1999.01.01
+	date = 1.01.01
 	
 	#time to build
 	time = {
-		months = 0
+		months = 240
 	}
 	
 	#how much to build one
-	build_cost = 0
+	build_cost = 20000
 	
 	#can we move it?
-	can_be_moved = yes
+	can_be_moved = no
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 2
@@ -28,6 +28,7 @@ golden_throne = {
 	#can we build it?
 	build_trigger = {
 		culture_group = imperial_culture_group
+		
 	}
 
 	#what to do when it's built

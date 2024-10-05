@@ -604,13 +604,17 @@ XXA_Branch_4 = {
 		position = 1
 		
 		provinces_to_highlight = {
-			owned_by = XXA
+			owned_by = ROOT
 		}
 		
 		trigger = {
 			solar = {
 				type = all
 				NOT = { has_rebel_faction = heretic_rebels }
+				OR={
+					owned_by_subject_of = ROOT
+					owned_by = ROOT
+				}
 			}
 		}
 		

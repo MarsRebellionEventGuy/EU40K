@@ -33,3 +33,114 @@ custom_shield = {
    global_event_target = adeptus_mechanicus_tag # Global event target name
    open_country = yes #If clicking opens the country view
 }
+custom_button = {
+	name = imperium_TI_increase_blackship_loads #
+	potential = { } #Determines when the button is visible
+	trigger = { 
+		is_emperor_of_china = yes # is Imperium
+		custom_trigger_tooltip={
+			tooltip = imperium_TI_Throne_Integity_95
+			1={
+				check_variable = {
+					which = ImperiumGoldenThroneFailing
+					value = 0
+				}
+				not={
+					check_variable = {
+						which = ImperiumGoldenThroneFailing
+						value = 95
+					}
+				}
+			}
+		}
+	} 
+	effect = { 
+		custom_tooltip = imperium_TI_blackship_subject_effect_tt
+		hidden_effect={
+			every_subject_country = { 
+				limit={
+					OR={
+						is_subject_of_type = integrated_world_subject_type
+						is_subject_of_type = imperial_world_subject_type
+						is_subject_of_type = nominal_imperial_world_subject_type
+					}
+				}
+				add_liberty_desire = 10
+				add_manpower = -1
+			}
+		}
+		1={
+			change_variable = {
+				which = ImperiumGoldenThroneFailing
+				value = 5
+			}
+			if={
+				limit={
+					check_variable = {
+						which = ImperiumGoldenThroneFailing
+						value = 100
+					}
+				}
+				set_variable = {
+					which = ImperiumGoldenThroneFailing
+					value = 100
+				}
+			}
+		}
+	} 
+	tooltip = imperium_TI_increase_blackship_loads_tt #
+}
+custom_button = {
+	name = imperium_TI_convert_STCs #
+	potential = { } #Determines when the button is visible
+	trigger = { 
+		is_emperor_of_china = yes # is Imperium
+		custom_trigger_tooltip={
+			tooltip = imperium_TI_Throne_Integity_85
+			1={
+				check_variable = {
+					which = ImperiumGoldenThroneFailing
+					value = 0
+				}
+				not={
+					check_variable = {
+						which = ImperiumGoldenThroneFailing
+						value = 85
+					}
+				}
+			}
+		}
+		any_owned_province={
+			trade_goods = archaotech
+			NOT={ province_id = 1 }
+		}
+	} 
+	effect = { 
+		random_owned_province={
+			limit={
+				trade_goods = archaotech
+				NOT={ province_id = 1 }
+			}
+			change_trade_goods = unknown
+		}
+		1={
+			change_variable = {
+				which = ImperiumGoldenThroneFailing
+				value = 15
+			}
+			if={
+				limit={
+					check_variable = {
+						which = ImperiumGoldenThroneFailing
+						value = 100
+					}
+				}
+				set_variable = {
+					which = ImperiumGoldenThroneFailing
+					value = 100
+				}
+			}
+		}
+	}
+	tooltip = imperium_TI_convert_STCs_tt #
+}

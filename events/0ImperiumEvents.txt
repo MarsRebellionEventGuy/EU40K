@@ -149,7 +149,7 @@ country_event = {
 		1={
 			change_variable = {
 				which = ImperiumGoldenThroneFailing
-				value = ImperiumGoldenThroneFailingChange
+				which = ImperiumGoldenThroneFailingChange
 			}
 			if={
 				limit={
@@ -164,6 +164,67 @@ country_event = {
 					which = ImperiumGoldenThroneFailing
 					value = 0
 				}
+			}
+		}
+	}
+	option = {
+		name = "imperium_events.4.a"
+	}
+}
+
+country_event = {
+	id = imperium_events.5
+	title = "imperium_events.5.t"
+	desc = "imperium_events.5.d"
+	picture = CONQUEST_eventPicture
+
+	is_triggered_only = yes
+	
+	major = yes
+
+	option = {
+		name = "imperium_events.5.a"
+		set_country_flag = XXA_destroyed_golden_throne
+		solar={
+			limit={
+				not = {province_id = 2}
+			}
+			decolonize = THIS
+		}
+		1={
+			destroy_great_project = {
+				type = golden_throne
+			}
+		}
+	}
+}
+country_event = {
+	id = imperium_events.6
+	title = "imperium_events.6.t"
+	desc = "imperium_events.6.d"
+	picture = CONQUEST_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = "imperium_events.6.a"
+	}
+}
+
+country_event = {#test event
+	id = imperium_events.7
+	title = "imperium_events.7.t"
+	desc = "imperium_events.7.d"
+	picture = CONQUEST_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "imperium_events.7.a"
+		1={
+			set_variable = {
+				which = ImperiumGoldenThroneFailing
+				value = 14
 			}
 		}
 	}

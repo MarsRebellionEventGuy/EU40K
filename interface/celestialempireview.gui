@@ -149,6 +149,31 @@ guiTypes = {
 			format = center
 			scripted = yes
 		}
+		
+		guiButtonType = 
+		{
+			name ="imperium_TI_increase_blackship_loads"
+			quadTextureSprite = "GFX_increase_blackship_loads_icon"
+			position = { x= 105 y = 285 }
+			tooltip = ""
+			tooltipText ="imperium_TI_increase_blackship_loads_tt"
+			delayedTooltipText = ""
+			buttonFont = "vic_18_black"
+			hint_tag = "hint_emperor"
+			scripted = yes
+		}
+		guiButtonType = 
+		{
+			name ="imperium_TI_convert_STCs"
+			quadTextureSprite = "GFX_convert_STC_icon"
+			position = { x= 105 y = 325 }
+			tooltip = ""
+			tooltipText ="imperium_TI_convert_STCs_tt"
+			delayedTooltipText = ""
+			buttonFont = "vic_18_black"
+			hint_tag = "hint_emperor"
+			scripted = yes
+		}
 
 		instantTextBoxType = {
 			name = "decree_label"
@@ -183,6 +208,18 @@ guiTypes = {
 			horizontal = 0
 			spacing = 0
 			borderSize = {x = 10 y = 10}
+		}
+		
+		instantTextBoxType = {
+			name = "subject_label"
+			position = { x = 476 y = 205 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 4 y = 0}
+			text = "Vassals"
+			maxWidth = 0
+			maxHeight = 0
+			format = centre
 		}
 		
 		instantTextBoxType = {

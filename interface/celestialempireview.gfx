@@ -80,4 +80,12 @@ spriteTypes = {
 		name = "GFX_throne_integrity_icon"
 		texturefile = "gfx/interface/eoc_golden_throne_integrity.dds"
 	}
+	spriteType = {
+		name = "GFX_convert_STC_icon"
+		texturefile = "gfx/interface/convert_STC_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_increase_blackship_loads_icon"
+		texturefile = "gfx/interface/increase_blackship_loads_icon.dds"
+	}
 }
