@@ -196,6 +196,9 @@ country_event = {
 				type = golden_throne
 			}
 		}
+		set_meritocracy = 0
+		set_mandate = 0
+		add_prestige = -200
 	}
 }
 country_event = {
