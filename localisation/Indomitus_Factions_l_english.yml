@@ -5,3 +5,12 @@
  imperial_navy_faction_FACTION_DESC:0 "The Navis Imperialis is the naval force of the Imperium, maintaining order between the vast void that separates the Imperium's countless worlds while providing transportation and air support to its ground forces.\n§YGain influence by maintaining a navy at full maintenance and above 90% of its Force Limit.§!"
  space_marines_faction:0 "Adeptus Astartes"
  space_marines_faction_FACTION_DESC:0 "The Adeptus Astartes are the transhuman elite strike forces of the Imperium. Though limited in number, their strength and will are unrivaled\n§YGain influence by activating the Order New Founding government interaction\n§YGain influence by establishing Space Marine Chapters§!"
+
+
+
+ astartes_faction_1:0 "The Veterans"
+ astartes_faction_1_FACTION_DESC:0 "The Chapter's battle-hardened core members, Veteran Marines are usually drawn from the 1st Company and possess exceptional prowess which compensates for their limited numbers.\n§YEmpowered by a loyal Veterans estate (60+)\nEmpowered by maintaining Professionalism above 50%§!"
+ astartes_faction_2:0 "The Primaris"
+ astartes_faction_2_FACTION_DESC:0 "A newer, more stable variant of Astartes, Primaris Marines are plentiful and capable yet limited by their lack of experience.\n§YEmpowered by good relations with the Imperium (+100)\nEmpowered by hiring new Leaders§!"
+ astartes_faction_3:0 "The Firstborn"
+ astartes_faction_3_FACTION_DESC:0 "Representing specialist and traditional roles dominated by older, pre-Primaris marines, the Firstborn espouse the Codex Astartes and Chapter traditions to the point of dogmatism.\n§YEmpowered by allying other Astartes Chapters\nEmpowered by at least 20 units at full drill§!."

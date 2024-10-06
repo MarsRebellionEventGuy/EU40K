@@ -105,6 +105,16 @@ astartes_reform = {
 		}
 	}
 
+	factions = {
+		astartes_faction_1
+		astartes_faction_2
+		astartes_faction_3
+	}
+
+	government_abilities = {
+		astartes_mechanic
+	}
+
 	custom_attributes = {
 		militarised_society = yes
 	}

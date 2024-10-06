@@ -1,0 +1,31 @@
+astartes_faction_1 = {
+	monarch_power = MIL
+	always = yes
+
+	modifier = {
+		land_maintenance_modifier = -0.15
+		land_morale = 0.10
+	}
+}
+
+astartes_faction_2 = {
+	monarch_power = MIL
+	always = yes
+
+	#buildings, Internal Stability.
+	modifier = {
+		naval_maintenance_modifier = -0.15
+		naval_morale = 0.10
+	}
+}
+
+astartes_faction_3 = {
+	monarch_power = MIL
+	always = yes
+
+	#Merchants, Traders, Expansions.
+	modifier = {
+		merc_maintenance_modifier = -0.15
+		mercenary_discipline = 0.05
+	}
+}

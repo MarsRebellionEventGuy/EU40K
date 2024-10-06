@@ -3,7 +3,7 @@ Chapter_Branch_1 = {
 	generic = no
 	ai = yes
 	potential = {
-		always = no
+		   
 		primary_culture = loyalist_astartes_culture
 	}
 	has_country_shield = yes
@@ -17,6 +17,10 @@ Chapter_Branch_1 = {
 		}
 		
 		trigger = {
+			estate_loyalty = {
+				estate = estate_nobles
+				loyalty = 60
+			}
 		}
 		
 		effect = {
@@ -28,9 +32,25 @@ Chapter_Branch_1 = {
 		position = 3
 		
 		provinces_to_highlight = {
+			owned_by = ROOT
 		}
 		
 		trigger = {
+			num_of_banners = 5
+			OR = {
+				faction_influence = {
+					faction = astartes_faction_1
+					influence = 100
+				}
+				faction_influence = {
+					faction = astartes_faction_2
+					influence = 100
+				}
+				faction_influence = {
+					faction = astartes_faction_3
+					influence = 100
+				}
+			}
 		}
 		
 		effect = {
@@ -44,7 +64,7 @@ Chapter_Branch_2 = {
 	generic = no
 	ai = yes
 	potential = {
-		always = no
+		   
 		primary_culture = loyalist_astartes_culture
 	}
 	has_country_shield = yes
@@ -55,9 +75,16 @@ Chapter_Branch_2 = {
 		position = 1
 		
 		provinces_to_highlight = {
+			OR = {
+				infantry_in_province = ROOT
+				cavalry_in_province = ROOT
+				artillery_in_province = ROOT
+			}
 		}
 		
 		trigger = {
+			num_of_banners = 1
+			num_of_regiments_at_full_drill = 4
 		}
 		
 		effect = {
@@ -69,9 +96,11 @@ Chapter_Branch_2 = {
 		position = 3
 		
 		provinces_to_highlight = {
+			owned_by = ROOT
 		}
 		
 		trigger = {
+			has_adm_advisor_3 = yes
 		}
 		
 		effect = {
@@ -83,9 +112,22 @@ Chapter_Branch_2 = {
 		position = 3
 		
 		provinces_to_highlight = {
+			owned_by = ROOT
 		}
 		
 		trigger = {
+			OR = {
+				has_church_aspect = imperial_cult_inquisition_ordo_hereticus_aspect
+				has_church_aspect = imperial_cult_inquisition_ordo_malleus_aspect
+				has_church_aspect = imperial_cult_inquisition_ordo_xenos_aspect
+				NOT = { religion = imperial_cult }
+			}
+			OR = {
+				has_church_aspect = imperial_cult_ecclesiarchy_creed_temporal_aspect
+				has_church_aspect = imperial_cult_ecclesiarchy_sororitas_aspect
+				imperial_cult_ecclesiarchy_missionarus_galaxia_aspect
+				NOT = { religion = imperial_cult }
+			}
 		}
 		
 		effect = {
@@ -98,7 +140,6 @@ Chapter_Branch_3 = {
 	generic = no
 	ai = yes
 	potential = {
-		always = no
 		primary_culture = loyalist_astartes_culture
 	}
 	has_country_shield = yes
@@ -112,6 +153,8 @@ Chapter_Branch_3 = {
 		}
 		
 		trigger = {
+			has_church_aspect = imperial_cult_inquisition_ordo_hereticus_aspect
+			has_dip_advisor_3 = yes
 		}
 		
 		effect = {
@@ -123,9 +166,12 @@ Chapter_Branch_3 = {
 		position = 3
 		
 		provinces_to_highlight = {
+			is_capital_of = ROOT
+			OR = { NOT = { has_fort_building_trigger = yes } NOT = { has_tax_building_trigger = yes } }
 		}
 		
 		trigger = {
+			capital_scope = { has_fort_building_trigger = yes has_tax_building_trigger = yes }
 		}
 		
 		effect = {
@@ -147,166 +193,166 @@ Chapter_Branch_3 = {
 	}
 }
 
-Chapter_Branching_Hidden_Branch_1 = {
+astartes_second_choice_slot = {
 	slot = 3
 	generic = no
 	ai = yes
+	potential_on_load = {
+	}
 	potential = {
-		always = no
 		primary_culture = loyalist_astartes_culture
-		NOT = { has_country_flag = Chapter_Branching_Imperium }
-		NOT = { has_country_flag = Chapter_Branching_Protectorate }		
+		NOT = { has_country_flag = astartes_decide_for_imperium }
+		NOT = { has_country_flag = astartes_decide_for_protectorate }
+		NOT = { has_country_flag = astartes_decide_for_chaos }
 	}
 	has_country_shield = yes
-	
-	Chapter_Branching_Hidden_1 = {
-		icon = mission_unknown_mission
-		position = 5
-		required_missions = { Chapter_8 }
-		
-		trigger = {
-			custom_trigger_tooltip = {
-				tooltip = CHAPTER_BRANCH_TOOLTIP
-			}
-		}
-		
-		effect = {
-			custom_tooltip = CHAPTER_BRANCH_TOOLTIP
-		}
-	}
-	Chapter_Branching_Hidden_2 = {
-		icon = mission_unknown_mission
-		position = 6
-		required_missions = { Chapter_Branching_Hidden_1 }
-		
-		trigger = {
-			custom_trigger_tooltip = {
-				tooltip = CHAPTER_BRANCH_TOOLTIP
-			}
-		}
-		
-		effect = {
-			custom_tooltip = CHAPTER_BRANCH_TOOLTIP
-		}
-	}
-	Chapter_Branching_Hidden_3 = {
-		icon = mission_unknown_mission
-		position = 7
-		required_missions = { Chapter_Branching_Hidden_2 }
-		
-		trigger = {
-			custom_trigger_tooltip = {
-				tooltip = CHAPTER_BRANCH_TOOLTIP
-			}
-		}
-		
-		effect = {
-			custom_tooltip = CHAPTER_BRANCH_TOOLTIP
-		}
-	}
-}
 
-
-Chapter_Branching_Imperium_Branch_1 = {
-	slot = 3
-	generic = no
-	ai = yes
-	potential = {
-		always = no
-		primary_culture = loyalist_astartes_culture
-		has_country_flag = Chapter_Branching_Imperium
-	}
-	has_country_shield = yes
-	
-	Chapter_Branching_Imperium_1 = {
-		icon = mission_into_arabia
-		position = 5
+	astartes_second_branch_mission_one = {
+		icon = mission_unknown_mission
 		required_missions = { Chapter_8 }
-		
-		provinces_to_highlight = {
-		}
+		position = 2
 		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = selectable_mission_trigger_tt
+				always = no
+			}
 		}
-		
 		effect = {
 		}
 	}
-	Chapter_Branching_Imperium_2 = {
-		icon = mission_into_arabia
-		position = 6
-		required_missions = { Chapter_Branching_Imperium_1 }
-		
-		provinces_to_highlight = {
-		}
+	astartes_second_branch_mission_two = {
+		icon = mission_unknown_mission
+		required_missions = { Chapter_8 }
+		position = 2
 		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = selectable_mission_trigger_tt
+				always = no
+			}
 		}
-		
 		effect = {
 		}
 	}
-	Chapter_Branching_Imperium_3 = {
-		icon = mission_into_arabia
-		position = 7
-		required_missions = { Chapter_Branching_Imperium_2 }
-		
-		provinces_to_highlight = {
-		}
+	astartes_second_branch_mission_three = {
+		icon = mission_unknown_mission
+		required_missions = { astartes_second_branch_mission_two }
+		position = 2
 		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = selectable_mission_trigger_tt
+				always = no
+			}
 		}
-		
 		effect = {
 		}
 	}
 }
 
-Chapter_Branching_Protectorate_Branch_1 = {
+chapter_imperium_second_slot = {
 	slot = 3
 	generic = no
 	ai = yes
+	potential_on_load = {
+	}
 	potential = {
-		always = no
 		primary_culture = loyalist_astartes_culture
-		has_country_flag = Chapter_Branching_Protectorate
+		has_country_flag = astartes_decide_for_imperium
 	}
 	has_country_shield = yes
-	
-	Chapter_Branching_Protectorate_1 = {
-		icon = mission_into_arabia
-		position = 5
+
+	astartes_imperium_one = {
+		icon = mission_mal_jihad_upon_own_population
 		required_missions = { Chapter_8 }
-		
+		position = 2
 		provinces_to_highlight = {
 		}
 		trigger = {
+			not_in_mission_preview_mode = { key = MAL }
 		}
-		
 		effect = {
+			
+		}
+		ai_weight = {
 		}
 	}
-	Chapter_Branching_Protectorate_2 = {
-		icon = mission_into_arabia
-		position = 6
-		required_missions = { Chapter_Branching_Imperium_1 }
-		
+	astartes_imperium_two = {
+		icon = mission_mal_jihad_upon_own_population
+		required_missions = { astartes_imperium_one }
+		position = 2
 		provinces_to_highlight = {
 		}
 		trigger = {
+			not_in_mission_preview_mode = { key = MAL }
 		}
-		
 		effect = {
+			
+		}
+		ai_weight = {
 		}
 	}
-	Chapter_Branching_Protectorate_3 = {
-		icon = mission_into_arabia
-		position = 7
-		required_missions = { Chapter_Branching_Protectorate_2 }
-		
+	astartes_imperium_three = {
+		icon = mission_mal_jihad_upon_own_population
+		required_missions = { astartes_imperium_two }
+		position = 2
 		provinces_to_highlight = {
 		}
 		trigger = {
+			not_in_mission_preview_mode = { key = MAL }
 		}
-		
 		effect = {
+			
+		}
+		ai_weight = {
+		}
+	}
+}
+
+mali_tolerance_slot = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential_on_load = {
+		has_dlc = "Origins"
+	}
+	potential = {
+		has_dlc = "Origins"
+		NOT = { map_setup = map_setup_random }
+		tag = MAL
+		has_country_flag = mal_decide_for_tolerance
+	}
+	has_country_shield = yes
+
+	#Enforce your choice
+	mal_more_tolerance_to_heathens = {
+		icon = mission_mal_more_tolerance_to_heathens
+		required_missions = { mal_pick_religious_direction }
+		position = 2
+		trigger = {
+			not_in_mission_preview_mode = { key = MAL }
+			custom_trigger_tooltip = {
+				tooltip = son_back_to_the_roots_ct
+				has_global_modifier_value = {
+					which = tolerance_heathen
+					value = 3
+				}
+			}
+			num_of_estate_privileges = {
+				estate = estate_dhimmi
+				value = 2
+			}
+			estate_influence = {
+				estate = estate_dhimmi
+				influence = 50
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = mal_fan_of_the_dhimmi
+				duration = 9125
+			}
+		}
+		ai_weight = {
+			factor = 75	#Default
 		}
 	}
 }
@@ -316,7 +362,6 @@ Chapter_Branch_4 = {
 	generic = no
 	ai = yes
 	potential = {
-		always = no
 		primary_culture = loyalist_astartes_culture
 	}
 	has_country_shield = yes
@@ -327,9 +372,12 @@ Chapter_Branch_4 = {
 		position = 1
 		
 		provinces_to_highlight = {
+			owned_by = ROOT
 		}
 		
 		trigger = {
+			num_of_heavy_ship = 3
+			navy_size_percentage = 1
 		}
 		
 		effect = {
@@ -341,9 +389,30 @@ Chapter_Branch_4 = {
 		position = 3
 		
 		provinces_to_highlight = {
+			region_for_scope_province = {
+				is_capital_of = ROOT
+			}
+			religion_group = chaos_group
+			religion_group = ork_group
+			religion_group = tyranid_group
 		}
 		
 		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = indomitus_cleanse_home_region_tooltip
+				capital_scope = {
+					region_for_scope_province = {
+						type = all
+						NOT = {
+							OR = {
+								religion_group = chaos_group
+								religion_group = ork_group
+								religion_group = tyranid_group
+							}
+						}
+					}
+				}
+			}
 		}
 		
 		effect = {
@@ -355,12 +424,16 @@ Chapter_Branch_4 = {
 		position = 4
 		
 		provinces_to_highlight = {
+			owned_by = ROOT
 		}
 		
 		trigger = {
+			has_flagship = yes
+			num_of_captured_ships_with_boarding_doctrine = 10
 		}
 		
 		effect = {
+			
 		}
 	}
 }
@@ -370,7 +443,6 @@ Chapter_Branch_5 = {
 	generic = no
 	ai = yes
 	potential = {
-		always = no
 		primary_culture = loyalist_astartes_culture
 	}
 	has_country_shield = yes
@@ -384,6 +456,10 @@ Chapter_Branch_5 = {
 		}
 		
 		trigger = {
+			check_variable = {
+				which = indomitus_allied_fleets
+				value = 5
+			}
 		}
 		
 		effect = {
@@ -395,9 +471,20 @@ Chapter_Branch_5 = {
 		position = 3
 		
 		provinces_to_highlight = {
+			owner = { religion = cult_mechanicus NOT = { has_opinion = { who = ROOT value = 120 } } }
 		}
 		
 		trigger = {
+			calc_true_if = {
+				all_country = {
+					religion = cult_mechanicus
+					has_opinion = {
+						who = ROOT
+						value = 120
+					}
+				}
+				amount = 2
+			}
 		}
 		
 		effect = {
