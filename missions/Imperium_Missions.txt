@@ -444,7 +444,7 @@ XXA_Branch_3 = {
 		
 		provinces_to_highlight = {
 			owner = {
-       				capital_scope = {
+       			capital_scope = {
 					OR = {
 						area = western_necromunda
 						area = eastern_necromunda
@@ -453,7 +453,7 @@ XXA_Branch_3 = {
 				OR = {
 					naval_strength = {
 						who = ROOT
-						value = 0.50
+						value = 0.33
 					}
 					NOT = {
 						has_spy_network_from = {
@@ -468,17 +468,17 @@ XXA_Branch_3 = {
 		trigger = {
 			custom_trigger_tooltip = {
 				tooltip = XXA_Necromunda_Trigger_Tooltip
-				NOT = {
-					any_country = {
+				any_country = {
+					NOT={
 						naval_strength = {
 							who = ROOT
-							value = 0.50
+							value = 0.34
 						}
-						capital_scope = {
-							OR = {
-								area = western_necromunda
-								area = eastern_necromunda
-							}
+					}
+					capital_scope = {
+						OR = {
+							area = western_necromunda
+							area = eastern_necromunda
 						}
 					}
 				}
