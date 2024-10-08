@@ -1,0 +1,25 @@
+# Triggered modifiers are here.
+# these are checked for each countries once/month and then applied.
+#
+# Effects are fully scriptable here.
+
+missing_mechanicus_modifier = {
+	potential = {
+		is_emperor_of_china = yes
+		NOT={
+			any_subject_country={
+				is_subject_of_type = mechanicus_subject_type
+			}
+		}
+	}
+
+	trigger = {
+		NOT={
+			any_subject_country={
+				is_subject_of_type = mechanicus_subject_type
+			}
+		}
+	}
+
+	global_trade_goods_size_modifier = -0.25
+}

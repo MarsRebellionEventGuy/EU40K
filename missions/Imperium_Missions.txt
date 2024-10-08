@@ -186,11 +186,36 @@ XXA_Branch_2 = {
 		}
 		
 		trigger = {
-			is_core = 474
-			is_core = 490
-			is_core = 211
-			is_core = 182
-			is_core = 183
+			OR={
+				any_subject_country = {
+					is_core = 474
+				}
+				is_core = 474
+			}
+			OR={
+				any_subject_country = {
+					is_core = 490
+				}
+				is_core = 490
+			}
+			OR={
+				any_subject_country = {
+					is_core = 211
+				}
+				is_core = 211
+			}
+			OR={
+				any_subject_country = {
+					is_core = 182
+				}
+				is_core = 182
+			}
+			OR={
+				any_subject_country = {
+					is_core = 183
+				}
+				is_core = 183
+			}
 		}
 		
 		effect = {
