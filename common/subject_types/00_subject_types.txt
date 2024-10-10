@@ -58,7 +58,7 @@ soyurghal_subject_type = {}
 
 astartes_subject_type = {}
 autonomus_astartes_subject_type = {}
-mechanicus_subject_type = {}
+0_mechanicus_subject_type = {}
 integrated_world_subject_type = {}
 imperial_world_subject_type = {}
 nominal_imperial_world_subject_type = {}
