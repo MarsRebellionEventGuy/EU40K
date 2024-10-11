@@ -15,7 +15,97 @@ spriteTypes = {
 		name = "GFX_great_project_arx_angelicum"    
 		texturefile = "gfx//interface//great_project_arx_angelicum.dds"
     }
+
+
+
+	spriteType = {
+		name = "GFX_great_project_ringofmars"    
+		texturefile = "gfx//interface//great_project_ringofmars.dds"
+    }
+
+	spriteType = {
+		name = "GFX_great_project_towerofthecyclops"    
+		texturefile = "gfx//interface//great_project_towerofthecyclops.dds"
+    }
+
+	spriteType = {
+		name = "GFX_great_project_vansaarstc"    
+		texturefile = "gfx//interface//great_project_vansaarstc.dds"
+    }
+
+	spriteType = {
+		name = "GFX_great_project_blackstonefortress"    
+		texturefile = "gfx//interface//great_project_blackstonefortress.dds"
+    }
+
+	spriteType = {
+		name = "GFX_great_project_ryzasecundus"    
+		texturefile = "gfx//interface//great_project_ryzasecundus.dds"
+    }
+
+	spriteType = {
+		name = "GFX_great_project_olympusmons"    
+		texturefile = "gfx//interface//great_project_olympusmons.dds"
+    }
+
+	spriteType = {
+		name = "GFX_great_project_pariahnexus"    
+		texturefile = "gfx//interface//great_project_pariahnexus.dds"
+    }
+
+	spriteType = {
+		name = "GFX_great_project_towerofheroes"    
+		texturefile = "gfx//interface//great_project_towerofheroes.dds"
+    }
+
+	spriteType = {
+		name = "GFX_great_project_hallofjudgement"    
+		texturefile = "gfx//interface//great_project_hallofjudgement.dds"
+    }
+
+	spriteType = {
+		name = "GFX_great_project_telstarax"    
+		texturefile = "gfx//interface//great_project_telstarax.dds"
+    }
+
+	spriteType = {
+		name = "GFX_great_project_kin_forge"    
+		texturefile = "gfx//interface//great_project_kin_forge.dds"
+    }
+
+	spriteType = {
+		name = "GFX_great_project_aurora_illuminatio"    
+		texturefile = "gfx//interface//great_project_aurora_illuminatio.dds"
+    }
+
+	spriteType = {
+		name = "GFX_great_project_thranix_mark"    
+		texturefile = "gfx//interface//great_project_thranix_mark.dds"
+    }
+
+	spriteType = {
+		name = "GFX_great_project_irradial_forge"    
+		texturefile = "gfx//interface//great_project_irradial_forge.dds"
+    }
+
+	spriteType = {
+		name = "GFX_great_project_panopticon_station"    
+		texturefile = "gfx//interface//great_project_panopticon_station.dds"
+    }
+
+	spriteType = {
+		name = "GFX_great_project_gorgon_forge"    
+		texturefile = "gfx//interface//great_project_gorgon_forge.dds"
+    }
+
+	spriteType = {
+		name = "GFX_great_project_cathedral_word"    
+		texturefile = "gfx//interface//great_project_cathedral_word.dds"
+    }
+
+	spriteType = {
+		name = "GFX_great_project_convent_sanctorum"    
+		texturefile = "gfx//interface//great_project_convent_sanctorum.dds"
+    }
 }
-
-
 
