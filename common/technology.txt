@@ -29,7 +29,7 @@ groups = {
 		}
 	}
 	tau = {
-		start_level = 2
+		start_level = 3
 		start_cost_modifier = 0
 		nation_designer_cost = {
 			value = 200
@@ -50,7 +50,7 @@ groups = {
 		}
 	}
 	xeno = {
-		start_level = 6
+		start_level = 5
 		start_cost_modifier = 0
 		nation_designer_cost = {
 			value = 200

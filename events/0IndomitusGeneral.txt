@@ -198,3 +198,58 @@ country_event = {
 		remove_country_modifier = Imperium_Naval_Faction_Modifier
 	}
 }
+
+country_event = {
+	id = indomitus_general.7
+	title = "indomitus_general.7.t"
+	desc = "indomitus_general.7.d"
+	picture = ANGRY_MOB_eventPicture
+
+	hidden = yes
+	
+	trigger = {
+		tag = XXA
+		has_country_modifier = Imperium_Naval_Faction_Modifier
+		NOT = {
+			naval_maintenance = 1
+			navy_size_percentage = 0.90
+		}
+	}
+	
+	option = {
+		name = "indomitus_general.6.a"
+		remove_country_modifier = Imperium_Naval_Faction_Modifier
+	}
+}
+
+province_event = {
+	id = indomitus_general.8
+	title = "indomitus_general.8.t"
+	desc = "indomitus_general.8.d"
+	picture = CONQUEST_eventPicture
+
+	trigger = {
+		owner = { tag = XXA }
+		has_terrain = drylands
+		is_core = XXA
+		NOT = { has_province_flag = XXA_Forge_World_Decision }
+	}
+	
+	option = {
+		name = "indomitus_general.8.a"
+		cede_province = XXB
+		add_territorial_core = XXB
+		remove_core = XXA
+		set_province_flag = XXA_Forge_World_Decision
+	}
+	option = {
+		name = "indomitus_general.8.b"
+		owner = {
+			add_trust = {
+				who = XXB
+				value = -5
+			}
+		}
+		set_province_flag = XXA_Forge_World_Decision
+	}
+}

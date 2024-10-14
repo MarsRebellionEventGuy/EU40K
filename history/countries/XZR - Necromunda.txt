@@ -1,9 +1,7 @@
-government = republic
-add_government_reform = oligarchy_reform
+government = monarchy
+add_government_reform = imperial_governorate_reform
 government_rank = 1
-mercantilism = 5
-technology_group = american_government_tech
+technology_group = imperial
 religion = imperial_cult
 primary_culture = human_culture
-capital = 1
-fixed_capital = 1
+capital = 2842
