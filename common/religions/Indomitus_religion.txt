@@ -276,6 +276,27 @@ tyranid_group = {
 			local_missionary_strength = -0.02
 		}
 
+		#authority = yes
+		#religious_reforms = yes
+		#reform_tooltip = INTI_REFORM_TOOLTIP
+		
+		heretic = { FERALTYRANIDS }
+	}
+	genestealer_cult = {
+		color = { 94 21 189 }
+		icon = 12
+		country = {
+			leader_cost = -0.33
+			available_province_loot = 0.25
+		}
+		country_as_secondary = {
+			leader_cost = -0.20
+			available_province_loot = 0.15
+		}
+		province = {
+			local_missionary_strength = -0.02
+		}
+
 		authority = yes
 		religious_reforms = yes
 		#reform_tooltip = INTI_REFORM_TOOLTIP

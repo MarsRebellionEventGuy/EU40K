@@ -9,6 +9,19 @@ tribe_mechanic = {
 		enables_aristocratic_idea_group = yes
 	}
 }
+tyranid_mechanic = {
+	monarchy = yes
+	basic_reform = yes # = invisible/does not take up a slot
+	valid_for_nation_designer = no
+	heir = yes
+	queen = yes
+	custom_attributes = {
+		enables_horde_idea_group = yes
+	}
+	modifiers = {
+		global_sailors = 5000
+	}
+}
 
 ork_government_reform = {
 	icon = "ork_government"
@@ -77,10 +90,6 @@ hive_fleet_reform = {
 		global_institution_spread = -0.20
 		relation_with_heathens = -300
 		reverse_relation_with_heathens = -300
-	}
-	custom_attributes = {
-		enables_horde_idea_group = yes
-		enables_aristocratic_idea_group = no
 	}
 	ai = {
 		factor = 1000

@@ -196,6 +196,42 @@ tribal = {
 	}
 }
 
+tyranid = {
+	color = { 150 45 155 }
+	basic_reform = tyranid_mechanic
+
+	legacy_government = {
+	}
+
+	reform_levels = {
+		tribal_administration = {
+			reforms = {
+				hive_fleet_reform
+			}
+		}
+		tribal_cultural_values = {
+			reforms = {
+			}
+		}
+		tribal_religion = {
+			reforms = {
+			}
+		}
+		tribal_military_doctrines = {
+			reforms = {
+			}
+		}
+		tribal_modernization = {
+			reforms = {
+			}
+		}
+		tribal_reformation = {
+			reforms = {
+			}
+		}
+	}
+}
+
 native = {
 	basic_reform = native_basic_reform
 
