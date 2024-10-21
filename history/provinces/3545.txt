@@ -1,0 +1,3 @@
+culture = drukhari_culture
+religion = dark_muses
+is_city = no

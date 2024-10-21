@@ -12,5 +12,6 @@ capital = 3344
 		adm = 3
 		dip = 3
 		mil = 4
+		female = yes
 	}
 }

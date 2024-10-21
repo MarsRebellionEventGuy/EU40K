@@ -1,0 +1,3 @@
+culture = human_culture
+religion = imperial_cult
+is_city = no
