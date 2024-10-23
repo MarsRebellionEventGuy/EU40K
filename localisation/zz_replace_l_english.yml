@@ -101,6 +101,8 @@
  curtail_inquisition_decision_title: "Curtail the Inquisition"
  empower_inquisition_decision_title: "Empower the Inquisition"
  reintegration_decision_title: "Imperial Reintegration"
+ reintegration_decision_emperor: "Imperial Reintegration"
+ centralized_imperium_decision_emperor: "Centralized Imperium"
  centralizated_imperium_decision_title: "Centralizated Imperium"
  merchant_charter_decision_title: "Merchant Charter"
  modernize_space_marines_decision_title: "Modernize Space Marines"
@@ -113,6 +115,7 @@
  revitalize_imperial_grandeur_decision_title: "Revitalize Imperial Grandeur"
  reform_ecclesiarchy_decision_title: "Reform Ecclesiarchy"
  restore_imperial_truth_decision_title: "Restore Imperial Truth"
+ decentralize_imperial_defence_decision_member: "Decentralized Imperial Defence"
  
  estate_inquisition: "Inquisition"
  estate_inquisition_desc: "The Holy Orders of the Emperor's Inquisition, more commonly known as the Inquisition, are a powerful Estate within the Imperium responsible for guarding the souls of humanity. The purpose of the Inquisition is to identify and destroy the myriad of potential threats to the Imperium and humanity. Such is the Inquisition's power that it answers only to the Emperor."
@@ -143,10 +146,12 @@
  IMPERIAL_REINTEGRATION_NOT_PASSED_TT: "§YImperial Reintegration§! §Rhas NOT been§! §YEnacted§!"
  CENTRALIZATED_IMPERIUM_NOT_PASSED_TT: "The §YImperium§! §Rhas NOT been§! §YCentralized§!"
  CURTAIL_ASTARTES_AUTONOMY_NOT_PASSED_TT: "§YAstartes Autonomy§! §Rhas NOT been§! §YCurtailed§!"
+ enables_imperial_truth_tt: "Starts the §YRenassance of the Imperial Truth§! Event Chain."
+ invite_into_imperium_tooltip: "Re-establish Contact with this World"
  
  vassalize_imperial_worlds_decision_tt: "The Imperium of Man can use Imperial Cohesion to elevate a Nominal World to a direct Imperial World."
  vassalize_imperial_worlds_decision_ct: "The Imperium of Man can no longer elevate Nominal Worlds."
- integrate_imperial_worlds_decision_tt: "The Imperium of Man can use Imperial Cohesion to elevate a Nominal World to a direct Imperial World."
+ integrate_imperial_worlds_decision_tt: "The Imperium of Man can use Imperial Cohesion to elevate a Imperial World to a Integrated Imperial World."
  integrate_imperial_worlds_decision_ct: "The Imperium of Man can no longer elevate Imperial Worlds."
  vassalize_astartes_decision_tt: "The Imperium of Man can use Imperial Cohesion to cutail a Autonomus Astartes Chapter to a direct Astartes Chapter."
  vassalize_astartes_decision_ct: "The Imperium of Man can no longer Curtial Astartes Autonomy."
@@ -165,4 +170,5 @@
  imperium_TI_Throne_Integity_95: "Has §YGolden Throne Integrity§! below 95"
  imperium_TI_Throne_Integity_85: "Has §YGolden Throne Integrity§! below 85"
 
+ tyranid_name: "Hive Mind"
 
