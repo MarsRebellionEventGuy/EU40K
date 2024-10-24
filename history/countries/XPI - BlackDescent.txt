@@ -1,5 +1,5 @@
 government = theocracy
-add_government_reform = drukhari_cult_reform
+add_government_reform = haemonculi_coven_reform
 government_rank = 1
 technology_group = eldar
 religion = dark_muses

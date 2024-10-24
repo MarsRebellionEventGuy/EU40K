@@ -8,3 +8,4 @@ base_production = 1
 base_manpower = 1
 trade_goods = clerks
 is_city = no
+hre = yes

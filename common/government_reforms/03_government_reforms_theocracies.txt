@@ -296,3 +296,50 @@ genestealer_cult_reform = {
 		monarch_diplomatic_power = 1
 	}
 }
+
+haemonculi_coven_reform = {
+	icon = "haemonculi_coven"
+	allow_normal_conversion = no
+	legacy_equivalent = haemonculi_coven
+	potential = {
+		primary_culture = drukhari_culture
+		OR={
+			has_reform = haemonculi_coven_reform
+			have_had_reform = haemonculi_coven_reform
+		}
+	}
+	trigger = {
+	}
+	nation_designer_trigger = {
+		capital_scope = { is_part_of_hre = yes }
+		NOT = { num_custom_nation_provinces = 2 }
+	}
+
+	free_city = yes
+
+	custom_attributes = {
+		royal_marriage = no
+		queen = no
+		heir = no
+	}
+	
+	fixed_rank = 1
+
+	custom_attributes = {
+		locked_government_type = yes
+		enables_plutocratic_idea_group = yes
+		enables_aristocratic_idea_group = no
+	}
+
+	modifiers = {
+		production_efficiency = 0.10
+		development_cost_in_primary_culture = -0.15
+	}
+
+	ai = {
+		factor = 0 # AI should never pick this
+	}
+
+	removed_effect = {
+	}
+}

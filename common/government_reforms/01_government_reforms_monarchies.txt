@@ -257,3 +257,32 @@ league_votann_reform = {
 	removed_effect = {
 	}
 }
+
+drukhari_cult_reform = {
+	icon = "drukhari_cult"
+	allow_normal_conversion = no
+	legacy_equivalent = drukhari_cult
+	potential = {
+		primary_culture = drukari_culture
+	}
+	trigger = {
+	}
+
+	custom_attributes = {
+		royal_marriage = no
+		queen = no
+		heir = no
+	}
+
+	modifiers = {
+		production_efficiency = 0.10
+		development_cost_in_primary_culture = -0.15
+	}
+
+	ai = {
+		factor = 0 # AI should never pick this
+	}
+
+	removed_effect = {
+	}
+}

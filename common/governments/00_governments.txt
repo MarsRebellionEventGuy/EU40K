@@ -9,6 +9,7 @@ monarchy = {
 				farsight_enclaves_reform
 				necron_dynasty_reform
 				league_votann_reform
+				drukhari_cult_reform
 			}
 		}
 		hereditary_vs_nobility = {
@@ -287,6 +288,7 @@ theocracy = {
 				genestealer_cult_reform
 				craftworld_reform
 				xeno_government_reform
+				haemonculi_coven_reform
 			}
 		}
 		internal_vs_external_mission = {
