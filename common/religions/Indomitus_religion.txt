@@ -133,6 +133,9 @@ aeldari_group = {
 	aeldari = {
 		color = { 0 145 119 }
 		icon = 5
+		allowed_conversion = {
+			ynnari
+		}
 		country = {
 			yearly_corruption = -0.10
 			national_focus_years = -5
@@ -152,6 +155,9 @@ aeldari_group = {
 	dark_muses = {
 		color = { 50 30 92 }
 		icon = 6
+		allowed_conversion = {
+			ynnari
+		}
 		country = {
 			estate_interaction_cooldown_modifier = -0.2
 			mercenary_cost = -0.10
@@ -163,8 +169,36 @@ aeldari_group = {
 		province = {
 			local_missionary_strength = -0.02
 		}
+		
+		hre_religion = yes
 
 		personal_deity = yes
+		
+		heretic = { SLAANESHHERESY }
+	}
+	ynnari = {
+		color = { 190 24 28 }
+		icon = 20
+		country = {
+			yearly_corruption = -0.10
+			national_focus_years = -5
+		}
+		country_as_secondary = {
+			yearly_corruption = -0.05
+			national_focus_years = -3
+		}
+		province = {
+			local_missionary_strength = -0.02
+		}
+		
+		allowed_center_conversion = {
+			dark_muses
+			aeldari
+		}
+		
+		hre_heretic_religion = yes
+		
+		date = 2005.1.1
 		
 		heretic = { SLAANESHHERESY }
 	}

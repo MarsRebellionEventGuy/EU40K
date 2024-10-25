@@ -9,7 +9,8 @@ capital = 3344
 
 1970.12.12 = {
 	monarch = {
-		name = ""	
+		name = "Vraesque"	
+		dynasty = "Malidrach"
 		adm = 3
 		dip = 3
 		mil = 4

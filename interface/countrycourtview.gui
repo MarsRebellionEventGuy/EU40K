@@ -789,7 +789,7 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 			scale = 0.9
 			alwaystransparent = yes
-			frame = 19
+			frame = 20
 		}
 
 		iconType ={

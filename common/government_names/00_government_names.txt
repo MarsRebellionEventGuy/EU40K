@@ -1109,3 +1109,39 @@ primarch_localisation = {
 		}
 	}
 }
+
+drukhari_kabal_localisation = {
+	rank = {
+		3 = DRUKHARI_OVERLORD
+		2 = DRUKHARI_GREAT_KABAL
+		1 = DRUKHARI_KABAL
+	}
+
+	ruler_male = {
+		3 = DRUKHARI_SUPREME_OVERLORD
+		2 = DRUKHARI_ARCHON
+		1 = DRUKHARI_ARCHON
+	}
+
+	ruler_female = {
+		3 = DRUKHARI_SUPREME_OVERLORD
+		2 = DRUKHARI_ARCHON
+		1 = DRUKHARI_ARCHON
+	}
+	
+	heir_male = {
+		3 = DRUKHARI_ARCHON
+		2 = DRUKHARI_HIERARCH
+		1 = DRUKHARI_HIERARCH
+	}
+
+	heir_female = {
+		3 = DRUKHARI_ARCHON
+		2 = DRUKHARI_HIERARCH
+		1 = DRUKHARI_HIERARCH
+	}
+
+	trigger = {
+		has_reform = drukhari_cult_reform
+	}
+}

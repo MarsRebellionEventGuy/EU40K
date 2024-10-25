@@ -171,4 +171,14 @@
  imperium_TI_Throne_Integity_85: "Has §YGolden Throne Integrity§! below 85"
 
  tyranid_name: "Hive Mind"
-
+ DRUKHARI_HIERARCH: "Hierarch"
+ DRUKHARI_OVERLORD: "Overlordship of Commorragh"
+ DRUKHARI_GREAT_KABAL: "Great Kabal"
+ DRUKHARI_KABAL: "Kabal"
+ DRUKHARI_SUPREME_OVERLORD: "Supreme Overlord"
+ DRUKHARI_ARCHON: "Archon"
+ 
+ drukhari_culture: "Drukhari"
+ haemonculi_coven_reform: "Haemonculi Coven"
+ drukhari_cult_reform: "Drukhari Kabal"
+ wych_cult_reform: "Wych Cult"
