@@ -90,9 +90,10 @@ controls_forge_world_trigger = {
 				}
 			}
 		}
-		1120={	
+		hydraphur_planet={	
+			type = all
 			custom_trigger_tooltip={
-				tooltip = PREV_OWNS_PLANET
+			tooltip = PREV_OWNS_PLANET
 				OR={
 					owned_by_subject_of = PREV
 					owned_by = PREV

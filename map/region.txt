@@ -20,6 +20,7 @@ segmentum_solar_region = {
 		dulmalin
 		gathalamor_planet
 		vorlese
+		vilamus_planet
 	}
 }
 
@@ -667,6 +668,33 @@ plague_sector_region = {
 	areas = {
 		plague_sector
 		harmony
+	}
+}
+
+commorragh_region = {
+	areas = {
+		sec_maegra
+		port_of_widows
+		tower_of_flesh
+		pinnacle_of_disdain
+		pandaimon_planet
+		high_commorragh
+		port_carmine
+		poisoned_crown
+		whispering_void
+		aelindrach
+		denied_helix
+		nhexus_arena
+		the_pit
+		west_outer_commorragh
+		east_outer_commorragh
+		south_outer_commorragh
+	}
+}
+
+commorragh_space_sea_region={
+	areas={
+		commorragh_space_sea_area
 	}
 }
 

@@ -1,7 +1,9 @@
-culture = drukhari_culture
-religion = dark_muses
-is_city = no
-hre = yes
-add_core = XPQ
-owner = XPQ
-controller = XPQ
+add_core = XRK
+owner = XRK
+controller = XRK
+religion = imperial_cult
+culture = knight_culture
+base_tax = 2
+base_production = 2
+base_manpower = 1
+trade_goods = minerals
