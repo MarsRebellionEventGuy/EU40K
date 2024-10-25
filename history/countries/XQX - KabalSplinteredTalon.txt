@@ -6,9 +6,10 @@ religion = dark_muses
 primary_culture = drukhari_culture
 capital = 3344
 
-1970.12.12 = {
-	monarch = {
-		name = ""	
+1970.12.12 = { 
+	monarch = { 
+		name = "Zaergarn"
+		dynasty = "Kul"
 		adm = 3
 		dip = 3
 		mil = 4

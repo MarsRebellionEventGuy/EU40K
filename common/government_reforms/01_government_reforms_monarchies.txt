@@ -263,7 +263,11 @@ drukhari_cult_reform = {
 	allow_normal_conversion = no
 	legacy_equivalent = drukhari_cult
 	potential = {
-		primary_culture = drukari_culture
+		OR={
+			primary_culture = drukhari_culture
+			has_reform = drukhari_cult_reform
+			have_had_reform = drukhari_cult_reform
+		}
 	}
 	trigger = {
 	}
@@ -271,7 +275,9 @@ drukhari_cult_reform = {
 	custom_attributes = {
 		royal_marriage = no
 		queen = no
-		heir = no
+		heir = yes
+		has_devotion = yes
+		can_customise_heir = no
 	}
 
 	modifiers = {

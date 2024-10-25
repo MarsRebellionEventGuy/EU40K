@@ -7,11 +7,10 @@ primary_culture = loyalist_astartes_culture
 capital = 478
 
 1970.12.12 = {
-		monarch = {
-			name = "Kruxor Stavro"	
-			adm = 3
-			dip = 1
-			mil = 2
-		}
+	monarch = {
+		name = "Kruxor Stavro"	
+		adm = 3
+		dip = 1
+		mil = 2
 	}
 }

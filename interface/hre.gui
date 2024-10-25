@@ -96,7 +96,7 @@ guiTypes = {
 		{
 			name ="hre_official_religion_icon"
 			spriteType = "GFX_join_league_button"
-			position = { x= 77 y = 168 }
+			position = { x= 106 y = 163 }
 			hint_tag = "hint_religion"
 			frame = 3
 		}
@@ -105,7 +105,7 @@ guiTypes = {
 		{
 			name ="hre_imperial_authority_icon"
 			spriteType = "GFX_imperial_authority"
-			position = { x= 120 y = 110 }
+			position = { x= 120 y = 108 }
 			scale = 0.7
 		}
 
@@ -125,7 +125,7 @@ guiTypes = {
 		{
 			name ="hre_religion_icon_2"
 			spriteType = "GFX_province_view_religion"
-			position = { x= 597 y = 114 }
+			position = { x= 127 y = 180 }
 			hint_tag = "hint_religion"
 			alwaystransparent = yes
 		}

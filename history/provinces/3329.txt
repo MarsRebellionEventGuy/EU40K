@@ -1,9 +1,10 @@
 add_core = XOK
 owner = XOK
 controller = XOK
-religion = imperial_cult
+religion = death_cult
 culture = human_culture
 base_tax = 1
 base_production = 1
 base_manpower = 1
 trade_goods = minerals
+is_city = no

@@ -6,9 +6,10 @@ religion = dark_muses
 primary_culture = drukhari_culture
 capital = 3341
 
-1970.12.12 = {
-	monarch = {
-		name = "Evelancia Davenyr"	
+1970.12.12 = { 
+	monarch = { 
+		name = "Evelancia"
+		dyansty = "Davenyr"
 		adm = 3
 		dip = 3
 		mil = 4

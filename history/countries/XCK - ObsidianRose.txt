@@ -1,5 +1,6 @@
-government = theocracy
+government = monarchy
 add_government_reform = drukhari_cult_reform
+elector = yes
 government_rank = 1
 technology_group = eldar
 religion = dark_muses
@@ -7,11 +8,12 @@ primary_culture = drukhari_culture
 capital = 1545
 
 1970.12.12 = {
-		monarch = {
-			name = "Orvak Maestros"	
-			adm = 3
-			dip = 2
-			mil = 5
-		}
+	monarch = {
+		name = "Aestra"	
+		dynasty = "Khromys"
+		adm = 3
+		dip = 2
+		mil = 5
+		female = yes
 	}
 }

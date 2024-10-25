@@ -14,3 +14,16 @@ capital = 3339
 		mil = 3
 	}
 }
+1971.1.1 = {
+	heir = {
+		name = "Valossian"
+		monarch_name = "Valossian"
+		dynasty = "Sythrac"
+		birth_date = 1970.1.1
+		death_date = 2000.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
