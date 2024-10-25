@@ -1,14 +1,13 @@
-government = theocracy
+government = monarchy
 add_government_reform = drukhari_cult_reform
 government_rank = 1
 technology_group = eldar
 religion = dark_muses
 primary_culture = xeno_culture
 capital = 3345
-
-1970.12.12 = {
-	monarch = {
-		name = "Kheradruakh"	
+1970.12.12 = { 
+	monarch = { 
+		name = "Kheradruakh"
 		adm = 3
 		dip = 1
 		mil = 5

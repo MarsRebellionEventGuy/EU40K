@@ -1,9 +1,0 @@
-owner = XZO
-controller = XZO
-add_core = XZO
-religion = nurgle
-culture = heretic_astartes_culture
-base_tax = 2
-base_production = 2
-base_manpower = 2
-trade_goods = agricultural_goods

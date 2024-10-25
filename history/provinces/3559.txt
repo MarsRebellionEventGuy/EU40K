@@ -1,9 +1,0 @@
-add_core = XGC
-owner = XGC
-controller = XGC
-religion = mechanicus
-culture = mechanicus_culture
-base_tax = 1
-base_production = 1
-base_manpower = 1
-trade_goods = minerals

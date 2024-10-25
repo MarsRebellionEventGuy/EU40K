@@ -1,7 +1,6 @@
 add_core = XYZ
 owner = XYZ
 controller = XYZ
-add_core = XOM
 religion = chaos_undivided
 culture = chaos_culture
 base_tax = 1

@@ -1,10 +1,11 @@
-government = theocracy
-add_government_reform = drukhari_cult_reform
+government = monarchy
+add_government_reform = imperial_knight_reform
 government_rank = 1
-technology_group = eldar
-religion = dark_muses
-primary_culture = drukhari_culture
-capital = 3344
+technology_group = chaos
+religion = chaos_undivided
+primary_culture = chaos_knight_culture
+#capital = 2900
+
 
 1970.12.12 = {
 	monarch = {

@@ -1,9 +1,0 @@
-add_core = XZY
-owner = XZY
-controller = XZY
-religion = necron
-culture = necron_culture
-base_tax = 4
-base_production = 4
-base_manpower = 3
-trade_goods = living_metal

@@ -1,9 +1,7 @@
-add_core = XRJ
-owner = XRJ
-controller = XRJ
-religion = imperial_cult
-culture = knight_culture
-base_tax = 2
-base_production = 1
-base_manpower = 2
-trade_goods = clerks
+culture = drukhari_culture
+religion = dark_muses
+is_city = no
+hre = yes
+add_core = XPQ
+owner = XPQ
+controller = XPQ

@@ -1,9 +1,0 @@
-add_core = XRO
-owner = XRO
-controller = XRO
-religion = nurgle
-culture = chaos_culture
-base_tax = 1
-base_production = 1
-base_manpower = 1
-trade_goods = agricultural_goods

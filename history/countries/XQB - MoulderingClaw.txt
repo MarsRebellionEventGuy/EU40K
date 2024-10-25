@@ -1,9 +1,9 @@
 government = theocracy
-add_government_reform = drukhari_cult_reform
+add_government_reform = heretic_astartes_reform
 government_rank = 1
-technology_group = eldar
-religion = dark_muses
-primary_culture = drukhari_culture
+technology_group = imperial
+religion = nurgle
+primary_culture = heretic_astartes_culture
 capital = 3344
 
 1970.12.12 = {

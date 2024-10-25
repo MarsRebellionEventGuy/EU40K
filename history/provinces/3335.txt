@@ -1,7 +1,6 @@
 add_core = XXA
 owner = XXA
 controller = XXA
-add_core = XOP
 religion = mechanicus
 culture = mechanicus_culture
 base_tax = 2

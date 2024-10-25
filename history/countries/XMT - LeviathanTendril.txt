@@ -1,4 +1,4 @@
-government = theocracy
+government = tyranid
 add_government_reform = hive_fleet_reform
 government_rank = 2
 technology_group = tyranid

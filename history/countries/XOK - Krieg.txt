@@ -4,15 +4,14 @@ government_rank = 1
 technology_group = imperial
 religion = imperial_cult
 primary_culture = human_culture
-capital = 410
+capital = 198
 
 1970.12.12 = {
 		monarch = {
-			name = "Trymon"
-			dynasty = "Stagler"	
-			adm = 1
-			dip = 1
-			mil = 4
+			name = "Herman von Strab"	
+			adm = 2
+			dip = 2
+			mil = 1
 		}
 	}
 }

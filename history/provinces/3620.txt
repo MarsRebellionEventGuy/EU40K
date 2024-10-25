@@ -1,9 +1,0 @@
-add_core = XRV
-owner = XRV
-controller = XRV
-religion = xeno
-culture = xeno_culture
-base_tax = 1
-base_production = 1
-base_manpower = 3
-trade_goods = xeno_technology

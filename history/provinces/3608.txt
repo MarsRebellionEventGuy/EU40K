@@ -1,9 +1,0 @@
-add_core = XSE
-owner = XSE
-controller = XSE
-religion = imperial_cult
-culture = human_culture
-base_tax = 2
-base_production = 1
-base_manpower = 1
-trade_goods = consumer_goods

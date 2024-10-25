@@ -3,8 +3,8 @@ owner = XZT
 controller = XZT
 religion = ork
 culture = ork_culture
-base_tax = 1
-base_production = 1
-base_manpower = 1
-trade_goods = minerals
+base_tax = 4
+base_production = 4
+base_manpower = 5
+trade_goods = military_equipment
 

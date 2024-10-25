@@ -1,9 +1,0 @@
-add_core = XAN
-owner = XAN
-controller = XAN
-culture = loyalist_astartes_culture
-religion = imperial_cult
-base_tax = 1
-base_production = 1
-base_manpower = 1
-trade_goods = minerals

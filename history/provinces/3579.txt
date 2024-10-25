@@ -1,9 +1,0 @@
-add_core = XRT
-owner = XRT
-controller = XRT
-religion = imperial_cult
-culture = loyalist_astartes_culture
-base_tax = 2
-base_production = 1
-base_manpower = 2
-trade_goods = military_equipment

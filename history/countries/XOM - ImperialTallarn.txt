@@ -4,15 +4,14 @@ government_rank = 1
 technology_group = imperial
 religion = imperial_cult
 primary_culture = human_culture
-capital = 3302
+capital = 198
 
 1970.12.12 = {
 		monarch = {
-			name = "Hasso"	
-			dynasty = "Ras-Aziz"	
-			adm = 3
+			name = "Herman von Strab"	
+			adm = 2
 			dip = 2
-			mil = 4
+			mil = 1
 		}
 	}
 }

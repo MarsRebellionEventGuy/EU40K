@@ -1,17 +1,18 @@
 government = theocracy
 add_government_reform = forge_world_reform
-government_rank = 1
+government_rank = 2
 technology_group = mechanicus
 religion = mechanicus
 primary_culture = mechanicus_culture
-capital = 339
+capital = 2
+fixed_capital = 2
 
 1970.12.12 = {
 		monarch = {
-			name = "Lux van Telian"	
-			adm = 4
-			dip = 5
-			mil = 3
+			name = "Oud Oudia Raskian"	
+			adm = 5
+			dip = 3
+			mil = 4
 		}
 	}
 }
