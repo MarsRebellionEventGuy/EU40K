@@ -1,0 +1,9 @@
+add_core = XCY
+owner = XCY
+controller = XCY
+religion = chaos_undivided
+culture = human_culture
+base_tax = 2
+base_production = 2
+base_manpower = 2
+trade_goods = consumer_goods

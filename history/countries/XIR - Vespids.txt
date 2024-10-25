@@ -3,7 +3,7 @@ add_government_reform = xeno_government_reform
 government_rank = 1
 technology_group = xeno
 religion = greater_good
-primary_culture = vespid_culture
+primary_culture = xeno_culture
 capital = 1905
 
 1970.12.12 = {

@@ -1,6 +1,5 @@
-government = monarchy
+government = theocracy
 add_government_reform = drukhari_cult_reform
-elector = yes
 government_rank = 3
 technology_group = eldar
 religion = dark_muses
@@ -9,8 +8,7 @@ capital = 3339
 
 1970.12.12 = {
 	monarch = {
-		name = "Asdrubael"	
-		dynasty = "Vect"
+		name = "Asdrubael Vect"	
 		adm = 5
 		dip = 6
 		mil = 3

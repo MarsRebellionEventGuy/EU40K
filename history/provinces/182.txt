@@ -1,10 +1,9 @@
 add_core = XYX
 owner = XYX
 controller = XYX
-religion = chaos_undivided
+religion = imperial_cult
 culture = human_culture
 base_tax = 2
 base_production = 1
-base_manpower = 1
-capital = "Sanctic Citadel"
+base_manpower = 2
 trade_goods = clerks

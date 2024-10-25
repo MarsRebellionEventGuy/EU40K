@@ -2,15 +2,16 @@ government = theocracy
 add_government_reform = heretic_astartes_reform
 government_rank = 1
 technology_group = chaos
-religion = nurgle
+religion = chaos_undivided
 primary_culture = heretic_astartes_culture
-capital = 1113
+capital = 3312
 
 1970.12.12 = {
 	monarch = {
-		name = "Vorx"	
-		adm = 5
+		name = "Tumulus"
+		dynasty = "Samael"	
+		adm = 4
 		dip = 2
-		mil = 5
+		mil = 3
 	}
 }

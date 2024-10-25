@@ -7,11 +7,11 @@ primary_culture = loyalist_astartes_culture
 capital = 2860
 
 1970.12.12 = {
-	monarch = {
-		name = "Nikeras"
-		dynasty = ""		
-		adm = 3
-		dip = 1
-		mil = 3
+		monarch = {
+			name = "Nikeras"	
+			adm = 3
+			dip = 1
+			mil = 3
+		}
 	}
 }

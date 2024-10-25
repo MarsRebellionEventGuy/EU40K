@@ -8,7 +8,8 @@ capital = 198
 
 1970.12.12 = {
 		monarch = {
-			name = "Herman von Strab"	
+			name = "Herman"
+			dynasty = "von Strab"	
 			adm = 2
 			dip = 2
 			mil = 1

@@ -6,5 +6,4 @@ culture = knight_culture
 base_tax = 1
 base_production = 2
 base_manpower = 2
-capital = "Golem Keep"
 trade_goods = agricultural_goods

@@ -1,6 +1,5 @@
-government = monarchy
+government = theocracy
 add_government_reform = drukhari_cult_reform
-elector = yes
 government_rank = 1
 technology_group = eldar
 religion = dark_muses
@@ -9,11 +8,9 @@ capital = 3344
 
 1970.12.12 = {
 	monarch = {
-		name = "Aurelia"	
-		dynasty = "Malys"
+		name = ""	
 		adm = 3
 		dip = 3
 		mil = 4
-		female = yes
 	}
 }

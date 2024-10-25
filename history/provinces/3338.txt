@@ -1,6 +1,7 @@
 add_core = XXA
 owner = XXA
 controller = XXA
+add_core = XOP
 religion = imperial_cult
 culture = human_culture
 base_tax = 5

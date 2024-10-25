@@ -1,6 +1,5 @@
-government = monarchy
+government = theocracy
 add_government_reform = drukhari_cult_reform
-elector = yes
 government_rank = 1
 technology_group = eldar
 religion = dark_muses

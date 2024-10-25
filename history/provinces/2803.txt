@@ -1,9 +1,0 @@
-add_core = XLA
-owner = XLA
-controller = XLA
-religion = chaos_undivided
-culture = heretic_astartes_culture
-base_tax = 5
-base_production = 5
-base_manpower = 3
-trade_goods = xeno_technology

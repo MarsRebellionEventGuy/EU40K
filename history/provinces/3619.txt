@@ -1,0 +1,9 @@
+add_core = XRX
+owner = XRX
+controller = XRX
+religion = aeldari
+culture = asuryani_culture
+base_tax = 1
+base_production = 1
+base_manpower = 1
+trade_goods = wraithbone
