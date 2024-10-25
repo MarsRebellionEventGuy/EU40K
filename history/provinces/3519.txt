@@ -1,0 +1,9 @@
+add_core = XXA
+owner = XXA
+controller = XXA
+culture = abhuman_culture
+religion = imperial_cult
+base_tax = 2
+base_production = 2
+base_manpower = 2
+trade_goods = clerks

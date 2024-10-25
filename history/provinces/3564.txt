@@ -1,0 +1,9 @@
+religion = slaanesh
+culture = chaos_culture
+base_tax = 2
+base_production = 1
+base_manpower = 2
+add_core = XOZ
+owner = XOZ
+controller = XOZ
+trade_goods = clerks
