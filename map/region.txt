@@ -14,6 +14,12 @@ segmentum_solar_region = {
 		xenax
 		keletros
 		solar_star_keeps
+		atoma_prime
+		nox_alpha
+		benediction_planet
+		dulmalin
+		gathalamor_planet
+		vorlese
 	}
 }
 
@@ -36,6 +42,7 @@ inwit_cluster_region = {
 		ordex_thaag
 		goritus
 		fergax
+		forgefane
 	}
 }
 
@@ -45,6 +52,7 @@ fenris_region = {
 		armageddon
 		garmon
 		elysia
+		garmon_planet
 	}
 }
 
@@ -92,6 +100,7 @@ orpheus_region = {
 		barren_stars
 		drucillian
 		hesod_nebula
+		amarah_prime_planet
 	}
 }
 
@@ -100,6 +109,8 @@ caradryad_region = {
 		cretacia
 		taongar
 		galaspar
+		ghorstangrad_planet
+		cretacia_planet
 	}
 }
 
@@ -130,6 +141,7 @@ nostramo_region = {
 		nostramo
 		elusia
 		gerontius
+		nostramo_planet
 	}
 }
 
@@ -160,6 +172,8 @@ calixis_region = {
 		periphery
 		castellain
 		stygies_deeps
+		solomon_planet
+		sacris
 	}
 }
 
@@ -178,6 +192,7 @@ galactic_core_region = {
 		northern_galactic_core
 		central_galactic_core
 		southern_galactic_core
+		broken_triplets
 	}
 }
 
@@ -188,6 +203,7 @@ octarius_region = {
 		kyro
 		badab
 		viridia
+		badab_planet
 	}
 }
 
@@ -199,6 +215,8 @@ charadon_region = {
 		vikatrina
 		kolossi
 		dhaku
+		metalica_planet
+		motulu
 	}
 }
 
@@ -251,6 +269,7 @@ askellon_region = {
 		scarus
 		lanorra
 		advex_mors
+		kalto_planet
 	}
 }
 
@@ -268,6 +287,8 @@ golgotha_region = {
 		van_horne
 		gaivos
 		cornucopia
+		golgotha_planet
+		aryand
 	}
 }
 
@@ -289,6 +310,8 @@ forsarr_region = {
 		raisa
 		lavantia
 		myr
+		kiavahr_planet
+		raisa_planet
 	}
 }
 
@@ -314,6 +337,7 @@ tau_region = {
 		damocles_nebula
 		radnar
 		pech_planet
+		lubgrahl_planet
 	}
 }
 
@@ -335,6 +359,7 @@ reductus_region = {
 		bakka
 		mortant
 		bakka_planet
+		rapture_planet
 	}
 }
 
@@ -419,6 +444,8 @@ salient_stars_region = {
 		bastior
 		guryan
 		stygies
+		sabatine
+		methalor_planet
 	}
 }
 
@@ -427,6 +454,7 @@ hydraphur_region = {
 		milhand
 		hydra_cordatus
 		hydraphur
+		hydraphur_planet
 	}
 }
 
@@ -455,6 +483,7 @@ bakhar_region = {
 		obliterax
 		sotha
 		laeran
+		sotha_planet
 	}
 }
 
@@ -530,6 +559,7 @@ nepthis_region = {
 		anvilus
 		olympia
 		jagga
+		nemeton_planet
 	}
 }
 
@@ -568,6 +598,7 @@ palatine_region = {
 		coheria
 		varsavia
 		gathi
+		alaric_prime
 	}
 }
 
@@ -578,6 +609,7 @@ stryken_region = {
 		cilix
 		holscht
 		cypra_mundi
+		vostroya_planet
 	}
 }
 
@@ -586,6 +618,7 @@ huda_gulf_region = {
 		orask
 		tsagualsa
 		kruun
+		tsagualsa_planet
 	}
 }
 
@@ -634,30 +667,6 @@ plague_sector_region = {
 	areas = {
 		plague_sector
 		harmony
-	}
-}
-
-commorragh_region = {
-	areas = {
-		sec_maegra
-		port_of_widows
-		tower_of_flesh
-		pinnacle_of_disdain
-		pandaimon_planet
-		high_commorragh
-		port_carmine
-		poisoned_crown
-		whispering_void
-		aelindrach
-		denied_helix
-		nhexus_arena
-		the_pit
-	}
-}
-
-commorragh_space_sea_region={
-	areas={
-		commorragh_space_sea_area
 	}
 }
 
@@ -1060,5 +1069,29 @@ karthago_sector_sea_region = {
 yarokin_veil_sector_sea_region = {
 	areas = {
 		yarokin_veil_sector_sea_area
+	}
+}
+
+commorragh_region = {
+	areas = {
+		sec_maegra
+		port_of_widows
+		tower_of_flesh
+		pinnacle_of_disdain
+		pandaimon_planet
+		high_commorragh
+		port_carmine
+		poisoned_crown
+		whispering_void
+		aelindrach
+		denied_helix
+		nhexus_arena
+		the_pit
+	}
+}
+
+commorragh_space_sea_region={
+	areas={
+		commorragh_space_sea_area
 	}
 }
