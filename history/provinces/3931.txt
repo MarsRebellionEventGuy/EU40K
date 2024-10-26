@@ -1,0 +1,9 @@
+add_core = XSL
+owner = XSL
+base_tax = 1
+base_manpower = 2
+base_production = 1
+culture = drukhari_culture
+religion = dark_muses
+controller = XSL
+is_city = no

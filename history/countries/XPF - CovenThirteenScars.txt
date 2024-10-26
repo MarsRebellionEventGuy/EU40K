@@ -5,6 +5,7 @@ technology_group = eldar
 religion = dark_muses
 primary_culture = drukhari_culture
 capital = 3344
+historical_rival = XKZ
 
 1970.12.12 = {
 	monarch = {

@@ -1,0 +1,10 @@
+add_core = XSM
+owner = XSM
+base_tax = 2
+base_manpower = 2
+base_production = 2
+culture = drukhari_culture
+religion = dark_muses
+hre = yes
+controller = XSM
+is_city = no

@@ -1,0 +1,14 @@
+government = theocracy
+add_government_reform = haemonculi_coven_reform
+government_rank = 1
+technology_group = eldar
+religion = dark_muses
+primary_culture = drukhari_culture
+capital = 3933
+1970.12.12 = { 
+	monarch = { 
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}

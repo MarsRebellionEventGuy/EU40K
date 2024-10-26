@@ -1,0 +1,10 @@
+add_core = XSJ
+owner = XSJ
+base_tax = 1
+base_manpower = 2
+base_production = 1
+culture = drukhari_culture
+religion = dark_muses
+hre = yes
+controller = XSJ
+is_city = no

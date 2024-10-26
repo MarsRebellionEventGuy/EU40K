@@ -32,20 +32,11 @@ ambient_object = "ambient_object.txt"
 seasons = "seasons.txt"
 trade_winds = "trade_winds.txt"
 canal_definition = { #this sets the coordinates for where the panama_canal_river map file is inserted (starting from its bottom left corner)
-	name = "panama_canal"
-	x = 1490
-	y = 948
+	name = "askellon_portal"
+	x = 0
+	y = 0
 }
-canal_definition = {
-	name = "suez_canal"
-	x = 3275
-	y = 1118
-}
-canal_definition = {
-	name = "kiel_canal"
-	x = 2937
-	y = 1597
-}
+
 
 # Define which indices in trees.bmp palette which should count as trees for automatic terrain assignment
 tree = { 3 4 7 10 }

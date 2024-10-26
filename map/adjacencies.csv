@@ -1,4 +1,12 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
-333;4559;sea;1300;-1;-1;-1;-1;Majorca-Minorca
-217;592;;;-1;-1;-1;-1;
+607;3449;canal;3475;-1;-1;-1;-1;askellon_portal
+1435;3450;canal;3474;-1;-1;-1;-1;grail_stars_portal
+3473;3451;canal;3473;-1;-1;-1;-1;nostramo_portal
+2156;3455;canal;3472;-1;-1;-1;-1;mandragora_portal
+777;3453;canal;3471;-1;-1;-1;-1;yarokin_portal
+2050;3452;canal;3470;-1;-1;-1;-1;caradryad_portal
+2911;3454;canal;3548;-1;-1;-1;-1;corribra_portal
+2667;3456;canal;3549;-1;-1;-1;-1;grendl_stars_portal
+217;592;sea;572;-1;-1;-1;-1;
+3769;3758;sea;591;-1;-1;-1;-1;
 -1;-1;;-1;-1;-1;-1;-1;-1
