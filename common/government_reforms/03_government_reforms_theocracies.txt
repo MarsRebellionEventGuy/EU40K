@@ -343,3 +343,40 @@ haemonculi_coven_reform = {
 	removed_effect = {
 	}
 }
+
+black_library_reform = {
+	potential = {
+		tag = XSN
+	}
+	allow_normal_conversion = no
+	legacy_equivalent = craftworld
+	icon = "craftworld_reform"
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	modifiers = {
+		own_territory_dice_roll_bonus = 1
+		merc_maintenance_modifier = -0.33
+		merc_maintenance_modifier = -0.20
+		governing_capacity_modifier = -0.50
+		allow_mercenary_drill = yes
+		allow_mercenaries_to_split = yes
+		mercenary_manpower = 0.10
+		global_manpower_modifier = -1.5
+	}
+}
+
+harlequin_masque_reform = {
+	potential = {
+		primary_culture = harlequin_culture
+	}
+	allow_normal_conversion = no
+	legacy_equivalent = craftworld
+	icon = "craftworld_reform"
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	modifiers = {
+		own_territory_dice_roll_bonus = 1
+		merc_maintenance_modifier = -0.33
+		governing_capacity_modifier = -0.50
+	}
+}

@@ -1,0 +1,8 @@
+government = theocracy
+add_government_reform = black_library_reform
+government_rank = 1
+technology_group = eldar
+religion = cegorach
+capital = 3894
+primary_culture = harlequin_culture
+add_government_reform = black_library_reform

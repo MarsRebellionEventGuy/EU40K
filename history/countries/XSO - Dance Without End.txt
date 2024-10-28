@@ -1,0 +1,7 @@
+government = theocracy
+add_government_reform = harlequin_masque_reform
+government_rank = 1
+technology_group = eldar
+primary_culture = harlequin_culture
+religion = cegorach
+capital = 3938

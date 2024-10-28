@@ -381,3 +381,541 @@ maccabian_janissaries_company = {
 		recover_army_morale_speed = 0.25
 	}
 } 
+
+
+#Harlequin Masques
+masque_dance_without_end = {
+	regiments_per_development = 0.05
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	cavalry_weight = 0
+    artillery_weight = 0.4
+	cavalry_cap = 4
+	home_province = 3938 #Maze of Whisphers
+	sprites = { dlc102_hun_sprite_pack easterngfx_sprite_pack }
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		OR = {
+			custom_trigger_tooltip = {
+				tooltip = MERCENARY_SPECIAL_REWARD
+				has_country_flag = harlequin_masques_unlocked
+			}
+			has_reform = black_library_reform
+			alliance_with = XSO
+		}
+	}
+	cost_modifier = 0.25
+	modifier = {
+		discipline = 0.05
+		shock_damage = 0.05
+	}
+}
+masque_dreaming_shadow = {
+	regiments_per_development = 0.05
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	cavalry_weight = 0
+    artillery_weight = 0.4
+	cavalry_cap = 4
+	sprites = { dlc102_hun_sprite_pack easterngfx_sprite_pack }
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		OR = {
+			custom_trigger_tooltip = {
+				tooltip = MERCENARY_SPECIAL_REWARD
+				has_country_flag = harlequin_masques_unlocked
+			}
+			has_reform = black_library_reform
+			any_war_enemy_country={
+				technology_group = necron
+			}
+		}
+	}
+	cost_modifier = 0.25
+	modifier = {
+		discipline = 0.05
+		shock_damage = 0.05
+	}
+}
+masque_midnight_sorrow = {
+	regiments_per_development = 0.05
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	cavalry_weight = 0
+    artillery_weight = 0.4
+	cavalry_cap = 4
+	sprites = { dlc102_hun_sprite_pack easterngfx_sprite_pack }
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		OR = {
+			custom_trigger_tooltip = {
+				tooltip = MERCENARY_SPECIAL_REWARD
+				has_country_flag = harlequin_masques_unlocked
+			}
+			has_reform = black_library_reform
+			is_hre_member = yes
+		}
+	}
+	cost_modifier = 0.25
+	modifier = {
+		discipline = 0.05
+		shock_damage = 0.05
+	}
+}
+masque_veiled_path = {
+	regiments_per_development = 0.05
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	cavalry_weight = 0
+    artillery_weight = 0.4
+	cavalry_cap = 4
+	sprites = { dlc102_hun_sprite_pack easterngfx_sprite_pack }
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		OR = {
+			custom_trigger_tooltip = {
+				tooltip = MERCENARY_SPECIAL_REWARD
+				has_country_flag = harlequin_masques_unlocked
+			}
+			has_reform = black_library_reform
+			is_hre_member = yes
+		}
+	}
+	cost_modifier = 0.25
+	modifier = {
+		discipline = 0.05
+		shock_damage = 0.05
+	}
+}
+masque_frozen_stars = {
+	regiments_per_development = 0.05
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	cavalry_weight = 0
+    artillery_weight = 0.4
+	cavalry_cap = 4
+	sprites = { dlc102_hun_sprite_pack easterngfx_sprite_pack }
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		OR = {
+			custom_trigger_tooltip = {
+				tooltip = MERCENARY_SPECIAL_REWARD
+				has_country_flag = harlequin_masques_unlocked
+			}
+			has_reform = black_library_reform
+			AND={
+				primary_culture = exodite_culture
+				capital_scope={
+					OR={
+						region = triplex_phall_region
+						region = bakhar_region
+						region = grendl_stars_region
+					}
+				}
+			}
+		}
+	}
+	cost_modifier = 0.25
+	modifier = {
+		discipline = 0.05
+		shock_damage = 0.05
+	}
+}
+masque_soaring_spite = {
+	regiments_per_development = 0.05
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	cavalry_weight = 0
+    artillery_weight = 0.4
+	cavalry_cap = 4
+	sprites = { dlc102_hun_sprite_pack easterngfx_sprite_pack }
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		OR = {
+			custom_trigger_tooltip = {
+				tooltip = MERCENARY_SPECIAL_REWARD
+				has_country_flag = harlequin_masques_unlocked
+			}
+			has_reform = black_library_reform
+			tag = XXE
+		}
+	}
+	cost_modifier = 0.25
+	modifier = {
+		discipline = 0.05
+		shock_damage = 0.05
+	}
+}
+masque_silent_shroud = {
+	regiments_per_development = 0.05
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	cavalry_weight = 0
+    artillery_weight = 0.4
+	cavalry_cap = 4
+	sprites = { dlc102_hun_sprite_pack easterngfx_sprite_pack }
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		OR = {
+			custom_trigger_tooltip = {
+				tooltip = MERCENARY_SPECIAL_REWARD
+				has_country_flag = harlequin_masques_unlocked
+			}
+			has_reform = black_library_reform
+		}
+	}
+	cost_modifier = 0.25
+	modifier = {
+		discipline = 0.05
+		shock_damage = 0.05
+	}
+}
+masque_twisted_path = {
+	regiments_per_development = 0.05
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	cavalry_weight = 0
+    artillery_weight = 0.4
+	cavalry_cap = 4
+	sprites = { dlc102_hun_sprite_pack easterngfx_sprite_pack }
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		OR = {
+			custom_trigger_tooltip = {
+				tooltip = MERCENARY_SPECIAL_REWARD
+				has_country_flag = harlequin_masques_unlocked
+			}
+			has_reform = black_library_reform
+			#tag = 000 #Craftworld Telennar
+		}
+	}
+	cost_modifier = 0.25
+	modifier = {
+		discipline = 0.05
+		shock_damage = 0.05
+	}
+}
+masque_shattered_mirage = {
+	regiments_per_development = 0.05
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	cavalry_weight = 0
+    artillery_weight = 0.4
+	cavalry_cap = 4
+	sprites = { dlc102_hun_sprite_pack easterngfx_sprite_pack }
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		OR = {
+			custom_trigger_tooltip = {
+				tooltip = MERCENARY_SPECIAL_REWARD
+				has_country_flag = harlequin_masques_unlocked
+			}
+			has_reform = black_library_reform
+			has_reform = wych_cult_reform
+		}
+	}
+	cost_modifier = 0.25
+	modifier = {
+		discipline = 0.05
+		shock_damage = 0.05
+	}
+}
+masque_reapers_mirth = {
+	regiments_per_development = 0.05
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	cavalry_weight = 0
+    artillery_weight = 0.4
+	cavalry_cap = 4
+	sprites = { dlc102_hun_sprite_pack easterngfx_sprite_pack }
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		OR = {
+			custom_trigger_tooltip = {
+				tooltip = MERCENARY_SPECIAL_REWARD
+				has_country_flag = harlequin_masques_unlocked
+			}
+			has_reform = black_library_reform
+			technology_group = eldar
+		}
+	}
+	cost_modifier = 0.25
+	modifier = {
+		discipline = 0.05
+		shock_damage = 0.05
+	}
+}
+masque_fading_dawn = {
+	regiments_per_development = 0.05
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	cavalry_weight = 0
+    artillery_weight = 0.4
+	cavalry_cap = 4
+	sprites = { dlc102_hun_sprite_pack easterngfx_sprite_pack }
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		OR = {
+			custom_trigger_tooltip = {
+				tooltip = MERCENARY_SPECIAL_REWARD
+				has_country_flag = harlequin_masques_unlocked
+			}
+			has_reform = black_library_reform
+			technology_group = eldar
+		}
+	}
+	cost_modifier = 0.25
+	modifier = {
+		discipline = 0.05
+		shock_damage = 0.05
+	}
+}
+masque_falling_moon = {
+	regiments_per_development = 0.05
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	cavalry_weight = 0
+    artillery_weight = 0.4
+	cavalry_cap = 4
+	sprites = { dlc102_hun_sprite_pack easterngfx_sprite_pack }
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		has_reform = black_library_reform
+	}
+	cost_modifier = 0.25
+	modifier = {
+		discipline = 0.05
+		shock_damage = 0.05
+	}
+}
+masque_hidden_path = {
+	regiments_per_development = 0.05
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	cavalry_weight = 0
+    artillery_weight = 0.4
+	cavalry_cap = 4
+	sprites = { dlc102_hun_sprite_pack easterngfx_sprite_pack }
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		OR = {
+			custom_trigger_tooltip = {
+				tooltip = MERCENARY_SPECIAL_REWARD
+				has_country_flag = masque_hidden_path_unlocked
+			}
+			has_reform = black_library_reform
+			technology_group = eldar
+		}
+	}
+	cost_modifier = 0.25
+	modifier = {
+		discipline = 0.05
+		shock_damage = 0.05
+	}
+}
+masque_leaping_stars = {
+	regiments_per_development = 0.05
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	cavalry_weight = 0
+    artillery_weight = 0.4
+	cavalry_cap = 4
+	sprites = { dlc102_hun_sprite_pack easterngfx_sprite_pack }
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		OR = {
+			custom_trigger_tooltip = {
+				tooltip = MERCENARY_SPECIAL_REWARD
+				has_country_flag = harlequin_masques_unlocked
+			}
+			has_reform = black_library_reform
+			technology_group = eldar
+		}
+	}
+	cost_modifier = 0.25
+	modifier = {
+		discipline = 0.05
+		shock_damage = 0.05
+	}
+}
+masque_leering_moon = {
+	regiments_per_development = 0.05
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	cavalry_weight = 0
+    artillery_weight = 0.4
+	cavalry_cap = 4
+	sprites = { dlc102_hun_sprite_pack easterngfx_sprite_pack }
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		OR = {
+			custom_trigger_tooltip = {
+				tooltip = MERCENARY_SPECIAL_REWARD
+				has_country_flag = harlequin_masques_unlocked
+			}
+			has_reform = black_library_reform
+			technology_group = eldar
+		}
+	}
+	cost_modifier = 0.25
+	modifier = {
+		discipline = 0.05
+		shock_damage = 0.05
+	}
+}
+masque_morning_stars = {
+	regiments_per_development = 0.05
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	cavalry_weight = 0
+    artillery_weight = 0.4
+	cavalry_cap = 4
+	sprites = { dlc102_hun_sprite_pack easterngfx_sprite_pack }
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		OR = {
+			custom_trigger_tooltip = {
+				tooltip = MERCENARY_SPECIAL_REWARD
+				has_country_flag = harlequin_masques_unlocked
+			}
+			has_reform = black_library_reform
+			technology_group = eldar
+		}
+	}
+	cost_modifier = 0.25
+	modifier = {
+		discipline = 0.05
+		shock_damage = 0.05
+	}
+}
+masque_mourning_mist = {
+	regiments_per_development = 0.05
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	cavalry_weight = 0
+    artillery_weight = 0.4
+	cavalry_cap = 4
+	sprites = { dlc102_hun_sprite_pack easterngfx_sprite_pack }
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		OR = {
+			custom_trigger_tooltip = {
+				tooltip = MERCENARY_SPECIAL_REWARD
+				has_country_flag = harlequin_masques_unlocked
+			}
+			has_reform = black_library_reform
+			technology_group = eldar
+		}
+	}
+	cost_modifier = 0.25
+	modifier = {
+		discipline = 0.05
+		shock_damage = 0.05
+	}
+}
+masque_penumbral = {
+	regiments_per_development = 0.05
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	cavalry_weight = 0
+    artillery_weight = 0.4
+	cavalry_cap = 4
+	sprites = { dlc102_hun_sprite_pack easterngfx_sprite_pack }
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		OR = {
+			custom_trigger_tooltip = {
+				tooltip = MERCENARY_SPECIAL_REWARD
+				has_country_flag = harlequin_masques_unlocked
+			}
+			has_reform = black_library_reform
+			religion = ynnari
+		}
+	}
+	cost_modifier = 0.25
+	modifier = {
+		discipline = 0.05
+		shock_damage = 0.05
+	}
+}
+masque_shadow_weavers = {
+	regiments_per_development = 0.05
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	cavalry_weight = 0
+    artillery_weight = 0.4
+	cavalry_cap = 4
+	sprites = { dlc102_hun_sprite_pack easterngfx_sprite_pack }
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		OR = {
+			custom_trigger_tooltip = {
+				tooltip = MERCENARY_SPECIAL_REWARD
+				has_country_flag = harlequin_masques_unlocked
+			}
+			has_reform = black_library_reform
+			technology_group = eldar
+		}
+	}
+	cost_modifier = 0.25
+	modifier = {
+		discipline = 0.05
+		shock_damage = 0.05
+	}
+}
+masque_silent_dusk = {
+	regiments_per_development = 0.05
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	cavalry_weight = 0
+    artillery_weight = 0.4
+	cavalry_cap = 4
+	sprites = { dlc102_hun_sprite_pack easterngfx_sprite_pack }
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		OR = {
+			custom_trigger_tooltip = {
+				tooltip = MERCENARY_SPECIAL_REWARD
+				has_country_flag = harlequin_masques_unlocked
+			}
+			has_reform = black_library_reform
+			tag = XPB
+		}
+	}
+	cost_modifier = 0.25
+	modifier = {
+		discipline = 0.05
+		shock_damage = 0.05
+	}
+}
+masque_weeping_dawn = {
+	regiments_per_development = 0.05
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	cavalry_weight = 0
+    artillery_weight = 0.4
+	cavalry_cap = 4
+	sprites = { dlc102_hun_sprite_pack easterngfx_sprite_pack }
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		OR = {
+			custom_trigger_tooltip = {
+				tooltip = MERCENARY_SPECIAL_REWARD
+				has_country_flag = harlequin_masques_unlocked
+			}
+			has_reform = black_library_reform
+			technology_group = eldar
+		}
+	}
+	cost_modifier = 0.25
+	modifier = {
+		discipline = 0.05
+		shock_damage = 0.05
+	}
+}
+masque_winter_sun = {
+	regiments_per_development = 0.05
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	cavalry_weight = 0
+    artillery_weight = 0.4
+	cavalry_cap = 4
+	sprites = { dlc102_hun_sprite_pack easterngfx_sprite_pack }
+    trigger = {
+		is_allowed_to_recruit_mercenaries = yes
+		OR = {
+			custom_trigger_tooltip = {
+				tooltip = MERCENARY_SPECIAL_REWARD
+				has_country_flag = harlequin_masques_unlocked
+			}
+			has_reform = black_library_reform
+			technology_group = eldar
+		}
+		NOT={
+			religion = dark_muses
+		}
+	}
+	cost_modifier = 0.25
+	modifier = {
+		discipline = 0.05
+		shock_damage = 0.05
+	}
+}

@@ -1,0 +1,9 @@
+base_tax = 1
+base_manpower = 2
+base_production = 2
+add_core = XSN
+owner = XSN
+culture = harlequin_culture
+religion = cegorach
+controller = XSN
+is_city = yes

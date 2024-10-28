@@ -2706,6 +2706,14 @@ on_startup = {
 			discover_country = ROOT
 		}
 	}
+	if = {
+		limit = {
+			tag = XSN #Black Library
+		}
+		webway = {
+			discover_country = ROOT
+		}
+	}
 }
 
 # country

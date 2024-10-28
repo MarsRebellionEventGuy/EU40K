@@ -386,7 +386,6 @@ guiTypes = {
 			backGround=""
 			size = { x=110 y=210 }
 			Orientation = "UPPER_LEFT"
-			max_slots_horizontal = 4
 			horizontal = 0
 			spacing = 0
 			scrollbartype = "standardlistbox_slider"

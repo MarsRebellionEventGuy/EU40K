@@ -24,3 +24,20 @@ cb_warhammer = {
 
 	war_goal = annex_country_warhammer
 }
+cb_take_great_kabal = {
+	valid_for_subject = no
+
+	prerequisites_self = {
+		has_reform = drukhari_cult_reform
+		is_elector = no
+		is_part_of_hre = yes
+	}
+
+	prerequisites = {
+		FROM = {
+			is_elector = yes
+		}
+	}
+
+	war_goal = take_great_kabal
+}

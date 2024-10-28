@@ -127,6 +127,17 @@ aeldari_culture_group = {
 			Ath'ulwei Stormcloud Swifteye Belphoebe Bethaneal Boldseer Brightshard Ciaradh Dawnslayer Swiftblade Kull Voidsinger Eversong Fharenal Fiorinintal Firehand Firesight Ghaelyn Goldenheart Goldhelm Goldsight Gravesong Heavenlance Nightspear Arienal Karhedra Keltoc Kethalain Kulcassian Kyldroth Lanaevyss Esmanthil Longgaze Longstrider Voidwalker Saim-Ingrelli Mournsong Nol Numeriel Orphiel Shadespear Shadoweye Shadowguide Shadowwind Silgar Silvercloud Silvereye Skystorm Starbane Starseeker Starshaper Stormwarden Sunspear Swiftblade Swiftflight Shanyr Tarnalys Telissa Telerath Teuthlas Thyllian Ullamar Ulthran Warbringer Whitetreader Shaie Mardawn Ysbwrieli Zar Zephyrblade
 		}
 	}
+	harlequin_culture = {
+		male_names = {
+			Achillrial Aethor Ailen Almic Alshyra Althenian Anath'lan Anaya Ardyelle Arhathain Ariganna Ariniae Iliathin Asurmen Githellion Aurian Auric Avele Avenelle Baharroth Maugan Bel-Annath Karus Bilgaedrin Birliel Invaril Caelec Celachia Tarvaril Irolac Draech Eleannar Elenduil Enimiah Envyan Eon Erannion Erathal Evanaeroth Taolis Excellion Faeruithir Farendis Morcan Kaevi Kelmon Fuegan Gaeloch Geruthain Gesbier Strilasnion Khiraen Oloriel Toralven Guerradille Vathwal Hekmonah Hilan Illanor Illic Illuthis Inessar Intrisiel Iqbraesil Jainan Zonayen Kaeleth-Tul Kaerial Kai Kaliell Kalrimon Karandras Karhaedron Ffaid Kauerith Anvirr Avandir Korhedron Korlandril Korothil Kryasanth Alladrios Kyanorath Aileer Kysaduras Lahessa Laoreth Legirion Lhoix Lhykosidae Lithandros Liurth Linril Eladen Lorinth Lsathranil Maechu Malenbrin Mandr'thiel Maur Mauryon Mieqo Anthrillien Yrrthilien Muon Narine Nuadhu Nueleth Amonther Oristran Petrillien Prothenulh Qelanaris Kael Rakanis Reminil Rhyloor Rhyoc Ruterias Seoci Hihdrel Shaydi Shear'ann Kalistri Silvanol Kyrlrir Illimitar Solcar Eldorath Tuaren Sathbuinn Lathriel Syndilian Taldeer Tylanriel Jur Teryen Adrallanar Theuria Antelyth Ealion Torhaedril Trekhulir Trialeorn Turial Tyladrhas Tyleannar Ul'uric Uldanoreth Fachean Ulthos Eldrad Umbrial Valansar Valiel Veldoran Vinduil Vihirrio Gesson Yrannae Yriel Yrn-fae Yrthrian Eiladar Tishriel Yuen Eliac
+		}
+		female_names = {
+			Alianna Alishazier Arquellia Athenys Bemenacth Caerys Catritheyn Chandh'ra Osinell Clyona Ehriahna Ehveline Elarique Elleria Erandel Talyesin Galánta Medreyal Guenvyr Idranel Illandra Ilthana Iraneth Iriass Irillyth Iyanna Kaorelle Kayleth Yrliet Liosa Macha Maireth A'yilsha Nestra Q'sandria Amallyn Mehlendri Anathroelle Eluinne Tatheya Yhunai Ylocu Jain
+		}
+		dynasty_names = {
+			Ath'ulwei Stormcloud Swifteye Belphoebe Bethaneal Boldseer Brightshard Ciaradh Dawnslayer Swiftblade Kull Voidsinger Eversong Fharenal Fiorinintal Firehand Firesight Ghaelyn Goldenheart Goldhelm Goldsight Gravesong Heavenlance Nightspear Arienal Karhedra Keltoc Kethalain Kulcassian Kyldroth Lanaevyss Esmanthil Longgaze Longstrider Voidwalker Saim-Ingrelli Mournsong Nol Numeriel Orphiel Shadespear Shadoweye Shadowguide Shadowwind Silgar Silvercloud Silvereye Skystorm Starbane Starseeker Starshaper Stormwarden Sunspear Swiftblade Swiftflight Shanyr Tarnalys Telissa Telerath Teuthlas Thyllian Ullamar Ulthran Warbringer Whitetreader Shaie Mardawn Ysbwrieli Zar Zephyrblade
+		}
+	}
 }
 
 necron_culture_group = {
