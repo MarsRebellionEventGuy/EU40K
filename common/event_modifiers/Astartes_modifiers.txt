@@ -1,0 +1,15 @@
+astartes_faction_bonus_veterans = {
+	astartes_faction_1_influence = 0.10
+}
+
+astartes_faction_bonus_professionalism = {
+	astartes_faction_1_influence = 0.10
+}
+
+astartes_faction_bonus_imperium = {
+	astartes_faction_2_influence = 0.10
+}
+
+astartes_faction_bonus_drill = {
+	astartes_faction_3_influence = 0.10
+}

@@ -1,0 +1,40 @@
+#ideas of Krieg 
+#i hope whoever reads this has a wonderfull day : Pluto
+
+XOK_ideas = {
+	start = {#these just seemed fitting
+		reinforce_cost_modifier = -0.25
+		war_exhaustion = -0.20
+	}
+	
+	bonus = {#for those really long wars against big enemies
+		regiment_manpower_usage = -0.1
+	}	
+
+	trigger = {
+		tag = XOK
+	}
+	free = yes
+	
+	XOK_ideas_1 = {#human wave tactics and such. grind the emperors enemies into dust
+		reinforce_speed = 0.33
+	}
+	XOK_ideas_2 = {#experts of siege warfare
+		assault_fort_ability = 0.25
+	}
+	XOK_ideas_3 = {#the legacy of the purge
+		land_attrition = -0.20
+	}
+	XOK_ideas_4 = {#the vitae womb and universal conscription
+		global_manpower_modifier = 0.33
+	}
+	XOK_ideas_5 = {#an economy of war
+		interest = -1
+	}
+	XOK_ideas_6 = {#fanatic zeal and such. subject to change since its use seems limited for a country which wont really expand its territory
+		cavalry_flanking = 0.10
+	}
+	XOK_ideas_7 = {#the famous drills of krieg. i heard only 50% of new recruits died on their first day this year.
+		drill_gain_modifier = 0.33
+	}
+}

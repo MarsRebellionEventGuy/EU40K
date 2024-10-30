@@ -1,0 +1,207 @@
+astartes_unit_bonus = {
+	local_amount_of_banners = 1
+}
+
+sororitas_modifier = {
+	may_recruit_female_generals = yes
+	female_advisor_chance = 5
+}
+
+tau_unit_bonus = {
+	amount_of_samurai = 5
+}
+
+xxa_hub_fortresses = {
+	global_ship_repair = 0.15
+}
+
+terra_starting_modifier = {
+	local_unrest = 3
+	local_tax_modifier = -0.20
+	local_production_efficiency = -0.25
+}
+
+imperium_government_action_cost = {
+	regiment_manpower_usage = 0.25
+	drill_gain_modifier = -0.33
+	is_banner_modifier = yes
+}
+
+imperium_government_action_bonus = {
+	reinforce_speed = 0.33
+	is_banner_modifier = yes
+}
+
+warp_ftl = {
+	movement_speed_in_fleet_modifier = -2
+	disengagement_chance = -0.10
+}
+
+webway_ftl = {
+	movement_speed_in_fleet_modifier = -1
+}
+
+ether_drive_ftl = {
+	movement_speed_in_fleet_modifier = -3
+	disengagement_chance = -0.20
+}
+
+startup_modifier = {
+	may_explore = yes
+	allow_mercenary_drill = yes
+	allow_mercenaries_to_split = yes
+}
+
+Imperial_Connections = {
+	legitimacy = 1
+}
+
+PDF_Training = {
+	yearly_army_professionalism = 0.10
+}
+
+imperial_redemptionists_bonus = {
+	harsh_treatment_cost = -0.33
+}
+
+imperial_purge_chaos_bonus = {
+	prestige_per_development_from_conversion = 0.5
+}
+
+inquisition_thorians = {
+	land_morale = 0.10
+}
+
+inquisition_amalathians = {
+	legitimacy = 1
+}
+
+inquisition_ardentites = {
+	global_unrest = -2
+}
+
+inquisition_monodominants = {
+	core_creation = -0.15
+}
+
+inquisition_xanthites = {
+	mil_tech_cost_modifier = -0.20
+	church_loyalty_modifier = -0.15
+}
+
+inquisition_recongregationists = {
+	all_estate_influence_modifier = -0.10
+	allow_free_estate_privilege_revocation = yes
+	church_loyalty_modifier = -0.15
+}
+
+inquisition_istvaanists = {
+	yearly_army_professionalism = 0.03
+	church_loyalty_modifier = -0.15
+}
+
+inquisition_libricaranists = {
+	yearly_corruption = -0.10
+	church_loyalty_modifier = -0.15
+}
+
+warp_conversion_zeal = {
+	global_heathen_missionary_strength = 0.05
+	missionary_maintenance_cost = -0.33
+}
+
+Imperium_Naval_Faction_Modifier = {
+	imperial_navy_faction_influence = 0.25
+}
+
+XXA_Solblades = {
+	leader_naval_manuever = 1
+	global_naval_engagement_modifier = 0.15
+}
+
+XXA_Tyranids = {
+	local_culture_conversion_cost = -0.33
+}
+
+XXA_Necrons = {
+	local_culture_conversion_cost = -0.33
+}
+
+XXA_Eye_Of_Terror = {
+	global_missionary_strength = 0.03
+	local_culture_conversion_cost = -0.25
+}
+
+XXA_Colonization = {
+	colonists = 1
+}
+
+XXA_Chapters = {
+	amount_of_banners = 0.15
+	establish_order_cost = -0.33
+}
+
+XXA_Scouring_Of_Prospero = {
+	local_colonial_growth = -100
+}
+
+XXA_Psykers_Astronamican = {
+	movement_speed_in_fleet_modifier = 1
+	naval_morale = 0.10
+}
+
+XXA_Routed_Chaos = {
+	local_missionary_strength = 0.02
+	culture_conversion_cost = -0.33
+}
+
+XXA_Ghazghkull_Bonus = {
+	prestige_decay = -0.02
+	global_prosperity_growth = 0.10
+}
+
+XXA_Ork_Bonus = {
+	local_unrest = 1
+	culture_conversion_cost = -0.75
+}
+
+XXA_Logistics = {
+	naval_attrition = -0.15
+	transport_attrition = -0.20
+}
+
+XXA_Indomitus = {
+	naval_forcelimit_modifier = 0.20
+	prestige_from_naval = 0.33
+}
+
+genestealer_kellermorph_bonus = {
+	morale_damage = 0.05
+}
+
+genestealer_drill_bonus = {
+	drill_gain_modifier = 0.33
+}
+
+genestealer_conversion_bonus = {
+	global_heathen_missionary_strength = 0.02
+}
+
+genestealer_unification_bonus = {
+	devotion = 1
+	development_cost_in_primary_culture = -0.15
+}
+
+genestealer_locus_bodyguards_bonus = {
+	monarch_lifespan = 0.20
+}
+
+genestealer_broodmind_disrupted = {
+	global_unrest = 3
+	devotion = -1
+}
+
+genestealer_self_sustaining_broodmind = {
+	stability_cost_modifier = -0.25
+	years_of_nationalism = -5
+}

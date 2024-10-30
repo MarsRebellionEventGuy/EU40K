@@ -1,0 +1,16 @@
+name = "Tyranid Invasion of the Blood Angels"
+war_goal = {
+	type = take_border
+	casus_belli = cb_border_war
+	province = 3252
+}
+
+1999.1.1 = {
+	add_attacker = XMT
+	add_defender = XDJ
+}
+
+2001.1.1 = {
+	rem_attacker = XMT
+	rem_defender = XDJ
+}

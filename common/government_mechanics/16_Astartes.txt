@@ -1,0 +1,88 @@
+astartes_mechanic = {
+	alert_icon_gfx = GFX_alerticons_government_mechanics
+	alert_icon_index = 2
+	available = {
+		always = no
+	}
+	
+	interactions = {
+		astartes_imperium_action = {
+			icon = GFX_astartes_imperium_button
+			trigger = {
+				#XXA = {
+				#	owes_favors = { 
+				#		who = ROOT 
+				#		value = 10 
+				#	}
+				#}
+			}
+			effect = {
+				
+			}
+			cooldown_years = 10
+			ai_chance = {
+				factor = 0
+			}
+		}
+		astartes_chapter_action = {
+			icon = GFX_astartes_chapter_button
+			trigger = {
+				#mission_completed = Chapter_6
+			}
+			effect = {
+				custom_tooltip = Astartes_Flagship_Bonus_tt
+				add_country_modifier = { 
+					name = astartes_temporary_flagship
+					duration = 1825
+					hidden = yes
+				}
+				hidden_effect = {
+					set_country_flag = astartes_temporary_flagship_flag
+					random_owned_province = {
+						limit = {
+							has_port = yes
+						}
+						ROOT = {
+							create_flagship = {
+								name = "Allied Chapter Flagship"
+								type = galley
+							}
+						}
+					}
+					if = {
+						limit = {
+							NOT = { mission_completed = Chapter_12 }
+						}
+						change_variable = {
+							which = indomitus_allied_fleets
+							value = 1
+						}
+					}
+				}
+			}
+			cooldown_years = 20
+			ai_chance = {
+				factor = 0
+			}
+		}
+		astartes_deathwatch_action = {
+			icon = GFX_astartes_deathwatch_button
+			trigger = {
+				#any_country = {
+				#	has_reform = death_watch_reform
+				#	has_opinion = {
+				#		who = ROOT
+				#		value = 100
+				#	}
+				#	NOT = { is_at_war = yes }
+				#}
+			}
+			effect = {
+			}
+			cooldown_years = 20
+			ai_chance = {
+				factor = 0
+			}
+		}
+	}
+}

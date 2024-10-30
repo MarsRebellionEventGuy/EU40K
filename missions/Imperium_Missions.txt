@@ -469,7 +469,7 @@ XXA_Branch_3 = {
 		
 		provinces_to_highlight = {
 			owner = {
-       			capital_scope = {
+       				capital_scope = {
 					OR = {
 						area = western_necromunda
 						area = eastern_necromunda
@@ -480,10 +480,15 @@ XXA_Branch_3 = {
 						who = ROOT
 						value = 0.33
 					}
-					NOT = {
-						has_spy_network_from = {
-							who = ROOT
-							value = 30
+					AND = {
+						culture_group = imperial_culture_group
+						NOT = {
+							OR = {
+								has_spy_network_from = {
+									who = ROOT
+									value = 30
+								}
+							}
 						}
 					}
 				}
@@ -494,7 +499,7 @@ XXA_Branch_3 = {
 			custom_trigger_tooltip = {
 				tooltip = XXA_Necromunda_Trigger_Tooltip
 				any_country = {
-					NOT={
+					NOT = {
 						naval_strength = {
 							who = ROOT
 							value = 0.34
@@ -518,9 +523,15 @@ XXA_Branch_3 = {
 								area = eastern_necromunda
 							}
 						}
-						has_spy_network_from = {
-							who = ROOT
-							value = 30
+						OR = {
+							has_spy_network_from = {
+								who = ROOT
+								value = 30
+							}
+							has_opinion = {
+								who = ROOT
+								value = 100
+							}
 						}
 					}
 					amount = 3
@@ -531,57 +542,38 @@ XXA_Branch_3 = {
 		effect = {
 			custom_tooltip = XXA_Necromunda_Effect_Tooltip
 			custom_tooltip = XXA_Necromunda_Effect_Tooltip_Two
-			custom_tooltip = XXA_Necromunda_Effect_Tooltip_Three
 			hidden_effect = {
-				every_country = {
-					limit = {
-						capital_scope = {
-							OR = {
-								area = western_necromunda
-								area = eastern_necromunda
-							}
-						}
-						has_spy_network_from = {
-							who = XXA
-							value = 30
-						}
-					}
-					random_list = {
-						60 = {
-							XXA = {
-								inherit = THIS
-							}
-						}
-						40 = {
-							set_country_flag = imperium_necromunda_will_revolt
-						}
+				XZR = {
+					inherit = XIK
+					inherit = XIN
+					inherit = XIL
+					inherit = XIQ
+					inherit = XIM
+				}
+				create_subject = {
+					subject_type = nominal_imperial_world_subject_type
+					subject = XZR
+				}
+				XXA = {
+					declare_war_with_cb = {
+						who = XIO
+						casus_belli = cb_annex
 					}
 				}
-				every_country = {
-					limit = {
-						capital_scope = {
-							OR = {
-								area = western_necromunda
-								area = eastern_necromunda
-							}
-						}
-						NOT = {
-							has_spy_network_from = {
-								who = XXA
-								value = 30
-							}
-						}
-					}
-					random_list = {
-						40 = {
-							XXA = {
-								inherit = THIS
-							}
-						}
-						60 = {
-							set_country_flag = imperium_necromunda_will_revolt
-						}
-					}
+				XZR = {
+					join_all_offensive_wars_of = XXA
+				}
+				XIH = {
+					join_all_defensive_wars_of = XIO
+				}
+				XIP = {
+					join_all_defensive_wars_of = XIO
+				}
+				XIJ = {
+					join_all_defensive_wars_of = XIO
+				}
+				XIJ = {
+					join_all_defensive_wars_of = XIO
 				}
 			}
 		}

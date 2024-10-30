@@ -1,0 +1,194 @@
+Ork_Branch_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		culture_group = ork_culture_group always = no
+	}
+	has_country_shield = yes
+	
+	Ork_Mission_1 = {
+		icon = mission_chapter_peasant
+		required_missions = { Ork_Mission_2 }
+		position = 3
+		
+		provinces_to_highlight = {
+		}
+		
+		trigger = {
+		}
+		
+		effect = {
+		}
+	}
+}
+
+Ork_Branch_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		culture_group = ork_culture_group always = no
+	}
+	has_country_shield = yes
+	
+	Ork_Mission_2 = {
+		icon = mission_chapter_peasant
+		required_missions = { Ork_Mission_5 }
+		position = 2
+		
+		provinces_to_highlight = {
+		}
+		
+		trigger = {
+		}
+		
+		effect = {
+		}
+	}
+	Ork_Mission_3 = {
+		icon = mission_chapter_peasant
+		required_missions = { Ork_Mission_2 }
+		position = 3
+		
+		provinces_to_highlight = {
+		}
+		
+		trigger = {
+		}
+		
+		effect = {
+		}
+	}
+	Ork_Mission_4 = {
+		icon = mission_chapter_peasant
+		required_missions = { Ork_Mission_1 Ork_Mission_3 Ork_Mission_6 }
+		position = 4
+		
+		provinces_to_highlight = {
+		}
+		
+		trigger = {
+		}
+		
+		effect = {
+		}
+	}
+}
+
+Ork_Branch_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		culture_group = ork_culture_group always = no
+	}
+	has_country_shield = yes
+	
+	Ork_Mission_5 = {
+		icon = mission_chapter_peasant
+		required_missions = {}
+		position = 1
+		
+		provinces_to_highlight = {
+		}
+		
+		trigger = {
+		}
+		
+		effect = {
+		}
+	}
+	Ork_Mission_6 = {
+		icon = mission_chapter_peasant
+		required_missions = { Ork_Mission_2 }
+		position = 3
+		
+		provinces_to_highlight = {
+		}
+		
+		trigger = {
+		}
+		
+		effect = {
+		}
+	}
+}
+
+Ork_Branch_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		culture_group = ork_culture_group always = no
+	}
+	has_country_shield = yes
+	
+	Ork_Mission_7 = {
+		icon = mission_chapter_peasant
+		required_missions = { Ork_Mission_5 }
+		position = 2
+		
+		provinces_to_highlight = {
+		}
+		
+		trigger = {
+		}
+		
+		effect = {
+		}
+	}
+	Ork_Mission_8 = {
+		icon = mission_chapter_peasant
+		required_missions = { Ork_Mission_7 Ork_Mission_10 }
+		position = 4
+		
+		provinces_to_highlight = {
+		}
+		
+		trigger = {
+		}
+		
+		effect = {
+		}
+	}
+}
+
+Ork_Branch_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		culture_group = ork_culture_group always = no
+	}
+	has_country_shield = yes
+	
+	Ork_Mission_9 = {
+		icon = mission_chapter_peasant
+		required_missions = {}
+		position = 1
+		
+		provinces_to_highlight = {
+		}
+		
+		trigger = {
+		}
+		
+		effect = {
+		}
+	}
+	Ork_Mission_10 = {
+		icon = mission_chapter_peasant
+		required_missions = { Ork_Mission_9 }
+		position = 3
+		
+		provinces_to_highlight = {
+		}
+		
+		trigger = {
+		}
+		
+		effect = {
+		}
+	}
+}
