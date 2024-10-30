@@ -4,14 +4,14 @@ government_rank = 1
 technology_group = mechanicus
 religion = imperial_cult
 primary_culture = knight_culture
-capital = 1122
+capital = 3546
 
 1970.12.12 = {
-		monarch = {
-			name = "Danial Tan Draconis"	
-			adm = 2
-			dip = 6
-			mil = 3
-		}
+	monarch = {
+		name = "Erasmus"	
+		dynasty = "Brahmica"
+		adm = 5
+		dip = 3
+		mil = 2
 	}
 }

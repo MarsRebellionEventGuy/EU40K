@@ -4,14 +4,13 @@ government_rank = 1
 technology_group = chaos
 religion = nurgle
 primary_culture = heretic_astartes_culture
-capital = 1762
+capital = 1053
 
 1970.12.12 = {
-		monarch = {
-			name = "Gluthor Skurvithrax"	
-			adm = 2
-			dip = 1
-			mil = 4
-		}
+	monarch = {
+		name = "Kerubiel Manuzad"	
+		adm = 2
+		dip = 1
+		mil = 4
 	}
 }

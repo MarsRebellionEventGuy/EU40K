@@ -1,17 +1,16 @@
 government = theocracy
-add_government_reform = heretic_astartes_reform
+add_government_reform = chaos_cult_reform
 government_rank = 1
 technology_group = chaos
 religion = nurgle
-primary_culture = heretic_astartes_culture
-capital = 1762
+primary_culture = chaos_culture
+capital = 3601
 
 1970.12.12 = {
-		monarch = {
-			name = "Gluthor Skurvithrax"	
-			adm = 2
-			dip = 1
-			mil = 4
-		}
+	monarch = {
+		name = "Giselwin van der Guile"	
+		adm = 3
+		dip = 5
+		mil = 4
 	}
 }

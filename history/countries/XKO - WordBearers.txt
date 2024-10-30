@@ -7,11 +7,10 @@ primary_culture = heretic_astartes_culture
 capital = 2810
 
 1970.12.12 = {
-		monarch = {
-			name = "Lorgar"	
-			adm = 3
-			dip = 6
-			mil = 4
-		}
+	monarch = {
+		name = "Lorgar"	
+		adm = 3
+		dip = 6
+		mil = 4
 	}
 }

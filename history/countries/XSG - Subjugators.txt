@@ -1,17 +1,16 @@
 government = theocracy
-add_government_reform = heretic_astartes_reform
+add_government_reform = astartes_reform
 government_rank = 1
-technology_group = chaos
-religion = nurgle
-primary_culture = heretic_astartes_culture
-capital = 1762
+technology_group = imperial
+religion = imperial_cult
+primary_culture = loyalist_astartes_culture
+capital = 201
 
 1970.12.12 = {
-		monarch = {
-			name = "Gluthor Skurvithrax"	
-			adm = 2
-			dip = 1
-			mil = 4
-		}
+	monarch = {
+		name = "Rakman"
+		adm = 3
+		dip = 2
+		mil = 4
 	}
 }

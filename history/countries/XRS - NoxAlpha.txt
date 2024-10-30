@@ -1,17 +1,17 @@
-government = theocracy
-add_government_reform = heretic_astartes_reform
+government = monarchy
+add_government_reform = imperial_governorate_reform
 government_rank = 1
-technology_group = chaos
-religion = nurgle
-primary_culture = heretic_astartes_culture
-capital = 1762
+technology_group = imperial
+religion = imperial_cult
+primary_culture = human_culture
+capital = 3598
 
 1970.12.12 = {
-		monarch = {
-			name = "Gluthor Skurvithrax"	
-			adm = 2
-			dip = 1
-			mil = 4
-		}
+	monarch = {
+		name = "Pyper Merrebiore"	
+		adm = 3
+		dip = 5
+		mil = 3
+		female = yes
 	}
 }

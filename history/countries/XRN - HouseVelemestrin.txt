@@ -1,17 +1,17 @@
 government = monarchy
-add_government_reform = imperial_governorate_reform
+add_government_reform = imperial_knight_reform
 government_rank = 1
-technology_group = imperial
+technology_group = mechanicus
 religion = imperial_cult
-primary_culture = human_culture
-capital = 834
+primary_culture = knight_culture
+capital = 3547
 
 1970.12.12 = {
-		monarch = {
-			name = "Ruthveum Domastrilan"	
-			adm = 5
-			dip = 2
-			mil = 5
-		}
+	monarch = {
+		name = "Gallaco"	
+		dynasty = "Velemestrin"
+		adm = 1
+		dip = 5
+		mil = 5
 	}
 }
