@@ -336,10 +336,6 @@ innovativeness_ideas = {
 	ai_will_do = {
 		factor = 0.55
 		modifier = {
-			factor = 1.25
-			has_reform = steppe_horde
-		}
-		modifier = {
 			factor = 0.5
 			NOT = { monthly_adm = 8 }
 		}
@@ -433,13 +429,6 @@ religious_ideas = {
 		modifier = {
 			factor = 0.75
 			personality = ai_diplomat
-		}
-		modifier = {
-			factor = 1.1
-			religion = catholic
-			any_neighbor_country = {
-				is_crusade_target = yes 
-			}
 		}
 		modifier = {
 			factor = 0.25
@@ -703,37 +692,7 @@ defensive_ideas = {
 	}
 	improved_foraging = {
 		garrison_size = 0.33
-		effect = {
-			hidden_effect = {
-				if = {
-					limit = {
-						has_country_flag = ned_buffed_forts_flag
-					}
-					every_owned_province = {
-						limit = {
-							region = low_countries_region
-							has_fort_building_trigger = yes
-						}
-						remove_province_modifier = ned_low_countries_fort_buff
-						add_province_modifier = {
-							name = ned_low_countries_fort_buff_buffed
-							duration = -1
-							hidden = yes
-						}
-					}
-				}
-			}
-		}
-		removed_effect = {
-			hidden_effect = {
-				every_owned_province = {
-					limit = { has_province_modifier = ned_low_countries_fort_buff_buffed }
-					remove_province_modifier = ned_low_countries_fort_buff_buffed
-				}
-			}
-		}
 	}
-
 	#until_the_last_man = {
 	#	morale_damage_received = -0.1
 	#}
@@ -921,10 +880,6 @@ economic_ideas = {
 			inflation = 10
 		}
 		modifier = {
-			factor = 1.5
-			has_reform = steppe_horde
-		}
-		modifier = {
 			factor = 1.1
 			num_of_cities = 20
 		}
@@ -989,7 +944,7 @@ exploration_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 1
+		factor = 0.01
 		modifier = {
 			factor = 0
 			is_colonial_nation = yes
@@ -1015,9 +970,6 @@ exploration_ideas = {
 			NOT = {
 				any_owned_province = {
 					has_port = yes
-					sea_zone = {
-						NOT = { area = eastern_mediterrenean_area }
-					}
 				}
 			}
 			NOT = { 
@@ -1032,15 +984,6 @@ exploration_ideas = {
 			NOT = {
 				any_owned_province = {
 					has_port = yes
-					sea_zone = {
-						OR = {
-							NOT = { region = mediterrenean_region }
-							province_id = 1293 #Gibraltar
-							province_id = 1294 #Almeria
-						}
-						NOT = { area = red_sea_area }
-						NOT = { area = baltic_area }
-					}
 				}
 			}
 			NOT = { 
@@ -1061,41 +1004,6 @@ exploration_ideas = {
 			}
 		}
 		modifier = {
-			factor = 0.1
-			NOT = { has_institution = renaissance }
-			NOT = { tag = POR }
-			NOT = { tag = CAS }
-		}
-		modifier = {
-			factor = 0.1
-			capital_scope = {
-				NOT = {
-					region = france_region
-					region = iberia_region
-					region = british_isles_region
-					region = low_countries_region
-				}
-			}
-			NOT = { technology_group = high_american }
-		}
-		modifier = {
-			factor = 0.5
-			tag = ARA
-		}
-		modifier = {
-			factor = 0.1
-			NOT = { is_year = 1490 }
-			capital_scope = {
-				NOT = {
-					region = iberia_region
-				}
-			}
-		}
-		modifier = {
-			factor = 10
-			technology_group = high_american
-		}
-		modifier = {
 			factor = 2.0
 			num_of_ports = 5
 		}
@@ -1110,24 +1018,6 @@ exploration_ideas = {
 		modifier = {
 			factor = 2.0
 			num_of_ports = 20
-		}
-		modifier = {
-			factor = 1000
-			OR = {
-				tag = POR
-				tag = CAS
-				tag = SPA
-			}
-		}
-		modifier = {
-			factor = 2
-			OR = {
-				tag = GBR
-				tag = NED
-				tag = ENG
-				tag = FRA
-				tag = KUR
-			}
 		}
 	}
 }
@@ -1452,23 +1342,6 @@ expansion_ideas = {
 			}
 		}
 		modifier = {
-			factor = 5
-			OR = {
-				tag = CAS
-				tag = POR
-				tag = SPA
-			}
-		}
-		modifier = {
-			factor = 10
-			NOT = { has_dlc = "Third Rome" } # Has siberian frontier instead
-			tag = RUS
-			num_of_cities = 20
-			any_owned_province = {
-				has_empty_adjacent_province = yes
-			}
-		}
-		modifier = {
 			factor = 0
 			NOT = { has_idea_group = exploration_ideas }
 			NOT = { is_colonial_nation = yes }
@@ -1476,14 +1349,6 @@ expansion_ideas = {
 				any_owned_province = {
 					has_empty_adjacent_province = yes
 				}
-			}
-		}
-		modifier = {
-			factor = 0.1
-			NOT = {
-				technology_group = western
-				technology_group = eastern
-				technology_group = muslim
 			}
 		}
 	}
@@ -1550,11 +1415,6 @@ administrative_ideas = {
 					which = core_creation 
 					value = 0.15
 				}
-				has_reform = livonian_military_monarchy
-				has_reform = prussian_theocratic_reform
-				has_reform = prussian_republic_reform
-				has_reform = prussian_monarchy
-				has_reform = prussian_monarchy_base
 				governing_capacity_percentage = 0.9
 			}
 		}
@@ -1615,10 +1475,6 @@ humanist_ideas = {
 		modifier = {
 			factor = 0.75
 			NOT = { monthly_adm = 8 }
-		}
-		modifier = {
-			factor = 1.25
-			religion = confucianism
 		}
 		modifier = {
 			factor = 1.1 
@@ -1781,7 +1637,6 @@ court_ideas = {
 	}
 	welcoming_ceremonies = {
 		prestige = 1 
-		monthly_persian_influence = 0.1
 	}
 	tranquil_coordination = {
 		reform_progress_growth = 0.2

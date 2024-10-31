@@ -4,7 +4,6 @@ monarch_power = ADM
 ahead_of_time = {
 	production_efficiency = 0.2
 	yearly_corruption = -0.05
-	monthly_russian_modernization = 0.05
 	ahead_of_time_benefit_adm = 1
 }
 
@@ -13,16 +12,7 @@ technology = { #Tribal Government
 	# Tech 0
 	year = 1850
 	
-	native_earthwork = yes
-	native_palisade = yes
-	native_fortified_house = yes
-	native_three_sisters_field = yes
-	native_irrigation = yes
-	native_storehouse = yes
-	native_longhouse = yes
-	native_sweat_lodge = yes
-	native_great_trail = yes
-	native_ceremonial_fire_pit = yes
+	
 
 	#effect = { } # When a country researches the technology
 }

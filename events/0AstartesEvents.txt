@@ -1,0 +1,108 @@
+namespace = astartes_events
+normal_or_historical_nations = yes
+
+country_event = {
+	id = astartes_events.1
+	title = "astartes_events.1.t"
+	desc = "astartes_events.1.d"
+	picture = CONQUEST_eventPicture
+
+	hidden = yes
+
+	trigger = {
+		has_faction = astartes_faction_1
+		estate_loyalty = {
+			estate = estate_nobles
+			loyalty = 60
+		}
+	}
+
+	immediate = {
+		add_country_modifier = {
+			name = astartes_faction_bonus_veterans
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "astartes_events.1.a"	
+	}
+}
+
+country_event = {
+	id = astartes_events.2
+	title = "astartes_events.2.t"
+	desc = "astartes_events.2.d"
+	picture = CONQUEST_eventPicture
+
+	hidden = yes
+
+	trigger = {
+		has_faction = astartes_faction_1
+		army_professionalism = 0.50
+	}
+
+	immediate = {
+		add_country_modifier = {
+			name = astartes_faction_bonus_professionalism
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "astartes_events.2.a"	
+	}
+}
+
+country_event = {
+	id = astartes_events.3
+	title = "astartes_events.3.t"
+	desc = "astartes_events.3.d"
+	picture = CONQUEST_eventPicture
+
+	hidden = yes
+
+	trigger = {
+		has_faction = astartes_faction_1
+		reverse_has_opinion = {
+			who = XXA
+			value = 100
+		}
+	}
+
+	immediate = {
+		add_country_modifier = {
+			name = astartes_faction_bonus_imperium
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "astartes_events.3.a"
+	}
+}
+
+country_event = {
+	id = astartes_events.4
+	title = "astartes_events.4.t"
+	desc = "astartes_events.4.d"
+	picture = CONQUEST_eventPicture
+
+	hidden = yes
+
+	trigger = {
+		has_faction = astartes_faction_1
+		num_of_regiments_at_full_drill = 10
+	}
+
+	immediate = {
+		add_country_modifier = {
+			name = astartes_faction_bonus_drill
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = "astartes_events.4.a"
+	}
+}

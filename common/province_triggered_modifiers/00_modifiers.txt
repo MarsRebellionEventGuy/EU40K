@@ -472,32 +472,6 @@ alandalus_returns = {
 	
 }
 
-changbai_mountain = {
-	potential = {
-		normal_or_historical_nations = yes
-	}
-	trigger = {
-		owner = {
-			OR = {
-				primary_culture = manchu
-				primary_culture = manchu_new
-				primary_culture = korean
-				primary_culture = korean_new
-			}
-			OR = {
-				religion = tengri_pagan_reformed
-				religion = confucianism
-				religion = mahayana
-			}
-			owns_core_province = 2743
-			owns_core_province = 4201
-		}
-	}
-	
-	tolerance_own = 1
-	prestige = 0.5
-}
-
 mongol_kurultai = {
 	potential = {
 		normal_or_historical_nations = yes

@@ -22,4 +22,38 @@ missing_mechanicus_modifier = {
 	}
 
 	global_trade_goods_size_modifier = -0.25
+	imperial_mandate = -0.05
+}
+primarch_regent = {
+	potential = {
+		is_emperor_of_china = yes
+	}
+
+	trigger = {
+		ruler_has_personality = primarch_personality
+	}
+
+	ai_weight = {
+		factor = -1000 # Do what you can to avoid this modifier
+	}
+
+	imperial_mandate = 0.02
+}
+lost_control_of_tera = {
+	potential = {
+		is_emperor_of_china = yes
+	}
+
+	trigger = {
+		OR = {
+			NOT = { owns = 1 }
+			NOT = { controls = 1 }
+		}
+	}
+
+	ai_weight = {
+		factor = -1000 # Do what you can to avoid this modifier
+	}
+
+	imperial_mandate = -0.05
 }

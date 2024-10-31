@@ -1,7 +1,7 @@
 ######################################################
 irthuhaemotalion = {
 	monarch_power = ADM
-	legitimacy = -1
+	meritocracy = -1
 	skill_scaled_modifier = {
 		trigger = { owner = { has_estate = estate_eunuchs } }
 		modifier = { eunuchs_influence_modifier = 0.05 }

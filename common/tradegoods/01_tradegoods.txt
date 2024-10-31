@@ -225,8 +225,8 @@ wraithbone = { #Indomitus
 		modifier = {
 			factor = 5
 			OR = {
-				primary_culture = asuryani_culture
-				primary_culture = exodite_culture
+				culture = asuryani_culture
+				culture = exodite_culture
 			}
 		}
 	}

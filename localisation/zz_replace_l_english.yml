@@ -161,6 +161,9 @@
  Primarch_Status_DEAD: "DEAD"
  Primarch_XX_Status_EVERYWHERE: "UNKNOWN"
  Primarch_XIII_Status_TERRA: "Imperial Regent, Terra"
+ primarch_regent: "Primarch as Regent"
+ lost_control_of_tera: "Lost Control of Terra"
+ primarch_personality: "Primarch"
  
  failed_golden_throne_disaster: "Failure of the Golden Throne"
  ImperiumGoldenThroneFailing: "Integrity of the Golden Throne"

@@ -3,7 +3,7 @@ add_government_reform = ork_government_reform
 government_rank = 1
 technology_group = ork
 religion = ork
-primary_culture = freebooter_culture
+primary_culture = ork_culture #freebooter_culture
 capital = 1657
 
 1970.12.12 = {

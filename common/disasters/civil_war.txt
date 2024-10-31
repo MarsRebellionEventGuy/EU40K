@@ -20,7 +20,6 @@ civil_war = {
 		uses_doom = no
 		NOT = { has_country_flag = had_civil_war }
 		NOT = { has_country_modifier = lxa_legitimacy }
-		NOT = { has_disaster = tur_disaster_ottoman_power_struggle }
 	}
 
 	
@@ -31,7 +30,7 @@ civil_war = {
 		average_home_autonomy = 30
 		if = {
 			limit = {
-				has_reform = celestial_empire
+				is_emperor_of_china = yes
 				has_dlc = "Mandate of Heaven"
 			}
 			NOT = { imperial_mandate = 50 }
@@ -48,7 +47,7 @@ civil_war = {
 			if = {
 				limit = {
 					has_dlc = "Mandate of Heaven"
-					has_reform = celestial_empire
+					is_emperor_of_china = yes
 				}
 				imperial_mandate = 75
 				else = {
@@ -94,7 +93,7 @@ civil_war = {
 		if = {
 			limit = {
 				has_dlc = "Mandate of Heaven"
-				has_reform = celestial_empire
+				is_emperor_of_china = yes
 			}
 			imperial_mandate = 75
 			else = {
