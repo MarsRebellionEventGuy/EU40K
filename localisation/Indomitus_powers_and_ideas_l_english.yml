@@ -536,3 +536,182 @@
  XOK_ideas_6_desc:0 "Though the warriors of Krieg are experts at holding their positions, they are equally adept in the exploitation of breakthroughs on the battlefield. Particularly skilled are the Death Riders of Krieg, a unique variation on the Imperium's standard Rough Rider cavalry boasting genetically engineered horses capable of surviving in the harshest of conditions."
  XOK_ideas_7:0 "Drilled from Birth"
  XOK_ideas_7_desc:0 "The youth of Krieg are trained from birth to be soldiers, the world's harsh environment and culture weeding out the week from the Death Korps' ranks. Though this has resulted in a large number of casualties during the training process, it has ensured that every Krieger is aware of their role in the greater endeavor of protecting the Imperium."
+
+ Death_Guard_ideas:0 "Death Guard Ideas"
+ Death_Guard_ideas_start:0 "Death Guard Traditions"
+ Death_Guard_ideas_bonus:0 "Death Guard Ambition"
+ Death_Guard_ideas_1:0 "Plague Marines"
+ Death_Guard_ideas_1_desc:0 "Mutated by the gift of the Plague Lord, the plague marines  are inured to the agony of bodily corruption, making them all but immune to the pain or debilitation caused by the weapons of the enemy. Not for nothing are these feared soldiers considered the most resilient of all the Chaos Space Marines."
+ Death_Guard_ideas_2:0 "Plaguefleets of Nurgle"
+ Death_Guard_ideas_2_desc:0 "The Death Guard,  have maintained cohesive and organized fleets known as "Plaguefleets," consisting of  Horus Heresy-era battleships, stolen Navis Imperialis warships, and even space hulks gathered from the tides of the Warp . The Plaguefleets are essential for spreading Nurgle's blessings across the galaxy, with Plague Companies emerging from the Warp, bringing swarms of Daemonic insects that spread infection upon landing. In void combat, they unleash "void-locusts" that damage enemy ships while repairing their own."
+ Death_Guard_ideas_3:0 "Lessons of the Long War"
+ Death_Guard_ideas_3_desc:0 "The Death Guard were among the first chapters to join Grandmaster Horus crusade again the false emperor more than 10.000 years ago. We emerged from the fires of war with a grim understanding of resilience. Our experience in combat fuels our resolve, allowing us to withstand greater challenges while our enemies falter under the weight of their own exhaustion."
+ Death_Guard_ideas_4:0 "Sons of Mortarion"
+ Death_Guard_ideas_4_desc:0 "Born from the gene-seed of Mortarion, the Death Guard embody resilience and unyielding strength. Their warriors are enhanced to endure even the most horrific conditions, turning the tide of battle through sheer determination."
+ Death_Guard_ideas_5:0 "Contagion"
+ Death_Guard_ideas_5_desc:0 "Our colonies thrive in the decaying lands where others would perish. As we spread Nurgle's blessings, rot and disease foster both growth and resilience, ensuring that no invader survives long in our corrupted territories."
+ Death_Guard_ideas_6:0 "Terminus Est"
+ Death_Guard_ideas_6_desc:0 "The Terminus Est, the flagship of the Death Guard, serves as a symbol of impending doom and decay. Its presence on the battlefield inspires fear in enemies and bolsters the resolve of Death Guard fleets. The ship's unholy resilience ensures that it withstands the fiercest assaults, while Typhus, honed by a millenia of war, navigates the tides of battle with lethal precision. With each engagement, the Terminus Est leaves a trail of rot and despair in its wake."
+ Death_Guard_ideas_7:0 "Decay-Driven Economy"
+ Death_Guard_ideas_7_desc:0 "The Death Guard harness the bountiful rot of decay to fuel our economy. As we transform desolation into resource-rich landscapes, we extract wealth from the very filth that our enemies fear. Our twisted industry thrives, turning the spoils of decay into power."
+
+
+
+
+
+
+ XKZ_ideas:0 "Consortium Ideas"
+ XKZ_ideas_start:0 "Consortium Traditions"
+ XKZ_ideas_bonus:0 "Consortium Ambition"
+ XKZ_ideas_1:0 "In Unity and Freedom"
+ XKZ_ideas_1_desc:0 "Within the Eye of Terror, numerous Chaos Space Marine warbands thrive, yet the Consortium stands apart as a unique entity, an amalgamation of diverse legions. This cultural crucible fosters an unusual degree of intellectual freedom, a rarity in this dark and unforgiving corner of the galaxy."
+ XKZ_ideas_2:0 "Fleshcrafting"
+ XKZ_ideas_2_desc:0 "The Consortium’s eclectic nature creates a framework in which constant experimentation in fleshcrafting can thrive, thanks to the ample autonomy granted to its members. This, along with other advantages, enables the economy to flourish with minimal oversight."
+ XKZ_ideas_3:0 "Bile's Guidance"
+ XKZ_ideas_3_desc:0 "The glue binding the Consortium is none other than Apothecary Fabius Bile. Upholding a ruthless survival of the fittest ethos, he fosters individual ambition, so long as it doesn't threaten his own intricate designs. His mere presence quashes internecine conflict among the Consortium’s members, ensuring their unity under his watchful eye."
+ XKZ_ideas_4:0 "Terata"
+ XKZ_ideas_4_desc:0 "Enchanted Warriors, or Terata, represent Bile’s greatest achievement. These captured subjects undergo extensive genetic manipulation, resulting in a rare breed of warrior with superior strength and reflexes that even surpass those of Space Marines. These New Men are the Consortium's most formidable wartime asset,  their mere presence on the battlefield igniting the spirits of our warriors."
+ XKZ_ideas_5:0 "Chaos Agnosticism"
+ XKZ_ideas_5_desc:0 "On the outside, Bile is a firm and infamous adherent of Chaos, however, those close to him know that he still adheres to a twisted version of the so called Imperial Thruth , a belief dating back to his days as Chief Apotechary in the Great Crusade. Therefore, despite his ruthless outward appearance, a degree of leniency towards religious persecution permeates his realm."
+ XKZ_ideas_6:0 "Monstrous Innovations"
+ XKZ_ideas_6_desc:0 "The Consortium relentlessly pushes the boundaries of warfare through groundbreaking innovations. Our cutting-edge siege technologies and artillery tactics enable us to breach fortified positions with terrifying efficiency, solidifying our dominance on the battlefield."
+ XKZ_ideas_7:0 "Echoes of the Forgotten"
+ XKZ_ideas_7_desc:0 "The Consortium’s mastery of forgotten lore and arcane knowledge enriches our espionage capabilities. This bolsters our intelligence-gathering efforts, allowing us to manipulate and outmaneuver our rivals, ensuring we maintain a strategic advantage in the tumultuous landscape of power."
+
+ XKJ_ideas:0 "Butcherhorde Ideas"
+ XKJ_ideas_start:0 Butcherhorde Traditions"
+ XKJ_ideas_bonus:0 "Butcherhorde Ambition"
+ XKJ_ideas_1:0 "Rivers of Blood"
+ XKJ_ideas_1_desc:0 "Wherever the Butcherhorde marches, rivers of blood follow. Our frenzied assaults annihilate all in our path, leaving no survivors and crushing enemy lines with overwhelming force. Khorne’s wrath flows through us, fueling our brutal onslaughts and instilling crippling terror in the hearts of our foes."
+ XKJ_ideas_2:0 "Warborn Leaders"
+ XKJ_ideas_2_desc:0 "Every leader in the Butcherhorde is forged in the crucible of war. Their unhortodox tactical prowess and battlefield experience make them fearsome commanders, as they lead their forces with brutal efficiency and unrelenting aggression."
+ XKJ_ideas_3:0 "Kharn's Domain"
+ XKJ_ideas_3_desc:0 "Kharn the Betrayer stands as the greatest of all Khorne's Champions, an avatar of the Lord of Skulls himself. Ten thousand years of war and countless crushed skulls under his belt give testament to his unparalleled savagery. Lethal to both friend and foe, none dare question his combat prowess. His mere presence on the battlefield ignites the fury of our warriors, massively boosting their resolve as they strive to emulate his indiscriminate rage and bloodlust."
+ XKJ_ideas_4:0 "A Lifetime of War"
+ XKJ_ideas_4_desc:0 "Each victory is a tribute to the Blood God, and every slain foe adds to the Skull Throne of Khorne. Our unwavering dedication to eternal slaughter fuels an insatiable thirst for bloodshed, sharpening our mastery of the art of war."
+ XKJ_ideas_5:0 "The Butcherhorde Saga"
+ XKJ_ideas_5_desc:0 "The Butcherhorde began as a small, ragtag group of crazed berserkers who followed Kharn in his infamous betrayal. However, over the millennia, the warband has swelled with a diverse range of Khornate Chaos Space Marines, cultists, mutants, and even daemon princes. This constant influx of fresh warriors is crucial for the Butcherhorde war machine."
+ XKJ_ideas_6:0 "Khorne's Acolytes"
+ XKJ_ideas_6_desc:0 "The spirit of Khorne courses through our warriors, driving the Blood God's inevitable triumph in the Great Game. It is expected that all subjects under our dominion embrace Kharneth, for those who do not will find themselves contributing to the Skull Throne in a far less voluntary manner."
+ XKJ_ideas_7:0 "Lord of Skulls"
+ XKJ_ideas_7_desc:0 "The Lord of Skulls, a key component in our arsenal, the ultimate embodiment of Khorne's wrath, is a huge super heavy Daemon Engine specially crafted to break enemy ranks and fortified positions, a certain death to all who stand before it, this unholy engine of war ensures a relentless pace for our conquest across the galaxy."
+
+
+
+
+
+
+
+ Emperors_Children_ideas:0 "Emperor's Children Ideas"
+ Emperors_Children_ideas_start:0 "Emperor's Children Traditions"
+ Emperors_Children_ideas_bonus:0 "Emperor's Children Ambition"
+ Emperors_Children_ideas_1:0 "Fulgrim's Realm"
+ Emperors_Children_ideas_1_desc:0 "Fulgrim the Phoenician was destined for greatness. Raised amid the harsh conditions of Chemos, he quickly learned to be resourceful and charismatic, traits that helped him lead his Legion as Primarch during the Great Crusade. His descent into the Dark Prince's influence began on the conquest of Laer and culminated in his full embrace of Chaos at the fateful Battle of Isstvan V, where he slew his former brother-in-arms, Ferrus Manus. Driven by an unrelenting pursuit of perfection, our people flourish under his reign, guided by his vision of boundless ambition and beauty."
+ Emperors_Children_ideas_2:0 "The Undying Past"
+ Emperors_Children_ideas_2_desc:0 "We are the only so called "traitor" chapter that spared the Remembrancers in the time of Horus. These were scholars, musicians, journalist and historians tasked with document our actions during the Great Crusade, by keeping them alive over the course of centuries, we now have cultivated a unique corpus of knowledge unbeknowst to other Chaos chapters, granting us a distinct edge in military strategy and technological advancements."
+ Emperors_Children_ideas_3:0 "Apex Legion"
+ Emperors_Children_ideas_3_desc:0 "The Emperor's Children are the finest legion that ever came out of the rotten structure that is the Imperium. Constantly striving for perfection, much like our primarch Fulgrim, the legion outshines all other chapters, both loyalist and chaos alike. We have never wavered from this ethos; rather, the influence of Slaanesh has empowered us to attain levels of perfection we once deemed unattainable."
+ Emperors_Children_ideas_4:0 "Guilliman's Scourge"
+ Emperors_Children_ideas_4_desc:0 "At every pivotal moment that shook the galaxy, our Primarch stood at the heart of it all. From the Siege of Terra to Isstvan and the 13th Black Crusade, Fulgrim’s influence was undeniable. Yet perhaps his most defining moment was the Battle of Thessala, where he slashed Roboute Guilliman’s throat with the aid of his generals. Unfortunately, Guilliman was revived in Ultramar not long ago. Fulgrim, however, sees no threat in this resurrection, even warning him on the day he returned. It seems Guilliman’s throat might be due for another reminder."
+ Emperors_Children_ideas_5:0 "The Night on La Fenice"
+ Emperors_Children_ideas_5_desc:0 "The most infamous episode in our history with the Remembrancers took place aboard the battleship La Fenice 10,000 years ago. On that fateful night, the renowned musician Kynska performed her masterpiece, The Maraviglia. Her music tore open a rift to the Warp, summoning Daemonettes who led us into the depths of excess we now revere. It was on this glorious night that our fervor was reignited, binding us as the most devoted servants of the Dark Prince."
+ Emperors_Children_ideas_6:0 "Ad Astra"
+ Emperors_Children_ideas_6_desc:0 "As a unit, we have no need for vast, bulky fleets; instead, we specialize in quality over quantity, maintaining a small yet incredibly powerful force. Often, we win engagements by simply exploiting enemy overconfidence, allowing us to swiftly annihilate defending fleets before our marines descend to sweep the planet."
+ Emperors_Children_ideas_7:0 "Out of Harmony"
+ Emperors_Children_ideas_7_desc:0 "Before we can even fathom advancing beyond the Cadian Gate, we must first secure total dominance within the Eye of Terror. The fractured region is unlikely to submit willingly, so we must prepare to assimilate these future subjects, those who are left after the dust settles, of course."
+
+
+
+
+
+ XKR_ideas:0 "Flawless Host Ideas"
+ XKR_ideas_start:0 "Flawless Host Traditions"
+ XKR_ideas_bonus:0 "Flawless Host Ambition"
+ XKR_ideas_1:0 "Baptism of Fire"
+ XKR_ideas_1_desc:0 "In those first glorious days of the war, following the discovery aboard La Fenice, the initial batch of sonic weaponry was crafted and unleashed to devastating effect at the Battle of Isstvan V. This powerful overture on the battlefield sent shockwaves through the Imperium's forces, a reverberation that, even 10,000 years later, continues to unsettle them to their core."
+ XKR_ideas_2:0 "Rhapsody"
+ XKR_ideas_2_desc:0 "The widespread use of combat stimulants coursing through our veins burns away weakness and fear, leaving only the thrill of battle and the clarity of purpose. Every melody becomes a requiem, sharper and more haunting; every movement is faster, and every sensation amplified into ecstasy. In this state, we rise beyond mortal limits, for pain is temporary, but glory is eternal. "
+ XKR_ideas_3:0 "Crescendo"
+ XKR_ideas_3_desc:0 "Every battle of the Flawless Host is unique. While our military tactics remain consistent, our sound-based warfare transforms every encounter into a one-of-a-kind composition, for not all enemies scream the same way nor our incantations are uttered in unison. The most anticipated moment of every altercation is the crescendo, where the enemy wails, screams and pleas reach their peak. In that moment our power is at its strongest, their suffering provides us an indescribable ecstasy that only the Prince of Pleasure can provide."
+ XKR_ideas_4:0 "Thunderstruck"
+ XKR_ideas_4_desc:0 "We are feared throughout the galaxy, renowned not just for raiding planets but for conquering them. While the enemy fights fiercely, fully aware that each battle could be their last under their own banner, this ultimately streamlines the pacification process. They understand that once the dust settles, their fate is irrevocably sealed forever."
+ XKR_ideas_5:0 "Symphony of Destruction"
+ XKR_ideas_5_desc:0 "Out of the ample array of sonic weaponry at out disposal, perhaps the most impactful asset on the battlefield are the Dirge Casters. These loudspeakers produce horrifying shrieks, insidious propaganda, eerie wails, and chilling howls that instill fear and undermine the morale of any enemies within earshot whilst also bostering our own marines resolve and perseverance."
+ XKR_ideas_6:0 "Eleaxus the Flawless"
+ XKR_ideas_6_desc:0 "Commanding our warband, Eleaxus embodies the very essence of our legion. No one is as dedicated to the pursuit of perfection and devotion to the Dark Prince as he is. Once the battle concludes, he personally oversees the production of battle stimulants, extracting endless torment from captured prisoners. His deafening arias prolong their suffering, pushing them to the brink until their eardrums rupture or their brains explode, whichever fate befalls them first."
+ XKR_ideas_7:0 "Castle of Glass"
+ XKR_ideas_7_desc:0 "Our marines, forged through countless campaigns, are seasoned by the trials of war. Sieges present an unique opportunity for our soldiers to extract the most horrific sounds from their weaponry, driving defenders to the brink of madness, this unbereable coda rarely endures for long, as it rapidly erodes the enemy's resolve to continue fighting for a hopeless cause."
+
+
+
+
+
+
+ XKQ_ideas:0 "Anathraxian Ideas"
+ XKQ_ideas_start:0 "Anathraxian Traditions"
+ XKQ_ideas_bonus:0 "Anathraxian Ambition"
+ XKQ_ideas_1:0 "Outbreak"
+ XKQ_ideas_1_desc:0 "The origins of our fierce servitude to Nurgle remain cloaked in mystery. Our oldest veterans speak of a distant crusade, a time when we entered the Eye under orders, but the details are lost to history. What is clear, however, is that the false emperor and its acolytes must be subdued. It's time to cause an outbreak they won't have a cure for."
+ XKQ_ideas_2:0 "World of Anathrax"
+ XKQ_ideas_2_desc:0 "Our planet is a peculiar realm, lush yet teeming with pestilence. Towering, poisonous fungi dominate the landscape, creating an environment both vibrant and dangerous to outsiders. Amidst this decay, our scientists find abundant natural resources that empower us to continously enhance our war-making capabilities in the name of Papa Nurgle."
+ XKQ_ideas_3:0 "Scourge"
+ XKQ_ideas_3_desc:0 "Us Talons endure what others cannot, thriving where lesser beings crumble. Hardened by decay and immune to fear,  our warriors see poison as nourishment, pestilence as strength. The legion's tenacity breaks down even the toughest foes, as we charge relentlessly through disease-ridden battlefields that would cripple others. We are the scourge of the galaxy, an unstoppable tide of rot and ruin."
+ XKQ_ideas_4:0 "Wither"
+ XKQ_ideas_4_desc:0 "We are far more than soldiers; we are zealots of the plague, driven by the dark conviction of the infected. Each wound, every scar, and every sickness only deepens our devotion to the Dark Prince, who has granted us resilience beyond mortal understanding. Where a wound would cause a lesser warrior to wither, for us, it is merely another mark of honor , an enduring symbol of our unwavering allegiance and tenacity."
+ XKQ_ideas_5:0 "Rotborne"
+ XKQ_ideas_5_desc:0 "Only the strongest survive among us, molded by disease and decay. Our bodies bear the marks of countless battles, and our minds are hardened by exposure to pestilence that would bring others to their knees. With the resilience of the truly infected, we recover quickly from wounds and return to the front lines, fueled by the unyielding strength of our rotborne nature."
+ XKQ_ideas_6:0 "Terror of the Plague Stars"
+ XKQ_ideas_6_desc:0 "Even the rumor of our approach is enough to empty towns and send armies into disarray. Our diseased presence rots not only bodies but minds, weakening enemy defenses before a single blow is struck. This insidious reputation spreads terror among defenders, who flee or break ranks as soon as we draw near, unwilling to face the horrors that await them."
+ XKQ_ideas_7:0 "Miasma"
+ XKQ_ideas_7_desc:0 "Our armies carry with them an aura of pestilence so potent that even standing in our presence is a death sentence. The air thickens, the earth becomes tainted, and our enemies find their strength sapped with each passing moment. This miasma is our ally, weakening those who stand against us long before we strike, ensuring their doom."
+
+
+
+
+ Word_Bearers_ideas:0 "Word Bearer Ideas"
+ Word_Bearers_start:0 "Word Bearer Traditions"
+ Word_Bearers_bonus:0 "Word Bearer Ambition"
+ Word_Bearers_1:0 "Primus Inter Pares"
+ Word_Bearers_1_desc:0 "We were the first legion to be enlightened by the ultimate truth, granted a vision that others could not comprehend. Among all the chapters, we were chosen to bear this sacred truth and carry it to its rightful conclusion. Our purpose is clear: to unravel the lies that have long shackled humanity and expose the fallacy of the Corpse Emperor's reign. We intend to fulfill this destiny, no matter the cost. Death to the Corpse Emperor!"
+ Word_Bearers_2:0 "Dark Apostles"
+ Word_Bearers_2_desc:0 "Ours is the only chapter that actively strives to spread the glory of Chaos, and our Dark Apostles stand as living proof of this sacred mission. They roam the galaxy, enforcing the true faith with unwavering zeal. Few dare challenge their authority, for any unbeliever bold enough to resist will soon face the devastating might of the Apostles' Accursed Crozius."
+ Word_Bearers_3:0 "Forsaken Sanctum"
+ Word_Bearers_3_desc:0 "All resources of the state are vested into the worship of Chaos, our home world of Sicarus is completely covered by vast cathedrals, temples and monuments, the largest of which is the Basilica of the World, seat of the Dark Council. Millions of slave toil endleslly to furnish and expand these works. It is imperative we replicate this custom along our conquered worlds ensuring that the influence of Chaos spreads and solidifies our dominion."
+ Word_Bearers_4:0 "Eternal Struggle"
+ Word_Bearers_4_desc:0 "Ours is first and foremost a religious task , there where the Word Bearers fight, chaos spreads afterwards . Towering edifices and temples are raised in the glory of the 4 gods. Upon seizing a world, our foremost decree is to secure the populace’s unwavering devotion to Chaos, or face the dire consequences. This is the eternal struggle between Chaos and the falsehoods of the Imperium, and we intend to prevail, no matter the cost."
+ Word_Bearers_5:0 "Lorgar's Pilgrimage"
+ Word_Bearers_5_desc:0 "Lorgar Aurelian, our revered leader for over 10,000 years, was the first of the Primarchs to embrace Chaos. The truth , that the Corpse Emperor had deceived us all, was revealed to him during his pilgrimage to the Eye of Terror. From this revelation, Lorgar set in motion the events that would ignite the great war. All he ever wanted was the truth, and in Chaos, he found it."
+ Word_Bearers_6:0 "Cultist Netorks"
+ Word_Bearers_6_desc:0 "The most unexpected weapon our enemies face when confronting us is the Chaos Cultists, our hidden fifth column. These devoted agents pave the way for our spies to infiltrate foreign administrations, weakening defenses from within, also they provide a steady stream of willing cannon fodder when our forces finally disembark."
+ Word_Bearers_7:0 "Echoes of Truth"
+ Word_Bearers_7_desc:0 "In addition to their role as fervent proselytizers, the Dark Apostles actively participate in battle alongside our regiments, remaining true to their duties as chaplains. Their presence is capable of swinging the tide of battle in our favor with nothing more than the power of their voices. Through their incantations and sermons, they often transform foes into allies. They also play a crucial role in recruitment propaganda, effectively spreading the word of Chaos and inspiring new followers to join our cause."
+
+
+
+ Heretek_ideas:0 "Heretek Ideas"
+ Heretek_ideas_start:0 "Heretek Traditions"
+ Heretek_ideas_bonus:0 "Heretek Ambition"
+ Heretek_ideas_1:0 "Relentless Expansion"
+ Heretek_ideas_1_desc:0 "Unbound by the political and scientific limitations of the Adeptus Mechanicus, there are no shackles on the New Mechanicum."
+ Heretek_ideas_2:0 "Hell's Bells"
+ Heretek_ideas_2_desc:0 "The majority of our production focuses on crafting formidable weapons and munitions. Our massive manufacturing capabilities ensure that both our armies and clients are equipped with the most terrifying armaments imaginable."
+ Heretek_ideas_3:0 "Arcane Secrets"
+ Heretek_ideas_3_desc:0 "Unlike our loyalist counterparts we are unrestrained in our experiments and research, driven by an insatiable thirst for knowledge at any cost, regardless of the consequence. This freedom grants us access to uncharted realms of scientific discovery: artificial intelligence, psyker technology, and the reverse engineering of xenos innovations. So much untapped power ready to be seized."
+ Heretek_ideas_4:0 "Titanicus Traitoris"
+ Heretek_ideas_4_desc:0 "We command the terrifying Chaos Titans, machines feared across the stars for their brutal power. Corrupted by the Warp, their original crews have long since fused with the machinery, while some have become possessed by daemons, their souls are bound to serve our cause. These towering engines of destruction remain one of our most formidable assets, driven by a boundless, ravenous hatred for the False Mechanicum."
+ Heretek_ideas_5:0 "Warpsmiths"
+ Heretek_ideas_5_desc:0 "The Warpsmiths are the skilled artisans of the Dark Mechanicum, specializing in the fusion of machinery and Warp energies. They are responsible for the production of the mighty Daemon Engines. Their mastery combines ancient knowledge and forbidden techniques, allowing them to craft these abominable constructs that embody chaos."
+ Heretek_ideas_6:0 "Lords of War"
+ Heretek_ideas_6_desc:0 "For a Hell Forge , conflict is not merely an arena for conquest; it is a thriving marketplace. We capitalize on the chaos of battle to expand our influence and wealth, ensuring that our coffers overflow with the spoils of conflict. As the architects of destruction, we expertly profit from the very chaos we sow, turning warfare into a lucrative enterprise that strengthens our hold on power."
+ Heretek_ideas_7:0 "Bound in Bondage"
+ Heretek_ideas_7_desc:0 "Ours is a slave-driven economy. The price of our weaponry and resources is paid for with the flesh and souls of newly acquired slaves. These individuals along with the Servitors feed the insatiable fires of our production facilities. This creates a symbiotic relationship with the chapters; they supply us with slaves, and in return, we equip them with ever more powerful weaponry to facilitate their raids and conquest. Ours is a cycle of hatred."
+
+
+
+
+
+
+
+
+
+

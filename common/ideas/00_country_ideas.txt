@@ -172,6 +172,7 @@ Hiveworld_ideas = {
 
 	trigger = {
 		NOT = { tag = XXA }
+		NOT = { tag = XOK }
 		primary_culture = human_culture
 	}
 	free = yes
@@ -405,6 +406,72 @@ Astartes_ideas = {
 
 	trigger = {
 		primary_culture = loyalist_astartes_culture
+		NOT = {
+			OR = {
+		tag = XKO
+		tag = XLN
+		tag = XKQ
+		tag = XKR
+		tag = XIG
+		tag = XKJ
+		tag = XKZ
+			tag = XDT
+			tag = XEJ
+			tag = XDK
+			tag = XZO
+			tag = XNT
+			tag = XGB
+			tag = XKI
+			tag = XJN
+			tag = XIZ
+			tag = XXI
+			tag = XDZ
+			tag = XHY
+			tag = XCG
+			tag = XHH
+			tag = XJY
+			tag = XZD
+			tag = XJH
+			tag = XEK
+			tag = XGW
+			tag = XFS
+			tag = XLH
+			tag = XGK
+			tag = XAE
+			tag = XNG
+			tag = XHX
+			tag = XHJ
+			tag = XYY
+			tag = XJC
+			tag = XNP
+			tag = XHK
+			tag = XDG
+			tag = XNN
+			tag = XJR
+			tag = XHL
+			tag = XKE
+			tag = XLJ
+			tag = XFU
+			tag = XIY
+			tag = XFI
+			tag = XFV
+			tag = XCX
+			tag = XOH
+			tag = XDH
+			tag = XZI
+			tag = XIU
+			tag = XHO
+			tag = XYR
+			tag = XBG
+			tag = XAH
+			tag = XCA
+			tag = XMZ
+			tag = XFJ
+			tag = XHU
+			tag = XNM
+			tag = XAJ
+			}
+		}
 	}
 	free = yes
 	
@@ -1059,45 +1126,6 @@ Chaos_Knight_ideas = {
 	}
 }
 
-Chaos_Astartes_ideas = {
-	start = {	
-		envoy_travel_time = -0.25
-		rival_change_cost = -0.33
-		has_banners = yes	
-	}
-	
-	bonus = {
-		unjustified_demands = -0.20
-	}	
-
-	trigger = {
-		primary_culture = heretic_astartes_culture
-	}
-	free = yes
-	
-	Chaos_Astartes_ideas_1 = {
-		warscore_from_battles_modifier = 0.15
-	}
-	Chaos_Astartes_ideas_2 = {
-		land_morale = 0.10
-	}
-	Chaos_Astartes_ideas_3 = {
-		mercenary_discipline = 0.05
-	}
-	Chaos_Astartes_ideas_4 = {
-		war_exhaustion_cost = -0.33
-	}
-	Chaos_Astartes_ideas_5 = {
-		fire_damage = 0.10
-	}
-	Chaos_Astartes_ideas_6 = {
-		artillery_cost = -0.15
-	}
-	Chaos_Astartes_ideas_7 = {
-		leader_cost = -0.20
-	}
-}
-
 Alpha_Legion_ideas = {
 	start = {	
 		envoy_travel_time = -0.25
@@ -1138,5 +1166,631 @@ Alpha_Legion_ideas = {
 	}
 	Alpha_Legion_ideas_7 = {
 		global_manpower_modifier = 0.15
+	}
+}
+
+Death_Guard_ideas = {
+	start = {	
+	}
+	
+	bonus = {
+	}	
+
+	trigger = {
+		OR = {
+			tag = XDT
+			tag = XEJ
+			tag = XDK
+			tag = XZO
+			tag = XNT
+			tag = XGB
+			tag = XKQ
+			tag = XKI
+		}
+	}
+	free = yes
+	
+	Death_Guard_ideas_1 = {
+	}
+	Death_Guard_ideas_2 = {
+	}
+	Death_Guard_ideas_3 = {
+	}
+	Death_Guard_ideas_4 = {
+	}
+	Death_Guard_ideas_5 = {
+	}
+	Death_Guard_ideas_6 = {
+	}
+	Death_Guard_ideas_7 = {
+	}
+}
+
+Death_Guard_ideas = {
+	start = {
+		has_banners = yes
+		infantry_power = 0.10	
+	}
+	
+	bonus = {
+		warscore_cost_vs_other_religion = -0.25
+	}	
+
+	trigger = {
+		OR = {
+			tag = XDT
+			tag = XEJ
+			tag = XDK
+			tag = XZO
+			tag = XNT
+			tag = XGB
+			tag = XKI
+		}
+	}
+	free = yes
+	
+	Death_Guard_ideas_1 = {
+		morale_damage_received = -0.05
+	}
+	Death_Guard_ideas_2 = {
+		ship_durability = 0.15
+	}
+	Death_Guard_ideas_3 = {
+		army_tradition_decay = -0.02
+	}
+	Death_Guard_ideas_4 = {
+		shock_damage = 0.10
+	}
+	Death_Guard_ideas_5 = {
+		hostile_attrition = 1
+	}
+	Death_Guard_ideas_6 = {
+		morale_in_fleet_modifier = 0.15
+	}
+	Death_Guard_ideas_7 = {
+		production_efficiency = 0.20
+	}
+}
+
+
+
+
+
+
+XKZ_ideas = {
+	start = {
+		has_banners = yes
+		idea_cost = -0.25
+	}
+	
+	bonus = {
+		core_creation = -0.20
+	}	
+
+	trigger = {
+		tag = XKZ
+	}
+	free = yes
+	
+	Death_Guard_ideas_1 = {
+		technology_cost = -0.15
+	}
+	Death_Guard_ideas_2 = {
+		production_efficiency = 0.20
+	}
+	Death_Guard_ideas_3 = {
+		advisor_pool = 1
+	}
+	Death_Guard_ideas_4 = {
+		land_morale = 0.10
+	}
+	Death_Guard_ideas_5 = {
+		tolerance_heretic = 2
+	}
+	Death_Guard_ideas_6 = {
+		siege_ability = 0.15
+	}
+	Death_Guard_ideas_7 = {
+		spy_action_cost_modifier = -0.25
+	}
+}
+
+
+
+
+XKZ_ideas = {
+	start = {
+		has_banners = yes
+		idea_cost = -0.25
+	}
+	
+	bonus = {
+		core_creation = -0.20
+	}	
+
+	trigger = {
+		tag = XKZ
+	}
+	free = yes
+	
+	XKZ_ideas_1 = {
+		technology_cost = -0.15
+	}
+	XKZ_ideas_2 = {
+		production_efficiency = 0.20
+	}
+	XKZ_ideas_3 = {
+		advisor_pool = 1
+	}
+	XKZ_ideas_4 = {
+		land_morale = 0.10
+	}
+	XKZ_ideas_5 = {
+		tolerance_heretic = 2
+	}
+	XKZ_ideas_6 = {
+		siege_ability = 0.15
+	}
+	XKZ_ideas_7 = {
+		spy_action_cost_modifier = -0.25
+	}
+}
+
+
+
+
+XKJ_ideas = {
+	start = {
+		has_banners = yes
+		may_perform_slave_raid_on_same_religion = yes
+		morale_damage = 0.05
+	}
+	
+	bonus = {
+		harsh_treatment_cost = -0.33
+	}	
+
+	trigger = {
+		tag = XKJ
+	}
+	free = yes
+	
+	XKJ_ideas_1 = {
+		shock_damage = 0.10
+	}
+	XKJ_ideas_2 = {
+		leader_land_shock = 1
+	}
+	XKJ_ideas_3 = {
+		land_morale = 0.15
+	}
+	XKJ_ideas_4 = {
+		army_tradition_from_battle = 0.33
+	}
+	XKJ_ideas_5 = {
+		manpower_recovery_speed = 0.20
+	}
+	XKJ_ideas_6 = {
+		global_heretic_missionary_strength = 0.02
+	}
+	XKJ_ideas_7 = {
+		assault_fort_ability = 0.25
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+Emperors_Children_ideas = {
+	start = {
+		has_banners = yes
+		may_perform_slave_raid_on_same_religion = yes
+		fire_damage = 0.10
+	}
+	
+	bonus = {
+		trade_goods_size_modifier = 0.15
+	}	
+
+	trigger = {
+		tag = XIG
+	}
+	free = yes
+	
+	Emperors_Children_ideas_1 = {
+		global_tax_modifier = 0.15
+	}
+	Emperors_Children_ideas_2 = {
+		army_tradition_decay = -0.02
+	}
+	Emperors_Children_ideas_3 = {
+		recover_army_morale_speed = 0.25
+	}
+	Emperors_Children_ideas_4 = {
+		leader_cost = -0.20
+	}
+	Emperors_Children_ideas_5 = {
+		tolerance_own = 1
+	}
+	Emperors_Children_ideas_6 = {
+		heavy_ship_power = 0.15
+	}
+	Emperors_Children_ideas_7 = {
+		unjustified_demands = -0.25
+	}
+}
+
+
+
+
+
+
+Emperors_Children_ideas = {
+	start = {
+		has_banners = yes
+		may_perform_slave_raid_on_same_religion = yes
+		fire_damage = 0.10
+	}
+	
+	bonus = {
+		trade_goods_size_modifier = 0.15
+	}	
+
+	trigger = {
+		tag = XIG
+	}
+	free = yes
+	
+	Emperors_Children_ideas_1 = {
+		global_tax_modifier = 0.15
+	}
+	Emperors_Children_ideas_2 = {
+		army_tradition_decay = -0.02
+	}
+	Emperors_Children_ideas_3 = {
+		recover_army_morale_speed = 0.25
+	}
+	Emperors_Children_ideas_4 = {
+		leader_cost = -0.20
+	}
+	Emperors_Children_ideas_5 = {
+		tolerance_own = 1
+	}
+	Emperors_Children_ideas_6 = {
+		heavy_ship_power = 0.15
+	}
+	Emperors_Children_ideas_7 = {
+		unjustified_demands = -0.25
+	}
+}
+
+
+
+
+
+
+XKR_ideas = {
+	start = {
+		has_banners = yes
+		may_perform_slave_raid_on_same_religion = yes
+		development_cost_in_primary_culture = -0.20
+	}
+	
+	bonus = {
+		land_forcelimit_modifier = 0.25
+	}	
+
+	trigger = {
+		tag = XKR
+	}
+	free = yes
+	
+	XKR_ideas_1 = {
+		shock_damage = 0.15
+	}
+	XKR_ideas_2 = {
+		leader_land_manuever = 1
+	}
+	XKR_ideas_3 = {
+		prestige_from_land = 0.25
+	}
+	XKR_ideas_4 = {
+		years_of_nationalism = -3
+	}
+	XKR_ideas_5 = {
+		warscore_from_battles_modifier = 0.15
+	}
+	XKR_ideas_6 = {
+		production_efficiency = 0.10
+	}
+	XKR_ideas_7 = {
+		artillery_barrage_cost = -0.25
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+XKQ_ideas = {
+	start = {
+		has_banners = yes
+		may_perform_slave_raid_on_same_religion = yes
+		devotion = 1
+	}
+	
+	bonus = {
+		manpower_in_culture_group_provinces = 0.20
+	}	
+
+	trigger = {
+		tag = XKQ
+	}
+	free = yes
+	
+	XKQ_ideas_1 = {
+		core_creation = -0.15
+	}
+	XKQ_ideas_2 = {
+		dip_tech_cost_modifier = -0.25
+	}
+	XKQ_ideas_3 = {
+		war_exhaustion_cost = -0.33
+	}
+	XKQ_ideas_4 = {
+		fire_damage_received = -0.10
+		
+	}
+	XKQ_ideas_5 = {
+		reinforce_cost_modifier = -0.20
+	}
+	XKQ_ideas_6 = {
+		garrison_damage = 0.50
+	}
+	XKQ_ideas_7 = {
+		artillery_barrage_cost = -0.25
+	}
+}
+
+
+
+
+
+Word_Bearers_ideas = {
+	start = {
+		has_banners = yes
+		may_perform_slave_raid_on_same_religion = yes
+		reverse_relation_with_heretic_religion = 10
+	}
+	
+	bonus = {
+		missionary_maintenance_cost = -0.15
+	}	
+
+	trigger = {
+		tag = XKO
+		tag = XLN
+	}
+	free = yes
+	
+	XKR_ideas_1 = {
+		prestige_per_development_from_conversion = 0.5
+	}
+	XKR_ideas_2 = {
+		global_missionary_strength = 0.02
+	}
+	XKR_ideas_3 = {
+		build_cost = -0.20
+	}
+	XKR_ideas_4 = {
+		warscore_cost_vs_other_religion = -0.20
+	}
+	XKR_ideas_5 = {
+		tolerance_own = 1
+	}
+	XKR_ideas_6 = {
+		spy_offence = 0.20
+	}
+	XKR_ideas_7 = {
+		morale_damage_received = -0.05
+	}
+}
+
+
+
+
+
+Heretek_ideas = {
+	start = {
+		global_supply_limit_modifier = 0.25
+		global_ship_recruit_speed = -0.15
+	}
+	
+	bonus = {
+		global_trade_goods_size_modifier = 0.20
+	}	
+
+	trigger = {
+		has_reform = chaos_forge_world_reform
+	}
+	free = yes
+	
+	Heretek_ideas_1 = {
+		core_creation = -0.20
+	}
+	Heretek_ideas_2 = {
+		global_regiment_recruit_speed = -0.33
+	}
+	Heretek_ideas_3 = {
+		idea_cost = -0.20
+	}
+	Heretek_ideas_4 = {
+		artillery_fire = 1
+	}
+	Heretek_ideas_5 = {
+		leader_siege = 1
+	}
+	Heretek_ideas_6 = {
+		backrow_artillery_damage = 0.15
+	}
+	Heretek_ideas_7 = {
+		build_cost = -0.15
+	}
+}
+
+Chaos_Astartes_ideas = {
+	start = {	
+		envoy_travel_time = -0.25
+		rival_change_cost = -0.33
+		has_banners = yes	
+	}
+	
+	bonus = {
+		unjustified_demands = -0.20
+	}	
+
+	trigger = {
+		primary_culture = heretic_astartes_culture
+		NOT = {
+			OR = {
+		tag = XKO
+		tag = XLN
+		tag = XKQ
+		tag = XKR
+		tag = XIG
+		tag = XKJ
+		tag = XKZ
+			tag = XDT
+			tag = XEJ
+			tag = XDK
+			tag = XZO
+			tag = XNT
+			tag = XGB
+			tag = XKI
+			tag = XJN
+			tag = XIZ
+			tag = XXI
+			tag = XDZ
+			tag = XHY
+			tag = XCG
+			tag = XHH
+			tag = XJY
+			tag = XZD
+			tag = XJH
+			tag = XEK
+			tag = XGW
+			tag = XFS
+			tag = XLH
+			tag = XGK
+			tag = XAE
+			tag = XNG
+			tag = XHX
+			tag = XHJ
+			tag = XYY
+			tag = XJC
+			tag = XNP
+			tag = XHK
+			tag = XDG
+			tag = XNN
+			tag = XJR
+			tag = XHL
+			tag = XKE
+			tag = XLJ
+			tag = XFU
+			tag = XIY
+			tag = XFI
+			tag = XFV
+			tag = XCX
+			tag = XOH
+			tag = XDH
+			tag = XZI
+			tag = XIU
+			tag = XHO
+			tag = XYR
+			tag = XBG
+			tag = XAH
+			tag = XCA
+			tag = XMZ
+			tag = XFJ
+			tag = XHU
+			tag = XNM
+			}
+		}
+	}
+	free = yes
+	
+	Chaos_Astartes_ideas_1 = {
+		warscore_from_battles_modifier = 0.15
+	}
+	Chaos_Astartes_ideas_2 = {
+		land_morale = 0.10
+	}
+	Chaos_Astartes_ideas_3 = {
+		mercenary_discipline = 0.05
+	}
+	Chaos_Astartes_ideas_4 = {
+		war_exhaustion_cost = -0.33
+	}
+	Chaos_Astartes_ideas_5 = {
+		fire_damage = 0.10
+	}
+	Chaos_Astartes_ideas_6 = {
+		artillery_cost = -0.15
+	}
+	Chaos_Astartes_ideas_7 = {
+		leader_cost = -0.20
+	}
+}
+
+XOK_ideas = {
+	start = {
+		reinforce_cost_modifier = -0.25
+		war_exhaustion = -0.20
+	}
+	
+	bonus = {
+		regiment_manpower_usage = -0.1
+	}	
+
+	trigger = {
+		tag = XOK
+	}
+	free = yes
+	
+	XOK_ideas_1 = {
+		reinforce_speed = 0.33
+	}
+	XOK_ideas_2 = {
+		assault_fort_ability = 0.25
+	}
+	XOK_ideas_3 = {
+		land_attrition = -0.20
+	}
+	XOK_ideas_4 = {
+		global_manpower_modifier = 0.33
+	}
+	XOK_ideas_5 = {
+		interest = -1
+	}
+	XOK_ideas_6 = {
+		cavalry_flanking = 0.10
+	}
+	XOK_ideas_7 = {
+		drill_gain_modifier = 0.33
 	}
 }
