@@ -590,6 +590,7 @@ invite_into_imperium = {
 			is_subject = no 
 			culture_group = imperial_culture_group
 			religion_group = emperor_group
+			NOT = {religion = mechanicus }
 		}
 	}
 	is_allowed = {
@@ -631,10 +632,10 @@ invite_into_imperium = {
 			}
 		}
 		if = {
-			limit = { FROM = { NOT = { religion = root } } }
+			limit = { FROM = { NOT = { religion_group = root } } }
 			custom_trigger_tooltip = {
 				tooltip = FROM_IS_NOT_ROOT_RELIGION_TT
-				FROM = { religion = root }
+				FROM = { religion_group = root }
 			}
 		}
 		if = {

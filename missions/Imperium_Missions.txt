@@ -551,7 +551,7 @@ XXA_Branch_3 = {
 					inherit = XIM
 				}
 				create_subject = {
-					subject_type = nominal_imperial_world_subject_type
+					subject_type = imperial_world_subject_type
 					subject = XZR
 				}
 				XXA = {
@@ -572,7 +572,7 @@ XXA_Branch_3 = {
 				XIJ = {
 					join_all_defensive_wars_of = XIO
 				}
-				XIJ = {
+				XII = {
 					join_all_defensive_wars_of = XIO
 				}
 			}
