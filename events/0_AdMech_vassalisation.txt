@@ -1,0 +1,2415 @@
+
+##
+namespace = admech_vassalisation
+##
+
+#start
+#target
+country_event = {
+	id = admech_vassalisation.1
+	title = "admech_vassalisation.1.t"
+	desc = "admech_vassalisation.1.desc"
+	picture = NOBLE_ESTATE_DEMANDS_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = admech_has_been_offered_subjugation_trigger 
+	}
+
+	immediate = {
+		clr_country_flag = admech_has_been_offered_subjugation_trigger 
+	}
+	#become a vassal
+	option = {
+		name = admech_vassalisation.1.a
+		hidden_effect = {
+			FROM = {
+				country_event = { 
+					id = admech_vassalisation.2 
+					#days = 10						#test
+					days = 90
+				}
+			}
+		}
+		ai_chance = {
+			factor = 6
+			modifier = {
+				factor = 0.5
+				NOT = {
+					OR = {
+						has_country_modifier = priesthood_infiltrated
+						FROM = { ai = yes } 
+					}
+				}		
+			}
+		}
+	}
+	#remain independent
+	option = {
+		name = admech_vassalisation.1.b
+		hidden_effect = {
+			FROM = {
+				country_event = { 
+					id = admech_vassalisation.3
+					#days = 10						#test
+					days = 90
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 2
+				NOT = {
+					OR = {
+						has_country_modifier = priesthood_infiltrated
+						FROM = { ai = yes } 
+					}
+				}		
+			}
+		}
+	}
+
+	#negotiate - we will make demands
+	option = {
+		name = admech_vassalisation.1.c
+		hidden_effect = {
+			IF = {
+				limit = {
+					NOT = { development = 50 }
+				}
+				set_country_flag = admech_vassalisation_s
+			}
+			IF = {
+				limit = {
+					AND = {
+						NOT = { development = 200 }
+						development = 50
+					}
+				}
+				set_country_flag = admech_vassalisation_m
+			}
+			IF = {
+				limit = {
+					development = 200
+				}
+				set_country_flag = admech_vassalisation_l
+			}
+			set_country_flag = admech_vassalisation_dummy_1
+			FROM = {
+				country_event = {
+					id = admech_vassalisation.100
+				}
+			}
+		}
+		ai_chance = {
+			factor = 5
+		}
+	}
+}
+
+#innitiator
+country_event = {
+	id = admech_vassalisation.2
+	title = "admech_vassalisation.2.t"
+	desc = "admech_vassalisation.2.desc"
+	picture = DIPLOMACY_SIGNING_eventPicture
+	
+	is_triggered_only = yes
+	
+	#they submit
+	option = {
+		name = admech_vassalisation.2.a			
+		create_subject = {
+			subject_type = integrated_forgeworld
+			subject = FROM
+		}
+		IF = {
+			limit = {
+				FROM = {
+					NOT = { development = 50 }			#size s
+				}
+			}
+			add_adm_power = -150 
+			add_dip_power = -150 
+			add_mil_power = -150
+		}
+		IF = {
+			limit = {
+				FROM = {
+					NOT = { development = 200 }			#size m
+					development = 50
+				}
+			}
+			add_adm_power = -300 
+			add_dip_power = -300 
+			add_mil_power = -300
+		}
+		IF = {
+			limit = {
+				FROM = {
+					development = 200				#size l
+				}
+			}
+			add_adm_power = -450 
+			add_dip_power = -450 
+			add_mil_power = -450
+		}
+		FROM = {
+			capital scope = {
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+		}
+		add_country_modifier = {
+			name = admech_vassalisation_cooldown
+			duration = 3650							#10 years
+		}
+		hidden_effect = {
+			FROM = {
+				country_event = {						#clean up event
+					id = admech_vassalisation.101
+				}
+			}
+		}
+
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+#innitiator
+country_event = {
+	id = admech_vassalisation.3
+	title = "admech_vassalisation.3.t"
+	desc = "admech_vassalisation.3.desc"
+	picture = ACCUSATION_eventPicture
+	
+	is_triggered_only = yes
+	
+	#they refuse - get a wargoal
+	option = {
+		name = admech_vassalisation.3.a
+		add_casus_belli = { 
+			target = FROM
+			type = cb_vassalize_mission
+			months = 60
+		}
+		add_opinion = {
+			insulted = {
+				opinion = -50
+				yearly_decay = 5
+				max = 0
+				months = 120
+			}
+		}
+		add_country_modifier = {
+			name = admech_vassalisation_refused
+			duration = 1460
+			hidden = no
+		}
+		hidden_effect = {
+			FROM = {
+				country_event = { 
+					id = admech_vassalisation.4
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+
+			}
+		}
+	}
+	
+	#they refuse - let them be
+	option = {
+		name = admech_vassalisation.3.b
+		add_country_modifier = {
+			name = admech_vassalisation_abandoned
+			duration = 1460
+			hidden = no
+		}
+		hidden_effect = {
+			FROM = {
+				country_event = { 
+					id = admech_vassalisation.5
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+
+			}
+		}
+	}
+}
+
+#target - they want war
+country_event = {
+	id = admech_vassalisation.4
+	title = "admech_vassalisation.4.t"
+	desc = "admech_vassalisation.4.desc"
+	picture = GENERALS_DISCUSSING_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = admech_vassalisation.4.a
+		hidden_effect = {
+			FROM = {
+				country_event = {						#clean up event
+					id = admech_vassalisation.101
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+
+			}
+		}
+	}
+}
+
+#target - they don't want war
+country_event = {
+	id = admech_vassalisation.5
+	title = "admech_vassalisation.5.t"
+	desc = "admech_vassalisation.5.desc"
+	picture = DIPLOMACY_SIGNING_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = admech_vassalisation.5.a
+		hidden_effect = {
+			FROM = {
+				country_event = {						#clean up event
+					id = admech_vassalisation.101
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+
+			}
+		}
+	}
+}
+
+#innitiator - they want to negotiate - adm offer - former 6.1
+country_event = {
+	id = admech_vassalisation.6
+	title = "admech_vassalisation.6.t"
+	desc = "admech_vassalisation.6.desc"
+	picture = INVENTION_eventPicture
+	
+	is_triggered_only = yes
+	
+	#accept demands
+	option = {
+		name = admech_vassalisation.6.a
+		create_subject = {
+			subject_type = integrated_forgeworld
+			subject = FROM
+		}
+		FROM = {
+			capital scope = {
+				add_base_tax = 3
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+		}
+		add_country_modifier = {
+			name = admech_vassalisation_cooldown
+			duration = 3650							#10 years
+		}
+		IF = { 
+			limit = {	
+				FROM = { 
+					has_country_flag = admech_vassalisation_s 
+				} 
+			}
+			add_adm_power = -150 add_dip_power = -150 add_mil_power = -150
+			If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_1 } }
+				add_country_modifier = {
+					name = admech_vassalisation_demands_s_adm_1
+					duration = 3650 }
+			}
+			If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_2 } }
+				add_country_modifier = {
+					name = admech_vassalisation_demands_s_adm_2
+					duration = 3650 }
+			}
+			If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_3 } }
+				add_country_modifier = {
+					name = admech_vassalisation_demands_s_adm_3
+					duration = 3650 }
+			}
+			If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_4 } }					
+				add_country_modifier = {
+					name = admech_vassalisation_demands_s_adm_4
+					duration = 3650 }
+			}
+			If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_5 } }
+				add_country_modifier = {
+					name = admech_vassalisation_demands_s_adm_5
+					duration = 3650 }
+			}
+			If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_6 } }
+				add_country_modifier = {
+					name = admech_vassalisation_demands_s_adm_6
+					duration = 3650 }
+			}
+		}
+		IF = { 
+			limit = {	
+				FROM = { 
+					has_country_flag = admech_vassalisation_m 
+				} 
+			}
+			add_adm_power = -300 add_dip_power = -300 add_mil_power = -300
+			If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_1 } }
+				add_country_modifier = {
+					name = admech_vassalisation_demands_m_adm_1
+					duration = 3650 }
+			}
+			If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_2 } }					
+				add_country_modifier = {
+					name = admech_vassalisation_demands_m_adm_2
+					duration = 3650 }
+			}
+			If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_3 } }
+				add_country_modifier = {
+					name = admech_vassalisation_demands_m_adm_3
+					duration = 3650 }
+			}
+			If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_4 } }
+				add_country_modifier = {
+					name = admech_vassalisation_demands_m_adm_4
+					duration = 3650 }
+			}
+			If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_5 } }
+				add_country_modifier = {
+					name = admech_vassalisation_demands_m_adm_5
+					duration = 3650 }
+			}
+			If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_6 } }
+				add_country_modifier = {
+					name = admech_vassalisation_demands_m_adm_6
+					duration = 3650 }
+			}
+		}
+		IF = { 
+			limit = {	
+				FROM = { 
+					has_country_flag = admech_vassalisation_l
+				} 
+			}
+			add_adm_power = -450 add_dip_power = -450 add_mil_power = -450
+			If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_1 } }
+				add_country_modifier = {
+					name = admech_vassalisation_demands_l_adm_1
+					duration = 3650 }
+			}
+			If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_2 } }
+				add_country_modifier = {
+					name = admech_vassalisation_demands_l_adm_2
+					duration = 3650 }
+			}
+			If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_3 } }
+				add_country_modifier = {
+					name = admech_vassalisation_demands_l_adm_3
+					duration = 3650 }
+			}
+			If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_4 } }
+				add_country_modifier = {
+					name = admech_vassalisation_demands_l_adm_4
+					duration = 3650 }
+			}
+			If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_5 } }
+				add_country_modifier = {
+					name = admech_vassalisation_demands_l_adm_5
+					duration = 3650 }
+			}
+			If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_6 } }
+				add_country_modifier = {
+					name = admech_vassalisation_demands_l_adm_6
+					duration = 3650 }
+			}
+		}
+
+
+		hidden_effect = {
+			FROM = {
+				country_event = { 
+					id = admech_vassalisation.9
+					#days = 10
+					days = 90
+				}
+			}
+		}
+		ai_chance = {
+			factor = 6
+			modifier = {
+				factor = 10
+				ROOT = { ai = yes } 
+			}
+		}
+	}
+
+	#offer half of the demands
+	option = {
+		name = admech_vassalisation.6.b
+		trigger = {
+			NOT = {	has_country_flag = admech_vassalisation_has_offered_alternative }
+		}
+										
+		hidden_effect = {
+			FROM = {
+				#set_country_flag = admech_vassalisation_1_reduced		
+				country_event = { 
+					id = admech_vassalisation.10
+					#days = 10
+					days = 90
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+
+			}
+		}
+	}
+
+	#offer alternative
+	option = {
+		name = admech_vassalisation.6.c
+		trigger = {
+			NOT = {	has_country_flag = admech_vassalisation_has_offered_alternative }
+		}
+		hidden_effect = {
+			set_country_flag = admech_vassalisation_has_offered_alternative
+			set_country_flag = admech_vassalisation_dummy_6_1c
+			FROM = {
+				country_event = { 
+					id = admech_vassalisation.100
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+
+			}
+		}
+	}
+
+	#demand surrender
+	option = {
+		name = admech_vassalisation.6.d
+		trigger = {
+			NOT = {	has_country_flag = admech_vassalisation_has_offered_alternative }
+		}
+		hidden_effect = {
+			FROM = {
+				country_event = { 
+					id = admech_vassalisation.17
+					#days = 10
+					days = 90
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+
+			}
+		}
+	}
+
+	#leave negotiations
+	option = {
+		name = admech_vassalisation.6.e
+		hidden_effect = {
+			FROM = {
+				country_event = { 
+					id = admech_vassalisation.18
+					#days = 10
+					days = 90
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+
+			}
+		}
+	}
+}
+
+#innitiator - they want to negotiate - dip offer
+country_event = {
+	id = admech_vassalisation.7
+	title = "admech_vassalisation.7.t"
+	desc = "admech_vassalisation.7.desc"
+	picture = SHIP_SAILING_eventPicture
+	
+	is_triggered_only = yes
+	
+	#accept demands
+	option = {
+		name = admech_vassalisation.7.a
+		create_subject = {
+			subject_type = integrated_forgeworld
+			subject = FROM
+		}
+		FROM = {
+			capital scope = {
+				add_base_tax = 1
+				add_base_production = 3
+				add_base_manpower = 1
+			}
+		}
+		add_country_modifier = {
+			name = admech_vassalisation_cooldown
+			duration = 3650							#10 years
+		}
+			IF = { 
+				limit = {	
+					FROM = { 
+						has_country_flag = admech_vassalisation_s 
+					} 
+				}
+				add_adm_power = -150 add_dip_power = -150 add_mil_power = -150
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_1 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_s_dip_1
+						duration = 3650 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_2 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_s_dip_2
+						duration = 3650 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_3 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_s_dip_3
+						duration = 3650 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_4 } }				
+					add_country_modifier = {
+						name = admech_vassalisation_demands_s_dip_4
+						duration = 3650 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_5 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_s_dip_5
+						duration = 3650 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_6 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_s_dip_6
+						duration = 3650 }
+				}
+			}
+
+			IF = { 
+				limit = {	
+					FROM = { 
+						has_country_flag = admech_vassalisation_m 
+					} 
+				}
+				add_adm_power = -300 add_dip_power = -300 add_mil_power = -300
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_1 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_m_dip_1
+						duration = 3650 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_2 } }	
+					add_country_modifier = {
+						name = admech_vassalisation_demands_m_dip_2
+						duration = 3650 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_3 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_m_dip_3
+						duration = 3650 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_4 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_m_dip_4
+						duration = 3650 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_5 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_m_dip_5
+						duration = 3650 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_6 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_m_dip_6
+						duration = 3650 }
+				}
+			}
+
+			IF = { 
+				limit = {	
+					FROM = { 
+						has_country_flag = admech_vassalisation_l 
+					} 
+				}
+				add_adm_power = -450 add_dip_power = -450 add_mil_power = -450
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_1 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_l_dip_1
+						duration = 3650 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_2 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_l_dip_2
+						duration = 3650 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_3 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_l_dip_3
+						duration = 3650 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_4 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_l_dip_4
+						duration = 3650 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_5 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_l_dip_5
+						duration = 3650 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_6 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_l_dip_6
+						duration = 3650 }
+				}
+			}		
+		
+		hidden_effect = {
+			FROM = {
+				country_event = { 
+					id = admech_vassalisation.9
+					#days = 10
+					days = 90
+				}
+			}
+		}
+		ai_chance = {
+			factor = 6
+			modifier = {
+				factor = 10
+				ROOT = { ai = yes } 
+			}
+		}
+	}
+
+	#offer half of the demands
+	option = {
+		name = admech_vassalisation.7.b
+		trigger = {
+			NOT = {	has_country_flag = admech_vassalisation_has_offered_alternative }
+		}
+		hidden_effect = {
+			FROM = {
+				country_event = { 
+					id = admech_vassalisation.10
+					#days = 10
+					days = 90
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+
+			}
+		}
+	}
+
+	#offer alternative
+	option = {
+		name = admech_vassalisation.7.c
+		trigger = {
+			NOT = {	has_country_flag = admech_vassalisation_has_offered_alternative }
+		}
+		hidden_effect = {
+			set_country_flag = admech_vassalisation_has_offered_alternative
+			set_country_flag = admech_vassalisation_dummy_6_2c
+			FROM = {
+				country_event = { 
+					id = admech_vassalisation.100
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+
+			}
+		}
+	}
+
+	#demand surrender
+	option = {
+		name = admech_vassalisation.7.d
+		trigger = {
+			NOT = {	has_country_flag = admech_vassalisation_has_offered_alternative }
+		}
+		hidden_effect = {
+			FROM = {
+				country_event = { 
+					id = admech_vassalisation.17
+					#days = 10
+					days = 90
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+
+			}
+		}
+	}
+
+	#leave negotiations
+	option = {
+		name = admech_vassalisation.7.e
+		hidden_effect = {
+			FROM = {
+				country_event = { 
+					id = admech_vassalisation.18
+					#days = 10
+					days = 90
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+
+			}
+		}
+	}
+}
+
+#innitiator - they want to negotiate - mil offer
+country_event = {
+	id = admech_vassalisation.8
+	title = "admech_vassalisation.8.t"
+	desc = "admech_vassalisation.8.desc"
+	picture = LAND_MILITARY_eventPicture
+	
+	is_triggered_only = yes
+	
+	#accept demands
+	option = {
+		name = admech_vassalisation.8.a
+		create_subject = {
+			subject_type = integrated_forgeworld
+			subject = FROM
+		}
+		FROM = {
+			capital scope = {
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 3
+			}
+		}
+		add_country_modifier = {
+			name = admech_vassalisation_cooldown
+			duration = 3650							#10 years
+		}
+			IF = { 
+				limit = {	
+					FROM = { 
+						has_country_flag = admech_vassalisation_s 
+					} 
+				}
+				add_adm_power = -150 add_dip_power = -150 add_mil_power = -150
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_1 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_s_mil_1
+						duration = 3650 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_2 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_s_mil_2
+						duration = 3650 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_3 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_s_mil_3
+						duration = 3650 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_4 } }					
+					add_country_modifier = {
+						name = admech_vassalisation_demands_s_mil_4
+						duration = 3650 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_5 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_s_mil_5
+						duration = 3650 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_6 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_s_mil_6
+						duration = 3650 }
+				}
+			}
+
+			IF = { 
+				limit = {	
+					FROM = { 
+						has_country_flag = admech_vassalisation_m 
+					} 
+				}
+				add_adm_power = -300 add_dip_power = -300 add_mil_power = -300
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_1 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_m_mil_1
+						duration = 3650 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_2 } }				
+					add_country_modifier = {
+						name = admech_vassalisation_demands_m_mil_2
+						duration = 3650 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_3 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_m_mil_3
+						duration = 3650 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_4 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_m_mil_4
+						duration = 3650 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_5 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_m_mil_5
+						duration = 3650 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_6 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_m_mil_6
+						duration = 3650 }
+				}
+			}
+
+			IF = { 
+				limit = {	
+					FROM = { 
+						has_country_flag = admech_vassalisation_l 
+					} 
+				}
+				add_adm_power = -450 add_dip_power = -450 add_mil_power = -450
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_1 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_l_mil_1
+						duration = 3650 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_2 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_l_mil_2
+						duration = 3650 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_3 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_l_mil_3
+						duration = 3650 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_4 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_l_mil_4
+						duration = 3650 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_5 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_l_mil_5
+						duration = 3650 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_6 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_l_mil_6
+						duration = 3650 }
+				}
+			}		
+		
+		hidden_effect = {
+			FROM = {
+				country_event = { 
+					id = admech_vassalisation.9
+					#days = 10
+					days = 90
+				}
+			}
+		}
+		ai_chance = {
+			factor = 6
+			modifier = {
+				factor = 10
+				ROOT = { ai = yes } 
+			}
+		}
+	}
+
+	#offer half of their demands
+	option = {
+		name = admech_vassalisation.8.b
+		trigger = {
+			NOT = {	has_country_flag = admech_vassalisation_has_offered_alternative }
+		}
+		hidden_effect = {
+			FROM = {
+				country_event = { 
+					id = admech_vassalisation.10
+					#days = 10
+					days = 90
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+
+			}
+		}
+	}
+
+	#offer alternative
+	option = {
+		name = admech_vassalisation.8.c
+		trigger = {
+			NOT = {	has_country_flag = admech_vassalisation_has_offered_alternative }
+		}
+		hidden_effect = {
+			set_country_flag = admech_vassalisation_has_offered_alternative
+			set_country_flag = admech_vassalisation_dummy_6_3c
+			FROM = {
+				country_event = { 
+					id = admech_vassalisation.100
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+
+			}
+		}
+	}
+
+	#demand surrender
+	option = {
+		name = admech_vassalisation.8.d
+		trigger = {
+			NOT = {	has_country_flag = admech_vassalisation_has_offered_alternative }
+		}
+		hidden_effect = {
+			FROM = {
+				country_event = { 
+					id = admech_vassalisation.17
+					#days = 10
+					days = 90
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+
+			}
+		}
+	}
+
+	#leave negotiations
+	option = {
+		name = admech_vassalisation.8.e
+		hidden_effect = {
+			FROM = {
+				country_event = { 
+					id = admech_vassalisation.18
+					#days = 10
+					days = 90
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+
+			}
+		}
+	}
+}
+
+#target
+country_event = {
+	id = admech_vassalisation.9
+	title = "admech_vassalisation.9.t"
+	desc = "admech_vassalisation.9.desc"
+	picture = DIPLOMACY_SIGNING_eventPicture
+	
+	is_triggered_only = yes
+	
+	#they accept our demands
+	option = {
+		name = admech_vassalisation.9.a
+		hidden_effect = {
+			FROM = {
+				country_event = {						#clean up event
+					id = admech_vassalisation.101
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+
+			}
+		}
+	}
+}
+
+#target - they offer half
+country_event = {
+	id = admech_vassalisation.10
+	title = "admech_vassalisation.10.t"
+	desc = "admech_vassalisation.10.desc"
+	picture = MERCHANTS_TALKING_eventPicture
+	
+	is_triggered_only = yes
+	
+	#accept
+	option = {
+		name = admech_vassalisation.10.a
+		hidden_effect = {
+			set_country_flag = admech_vassalisation_1_reduced
+			FROM = {
+				country_event = { 				
+					id = admech_vassalisation.30
+					#days = 10						#test
+					days = 90
+				}
+			}
+		}
+		ai_chance = {
+			factor = 7
+			modifier = {
+
+			}
+		}
+	}
+
+	#refuse
+	option = {
+		name = admech_vassalisation.10.b
+		hidden_effect = {
+			FROM = {
+				country_event = { 
+					id = admech_vassalisation.3
+				}
+			}
+		}
+		ai_chance = {
+			factor = 3
+			modifier = {
+
+			}
+		}
+	}
+}
+
+#innitiator - target accepts reduced demands - adm
+country_event = {
+	id = admech_vassalisation.11
+	title = "admech_vassalisation.11.t"
+	desc = "admech_vassalisation.11.desc"
+	picture = DIPLOMACY_SIGNING_eventPicture
+	
+	is_triggered_only = yes
+	
+	#accept demands
+	option = {
+		name = admech_vassalisation.11.a
+		create_subject = {
+			subject_type = integrated_forgeworld
+			subject = FROM
+		}
+			FROM = {
+				capital scope = {
+					add_base_tax = 3
+					add_base_production = 1
+					add_base_manpower = 1
+				}
+			}
+			add_country_modifier = {
+			name = admech_vassalisation_cooldown
+			duration = 3650							#10 years
+			}
+			IF = { 
+				limit = {	
+					FROM = { 
+						has_country_flag = admech_vassalisation_m 
+					} 
+				}
+				add_adm_power = -200 add_dip_power = -200 add_mil_power = -200
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_1 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_s_adm_1
+						duration = 3650 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_2 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_s_adm_2
+						duration = 3650 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_3 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_s_adm_3
+						duration = 3650 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_4 } }					
+					add_country_modifier = {
+						name = admech_vassalisation_demands_s_adm_4
+						duration = 3650 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_5 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_s_adm_5
+						duration = 3650 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_6 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_s_adm_6
+						duration = 3650 }
+				}
+			}
+
+			IF = { 
+				limit = {	
+					FROM = { 
+						has_country_flag = admech_vassalisation_l 
+					} 
+				}
+				add_adm_power = -300 add_dip_power = -300 add_mil_power = -300
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_1 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_m_adm_1
+						duration = 3650 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_2 } }					
+					add_country_modifier = {
+						name = admech_vassalisation_demands_m_adm_2
+						duration = 3650 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_3 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_m_adm_3
+						duration = 3650 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_4 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_m_adm_4
+						duration = 3650 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_5 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_m_adm_5
+						duration = 3650 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_6 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_m_adm_6
+						duration = 3650 }
+				}
+			}
+
+			IF = { 			#MINIMAL DEMANDS - duration halved
+				limit = {	
+					FROM = { 
+						has_country_flag = admech_vassalisation_s 
+					} 
+				}
+				add_adm_power = -100 add_dip_power = -100 add_mil_power = -100
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_1 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_s_adm_1
+						duration = 1825 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_2 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_s_adm_2
+						duration = 1825 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_3 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_s_adm_3
+						duration = 1825 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_4 } }					
+					add_country_modifier = {
+						name = admech_vassalisation_demands_s_adm_4
+						duration = 1825 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_5 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_s_adm_5
+						duration = 1825 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_6 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_s_adm_6
+						duration = 1825 }
+				}
+			}	
+		
+		hidden_effect = {
+			FROM = {
+				country_event = { 
+					id = admech_vassalisation.101
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+
+			}
+		}
+	}
+}
+
+#innitiator - target accepts reduced demands - dip
+country_event = {
+	id = admech_vassalisation.12
+	title = "admech_vassalisation.12.t"
+	desc = "admech_vassalisation.12.desc"
+	picture = DIPLOMACY_SIGNING_eventPicture
+	
+	is_triggered_only = yes
+	
+	#accept demands
+	option = {
+		name = admech_vassalisation.12.a
+		create_subject = {
+			subject_type = integrated_forgeworld
+			subject = FROM
+		}
+			FROM = {
+				capital scope = {
+					add_base_tax = 1
+					add_base_production = 3
+					add_base_manpower = 1
+				}
+			}
+			add_country_modifier = {
+			name = admech_vassalisation_cooldown
+			duration = 3650							#10 years
+			}
+			IF = { 
+				limit = {	
+					FROM = { 
+						has_country_flag = admech_vassalisation_m 
+					} 
+				}
+				add_adm_power = -200 add_dip_power = -200 add_mil_power = -200
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_1 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_s_dip_1
+						duration = 3650 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_2 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_s_dip_2
+						duration = 3650 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_3 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_s_dip_3
+						duration = 3650 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_4 } }					
+					add_country_modifier = {
+						name = admech_vassalisation_demands_s_dip_4
+						duration = 3650 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_5 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_s_dip_5
+						duration = 3650 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_6 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_s_dip_6
+						duration = 3650 }
+				}
+			}
+
+			IF = { 
+				limit = {	
+					FROM = { 
+						has_country_flag = admech_vassalisation_l 
+					} 
+				}
+				add_adm_power = -300 add_dip_power = -300 add_mil_power = -300
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_1 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_m_dip_1
+						duration = 3650 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_2 } }					
+					add_country_modifier = {
+						name = admech_vassalisation_demands_m_dip_2
+						duration = 3650 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_3 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_m_dip_3
+						duration = 3650 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_4 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_m_dip_4
+						duration = 3650 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_5 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_m_dip_5
+						duration = 3650 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_6 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_m_dip_6
+						duration = 3650 }
+				}
+			}
+
+			IF = { 			#MINIMAL DEMANDS - duration halved
+				limit = {	
+					FROM = { 
+						has_country_flag = admech_vassalisation_s 
+					} 
+				}
+				add_adm_power = -100 add_dip_power = -100 add_mil_power = -100
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_1 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_s_dip_1
+						duration = 1825 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_2 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_s_dip_2
+						duration = 1825 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_3 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_s_dip_3
+						duration = 1825 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_4 } }				
+					add_country_modifier = {
+						name = admech_vassalisation_demands_s_dip_4
+						duration = 1825 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_5 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_s_dip_5
+						duration = 1825 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_6 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_s_dip_6
+						duration = 1825 }
+				}
+			}			
+		
+		hidden_effect = {
+			FROM = {
+				country_event = { 
+					id = admech_vassalisation.101
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+
+			}
+		}
+	}
+}
+
+#innitiator - target accepts reduced demands - mil
+country_event = {
+	id = admech_vassalisation.13
+	title = "admech_vassalisation.13.t"
+	desc = "admech_vassalisation.13.desc"
+	picture = DIPLOMACY_SIGNING_eventPicture
+	
+	is_triggered_only = yes
+	
+	#accept demands
+	option = {
+		name = admech_vassalisation.13.a
+		create_subject = {
+			subject_type = integrated_forgeworld
+			subject = FROM
+		}
+			FROM = {
+				capital scope = {
+					add_base_tax = 1
+					add_base_production = 1
+					add_base_manpower = 3
+				}
+			}
+			add_country_modifier = {
+			name = admech_vassalisation_cooldown
+			duration = 3650							#10 years
+			}
+			IF = { 
+				limit = {	
+					FROM = { 
+						has_country_flag = admech_vassalisation_m 
+					} 
+				}
+				add_adm_power = -200 add_dip_power = -200 add_mil_power = -200
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_1 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_s_mil_1
+						duration = 3650 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_2 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_s_mil_2
+						duration = 3650 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_3 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_s_mil_3
+						duration = 3650 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_4 } }					
+					add_country_modifier = {
+						name = admech_vassalisation_demands_s_mil_4
+						duration = 3650 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_5 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_s_mil_5
+						duration = 3650 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_6 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_s_mil_6
+						duration = 3650 }
+				}
+			}
+
+			IF = { 
+				limit = {	
+					FROM = { 
+						has_country_flag = admech_vassalisation_l 
+					} 
+				}
+				add_adm_power = -300 add_dip_power = -300 add_mil_power = -300
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_1 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_m_mil_1
+						duration = 3650 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_2 } }					
+					add_country_modifier = {
+						name = admech_vassalisation_demands_m_mil_2
+						duration = 3650 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_3 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_m_mil_3
+						duration = 3650 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_4 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_m_mil_4
+						duration = 3650 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_5 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_m_mil_5
+						duration = 3650 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_6 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_m_mil_6
+						duration = 3650 }
+				}
+			}
+
+			IF = { 			#MINIMAL DEMANDS - duration halved
+				limit = {	
+					FROM = { 
+						has_country_flag = admech_vassalisation_s 
+					} 
+				}
+				add_adm_power = -100 add_dip_power = -100 add_mil_power = -100
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_1 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_s_mil_1
+						duration = 1825 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_2 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_s_mil_2
+						duration = 1825 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_3 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_s_mil_3
+						duration = 1825 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_4 } }				
+					add_country_modifier = {
+						name = admech_vassalisation_demands_s_mil_4
+						duration = 1825 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_5 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_s_mil_5
+						duration = 1825 }
+				}
+				If = { 	limit = { FROM = { has_country_flag = admech_vassalisation_demand_1_6 } }
+					add_country_modifier = {
+						name = admech_vassalisation_demands_s_mil_6
+						duration = 1825 }
+				}
+			}		
+		
+		add_country_modifier = {
+			name = admech_vassalisation_cooldown
+			duration = 3650							#10 years
+		}
+		
+		hidden_effect = {
+			FROM = {
+				country_event = { 
+					id = admech_vassalisation.9
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+
+			}
+		}
+	}
+}
+
+#target - they offer alternative - adm
+country_event = {
+	id = admech_vassalisation.14
+	title = "admech_vassalisation.14.t"
+	desc = "admech_vassalisation.14.desc"
+	picture = INVENTION_eventPicture
+	
+	is_triggered_only = yes
+
+	#they offer X - accept
+	option = {
+		name = admech_vassalisation.14.a
+		trigger = {	has_country_flag = admech_vassalisation_demand_1_1 }
+		FROM = {
+			capital scope = {
+				add_base_tax = 3
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+		}
+		hidden_effect = {
+			FROM = {
+				country_event = { 
+					id = admech_vassalisation.40			#is that correct?
+					#days = 10
+					days = 90
+		}	}	}
+		ai_chance = {
+			factor = 7
+			modifier = {
+
+		}	}
+	}
+	option = {
+		name = admech_vassalisation.14.b
+		trigger = {	has_country_flag = admech_vassalisation_demand_1_2 }
+		FROM = {
+			capital scope = {
+				add_base_tax = 3
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+		}
+		hidden_effect = {
+			FROM = {
+				country_event = { 
+					id = admech_vassalisation.40			#is that correct?
+					#days = 10
+					days = 90
+		}	}	}
+		ai_chance = {
+			factor = 7
+			modifier = {
+
+		}	}
+	}
+	option = {
+		name = admech_vassalisation.14.c
+		trigger = {	has_country_flag = admech_vassalisation_demand_1_3 }
+		FROM = {
+			capital scope = {
+				add_base_tax = 3
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+		}
+		hidden_effect = {
+			FROM = {
+				country_event = { 
+					id = admech_vassalisation.40			#is that correct?
+					#days = 10
+					days = 90
+		}	}	}
+		ai_chance = {
+			factor = 7
+			modifier = {
+
+		}	}
+	}
+	option = {
+		name = admech_vassalisation.14.d 
+		trigger = {	has_country_flag = admech_vassalisation_demand_1_4 }
+		FROM = {
+			capital scope = {
+				add_base_tax = 3
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+		}
+		hidden_effect = {
+			FROM = {
+				country_event = { 
+					id = admech_vassalisation.40			#is that correct?
+					#days = 10
+					days = 90
+		}	}	}
+		ai_chance = {
+			factor = 7
+			modifier = {
+
+		}	}
+	}
+	option = {
+		name = admech_vassalisation.14.e
+		trigger = {	has_country_flag = admech_vassalisation_demand_1_5 }
+		FROM = {
+			capital scope = {
+				add_base_tax = 3
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+		}
+		hidden_effect = {
+			FROM = {
+				country_event = { 
+					id = admech_vassalisation.40			#is that correct?
+					#days = 10
+					days = 90
+		}	}	}
+		ai_chance = {
+			factor = 7
+			modifier = {
+
+		}	}
+	}
+	option = {
+		name = admech_vassalisation.14.f
+		trigger = {	has_country_flag = admech_vassalisation_demand_1_6 }
+		FROM = {
+			capital scope = {
+				add_base_tax = 3
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+		}
+		hidden_effect = {
+			FROM = {
+				country_event = { 
+					id = admech_vassalisation.40			#is that correct?
+					#days = 10
+					days = 90
+		}	}	}
+		ai_chance = {
+			factor = 7
+			modifier = {
+
+		}	}
+	}
+
+	#refuse
+	option = {
+		name = admech_vassalisation.14.g
+		hidden_effect = {
+			FROM = {
+				country_event = { 
+					id = admech_vassalisation.3
+				}
+			}
+		}
+		ai_chance = {
+			factor = 3
+			modifier = {
+
+			}
+		}
+	}
+}
+
+#target - they offer alternative - dip
+country_event = {
+	id = admech_vassalisation.15
+	title = "admech_vassalisation.15.t"
+	desc = "admech_vassalisation.15.desc"
+	picture = SHIP_SAILING_eventPicture
+	
+	is_triggered_only = yes
+
+	#they offer X - accept
+	option = {
+		name = admech_vassalisation.15.a
+		trigger = {	has_country_flag = admech_vassalisation_demand_1_1 }
+		FROM = {
+			capital scope = {
+				add_base_tax = 1
+				add_base_production = 3
+				add_base_manpower = 1
+			}
+		}
+		hidden_effect = {
+			FROM = {
+				country_event = { 
+					id = admech_vassalisation.40			#is that correct?
+					#days = 10
+					days = 90
+		}	}	}
+		ai_chance = {
+			factor = 7
+			modifier = {
+
+		}	}
+	}
+	option = {
+		name = admech_vassalisation.15.b
+		trigger = {	has_country_flag = admech_vassalisation_demand_1_2 }
+		FROM = {
+			capital scope = {
+				add_base_tax = 1
+				add_base_production = 3
+				add_base_manpower = 1
+			}
+		}
+		hidden_effect = {
+			FROM = {
+				country_event = { 
+					id = admech_vassalisation.40			#is that correct?
+					#days = 10
+					days = 90
+		}	}	}
+		ai_chance = {
+			factor = 7
+			modifier = {
+
+		}	}
+	}
+	option = {
+		name = admech_vassalisation.15.c
+		trigger = {	has_country_flag = admech_vassalisation_demand_1_3 }
+		FROM = {
+			capital scope = {
+				add_base_tax = 1
+				add_base_production = 3
+				add_base_manpower = 1
+			}
+		}
+		hidden_effect = {
+			FROM = {
+				country_event = { 
+					id = admech_vassalisation.40			#is that correct?
+					#days = 10
+					days = 90
+		}	}	}
+		ai_chance = {
+			factor = 7
+			modifier = {
+
+		}	}
+	}
+	option = {
+		name = admech_vassalisation.15.d
+		trigger = {	has_country_flag = admech_vassalisation_demand_1_4 }
+		FROM = {
+			capital scope = {
+				add_base_tax = 1
+				add_base_production = 3
+				add_base_manpower = 1
+			}
+		}
+		hidden_effect = {
+			FROM = {
+				country_event = { 
+					id = admech_vassalisation.40			#is that correct?
+					#days = 10
+					days = 90
+		}	}	}
+		ai_chance = {
+			factor = 7
+			modifier = {
+
+		}	}
+	}
+	option = {
+		name = admech_vassalisation.15.e
+		trigger = {	has_country_flag = admech_vassalisation_demand_1_5 }
+		FROM = {
+			capital scope = {
+				add_base_tax = 1
+				add_base_production = 3
+				add_base_manpower = 1
+			}
+		}
+		hidden_effect = {
+			FROM = {
+				country_event = { 
+					id = admech_vassalisation.40			#is that correct?
+					#days = 10
+					days = 90
+		}	}	}
+		ai_chance = {
+			factor = 7
+			modifier = {
+
+		}	}
+	}
+	option = {
+		name = admech_vassalisation.15.f
+		trigger = {	has_country_flag = admech_vassalisation_demand_1_6 }
+		FROM = {
+			capital scope = {
+				add_base_tax = 1
+				add_base_production = 3
+				add_base_manpower = 1
+			}
+		}
+		hidden_effect = {
+			FROM = {
+				country_event = { 
+					id = admech_vassalisation.40			#is that correct?
+					#days = 10
+					days = 90
+		}	}	}
+		ai_chance = {
+			factor = 7
+			modifier = {
+
+		}	}
+	}
+
+	#refuse
+	option = {
+		name = admech_vassalisation.15.g
+		hidden_effect = {
+			FROM = {
+				country_event = { 
+					id = admech_vassalisation.3
+				}
+			}
+		}
+		ai_chance = {
+			factor = 3
+			modifier = {
+
+			}
+		}
+	}
+}
+
+#target - they offer alternative - mil
+country_event = {
+	id = admech_vassalisation.16
+	title = "admech_vassalisation.16.t"
+	desc = "admech_vassalisation.16.desc"
+	picture = LAND_MILITARY_eventPicture
+	
+	is_triggered_only = yes
+
+	#they offer X - accept
+	option = {
+		name = admech_vassalisation.16.a
+		trigger = {	has_country_flag = admech_vassalisation_demand_1_1 }
+		FROM = {
+			capital scope = {
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 3
+			}
+		}
+		hidden_effect = {
+			FROM = {
+				country_event = { 
+					id = admech_vassalisation.40			#is that correct?
+					#days = 10
+					days = 90
+		}	}	}
+		ai_chance = {
+			factor = 7
+			modifier = {
+
+		}	}
+	}
+	option = {
+		name = admech_vassalisation.16.b
+		trigger = {	has_country_flag = admech_vassalisation_demand_1_2
+		}
+		FROM = {
+			capital scope = {
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 3
+			}
+		}
+		hidden_effect = {
+			FROM = {
+				country_event = { 
+					id = admech_vassalisation.40			#is that correct?
+					#days = 10
+					days = 90
+		}	}	}
+		ai_chance = {
+			factor = 7
+			modifier = {
+
+		}	}
+	}
+	option = {
+		name = admech_vassalisation.16.c
+		trigger = {	has_country_flag = admech_vassalisation_demand_1_3
+		}
+		FROM = {
+			capital scope = {
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 3
+			}
+		}
+		hidden_effect = {
+			FROM = {
+				country_event = { 
+					id = admech_vassalisation.40			#is that correct?
+					#days = 10
+					days = 90
+		}	}	}
+		ai_chance = {
+			factor = 7
+			modifier = {
+
+		}	}
+	}
+	option = {
+		name = admech_vassalisation.16.d
+		trigger = {	has_country_flag = admech_vassalisation_demand_1_4
+		}
+		FROM = {
+			capital scope = {
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 3
+			}
+		}
+		hidden_effect = {
+			FROM = {
+				country_event = { 
+					id = admech_vassalisation.40			#is that correct?
+					#days = 10
+					days = 90
+		}	}	}
+		ai_chance = {
+			factor = 7
+			modifier = {
+
+		}	}
+	}
+	option = {
+		name = admech_vassalisation.16.e
+		trigger = {	has_country_flag = admech_vassalisation_demand_1_5
+		}
+		FROM = {
+			capital scope = {
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 3
+			}
+		}
+		hidden_effect = {
+			FROM = {
+				country_event = { 
+					id = admech_vassalisation.40			#is that correct?
+					#days = 10
+					days = 90
+		}	}	}
+		ai_chance = {
+			factor = 7
+			modifier = {
+
+		}	}
+	}
+	option = {
+		name = admech_vassalisation.16.f
+		trigger = {	has_country_flag = admech_vassalisation_demand_1_6
+		}
+		FROM = {
+			capital scope = {
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 3
+			}
+		}
+		hidden_effect = {
+			FROM = {
+				country_event = { 
+					id = admech_vassalisation.40			#is that correct?
+					#days = 10
+					days = 90
+		}	}	}
+		ai_chance = {
+			factor = 7
+			modifier = {
+
+		}	}
+	}
+
+	#refuse
+	option = {
+		name = admech_vassalisation.16.g
+		hidden_effect = {
+			FROM = {
+				country_event = { 
+					id = admech_vassalisation.3
+				}
+			}
+		}
+		ai_chance = {
+			factor = 3
+			modifier = {
+
+			}
+		}
+	}
+}
+
+#target - they demand surrender
+country_event = {
+	id = admech_vassalisation.17
+	title = "admech_vassalisation.17.t"
+	desc = "admech_vassalisation.17.desc"
+	picture = ACCUSATION_eventPicture
+	
+	is_triggered_only = yes
+	
+	#accept
+	option = {
+		name = admech_vassalisation.17.a
+
+		hidden_effect = {
+			FROM = {
+				country_event = { 
+					id = admech_vassalisation.2
+					#days = 10						#test
+					days = 90
+				}
+			}
+		}
+		ai_chance = {
+			factor = 2
+			modifier = {
+
+			}
+		}
+	}
+
+	#refuse
+	option = {
+		name = admech_vassalisation.17.b
+
+		hidden_effect = {
+			FROM = {
+				country_event = { 
+					id = admech_vassalisation.3
+					#days = 10						#test
+					days = 90
+				}
+			}
+		}
+		ai_chance = {
+			factor = 3
+			modifier = {
+
+			}
+		}
+	}
+}
+
+#target - they leave the negotiation
+country_event = {
+	id = admech_vassalisation.18
+	title = "admech_vassalisation.18.t"
+	desc = "admech_vassalisation.18.desc"
+	picture = ADVISOR_eventPicture
+	
+	is_triggered_only = yes
+	
+	#fine
+	option = {
+		name = admech_vassalisation.18.a
+
+		hidden_effect = {
+			FROM = {
+				country_event = {						#clean up event
+					id = admech_vassalisation.101
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+
+			}
+		}
+	}
+}
+
+###
+#liberty desire events
+###
+
+#high lib desire - subject can declare independence
+country_event = {
+	id = admech_vassalisation.60
+	title = "admech_vassalisation.60.t"
+	desc = "admech_vassalisation.60.desc"
+	picture = CIVIL_WAR_eventPicture
+	
+	trigger = {						#lib desire >60
+		is_subject_of_type = integrated_forgeworld
+		liberty_desire = 60
+		overlord = {
+			integrated_forgeworld = 2
+			NOT = { has_country_flag = admech_recent_forgeworld_independence }
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 60
+	}
+	
+	#We declare independence
+	option = {
+		name = admech_vassalisation.60.a
+
+		hidden_effect = {
+			overlord = {
+				add_country_flag = admech_recent_forgeworld_independence
+				country_event = {						
+					id = admech_vassalisation.61
+				}	
+				country_event = {						
+					id = admech_vassalisation.63
+					days = 730
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+
+			}
+		}
+	}
+	
+	#we stay loyal for now
+	option = {
+		name = admech_vassalisation.60.b
+
+		hidden_effect = {
+			overlord = {
+				add_country_flag = admech_recent_forgeworld_independence
+				country_event = {						
+					id = admech_vassalisation.63
+					days = 180
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+
+			}
+		}
+	}
+}
+
+#overlord - how to respond
+country_event = {
+	id = admech_vassalisation.61
+	title = "admech_vassalisation.61.t"
+	desc = "admech_vassalisation.61.desc"
+	picture = CIVIL_WAR_eventPicture
+	
+	is_triggered_only = yes
+		
+	#we will force them back in line	
+	option = {
+		name = admech_vassalisation.61.a
+		add_casus_belli = { 
+			target = FROM
+			type = cb_vassalize_mission
+			months = 60
+		}
+		add_opinion = {
+			insulted = {
+				opinion = -50
+				yearly_decay = 5
+				max = 0
+				months = 120
+			}
+		}
+		add_country_modifier = {
+			name = admech_vassalisation_refused
+			duration = 1460
+			hidden = no
+		}
+		hidden_effect = {
+			FROM = 
+				set_country_flag = admech_vassalisation_independence_war
+				country_event = {
+					id = admech_vassalisation.62
+				}
+			}
+		}	
+		ai_chance = {
+			factor = 1
+			modifier = {
+
+			}
+		}		
+	}
+	
+	#We will let them go for now
+	option = {
+		name = admech_vassalisation.61.b
+		ai_chance = {
+			factor = 1
+			modifier = {
+
+			}
+		}
+		hidden_effect = {
+			FROM = {
+				set_country_flag = admech_vassalisation_independence_peace
+				country_event = {
+					id = admech_vassalisation.63
+				}
+			}
+		}		
+	}	
+}	
+
+#overlord reaction - info to subject war
+country_event = {
+	id = admech_vassalisation.62
+	title = "admech_vassalisation.62.t"
+	desc = "admech_vassalisation.62.desc"
+	picture = GENERALS_DISCUSSING_eventPicture
+	
+	is_triggered_only = yes
+		
+	option = {
+		name = admech_vassalisation.62.a
+		ai_chance = {
+			factor = 1
+			modifier = {
+
+			}
+		}		
+	}
+}	
+
+#overlord reaction - info to subject peace
+country_event = {
+	id = admech_vassalisation.63
+	title = "admech_vassalisation.63.t"
+	desc = "admech_vassalisation.63.desc"
+	picture = CIVIL_WAR_eventPicture
+	
+	is_triggered_only = yes
+		
+	option = {
+		name = admech_vassalisation.63.a
+		ai_chance = {
+			factor = 1
+			modifier = {
+
+			}
+		}		
+	}
+}
+
+#overlord flag clear event
+country_event = {
+	id = admech_vassalisation.64
+	title = "admech_vassalisation.64.t"
+	desc = "admech_vassalisation.64.desc"
+	picture = TRADEGOODS_eventPicture				#edit
+	
+	is_triggered_only = yes
+	hidden = yes
+	
+	immediate = {
+		clr_country_flag = admech_recent_forgeworld_independence		
+	}
+	
+	option = {
+		name = admech_vassalisation.64.a
+		ai_chance = {
+			factor = 1
+			modifier = {
+
+			}
+		}		
+	}
+}

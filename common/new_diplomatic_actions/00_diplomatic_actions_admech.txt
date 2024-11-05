@@ -1,0 +1,437 @@
+
+# Infiltrate forgeworld priesthood
+infiltrate_admech_priesthood = {
+	category = covert
+
+	require_acceptance = no
+
+	is_visible = {
+		religion = mechanicus
+		#has_country_flag = can_infiltrate_priesthood
+	}
+	is_allowed = {
+		IF = {
+			limit = {
+				NOT = {
+					has_spy_network_in = {
+						who = FROM
+						value = 50
+					}
+				}
+				NOT = { full_idea_group = spy_ideas }
+			}
+			custom_trigger_tooltip = {
+				tooltip = REQUIRES_50_SPY_NETWORK_TT
+				has_spy_network_in = {
+					who = FROM
+					value = 50
+				}
+			}
+		}
+		IF = {
+			limit = {
+				NOT = {
+					has_spy_network_in = {
+						who = FROM
+						value = 37
+					}
+				}
+				full_idea_group = spy_ideas
+			}
+			custom_trigger_tooltip = {
+				tooltip = REQUIRES_37_SPY_NETWORK_TT
+				has_spy_network_in = {
+					who = FROM
+					value = 37
+				}
+			}
+		}
+		IF = {
+			limit = {
+				FROM = { has_country_modifier = priesthood_infiltrated }		
+			}
+			custom_trigger_tooltip = {
+				tooltip = PRIESTHOOD_ALREADY_INFILTRATED_TT			#replace
+				NOT = {
+					FROM = { has_country_modifier = priesthood_infiltrated 
+					}
+				}
+			}
+		}
+	}
+	on_accept = {
+		IF = {
+			limit = {
+				full_idea_group = spy_ideas
+			}
+			add_spy_network_in = {
+				who = FROM
+				value = -37
+			}
+		}
+		else = {
+			add_spy_network_in = {
+				who = FROM
+				value = -50
+			}
+		}
+		FROM = {
+			add_country_modifier = {
+				type = priesthood_infiltrated
+				duration = 1825
+			}
+		}
+	}
+
+	ai_will_do = { 
+		#always = no				#AI gets automatic bonus for now
+			has_spy_network_in = {
+			who = FROM
+			value = 75
+		}
+		total_development = 100	
+	}
+}
+
+
+# offer forgeworld vassalisation
+offer_forgeworld_subjugation = {
+	category = influence
+
+	#alert_index = 61
+	#alert_tooltip = elevate_influenced_country_to_vassal_alert_tooltip
+
+	require_acceptance = yes
+
+	is_visible = {
+		ROOT = {
+			AND = {
+				OR = {
+					#has_country_flag = admech_can_propose_forge_subjugation
+					NOT = { has_reform = minor_forgeworld_reform }
+					NOT = { has_reform = forge_world_reform }
+					NOT = { overlord_of = FROM }
+				}
+				religion = mechanicus
+			}
+		}
+		FROM = {
+			OR = {
+				#has_country_flag = admech_vassalisation_viable_target
+				has_reform = minor_forgeworld_reform
+				has_reform = forge_world_reform
+				AND = {
+					tag = XXF
+					ROOT = {
+						has_country_flag = admech_major_subjugation_agripinaa
+				}	}
+				AND = {
+					tag = XDO
+					ROOT = {
+						has_country_flag = admech_major_subjugation_lucius
+				}	}
+				AND = {
+					tag = XOL
+					ROOT = {
+						has_country_flag = admech_major_subjugation_graia
+				}	}
+				AND = {
+					tag = XGC
+					ROOT = {
+						has_country_flag = admech_major_subjugation_metalica
+				}	}
+				AND = {
+					tag = XOJ
+					ROOT = {
+						has_country_flag = admech_major_subjugation_ryza
+				}	}
+				AND = {
+					tag = XOB
+					ROOT = {
+						has_country_flag = admech_major_subjugation_stygies
+				}	}
+				AND = {
+					tag = XHG
+					ROOT = {
+						has_country_flag = admech_major_subjugation_triplex
+				}	}
+			}
+		}
+	}
+	is_allowed = {
+		IF = {
+			limit = { ROOT = { has_country_flag = admech_active_subjugation_negotiation } }
+			custom_trigger_tooltip = {
+				tooltip = admech_vassalisation_tooltip_has_active_negotiation_root
+				ROOT = { NOT = { has_country_flag = admech_active_subjugation_negotiation } } 
+			}
+		}	
+		#IF = {
+		#	limit = { ROOT = { has_country_modifier = admech_vassalisation_cooldown } }
+		#	custom_trigger_tooltip = {
+		#		tooltip = admech_vassalisation_tooltip_negotiation_cooldown
+		#		ROOT = { NOT = { has_country_modifier = admech_vassalisation_cooldown } } 
+		#	}
+		#}
+		IF = {
+			limit = { FROM = { has_country_flag = admech_active_subjugation_negotiation } }
+			custom_trigger_tooltip = {
+				tooltip = admech_vassalisation_tooltip_has_active_negotiation_from
+				FROM = { NOT = { has_country_flag = admech_active_subjugation_negotiation } } 
+			}
+		}	
+
+		IF = {		#is this correct?
+			limit = { FROM = { AND = {	is_subject = yes
+							NOT = { AND = {	is_subject_of_type = nominal_imperial_world_subject_type
+									is_subject_of_type = imperial_world_subject_type
+									is_subject_of_type = integrated_world_subject_type
+							}	}
+			}	}	   }
+			custom_trigger_tooltip = {
+				tooltip = admech_vassalisation_tooltip_from_is_subject
+				FROM = { NOT = {	AND = {	is_subject = yes
+								NOT = { AND = {	is_subject_of_type = nominal_imperial_world_subject_type
+										is_subject_of_type = imperial_world_subject_type
+										is_subject_of_type = integrated_world_subject_type
+							}	}	}
+				}	}	
+			}
+		}	
+		IF = {		#is this correct?
+			limit = { FROM = { OR = {	is_subject = no
+							 OR = {	is_subject_of_type = nominal_imperial_world_subject_type
+									is_subject_of_type = imperial_world_subject_type
+									is_subject_of_type = integrated_world_subject_type
+							}	
+			}	}	   }
+			custom_trigger_tooltip = {
+				tooltip = admech_vassalisation_tooltip_part_of_imperium
+				FROM = { NOT = {	AND = {	is_subject = yes
+								NOT = { OR = {	is_subject_of_type = nominal_imperial_world_subject_type
+										is_subject_of_type = imperial_world_subject_type
+										is_subject_of_type = integrated_world_subject_type
+							}	}	}
+				}	}	
+			}
+		}	
+	}
+	on_accept = {
+		FROM = { 
+			country_event = {
+				id = admech_vassalisation.1
+				days = 10
+			}
+		}
+		hidden_effect = {
+			ROOT = {
+				set_country_flag = admech_active_subjugation_negotiation
+#				set_country_flag = admech_has_offered_subjugation_to_@FROM
+			}
+			FROM = {
+#				set_country_flag = admech_has_been_offered_subjugation_by_@ROOT	
+				set_country_flag = admech_active_subjugation_negotiation	
+				set_country_flag = admech_has_been_offered_subjugation_trigger
+			}
+		}
+	}
+	on_decline = {
+	}
+	ai_acceptance = {
+		add_entry = {
+          	  name = DIPLO_OPPINION
+			export_to_variable = {
+				variable_name = ai_value
+				value = opinion
+				who = FROM
+				with = ROOT
+			}
+			multiply_variable = {
+				which = ai_value 
+				value = 0.2
+			}
+       		}
+		add_entry = {
+			name = AI_TRUST_TOWARDS_ROOT
+			export_to_variable = {
+				variable_name = ai_value
+				value = trust
+				who = FROM
+				with = ROOT
+			}			
+			subtract_variable = { 
+				which = ai_value
+				value = 50
+			}
+			#1 trust = +4 ai points
+			multiply_variable = {
+				which = ai_value
+				value = 0.4
+			}
+		}
+		add_entry = {
+			name = AI_DIPLOMATIC_REPUTATION
+			export_to_variable = {
+				variable_name = ai_value
+				value = trigger_value:diplomatic_reputation
+			}
+			#1 rep = 4
+			multiply_variable = {
+				which = ai_value
+				value = 4
+			}
+		}
+		add_entry = {
+			name = AI_TOTAL_DEVELOPMENT
+			export_to_variable = {
+				variable_name = ai_value
+				value = total_development
+				who = FROM
+			}
+			#4 dev = -1
+			multiply_variable = {
+				which = ai_value
+				value = -0.25
+			}
+		}
+		add_entry = {
+			name = AI_LIBERTY_DESIRE
+			export_to_variable = {
+				variable_name = ai_value
+				value = liberty_desire
+				who = FROM
+			}
+			multiply_variable = {
+				which = ai_value
+				value = -1
+			}
+		}
+		add_entry = {
+			name = AI_BORDER_DISTANCE
+			export_to_variable = {
+				variable_name = ai_value
+				value = border_distance
+				who = FROM
+			}
+			multiply_variable = {
+				which = ai_value
+				value = -0.05
+			}
+		}
+	}
+	ai_will_do = {
+		OR = {
+			NOT = { capital_distance = 200 }
+			AND = {
+				NOT = { capital_distance = 300 }
+				tag = XDO 				#Lucius - very powerful and isolated forge world in Imperium Nihilus
+			}
+		}
+	}
+}
+
+# Turn Vassal to Forgeworld status
+promote_vassal_to_forgeworld = {
+	category = influence
+
+	require_acceptance = yes
+
+	alert_index = 6
+	alert_tooltip = promote_vassal_to_forgeworld_alert_tooltip
+
+	is_visible = {
+		OR =	{
+			tag = XXB		
+			AND = {
+				religion = mechanicus		# large forgeworld
+				total_development = 200	
+			}
+		}
+		FROM = {
+			is_subject_of = ROOT
+			is_subject_of_type = vassal
+		}
+	}
+	is_allowed = {
+		if = {
+			limit = {
+				FROM = { liberty_desire = 50 }
+			}
+			custom_trigger_tooltip = {
+				tooltip = FROM_IS_REBELLIOUS_TT
+				FROM = { liberty_desire = 50 }
+			}
+		}
+	}
+	on_accept = {
+		create_subject = {
+			subject_type = integrated_forgeworld
+			subject = FROM
+			keep_liberty_desire = yes
+		}
+	}
+	on_decline = {
+	}
+
+	ai_will_do = { # this is a trigger
+		always = yes
+	}
+
+	ai_acceptance = {
+       		add_entry = {
+            name = DIPLO_OPPINION
+			export_to_variable = {
+				variable_name = ai_value
+				value = opinion
+				who = FROM
+				with = ROOT
+			}
+			multiply_variable = {
+				which = ai_value 
+				value = 0.2
+			}
+        	}
+		add_entry = {
+			name = AI_TRUST_TOWARDS_ROOT
+			export_to_variable = {
+				variable_name = ai_value
+				value = trust
+				who = FROM
+				with = ROOT
+			}			
+			subtract_variable = { 
+				which = ai_value
+				value = 50
+			}
+			#1 trust = +4 ai points
+			multiply_variable = {
+				which = ai_value
+				value = 0.4
+			}
+		}
+		add_entry = {
+			name = AI_DIPLOMATIC_REPUTATION
+			export_to_variable = {
+				variable_name = ai_value
+				value = trigger_value:diplomatic_reputation
+			}
+			#1 rep = 4
+			multiply_variable = {
+				which = ai_value
+				value = 4
+			}
+		}
+		add_entry = {
+			name = AI_LIBERTY_DESIRE
+			export_to_variable = {
+				variable_name = ai_value
+				value = liberty_desire
+				who = FROM
+			}
+			multiply_variable = {
+				which = ai_value
+				value = -1
+			}
+		}
+	}
+}

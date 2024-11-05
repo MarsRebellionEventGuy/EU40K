@@ -1,0 +1,15 @@
+spriteTypes = {	
+	#Admech forge world icons
+	spriteType = {
+		name = "GFX_icon_integrated_forgeworld_type"
+		texturefile = "gfx/interface/icon_admech_forgeworld_subject.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_diplomacy_lead_integrated_forgeworld_type"
+		texturefile = "gfx/interface/icon_diplomacy_lead_admech_forgeworld_subject.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_diplomacy_am_integrated_forgeworld_type"
+		texturefile = "gfx/interface/icon_diplomacy_am_admech_forgeworld_subject.dds"
+	}
+}

@@ -1,0 +1,26 @@
+﻿l_english:
+ offer_forgeworld_subjugation_title:0 "Offer Subjugation"
+ offer_forgeworld_subjugation_desc:0 "We can start negotiations with [From.GetName] to vassalise them through diplomacy. They might refuse or demand payment for their servitude."
+ offer_forgeworld_subjugation_tooltip:0 "Start vassalisation negotiations"
+ 
+ infiltrate_admech_priesthood_title:0 "Infiltrate Priesthood"
+ infiltrate_admech_priesthood_desc:0 "Our agents can infiltrate the ranks of the priesthood of [From.GetName]. This will make them more likely to side with us during future events."
+ infiltrate_admech_priesthood_tooltip:0 "Infiltrate Priesthood"
+ PRIESTHOOD_ALREADY_INFILTRATED_TT:0 "We have infiltrated these world already."
+ 
+ promote_vassal_to_forgeworld_title:0 "Create forgeworld subject"
+ promote_vassal_to_forgeworld_desc:0 "We can demand from our faithful vassals to supply us with raw materials for our factories."
+ promote_vassal_to_forgeworld_tooltip:0 "Create forgeworld subject"
+ 
+ admech_vassalisation_tooltip_has_active_negotiation_root:0 "We are already in a negotiation."
+ admech_vassalisation_tooltip_has_active_negotiation_from:0 "They are already in a negotiation."
+ admech_vassalisation_tooltip_negotiation_cooldown:0 "Not enough time has passed since our last negotiation."
+ admech_vassalisation_tooltip_from_is_subject:0 "[From.GetName] is already a subejct of us."
+ admech_vassalisation_tooltip_part_of_imperium:0 "[From.GetName] must be part of the Imperium."
+ 
+ AI_LIBERTY_DESIRE:0 "Due to their Liberty Desire"
+ DIPLO_OPPINION:0 "Their opinion of us"
+ AI_DIPLOMATIC_REPUTATION:0 "Diplomatic Reputation"
+ AI_TRUST_TOWARDS_ROOT:0 "Their trust of us"
+ AI_TOTAL_DEVELOPMENT:0 "Due to their total development"
+ AI_BORDER_DISTANCE:0 "Distance between borders"

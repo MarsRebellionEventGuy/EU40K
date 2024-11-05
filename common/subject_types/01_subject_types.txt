@@ -1,0 +1,260 @@
+integrated_forgeworld = {
+	copy_from = default
+	
+	# Triggers:
+	is_potential_overlord = {
+		OR = {
+			tag = XXB				# Mars
+			AND = {
+				religion = mechanicus		# large forgeworld
+				total_development = 400
+			}
+		}
+	}
+
+	# Graphics:
+    sprite = GFX_icon_admech_integrated_forgeworld_type
+	diplomacy_overlord_sprite = GFX_icon_diplomacy_lead_integrated_forgeworld_type
+	diplomacy_subject_sprite = GFX_icon_diplomacy_am_integrated_forgeworld_type
+
+	# Properties:
+	uses_tariffs = yes
+	transfer_trade_power = yes
+	joins_overlords_wars = no
+	can_be_annexed = no
+	has_power_projection = no
+	gets_help_with_rebels = yes
+	forms_trade_companies = no
+	takes_diplo_slot = no
+	extend_trading_range = yes
+	counts_for_borders = yes
+	max_government_rank = 2
+	can_be_co_belligerented = yes
+	must_accept_cta_from_overlord = yes
+	can_gain_favors = yes
+	favors_cost_to_join_offensive_wars = 50   #Defines how much favors the overlord need to invest to call the subject into an offensive war
+	favors_cost_to_join_defensive_wars = 25   #Defines how much favors the overlord need to invest to call the subject into a defensive war
+	opinion_cost_to_join_offensive_wars = 20   #Defines how much opinion the subject loses of the overlord to call the subject into an offensive war. Applied if you do not have Leviathan
+	opinion_cost_to_join_defensive_wars = 10   #Defines how much opinion the subject loses of the overlord to call the subject into a defensive war. Applied if you do not have Leviathan
+	opinion_on_subject_integration = 0
+
+	liberty_desire_development_ratio = 0.1
+	pays_overlord = 1.25
+	forcelimit_to_overlord = 0.1						# Percent of subject FL to use as base for modifiers
+	naval_forcelimit_to_overlord = 0.1					# Percent of subject FL to use as base for modifiers
+	manpower_to_overlord = 0.1							# Percent of subject FL to use as base for modifiers
+	sailors_to_overlord = 0.1							# Percent of subject FL to use as base for modifiers
+
+	relative_power_class = 1						
+	should_quit_wars_on_activation = yes
+
+	#restoration_cb = cb_disloyal_eyalet					#disabled - to be renamed
+
+	# Subject Interactions:
+	support_loyalists = yes
+	siphon_income = yes
+	takeondebt = yes
+	bestow_gifts = no
+	#send_additional_troops = yes
+	#demand_artifacts = yes
+	#demand_additional_tribute = yes
+	block_settlement_growth = no
+	allow_settlement_growth = no
+	placate_rulers = no
+	knowledge_sharing = no
+	increase_tariffs = yes
+	decrease_tariffs = yes
+	divert_trade = yes
+	enforce_religion = yes
+	enforce_culture = yes
+
+	# Modifiers:
+	modifier_subject = clear # Use this to clear after copy_from.
+	modifier_subject = {
+		modifier = subject_tax_modifier
+		trigger = {
+			overlord = {
+				has_government_attribute = subject_tax_modifier_25
+			}
+		}
+	}
+	modifier_subject = {
+		modifier = same_religion_subject_bonus_mod
+		trigger = {
+			overlord = {
+				has_government_attribute = same_religion_subject_bonus
+				religion = PREV
+			}
+		}
+	}
+	overlord_opinion_modifier = is_forgeworld_subject
+	subject_opinion_modifier = is_forgeworld_subject
+
+	can_fight = {
+		independent_nations = yes
+		other_overlord = all
+	}
+	can_rival = {
+		independent_nations = yes
+		same_overlord = tributary_state
+		other_overlord = all
+	}
+	can_ally = {
+		independent_nations = yes
+		same_overlord = integrated_forgeworld
+		other_overlord = all
+	}
+
+
+	# Modifiers:
+	modifier_subject = clear # Forgeworlds don't get the ordinary subject_nation penalty 
+	modifier_subject = {
+		modifier = integrated_forgeworld_subject_modifier
+	}
+	modifier_subject = {
+		modifier = integrated_forgeworld_low_development_subject_modifier
+		trigger = {
+			NOT = { total_development = 50 }
+		}
+	}
+	modifier_subject = {
+		modifier = integrated_forgeworld_high_development_subject_modifier
+		trigger = {
+			total_development = 400 
+		}
+	}
+	modifier_overlord = {
+		modifier = integrated_forgeworld_overlord_modifier
+}
+
+
+
+
+integrated_major_forgeworld = {
+	copy_from = default
+	
+	# Triggers:
+	is_potential_overlord = {
+		OR = {
+			tag = XXB				# Mars
+			AND = {
+				religion = mechanicus		# large forgeworld
+				total_development = 400
+			}
+		}
+	}
+
+	# Graphics:
+    sprite = GFX_icon_admech_integrated_forgeworld_type
+	diplomacy_overlord_sprite = GFX_icon_diplomacy_lead_integrated_forgeworld_type
+	diplomacy_subject_sprite = GFX_icon_diplomacy_am_integrated_forgeworld_type
+
+	# Properties:
+	uses_tariffs = yes
+	transfer_trade_power = yes
+	joins_overlords_wars = no
+	can_be_annexed = no
+	has_power_projection = no
+	gets_help_with_rebels = yes
+	forms_trade_companies = no
+	takes_diplo_slot = no
+	extend_trading_range = yes
+	counts_for_borders = yes
+	max_government_rank = 2
+	can_be_co_belligerented = yes
+	must_accept_cta_from_overlord = yes
+	can_gain_favors = yes
+	favors_cost_to_join_offensive_wars = 50   #Defines how much favors the overlord need to invest to call the subject into an offensive war
+	favors_cost_to_join_defensive_wars = 25   #Defines how much favors the overlord need to invest to call the subject into a defensive war
+	opinion_cost_to_join_offensive_wars = 20   #Defines how much opinion the subject loses of the overlord to call the subject into an offensive war. Applied if you do not have Leviathan
+	opinion_cost_to_join_defensive_wars = 10   #Defines how much opinion the subject loses of the overlord to call the subject into a defensive war. Applied if you do not have Leviathan
+	opinion_on_subject_integration = 0
+
+	liberty_desire_development_ratio = 0.1
+	pays_overlord = 1.25
+	forcelimit_to_overlord = 0.1						# Percent of subject FL to use as base for modifiers
+	naval_forcelimit_to_overlord = 0.1					# Percent of subject FL to use as base for modifiers
+	manpower_to_overlord = 0.1							# Percent of subject FL to use as base for modifiers
+	sailors_to_overlord = 0.1							# Percent of subject FL to use as base for modifiers
+
+	relative_power_class = 1						
+	should_quit_wars_on_activation = yes
+
+	#restoration_cb = cb_disloyal_eyalet					#disabled - to be renamed
+
+	# Subject Interactions:
+	support_loyalists = yes
+	siphon_income = yes
+	takeondebt = yes
+	bestow_gifts = no
+	#send_additional_troops = yes
+	#demand_artifacts = yes
+	#demand_additional_tribute = yes
+	block_settlement_growth = no
+	allow_settlement_growth = no
+	placate_rulers = no
+	knowledge_sharing = no
+	increase_tariffs = yes
+	decrease_tariffs = yes
+	divert_trade = yes
+	enforce_religion = yes
+	enforce_culture = yes
+
+	# Modifiers:
+	modifier_subject = clear # Use this to clear after copy_from.
+	modifier_subject = {
+		modifier = subject_tax_modifier
+		trigger = {
+			overlord = {
+				has_government_attribute = subject_tax_modifier_25
+			}
+		}
+	}
+	modifier_subject = {
+		modifier = same_religion_subject_bonus_mod
+		trigger = {
+			overlord = {
+				has_government_attribute = same_religion_subject_bonus
+				religion = PREV
+			}
+		}
+	}
+	overlord_opinion_modifier = is_forgeworld_subject
+	subject_opinion_modifier = is_forgeworld_subject
+
+	can_fight = {
+		independent_nations = yes
+		other_overlord = all
+	}
+	can_rival = {
+		independent_nations = yes
+		same_overlord = tributary_state
+		other_overlord = all
+	}
+	can_ally = {
+		independent_nations = yes
+		same_overlord = integrated_forgeworld
+		other_overlord = all
+	}
+
+
+	# Modifiers:
+	modifier_subject = clear # Forgeworlds don't get the ordinary subject_nation penalty 
+	modifier_subject = {
+		modifier = integrated_major_forgeworld_subject_modifier
+	}
+	modifier_subject = {
+		modifier = integrated_forgeworld_low_development_subject_modifier
+		trigger = {
+			NOT = { total_development = 50 }
+		}
+	}
+	modifier_subject = {
+		modifier = integrated_forgeworld_high_development_subject_modifier
+		trigger = {
+			total_development = 400 
+		}
+	}
+	modifier_overlord = {
+		modifier = integrated_major_forgeworld_overlord_modifier
+}

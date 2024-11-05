@@ -1,0 +1,21 @@
+gov_new_production_quotas_mod = {
+	local_unrest = -1
+	trade_goods_size = 0.5
+}
+
+admech_vassalisation_abandoned = {
+	diplomatic_reputation = -1
+}
+
+admech_vassalisation_refused = {
+	diplomatic_reputation = -2
+}
+
+admech_vassalisation_has_had_negotiations = {
+}
+
+admech_vassalisation_has_had_successful_negotiations = {
+}
+
+admech_vassalisation_cooldown = {
+}

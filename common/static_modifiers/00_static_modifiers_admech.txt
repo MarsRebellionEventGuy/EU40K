@@ -1,0 +1,30 @@
+integrated_forgeworld_subject_modifier = {
+	global_institution_spread = 0.25
+	production_efficiency = 0.2
+	technology_cost = -0.05
+	development_cost = -0.25
+}
+
+integrated_forgeworld_low_development_subject_modifier = {
+	technology_cost = -0.2
+}
+
+integrated_forgeworld_high_development_subject_modifier = {
+	trade_goods_size_modifier = 0.25
+}
+
+integrated_forgeworld_overlord_modifier = {
+	global_trade_power = 0.05
+	global_trade_goods_size_modifier = 0.05
+
+integrated_major_forgeworld_subject_modifier = {
+	global_institution_spread = 0.25
+	production_efficiency = 0.2
+	technology_cost = -0.05
+	development_cost = -0.30
+}
+
+integrated_major_forgeworld_overlord_modifier = {
+	global_trade_power = 0.10
+	global_trade_goods_size_modifier = 0.10
+}

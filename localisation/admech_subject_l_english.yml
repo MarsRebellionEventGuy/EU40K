@@ -1,0 +1,14 @@
+﻿l_english:
+  integrated_forgeworld: "forge world"
+  integrated_forgeworld_long_desc: "Forge worlds supply the Imperium with a steady supply of war material."
+  integrated_forgeworld_is_our: "$NAME|Y$ is a forge world of us"
+  integrated_forgeworld_title: "forge world"
+  integrated_forgeworld_title_plural: "forge worlds"
+  is_integrated_forgeworld: "Is a forge world"
+  
+  integrated_major_forgeworld: "major forge world"
+  integrated_major_forgeworld_long_desc: "Major forge worlds are the greatest among the worlds of the Omnissiah."
+  integrated_major_forgeworld_is_our: "$NAME|Y$ is a major forge world of us"
+  integrated_major_forgeworld_title: "major forge world"
+  integrated_major_forgeworld_title_plural: "major forge worlds"
+  is_integrated_major_forgeworld: "Is a major forge world"

@@ -1,0 +1,240 @@
+
+#target dev < 50
+
+admech_vassalisation_demands_s_adm_1 = {
+	technology_cost = +0.06			#share our secrets
+}
+
+admech_vassalisation_demands_s_adm_2 = {
+	production_efficiency = -0.06		#supply foreign armies	
+}
+
+admech_vassalisation_demands_s_adm_3 = {
+	yearly_innovativeness = -0.06		#take on foreign adepts	
+}
+
+admech_vassalisation_demands_s_adm_4 = {
+	development_cost_modifier = 0.06	#invest on foreign world	
+}
+
+admech_vassalisation_demands_s_adm_5 = {
+	reform_progress_growth = -0.06		#follow foreign advise	
+}
+
+admech_vassalisation_demands_s_adm_6 = {
+	all_estate_influence_modifier = 0.05	#give them a say in our internal affairs	
+}
+
+###
+
+admech_vassalisation_demands_s_dip_1 = {
+	global_sailor_modifier = -0.06		#request for naval troops
+}
+
+admech_vassalisation_demands_s_dip_2 = {
+	global_ship_cost = 0.06			#buy foreign ships		
+}
+
+admech_vassalisation_demands_s_dip_3 = {
+	naval_forcelimit_modifier = -0.06	#request for relieve fleets
+}
+
+admech_vassalisation_demands_s_dip_4 = {
+	improve_relations_modifier = -0.06	#diplomats are tied down in paperwork
+}
+
+admech_vassalisation_demands_s_dip_5 = {
+	trade_efficiency = -0.06		#grant autonomy to foreign merchants
+}
+
+admech_vassalisation_demands_s_dip_6 = {
+	global_trade_goods_size_modifier = -0.06	#prioritize foreign supply
+}
+
+###
+
+admech_vassalisation_demands_s_mil_1 = {
+	army_tradition_decay = 0.006		#request for techpriests as educators
+}
+
+admech_vassalisation_demands_s_mil_2 = {
+	land_forcelimit_modifier = -0.06	#request for reserves
+}
+
+admech_vassalisation_demands_s_mil_3 = {
+	land_moral = -0.05			#appoint foreign techpriests as commanders
+}
+
+admech_vassalisation_demands_s_mil_4 = {
+	discipline = -0.025			#train foreign recruits
+}
+
+admech_vassalisation_demands_s_mil_5 = {
+	infantry_power = -0.06			#request for titan reinforcements
+	artillery_power = -0.06			#
+}
+
+admech_vassalisation_demands_s_mil_6 = {
+	land_maintenance_modifier = 0.06	#divert army supplies
+}
+
+
+#target dev 50-199
+
+admech_vassalisation_demands_m_adm_1 = {
+	technology_cost = +0.12			#share our secrets
+}
+
+admech_vassalisation_demands_m_adm_2 = {
+	production_efficiency = -0.12		#supply foreign armies	
+}
+
+admech_vassalisation_demands_m_adm_3 = {
+	yearly_innovativeness = -0.12		#take on foreign adepts	
+}
+
+admech_vassalisation_demands_m_adm_4 = {
+	development_cost_modifier = +0.12	#invest on foreign world	
+}
+
+admech_vassalisation_demands_m_adm_5 = {
+	reform_progress_growth = -0.12		#follow foreign advise	
+}
+
+admech_vassalisation_demands_m_adm_6 = {
+	all_estate_influence_modifier = +0.10	#give them a say in our internal affairs	
+}
+
+###
+
+admech_vassalisation_demands_m_dip_1 = {
+	global_sailor_modifier = -0.12		#request for naval troops
+}
+
+admech_vassalisation_demands_m_dip_2 = {
+	global_ship_cost = +0.12			#buy foreign ships		
+}
+
+admech_vassalisation_demands_dip_3 = {
+	naval_forcelimit_modifier = -0.12	#request for relieve fleets
+}
+
+admech_vassalisation_demands_m_dip_4 = {
+	improve_relations_modifier = -0.12	#diplomats are tied down in paperwork
+}
+
+admech_vassalisation_demands_m_dip_5 = {
+	trade_efficiency = -0.12		#grant autonomy to foreign merchants
+}
+
+admech_vassalisation_demands_m_dip_6 = {
+	global_trade_goods_size_modifier = -0.12	#prioritize foreign supply
+}
+
+###
+
+admech_vassalisation_demands_m_mil_1 = {
+	army_tradition_decay = +0.012		#request for techpriests as educators
+}
+
+admech_vassalisation_demands_m_mil_2 = {
+	land_forcelimit_modifier = -0.12	#request for reserves
+}
+
+admech_vassalisation_demands_m_mil_3 = {
+	land_moral = -0.10			#appoint foreign techpriests as commanders
+}
+
+admech_vassalisation_demands_m_mil_4 = {
+	discipline = -0.05			#train foreign recruits
+}
+
+admech_vassalisation_demands_m_mil_5 = {
+	infantry_power = -0.12			#request for titan reinforcements
+	artillery_power = -0.12			#
+}
+
+admech_vassalisation_demands_m_mil_6 = {
+	land_maintenance_modifier = 0.12	#divert army supplies
+}
+
+
+#target dev >= 200
+
+
+admech_vassalisation_demands_l_adm_1 = {
+	technology_cost = +0.24			#share our secrets
+}
+
+admech_vassalisation_demands_l_adm_2 = {
+	production_efficiency = -0.24		#supply foreign armies	
+}
+
+admech_vassalisation_demands_l_adm_3 = {
+	yearly_innovativeness = -0.24		#take on foreign adepts	
+}
+
+admech_vassalisation_demands_l_adm_4 = {
+	development_cost_modifier = +0.24	#invest on foreign world	
+}
+
+admech_vassalisation_demands_l_adm_5 = {
+	reform_progress_growth = -0.24		#follow foreign advise	
+}
+
+admech_vassalisation_demands_l_adm_6 = {
+	all_estate_influence_modifier = +0.20	#give them a say in our internal affairs	
+}
+
+###
+
+admech_vassalisation_demands_l_dip_1 = {
+	global_sailor_modifier = -0.24		#request for naval troops
+}
+
+admech_vassalisation_demands_l_dip_2 = {
+	global_ship_cost = +0.24			#buy foreign ships		
+}
+
+admech_vassalisation_demands_l_dip_3 = {
+	naval_forcelimit_modifier = -0.24	#request for relieve fleets
+}
+
+admech_vassalisation_demands_l_dip_4 = {
+	improve_relations_modifier = -0.24	#diplomats are tied down in paperwork
+}
+
+admech_vassalisation_demands_l_dip_5 = {
+	trade_efficiency = -0.24		#grant autonomy to foreign merchants
+}
+
+admech_vassalisation_demands_l_dip_6 = {
+	global_trade_goods_size_modifier = -0.24	#prioritize foreign supply
+}
+
+###
+
+admech_vassalisation_demands_l_mil_1 = {
+	army_tradition_decay = +0.024		#request for techpriests as educators
+}
+
+admech_vassalisation_demands_l_mil_2 = {
+	land_forcelimit_modifier = -0.24	#request for reserves
+}
+
+admech_vassalisation_demands_l_mil_3 = {
+	land_moral = -0.20			#appoint foreign techpriests as commanders
+}
+
+admech_vassalisation_demands_l_mil_4 = {
+	discipline = -0.10			#train foreign recruits
+}
+
+admech_vassalisation_demands_l_mil_5 = {
+	infantry_power = -0.24			#request for titan reinforcements
+	artillery_power = -0.24			#
+}
+
+admech_vassalisation_demands_l_mil_6 = {
+	land_maintenance_modifier = +0.24	#divert army supplies
+}
