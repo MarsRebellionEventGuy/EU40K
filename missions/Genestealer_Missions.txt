@@ -17,11 +17,15 @@ Genestealer_Branch_1 = {
 		}
 		
 		trigger = {
-			employed_advisor = {
-				category = MIL
-				religion = tyranid
-				skill = 3
+			custom_trigger_tooltip = {
+				tooltip = EST_CRUSHED_NOMADIC_TRIBES
+				employed_advisor = {
+					category = MIL
+					culture = genestealer_culture
+					skill = 3
+				}
 			}
+
 		}
 		
 		effect = {
@@ -126,7 +130,7 @@ Genestealer_Branch_3 = {
 		trigger = {
 			religious_unity = 0.99
 			capital_scope = {
-				religion = tyranid
+				religion = genestealer
 			}
 		}
 		

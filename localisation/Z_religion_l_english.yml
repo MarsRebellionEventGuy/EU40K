@@ -59,6 +59,8 @@
  tzeentch_religion_desc:0 "Tzeentch is the Ruinous Power representing change, intrigue, and knowledge. His followers are driven by the desire for change and ambition for advancement, though they are often ploys in some subtle intrigue or manipulation."
 
  tyrannid_group:0 "Tyrannic"
+ genestealer:0 "Genestealer"
+ genestealer_religion_desc:0 "The Genestealer faith encompasses millenarian sects which venerate distant space deities prophesied to bring salvation to its often marginalized members. In reality, they consist of gestalt brood minds cultivated by the Tyranids to subvert inhabited worlds for eventual consumption."
  tyranid:0 "Tyrannid Hive Mind"
  tyranid_religion_desc:0 "The Tyranids exist as part of a gestalt consciousness known as the Hive Mind, a psychic embodiment of their ravenous destruction. Its presence in the Immaterium radiates for light years around a hive fleet, preventing the use of Warp-based travel and communications."
  HEADER_REFORMS_NEW:0 "Day of Ascension Progress"
