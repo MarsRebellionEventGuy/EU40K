@@ -1,4 +1,5 @@
 add_core = XQR
+add_core = XSP
 owner = XQR
 controller = XQR
 religion = dark_muses

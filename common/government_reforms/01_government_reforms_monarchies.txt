@@ -283,6 +283,8 @@ drukhari_cult_reform = {
 	modifiers = {
 		production_efficiency = 0.10
 		development_cost_in_primary_culture = -0.15
+		may_perform_slave_raid = yes
+		coast_raid_range = 6
 	}
 
 	ai = {
