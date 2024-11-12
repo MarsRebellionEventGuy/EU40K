@@ -1,4 +1,77 @@
 country_decisions = {
-
+	ai_imperium_TI_increase_blackship_loads = {
+		major = yes
+		potential = {
+			is_emperor_of_china = yes # is Imperium
+			is_ai = yes
+		}
+		allow = {
+			custom_trigger_tooltip={
+				tooltip = imperium_TI_Throne_Integity_95
+				1={
+					check_variable = {
+						which = ImperiumGoldenThroneFailing
+						value = 0
+					}
+					not={
+						check_variable = {
+							which = ImperiumGoldenThroneFailing
+							value = 95
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			custom_tooltip = imperium_TI_blackship_subject_effect_tt
+			hidden_effect={
+				every_subject_country = { 
+					limit={
+						OR={
+							is_subject_of_type = integrated_world_subject_type
+							is_subject_of_type = imperial_world_subject_type
+							is_subject_of_type = nominal_imperial_world_subject_type
+						}
+					}
+					add_liberty_desire = 10
+					add_manpower = -1
+				}
+			}
+			1={
+				change_variable = {
+					which = ImperiumGoldenThroneFailing
+					value = 5
+				}
+				if={
+					limit={
+						check_variable = {
+							which = ImperiumGoldenThroneFailing
+							value = 100
+						}
+					}
+					set_variable = {
+						which = ImperiumGoldenThroneFailing
+						value = 100
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				check_variable = {
+					which = ImperiumGoldenThroneFailing
+					value = 50
+				}
+			}
+			modifier = {
+				factor = 0
+				any_subject_country={
+					liberty_desire = 50
+				}
+			}
+		}
+	}
 	
 }
