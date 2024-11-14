@@ -2,9 +2,9 @@ add_core = XCQ
 owner = XCQ
 controller = XCQ
 religion = tyranid
-culture = human_culture
+culture = styken_human_culture
 base_tax = 1
 base_production = 1
 base_manpower = 1
 trade_goods = consumer_goods
-
+is_city = no

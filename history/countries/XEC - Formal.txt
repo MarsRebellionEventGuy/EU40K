@@ -3,15 +3,13 @@ add_government_reform = imperial_governorate_reform
 government_rank = 1
 technology_group = imperial
 religion = imperial_cult
-primary_culture = human_culture
+primary_culture = yarokin_human_culture
 capital = 811
-
-1970.12.12 = {
-		monarch = {
-			name = "Stauss Svafnyr"	
-			adm = 1
-			dip = 6
-			mil = 5
-		}
+1970.12.12 = { 
+	monarch = { 
+		name = "Stauss Svafnyr"
+		adm = 1
+		dip = 6
+		mil = 5
 	}
 }

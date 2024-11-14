@@ -1,9 +1,10 @@
 native_size = 2
 native_ferocity = 4
 native_hostileness = 4
-culture = human_culture
+culture = askellon_human_culture
 religion = imperial_cult
 base_tax = 2
 base_production = 4
 base_manpower = 2
 trade_goods = agricultural_goods
+is_city = no

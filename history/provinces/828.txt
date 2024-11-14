@@ -2,9 +2,9 @@ add_core = XBM
 owner = XBM
 controller = XBM
 religion = imperial_cult
-culture = human_culture
+culture = askellon_human_culture
 base_tax = 1
 base_production = 1
 base_manpower = 2
 trade_goods = military_equipment
-
+is_city = no

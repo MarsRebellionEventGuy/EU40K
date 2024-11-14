@@ -3,15 +3,13 @@ add_government_reform = imperial_governorate_reform
 government_rank = 1
 technology_group = imperial
 religion = imperial_cult
-primary_culture = human_culture
+primary_culture = styken_human_culture
 capital = 834
-
-1970.12.12 = {
-		monarch = {
-			name = "Ruthveum Domastrilan"	
-			adm = 5
-			dip = 2
-			mil = 5
-		}
+1970.12.12 = { 
+	monarch = { 
+		name = "Ruthveum Domastrilan"
+		adm = 5
+		dip = 2
+		mil = 5
 	}
 }

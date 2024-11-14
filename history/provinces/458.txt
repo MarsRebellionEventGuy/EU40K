@@ -1,9 +1,10 @@
 add_core = XAM
 owner = XAM
 controller = XAM
-culture = human_culture
+culture = uhulis_human_culture
 religion = imperial_cult
 base_tax = 1
 base_production = 2
 base_manpower = 3
 trade_goods = military_equipment
+is_city = no

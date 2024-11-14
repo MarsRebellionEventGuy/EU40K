@@ -3,12 +3,11 @@ add_government_reform = imperial_governorate_reform
 government_rank = 1
 technology_group = imperial
 religion = imperial_cult
-primary_culture = human_culture
+primary_culture = sabbat_human_culture
 capital = 1772
-
-1970.12.12 = {
-	monarch = {
-		name = "Gregor Okabus"	
+1970.12.12 = { 
+	monarch = { 
+		name = "Gregor Okabus"
 		adm = 2
 		dip = 6
 		mil = 3

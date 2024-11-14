@@ -1,9 +1,10 @@
 add_core = XXH
 owner = XXH
 controller = XXH
-culture = human_culture
+culture = macharia_human_culture
 religion = imperial_cult
 base_tax = 1
 base_production = 1
 base_manpower = 1
 trade_goods = agricultural_goods
+is_city = no

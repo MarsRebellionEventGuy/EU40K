@@ -1,8 +1,9 @@
 add_core = XBZ
 owner = XBZ
 controller = XBZ
-culture = human_culture
+culture = askellon_human_culture
 religion = imperial_cult
 base_tax = 1
 base_production = 2
 base_manpower = 2
+is_city = no

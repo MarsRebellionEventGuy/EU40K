@@ -3,15 +3,13 @@ add_government_reform = imperial_governorate_reform
 government_rank = 2
 technology_group = imperial
 religion = imperial_cult
-primary_culture = human_culture
+primary_culture = reductus_human_culture
 capital = 1718
-
-1970.12.12 = {
-		monarch = {
-			name = "Xanthastian Mousil"	
-			adm = 1
-			dip = 4
-			mil = 6
-		}
+1970.12.12 = { 
+	monarch = { 
+		name = "Xanthastian Mousil"
+		adm = 1
+		dip = 4
+		mil = 6
 	}
 }

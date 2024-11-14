@@ -3,12 +3,11 @@ add_government_reform = ork_government_reform
 government_rank = 1
 technology_group = ork
 religion = ork
-primary_culture = human_culture
+primary_culture = fenright_human_culture
 capital = 2835
-
-1970.12.12 = {
-	monarch = {
-		name = "Glutzod Khorgmott"	
+1970.12.12 = { 
+	monarch = { 
+		name = "Glutzod Khorgmott"
 		adm = 5
 		dip = 5
 		mil = 2

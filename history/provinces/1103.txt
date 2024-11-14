@@ -1,9 +1,10 @@
 owner = XZI
 controller = XZI
 add_core = XZI
-culture = human_culture
+culture = medusan_human_culture
 religion = imperial_cult
 base_tax = 1
 base_production = 3
 base_manpower = 2
 trade_goods = scientific_equipment
+is_city = no

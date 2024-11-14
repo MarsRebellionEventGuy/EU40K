@@ -3,14 +3,13 @@ add_government_reform = imperial_governorate_reform
 government_rank = 1
 technology_group = imperial
 religion = death_cult
-primary_culture = human_culture
+primary_culture = uhulis_human_culture
 capital = 198
-
-1970.12.12 = {
-		monarch = {
-			name = "Herman von Strab"	
-			adm = 2
-			dip = 2
-			mil = 1
-		}
+1970.12.12 = { 
+	monarch = { 
+		name = "Herman von Strab"
+		adm = 2
+		dip = 2
+		mil = 1
+	}
 }

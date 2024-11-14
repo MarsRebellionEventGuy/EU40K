@@ -1,9 +1,10 @@
 add_core = XZT
 owner = XZT
 controller = XZT
-culture = human_culture
+culture = prosperan_human_culture
 religion = imperial_cult
 base_tax = 1
 base_production = 1
 base_manpower = 1
 trade_goods = promethium
+is_city = no
