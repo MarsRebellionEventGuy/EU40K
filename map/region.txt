@@ -245,7 +245,7 @@ ultima_region = {
 		iax
 		scourge_stars
 		talassar_planet
-		konor_planet
+		calth_planet
 	}
 }
 

@@ -1,9 +1,10 @@
-add_core = XGK
-owner = XGK
-controller = XGK
+owner = XSV
+controller = XSV
 culture = loyalist_astartes_culture
 religion = imperial_cult
 base_tax = 1
 base_production = 1
 base_manpower = 1
 trade_goods = clerks
+add_core = XSV
+is_city = no

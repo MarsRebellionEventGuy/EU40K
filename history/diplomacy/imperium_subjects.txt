@@ -6,7 +6,59 @@ dependency = {
 	start_date = 1000.8.20
 	end_date = 2100.8.3
 }
-# 
+# Ultramar + subjects
+dependency = {
+	subject_type = "autonomus_astartes_subject_type"
+	first = XXA
+	second = XGK
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+
+dependency = {#Tetrarch vassals (type to be added?)
+	subject_type = "vassal"
+	first = XGK
+	second = XSQ
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "vassal"
+	first = XGK
+	second = XSR
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "vassal"
+	first = XGK
+	second = XSS
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "vassal"
+	first = XGK
+	second = XST
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+
+dependency = {#putting local astartes under ultramar
+	subject_type = "astartes_subject_type"
+	first = XGK
+	second = XSU
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "astartes_subject_type"
+	first = XGK
+	second = XSV
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+#
 dependency = {
 	subject_type = "autonomus_astartes_subject_type"
 	first = XXA
@@ -25,13 +77,6 @@ dependency = {
 	subject_type = "autonomus_astartes_subject_type"
 	first = XXA
 	second = XAN
-	start_date = 1000.8.20
-	end_date = 2100.8.3
-}
-dependency = {
-	subject_type = "autonomus_astartes_subject_type"
-	first = XXA
-	second = XGK
 	start_date = 1000.8.20
 	end_date = 2100.8.3
 }

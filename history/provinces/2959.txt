@@ -1,9 +1,10 @@
-add_core = XGK
-owner = XGK
-controller = XGK
+owner = XSR
+controller = XSR
 religion = imperial_cult
-culture = loyalist_astartes_culture
+culture = ultiman_human_culture
 base_tax = 1
 base_production = 1
 base_manpower = 1
 trade_goods = agricultural_goods
+add_core = XSR
+is_city = no

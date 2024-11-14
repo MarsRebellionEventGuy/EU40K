@@ -1,0 +1,16 @@
+government = monarchy
+add_government_reform = imperial_governorate_reform
+government_rank = 1
+technology_group = imperial
+religion = imperial_cult
+primary_culture = ultiman_human_culture
+capital = 2013
+1970.12.12 = { 
+	monarch = { 
+		name = "Portan"
+		culture = "loyalist_astartes_culture"
+		adm = 5
+		dip = 2
+		mil = 4
+	}
+}
