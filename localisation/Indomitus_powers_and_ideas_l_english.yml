@@ -672,7 +672,7 @@
 
 
  XKJ_ideas:0 "Butcherhorde Ideas"
- XKJ_ideas_start:0 Butcherhorde Traditions"
+ XKJ_ideas_start:0 "Butcherhorde Traditions"
  XKJ_ideas_bonus:0 "Butcherhorde Ambition"
  XKJ_ideas_1:0 "Rivers of Blood"
  XKJ_ideas_1_desc:0 "Wherever the Butcherhorde marches, rivers of blood follow. Our frenzied assaults annihilate all in our path, leaving no survivors and crushing enemy lines with overwhelming force. Khorne’s wrath flows through us, fueling our brutal onslaughts and instilling crippling terror in the hearts of our foes."
@@ -689,6 +689,23 @@
  XKJ_ideas_7:0 "Lord of Skulls"
  XKJ_ideas_7_desc:0 "The Lord of Skulls, a key component in our arsenal, the ultimate embodiment of Khorne's wrath, is a huge super heavy Daemon Engine specially crafted to break enemy ranks and fortified positions, a certain death to all who stand before it, this unholy engine of war ensures a relentless pace for our conquest across the galaxy."
 
+XGC_ideas:0 "Metallica Ideas"
+XGC_ideas_start:0 "Metallica Traditions"
+XGC_ideas_bonus:0 "Metallica Ambition"
+XGC_ideas_1:0 "Metal Militia"
+XGC_ideas_1_desc:0 "Our people live in a perpetual state of vigilance, for the specter of war looms over us without end. Man and machine alike are conditioned to be ever-alert, their lives shaped by the harsh reality of an unyielding enemy that could strike at any moment. Daily routines are marked by drills, survival training, and the constant hum of military machinery, reminding them that peace is but a fleeting illusion."
+XGC_ideas_2:0 "Iron Man"
+XGC_ideas_2_desc:0 "The planet is home to the legendary Iron Skulls, one of the most revered and formidable Titan Legions in existence. Predating even the unification of Terra, they have been woven into the fabric of humanity’s destiny, standing as towering gods of war through countless ages. For millennia, the Iron Skulls have marched forth in defense of mankind. They are not merely machines of war; they are symbols of man's might and endurance, forever etched into the annals of history."
+XGC_ideas_3:0 "Lux Aeterna"
+XGC_ideas_3_desc:0 "Amidst the smog and ash, there is a radiant light that never dims;the eternal glow of the forges of Metalica. A world where the fires of industry burn hotter than the sun itself, forever shining through the darkness of the Noctis Aeterna. In this forsaken corner of the galaxy, we stand as a beacon of light forever burning against the encroaching shadow."
+XGC_ideas_4:0 "For whom the bells tolls"
+XGC_ideas_4_desc:0 "All weapons and machinery forged by Metalica resonate with a distinct, deafening roar, purposefully amplified so that every foe hears the industrial might of the Omnissiah before they meet their maker. Ask not for whom the bell tolls; it tolls for them."
+XGC_ideas_5:0 "The end of the line"
+XGC_ideas_5_desc:0 "On Metalica, there is no retreat. The machines of war and the soldiers who fight beside them are forged in the furnace of unending conflict. When they march, they do so with the certainty that the end of the line is a battle to the death. We are destined to stand our ground until the very last. Only complete victory or utter destruction awaits us."
+XGC_ideas_6:0 "Battery"
+XGC_ideas_6_desc:0 "The forges of Metalica churn out an endless supply of weapons, and its towering war engines are powered by the relentless energy of the planet itself. A vast network of mechanical power cells feeds its war machines, ensuring an endless barrage of destruction. In this era, the true strength lies in the sheer force of firepower."
+XGC_ideas_7:0 "Hell and back"
+XGC_ideas_7_desc:0 "Our legions have been forged in the fires of relentless war, enduring trials that would break lesser hosts . Whether they march into the deepest pits of Hell or rise from the smoldering ruins, they have seen it all and returned stronger. Their resolve is unshakable, for they have been through the worst of mankind's struggles and survived to tell the tale."
 
 
 
