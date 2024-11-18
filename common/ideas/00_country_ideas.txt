@@ -1677,3 +1677,41 @@ XOK_ideas = {
 		drill_gain_modifier = 0.33
 	}
 }
+
+XGC_ideas = {
+	start = {
+		development_cost = -0.10
+		same_culture_advisor_cost = -0.15
+	}
+	
+	bonus = {
+		naval_morale_damage_received = -0.10
+	}	
+
+	trigger = {
+		tag = XGC
+	}
+	free = yes
+	
+	XGC_ideas_1 = {
+		infantry_power = 0.10
+	}
+	XGC_ideas_2 = {
+		land_morale = 0.20
+	}
+	XGC_ideas_3 = {
+		production_efficiency = 0.20
+	}
+	XGC_ideas_4 = {
+		morale_damage = 0.05
+	}
+	XGC_ideas_5 = {
+		discipline = 0.05
+	}
+	XGC_ideas_6 = {
+		artillery_power = 0.15
+	}
+	XGC_ideas_7 = {
+		shock_damage_received = -0.15
+	}
+}
