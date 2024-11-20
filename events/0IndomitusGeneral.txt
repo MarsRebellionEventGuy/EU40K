@@ -230,7 +230,7 @@ province_event = {
 
 	trigger = {
 		owner = { tag = XXA }
-		has_terrain = drylands
+		province_group = forge_world_group
 		is_core = XXA
 		NOT = { has_province_flag = XXA_Forge_World_Decision }
 	}

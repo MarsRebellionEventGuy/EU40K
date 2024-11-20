@@ -3,7 +3,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			is_emperor_of_china = yes # is Imperium
-			is_ai = yes
+			ai = yes
 		}
 		allow = {
 			custom_trigger_tooltip={
