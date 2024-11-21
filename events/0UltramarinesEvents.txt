@@ -1,0 +1,71 @@
+namespace = ultramarines_events
+normal_or_historical_nations = yes
+
+country_event = {
+	id = ultramarines_events.1
+	title = "ultramarines_events.1.t"
+	desc = "ultramarines_events.1.d"
+	picture = ANGRY_MOB_eventPicture
+
+	hidden = yes
+	
+	trigger = {
+		tag = XGK
+		mission_completed = Ultramarines_3
+		faction_in_power = astartes_faction_2
+		NOT = { has_country_modifier = xgk_primaris_bonus }
+	}
+	
+	option = {
+		name = "ultramarines_events.1.a"
+		add_country_modifier = { 
+			name = xgk_primaris_bonus
+			duration = -1  
+		}
+	}
+}
+
+country_event = {
+	id = ultramarines_events.2
+	title = "ultramarines_events.2.t"
+	desc = "ultramarines_events.2.d"
+	picture = ANGRY_MOB_eventPicture
+
+	hidden = yes
+	
+	trigger = {
+		tag = XGK
+		mission_completed = Ultramarines_3
+		NOT = { faction_in_power = astartes_faction_2 }
+		has_country_modifier = xgk_primaris_bonus
+		
+	}
+	
+	option = {
+		name = "ultramarines_events.2.a"
+		remove_country_modifier = xgk_primaris_bonus
+	}
+}
+
+country_event = {
+	id = ultramarines_events.3
+	title = "ultramarines_events.3.t"
+	desc = "ultramarines_events.3.d"
+	picture = DIPLOMACY_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "ultramarines_events.2.a"
+		add_country_modifier = { 
+			name = XGK_Federalism_Bonus
+			duration = -1  
+		}
+	}
+	option = {
+		name = "ultramarines_events.2.a"
+		inherit = XSQ
+		inherit = XSS
+		inherit = XST
+	}
+}

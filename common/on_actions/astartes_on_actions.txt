@@ -27,3 +27,95 @@ on_alliance_created = { #ROOT - Alliance sender, FROM - Alliance accepter
 		}
 	}
 }
+
+on_alliance_created = { #ROOT - Alliance sender, FROM - Alliance accepter
+	if = {
+		limit = { has_faction = astartes_faction_1 }
+		add_faction_influence = {
+			faction = astartes_faction_2
+			influence = 25
+		}
+	}
+	if = {
+		limit = { FROM = { has_faction = astartes_faction_1 } }
+		FROM = {
+			add_faction_influence = {
+				faction = astartes_faction_2
+				influence = 25
+			}
+		}
+	}
+}
+
+#ROOT = province that was centralized in
+on_centralized_state = {
+	if = {
+		limit = {
+			owner = {
+				tag = XGK
+				NOT = { mission_completed = Ultramarines_8 }
+			}
+		}
+    		change_variable = {
+			which = XGK_Infrastructure_Count
+			value = 1
+		}
+	}
+}
+
+# province
+on_adm_development = {
+	if = {
+		limit = {
+			owner = {
+				tag = XGK
+				mission_completed = Ultramarines_4
+			}
+		}
+    		random = { 
+			chance = 33
+			add_adm_power = 20
+		}
+	}
+	
+}
+
+on_alliance_created = { #ROOT - Alliance sender, FROM - Alliance accepter
+	if = {
+		limit = {
+			ROOT = {
+				tag = XGK
+				mission_completed = Ultramarines_11
+			}
+			FROM = {
+				has_reform = astartes_reform
+			}
+		}
+		add_army_tradition = 10
+	}
+	if = {
+		limit = {
+			ROOT = {
+				has_reform = astartes_reform
+			}
+			FROM = {
+				tag = XGK
+				mission_completed = Ultramarines_11
+			}
+		}
+		add_army_tradition = 10
+	}
+}
+
+#ROOT = province that was centralized in
+on_centralized_state = {
+	if = {
+		limit = {
+			owner = {
+				tag = XGK
+				mission_completed = Ultramarines_9
+			}
+		}
+		add_prosperity = 33
+	}
+}

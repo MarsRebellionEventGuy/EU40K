@@ -205,3 +205,44 @@ genestealer_self_sustaining_broodmind = {
 	stability_cost_modifier = -0.25
 	years_of_nationalism = -5
 }
+
+macragge_fortified = {
+	garrison_size = 0.33
+}
+
+spear_of_macragge_bonus = {
+	backrow_artillery_damage = 0.15
+}
+
+xgk_flagship_bonus = {
+	morale_in_fleet_modifier = 0.15
+}
+
+xgk_vigil_opertii_bonus = {
+	envoy_travel_time = -0.25
+}
+
+xgk_unified_astartes = {
+	all_estate_loyalty_equilibrium = 0.10
+}
+
+XGK_Library_Bonus_One = {
+	same_culture_advisor_cost = -0.20
+}
+
+XGK_Library_Bonus_Two = {
+	innovativeness_gain = 0.33
+}
+
+XGK_Library_Bonus_Three = {
+	missionary_maintenance_cost = -0.25
+}
+
+XGK_Colonization_Bonus = {
+	colonists = 1
+}
+
+XGK_Federalism_Bonus = {
+	vassal_forcelimit_bonus = 0.10
+	vassal_naval_forcelimit_bonus = 0.15
+}

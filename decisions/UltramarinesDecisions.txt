@@ -1,0 +1,49 @@
+country_decisions = {
+	marneus_calgar_rubicon = {
+		major = yes
+		potential = {
+			tag = XGK
+			has_ruler = "Marneus"
+		}
+		provinces_to_highlight = {
+			owned_by = ROOT
+		}
+		allow = {
+			is_at_war = no
+			faction_in_power = astartes_faction_3
+		}
+		effect = {
+			add_ruler_modifier = { 
+				name = xgk_unified_astartes
+				duration = 36500
+			}
+			custom_tooltip = xgk_rubicon_tooltip
+			hidden_effect = {
+				if = {
+					limit = { NOT = { is_year = 2050 } }
+					random = { 
+						chance = 50
+						kill_ruler = yes
+					}
+				}
+				if = {
+					limit = { is_year = 2050 NOT = { is_year = 2100 } }
+					random = { 
+						chance = 35
+						kill_ruler = yes
+					}
+				}
+				if = {
+					limit = { is_year = 2100 }
+					random = { 
+						chance = 20
+						kill_ruler = yes
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

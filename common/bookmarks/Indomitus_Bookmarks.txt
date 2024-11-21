@@ -4,6 +4,9 @@ bookmark = {
     date = 1999.1.1       
     	country = XXA               
 	country = XXB
+	country = XGK
+    	easy_country = XXA               
+	easy_country = XGK
     # easy_country = <tag>            # Optional. Adds country shield to the selection view with a green glow.
     
     default = yes                   # Makes this bookmark the automatically selected bookmark on game load. Only use once.

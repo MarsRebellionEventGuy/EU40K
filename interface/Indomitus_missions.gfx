@@ -55,5 +55,71 @@ spriteTypes = {
 		name = "mission_terra"
 		texturefile = "gfx/interface/mission_terra.dds"
 	}
+
+	spriteType = {
+		name = "mission_astra_militarum"
+		texturefile = "gfx/interface/mission_astra_militarum.dds"
+	}
+
+	spriteType = {
+		name = "mission_ultramarines_emblem"
+		texturefile = "gfx/interface/mission_ultramarines_emblem.dds"
+	}
+
+	spriteType = {
+		name = "mission_starfort"
+		texturefile = "gfx/interface/mission_starfort.dds"
+	}
+
+	spriteType = {
+		name = "mission_necron_warriors"
+		texturefile = "gfx/interface/mission_necron_warriors.dds"
+	}
+
+	spriteType = {
+		name = "mission_green_world"
+		texturefile = "gfx/interface/mission_green_world.dds"
+	}
+
+	spriteType = {
+		name = "mission_library_macragge"
+		texturefile = "gfx/interface/mission_library_macragge.dds"
+	}
+
+	spriteType = {
+		name = "mission_fortress_of_hera"
+		texturefile = "gfx/interface/mission_fortress_of_hera.dds"
+	}
+
+	spriteType = {
+		name = "mission_spear_of_macragge"
+		texturefile = "gfx/interface/mission_spear_of_macragge.dds"
+	}
+
+	spriteType = {
+		name = "mission_praecental_guard"
+		texturefile = "gfx/interface/mission_praecental_guard.dds"
+	}
+
+	spriteType = {
+		name = "mission_tetrarchy"
+		texturefile = "gfx/interface/mission_tetrarchy.dds"
+	}
+
+	spriteType = {
+		name = "mission_imperial_spies"
+		texturefile = "gfx/interface/mission_imperial_spies.dds"
+	}
+
+	spriteType = {
+		name = "mission_great_crusade"
+		texturefile = "gfx/interface/mission_great_crusade.dds"
+	}
+
+	spriteType = {
+		name = "mission_imperial_flagship"
+		texturefile = "gfx/interface/mission_imperial_flagship.dds"
+	}
+
 }
 
