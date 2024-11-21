@@ -130,7 +130,7 @@ Ultramarines_Branch_2 = {
 	}
 	Ultramarines_5 = {
 		icon = mission_library_macragge
-		required_missions = { Ultramarines_3 }
+		required_missions = { Ultramarines_2 }
 		position = 4
 		
 		provinces_to_highlight = {
