@@ -34,7 +34,7 @@ country_event = {
 			modifier = imperial_secession_opinion
 		}
 		reverse_add_casus_belli = {
-			target = XXAA
+			target = XXA
 			type = cb_annex
 			months = 120
 		}
