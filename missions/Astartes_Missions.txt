@@ -3,8 +3,8 @@ Chapter_Branch_1 = {
 	generic = no
 	ai = yes
 	potential = {
-		
-		primary_culture = loyalist_astartes_culture always = no
+		NOT={tag = XGK} 
+		primary_culture = loyalist_astartes_culture
 	}
 	has_country_shield = yes
 	
@@ -64,8 +64,8 @@ Chapter_Branch_2 = {
 	generic = no
 	ai = yes
 	potential = {
-		   
-		primary_culture = loyalist_astartes_culture always = no
+		NOT={tag = XGK}    
+		primary_culture = loyalist_astartes_culture
 	}
 	has_country_shield = yes
 	
@@ -140,7 +140,8 @@ Chapter_Branch_3 = {
 	generic = no
 	ai = yes
 	potential = {
-		primary_culture = loyalist_astartes_culture always = no
+		NOT={tag = XGK} 
+		primary_culture = loyalist_astartes_culture
 	}
 	has_country_shield = yes
 	
@@ -200,7 +201,8 @@ astartes_second_choice_slot = {
 	potential_on_load = {
 	}
 	potential = {
-		primary_culture = loyalist_astartes_culture always = no
+		NOT={tag = XGK} 
+		primary_culture = loyalist_astartes_culture
 		NOT = { has_country_flag = astartes_decide_for_imperium }
 		NOT = { has_country_flag = astartes_decide_for_protectorate }
 		NOT = { has_country_flag = astartes_decide_for_chaos }
@@ -255,7 +257,8 @@ chapter_imperium_second_slot = {
 	potential_on_load = {
 	}
 	potential = {
-		primary_culture = loyalist_astartes_culture always = no
+		primary_culture = loyalist_astartes_culture
+		NOT={tag = XGK} 
 		has_country_flag = astartes_decide_for_imperium
 	}
 	has_country_shield = yes
@@ -362,7 +365,8 @@ Chapter_Branch_4 = {
 	generic = no
 	ai = yes
 	potential = {
-		primary_culture = loyalist_astartes_culture always = no
+		primary_culture = loyalist_astartes_culture
+		NOT={tag = XGK} 
 	}
 	has_country_shield = yes
 	
@@ -443,7 +447,8 @@ Chapter_Branch_5 = {
 	generic = no
 	ai = yes
 	potential = {
-		primary_culture = loyalist_astartes_culture always = no
+		primary_culture = loyalist_astartes_culture
+		NOT={tag = XGK} 
 	}
 	has_country_shield = yes
 	
