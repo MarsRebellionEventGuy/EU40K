@@ -36,7 +36,7 @@ country_event = {
 		reverse_add_casus_belli = {
 			target = XXA
 			type = cb_annex
-			months = 120
+			months = 121
 		}
 		
 	}
