@@ -42,43 +42,42 @@ XXA_ideas = {
 	}
 }
 
-XXB_ideas = {
+XXB_ideas = {					# Mars
 	start = {
-		advisor_pool = 1
-		global_ship_recruit_speed = -0.15
+		church_loyalty_modifier = 0.1
+		manpower_in_true_faith_provinces = 0.25
 	}
 	
 	bonus = {
-		hull_size_modifier = 0.10
+		liberty_desire_from_subject_development = -0.1
 	}	
 
 	trigger = {
-		primary_culture = mechanicus_culture
+		tag = XXB
 	}
 	free = yes
 	
-	XXB_ideas_1 = { #Quest for Knowledge
-		naval_attrition = -0.25
-		naval_morale_damage_received = -0.05
+	XXB_ideas_1 = { #Fabricator-General of Mars
+		tolerance_own = 2
 	}
-	XXB_ideas_2 = { #Industrial Heart of Empire
-		production_efficiency = 0.15
+	XXB_ideas_2 = { #The Ring of Iron
+		global_ship_recruit_speed = -0.1 
+ 		naval_forcelimit_modifier = 0.15
 	}
-	XXB_ideas_3 = { #Cant Mechanicus
-		same_religion_advisor_cost = -0.20
+	XXB_ideas_3 = { #Every move calculated
+		military_tactics = 0.25
 	}
-	XXB_ideas_4 = { #Partnerships with Knightly Houses
-		army_tradition_decay = -0.02
+	XXB_ideas_4 = { #The iron heart of the Imperium
+		global_trade_goods_size_modifier = 0.2
 	}
-	XXB_ideas_5 = { #Vat Grown
-		manpower_in_true_faith_provinces= 0.20
+	XXB_ideas_5 = { #Quest for Knowledge
+		technology_cost = -0.1
 	}
-	XXB_ideas_6 = { #Visions of the Omnissiah
-		idea_cost = -0.10
+	XXB_ideas_6 = { #Arks and Titans
+		artillery_fire = 1
 	}
-	XXB_ideas_7 = { #Cybernetic Augmentations
-		land_attrition = -0.20
-		manpower_recovery_speed = 0.15
+	XXB_ideas_7 = { #The Manufactorium must grow
+		development_cost = -0.10
 	}
 }
 
@@ -1713,5 +1712,240 @@ XGC_ideas = {
 	}
 	XGC_ideas_7 = {
 		shock_damage_received = -0.15
+	}
+}
+
+XFF_ideas = {					# Agripinaa
+	start = {
+		production_efficiency = 0.1
+		development_cost = -0.10
+	}
+	
+	bonus = {
+		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1	#For completion's sake
+		horde_unity = 1
+	}	
+
+	trigger = {
+		tag = XFF
+	}
+	free = yes
+	
+	XFF_ideas_1 = { #Skitarii garrisons
+		garrison_size = 0.5
+	}
+	XFF_ideas_2 = { #Refugees from Cadia
+		global_manpower_modifier = 0.10
+	}
+	XFF_ideas_3 = { #Near the Nachmund Gauntlet
+		trade_efficiency = 0.15
+	}
+	XFF_ideas_4 = { #Lessons from the Black Crusade
+		discipline = 0.05
+	}
+	XFF_ideas_5 = { #A Bulwark against Chaos
+		defensiveness = 0.25 
+		fort_maintenance_modifier = -0.10
+	}
+	XFF_ideas_6 = { #Strength in faith
+		tolerance_own = 2
+	}
+	XFF_ideas_7 = { #Patroling the Gate
+		galley_power = 0.2
+	}
+}
+
+XDO_ideas = {					# Lucius
+	start = {
+		technology_cost = -0.1
+		envoy_travel_time = -0.2
+	}
+	
+	bonus = {
+		prestige = 1.0
+	}	
+
+	trigger = {
+		tag = XDO
+	}
+	free = yes
+	
+	XDO_ideas_1 = { #The Hollow Forge
+		defensiveness = 0.15
+	}
+	XDO_ideas_2 = { #Perfected Teleportarium
+		regiment_disembark_speed = 0.3
+	}
+	XDO_ideas_3 = { #Mightiest Forge beyond the Rift
+		global_trade_goods_size_modifier = 0.15
+	}
+	XDO_ideas_4 = { #Solar Fusion mastery
+		fire_damage = 0.1
+	}
+	XDO_ideas_5 = { #Endless streams of weaponry
+		trade_efficiency = 0.15
+	}
+	XDO_ideas_6 = { #Data-vaults to rival Mars
+		idea_cost = -0.10
+	}
+	XDO_ideas_7 = { #Legio Astorum "The Warp Runners"
+		artillery_power = 0.10
+	}
+}
+
+XOL_ideas = {					# Graia
+	start = {
+		diplomatic_reputation = 1
+		global_ship_recruit_speed = -0.15
+	}
+	
+	bonus = {
+		discipline = 0.05
+	}	
+
+	trigger = {
+		tag = XOL
+	}
+	free = yes
+	
+	XOL_ideas_1 = { #Refusal to yield
+		land_morale = 0.10
+	}
+	XOL_ideas_2 = { #From Lasguns to Warlord Titans
+		production_efficiency = 0.15
+	}
+	XOL_ideas_3 = { #Legio Astraman
+		artillery_power = 0.10
+	}
+	XOL_ideas_4 = { #The Graian Crown
+		movement_speed_in_fleet_modifier = 1
+	}
+	XOL_ideas_5 = { #Stalwart against Orks and Chaos
+		global_missionary_strength = 0.02
+	}
+	XOL_ideas_6 = { #Restoring our Glory
+		development_cost = -0.10
+	}
+	XOL_ideas_7 = { #"The Crown of Miracles"
+		global_trade_power = 0.15
+	}
+}
+
+XOJ_ideas = {					# Ryza
+	start = {
+		naval_forcelimit_modifier = 0.1
+		technology_cost = -0.1
+	}
+	
+	bonus = {
+		improve_relation_modifier = 0.2
+	}	
+
+	trigger = {
+		tag = XOJ
+	}
+	free = yes
+	
+	XOJ_ideas_1 = { #A Economic Hub World
+		trade_steering = 0.15
+	}
+	XOJ_ideas_2 = { #Weapons for the Steel Legion
+		global_trade_goods_size_modifier = 0.10
+	}
+	XOJ_ideas_3 = { #Furnace of Shackeld Stars
+		production_efficiency = 0.15
+	}
+	XOJ_ideas_4 = { #Red in Cog and Claw
+		shock_damage = 0.1
+	}
+	XOJ_ideas_5 = { #Exquisite Plasma Weapons
+		fire_damage = 0.1
+	}
+	XOJ_ideas_6 = { #Mechanicus Macro Transports
+		global_trade_power = 0.15
+	}
+	XOJ_ideas_7 = { #Powerful Shield Generators
+		fire_damage_received = -0.15
+	}
+}
+
+XOB_ideas = {					# Stygies VIII
+	start = {
+		development_cost = -0.10
+		technology_cost = -0.1
+	}
+	
+	bonus = {
+		naval_forcelimit_modifier = 0.1
+	}	
+
+	trigger = {
+		tag = XOB
+	}
+	free = yes
+	
+	XOB_ideas_1 = { #Inspirations from Xeno Technology
+		idea_cost = -0.1
+	}
+	XOB_ideas_2 = { #Legio Honorum "The Death Bolts"
+		artillery_power = 0.10
+	}
+	XOB_ideas_3 = { #Shroud Protocol
+		leader_naval_manuever = 2
+	}
+	XOB_ideas_4 = { #Xenarite Operatives
+		spy_offence = 0.25 
+		global_spy_defence = 0.25
+	}
+	XOB_ideas_5 = { #The best Munition Artisans
+		production_efficiency = 0.15
+	}
+	XOB_ideas_6 = { #Most unusually Diplomacy
+		improve_relation_modifier = 0.15
+	}
+	XOB_ideas_7 = { #On the Quest for Knowledge
+		global_ship_trade_power = 0.2
+	}
+}
+
+XHG_ideas = {					# Triplex Phall
+	start = {
+		development_cost = -0.1
+		land_forcelimit_modifier = 0.15
+	}
+	
+	bonus = {
+		technology_cost = -0.1
+	}	
+
+	trigger = {
+		tag = XHG
+	}
+	free = yes
+	
+	XHG_ideas_1 = { #Legacy of Explorators
+		trade_range_modifier = 0.2 
+		range = 0.2
+	}
+	XHG_ideas_2 = { #Rediscovered Colonies
+		colony_development_boost = 1
+	}
+	XHG_ideas_3 = { #Legio Victorum
+		artillery_power = 0.10
+	}
+	XHG_ideas_4 = { #Florishing trade routes
+		trade_efficiency = 0.15
+	}
+	XHG_ideas_5 = { #Rare STCs rediscovered
+		prestige = 1.0
+	}
+	XHG_ideas_6 = { #Allied Knight Houses
+		infantry_power = 0.15
+	}
+	XHG_ideas_7 = { #A mighty Forge far from Mars
+		global_trade_goods_size_modifier = 0.10
 	}
 }
