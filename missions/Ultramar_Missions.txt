@@ -1,0 +1,1089 @@
+Ultramarines_Branch_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = XGK
+	}
+	has_country_shield = yes
+	
+	Ultramarines_1 = {
+		icon = mission_necron_warriors
+		required_missions = { }
+		position = 1
+		
+		provinces_to_highlight = {
+			area = damnos
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		
+		trigger = {
+			damnos = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		
+		effect = {
+			add_prestige = 25
+			damnos = {
+				add_core = ROOT
+				remove_core = XOI
+				change_culture = human_culture
+			}
+		}
+	}
+	Ultramarines_2 = {
+		icon = mission_fortress_of_hera
+		required_missions = { Ultramarines_1 }
+		position = 3
+		
+		provinces_to_highlight = {
+			province_id = 3138
+			OR = {
+				NOT = { owned_by = XGK }
+				NOT = {
+					has_great_project = {
+						type = macragge
+						tier = 2
+					}
+				}
+			}
+		}
+		
+		trigger = {
+			3138 = {
+				owned_by = XGK
+				has_great_project = {
+					type = macragge
+					tier = 2
+				}
+			}
+		}
+		
+		effect = {
+			macragge_subsector = {
+				limit = {
+					owned_by = ROOT
+				}
+				add_province_modifier = { 
+					name = macragge_fortified
+					duration = -1
+				}
+			}
+		}
+	}
+	Ultramarines_3 = {
+		icon = mission_aspirant
+		required_missions = { Ultramarines_2 Ultramarines_5 }
+		position = 5
+		
+		provinces_to_highlight = {
+			owned_by = ROOT
+		}
+		
+		trigger = {
+			num_of_banners = 15
+			faction_influence = {
+				faction = astartes_faction_2
+				influence = 80
+			}
+		}
+		
+		effect = {
+			custom_tooltip = xgk_astartes_factions_bonus_tt
+			custom_tooltip = xgk_fulminata_bonus_tt
+		}
+	}
+}
+
+
+Ultramarines_Branch_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = XGK
+	}
+	has_country_shield = yes
+	
+	Ultramarines_4 = {
+		icon = mission_green_world
+		required_missions = { Ultramarines_1 }
+		position = 2
+		
+		provinces_to_highlight = {
+			owned_by = ROOT
+			NOT = { num_of_times_expanded_infrastructure = 1 }
+		}
+		
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				num_of_times_expanded_infrastructure = 1
+				value = 10
+			}
+		}
+		
+		effect = {
+			custom_tooltip = xgk_development_tt
+		}
+	}
+	Ultramarines_5 = {
+		icon = mission_library_macragge
+		required_missions = { Ultramarines_3 }
+		position = 4
+		
+		provinces_to_highlight = {
+			province_id = 1915
+		}
+		
+		trigger = {
+			1915 = {
+				base_tax = 8
+				has_tax_building_trigger = yes
+			}
+		}
+		
+		effect = {
+			custom_tooltip = XGK_Library_Bonus_One_Tooltip
+			if = {
+				limit = {
+					faction_in_power = astartes_faction_1
+				}
+				custom_tooltip = BONUS_REWARD_YES
+			}
+			else = { custom_tooltip = BONUS_REWARD_NO }
+			tooltip = {
+				add_country_modifier = { 
+					name = XGK_Library_Bonus_One
+					duration = -1
+				}
+			}
+			custom_tooltip = XGK_Library_Bonus_Two_Tooltip
+			if = {
+				limit = {
+					faction_in_power = astartes_faction_2
+				}
+				custom_tooltip = BONUS_REWARD_YES
+			}
+			else = { custom_tooltip = BONUS_REWARD_NO }
+			tooltip = {
+				add_country_modifier = { 
+					name = XGK_Library_Bonus_Two
+					duration = -1
+				}
+			}
+			custom_tooltip = XGK_Library_Bonus_Three_Tooltip
+			if = {
+				limit = {
+					faction_in_power = astartes_faction_3
+				}
+				custom_tooltip = BONUS_REWARD_YES
+			}
+			else = { custom_tooltip = BONUS_REWARD_NO }
+			tooltip = {
+				add_country_modifier = { 
+					name = XGK_Library_Bonus_Three
+					duration = -1
+				}
+			}
+			hidden_effect = {
+				if = {
+					limit = {
+						faction_in_power = astartes_faction_1
+					}
+					add_country_modifier = { 
+						name = XGK_Library_Bonus_One
+						duration = -1
+					}
+				}
+				if = {
+					limit = {
+						faction_in_power = astartes_faction_2
+					}
+					add_country_modifier = { 
+						name = XGK_Library_Bonus_Two
+						duration = -1
+					}
+				}
+				if = {
+					limit = {
+						faction_in_power = astartes_faction_3
+					}
+					add_country_modifier = { 
+						name = XGK_Library_Bonus_Three
+						duration = -1
+					}
+				}
+			}
+			
+		}
+	}
+	Ultramarines_6 = {
+		icon = mission_imperial_spies
+		required_missions = { Ultramarines_9 }
+		position = 6
+		
+		provinces_to_highlight = {
+		}
+		
+		trigger = {
+			calc_true_if = {
+				all_country = {
+					NOT = { culture_group = imperial_culture_group }
+					has_spy_network_from = {
+						who = ROOT
+						value = 30
+					}
+				}
+			amount = 2
+			}
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = xgk_vigil_opertii_bonus
+				duration = -1
+			}
+		}
+	}
+}
+
+Ultramarines_Branch_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = XGK
+	}
+	has_country_shield = yes
+	
+	Ultramarines_7 = {
+		icon = mission_noctis
+		required_missions = { }
+		position = 1
+		
+		provinces_to_highlight = {
+			OR = {
+				owned_by = XSQ
+				owned_by = XSS
+				owned_by = XST
+			}
+		}
+		
+		trigger = {
+			trust = { who = XSQ value = 70 }
+			trust = { who = XSS value = 70 }
+			trust = { who = XST value = 70 }
+		}
+		
+		effect = {
+			add_country_modifier = { 
+				name = XGK_Colonization_Bonus
+				duration = 18250
+			}
+		}
+	}
+	Ultramarines_8 = {
+		icon = mission_tetrarchy
+		required_missions = { Ultramarines_4 Ultramarines_7 Ultramarines_12 }
+		position = 3
+		
+		provinces_to_highlight = {
+		}
+		
+		trigger = {
+			has_adm_advisor_3 = yes
+			has_dip_advisor_3 = yes
+			has_mil_advisor_3 = yes
+			check_variable = {
+				which = XGK_Infrastructure_Count
+				value = 3
+			}	
+		}
+		
+		effect = {
+			country_event = { 
+				id = ultramarines_events.3
+			}
+		}
+	}
+	Ultramarines_9 = {
+		icon = mission_imperial_nobles
+		required_missions = { }
+		position = 5
+		
+		provinces_to_highlight = {
+			owned_by = ROOT
+			NOT = {
+				OR = {
+					has_state_edict = edict_advancement_effort
+					has_state_edict = edict_centralization_effort
+					has_state_edict = edict_defensive_edict
+					has_state_edict = edict_of_absolutism
+					has_state_edict = edict_of_governance
+					has_state_edict = edict_encourage_development
+					has_state_edict = edict_feudal_de_jure_law
+					has_state_edict = french_infrastructure_network
+					has_state_edict = edict_promote_military_recruitment
+					has_state_edict = edict_protect_trade
+					has_state_edict = protect_trade_empowered
+					has_state_edict = edict_religion_enforced
+					has_state_edict = edict_religious_unity
+				}
+			}
+		}
+		
+		trigger = {
+			stability = 1
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 10
+				custom_trigger_tooltip = {
+					tooltip = xgk_edict_trigger
+					OR = {
+						has_state_edict = edict_advancement_effort
+						has_state_edict = edict_centralization_effort
+						has_state_edict = edict_defensive_edict
+						has_state_edict = edict_of_absolutism
+						has_state_edict = edict_of_governance
+						has_state_edict = edict_encourage_development
+						has_state_edict = edict_feudal_de_jure_law
+						has_state_edict = french_infrastructure_network
+						has_state_edict = edict_promote_military_recruitment
+						has_state_edict = edict_protect_trade
+						has_state_edict = protect_trade_empowered
+						has_state_edict = edict_religion_enforced
+						has_state_edict = edict_religious_unity
+					}
+				}
+			}
+		}
+		
+		effect = {
+			custom_tooltip = Centralization_Bonus_Tooltip
+		}
+	}
+	Ultramarines_10 = {
+		icon = mission_astra_militarum
+		required_missions = { Ultramarines_9 }
+		position = 6
+		
+		provinces_to_highlight = {
+			owned_by = ROOT
+		}
+		
+		trigger = {
+			num_of_regiments_at_full_drill = 15
+			num_of_generals = 2
+		}
+		
+		effect = {
+			add_army_professionalism = 0.25
+		}
+	}
+	Ultramarines_11 = {
+		icon = mission_guilliman
+		required_missions = { Ultramarines_6 Ultramarines_10 Ultramarines_14 }
+		position = 7
+		
+		provinces_to_highlight = {
+			owned_by = ROOT
+		}
+		
+		trigger = {
+			army_professionalism = 1
+			custom_trigger_tooltip = {
+				tooltip = xgk_policy_trigger
+				OR = {
+					had_active_policy = { policy = privy_council_establishment_act days = 365 }
+					had_active_policy = { policy = the_mercenary_registration_act days = 365 }
+					had_active_policy = { policy = the_provincial_taxation_system days = 365 }
+					had_active_policy = { policy = the_mining_act days = 365 }
+					had_active_policy = { policy = the_liquor_act days = 365 }
+					had_active_policy = { policy = horse_artillery days = 365 }
+					had_active_policy = { policy = public_road_act days = 365 }
+					had_active_policy = { policy = superior_supply_system days = 365 }
+					had_active_policy = { policy = modern_siege_weapons days = 365 }
+					had_active_policy = { policy = superior_supply_system days = 365 }
+					had_active_policy = { policy = superior_fortification_act days = 365 }
+					had_active_policy = { policy = modern_firearm_techniques days = 365 }
+					had_active_policy = { policy = the_garrison_act days = 365 }
+					had_active_policy = { policy = military_zeal_act days = 365 }
+					had_active_policy = { policy = field_priests days = 365 }
+					had_active_policy = { policy = pen_rely_on_sword_act days = 365 }
+					had_active_policy = { policy = local_army_organisation days = 365 }
+					had_active_policy = { policy = underhanded_diplomacy_act days = 365 }
+					had_active_policy = { policy = hired_adventurers_act days = 365 }
+					had_active_policy = { policy = the_tenures_abolition_act days = 365 }
+					had_active_policy = { policy = colonial_garrisons days = 365 }
+					had_active_policy = { policy = the_maritime_intelligencer_unit days = 365 }
+					had_active_policy = { policy = the_nautic_education_act days = 365 }
+					had_active_policy = { policy = zealous_captains days = 365 }
+					had_active_policy = { policy = autonomous_estates days = 365 }
+					had_active_policy = { policy = inspirational_leaders days = 365 }
+					had_active_policy = { policy = the_naval_inspection_act days = 365 }
+					had_active_policy = { policy = the_preparation_act days = 365 }
+					had_active_policy = { policy = local_militias days = 365 }
+					had_active_policy = { policy = foreign_conscription_centers days = 365 }
+					had_active_policy = { policy = guerilla_warfare days = 365 }
+					had_active_policy = { policy = weapon_quality_standards days = 365 }
+					had_active_policy = { policy = noble_loyalty_act days = 365 }
+					had_active_policy = { policy = the_colonial_nobility_act days = 365 }
+					had_active_policy = { policy = nobles_in_navy_act days = 365 }
+					had_active_policy = { policy = military_allotment_act days = 365 }
+					had_active_policy = { policy = unified_army_command days = 365 }
+					had_active_policy = { policy = trade_kontor_network days = 365 }
+					had_active_policy = { policy = deserteur_act days = 365 }
+					had_active_policy = { policy = war_horses_policy days = 365 }
+					had_active_policy = { policy = the_best_defense_policy days = 365 }
+					had_active_policy = { policy = omne_datum_optimum_policy days = 365 }
+					had_active_policy = { policy = wielders_of_the_flaming_sword_policy days = 365 }
+					had_active_policy = { policy = the_three_sisters_policy days = 365 }
+					had_active_policy = { policy = by_the_people_for_the_people_policy days = 365 }
+					had_active_policy = { policy = war_on_our_terms_policy days = 365 }
+					had_active_policy = { policy = my_word_is_my_bond_policy days = 365 }
+					had_active_policy = { policy = render_unto_caesar_policy days = 365 }
+					had_active_policy = { policy = mobile_siege_engines_act days = 365 }
+					had_active_policy = { policy = bolstered_defence_act days = 365 }
+					had_active_policy = { policy = handpicked_recruits_act days = 365 }
+					had_active_policy = { policy = mass_conscription_act days = 365 }
+					had_active_policy = { policy = naval_armament_act days = 365 }
+					had_active_policy = { policy = mercenary_tactical_movement_act days = 365 }
+					had_active_policy = { policy = universal_serfdom_act days = 365 }
+					had_active_policy = { policy = gentle_conquest_act days = 365 }
+					had_active_policy = { policy = sharp_wits_act days = 365 }
+					had_active_policy = { policy = sturdy_argument_act days = 365 }
+					had_active_policy = { policy = special_forces_act days = 365 }
+					had_active_policy = { policy = plentiful_materials_act days = 365 }
+					had_active_policy = { policy = naval_competence_act days = 365 }
+					had_active_policy = { policy = dutiful_mercenaries_act days = 365 }
+					had_active_policy = { policy = hired_expeditions_act days = 365 }
+				}
+			}
+		}
+		
+		effect = {
+			custom_tooltip = XGK_Alliance_Bonus_Tooltip
+			XXA = {
+				add_trust = {
+					who = ROOT
+					value = 25
+				}
+			}
+		}
+	}
+}
+
+Ultramarines_Branch_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = XGK
+	}
+	has_country_shield = yes
+	
+	Ultramarines_12 = {
+		icon = mission_ultramarines_emblem
+		required_missions = { Ultramarines_15 }
+		position = 2
+		
+		provinces_to_highlight = {
+			owner = {
+				OR = {
+					tag = XNG
+					tag = XHX
+					tag = XHK
+					tag = XDG
+					tag = XNN
+					tag = XHL
+				}
+				NOT = {
+					has_opinion = {
+						who = ROOT
+						value = 100
+					}
+				}
+			}
+		}
+		
+		trigger = {
+			calc_true_if = {
+				all_country = {
+					OR = {
+						tag = XNG
+						tag = XHX
+						tag = XHK
+						tag = XDG
+						tag = XNN
+						tag = XHL
+					}
+					has_opinion = {
+						who = ROOT
+						value = 100
+					}
+				}
+				amount = 3
+			}
+		}
+		
+		effect = {
+			custom_tooltip = xgk_shield_tooltip
+			custom_tooltip = xgk_mercenaries_tooltip		
+			hidden_effect = {
+				every_ally = {
+					limit = { has_reform = astartes_reform }
+					add_favors = {
+						who = ROOT
+						amount = 20
+					}
+				}
+			}
+		}
+	}
+	Ultramarines_13 = {
+		icon = mission_starfort
+		required_missions = { Ultramarines_16 }
+		position = 4
+		
+		provinces_to_highlight = {
+			owned_by = ROOT
+			NOT = { has_fort_building_trigger = yes }
+		}
+		
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 5
+				has_fort_building_trigger = yes
+			}
+		}
+		
+		effect = {
+			define_advisor = {
+				type = fortification_expert
+				skill = 3
+				cost_multiplier = 0.5
+			}
+			custom_tooltip = xgk_discovery_tt
+			hidden_effect = {
+			segmentum_solar_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+
+			talis_munus_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+
+			inwit_cluster_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+
+			fenris_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+
+			macharia_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+			uhulis_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+			yarokin_veil_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+
+			sabbat_worlds_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+			orpheus_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+			caradryad_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+
+			galactic_core_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+			octarius_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+			charadon_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+
+			nephilim_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+			ultima_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+
+			agripinaa_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+
+			golgotha_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+
+			prosperan_rift_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+
+			forsarr_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+
+			laanah_rifts_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+
+			tau_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+
+			reductus_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+
+			mandragora_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+
+			yasan_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+
+			trail_evisser_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+
+			salient_stars_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+
+			hydraphur_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+
+			sargos_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+
+			loki_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+
+			amerikon_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+
+			karthago_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+
+			vidar_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+
+			corribra_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+
+			evisser_trail_sea_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+
+			talis_munus_sea_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+
+			fenris_sea_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+
+			agripinaa_sector_sea_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+
+			amerikon_sector_sea_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+
+			veiled_region_sector_sea_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+
+			orpheus_sector_sea_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+
+			ultima_sector_sea_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+
+			tau_space_sea_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+
+			sabbat_worlds_sea_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+
+			sargos_sea_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+
+			galactic_core_sector_sea_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+
+			golgothan_sector_sea_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+
+			pariah_nexus_sea_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+
+			caradryad_sector_sea_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+
+			forsarr_sector_sea_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+
+			reductus_sector_sea_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+
+			laanah_rifts_sector_sea_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+
+			hydraphur_sector_sea_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+
+			charadon_sector_sea_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+
+			prosperan_rift_sea_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+
+			macharian_sector_sea_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+
+			yasan_sector_sea_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+
+
+			inwit_cluster_sector_sea_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+
+			octarius_sector_sea_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+
+			uhulis_sector_sea_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+
+			karthago_sector_sea_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+
+			yarokin_veil_sector_sea_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+
+			salient_stars_sector_sea_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+
+			loki_sector_sea_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+
+			corribra_sector_sea_region = {
+				limit = { NOT = { has_discovered = ROOT }}
+				discover_country = ROOT
+			}
+			}
+		}
+	}
+	Ultramarines_14 = {
+		icon = mission_praecental_guard
+		required_missions = { Ultramarines_9 }
+		position = 6
+		
+		provinces_to_highlight = {
+			owned_by = ROOT
+		}
+		
+		trigger = {
+			num_of_mercenaries = 20
+		}
+		
+		effect = {
+			custom_tooltip = xgk_guard_bonus_tt
+		}
+	}
+}
+
+Ultramarines_Branch_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		tag = XGK
+	}
+	has_country_shield = yes
+	
+	Ultramarines_15 = {
+		icon = mission_spear_of_macragge
+		required_missions = { }
+		position = 1
+		
+		provinces_to_highlight = {
+			owned_by = ROOT
+		}
+		
+		trigger = {
+			OR = {
+				has_leader_with = {
+					manuever = 2
+				}
+				has_leader_with = {
+					siege = 2
+				}
+			}
+		}
+		
+		effect = {
+			add_country_modifier = { 
+				name = spear_of_macragge_bonus
+				duration = -1
+			}
+		}
+	}
+	Ultramarines_16 = {
+		icon = mission_imperial_flagship
+		required_missions = { Ultramarines_15 }
+		position = 3
+		
+		provinces_to_highlight = {
+			owned_by = ROOT
+			NOT = { has_shipyard_building_trigger = yes }
+		}
+		
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 3
+				has_shipyard_building_trigger = yes
+			}
+			has_flagship = yes
+		}
+		
+		effect = {
+			add_country_modifier = { 
+				name = xgk_flagship_bonus
+				duration = -1
+			}
+			custom_tooltip = XGK_Flagship_Bonus_Tooltip
+			if = {
+				limit = {
+					heavy_ship_fraction = 0.33
+				}
+				custom_tooltip = BONUS_REWARD_YES
+			}
+			else = { custom_tooltip = BONUS_REWARD_NO }
+			tooltip = {
+				define_admiral = {
+					name = "Lazlo Tiberius"
+					shock = 3
+					fire = 5
+					manuever = 5
+					siege = 3
+				}
+			}
+			hidden_effect = {
+				if = {
+					limit = {
+						heavy_ship_fraction = 0.33
+					}
+					define_admiral = {
+						name = "Lazlo Tiberius"
+						fire = 5
+						manuever = 5
+					}
+				}
+			}
+		}
+	}
+	Ultramarines_17 = {
+		icon = mission_great_crusade
+		required_missions = { Ultramarines_13 Ultramarines_16 }
+		position = 5
+		
+		provinces_to_highlight = {
+			OR = {
+				region = tau_region
+				region = mandragora_region
+				region = sargos_region
+				region = nephilim_region
+				region = ultima_region
+				region = corribra_region
+				region = charadon_region
+				region = yasan_region
+			}
+			NOT = { owned_by = ROOT }
+		}
+		
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				OR = {
+					region = tau_region
+					region = mandragora_region
+					region = sargos_region
+					region = nephilim_region
+					region = ultima_region
+					region = corribra_region
+					region = charadon_region
+					region = yasan_region
+				}
+				value = 100
+			}
+			
+		}
+		
+		effect = {
+			tau_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			mandragora_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			sargos_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			nephilim_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			ultima_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			corribra_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			charadon_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			yasan_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+}
