@@ -42,6 +42,9 @@ imperium_events.3.t:0 "The Indomitus Fleets"
 imperium_events.3.d:0 "Reclaiming the Imperium of Man’s countless lost worlds requires multiple fleets capable of operating autonomously. The Indomitus Crusade Fleets have been created for this purpose, each led by a Fleetmaster helming an Oberon-Class Battleship. Dividing our campaign among the fleets limit our potential for overwhelming force but will increase the speed of our reconquests tenfold."
 imperium_events.3.a:0 "Ave Imperator"
 
+imperium_events.5.t:0 "Heavy is the Crown"
+imperium_events.5.d:0 "The unimaginable has come to pass. The Golden Throne, the arcane mechanism sustaining the Emperor's fragile essence and lighting the Astronomican, has failed. Its intricate machinery lies in ruin, its golden luster dulled to lifeless metal. Terra, once the unassailable heart of the Imperium, descends into chaos. The bonds that once held this sacred world together snap, leaving its surface a storm of anarchy and despair. The proud bastion of humanity is abandoned, its desolation a stark reminder of the Imperium's greatest failure. Without the Golden Throne, the Imperium is rudderless. The Emperor’s silence reverberates through all, and the heart of mankind’s dominion lies bare for the taking. Will Terra ever rise again, or has humanity’s light been extinguished for all eternity?" 
+
 genestealer_events.2.t:0 "Shadow in the Warp"
 imperial_events.2.d:0 "The arrival of the Star Children is imminent! The psychic signature of $MONARCHTITLE$ $MONARCH$ has drawn the hivemind to $CAPITAL$. As the massive psychic signature of the Tyranids envelop the planet, it has become apparent that the cult's fate is to be consumed and utilized as biomass."
 genestealer_events.2.a:0 "This is the ascension we were promised."
