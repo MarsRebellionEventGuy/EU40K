@@ -1670,7 +1670,7 @@ XOK_ideas = {
 		interest = -1
 	}
 	XOK_ideas_6 = {
-		cavalry_flanking = 0.10
+		cavalry_flanking = 0.50
 	}
 	XOK_ideas_7 = {
 		drill_gain_modifier = 0.33
