@@ -397,9 +397,11 @@ defined_text = {
 	random = no
 	
 	text = {
-		localisation_key = Primarch_Status_MIA
+		localisation_key = Primarch_XIII_Status_TERRA
 		trigger={
-			Primarch_XIII_Status_TERRA
+			XXA={
+				has_ruler_flag = flag_is_primarch_13
+			}
 		}
 	}
 	text = {
