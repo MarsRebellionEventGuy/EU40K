@@ -1950,6 +1950,48 @@ XHG_ideas = {					# Triplex Phall
 	}
 }
 
+XGG_ideas = {
+	start = {
+		manpower_recovery_speed = 0.15
+		naval_morale = 0.10
+	}
+	
+	bonus = {
+		governing_capacity_modifier = 0.1
+	}	
+
+	trigger = {
+		tag = XGG
+	}
+	free = yes
+	
+	XGG_ideas_1 = {
+		republican_tradition = 0.50
+                trade_efficiency = 0.10
+	}
+	XGG_ideas_2 = {
+		infantry_power = 0.10
+	}
+	XGG_ideas_3 = {
+		shock_damage_received = -0.15
+	}
+	XGG_ideas_4 = {
+		discipline = 0.075
+	}
+	XGG_ideas_5 = {
+		land_morale = 0.10
+        	war_taxes_cost_modifier = - 100
+	}
+	XGG_ideas_6 = {
+		improve_relation_modifier = 0.20
+		improve_relation_modifier = 1
+	}
+	XGG_ideas_7 = {
+		free_land_leader_pool = 3
+	}
+}
+
+
 XLV_ideas = {
 	start = {
 		envoy_travel_time = -0.33
