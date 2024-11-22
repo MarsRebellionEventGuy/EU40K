@@ -1949,3 +1949,42 @@ XHG_ideas = {					# Triplex Phall
 		global_trade_goods_size_modifier = 0.10
 	}
 }
+
+XLV_ideas = {
+	start = {
+		envoy_travel_time = -0.33
+		range = 0.20
+	}
+	
+	bonus = {
+		manpower_recovery_speed = 0.20
+	}	
+
+	trigger = {
+		tag = XLV
+	}
+	free = yes
+	
+	XLV_ideas_1 = {
+		colonist = 1
+	}
+	XLV_ideas_2 = {
+		colony_development_boost = 1
+	}
+	XLV_ideas_3 = {
+		colonist_placement_chance = 0.075
+	}
+	XLV_ideas_4 = {
+		global_colonial_growth = 20
+	}
+	XLV_ideas_5 = {
+		tolerance_own = 2
+	}
+	XLV_ideas_6 = {
+		state_maintenance_modifier = 0.20
+	}
+	XLV_ideas_7 = {
+		land_forcelimit_modifier = 0.25
+	}
+}
+
