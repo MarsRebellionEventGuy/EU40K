@@ -2222,8 +2222,6 @@ manufactory = {
 wharf = {
 	manufactory = {
 		naval_supplies
-		fish
-		salt
 	}
 	onmap = yes
 	on_built = {
@@ -2286,8 +2284,6 @@ wharf = {
 
 weapons = {
 	manufactory = {
-		copper
-		iron
 		military_equipment
 		minerals
 		promethium
@@ -2327,11 +2323,8 @@ weapons = {
 
 textile = {
 	manufactory = {
-		wool
-		cloth
-		silk
-		dyes
 		clerks
+		consumer_goods
 	}
 	onmap = yes
 	on_built = {
@@ -2410,11 +2403,7 @@ plantations = {
 
 tradecompany = {
 	manufactory = {
-		ivory
 		slaves
-		spices
-		cloves
-		fur
 		incense
 		luxury_goods
 		xeno_technology
@@ -2456,10 +2445,7 @@ tradecompany = {
 
 farm_estate = {
 	manufactory = {
-		grain
-		livestock
-		wine
-		consumer_goods
+		agricultural_goods
 	}
 	onmap = yes
 	on_built = {
@@ -2512,11 +2498,6 @@ farm_estate = {
 
 mills = {
 	manufactory = {
-		paper
-		gems
-		tropical_wood
-		glass
-		chinaware
 		archaotech
 		scientific_equipment
 	}
@@ -2665,10 +2646,7 @@ soldier_households = {
 	}
 
 	bonus_manufactory = { # Will apply an extra modifier if these goods
-		grain
-		fish
-		livestock
-		wine
+		agricultural_goods
 	}
 
 	modifier = {
@@ -2734,10 +2712,7 @@ impressment_offices = {
 	}
 
 	bonus_manufactory = { # Will apply an extra modifier if these goods
-		salt
-		fish
-		naval_supplies
-		tropical_wood
+		agricultural_goods
 	}
 
 	build_trigger = {
@@ -2795,9 +2770,7 @@ state_house = {
 	}
 
 	bonus_manufactory = { # Will apply an extra modifier if these goods
-		paper
-		glass
-		gems
+		clerks
 	}
 
 	build_trigger = {
