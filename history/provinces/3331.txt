@@ -1,4 +1,5 @@
 add_core = XXF
+add_core = XOK
 owner = XXF
 controller = XXF
 religion = death_cult
