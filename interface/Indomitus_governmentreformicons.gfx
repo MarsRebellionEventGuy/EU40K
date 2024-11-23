@@ -84,4 +84,244 @@ spriteTypes = {
 		name = "government_reform_hive_fleet"
 		texturefile = "gfx//interface//hive_fleet.dds"
 	}
+
+	spriteType = {
+		name = "government_reform_a_council_of_equals"
+		texturefile = "gfx//interface//admech_reforms//a_council_of_equals.dds"	
+	}
+	
+	spriteType = {
+		name = "government_reform_admech_knights"
+		texturefile = "gfx//interface//admech_reforms//admech_knights.dds"	
+	}
+	
+	spriteType = {
+		name = "government_reform_admech_mars"
+		texturefile = "gfx//interface//admech_reforms//admech_mars.dds"	
+	}
+	
+	spriteType = {
+		name = "government_reform_admech_navy"
+		texturefile = "gfx//interface//admech_reforms//admech_navy.dds"	
+	}
+	
+	spriteType = {
+		name = "government_reform_administratum_allies"
+		texturefile = "gfx//interface//admech_reforms//administratum_allies.dds"	
+	}
+	
+	spriteType = {
+		name = "government_reform_ally_to_the_throne"
+		texturefile = "gfx//interface//admech_reforms//ally_to_the_throne.dds"	
+	}
+	
+	spriteType = {
+		name = "government_reform_asteroid_mining"
+		texturefile = "gfx//interface//admech_reforms//asteroid_mining.dds"	
+	}
+	
+	spriteType = {
+		name = "government_reform_auxilia_myrmidon"
+		texturefile = "gfx//interface//admech_reforms//auxilia_myrmidon.dds"	
+	}
+	
+	spriteType = {
+		name = "government_reform_centurio_ordinatus"
+		texturefile = "gfx//interface//admech_reforms//centurio_ordinatus.dds"	
+	}
+	
+	spriteType = {
+		name = "government_reform_certainty_of_steel"
+		texturefile = "gfx//interface//admech_reforms//certainty_of_steel.dds"	
+	}
+	
+	spriteType = {
+		name = "government_reform_collegia_titanica"
+		texturefile = "gfx//interface//admech_reforms//collegia_titanica.dds"	
+	}
+	
+	spriteType = {
+		name = "government_reform_consumer_goods"
+		texturefile = "gfx//interface//admech_reforms//consumer_goods.dds"	
+	}
+	
+	spriteType = {
+		name = "government_reform_cybernetica_ai"
+		texturefile = "gfx//interface//admech_reforms//cybernetica_ai.dds"	
+	}
+	
+	spriteType = {
+		name = "government_reform_deep_core_mining"
+		texturefile = "gfx//interface//admech_reforms//deep_core_mining.dds"	
+	}
+	
+	spriteType = {
+		name = "government_reform_empower_fabricator_general"
+		texturefile = "gfx//interface//admech_reforms//empower_fabricator_general.dds"	
+	}
+	
+	spriteType = {
+		name = "government_reform_empowered_electropriests"
+		texturefile = "gfx//interface//admech_reforms//empowered_electropriests.dds"	
+	}
+	
+	spriteType = {
+		name = "government_reform_expand_lower_ranks"
+		texturefile = "gfx//interface//admech_reforms//expand_lower_ranks.dds"	
+	}
+	
+	spriteType = {
+		name = "government_reform_forge_fortress"
+		texturefile = "gfx//interface//admech_reforms//forge_fortress.dds"	
+	}
+	
+	spriteType = {
+		name = "government_reform_forgeworld"
+		texturefile = "gfx//interface//admech_reforms//forgeworld.dds"	
+	}
+	
+	spriteType = {
+		name = "government_reform_legio_cybernetica"
+		texturefile = "gfx//interface//admech_reforms//legio_cybernetica.dds"	
+	}
+	
+	spriteType = {
+		name = "government_reform_legio_cybernetica_new"
+		texturefile = "gfx//interface//admech_reforms//legio_cybernetica_new.dds"	
+	}
+	
+	spriteType = {
+		name = "government_reform_legio_skitarii"
+		texturefile = "gfx//interface//admech_reforms//legio_skitarii.dds"	
+	}
+	
+	spriteType = {
+		name = "government_reform_magos_militarum"
+		texturefile = "gfx//interface//admech_reforms//magos_militarum.dds"	
+	}
+	
+	spriteType = {
+		name = "government_reform_manufactorum"
+		texturefile = "gfx//interface//admech_reforms//manufactorum.dds"	
+	}
+	
+	spriteType = {
+		name = "government_reform_mechanicus_scaevola"
+		texturefile = "gfx//interface//admech_reforms//mechanicus_scaevola.dds"	
+	}
+	
+	spriteType = {
+		name = "government_reform_mechanicus_videx"
+		texturefile = "gfx//interface//admech_reforms//mechanicus_videx.dds"	
+	}
+	
+	spriteType = {
+		name = "government_reform_mechanized_crusade"
+		texturefile = "gfx//interface//admech_reforms//mechanized_crusade.dds"	
+	}
+	
+	spriteType = {
+		name = "government_reform_mindslave"
+		texturefile = "gfx//interface//admech_reforms//mindslave.dds"	
+	}
+	
+	spriteType = {
+		name = "government_reform_minor_forgeworld"
+		texturefile = "gfx//interface//admech_reforms//minor_forgeworld.dds"	
+	}
+	
+	spriteType = {
+		name = "government_reform_new_quotas"
+		texturefile = "gfx//interface//admech_reforms//new_quotas.dds"	
+	}
+	
+	spriteType = {
+		name = "government_reform_omnissiahs_will"
+		texturefile = "gfx//interface//admech_reforms//omnissiahs_will.dds"	
+	}
+	
+	spriteType = {
+		name = "government_reform_ordo_artisan"
+		texturefile = "gfx//interface//admech_reforms//ordo_artisan.dds"	
+	}
+	
+	spriteType = {
+		name = "government_reform_ordo_genetor"
+		texturefile = "gfx//interface//admech_reforms//ordo_genetor.dds"	
+	}
+	
+	spriteType = {
+		name = "government_reform_ordo_logis"
+		texturefile = "gfx//interface//admech_reforms//ordo_logis.dds"	
+	}
+	
+	spriteType = {
+		name = "government_reform_ordo_magos"
+		texturefile = "gfx//interface//admech_reforms//ordo_magos.dds"	
+	}
+	
+	spriteType = {
+		name = "government_reform_ordo_reductus"
+		texturefile = "gfx//interface//admech_reforms//ordo_reductus.dds"	
+	}
+	
+	spriteType = {
+		name = "government_reform_our_empire"
+		texturefile = "gfx//interface//admech_reforms//our_empire.dds"	
+	}
+	
+	spriteType = {
+		name = "government_reform_protect_forges"
+		texturefile = "gfx//interface//admech_reforms//protect_forges.dds"	
+	}
+	
+	spriteType = {
+		name = "government_reform_quest_for_knowledge"
+		texturefile = "gfx//interface//admech_reforms//quest_for_knowledge.dds"	
+	}
+	
+	spriteType = {
+		name = "government_reform_rest_menials"
+		texturefile = "gfx//interface//admech_reforms//rest_menials.dds"	
+	}
+	
+	spriteType = {
+		name = "government_reform_rogue_trader_houses"
+		texturefile = "gfx//interface//admech_reforms//rogue_trader_houses.dds"	
+	}
+	
+	spriteType = {
+		name = "government_reform_servitor"
+		texturefile = "gfx//interface//admech_reforms//servitor.dds"	
+	}
+	
+	spriteType = {
+		name = "government_reform_smart_priests"
+		texturefile = "gfx//interface//admech_reforms//smart_priests.dds"	
+	}
+	
+	spriteType = {
+		name = "government_reform_stcs_recovered"
+		texturefile = "gfx//interface//admech_reforms//stcs_recovered.dds"	
+	}
+	
+	spriteType = {
+		name = "government_reform_strike_against_hereteks"
+		texturefile = "gfx//interface//admech_reforms//strike_against_hereteks.dds"	
+	}
+	
+	spriteType = {
+		name = "government_reform_strong_skitarii"
+		texturefile = "gfx//interface//admech_reforms//strong_skitarii.dds"	
+	}
+	
+	spriteType = {
+		name = "government_reform_techpriest"
+		texturefile = "gfx//interface//admech_reforms//techpriest.dds"	
+	}
+	
+	spriteType = {
+		name = "government_reform_void_dragon"
+		texturefile = "gfx//interface//admech_reforms//void_dragon.dds"	
+	}
 }
