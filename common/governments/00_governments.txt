@@ -289,55 +289,113 @@ theocracy = {
 				craftworld_reform
 				xeno_government_reform
 				haemonculi_coven_reform
+				minor_forgeworld_reform
+				forgeworld_reform
+				xenarite_cult_reform
+				mars_the_red_planet_reform
 			}
 		}
 		internal_vs_external_mission = {
 			reforms = {
+				quest_for_knowledge_mysteries_reform
+				quest_for_knowledge_warnings_reform
 			}
 
 		}
 		education_of_the_state = {
 			reforms = {
+				the_smart_shall_be_priests_reform
+				the_strong_shall_be_skitarii_reform
+				the_rest_shall_be_menials_reform
 			}
 		}
 		military_doctrines = {
 			reforms = {
+				auxilia_myrmidon_reform
+				servitor_hordes_reform
+				skitarii_legions_reform
+				forge_fortresses_reform
+				centurio_ordinatus_reform
+				ordo_reductus_reform
+				knight_allies_reform
+				#collegia_titanica_reform
+				legio_cybernetica_reform
+				restored_legio_cybernetica_reform
+				expedition_fleets_reform 
+				patrole_fleets_reform
+				abominable_intelligence_reform
 			}
 		}
 		religoius_doctrine = {
 			reforms = {
+				magos_order_reform
+				genetor_order_reform
+				logis_order_reform
+				artisan_order_reform
 			}
 		}
 		clergy_in_administration = {
 			reforms = {
+				administratum_allies_reform
+				expand_the_lower_ranks_reform
+				rogue_trader_houses_reform
+				allied_knight_houses_reform
 			}
 		}
 		secularization = {
 			reforms = {
+				empower_the_fabricator_general_reform
+				grant_power_to_the_orders_reform
+				mindslaves_reform
+				magos_militarum_reform
 			}
 		}
 		economical_matters = {
 			reforms = {
+				expand_the_forges_reform
+				new_production_quotas_reform
+				focus_on_exports_reform
+				expand_mining_reform
+				asteroid_mining_reform
+				increased_consumer_goods_reform
 			}
 		}
 		divine_cause = {
 			reforms = {
+				protect_the_forge_temples_reform
+				the_quest_for_knowledge_reform
+				strike_against_the_hereteks_reform
+				the_first_forgeworld_reform
+				learn_from_the_xenos_reform
 			}
 		}
 		separation_of_power_theocracy = {
 			reforms = {
+				ally_of_the_throne_reform
+				mars_and_terra_reform
+				a_mechanized_crusade_reform
 			}
 		}
 		nature_of_faith = {
 			reforms = {
+				the_certainty_of_steel_reform
+				revered_machine_spirits_reform
+				omnissiahs_will_reform
 			}
 		}
 		culture_within_the_state = {
 			reforms = {
+				one_magos_above_all_reform
+				a_council_of_equals_reform
+				empowered_electropriests_reform
 			}
 		}
 		faith_and_the_world = {
 			reforms = {
+				united_forge_worlds_reform
+				our_empire_reform
+				all_is_steel_reform
+				stcs_recovered_reform
 			}
 		}
 	}
