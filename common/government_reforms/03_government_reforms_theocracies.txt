@@ -380,3 +380,1079 @@ harlequin_masque_reform = {
 		governing_capacity_modifier = -0.50
 	}
 }
+
+#AdMech reforms
+#Leadership 1
+
+minor_forgeworld_reform = {
+   icon = "minor_forgeworld"
+   fixed_rank = 1
+	allow_normal_conversion = yes
+	legacy_equivalent = forge_world
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0 
+    potential = {
+		primary_culture = mechanicus_culture
+      		religion = mechanicus
+    }
+       
+    trigger = {
+    }
+
+    modifiers = {
+		production_efficiency = 0.15
+		global_regiment_cost = -0.10
+		relation_with_heathens = -50
+		governing_capacity_modifier = -0.5
+    }
+}
+
+forgeworld_reform = {				
+   icon = "forgeworld"
+	allow_normal_conversion = yes
+	legacy_equivalent = forge_world
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0 
+    potential = {
+		primary_culture = mechanicus_culture
+      		religion = mechanicus
+    }
+       
+    trigger = {
+		OR = { 	
+			development_in_provinces = {
+				value = 100
+			}
+			tag = XXB
+		}
+    }
+
+    modifiers = {
+		production_efficiency = 0.15
+		global_regiment_cost = -0.10
+		relation_with_heathens = -50
+		governing_capacity_modifier = -0.5
+    }
+
+    effect = {
+    	add_country_flag = can_propose_forge_subjugation
+    }
+
+    removed_effect = {
+        clr_country_flag = can_propose_forge_subjugation
+    }
+}			
+
+#independent_forgeworld_reform = {				#for Schism disaster
+#   icon = "independent_forgeworld"
+#	allow_normal_conversion = no
+#	legacy_equivalent = forge_world
+#	valid_for_nation_designer = yes
+#	nation_designer_cost = 0 
+#    potential = {						#add disaster flag to potential
+#		primary_culture = mechanicus_culture
+#      		religion = mechanicus
+#    }
+#       
+#    trigger = {					
+#		development_in_provinces = {
+#			value = 400
+#		}
+#    }
+#
+#    modifiers = {
+#		production_efficiency = 0.15
+#		global_regiment_cost = -0.10
+#		relation_with_heathens = -50
+#		governing_capacity_modifier = -0.5
+#    }
+#}						
+
+xenarite_cult_reform = {				#stygies exclusive 	
+    icon = "mechanicus_scaevola"
+    potential = {					
+        tag = XOB
+	primary_culture = mechanicus_culture
+      	religion = mechanicus
+   }
+    trigger = {
+    }
+
+   fixed_rank = 1
+	allow_normal_conversion = yes
+	legacy_equivalent = forge_world
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0     
+    modifiers = {
+		production_efficiency = 0.15
+		global_regiment_cost = -0.10
+		relation_with_heathens = -50
+		governing_capacity_modifier = -0.5
+    }   
+
+    effect = {
+    	add_country_flag = can_propose_forge_subjugation
+    }
+
+    removed_effect = {
+        clr_country_flag = can_propose_forge_subjugation
+    }
+}				
+
+mars_the_red_planet_reform = {				#mars mission reward 	#can create forgeworld subjects
+   icon = "admech_mars"
+	allow_normal_conversion = yes
+	legacy_equivalent = forge_world
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0 
+    potential = {
+		primary_culture = mechanicus_culture
+      		religion = mechanicus
+		tag = XXB
+							
+    }
+       
+    trigger = {
+		development_in_provinces = {
+			value = 400
+		}
+    }
+
+    modifiers = {
+		production_efficiency = 0.15
+		global_regiment_cost = -0.10
+		relation_with_heathens = -50
+		governing_capacity_modifier = -0.5
+    }   
+
+    effect = {
+    	add_country_flag = can_propose_forge_subjugation
+    }
+
+    removed_effect = {
+        clr_country_flag = can_propose_forge_subjugation
+    }
+}			
+
+
+#Internal vs External Mission 2
+
+quest_for_knowledge_mysteries_reform = {
+	icon = "mechanicus_scaevola"
+	potential = {
+    		primary_culture = mechanicus_culture
+	}
+
+	trigger = {
+	}
+
+	allow_normal_conversion = yes
+	legacy_equivalent = forge_world
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0 
+	modifiers = {
+		technology_cost = -0.1
+	}
+	custom_attributes = {
+		on_church_built_clergy_loyalty = yes		#forge temples
+	}
+}
+
+quest_for_knowledge_warnings_reform = {
+	icon = "mechanicus_videx"
+	potential = {
+    		primary_culture = mechanicus_culture
+	}
+
+	trigger = {
+	}
+
+	allow_normal_conversion = yes
+	legacy_equivalent = forge_world
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0 
+	modifiers = {
+		global_unrest = -1
+		manpower_recovery_speed = 0.1
+	}
+}
+
+
+
+
+#Education of the State 3
+
+the_smart_shall_be_priests_reform = {
+	icon = "smart_priests"
+	potential = {
+    		primary_culture = mechanicus_culture
+	}
+
+	trigger = {
+	}
+
+	allow_normal_conversion = yes
+	modifiers = {
+		culture_influence_modifier = 0.05
+		church_loyalty_modifier = 0.1
+		production_efficiency = 0.1
+	}
+}
+
+the_strong_shall_be_skitarii_reform = {
+	icon = "strong_skitarii"
+	potential = {
+    		primary_culture = mechanicus_culture
+	}
+
+	trigger = {
+	}
+
+	allow_normal_conversion = yes
+	modifiers = {
+		nobles_influence_modifier = 0.05
+		nobles_loyalty_modifier = 0.1
+		global_manpower_modifier = 0.10
+		land_forcelimit_modifier = 0.10
+	}
+}
+
+the_rest_shall_be_menials_reform = {
+	icon = "servitor"
+	potential = {
+    		primary_culture = mechanicus_culture
+	}
+
+	trigger = {
+	}
+
+	allow_normal_conversion = yes
+	modifiers = {
+		all_estate_influence_modifier = -0.05
+		global_tax_modifier = 0.15
+	}
+}
+
+
+
+#Clergy in Administration 4
+
+magos_order_reform = {
+	icon = "ordo_magos"
+	potential = {
+    		primary_culture = mechanicus_culture
+	}
+
+	trigger = {
+	}
+
+	allow_normal_conversion = yes
+	modifiers = {
+		idea_cost = -0.05
+	}
+}
+
+genetor_order_reform = {
+	icon = "ordo_genetor"
+	potential = {
+    		primary_culture = mechanicus_culture
+	}
+
+	trigger = {
+	}
+
+	allow_normal_conversion = yes
+	modifiers = {
+		global_manpower_modifier = 0.1
+	}
+}
+
+logis_order_reform = {
+	icon = "ordo_logis"
+	potential = {
+    		primary_culture = mechanicus_culture
+	}
+
+	trigger = {
+	}
+
+	allow_normal_conversion = yes
+	modifiers = {
+		trade_range_modifier = 0.2
+		global_trade_power_modifier = 0.1
+	}
+}
+
+artisan_order_reform = {
+	icon = "ordo_artisan"
+	potential = {
+    		primary_culture = mechanicus_culture
+	}
+
+	trigger = {
+	}
+
+	allow_normal_conversion = yes
+	modifiers = {
+		production_efficiency = 0.1
+	}
+}
+
+
+
+#Military Doctrine 5
+
+auxilia_myrmidon_reform = {
+	icon = "auxilia_myrmidon"
+	potential = {
+    		primary_culture = mechanicus_culture
+	}
+	trigger = {
+	}
+
+	allow_normal_conversion = yes
+	modifiers = {
+		assault_fort_ability = 0.15
+	}
+}
+
+servitor_hordes_reform = {
+	icon = "servitor"
+	potential = {
+    		primary_culture = mechanicus_culture
+	}
+	trigger = {
+	}
+
+	allow_normal_conversion = yes
+	modifiers = {
+		global_manpower_modifier = 0.20
+		land_forcelimit_modifier = 0.20
+		global_supply_limit_modifier = 0.20
+	}
+}
+
+skitarii_legions_reform = {
+	icon = "legio_skitarii"
+	potential = {
+    		primary_culture = mechanicus_culture
+	}
+	trigger = {
+	}
+
+	allow_normal_conversion = yes
+	modifiers = {
+
+	}
+}
+
+forge_fortresses_reform = {
+	icon = "forge_fortress"
+	potential = {
+    		primary_culture = mechanicus_culture
+	}
+	trigger = {
+	}
+
+	allow_normal_conversion = yes
+	modifiers = {
+		fort_maintenance_modifier = -0.10
+		defensiveness = 0.10
+	}
+}
+
+centurio_ordinatus_reform = {
+	icon = "centurio_ordinatus"
+	potential = {
+    		primary_culture = mechanicus_culture
+	}
+	trigger = {
+	}
+
+	allow_normal_conversion = yes
+	modifiers = {
+		artillery_cost = -0.05
+		artillery_power = 0.1
+		technology_cost = -0.05
+	}
+}
+
+ordo_reductus_reform = {
+	icon = "ordo_reductus"
+	potential = {
+    		primary_culture = mechanicus_culture
+	}
+	trigger = {
+	}
+
+	allow_normal_conversion = yes
+	modifiers = {
+		artillery_cost = -0.1
+		artillery_barrage_cost = -0.25
+	}
+}
+
+knight_allies_reform = {				
+	icon = "admech_knights"
+	potential = {
+    		primary_culture = mechanicus_culture
+	}
+	trigger = {
+	}
+
+	allow_normal_conversion = yes
+	modifiers = {
+		infantry_power = 0.1			
+	}
+}
+
+#collegia_titanica_reform = {				#only for worlds with titan legions
+#	icon = "collegia_titanica"
+#	potential = {
+#    		primary_culture = mechanicus_culture
+#	}
+#	trigger = {
+#	}
+#
+#	allow_normal_conversion = yes
+#	modifiers = {
+#		infantry_power = 0.15
+#	}
+#}			
+
+legio_cybernetica_reform = {				#intentionally bad
+	icon = "legio_cybernetica"
+	potential = {
+    		primary_culture = mechanicus_culture
+	}
+	trigger = {
+	}
+
+	allow_normal_conversion = yes
+	modifiers = {
+		fire_damage = 0.05
+		global_regiment_cost = 0.10
+	}
+}
+
+restored_legio_cybernetica_reform = {			#mission reward - to do
+	icon = "legio_cybernetica_new"
+	potential = {
+    		primary_culture = mechanicus_culture
+	}
+	trigger = {
+	}
+
+	allow_normal_conversion = yes
+	modifiers = {
+		fire_damage = 0.1
+	}
+}		
+
+expedition_fleets_reform = {
+	icon = "admech_navy"
+	potential = {
+    		primary_culture = mechanicus_culture
+	}
+	trigger = {
+	}
+
+	allow_normal_conversion = yes
+	modifiers = {
+		global_sailors_modifier = 0.2
+		global_naval_barrage_cost = -0.5
+	}
+}
+
+patrole_fleets_reform = {
+	icon = "admech_navy"
+	potential = {
+    		primary_culture = mechanicus_culture
+	}
+	trigger = {
+	}
+
+	allow_normal_conversion = yes
+	modifiers = {
+		naval_morale = 0.1
+		global_ship_cost = -0.1
+		navy_tradition_decay = -0.01
+	}
+}
+
+abominable_intelligence_reform	 = {				#heretek exclusive
+	icon = "cybernetica_ai"
+	potential = {
+    		primary_culture = mechanicus_culture
+		primary_culture = dark_mechanicum_culture
+	}
+	trigger = {	
+		#primary_culture = dark_mechanicum_culture	#add OR for loyalist turned heretek
+	}
+
+	allow_normal_conversion = yes
+	modifiers = {
+		fire_damage = 0.1
+		shock_damage = 0.1
+	}
+}		
+
+
+
+#Secularization 6
+
+empower_the_fabricator_general_reform = {
+	icon = "empower_fabricator_general"
+	potential = {
+    		primary_culture = mechanicus_culture
+	}
+	trigger = {
+	}
+
+	allow_normal_conversion = yes
+	modifiers = {
+		yearly_absolutism = 0.1
+		max_absolutism = 10
+	}
+}
+
+grant_power_to_the_orders_reform = {
+	icon = "a_council_of_equals"
+	potential = {
+    		primary_culture = mechanicus_culture
+	}
+	trigger = {
+	}
+
+	allow_normal_conversion = yes
+	modifiers = {
+		all_estate_influence_modifier = -0.05
+		all_estate_loyalty_equilibrium = 0.05
+		all_estate_possible_privileges = 1
+	}
+}
+
+mindslaves_reform = {						#mindcontrol fellow techpriests
+	icon = "mindslave"
+	potential = {
+    		primary_culture = mechanicus_culture
+	}
+	trigger = {
+	}
+
+	allow_normal_conversion = yes
+	modifiers = {
+		diplomatic_reputation = -2
+		global_unrest = -2
+		governing_capacity_modifier = 0.25
+	}
+}
+
+magos_militarum_reform = {
+	icon = "magos_militarum"
+	potential = {
+    		primary_culture = mechanicus_culture
+	}
+	trigger = {
+	}
+	allow_normal_conversion = yes
+
+	rulers_can_be_generals = yes
+
+	modifiers = {
+		manpower_in_true_faith_provinces = 0.10
+		leader_land_fire = 1
+	}
+}
+
+
+
+#Clercy in Administration 7
+
+administratum_allies_reform = {
+	icon = "administratum_allies"
+	potential = {
+    		primary_culture = mechanicus_culture
+	}
+	trigger = {
+	}
+
+	allow_normal_conversion = yes
+	modifiers = {
+		stability_cost_modifier = -0.1
+		culture_conversion_cost = -0.15
+		yearly_corruption = -0.05
+	}
+}
+
+expand_the_lower_ranks_reform = {			
+	icon = "expand_lower_ranks"
+	potential = {
+    		primary_culture = mechanicus_culture
+	}
+	trigger = {
+	}
+
+	allow_normal_conversion = yes
+	modifiers = {
+		production_efficiency = 0.1
+		years_of_nationalism = -5
+	}
+}			
+
+rogue_trader_houses_reform = {
+	icon = "rogue_trader_houses"
+	potential = {
+    		primary_culture = mechanicus_culture
+	}
+	trigger = {
+	}
+
+	allow_normal_conversion = yes
+	modifiers = {
+		global_trade_power = 0.05
+		placed_merchant_power = 5
+		burghers_influence_modifier = 0.1
+		burghers_loyalty_modifier = 0.05
+	}
+}
+
+allied_knight_houses_reform = {
+	icon = "admech_knights"
+	potential = {
+    		primary_culture = mechanicus_culture
+	}
+	trigger = {
+	}
+
+	allow_normal_conversion = yes
+	modifiers = {
+		infantry_power = 0.05
+		army_tradition = 0.25
+		nobles_influence_modifier = 0.1
+		nobles_loyalty_modifier = 0.05
+	}
+}
+
+
+
+#Economic Matters 8
+
+expand_the_forges_reform = {
+	icon = "manufactorum"
+	potential = {
+    		primary_culture = mechanicus_culture
+	}
+	trigger = {
+	}
+
+	allow_normal_conversion = yes
+	modifiers = {
+		development_cost = -0.05
+		expand_infrastructure_cost_modifier = -0.25
+	}
+}
+
+new_production_quotas_reform = {
+	icon = "new_quotas"
+	potential = {
+    		primary_culture = mechanicus_culture
+	}
+	trigger = {
+	}
+
+	allow_normal_conversion = yes
+
+	modifiers = {
+		church_influence_modifier = 0.05
+	}
+	effect = {
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_tax_building_trigger = yes
+				}
+				add_province_modifier = {
+					name = gov_new_production_quotas_mod
+					duration = -1
+				}
+			}
+		}
+	}
+	post_removed_effect = {
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = gov_new_production_quotas_mod
+				}
+				remove_province_modifier = gov_new_production_quotas_mod
+			}
+		}
+	}
+	custom_attributes = {
+		temples_modifier = yes
+	}
+}
+
+focus_on_exports_reform = {
+	icon = "rogue_trader_houses"
+	potential = {
+    		primary_culture = mechanicus_culture
+	}
+	trigger = {						#maybe trade ideas?
+	}
+
+	allow_normal_conversion = yes
+	modifiers = {
+		trade_steering = 0.1
+		merchants = 1
+	}
+}
+
+expand_mining_reform = {
+	icon = "deep_core_mining"
+	potential = {
+    		primary_culture = mechanicus_culture
+	}
+	trigger = {
+	}
+
+	allow_normal_conversion = yes
+	modifiers = {
+		global_trade_goods_size_modifier = 0.05
+		development_cost = -0.05
+	}
+}
+
+asteroid_mining_reform = {
+	icon = "asteroid_mining"
+	potential = {
+    		primary_culture = mechanicus_culture
+	}
+	trigger = {	
+		num_of_ports = 1
+		OR = {
+			full_idea_group = maritime_ideas
+			full_idea_group = naval_ideas	
+		}				
+	}
+
+	allow_normal_conversion = yes
+	modifiers = {
+		global_trade_goods_size_modifier = 0.15
+		development_cost = -0.05
+	}
+}
+
+increased_consumer_goods_reform = {
+	icon = "consumer_goods"
+	potential = {
+    		primary_culture = mechanicus_culture
+	}
+	trigger = {
+	}
+
+	allow_normal_conversion = yes
+	modifiers = {
+		global_tax_modifier = 0.2
+		global_unrest = -1
+	}
+}
+
+
+
+#Divine Cause 9
+
+protect_the_forge_temples_reform = {
+	icon = "protect_forges"
+	potential = {
+    		primary_culture = mechanicus_culture
+	}
+	trigger = {
+	}
+
+	allow_normal_conversion = yes
+	modifiers = {
+		defensiveness = 0.10
+		church_loyalty_modifier = 0.1
+	}
+}
+
+the_quest_for_knowledge_reform = {
+	icon = "quest_for_knowledge"
+	potential = {
+    		primary_culture = mechanicus_culture
+	}
+	trigger = {
+	}
+
+	allow_normal_conversion = yes
+	modifiers = {
+		missionary_strength = 0.01
+		development_cost = -0.05
+		institution_spread_from_true_faith = 0.25
+	}
+}
+
+strike_against_the_hereteks_reform = {
+	icon = "strike_against_hereteks"
+	potential = {
+    		primary_culture = mechanicus_culture
+	}
+	trigger = {
+	}
+
+	allow_normal_conversion = yes
+	modifiers = {
+		missionary_strength = 0.02
+		land_morale = 0.10
+	}
+}
+
+the_first_forgeworld_reform = {					#mars exclusive
+	icon = "admech_mars"
+	potential = {
+    		primary_culture = mechanicus_culture
+		tag = XXB
+	}
+	trigger = {
+	}
+
+	allow_normal_conversion = yes
+	modifiers = {
+		max_absolutism = 10
+		missionary_strength = 0.02
+		culture_conversion_cost = -0.25
+	}
+}			
+
+learn_from_the_xenos_reform = {					#stygies exclusive
+	icon = "mechanicus_scaevola"
+	potential = {
+    		primary_culture = mechanicus_culture
+		tag = XOB
+	}
+	trigger = {
+	}
+
+	allow_normal_conversion = yes
+	modifiers = {
+		development_cost = -0.1
+		burgher_loyalty_modifier = 0.1		
+		fire_damage = 0.10
+	}
+}			
+
+
+
+#Separation of Powers 10
+
+ally_of_the_throne_reform = {
+	icon = "ally_to_the_throne"
+	potential = {
+    		primary_culture = mechanicus_culture
+	}
+	trigger = {
+	}
+
+	allow_normal_conversion = yes
+	modifiers = {
+		diplomatic_upkeep = 1
+		envoy_travel_time = -0.5
+		naval_morale = 0.1
+	}
+}
+
+mars_and_terra_reform = {						#as in "Mars first" or "AdMech first"
+	icon = "admech_mars"
+	potential = {
+    		primary_culture = mechanicus_culture
+	}
+	trigger = {
+	}
+
+	allow_normal_conversion = yes
+	modifiers = {
+		max_absolutism = 15
+	}
+}
+
+a_mechanized_crusade_reform = {
+	icon = "mechanized_crusade"
+	potential = {
+    		primary_culture = mechanicus_culture
+	}
+	trigger = {
+	}
+
+	allow_normal_conversion = yes
+	modifiers = {
+		leader_land_fire = 1
+		discipline = 0.05
+	}
+}
+
+
+
+#The Nature of Our Faith 11
+
+the_certainty_of_steel_reform = {
+	icon = "certainty_of_steel"
+	potential = {
+    		primary_culture = mechanicus_culture
+	}
+	trigger = {
+	}
+
+	allow_normal_conversion = yes
+	modifiers = {
+		morale_damage_received = -0.1
+		shock_damage_received = -0.1
+	}
+	custom_attributes = {
+		winning_battles_increases_legitimacy = yes
+	}
+	rulers_can_be_generals = yes
+}
+
+revered_machine_spirits_reform = {
+	icon = "omnissiahs_will"
+	potential = {
+    		primary_culture = mechanicus_culture
+	}
+	trigger = {
+	}
+
+	allow_normal_conversion = yes
+	modifiers = {
+		free_policy = 1
+	}
+}
+
+
+omnissiahs_will_reform = {
+	icon = "omnissiahs_will"
+	potential = {
+    		primary_culture = mechanicus_culture
+	}
+	trigger = {
+	}
+
+	allow_normal_conversion = yes
+	modifiers = {
+		missionaries = 1
+		tolerance_own = 2
+	}
+}
+
+
+#Culture, Faith and State 12
+
+one_magos_above_all_reform = {
+	icon = "empower_fabricator_general"
+	potential = {
+    		primary_culture = mechanicus_culture
+	}
+	trigger = {
+	}
+
+	allow_normal_conversion = yes
+	modifiers = {
+		governing_capacity = 250
+	}
+}
+
+a_council_of_equals_reform = {
+	icon = "a_council_of_equals"
+	potential = {
+    		primary_culture = mechanicus_culture
+	}
+	trigger = {
+	}
+
+	allow_normal_conversion = yes
+	modifiers = {
+		same_culture_advisor_cost = -0.5
+	}
+}
+
+empowered_electropriests_reform = {
+	icon = "empowered_electropriests"
+	potential = {
+    		primary_culture = mechanicus_culture
+	}
+	trigger = {
+	}
+
+	allow_normal_conversion = yes
+	modifiers = {
+		movement_speed = 0.10
+		unrest = -1
+	}
+}
+
+
+
+#Global Religion 13
+
+united_forge_worlds_reform = {					#Adeptus Mechanicus is reunified
+	icon = "admech_mars"
+	potential = {
+    		primary_culture = mechanicus_culture
+	}
+	trigger = {
+	}
+
+	allow_normal_conversion = yes
+	modifiers = {
+		warscore_cost_vs_other_religion = -0.3
+	}
+}
+
+our_empire_reform = {						#Forge world becomes "independent" of Mars
+	icon = "our_empire"
+	potential = {
+    		primary_culture = mechanicus_culture
+		NOT = {
+			tag = XXB
+		}
+	}
+	trigger = {
+	}
+
+	allow_normal_conversion = yes
+	modifiers = {
+		administrative_efficiency = 0.025
+		diplomatic_reputation = 1
+	}
+}
+
+all_is_steel_reform = {						#going all in on cybernetics
+	icon = "void_dragon"
+	potential = {
+    		primary_culture = mechanicus_culture
+	}
+	trigger = {						#to do; probably number of blackstone
+	}
+
+	allow_normal_conversion = yes
+	modifiers = {
+		infantry_power = 0.10
+		artillery_power = 0.10
+	}
+}
+
+stcs_recovered_reform = {					#Adeptus Mechanicus is reunified
+	icon = "stcs_recovered"
+	potential = {
+    		primary_culture = mechanicus_culture
+	}
+	trigger = {
+	}
+
+	allow_normal_conversion = yes
+	modifiers = {
+		development_cost_modifier = -0.05
+		global_trade_goods_size_modifier = 0.1
+	}
+}
