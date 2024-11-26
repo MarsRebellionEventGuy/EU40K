@@ -1985,7 +1985,7 @@ XGG_ideas = {
 	}
 	XGG_ideas_6 = {
 		improve_relation_modifier = 0.20
-		improve_relation_modifier = 1
+		improve_relation_modifier = 0.10
 	}
 	XGG_ideas_7 = {
 		free_land_leader_pool = 3
@@ -2029,5 +2029,45 @@ XLV_ideas = {
 	XLV_ideas_7 = {
 		land_forcelimit_modifier = 0.25
 	}
+
 }
+XNB_ideas = {
+	start = {
+		has_banners = yes
+		may_perform_slave_raid_on_same_religion = yes
+		sailors_recovery_speed = 0.15
+	}
+	
+	bonus = {
+		ship_durability= 0.1
+	}	
+
+	trigger = {
+		tag = XNB
+	}
+	free = yes
+	
+	XNB_ideas_1 = {
+		galley_power = 0.25
+	}
+	XNB_ideas_2 = {
+		trade_efficiency = 0.15
+	}
+	XNB_ideas_3 = {
+		loot_amount = 0.33
+	}
+	XNB_ideas_4 = {
+		naval_morale = 0.20
+	}
+	XNB_ideas_5 = {
+		regiment_disembark_speed = 0.50
+	}
+	XNB_ideas_6 = {
+		leader_naval_manuever = 2
+	}
+	XNB_ideas_7 = {
+		war_exhaustion_cost = -0.33
+	}
+}
+
 
