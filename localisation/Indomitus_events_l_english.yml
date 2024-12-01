@@ -52,7 +52,7 @@ genestealer_events.2.b:0 "Our loyalties were misplaced. We must fight back."
 
 indomitus_general.8.t:0 "Manufactoria Secured"
 indomitus_general.8.d:0 "With the pacification of $PROVINCE$ complete, its forge complexes have been brought under Imperial control. The tech-priests of Mars feel entitled to the world, requesting that it be transferred under the jurisdiction of the Adeptus Mechanicus."
-indomitus_general.4.a:0 "This world is a unique case. The Administratum shall retain it."
-indomitus_general.4.b:0 "Production is best left to Mars."
+indomitus_general.8.a:0 "This world is a unique case. The Administratum shall retain it."
+indomitus_general.8.b:0 "Production is best left to Mars."
 
 
