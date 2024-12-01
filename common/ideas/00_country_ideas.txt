@@ -1552,6 +1552,7 @@ Chaos_Astartes_ideas = {
 		NOT = {
 			OR = {
 		tag = XKO
+		tag = XNB
 		tag = XLN
 		tag = XKQ
 		tag = XKR
