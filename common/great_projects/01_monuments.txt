@@ -542,7 +542,7 @@ solemnace = {
 
 arx_angelicum = {
 	# province it starts in
-	start = 1693
+	start = 3252
 	
 	# date built in real life (so anything built during game time will be there if you start a game after that date)
 	date = 1999.01.01
