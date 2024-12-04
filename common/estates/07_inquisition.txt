@@ -28,7 +28,7 @@ estate_inquisition = {
 	}
 
 	# Influence modifiers
-	base_influence = 10
+	base_influence = 20
 	
 	influence_modifier = {
 		desc = EST_VAL_LOW_MANDATE

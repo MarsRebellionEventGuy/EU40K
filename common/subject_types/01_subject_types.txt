@@ -125,6 +125,7 @@ integrated_forgeworld = {
 	}
 	modifier_overlord = {
 		modifier = integrated_forgeworld_overlord_modifier
+	}
 }
 
 
@@ -257,4 +258,5 @@ integrated_major_forgeworld = {
 	}
 	modifier_overlord = {
 		modifier = integrated_major_forgeworld_overlord_modifier
+	}
 }

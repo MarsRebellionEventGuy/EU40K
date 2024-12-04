@@ -41,3 +41,23 @@ cb_take_great_kabal = {
 
 	war_goal = take_great_kabal
 }
+cb_unify_humanity = {
+	valid_for_subject = no
+
+	prerequisites_self = {
+		culture_group = imperial_culture_group
+		is_emperor_of_china = yes
+	}
+
+	prerequisites = {
+		NOT = {
+			border_distance = {
+				who = FROM
+				distance = 65
+			}
+		}
+		culture_group = imperial_culture_group
+	}
+
+	war_goal = warhammer_establish_nominal_world
+}

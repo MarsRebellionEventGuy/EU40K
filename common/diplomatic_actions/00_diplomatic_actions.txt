@@ -93,10 +93,10 @@ spy_network = {
 	condition = {
 		tooltip = TYRANID_CANNOT_USE_DIPLOMACY
 		potential = {
-			culture_group = tyranid_culture_group
+			primary_culture = tyranid_culture
 		}
 		allow = {
-			NOT = { culture_group = tyranid_culture_group }
+			NOT = { primary_culture = tyranid_culture }
 		}
 	}
 }
@@ -105,10 +105,10 @@ improve_relation = {
 	condition = {
 		tooltip = TYRANID_CANNOT_USE_DIPLOMACY
 		potential = {
-			culture_group = tyranid_culture_group
+			primary_culture = tyranid_culture
 		}
 		allow = {
-			NOT = { culture_group = tyranid_culture_group }
+			NOT = { primary_culture = tyranid_culture }
 		}
 	}
 }
@@ -117,10 +117,10 @@ tributary_state_action = {
 	condition = {
 		tooltip = TYRANID_CANNOT_USE_DIPLOMACY
 		potential = {
-			culture_group = tyranid_culture_group
+			primary_culture = tyranid_culture
 		}
 		allow = {
-			NOT = { culture_group = tyranid_culture_group }
+			NOT = { primary_culture = tyranid_culture }
 		}
 	}
 }
@@ -129,10 +129,10 @@ offerloan = {
 	condition = {
 		tooltip = TYRANID_CANNOT_USE_DIPLOMACY
 		potential = {
-			culture_group = tyranid_culture_group
+			primary_culture = tyranid_culture
 		}
 		allow = {
-			NOT = { culture_group = tyranid_culture_group }
+			NOT = { primary_culture = tyranid_culture }
 		}
 	}
 }
@@ -141,10 +141,10 @@ milaccess = {
 	condition = {
 		tooltip = TYRANID_CANNOT_USE_DIPLOMACY
 		potential = {
-			culture_group = tyranid_culture_group
+			primary_culture = tyranid_culture
 		}
 		allow = {
-			NOT = { culture_group = tyranid_culture_group }
+			NOT = { primary_culture = tyranid_culture }
 		}
 	}
 }
@@ -153,10 +153,10 @@ fleet_access = {
 	condition = {
 		tooltip = TYRANID_CANNOT_USE_DIPLOMACY
 		potential = {
-			culture_group = tyranid_culture_group
+			primary_culture = tyranid_culture
 		}
 		allow = {
-			NOT = { culture_group = tyranid_culture_group }
+			NOT = { primary_culture = tyranid_culture }
 		}
 	}
 }
@@ -313,10 +313,10 @@ allianceaction = {
 	condition = {
 		tooltip = TYRANID_CANNOT_USE_DIPLOMACY
 		potential = {
-			culture_group = tyranid_culture_group
+			primary_culture = tyranid_culture
 		}
 		allow = {
-			NOT = { culture_group = tyranid_culture_group }
+			NOT = { primary_culture = tyranid_culture }
 		}
 	}
 	condition = {
@@ -486,10 +486,10 @@ guaranteeaction = {
 	condition = {
 		tooltip = TYRANID_CANNOT_USE_DIPLOMACY
 		potential = {
-			culture_group = tyranid_culture_group
+			primary_culture = tyranid_culture
 		}
 		allow = {
-			NOT = { culture_group = tyranid_culture_group }
+			NOT = { primary_culture = tyranid_culture }
 		}
 	}
 	effect = {
@@ -500,10 +500,10 @@ threaten_war = {
 	condition = {
 		tooltip = TYRANID_CANNOT_USE_DIPLOMACY
 		potential = {
-			culture_group = tyranid_culture_group
+			primary_culture = tyranid_culture
 		}
 		allow = {
-			NOT = { culture_group = tyranid_culture_group }
+			NOT = { primary_culture = tyranid_culture }
 		}
 	}
 	effect = {
@@ -514,10 +514,10 @@ insultaction = {
 	condition = {
 		tooltip = TYRANID_CANNOT_USE_DIPLOMACY
 		potential = {
-			culture_group = tyranid_culture_group
+			primary_culture = tyranid_culture
 		}
 		allow = {
-			NOT = { culture_group = tyranid_culture_group }
+			NOT = { primary_culture = tyranid_culture }
 		}
 	}
 	effect = {
@@ -528,10 +528,10 @@ giftaction = {
 	condition = {
 		tooltip = TYRANID_CANNOT_USE_DIPLOMACY
 		potential = {
-			culture_group = tyranid_culture_group
+			primary_culture = tyranid_culture
 		}
 		allow = {
-			NOT = { culture_group = tyranid_culture_group }
+			NOT = { primary_culture = tyranid_culture }
 		}
 	}
 	effect = {
@@ -810,10 +810,10 @@ form_coalition = {
 	condition = {
 		tooltip = TYRANID_CANNOT_USE_DIPLOMACY
 		potential = {
-			culture_group = tyranid_culture_group
+			primary_culture = tyranid_culture
 		}
 		allow = {
-			NOT = { culture_group = tyranid_culture_group }
+			NOT = { primary_culture = tyranid_culture }
 		}
 	}
 }

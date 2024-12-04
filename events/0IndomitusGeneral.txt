@@ -233,6 +233,7 @@ province_event = {
 		province_group = forge_world_group
 		is_core = XXA
 		NOT = { has_province_flag = XXA_Forge_World_Decision }
+		NOT = { province_id = 3335 }
 	}
 	
 	option = {

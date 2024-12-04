@@ -4,7 +4,7 @@ estate_adeptus_mechanicus = {
 	# If true, country will get estate
 	trigger = {
 		always = no
-		tag = XXA
+		is_emperor_of_china = yes
 	}
 
 	# These scale with loyalty & power
@@ -24,40 +24,12 @@ estate_adeptus_mechanicus = {
 
 	# Influence modifiers
 	base_influence = 10
-	influence_modifier = {	
-		desc = EST_SPACE_MARINES_FACTION_DOMINANCE
-		trigger = {
-			faction_in_power = space_marines_faction
-		}
-		influence = 20
-	}
-	influence_modifier = {	
-		desc = EST_SPACE_MARINES_FACTION_POWER
-		trigger = {
-			faction_influence = {
-				faction = space_marines_faction
-				influence = 25
-			}
-		}
-		influence = 10
-	}
-	influence_modifier = {	
-		desc = EST_SPACE_MARINES_FACTION_WEAK
-		trigger = {
-			NOT = {
-				faction_influence = {
-					faction = space_marines_faction
-					influence = 25
-				}
-			}
-		}
-		influence = -10
-	}
+
 	influence_modifier = {
 		desc = EST_VAL_OTHER_ESTATE_IN_POWER
 		trigger = {
 			has_any_estate_disaster_active = yes
-			has_not_own_estate_disaster_active = { estate = estate_astartes }
+			has_not_own_estate_disaster_active = { estate = estate_adeptus_mechanicus }
 		}	
 		influence = -40
 	}
@@ -66,7 +38,7 @@ estate_adeptus_mechanicus = {
 		desc = EST_VAL_OTHER_ESTATE_IN_POWER_LOY
 		trigger = {
 			has_any_estate_disaster_active = yes
-			has_not_own_estate_disaster_active = { estate = estate_astartes }
+			has_not_own_estate_disaster_active = { estate = estate_adeptus_mechanicus }
 		}
 		loyalty = -20
 	}
@@ -74,17 +46,7 @@ estate_adeptus_mechanicus = {
 	color = { 35 35 150 }
 
 	privileges = {
-		estate_astartes_expand_primaris_production
-		estate_astartes_prioritize_firstborn
-		estate_astartes_enforce_codex_astartes
-		estate_astartes_laxen_codex_astartes
-		estate_astartes_expand_geneseed_tithes
-		estate_astartes_found_new_chapters
-		estate_astartes_mobilize_custodes
-		estate_astartes_mobilize_grey_knights
-		estate_astartes_order_penitent_crusades
-		estate_astartes_settle_fleet_chapters
-		estate_astartes_expand_deathwatch_recruitment
+		
 	}
 
 	agendas = {
