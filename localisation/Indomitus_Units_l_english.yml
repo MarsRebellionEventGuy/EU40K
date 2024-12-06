@@ -318,12 +318,8 @@
  SteelLegionnaireDESCR:0 "Steel Legionnaires hail from the industrial hive world of Armageddon, embodying the grit and resilience forged in a land scarred by perpetual war. These disciplined soldiers are renowned for their expertise in mechanized warfare, deploying alongside armored columns to deliver swift, crushing blows to the enemy. Outfitted with iconic rebreathers to endure Armageddon’s harsh, polluted atmosphere, Steel Legionnaires demonstrate unmatched discipline and versatility in combat. Their steadfast courage and expertise in mechanized warfare embody the Imperium’s unwavering commitment to triumph in the face of adversity."
  TempestusScion:0 "Tempestus Scion"
  TempestusScionDESCR:0 "Tempestus Scions, often referred to as Storm Troopers, represent the elite forces of the Astra Militarum, handpicked for their discipline, unwavering loyalty, and exceptional combat skills. These soldiers undergo rigorous training at the Schola Progenium, shaping them into the Imperium’s most precise and dedicated warriors. Equipped in advanced carapace armor and armed with potent hot-shot lasguns or specialized weaponry, Tempestus Scions excel in high-risk missions, including deep strikes, assassinations, and sabotage. Their battlefield role often involves striking at critical enemy assets, where their precision and tactical acumen make the difference between victory and defeat. Operating independently or alongside other Imperial forces, Scions are the Imperium’s scalpel to the Astra Militarum’s hammer, a symbol of human tenacity and the Emperor's indomitable will."
-
  InfernoPistoleer:0 "Inferno Pistoleer"
- InfernoPistoleerDESCR:0 ""
-
-
-
+ InfernoPistoleerDESCR:0 "The Inferno Pistoleer is a deadly specialist armed with inferno pistols, short-range weapons that deliver devastating heat blasts capable of melting through the thickest armor and reducing foes to ash. These pistols, essentially miniaturized melta weapons, are favored for assassination missions or elite engagements where precision and overwhelming firepower are essential.Inferno pistoleers excel in close-quarters combat, leveraging their weapons' destructive potential to eliminate high-value targets and create openings in fortified positions."
 
  WarlordBattleTitan:0 "Warlord-Class Titan"
  WarlordBattleTitanDESCR:0 ""
