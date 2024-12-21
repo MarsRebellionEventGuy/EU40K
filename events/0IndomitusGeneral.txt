@@ -107,7 +107,6 @@ country_event = { #Inquisition
 			duration = 3650
 			desc = ardentites_tooltip
 		}
-	}
 
 	}
 	option = {

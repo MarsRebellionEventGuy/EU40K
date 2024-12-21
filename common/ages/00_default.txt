@@ -44,8 +44,8 @@ age_of_discovery = {
 		}
 		
 		obj_many_vassals = { #Subjugate the Weakened
-			vassal = 3
-			OR = {
+		OR = {	
+			    vassal = 3
 				tributary_state = 30
 			}
 		}		
