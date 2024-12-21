@@ -107,5 +107,22 @@ spriteTypes = {
 		name = "GFX_great_project_convent_sanctorum"    
 		texturefile = "gfx//interface//great_project_convent_sanctorum.dds"
     }
+	
+	spriteType = {
+		name = "GFX_great_project_terra_webway_portal"    
+		texturefile = "gfx//interface//great_project_webway_gate.dds"
+    }
+	spriteType = {
+		name = "GFX_great_project_iybraesil_webway_portal"    
+		texturefile = "gfx//interface//great_project_webway_gate.dds"
+    }
+	spriteType = {
+		name = "GFX_great_project_kaelor_webway_portal"    
+		texturefile = "gfx//interface//great_project_webway_gate.dds"
+    }
+	spriteType = {
+		name = "GFX_great_project_yme_loc_webway_portal"    
+		texturefile = "gfx//interface//great_project_webway_gate.dds"
+    }
 }
 

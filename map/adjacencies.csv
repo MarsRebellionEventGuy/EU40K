@@ -7,6 +7,10 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 2050;3452;canal;3470;-1;-1;-1;-1;caradryad_portal
 2911;3454;canal;3548;-1;-1;-1;-1;corribra_portal
 2667;3456;canal;3549;-1;-1;-1;-1;grendl_stars_portal
+1089;3691;canal;1089;-1;-1;-1;-1;iybraesil_webway_portal
+1108;3692;canal;1108;-1;-1;-1;-1;kaelor_webway_portal
+1100;3668;canal;1100;-1;-1;-1;-1;yme_loc_webway_portal
+1;3679;canal;1;-1;-1;-1;-1;terra_webway_portal
 217;592;sea;572;-1;-1;-1;-1;
 3769;3758;sea;591;-1;-1;-1;-1;
 -1;-1;;-1;-1;-1;-1;-1;-1
