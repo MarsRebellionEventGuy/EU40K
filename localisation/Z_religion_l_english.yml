@@ -114,6 +114,12 @@
  imperial_cult_adeptus_terra_astra_telepathica_aspect: "Adeptus Astra Telepathica"
  desc_imperial_cult_adeptus_terra_astra_telepathica_aspect: "The Adeptus Administratum is a division of the Adeptus Terra responsible for the recruitment and training of psykers. Their use of Astropathic Choirs enable the Imperium to communicate across large distances."
 
+ imperial_cult_adeptus_terra_adeptus_astronomica_aspect: "Adeptus Astronomica"
+ desc_imperial_cult_adeptus_terra_adeptus_astronomica_aspect: "The Adeptus Astronomica is a division of the Adeptus Terra responsible for maintaining the Astronomican, the beacon powered by the Emperor himself with the aid of 10.000 psykers. These psykers offer the ultimate sacrifice in the overwhelming task demanded by the Emperor, thousands dying every day to keep the Imperium together, as the Astronomican allows the navigators to traverse imperial warships across the Warp."
+
+ imperial_cult_adeptus_terra_adeptus_custodes_aspect: "Adeptus Custodes"
+ desc_imperial_cult_adeptus_terra_adeptus_custodes_aspect: "The Adeptus Custodes are the Emperor of Mankind’s personal bodyguards and represent the most elite warriors in the entire Imperium. Forged from handcrafted genetic modifications even more advanced than those of the Space Marines, each one of them act as a living exemplar of the Emperor’s vision for humanity's potential. Their golden auramite armor stands as the best defensive asset in existence."
+
  imperial_cult_inquisition_ordo_hereticus_aspect: "Ordo Hereticus"
  desc_imperial_cult_inquisition_ordo_hereticus_aspect: "The Ordo Hereticus is an order of the Inquisition responsible for hunting down traitors, mutants, and heretics. Its vast jurisdiction and mission have allowed it to become the largest faction of the Inquitision."
 
@@ -123,6 +129,12 @@
  imperial_cult_inquisition_ordo_xenos_aspect: "Ordo Xenos"
  desc_imperial_cult_inquisition_ordo_xenos_aspect: "The Ordo Xenos is an order of the Inquisition responsible for monitoring and exterminating alien species. The scope of their mission has gradually expanded to include members of the Imperium that deal with xenos or protect them from persecution."
 
+ imperial_cult_inquisition_ordo_sicarius_aspect: "Ordo Sicarius"
+ desc_imperial_cult_inquisition_ordo_sicarius_aspect: "The Ordo Sicarius is a minor order of the Inquisition tasked with overseeing the Officio Assasinorum, ensuring its operations remain aligned with Imperial law and doctrine. Their functions include monitoring the deployment of assassins, preventing misuse or corruption of their skillset and tracking down rogue assassins at large."
+
+ imperial_cult_inquisition_ordo_sepulturum_aspect: "Ordo Sepulturum"
+ desc_imperial_cult_inquisition_ordo_sepulturum_aspect: "The Ordo Sepulturum is a recently founded minor order of the Inquisition entrusted to study and combat the rising threat posed by the undead scourge of Nurgle afflictions like Zombie Plague or the Walking Pox. "
+
  imperial_cult_ecclesiarchy_creed_temporal_aspect: "Creed Temporal"
  desc_imperial_cult_ecclesiarchy_creed_temporal_aspect: "The Creed Temporal functions as the logistical and financial branch of the Ecclesiarchy. It collects due from the faithful, builds grand cathedrals, and organizes pilgrimages."
 
@@ -131,6 +143,12 @@
 
  imperial_cult_ecclesiarchy_missionarus_galaxia_aspect: "Missionarus Galaxia"
  desc_imperial_cult_ecclesiarchy_missionarus_galaxia_aspect: "The Missionarus Galaxia functions as the proselytizing branch of the Ecclesiarchy. Their missionaries aboard the Imperium's many exploratory fleets bring the light of the Emperor to the farthest reaches of the galaxy. Learning the customs and cultures of rediscovered human civilizations, the Missionarius works to gradually syncretize local beliefs with the Imperial Cult while uprooting any potential Chaos influence."
+
+ imperial_cult_ecclesiarchy_schola_progenium_aspect: "Schola Progenium"
+ desc_imperial_cult_ecclesiarchy_schola_progenium_aspect: "The Schola Progenium, managed by Adeptus Ministorum, serves as an orphanage and training ground for the children of fallen Imperial servants. These orphans are raised with strict adherence to the Imperial Cult, instilling unyielding loyalty to the Emperor, who they soon come to regard as their spiritual father."
+
+ imperial_cult_ecclesiarchy_officio_assassinorum_aspect: "Officio Assassinorum"
+ desc_imperial_cult_ecclesiarchy_officio_assassinorum_aspect: "The Officio Assassinorum is the highly secretive agency of the Adeptus Administratum mandated to infiltrate and eliminate high value threaths to the Imperium, both external or internal. Their importance is such taht they can only be deployed on direct order from the High Lords of Terra."
 
  inquisition_thorians: "Favored the Thorians"
  inquisition_amalathians: "Favored the Thorians"

@@ -21,12 +21,18 @@ emperor_group = {
 			imperial_cult_adeptus_terra_administratum_aspect
 			imperial_cult_adeptus_terra_arbites_aspect
 			imperial_cult_adeptus_terra_astra_telepathica_aspect
+			imperial_cult_adeptus_terra_adeptus_astronomica_aspect
+			imperial_cult_adeptus_terra_adeptus_custodes_aspect
 			imperial_cult_inquisition_ordo_hereticus_aspect
 			imperial_cult_inquisition_ordo_malleus_aspect
 			imperial_cult_inquisition_ordo_xenos_aspect
+			imperial_cult_inquisition_ordo_sicarius_aspect
+			imperial_cult_inquisition_ordo_sepulturum_aspect
 			imperial_cult_ecclesiarchy_creed_temporal_aspect
 			imperial_cult_ecclesiarchy_sororitas_aspect
 			imperial_cult_ecclesiarchy_missionarus_galaxia_aspect
+			imperial_cult_ecclesiarchy_schola_progenium_aspect
+			imperial_cult_ecclesiarchy_officio_assassinorum_aspect
 		}
 
 		heretic = { CHAOSHERESY IMPERIALTRUTH XENOCULT }
@@ -42,6 +48,8 @@ emperor_group = {
 						has_church_aspect = imperial_cult_inquisition_ordo_hereticus_aspect
 						has_church_aspect = imperial_cult_inquisition_ordo_malleus_aspect
 						has_church_aspect = imperial_cult_inquisition_ordo_xenos_aspect
+						has_church_aspect = imperial_cult_inquisition_ordo_sicarius_aspect
+						has_church_aspect = imperial_cult_inquisition_ordo_sepulturum_aspect
 					}
 				}
 				custom_trigger_tooltip = {
