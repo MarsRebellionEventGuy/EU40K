@@ -44,7 +44,10 @@ age_of_discovery = {
 		}
 		
 		obj_many_vassals = { #Subjugate the Weakened
-			vassal = 5
+			vassal = 3
+			OR = {
+				tributary_state = 30
+			}
 		}		
 	
 		obj_two_continents = { #Rebuild Admiralty
