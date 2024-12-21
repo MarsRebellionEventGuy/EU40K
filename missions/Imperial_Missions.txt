@@ -308,6 +308,7 @@ Imperial_Branch_4 = {
 						has_country_modifier = inquisition_amalathians
 						has_country_modifier = inquisition_ardentites
 						has_country_modifier = inquisition_monodominants
+						has_country_modifier = inquisition_anomolians
 					}
 				}
 				custom_trigger_tooltip = {
@@ -317,6 +318,7 @@ Imperial_Branch_4 = {
 						has_country_modifier = inquisition_recongregationists
 						has_country_modifier = inquisition_istvaanists
 						has_country_modifier = inquisition_libricaranists
+						has_country_modifier = inquisition_oblationists
 					}
 				}
 
@@ -332,6 +334,7 @@ Imperial_Branch_4 = {
 						has_country_modifier = inquisition_amalathians
 						has_country_modifier = inquisition_ardentites
 						has_country_modifier = inquisition_monodominants
+						has_country_modifier = inquisition_anomolians
 					}
 				}
 				custom_tooltip = BONUS_REWARD_YES
@@ -351,6 +354,7 @@ Imperial_Branch_4 = {
 							has_country_modifier = inquisition_amalathians
 							has_country_modifier = inquisition_ardentites
 							has_country_modifier = inquisition_monodominants
+							has_country_modifier = inquisition_anomolians
 						}
 					}
 					add_estate_loyalty = {
@@ -367,6 +371,7 @@ Imperial_Branch_4 = {
 						has_country_modifier = inquisition_recongregationists
 						has_country_modifier = inquisition_istvaanists
 						has_country_modifier = inquisition_libricaranists
+						has_country_modifier = inquisition_oblationists
 					}
 				}
 				custom_tooltip = BONUS_REWARD_YES
@@ -386,6 +391,7 @@ Imperial_Branch_4 = {
 							has_country_modifier = inquisition_recongregationists
 							has_country_modifier = inquisition_istvaanists
 							has_country_modifier = inquisition_libricaranists
+							has_country_modifier = inquisition_oblationists
 						}
 					}
 					add_country_modifier = { 

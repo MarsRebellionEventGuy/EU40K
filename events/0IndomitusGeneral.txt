@@ -109,6 +109,14 @@ country_event = { #Inquisition
 		}
 	}
 	option = {
+		name = "indomitus_general.4.k"
+		add_country_modifier = { 
+			name = inquisition_anomolians
+			duration = 3650
+			desc = anomolians_tooltip
+		}
+	}
+	option = {
 		name = "indomitus_general.4.e"
 		add_country_modifier = { 
 			name = inquisition_monodominants
@@ -148,7 +156,14 @@ country_event = { #Inquisition
 			desc = libricanists_tooltip
 		}
 	}
-
+	option = {
+		name = "indomitus_general.4.j"
+		add_country_modifier = { 
+			name = inquisition_oblationists
+			duration = 3650
+			desc = oblationists_tooltip
+		}
+	}
 }
 
 country_event = {

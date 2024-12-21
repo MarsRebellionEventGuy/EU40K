@@ -125,7 +125,7 @@ Chapter_Branch_2 = {
 			OR = {
 				has_church_aspect = imperial_cult_ecclesiarchy_creed_temporal_aspect
 				has_church_aspect = imperial_cult_ecclesiarchy_sororitas_aspect
-				imperial_cult_ecclesiarchy_missionarus_galaxia_aspect
+				has_chruch_aspect = imperial_cult_ecclesiarchy_missionarus_galaxia_aspect
 				NOT = { religion = imperial_cult }
 			}
 		}

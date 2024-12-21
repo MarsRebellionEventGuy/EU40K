@@ -114,7 +114,7 @@ imperial_cult_inquisition_ordo_sepulturum_aspect  = { #DIP aspect
 	}
 }
 
-imperial_cult_ecclesiarchy_creed_temporal_aspect = {	#MIL aspect
+imperial_cult_ecclesiarchy_creed_temporal_aspect = { #MIL aspect
 	cost = 100
 	effect = {
 	}
@@ -155,6 +155,8 @@ imperial_cult_ecclesiarchy_missionarus_galaxia_aspect = { #MIL aspect
 
 imperial_cult_ecclesiarchy_schola_progenium = { #MIL aspect
 	cost= 100
+	effect = {
+	}
 	modifier = {
 		manpower_recovery_speed = 0.10
 	}
@@ -166,6 +168,8 @@ imperial_cult_ecclesiarchy_schola_progenium = { #MIL aspect
 
 imperial_cult_ecclesiarchy_officio_assassinorum = { #MIL aspect
 	cost= 100
+	effect = {
+	}
 	modifier = {
 		global_spy_defence = 0.15
 	}
