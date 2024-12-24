@@ -164,6 +164,8 @@ country_event = { #Inquisition
 			duration = 3650
 			desc = anomolians_tooltip
 		}
+
+	}
 }
 
 country_event = {
