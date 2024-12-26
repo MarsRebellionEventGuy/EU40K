@@ -53,7 +53,7 @@ imperial_cult_adeptus_terra_adeptus_custodes_aspect = {	#ADM aspect
 	}
 }
 
-imperial_cult_inquisition_ordo_hereticus_aspect = {	#DIP aspect
+imperial_cult_inquisition_ordo_hereticus_aspect = {	#MIL aspect
 	cost = 100
 	effect = {
 	}
@@ -66,7 +66,7 @@ imperial_cult_inquisition_ordo_hereticus_aspect = {	#DIP aspect
 	}
 }
 
-imperial_cult_inquisition_ordo_malleus_aspect = {	#DIP aspect
+imperial_cult_inquisition_ordo_malleus_aspect = {	#MIL aspect
 	cost = 100
 	effect = {
 	}
@@ -79,7 +79,7 @@ imperial_cult_inquisition_ordo_malleus_aspect = {	#DIP aspect
 	}
 }
 
-imperial_cult_inquisition_ordo_xenos_aspect = {	#DIP aspect
+imperial_cult_inquisition_ordo_xenos_aspect = {	#MIL aspect
 	cost = 100
 	effect = {
 	}
@@ -92,7 +92,7 @@ imperial_cult_inquisition_ordo_xenos_aspect = {	#DIP aspect
 	}
 }
 
-imperial_cult_inquisition_ordo_sicarius_aspect  = { #DIP aspect
+imperial_cult_inquisition_ordo_sicarius_aspect  = { #MIL aspect
 	cost= 100
 	modifier = {
 		spy_offence = 0.2
@@ -103,7 +103,7 @@ imperial_cult_inquisition_ordo_sicarius_aspect  = { #DIP aspect
 	}
 }
 
-imperial_cult_inquisition_ordo_sepulturum_aspect  = { #DIP aspect
+imperial_cult_inquisition_ordo_sepulturum_aspect  = { #MIL aspect
 	cost= 100
 	modifier = {
 		shock_damage_received = -0.15
@@ -114,7 +114,7 @@ imperial_cult_inquisition_ordo_sepulturum_aspect  = { #DIP aspect
 	}
 }
 
-imperial_cult_ecclesiarchy_creed_temporal_aspect = { #MIL aspect
+imperial_cult_ecclesiarchy_creed_temporal_aspect = { #DIP aspect
 	cost = 100
 	effect = {
 	}
@@ -127,7 +127,7 @@ imperial_cult_ecclesiarchy_creed_temporal_aspect = { #MIL aspect
 	}
 }
 
-imperial_cult_ecclesiarchy_sororitas_aspect = {	#MIL aspect
+imperial_cult_ecclesiarchy_sororitas_aspect = {	#DIP aspect
 	cost = 100
 	effect = {
 	}
@@ -140,7 +140,7 @@ imperial_cult_ecclesiarchy_sororitas_aspect = {	#MIL aspect
 	}
 }
 
-imperial_cult_ecclesiarchy_missionarus_galaxia_aspect = { #MIL aspect
+imperial_cult_ecclesiarchy_missionarus_galaxia_aspect = { #DIP aspect
 	cost = 100
 	effect = {
 	}
@@ -153,12 +153,12 @@ imperial_cult_ecclesiarchy_missionarus_galaxia_aspect = { #MIL aspect
 	}
 }
 
-imperial_cult_ecclesiarchy_schola_progenium = { #MIL aspect
+imperial_cult_ecclesiarchy_schola_progenium = { #DIP aspect
 	cost= 100
 	effect = {
 	}
 	modifier = {
-		manpower_recovery_speed = 0.10
+		reinforce_cost = 0.10
 	}
 	monarch_power = dip
 	ai_will_do = {
@@ -166,7 +166,7 @@ imperial_cult_ecclesiarchy_schola_progenium = { #MIL aspect
 	}
 }
 
-imperial_cult_ecclesiarchy_officio_assassinorum = { #MIL aspect
+imperial_cult_ecclesiarchy_officio_assassinorum = { #DIP aspect
 	cost= 100
 	effect = {
 	}

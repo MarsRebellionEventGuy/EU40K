@@ -73,10 +73,7 @@ inquisition_amalathians = {
 
 inquisition_ardentites = {
 	global_unrest = -2
-}
 
-inquisition_anomolians = {
-	missionaries = 1
 }
 
 inquisition_monodominants = {
