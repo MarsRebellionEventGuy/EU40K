@@ -14,42 +14,77 @@ monarchy = {
 		}
 		hereditary_vs_nobility = {
 			reforms = {
+				#preserve_highborn_privileges_reform
+				#elevate_tribal_leaders_reform
+				#distribute_warrants_of_trade_reform
 			}
 		}
 		bureaucracy = {
 			reforms = {
+				#restructure_senatorum_reform
+				#extend_primarchs_scourge_reform
+				#empower_departmenta_exacta_tithes_reform
+				#empower_munitorum_reform
 			}
 		}
 		military_doctrines = {
 			reforms = {
+				#enforce_codex_astartes_reform
+				#integrate_cadian_diaspora_reform
+				#indomitus_fleets_reform
+				#kryptman_reform
+				#solblades_reform
 			}
 		}
 		state_and_religion = {
 			reforms = {
+				#autonomy_for_ophelia_reform
+				#promote_omnissiah_reform
+				#permit_imperial_truth_reform
 			}
 		}
 		growth_of_administration = {
 			reforms = {
+				#adeptus_custodes_reform
+				#ultramarines_cadre_reform
+				#navigator_patronage_reform
+				#adeptus_arbites_reform
 			}
 		}
 		deliberative_assembly = {
 			reforms = {
+				#empower_high_lords_reform
+				#rule_by_astartes_reform
+				#empower_governors_reform
 			}
 		}
 		economical_matters = {
 			reforms = {
+				#chartist_captains_reform
+				#rogue_trader_domains_reform
+				#ultramarine_model_reform
+				#extend_tithes_reform
 			}
 		}
 		legitimation_of_power = {
 			reforms = {
+				#guilliman_authority_reform
+				#emperor_authority_reform
+				#astartes_authority_reform
 			}
 		}
 		absolute_rule_vs_constitutional = {
 			reforms = {
+				#suppress_psychic_awakening_refor
+				#support_xanthites_reform
+				#psychic_ascendancy_reform
 			}
 		}
 		separation_of_power = {
 			reforms = {
+				#golden_throne_repair_reform
+				#galactic_domination_reform
+				#imperial_webway_network_reform
 			}
 		}
 	}
@@ -171,42 +206,6 @@ tribal = {
 			reforms = {
 				ork_government_reform
 				exodite_government_reform
-				hive_fleet_reform
-			}
-		}
-		tribal_cultural_values = {
-			reforms = {
-			}
-		}
-		tribal_religion = {
-			reforms = {
-			}
-		}
-		tribal_military_doctrines = {
-			reforms = {
-			}
-		}
-		tribal_modernization = {
-			reforms = {
-			}
-		}
-		tribal_reformation = {
-			reforms = {
-			}
-		}
-	}
-}
-
-tyranid = {
-	color = { 150 45 155 }
-	basic_reform = tyranid_mechanic
-
-	legacy_government = {
-	}
-
-	reform_levels = {
-		tribal_administration = {
-			reforms = {
 				hive_fleet_reform
 			}
 		}
