@@ -381,10 +381,6 @@ XXA_Branch_3 = {
 		required_missions = {}
 		position = 1
 		
-		provinces_to_highlight = {
-			owned_by = XXA
-		}
-		
 		trigger = {
 			NOT = { advisor = irthuhaemotalion }
 			NOT = { advisor = mereldapereth }

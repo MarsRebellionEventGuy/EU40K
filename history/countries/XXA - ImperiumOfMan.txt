@@ -7,10 +7,12 @@ primary_culture = human_culture
 capital = 1
 fixed_capital = 1
 
-1970.12.12 = {
+1998.12.12 = {
 	monarch = {
 		name = "Roboute"
 		dynasty = "Guilliman"	
+		religion = "imperial_truth"
+		culture = "loyalist_astartes_culture"
 		adm = 6
 		dip = 4
 		mil = 5
