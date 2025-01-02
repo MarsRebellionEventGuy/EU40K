@@ -409,10 +409,10 @@ same_culture_group = {
 }
 
 non_accepted_culture = {
-	local_tax_modifier = -0.33
+	local_tax_modifier = -1
 	local_missionary_strength = -0.02
-	local_manpower_modifier = -0.33
-	local_sailors_modifier = -0.2
+	local_manpower_modifier = -1
+	local_sailors_modifier = -1
 	local_unrest = 2					#1% revolt risk!
 }
 
