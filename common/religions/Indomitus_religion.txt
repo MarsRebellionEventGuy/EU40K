@@ -94,6 +94,11 @@ emperor_group = {
 		province = {
 			local_missionary_strength = -0.01
 		}
+		allowed_center_conversion = {
+			imperial_cult
+			death_cult
+			promethean_cult
+		}
 		
 		date = 9999.10.31
 		

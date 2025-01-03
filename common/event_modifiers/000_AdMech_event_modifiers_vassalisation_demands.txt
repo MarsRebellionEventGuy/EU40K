@@ -28,7 +28,7 @@ admech_vassalisation_demands_s_adm_6 = {
 ###
 
 admech_vassalisation_demands_s_dip_1 = {
-	global_sailor_modifier = -0.06		#request for naval troops
+	global_sailors_modifier = -0.06		#request for naval troops
 }
 
 admech_vassalisation_demands_s_dip_2 = {
@@ -40,7 +40,7 @@ admech_vassalisation_demands_s_dip_3 = {
 }
 
 admech_vassalisation_demands_s_dip_4 = {
-	improve_relations_modifier = -0.06	#diplomats are tied down in paperwork
+	improve_relation_modifier = -0.06	#diplomats are tied down in paperwork
 }
 
 admech_vassalisation_demands_s_dip_5 = {
@@ -62,7 +62,7 @@ admech_vassalisation_demands_s_mil_2 = {
 }
 
 admech_vassalisation_demands_s_mil_3 = {
-	land_moral = -0.05			#appoint foreign techpriests as commanders
+	land_morale = -0.05			#appoint foreign techpriests as commanders
 }
 
 admech_vassalisation_demands_s_mil_4 = {
@@ -108,7 +108,7 @@ admech_vassalisation_demands_m_adm_6 = {
 ###
 
 admech_vassalisation_demands_m_dip_1 = {
-	global_sailor_modifier = -0.12		#request for naval troops
+	global_sailors_modifier = -0.12		#request for naval troops
 }
 
 admech_vassalisation_demands_m_dip_2 = {
@@ -120,7 +120,7 @@ admech_vassalisation_demands_dip_3 = {
 }
 
 admech_vassalisation_demands_m_dip_4 = {
-	improve_relations_modifier = -0.12	#diplomats are tied down in paperwork
+	improve_relation_modifier = -0.12	#diplomats are tied down in paperwork
 }
 
 admech_vassalisation_demands_m_dip_5 = {
@@ -142,7 +142,7 @@ admech_vassalisation_demands_m_mil_2 = {
 }
 
 admech_vassalisation_demands_m_mil_3 = {
-	land_moral = -0.10			#appoint foreign techpriests as commanders
+	land_morale = -0.10			#appoint foreign techpriests as commanders
 }
 
 admech_vassalisation_demands_m_mil_4 = {
@@ -189,7 +189,7 @@ admech_vassalisation_demands_l_adm_6 = {
 ###
 
 admech_vassalisation_demands_l_dip_1 = {
-	global_sailor_modifier = -0.24		#request for naval troops
+	global_sailors_modifier = -0.24		#request for naval troops
 }
 
 admech_vassalisation_demands_l_dip_2 = {
@@ -201,7 +201,7 @@ admech_vassalisation_demands_l_dip_3 = {
 }
 
 admech_vassalisation_demands_l_dip_4 = {
-	improve_relations_modifier = -0.24	#diplomats are tied down in paperwork
+	improve_relation_modifier = -0.24	#diplomats are tied down in paperwork
 }
 
 admech_vassalisation_demands_l_dip_5 = {
@@ -223,7 +223,7 @@ admech_vassalisation_demands_l_mil_2 = {
 }
 
 admech_vassalisation_demands_l_mil_3 = {
-	land_moral = -0.20			#appoint foreign techpriests as commanders
+	land_morale = -0.20			#appoint foreign techpriests as commanders
 }
 
 admech_vassalisation_demands_l_mil_4 = {

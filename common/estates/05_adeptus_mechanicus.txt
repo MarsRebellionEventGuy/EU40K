@@ -15,7 +15,7 @@ estate_adeptus_mechanicus = {
 		production_efficiency = 0.025
 	}	
 	country_modifier_angry = {
-		production_efficiency = -0.025
+		production_efficiency = -0.1
 	}
 	land_ownership_modifier = {
 		adeptus_mechanicus_loyalty_modifier = 0.2
@@ -26,7 +26,7 @@ estate_adeptus_mechanicus = {
 	}
 
 	# Influence modifiers
-	base_influence = 10
+	base_influence = 20
 
 	influence_modifier = {
 		desc = EST_VAL_OTHER_ESTATE_IN_POWER
