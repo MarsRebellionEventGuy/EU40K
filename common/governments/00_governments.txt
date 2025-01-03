@@ -1,4 +1,3 @@
-
 monarchy = {
 	reform_levels = {
 		feudalism_vs_autocracy = {
@@ -14,42 +13,77 @@ monarchy = {
 		}
 		hereditary_vs_nobility = {
 			reforms = {
+				preserve_highborn_privileges_reform
+				elevate_tribal_leaders_reform
+				distribute_warrants_of_trade_reform
 			}
 		}
 		bureaucracy = {
 			reforms = {
+				restructure_senatorum_reform
+				extend_primarchs_scourge_reform
+				empower_departmenta_exacta_tithes_reform
+				empower_munitorum_reform
 			}
 		}
 		military_doctrines = {
 			reforms = {
+				enforce_codex_astartes_reform
+				integrate_cadian_diaspora_reform
+				indomitus_fleets_reform
+				kryptman_reform
+				solblades_reform
 			}
 		}
 		state_and_religion = {
 			reforms = {
+				autonomy_for_ophelia_reform
+				promote_omnissiah_reform
+				permit_imperial_truth_reform
 			}
 		}
 		growth_of_administration = {
 			reforms = {
+				adeptus_custodes_reform
+				ultramarines_cadre_reform
+				navigator_patronage_reform
+				adeptus_arbites_reform
 			}
 		}
 		deliberative_assembly = {
 			reforms = {
+				empower_high_lords_reform
+				rule_by_astartes_reform
+				empower_governors_reform
 			}
 		}
 		economical_matters = {
 			reforms = {
+				chartist_captains_reform
+				rogue_trader_domains_reform
+				ultramarine_model_reform
+				extend_tithes_reform
 			}
 		}
 		legitimation_of_power = {
 			reforms = {
+				guilliman_authority_reform
+				emperor_authority_reform
+				astartes_authority_reform
 			}
 		}
 		absolute_rule_vs_constitutional = {
 			reforms = {
+				suppress_psychic_awakening_refor
+				support_xanthites_reform
+				psychic_ascendancy_reform
 			}
 		}
 		separation_of_power = {
 			reforms = {
+				golden_throne_repair_reform
+				galactic_domination_reform
+				imperial_webway_network_reform
 			}
 		}
 	}
@@ -207,6 +241,482 @@ tyranid = {
 	reform_levels = {
 		tribal_administration = {
 			reforms = {
+				hive_fleet_reform
+			}
+		}
+		tribal_cultural_values = {
+			reforms = {
+			}
+		}
+		tribal_religion = {
+			reforms = {
+			}
+		}
+		tribal_military_doctrines = {
+			reforms = {
+			}
+		}
+		tribal_modernization = {
+			reforms = {
+			}
+		}
+		tribal_reformation = {
+			reforms = {
+			}
+		}
+	}
+}
+
+native = {
+	basic_reform = native_basic_reform
+
+	legacy_government = {
+		native_council_legacy
+	}
+	color = { 194 127 209 }
+
+	reform_levels = {
+		tribe_organization = {
+			reforms = {
+			}
+		}
+
+		story_tradition = {
+			reforms = {
+			}
+		}
+
+		agricultural_revolution = {
+			reforms = {
+			}
+		}
+
+		legal_basis = {
+			reforms = {
+			}
+		}
+
+		national_identity = {
+			reforms = {
+			}
+		}
+	}
+}
+
+theocracy = {
+	color = { 75 170 75 }
+	basic_reform = theocracy_mechanic
+
+	legacy_government = {
+	}
+	reform_levels = {
+		theocratic_leadership = {
+			reforms = {
+				tau_reform
+				astartes_reform
+				death_watch_reform
+				heretic_astartes_reform
+				forge_world_reform
+				chaos_forge_world_reform
+				chaos_cult_reform
+				genestealer_cult_reform
+				craftworld_reform
+				xeno_government_reform
+				haemonculi_coven_reform
+				minor_forgeworld_reform
+				forgeworld_reform
+				xenarite_cult_reform
+				mars_the_red_planet_reform
+			}
+		}
+		internal_vs_external_mission = {
+			reforms = {
+				quest_for_knowledge_mysteries_reform
+				quest_for_knowledge_warnings_reform
+			}
+
+		}
+		education_of_the_state = {
+			reforms = {
+				the_smart_shall_be_priests_reform
+				the_strong_shall_be_skitarii_reform
+				the_rest_shall_be_menials_reform
+			}
+		}
+		military_doctrines = {
+			reforms = {
+				auxilia_myrmidon_reform
+				servitor_hordes_reform
+				skitarii_legions_reform
+				forge_fortresses_reform
+				centurio_ordinatus_reform
+				ordo_reductus_reform
+				knight_allies_reform
+				#collegia_titanica_reform
+				legio_cybernetica_reform
+				restored_legio_cybernetica_reform
+				expedition_fleets_reform 
+				patrole_fleets_reform
+				abominable_intelligence_reform
+			}
+		}
+		religoius_doctrine = {
+			reforms = {
+				magos_order_reform
+				genetor_order_reform
+				logis_order_reform
+				artisan_order_reform
+			}
+		}
+		clergy_in_administration = {
+			reforms = {
+				administratum_allies_reform
+				expand_the_lower_ranks_reform
+				rogue_trader_houses_reform
+				allied_knight_houses_reform
+			}
+		}
+		secularization = {
+			reforms = {
+				empower_the_fabricator_general_reform
+				grant_power_to_the_orders_reform
+				mindslaves_reform
+				magos_militarum_reform
+			}
+		}
+		economical_matters = {
+			reforms = {
+				expand_the_forges_reform
+				new_production_quotas_reform
+				focus_on_exports_reform
+				expand_mining_reform
+				asteroid_mining_reform
+				increased_consumer_goods_reform
+			}
+		}
+		divine_cause = {
+			reforms = {
+				protect_the_forge_temples_reform
+				the_quest_for_knowledge_reform
+				strike_against_the_hereteks_reform
+				the_first_forgeworld_reform
+				learn_from_the_xenos_reform
+			}
+		}
+		separation_of_power_theocracy = {
+			reforms = {
+				ally_of_the_throne_reform
+				mars_and_terra_reform
+				a_mechanized_crusade_reform
+			}
+		}
+		nature_of_faith = {
+			reforms = {
+				the_certainty_of_steel_reform
+				revered_machine_spirits_reform
+				omnissiahs_will_reform
+			}
+		}
+		culture_within_the_state = {
+			reforms = {
+				one_magos_above_all_reform
+				a_council_of_equals_reform
+				empowered_electropriests_reform
+			}
+		}
+		faith_and_the_world = {
+			reforms = {
+				united_forge_worlds_reform
+				our_empire_reform
+				all_is_steel_reform
+				stcs_recovered_reform
+			}
+		}
+	}
+	exclusive_reforms = {
+	}
+}
+
+pre_dharma_mapping = {
+	despotic_monarchy = {
+		government = monarchy
+		legacy_government = despotic_monarchy
+	}
+	feudal_monarchy = {
+		government = monarchy
+		legacy_government = feudal_monarchy
+	}
+	administrative_monarchy = {
+		government = monarchy
+		legacy_government = administrative_monarchy
+	}
+	constitutional_monarchy = {
+		government = monarchy
+		legacy_government = constitutional_monarchy
+	}
+	enlightened_despotism = {
+		government = monarchy
+		legacy_government = enlightened_despotism
+	}
+	revolutionary_empire = {
+		government = monarchy
+		legacy_government = revolutionary_empire
+	}
+	merchant_republic = {
+		government = republic
+		legacy_government = merchant_republic
+	}
+	oligarchic_republic = {
+		government = republic
+		legacy_government = oligarchic_republic
+	}
+	noble_republic = {
+		government = republic
+		legacy_government = noble_republic
+	}
+	administrative_republic = {
+		government = republic
+		legacy_government = administrative_republic
+	}
+	republican_dictatorship = {
+		government = republic
+		legacy_government = republican_dictatorship
+	}
+	constitutional_republic = {
+		government = republic
+		legacy_government = constitutional_republic
+	}
+	bureaucratic_despotism = {
+		government = republic
+		legacy_government = bureaucratic_despotism
+	}
+	revolutionary_republic = {
+		government = republic
+		legacy_government = revolutionary_republic
+	}
+	theocratic_government = {
+		government = theocracy
+		legacy_government = theocratic_government
+	}
+	monastic_order_government = {
+		government = theocracy
+		legacy_government = monastic_order_government
+	}
+	papal_government = {
+		government = theocracy
+		legacy_government = papal_government
+	}
+	steppe_horde = {
+		government = tribal
+		legacy_government = steppe_horde_legacy
+	}
+	tribal_despotism = {
+		government = tribal
+		legacy_government = tribal_despotism_legacy
+	}
+	tribal_kingdom = {
+		government = tribal
+		legacy_government = tribal_kingdom_legacy
+	}
+	tribal_federation = {
+		government = tribal
+		legacy_government = tribal_federation_legacy
+	}
+	tribal_democracy = {
+		government = tribal
+		legacy_government = tribal_federation_legacy
+	}
+	native_council = {
+		government = native
+		legacy_government = native_council_legacy
+	}
+	siberian_native_council = {
+		government = tribal
+		legacy_government = siberian_native_council
+	}
+	english_monarchy = {
+		government = monarchy
+		legacy_government = english_monarchy_legacy
+	}
+	mamluk_government = {
+		government = monarchy
+		legacy_government = mamluk_government_legacy
+	}
+	feudal_theocracy = {
+		government = monarchy
+		legacy_government = feudal_theocracy_legacy
+	}
+	elective_monarchy = {
+		government = monarchy
+		legacy_government = elective_monarchy_legacy
+	}
+	imperial_city = {
+		government = republic
+		legacy_government = imperial_city
+	}
+	trading_city = {
+		government = republic
+		legacy_government = imperial_city
+	}
+	ambrosian_republic = {
+		government = republic
+		legacy_government = ambrosian_republic_legacy
+	}
+	dutch_republic = {
+		government = republic
+		legacy_government = dutch_republic_legacy
+	}
+	celestial_empire = {
+		government = monarchy
+		legacy_government = celestial_empire_legacy
+	}
+	ottoman_government = {
+		government = monarchy
+		legacy_government = ottoman_government_legacy
+	}
+	prussian_monarchy = {
+		government = monarchy
+		legacy_government = prussian_monarchy_legacy
+	}
+	prussian_monarchy_base = {
+		government = monarchy
+		legacy_government = prussian_monarchy_legacy
+	}
+	iqta = {
+		government = monarchy
+		legacy_government = iqta_legacy
+	}
+	daimyo = {
+		government = monarchy
+		legacy_government = daimyo_legacy
+	}
+	shogunate = {
+		government = monarchy
+		legacy_government = shogunate_legacy
+	}
+	indep_daimyo = {
+		government = monarchy
+		legacy_government = indep_daimyo_legacy
+	}
+	colonial_government = {
+		government = republic
+		legacy_government = colonial_government_legacy
+	}
+	american_republic = {
+		government = republic
+		legacy_government = american_republic_legacy
+	}
+	federal_republic = {
+		government = republic
+		legacy_government = federal_republic_legacy
+	}
+	peasants_republic = {
+		government = republic
+		legacy_government = peasants_republic_legacy
+	}
+	veche_republic = {
+		government = republic
+		legacy_government = veche_republic_legacy
+	}
+	principality = {
+		government = monarchy
+		legacy_government = principality_legacy
+	}
+	tsardom = {
+		government = monarchy
+		legacy_government = tsardom_legacy
+	}
+	pirate_republic_reform = {
+		government = republic
+		legacy_government = pirate_republic
+	}
+	all_mechanics = {
+		government = monarchy
+		legacy_government = despotic_monarchy
+	}
+}
+
+
+republic = {
+	basic_reform = republic_mechanic
+
+	color = { 65 155 220 }
+	legacy_government = {
+	}
+	reform_levels = {
+		oligarchy_merchant_class_noble_elite = {
+			reforms = {
+			}
+		}
+		republican_virtues = {
+			reforms = {
+			}
+		}
+		frequent_elections_vs_consolidation_of_power = {
+			reforms = {
+			}
+		}
+		military_doctrines = {
+			reforms = {
+			}
+		}
+		republic_and_religion = {
+			reforms = {
+			}
+		}
+		federalism_vs_unitarism_vs_confederacy = {
+			reforms = {
+			}
+		}
+		parliamentary_vs_presidential = {
+			reforms = {
+			}
+		}
+		federalism_vs_unitarism_vs_confederacy = {
+			reforms = {
+			}
+		}
+		economical_matters_republic = {
+			reforms = {
+			}
+		}
+		consolidation_of_power_category = {
+			reforms = {
+			}
+		}
+		guiding_principle_of_administration = {
+			reforms = {
+			}
+		}
+		electorate = {
+			reforms = {
+			}
+		}
+		office_selection = {
+			reforms = {
+			}
+		}
+		question_of_dictatorship = {
+			reforms = {
+			}
+		}
+	}
+	exclusive_reforms = {
+	}
+}
+
+tribal = {
+	color = { 220 165 95 }
+	basic_reform = tribe_mechanic
+
+	legacy_government = {
+	}
+
+	reform_levels = {
+		tribal_administration = {
+			reforms = {
+				ork_government_reform
+				exodite_government_reform
 				hive_fleet_reform
 			}
 		}
