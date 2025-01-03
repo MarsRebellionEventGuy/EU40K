@@ -358,10 +358,6 @@ tyranid_group = {
 		province = {
 			local_missionary_strength = -0.02
 		}
-
-		authority = yes
-		religious_reforms = yes
-		reform_tooltip = INTI_REFORM_TOOLTIP
 		
 		heretic = { FERALTYRANIDS }
 	}
@@ -379,6 +375,10 @@ tyranid_group = {
 		province = {
 			local_missionary_strength = -0.02
 		}
+		
+		authority = yes
+		religious_reforms = yes
+		reform_tooltip = INTI_REFORM_TOOLTIP
 		
 		heretic = { FERALTYRANIDS }
 	}
