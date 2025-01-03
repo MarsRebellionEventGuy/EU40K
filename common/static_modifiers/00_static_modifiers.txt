@@ -1023,6 +1023,8 @@ corruption = {
 	janissaries_loyalty_modifier = 0.1
 	qizilbash_loyalty_modifier = 0.1
 	ghulams_loyalty_modifier = 0.1
+	adeptus_mechanicus_loyalty_modifier = 0.2
+	inquisition_loyalty_modifier = -0.1
 	monthly_heir_claim_increase = 0.025
 }
 
@@ -1112,6 +1114,8 @@ prestige = {
 	eunuchs_loyalty_modifier = 0.05
 	qizilbash_loyalty_modifier = 0.05
 	ghulams_loyalty_modifier = 0.05
+	adeptus_mechanicus_loyalty_modifier = 0.05
+	inquisition_loyalty_modifier = 0.05
 }
 
 no_debate_in_parliament = {

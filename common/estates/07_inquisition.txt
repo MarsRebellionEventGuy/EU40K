@@ -70,6 +70,11 @@ estate_inquisition = {
 		estate_inquisition_increase_ordo_scriptorum
 		estate_inquisition_independent_action
 		estate_inquisition_land_rights
+		estate_inquisition_right_exterminatus
+		estate_inquisition_inquisitorial_representative
+		estate_church_enforced_one_faith
+		estate_inquisition_increase_ordo_maledictum
+		estate_inquisition_increase_ordo_astartes
 	}
 
 	agendas = {

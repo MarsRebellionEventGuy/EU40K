@@ -32,7 +32,6 @@ imperium_regency_reform = {
 	}
 
 	modifiers = {
-		global_heathen_missionary_strength = 0.02
 		same_religion_advisor_cost = -0.25
 		relation_with_heathens = -50
 		yearly_corruption = 0.1

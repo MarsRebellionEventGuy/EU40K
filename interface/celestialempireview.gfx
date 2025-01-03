@@ -19,7 +19,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_eoc_bg_dom"
-		texturefile = "gfx//interface//eoc_bg_domination.dds"
+		texturefile = "gfx//interface//eoc//eoc_bg_domination.dds"
 		loadType = "INGAME"
 	}
 	
@@ -78,14 +78,133 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_throne_integrity_icon"
-		texturefile = "gfx/interface/eoc_golden_throne_integrity.dds"
+		texturefile = "gfx/interface/eoc/eoc_golden_throne_integrity.dds"
 	}
 	spriteType = {
 		name = "GFX_convert_STC_icon"
-		texturefile = "gfx/interface/convert_STC_icon.dds"
+		texturefile = "gfx/interface/eoc/convert_STC_icon.dds"
 	}
 	spriteType = {
 		name = "GFX_increase_blackship_loads_icon"
-		texturefile = "gfx/interface/increase_blackship_loads_icon.dds"
+		texturefile = "gfx/interface/eoc/increase_blackship_loads_icon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_eoc_pimarch_1_portrait_icon"
+		texturefile = "gfx/interface/eoc/eoc_1_portrait.dds"
+		loadType = "INGAME"
+		noOfFrames = 5
+	}
+	spriteType = {
+		name = "GFX_eoc_pimarch_2_portrait_icon"
+		texturefile = "gfx/interface/eoc/eoc_2_portrait.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_eoc_pimarch_3_portrait_icon"
+		texturefile = "gfx/interface/eoc/eoc_3_portrait.dds"
+		loadType = "INGAME"
+		noOfFrames = 5
+	}
+	spriteType = {
+		name = "GFX_eoc_pimarch_4_portrait_icon"
+		texturefile = "gfx/interface/eoc/eoc_4_portrait.dds"
+		loadType = "INGAME"
+		noOfFrames = 5
+	}
+	spriteType = {
+		name = "GFX_eoc_pimarch_5_portrait_icon"
+		texturefile = "gfx/interface/eoc/eoc_5_portrait.dds"
+		loadType = "INGAME"
+		noOfFrames = 5
+	}
+	spriteType = {
+		name = "GFX_eoc_pimarch_6_portrait_icon"
+		texturefile = "gfx/interface/eoc/eoc_6_portrait.dds"
+		loadType = "INGAME"
+		noOfFrames = 5
+	}
+	spriteType = {
+		name = "GFX_eoc_pimarch_7_portrait_icon"
+		texturefile = "gfx/interface/eoc/eoc_7_portrait.dds"
+		loadType = "INGAME"
+		noOfFrames = 5
+	}
+	spriteType = {
+		name = "GFX_eoc_pimarch_8_portrait_icon"
+		texturefile = "gfx/interface/eoc/eoc_8_portrait.dds"
+		loadType = "INGAME"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_eoc_pimarch_9_portrait_icon"
+		texturefile = "gfx/interface/eoc/eoc_9_portrait.dds"
+		loadType = "INGAME"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_eoc_pimarch_10_portrait_icon"
+		texturefile = "gfx/interface/eoc/eoc_10_portrait.dds"
+		loadType = "INGAME"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_eoc_pimarch_11_portrait_icon"
+		texturefile = "gfx/interface/eoc/eoc_11_portrait.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_eoc_pimarch_12_portrait_icon"
+		texturefile = "gfx/interface/eoc/eoc_12_portrait.dds"
+		loadType = "INGAME"
+		noOfFrames = 5
+	}
+	spriteType = {
+		name = "GFX_eoc_pimarch_13_portrait_icon"
+		texturefile = "gfx/interface/eoc/eoc_13_portrait.dds"
+		loadType = "INGAME"
+		noOfFrames = 5
+	}
+	spriteType = {
+		name = "GFX_eoc_pimarch_14_portrait_icon"
+		texturefile = "gfx/interface/eoc/eoc_14_portrait.dds"
+		loadType = "INGAME"
+		noOfFrames = 5
+	}
+	spriteType = {
+		name = "GFX_eoc_pimarch_15_portrait_icon"
+		texturefile = "gfx/interface/eoc/eoc_15_portrait.dds"
+		loadType = "INGAME"
+		noOfFrames = 5
+	}
+	spriteType = {
+		name = "GFX_eoc_pimarch_16_portrait_icon"
+		texturefile = "gfx/interface/eoc/eoc_16_portrait.dds"
+		loadType = "INGAME"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_eoc_pimarch_17_portrait_icon"
+		texturefile = "gfx/interface/eoc/eoc_17_portrait.dds"
+		loadType = "INGAME"
+		noOfFrames = 5
+	}
+	spriteType = {
+		name = "GFX_eoc_pimarch_18_portrait_icon"
+		texturefile = "gfx/interface/eoc/eoc_18_portrait.dds"
+		loadType = "INGAME"
+		noOfFrames = 5
+	}
+	spriteType = {
+		name = "GFX_eoc_pimarch_19_portrait_icon"
+		texturefile = "gfx/interface/eoc/eoc_19_portrait.dds"
+		loadType = "INGAME"
+		noOfFrames = 5
+	}
+	spriteType = {
+		name = "GFX_eoc_pimarch_20_portrait_icon"
+		texturefile = "gfx/interface/eoc/eoc_20_portrait.dds"
+		loadType = "INGAME"
+		noOfFrames = 5
 	}
 }

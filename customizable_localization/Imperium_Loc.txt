@@ -337,7 +337,7 @@ defined_text = {
 }
 #primarchs list
 defined_text = {
-	name = GetPrimarch_I_Status
+	name = GetPrimarchIStatus
 	random = no
 	
 	text = {

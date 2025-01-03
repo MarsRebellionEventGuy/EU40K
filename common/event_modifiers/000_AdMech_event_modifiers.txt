@@ -19,3 +19,26 @@ admech_vassalisation_has_had_successful_negotiations = {
 
 admech_vassalisation_cooldown = {
 }
+
+XXA_basilikon_astra_expansion={
+	naval_forcelimit = 15
+	global_sailors_modifier = 0.15
+}
+XXA_knowledge_quest_condoned={
+	technology_cost = -0.05
+	embracement_cost = -0.15
+}
+XXA_metals_monopoly={
+	global_tax_income = 12
+}
+XXA_privileges_granted={
+	liberty_desire = -10
+}
+XXA_sending_knights={
+	cavalry_cost = 0.25
+}
+XXA_restrained_army={
+	capped_by_forcelimit = yes
+	land_forcelimit_modifier = -0.10
+	liberty_desire = 5
+}
