@@ -13,5 +13,8 @@ capital = 1924
 			dip = 2
 			mil = 5
 		}
+		add_ruler_personality = immortal_personality
+		add_ruler_personality = primarch_personality
+		set_ruler_flag = I_Primarch
 	}
 }

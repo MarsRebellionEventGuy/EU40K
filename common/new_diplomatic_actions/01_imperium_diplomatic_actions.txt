@@ -632,7 +632,14 @@ invite_into_imperium = {
 			}
 		}
 		if = {
-			limit = { FROM = { NOT = { religion_group = root } } }
+			limit = { 
+				FROM = { 
+					NOT = { religion = imperial_cult } 
+					NOT = { religion = imperial_truth } 
+					NOT = { religion = promethean_cult } 
+					NOT = { religion = death_cult } 
+				} 
+			}
 			custom_trigger_tooltip = {
 				tooltip = FROM_IS_NOT_ROOT_RELIGION_TT
 				FROM = { religion_group = root }

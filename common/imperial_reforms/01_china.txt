@@ -169,6 +169,15 @@ restore_ultramar_borders_decision = {
 	}
 	on_effect = {
 		custom_tooltip = unlocks_ultramar_decision_tt
+		hidden_effect={
+			create_subject = {
+				subject_type = imperial_sector_subject
+				subject = XGK
+			}
+			XGK={
+				country_event = {id = imperium_events.8}
+			}
+		}
 	}
 }
 curtail_astartes_autonomy_decision = {

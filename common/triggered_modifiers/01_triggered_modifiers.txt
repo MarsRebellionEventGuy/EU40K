@@ -57,3 +57,19 @@ lost_control_of_tera = {
 
 	imperial_mandate = -0.05
 }
+is_human = {
+	potential = {
+		culture_group = imperial_culture_group
+	}
+
+	trigger = {
+		culture_group = imperial_culture_group
+	}
+
+	ai_weight = {
+		factor = 0 # 
+	}
+
+	relation_with_same_culture_group = 50
+}
+

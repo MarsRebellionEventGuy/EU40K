@@ -71,4 +71,16 @@ spriteTypes = {
 		name = "GFX_icon_diplomacy_am_astartes_subject_type"
 		texturefile = "gfx/interface/icon_diplomacy_am_astartes_chapter.dds"
 	}
+	spriteType = {
+		name = "GFX_icon_imperial_sector_subject_type"
+		texturefile = "gfx/interface/icon_imperial_sector_subject.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_diplomacy_lead_imperial_sector_subject_type"
+		texturefile = "gfx/interface/icon_lead_imperial_sector_subject.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_diplomacy_am_imperial_sector_subject_type"
+		texturefile = "gfx/interface/icon_am_imperial_sector_subject.dds"
+	}
 }

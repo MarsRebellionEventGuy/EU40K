@@ -45,14 +45,14 @@ dependency = {
 }
 
 dependency = {#putting local astartes under ultramar
-	subject_type = "astartes_subject_type"
+	subject_type = "shield_company_subject_type"
 	first = XGK
 	second = XSU
 	start_date = 1000.8.20
 	end_date = 2100.8.3
 }
 dependency = {
-	subject_type = "astartes_subject_type"
+	subject_type = "shield_company_subject_type"
 	first = XGK
 	second = XSV
 	start_date = 1000.8.20
@@ -383,7 +383,7 @@ dependency = {
 	end_date = 2100.8.3
 }
 dependency = {
-	subject_type = "imperial_world_subject_type"
+	subject_type = "imperial_sector_subject"
 	first = XXA
 	second = XTB
 	start_date = 1000.8.20
