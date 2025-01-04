@@ -1,10 +1,11 @@
 religion = imperial_cult
-culture = human_culture
+culture = loyalist_astartes_culture
 base_tax = 1
 base_production = 4
 base_manpower = 2
-add_core = XXA
-owner = XXA
-controller = XXA
+owner = XSZ
+controller = XSZ
 capital = "Aronis City"
 trade_goods = consumer_goods
+add_core = XSZ
+is_city = no

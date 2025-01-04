@@ -232,3 +232,21 @@ country_event = {#test event
 		}
 	}
 }
+
+country_event = {#Unifiy Ultramar
+	id = imperium_events.8
+	title = "imperium_events.8.t"
+	desc = "imperium_events.8.d"
+	picture = CONQUEST_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "imperium_events.8.a"
+		every_subject_country = { 
+			ROOT={
+				inherit = PREV
+			}
+		}
+	}
+}

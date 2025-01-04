@@ -3,19 +3,22 @@ estate_adeptus_mechanicus = {
 
 	# If true, country will get estate
 	trigger = {
-		always = no
 		is_emperor_of_china = yes
+		has_subject_of_type = 0_mechanicus_subject_type
 	}
 
 	# These scale with loyalty & power
 	country_modifier_happy = {
+		production_efficiency = 0.05
 	}
 	country_modifier_neutral = {
+		production_efficiency = 0.025
 	}	
 	country_modifier_angry = {
+		production_efficiency = -0.1
 	}
 	land_ownership_modifier = {
-		burghers_loyalty_modifier = 0.2
+		adeptus_mechanicus_loyalty_modifier = 0.2
 	}
 	
 	province_independence_weight = {
@@ -23,7 +26,7 @@ estate_adeptus_mechanicus = {
 	}
 
 	# Influence modifiers
-	base_influence = 10
+	base_influence = 20
 
 	influence_modifier = {
 		desc = EST_VAL_OTHER_ESTATE_IN_POWER
@@ -32,6 +35,26 @@ estate_adeptus_mechanicus = {
 			has_not_own_estate_disaster_active = { estate = estate_adeptus_mechanicus }
 		}	
 		influence = -40
+	}
+	influence_modifier = {
+		desc = EST_VAL_MEC_HIGH_PRODUCTION
+		trigger = {
+			event_target:adeptus_mechanicus_tag = {
+				OR={
+					has_country_flag = XXB_has_50_forge_worlds
+					has_country_flag = XXB_has_75_forge_worlds
+					has_country_flag = XXB_has_100_forge_worlds
+				}
+			}
+		}	
+		influence = 15
+	}
+	influence_modifier = {
+		desc = EST_VAL_LOW_MANDATE
+		trigger = {
+			NOT = { imperial_mandate = 50 }
+		}
+		influence = 20		
 	}
 	
 	loyalty_modifier = {
@@ -42,48 +65,536 @@ estate_adeptus_mechanicus = {
 		}
 		loyalty = -20
 	}
+	#High Power Projection
+	loyalty_modifier = {
+		desc = EST_VAL_HIGH_PP
+		trigger = { power_projection = 50 }
+		loyalty = 5
+	}
+	
+	#Low Power Projection
+	loyalty_modifier = {
+		desc = EST_VAL_LOW_PP
+		trigger = { NOT = { power_projection = 50 } }
+		loyalty = -5
+	}
+	
+		loyalty_modifier = {
+			desc = EST_VAL_MEC_LIBERTY_DESIRE_PERCENTAGE
+			trigger = {
+				event_target:adeptus_mechanicus_tag = {
+					liberty_desire = 50
+					NOT={liberty_desire = 51}
+				}
+			}
+			loyalty = -1
+		}
+		loyalty_modifier = {
+			desc = EST_VAL_MEC_LIBERTY_DESIRE_PERCENTAGE
+			trigger = {
+				event_target:adeptus_mechanicus_tag = {
+					liberty_desire = 51
+					NOT={liberty_desire = 52}
+				}
+			}
+			loyalty = -2
+		}
+		loyalty_modifier = {
+			desc = EST_VAL_MEC_LIBERTY_DESIRE_PERCENTAGE
+			trigger = {
+				event_target:adeptus_mechanicus_tag = {
+					liberty_desire = 53
+					NOT={liberty_desire = 54}
+				}
+			}
+			loyalty = -3
+		}
+		loyalty_modifier = {
+			desc = EST_VAL_MEC_LIBERTY_DESIRE_PERCENTAGE
+			trigger = {
+				event_target:adeptus_mechanicus_tag = {
+					liberty_desire = 54
+					NOT={liberty_desire = 55}
+				}
+			}
+			loyalty = -4
+		}
+		loyalty_modifier = {
+			desc = EST_VAL_MEC_LIBERTY_DESIRE_PERCENTAGE
+			trigger = {
+				event_target:adeptus_mechanicus_tag = {
+					liberty_desire = 55
+					NOT={liberty_desire = 56}
+				}
+			}
+			loyalty = -5
+		}
+		loyalty_modifier = {
+			desc = EST_VAL_MEC_LIBERTY_DESIRE_PERCENTAGE
+			trigger = {
+				event_target:adeptus_mechanicus_tag = {
+					liberty_desire = 56
+					NOT={liberty_desire = 57}
+				}
+			}
+			loyalty = -6
+		}
+		loyalty_modifier = {
+			desc = EST_VAL_MEC_LIBERTY_DESIRE_PERCENTAGE
+			trigger = {
+				event_target:adeptus_mechanicus_tag = {
+					liberty_desire = 57
+					NOT={liberty_desire = 58}
+				}
+			}
+			loyalty = -7
+		}
+		loyalty_modifier = {
+			desc = EST_VAL_MEC_LIBERTY_DESIRE_PERCENTAGE
+			trigger = {
+				event_target:adeptus_mechanicus_tag = {
+					liberty_desire = 58
+					NOT={liberty_desire = 59}
+				}
+			}
+			loyalty = -8
+		}
+		loyalty_modifier = {
+			desc = EST_VAL_MEC_LIBERTY_DESIRE_PERCENTAGE
+			trigger = {
+				event_target:adeptus_mechanicus_tag = {
+					liberty_desire = 59
+					NOT={liberty_desire = 60}
+				}
+			}
+			loyalty = -9
+		}
+		loyalty_modifier = {
+			desc = EST_VAL_MEC_LIBERTY_DESIRE_PERCENTAGE
+			trigger = {
+				event_target:adeptus_mechanicus_tag = {
+					liberty_desire = 60
+					NOT={liberty_desire = 61}
+				}
+			}
+			loyalty = -10
+		}
+		loyalty_modifier = {
+			desc = EST_VAL_MEC_LIBERTY_DESIRE_PERCENTAGE
+			trigger = {
+				event_target:adeptus_mechanicus_tag = {
+					liberty_desire = 61
+					NOT={liberty_desire = 62}
+				}
+			}
+			loyalty = -11
+		}
+		loyalty_modifier = {
+			desc = EST_VAL_MEC_LIBERTY_DESIRE_PERCENTAGE
+			trigger = {
+				event_target:adeptus_mechanicus_tag = {
+					liberty_desire = 62
+					NOT={liberty_desire = 63}
+				}
+			}
+			loyalty = -12
+		}
+		loyalty_modifier = {
+			desc = EST_VAL_MEC_LIBERTY_DESIRE_PERCENTAGE
+			trigger = {
+				event_target:adeptus_mechanicus_tag = {
+					liberty_desire = 63
+					NOT={liberty_desire = 64}
+				}
+			}
+			loyalty = -13
+		}
+		loyalty_modifier = {
+			desc = EST_VAL_MEC_LIBERTY_DESIRE_PERCENTAGE
+			trigger = {
+				event_target:adeptus_mechanicus_tag = {
+					liberty_desire = 64
+					NOT={liberty_desire = 65}
+				}
+			}
+			loyalty = -14
+		}
+		loyalty_modifier = {
+			desc = EST_VAL_MEC_LIBERTY_DESIRE_PERCENTAGE
+			trigger = {
+				event_target:adeptus_mechanicus_tag = {
+					liberty_desire = 65
+					NOT={liberty_desire = 66}
+				}
+			}
+			loyalty = -15
+		}
+		loyalty_modifier = {
+			desc = EST_VAL_MEC_LIBERTY_DESIRE_PERCENTAGE
+			trigger = {
+				event_target:adeptus_mechanicus_tag = {
+					liberty_desire = 66
+					NOT={liberty_desire = 67}
+				}
+			}
+			loyalty = -16
+		}
+		loyalty_modifier = {
+			desc = EST_VAL_MEC_LIBERTY_DESIRE_PERCENTAGE
+			trigger = {
+				event_target:adeptus_mechanicus_tag = {
+					liberty_desire = 67
+					NOT={liberty_desire = 68}
+				}
+			}
+			loyalty = -17
+		}
+		loyalty_modifier = {
+			desc = EST_VAL_MEC_LIBERTY_DESIRE_PERCENTAGE
+			trigger = {
+				event_target:adeptus_mechanicus_tag = {
+					liberty_desire = 68
+					NOT={liberty_desire = 69}
+				}
+			}
+			loyalty = -18
+		}
+		loyalty_modifier = {
+			desc = EST_VAL_MEC_LIBERTY_DESIRE_PERCENTAGE
+			trigger = {
+				event_target:adeptus_mechanicus_tag = {
+					liberty_desire = 69
+					NOT={liberty_desire = 70}
+				}
+			}
+			loyalty = -19
+		}
+		loyalty_modifier = {
+			desc = EST_VAL_MEC_LIBERTY_DESIRE_PERCENTAGE
+			trigger = {
+				event_target:adeptus_mechanicus_tag = {
+					liberty_desire = 70
+					NOT={liberty_desire = 71}
+				}
+			}
+			loyalty = -20
+		}
+		loyalty_modifier = {
+			desc = EST_VAL_MEC_LIBERTY_DESIRE_PERCENTAGE
+			trigger = {
+				event_target:adeptus_mechanicus_tag = {
+					liberty_desire = 71
+					NOT={liberty_desire = 72}
+				}
+			}
+			loyalty = -21
+		}
+		loyalty_modifier = {
+			desc = EST_VAL_MEC_LIBERTY_DESIRE_PERCENTAGE
+			trigger = {
+				event_target:adeptus_mechanicus_tag = {
+					liberty_desire = 72
+					NOT={liberty_desire = 73}
+				}
+			}
+			loyalty = -22
+		}
+		loyalty_modifier = {
+			desc = EST_VAL_MEC_LIBERTY_DESIRE_PERCENTAGE
+			trigger = {
+				event_target:adeptus_mechanicus_tag = {
+					liberty_desire = 73
+					NOT={liberty_desire = 74}
+				}
+			}
+			loyalty = -23
+		}
+		loyalty_modifier = {
+			desc = EST_VAL_MEC_LIBERTY_DESIRE_PERCENTAGE
+			trigger = {
+				event_target:adeptus_mechanicus_tag = {
+					liberty_desire = 74
+					NOT={liberty_desire = 75}
+				}
+			}
+			loyalty = -24
+		}
+		loyalty_modifier = {
+			desc = EST_VAL_MEC_LIBERTY_DESIRE_PERCENTAGE
+			trigger = {
+				event_target:adeptus_mechanicus_tag = {
+					liberty_desire = 75
+					NOT={liberty_desire = 76}
+				}
+			}
+			loyalty = -25
+		}
+		loyalty_modifier = {
+			desc = EST_VAL_MEC_LIBERTY_DESIRE_PERCENTAGE
+			trigger = {
+				event_target:adeptus_mechanicus_tag = {
+					liberty_desire = 76
+					NOT={liberty_desire = 77}
+				}
+			}
+			loyalty = -26
+		}
+		loyalty_modifier = {
+			desc = EST_VAL_MEC_LIBERTY_DESIRE_PERCENTAGE
+			trigger = {
+				event_target:adeptus_mechanicus_tag = {
+					liberty_desire = 77
+					NOT={liberty_desire = 78}
+				}
+			}
+			loyalty = -27
+		}
+		loyalty_modifier = {
+			desc = EST_VAL_MEC_LIBERTY_DESIRE_PERCENTAGE
+			trigger = {
+				event_target:adeptus_mechanicus_tag = {
+					liberty_desire = 78
+					NOT={liberty_desire = 79}
+				}
+			}
+			loyalty = -28
+		}
+		loyalty_modifier = {
+			desc = EST_VAL_MEC_LIBERTY_DESIRE_PERCENTAGE
+			trigger = {
+				event_target:adeptus_mechanicus_tag = {
+					liberty_desire = 79
+					NOT={liberty_desire = 80}
+				}
+			}
+			loyalty = -29
+		}
+		loyalty_modifier = {
+			desc = EST_VAL_MEC_LIBERTY_DESIRE_PERCENTAGE
+			trigger = {
+				event_target:adeptus_mechanicus_tag = {
+					liberty_desire = 80
+					NOT={liberty_desire = 81}
+				}
+			}
+			loyalty = -30
+		}
+		loyalty_modifier = {
+			desc = EST_VAL_MEC_LIBERTY_DESIRE_PERCENTAGE
+			trigger = {
+				event_target:adeptus_mechanicus_tag = {
+					liberty_desire = 81
+					NOT={liberty_desire = 82}
+				}
+			}
+			loyalty = -31
+		}
+		loyalty_modifier = {
+			desc = EST_VAL_MEC_LIBERTY_DESIRE_PERCENTAGE
+			trigger = {
+				event_target:adeptus_mechanicus_tag = {
+					liberty_desire = 82
+					NOT={liberty_desire = 83}
+				}
+			}
+			loyalty = -32
+		}
+		loyalty_modifier = {
+			desc = EST_VAL_MEC_LIBERTY_DESIRE_PERCENTAGE
+			trigger = {
+				event_target:adeptus_mechanicus_tag = {
+					liberty_desire = 83
+					NOT={liberty_desire = 84}
+				}
+			}
+			loyalty = -33
+		}
+		loyalty_modifier = {
+			desc = EST_VAL_MEC_LIBERTY_DESIRE_PERCENTAGE
+			trigger = {
+				event_target:adeptus_mechanicus_tag = {
+					liberty_desire = 84
+					NOT={liberty_desire = 85}
+				}
+			}
+			loyalty = -34
+		}
+		loyalty_modifier = {
+			desc = EST_VAL_MEC_LIBERTY_DESIRE_PERCENTAGE
+			trigger = {
+				event_target:adeptus_mechanicus_tag = {
+					liberty_desire = 85
+					NOT={liberty_desire = 86}
+				}
+			}
+			loyalty = -35
+		}
+		loyalty_modifier = {
+			desc = EST_VAL_MEC_LIBERTY_DESIRE_PERCENTAGE
+			trigger = {
+				event_target:adeptus_mechanicus_tag = {
+					liberty_desire = 86
+					NOT={liberty_desire = 87}
+				}
+			}
+			loyalty = -36
+		}
+		loyalty_modifier = {
+			desc = EST_VAL_MEC_LIBERTY_DESIRE_PERCENTAGE
+			trigger = {
+				event_target:adeptus_mechanicus_tag = {
+					liberty_desire = 87
+					NOT={liberty_desire = 88}
+				}
+			}
+			loyalty = -37
+		}
+		loyalty_modifier = {
+			desc = EST_VAL_MEC_LIBERTY_DESIRE_PERCENTAGE
+			trigger = {
+				event_target:adeptus_mechanicus_tag = {
+					liberty_desire = 88
+					NOT={liberty_desire = 89}
+				}
+			}
+			loyalty = -38
+		}
+		loyalty_modifier = {
+			desc = EST_VAL_MEC_LIBERTY_DESIRE_PERCENTAGE
+			trigger = {
+				event_target:adeptus_mechanicus_tag = {
+					liberty_desire = 89
+					NOT={liberty_desire = 90}
+				}
+			}
+			loyalty = -39
+		}
+		loyalty_modifier = {
+			desc = EST_VAL_MEC_LIBERTY_DESIRE_PERCENTAGE
+			trigger = {
+				event_target:adeptus_mechanicus_tag = {
+					liberty_desire = 90
+					NOT={liberty_desire = 91}
+				}
+			}
+			loyalty = -40
+		}
+		loyalty_modifier = {
+			desc = EST_VAL_MEC_LIBERTY_DESIRE_PERCENTAGE
+			trigger = {
+				event_target:adeptus_mechanicus_tag = {
+					liberty_desire = 91
+					NOT={liberty_desire = 92}
+				}
+			}
+			loyalty = -41
+		}
+		loyalty_modifier = {
+			desc = EST_VAL_MEC_LIBERTY_DESIRE_PERCENTAGE
+			trigger = {
+				event_target:adeptus_mechanicus_tag = {
+					liberty_desire = 92
+					NOT={liberty_desire = 93}
+				}
+			}
+			loyalty = -42
+		}
+		loyalty_modifier = {
+			desc = EST_VAL_MEC_LIBERTY_DESIRE_PERCENTAGE
+			trigger = {
+				event_target:adeptus_mechanicus_tag = {
+					liberty_desire = 93
+					NOT={liberty_desire = 94}
+				}
+			}
+			loyalty = -43
+		}
+		loyalty_modifier = {
+			desc = EST_VAL_MEC_LIBERTY_DESIRE_PERCENTAGE
+			trigger = {
+				event_target:adeptus_mechanicus_tag = {
+					liberty_desire = 94
+					NOT={liberty_desire = 95}
+				}
+			}
+			loyalty = -44
+		}
+		loyalty_modifier = {
+			desc = EST_VAL_MEC_LIBERTY_DESIRE_PERCENTAGE
+			trigger = {
+				event_target:adeptus_mechanicus_tag = {
+					liberty_desire = 95
+					NOT={liberty_desire = 96}
+				}
+			}
+			loyalty = -45
+		}
+		loyalty_modifier = {
+			desc = EST_VAL_MEC_LIBERTY_DESIRE_PERCENTAGE
+			trigger = {
+				event_target:adeptus_mechanicus_tag = {
+					liberty_desire = 96
+					NOT={liberty_desire = 97}
+				}
+			}
+			loyalty = -46
+		}
+		loyalty_modifier = {
+			desc = EST_VAL_MEC_LIBERTY_DESIRE_PERCENTAGE
+			trigger = {
+				event_target:adeptus_mechanicus_tag = {
+					liberty_desire = 97
+					NOT={liberty_desire = 98}
+				}
+			}
+			loyalty = -47
+		}
+		loyalty_modifier = {
+			desc = EST_VAL_MEC_LIBERTY_DESIRE_PERCENTAGE
+			trigger = {
+				event_target:adeptus_mechanicus_tag = {
+					liberty_desire = 98
+					NOT={liberty_desire = 99}
+				}
+			}
+			loyalty = -48
+		}
+		loyalty_modifier = {
+			desc = EST_VAL_MEC_LIBERTY_DESIRE_PERCENTAGE
+			trigger = {
+				event_target:adeptus_mechanicus_tag = {
+					liberty_desire = 99
+					NOT={liberty_desire = 100}
+				}
+			}
+			loyalty = -49
+		}
+		loyalty_modifier = {
+			desc = EST_VAL_MEC_LIBERTY_DESIRE_PERCENTAGE
+			trigger = {
+				event_target:adeptus_mechanicus_tag = {
+					liberty_desire = 100
+				}
+			}
+			loyalty = -50
+		}
+	
 
-	color = { 35 35 150 }
+	color = { 134 147 142 }
 
 	privileges = {
-		
+		estate_mechanicus_treaty_olympus
+		estate_mechanicus_basilikon_astra_privilege
+		estate_mechanicus_knowledge_quest_privilege
+		estate_mechanicus_monopoly_of_metals
+		estate_mechanicus_privilege
+		estate_mechanicus_restrict_macroclade_count
+		estate_mechanicus_expand_knight_production
 	}
 
 	agendas = {
 		estate_nobles_develop_x
-		estate_nobles_build_army_building_in_y
-		estate_nobles_build_fort_building_in_y
-		estate_nobles_build_university_in_y
-		estate_nobles_build_manufactory_in_y
-		estate_nobles_get_allies
-		estate_nobles_befriend_rival_of_rival
-		estate_nobles_restore_legitimacy
-		estate_nobles_relations_with_X
-		estate_nobles_break_coalition
-		estate_nobles_condottieri_rivals
-		estate_nobles_support_independence
-		estate_nobles_retake_core
-		estate_nobles_crush_revolts
-		estate_nobles_regain_liberty
-		estate_nobles_convert_province_culture
-		estate_nobles_protect_our_culture
-		estate_nobles_vassalise_vulnerable_country
-		estate_nobles_expand_into_x
-		estate_nobles_complete_conquest_of_x
-		estate_nobles_annex_subject
-		estate_nobles_build_an_army
-		estate_nobles_bigger_army_than_rival
-		estate_nobles_build_up_manpower_reserves
-		estate_nobles_recover_abysmal_prestige
-		estate_nobles_improve_prestige
-		estate_nobles_hire_advisor
-		estate_nobles_fire_advisor
-		estate_nobles_mam_three_privileges 
-		estate_nobles_mam_recruit_mamluks 
-		estate_nobles_mam_develop_military_infrastructure 
-		estate_nobles_mam_increase_army_tradition 
-		estate_nobles_mam_increase_army_professionalism 
-		estate_nobles_mam_focus_on_military_matters
+		
 	}
 
 	influence_from_dev_modifier = 1.0

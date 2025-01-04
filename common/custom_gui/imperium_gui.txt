@@ -144,3 +144,227 @@ custom_button = {
 	}
 	tooltip = imperium_TI_convert_STCs_tt #
 }
+
+custom_icon = {
+   name = primarch_1_portrait_icon #Must match a scripted iconType in a .gui file
+   potential = { } #Determines when the icon is visible
+   tooltip = active_primarch_list_tt #Can use customizable localisation
+	frame = {  #Can define multiple frame clauses
+		number = 1 #Which frame to use. Check dds files with multiple icons like icon_religion.dds
+		trigger = { 
+			XDH={
+				exists = yes
+				has_ruler_flag = I_Primarch
+			}
+		}
+	}
+	frame = {  #Can define multiple frame clauses
+		number = 2 #Which frame to use. Check dds files with multiple icons like icon_religion.dds
+		trigger = { always = yes } #First matched frame clause will be used.
+	}
+#	frame_variable = "variable_name" #Use the value of a variable to determine the icon frame
+}
+custom_icon = {
+   name = primarch_2_portrait_icon #Must match a scripted iconType in a .gui file
+   potential = { } #Determines when the icon is visible
+   tooltip = active_primarch_list_tt #Can use customizable localisation
+	# frame = {  #Can define multiple frame clauses
+		# number = 3 #Which frame to use. Check dds files with multiple icons like icon_religion.dds
+		# trigger = { always = yes } #First matched frame clause will be used.
+	# }
+#	frame_variable = "variable_name" #Use the value of a variable to determine the icon frame
+}
+custom_icon = {
+   name = primarch_3_portrait_icon #Must match a scripted iconType in a .gui file
+   potential = { } #Determines when the icon is visible
+   tooltip = active_primarch_list_tt #Can use customizable localisation
+   frame = {  #Can define multiple frame clauses
+		number = 4 #Which frame to use. Check dds files with multiple icons like icon_religion.dds
+		trigger = { always = yes } #First matched frame clause will be used.
+	}
+#	frame_variable = "variable_name" #Use the value of a variable to determine the icon frame
+}
+custom_icon = {
+   name = primarch_4_portrait_icon #Must match a scripted iconType in a .gui file
+   potential = { } #Determines when the icon is visible
+   tooltip = active_primarch_list_tt #Can use customizable localisation
+   frame = {  #Can define multiple frame clauses
+		number = 4 #Which frame to use. Check dds files with multiple icons like icon_religion.dds
+		trigger = { always = yes } #First matched frame clause will be used.
+	}
+#	frame_variable = "variable_name" #Use the value of a variable to determine the icon frame
+}
+custom_icon = {
+   name = primarch_5_portrait_icon #Must match a scripted iconType in a .gui file
+   potential = { } #Determines when the icon is visible
+   tooltip = active_primarch_list_tt #Can use customizable localisation
+   frame = {  #Can define multiple frame clauses
+		number = 2 #Which frame to use. Check dds files with multiple icons like icon_religion.dds
+		trigger = { always = yes } #First matched frame clause will be used.
+	}
+#	frame_variable = "variable_name" #Use the value of a variable to determine the icon frame
+}
+custom_icon = {
+   name = primarch_6_portrait_icon #Must match a scripted iconType in a .gui file
+   potential = { } #Determines when the icon is visible
+   tooltip = active_primarch_list_tt #Can use customizable localisation
+   frame = {  #Can define multiple frame clauses
+		number = 2 #Which frame to use. Check dds files with multiple icons like icon_religion.dds
+		trigger = { always = yes } #First matched frame clause will be used.
+	}
+#	frame_variable = "variable_name" #Use the value of a variable to determine the icon frame
+}
+custom_icon = {
+   name = primarch_7_portrait_icon #Must match a scripted iconType in a .gui file
+   potential = { } #Determines when the icon is visible
+   tooltip = active_primarch_list_tt #Can use customizable localisation
+   frame = {  #Can define multiple frame clauses
+		number = 3 #Which frame to use. Check dds files with multiple icons like icon_religion.dds
+		trigger = { always = yes } #First matched frame clause will be used.
+	}
+#	frame_variable = "variable_name" #Use the value of a variable to determine the icon frame
+}
+custom_icon = {
+   name = primarch_8_portrait_icon #Must match a scripted iconType in a .gui file
+   potential = { } #Determines when the icon is visible
+   tooltip = active_primarch_list_tt #Can use customizable localisation
+   frame = {  #Can define multiple frame clauses
+		number = 1 #Which frame to use. Check dds files with multiple icons like icon_religion.dds
+		trigger = { always = yes } #First matched frame clause will be used.
+	}
+#	frame_variable = "variable_name" #Use the value of a variable to determine the icon frame
+}
+custom_icon = {
+   name = primarch_9_portrait_icon #Must match a scripted iconType in a .gui file
+   potential = { } #Determines when the icon is visible
+   tooltip = active_primarch_list_tt #Can use customizable localisation
+   frame = {  #Can define multiple frame clauses
+		number = 1 #Which frame to use. Check dds files with multiple icons like icon_religion.dds
+		trigger = { always = yes } #First matched frame clause will be used.
+	}
+#	frame_variable = "variable_name" #Use the value of a variable to determine the icon frame
+}
+custom_icon = {
+   name = primarch_10_portrait_icon #Must match a scripted iconType in a .gui file
+   potential = { } #Determines when the icon is visible
+   tooltip = active_primarch_list_tt #Can use customizable localisation
+   frame = {  #Can define multiple frame clauses
+		number = 1 #Which frame to use. Check dds files with multiple icons like icon_religion.dds
+		trigger = { always = yes } #First matched frame clause will be used.
+	}
+#	frame_variable = "variable_name" #Use the value of a variable to determine the icon frame
+}
+custom_icon = {
+   name = primarch_11_portrait_icon #Must match a scripted iconType in a .gui file
+   potential = { } #Determines when the icon is visible
+   tooltip = active_primarch_list_tt #Can use customizable localisation
+   
+#	frame_variable = "variable_name" #Use the value of a variable to determine the icon frame
+}
+custom_icon = {
+   name = primarch_12_portrait_icon #Must match a scripted iconType in a .gui file
+   potential = { } #Determines when the icon is visible
+   tooltip = active_primarch_list_tt #Can use customizable localisation
+   frame = {  #Can define multiple frame clauses
+		number = 4 #Which frame to use. Check dds files with multiple icons like icon_religion.dds
+		trigger = { always = yes } #First matched frame clause will be used.
+	}
+#	frame_variable = "variable_name" #Use the value of a variable to determine the icon frame
+}
+custom_icon = {
+   name = primarch_13_portrait_icon #Must match a scripted iconType in a .gui file
+   potential = { } #Determines when the icon is visible
+   tooltip = active_primarch_list_tt #Can use customizable localisation
+   frame = {  #Can define multiple frame clauses
+		number = 1 #Which frame to use. Check dds files with multiple icons like icon_religion.dds
+		trigger = { always = yes } #First matched frame clause will be used.
+	}
+#	frame_variable = "variable_name" #Use the value of a variable to determine the icon frame
+}
+custom_icon = {
+   name = primarch_14_portrait_icon #Must match a scripted iconType in a .gui file
+   potential = { } #Determines when the icon is visible
+   tooltip = active_primarch_list_tt #Can use customizable localisation
+   frame = {  #Can define multiple frame clauses
+		number = 5 #Which frame to use. Check dds files with multiple icons like icon_religion.dds
+		trigger = { always = yes } #First matched frame clause will be used.
+	}
+#	frame_variable = "variable_name" #Use the value of a variable to determine the icon frame
+}
+custom_icon = {
+   name = primarch_15_portrait_icon #Must match a scripted iconType in a .gui file
+   potential = { } #Determines when the icon is visible
+   tooltip = active_primarch_list_tt #Can use customizable localisation
+   frame = {  #Can define multiple frame clauses
+		number = 1 #Which frame to use. Check dds files with multiple icons like icon_religion.dds
+		trigger = { 
+			XXA={
+				has_country_flag = XV_redemed
+			}
+		} #First matched frame clause will be used.
+	}
+    frame = {  #Can define multiple frame clauses
+		number = 5 #Which frame to use. Check dds files with multiple icons like icon_religion.dds
+		trigger = { 
+			XYG={
+				exists = yes
+				has_ruler_flag = XV_Primarch
+			} 
+		} #First matched frame clause will be used.
+	}
+   frame = {  #Can define multiple frame clauses
+		number = 4 #Which frame to use. Check dds files with multiple icons like icon_religion.dds
+		trigger = { always = yes } #First matched frame clause will be used.
+	}
+#	frame_variable = "variable_name" #Use the value of a variable to determine the icon frame
+}
+custom_icon = {
+   name = primarch_16_portrait_icon #Must match a scripted iconType in a .gui file
+   potential = { } #Determines when the icon is visible
+   tooltip = active_primarch_list_tt #Can use customizable localisation
+   frame = {  #Can define multiple frame clauses
+		number = 1 #Which frame to use. Check dds files with multiple icons like icon_religion.dds
+		trigger = { always = yes } #First matched frame clause will be used.
+	}
+#	frame_variable = "variable_name" #Use the value of a variable to determine the icon frame
+}
+custom_icon = {
+   name = primarch_17_portrait_icon #Must match a scripted iconType in a .gui file
+   potential = { } #Determines when the icon is visible
+   tooltip = active_primarch_list_tt #Can use customizable localisation
+   frame = {  #Can define multiple frame clauses
+		number = 5 #Which frame to use. Check dds files with multiple icons like icon_religion.dds
+		trigger = { always = yes } #First matched frame clause will be used.
+	}
+#	frame_variable = "variable_name" #Use the value of a variable to determine the icon frame
+}
+custom_icon = {
+   name = primarch_18_portrait_icon #Must match a scripted iconType in a .gui file
+   potential = { } #Determines when the icon is visible
+   tooltip = active_primarch_list_tt #Can use customizable localisation
+   frame = {  #Can define multiple frame clauses
+		number = 3 #Which frame to use. Check dds files with multiple icons like icon_religion.dds
+		trigger = { always = yes } #First matched frame clause will be used.
+	}
+#	frame_variable = "variable_name" #Use the value of a variable to determine the icon frame
+}
+custom_icon = {
+   name = primarch_19_portrait_icon #Must match a scripted iconType in a .gui file
+   potential = { } #Determines when the icon is visible
+   tooltip = active_primarch_list_tt #Can use customizable localisation
+   frame = {  #Can define multiple frame clauses
+		number = 2 #Which frame to use. Check dds files with multiple icons like icon_religion.dds
+		trigger = { always = yes } #First matched frame clause will be used.
+	}
+#	frame_variable = "variable_name" #Use the value of a variable to determine the icon frame
+}
+custom_icon = {
+   name = primarch_20_portrait_icon #Must match a scripted iconType in a .gui file
+   potential = { } #Determines when the icon is visible
+   tooltip = active_primarch_list_tt #Can use customizable localisation
+   frame = {  #Can define multiple frame clauses
+		number = 3 #Which frame to use. Check dds files with multiple icons like icon_religion.dds
+		trigger = { always = yes } #First matched frame clause will be used.
+	}
+#	frame_variable = "variable_name" #Use the value of a variable to determine the icon frame
+}

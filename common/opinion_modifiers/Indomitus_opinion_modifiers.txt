@@ -7,3 +7,10 @@ imperial_warp_opinion = {
 	opinion = -100
 	yearly_decay = 1
 }
+
+is_AM_overlord = {
+	opinion = 75
+}
+is_AM_subject = {
+	opinion = 75
+}

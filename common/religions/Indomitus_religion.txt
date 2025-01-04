@@ -80,6 +80,29 @@ emperor_group = {
 			}
 		}
 	}
+	imperial_truth = {
+		color = { 138 131 118 }
+		icon = 22
+		country = {
+			free_policy = 1
+			production_efficiency = 0.10
+		}
+		country_as_secondary = {
+			free_adm_policy = 1
+		}
+		province = {
+			local_missionary_strength = -0.01
+		}
+		allowed_center_conversion = {
+			imperial_cult
+			death_cult
+			promethean_cult
+		}
+		
+		date = 9999.10.31
+		
+		heretic = { XENOCULT }
+	}
 	mechanicus = {
 		color = { 117 117 117 }
 		icon = 2
@@ -135,6 +158,22 @@ emperor_group = {
 		can_have_secondary_religion = yes
 		
 		heretic = { CHAOSHERESY XENOCULT }
+	}
+	
+	rebellious_cult = {
+		color = { 198 175 91 }
+		icon = 1
+		country = {
+			
+		}
+		country_as_secondary = {
+			free_adm_policy = 1
+		}
+		province = {
+			local_missionary_strength = 0.01
+		}
+		
+		heretic = { CHAOSHERESY IMPERIALTRUTH }
 	}
 }
 
@@ -337,10 +376,6 @@ tyranid_group = {
 		province = {
 			local_missionary_strength = -0.02
 		}
-
-		authority = yes
-		religious_reforms = yes
-		reform_tooltip = INTI_REFORM_TOOLTIP
 		
 		heretic = { FERALTYRANIDS }
 	}
@@ -358,6 +393,10 @@ tyranid_group = {
 		province = {
 			local_missionary_strength = -0.02
 		}
+		
+		authority = yes
+		religious_reforms = yes
+		reform_tooltip = INTI_REFORM_TOOLTIP
 		
 		heretic = { FERALTYRANIDS }
 	}

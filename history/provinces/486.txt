@@ -1,6 +1,5 @@
-add_core = XXA
-owner = XXA
-controller = XXA
+owner = XTB
+controller = XTB
 religion = imperial_cult
 culture = human_culture
 base_tax = 2
@@ -8,3 +7,5 @@ base_production = 2
 base_manpower = 2
 trade_goods = clerks
 capital = "Grand Honorificum"
+add_core = XTB
+is_city = no

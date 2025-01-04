@@ -1612,7 +1612,7 @@ iybraesil_webway_portal = {
 }
 kaelor_webway_portal = {
 	# province it starts in
-	start = 1089
+	start = 1108
 	
 	# date built in real life (so anything built during game time will be there if you start a game after that date)
 	date = 1895.06.20
@@ -1791,7 +1791,7 @@ kaelor_webway_portal = {
 }
 yme_loc_webway_portal = {
 	# province it starts in
-	start = 1089
+	start = 1100
 	
 	# date built in real life (so anything built during game time will be there if you start a game after that date)
 	date = 1895.06.20
@@ -1968,7 +1968,7 @@ yme_loc_webway_portal = {
 		}
 	}
 }
-yme_loc_webway_portal = {
+terra_webway_portal = {
 	# province it starts in
 	start = 1
 	

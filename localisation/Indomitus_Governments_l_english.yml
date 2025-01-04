@@ -41,8 +41,8 @@
  MECHANICUS_RANK_2: "Mechanicus Holdfast"
  MECHANICUS_RANK_3: "Mechanicus Protectorate"
 
- MECHANICUS_RULER_MALE_1: "Magos"
- MECHANICUS_RULER_MALE_2: "Prime Hermeticon"
+ MECHANICUS_RULER_MALE_1: "Archmagos"
+ MECHANICUS_RULER_MALE_2: "Fabricator-General"
  MECHANICUS_RULER_MALE_3: "Fabricator-General"
 
  DEATH_WATCH_RANK_1: "Watch Fortress"

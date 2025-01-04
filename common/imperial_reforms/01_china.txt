@@ -141,7 +141,11 @@ modernize_space_marines_decision = {
 	trigger = { 
 		num_of_banners = 25 
 	}
-	emperor = { }
+	emperor = { 
+		fire_damage_received = -0.10
+		shock_damage_received = -0.10
+		is_banner_modifier = yes 
+	}
 }
 
 restore_ultramar_borders_decision = {
@@ -165,6 +169,15 @@ restore_ultramar_borders_decision = {
 	}
 	on_effect = {
 		custom_tooltip = unlocks_ultramar_decision_tt
+		hidden_effect={
+			create_subject = {
+				subject_type = imperial_sector_subject
+				subject = XGK
+			}
+			XGK={
+				country_event = {id = imperium_events.8}
+			}
+		}
 	}
 }
 curtail_astartes_autonomy_decision = {
@@ -261,6 +274,18 @@ restore_imperial_truth_decision = {
 	empire = celestial_empire 
 	trigger = {
 		not = { empire_of_china_reform_passed = reform_ecclesiarchy_decision }
+		OR={
+			not = {
+				estate_influence = {
+					estate = estate_inquisition
+					influence = 30
+				}
+			}
+			estate_loyalty = {
+				estate = estate_inquisition 
+				loyalty = 90 
+			}
+		}
 		estate_loyalty = {
 			estate = estate_church 
 			loyalty = 60 

@@ -1,0 +1,116 @@
+estate_inquisition_disaster = {
+
+	potential = {
+		has_estate = estate_inquisition
+		estate_influence = {
+			estate = estate_inquisition
+			influence = 80
+		}
+		OR = {
+			NOT = { has_country_flag = estate_inquisition_triggered }
+			had_country_flag = {
+				flag = estate_inquisition_triggered
+				days = 365
+			}
+		}
+	}
+	
+	can_start = {
+		has_any_disaster = no
+		estate_influence = {
+			estate = estate_inquisition
+			influence = 100
+		}
+		is_at_war = no
+	}
+	
+	can_stop = {
+		OR = {
+			has_any_disaster = yes
+			NOT = {
+				estate_influence = {
+					estate = estate_inquisition
+					influence = 100
+				}		
+			}
+		}
+	}
+	
+	down_progress = {
+		factor = 0
+		modifier = {
+			factor = 1
+			NOT = {
+				estate_influence = {
+					estate = estate_inquisition
+					influence = 100
+				}
+			}
+		}
+	}
+	
+	progress = {	
+		modifier = {
+			factor = 0.5
+			NOT = {
+				estate_loyalty = {
+					estate = estate_inquisition
+					loyalty = 50
+				}
+			}
+			is_at_war = no
+		}
+		modifier = {
+			factor = 0.5
+			NOT = {
+				estate_loyalty = {
+					estate = estate_inquisition
+					loyalty = 40
+				}
+			}
+			is_at_war = no
+		}
+		modifier = {
+			factor = 1
+			NOT = {
+				estate_loyalty = {
+					estate = estate_inquisition
+					loyalty = 30
+				}
+			}
+			is_at_war = no
+		}
+		modifier = {
+			factor = 1
+			NOT = {
+				estate_loyalty = {
+					estate = estate_inquisition
+					loyalty = 20
+				}
+			}
+			is_at_war = no
+		}
+	}
+	
+	can_end = {
+		always = yes
+	}
+	
+	modifier = {	
+		imperial_mandate = -0.15
+		global_monthly_devastation = 0.1
+		tolerance_heretic = -2
+		tolerance_heathen = -2
+		adeptus_mechanicus_loyalty_modifier = -0.1
+		eunuchs_loyalty_modifier = -0.1
+		church_loyalty_modifier = -0.1
+		nobles_loyalty_modifier = -0.1
+		burghers_loyalty_modifier = -0.1
+	}
+	
+	on_start = estate_disasters.26
+	
+	on_start_effect = {
+		
+	}
+}

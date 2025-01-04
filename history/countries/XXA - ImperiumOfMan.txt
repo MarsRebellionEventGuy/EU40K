@@ -7,10 +7,17 @@ primary_culture = human_culture
 capital = 1
 fixed_capital = 1
 
-1970.12.12 = {
+change_estate_land_share = {
+	estate = estate_eunuchs
+	share = 7
+}
+
+1998.12.12 = {
 	monarch = {
 		name = "Roboute"
 		dynasty = "Guilliman"	
+		religion = "imperial_truth"
+		culture = "loyalist_astartes_culture"
 		adm = 6
 		dip = 4
 		mil = 5
@@ -22,7 +29,7 @@ fixed_capital = 1
 	set_ruler_flag = flag_is_primarch_13
 }
 
-1444.1.1 = {
+1999.1.1 = {
 	leader = {
 		name = "Trajann Valoris"
 		type = general
@@ -32,9 +39,6 @@ fixed_capital = 1
 		siege = 2
 		birth_date = 1959
 	}
-}
-
-1444.1.1 = {
 	leader = {
 		name = "Arcadian Leontus"
 		type = general
@@ -44,9 +48,6 @@ fixed_capital = 1
 		siege = 5
 		birth_date = 1959
 	}
-}
-
-1999.1.1 = {
 	leader = {
 		name = "Ursula Creed"
 		type = general
@@ -57,8 +58,6 @@ fixed_capital = 1
 		birth_date = 1975
 		female = yes
 	}
-}
-1444.1.1 = {
 	leader = {
 		name = "Drang"
 		type = admiral
@@ -68,9 +67,6 @@ fixed_capital = 1
 		siege = 2
 		birth_date = 1950
 	}
-}
-
-1444.1.1 = {
 	leader = {
 		name = "Quirin Prisca"
 		type = admiral

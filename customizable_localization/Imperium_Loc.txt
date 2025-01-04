@@ -337,9 +337,18 @@ defined_text = {
 }
 #primarchs list
 defined_text = {
-	name = GetPrimarch_I_Status
+	name = GetPrimarchIStatus
 	random = no
 	
+	text = {
+		localisation_key = Primarch_LION_PROTECTORATE
+		trigger={
+			XDH={
+				exists = yes
+				has_ruler_flag = I_Primarch
+			}
+		}
+	}
 	text = {
 		localisation_key = Primarch_Status_MIA
 	}

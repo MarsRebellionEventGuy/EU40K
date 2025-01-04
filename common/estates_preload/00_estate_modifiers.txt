@@ -545,6 +545,32 @@ estate_inquisition = {
 	}
 }
 
+estate_adeptus_mechanicus = {
+	modifier_definition = {
+		type = loyalty
+		key = adeptus_mechanicus_loyalty_modifier
+		trigger = {
+			has_estate = estate_adeptus_mechanicus
+		}
+	}
+
+	modifier_definition = {
+		type = influence
+		key = adeptus_mechanicus_influence_modifier
+		trigger = {
+			has_estate = estate_adeptus_mechanicus
+		}
+	}
+	
+	modifier_definition = {
+		type = privileges
+		key = adeptus_mechanicus_privilege_slots
+		trigger = {
+			has_estate = estate_adeptus_mechanicus
+		}
+	}
+}
+
 estate_ghulams = {
 	modifier_definition = {
 		type = loyalty

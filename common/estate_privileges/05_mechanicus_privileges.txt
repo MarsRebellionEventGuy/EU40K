@@ -1,0 +1,329 @@
+estate_mechanicus_privilege = {
+	icon = privilege_empty_throne
+	max_absolutism = -10
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
+	is_valid = { }
+	can_select = { }
+	influence = 0.1
+	loyalty = 0.1
+	benefits = { 
+	
+	}
+	modifier_by_land_ownership = {
+		
+	}
+	penalties = {
+	
+	}
+	on_granted = {
+		event_target:adeptus_mechanicus_tag={
+			add_country_modifier = { 
+				name = XXA_privileges_granted
+				duration = -1  
+			}
+		}
+	}
+	on_invalid = {
+		event_target:adeptus_mechanicus_tag = {remove_country_modifier = XXA_privileges_granted}
+	}
+	on_revoked = {
+		event_target:adeptus_mechanicus_tag = {remove_country_modifier = XXA_privileges_granted}
+	}
+	
+	ai_will_do = {
+		factor = 1
+		
+	}
+}
+estate_mechanicus_treaty_olympus = {
+	icon = privilege_aged_paper
+	loyalty = 0.1
+	influence = 0.3
+	max_absolutism = -15
+	land_share = 10
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
+	is_valid = {
+		has_estate_privilege = estate_mechanicus_treaty_olympus
+		has_subject_of_type = 0_mechanicus_subject_type
+	}
+	can_revoke = {
+		OR = {
+			crown_land_share = 40
+			AND = {
+				crown_land_share = 30
+				has_estate_privilege = estate_inquisition_increase_ordo_machinum
+			}
+		}
+		event_target:adeptus_mechanicus_tag={
+			not={liberty_desire = 10}
+		}
+		empire_of_china_reform_passed = centralizated_imperium_decision
+	}
+	on_granted = {
+		
+	}
+	on_revoked = {
+		
+	}
+	modifier_by_land_ownership = {
+		imperial_mandate = 0.05
+	}
+	mechanics = {
+		exempt_from_seize_land
+		no_estate_crownland_loss_from_developing
+	}
+	ai_will_do = {
+		factor = 0
+	}
+}
+estate_mechanicus_knowledge_quest_privilege = {
+	icon = privilege_technology
+	max_absolutism = -10
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
+	is_valid = { }
+	can_select = { }
+	influence = 0.05
+	loyalty = 0.05
+	benefits = { 
+		yearly_innovativeness = 0.02
+	}
+	modifier_by_land_ownership = {
+		
+	}
+	penalties = {
+		production_efficiency = -0.05
+	}
+	on_granted = {
+		event_target:adeptus_mechanicus_tag={
+			add_country_modifier = { 
+				name = XXA_knowledge_quest_condoned
+				duration = -1  
+			}
+		}
+	}
+	on_invalid = {
+		event_target:adeptus_mechanicus_tag = {remove_country_modifier = XXA_knowledge_quest_condoned}
+	}
+	on_revoked = {
+		event_target:adeptus_mechanicus_tag = {remove_country_modifier = XXA_knowledge_quest_condoned}
+	}
+	
+	ai_will_do = {
+		factor = 1
+		
+	}
+}
+estate_mechanicus_basilikon_astra_privilege = {
+	icon = estate_burghers_reliance_on_republics
+	max_absolutism = -10
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
+	is_valid = { }
+	can_select = {
+		not={
+			has_estate_privilege = estate_mechanicus_restrict_macroclade_count
+		}
+	}
+	influence = 0.05
+	loyalty = 0.05
+	benefits = { 
+		navy_tradition_decay = -0.01
+	}
+	modifier_by_land_ownership = {
+		trade_efficiency = 0.2
+	}
+	penalties = {
+		naval_forcelimit = -5
+	}
+	on_granted = {
+		event_target:adeptus_mechanicus_tag={
+			add_country_modifier = { 
+				name = XXA_basilikon_astra_expansion
+				duration = -1  
+			}
+		}
+	}
+	on_invalid = {
+		event_target:adeptus_mechanicus_tag = {remove_country_modifier = XXA_basilikon_astra_expansion}
+	}
+	on_revoked = {
+		event_target:adeptus_mechanicus_tag = {remove_country_modifier = XXA_basilikon_astra_expansion}
+	}
+	ai_will_do = {
+		factor = 1
+		
+	}
+}
+estate_mechanicus_monopoly_of_metals = {
+	icon = privilege_monopoly_of_goods_iron
+	max_absolutism = -10
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
+	loyalty = 0.05
+	is_valid = {
+		any_owned_province = {
+			trade_goods = minerals
+		}
+	}
+	can_select = {
+		custom_trigger_tooltip = {
+			tooltip = unavailable_during_revolution_disaster
+			NOT = { has_disaster = revolution }
+			NOT = {
+				has_disaster_progress = {
+					disaster = revolution
+					value = 1
+				}
+			}
+			NOT = { has_disaster = french_revolution }
+		}
+	}
+	on_granted = {
+		if = {
+			limit = {
+				minerals = 1
+			}
+			add_mercantilism = 1
+		}
+		add_years_of_owned_provinces_production_income = {
+			years = 8
+			trigger = {
+				trade_goods = minerals
+			}
+			custom_tooltip = MONOPOLY_INCOME_IRON_AND_COPPER_DESC
+		}
+		custom_tooltip = estate_maratha_monopoly_of_metals_effect_tooltip
+		event_target:adeptus_mechanicus_tag={
+			add_country_modifier = { 
+				name = XXA_metals_monopoly
+				duration = -1  
+			}
+		}
+	}
+	on_granted_province = {
+		if = {
+			limit = {
+				trade_goods = minerals
+			}
+			add_province_modifier = {
+				name = estate_maratha_monopoly_of_metals_mod
+				duration = -1
+			}
+		}
+		else_if = {
+			limit = {
+				has_province_modifier = estate_maratha_monopoly_of_metals_mod
+			}
+			remove_province_modifier = estate_maratha_monopoly_of_metals_mod
+		}
+	}
+	on_revoked = {
+		custom_tooltip = estate_maratha_monopoly_of_metals_revoke_tooltip
+		event_target:adeptus_mechanicus_tag = {remove_country_modifier = XXA_metals_monopoly}
+	}
+	on_revoked_province = {
+		if = {
+			limit = {
+				has_province_modifier = estate_maratha_monopoly_of_metals_mod
+			}
+			remove_province_modifier = estate_maratha_monopoly_of_metals_mod
+		}
+	}
+	on_invalid = {
+		custom_tooltip = estate_maratha_monopoly_of_metals_revoke_tooltip
+		event_target:adeptus_mechanicus_tag = {remove_country_modifier = XXA_metals_monopoly}
+	}
+	on_invalid_province = {
+		if = {
+			limit = {
+				has_province_modifier = estate_maratha_monopoly_of_metals_mod
+			}
+			remove_province_modifier = estate_maratha_monopoly_of_metals_mod
+		}
+	}
+	penalties = {
+	}
+	benefits = {
+	}
+	cooldown_years = 10
+	on_cooldown_expires = {
+		country_event = { id = monopoly_privileges.5 }
+	}
+	ai_will_do = {
+		factor = 0
+	}
+}
+estate_mechanicus_expand_knight_production = {
+	icon = privilege_raise_host
+	max_absolutism = -10
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
+	is_valid = { }
+	can_select = {
+		not={
+			has_estate_privilege = estate_mechanicus_restrict_macroclade_count
+		}
+	}
+	influence = 0.1
+	loyalty = 0.1
+	benefits = { 
+		cavalry_power = 0.10
+	}
+	modifier_by_land_ownership = {
+		cavalry_cost = -0.50
+	}
+	penalties = {
+	
+	}
+	on_granted = {
+		event_target:adeptus_mechanicus_tag={
+			add_country_modifier = { 
+				name = XXA_sending_knights
+				duration = -1  
+			}
+		}
+	}
+	on_invalid = {
+		event_target:adeptus_mechanicus_tag = {remove_country_modifier = XXA_sending_knights}
+	}
+	on_revoked = {
+		event_target:adeptus_mechanicus_tag = {remove_country_modifier = XXA_sending_knights}
+	}
+	
+	ai_will_do = {
+		factor = 1
+		
+	}
+}
+estate_mechanicus_restrict_macroclade_count = {
+	icon = privilege_royal_authority
+	max_absolutism = -10
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
+	is_valid = { }
+	can_select = { 
+		not={
+			has_estate_privilege = estate_mechanicus_privilege
+		}
+		not={
+			has_estate_privilege = estate_mechanicus_expand_knight_production
+		}
+	}
+	influence = -0.1
+	loyalty = -0.05
+	on_granted = {
+		event_target:adeptus_mechanicus_tag={
+			add_country_modifier = { 
+				name = XXA_restrained_army
+				duration = -1  
+			}
+		}
+	}
+	on_invalid = {
+		event_target:adeptus_mechanicus_tag = {remove_country_modifier = XXA_restrained_army}
+	}
+	on_revoked = {
+		event_target:adeptus_mechanicus_tag = {remove_country_modifier = XXA_restrained_army}
+	}
+	
+	ai_will_do = {
+		factor = 1
+		
+	}
+}
