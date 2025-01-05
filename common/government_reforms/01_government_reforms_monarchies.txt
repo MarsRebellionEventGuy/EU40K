@@ -216,9 +216,12 @@ necron_dynasty_reform = {
 	}
 
 	modifiers = {
-		technology_cost = -0.10
+		technology_cost = 9.99
 		autonomy_change_time = -0.25
 		may_return_manpower_on_disband = yes
+		global_manpower_modifier = -1.5
+		manpower_recovery_speed = -1.5
+		global_institution_spread = -1.5
 	}
 
 	ai = {

@@ -779,10 +779,10 @@ votann_culture_group = {
 	
 	kin_culture = {
 		male_names = {
-			Akkyt Okyp Drukh Pyko Niyak Yoht Korv Tok Vak Vykat Toryk Hyvor Kottak Krynn Uthar Ynnok Adunn Ettok Vok Vynn Aktol Vann Tajuk Svekh Yahp Hyvor Hak Havyr Kovymm Utann 
+			Akkyt Okyp Drukh Pyko Niyak Yoht Korv Tok Vak Vykat Toryk Hyvor Kottak Krynn Uthar Ynnok Adunn Ettok Vok Vynn Aktol Vann Tajuk Svekh Yahp Hyvor Hak Havyr Kovymm Utann Yva Yuka Kimm Vyha Simmka Ymma Ymme Vukha
 		}
 		female_names = {
-			Yva Yuka Kimm Vyha Simmka Ymma Ymme Vukha
+			Akkyt Okyp Drukh Pyko Niyak Yoht Korv Tok Vak Vykat Toryk Hyvor Kottak Krynn Uthar Ynnok Adunn Ettok Vok Vynn Aktol Vann Tajuk Svekh Yahp Hyvor Hak Havyr Kovymm Utann Yva Yuka Kimm Vyha Simmka Ymma Ymme Vukha
 		}
 		dynasty_names = {
 			Blohdfyr Keen-Eye Faenwroght Farstryd Ghunnar Grendok Grudgekeeper Gaard Hegem Hyrthka  Kronn Iyrnwerke Warspeke Vatyk Urann Thurkann Thuurk Seyr Sturmm Stoyk Strykk Bane-Slayer Rokhewyr Rheyd Regyl Orkhunter
@@ -796,7 +796,7 @@ tau_culture_group = {
 	province = { local_has_samurai = yes }
 	ethereal_culture = {
 		male_names = {
-			Aun'chau Aun'cho Aun'do Aun'fyr Aun'hhu Aun'jash Aun'kais Aun'kathl Aun'kir Aun'ko Aun'la Aun'la Aun'pau Aun'Ro Aun'shar Aun'shi Aun'taniel Aun'thel Aun'ui Aun'va Aun'vessol Aun'vos Aun'vre Aun'wei
+			Arra'kon Aun'chau Aun'cho Aun'do Aun'fyr Aun'hhu Aun'jash Aun'kais Aun'kathl Aun'kir Aun'ko Aun'la Aun'la Aun'pau Aun'Ro Aun'shar Aun'shi Aun'taniel Aun'thel Aun'ui Aun'va Aun'vessol Aun'vos Aun'vre Aun'wei
 		}
 		female_names = {
 			Arra'kon Aun'chau Aun'cho Aun'do Aun'fyr Aun'hhu Aun'jash Aun'kais Aun'kathl Aun'kir Aun'ko Aun'la Aun'la Aun'pau Aun'Ro Aun'shar Aun'shi Aun'taniel Aun'thel Aun'ui Aun'va Aun'vessol Aun'vos Aun'vre Aun'wei
