@@ -267,7 +267,7 @@
  string_start_government_heirs:1 "This means that the ruler is in place for life and that [Root.Monarch.GetHerHis] succession is dependent on having a designated §YHeir§!.\nHeirs are acquired either over time or through event choices. If the Monarch dies before your Heir reaches maturity, a §YRegency Council§! can take over, preventing the declaration of wars.\n"
  string_start_government_horde_heirs:0 "This means that the ruler is in place for life and that [Root.Monarch.GetHerHis] succession is dependent on having a designated §YHeir§!.\nHeirs are acquired either over time or through event choices.\n"
  string_start_government_heirs_no:0 ""
- string_tribal_institution_penalty:0 ", great penalties to §YInstitution Spread§!"
+ string_tribal_institution_penalty:0 ", great penalties to §YStandard Template Construct Spread§!"
  string_start_no_special_region_title:0 "You are playing in [Root.capital_continent_title]:"
  string_tribal_institution_penalty_no:0 ""
  string_start_europe:0 "Europe and the Holy Roman Empire"

@@ -276,6 +276,7 @@ categories =  {
 
 		movement_cost = 1
 		defence = 1.50
+		local_institution_spread = 0.25
 		local_development_cost = -0.15
 		supply_limit = 10
 		allowed_num_of_manufactories = 1

@@ -1,0 +1,4 @@
+discovery_astraeus = {
+	prestige = 0.25
+	devotion = 0.25
+}
