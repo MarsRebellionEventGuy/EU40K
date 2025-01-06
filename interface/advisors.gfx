@@ -21821,7 +21821,7 @@ spriteTypes = {
 	
 		spriteType = {
 		name = "GFX_advisor_female_xeno_culture_group_army_organiser"
-		texturefile = "gfx//interface//advisor_females//xeno_culture_group_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//xeno_culture_group_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -21830,7 +21830,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_female_xeno_culture_group_army_reformer"
-		texturefile = "gfx//interface//advisor_females//xeno_culture_group_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//xeno_culture_group_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -21839,7 +21839,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_female_xeno_culture_group_artist"
-		texturefile = "gfx//interface//advisor_females//xeno_culture_group_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//xeno_culture_group_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -21848,7 +21848,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_female_xeno_culture_group_colonial_governor"
-		texturefile = "gfx//interface//advisor_females//xeno_culture_group_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//xeno_culture_group_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -21857,7 +21857,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_female_xeno_culture_group_commandant"
-		texturefile = "gfx//interface//advisor_females//xeno_culture_group_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//xeno_culture_group_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -21866,7 +21866,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_female_xeno_culture_group_diplomat"
-		texturefile = "gfx//interface//advisor_females//xeno_culture_group_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//xeno_culture_group_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -21875,7 +21875,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_female_xeno_culture_group_fortification_expert"
-		texturefile = "gfx//interface//advisor_females//xeno_culture_group_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//xeno_culture_group_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -21884,7 +21884,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_female_xeno_culture_group_grand_captain"
-		texturefile = "gfx//interface//advisor_females//xeno_culture_group_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//xeno_culture_group_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -21893,7 +21893,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_female_xeno_culture_group_inquisitor"
-		texturefile = "gfx//interface//advisor_females//xeno_culture_group_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//xeno_culture_group_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -21902,7 +21902,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_female_xeno_culture_group_master_of_mint"
-		texturefile = "gfx//interface//advisor_females//xeno_culture_group_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//xeno_culture_group_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -21911,7 +21911,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_female_xeno_culture_group_natural_scientist"
-		texturefile = "gfx//interface//advisor_females//xeno_culture_group_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//xeno_culture_group_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -21920,7 +21920,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_female_xeno_culture_group_naval_reformer"
-		texturefile = "gfx//interface//advisor_females//xeno_culture_group_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//xeno_culture_group_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -21929,7 +21929,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_female_xeno_culture_group_navigator"
-		texturefile = "gfx//interface//advisor_females//xeno_culture_group_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//xeno_culture_group_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -21938,7 +21938,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_female_xeno_culture_group_philosopher"
-		texturefile = "gfx//interface//advisor_females//xeno_culture_group_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//xeno_culture_group_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -21947,7 +21947,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_female_xeno_culture_group_quartermaster"
-		texturefile = "gfx//interface//advisor_females//xeno_culture_group_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//xeno_culture_group_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -21956,7 +21956,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_female_xeno_culture_group_recruitmaster"
-		texturefile = "gfx//interface//advisor_females//xeno_culture_group_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//xeno_culture_group_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -21965,7 +21965,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_female_xeno_culture_group_spymaster"
-		texturefile = "gfx//interface//advisor_females//xeno_culture_group_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//xeno_culture_group_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -21974,7 +21974,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_female_xeno_culture_group_statesman"
-		texturefile = "gfx//interface//advisor_females//xeno_culture_group_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//xeno_culture_group_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -21983,7 +21983,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_female_xeno_culture_group_theologian"
-		texturefile = "gfx//interface//advisor_females//xeno_culture_group_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//xeno_culture_group_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -21992,7 +21992,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_female_xeno_culture_group_trader"
-		texturefile = "gfx//interface//advisor_females//xeno_culture_group_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//xeno_culture_group_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -22001,7 +22001,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_female_xeno_culture_group_treasurer"
-		texturefile = "gfx//interface//advisor_females//xeno_culture_group_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//xeno_culture_group_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -22200,7 +22200,7 @@ spriteTypes = {
 	
 		spriteType = {
 		name = "GFX_advisor_female_kroot_culture_army_organiser"
-		texturefile = "gfx//interface//advisor_females//kroot_culture_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//kroot_culture_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -22209,7 +22209,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_female_kroot_culture_army_reformer"
-		texturefile = "gfx//interface//advisor_females//kroot_culture_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//kroot_culture_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -22218,7 +22218,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_female_kroot_culture_artist"
-		texturefile = "gfx//interface//advisor_females//kroot_culture_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//kroot_culture_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -22227,7 +22227,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_female_kroot_culture_colonial_governor"
-		texturefile = "gfx//interface//advisor_females//kroot_culture_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//kroot_culture_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -22236,7 +22236,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_female_kroot_culture_commandant"
-		texturefile = "gfx//interface//advisor_females//kroot_culture_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//kroot_culture_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -22245,7 +22245,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_female_kroot_culture_diplomat"
-		texturefile = "gfx//interface//advisor_females//kroot_culture_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//kroot_culture_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -22254,7 +22254,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_female_kroot_culture_fortification_expert"
-		texturefile = "gfx//interface//advisor_females//kroot_culture_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//kroot_culture_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -22263,7 +22263,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_female_kroot_culture_grand_captain"
-		texturefile = "gfx//interface//advisor_females//kroot_culture_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//kroot_culture_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -22272,7 +22272,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_female_kroot_culture_inquisitor"
-		texturefile = "gfx//interface//advisor_females//kroot_culture_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//kroot_culture_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -22281,7 +22281,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_female_kroot_culture_master_of_mint"
-		texturefile = "gfx//interface//advisor_females//kroot_culture_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//kroot_culture_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -22290,7 +22290,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_female_kroot_culture_natural_scientist"
-		texturefile = "gfx//interface//advisor_females//kroot_culture_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//kroot_culture_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -22299,7 +22299,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_female_kroot_culture_naval_reformer"
-		texturefile = "gfx//interface//advisor_females//kroot_culture_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//kroot_culture_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -22308,7 +22308,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_female_kroot_culture_navigator"
-		texturefile = "gfx//interface//advisor_females//kroot_culture_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//kroot_culture_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -22317,7 +22317,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_female_kroot_culture_philosopher"
-		texturefile = "gfx//interface//advisor_females//kroot_culture_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//kroot_culture_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -22326,7 +22326,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_female_kroot_culture_quartermaster"
-		texturefile = "gfx//interface//advisor_females//kroot_culture_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//kroot_culture_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -22335,7 +22335,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_female_kroot_culture_recruitmaster"
-		texturefile = "gfx//interface//advisor_females//kroot_culture_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//kroot_culture_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -22344,7 +22344,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_female_kroot_culture_spymaster"
-		texturefile = "gfx//interface//advisor_females//kroot_culture_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//kroot_culture_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -22353,7 +22353,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_female_kroot_culture_statesman"
-		texturefile = "gfx//interface//advisor_females//kroot_culture_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//kroot_culture_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -22362,7 +22362,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_female_kroot_culture_theologian"
-		texturefile = "gfx//interface//advisor_females//kroot_culture_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//kroot_culture_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -22371,7 +22371,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_female_kroot_culture_trader"
-		texturefile = "gfx//interface//advisor_females//kroot_culture_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//kroot_culture_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -22380,7 +22380,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_female_kroot_culture_treasurer"
-		texturefile = "gfx//interface//advisor_females//kroot_culture_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//kroot_culture_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -22579,7 +22579,7 @@ spriteTypes = {
 	
 		spriteType = {
 		name = "GFX_advisor_female_vespid_culture_army_organiser"
-		texturefile = "gfx//interface//advisor_females//vespid_culture_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//vespid_culture_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -22588,7 +22588,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_female_vespid_culture_army_reformer"
-		texturefile = "gfx//interface//advisor_females//vespid_culture_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//vespid_culture_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -22597,7 +22597,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_female_vespid_culture_artist"
-		texturefile = "gfx//interface//advisor_females//vespid_culture_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//vespid_culture_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -22606,7 +22606,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_female_vespid_culture_colonial_governor"
-		texturefile = "gfx//interface//advisor_females//vespid_culture_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//vespid_culture_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -22615,7 +22615,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_female_vespid_culture_commandant"
-		texturefile = "gfx//interface//advisor_females//vespid_culture_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//vespid_culture_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -22624,7 +22624,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_female_vespid_culture_diplomat"
-		texturefile = "gfx//interface//advisor_females//vespid_culture_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//vespid_culture_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -22633,7 +22633,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_female_vespid_culture_fortification_expert"
-		texturefile = "gfx//interface//advisor_females//vespid_culture_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//vespid_culture_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -22642,7 +22642,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_female_vespid_culture_grand_captain"
-		texturefile = "gfx//interface//advisor_females//vespid_culture_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//vespid_culture_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -22651,7 +22651,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_female_vespid_culture_inquisitor"
-		texturefile = "gfx//interface//advisor_females//vespid_culture_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//vespid_culture_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -22660,7 +22660,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_female_vespid_culture_master_of_mint"
-		texturefile = "gfx//interface//advisor_females//vespid_culture_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//vespid_culture_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -22669,7 +22669,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_female_vespid_culture_natural_scientist"
-		texturefile = "gfx//interface//advisor_females//vespid_culture_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//vespid_culture_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -22678,7 +22678,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_female_vespid_culture_naval_reformer"
-		texturefile = "gfx//interface//advisor_females//vespid_culture_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//vespid_culture_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -22687,7 +22687,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_female_vespid_culture_navigator"
-		texturefile = "gfx//interface//advisor_females//vespid_culture_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//vespid_culture_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -22696,7 +22696,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_female_vespid_culture_philosopher"
-		texturefile = "gfx//interface//advisor_females//vespid_culture_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//vespid_culture_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -22705,7 +22705,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_female_vespid_culture_quartermaster"
-		texturefile = "gfx//interface//advisor_females//vespid_culture_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//vespid_culture_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -22714,7 +22714,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_female_vespid_culture_recruitmaster"
-		texturefile = "gfx//interface//advisor_females//vespid_culture_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//vespid_culture_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -22723,7 +22723,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_female_vespid_culture_spymaster"
-		texturefile = "gfx//interface//advisor_females//vespid_culture_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//vespid_culture_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -22732,7 +22732,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_female_vespid_culture_statesman"
-		texturefile = "gfx//interface//advisor_females//vespid_culture_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//vespid_culture_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -22741,7 +22741,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_female_vespid_culture_theologian"
-		texturefile = "gfx//interface//advisor_females//vespid_culture_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//vespid_culture_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -22750,7 +22750,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_female_vespid_culture_trader"
-		texturefile = "gfx//interface//advisor_females//vespid_culture_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//vespid_culture_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -22759,13 +22759,390 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_female_vespid_culture_treasurer"
-		texturefile = "gfx//interface//advisor_females//vespid_culture_advisor_female.dds"
+		texturefile = "gfx//interface//advisors//vespid_culture_advisor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
 		loadType = "INGAME"
 	}
+
+#Kin Advisors
+	spriteType = {
+		name = "GFX_advisor_kin_culture_army_organiser"
+		texturefile = "gfx//interface//advisors//kin_culture_army_organiser.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_advisor_kin_culture_army_reformer"
+		texturefile = "gfx//interface//advisors//kin_culture_army_reformer.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_advisor_kin_culture_artist"
+		texturefile = "gfx//interface//advisors//kin_culture_artist.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_advisor_kin_culture_colonial_governor"
+		texturefile = "gfx//interface//advisors//kin_culture_colonial_governor.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_advisor_kin_culture_commandant"
+		texturefile = "gfx//interface//advisors//kin_culture_commandant.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_advisor_kin_culture_diplomat"
+		texturefile = "gfx//interface//advisors//kin_culture_diplomat.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_advisor_kin_culture_fortification_expert"
+		texturefile = "gfx//interface//advisors//kin_culture_fortification_expert.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_advisor_kin_culture_grand_captain"
+		texturefile = "gfx//interface//advisors//kin_culture_grand_captain.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_advisor_kin_culture_inquisitor"
+		texturefile = "gfx//interface//advisors//kin_culture_inquisitor.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_advisor_kin_culture_master_of_mint"
+		texturefile = "gfx//interface//advisors//kin_culture_master_of_mint.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_advisor_kin_culture_natural_scientist"
+		texturefile = "gfx//interface//advisors//kin_culture_natural_scientist.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_advisor_kin_culture_naval_reformer"
+		texturefile = "gfx//interface//advisors//kin_culture_naval_reformer.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_advisor_kin_culture_navigator"
+		texturefile = "gfx//interface//advisors//kin_culture_navigator.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_advisor_kin_culture_philosopher"
+		texturefile = "gfx//interface//advisors//kin_culture_philosopher.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_advisor_kin_culture_quartermaster"
+		texturefile = "gfx//interface//advisors//kin_culture_quartermaster.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_advisor_kin_culture_recruitmaster"
+		texturefile = "gfx//interface//advisors//kin_culture_recruitmaster.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_advisor_kin_culture_spymaster"
+		texturefile = "gfx//interface//advisors//kin_culture_spymaster.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_advisor_kin_culture_statesman"
+		texturefile = "gfx//interface//advisors//kin_culture_statesman.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_advisor_kin_culture_theologian"
+		texturefile = "gfx//interface//advisors//kin_culture_theologian.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_advisor_kin_culture_trader"
+		texturefile = "gfx//interface//advisors//kin_culture_trader.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_advisor_kin_culture_treasurer"
+		texturefile = "gfx//interface//advisors//kin_culture_treasurer.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_advisor_kin_culture_army_organiser_female"
+		texturefile = "gfx//interface//advisors//kin_culture_army_organiser_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_advisor_kin_culture_army_reformer_female"
+		texturefile = "gfx//interface//advisors//kin_culture_army_reformer_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_advisor_kin_culture_artist_female"
+		texturefile = "gfx//interface//advisors//kin_culture_artist_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_advisor_kin_culture_colonial_governor_female"
+		texturefile = "gfx//interface//advisors//kin_culture_colonial_governor_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_advisor_kin_culture_commandant_female"
+		texturefile = "gfx//interface//advisors//kin_culture_commandant_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_advisor_kin_culture_diplomat_female"
+		texturefile = "gfx//interface//advisors//kin_culture_diplomat_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_advisor_kin_culture_fortification_expert_female"
+		texturefile = "gfx//interface//advisors//kin_culture_fortification_expert_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_advisor_kin_culture_grand_captain_female"
+		texturefile = "gfx//interface//advisors//kin_culture_grand_captain_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_advisor_kin_culture_inquisitor_female"
+		texturefile = "gfx//interface//advisors//kin_culture_inquisitor_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_advisor_kin_culture_master_of_mint_female"
+		texturefile = "gfx//interface//advisors//kin_culture_master_of_mint_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_advisor_kin_culture_natural_scientist_female"
+		texturefile = "gfx//interface//advisors//kin_culture_natural_scientist_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_advisor_kin_culture_naval_reformer_female"
+		texturefile = "gfx//interface//advisors//kin_culture_naval_reformer_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_advisor_kin_culture_navigator_female"
+		texturefile = "gfx//interface//advisors//kin_culture_navigator_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_advisor_kin_culture_philosopher_female"
+		texturefile = "gfx//interface//advisors//kin_culture_philosopher_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_advisor_kin_culture_quartermaster_female"
+		texturefile = "gfx//interface//advisors//kin_culture_quartermaster_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_advisor_kin_culture_recruitmaster_female"
+		texturefile = "gfx//interface//advisors//kin_culture_recruitmaster_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_advisor_kin_culture_spymaster_female"
+		texturefile = "gfx//interface//advisors//kin_culture_spymaster_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_advisor_kin_culture_statesman_female"
+		texturefile = "gfx//interface//advisors//kin_culture_statesman_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_advisor_kin_culture_theologian_female"
+		texturefile = "gfx//interface//advisors//kin_culture_theologian_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_advisor_kin_culture_trader_female"
+		texturefile = "gfx//interface//advisors//kin_culture_trader_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_advisor_kin_culture_treasurer_female"
+		texturefile = "gfx//interface//advisors//kin_culture_treasurer_female.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+
 }
-
-
-
