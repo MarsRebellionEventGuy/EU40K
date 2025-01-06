@@ -1,5 +1,5 @@
 ﻿l_english:
-#demands size s
+ #demands size s
  admech_vassalisation_demands_s_adm_1:0 "Shared secrets"
  admech_vassalisation_demands_s_adm_2:0 "Diverted industry output"
  admech_vassalisation_demands_s_adm_3:0 "Shared STCs"
@@ -43,7 +43,7 @@
  admech_vassalisation_demands_m_mil_5:0 "Titans lended"
  admech_vassalisation_demands_m_mil_6:0 "Diverted legion supplies"
  
-#demands size l
+ #demands size l
  admech_vassalisation_demands_l_adm_1:0 "Shared secrets"
  admech_vassalisation_demands_l_adm_2:0 "Diverted industry output"
  admech_vassalisation_demands_l_adm_3:0 "Shared STCs"
@@ -113,10 +113,27 @@
  admech_vassalisation_abandoned:0 "Negotiation abandoned"
  admech_vassalisation_cooldown:0 "Had recent negotiation"
  priesthood_infiltrated:0 "Priesthood infiltrated"
- 
+
+ ###forge world subjects
  integrated_forgeworld_subject_modifier:0 ""
  integrated_forgeworld_low_development_subject_modifier:0 ""
  integrated_forgeworld_high_development_subject_modifier:0 ""
  integrated_forgeworld_overlord_modifier:0 ""
  integrated_major_forgeworld_subject_modifier:0 ""
  integrated_major_forgeworld_overlord_modifier:0 ""
+
+ ###province modifiers
+ minor_forge_world_mod:0 "Minor forge world"
+ minor_forge_world_mod_desc:0 "A forge world of little renown."
+ forge_world_1_mod:0 "Small forge world"
+ forge_world_1_mod_desc:0 "A forge world with a large potential"
+ forge_world_2_mod:0 "Forge world"
+ forge_world_2_mod_desc:0 "A productive forge world" 
+ forge_world_3_mod:0 "Large forge world"
+ forge_world_3_mod_desc:0 "A forge world of immense industrial might"  
+ forge_world_4_mod:0 "Mighty forge world"
+ forge_world_4_mod_desc:0 "A forge world of wise priests and mechanical marvels"
+ fallen_forge_world_mod:0 "Fallen forge world"
+ fallen_forge_world_mod_desc:0 "A world that has been lost to the diciples of the Maschine God"
+ hell_forge_mod:0 "Hell forge"
+ hell_forge_mod_desc:0 "A damned world on which Hereteks create their twisted machines"
