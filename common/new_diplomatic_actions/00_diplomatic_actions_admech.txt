@@ -325,6 +325,9 @@ offer_forgeworld_subjugation = {
 			AND = {
 				NOT = { capital_distance = 300 }
 				tag = XDO 				#Lucius - very powerful and isolated forge world in Imperium Nihilus
+			AND = {
+				NOT = { capital_distance = 400 }
+				tag = XXB				#Mars
 			}
 		}
 	}
@@ -350,6 +353,7 @@ promote_vassal_to_forgeworld = {
 		FROM = {
 			is_subject_of = ROOT
 			is_subject_of_type = vassal
+			religion = mechanicus
 		}
 	}
 	is_allowed = {
