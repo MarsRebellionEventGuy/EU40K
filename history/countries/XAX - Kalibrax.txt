@@ -1,4 +1,4 @@
-government = republic
+government = theocracy
 add_government_reform = minor_forgeworld_reform
 government_rank = 1
 technology_group = mechanicus
