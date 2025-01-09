@@ -37,7 +37,6 @@ ork_government_reform = {
 	modifiers = {
 		no_cost_for_reinforcing = yes
 		loot_amount = 0.50
-		global_institution_spread = -0.15
 		relation_with_heathens = -100
 		reverse_relation_with_heathens = -100
 	}

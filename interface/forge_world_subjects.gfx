@@ -12,4 +12,23 @@ spriteTypes = {
 		name = "GFX_icon_diplomacy_am_integrated_forgeworld_type"
 		texturefile = "gfx/interface/icon_diplomacy_am_admech_forgeworld_subject.dds"
 	}
+	spriteType = {
+		name = "icon_fallen_forge_world"
+		texturefile = "gfx//interface//ideas_eu4//icon_fallen_forge_world.dds"
+	}
+	
+	spriteType = {
+		name = "icon_forge_world"
+		texturefile = "gfx//interface//ideas_eu4//icon_forge_world.dds"
+	}
+	
+	spriteType = {
+		name = "icon_minor_forge_world"
+		texturefile = "gfx//interface//ideas_eu4//icon_minor_forge_world.dds"
+	}
+	
+	spriteType = {
+		name = "icon_hell_forge"
+		texturefile = "gfx//interface//ideas_eu4//icon_hell_forge.dds"
+	}
 }

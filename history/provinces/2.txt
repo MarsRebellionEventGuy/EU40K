@@ -8,3 +8,9 @@ base_production = 12
 base_manpower = 10
 capital = "Olympus Mons"
 trade_goods = archaotech
+
+add_permanent_province_modifier = {
+	name = forge_world_1_mod
+	duration = -1
+	desc = forge_world_1_mod_desc
+}

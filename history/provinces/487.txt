@@ -8,3 +8,9 @@ base_production = 4
 base_manpower = 2
 trade_goods = military_equipment
 capital = "Heptaligon"
+
+add_permanent_province_modifier = {
+	name = minor_forge_world_mod
+	duration = -1
+	desc = minor_forge_world_mod_desc
+}

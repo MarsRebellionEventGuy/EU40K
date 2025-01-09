@@ -1311,7 +1311,7 @@ NMilitary = {
 	GALLEY_SHIP_SAILORS_COST = 50,					-- 1 = 1 men in cost.
 	TRANSPORT_SHIP_SAILORS_COST = 50,				-- 1 = 1 men in cost.
 	MAX_MANPOWER = 10, 								-- years in mp pool
-	MIN_MONTHLY_MANPOWER = 0.1,						-- 100 men/month is minimum
+	MIN_MONTHLY_MANPOWER = 0,						-- 100 men/month is minimum
 	MAX_SAILORS = 10, 								-- years in mp pool
 	MIN_MONTHLY_SAILORS = 5,						-- 5 sailors/month is minimum
 	SLAVE_RAIDS_SAILOR_FACTOR = 0.25,						--

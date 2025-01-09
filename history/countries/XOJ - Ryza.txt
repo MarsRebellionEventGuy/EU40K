@@ -1,5 +1,5 @@
 government = theocracy
-add_government_reform = forge_world_reform
+add_government_reform = forgeworld_reform
 government_rank = 2
 technology_group = mechanicus
 religion = mechanicus
