@@ -22,31 +22,38 @@ admech_vassalisation_cooldown = {
 
 ### forge world province modifiers
 fallen_forge_world_mod = {
-	
+	province_trade_power_value = 0.5
+	picture = "icon_fallen_forge_world"
 }
 
 minor_forge_world_mod = {
-	province_trade_power_value = 5
+	province_trade_power_value = 10
+	picture = "icon_minor_forge_world"
 }
 
 forge_world_1_mod = {
 	province_trade_power_value = 10
+	picture = "icon_forge_world"
 }
 
 forge_world_2_mod = {
 	province_trade_power_value = 10
+	picture = "icon_forge_world"
 }
 
 forge_world_3_mod = {
 	province_trade_power_value = 10
+	picture = "icon_forge_world"
 }
 
 forge_world_4_mod = {
 	province_trade_power_value = 10
+	picture = "icon_forge_world"
 }
 
 hell_forge_mod = {
 	province_trade_power_value = 10
+	picture = "icon_hell_forge"
 }
 
 XXA_basilikon_astra_expansion={
