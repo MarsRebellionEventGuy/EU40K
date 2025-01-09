@@ -8,3 +8,9 @@ base_production = 3
 base_manpower = 2
 trade_goods = military_equipment
 
+add_permanent_province_modifier = {
+	name = hell_forge_mod
+	duration = -1
+	desc = hell_forge_mod_desc
+}
+
