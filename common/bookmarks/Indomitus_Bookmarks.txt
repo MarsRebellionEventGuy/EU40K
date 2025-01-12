@@ -14,7 +14,7 @@ bookmark = {
     # Optional. Executes effects when game is started from this bookmark.
 }
 bookmark = {
-    name = "bookmark12"
+    name = "bookmark_orphean_war"
     desc = "bookmark_orphean_war_desc"
     date = 1999.1.1       
     	country = XXA               
@@ -29,7 +29,7 @@ bookmark = {
     # Optional. Executes effects when game is started from this bookmark.
 }
 bookmark = {
-    name = "bookmark13"
+    name = "bookmark_war_of_the_beasts"
     desc = "bookmark_war_of_the_beasts_desc"
     date = 1999.1.1       
     	country = XXA               
