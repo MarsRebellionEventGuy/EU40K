@@ -13,3 +13,33 @@ bookmark = {
     
     # Optional. Executes effects when game is started from this bookmark.
 }
+bookmark = {
+    name = "bookmark12"
+    desc = "bookmark_orphean_war_desc"
+    date = 1999.1.1       
+    	country = XXA               
+	country = XXB
+	country = XGK
+    	easy_country = XXA               
+	easy_country = XGK
+    # easy_country = <tag>            # Optional. Adds country shield to the selection view with a green glow.
+    
+    default = no                  # Makes this bookmark the automatically selected bookmark on game load. Only use once.
+    
+    # Optional. Executes effects when game is started from this bookmark.
+}
+bookmark = {
+    name = "bookmark13"
+    desc = "bookmark_war_of_the_beasts_desc"
+    date = 1999.1.1       
+    	country = XXA               
+	country = XXB
+	country = XGK
+    	easy_country = XXA               
+	easy_country = XGK
+    # easy_country = <tag>            # Optional. Adds country shield to the selection view with a green glow.
+    
+    default = no                  # Makes this bookmark the automatically selected bookmark on game load. Only use once.
+    
+    # Optional. Executes effects when game is started from this bookmark.
+}
