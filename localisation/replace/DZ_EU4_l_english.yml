@@ -63,9 +63,9 @@
 
 
 
+#Not implemented
 
-
- bookmark11:0 "Legion I: Hydra Dominatus"
+ bookmark11:0 "Legion I: Dark Angels"
  bookmark_desc11:0 ""
  bookmark12:0 "Legion III: Lords of Profligacy"
  bookmark_desc12:0 ""
@@ -83,7 +83,24 @@
  bookmark_desc18:0 ""
  bookmark19:0 "Legion X: Iron Hands"
  bookmark_desc19:0 ""
-
+ bookmark19:0 "Legion XII"
+ bookmark_desc19:0 ""
+ bookmark19:0 "Legion XIII"
+ bookmark_desc19:0 ""
+ bookmark19:0 "Legion XIV"
+ bookmark_desc19:0 ""
+ bookmark19:0 "Legion XV"
+ bookmark_desc19:0 ""
+ bookmark19:0 "Legion XVI"
+ bookmark_desc19:0 ""
+ bookmark19:0 "Legion XVII"
+ bookmark_desc19:0 ""
+ bookmark19:0 "Legion XVIII"
+ bookmark_desc19:0 ""
+ bookmark19:0 "Legion XIX"
+ bookmark_desc19:0 ""
+ bookmark19:0 "Legion XX: Hydra Dominatus"
+ bookmark_desc19:0 ""
  #bookmark:0 "Warzone: War of the Beasts"
  #bookmark_desc1:0 ""
  #bookmark:0 "Warzone: Darktide"
