@@ -10,84 +10,96 @@
 
  adeptus_mechanicus_reform:0 "Adeptus Mechanicus"
  adeptus_mechanicus_reform_desc:0 ""
- cawl_reform:0 "Tentative Innovation"
- cawl_reform_desc:0 ""
+
+ bookmark1:0 "The Indomitus Crusade" 
+ bookmark_desc1:0 "Imperium"
+# Imperium of Man bookmark
+# Important Countries: Imperium of Man
+# Important events to mention:
+# - Brief overview of the Imperium
+# - Guilliman is resurrected and coronated as Emperor
+# - Imperium lost the 13th Black Crusade, Great Rift formed and temporarily shut down Astronamican.
+# - Battle of Lion's Gate devastated Terra, Guilliman plans on reforming the Imperium and launching Indomitus Crusade to reclaim Imperium
 
 
+ bookmark2:0 "Children of the Omnissiah"
+ bookmark_desc2:0 "AdMech"
 
 
- 
- bookmark1:0 "The Indomitus Crusade"
- bookmark_desc1:0 ""
- bookmark2:0 "The Lost Chapters"
- bookmark_desc2:0 ""
- bookmark2:0 "Protectorates of the Imperium Nihilus"
- bookmark_desc2:0 ""
- bookmark3:0 "The Pariah Nexus"
- bookmark_desc3:0 ""
- bookmark4:0 "Remnants of the Black Crusade"
- bookmark_desc4:0 ""
+# Adeptus Mechanicus bookmark
+# Important Countries: Mars, Ryza, Graia, Metalica, Agripinaa, Stygies, Lucius, Cult of Sollex
+# Important events to mention:
+# - Brief overview of AdMech as a faction
+# - Forge Worlds openly seceding from Mars due to formation of Great Rift fragmenting communications between Forge Worlds and providing opportunity for secession
+# - Belisarius Cawl's production of Primaris Marines indicates potential for AdMech to reverse its technologcial stagnation
+# - AdMech sending out Torchbearer fleets to contact lost Forge Worlds and reunite Adeptus Mechanicus
+
+ bookmark3:0 "The Stormlord and the Silent King"
+ bookmark_desc3:0 "Necrons"
+
+# Necron Bookmark
+# Important Countries: Szarekh, Sautekh, Maynarkh, Mephrit, Nephrekh, Drazak, Solemnace, Severed
+# Important events to mention:
+# - Brief overview of Necrons as a faction
+# - Necron Dynasties divided between supporting established power of Imotekh the Stormlord (Sautekh) and resurgent power of the Szarekh the Silent King (Szarekhan)
+# - Necron society divided between reversing biotransference by finding suitable biological bodies (returning to the Necrontyr) or embracing their existence as Necrons and exterminating all life
+# - Szarekh constructing Pariah Nexus out of Blackstone to eliminate Warp, it has began spreading across the Nephilim Sector and causes Humans to experience "The Stilling"
+
+ bookmark4:0 "Rise of the Ynnari"
+ bookmark_desc4:0 "Craftwords"
  bookmark5:0 "The Third Tyrannic War"
- bookmark_desc5:0 ""
+ bookmark_desc5:0 "Tyranids"
  bookmark6:0 "Da Great Waaagh!"
- bookmark_desc6:0 ""
- bookmark7:0 "Rise of the Ynnari"
- bookmark_desc7:0 ""
- bookmark8:0 "Fifth Sphere of Expansion"
- bookmark_desc8:0 ""
- bookmark9:0 "The Leagues of Votann"
- bookmark_desc9:0 ""
+ bookmark_desc6:0 "Orks"
+ bookmark7:0 "Fourth Sphere of Expansion"
+ bookmark_desc7:0 "T'au"
+ bookmark8:0 "Herald of the Devourer"
+ bookmark_desc8:0 "Genestealers"
+ bookmark9:0 "Crisis in the Core"
+ bookmark_desc9:0 "Votann"
  bookmark10:0 "Enemies Unknown"
- bookmark_desc10:0 ""
- bookmark11:0 "Countries with Unique Missions"
+ bookmark_desc10:0 "Minor Xenos"
+
+
+
+
+
+
+ bookmark11:0 "Legion I: Hydra Dominatus"
  bookmark_desc11:0 ""
- 
- 
- 
- crops:0 "Crops"
- cropsDESC:0 "Fresh produce grown from the ground."
- 
- water:0 "Water"
- waterDESC:0 "Potable water for drinking."
- 
- canned_goods:0 "Canned Goods"
- canned_goodsDESC:0 "Food preserved in cans with a long shelf life."
- 
- clothing:0 "Clothing"
- clothingDESC:0 "Shirts, pants, hats, and other apparel to cover one's body."
- 
- office_supplies:0 "Office Supplies"
- office_suppliesDESC:0 "Pencils, paper, staplers, and various things found in offices."
- 
- raw_materials:0 "Raw Materials"
- raw_materialsDESC:0 "Wooden logs, scrap metal, stone, and other basic materials that can be refined in various ways."
- 
- fuel:0 "Fuel"
- fuelDESC:0 "Gasoline used to power generators and vehicles."
- 
- tools:0 "Tools"
- toolsDESC:0 "Objects used for building or other tasks, such as hammers, screwdrivers, or saws."
- 
- refined_goods:0 "Refined Goods"
- refined_goodsDESC:0 "Timber, bricks, pipes and things that have been refined and are ready to use."
- 
- medical_supplies:0 "Medical Supplies"
- medical_suppliesDESC:0 "Bandages, medicine, and other things essential for medical treatment."
- 
- chemicals:0 "Chemicals"
- chemicalsDESC:0 "Various containers of chemicals used in a variety of applications."
- 
- ammo:0 "Ammunition"
- ammoDESC:0 "Bullets and shells that can be used in firearms."
- 
- electronics:0 "Electronics"
- electronicsDESC:0 "Phones, laptops, and other bits of electronic objects."
- 
- vehicle_parts:0 "Vehicle Parts"
- vehicle_partsDESC:0 "Spare parts from the inside of a motor vehicle."
- 
- makeshift_weapons:0 "Makeshift Weapons"
- makeshift_weaponsDESC:0 "Clubs, baseball bats with nails, and other homemade weapons."
+ bookmark12:0 "Legion III: Lords of Profligacy"
+ bookmark_desc12:0 ""
+ bookmark13:0 "Legion IV: Iron Within, Iron Without"
+ bookmark_desc13:0 ""
+ bookmark14:0 "Legion V: Hordes of Jaghatai"
+ bookmark_desc14:0 ""
+ bookmark15:0 "Legion VI: Heralds of the Wolftime"
+ bookmark_desc15:0 ""
+ bookmark16:0 "Legion VII: Defenders of Terra"
+ bookmark_desc16:0 ""
+ bookmark17:0 "Legion VIII: Ave Dominus Nox"
+ bookmark_desc17:0 ""
+ bookmark18:0 "Legion IX: Blood Angels"
+ bookmark_desc18:0 ""
+ bookmark19:0 "Legion X: Iron Hands"
+ bookmark_desc19:0 ""
+
+ #bookmark:0 "Warzone: War of the Beasts"
+ #bookmark_desc1:0 ""
+ #bookmark:0 "Warzone: Darktide"
+ #bookmark_desc1:0 ""
+ #bookmark:0 "Warzone: Necromundan Civil War"
+ #bookmark_desc:0 ""
+ #bookmark:0 "Warzone: Third Armaggedon War"
+ #bookmark_desc:0 ""
+ #bookmark:0 "Warzone: War of Rust and Slime"
+ #bookmark_desc:0 ""
+ #bookmark:0 "Warzone: Battle of the Bridges"
+ #bookmark_desc:0 ""
+ #bookmark:0 "Warzone: Betrayal on Donatos"
+ #bookmark_desc:0 ""
+ #bookmark:0 "Warzone: Orphean War"
+ #bookmark_desc:0 ""
  
 
 

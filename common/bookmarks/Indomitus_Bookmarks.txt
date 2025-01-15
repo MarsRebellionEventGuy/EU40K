@@ -13,3 +13,111 @@ bookmark = {
     
     # Optional. Executes effects when game is started from this bookmark.
 }
+
+bookmark = {
+    name = "bookmark2"
+    desc = "bookmark_desc2"
+    date = 1999.1.1
+    	country = XXA  
+    # easy_country = <tag>            # Optional. Adds country shield to the selection view with a green glow.
+    
+    default = yes                   # Makes this bookmark the automatically selected bookmark on game load. Only use once.
+    
+    # Optional. Executes effects when game is started from this bookmark.
+}
+
+bookmark = {
+    name = "bookmark3"
+    desc = "bookmark_desc3"
+    date = 1999.1.1       
+    	country = XXA               
+    # easy_country = <tag>            # Optional. Adds country shield to the selection view with a green glow.
+    
+    default = yes                   # Makes this bookmark the automatically selected bookmark on game load. Only use once.
+    
+    # Optional. Executes effects when game is started from this bookmark.
+}
+
+bookmark = {
+    name = "bookmark4"
+    desc = "bookmark_desc4"
+    date = 1999.1.1       
+    	country = XXA               
+    # easy_country = <tag>            # Optional. Adds country shield to the selection view with a green glow.
+    
+    default = yes                   # Makes this bookmark the automatically selected bookmark on game load. Only use once.
+    
+    # Optional. Executes effects when game is started from this bookmark.
+}
+
+bookmark = {
+    name = "bookmark5"
+    desc = "bookmark_desc5"
+    date = 1999.1.1       
+    	country = XXA               
+    # easy_country = <tag>            # Optional. Adds country shield to the selection view with a green glow.
+    
+    default = yes                   # Makes this bookmark the automatically selected bookmark on game load. Only use once.
+    
+    # Optional. Executes effects when game is started from this bookmark.
+}
+
+bookmark = {
+    name = "bookmark6"
+    desc = "bookmark_desc6"
+    date = 1999.1.1       
+    	country = XXA               
+    # easy_country = <tag>            # Optional. Adds country shield to the selection view with a green glow.
+    
+    default = yes                   # Makes this bookmark the automatically selected bookmark on game load. Only use once.
+    
+    # Optional. Executes effects when game is started from this bookmark.
+}
+
+bookmark = {
+    name = "bookmark7"
+    desc = "bookmark_desc7"
+    date = 1999.1.1       
+    	country = XXA               
+    # easy_country = <tag>            # Optional. Adds country shield to the selection view with a green glow.
+    
+    default = yes                   # Makes this bookmark the automatically selected bookmark on game load. Only use once.
+    
+    # Optional. Executes effects when game is started from this bookmark.
+}
+
+bookmark = {
+    name = "bookmark8"
+    desc = "bookmark_desc8"
+    date = 1999.1.1       
+    	country = XXA               
+    # easy_country = <tag>            # Optional. Adds country shield to the selection view with a green glow.
+    
+    default = yes                   # Makes this bookmark the automatically selected bookmark on game load. Only use once.
+    
+    # Optional. Executes effects when game is started from this bookmark.
+}
+
+bookmark = {
+    name = "bookmark9"
+    desc = "bookmark_desc9"
+    date = 1999.1.1       
+    	country = XXA               
+    # easy_country = <tag>            # Optional. Adds country shield to the selection view with a green glow.
+    
+    default = yes                   # Makes this bookmark the automatically selected bookmark on game load. Only use once.
+    
+    # Optional. Executes effects when game is started from this bookmark.
+}
+
+bookmark = {
+    name = "bookmark10"
+    desc = "bookmark_desc10"
+    date = 1999.1.1       
+    	country = XXA               
+    # easy_country = <tag>            # Optional. Adds country shield to the selection view with a green glow.
+    
+    default = yes                   # Makes this bookmark the automatically selected bookmark on game load. Only use once.
+    
+    # Optional. Executes effects when game is started from this bookmark.
+}
