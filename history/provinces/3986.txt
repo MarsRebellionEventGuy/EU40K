@@ -1,0 +1,10 @@
+add_core = XHG
+owner = XHG
+controller = XHG
+religion = mechanicus
+culture = mechanicus_culture
+base_tax = 1
+base_production = 4
+base_manpower = 3
+trade_goods = clerks
+
