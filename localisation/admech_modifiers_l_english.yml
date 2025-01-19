@@ -137,3 +137,6 @@
  fallen_forge_world_mod_desc:0 "A world that has been lost to the diciples of the Maschine God"
  hell_forge_mod:0 "Hell forge"
  hell_forge_mod_desc:0 "A damned world on which Hereteks create their twisted machines"
+
+ lucius_defense_mod:0 "Core defenses"
+ lucius_defense_mod_desc:0 "Once the few entry points are sealed, the hollow core of Lucius is only accessable via teleportarium. Thus it is almost impossible to fully conquer the forge world."
