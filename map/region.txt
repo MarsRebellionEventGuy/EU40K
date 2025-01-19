@@ -5,7 +5,7 @@
 segmentum_solar_region = { 
 	areas = { 
 		solar avellorn benediction voss gathalamor xenax keletros solar_star_keeps atoma_prime nox_alpha
-		benediction_planet dulmalin gathalamor_planet vorlese vilamus_planet voss_planet
+		benediction_planet dulmalin gathalamor_planet vorlese vilamus_planet voss_planet mars_planet
 	}
 }
 talis_munus_region = { 
