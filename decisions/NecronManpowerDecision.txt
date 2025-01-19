@@ -166,8 +166,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -340,8 +342,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -514,8 +518,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -688,8 +694,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -862,8 +870,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -1036,8 +1046,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -1210,8 +1222,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -1384,8 +1398,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -1558,8 +1574,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -1732,8 +1750,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -1906,8 +1926,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -2080,8 +2102,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -2254,8 +2278,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -2428,8 +2454,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -2602,8 +2630,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -2776,8 +2806,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -2950,8 +2982,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -3124,8 +3158,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -3298,8 +3334,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -3472,8 +3510,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -3646,8 +3686,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -3820,8 +3862,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -3994,8 +4038,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -4168,8 +4214,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -4342,8 +4390,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -4516,8 +4566,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -4690,8 +4742,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -4864,8 +4918,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -5038,8 +5094,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -5212,8 +5270,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -5386,8 +5446,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -5560,8 +5622,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -5734,8 +5798,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -5908,8 +5974,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -6082,8 +6150,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -6256,8 +6326,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -6430,8 +6502,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -6604,8 +6678,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -6778,8 +6854,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -6952,8 +7030,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -7126,8 +7206,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -7300,8 +7382,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -7474,8 +7558,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -7648,8 +7734,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -7822,8 +7910,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -7996,8 +8086,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -8170,8 +8262,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -8344,8 +8438,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -8518,8 +8614,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -8692,8 +8790,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -8866,8 +8966,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -9040,8 +9142,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -9214,8 +9318,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -9388,8 +9494,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -9562,8 +9670,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -9736,8 +9846,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -9910,8 +10022,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -10084,8 +10198,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -10258,8 +10374,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -10432,8 +10550,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -10606,8 +10726,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -10780,8 +10902,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -10954,8 +11078,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -11125,8 +11251,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -11296,8 +11424,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -11467,8 +11597,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -11638,8 +11770,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -11809,8 +11943,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -11980,8 +12116,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -12151,8 +12289,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -12322,8 +12462,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -12493,8 +12635,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -12664,8 +12808,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -12835,8 +12981,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -13006,8 +13154,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -13177,8 +13327,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -13348,8 +13500,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -13519,8 +13673,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -13690,8 +13846,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -13861,8 +14019,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -14032,8 +14192,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -14203,8 +14365,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -14374,8 +14538,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -14545,8 +14711,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -14716,8 +14884,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -14887,8 +15057,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -15058,8 +15230,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -15229,8 +15403,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -15400,8 +15576,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -15571,8 +15749,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -15742,8 +15922,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -15913,8 +16095,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -16084,8 +16268,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -16255,8 +16441,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -16426,8 +16614,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -16597,8 +16787,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -16768,8 +16960,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -16939,8 +17133,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -17110,8 +17306,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -17281,8 +17479,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -17452,8 +17652,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -17623,8 +17825,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -17794,8 +17998,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -17965,8 +18171,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -18136,8 +18344,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -18307,8 +18517,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -18478,8 +18690,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -18649,8 +18863,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -18820,8 +19036,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -18991,8 +19209,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -19162,8 +19382,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -19333,8 +19555,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -19504,8 +19728,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -19675,8 +19901,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -19846,8 +20074,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -20017,8 +20247,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -20188,8 +20420,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -20359,8 +20593,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -20530,8 +20766,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -20701,8 +20939,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -20872,8 +21112,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -21043,8 +21285,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -21214,8 +21458,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -21385,8 +21631,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -21561,8 +21809,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -21732,8 +21982,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -21903,8 +22155,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -22074,8 +22328,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -22245,8 +22501,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -22416,8 +22674,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -22587,8 +22847,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -22758,8 +23020,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -22929,8 +23193,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -23100,8 +23366,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -23271,8 +23539,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -23442,8 +23712,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -23613,8 +23885,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -23784,8 +24058,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -23955,8 +24231,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -24126,8 +24404,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -24297,8 +24577,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -24468,8 +24750,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -24639,8 +24923,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -24810,8 +25096,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -24981,8 +25269,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -25152,8 +25442,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -25323,8 +25615,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -25494,8 +25788,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -25665,8 +25961,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -25836,8 +26134,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -26007,8 +26307,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -26178,8 +26480,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -26349,8 +26653,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -26520,8 +26826,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -26691,8 +26999,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -26862,8 +27172,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -27033,8 +27345,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -27204,8 +27518,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -27375,8 +27691,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -27546,8 +27864,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -27717,8 +28037,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -27888,8 +28210,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -28059,8 +28383,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -28230,8 +28556,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -28401,8 +28729,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -28572,8 +28902,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -28743,8 +29075,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -28914,8 +29248,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -29085,8 +29421,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -29256,8 +29594,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -29427,8 +29767,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -29598,8 +29940,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -29769,8 +30113,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -29940,8 +30286,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -30111,8 +30459,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -30282,8 +30632,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -30453,8 +30805,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -30624,8 +30978,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -30795,8 +31151,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -30966,8 +31324,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -31137,8 +31497,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -31308,8 +31670,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -31479,8 +31843,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -31650,8 +32016,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -31821,8 +32189,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -31992,8 +32362,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -32167,8 +32539,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -32338,8 +32712,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -32509,8 +32885,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -32680,8 +33058,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -32851,8 +33231,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -33022,8 +33404,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -33193,8 +33577,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -33364,8 +33750,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -33535,8 +33923,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -33706,8 +34096,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -33877,8 +34269,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -34048,8 +34442,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -34219,8 +34615,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -34390,8 +34788,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -34561,8 +34961,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -34732,8 +35134,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -34903,8 +35307,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -35074,8 +35480,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -35245,8 +35653,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -35416,8 +35826,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -35587,8 +35999,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -35758,8 +36172,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -35929,8 +36345,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -36100,8 +36518,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -36271,8 +36691,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -36442,8 +36864,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -36613,8 +37037,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -36784,8 +37210,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -36955,8 +37383,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -37126,8 +37556,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -37297,8 +37729,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -37468,8 +37902,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -37639,8 +38075,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -37810,8 +38248,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -37981,8 +38421,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -38152,8 +38594,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -38323,8 +38767,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -38494,8 +38940,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -38665,8 +39113,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -38836,8 +39286,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -39007,8 +39459,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -39178,8 +39632,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -39349,8 +39805,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -39520,8 +39978,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -39691,8 +40151,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -39862,8 +40324,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -40033,8 +40497,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -40204,8 +40670,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -40375,8 +40843,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -40546,8 +41016,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -40717,8 +41189,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -40888,8 +41362,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -41059,8 +41535,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -41230,8 +41708,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -41401,8 +41881,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -41572,8 +42054,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -41743,8 +42227,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -41914,8 +42400,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -42085,8 +42573,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -42256,8 +42746,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -42427,8 +42919,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -42583,8 +43077,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -42755,8 +43251,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -42922,8 +43420,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -43089,8 +43589,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -43256,8 +43758,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -43423,8 +43927,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -43590,8 +44096,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -43757,8 +44265,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -43924,8 +44434,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -44091,8 +44603,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -44258,8 +44772,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -44425,8 +44941,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -44592,8 +45110,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -44759,8 +45279,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -44926,8 +45448,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -45093,8 +45617,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -45260,8 +45786,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -45427,8 +45955,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -45594,8 +46124,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -45761,8 +46293,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -45928,8 +46462,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -46095,8 +46631,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -46262,8 +46800,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -46429,8 +46969,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -46596,8 +47138,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -46763,8 +47307,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -46930,8 +47476,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -47097,8 +47645,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -47264,8 +47814,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -47431,8 +47983,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -47598,8 +48152,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -47765,8 +48321,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -47932,8 +48490,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -48099,8 +48659,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -48266,8 +48828,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -48433,8 +48997,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -48600,8 +49166,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -48767,8 +49335,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -48934,8 +49504,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -49101,8 +49673,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -49268,8 +49842,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -49435,8 +50011,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -49602,8 +50180,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -49769,8 +50349,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -49936,8 +50518,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -50103,8 +50687,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -50270,8 +50856,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -50437,8 +51025,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -50603,8 +51193,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -50770,8 +51362,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -50937,8 +51531,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -51104,8 +51700,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -51271,8 +51869,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -51438,8 +52038,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -51605,8 +52207,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -51772,8 +52376,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -51939,8 +52545,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -52106,8 +52714,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -52273,8 +52883,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -52440,8 +53052,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -52607,8 +53221,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -52774,8 +53390,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
@@ -52941,8 +53559,10 @@ country_decisions = {
 			factor = 1
 			modifier = {
 				factor = 0
+				
+				manpower_percentage = 1
 				OR = {
-					yearly_corruption_increase = 0.25
+					yearly_corruption_increase = 0.001
 					NOT = { legitimacy = 75 }
 				}
 			}
