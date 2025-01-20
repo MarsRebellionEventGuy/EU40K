@@ -1,0 +1,825 @@
+custom_button = { 
+	name = planar_hero_button
+	potential = {
+		has_country_flag = XXA_contacted_charcarodons
+		tag = XXA
+	}
+	trigger = {
+	}
+	effect = {
+		set_country_flag = planar_hero_interface_active
+	}
+}
+
+custom_button = { 
+	name = close_button
+	potential = {
+		has_country_flag = XXA_contacted_charcarodons
+	}
+	trigger = {
+	}
+	effect = {
+		clr_country_flag = planar_hero_interface_active
+	}
+}
+
+custom_window = {
+    name = planar_hero_interface
+    potential = {
+	has_country_flag = planar_hero_interface_active
+	NOT = { stability = 1 }
+    }
+}
+
+
+
+
+
+
+custom_text_box = {
+    name = planar_hero_journey #Must match a scripted instantTextBoxType in a .gui file DA_Met_COST_Shower
+    potential = { tag = XXA }
+    tooltip = planar_hero_journey.tt #Can use customizable localization DA_Met_COST_Shower
+    #To localize it, use the name of the button as a key, can also use customizable localisation
+}
+
+custom_text_box = {
+    name = planar_hero_title #Must match a scripted instantTextBoxType in a .gui file DA_Met_COST_Shower
+    potential = { tag = XXA }
+    tooltip = planar_hero_title.tt #Can use customizable localization DA_Met_COST_Shower
+    #To localize it, use the name of the button as a key, can also use customizable localisation
+}
+
+custom_text_box = {
+    name = planar_hero_patronage_actions #Must match a scripted instantTextBoxType in a .gui file DA_Met_COST_Shower
+    potential = { tag = XXA }
+    tooltip = planar_hero_patronage_actions.tt #Can use customizable localization DA_Met_COST_Shower
+    #To localize it, use the name of the button as a key, can also use customizable localisation
+}
+
+
+custom_text_box = {
+    name = planar_hero_obligation_actions #Must match a scripted instantTextBoxType in a .gui file DA_Met_COST_Shower
+    potential = { tag = XXA }
+    tooltip = planar_hero_obligation_actions.tt #Can use customizable localization DA_Met_COST_Shower
+    #To localize it, use the name of the button as a key, can also use customizable localisation
+}
+
+custom_text_box = {
+    name = planar_hero_dialogue #Must match a scripted instantTextBoxType in a .gui file DA_Met_COST_Shower
+    potential = { tag = XXA }
+    tooltip = planar_hero_dialogue.tt #Can use customizable localization DA_Met_COST_Shower
+    #To localize it, use the name of the button as a key, can also use customizable localisation
+}
+
+custom_text_box = {
+    name = planar_hero_dialogue_title #Must match a scripted instantTextBoxType in a .gui file DA_Met_COST_Shower
+    potential = { tag = XXA }
+    tooltip = planar_hero_dialogue_title.tt #Can use customizable localization DA_Met_COST_Shower
+    #To localize it, use the name of the button as a key, can also use customizable localisation
+}
+
+custom_icon = {
+    name = planar_hero_green #Must match a scripted iconType in a .gui file
+	potential = {
+		NOT = {
+			check_variable = {
+				which = Shark_Favors
+				value = 0
+			}
+		}
+	}
+    tooltip = localisation_key #Can use customizable localization
+}
+
+custom_icon = {
+    name = planar_hero_green_one #Must match a scripted iconType in a .gui file
+	potential = {
+		check_variable = {
+			which = Shark_Favors
+			value = 1
+		}
+		NOT = {
+			check_variable = {
+				which = Shark_Favors
+				value = 2
+			}
+		}
+	} #Determines when the icon is visible
+	tooltip = localisation_key #Can use customizable localization
+}
+
+custom_icon = {
+    name = planar_hero_green_two #Must match a scripted iconType in a .gui file
+	potential = {
+		check_variable = {
+			which = Shark_Favors
+			value = 2
+		}
+		NOT = {
+			check_variable = {
+				which = Shark_Favors
+				value = 3
+			}
+		}
+	} #Determines when the icon is visible
+	tooltip = localisation_key #Can use customizable localization
+}
+
+custom_icon = {
+    name = planar_hero_green_three #Must match a scripted iconType in a .gui file
+	potential = {
+		check_variable = {
+			which = Shark_Favors
+			value = 3
+		}
+		NOT = {
+			check_variable = {
+				which = Shark_Favors
+				value = 4
+			}
+		}
+	} #Determines when the icon is visible
+	tooltip = localisation_key #Can use customizable localization
+}
+
+custom_icon = {
+    name = planar_hero_green_four #Must match a scripted iconType in a .gui file
+	potential = {
+		check_variable = {
+			which = Shark_Favors
+			value = 4
+		}
+		NOT = {
+			check_variable = {
+				which = Shark_Favors
+				value = 5
+			}
+		}
+	} #Determines when the icon is visible
+	tooltip = localisation_key #Can use customizable localization
+}
+
+custom_icon = {
+    name = planar_hero_green_five #Must match a scripted iconType in a .gui file
+	potential = {
+		check_variable = {
+			which = Shark_Favors
+			value = 5
+		}
+		NOT = {
+			check_variable = {
+				which = Shark_Favors
+				value = 6
+			}
+		}
+	} #Determines when the icon is visible
+	tooltip = localisation_key #Can use customizable localization
+}
+
+custom_icon = {
+    name = planar_hero_green_six #Must match a scripted iconType in a .gui file
+	potential = {
+		check_variable = {
+			which = Shark_Favors
+			value = 6
+		}
+		NOT = {
+			check_variable = {
+				which = Shark_Favors
+				value = 7
+			}
+		}
+	} #Determines when the icon is visible
+	tooltip = localisation_key #Can use customizable localization
+}
+
+custom_icon = {
+    name = planar_hero_green_seven #Must match a scripted iconType in a .gui file
+	potential = {
+		check_variable = {
+			which = Shark_Favors
+			value = 7
+		}
+		NOT = {
+			check_variable = {
+				which = Shark_Favors
+				value = 8
+			}
+		}
+	} #Determines when the icon is visible
+	tooltip = localisation_key #Can use customizable localization
+}
+
+custom_icon = {
+    name = planar_hero_green_eight #Must match a scripted iconType in a .gui file
+	potential = {
+		check_variable = {
+			which = Shark_Favors
+			value = 8
+		}
+		NOT = {
+			check_variable = {
+				which = Shark_Favors
+				value = 9
+			}
+		}
+	} #Determines when the icon is visible
+	tooltip = localisation_key #Can use customizable localization
+}
+
+custom_icon = {
+    name = planar_hero_green_nine #Must match a scripted iconType in a .gui file
+	potential = {
+		check_variable = {
+			which = Shark_Favors
+			value = 9
+		}
+		NOT = {
+			check_variable = {
+				which = Shark_Favors
+				value = 10
+			}
+		}
+	} #Determines when the icon is visible
+	tooltip = localisation_key #Can use customizable localization
+}
+
+custom_icon = {
+	name = planar_hero_green_ten #Must match a scripted iconType in a .gui file
+	potential = {
+		check_variable = {
+			which = Shark_Favors
+			value = 10
+		}
+	} #Determines when the icon is visible
+	tooltip = localisation_key #Can use customizable localization
+}
+
+custom_button = {
+	name = planar_hero_placeholder_one
+	potential = {
+	}
+	trigger = {
+		any_owned_province = {
+			region = octarius_region
+			has_tax_building_trigger = yes
+			has_manpower_building_trigger = yes
+		}
+		custom_trigger_tooltip = {
+			tooltip = planar_hero_mission_one_completed_tt
+			NOT = { has_country_flag = sharks_mission_one_completed }
+		}
+	}
+	effect = {
+		set_country_flag = sharks_mission_one_completed
+		change_variable = {
+			which = Shark_Favors
+			value = 3
+		}
+		custom_tooltip = planar_hero_carcharodons_subject_tt
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					region = octarius_region
+					has_tax_building_trigger = yes
+					has_manpower_building_trigger = yes
+				}
+				cede_province = ZXA
+				add_core = ZXA
+			}
+			create_subject = {
+				subject_type = autonomus_astartes_subject_type
+				subject = ZXA
+			}
+		}
+	}
+	tooltip = planar_hero_placeholder_one_tt
+}
+
+custom_button = {
+	name = planar_hero_placeholder_two
+	potential = {
+	}
+	trigger = {
+		3335 = {
+			infantry_in_province = 20
+		}
+		custom_trigger_tooltip = {
+			tooltip = planar_hero_mission_two_completed_tt
+			NOT = { has_country_flag = sharks_mission_two_completed }
+		}
+	}
+	effect = {
+		set_country_flag = sharks_mission_two_completed
+		3335 = {
+			kill_units = {
+				who = XXA
+				type = infantry
+				amount = 20
+			}
+		}
+		change_variable = {
+			which = Shark_Favors
+			value = 3
+		}
+	}
+	tooltip = planar_hero_placeholder_two_tt 
+}
+
+custom_button = {
+    name = planar_hero_placeholder_three
+    potential = {
+	}
+	trigger = {
+		calc_true_if = {
+			any_owned_province = {
+				region = askellon_region
+			}
+			any_owned_province = {
+				region = ghoul_stars_region
+			}
+			any_owned_province = {
+				region = sargos_region
+			}
+			any_owned_province = {
+				region = orpheus_region
+			}
+			amount = 2
+		}
+		custom_trigger_tooltip = {
+			tooltip = planar_hero_mission_three_completed_tt
+			NOT = { has_country_flag = sharks_mission_three_completed }
+		}
+	}
+	effect = {
+		set_country_flag = sharks_mission_three_completed
+		change_variable = {
+			which = Shark_Favors
+			value = 3
+		}
+	}
+	tooltip = planar_hero_placeholder_three_tt
+}
+
+custom_button = {
+    name = planar_hero_placeholder_four
+    potential = {
+	}
+	trigger = {
+		OR = {
+			XCA = { trust = { who = XXA value = 80 } }
+			has_spy_network_in = {
+				who = XCA
+				value = 25
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = planar_hero_mission_four_completed_tt
+			NOT = { has_country_flag = sharks_mission_four_completed }
+		}
+	}
+	effect = {
+		set_country_flag = sharks_mission_four_completed
+		change_variable = {
+			which = Shark_Favors
+			value = 3
+		}
+	}
+	tooltip = planar_hero_placeholder_four_tt
+}
+
+custom_button = {
+    name = planar_hero_placeholder_five
+    potential = {
+	}
+	trigger = {
+		OR = {
+			XMZ = { trust = { who = XXA value = 80 } }
+			has_spy_network_in = {
+				who = XMZ
+				value = 25
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = planar_hero_mission_five_completed_tt
+			NOT = { has_country_flag = sharks_mission_five_completed }
+		}
+	}
+	effect = {
+		set_country_flag = sharks_mission_five_completed
+		change_variable = {
+			which = Shark_Favors
+			value = 3
+		}
+	}
+	tooltip = planar_hero_placeholder_five_tt
+}
+
+custom_button = { 
+	name = planar_hero_placeholder_six
+	potential = {
+	}
+	trigger = {
+		any_state = {
+			NOT = { region = segmentum_solar_region }
+			NOT = { devastation = 50 }
+		}
+	}
+	effect = {
+		change_variable = {
+			which = Shark_Favors
+			value = 1
+		}
+		custom_tooltip = planar_hero_red_tithe_tt
+		hidden_effect = {
+			random_owned_area = {
+				limit = {
+					NOT = { region = segmentum_solar_region }
+					NOT = { devastation = 50 }
+				}
+				add_devastation = 100
+			}
+		}
+	}
+	tooltip = planar_hero_placeholder_six_tt
+}
+
+custom_button = { 
+    name = planar_hero_placeholder_seven
+	potential = {
+	}
+	trigger = {
+		XXB = {
+			owes_favors = { 
+				who = XCA
+				value = 30
+			}
+		}
+	}
+	effect = {
+		change_variable = {
+			which = Shark_Favors
+			value = 1
+		}
+		add_favors = {
+			who = XCA
+			amount = -30
+		}
+	}
+	tooltip = planar_hero_placeholder_seven_tt
+}
+
+custom_button = {
+	name = planar_hero_placeholder_eight
+	potential = {
+	}
+	trigger = {
+		years_of_manpower = 1
+		years_of_sailors = 1
+		custom_trigger_tooltip = {
+			tooltip = planar_hero_manpower_tt
+			NOT = { has_country_modifier = Shark_Manpower_Bonus }
+		}
+	}
+	effect = {
+		years_of_manpower = -1
+		years_of_sailors = -1
+		change_variable = {
+			which = Shark_Favors
+			value = 1
+		}
+		hidden_effect = {
+			add_country_modifier = {
+				name = Shark_Manpower_Bonus
+				duration = 3650
+				hidden = yes
+			}
+		}
+	}
+	tooltip = planar_hero_placeholder_eight_tt
+}
+
+custom_button = { 
+	name = planar_hero_placeholder_nine
+	potential = {
+	}
+	trigger = {
+		any_owned_province = {
+			NOT = { province_id = 1 }
+			trade_goods = archaotech
+		}
+		NOT = {
+			any_owned_province = {
+				has_province_modifier = Shark_Archaotech_Bonus
+			}
+		}
+	}
+	effect = {
+		change_variable = {
+			which = Shark_Favors
+			value = 1
+		}
+		custom_tooltip = planar_hero_archaotech_bonus_tt
+		tooltip = {
+			add_province_modifier = {
+				name = Shark_Archaotech_Modifier
+				duration = 7300
+			}
+		}
+		hidden_effect = {
+			every_owned_province = {
+				limit = { NOT = { province_id = 1 } trade_goods = archaotech }
+				add_province_modifier = {
+					name = Shark_Archaotech_Modifier
+					duration = 7300
+				}
+			}
+		}	
+	}
+	tooltip = planar_hero_placeholder_nine_tt
+}
+
+custom_button = { 
+	name = planar_hero_placeholder_ten
+	potential = {
+	}
+	trigger = {
+		XXB = {
+			owes_favors = { 
+				who = XXA
+				value = 30
+			}
+		}
+	}
+	effect = {
+		change_variable = {
+			which = Shark_Favors
+			value = 1
+		}
+		add_favors = {
+			who = XCA
+			amount = -30
+		}
+	}
+	tooltip = planar_hero_placeholder_ten_tt
+}
+
+custom_button = {
+	name = planar_hero_placeholder_eleven
+	potential = {
+	}
+	trigger = {
+		army_professionalism = 0.15
+		custom_trigger_tooltip = {
+			tooltip = planar_hero_quality_tt
+			NOT = { has_country_modifier = Shark_Quality_Bonus }
+		}
+	}
+	effect = {
+		change_variable = {
+			which = Shark_Favors
+			value = 1
+		}
+		add_army_professionalism = -0.15
+		hidden_effect = {
+			add_country_modifier = {
+				name = Shark_Quality_Bonus
+				duration = 3650
+				hidden = yes
+			}
+		}
+	}
+	tooltip = planar_hero_placeholder_eleven_tt
+}
+
+custom_button = { 
+	name = planar_hero_placeholder_twelve
+	potential = {
+	}
+	trigger = {
+		check_variable = {
+			which = Shark_Favors
+			value = 1
+		}
+		custom_trigger_tooltip = {
+			tooltip = planar_hero_cooldown_tt
+			NOT = { has_country_modifier = Shark_Cooldown }
+		}
+	}
+	effect = {
+		change_variable = {
+			which = Shark_Favors
+			value = -1
+		}
+		custom_tooltip = planar_hero_strike_team_tt
+		hidden_effect = {
+			add_country_modifier = {
+				name = Shark_Strike_Team_Bonus
+				duration = 3650
+				hidden = yes
+			}
+			add_country_modifier = { 
+				name = Shark_Cooldown
+				duration = 3650
+				hidden = yes
+			}
+		}
+	}
+	tooltip = planar_hero_placeholder_twelve_tt
+}
+
+custom_button = { 
+	name = planar_hero_placeholder_thirteen
+	potential = {
+	}
+	trigger = {
+		check_variable = {
+			which = Shark_Favors
+			value = 1
+		}
+		NOT = {
+			any_owned_province = {
+				has_province_modifier = Shark_Recruitment_Bonus
+			}
+		}
+	}
+	effect = {
+		change_variable = {
+			which = Shark_Favors
+			value = -1
+		}
+		custom_tooltip = planar_hero_recruitment_tt
+		tooltip = {
+			add_province_modifier = {
+				name = Shark_Recruitment_Bonus
+				duration = 3650
+			}
+		}
+		hidden_effect = {
+			every_owned_province = {
+				limit = { culture = loyalist_astartes_culture }
+				add_province_modifier = {
+					name = Shark_Recruitment_Bonus
+					duration = 3650
+				}
+			}
+		}
+	}
+	tooltip = planar_hero_placeholder_thirteen_tt
+}
+ 
+custom_button = { 
+	name = planar_hero_placeholder_fourteen
+	potential = {
+	}
+	trigger = {
+		check_variable = {
+			which = Shark_Favors
+			value = 1
+		}
+		NOT = {
+			any_owned_province = {
+				has_province_modifier = Shark_Archaotech_Bonus
+			}
+		}
+	}
+	effect = {
+		change_variable = {
+			which = Shark_Favors
+			value = -1
+		}
+		custom_tooltip = planar_hero_archaotech_bonus_tt
+		tooltip = {
+			add_province_modifier = {
+				name = Shark_Archaotech_Bonus
+				duration = 7300
+			}
+		}
+		hidden_effect = {
+			every_owned_province = {
+				limit = { trade_goods = archaotech }
+				add_province_modifier = {
+					name = Shark_Archaotech_Bonus
+					duration = 7300
+				}
+			}
+		}	
+	}
+	tooltip = planar_hero_placeholder_fourteen_tt
+}
+
+custom_button = { 
+	name = planar_hero_placeholder_fifteen
+	potential = {
+	}
+	trigger = {
+		check_variable = {
+			which = Shark_Favors
+			value = 1
+		}
+		custom_trigger_tooltip = {
+			tooltip = planar_hero_cooldown_tt
+			NOT = { has_country_modifier = Shark_Cooldown }
+		}
+	}
+	effect = {
+		change_variable = {
+			which = Shark_Favors
+			value = -1
+		}
+		every_country = {
+			limit = {
+				is_subject_of_type_with_overlord = {
+					who = XXA
+					type = autonomus_astartes_subject_type
+				}
+			}
+			add_country_modifier = { 
+				name = Shark_Chapters_Bonus
+				duration = 9125
+			}
+		}
+		hidden_effect = {
+			add_country_modifier = { 
+				name = Shark_Cooldown
+				duration = 3650
+				hidden = yes
+			}
+		}
+	}
+	tooltip = planar_hero_placeholder_fifteen_tt
+}
+
+custom_button = { 
+	name = planar_hero_placeholder_sixteen
+	potential = {
+	}
+	trigger = {
+		check_variable = {
+			which = Shark_Favors
+			value = 2
+		}
+		custom_trigger_tooltip = {
+			tooltip = planar_hero_cooldown_tt
+			NOT = { has_country_modifier = Shark_Cooldown }
+		}
+	}
+	effect = {
+		change_variable = {
+			which = Shark_Favors
+			value = -2
+		}
+		custom_tooltip = planar_hero_flagship_bonus_tt
+		hidden_effect = {
+			random_owned_province = {
+				limit = { has_port = yes }
+				voc_indiamen_light = XXA
+			}
+		}
+		hidden_effect = {
+			add_country_modifier = { 
+				name = Shark_Cooldown
+				duration = 3650
+				hidden = yes
+			}
+		}
+	}
+	tooltip = planar_hero_placeholder_sixteen_tt
+}
+
+custom_button = {
+	name = planar_hero_placeholder_seventeen
+	potential = {
+	}
+	trigger = {
+		check_variable = {
+			which = Shark_Favors
+			value = 1
+		}
+		custom_trigger_tooltip = {
+			tooltip = planar_hero_cooldown_tt
+			NOT = { has_country_modifier = Shark_Cooldown }
+		}
+	}
+	effect = {
+		change_variable = {
+			which = Shark_Favors
+			value = -1
+		}
+		define_advisor = {
+			type = commandant
+			skill = 3
+			culture = loyalist_astartes_culture
+			cost_multiplier = 0.20
+		}
+		hidden_effect = {
+			add_country_modifier = { 
+				name = Shark_Cooldown
+				duration = 3650
+				hidden = yes
+			}
+		}
+	}
+	tooltip = planar_hero_placeholder_seventeen_tt
+}
