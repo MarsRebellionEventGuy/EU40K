@@ -348,7 +348,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "planar_hero_button"
-			position = { x = 920 y = 68	0 }
+			position = { x = 920 y = 680 }
 			quadTextureSprite ="GFX_planar_hero_button"
 			Orientation = "CENTER"
 			scripted = yes

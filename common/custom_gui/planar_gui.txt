@@ -27,7 +27,6 @@ custom_window = {
     name = planar_hero_interface
     potential = {
 	has_country_flag = planar_hero_interface_active
-	NOT = { stability = 1 }
     }
 }
 
@@ -604,7 +603,7 @@ custom_button = {
 		}
 		custom_trigger_tooltip = {
 			tooltip = planar_hero_cooldown_tt
-			NOT = { has_country_modifier = Shark_Cooldown }
+			NOT = { has_country_modifier = Shark_Strike_Team_Bonus }
 		}
 	}
 	effect = {
@@ -616,11 +615,6 @@ custom_button = {
 		hidden_effect = {
 			add_country_modifier = {
 				name = Shark_Strike_Team_Bonus
-				duration = 3650
-				hidden = yes
-			}
-			add_country_modifier = { 
-				name = Shark_Cooldown
 				duration = 3650
 				hidden = yes
 			}
@@ -718,9 +712,8 @@ custom_button = {
 			which = Shark_Favors
 			value = 1
 		}
-		custom_trigger_tooltip = {
-			tooltip = planar_hero_cooldown_tt
-			NOT = { has_country_modifier = Shark_Cooldown }
+		NOT = {
+			any_subject_country = { has_country_modifier = Shark_Chapters_Bonus }
 		}
 	}
 	effect = {
@@ -740,13 +733,6 @@ custom_button = {
 				duration = 9125
 			}
 		}
-		hidden_effect = {
-			add_country_modifier = { 
-				name = Shark_Cooldown
-				duration = 3650
-				hidden = yes
-			}
-		}
 	}
 	tooltip = planar_hero_placeholder_fifteen_tt
 }
@@ -762,7 +748,7 @@ custom_button = {
 		}
 		custom_trigger_tooltip = {
 			tooltip = planar_hero_cooldown_tt
-			NOT = { has_country_modifier = Shark_Cooldown }
+			NOT = { has_country_modifier = Shark_Cooldown_Gloriana }
 		}
 	}
 	effect = {
@@ -779,7 +765,7 @@ custom_button = {
 		}
 		hidden_effect = {
 			add_country_modifier = { 
-				name = Shark_Cooldown
+				name = Shark_Cooldown_Gloriana
 				duration = 3650
 				hidden = yes
 			}
@@ -799,7 +785,7 @@ custom_button = {
 		}
 		custom_trigger_tooltip = {
 			tooltip = planar_hero_cooldown_tt
-			NOT = { has_country_modifier = Shark_Cooldown }
+			NOT = { has_country_modifier = Shark_Cooldown_Reaping }
 		}
 	}
 	effect = {
@@ -815,7 +801,7 @@ custom_button = {
 		}
 		hidden_effect = {
 			add_country_modifier = { 
-				name = Shark_Cooldown
+				name = Shark_Cooldown_Reaping
 				duration = 3650
 				hidden = yes
 			}
