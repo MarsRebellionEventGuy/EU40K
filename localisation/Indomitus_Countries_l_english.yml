@@ -1154,7 +1154,7 @@
  XTD:0 "Sons of Guilliman"
  XTD_ADJ:0 "Sons of Guilliman"
  AAA:0 "Aeldari Empire"
- AAA_ADJ:0 "Aeldari"
+ AAA_ADJ:0 "Aeldari" #Aysanri
  AAB:0 "Imperium Nihilus"
  AAB_ADJ:0 "Nihilus"
  AAC:0 "Infinite Empire"
@@ -1177,10 +1177,12 @@
  AAK_ADJ:0 "Tempestus"
  AAL:0 "Infinite Empire"
  AAL_ADJ:0 "Necron"
- AAM:0 "Aeldari Empire"
+ AAM:0 "Aeldari Empire" #drukhari
  AAM_ADJ:0 "Aeldari"
  AAN:0 "Damnos" #Alsanta
  AAN_ADJ:0 "Damnosian"
+ AAO:0 "Tyranids"
+ AAO_ADJ:0 "Tyranid"
 
  NL_RENAME:0 "Night Lords"
  NL_RENAME_ADJ:0 "Night Lord"

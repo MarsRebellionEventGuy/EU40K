@@ -1,0 +1,9 @@
+add_core = XXA
+owner = XXA
+culture = human_culture
+religion = imperial_cult
+controller = XXA
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = yes

@@ -1,10 +1,9 @@
+add_core = XTB
 owner = XTB
-controller = XTB
-religion = imperial_cult
 culture = human_culture
+religion = imperial_cult
+controller = XTB
 base_tax = 1
 base_production = 1
 base_manpower = 1
-trade_goods = archaotech
-add_core = XTB
 is_city = yes

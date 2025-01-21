@@ -17,4 +17,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 1212;4014;sea;899;402;1699;407;1696;lathes_het_hadd
 4013;4014;sea;899;409;1706;410;1701;lathes_hesh_hadd
 4015;4022;sea;4;780;1055;777;1052;mars_phobos
+3952;3940;sea;5;-1;-1;-1;-1;jupiter-ganymede
+3941;3942;sea;178;-1;-1;-1;-1;saturn-demos
+3943;3942;sea;178;-1;-1;-1;-1;saturn-titan
+3281;3944;sea;9;-1;-1;-1;-1;luna-earth
 -1;-1;;-1;-1;-1;-1;-1;-1
