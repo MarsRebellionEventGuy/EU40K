@@ -37,6 +37,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -170,7 +171,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -213,6 +214,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -346,7 +348,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -389,6 +391,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -522,7 +525,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -565,6 +568,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -698,7 +702,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -741,6 +745,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -874,7 +879,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -917,6 +922,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -1050,7 +1056,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -1093,6 +1099,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -1226,7 +1233,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -1269,6 +1276,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -1402,7 +1410,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -1445,6 +1453,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -1578,7 +1587,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -1621,6 +1630,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -1754,7 +1764,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -1797,6 +1807,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -1930,7 +1941,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -1973,6 +1984,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -2106,7 +2118,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -2149,6 +2161,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -2282,7 +2295,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -2325,6 +2338,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -2458,7 +2472,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -2501,6 +2515,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -2634,7 +2649,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -2677,6 +2692,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -2810,7 +2826,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -2853,6 +2869,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -2986,7 +3003,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -3029,6 +3046,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -3162,7 +3180,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -3205,6 +3223,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -3338,7 +3357,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -3381,6 +3400,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -3514,7 +3534,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -3557,6 +3577,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -3690,7 +3711,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -3733,6 +3754,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -3866,7 +3888,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -3909,6 +3931,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -4042,7 +4065,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -4085,6 +4108,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -4218,7 +4242,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -4261,6 +4285,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -4394,7 +4419,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -4437,6 +4462,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -4570,7 +4596,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -4613,6 +4639,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -4746,7 +4773,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -4789,6 +4816,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -4922,7 +4950,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -4965,6 +4993,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -5098,7 +5127,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -5141,6 +5170,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -5274,7 +5304,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -5317,6 +5347,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -5450,7 +5481,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -5493,6 +5524,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -5626,7 +5658,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -5669,6 +5701,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -5802,7 +5835,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -5845,6 +5878,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -5978,7 +6012,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -6021,6 +6055,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -6154,7 +6189,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -6197,6 +6232,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -6330,7 +6366,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -6373,6 +6409,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -6506,7 +6543,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -6549,6 +6586,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -6682,7 +6720,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -6725,6 +6763,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -6858,7 +6897,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -6901,6 +6940,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -7034,7 +7074,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -7077,6 +7117,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -7210,7 +7251,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -7253,6 +7294,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -7386,7 +7428,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -7429,6 +7471,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -7562,7 +7605,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -7605,6 +7648,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -7738,7 +7782,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -7781,6 +7825,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -7914,7 +7959,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -7957,6 +8002,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -8090,7 +8136,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -8133,6 +8179,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -8266,7 +8313,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -8309,6 +8356,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -8442,7 +8490,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -8485,6 +8533,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -8618,7 +8667,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -8661,6 +8710,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -8794,7 +8844,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -8837,6 +8887,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -8970,7 +9021,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -9013,6 +9064,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -9146,7 +9198,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -9189,6 +9241,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -9322,7 +9375,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -9365,6 +9418,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -9498,7 +9552,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -9541,6 +9595,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -9674,7 +9729,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -9717,6 +9772,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -9850,7 +9906,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -9893,6 +9949,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -10026,7 +10083,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -10069,6 +10126,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -10202,7 +10260,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -10245,6 +10303,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -10378,7 +10437,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -10421,6 +10480,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -10554,7 +10614,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -10597,6 +10657,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -10730,7 +10791,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -10773,6 +10834,7 @@ country_decisions = {
 					name = necronmanpower1
 					duration = -1
 				}
+				add_local_autonomy = 5
 				if = {
 					limit = {
 						base_manpower = 1
@@ -10906,7 +10968,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -10947,6 +11009,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -11082,7 +11145,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -11120,6 +11183,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -11255,7 +11319,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -11293,6 +11357,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -11428,7 +11493,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -11466,6 +11531,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -11601,7 +11667,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -11639,6 +11705,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -11774,7 +11841,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -11812,6 +11879,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -11947,7 +12015,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -11985,6 +12053,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -12120,7 +12189,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -12158,6 +12227,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -12293,7 +12363,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -12331,6 +12401,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -12466,7 +12537,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -12504,6 +12575,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -12639,7 +12711,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -12677,6 +12749,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -12812,7 +12885,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -12850,6 +12923,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -12985,7 +13059,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -13023,6 +13097,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -13158,7 +13233,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -13196,6 +13271,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -13331,7 +13407,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -13369,6 +13445,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -13504,7 +13581,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -13542,6 +13619,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -13677,7 +13755,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -13715,6 +13793,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -13850,7 +13929,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -13888,6 +13967,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -14023,7 +14103,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -14061,6 +14141,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -14196,7 +14277,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -14234,6 +14315,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -14369,7 +14451,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -14407,6 +14489,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -14542,7 +14625,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -14580,6 +14663,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -14715,7 +14799,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -14753,6 +14837,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -14888,7 +14973,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -14926,6 +15011,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -15061,7 +15147,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -15099,6 +15185,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -15234,7 +15321,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -15272,6 +15359,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -15407,7 +15495,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -15445,6 +15533,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -15580,7 +15669,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -15618,6 +15707,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -15753,7 +15843,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -15791,6 +15881,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -15926,7 +16017,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -15964,6 +16055,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -16099,7 +16191,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -16137,6 +16229,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -16272,7 +16365,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -16310,6 +16403,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -16445,7 +16539,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -16483,6 +16577,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -16618,7 +16713,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -16656,6 +16751,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -16791,7 +16887,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -16829,6 +16925,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -16964,7 +17061,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -17002,6 +17099,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -17137,7 +17235,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -17175,6 +17273,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -17310,7 +17409,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -17348,6 +17447,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -17483,7 +17583,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -17521,6 +17621,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -17656,7 +17757,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -17694,6 +17795,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -17829,7 +17931,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -17867,6 +17969,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -18002,7 +18105,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -18040,6 +18143,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -18175,7 +18279,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -18213,6 +18317,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -18348,7 +18453,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -18386,6 +18491,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -18521,7 +18627,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -18559,6 +18665,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -18694,7 +18801,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -18732,6 +18839,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -18867,7 +18975,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -18905,6 +19013,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -19040,7 +19149,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -19078,6 +19187,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -19213,7 +19323,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -19251,6 +19361,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -19386,7 +19497,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -19424,6 +19535,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -19559,7 +19671,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -19597,6 +19709,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -19732,7 +19845,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -19770,6 +19883,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -19905,7 +20019,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -19943,6 +20057,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -20078,7 +20193,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -20116,6 +20231,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -20251,7 +20367,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -20289,6 +20405,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -20424,7 +20541,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -20462,6 +20579,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -20597,7 +20715,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -20635,6 +20753,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -20770,7 +20889,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -20808,6 +20927,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -20943,7 +21063,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -20981,6 +21101,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -21116,7 +21237,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -21154,6 +21275,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -21289,7 +21411,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -21327,6 +21449,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -21462,7 +21585,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -21500,6 +21623,7 @@ country_decisions = {
 					name = necronmanpower2
 					duration = -1
 				}
+				add_local_autonomy = 10
 				hidden_effect = { remove_province_modifier = necronmanpower1 }
 				
 				if = {
@@ -21635,7 +21759,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -21678,6 +21802,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -21813,7 +21938,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -21851,6 +21976,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -21986,7 +22112,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -22024,6 +22150,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -22159,7 +22286,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -22197,6 +22324,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -22332,7 +22460,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -22370,6 +22498,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -22505,7 +22634,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -22543,6 +22672,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -22678,7 +22808,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -22716,6 +22846,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -22851,7 +22982,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -22889,6 +23020,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -23024,7 +23156,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -23062,6 +23194,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -23197,7 +23330,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -23235,6 +23368,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -23370,7 +23504,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -23408,6 +23542,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -23543,7 +23678,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -23581,6 +23716,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -23716,7 +23852,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -23754,6 +23890,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -23889,7 +24026,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -23927,6 +24064,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -24062,7 +24200,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -24100,6 +24238,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -24235,7 +24374,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -24273,6 +24412,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -24408,7 +24548,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -24446,6 +24586,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -24581,7 +24722,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -24619,6 +24760,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -24754,7 +24896,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -24792,6 +24934,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -24927,7 +25070,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -24965,6 +25108,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -25100,7 +25244,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -25138,6 +25282,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -25273,7 +25418,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -25311,6 +25456,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -25446,7 +25592,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -25484,6 +25630,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -25619,7 +25766,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -25657,6 +25804,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -25792,7 +25940,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -25830,6 +25978,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -25965,7 +26114,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -26003,6 +26152,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -26138,7 +26288,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -26176,6 +26326,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -26311,7 +26462,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -26349,6 +26500,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -26484,7 +26636,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -26522,6 +26674,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -26657,7 +26810,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -26695,6 +26848,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -26830,7 +26984,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -26868,6 +27022,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -27003,7 +27158,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -27041,6 +27196,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -27176,7 +27332,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -27214,6 +27370,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -27349,7 +27506,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -27387,6 +27544,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -27522,7 +27680,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -27560,6 +27718,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -27695,7 +27854,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -27733,6 +27892,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -27868,7 +28028,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -27906,6 +28066,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -28041,7 +28202,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -28079,6 +28240,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -28214,7 +28376,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -28252,6 +28414,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -28387,7 +28550,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -28425,6 +28588,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -28560,7 +28724,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -28598,6 +28762,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -28733,7 +28898,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -28771,6 +28936,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -28906,7 +29072,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -28944,6 +29110,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -29079,7 +29246,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -29117,6 +29284,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -29252,7 +29420,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -29290,6 +29458,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -29425,7 +29594,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -29463,6 +29632,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -29598,7 +29768,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -29636,6 +29806,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -29771,7 +29942,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -29809,6 +29980,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -29944,7 +30116,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -29982,6 +30154,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -30117,7 +30290,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -30155,6 +30328,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -30290,7 +30464,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -30328,6 +30502,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -30463,7 +30638,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -30501,6 +30676,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -30636,7 +30812,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -30674,6 +30850,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -30809,7 +30986,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -30847,6 +31024,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -30982,7 +31160,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -31020,6 +31198,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -31155,7 +31334,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -31193,6 +31372,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -31328,7 +31508,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -31366,6 +31546,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -31501,7 +31682,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -31539,6 +31720,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -31674,7 +31856,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -31712,6 +31894,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -31847,7 +32030,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -31885,6 +32068,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -32020,7 +32204,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -32058,6 +32242,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -32193,7 +32378,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -32231,6 +32416,7 @@ country_decisions = {
 					name = necronmanpower3
 					duration = -1
 				}
+				add_local_autonomy = 15
 				hidden_effect = { remove_province_modifier = necronmanpower2 }
 				
 				if = {
@@ -32366,7 +32552,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -32408,6 +32594,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -32543,7 +32730,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -32581,6 +32768,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -32716,7 +32904,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -32754,6 +32942,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -32889,7 +33078,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -32927,6 +33116,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -33062,7 +33252,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -33100,6 +33290,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -33235,7 +33426,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -33273,6 +33464,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -33408,7 +33600,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -33446,6 +33638,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -33581,7 +33774,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -33619,6 +33812,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -33754,7 +33948,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -33792,6 +33986,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -33927,7 +34122,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -33965,6 +34160,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -34100,7 +34296,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -34138,6 +34334,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -34273,7 +34470,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -34311,6 +34508,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -34446,7 +34644,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -34484,6 +34682,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -34619,7 +34818,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -34657,6 +34856,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -34792,7 +34992,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -34830,6 +35030,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -34965,7 +35166,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -35003,6 +35204,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -35138,7 +35340,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -35176,6 +35378,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -35311,7 +35514,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -35349,6 +35552,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -35484,7 +35688,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -35522,6 +35726,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -35657,7 +35862,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -35695,6 +35900,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -35830,7 +36036,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -35868,6 +36074,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -36003,7 +36210,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -36041,6 +36248,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -36176,7 +36384,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -36214,6 +36422,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -36349,7 +36558,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -36387,6 +36596,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -36522,7 +36732,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -36560,6 +36770,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -36695,7 +36906,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -36733,6 +36944,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -36868,7 +37080,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -36906,6 +37118,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -37041,7 +37254,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -37079,6 +37292,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -37214,7 +37428,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -37252,6 +37466,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -37387,7 +37602,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -37425,6 +37640,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -37560,7 +37776,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -37598,6 +37814,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -37733,7 +37950,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -37771,6 +37988,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -37906,7 +38124,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -37944,6 +38162,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -38079,7 +38298,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -38117,6 +38336,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -38252,7 +38472,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -38290,6 +38510,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -38425,7 +38646,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -38463,6 +38684,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -38598,7 +38820,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -38636,6 +38858,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -38771,7 +38994,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -38809,6 +39032,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -38944,7 +39168,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -38982,6 +39206,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -39117,7 +39342,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -39155,6 +39380,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -39290,7 +39516,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -39328,6 +39554,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -39463,7 +39690,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -39501,6 +39728,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -39636,7 +39864,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -39674,6 +39902,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -39809,7 +40038,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -39847,6 +40076,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -39982,7 +40212,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -40020,6 +40250,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -40155,7 +40386,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -40193,6 +40424,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -40328,7 +40560,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -40366,6 +40598,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -40501,7 +40734,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -40539,6 +40772,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -40674,7 +40908,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -40712,6 +40946,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -40847,7 +41082,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -40885,6 +41120,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -41020,7 +41256,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -41058,6 +41294,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -41193,7 +41430,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -41231,6 +41468,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -41366,7 +41604,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -41404,6 +41642,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -41539,7 +41778,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -41577,6 +41816,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -41712,7 +41952,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -41750,6 +41990,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -41885,7 +42126,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -41923,6 +42164,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -42058,7 +42300,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -42096,6 +42338,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -42231,7 +42474,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -42269,6 +42512,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -42404,7 +42648,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -42442,6 +42686,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -42577,7 +42822,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -42615,6 +42860,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -42750,7 +42996,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -42788,6 +43034,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				
 				if = {
@@ -42923,7 +43170,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -42961,6 +43208,7 @@ country_decisions = {
 					name = necronmanpower4
 					duration = -1
 				}
+				add_local_autonomy = 20
 				hidden_effect = { remove_province_modifier = necronmanpower3 }
 				if = {
 					limit = {
@@ -43081,7 +43329,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -43124,6 +43372,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -43255,7 +43504,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -43293,6 +43542,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -43424,7 +43674,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -43462,6 +43712,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -43593,7 +43844,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -43631,6 +43882,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -43762,7 +44014,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -43800,6 +44052,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -43931,7 +44184,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -43969,6 +44222,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -44100,7 +44354,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -44138,6 +44392,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -44269,7 +44524,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -44307,6 +44562,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -44438,7 +44694,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -44476,6 +44732,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -44607,7 +44864,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -44645,6 +44902,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -44776,7 +45034,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -44814,6 +45072,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -44945,7 +45204,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -44983,6 +45242,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -45114,7 +45374,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -45152,6 +45412,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -45283,7 +45544,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -45321,6 +45582,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -45452,7 +45714,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -45490,6 +45752,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -45621,7 +45884,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -45659,6 +45922,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -45790,7 +46054,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -45828,6 +46092,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -45959,7 +46224,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -45997,6 +46262,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -46128,7 +46394,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -46166,6 +46432,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -46297,7 +46564,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -46335,6 +46602,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -46466,7 +46734,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -46504,6 +46772,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -46635,7 +46904,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -46673,6 +46942,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -46804,7 +47074,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -46842,6 +47112,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -46973,7 +47244,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -47011,6 +47282,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -47142,7 +47414,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -47180,6 +47452,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -47311,7 +47584,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -47349,6 +47622,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -47480,7 +47754,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -47518,6 +47792,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -47649,7 +47924,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -47687,6 +47962,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -47818,7 +48094,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -47856,6 +48132,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -47987,7 +48264,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -48025,6 +48302,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -48156,7 +48434,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -48194,6 +48472,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -48325,7 +48604,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -48363,6 +48642,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -48494,7 +48774,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -48532,6 +48812,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -48663,7 +48944,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -48701,6 +48982,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -48832,7 +49114,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -48870,6 +49152,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -49001,7 +49284,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -49039,6 +49322,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -49170,7 +49454,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -49208,6 +49492,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -49339,7 +49624,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -49377,6 +49662,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -49508,7 +49794,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -49546,6 +49832,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -49677,7 +49964,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -49715,6 +50002,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -49846,7 +50134,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -49884,6 +50172,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -50015,7 +50304,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -50053,6 +50342,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -50184,7 +50474,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -50222,6 +50512,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -50353,7 +50644,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -50391,6 +50682,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -50522,7 +50814,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -50560,6 +50852,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -50691,7 +50984,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -50729,6 +51022,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -50860,7 +51154,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -50898,6 +51192,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -51029,7 +51324,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -51067,6 +51362,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -51198,7 +51494,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -51236,6 +51532,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -51367,7 +51664,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -51405,6 +51702,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -51536,7 +51834,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -51574,6 +51872,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -51705,7 +52004,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -51743,6 +52042,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -51874,7 +52174,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -51912,6 +52212,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -52043,7 +52344,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -52081,6 +52382,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -52212,7 +52514,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -52250,6 +52552,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -52381,7 +52684,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -52419,6 +52722,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -52550,7 +52854,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -52588,6 +52892,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -52719,7 +53024,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -52757,6 +53062,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -52888,7 +53194,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -52926,6 +53232,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -53057,7 +53364,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -53095,6 +53402,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -53226,7 +53534,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -53264,6 +53572,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -53395,7 +53704,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}
@@ -53433,6 +53742,7 @@ country_decisions = {
 					name = necronmanpowerdepleted
 					duration = -1
 				}
+				add_local_autonomy = 25
 				hidden_effect = { remove_province_modifier = necronmanpower4 }
 				
 				if = {
@@ -53564,7 +53874,7 @@ country_decisions = {
 				manpower_percentage = 1
 				OR = {
 					yearly_corruption_increase = 0.001
-					NOT = { legitimacy = 75 }
+					NOT = { prestige = 0 }
 				}
 			}
 		}

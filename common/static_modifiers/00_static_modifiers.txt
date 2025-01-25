@@ -2417,251 +2417,251 @@ imperial_world_base_modifiers={
 
 necronmanpower_251 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_412 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_440 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_441 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_547 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_757 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_819 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_968 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_972 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_1104 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_1183 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_1307 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_1332 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_1556 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_1557 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_1570 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_1580 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_1602 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_1647 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_1668 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_1674 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_1691 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_1692 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_1702 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_1709 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_1763 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_1793 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_1794 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_1797 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_1802 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_1847 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_1852 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_1853 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_1864 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_1869 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_1878 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_1906 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_1931 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_2000 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_2007 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_2835 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_2856 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_2886 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_2888 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_2943 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_2949 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_2991 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_3032 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_3034 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_3106 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_3128 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_3304 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_1704 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_1705 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_1706 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_1707 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_1708 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_1710 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_1711 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_1712 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_1713 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 necronmanpower_1717 = {
 	yearly_corruption = 0.05
-	legitimacy = -0.1
+	prestige = -0.1
 }
 
 necronmanpower1 = {
