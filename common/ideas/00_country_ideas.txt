@@ -356,6 +356,44 @@ XGF_ideas = {
 	}
 }
 
+XTE_ideas = {
+	start = {
+		land_morale = 0.20
+		technology_cost = -0.10		
+	}
+	
+	bonus = {
+		global_manpower_modifier = 0.25
+	}	
+
+	trigger = {
+		tag = XTE
+	}
+	free = yes
+	
+	XTE_ideas_1 = {
+		trade_efficiency = 0.10			
+	}
+	XTE_ideas_2 = {
+		production_efficiency = 0.15	
+	}
+	XTE_ideas_3 = {
+		diplomatic_reputation = 2		
+	}
+	XTE_ideas_4 = {
+		discipline = 0.05				
+	}
+	XTE_ideas_5 = {
+		diplomats = 1					
+	}
+	XTE_ideas_6 = {
+		administrative_efficiency = 0.05	
+	}
+	XTE_ideas_7 = {
+		tolerance_heathen = 3			
+	}
+}
+
 Necron_ideas = {
 	start = {
 		rival_change_cost = -0.33
@@ -368,6 +406,7 @@ Necron_ideas = {
 
 	trigger = {
 		culture_group = necron_culture_group
+		NOT = { tag = XTE }
 	}
 	free = yes
 	
