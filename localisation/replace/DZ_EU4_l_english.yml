@@ -373,4 +373,4 @@
  ADD_PROVINCES_TO_HRE_TOOLTIP:0 "Will add $NUM|Y$ provinces to Commorragh."
  ADD_PROVINCES_TO_EMPIRE:0 "Add all provinces to Commorragh"
  ONLY_A_MEMBER_CAN_ADD:0 "You are not a member of Commorragh."
- ADD_PROVINCES_TO_EMPIRE_DESC:0 "This will add all eligible provinces to commorragh. Are you sure you want to add $NUM|Y$ provinces to commorragh?"
+ ADD_PROVINCES_TO_EMPIRE_DESC:0 "This will add all eligible provinces to Commorragh. Are you sure you want to add $NUM|Y$ provinces to Commorragh?"

@@ -35,6 +35,7 @@ imperium_regency_reform = {
 		same_religion_advisor_cost = -0.25
 		relation_with_heathens = -50
 		yearly_corruption = 0.1
+		global_heathen_missionary_strength = 0.01
 		may_recruit_female_generals = yes
 	}
 

@@ -1355,7 +1355,7 @@
  chambered_cannon:0 "Chambered Cannon"
  chambered_cannonDESCR:0 "The 16th century did not only see improvements in artillery maneuverability but also in the attempts at standardizing the size and weight of artillery pieces."
  howitzer:0 "Howitzer"
- howitzerDESCR:0 "Modern howitzers were developed after the Hussite Houfnice artillery, as a medium-trajectory weapon that falls between a cannon and a mortar, having the advantages of both direct and indirect types of fire."
+ howitzerDESCR:0 "The Götterdämmerung Howitzer is an iconic piece of heavy artillery used by the Death Korps of Krieg, embodying the grim ethos of their siege warfare. Developed during the Krieg Civil War, it was specifically designed for long-range bombardment and attritional warfare. Its immense firepower makes it ideal for destroying entrenched positions and fortifications. The Götterdämmerung's shells are capable of devastating impacts, with a range that allows it to support advancing forces from well behind the frontlines. This artillery piece is renowned for its inexpensiveness, durability and reliability under the harshest conditions. Despite its effectiveness, it requires a static emplacement or towed deployment, limiting its mobility compared to self-propelled alternatives."
  horse_artillery_unit:0 "Horse Artillery"
  horse_artillery_unitDESCR:0 "A further advance in the development of artillery was the generalization during the 17th and 18th centuries of mobile cannons, that could be easily ported and relocated in the battlefield, allowing for more effective battle tactics."
  licorne:0 "Licorne"
