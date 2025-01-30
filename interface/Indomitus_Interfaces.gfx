@@ -1,0 +1,156 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_planar_hero_interface_primary"
+		texturefile = "gfx/planar_hero_mechanic/planar_hero_interface_primary.dds"
+	}
+	spriteType = {
+		name = "GFX_planar_hero_placeholder"
+		texturefile = "gfx/planar_hero_mechanic/planar_hero_placeholder.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_planar_hero_favors"
+		texturefile = "gfx/planar_hero_mechanic/planar_hero_favors.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_planar_hero_green"
+		texturefile = "gfx/planar_hero_mechanic/planar_hero_green.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_planar_hero_green_one"
+		texturefile = "gfx/planar_hero_mechanic/planar_hero_green_one.dds"
+		transparencecheck = yes
+	}
+
+
+	spriteType = {
+		name = "GFX_planar_hero_green_two"
+		texturefile = "gfx/planar_hero_mechanic/planar_hero_green_two.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_planar_hero_green_three"
+		texturefile = "gfx/planar_hero_mechanic/planar_hero_green_three.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_planar_hero_green_four"
+		texturefile = "gfx/planar_hero_mechanic/planar_hero_green_four.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_planar_hero_green_five"
+		texturefile = "gfx/planar_hero_mechanic/planar_hero_green_five.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_planar_hero_green_six"
+		texturefile = "gfx/planar_hero_mechanic/planar_hero_green_six.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_planar_hero_green_seven"
+		texturefile = "gfx/planar_hero_mechanic/planar_hero_green_seven.dds"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_planar_hero_green_eight"
+		texturefile = "gfx/planar_hero_mechanic/planar_hero_green_eight.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_planar_hero_green_nine"
+		texturefile = "gfx/planar_hero_mechanic/planar_hero_green_nine.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_planar_hero_green_ten"
+		texturefile = "gfx/planar_hero_mechanic/planar_hero_green_ten.dds"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_planar_hero_quest_one"
+		texturefile = "gfx/planar_hero_mechanic/planar_hero_quest_one.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_planar_hero_quest_two"
+		texturefile = "gfx/planar_hero_mechanic/planar_hero_quest_two.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_planar_hero_quest_three"
+		texturefile = "gfx/planar_hero_mechanic/planar_hero_quest_three.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_planar_hero_quest_four"
+		texturefile = "gfx/planar_hero_mechanic/planar_hero_quest_four.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_planar_hero_quest_five"
+		texturefile = "gfx/planar_hero_mechanic/planar_hero_quest_five.dds"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_planar_hero_loyalty_one"
+		texturefile = "gfx/planar_hero_mechanic/planar_hero_loyalty_one.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_planar_hero_loyalty_two"
+		texturefile = "gfx/planar_hero_mechanic/planar_hero_loyalty_two.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_planar_hero_loyalty_three"
+		texturefile = "gfx/planar_hero_mechanic/planar_hero_loyalty_three.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_planar_hero_loyalty_four"
+		texturefile = "gfx/planar_hero_mechanic/planar_hero_loyalty_four.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_planar_hero_loyalty_five"
+		texturefile = "gfx/planar_hero_mechanic/planar_hero_loyalty_five.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_planar_hero_favors_one"
+		texturefile = "gfx/planar_hero_mechanic/planar_hero_favors_one.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_planar_hero_favors_two"
+		texturefile = "gfx/planar_hero_mechanic/planar_hero_favors_two.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_planar_hero_favors_three"
+		texturefile = "gfx/planar_hero_mechanic/planar_hero_favors_three.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_planar_hero_favors_four"
+		texturefile = "gfx/planar_hero_mechanic/planar_hero_favors_four.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_planar_hero_favors_five"
+		texturefile = "gfx/planar_hero_mechanic/planar_hero_favors_five.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_planar_hero_button"
+		texturefile = "gfx/planar_hero_mechanic/planar_hero_button.dds"
+		transparencecheck = yes
+	}
+}

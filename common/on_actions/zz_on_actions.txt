@@ -78,7 +78,7 @@ on_startup={
 			}
 			spawn_rebels = {
 				type = heretic_rebels
-				size = 2
+				size = 1.5
 				should_take_capital = yes 
 			}
 			change_controller = REB
@@ -90,7 +90,7 @@ on_startup={
 			}
 			spawn_rebels = {
 				type = heretic_rebels
-				size = 2
+				size = 1.5
 				should_take_capital = yes 
 			}
 			change_controller = REB
@@ -126,7 +126,7 @@ on_startup={
 			}
 			spawn_rebels = {
 				type = heretic_rebels
-				size = 3
+				size = 2
 				should_take_capital = yes 
 			}
 			change_controller = REB

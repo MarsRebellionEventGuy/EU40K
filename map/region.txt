@@ -5,7 +5,7 @@
 segmentum_solar_region = { 
 	areas = { 
 		solar avellorn benediction voss gathalamor xenax keletros solar_star_keeps atoma_prime nox_alpha
-		benediction_planet dulmalin gathalamor_planet vorlese vilamus_planet 
+		benediction_planet dulmalin gathalamor_planet vorlese vilamus_planet voss_planet mars_planet veritus saturn jupiter
 	}
 }
 talis_munus_region = { 
@@ -20,7 +20,7 @@ inwit_cluster_region = {
 }
 fenris_region = { 
 	areas = { 
-		fenris armageddon garmon elysia garmon_planet 
+		fenris armageddon garmon elysia garmon_planet voss_prime_planet
 	}
 }
 macharia_region = { 
@@ -81,7 +81,7 @@ nachmund_region = {
 calixis_region = { 
 	areas = { 
 		scintilla malfi drusus_marches mausolea golgenna_reach josian_reach periphery castellain stygies_deeps solomon_planet
-		sacris 
+		sacris lathes
 	}
 }
 medusan_reach_region = { 
@@ -127,12 +127,12 @@ askellon_region = {
 }
 agripinaa_region = { 
 	areas = { 
-		agripinaa cadmus okomeia 
+		agripinaa cadmus okomeia agripinaa_planet sangua_terra_planet
 	}
 }
 golgotha_region = { 
 	areas = { 
-		golgotha van_horne gaivos cornucopia golgotha_planet aryand 
+		golgotha van_horne gaivos cornucopia golgotha_planet aryand sarum_planet
 	}
 }
 prosperan_rift_region = { 
@@ -142,7 +142,7 @@ prosperan_rift_region = {
 }
 forsarr_region = { 
 	areas = { 
-		kiavahr pleuric raisa lavantia myr kiavahr_planet raisa_planet 
+		kiavahr pleuric raisa lavantia myr kiavahr_planet raisa_planet gryphonne_planet
 	}
 }
 laanah_rifts_region = { 
@@ -188,7 +188,7 @@ coronid_deeps_region = {
 }
 grail_abyss_region = { 
 	areas = { 
-		vindalex lucius dimmamar isstvan kronite 
+		vindalex lucius dimmamar isstvan kronite lucius_planet
 	}
 }
 grendl_stars_region = { 
@@ -203,12 +203,12 @@ trail_evisser_region = {
 }
 salient_stars_region = { 
 	areas = { 
-		methalor bastior guryan stygies sabatine methalor_planet 
+		methalor bastior guryan stygies sabatine methalor_planet stygies_planet
 	}
 }
 hydraphur_region = { 
 	areas = { 
-		milhand hydra_cordatus hydraphur hydraphur_planet hydraphur_planet 
+		milhand hydra_cordatus hydraphur hydraphur_planet hydraphur_planet moredakka_planet
 	}
 }
 sargos_region = { 
@@ -228,7 +228,7 @@ bakhar_region = {
 }
 triplex_region = { 
 	areas = { 
-		triplex coralax mymeara kenrac 
+		triplex coralax mymeara kenrac triplex_phall_planet
 	}
 }
 loki_region = { 
@@ -253,7 +253,7 @@ vidar_region = {
 }
 corribra_region = { 
 	areas = { 
-		tesla zodiac necris san_leor orinus 
+		tesla zodiac necris san_leor orinus tesla_prime_planet
 	}
 }
 ullanor_region = { 
@@ -263,7 +263,7 @@ ullanor_region = {
 }
 nepthis_region = { 
 	areas = { 
-		anvilus olympia jagga nemeton_planet 
+		anvilus olympia jagga nemeton_planet anvilus_planet incaladion_planet
 	}
 }
 fenright_region = { 

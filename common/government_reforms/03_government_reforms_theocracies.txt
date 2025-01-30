@@ -421,9 +421,18 @@ forgeworld_reform = {
     trigger = {
 		OR = { 	
 			development_in_provinces = {
-				value = 100
+				value = 400
 			}
 			tag = XXB
+			tag = XFF
+			tag = XDO
+			tag = XOL
+			tag = XGC
+			tag = XOJ
+			tag = XOB
+			tag = XHG
+			tag = XOQ
+			tag = XBV
 		}
     }
 

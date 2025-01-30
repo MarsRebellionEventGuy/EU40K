@@ -1,0 +1,9 @@
+add_core = XFE
+owner = XFE
+controller = XFE
+religion = imperial_cult
+culture = agripinaa_human_culture
+base_tax = 2
+base_production = 2
+base_manpower = 3
+trade_goods = clerks

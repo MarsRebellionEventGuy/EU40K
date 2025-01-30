@@ -2076,6 +2076,30 @@ integrated_world_subject_type = {
 	modifier_subject = {
 		modifier = subject_nation
 	}
+	modifier_subject = {
+		modifier = tributary_state_behind_overlord_tech_adm
+		trigger = {
+			ROOT = {
+				NOT = { adm_tech = FROM }
+			}
+		}
+	}
+	modifier_subject = {
+		modifier = tributary_state_behind_overlord_tech_dip
+		trigger = {
+			ROOT = {
+				NOT = { dip_tech = FROM }
+			}
+		}
+	}
+	modifier_subject = {
+		modifier = tributary_state_behind_overlord_tech_mil
+		trigger = {
+			ROOT = {
+				NOT = { mil_tech = FROM }
+			}
+		}
+	}
 	modifier_overlord = {
 		modifier = soyurghal_base_overlord_modifiers
 	}
@@ -2106,7 +2130,7 @@ imperial_world_subject_type = {
 	
 	relative_power_class = 1 
 	
-	forcelimit_to_overlord = 0.1
+	forcelimit_to_overlord = 0.05
 	
 	can_fight = {
 		independent_nations = yes
@@ -2126,6 +2150,30 @@ imperial_world_subject_type = {
 	modifier_subject = clear
 	modifier_subject = {
 		modifier = imperial_world_base_modifiers
+	}
+	modifier_subject = {
+		modifier = tributary_state_behind_overlord_tech_adm
+		trigger = {
+			ROOT = {
+				NOT = { adm_tech = FROM }
+			}
+		}
+	}
+	modifier_subject = {
+		modifier = tributary_state_behind_overlord_tech_dip
+		trigger = {
+			ROOT = {
+				NOT = { dip_tech = FROM }
+			}
+		}
+	}
+	modifier_subject = {
+		modifier = tributary_state_behind_overlord_tech_mil
+		trigger = {
+			ROOT = {
+				NOT = { mil_tech = FROM }
+			}
+		}
 	}
 	modifier_overlord = {
 		modifier = soyurghal_base_overlord_modifiers
@@ -2153,7 +2201,7 @@ nominal_imperial_world_subject_type = {
 	can_have_great_projects_moved_by_overlord = no
 	is_voluntary = no
 	
-	forcelimit_to_overlord = 0.1
+	forcelimit_to_overlord = 0.025
 	
 	place_relative_on_throne = no
 
@@ -2182,6 +2230,30 @@ nominal_imperial_world_subject_type = {
 	modifier_subject = clear
 	modifier_subject = {
 		modifier = nominal_imperial_world_base_modifiers
+	}
+	modifier_subject = {
+		modifier = tributary_state_behind_overlord_tech_adm
+		trigger = {
+			ROOT = {
+				NOT = { adm_tech = FROM }
+			}
+		}
+	}
+	modifier_subject = {
+		modifier = tributary_state_behind_overlord_tech_dip
+		trigger = {
+			ROOT = {
+				NOT = { dip_tech = FROM }
+			}
+		}
+	}
+	modifier_subject = {
+		modifier = tributary_state_behind_overlord_tech_mil
+		trigger = {
+			ROOT = {
+				NOT = { mil_tech = FROM }
+			}
+		}
 	}
 	modifier_overlord = {
 		modifier = nominal_imperial_world_base_overlord_modifiers
@@ -2246,10 +2318,12 @@ imperial_sector_subject = {
 
 	count = tributary_state
 
-	forcelimit_to_overlord = 0.002
-	manpower_to_overlord = 0.002
-	naval_forcelimit_to_overlord = 0.02
-	sailors_to_overlord = 0.002
+	forcelimit_to_overlord = 0.2
+	manpower_to_overlord = 0.05
+	naval_forcelimit_to_overlord = 0.1
+	sailors_to_overlord = 0.05
+	
+	pays_overlord = 1.0
 	
 	can_have_subjects_of_other_types = yes
 	can_be_annexed = no
@@ -2299,11 +2373,12 @@ imperial_sector_subject = {
 	
 	# Modifiers:	
 	modifier_overlord = clear
+	modifier_subject = clear
 	modifier_overlord = {
 		modifier = self_governing_colony_overlord
 	}
 	modifier_subject = {
-		modifier = appanage_subject
+		modifier = trade_protectorate_subject_modifier
 	}
 	modifier_subject = {
 		modifier = subject_tax_modifier

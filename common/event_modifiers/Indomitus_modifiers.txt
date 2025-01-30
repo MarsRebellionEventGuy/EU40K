@@ -251,3 +251,7 @@ XGK_Federalism_Bonus = {
 	vassal_forcelimit_bonus = 0.10
 	vassal_naval_forcelimit_bonus = 0.15
 }
+
+nachmund_mod = {
+	province_trade_power_value = 30
+}

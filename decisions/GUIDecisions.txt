@@ -1,0 +1,25 @@
+country_decisions = {
+	contact_carcharodons = {
+		potential = {
+			tag = XXA
+			NOT = { has_country_flag = XXA_contacted_charcarodons }
+		}
+		allow = {
+			custom_trigger_tooltip = {
+				tooltip = XXA_Carcharodons_tt
+				num_of_provinces_owned_or_owned_by_subjects_with = {
+					value = 8
+					
+				}
+			}
+		}
+		effect = {
+			custom_tooltip = contact_carcharodons_tt
+			set_country_flag = XXA_contacted_charcarodons
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+}

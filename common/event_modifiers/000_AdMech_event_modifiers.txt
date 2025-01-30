@@ -78,3 +78,8 @@ XXA_restrained_army={
 	land_forcelimit_modifier = -0.10
 	liberty_desire = 5
 }
+
+lucius_defense_mod = {
+	local_defensiveness = 0.1
+	local_fort_maintenance_modifier = -0.1
+}

@@ -83,18 +83,47 @@ country_decisions = {
 			NOT = { has_country_flag = indomitus_formed_country }
 		}
 		provinces_to_highlight = {
-			has_terrain = tomb_world
+			OR = {
+				has_terrain = forest
+				has_terrain = blackstone_world
+			}
 			NOT = { is_core = ROOT }
 		}
 		allow = {
+			total_development = 400
 			num_of_owned_provinces_with = {
-				value = 25
-				is_core = ROOT
-				has_terrain = tomb_world
+				value = 7
+				is_core = root
+				culture = necron_culture
+				OR = {
+					has_terrain = forest 			#tomb complex
+					has_terrain = blackstone_world
+				}
+			}
+			any_country = {
+				culture = necron_culture
+				NOT = {
+					OR = {
+						army_strength = {
+							who = ROOT
+							value = 0.6
+						}
+						naval_strength = {
+							who = ROOT
+							value = 0.6
+						}
+					}
+				}
 			}
 		}
 		effect = {
-			override_country_name = IE_RENAME
+          	 	change_tag = XTE					
+			swap_non_generic_missions = yes
+			on_change_tag_effect = yes
+           		 government_rank = 3 
+            		change_adm = 1
+			change_dip = 1
+			change_mil = 1
 			set_country_flag = indomitus_formed_country
 			add_prestige = 25
 			add_country_modifier = {
@@ -104,6 +133,13 @@ country_decisions = {
 			if = {
 				limit = { NOT = { government_rank = 3 } }
 				set_government_rank = 3
+			}
+			if = {
+				limit = {
+					has_custom_ideas = no
+					NOT = { has_idea_group = XTE_ideas }
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
 			}
 		}
 		ai_will_do = {
