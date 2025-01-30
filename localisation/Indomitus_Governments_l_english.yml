@@ -239,7 +239,7 @@ preserve_highborn_privileges_reform: "Preserve Highborn Privileges"
 preserve_highborn_privileges_reform_desc: ""
 
 enforce_codex_astartes_reform: "Enforce Codex Astartes"
-enforce_codex_astartes_reform_desc: "'The warrior who acts out of honour cannot fail. His duty is honour itself. Even his death, if it is honourable, is a reward and can be no failure, for it has come through duty. Seek honour as you act, therefore, and you will know no fear' /nThe Codex Astartes was conceived as a sacred compendium of the tactics, moral behaviour and discipline that the chapters ought to uphold within their ranks. Enforcing its teachings means forging warriors of unbreakable will in the face of the most abject terror."
+enforce_codex_astartes_reform_desc: "'The warrior who acts out of honour cannot fail. His duty is honour itself. Even his death, if it is honourable, is a reward and can be no failure, for it has come through duty. Seek honour as you act, therefore, and you will know no fear' \nThe Codex Astartes was conceived as a sacred compendium of the tactics, moral behaviour and discipline that the chapters ought to uphold within their ranks. Enforcing its teachings means forging warriors of unbreakable will in the face of the most abject terror."
 
 integrate_cadian_diaspora_reform: "Integrate Cadian Diaspora"
 integrate_cadian_diaspora_reform_desc: "To unite the scattered sons and daughters of Cadia is to preserve a legacy forged in the fires of unyielding defiance. Their discipline and battlefield prowess, once the Imperium’s bulwark against the tides of damnation, now strengthen its wider war machine. With their integration, the lessons of Cadia endure, their indomitable spirit prevails, and its reforged warriors march once more, an unbroken testament to the world that fell, but never yielded."
@@ -253,7 +253,7 @@ kryptman_reform_desc: "We have embraced the cunning strategies of Inquisitor Kry
 solblades_reform: "Solbades"
 solblades_reform_desc: "The Solblades are elite vessels that embody speed, agility, and precision in void warfare. Utilizing hit-and-run tactics, they relentlessly harass enemy threats, disrupting their formations and weakening their overall resolve. By widely deploying these formidable assets, we can enhance our naval operations, ensuring that our fleets are unmatched in both offensive and defensive engagements."
 
-authonomy_for_ophelia_reform: "Autonomy for Ophelia"
+autonomy_for_ophelia_reform: "Autonomy for Ophelia"
 autonomy_for_ophelia_reform_desc: "We acknowledge the unique position of Ophelia VII, a vital world  entirely devoted to the teachings of the Imperial Creed. By granting greater autonomy to the  region, we respect its cultural heritage and the fervent devotion of its inhabitants. This policy will not only enhance our relationships with our chapters, but also bolster the prestige of the Imperial faith as it spreads throughout the galaxy."
 
 promote_omnissiah_reform: "Promote Omnissiah"
