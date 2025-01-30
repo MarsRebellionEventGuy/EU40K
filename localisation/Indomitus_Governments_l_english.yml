@@ -235,6 +235,45 @@
  imperium_regency_reform: "Imperial Regency"
  imperium_regency_reform_desc: "The Imperium of Man is ruled by primarch of the Ultramarines and Imperial Regent, Roboute Guilliman. Any power previously held by the High Lords of Terra which extended beyond their primary purpose has been diminished and the Senatorum Imperialis itself has been relegated to a largely ceremonial role."
 
+preserve_highborn_privileges_reform: "Preserve Highborn Privileges"
+preserve_highborn_privileges_reform_desc: ""
+
+enforce_codex_astartes_reform: "Enforce Codex Astartes"
+enforce_codex_astartes_reform_desc: "'The warrior who acts out of honour cannot fail. His duty is honour itself. Even his death, if it is honourable, is a reward and can be no failure, for it has come through duty. Seek honour as you act, therefore, and you will know no fear' /nThe Codex Astartes was conceived as a sacred compendium of the tactics, moral behaviour and discipline that the chapters ought to uphold within their ranks. Enforcing its teachings means forging warriors of unbreakable will in the face of the most abject terror."
+
+integrate_cadian_diaspora_reform: "Integrate Cadian Diaspora"
+integrate_cadian_diaspora_reform_desc: "To unite the scattered sons and daughters of Cadia is to preserve a legacy forged in the fires of unyielding defiance. Their discipline and battlefield prowess, once the Imperium’s bulwark against the tides of damnation, now strengthen its wider war machine. With their integration, the lessons of Cadia endure, their indomitable spirit prevails, and its reforged warriors march once more, an unbroken testament to the world that fell, but never yielded."
+
+indomitus_fleets_reform: "Indomitus Fleets"
+indomitus_fleets_reform_desc: "The Indomitus Fleets are a manifestation of the Imperium's resolve to reclaim lost worlds and reinforce its authority across the galaxy. By mastering advanced naval warfare strategies and technologies, the Imperium can launch devastating naval barrages to reconquer entire lost systems, sriking fear into the hearts of our enemies while simultaneously boosting the prestige the whole fleet."
+
+kryptman_reform: "Kryptman Methods"
+kryptman_reform_desc: "We have embraced the cunning strategies of Inquisitor Kryptman, whose mastery of subterfuge and attrition tactics allows us to undermine our enemies from within. By employing psychological warfare and calculated maneuvers, we can weaken their resolve in their assaults and enhance our own intelligence-gathering capabilities"
+
+solblades_reform: "Solbades"
+solblades_reform_desc: "The Solblades are elite vessels that embody speed, agility, and precision in void warfare. Utilizing hit-and-run tactics, they relentlessly harass enemy threats, disrupting their formations and weakening their overall resolve. By widely deploying these formidable assets, we can enhance our naval operations, ensuring that our fleets are unmatched in both offensive and defensive engagements."
+
+authonomy_for_ophelia_reform: "Autonomy for Ophelia"
+autonomy_for_ophelia_reform_desc: "We acknowledge the unique position of Ophelia VII, a vital world  entirely devoted to the teachings of the Imperial Creed. By granting greater autonomy to the  region, we respect its cultural heritage and the fervent devotion of its inhabitants. This policy will not only enhance our relationships with our chapters, but also bolster the prestige of the Imperial faith as it spreads throughout the galaxy."
+
+promote_omnissiah_reform: "Promote Omnissiah"
+promote_omnissiah_reform_desc: "We reaffirm our syncretic commitment to the Omnissiah, the Machine God worshipped by the Adeptus Mechanicus of Mars. By promoting the teachings of the Omnissiah and recognizing its connection to the Emperor,  we strengthen our ties with the Red Planet and ensure the continued support of its technocratic elite. With their unconditional support, we vastly reduce the costs associated with governance improvements."
+
+permit_imperial_truth_reform: "Permit Imperial Truth"
+permit_imperial_truth_reform_desc: "Humanity cannot let itself get splintered from within in these trying times. We have therefore instructed the Inquisition to stop the active persecution of believers of the so-called "Imperial Truth." We humans must present a united front against the xenos swarm that threatens to extinguish our light forever. Compromises have to be made, or else our own petty squabbling will be our downfall as a species."
+
+adeptus_custodes_reform: "Favor the Adeptus Custodes"
+adeptus_custodes_reform: "We have recognized the unmatched prowess and discipline of the Adeptus Custodes, the Emperor’s chosen guardians. By integrating their rigorous training and martial traditions into our overeaching military structure, we can instill a greater sense of duty and excellence in our wider forces. The infusion of the Custodes frame of mind into the Astra Militarum ensures that each soldier is fully concious of their own sense of importance as guardians of both humanity and Emperor alike, regardless of their place in the chain of command."
+
+ultramarines_cadre_reform: "Ultramarine Cadre"
+ultramarines_cadre_reform_desc: "If there is one thing a xenos fears more than a Space Marine, it is an Ultramarine, who sits at the top echelon of this already prestigious cadre of elite soldiers. By incorporating these elements into our military administration, we ensure access to a wide selection of expert veterans who provide invaluable advice on current and future campaigns in the void. Furthermore, by integrating their strategies and principles into our military structure, we can enhance our operational effectiveness and ensure that their legacy of leadership becomes an integral part of our armed forces."
+
+navigator_patronage_reform: "Navigator Patronage"
+navigator_patronage_reform_desc: "The invaluable role of the Navigators in the expansion of our reach across the stars cannot be understated. By fostering close ties with these gifted individuals, we can enhance our colonial endeavors and ensure the safe passage of our fleets through the unpredictable tides of the warp. This initiative will not only expand our operational range but also reduce minimize soldier losses experienced on our ships during long voyages."
+
+adeptus_arbites_reform: "Favor the Adeptus Arbites"
+adeptus_arbites_reform_desc: "The Adeptus Arbites serve as the enforcers of law and order throughout our vast domains. By favoring this organization, we can ensure that our continuous conquests do not overextend our ruling capabilities to the point of implosion. However, this support may impair the overall effectiveness of our troops on the ground in quelling unrest."
+
  imperial_governorate_reform: "Imperial Governorate"
  imperial_governorate_reform_desc: "Hive worlds and garrisons of the Imperium are ruled autonomously by planetary governors with Administratum representatives maintaining ceremonial positions. Forms of governance vary greatly between worlds, ranging from oligarchic republics to hereditary fiefdoms."
 
