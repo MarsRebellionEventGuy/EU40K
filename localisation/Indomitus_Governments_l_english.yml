@@ -239,7 +239,7 @@ preserve_highborn_privileges_reform: "Preserve Highborn Privileges"
 preserve_highborn_privileges_reform_desc: ""
 
 enforce_codex_astartes_reform: "Enforce Codex Astartes"
-enforce_codex_astartes_reform_desc: "'The warrior who acts out of honour cannot fail. His duty is honour itself. Even his death, if it is honourable, is a reward and can be no failure, for it has come through duty. Seek honour as you act, therefore, and you will know no fear' \nThe Codex Astartes was conceived as a sacred compendium of the tactics, moral behaviour and discipline that the chapters ought to uphold within their ranks. Enforcing its teachings means forging warriors of unbreakable will in the face of the most abject terror."
+enforce_codex_astartes_reform_desc: "'The warrior who acts out of honour cannot fail. His duty is honour itself. Even his death, if it is honourable, is a reward and can be no failure, for it has come through duty. Seek honour as you act, therefore, and you will know no fear' -Roboute Guilliman \n The Codex Astartes was conceived as a sacred compendium of the tactics, moral behaviour and discipline that the chapters ought to uphold within their ranks. Enforcing its teachings means forging warriors of unbreakable will in the face of the most abject terror."
 
 integrate_cadian_diaspora_reform: "Integrate Cadian Diaspora"
 integrate_cadian_diaspora_reform_desc: "To unite the scattered sons and daughters of Cadia is to preserve a legacy forged in the fires of unyielding defiance. Their discipline and battlefield prowess, once the Imperium’s bulwark against the tides of damnation, now strengthen its wider war machine. With their integration, the lessons of Cadia endure, their indomitable spirit prevails, and its reforged warriors march once more, an unbroken testament to the world that fell, but never yielded."
@@ -263,7 +263,7 @@ permit_imperial_truth_reform: "Permit Imperial Truth"
 permit_imperial_truth_reform_desc: "Humanity cannot let itself get splintered from within in these trying times. We have therefore instructed the Inquisition to stop the active persecution of believers of the so-called "Imperial Truth." We humans must present a united front against the xenos swarm that threatens to extinguish our light forever. Compromises have to be made, or else our own petty squabbling will be our downfall as a species."
 
 adeptus_custodes_reform: "Favor the Adeptus Custodes"
-adeptus_custodes_reform: "We have recognized the unmatched prowess and discipline of the Adeptus Custodes, the Emperor’s chosen guardians. By integrating their rigorous training and martial traditions into our overeaching military structure, we can instill a greater sense of duty and excellence in our wider forces. The infusion of the Custodes frame of mind into the Astra Militarum ensures that each soldier is fully concious of their own sense of importance as guardians of both humanity and Emperor alike, regardless of their place in the chain of command."
+adeptus_custodes_reform_desc: "We have recognized the unmatched prowess and discipline of the Adeptus Custodes, the Emperor’s chosen guardians. By integrating their rigorous training and martial traditions into our overeaching military structure, we can instill a greater sense of duty and excellence in our wider forces. The infusion of the Custodes frame of mind into the Astra Militarum ensures that each soldier is fully concious of their own sense of importance as guardians of both humanity and Emperor alike, regardless of their place in the chain of command."
 
 ultramarines_cadre_reform: "Ultramarine Cadre"
 ultramarines_cadre_reform_desc: "If there is one thing a xenos fears more than a Space Marine, it is an Ultramarine, who sits at the top echelon of this already prestigious cadre of elite soldiers. By incorporating these elements into our military administration, we ensure access to a wide selection of expert veterans who provide invaluable advice on current and future campaigns in the void. Furthermore, by integrating their strategies and principles into our military structure, we can enhance our operational effectiveness and ensure that their legacy of leadership becomes an integral part of our armed forces."
@@ -273,6 +273,36 @@ navigator_patronage_reform_desc: "The invaluable role of the Navigators in the e
 
 adeptus_arbites_reform: "Favor the Adeptus Arbites"
 adeptus_arbites_reform_desc: "The Adeptus Arbites serve as the enforcers of law and order throughout our vast domains. By favoring this organization, we can ensure that our continuous conquests do not overextend our ruling capabilities to the point of implosion. However, this support may impair the overall effectiveness of our troops on the ground in quelling unrest."
+
+chartist_captains_reform: ""
+chartist_captains_reform_desc: ""
+
+empower_high_lords_reform: "Empower High Lords"
+empower_high_lords_reform_desc: "With the Emperor confined to the Golden Throne, the High Lords of Terra wield immense power over the Imperium’s governance. By acknowledging this reality rather than resisting it, we can guarantee a smoother administration as our estates consolidate into a unified and efficient framework."
+
+rule_by_astartes_reform: "Rule By Astartes"
+rule_by_astartes_reform_desc: In a state of perpetual war, it would be foolish not to integrate the armed forces directly into our government. Doing so ensures the cooperation of experienced veterans whilst significantly expanding the number of Space Marines available for our own personal command."
+
+empower_governors_reform: "Empower Governors"
+empower_governors_reform_desc: "Across our vast domains, planetary governors oversee the daily governance and political affairs of their worlds. By granting them greater autonomy in shaping local policies on the ground, we can rest assured that each world will develop efficiently, leveraging its unique resources and characteristics to their fullest potential."
+
+ultramarine_model_reform: "Ultramarine Model"
+ultramarine_model_reform_desc: "Transitioning our economy entirely to war, following the Ultramarine model, allows us to streamline our military expenditures, optimize resource allocation, and harness the full potential of our officer corps."
+
+support_xanthites_reform: "Support Xanthites"
+support_xanthites_reform_desc: "The Xanthites believe that the weapons of the enemy can and must be turned against them, advocating for unorthodox methods to secure the Imperium’s survival. By closely aligning with their philosophy, we open our court to a broader range of advisors, embracing new perspectives in both governance and warfare alike."
+
+psychic_ascendancy_reform: "Psychic Ascendancy"
+psychic_ascendancy_reform_desc: "The dominance of psykers within our institutions marks a new era for the Imperium, one we can no longer ignore. In this era, the warp-born wield unparalleled influence over governance and strategy. By embracing this evolution fully, we foster unorthodox tought, as new ideas and methods take root at an unprecedented pace."
+
+golden_throne_repair_reform: "Golden Throne Repair"
+golden_throne_repair_reform_desc: "The Golden Throne, the life-support system for the Emperor, is the cornerstone of our Imperium’s stability. Tragically, it has remained in a state of ruin and disrepair for far too long. We must prioritize its repair and maintenance, allowing the cunning of our Emperor to imbue our future direction of the Imperium. Furthermore, we can apply the lessons learned during the repair of the throne to other great endeavours in our realm."
+
+galactic_domination_reform: "Galactic Domination"
+galactic_domination_reform_desc: "The time has come to rise and claim our rightful place as masters of the galaxy. No longer shall we allow putrid xenos or inexplicable void horrors to threaten us with extinction. Now, we shall advance and purge them from their hidden lairs, for all will succumb to the unrelenting, unbreakable, and unconquerable spirit of mankind's destiny."
+
+imperial_webway_network_reform: "Imperial Webway Network"
+imperial_webway_network_reform_desc: "It is time to ressucitate the great millenia-old Webway Project of the Emperor himself. If we can replace Warp travel with permanent access to the Webway, we can ascertain our diplomatic and military dominion within our sphere of influence far more effectively than through traditional methods of the past."
 
  imperial_governorate_reform: "Imperial Governorate"
  imperial_governorate_reform_desc: "Hive worlds and garrisons of the Imperium are ruled autonomously by planetary governors with Administratum representatives maintaining ceremonial positions. Forms of governance vary greatly between worlds, ranging from oligarchic republics to hereditary fiefdoms."
