@@ -246,7 +246,7 @@ chaos_cult_reform = {
 	nation_designer_cost = 0
 	modifiers = {
 		global_heathen_missionary_strength = 0.02
-		warscore_cost_vs_other_religion = -0.204
+		warscore_cost_vs_other_religion = -0.20
 		relation_with_heathens = -50
 	}
 }

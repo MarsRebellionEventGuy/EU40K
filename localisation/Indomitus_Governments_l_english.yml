@@ -281,7 +281,7 @@ empower_high_lords_reform: "Empower High Lords"
 empower_high_lords_reform_desc: "With the Emperor confined to the Golden Throne, the High Lords of Terra wield immense power over the Imperium’s governance. By acknowledging this reality rather than resisting it, we can guarantee a smoother administration as our estates consolidate into a unified and efficient framework."
 
 rule_by_astartes_reform: "Rule By Astartes"
-rule_by_astartes_reform_desc: In a state of perpetual war, it would be foolish not to integrate the armed forces directly into our government. Doing so ensures the cooperation of experienced veterans whilst significantly expanding the number of Space Marines available for our own personal command."
+rule_by_astartes_reform_desc: "In a state of perpetual war, it would be foolish not to integrate the armed forces directly into our government. Doing so ensures the cooperation of experienced veterans whilst significantly expanding the number of Space Marines available for our own personal command."
 
 empower_governors_reform: "Empower Governors"
 empower_governors_reform_desc: "Across our vast domains, planetary governors oversee the daily governance and political affairs of their worlds. By granting them greater autonomy in shaping local policies on the ground, we can rest assured that each world will develop efficiently, leveraging its unique resources and characteristics to their fullest potential."
@@ -326,37 +326,37 @@ imperial_webway_network_reform_desc: "It is time to ressucitate the great millen
  tau_reform_desc: "The Aun't'au'retha is a council in which the ruling Ethereal Caste of T’au deliberates on matters pertaining to the Greater Good as well as its proliferation and maintenance."
 
  astartes_reform: "Astartes Chapter"
- astartes_reform_desc: ""
+ astartes_reform_desc: "The Astartes Chapter represents a formidable and unwavering militant order, forged in the crucible of battle and loyalty to the Emperor. This government type is characterized by its strict hierarchy, discipline, and commitment to the protection of humanity. Each chapter functions as an autonomous unit, drawing upon the ancient traditions and strategies that define its identity. \n The Chapter focuses on martial prowess and the relentless pursuit of perfection in the art of war. Recruitment is selective, drawing only the most promising warriors from among humanity's worlds to be transformed into Space Marines. These superhuman soldiers are trained to embody the ideals of honor, duty, and ultimate sacrifice for the good of all mankind."
 
- death_watch_reform: "Watch Garrison"
- death_watch_reform_desc: ""
+ death_watch_reform: "Death Watch Garrison"
+ death_watch_reform_desc: "A Death Watch Garrison is a fortified Imperial installation acting as a fortress, archive and training facility designed to support the operations of the Death Watch secretive kill-teams. \n The ethos of the Death Watch revolves around the belief that vigilance and unity are the keys to the prolonged survival of men. By pooling the strengths of different Chapters, they harness a diverse array of tactics and strategies, adapting to the volatile landscape of warfare of our era. These defenders are dedicated to the preservation of humanity and the extermination of all xenos threats, no matter how formidable."
 
  heretic_astartes_reform: "Renegade Astartes Chapter"
- heretic_astartes_reform_desc: ""
+ heretic_astartes_reform_desc: "The Heretic Astartes Chapter embodies a defiant and radical break from the traditional teachings and loyalties of the Adeptus Astartes. This government type is marked by its rejection of the established Imperium doctrines and norms that once defined their purpose, leading these warriors down a dark path of independence and rebellion. \n In the face of overwhelming odds, the Chaos Marines harness their formidable power and unmatched combat skills to carve out their own destiny among the stars. Their motivations vary, ranging from a desire for vengeance against the Imperium that cast them aside to a pursuit of personal power and ambition. Each chapter is distinct, often shaped by the circumstances that led to their fall from grace."
 
  forge_world_reform: "Forge World"
  forge_world_reform_desc: ""
 
- chaos_forge_world_reform: "Hellforge"
- chaos_forge_world_reform_desc: ""
+ chaos_forge_world_reform: "Hell-Forge"
+ chaos_forge_world_reform_desc: "The Hell-Forge embodies the Dark Mechanicum unrestricted quest for knowledge, leading to the creation of nightmarish machines that blend advanced technology with chaotic energies. Within the endless fires of war-driven industry, these forges produce horrific weaponry and arcane constructs, allowing the Dark Mechanicum to unleash devastating firepower upon their enemies."
 
  chaos_cult_reform: "Chaos Cult"
- chaos_cult_reform_desc: ""
+ chaos_cult_reform_desc: "A Chaos Cult is a fanatical and insidious force in the galaxy, spreading the corrupting influence of the Dark Gods from the shadows. Thriving on devotion, secrecy, and subversion, embedding itself within societies until it is ready to rise in open rebellion. Whether a scattered sect or a fully realized dominion of Chaos, its followers act as both worshippers and warriors in service to their malevolent patrons. \n Each cult is shaped by the will of the Ruinous Powers, with its structure and goals varying based on the Chaos God it venerates. \n In the end, a Chaos Cult exists for one purpose—to serve Chaos in all its forms, bringing about an age where the Immaterium and reality become one, and the false order of the galaxy is consumed by the eternal, ever-changing will of the Dark Gods as whole, or to one in particular."
 
  xeno_government_reform: "Xeno Government"
  xeno_government_reform_desc: ""
 
  craftworld_reform: "Craftworld"
- craftworld_reform_desc: ""
+ craftworld_reform_desc: "An Asuryani Craftworld is a vast, self-sustaining starborne sanctuary carrying the remnants of a once-great empire of the Eldars. Each Craftworld that drifts through the void is guided by ancient traditions and an unyielding will to survive. Governed by a ruling council of Farseers and Autarchs, its society is bound by the Path, a strict philosophy that disciplines the mind and soul, guarding against the excesses that once led their ancestors to ruin."
 
  genestealer_cult_reform: "Genestealer Cult"
- genestealer_cult_reform_desc: ""
+ genestealer_cult_reform_desc: "A Genestealer Cult is a hidden insurgency, a shadow growing beneath an unsuspecting world. This fanatical movement infiltrates society, with members across all levels, workers, soldiers, and governors preparing for the day of ascension when their masters arrive. \n Ruled by the Patriarch, whose psychic influence connects the cult to the Tyranid Hive Mind, its hierarchy includes the cunning Magus and battle-hardened Primus. Each sermon and skirmish aims to undermine their world and deliver it to the Great Devourer. To outsiders, they are a mindless threat; to their followers, they are the chosen, destined to usher in a new galactic order."
 
  ork_government_reform: "Ork Tribe"
  ork_government_reform_desc: ""
 
  exodite_government_reform: "Exodite Tribe"
- exodite_government_reform_desc: ""
+ exodite_government_reform_desc: "Exodite Tribes are a branch of the Aeldari who escaped their race decadence by embracing a simpler, agrarian lifestyle on distant worlds, far from their Craftworld kin. Living in harmony with nature, these tribes cultivate the land and draw strength from the spirits of their surroundings. Governed by a council of wise elders, they prioritize balance, community, and spiritual connection above all else."
 
  hive_fleet_reform: "Hive Fleet"
- hive_fleet_reform_desc: ""
+ hive_fleet_reform_desc: "A Hive Fleet is a vast, interstellar swarm of Tyranids, driven by a singular, insatiable hunger to consume all biological matter. This collective is governed by the Hive Mind, a psychic entity that coordinates the actions of countless Tyranid organisms, from the smallest Gaunts to the titanic Bio-Titans. \n As the Hive Fleet approaches a new world, it employs advanced bioengineering and adaptive strategies to overwhelm its prey, as its organisms are constantly evolving, adapting to threats and environments in real-time."
