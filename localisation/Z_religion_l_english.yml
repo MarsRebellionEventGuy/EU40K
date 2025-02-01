@@ -8,7 +8,7 @@
  death_cult_religion_desc:0 "Death Cults are a radical sect of the Imperial Cult that express worship through the art and exploration of death. It is a common truism that only through continued blood-sacrifice in the face of a hostile universe will Mankind prevail."
  promethean_cult:0 "Promethean Cult"
  promethean_cult_religion_desc:0 "The Promethean Cult is a variation of the standard Imperial Cult accepted by the Ecclesiarchy as non-heretical. It places emphasis on the primacy of humanity and the role of space marines its protectors, extolling the virtues of loyalty and compassion. Originating from the teachings of the primary Vulkan during the Great Crusade, the cult is traditionally associated with the Salamanders and their successor chapters."
- imperial_truth: "Imperial Truth"
+ imperial_truth:0 "Imperial Truth"
 
  aeldari_group:0 "Aeldari"
  aeldari:0 "Aeldari"

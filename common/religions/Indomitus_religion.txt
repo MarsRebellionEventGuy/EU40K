@@ -1,4 +1,5 @@
 emperor_group = {
+	defender_of_faith = yes
 	imperial_cult = {
 		color = { 255 196 0 }
 		icon = 1
@@ -15,7 +16,6 @@ emperor_group = {
 		}
 
 		uses_judaism_power = yes
-		defender_of_faith = yes
 		aspects_name = imperial_cult_inquisition_aspects
 			
 		aspects = {
