@@ -12,8 +12,6 @@
  estate_mechanicus_orders:0 "Holy Orders"
  estate_veterans:0 "Veterans"
  estate_exarchs:0 "Exarchs"
- estate_necron_nobles:0 "Necron Lords"
-estate_necron_nobles_desc:0 "The Necron Lords are elite lieutenants of the Overlords, commanding legions in the wars of galactic reconquest. Cunning strategists and ruthless enforcers, they execute their masters' will, unleashing terror upon all life, ensuring the unyielding supremacy of the Necron dynasties across the void."
  estate_dragon_knights:0 "Dragon Knights"
  estate_primuses:0 "Primuses"
  estate_warlords:0 "Warlords"
@@ -27,5 +25,5 @@ estate_necron_nobles_desc:0 "The Necron Lords are elite lieutenants of the Overl
  estate_navis_nobilite_desc: "This estate represents the noble families of the Navigators, psychically gifted mutants essential in directing Imperial ships through the transdimensional tides of the Warp. Unlike most abhumans within the Imperium, often persecuted or hunted for their mutations, the status of the Navis Nobilite render them largely exempt from Imperial law entirely."
  estate_astartes: "Adeptus Astartes"
  estate_astartes_desc: "This estate represents the space marines, the foremost defenders of mankind. Extensive genetic engineering and psychological reconditioning has made these superhumans martially superior to the average human in every aspect. Originally divided between the twenty Legiones Astartes, the nine who remained loyal following the Horus Heresy of the 30th Millenium have since been fragmented into individual Successor Chapters. These organizations continue to uphold the shared ties between their former legions alongisde their unique traditions."
-
- 
+estate_necron_nobles: "Necron Lords"
+estate_necron_nobles_desc: "The Necron Lords are elite lieutenants of the Overlords, commanding legions in the wars of galactic reconquest. Cunning strategists and ruthless enforcers, they execute their masters' will, unleashing terror upon all life, ensuring the unyielding supremacy of the Necron dynasties across the void."

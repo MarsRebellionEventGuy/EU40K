@@ -1,4 +1,3 @@
-{
 bookmark = {
     name = "bookmark1"
     desc = "bookmark_desc1"
@@ -12,7 +11,7 @@ bookmark = {
     default = yes                   # Makes this bookmark the automatically selected bookmark on game load. Only use once.
     
     # Optional. Executes effects when game is started from this bookmark.
-}
+
 bookmark = {
     name = "bookmark2"
     desc = "bookmark_desc2"
@@ -33,7 +32,7 @@ bookmark = {
     default = no                  # Makes this bookmark the automatically selected bookmark on game load. Only use once.
     
     # Optional. Executes effects when game is started from this bookmark.
-}
+
 bookmark = {
     name = "bookmark3"
     desc = "bookmark_desc3."
@@ -48,5 +47,4 @@ bookmark = {
     default = no                  # Makes this bookmark the automatically selected bookmark on game load. Only use once.
     
     # Optional. Executes effects when game is started from this bookmark.
-}
 }
