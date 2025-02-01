@@ -15,6 +15,7 @@ emperor_group = {
 		}
 
 		uses_judaism_power = yes
+		defender_of_faith = yes
 		aspects_name = imperial_cult_inquisition_aspects
 			
 		aspects = {
