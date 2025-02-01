@@ -3,7 +3,6 @@ bookmark = {
     desc = "bookmark_desc1"
     date = 1999.1.1       
     	country = XXA               
-	country = XXB
 	country = XGK
     	easy_country = XXA               
 	easy_country = XGK
@@ -14,12 +13,12 @@ bookmark = {
     # Optional. Executes effects when game is started from this bookmark.
 }
 bookmark = {
-    name = "Orphean War"
-    desc = "bookmark_orphean_war_desc"
+    name = "bookmark2"
+    desc = "bookmark_desc2"
     date = 1999.1.1       
-    	country = XXA               
+    	country = XXB             
 	country = XXB
-    	easy_country = XXA               
+    	easy_country = XXB            
     # easy_country = <tag>            # Optional. Adds country shield to the selection view with a green glow.
     
     default = no                  # Makes this bookmark the automatically selected bookmark on game load. Only use once.
@@ -27,12 +26,12 @@ bookmark = {
     # Optional. Executes effects when game is started from this bookmark.
 }
 bookmark = {
-    name = "War of the Beasts"
-    desc = "In the desolate expanse of the far future, the galaxy teeters on the brink as a new and terrifying threat emerges. Monstrous creatures rise from the shadows, clawing their way to the surface. These savage beasts, fueled by primal instincts and a ravenous hunger for destruction, sweep across the worlds of the Imperium, leaving untold devastation in their wake. \nAs reports of Ork attacks flood in from the Outer Rim, panic grips the heart of humanity. The once-proud bastions of civilization find themselves besieged by these relentless foes, their very existence hanging in the balance. The Astra Militarum prepares to rally its forces, while the noble Adeptus Astartes sharpen their blades and ready their war machines, knowing that the fate of the Imperium rests upon their shoulders.\nIn this dire hour, alliances will be forged in the fires of desperation, legends will rise from the ashes of conflict, and the inferno of war will be kindled anew, with it comes the promise of glory beyond measure or the ever-looming shadow of annihilation. The War of the Beasts is upon us."
+    name = "bookmark3"
+    desc = "bookmark_desc3."
     date = 1999.1.1       
-    	country = XXA               
-	country = XXB
-    	easy_country = XXA               
+    	country = XET             
+	country = XET
+    	easy_country = XET          
     # easy_country = <tag>            # Optional. Adds country shield to the selection view with a green glow.
     
     default = no                  # Makes this bookmark the automatically selected bookmark on game load. Only use once.
