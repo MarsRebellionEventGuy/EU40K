@@ -2611,7 +2611,7 @@
  ENEMIES:0 "Enemies:"
  ENEMIES_NONE:0 "Has no Enemies"
  ENEMIES_DESC:0 "Enemies are countries that view this country as a rival."
- early_carrack:0 "Early Carrack"
+ early_carrack:0 "Battle Barge"
  CURR_ATTR_IRO:0 "This is the current monthly attrition."
  WANTS_TO_CONVERT:0 "Wants to Convert:"
  WANTS_TO_BUILD:0 "Wants to Build:"
