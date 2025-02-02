@@ -10976,7 +10976,7 @@ country_decisions = {
 	
 	#--------------------------------------------------------------------------------------------
 	
-	necronmanpower2_251 = {
+	necromanpower2_251 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -10985,7 +10985,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_251
+				has_country_flag = necromanpower2_251
 			}
 		}
 		provinces_to_highlight = {
@@ -10999,7 +10999,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_251
+			set_country_flag = necromanpower2_251
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -11150,7 +11150,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_412 = {
+	necromanpower2_412 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -11159,7 +11159,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_412
+				has_country_flag = necromanpower2_412
 			}
 		}
 		provinces_to_highlight = {
@@ -11173,7 +11173,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_412
+			set_country_flag = necromanpower2_412
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -11324,7 +11324,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_440 = {
+	necromanpower2_440 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -11333,7 +11333,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_440
+				has_country_flag = necromanpower2_440
 			}
 		}
 		provinces_to_highlight = {
@@ -11347,7 +11347,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_440
+			set_country_flag = necromanpower2_440
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -11498,7 +11498,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_441 = {
+	necromanpower2_441 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -11507,7 +11507,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_441
+				has_country_flag = necromanpower2_441
 			}
 		}
 		provinces_to_highlight = {
@@ -11521,7 +11521,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_441
+			set_country_flag = necromanpower2_441
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -11672,7 +11672,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_547 = {
+	necromanpower2_547 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -11681,7 +11681,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_547
+				has_country_flag = necromanpower2_547
 			}
 		}
 		provinces_to_highlight = {
@@ -11695,7 +11695,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_547
+			set_country_flag = necromanpower2_547
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -11846,7 +11846,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_757 = {
+	necromanpower2_757 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -11855,7 +11855,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_757
+				has_country_flag = necromanpower2_757
 			}
 		}
 		provinces_to_highlight = {
@@ -11869,7 +11869,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_757
+			set_country_flag = necromanpower2_757
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -12020,7 +12020,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_819 = {
+	necromanpower2_819 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -12029,7 +12029,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_819
+				has_country_flag = necromanpower2_819
 			}
 		}
 		provinces_to_highlight = {
@@ -12043,7 +12043,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_819
+			set_country_flag = necromanpower2_819
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -12194,7 +12194,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_968 = {
+	necromanpower2_968 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -12203,7 +12203,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_968
+				has_country_flag = necromanpower2_968
 			}
 		}
 		provinces_to_highlight = {
@@ -12217,7 +12217,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_968
+			set_country_flag = necromanpower2_968
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -12368,7 +12368,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_972 = {
+	necromanpower2_972 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -12377,7 +12377,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_972
+				has_country_flag = necromanpower2_972
 			}
 		}
 		provinces_to_highlight = {
@@ -12391,7 +12391,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_972
+			set_country_flag = necromanpower2_972
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -12542,7 +12542,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_1104 = {
+	necromanpower2_1104 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -12551,7 +12551,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_1104
+				has_country_flag = necromanpower2_1104
 			}
 		}
 		provinces_to_highlight = {
@@ -12565,7 +12565,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_1104
+			set_country_flag = necromanpower2_1104
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -12716,7 +12716,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_1183 = {
+	necromanpower2_1183 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -12725,7 +12725,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_1183
+				has_country_flag = necromanpower2_1183
 			}
 		}
 		provinces_to_highlight = {
@@ -12739,7 +12739,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_1183
+			set_country_flag = necromanpower2_1183
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -12890,7 +12890,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_1307 = {
+	necromanpower2_1307 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -12899,7 +12899,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_1307
+				has_country_flag = necromanpower2_1307
 			}
 		}
 		provinces_to_highlight = {
@@ -12913,7 +12913,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_1307
+			set_country_flag = necromanpower2_1307
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -13064,7 +13064,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_1332 = {
+	necromanpower2_1332 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -13073,7 +13073,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_1332
+				has_country_flag = necromanpower2_1332
 			}
 		}
 		provinces_to_highlight = {
@@ -13087,7 +13087,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_1332
+			set_country_flag = necromanpower2_1332
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -13238,7 +13238,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_1556 = {
+	necromanpower2_1556 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -13247,7 +13247,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_1556
+				has_country_flag = necromanpower2_1556
 			}
 		}
 		provinces_to_highlight = {
@@ -13261,7 +13261,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_1556
+			set_country_flag = necromanpower2_1556
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -13412,7 +13412,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_1557 = {
+	necromanpower2_1557 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -13421,7 +13421,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_1557
+				has_country_flag = necromanpower2_1557
 			}
 		}
 		provinces_to_highlight = {
@@ -13435,7 +13435,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_1557
+			set_country_flag = necromanpower2_1557
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -13586,7 +13586,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_1570 = {
+	necromanpower2_1570 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -13595,7 +13595,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_1570
+				has_country_flag = necromanpower2_1570
 			}
 		}
 		provinces_to_highlight = {
@@ -13609,7 +13609,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_1570
+			set_country_flag = necromanpower2_1570
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -13760,7 +13760,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_1580 = {
+	necromanpower2_1580 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -13769,7 +13769,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_1580
+				has_country_flag = necromanpower2_1580
 			}
 		}
 		provinces_to_highlight = {
@@ -13783,7 +13783,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_1580
+			set_country_flag = necromanpower2_1580
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -13934,7 +13934,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_1602 = {
+	necromanpower2_1602 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -13943,7 +13943,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_1602
+				has_country_flag = necromanpower2_1602
 			}
 		}
 		provinces_to_highlight = {
@@ -13957,7 +13957,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_1602
+			set_country_flag = necromanpower2_1602
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -14108,7 +14108,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_1647 = {
+	necromanpower2_1647 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -14117,7 +14117,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_1647
+				has_country_flag = necromanpower2_1647
 			}
 		}
 		provinces_to_highlight = {
@@ -14131,7 +14131,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_1647
+			set_country_flag = necromanpower2_1647
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -14282,7 +14282,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_1668 = {
+	necromanpower2_1668 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -14291,7 +14291,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_1668
+				has_country_flag = necromanpower2_1668
 			}
 		}
 		provinces_to_highlight = {
@@ -14305,7 +14305,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_1668
+			set_country_flag = necromanpower2_1668
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -14456,7 +14456,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_1674 = {
+	necromanpower2_1674 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -14465,7 +14465,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_1674
+				has_country_flag = necromanpower2_1674
 			}
 		}
 		provinces_to_highlight = {
@@ -14479,7 +14479,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_1674
+			set_country_flag = necromanpower2_1674
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -14630,7 +14630,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_1691 = {
+	necromanpower2_1691 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -14639,7 +14639,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_1691
+				has_country_flag = necromanpower2_1691
 			}
 		}
 		provinces_to_highlight = {
@@ -14653,7 +14653,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_1691
+			set_country_flag = necromanpower2_1691
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -14804,7 +14804,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_1692 = {
+	necromanpower2_1692 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -14813,7 +14813,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_1692
+				has_country_flag = necromanpower2_1692
 			}
 		}
 		provinces_to_highlight = {
@@ -14827,7 +14827,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_1692
+			set_country_flag = necromanpower2_1692
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -14978,7 +14978,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_1702 = {
+	necromanpower2_1702 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -14987,7 +14987,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_1702
+				has_country_flag = necromanpower2_1702
 			}
 		}
 		provinces_to_highlight = {
@@ -15001,7 +15001,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_1702
+			set_country_flag = necromanpower2_1702
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -15152,7 +15152,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_1709 = {
+	necromanpower2_1709 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -15161,7 +15161,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_1709
+				has_country_flag = necromanpower2_1709
 			}
 		}
 		provinces_to_highlight = {
@@ -15175,7 +15175,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_1709
+			set_country_flag = necromanpower2_1709
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -15326,7 +15326,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_1763 = {
+	necromanpower2_1763 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -15335,7 +15335,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_1763
+				has_country_flag = necromanpower2_1763
 			}
 		}
 		provinces_to_highlight = {
@@ -15349,7 +15349,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_1763
+			set_country_flag = necromanpower2_1763
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -15500,7 +15500,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_1793 = {
+	necromanpower2_1793 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -15509,7 +15509,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_1793
+				has_country_flag = necromanpower2_1793
 			}
 		}
 		provinces_to_highlight = {
@@ -15523,7 +15523,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_1793
+			set_country_flag = necromanpower2_1793
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -15674,7 +15674,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_1794 = {
+	necromanpower2_1794 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -15683,7 +15683,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_1794
+				has_country_flag = necromanpower2_1794
 			}
 		}
 		provinces_to_highlight = {
@@ -15697,7 +15697,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_1794
+			set_country_flag = necromanpower2_1794
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -15848,7 +15848,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_1797 = {
+	necromanpower2_1797 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -15857,7 +15857,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_1797
+				has_country_flag = necromanpower2_1797
 			}
 		}
 		provinces_to_highlight = {
@@ -15871,7 +15871,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_1797
+			set_country_flag = necromanpower2_1797
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -16022,7 +16022,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_1802 = {
+	necromanpower2_1802 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -16031,7 +16031,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_1802
+				has_country_flag = necromanpower2_1802
 			}
 		}
 		provinces_to_highlight = {
@@ -16045,7 +16045,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_1802
+			set_country_flag = necromanpower2_1802
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -16196,7 +16196,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_1847 = {
+	necromanpower2_1847 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -16205,7 +16205,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_1847
+				has_country_flag = necromanpower2_1847
 			}
 		}
 		provinces_to_highlight = {
@@ -16219,7 +16219,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_1847
+			set_country_flag = necromanpower2_1847
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -16370,7 +16370,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_1852 = {
+	necromanpower2_1852 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -16379,7 +16379,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_1852
+				has_country_flag = necromanpower2_1852
 			}
 		}
 		provinces_to_highlight = {
@@ -16393,7 +16393,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_1852
+			set_country_flag = necromanpower2_1852
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -16544,7 +16544,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_1853 = {
+	necromanpower2_1853 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -16553,7 +16553,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_1853
+				has_country_flag = necromanpower2_1853
 			}
 		}
 		provinces_to_highlight = {
@@ -16567,7 +16567,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_1853
+			set_country_flag = necromanpower2_1853
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -16718,7 +16718,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_1864 = {
+	necromanpower2_1864 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -16727,7 +16727,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_1864
+				has_country_flag = necromanpower2_1864
 			}
 		}
 		provinces_to_highlight = {
@@ -16741,7 +16741,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_1864
+			set_country_flag = necromanpower2_1864
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -16892,7 +16892,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_1869 = {
+	necromanpower2_1869 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -16901,7 +16901,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_1869
+				has_country_flag = necromanpower2_1869
 			}
 		}
 		provinces_to_highlight = {
@@ -16915,7 +16915,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_1869
+			set_country_flag = necromanpower2_1869
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -17066,7 +17066,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_1878 = {
+	necromanpower2_1878 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -17075,7 +17075,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_1878
+				has_country_flag = necromanpower2_1878
 			}
 		}
 		provinces_to_highlight = {
@@ -17089,7 +17089,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_1878
+			set_country_flag = necromanpower2_1878
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -17240,7 +17240,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_1906 = {
+	necromanpower2_1906 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -17249,7 +17249,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_1906
+				has_country_flag = necromanpower2_1906
 			}
 		}
 		provinces_to_highlight = {
@@ -17263,7 +17263,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_1906
+			set_country_flag = necromanpower2_1906
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -17414,7 +17414,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_1931 = {
+	necromanpower2_1931 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -17423,7 +17423,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_1931
+				has_country_flag = necromanpower2_1931
 			}
 		}
 		provinces_to_highlight = {
@@ -17437,7 +17437,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_1931
+			set_country_flag = necromanpower2_1931
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -17588,7 +17588,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_2000 = {
+	necromanpower2_2000 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -17597,7 +17597,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_2000
+				has_country_flag = necromanpower2_2000
 			}
 		}
 		provinces_to_highlight = {
@@ -17611,7 +17611,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_2000
+			set_country_flag = necromanpower2_2000
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -17762,7 +17762,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_2007 = {
+	necromanpower2_2007 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -17771,7 +17771,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_2007
+				has_country_flag = necromanpower2_2007
 			}
 		}
 		provinces_to_highlight = {
@@ -17785,7 +17785,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_2007
+			set_country_flag = necromanpower2_2007
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -17936,7 +17936,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_2835 = {
+	necromanpower2_2835 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -17945,7 +17945,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_2835
+				has_country_flag = necromanpower2_2835
 			}
 		}
 		provinces_to_highlight = {
@@ -17959,7 +17959,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_2835
+			set_country_flag = necromanpower2_2835
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -18110,7 +18110,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_2856 = {
+	necromanpower2_2856 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -18119,7 +18119,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_2856
+				has_country_flag = necromanpower2_2856
 			}
 		}
 		provinces_to_highlight = {
@@ -18133,7 +18133,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_2856
+			set_country_flag = necromanpower2_2856
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -18284,7 +18284,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_2886 = {
+	necromanpower2_2886 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -18293,7 +18293,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_2886
+				has_country_flag = necromanpower2_2886
 			}
 		}
 		provinces_to_highlight = {
@@ -18307,7 +18307,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_2886
+			set_country_flag = necromanpower2_2886
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -18458,7 +18458,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_2888 = {
+	necromanpower2_2888 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -18467,7 +18467,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_2888
+				has_country_flag = necromanpower2_2888
 			}
 		}
 		provinces_to_highlight = {
@@ -18481,7 +18481,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_2888
+			set_country_flag = necromanpower2_2888
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -18632,7 +18632,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_2943 = {
+	necromanpower2_2943 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -18641,7 +18641,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_2943
+				has_country_flag = necromanpower2_2943
 			}
 		}
 		provinces_to_highlight = {
@@ -18655,7 +18655,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_2943
+			set_country_flag = necromanpower2_2943
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -18806,7 +18806,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_2949 = {
+	necromanpower2_2949 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -18815,7 +18815,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_2949
+				has_country_flag = necromanpower2_2949
 			}
 		}
 		provinces_to_highlight = {
@@ -18829,7 +18829,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_2949
+			set_country_flag = necromanpower2_2949
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -18980,7 +18980,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_2991 = {
+	necromanpower2_2991 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -18989,7 +18989,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_2991
+				has_country_flag = necromanpower2_2991
 			}
 		}
 		provinces_to_highlight = {
@@ -19003,7 +19003,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_2991
+			set_country_flag = necromanpower2_2991
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -19154,7 +19154,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_3032 = {
+	necromanpower2_3032 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -19163,7 +19163,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_3032
+				has_country_flag = necromanpower2_3032
 			}
 		}
 		provinces_to_highlight = {
@@ -19177,7 +19177,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_3032
+			set_country_flag = necromanpower2_3032
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -19328,7 +19328,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_3034 = {
+	necromanpower2_3034 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -19337,7 +19337,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_3034
+				has_country_flag = necromanpower2_3034
 			}
 		}
 		provinces_to_highlight = {
@@ -19351,7 +19351,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_3034
+			set_country_flag = necromanpower2_3034
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -19502,7 +19502,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_3106 = {
+	necromanpower2_3106 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -19511,7 +19511,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_3106
+				has_country_flag = necromanpower2_3106
 			}
 		}
 		provinces_to_highlight = {
@@ -19525,7 +19525,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_3106
+			set_country_flag = necromanpower2_3106
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -19676,7 +19676,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_3128 = {
+	necromanpower2_3128 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -19685,7 +19685,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_3128
+				has_country_flag = necromanpower2_3128
 			}
 		}
 		provinces_to_highlight = {
@@ -19699,7 +19699,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_3128
+			set_country_flag = necromanpower2_3128
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -19850,7 +19850,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_3304 = {
+	necromanpower2_3304 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -19859,7 +19859,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_3304
+				has_country_flag = necromanpower2_3304
 			}
 		}
 		provinces_to_highlight = {
@@ -19873,7 +19873,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_3304
+			set_country_flag = necromanpower2_3304
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -20024,7 +20024,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_1704 = {
+	necromanpower2_1704 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -20033,7 +20033,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_1704
+				has_country_flag = necromanpower2_1704
 			}
 		}
 		provinces_to_highlight = {
@@ -20047,7 +20047,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_1704
+			set_country_flag = necromanpower2_1704
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -20198,7 +20198,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_1705 = {
+	necromanpower2_1705 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -20207,7 +20207,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_1705
+				has_country_flag = necromanpower2_1705
 			}
 		}
 		provinces_to_highlight = {
@@ -20221,7 +20221,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_1705
+			set_country_flag = necromanpower2_1705
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -20372,7 +20372,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_1706 = {
+	necromanpower2_1706 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -20381,7 +20381,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_1706
+				has_country_flag = necromanpower2_1706
 			}
 		}
 		provinces_to_highlight = {
@@ -20395,7 +20395,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_1706
+			set_country_flag = necromanpower2_1706
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -20546,7 +20546,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_1707 = {
+	necromanpower2_1707 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -20555,7 +20555,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_1707
+				has_country_flag = necromanpower2_1707
 			}
 		}
 		provinces_to_highlight = {
@@ -20569,7 +20569,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_1707
+			set_country_flag = necromanpower2_1707
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -20720,7 +20720,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_1708 = {
+	necromanpower2_1708 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -20729,7 +20729,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_1708
+				has_country_flag = necromanpower2_1708
 			}
 		}
 		provinces_to_highlight = {
@@ -20743,7 +20743,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_1708
+			set_country_flag = necromanpower2_1708
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -20894,7 +20894,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_1710 = {
+	necromanpower2_1710 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -20903,7 +20903,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_1710
+				has_country_flag = necromanpower2_1710
 			}
 		}
 		provinces_to_highlight = {
@@ -20917,7 +20917,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_1710
+			set_country_flag = necromanpower2_1710
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -21068,7 +21068,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_1711 = {
+	necromanpower2_1711 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -21077,7 +21077,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_1711
+				has_country_flag = necromanpower2_1711
 			}
 		}
 		provinces_to_highlight = {
@@ -21091,7 +21091,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_1711
+			set_country_flag = necromanpower2_1711
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -21242,7 +21242,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_1712 = {
+	necromanpower2_1712 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -21251,7 +21251,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_1712
+				has_country_flag = necromanpower2_1712
 			}
 		}
 		provinces_to_highlight = {
@@ -21265,7 +21265,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_1712
+			set_country_flag = necromanpower2_1712
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -21416,7 +21416,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_1713 = {
+	necromanpower2_1713 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -21425,7 +21425,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_1713
+				has_country_flag = necromanpower2_1713
 			}
 		}
 		provinces_to_highlight = {
@@ -21439,7 +21439,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_1713
+			set_country_flag = necromanpower2_1713
 			change_estate_land_share = {
 				estate = all
 				share = 2
@@ -21590,7 +21590,7 @@ country_decisions = {
 			}
 		}
 	}
-	necronmanpower2_1717 = {
+	necromanpower2_1717 = {
 		major = no
 		potential = {
 			culture = necron_culture
@@ -21599,7 +21599,7 @@ country_decisions = {
 				has_province_modifier = necronmanpower1		
 			}
 			NOT = {
-				has_country_flag = necronmanpower2_1717
+				has_country_flag = necromanpower2_1717
 			}
 		}
 		provinces_to_highlight = {
@@ -21613,7 +21613,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			set_country_flag = necronmanpower2_1717
+			set_country_flag = necromanpower2_1717
 			change_estate_land_share = {
 				estate = all
 				share = 2
