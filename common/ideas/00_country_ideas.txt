@@ -2069,8 +2069,8 @@ XLV_ideas = {
 	XLV_ideas_7 = {
 		land_forcelimit_modifier = 0.25
 	}
-
 }
+
 XNB_ideas = {
 	start = {
 		has_banners = yes
@@ -2109,5 +2109,46 @@ XNB_ideas = {
 		war_exhaustion_cost = -0.33
 	}
 }
+	XPB_ideas = {
+		start = {
+			discipline = 0.05
+			may_perform_slave_raid = yes
+			sailors_recovery_speed = 0.20
+		}
+		
+		bonus = {
+			warscore_cost_vs_other_religion = -0.25
+		}	
+	
+		trigger = {
+			tag = XPB
+		}
+		free = yes
+		
+		XPB_ideas_1 = {
+			morale_damage = 0.01
+		}
+		XPB_ideas_2 = {
+			imperial_authority = 0.15
+		}
+		XPB_ideas_3 = {
+			loot_amount = 0.15
+			galley_power = 0.20
+		}
+		XPB_ideas_4 = {
+			improve_relation_modifier = 0.025
+			diplomatic_reputation = 1
+		}
+		XPB_ideas_5 = {
+			leader_land_fire = 2
+		}
+		XPB_ideas_6 = {
+			movement_speed_in_fleet_modifier = 1
+		}
+		XPB_ideas_7 = {
+			core_creation = -0.25
+		}
+	}
 
+}
 
