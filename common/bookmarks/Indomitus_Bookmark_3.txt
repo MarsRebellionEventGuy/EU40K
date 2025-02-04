@@ -1,0 +1,15 @@
+bookmark = {
+    name = "bookmark3"
+    desc = "bookmark_desc3"
+    date = 1999.1.1       
+    	country = XET             
+	country = XET
+    country = XEV
+    	easy_country = XET  
+        easy_country = XEV        
+    # easy_country = <tag>            # Optional. Adds country shield to the selection view with a green glow.
+    
+    default = no                  # Makes this bookmark the automatically selected bookmark on game load. Only use once.
+    
+    # Optional. Executes effects when game is started from this bookmark.
+}
