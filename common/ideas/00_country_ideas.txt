@@ -2112,8 +2112,7 @@ XNB_ideas = {
 	XPB_ideas = {
 		start = {
 			discipline = 0.05
-			may_perform_slave_raid = yes
-			sailors_recovery_speed = 0.20
+			sailors_recovery_speed = 0.25
 		}
 		
 		bonus = {

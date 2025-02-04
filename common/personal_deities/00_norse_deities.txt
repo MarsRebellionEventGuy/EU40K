@@ -173,7 +173,7 @@ serpent  = {
 }
 
 vect  = {
-	legitimacy = 1
+	devotion = 1
 	same_culture_advisor_cost = -0.20
 	
 	potential = { religion = dark_muses }

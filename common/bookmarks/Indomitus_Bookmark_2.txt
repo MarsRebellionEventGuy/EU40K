@@ -3,7 +3,6 @@ bookmark = {
     desc = "bookmark_desc2"
     date = 1999.1.1       
     	country = XXB             
-	country = XXB
     country = XOJ
     country = XOL
     country = XGC
