@@ -2159,6 +2159,9 @@ XNB_ideas = {
 		}	
 	
 		trigger = {
+			primary_culture = drukhari_culture
+			NOT = {
+				OR = {
 			tag = XPQ
 			tag = XPY
 			tag = XPU
