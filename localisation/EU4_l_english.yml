@@ -214,7 +214,7 @@
  obj_renaissance:0 "A Warp-Faring Navy"
  obj_renaissance_desc:0 "Own at least 15 Heavy Ships."
  obj_many_vassals:0 "Subjugate the Weakened"
- obj_many_vassals_desc:0 "Have at least three different vassals at the same time."
+ obj_many_vassals_desc:0 "Have at least three different vassals or at least 30 tributaries at the same time."
  obj_two_continents:0 "Rebuild the Admiralty"
  obj_two_continents_desc:0 "Employ at least two Admirals with traits."
  obj_humiliate_rival:0 "Humiliate Rival"
