@@ -2231,7 +2231,57 @@ XNB_ideas = {
 		Kabal_ideas_7 = {
 			unjustified_demands = -0.25
 			siege_ability = 0.1
-
-
+		}
+	}
+	Haemonculi_ideas = {
+				start = {
+					reform_progress_growth = 0.15
+					devotion = 1
+				}
+				
+				bonus = {
+					extra_manpower_at_religious_war = yes
+				}	
+			
+				trigger = {
+					primary_culture = drukhari_culture
+					NOT = {
+						OR = {
+					tag = XPJ
+					tag = XSJ
+					tag = XSM
+					tag = XSL
+					tag = XSK
+					tag = XSI
+					tag = XPI
+					tag = XPX
+					tag = XPF
+					
+				}
+				free = yes
+				
+				Haemonculi_ideas_1 = {
+					idea_cost = -0.1
+					technology_cost = -0.1
+				}
+				Haemonculi_ideas_2 = {
+					reinforce_speed = 0.15
+					reinforce_cost_modifier = -0.10
+				}
+				Haemonculi_ideas_3 = {
+					manpower_recovery_speed = 0.10
+					land_maintenance_modifier = -0.075
+				}
+				Haemonculi_ideas_4 = {
+					infantry_cost = -0.075
+					morale_damage_received = -0.15 
+				}
+				Haemonculi_ideas_5 = {
+					global_trade_goods_size_modifier = 0.10
+				}
+				Haemonculi_ideas_6 = {
+					production_efficiency = 0.2
+				}
+				Haemonculi_ideas_7 = {
+					global_trade_power = 0.15
 }
-
