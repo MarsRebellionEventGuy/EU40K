@@ -2237,7 +2237,9 @@ XNB_ideas = {
 
 Haemonculi_ideas = {
 	trigger = {
-		primary_culture = drukhari_culture
+		NOT = {
+			has_idea_group = Kabal_ideas
+		}
 		NOT = {
 			OR = {
 				tag = XPJ
@@ -2323,14 +2325,14 @@ XSN_ideas = {
 	}
 	XSN_ideas_5 = {
 		land_morale = 0.1
-		merc_leader_army_tradition = 0.5
+		merc_leader_army_tradition = 0.2
 	}
 	XSN_ideas_6 = {
 		infantry_power = 0.2
 	}
 	XSN_ideas_7 = {
 		movement_speed = 0.1
-		garrison_size = 0.5
+		garrison_size = 0.33
 	}
 
 }
