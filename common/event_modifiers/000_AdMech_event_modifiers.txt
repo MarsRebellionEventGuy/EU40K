@@ -59,10 +59,12 @@ hell_forge_mod = {
 XXA_basilikon_astra_expansion={
 	naval_forcelimit = 15
 	global_sailors_modifier = 0.15
+	liberty_desire = -5
 }
 XXA_knowledge_quest_condoned={
 	technology_cost = -0.05
 	embracement_cost = -0.15
+	liberty_desire = -5
 }
 XXA_metals_monopoly={
 	global_tax_income = 12
