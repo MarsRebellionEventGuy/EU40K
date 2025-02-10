@@ -2285,3 +2285,45 @@ XNB_ideas = {
 				Haemonculi_ideas_7 = {
 					global_trade_power = 0.15
 }
+XSN_ideas = {
+			start = {
+				idea_cost = -0.15
+				technology_cost = -0.15
+			}
+			
+			bonus = {
+				own_coast_naval_combat_bonus = 1
+				prestige_decay = -0.03
+			}	
+		
+			trigger = {
+				tag = XSN
+			}
+			free = yes
+			
+			XSN_ideas_1 = {
+				all_power_cost = -0.125
+			}
+			XSN_ideas_2 = {
+				mercenary_cost = -0.15
+				merc_maintenance_modifier = -0.15
+			}
+			XSN_ideas_3 = {
+				same_culture_advisor_cost = -0.25
+				possible_policy = 1
+			}
+			XSN_ideas_4 = {
+				mercenary_discipline = 0.1
+				mercenary_manpower = 0.1
+			}
+			XSN_ideas_5 = {
+				land_morale = 0.1
+				merc_leader_army_tradition = 0.5
+			}
+			XSN_ideas_6 = {
+				infantry_power = 0.2
+			}
+			XSN_ideas_7 = {
+				movement_speed = 0.1
+				garrison_size = 0.5
+}
