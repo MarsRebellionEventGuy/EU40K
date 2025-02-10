@@ -2286,7 +2286,7 @@ XNB_ideas = {
 					global_trade_power = 0.15
 }
 XSN_ideas = {
-			start = {
+	start = {
 				idea_cost = -0.15
 				technology_cost = -0.15
 			}
@@ -2326,4 +2326,5 @@ XSN_ideas = {
 			XSN_ideas_7 = {
 				movement_speed = 0.1
 				garrison_size = 0.5
+			}
 }
