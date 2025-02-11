@@ -173,7 +173,8 @@ Hiveworld_ideas = {
 	trigger = {
 		NOT = { tag = XXA }
 		NOT = { tag = XOK }
-		primary_culture = human_culture
+		NOT = { primary_culture = loyalist_astartes_culture }
+		culture_group = imperial_culture_group
 	}
 	free = yes
 	
