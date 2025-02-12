@@ -3532,7 +3532,7 @@ Forgeworld_ideas = {				# generic forge world
 	}
 	free = yes
 	
-	Forgeworld_ideas_1 = { #Quest for Knowledge
+	Forgeworld_ideas_1 = { #The Quest for Knowledge
 		naval_attrition = -0.25
 		naval_morale_damage_received = -0.05
 	}

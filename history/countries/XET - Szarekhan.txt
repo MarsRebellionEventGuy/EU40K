@@ -6,6 +6,7 @@ religion = necron
 primary_culture = necron_culture
 capital = 1709
 fixed_capital = 1709
+historical_friend = XAA
 
 1970.12.12 = {
 		monarch = {

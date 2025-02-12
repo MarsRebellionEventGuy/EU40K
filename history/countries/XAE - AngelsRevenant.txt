@@ -5,6 +5,8 @@ technology_group = imperial
 religion = imperial_cult
 primary_culture = loyalist_astartes_culture
 capital = 1166
+historical_rival = XAA
+historical_friend = XAD
 
 1970.12.12 = {
 		monarch = {
