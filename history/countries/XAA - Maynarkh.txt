@@ -5,10 +5,14 @@ technology_group = necron
 religion = destroyer_cult
 primary_culture = necron_culture
 capital = 1183
+historical_friend = XET
+historical_rival = XAE
+historical_rival = XAD
 
 1970.12.12 = {
 		monarch = {
 			name = "Xun'bakyr"	
+			female = yes
 			dynasty = " "
 			adm = 3
 			dip = 2

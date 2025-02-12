@@ -1,4 +1,5 @@
 add_core = XAA
+add_core = XAD
 owner = XAA
 controller = XAA
 religion = imperial_cult
