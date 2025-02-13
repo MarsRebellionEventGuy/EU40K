@@ -409,6 +409,7 @@ Necron_ideas = {
 	trigger = {
 		culture_group = necron_culture_group
 		NOT = { tag = XTE }
+		NOT = { tag = XAA }
 	}
 	free = yes
 	

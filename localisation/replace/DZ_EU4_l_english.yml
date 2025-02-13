@@ -49,14 +49,14 @@ bookmark4:0 "The Orphean War"
  bookmark_desc4:0 "The Orpheus Sector, once a proud jewel of the Emperor’s realm, now lies in utter darkness. The Necron Maynarkh Dynasty has awoken, carving a path of annihilation across the stars. Entire systems lie silent, their populations exterminated or enslaved, as the skies echo with the cold, heartless march of metallic legions. The Angels Revenant, their might shattered, retreat into the depths of Libethra, clinging desperately to survival beneath a dying world. /nIf humanity falters here, the Necron tide will march unopossed to the Imperium’s heartlands. The defenders of the Orpheus Garrison must defy impossible odds, rising from the ashes to challenge the invader and buy precious time for the Emperor’s light to reach them in their darkest hour."
 
 #Orphean War Bookmark
-#Important Countries: Maynarkh, Orpheus Garrison, Angels Revenant~
+#Important Countries: Maynarkh, Orpheus Garrison, Angels Revenant
 #Important events to mention:
 # - Orphean War onset
 # - Incredibly perilous position of Angels Revenant Astartes Chapter
 # - Orpheus Garrison hopeless resistance against Maynarkh
 
  
- bookmark_desc4:0 "Craftwords"
+ 
  bookmark5:0 "The Third Tyrannic War"
  bookmark_desc5:0 "Tyranids"
  bookmark6:0 "Da Great Waaagh!"
@@ -78,6 +78,7 @@ bookmark4:0 "The Orphean War"
  bookmark11:0 "Legion I: Dark Angels"
  bookmark_desc11:0 ""
 bookmark12:0 "Rise of the Ynnari"
+bookmark_desc12:0 "Craftwords"
 <<<<<<< HEAD
  
  bookmark_13:0 "The War of the Beast"

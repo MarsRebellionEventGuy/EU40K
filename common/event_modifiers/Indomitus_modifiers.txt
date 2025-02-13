@@ -74,6 +74,9 @@ inquisition_thorians = {
 
 inquisition_amalathians = {
 	meritocracy = 1
+	legitimacy = 1
+	devotion = 1
+	manpower_recovery_speed = 0.20
 }
 
 inquisition_ardentites = {
@@ -254,4 +257,9 @@ XGK_Federalism_Bonus = {
 
 nachmund_mod = {
 	province_trade_power_value = 30
+}
+
+last_stand_of_the_revenants = {
+	discipline = 0.15
+	military_tactics = 1
 }
