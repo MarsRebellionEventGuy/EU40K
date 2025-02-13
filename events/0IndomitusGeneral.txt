@@ -266,18 +266,21 @@ country_event = {
 	id = indomitus_general.9
 	title = "indomitus_general.9.t"
 	desc = "indomitus_general.9.d"
-	picture = CONQUEST_eventPicture
+	picture = SIEGE_eventPicture
+
+	fire_only_once = yes
 	
 	trigger = {
 		tag = XAE
 		date = 1999.1.1
 		}
-	}
+	
 	
 	option = {
 		name = "indomitus_general.9.a"
 		add_country_modifier = { 
 			name = last_stand_of_the_revenants
 			duration = 1816
+		}
 	}
 }

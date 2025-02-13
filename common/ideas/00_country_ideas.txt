@@ -2423,7 +2423,7 @@ XAD_ideas = {
 XAA_ideas = {
 	start = {
 		same_culture_advisor_cost = -0.2
-		years_of_nationalism = -0.05
+		years_of_nationalism = -0.5
 	}
 	
 	bonus = {
@@ -2442,7 +2442,7 @@ XAA_ideas = {
 		mercenary_discipline = 0.075
 	}
 	XAA_ideas_3 = {
-		artillery_power = 0.0125
+		artillery_power = 0.15
 	}
 	XAA_ideas_4 = {
 		range = 0.25
@@ -2453,6 +2453,7 @@ XAA_ideas = {
 	}
 	XAA_ideas_6 = {
 		blockade_impact_on_siege_in_fleet_modifier = 1
+		naval_morale = 0.1
 	}
 	XAA_ideas_7 = {
 		governing_capacity_modifier = 0.15

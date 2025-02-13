@@ -176,7 +176,7 @@ country_event = {
 	id = imperium_events.5
 	title = "imperium_events.5.t"
 	desc = "imperium_events.5.d"
-	picture = CONQUEST_eventPicture
+	picture = BAD_WITH_MONARCH_eventPicture
 
 	is_triggered_only = yes
 	
