@@ -168,8 +168,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -345,8 +345,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -522,8 +522,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -699,8 +699,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -876,8 +876,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -1053,8 +1053,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -1230,8 +1230,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -1407,8 +1407,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -1584,8 +1584,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -1761,8 +1761,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -1938,8 +1938,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -2115,8 +2115,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -2292,8 +2292,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -2469,8 +2469,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -2646,8 +2646,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -2823,8 +2823,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -3000,8 +3000,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -3177,8 +3177,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -3354,8 +3354,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -3531,8 +3531,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -3708,8 +3708,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -3885,8 +3885,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -4062,8 +4062,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -4239,8 +4239,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -4416,8 +4416,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -4593,8 +4593,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -4770,8 +4770,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -4947,8 +4947,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -5124,8 +5124,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -5301,8 +5301,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -5478,8 +5478,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -5655,8 +5655,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -5832,8 +5832,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -6009,8 +6009,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -6186,8 +6186,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -6363,8 +6363,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -6540,8 +6540,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -6717,8 +6717,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -6894,8 +6894,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -7071,8 +7071,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -7248,8 +7248,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -7425,8 +7425,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -7602,8 +7602,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -7779,8 +7779,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -7956,8 +7956,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -8133,8 +8133,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -8310,8 +8310,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -8487,8 +8487,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -8664,8 +8664,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -8841,8 +8841,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -9018,8 +9018,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -9195,8 +9195,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -9372,8 +9372,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -9549,8 +9549,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -9726,8 +9726,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -9903,8 +9903,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -10080,8 +10080,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -10257,8 +10257,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -10434,8 +10434,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -10611,8 +10611,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -10788,8 +10788,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -10965,8 +10965,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -11142,8 +11142,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -11316,8 +11316,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -11490,8 +11490,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -11664,8 +11664,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -11838,8 +11838,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -12012,8 +12012,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -12186,8 +12186,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -12360,8 +12360,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -12534,8 +12534,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -12708,8 +12708,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -12882,8 +12882,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -13056,8 +13056,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -13230,8 +13230,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -13404,8 +13404,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -13578,8 +13578,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -13752,8 +13752,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -13926,8 +13926,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -14100,8 +14100,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -14274,8 +14274,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -14448,8 +14448,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -14622,8 +14622,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -14796,8 +14796,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -14970,8 +14970,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -15144,8 +15144,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -15318,8 +15318,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -15492,8 +15492,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -15666,8 +15666,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -15840,8 +15840,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -16014,8 +16014,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -16188,8 +16188,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -16362,8 +16362,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -16536,8 +16536,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -16710,8 +16710,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -16884,8 +16884,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -17058,8 +17058,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -17232,8 +17232,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -17406,8 +17406,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -17580,8 +17580,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -17754,8 +17754,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -17928,8 +17928,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -18102,8 +18102,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -18276,8 +18276,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -18450,8 +18450,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -18624,8 +18624,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -18798,8 +18798,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -18972,8 +18972,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -19146,8 +19146,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -19320,8 +19320,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -19494,8 +19494,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -19668,8 +19668,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -19842,8 +19842,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -20016,8 +20016,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -20190,8 +20190,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -20364,8 +20364,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -20538,8 +20538,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -20712,8 +20712,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -20886,8 +20886,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -21060,8 +21060,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -21234,8 +21234,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -21408,8 +21408,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -21582,8 +21582,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -21756,8 +21756,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -21935,8 +21935,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -22109,8 +22109,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -22283,8 +22283,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -22457,8 +22457,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -22631,8 +22631,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -22805,8 +22805,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -22979,8 +22979,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -23153,8 +23153,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -23327,8 +23327,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -23501,8 +23501,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -23675,8 +23675,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -23849,8 +23849,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -24023,8 +24023,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -24197,8 +24197,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -24371,8 +24371,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -24545,8 +24545,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -24719,8 +24719,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -24893,8 +24893,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -25067,8 +25067,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -25241,8 +25241,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -25415,8 +25415,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -25589,8 +25589,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -25763,8 +25763,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -25937,8 +25937,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -26111,8 +26111,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -26285,8 +26285,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -26459,8 +26459,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -26633,8 +26633,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -26807,8 +26807,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -26981,8 +26981,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -27155,8 +27155,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -27329,8 +27329,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -27503,8 +27503,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -27677,8 +27677,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -27851,8 +27851,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -28025,8 +28025,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -28199,8 +28199,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -28373,8 +28373,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -28547,8 +28547,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -28721,8 +28721,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -28895,8 +28895,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -29069,8 +29069,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -29243,8 +29243,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -29417,8 +29417,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -29591,8 +29591,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -29765,8 +29765,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -29939,8 +29939,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -30113,8 +30113,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -30287,8 +30287,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -30461,8 +30461,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -30635,8 +30635,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -30809,8 +30809,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -30983,8 +30983,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -31157,8 +31157,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -31331,8 +31331,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -31505,8 +31505,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -31679,8 +31679,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -31853,8 +31853,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -32027,8 +32027,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -32201,8 +32201,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -32375,8 +32375,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -32549,8 +32549,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -32727,8 +32727,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -32901,8 +32901,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -33075,8 +33075,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -33249,8 +33249,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -33423,8 +33423,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -33597,8 +33597,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -33771,8 +33771,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -33945,8 +33945,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -34119,8 +34119,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -34293,8 +34293,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -34467,8 +34467,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -34641,8 +34641,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -34815,8 +34815,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -34989,8 +34989,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -35163,8 +35163,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -35337,8 +35337,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -35511,8 +35511,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -35685,8 +35685,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -35859,8 +35859,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -36033,8 +36033,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -36207,8 +36207,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -36381,8 +36381,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -36555,8 +36555,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -36729,8 +36729,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -36903,8 +36903,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -37077,8 +37077,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -37251,8 +37251,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -37425,8 +37425,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -37599,8 +37599,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -37773,8 +37773,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -37947,8 +37947,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -38121,8 +38121,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -38295,8 +38295,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -38469,8 +38469,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -38643,8 +38643,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -38817,8 +38817,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -38991,8 +38991,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -39165,8 +39165,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -39339,8 +39339,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -39513,8 +39513,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -39687,8 +39687,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -39861,8 +39861,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -40035,8 +40035,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -40209,8 +40209,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -40383,8 +40383,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -40557,8 +40557,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -40731,8 +40731,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -40905,8 +40905,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -41079,8 +41079,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -41253,8 +41253,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -41427,8 +41427,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -41601,8 +41601,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -41775,8 +41775,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -41949,8 +41949,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -42123,8 +42123,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -42297,8 +42297,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -42471,8 +42471,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -42645,8 +42645,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -42819,8 +42819,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -42993,8 +42993,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -43167,8 +43167,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -43326,8 +43326,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -43501,8 +43501,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -43671,8 +43671,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -43841,8 +43841,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -44011,8 +44011,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -44181,8 +44181,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -44351,8 +44351,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -44521,8 +44521,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -44691,8 +44691,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -44861,8 +44861,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -45031,8 +45031,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -45201,8 +45201,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -45371,8 +45371,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -45541,8 +45541,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -45711,8 +45711,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -45881,8 +45881,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -46051,8 +46051,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -46221,8 +46221,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -46391,8 +46391,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -46561,8 +46561,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -46731,8 +46731,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -46901,8 +46901,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -47071,8 +47071,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -47241,8 +47241,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -47411,8 +47411,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -47581,8 +47581,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -47751,8 +47751,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -47921,8 +47921,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -48091,8 +48091,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -48261,8 +48261,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -48431,8 +48431,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -48601,8 +48601,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -48771,8 +48771,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -48941,8 +48941,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -49111,8 +49111,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -49281,8 +49281,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -49451,8 +49451,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -49621,8 +49621,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -49791,8 +49791,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -49961,8 +49961,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -50131,8 +50131,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -50301,8 +50301,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -50471,8 +50471,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -50641,8 +50641,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -50811,8 +50811,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -50981,8 +50981,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -51151,8 +51151,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -51321,8 +51321,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -51491,8 +51491,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -51661,8 +51661,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -51831,8 +51831,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -52001,8 +52001,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -52171,8 +52171,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -52341,8 +52341,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -52511,8 +52511,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -52681,8 +52681,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -52851,8 +52851,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -53021,8 +53021,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -53191,8 +53191,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -53361,8 +53361,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -53531,8 +53531,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -53701,8 +53701,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
@@ -53871,8 +53871,8 @@ country_decisions = {
 			modifier = {
 				factor = 0
 				
-				manpower_percentage = 1
 				OR = {
+					manpower_percentage = 1
 					yearly_corruption_increase = 0.001
 					NOT = { prestige = 0 }
 				}
