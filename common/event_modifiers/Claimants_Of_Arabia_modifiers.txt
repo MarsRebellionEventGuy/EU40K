@@ -69,6 +69,7 @@ inquisition_thorians = {
 
 inquisition_amalathians = {
 	meritocracy = 1
+	manpower_recovery_speed = 0.2
 }
 
 inquisition_ardentites = {

@@ -2409,7 +2409,7 @@ XAD_ideas = {
 	}
 	XAD_ideas_5 = {
 		discipline = 0.075
-		war_exhaustion = -0.003
+		war_exhaustion = -0.05
 	}
 	XAD_ideas_6 = {
 		warscore_cost_vs_other_religion = -0.33

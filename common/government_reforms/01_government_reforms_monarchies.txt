@@ -222,6 +222,7 @@ necron_dynasty_reform = {
 		may_return_manpower_on_disband = yes
 		manpower_recovery_speed = -9.99
 		land_attrition = -0.9
+		transport_attrition = -0.9
 	}
 
 	ai = {
@@ -508,6 +509,8 @@ autonomy_for_ophelia_reform = { #State and Religion
     		tag = XXA
 	}
 	trigger = {
+		owns = 869
+		religion = imperial_cult
 	}
 
 	allow_normal_conversion = yes
