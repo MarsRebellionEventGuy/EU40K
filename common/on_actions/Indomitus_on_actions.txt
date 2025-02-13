@@ -9,6 +9,12 @@ on_startup = {
 	#	duration = -1
 	#}
 	if = {
+		limit = { tag = XAE }
+		country_event = { 
+			id = indomitus_general.9
+		}
+	}
+	if = {
 		limit = {
 			tag = XOO
 			NOT = { has_country_modifier = sororitas_modifier }
