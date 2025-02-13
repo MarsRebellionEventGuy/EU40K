@@ -383,7 +383,7 @@ XTE_ideas = {
 		diplomatic_reputation = 2		
 	}
 	XTE_ideas_4 = {
-		discipline = 0.05				
+		discipline = 0.075				
 	}
 	XTE_ideas_5 = {
 		diplomats = 1					
@@ -1425,7 +1425,7 @@ XKR_ideas = {
 		prestige_from_land = 0.25
 	}
 	XKR_ideas_4 = {
-		years_of_nationalism = -3
+		years_of_nationalism = -7.5
 	}
 	XKR_ideas_5 = {
 		warscore_from_battles_modifier = 0.15
@@ -2417,5 +2417,43 @@ XAD_ideas = {
 	XAD_ideas_7 = {
 		tolerance_own = 2
 		artillery_barrage_cost = -0.25
+	}
+}
+XAA_ideas = {
+	start = {
+		same_culture_advisor_cost = -0.2
+		years_of_nationalism = -0.05
+	}
+	
+	bonus = {
+		overextension_impact_modifier = -0.25
+	}	
+
+	trigger = {
+		tag = XAA
+	}
+	free = yes
+	
+	XAA_ideas_1 = {
+		land_forcelimit_modifier = 0.25
+	}
+	XAA_ideas_2 = {
+		mercenary_discipline = 0.075
+	}
+	XAA_ideas_3 = {
+		artillery_power = 0.0125
+	}
+	XAA_ideas_4 = {
+		range = 0.25
+		morale_damage = 0.05
+	}
+	XAA_ideas_5 = {
+		shock_damage = 0.2
+	}
+	XAA_ideas_6 = {
+		blockade_impact_on_siege_in_fleet_modifier = 1
+	}
+	XAA_ideas_7 = {
+		governing_capacity_modifier = 0.15
 	}
 }
