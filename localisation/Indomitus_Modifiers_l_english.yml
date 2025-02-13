@@ -140,11 +140,17 @@
  necronmanpower_1717_desc:0 "We are gradually reawakening the tombs of Xendu from their age-old slumber. Over the past 60 million years, the neural patterns of many Nobles and Crypteks have degraded past the point of no return. Whether they have fallen to the Flayer Curse or advanced neural malfunction, these individuals are no longer fit to serve us and must be removed. It will take time, however, for us to locate these sources of corruption and expel them from their positions of authority."
 
 
- necronmanpower1:0 "Partially Awakened Tomb World: Tier I"
- necronmanpower2:0 "Partially Awakened Tomb World: Tier II"
- necronmanpower3:0 "Partially Awakened Tomb World: Tier III"
- necronmanpower4:0 "Partially Awakened Tomb World: Tier IV"
- necronmanpowerdepleted:0 "Fully Awakened Tomb World"
+ necronmanpower1:0 "Partially Excavated Tomb World: Tier I"
+ necronmanpower2:0 "Partially Excavated Tomb World: Tier II"
+ necronmanpower3:0 "Partially Excavated Tomb World: Tier III"
+ necronmanpower4:0 "Partially Excavated Tomb World: Tier IV"
+ necronmanpowerdepleted:0 "Fully Excavated Tomb World"
+ 
+ necronmanpower1_desc:0 "Many chambers within this Tomb Complex lie derelict or dormant."
+ necronmanpower2_desc:0 "Only the uppermost chambers of this Tomb Complex have been excavated."
+ necronmanpower3_desc:0 "This Tomb Complex runs deep into the crust of the planet."
+ necronmanpower4_desc:0 "This Tomb Complex is almost fully excavated, containing millions of chambers."
+ necronmanpowerdepleted_desc:0 "This Tomb Complex has been fully excavated."
 
  nachmund_mod:0 "The Nachmund Gauntlet"
  nachmund_mod_desc:0 "Whoever controls the worlds of Vigilus and Sangua Terra controls the Nachmund Gauntlet, the only stable link between Imperium Sanctus and Imperium Nihilus."
