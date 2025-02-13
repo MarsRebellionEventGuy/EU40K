@@ -272,14 +272,13 @@ country_event = {
 	
 	trigger = {
 		tag = XAE
-		date = 1999.1.1
 		}
 	
 	
 	option = {
 		name = "indomitus_general.9.a"
 		add_country_modifier = { 
-			name = last_stand_of_the_revenants
+			name = "indomitus_general.9.t"
 			duration = 1816
 		}
 	}
