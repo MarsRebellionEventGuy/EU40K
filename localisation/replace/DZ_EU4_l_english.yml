@@ -12,7 +12,7 @@
  adeptus_mechanicus_reform_desc:0 ""
 
  bookmark1:0 "The Indomitus Crusade" 
- bookmark_desc1:0 "The Imperium of Man, once the undisputed power of the galaxy, is now a decaying husk, bloated carcass of an empire crumbling under the weight of its own stagnation. Assailed on all fronts by the countless horrors of the 42nd millennium, its breaking point came when Cadia was shattered. With its fall, the Great Rift tore reality asunder, splitting our empire in half. \n \nIn times of crisis, legends rise. The Imperium, rudderless and dying, found its savior in the resurrected Primarch Roboute Guilliman. Holy Terra lays besieged by the Lion's Gate incursion however, should Guilliman succed in stamping out internal and external threats, his planned Indomitus Crusade is poised to ignite a new age of conquest, a reckoning that will see mankind reclaim its birthright among the stars, an era of dominion not witnessed since the Emperor’s own Great Crusade."
+ bookmark_desc1:0 "The Imperium of Man, once the undisputed power of the galaxy, is now a decaying husk, bloated carcass of an empire crumbling under the weight of its own stagnation. Assailed on all fronts by the countless horrors of the 42nd millennium, its breaking point came when Cadia was shattered. With its fall, the Great Rift tore reality asunder, splitting our empire in half. \n \nIn times of crisis, legends rise. The rudderless Imperium found its savior in the resurrected Primarch Roboute Guilliman. Holy Terra lays besieged by the Lion's Gate incursion however, should Guilliman succed in stamping out internal and external threats, his planned Indomitus Crusade is poised to ignite a new age of conquest, a reckoning that will see mankind reclaim its birthright among the stars, an era of dominion not witnessed since the Emperor’s own Great Crusade."
 # Imperium of Man bookmark
 # Important Countries: Imperium of Man
 # Important events to mention:
@@ -45,7 +45,17 @@
 # - Necron society divided between reversing biotransference by finding suitable biological bodies (returning to the Necrontyr) or embracing their existence as Necrons and exterminating all life
 # - Szarekh constructing Pariah Nexus out of Blackstone to eliminate Warp, it has began spreading across the Nephilim Sector and causes Humans to experience "The Stilling"
 
- bookmark4:0 "Rise of the Ynnari"
+bookmark4:0 "The Orphean War"
+ bookmark_desc4:0 "The Orpheus Sector, once a proud jewel of the Emperor’s realm, now lies in utter darkness. The Necron Maynarkh Dynasty has awoken, carving a path of annihilation across the stars. Entire systems lie silent, their populations exterminated or enslaved, as the skies echo with the cold, heartless march of metallic legions. The Angels Revenant, their might shattered, retreat into the depths of Libethra, clinging desperately to survival beneath a dying world. /nIf humanity falters here, the Necron tide will march unopossed to the Imperium’s heartlands. The defenders of the Orpheus Garrison must defy impossible odds, rising from the ashes to challenge the invader and buy precious time for the Emperor’s light to reach them in their darkest hour."
+
+#Orphean War Bookmark
+#Important Countries: Maynarkh, Orpheus Garrison, Angels Revenant~
+#Important events to mention:
+# - Orphean War onset
+# - Incredibly perilous position of Angels Revenant Astartes Chapter
+# - Orpheus Garrison hopeless resistance against Maynarkh
+
+ 
  bookmark_desc4:0 "Craftwords"
  bookmark5:0 "The Third Tyrannic War"
  bookmark_desc5:0 "Tyranids"
@@ -67,15 +77,11 @@
 
  bookmark11:0 "Legion I: Dark Angels"
  bookmark_desc11:0 ""
+bookmark12:0 "Rise of the Ynnari"
 <<<<<<< HEAD
- bookmark12:0 "The Orphean War"
- bookmark_desc12:0 "The Orpheus Sector, once a proud jewel of the Emperor’s realm, now lies in darkness. The Necron Maynarkh Dynasty has awoken, carving a path of annihilation across the stars. Entire systems lie silent, their populations exterminated or enslaved, and the skies echo with the cold, heartless march of metallic legions. The Angels Revenant, their might shattered, retreat into the depths of Libethra, clinging desperately to survival beneath a dying world. /nAs the Imperium falters, the stakes could not be higher. Should mankind fail to rally, the entire Orpheus Sector will be stripped of life, its people reduced to memories lost to the void. The Necrons, unchallenged, would press onward into the Imperium’s heartlands, their malevolent designs threatening far more than this one forgotten corner of the galaxy. In their darkest hour, the defenders must defy the impossible; to rise from the ashes and challenge the invader, buying precious time for the Emperor’s light to reach them in time, or risk the unthinkable; a galaxy where humanity’s fire is extinguished, and silence reigns eternal."
+ 
  bookmark_13:0 "The War of the Beast"
  bookmark_desc13:0 "In the desolate expanse of the far future, the galaxy teeters on the brink as a new and terrifying threat emerges. Monstrous creatures rise from the shadows, clawing their way to the surface. These savage beasts, fueled by primal instincts and a ravenous hunger for destruction, sweep across the worlds of the Imperium, leaving untold devastation in their wake./nAs reports of Ork attacks flood in from the Outer Rim, panic grips the heart of humanity. The once-proud bastions of civilization find themselves besieged by these relentless foes, their very existence hanging in the balance. The Astra Militarum prepares to rally its forces, while the noble Adeptus Astartes sharpen their blades and ready their war machines, knowing that the fate of the Imperium rests upon their shoulders./nIn this dire hour, alliances will be forged in the fires of desperation, legends will rise from the ashes of conflict, and the inferno of war will be kindled anew, with it comes the promise of glory beyond measure or the ever-looming shadow of annihilation. The War of the Beasts is upon us."
-
-
- 
- 
  
  crops:0 "Crops"
  cropsDESC:0 "Fresh produce grown from the ground."
