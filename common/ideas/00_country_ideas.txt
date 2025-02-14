@@ -2423,7 +2423,7 @@ XAD_ideas = {
 XAA_ideas = {
 	start = {
 		same_culture_advisor_cost = -0.2
-		years_of_nationalism = -0.5
+		years_of_nationalism = -5
 	}
 	
 	bonus = {
@@ -2457,5 +2457,51 @@ XAA_ideas = {
 	}
 	XAA_ideas_7 = {
 		governing_capacity_modifier = 0.15
+	}
+}
+XAE_ideas = {
+	start = {
+		recover_army_morale_speed = 0.15
+		global_defender_dice_roll_bonus = 1
+	}
+	
+	bonus = {
+		army_tradition_decay = -0.03
+	}	
+
+	trigger = {
+		tag = XAE
+	}
+	free = yes
+	
+	XAE_ideas_1 = {
+		land_forcelimit_modifier = 0.33
+		manpower_recovery_speed = -0.06
+	}
+	XAE_ideas_2 = {
+		land_morale = 0.20
+		manpower_recovery_speed = -0.06
+	}
+	XAE_ideas_3 = {
+		improve_relation_modifier = 0.25
+		diplomatic_reputation = 1
+		manpower_recovery_speed = -0.06
+	}
+	XAE_ideas_4 = {
+		war_exhaustion = -0.07
+		infantry_power = 0.1
+		manpower_recovery_speed = -0.06
+	}
+	XAE_ideas_5 = {
+		ship_durability = 0.1
+		sunk_ship_morale_hit_recieved = -0.33
+		manpower_recovery_speed = -0.06
+	}
+	XAE_ideas_6 = {
+		warscore_cost_vs_other_religion = -0.33 
+		manpower_recovery_speed = -0.06
+	}
+	XAE_ideas_7 = {
+		manpower_recovery_speed = 0.66
 	}
 }
