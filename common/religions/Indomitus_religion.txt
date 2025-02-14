@@ -438,7 +438,7 @@ necron_group = {
 		province = {
 			local_missionary_strength = -0.02
 		}
-		
+		uses_piety = yes
 		heretic = { FLAYEDONES DESTROYERS }
 	}
 	destroyer_cult = {

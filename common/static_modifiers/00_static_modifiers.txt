@@ -832,22 +832,25 @@ navy_tradition = {
 }
 
 positive_piety = { #As of 1.23 Legalism
-	technology_cost = -0.1
-	global_manpower_modifier = 0.20
-	global_tax_modifier = 0.20
-	brahmins_muslim_loyalty_modifier = -0.1
-	church_loyalty_modifier = 0.1
-	piety_dhimmi_loyalty_modifier = -0.1
+	discipline = 0.15
+	siege_ability = 0.1
+	land_forcelimit_modifier = 0.2
+	yearly_corruption = -0.2
+	global_autonomy = -0.5
+	global_unrest = 4
+	reform_progress_growth = -0.2
+	all_estate_loyalty_equilibrium = 0.2
 }
 
 #For convenience, its multiplied by negative piety in code.
 negative_piety = { #As of 1.23 Mysticism
-	land_morale = 0.10
-	global_missionary_strength = 0.03
-	idea_cost = -0.1
-	brahmins_muslim_loyalty_modifier = 0.1
-	piety_church_loyalty_modifier = -0.1
-	dhimmi_loyalty_modifier = 0.1
+	development_cost = -0.2
+	production_efficiency = 0.2
+	advisor_cost = -0.2
+	global_autonomy = 0.5
+	global_unrest = -2
+	reform_progress_growth = 0.2
+	all_estate_loyalty_equilibrium = -0.2
 }
 
 defender_of_faith = {

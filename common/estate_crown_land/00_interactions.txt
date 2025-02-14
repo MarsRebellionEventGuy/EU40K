@@ -65,6 +65,12 @@ interaction = {
 			}
 			clr_country_flag = recent_land_distribution
 		}
+		if = {
+			limit = { 
+				uses_piety = yes
+			}
+			add_piety = -0.1
+		}
 		set_country_flag = recent_land_distribution
 		on_sale_of_titles_effect = yes
     }
@@ -225,6 +231,12 @@ interaction = {
 				has_government_attribute = republican_tradition_from_diets
 			}
 			add_scaled_republican_tradition = 2
+		}
+		if = {
+			limit = { 
+				uses_piety = yes
+			}
+			add_piety = -0.025
 		}
 		on_summon_the_diet_effect = yes
     }
@@ -420,6 +432,12 @@ interaction = {
 		if = {
 			limit = { has_government_attribute = theocratic_monarchy_mechanic }
 			change_statists_vs_orangists = 0.05
+		}
+		if = {
+			limit = { 
+				uses_piety = yes
+			}
+			add_piety = 0.05
 		}
 		on_seize_land_effect = yes
 	}
