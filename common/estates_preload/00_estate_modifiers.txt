@@ -623,6 +623,58 @@ estate_qizilbash = {
 	}
 }
 
+estate_necron_nobles = {
+	modifier_definition = {
+		type = loyalty
+		key = necron_nobles_loyalty_modifier
+		trigger = {
+			has_estate = estate_necron_nobles
+		}
+	}
+
+	modifier_definition = {
+		type = influence
+		key = necron_nobles_influence_modifier
+		trigger = {
+			has_estate = estate_necron_nobles
+		}
+	}
+
+	modifier_definition = {
+		type = privileges
+		key = necron_nobles_privilege_slots
+		trigger = {
+			has_estate = estate_necron_nobles
+		}
+	}
+}
+
+estate_crypteks = {
+	modifier_definition = {
+		type = loyalty
+		key = crypteks_loyalty_modifier
+		trigger = {
+			has_estate = estate_crypteks
+		}
+	}
+
+	modifier_definition = {
+		type = influence
+		key = crypteks_influence_modifier
+		trigger = {
+			has_estate = estate_crypteks
+		}
+	}
+
+	modifier_definition = {
+		type = privileges
+		key = crypteks_privilege_slots
+		trigger = {
+			has_estate = estate_crypteks
+		}
+	}
+}
+
 #For special scripted modifiers which are not in the code base.
 estate_special = {
 	#For the Republics which only have limited terms

@@ -184,6 +184,8 @@ estate_inquisition_increase_ordo_astartes_desc: "The Ordo Astartes is entrusted 
  estate_mechanicus_privilege_desc: "By devolving autonomy in local affairs to the Mechanicus we can ensure a reliable flow of industrial resources to Terra, at the cost of a slight weaking of central authority."
  estate_mechanicus_expand_knight_production: "Expanded Knight Production"
  estate_mechanicus_expand_knight_production_desc: "By granting expanded rights to oversee the construction of Imperial Knights in the Imperium we can reduce the logistical cost involved in building them in the offworld factories. However, this increases the logistical cost of the Mechanicus, as  it subtly shifts the weight of their manufacturing demands onto the Mechanicus, straining their forges and resources."
+ 
+ 
  XXA_metals_monopoly: "Granted Imperiums Metals"
  XXA_knowledge_quest_condoned: "Knowledge Quest Condoned"
  XXA_basilikon_astra_expansion: "Basilikon Astra Expansion"
