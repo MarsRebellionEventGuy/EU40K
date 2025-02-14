@@ -2,7 +2,7 @@ government = theocracy
 add_government_reform = chaos_cult_reform
 government_rank = 1
 technology_group = chaos
-religion = chaos_undivided
+religion = khorne
 primary_culture = chaos_culture
 capital = 2974
 

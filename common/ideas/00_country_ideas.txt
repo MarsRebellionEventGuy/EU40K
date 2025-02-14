@@ -922,7 +922,6 @@ XGK_ideas = {
 	trigger = {
 		OR = {
 			tag = XGK
-			tag = XAE
 			tag = XNG
 			tag = XHX
 			tag = XHJ
