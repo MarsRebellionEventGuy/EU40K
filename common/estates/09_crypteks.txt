@@ -145,7 +145,7 @@ estate_crypteks = {
 		}
 	}
 	
-	color = { 200 150 0 }
+	color = { 50 150 0 }
 
 	privileges = {
 		estate_church_land_rights

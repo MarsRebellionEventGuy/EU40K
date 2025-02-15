@@ -29,3 +29,15 @@
  estate_necron_nobles_desc: "Necron Lords are the elite lieutenants of the Overlords, commanding legions in the wars of galactic reconquest. Cunning strategists and ruthless enforcers, they execute their masters' will, unleashing terror upon all life, ensuring the unyielding supremacy of the Necron dynasties across the void."
  estate_crypteks: "Crypteks"
  estate_crypteks_desc: "Crypteks are our technologists and engineers, responsible for studying and maintaining the technology of the dynasty. A Cryptek's powers mirror that of the psykers found amongst the lesser species of the galaxy."
+ 
+ enable_estate_action_CALL_DIET_NECRON_NOBLES_tt:0 "[Root.EnableEstateDecisionText] §Y[Root.GetNobilityName]: Enforce Will§!"
+ disable_estate_action_CALL_DIET_NECRON_NOBLES_tt:0 "[Root.DisableEstateDecisionText] §Y[Root.GetNobilityName]: Enforce Will§!"
+ has_enabled_estate_action_CALL_DIET_NECRON_NOBLES_tt:0 "[Root.HasEstateDecisionText] §Y[Root.GetNobilityName]: Enforce Will§!"
+ NECRON_EST_VAL_DIET_HELD:0 "Will Enforced: §Y$VAL$%§!"
+ NECRON_EST_VAL_DIET_HELD_LOYALTY:0 "Will Enforced: §G$VAL$§!"
+ DEMAND_MORE_TROOPS_NECRON_NOBLES:0 "Military Contributions: §Y$VAL$%§!"
+ DEMAND_MORE_TROOPS_NECRON_NOBLES_LOYALTY:0 "Military Contributions: §G$VAL$§!"
+ enable_estate_action_DEMAND_MORE_TROOPS_NECRON_NOBLES_tt:0 "[Root.EnableEstateDecisionText] §Y[Root.GetNobilityName]: Force Military Contributions§!"
+ disable_estate_action_DEMAND_MORE_TROOPS_NECRON_NOBLES_tt:0 "[Root.DisableEstateDecisionText] §Y[Root.GetNobilityName]: Force Military Contributions§!"
+ has_enabled_estate_action_DEMAND_MORE_TROOPS_NECRON_NOBLES_tt:0 "[Root.HasEstateDecisionText] §Y[Root.GetNobilityName]: Force Military Contributions§!"
+ 

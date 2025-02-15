@@ -355,7 +355,7 @@ estate_necron_nobles_officer_corp = {
 }
 
 estate_necron_nobles_advisors = {
-	icon = privilege_recruit_minister
+	icon = privilege_prestige
 	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
 	influence = 0.05
@@ -411,490 +411,6 @@ estate_necron_nobles_right_of_counsel = {
 }
 
 #DLC Privileges
-
-estate_necron_nobles_supremacy_over_crown = {
-	icon = privilege_empty_throne
-	max_absolutism = -5
-	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
-	influence = 0.0
-	loyalty = 0.0
-	is_valid = {
-		has_dlc = "Emperor"
-		NOT = { has_government_attribute = blocked_call_diet }
-	}
-	can_select = { 
-		NOT = { has_estate_privilege = estate_eunuchs_supremacy_over_crown_privilege }
-	}
-	penalties = {
-	}
-	benefits = {
-		all_estate_loyalty_equilibrium = 0.1
-		all_estate_influence_modifier = 0.1
-	}
-	loyalty_scaled_conditional_modifier = {
-		trigger = {
-			has_country_flag = hab_second_option_flag
-			estate_influence = {
-				estate = estate_necron_nobles
-				influence = 80
-			}
-		}
-		modifier = {
-			global_manpower_modifier = 0.2
-		}
-	}
-	mechanics = {
-		can_give_agendas_without_interaction
-	}
-	conditional_modifier = {
-		trigger = { has_government_mechanic = russian_modernization_mechanic }
-		modifier = { monthly_russian_modernization = -0.05 }
-	}
-
-	ai_will_do = {
-		factor = 10
-	}
-}
-
-estate_necron_nobles_monopoly_of_metals = {
-	icon = privilege_monopoly_of_goods_iron
-	max_absolutism = -10
-	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
-	loyalty = 0.05
-	is_valid = {
-		OR = {
-			has_dlc = "Emperor"
-			has_country_flag = buffed_monopolies
-		}
-		any_owned_province = {
-			OR = {
-				trade_goods = iron
-				trade_goods = copper
-			}
-		}
-	}
-	can_select = {
-		custom_trigger_tooltip = {
-			tooltip = unavailable_during_revolution_disaster
-			NOT = { has_disaster = revolution }
-			NOT = {
-				has_disaster_progress = {
-					disaster = revolution
-					value = 1
-				}
-			}
-			NOT = { has_disaster = french_revolution }
-			NOT = {
-				has_disaster_progress = {
-					disaster = french_revolution
-					value = 1
-				}
-			}
-		}
-	}
-	on_granted = {
-		if = {
-			limit = {
-				OR = {
-					iron = 1
-					copper = 1
-				}
-			}
-			add_mercantilism = 1
-		}
-		add_years_of_owned_provinces_production_income = {
-			years = 8
-			trigger = {
-				OR = {
-					trade_goods = iron
-					trade_goods = copper
-				}
-			}
-			custom_tooltip = MONOPOLY_INCOME_IRON_AND_COPPER_DESC
-		}
-		custom_tooltip = estate_necron_nobles_monopoly_of_metals_effect_tooltip
-	}
-	on_granted_province = {
-		if = {
-			limit = {
-				OR = {
-					trade_goods = iron
-					trade_goods = copper
-				}
-			}
-			add_province_modifier = {
-				name = estate_necron_nobles_monopoly_of_metals_mod
-				duration = -1
-			}
-		}
-		else_if = {
-			limit = {
-				has_province_modifier = estate_necron_nobles_monopoly_of_metals_mod
-			}
-			remove_province_modifier = estate_necron_nobles_monopoly_of_metals_mod
-		}
-	}
-	on_revoked = {
-		custom_tooltip = estate_necron_nobles_monopoly_of_metals_revoke_tooltip
-	}
-	on_revoked_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_necron_nobles_monopoly_of_metals_mod
-			}
-			remove_province_modifier = estate_necron_nobles_monopoly_of_metals_mod
-		}
-	}
-	on_invalid = {
-		custom_tooltip = estate_necron_nobles_monopoly_of_metals_revoke_tooltip
-	}
-	on_invalid_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_necron_nobles_monopoly_of_metals_mod
-			}
-			remove_province_modifier = estate_necron_nobles_monopoly_of_metals_mod
-		}
-	}
-	penalties = {
-	}
-	benefits = {
-	}
-
-	cooldown_years = 10
-	conditional_modifier = {
-		trigger = {
-			has_country_flag = buffed_monopolies
-		}
-		modifier = {
-			max_absolutism = 10
-			nobles_privilege_slots = 1
-		}
-	}
-	on_cooldown_expires = {
-		country_event = { id = monopoly_privileges.5 }
-	}
-	ai_will_do = {
-		factor = 0
-	}
-}
-
-estate_necron_nobles_monopoly_of_livestock = {
-	icon = privilege_monopoly_of_goods_livestock
-	max_absolutism = -10
-	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
-	loyalty = 0.05
-	is_valid = {
-		OR = {
-			has_dlc = "Emperor"
-			has_country_flag = buffed_monopolies
-		}
-		any_owned_province = {
-			trade_goods = livestock
-		}
-	}
-	can_select = {
-		custom_trigger_tooltip = {
-			tooltip = unavailable_during_revolution_disaster
-			NOT = { has_disaster = revolution }
-			NOT = {
-				has_disaster_progress = {
-					disaster = revolution
-					value = 1
-				}
-			}
-			NOT = { has_disaster = french_revolution }
-			NOT = {
-				has_disaster_progress = {
-					disaster = french_revolution
-					value = 1
-				}
-			}
-		}
-	}
-	on_granted = {
-		if = {
-			limit = {
-				livestock = 1
-			}
-			add_mercantilism = 1
-		}
-		add_years_of_owned_provinces_production_income = {
-			years = 8
-			trigger = {
-				trade_goods = livestock
-			}
-			custom_tooltip = MONOPOLY_INCOME_LIVESTOCK_DESC
-		}
-		custom_tooltip = estate_necron_nobles_monopoly_of_livestock_effect_tooltip
-	}
-	on_granted_province = {
-		if = {
-			limit = {
-				trade_goods = livestock
-			}
-			add_province_modifier = {
-				name = estate_necron_nobles_monopoly_of_livestock_mod
-				duration = -1
-			}
-		}
-		else_if = {
-			limit = {
-				has_province_modifier = estate_necron_nobles_monopoly_of_livestock_mod
-			}
-			remove_province_modifier = estate_necron_nobles_monopoly_of_livestock_mod
-		}
-	}
-	on_revoked = {
-		custom_tooltip = estate_necron_nobles_monopoly_of_livestock_revoke_tooltip
-	}
-	on_revoked_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_necron_nobles_monopoly_of_livestock_mod
-			}
-			remove_province_modifier = estate_necron_nobles_monopoly_of_livestock_mod
-		}
-	}
-	on_invalid = {
-		custom_tooltip = estate_necron_nobles_monopoly_of_livestock_revoke_tooltip
-	}
-	on_invalid_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_necron_nobles_monopoly_of_livestock_mod
-			}
-			remove_province_modifier = estate_necron_nobles_monopoly_of_livestock_mod
-		}
-	}
-	penalties = {
-	}
-	benefits = {
-	}
-	cooldown_years = 10
-	conditional_modifier = {
-		trigger = {
-			has_country_flag = buffed_monopolies
-		}
-		modifier = {
-			max_absolutism = 10
-			nobles_privilege_slots = 1
-		}
-	}
-	on_cooldown_expires = {
-		country_event = { id = monopoly_privileges.6 }
-	}
-	ai_will_do = {
-		factor = 0
-	}
-}
-
-estate_necron_nobles_monopoly_of_gems = {
-	icon = privilege_monopoly_of_goods_gems
-	max_absolutism = -10
-	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
-	loyalty = 0.05
-	is_valid = {
-		OR = {
-			has_dlc = "Emperor"
-			has_country_flag = buffed_monopolies
-		}
-		any_owned_province = {
-			trade_goods = gems
-		}
-	}
-	can_select = {
-		custom_trigger_tooltip = {
-			tooltip = unavailable_during_revolution_disaster
-			NOT = { has_disaster = revolution }
-			NOT = {
-				has_disaster_progress = {
-					disaster = revolution
-					value = 1
-				}
-			}
-			NOT = { has_disaster = french_revolution }
-			NOT = {
-				has_disaster_progress = {
-					disaster = french_revolution
-					value = 1
-				}
-			}
-		}
-	}
-	on_granted = {
-		if = {
-			limit = {
-				gems = 1
-			}
-			add_mercantilism = 1
-		}
-		add_years_of_owned_provinces_production_income = {
-			years = 8
-			trigger = {
-				trade_goods = gems
-			}
-			custom_tooltip = MONOPOLY_INCOME_GEMS_DESC
-		}
-		custom_tooltip = estate_necron_nobles_monopoly_of_gems_effect_tooltip
-	}
-	on_granted_province = {
-		if = {
-			limit = {
-				trade_goods = gems
-			}
-			add_province_modifier = {
-				name = estate_necron_nobles_monopoly_of_gems_mod
-				duration = -1
-			}
-		}
-		else_if = {
-			limit = {
-				has_province_modifier = estate_necron_nobles_monopoly_of_gems_mod
-			}
-			remove_province_modifier = estate_necron_nobles_monopoly_of_gems_mod
-		}
-	}
-	on_revoked = {
-		custom_tooltip = estate_necron_nobles_monopoly_of_gems_revoke_tooltip
-	}
-	on_revoked_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_necron_nobles_monopoly_of_gems_mod
-			}
-			remove_province_modifier = estate_necron_nobles_monopoly_of_gems_mod
-		}
-	}
-	on_invalid = {
-		custom_tooltip = estate_necron_nobles_monopoly_of_gems_revoke_tooltip
-	}
-	on_invalid_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_necron_nobles_monopoly_of_gems_mod
-			}
-			remove_province_modifier = estate_necron_nobles_monopoly_of_gems_mod
-		}
-	}
-	penalties = {
-	}
-	benefits = {
-	}
-
-	cooldown_years = 10
-	conditional_modifier = {
-		trigger = {
-			has_country_flag = buffed_monopolies
-		}
-		modifier = {
-			max_absolutism = 10
-			nobles_privilege_slots = 1
-		}
-	}
-	on_cooldown_expires = {
-		country_event = { id = monopoly_privileges.7 }
-	}
-	ai_will_do = {
-		factor = 0
-	}
-}
-
-estate_necron_nobles_strong_duchies = {
-	icon = privilege_royal_authority
-	max_absolutism = -10
-	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
-	influence = 0.1
-	loyalty = 0.05
-	check_valid_when_tag_switching = no
-	is_valid = {
-		any_subject_country = {
-			OR = {
-				is_subject_of_type = vassal
-				is_subject_of_type = client_vassal
-				is_subject_of_type = march
-				is_subject_of_type = client_march
-				is_subject_of_type = personal_union
-				is_subject_of_type = incorporated_vassal
-				is_subject_of_type = integrated_personal_union
-			}
-		}
-		NOT = { has_estate_privilege = estate_necron_nobles_french_strong_duchies }
-	}
-	can_select = {
-		custom_trigger_tooltip = {
-			tooltip = estate_necron_nobles_strong_duchies_trigger_tooltip
-			calc_true_if = {
-				amount = 2
-				all_subject_country = {
-					OR = {
-						is_subject_of_type = vassal
-						is_subject_of_type = client_vassal
-						is_subject_of_type = march
-						is_subject_of_type = client_march
-						is_subject_of_type = personal_union
-						is_subject_of_type = incorporated_vassal
-						is_subject_of_type = integrated_personal_union
-					}
-				}
-			}
-		}
-	}
-	penalties = {
-	}
-	benefits = {
-		diplomatic_upkeep = 2
-		reduced_liberty_desire = 10
-	}
-	conditional_modifier = {
-		trigger = { has_government_attribute = buffed_strong_duchies }
-		modifier = {
-			nobles_loyalty_modifier = 0.05
-		}
-	}
-	conditional_modifier = {
-		trigger = { has_government_mechanic = russian_modernization_mechanic }
-		modifier = { monthly_russian_modernization = -0.05 }
-	}
-	conditional_modifier = {
-		trigger = { has_country_flag = hun_upgrade_strong_duchies }
-		modifier = { 	vassal_forcelimit_bonus = 0.5 }
-	}
-	conditional_modifier = {
-		trigger = { has_country_flag = hab_upgraded_strong_duchies }
-		modifier = { 
-			vassal_forcelimit_bonus = 0.25
-			vassal_income = 0.1
-		}
-	}
-	ai_will_do = {
-		factor = 2
-		modifier = {
-			factor = 3
-			calc_true_if = {
-				amount = 1
-				all_subject_country = {
-					OR = {
-						is_march = yes
-						is_vassal = yes
-					}
-				}
-			}
-		}
-		modifier = {
-			factor = 2
-			calc_true_if = {
-				amount = 2
-				all_subject_country = {
-					OR = {
-						is_march = yes
-						is_vassal = yes
-					}
-				}
-			}
-		}
-	}
-}
 
 estate_necron_nobles_better_integration = {
 	icon = privilege_better_integration
@@ -962,7 +478,7 @@ estate_necron_nobles_better_integration = {
 #Domination generic Estate Privileges
 
 estate_necron_nobles_statesman_servitude = {
-	icon = privilege_diplomat
+	icon = privilege_give_money
 	loyalty = 0.0
 	influence = 0.05
 	max_absolutism = -5
@@ -1084,32 +600,29 @@ estate_necron_nobles_royal_court_tasks = {
 estate_necron_nobles_diet_right = {
 	icon = privilege_government
 	loyalty = 0.0
-	influence = 0.05
-	max_absolutism = -5
-	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
+	influence = -0.05
+	max_absolutism = 5
 	is_valid = {
 		always = yes
 	}
 	on_granted = {
 		enable_estate_action = {
-			estate_action = CALL_DIET_NOBLES
+			estate_action = CALL_DIET_NECRON_NOBLES
 		}
 	}
 	on_invalid = {
 		disable_estate_action = {
-			estate_action = CALL_DIET_NOBLES
+			estate_action = CALL_DIET_NECRON_NOBLES
 		}
 	}
 	on_revoked = {
 		disable_estate_action = {
-			estate_action = CALL_DIET_NOBLES
+			estate_action = CALL_DIET_NECRON_NOBLES
 		}
 	}
 	mechanics = {
 	}
 	conditional_modifier = {
-		trigger = { has_government_mechanic = russian_modernization_mechanic }
-		modifier = { monthly_russian_modernization = -0.05 }
 	}
 	ai_will_do = {
 		factor = 10
@@ -1124,28 +637,25 @@ estate_necron_nobles_force_conscription = {
 	loyalty = 0
 	influence = 0.05
 	max_absolutism = -5
-	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
 	is_valid = {
 		always = yes
 	}
 	on_granted = {
 		enable_estate_action = {
-			estate_action = DEMAND_MORE_TROOPS_NOBLES
+			estate_action = DEMAND_MORE_TROOPS_NECRON_NOBLES
 		}
 	}
 	on_revoked = {
 		disable_estate_action = {
-			estate_action = DEMAND_MORE_TROOPS_NOBLES
+			estate_action = DEMAND_MORE_TROOPS_NECRON_NOBLES
 		}
 	}
 	on_invalid = {
 		disable_estate_action = {
-			estate_action = DEMAND_MORE_TROOPS_NOBLES
+			estate_action = DEMAND_MORE_TROOPS_NECRON_NOBLES
 		}
 	}
 	conditional_modifier = {
-		trigger = { has_government_mechanic = russian_modernization_mechanic }
-		modifier = { monthly_russian_modernization = -0.05 }
 	}
 	ai_will_do = {
 		factor = 0

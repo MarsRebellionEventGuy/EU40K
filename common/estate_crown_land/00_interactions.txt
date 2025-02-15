@@ -7,7 +7,13 @@ interaction = {
         crown_land_share = 10
         NOT = { num_of_rebel_armies = 1 }
 		NOT = { num_of_rebel_controlled_provinces = 1 }
-		hidden_trigger = { has_any_estates = yes }
+		hidden_trigger = { 
+			OR = {
+				has_any_estates = yes 
+				has_estate = estate_necron_nobles
+				has_estate = estate_crypteks
+			}
+		}
     }
     effect = {
 		if = {
@@ -183,7 +189,13 @@ interaction = {
 
     trigger = {
         NOT = { has_any_active_estate_agenda = yes }
-		hidden_trigger = { has_any_estates = yes }
+		hidden_trigger = { 
+			OR = {
+				has_any_estates = yes 
+				has_estate = estate_necron_nobles
+				has_estate = estate_crypteks
+			}
+		}
 		NOT = { has_government_attribute = blocked_call_diet }
     }
 
@@ -278,7 +290,13 @@ interaction = {
 	cooldown_months = 60
 
     trigger = {
-		hidden_trigger = { has_any_estates = yes }
+		hidden_trigger = { 
+			OR = {
+				has_any_estates = yes 
+				has_estate = estate_necron_nobles
+				has_estate = estate_crypteks
+			}
+		}
         NOT = { crown_land_share = 100 }
         NOT = { num_of_rebel_armies = 1 }
 		NOT = { num_of_rebel_controlled_provinces = 1 }
