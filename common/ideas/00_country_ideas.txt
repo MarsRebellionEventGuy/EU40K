@@ -2504,7 +2504,7 @@ XAE_ideas = {
 XLS_ideas = {
 	start = {
 		free_leader_pool = 2
-		siege_ability = 0.1
+		siege_ability = 0.15
 	}
 	
 	bonus = {
@@ -2524,7 +2524,7 @@ XLS_ideas = {
 		morale_damage = 0.1
 	}
 	XLS_ideas_3 = {
-		unjustified_demands = 0.33
+		unjustified_demands = -0.33
 		rival_change_cost = -0.5
 	}
 	XLS_ideas_4 = {
@@ -2537,7 +2537,7 @@ XLS_ideas = {
 		fire_damage_received = -0.20
 	}
 	XLS_ideas_7 = {
-		artillery_levels_available_vs_fort = 1
+		artillery_levels_available_vs_fort = 2
 		artillery_level_modifier = 0.25
 	}
 }
