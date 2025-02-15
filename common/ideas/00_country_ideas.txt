@@ -410,6 +410,7 @@ Necron_ideas = {
 		culture_group = necron_culture_group
 		NOT = { tag = XTE }
 		NOT = { tag = XAA }
+		NOT = { tag = XLS }
 	}
 	free = yes
 	
@@ -2497,5 +2498,46 @@ XAE_ideas = {
 	}
 	XAE_ideas_7 = {
 		manpower_recovery_speed = 0.66
+	}
+}
+
+XLS_ideas = {
+	start = {
+		free_leader_pool = 2
+		siege_ability = 0.1
+	}
+	
+	bonus = {
+		spy_action_cost_modifier = -0.30
+	}	
+
+	trigger = {
+		tag = XLS
+	}
+	free = yes
+	
+	XLS_ideas_1 = {
+		land_morale = 0.1
+		naval_morale = 0.1
+	}
+	XLS_ideas_2 = {
+		morale_damage = 0.1
+	}
+	XLS_ideas_3 = {
+		unjustified_demands = 0.33
+		rival_change_cost = -0.5
+	}
+	XLS_ideas_4 = {
+		mercenary_discipline = 0.075
+	}
+	XLS_ideas_5 = {
+		garrison_damage = 0.66
+	}
+	XLS_ideas_6 = {
+		fire_damage_received = -0.20
+	}
+	XLS_ideas_7 = {
+		artillery_levels_available_vs_fort = 1
+		artillery_level_modifier = 0.25
 	}
 }

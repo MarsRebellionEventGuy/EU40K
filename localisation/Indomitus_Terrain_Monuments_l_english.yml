@@ -23,7 +23,7 @@
  grasslands_desc:0 "Dead Worlds represent planets which have nonexistent or barely functioning ecosystems, created through natural processes, exterminatus, or consumption by the Tyranids."
 
  coastal_desert:0 "Fortress World"
- coastal_desert_desc:0 "Fortress Worlds represent planets which have been entirely oriented towards military functions, particularly safeguarding regions of space form threats."
+ coastal_desert_desc:0 "Fortress Worlds represent planets which have been entirely oriented towards military functions, particularly safeguarding regions of space form threats"
 
  blackstone_world:0 "Blackstone World"
  blackstone_world_desc:0 "Blackstone Worlds represent planets part of the Necrons' Pariah Nexus, capable of completely severing organic species' connection to the Warp and eventually rendering them catatonic."
