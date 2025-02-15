@@ -10,6 +10,7 @@ estate_nobles = {
 		NOT = { has_disabled_estate = { estate = estate_nobles } }
 		NOT = { culture_group = ork_culture_group }
 		NOT = { culture_group = tyranid_culture_group }
+		NOT = { culture_group = necron_culture_group }
 		OR = {
 			has_government_attribute = enables_estate_nobles
 			has_enabled_estate = { estate = estate_nobles }
@@ -236,13 +237,6 @@ estate_nobles = {
 		desc = estate_exarchs
 		trigger = {
 			primary_culture = asuryani_culture
-		}
-	}
-
-	custom_name = {
-		desc = estate_necron_nobles
-		trigger = {
-			culture_group = necron_culture_group
 		}
 	}
 
