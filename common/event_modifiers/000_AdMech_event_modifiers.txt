@@ -26,6 +26,11 @@ fallen_forge_world_mod = {
 	picture = "icon_fallen_forge_world"
 }
 
+fallen_major_forge_world_mod = {
+	province_trade_power_value = 0.5
+	picture = "icon_fallen_forge_world"
+}
+
 minor_forge_world_mod = {
 	province_trade_power_value = 10
 	picture = "icon_minor_forge_world"
