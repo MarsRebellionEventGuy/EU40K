@@ -100,6 +100,29 @@ on_startup = {
 	}
 	if = {
 		limit = {
+			tag = XEV
+		}
+		vidar_region = {
+			discover_country = ROOT
+		}
+		vidar_sector_sea_region = {
+			discover_country = ROOT
+		}
+		ullanor_region = {
+			discover_country = ROOT
+		}
+		ullanor_sector_sea_region = {
+			discover_country = ROOT
+		}
+		gulgorahd_region = {
+			discover_country = ROOT
+		}
+		gulgorahd_sea_region = {
+			discover_country = ROOT
+		}
+	}
+	if = {
+		limit = {
 			capital_scope = { region = segmentum_solar_region }
 		}
 		segmentum_solar_region = {
