@@ -170,91 +170,13 @@ estate_necron_nobles = {
 		estate_necron_nobles_officer_corp
 		estate_necron_nobles_advisors
 		estate_necron_nobles_right_of_counsel
-		estate_necron_nobles_french_strong_duchies
-		estate_necron_nobles_supremacy_over_crown
-		estate_necron_nobles_junker_primacy
-		estate_necron_nobles_strong_duchies
-		estate_necron_nobles_golden_liberty
-		estate_necron_nobles_veto_heir_apparent
-		estate_necron_nobles_nieszawa_privileges
-		estate_necron_nobles_pacta_conventa
-		estate_necron_nobles_monopoly_of_metals
-		estate_necron_nobles_monopoly_of_livestock
-		estate_necron_nobles_monopoly_of_gems
-		estate_necron_nobles_statutory_rights
-		estate_necron_nobles_command_of_the_military
 		estate_necron_nobles_better_integration
-		estate_necron_nobles_cawa_peace_keepers
-		estate_necron_nobles_cawa_offensive_fighters
-		estate_necron_nobles_neighbor_raids
-		estate_necron_nobles_decentralized_tribe
-		estate_necron_nobles_tribe_unification
-		estate_necron_nobles_tribe_centralization
-		estate_necron_nobles_grant_power_to_the_bashorun
-		estate_necron_nobles_danish_nobility
-		estate_necron_nobles_nobles_instead_of_royal_court
-		estate_necron_nobles_leidang_conscription
-		estate_necron_nobles_carolean_march
-		estate_necron_nobles_carolean_charge
-		estate_necron_nobles_religious_conscription
-		estate_necron_nobles_leidang_mass_conscription
-		estate_necron_nobles_leidang_elite_conscription
-		estate_necron_nobles_sponsor_hussars
-		estate_necron_nobles_mansabdari_cav_maintenance
-		estate_necron_nobles_mansabdari_military_service
-		estate_necron_nobles_mansabdari_royal_rule
-		estate_necron_nobles_mestnichestvo
-		estate_necron_nobles_early_serfdom
-		estate_necron_nobles_legalized_serfdom
-		estate_necron_nobles_total_serfdom
-		estate_necron_nobles_restricted_serfdom
-		estate_necron_nobles_devastating_serfdom
-		estate_necron_nobles_increased_peasant_freedom
-		estate_necron_nobles_peasant_liberation
-		estate_necron_nobles_rynda
-		estate_necron_nobles_landed_army
-		estate_necron_nobles_factionalist_nobility
-		estate_necron_nobles_consolidated_noble_contracts
-		estate_necron_nobles_english_villeinage
-		estate_necron_nobles_english_copyhold_tenure
-		estate_necron_nobles_development_of_castles
 		estate_necron_nobles_statesman_servitude
 		estate_necron_nobles_royal_court_tasks
 		estate_necron_nobles_diet_right
 		estate_necron_nobles_force_conscription
 		estate_necron_nobles_noble_officer_right
 		estate_necron_nobles_expedition_rights
-		estate_necron_nobles_highland_fortifications
-		estate_necron_nobles_emirs_of_baghdad
-		estate_necron_nobles_deteriorating_army
-		estate_necron_nobles_defensive_policy
-		estate_necron_nobles_tofangchi_regiment
-		estate_necron_nobles_tupchi_artillery_corps
-		estate_necron_nobles_qurchi_service
-		estate_necron_nobles_mamlukian_administration
-		estate_necron_nobles_enlist_the_mamluks
-		estate_necron_nobles_vegvar_system
-		estate_necron_nobles_ITA_military_governors
-		estate_necron_nobles_GER_diploma_andreanum
-		estate_necron_nobles_orangist_privileges
-		estate_necron_nobles_MAY_arm_nobles_with_obsidian_blades
-		estate_necron_nobles_MAY_spread_dynastic_influence
-		estate_necron_nobles_AZT_triple_alliance
-		estate_necron_nobles_AZT_warrior_culture
-		estate_necron_nobles_reformatio_sigismundi
-		estate_necron_nobles_basqaq_autonomy
-		estate_necron_nobles_habsburg_disunity
-		estate_necron_nobles_hab_habsburg_connections
-		estate_necron_nobles_imperial_war_leader
-		estate_necron_nobles_melting_pot_of_cultures
-		estate_necron_nobles_hab_von_raab_restructions
-		estate_necron_nobles_TIM_soyurghal_grants
-		estate_necron_nobles_TIM_chagatai_warriors
-		estate_necron_nobles_TIM_appease_the_elites
-		estate_necron_nobles_MUG_development_of_the_subah
-		estate_necron_nobles_four_class_system
-		estate_necron_nobles_hungarian_nobility_privileges
-		estate_necron_nobles_austrian_nobility_privileges
 	}
 
 	agendas = {
@@ -285,12 +207,6 @@ estate_necron_nobles = {
 		estate_nobles_improve_prestige
 		estate_nobles_hire_advisor
 		estate_nobles_fire_advisor
-		estate_nobles_mam_three_privileges 
-		estate_nobles_mam_recruit_mamluks 
-		estate_nobles_mam_develop_military_infrastructure 
-		estate_nobles_mam_increase_army_tradition 
-		estate_nobles_mam_increase_army_professionalism 
-		estate_nobles_mam_focus_on_military_matters
 	}
 	
 	influence_from_dev_modifier = 1.0

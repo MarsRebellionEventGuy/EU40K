@@ -6574,3 +6574,36 @@ clr_grand_vizier_flags = {
 	clr_country_flag = selected_grand_vizier_from_estate_ghulams
 	clr_country_flag = selected_grand_vizier_from_all
 }
+
+
+estate_action_CALL_DIET_NECRON_NOBLES = {
+	add_piety = 0.05
+	add_estate_loyalty = {
+		estate = estate_nobles
+		loyalty = -15
+	}
+	add_estate_influence_modifier = {
+		estate = estate_nobles
+		desc = NECRON_EST_VAL_DIET_HELD
+		influence = -10
+		duration = 7300
+	}
+	auto_complete_estate_agenda = {
+		estate = estate_nobles
+	}
+}
+
+estate_action_DEMAND_MORE_TROOPS_NECRON_NOBLES = {
+	#estate_action_yearly_manpower = {
+	#	estate = estate_nobles
+	#}
+	estate_action_scaling_modifier = {
+		estate = estate_nobles
+		name = DEMAND_MORE_TROOPS_NECRON_NOBLES
+		duration = 7300
+	}
+	add_estate_loyalty = {
+		estate = estate_nobles
+		loyalty = -15
+	}
+}
