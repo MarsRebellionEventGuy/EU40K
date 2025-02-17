@@ -1,0 +1,12 @@
+DEMAND_MORE_TROOPS_NECRON_NOBLES_level_1 = {
+	land_maintenance_modifier = -0.025
+}
+DEMAND_MORE_TROOPS_NECRON_NOBLES_level_2 = {
+	land_maintenance_modifier = -0.05
+}
+DEMAND_MORE_TROOPS_NECRON_NOBLES_level_3 = {
+	land_maintenance_modifier = -0.075
+}
+DEMAND_MORE_TROOPS_NECRON_NOBLES_level_4 = {
+	land_maintenance_modifier = -0.1
+}

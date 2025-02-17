@@ -40,4 +40,7 @@
  enable_estate_action_DEMAND_MORE_TROOPS_NECRON_NOBLES_tt:0 "[Root.EnableEstateDecisionText] §Y[Root.GetNobilityName]: Force Military Contributions§!"
  disable_estate_action_DEMAND_MORE_TROOPS_NECRON_NOBLES_tt:0 "[Root.DisableEstateDecisionText] §Y[Root.GetNobilityName]: Force Military Contributions§!"
  has_enabled_estate_action_DEMAND_MORE_TROOPS_NECRON_NOBLES_tt:0 "[Root.HasEstateDecisionText] §Y[Root.GetNobilityName]: Force Military Contributions§!"
- 
+ DEMAND_MORE_TROOPS_NECRON_NOBLES_level_1:0 "Military Contributions"
+ DEMAND_MORE_TROOPS_NECRON_NOBLES_level_2:0 "Military Contributions"
+ DEMAND_MORE_TROOPS_NECRON_NOBLES_level_3:0 "Military Contributions"
+ DEMAND_MORE_TROOPS_NECRON_NOBLES_level_4:0 "Military Contributions"
