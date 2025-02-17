@@ -411,6 +411,7 @@ Necron_ideas = {
 		NOT = { tag = XTE }
 		NOT = { tag = XAA }
 		NOT = { tag = XLS }
+		NOT = { tag = XEV }
 	}
 	free = yes
 	
@@ -2540,4 +2541,43 @@ XLS_ideas = {
 		artillery_levels_available_vs_fort = 2
 		artillery_level_modifier = 0.25
 	}
+}
+
+XEV_ideas = {
+	start = {
+		diplomats = 1
+		core_creation = -0.15
+	}
+	
+	bonus = {
+		administrative_efficiency = 0.05
+	}	
+
+	trigger = {
+		tag = XEV
+	}
+	free = yes
+	
+	XEV_ideas_1 = {
+		general_cost = -0.33
+	}
+	XEV_ideas_2 = {
+		legitimacy = 1
+		can_claim_states = yes
+	}
+	XEV_ideas_3 = {
+		army_tradition = 1
+		country_diplomatic_power = 1
+	}
+	XEV_ideas_4 = {
+		global_trade_goods_size_modifier = 0.1
+	}
+	XEV_ideas_5 = {
+		backrow_artillery_damage = 0.20
+	}
+	XEV_ideas_6 = {
+		yearly_army_professionalism = 1
+	}
+	XEV_ideas_7 = {
+		discipline = 0.075	}
 }
