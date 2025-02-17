@@ -2278,6 +2278,6 @@ XET_ideas = {
 		heavy_ship_power = 0.2
 	}
 	XET_ideas_7 = {
-		province_warscore_cost = 0.2
+		province_warscore_cost = -0.25
 	}
 }
