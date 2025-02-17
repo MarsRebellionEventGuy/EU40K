@@ -1970,7 +1970,7 @@ XNB_ideas = {
 		free = yes
 		
 		XPB_ideas_1 = {
-			morale_damage = 0.01
+			morale_damage = 0.15
 		}
 		XPB_ideas_2 = {
 			imperial_authority = 0.15
@@ -1980,7 +1980,7 @@ XNB_ideas = {
 			galley_power = 0.20
 		}
 		XPB_ideas_4 = {
-			improve_relation_modifier = 0.025
+			improve_relation_modifier = 0.25
 			diplomatic_reputation = 1
 		}
 		XPB_ideas_5 = {
@@ -2235,7 +2235,7 @@ XEV_ideas = {
 		backrow_artillery_damage = 0.20
 	}
 	XEV_ideas_6 = {
-		yearly_army_professionalism = 1
+		yearly_army_professionalism = 0.01
 	}
 	XEV_ideas_7 = {
 		discipline = 0.075	}
