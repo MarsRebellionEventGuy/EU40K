@@ -3902,6 +3902,36 @@ pick_random_estate_if_present = {
 			$estate_action$ = estate_ghulams
 			]
 		}
+		1 = { 
+			trigger = {
+				has_estate = estate_adeptus_mechanicus
+				NOT = { has_country_flag = estate_adeptus_mechanicus_$flag$ }
+			}
+			set_country_flag = estate_adeptus_mechanicus_$flag$
+			[[estate_action]
+			$estate_action$ = estate_adeptus_mechanicus
+			]
+		}
+		1 = { 
+			trigger = {
+				has_estate = estate_necron_nobles
+				NOT = { has_country_flag = estate_necron_nobles_$flag$ }
+			}
+			set_country_flag = estate_necron_nobles_$flag$
+			[[estate_action]
+			$estate_action$ = estate_necron_nobles
+			]
+		}
+		1 = { 
+			trigger = {
+				has_estate = estate_crypteks
+				NOT = { has_country_flag = estate_crypteks_$flag$ }
+			}
+			set_country_flag = estate_crypteks_$flag$
+			[[estate_action]
+			$estate_action$ = estate_crypteks
+			]
+		}
 	}
 }
 

@@ -122,8 +122,14 @@ country_event = {
 		OR = {
 			AND = {
 				government = monarchy
-				has_estate = estate_nobles
-				NOT = {	num_of_estate_privileges = { estate = estate_nobles	value = 6 } }
+				OR = {
+					has_estate = estate_nobles
+					has_estate = estate_necron_nobles
+				}
+				OR = {
+					NOT = {	num_of_estate_privileges = { estate = estate_nobles value = 6 } }
+					NOT = {	num_of_estate_privileges = { estate = estate_necron_nobles value = 6 } }
+				}
 			}
 			AND = {
 				government = republic
@@ -144,6 +150,7 @@ country_event = {
 		NOT = {
             has_estate_privilege = estate_brahmins_statutory_rights
             has_estate_privilege = estate_nobles_statutory_rights
+			has_estate_privilege = estate_necron_nobles_royal_court_tasks
             has_estate_privilege = estate_burghers_statutory_rights
             has_estate_privilege = estate_church_statutory_rights
         }
@@ -184,6 +191,7 @@ country_event = {
 				government = monarchy
 			}
 			set_estate_privilege = estate_nobles_statutory_rights
+			set_estate_privilege = estate_necron_nobles_royal_court_tasks
 		}
 		else_if = {
 			limit = {
@@ -240,7 +248,10 @@ country_event = {
 		clr_country_flag = estate_janissaries_present_agenda
 		clr_country_flag = estate_eunuchs_present_agenda
 		clr_country_flag = estate_qizilbash_present_agenda
-		clr_country_flag = estate_ghulams_present_agenda
+		clr_country_flag = estate_ghilman_present_agenda
+		clr_country_flag = estate_adeptus_mechanicus_present_agenda
+		clr_country_flag = estate_necron_nobles_present_agenda
+		clr_country_flag = estate_crypteks_present_agenda
 		clear_estate_agenda_cache = ROOT
 	}
 
@@ -943,6 +954,194 @@ country_event = {
 				}
 				estate_loyalty = {
 					estate = estate_ghulams
+					higher_than_influence = no
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = estate_privileges_and_agendas_events.3.p
+		trigger = { has_country_flag = estate_inquisition_present_agenda }
+		start_estate_agenda = estate_inquisition
+		goto = estate_inquisition
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 1.5
+				NOT = {
+					estate_loyalty = {
+						loyalty = 30
+						estate = estate_inquisition
+					}
+				}
+			}
+			modifier = {
+				factor = 2
+				NOT = {
+					estate_loyalty = {
+						loyalty = 20
+						estate = estate_inquisition
+					}
+				}
+			}
+			modifier = {
+				factor = 1.5
+				estate_influence = {
+					influence = 70
+					estate = estate_inquisition
+				}
+			}
+			modifier = {
+				factor = 2
+				is_absolutism_active = yes
+				num_of_estate_privileges = {
+					estate = estate_inquisition
+					value = 1
+				}
+				estate_loyalty = {
+					estate = estate_inquisition
+					higher_than_influence = no
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = estate_privileges_and_agendas_events.3.q
+		trigger = { has_country_flag = estate_adeptus_mechanicus_present_agenda }
+		start_estate_agenda = estate_adeptus_mechanicus
+		goto = estate_adeptus_mechanicus
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 1.5
+				NOT = {
+					estate_loyalty = {
+						loyalty = 30
+						estate = estate_adeptus_mechanicus
+					}
+				}
+			}
+			modifier = {
+				factor = 2
+				NOT = {
+					estate_loyalty = {
+						loyalty = 20
+						estate = estate_adeptus_mechanicus
+					}
+				}
+			}
+			modifier = {
+				factor = 1.5
+				estate_influence = {
+					influence = 70
+					estate = estate_adeptus_mechanicus
+				}
+			}
+			modifier = {
+				factor = 2
+				is_absolutism_active = yes
+				num_of_estate_privileges = {
+					estate = estate_adeptus_mechanicus
+					value = 1
+				}
+				estate_loyalty = {
+					estate = estate_adeptus_mechanicus
+					higher_than_influence = no
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = estate_privileges_and_agendas_events.3.r
+		trigger = { has_country_flag = estate_necron_nobles_present_agenda }
+		start_estate_agenda = estate_necron_nobles
+		goto = estate_necron_nobles
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 1.5
+				NOT = {
+					estate_loyalty = {
+						loyalty = 30
+						estate = estate_necron_nobles
+					}
+				}
+			}
+			modifier = {
+				factor = 2
+				NOT = {
+					estate_loyalty = {
+						loyalty = 20
+						estate = estate_necron_nobles
+					}
+				}
+			}
+			modifier = {
+				factor = 1.5
+				estate_influence = {
+					influence = 70
+					estate = estate_necron_nobles
+				}
+			}
+			modifier = {
+				factor = 2
+				is_absolutism_active = yes
+				num_of_estate_privileges = {
+					estate = estate_necron_nobles
+					value = 1
+				}
+				estate_loyalty = {
+					estate = estate_necron_nobles
+					higher_than_influence = no
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = estate_privileges_and_agendas_events.3.s
+		trigger = { has_country_flag = estate_crypteks_present_agenda }
+		start_estate_agenda = estate_crypteks
+		goto = estate_crypteks
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 1.5
+				NOT = {
+					estate_loyalty = {
+						loyalty = 30
+						estate = estate_crypteks
+					}
+				}
+			}
+			modifier = {
+				factor = 2
+				NOT = {
+					estate_loyalty = {
+						loyalty = 20
+						estate = estate_crypteks
+					}
+				}
+			}
+			modifier = {
+				factor = 1.5
+				estate_influence = {
+					influence = 70
+					estate = estate_crypteks
+				}
+			}
+			modifier = {
+				factor = 2
+				is_absolutism_active = yes
+				num_of_estate_privileges = {
+					estate = estate_crypteks
+					value = 1
+				}
+				estate_loyalty = {
+					estate = estate_crypteks
 					higher_than_influence = no
 				}
 			}
@@ -1714,7 +1913,7 @@ country_event = {
 		ai_chance = { factor = 0 }
 	}
 
-	#Select Grand Vizier from Ghulams
+	#Select Grand Vizier from ghulams
 	option = {
 		name = estate_privileges_and_agendas_events.8.o
 		trigger = { has_estate_privilege = estate_ghulams_advisor }
