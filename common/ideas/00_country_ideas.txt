@@ -254,6 +254,7 @@ Necron_ideas = {
 		NOT = { tag = XLS }
 		NOT = { tag = XEV }
 		NOT = { tag = XET }
+		NOT = { tag = XOI }
 	}
 	free = yes
 	
@@ -2279,5 +2280,47 @@ XET_ideas = {
 	}
 	XET_ideas_7 = {
 		province_warscore_cost = -0.25
+	}
+}
+
+XOI_ideas = {
+	start = {
+		yearly_corruption = -0.1
+		mil_advisor_cost = -0.25
+	}
+	
+	bonus = {
+		can_chain_claim = yes
+	}	
+
+	trigger = {
+		tag = XOI
+	}
+	free = yes
+	
+	XOI_ideas_1 = {
+		prestige = 1
+		prestige_decay = -0.01
+	}
+	XOI_ideas_2 = {
+		discipline = 0.1
+	}
+	XOI_ideas_3 = {
+		infantry_shock = 0.3
+		infantry_power = 0.1
+	}
+	XOI_ideas_4 = {
+		land_forcelimit_modifier = 0.25
+		all_estate_loyalty_equilibrium = 0.1
+	}
+	XOI_ideas_5 = {
+		leader_siege = 1
+		leader_land_fire = 1
+	}
+	XOI_ideas_6 = {
+		morale_damage_received = -0.015
+	}
+	XOI_ideas_7 = {
+		state_governing_cost = -0.25
 	}
 }
