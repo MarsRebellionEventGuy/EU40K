@@ -48,7 +48,7 @@ categories =  {
 		}
 	}
 
-	farmlands = {
+	farmlands = { #Agri-Worlds
 		color = { 179 255 64 }
 
 		type = plains

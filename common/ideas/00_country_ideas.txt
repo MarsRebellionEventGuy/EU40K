@@ -2318,7 +2318,7 @@ XOI_ideas = {
 		leader_land_fire = 1
 	}
 	XOI_ideas_6 = {
-		morale_damage_received = -0.015
+		morale_damage_received = -0.15
 	}
 	XOI_ideas_7 = {
 		state_governing_cost = -0.25
