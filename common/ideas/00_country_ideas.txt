@@ -2303,7 +2303,8 @@ XOI_ideas = {
 		prestige_decay = -0.01
 	}
 	XOI_ideas_2 = {
-		discipline = 0.1
+		artillery_cost = -0.25
+		global_regiment_recruit_speed = -0.15
 	}
 	XOI_ideas_3 = {
 		infantry_shock = 0.3
