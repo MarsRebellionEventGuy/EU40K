@@ -7,11 +7,14 @@ primary_culture = heretic_astartes_culture
 capital = 1327
 
 1970.12.12 = {
-		monarch = {
-			name = "Perturabo"	
-			adm = 4
-			dip = 2
-			mil = 5
-		}
+	monarch = {
+		name = "Perturabo"	
+		adm = 4
+		dip = 2
+		mil = 5
 	}
+	add_ruler_personality = immortal_personality
+	add_ruler_personality = primarch_personality
+	set_ruler_flag = IV_Primarch
 }
+	
