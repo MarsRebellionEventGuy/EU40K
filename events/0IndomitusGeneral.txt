@@ -325,7 +325,7 @@ country_event = {
 		name = "indomitus_general.11.a"
 		add_country_modifier = { 
 			name = dead_man_walking
-			duration = 3333
+			duration = 2500
 		}
 	}
 }

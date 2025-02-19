@@ -15,6 +15,18 @@ on_startup = {
 		}
 	}
 	if = {
+		limit = { tag = XGK }
+		country_event = { 
+			id = indomitus_general.10
+		}
+	}
+	if = {
+		limit = { tag = XOI }
+		country_event = { 
+			id = indomitus_general.11
+		}
+	}
+	if = {
 		limit = {
 			tag = XOO
 			NOT = { has_country_modifier = sororitas_modifier }
