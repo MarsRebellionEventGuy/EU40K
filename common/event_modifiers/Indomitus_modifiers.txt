@@ -263,3 +263,13 @@ last_stand_of_the_revenants = {
 	discipline = 0.15
 	military_tactics = 1
 }
+
+the_second_war_for_damnos = {
+	discipline = 0.05
+	military_tactics = 0.5
+}
+
+dead_man_walking = {
+	ae_impact = -0.2
+	sailors_recovery_speed = 2
+}

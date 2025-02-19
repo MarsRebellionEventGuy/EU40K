@@ -284,3 +284,48 @@ country_event = {
 		}
 	}
 }
+country_event = {
+	id = indomitus_general.10
+	title = "indomitus_general.10.t"
+	desc = "indomitus_general.10.d"
+	picture = BATTLE_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = XGK
+		}
+	
+	
+	option = {
+		name = "indomitus_general.10.a"
+		add_country_modifier = { 
+			name = the_second_war_for_damnos
+			duration = 1816
+		}
+	}
+}
+
+country_event = {
+	id = indomitus_general.11
+	title = "indomitus_general.11.t"
+	desc = "indomitus_general.11.d"
+	picture = IMPALED_SOLDIERS_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = XOI
+		}
+	
+	
+	option = {
+		name = "indomitus_general.11.a"
+		add_country_modifier = { 
+			name = dead_man_walking
+			duration = 3333
+		}
+	}
+}
