@@ -133,6 +133,76 @@ on_startup = {
 			discover_country = ROOT
 		}
 	}
+if = {
+	limit = {
+		tag = XCK
+	}
+	belis_corona_sector_sea_region = {
+		discover_country = ROOT
+	}
+	belis_corona_sector_region = {
+		discover_country = ROOT
+		}
+	agripinaa_sector_sea_region = {
+			discover_country = ROOT
+		}
+	agripinaa_sector_region = {
+	discover_country = ROOT
+		}
+	stygius_sector_sea_region = {
+	discover_country = ROOT
+		}
+	stygius_sector_region = {
+			discover_country = ROOT
+			}
+	stryken_sector_sea_region = {
+		discover_country = ROOT
+				}
+	stryken_sector_region = {
+		discover_country = ROOT
+							}
+		hydraphur_sector_sea_region = {
+		discover_country = ROOT
+							}
+	hydraphur_sector_region = {
+		discover_country = ROOT
+		}
+	medusan_reach_sea_region = {
+		discover_country = ROOT
+	}
+	medusan_reach_region = {
+		discover_country = ROOT
+		}
+	calixis_sector_sea_region = {
+			discover_country = ROOT
+		}
+	calixis_sector_region = {
+	discover_country = ROOT
+		}
+	askellon_sector_sea_region = {
+	discover_country = ROOT
+		}
+	askellon_sector_region = {
+			discover_country = ROOT
+			}
+	halo_stars_sea_region = {
+		discover_country = ROOT
+				}
+	halo_stars_region = {
+		discover_country = ROOT
+							}
+		fenris_sector_sea_region = {
+		discover_country = ROOT
+							}
+	fenris_sector_region = {
+		discover_country = ROOT
+	}
+	trail_of_saint_evisser_sea_region = {
+		discover_country = ROOT
+	}
+	trail_of_saint_evisser_region = {
+		discover_country = ROOT
+	}
 	if = {
 		limit = {
 			capital_scope = { region = segmentum_solar_region }
