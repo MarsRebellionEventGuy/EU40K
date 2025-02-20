@@ -3,8 +3,13 @@ graphical_culture = westerngfx
 color = { 36 28 92 }
 
 historical_idea_groups = {
-
+	naval_ideas
+	maritime_ideas
+	economic_ideas
+	expansion_ideas
+	offensive_ideas
 }
+
 
 historical_units = {
 
@@ -19,7 +24,7 @@ leader_names = {
 }
 
 ship_names = {
-
+	"Myst Reaper" "Aestra" "Medivh" "Black Rose" "Sparrow" "Laurea" "Xania" "Asdrubael" "Vileth"
 }
 
 army_names = {
@@ -27,5 +32,5 @@ army_names = {
 }
 
 fleet_names = {
-
+	"Expeditionary Force"
 }
