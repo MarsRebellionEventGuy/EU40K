@@ -7,3 +7,5 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 trade_goods = promethium
+add_core = XZS
+is_city = no

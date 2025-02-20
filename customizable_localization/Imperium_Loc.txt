@@ -358,6 +358,21 @@ defined_text = {
 	random = no
 	
 	text = {
+		localisation_key = Primarch_CLONEGRIM_TRAZYN
+		trigger={
+			has_global_flag = XXA_CLONEGRIM_recognised
+		}
+	}
+	text = {
+		localisation_key = Primarch_CHAOS_EMPERORS_CHILDREN
+		trigger={
+			XIG={
+				exists = yes
+				has_ruler_flag = III_Primarch
+			}
+		}
+	}
+	text = {
 		localisation_key = Primarch_Status_MIA
 	}
 }
@@ -365,6 +380,15 @@ defined_text = {
 	name = GetPrimarch_IV_Status
 	random = no
 	
+	text = {
+		localisation_key = Primarch_CHAOS_IRON_WARRIORS
+		trigger={
+			XIF={
+				exists = yes
+				has_ruler_flag = IV_Primarch
+			}
+		}
+	}
 	text = {
 		localisation_key = Primarch_Status_MIA
 	}
@@ -422,6 +446,15 @@ defined_text = {
 	random = no
 	
 	text = {
+		localisation_key = Primarch_CHAOS_DEATH_GUARD
+		trigger={
+			XKI={
+				exists = yes
+				has_ruler_flag = XIV_Primarch
+			}
+		}
+	}
+	text = {
 		localisation_key = Primarch_Status_MIA
 	}
 }
@@ -430,6 +463,15 @@ defined_text = {
 	random = no
 	
 	text = {
+		localisation_key = Primarch_CHAOS_PROSPERO
+		trigger={
+			XYG={
+				exists = yes
+				has_ruler_flag = XV_Primarch
+			}
+		}
+	}
+	text = {
 		localisation_key = Primarch_Status_MIA
 	}
 }
@@ -437,6 +479,15 @@ defined_text = {
 	name = GetPrimarch_XVII_Status
 	random = no
 	
+	text = {
+		localisation_key = Primarch_CHAOS_WORD_BEARERS
+		trigger={
+			XKO={
+				exists = yes
+				has_ruler_flag = XVII_Primarch
+			}
+		}
+	}
 	text = {
 		localisation_key = Primarch_Status_MIA
 	}

@@ -7,11 +7,13 @@ primary_culture = heretic_astartes_culture
 capital = 2809
 
 1970.12.12 = {
-		monarch = {
-			name = "Mortarion"	
-			adm = 5
-			dip = 1
-			mil = 4
-		}
+	monarch = {
+		name = "Mortarion"	
+		adm = 5
+		dip = 1
+		mil = 4
 	}
+	add_ruler_personality = immortal_personality
+	add_ruler_personality = primarch_personality
+	set_ruler_flag = XIV_Primarch
 }
