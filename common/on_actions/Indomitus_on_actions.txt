@@ -140,7 +140,7 @@ if = {
 	belis_corona_sector_sea_region = {
 		discover_country = ROOT
 	}
-	belis_corona_region = {
+	nachmund_region = {
 		discover_country = ROOT
 		}
 	agripinaa_sector_sea_region = {
@@ -152,7 +152,7 @@ if = {
 	stygius_sector_sea_region = {
 		discover_country = ROOT
 		}
-	stygius_sector_region = {
+	stygius_region = {
 		discover_country = ROOT
 		}
 	stryken_sector_sea_region = {
@@ -161,7 +161,7 @@ if = {
 	stryken_region = {
 		discover_country = ROOT
 		}
-	hydraphur_sector_sea_region = {
+	hydraphur_sea_region = {
 		discover_country = ROOT
 		}
 	hydraphur_region = {
@@ -173,7 +173,7 @@ if = {
 	medusan_reach_region = {
 		discover_country = ROOT
 		}
-	calixis_sector_sea_region = {
+	calixis_sea_region = {
 		discover_country = ROOT
 		}
 	calixis_region = {
@@ -197,13 +197,22 @@ if = {
 	fenris_region = {
 		discover_country = ROOT
 	}
-	evisser_trail_sea_regionn = {
+	evisser_trail_sea_region = {
 		discover_country = ROOT
 	}
 	trail_evisser_region  = {
 		discover_country = ROOT
 	}
+	taninim_region  = {
+		discover_country = ROOT
+	}
+	taninim_expanse_sea_region  = {
+		discover_country = ROOT
+	}
 	3475 = {
+		discover_country = ROOT
+	}
+	3449 = {
 		discover_country = ROOT
 	}
 }
