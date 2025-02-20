@@ -6,6 +6,6 @@ culture = drukhari_culture
 base_tax = 1
 base_production = 1
 base_manpower = 1
-trade_goods = clerks
+trade_goods = military_equipment
 is_city = no
 hre = yes

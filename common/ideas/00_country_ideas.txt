@@ -2325,3 +2325,45 @@ XOI_ideas = {
 		state_governing_cost = -0.25
 	}
 }
+
+XCK_ideas = {
+	start = {
+		admiral_cost = -0.25
+		naval_attrition = -0.33
+	}
+	
+	bonus = {
+		global_naval_engagement_modifier = 0.25
+	}	
+
+	trigger = {
+		tag = XCK
+	}
+	free = yes
+	
+	XCK_ideas_1 = {
+		production_efficiency = 0.25
+	}
+	XCK_ideas_2 = {
+		navy_tradition = 1 
+		sailor_maintenance_modifer = -0.2
+	}
+	XCK_ideas_3 = {
+		heavy_ship_power = 0.1 
+		galley_power = 0.15
+	}
+	XCK_ideas_4 = {
+		global_ship_cost = -0.1 
+		capture_ship_chance = 0.33
+	}
+	XCK_ideas_5 = {
+		naval_morale = 0.2
+	}
+	XCK_ideas_6 = {
+		naval_morale_damage = 0.1  
+		naval_forcelimit_modifier = 0.33
+	}
+	XCK_ideas_7 = {
+		leader_naval_shock = 2
+	}
+}

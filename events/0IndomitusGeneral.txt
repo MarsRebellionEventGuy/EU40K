@@ -297,6 +297,17 @@ country_event = {
 		tag = XGK
 		}
 	
+		1915 = {
+			artillery = XGK
+		}
+
+		1915 = {
+			artillery = XGK
+		}
+
+		1915 = {
+			artillery = XGK
+		}
 	
 	option = {
 		name = "indomitus_general.10.a"
