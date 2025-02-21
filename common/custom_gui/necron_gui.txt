@@ -1,0 +1,57 @@
+custom_button = {
+	name = low_heka_action
+	potential = { }
+	trigger = {
+		hidden_trigger = {
+			NOT = {
+				has_country_modifier = usedhekaaction
+			}
+		}
+	}
+	effect = {
+		add_piety = -0.05
+		add_prestige = -5
+		add_country_modifier = {
+			name = usedhekaaction
+			duration = 1825
+			desc = usedhekaaction
+			hidden = yes
+		}
+		if = {
+			limit = {
+				has_country_modifier = usedhekaaction
+			}
+			custom_tooltip = heka_action_notavailable
+		}
+	}
+	tooltip = low_heka_action_tt
+}
+
+custom_button = {
+	name = high_heka_action
+	potential = { }
+	trigger = {
+		hidden_trigger = {
+			NOT = {
+				has_country_modifier = usedhekaaction
+			}
+		}
+	}
+	effect = {
+		add_piety = 0.05
+		add_prestige = -5
+		add_country_modifier = {
+			name = usedhekaaction
+			duration = 1825
+			desc = usedhekaaction
+			hidden = yes
+		}
+		if = {
+			limit = {
+				has_country_modifier = usedhekaaction
+			}
+			custom_tooltip = heka_action_notavailable
+		}
+	}
+	tooltip = high_heka_action_tt
+}

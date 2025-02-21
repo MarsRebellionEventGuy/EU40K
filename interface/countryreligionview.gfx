@@ -156,6 +156,16 @@ spriteTypes = {
 	}	
 	
 	spriteType = {
+		name = "GFX_low_heka_action"
+		texturefile = "gfx/interface/low_heka_action.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_high_heka_action"
+		texturefile = "gfx/interface/high_heka_action.dds"
+	}	
+	
+	spriteType = {
 		name = "GFX_protestant_aspects_icon"
 		texturefile = "gfx/interface/protestant_aspects_icon.dds"
 	}
