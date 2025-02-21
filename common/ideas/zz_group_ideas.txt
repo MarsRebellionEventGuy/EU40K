@@ -3561,6 +3561,7 @@ Forgeworld_ideas = {				# generic forge world
 	Kabal_ideas = {
 		trigger = {
 			has_reform = drukhari_cult_reform
+			NOT = { tag = XPO }
 		}
 		free = yes
 

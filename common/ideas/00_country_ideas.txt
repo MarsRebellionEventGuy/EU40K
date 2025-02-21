@@ -2367,3 +2367,44 @@ XCK_ideas = {
 		leader_naval_shock = 2
 	}
 }
+
+XPO_ideas = {
+	start = {
+		galley_cost = -0.20
+		sailors_recovery_speed = 0.25
+	}
+	
+	bonus = {
+		fire_damage_received = -0.15
+	}	
+
+	trigger = {
+		tag = XPO
+	}
+	free = yes
+	
+	XPO_ideas_1 = {
+		prestige_from_land = 0.50 
+		spy_defence = 0.25
+	}
+	XPO_ideas_2 = {
+		recover_army_morale_speed = 0.2
+	}
+	XPO_ideas_3 = {
+		allow_mercenary_drill = yes 
+		mercenary_discipline= 0.5
+	}
+	XPO_ideas_4 = {
+		envoy_travel_time =-0.33 
+		ae_impact = -0.1
+	}
+	XPO_ideas_5 = {
+		military_tactics = 0.25
+	}
+	XPO_ideas_6 = {
+		army_tradition_from_battle =0.2
+	}
+	XPO_ideas_7 = {
+		warscore_from_battles_modifier = 0.25
+	}
+}
