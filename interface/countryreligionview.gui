@@ -1205,6 +1205,31 @@ guiTypes = {
 				Orientation = "LEFT"
 			}
 			
+			guiButtonType = {
+				name = "low_heka_action"
+				position = { x=71 y = -11}
+				quadTextureSprite ="GFX_low_heka_action"
+				Orientation = "LEFT"
+				tooltip = ""
+				tooltipText ="low_heka_action_tt"
+				delayedTooltipText = ""
+				buttonFont = "vic_18_black"
+				hint_tag = "hint_emperor"
+				scripted = yes
+			}
+			
+			guiButtonType = {
+				name = "high_heka_action"
+				position = { x=200 y = -11}
+				quadTextureSprite ="GFX_high_heka_action"
+				Orientation = "LEFT"
+				tooltip = ""
+				tooltipText ="high_heka_action_tt"
+				delayedTooltipText = ""
+				buttonFont = "vic_18_black"
+				hint_tag = "hint_emperor"
+				scripted = yes
+			}
 
 
 		}

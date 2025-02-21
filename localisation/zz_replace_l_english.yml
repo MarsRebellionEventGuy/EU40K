@@ -337,6 +337,10 @@
  imperium_TI_blackship_subject_effect_tt: "Every §YImperial World§!:\n  Gain §R+10%§! Liberty Desire.\n  Lose §R-1000§! Manpower."
  imperium_TI_Throne_Integity_95: "Has §YGolden Throne Integrity§! below 95"
  imperium_TI_Throne_Integity_85: "Has §YGolden Throne Integrity§! below 85"
+ 
+ low_heka_action_tt: "Delegate Authority"
+ high_heka_action_tt: "Declare Hekatic Truth"
+ heka_action_notavailable:0 "You can only use a §YHekatic Action§! once every §Y5§! years."
 
  tyranid_name: "Hive Mind"
  DRUKHARI_HIERARCH: "Hierarch"

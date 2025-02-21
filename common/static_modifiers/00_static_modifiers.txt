@@ -837,7 +837,7 @@ positive_piety = { #As of 1.23 Legalism
 	land_forcelimit_modifier = 0.2
 	yearly_corruption = -0.2
 	global_autonomy = -0.5
-	global_unrest = 4
+	global_unrest = 6
 	reform_progress_growth = -0.2
 	all_estate_loyalty_equilibrium = 0.2
 }
@@ -2696,3 +2696,5 @@ necronmanpowerdepleted = {
 	local_build_cost = -0.05
 }
 
+usedhekaaction = {
+}
