@@ -2392,7 +2392,7 @@ XPO_ideas = {
 	}
 	XPO_ideas_3 = {
 		allow_mercenary_drill = yes 
-		mercenary_discipline= 0.5
+		mercenary_discipline= 0.05
 	}
 	XPO_ideas_4 = {
 		envoy_travel_time =-0.33 
@@ -2402,7 +2402,7 @@ XPO_ideas = {
 		military_tactics = 0.25
 	}
 	XPO_ideas_6 = {
-		army_tradition_from_battle =0.2
+		army_tradition_from_battle =0.33
 	}
 	XPO_ideas_7 = {
 		warscore_from_battles_modifier = 0.25
