@@ -2385,7 +2385,7 @@ XPO_ideas = {
 	
 	XPO_ideas_1 = {
 		prestige_from_land = 0.50 
-		spy_defence = 0.25
+		global_spy_defence = 0.25
 	}
 	XPO_ideas_2 = {
 		recover_army_morale_speed = 0.2
@@ -2406,5 +2406,45 @@ XPO_ideas = {
 	}
 	XPO_ideas_7 = {
 		warscore_from_battles_modifier = 0.25
+	}
+}
+
+XPK_ideas = {
+	start = {
+		naval_tradition_from_battle = 0.33
+		navy_tradition_decay = -0.01
+	}
+	
+	bonus = {
+		max_flagships = 2
+	}	
+
+	trigger = {
+		tag = XPK
+	}
+	free = yes
+	
+	XPK_ideas_1 = {
+		 army_tradition_decay = -0.02
+	}
+	XPK_ideas_2 = {
+		leader_land_shock = 1	
+		leader_naval_manuever = 1
+	}
+	XPK_ideas_3 = {
+		fire_damage_received = -0.2
+	}
+	XPK_ideas_4 = {
+		heavy_ship_cost = -0.25	
+		heavy_ship_power = 0.15
+	}
+	XPK_ideas_5 = {
+		morale_damage_received = -0.015
+	}
+	XPK_ideas_6 = {
+		disengagement_chance = 0.33
+	}
+	XPK_ideas_7 = {
+		artillery_fire = 1
 	}
 }

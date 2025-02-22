@@ -3562,6 +3562,7 @@ Forgeworld_ideas = {				# generic forge world
 		trigger = {
 			has_reform = drukhari_cult_reform
 			NOT = { tag = XPO }
+			NOT = { tag = XPK }
 		}
 		free = yes
 
