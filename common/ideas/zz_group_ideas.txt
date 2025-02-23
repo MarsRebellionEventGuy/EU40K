@@ -3563,6 +3563,7 @@ Forgeworld_ideas = {				# generic forge world
 			has_reform = drukhari_cult_reform
 			NOT = { tag = XPO }
 			NOT = { tag = XPK }
+			NOT = { tag = XPP }
 		}
 		free = yes
 
