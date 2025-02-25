@@ -177,6 +177,8 @@ estate_necron_nobles = {
 		estate_necron_nobles_force_conscription
 		estate_necron_nobles_noble_officer_right
 		estate_necron_nobles_expedition_rights
+		estate_necron_nobles_honour_duels
+		estate_necron_nobles_divine
 	}
 
 	agendas = {

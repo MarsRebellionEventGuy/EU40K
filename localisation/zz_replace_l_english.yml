@@ -251,10 +251,13 @@
  estate_necron_nobles_build_up_manpower_reserves_desc:0 "The depletion of our manpower reserves is worrying to the [Root.GetNobilityName], who warn that [Root.GetUsableName] would be left defenseless should our enemies seek to take advantage of the situation. They advocate that we consolidate for a time and allow our reserves to recover."
  estate_necron_nobles_recover_abysmal_prestige_desc:0 "The [Root.GetNobilityName] are dismayed at the depths to which we have allowed the image of our nation to sink. They demand a concerted effort to restore our reputation among our peers!"
  estate_necron_nobles_improve_prestige_desc:0 "The [Root.GetNobilityName] wish us to improve our standing among nations by increasing the splendor of the [Root.Monarch.GetTitle]'s court."
+ estate_necron_nobles_honour_duels:0 "Honour Duels"
+ estate_necron_nobles_divine:0 "Divine Obeisance"
+ 
  
  estate_necron_nobles_land_rights_desc:0 "The [Root.GetNobilityName], the nobility of the nation, are surely those with the greatest claim to its lands."
  estate_necron_nobles_nobility_primacy_desc:0 "Giving the [Root.GetNobilityName] free rein over our military as designated Nemesors would strengthen our capacities considerably, even if it may cost us dearly in compensating their contributions."
- estate_necron_nobles_officer_corp_desc:0 "The [Root.GetNobilityName] are experienced in the art of leading men. It is only sensible that they should be the ones to lead our armies."
+ estate_necron_nobles_officer_corp_desc:0 "The [Root.GetNobilityName] are experienced in the art of leadership. It is only sensible that they should be the ones to lead our armies."
  estate_necron_nobles_levies_desc:0 "Levies from the [Root.GetNobilityName] provide the majority of our nation's armies. An arrangement can be made for them to provide us with more men in return for other compensation."
  estate_necron_nobles_advisors_desc:0 "There can be no better source of advice than the [Root.GetNobilityName], who are able more than anyone else to dedicate themselves to the cultivation of their minds."
  estate_necron_nobles_right_of_counsel_desc:0 "The [Root.GetNobilityName] must have the right to speak to the [Root.Monarch.GetTitle] openly and freely, without fear of repercussions."
@@ -275,6 +278,8 @@
  estate_necron_nobles_diet_right_desc:0 "By the right of their implacable will, the [Root.Monarch.GetTitle] may overrule the wishes of the [Root.GetNobilityName]."
  estate_necron_nobles_expedition_rights:0 "Noble Expedition Rights"
  estate_necron_nobles_expedition_rights_desc:0 "The Galaxy offers many opportunities - and our [Root.GetNobilityName] are well aware of it. By granting them the right to start their own expedition without having to worry about their possessions in the homeland, we will be able to recruit the bravest colonists known to man."
+ estate_necron_nobles_honour_duels_desc:0 "Lords have the right to resolve any interpersonal quarrels through honour dueling."
+ estate_necron_nobles_divine_desc:0 "All members of the Nobility are obligated to acknowledge the [Root.Monarch.GetTitle]'s ancient right of Hekatic supremacy."
  
  XXA_metals_monopoly: "Granted Imperiums Metals"
  XXA_knowledge_quest_condoned: "Knowledge Quest Condoned"
