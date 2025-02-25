@@ -9,9 +9,9 @@ capital = 3344
 
 1970.12.12 = {
 	monarch = {
-		name = ""	
-		adm = 3
-		dip = 3
-		mil = 4
+		name = "Xerathis"	
+		adm = 2
+		dip = 4
+		mil = 6
 	}
 }

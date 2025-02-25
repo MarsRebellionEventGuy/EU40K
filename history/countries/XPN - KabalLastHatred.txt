@@ -10,9 +10,9 @@ capital = 3344
 1970.12.12 = {
 	monarch = {
 		name = "Thyndrak"	
-		adm = 3
-		dip = 3
-		mil = 4
+		adm = 4
+		dip = 4
+		mil = 5
 		female = yes
 	}
 }
