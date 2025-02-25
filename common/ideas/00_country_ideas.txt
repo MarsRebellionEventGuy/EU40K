@@ -2469,7 +2469,7 @@ XPP_ideas = {
 		idea_cost = -0.1
 	}
 	XPP_ideas_2 = {
-		naval_morale_damage = -0.20
+		naval_morale_damage = 0.20
 	}
 	XPP_ideas_3 = {
 		mercenary_discipline = 0.10
@@ -2485,5 +2485,44 @@ XPP_ideas = {
 	}
 	XPP_ideas_7 = {
 		all_power_cost = -0.1
+	}
+}
+
+XPN_ideas = {
+	start = {
+		land_forcelimit_modifier = 0.25
+		hostile_attrition = 2
+	}
+	
+	bonus = {
+		manpower_in_culture_group_provinces = 0.33
+	}	
+
+	trigger = {
+		tag = XPN
+	}
+	free = yes
+	
+	XPN_ideas_1 = {
+		land_morale = 0.15
+	}
+	XPN_ideas_2 = {
+		production_efficiency = 0.2
+	}
+	XPN_ideas_3 = {
+		cb_on_religious_enemies = yes
+		morale_damage_received = -0.1
+	}
+	XPN_ideas_4 = {
+		reinforce_cost_modifier = -0.33
+	}
+	XPN_ideas_5 = {
+		diplomatic_reputation = 2
+	}
+	XPN_ideas_6 = {
+		years_of_nationalism = -10
+	}
+	XPN_ideas_7 = {
+		discipline = 0.075
 	}
 }
