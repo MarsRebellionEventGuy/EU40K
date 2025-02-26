@@ -179,7 +179,7 @@
  BANNER_NAME:0 "$HOME$'s $NUM$$ORDER$ Company"
  FE_ALLOW_NAME_CHANGE:0 "Allow Province Name Change"
  FE_ALLOW_NAME_CHANGE_DESC:0 "Allows players to change names of provinces."
- MODIFIER_MONTHLY_PIETY:0 "Monthly Use Of Heka"
+ MODIFIER_MONTHLY_PIETY:0 "Monthly Heka"
  MODIFIER_MONTHLY_KARMA:0 "Monthly Karma"
  blockaded:0 "Blockaded"
  SEND_OFFICERS_MARCH_TOO_BIG:0 "You can't send officers to a subject that has more than $PERC|Y$ of your development. They need to be less than $VAL|Y$ development."
