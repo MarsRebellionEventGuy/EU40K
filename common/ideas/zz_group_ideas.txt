@@ -3565,6 +3565,7 @@ Forgeworld_ideas = {				# generic forge world
 			NOT = { tag = XPK }
 			NOT = { tag = XPP }
 			NOT = { tag = XPN }
+			NOT = { tag = XPL }
 		}
 		free = yes
 

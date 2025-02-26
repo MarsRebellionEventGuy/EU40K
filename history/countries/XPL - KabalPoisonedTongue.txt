@@ -12,8 +12,8 @@ capital = 3344
 		name = "Aurelia"	
 		dynasty = "Malys"
 		adm = 3
-		dip = 3
-		mil = 4
+		dip = 6
+		mil = 5
 		female = yes
 	}
 }

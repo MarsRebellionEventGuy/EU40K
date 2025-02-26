@@ -2484,7 +2484,7 @@ XPP_ideas = {
 		landing_penalty = -1
 	}
 	XPP_ideas_7 = {
-		all_power_cost = -0.1
+		all_power_cost = -0.15
 	}
 }
 
@@ -2562,5 +2562,47 @@ XPR_ideas = {
 	}
 	XPR_ideas_7 = {
 		infantry_shock = 0.33
+	}
+}
+
+XPL_ideas = {
+	start = {
+		monthly_favor_modifier = 0.33
+		diplomatic_annexation_cost = -0.25
+	}
+	
+	bonus = {
+		can_fabricate_for_vassals = yes
+	}	
+
+	trigger = {
+		tag = XPL
+	}
+	free = yes
+	
+	XPL_ideas_1 = {
+		spy_offence = 0.33
+		global_spy_defence = 0.15
+	}
+	XPL_ideas_2 = {
+		improve_relation_modifier = 0.33 
+		diplomatic_upkeep = 1
+	}
+	XPL_ideas_3 = {
+		no_claim_cost_increasement = yes
+		can_chain_claim = yes
+	}
+	XPL_ideas_4 = {
+		discovered_relations_impact = -0.9
+	}
+	XPL_ideas_5 = {
+		diplomats = 1
+	}
+	XPL_ideas_6 = {
+		rebel_support_efficiency = 0.33 
+		spy_action_cost_modifier = -0.25
+	}
+	XPL_ideas_7 = {
+		ae_impact =-0.25
 	}
 }
