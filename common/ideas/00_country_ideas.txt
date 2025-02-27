@@ -2259,7 +2259,7 @@ XET_ideas = {
 	free = yes
 	
 	XET_ideas_1 = {
-		fire_damage = 0.175
+		fire_damage = 0.15
 	}
 	XET_ideas_2 = {
 		core_creation = -0.2
@@ -2604,5 +2604,46 @@ XPL_ideas = {
 	}
 	XPL_ideas_7 = {
 		ae_impact =-0.25
+	}
+}
+
+XPM_ideas = {
+	start = {
+		reserves_organisation = 0.10
+		land_attrition = -0.2
+	}
+	
+	bonus = {
+		free_leader_pool = 2
+	}	
+
+	trigger = {
+		tag = XPM
+	}
+	free = yes
+	
+	XPM_ideas_1 = {
+		relation_with_same_culture_group = 25 
+		global_unrest = -1
+	}
+	XPM_ideas_2 = {
+		yearly_innovativeness = 0.5 
+		mil_tech_cost_modifier = -0.15
+	}
+	XPM_ideas_3 = {
+		advisor_pool = 1 
+		same_religion_advisor_cost = -0.20
+	}
+	XPM_ideas_4 = {
+		shock_damage = 0.2
+	}
+	XPM_ideas_5 = {
+		discipline = 0.05
+	}
+	XPM_ideas_6 = {
+		morale_damage_received = -0.15
+	}
+	XPM_ideas_7 = {
+		assault_fort_ability = 0.33
 	}
 }
