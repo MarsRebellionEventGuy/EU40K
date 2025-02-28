@@ -5,5 +5,5 @@ religion = greater_good
 culture = kroot_culture
 base_tax = 1
 base_production = 3
-base_manpower = 1
+base_manpower = 2
 trade_goods = agricultural_goods

@@ -5,5 +5,5 @@ religion = greater_good
 culture = air_caste_culture
 base_tax = 1
 base_production = 1
-base_manpower = 1
+base_manpower = 2
 trade_goods = clerks
