@@ -235,7 +235,7 @@ categories =  {
 	}
 	
 
-	coastline = {
+	coastline = { #Maiden World
 		color = { 0 188 188  }
 
 		type = plains
@@ -243,11 +243,13 @@ categories =  {
 
 		movement_cost = 1
 		defence = 2
-		local_development_cost = 0.50
-		nation_designer_cost_multiplier = 0.9	
-		supply_limit = 3
-		
-		terrain_override = {
+		local_development_cost = -0.2
+		local_institution_spread = 0.33
+		nation_designer_cost_multiplier = 1.25	
+		supply_limit = 15
+		hostile_disembark_speed = -0.33
+
+		terrain_override = { 1999 1998 1930 1979 2885
 		}	
 	}
 
