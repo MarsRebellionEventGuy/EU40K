@@ -281,6 +281,15 @@
  estate_necron_nobles_honour_duels_desc:0 "Lords have the right to resolve any interpersonal quarrels through honour dueling."
  estate_necron_nobles_divine_desc:0 "All members of the Nobility are obligated to acknowledge the [Root.Monarch.GetTitle]'s ancient right of Hekatic supremacy."
  
+ estate_crypteks_psycho:0 "Court Psychomancer"
+ estate_crypteks_plas:0 "Court Plasmancer"
+ estate_crypteks_techno:0 "Court Technomancer"
+ estate_crypteks_chrono:0 "Court Chronomancer"
+ estate_crypteks_studies:0 "Sponsor Cryptek Studies"
+ estate_crypteks_chambers:0 "Dedicated Laboratory Chambers"
+ estate_crypteks_canopteks:0 "Control Over Canopteks"
+ estate_crypteks_priorities:0 "Declare Conclave Priorities"
+ 
  XXA_metals_monopoly: "Granted Imperiums Metals"
  XXA_knowledge_quest_condoned: "Knowledge Quest Condoned"
  XXA_basilikon_astra_expansion: "Basilikon Astra Expansion"

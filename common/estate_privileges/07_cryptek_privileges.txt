@@ -1,0 +1,230 @@
+estate_crypteks_psycho = {
+	icon = privilege_morale_damage
+	max_absolutism = -5
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
+	influence = 0.05
+	loyalty = 0.05
+	can_select = {
+	}
+	on_granted = {
+	}
+	penalties = {
+	}
+	benefits = {
+		morale_damage = 0.05
+	}
+	ai_will_do = {
+		factor = 100
+		modifier = {
+			factor = 0
+			OR = {
+				NOT = { crown_land_share = 30 }
+				estate_influence = {
+					estate = estate_crypteks
+					influence = 95
+				}
+			}
+			NOT = { has_estate_privilege = estate_crypteks_psycho }
+		}
+		modifier = {
+			factor = 0.8
+			is_absolutism_active = yes
+		}
+	}
+}
+
+estate_crypteks_plas = {
+	icon = privilege_artillery
+	max_absolutism = -5
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
+	influence = 0.05
+	loyalty = 0.05
+	can_select = {
+	}
+	on_granted = {
+	}
+	penalties = {
+	}
+	benefits = {
+		artillery_fire = 0.20
+	}
+	ai_will_do = {
+		factor = 100
+		modifier = {
+			factor = 0
+			OR = {
+				NOT = { crown_land_share = 30 }
+				estate_influence = {
+					estate = estate_crypteks
+					influence = 95
+				}
+			}
+			NOT = { has_estate_privilege = estate_crypteks_plas }
+		}
+		modifier = {
+			factor = 0.8
+			is_absolutism_active = yes
+		}
+	}
+}
+
+estate_crypteks_techno = {
+	icon = privilege_multiple_professions
+	max_absolutism = -5
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
+	influence = 0.05
+	loyalty = 0.05
+	can_select = {
+	}
+	on_granted = {
+	}
+	penalties = {
+	}
+	benefits = {
+		land_maintenance_modifier = -0.05
+		build_cost = -0.05
+	}
+	ai_will_do = {
+		factor = 100
+		modifier = {
+			factor = 0
+			OR = {
+				NOT = { crown_land_share = 30 }
+				estate_influence = {
+					estate = estate_crypteks
+					influence = 95
+				}
+			}
+			NOT = { has_estate_privilege = estate_crypteks_techno }
+		}
+		modifier = {
+			factor = 0.8
+			is_absolutism_active = yes
+		}
+	}
+}
+
+estate_crypteks_chrono = {
+	icon = privilege_royal_authority
+	max_absolutism = -15
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
+	influence = 0.30
+	loyalty = -0.15
+	can_select = {
+	}
+	on_granted = {
+	}
+	penalties = {
+	}
+	benefits = {
+		country_military_power = 1
+		country_diplomatic_power = 1
+		country_admin_power = 1
+	}
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+estate_crypteks_studies = {
+	icon = privilege_give_money
+	max_absolutism = -5
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
+	influence = 0.05
+	loyalty = 0.10
+	can_select = {
+	}
+	on_granted = {
+	}
+	penalties = {
+	}
+	benefits = {
+	}
+	modifier_by_land_ownership = {
+		prestige = 0.1
+		global_tax_modifier = -0.2
+	}
+	ai_will_do = {
+		factor = 100
+		modifier = {
+			factor = 0
+			has_estate_privilege = estate_crypteks_chambers
+		}
+		modifier = {
+			factor = 0
+			NOT = { has_estate_privilege = estate_crypteks_studies }
+		}
+	}
+}
+
+estate_crypteks_chambers = {
+	icon = privilege_grant_autonomy
+	land_share = 10
+	max_absolutism = -5
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
+	influence = 0.05
+	loyalty = 0.10
+	can_select = {
+	}
+	on_granted = {
+	}
+	penalties = {
+	}
+	benefits = {
+	}
+	ai_will_do = {
+		factor = 100
+		modifier = {
+			factor = 0
+			has_estate_privilege = estate_crypteks_studies
+		}
+		modifier = {
+			factor = 0
+			NOT = { crown_land_share = 30 }
+		}
+	}
+}
+
+estate_crypteks_canopteks = {
+	icon = privilege_military
+	max_absolutism = -5
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
+	influence = 0.15
+	loyalty = 0.10
+	can_select = {
+	}
+	on_granted = {
+	}
+	penalties = {
+	}
+	benefits = {
+		monthly_piety = -0.001
+	}
+	modifier_by_land_ownership = {
+		state_maintenance_modifier = 6.66
+	}
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+estate_crypteks_priorities = {
+	icon = privilege_aged_paper
+	land_share = 5
+	max_absolutism = -5
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
+	influence = 0.00
+	loyalty = -0.05
+	can_select = {
+	}
+	on_granted = {
+	}
+	penalties = {
+	}
+	benefits = {
+		monthly_piety = 0.002
+	}
+	ai_will_do = {
+		factor = 0
+	}
+}

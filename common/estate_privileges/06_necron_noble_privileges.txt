@@ -246,42 +246,7 @@ estate_necron_nobles_nobility_primacy = {
 		modifier = { monarch_power_tribute = 1 }
 	}
 	ai_will_do = {
-		factor = 100
-		modifier = {
-			factor = 0
-			OR = {
-				NOT = { crown_land_share = 30 }
-				estate_influence = {
-					estate = estate_necron_nobles
-					influence = 95
-				}
-			}
-			NOT = { has_estate_privilege = estate_necron_nobles_nobility_primacy }
-		}
-		modifier = {
-			factor = 0.8
-			OR = {
-				NOT = { crown_land_share = 35 }
-				AND = {
-					is_absolutism_active = yes
-					NOT = { crown_land_share = 55 }
-				}
-			}
-			NOT = { has_estate_privilege = estate_necron_nobles_nobility_primacy }
-		}
-		modifier = {
-			factor = 0.8
-			is_absolutism_active = yes
-		}
-		modifier = {
-			factor = 1.25
-			NOT = { mil = 2 }
-		}
-		modifier = {
-			factor = 1000
-			has_mission = kon_reform_army
-			NOT = { mission_completed = kon_reform_army }
-		}
+		factor = 0
 	}
 }
 
@@ -779,7 +744,7 @@ estate_necron_nobles_honour_duels = {
 }
 estate_necron_nobles_divine = {
 	icon = privilege_legitimacy
-	loyalty = -0.05
+	loyalty = 0.05
 	influence = 0.00
 	max_absolutism = 10
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
