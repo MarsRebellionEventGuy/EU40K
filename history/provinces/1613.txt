@@ -4,6 +4,6 @@ native_hostileness = 7
 religion = chaos_undivided
 culture = heretic_astartes_culture
 base_tax = 1
-base_production = 1
+base_production = 3
 base_manpower = 2
 trade_goods = consumer_goods

@@ -3,9 +3,9 @@ owner = XFX
 controller = XFX
 religion = imperial_cult
 culture = ullanor_human_culture
-base_tax = 3
-base_production = 3
-base_manpower = 2
+base_tax = 4
+base_production = 7
+base_manpower = 4
 trade_goods = clerks
 is_city = no
 
