@@ -87,7 +87,7 @@ estate_church_disaster = {
 		modifier = {
 			factor = 1
 			NOT = {
-				estate_loyalty = {
+				loyalty = {
 					estate = estate_church
 					loyalty = 20
 				}
