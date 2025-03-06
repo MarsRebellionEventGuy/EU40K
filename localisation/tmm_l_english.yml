@@ -1734,7 +1734,7 @@
  MODIFIER_OWN_TERRITORY_DICE_ROLL_BONUS:0 "Own Territory Dice Roll Bonus"
  ONLY_RELIGIOUS_MODIFIER:0 "§YThis modifier gets removed when the state religion changes.§!"
  MODIFIER_MAY_NON_RELIGION:1 "Heretic and heathen provinces do not give any penalties"
- MODIFIER_GLOBAL_ALLOWED_NUM_OF_BUILDINGS:0 "Global Possible Number of Buildings"
+ MODIFIER_GLOBAL_ALLOWED_NUM_OF_BUILDINGS:0 "Possible Number of Buildings"
  COT_REGION_MODIFIER:0 "§YOwned provinces in Region§!:\n$MODIFIER$\n"
  COMBAT_NAVY_DICE_BONUS:0 "Navy being close to your own coast effect on the dice roll."
  COMBAT_DICE_BONUS:0 "Dice roll bonus."

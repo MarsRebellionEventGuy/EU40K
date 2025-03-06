@@ -28,7 +28,7 @@
  estate_necron_nobles: "Lords"
  estate_necron_nobles_desc: "Necron Lords are the elite lieutenants of the Overlords, commanding legions in the wars of galactic reconquest. Cunning strategists and ruthless enforcers, they execute their masters' will, unleashing terror upon all life, ensuring the unyielding supremacy of the Necron dynasties across the void."
  estate_crypteks: "Crypteks"
- estate_crypteks_desc: "Crypteks are our technologists and engineers, responsible for studying and maintaining the technology of the dynasty. A Cryptek's powers mirror that of the psykers found amongst the lesser species of the galaxy."
+ estate_crypteks_desc: "Crypteks are our scientists and engineers, responsible for studying and maintaining the technology of the dynasty. A Cryptek's powers mirror that of the psykers found amongst the lesser species of the galaxy."
  
  enable_estate_action_CALL_DIET_NECRON_NOBLES_tt:0 "[Root.EnableEstateDecisionText] §Y[Root.GetNobilityName]: Enforce Will§!"
  disable_estate_action_CALL_DIET_NECRON_NOBLES_tt:0 "[Root.DisableEstateDecisionText] §Y[Root.GetNobilityName]: Enforce Will§!"
