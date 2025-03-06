@@ -373,6 +373,26 @@ categories =  {
 		terrain_override = {
 		}	
 	}
+
+	dark_city  = { #The Dark City
+	color = { 11 15 16 }
+
+	type = plains
+	sound_type = plains
+
+	movement_cost = 2
+	defence = 1
+	local_development_cost = -0.05
+	supply_limit = 7
+	allowed_num_of_buildings = 1
+	local_ship_repair = 0.1
+	local_sailors_modifier = 0.25
+	local_defensiveness = -0.33
+	
+	terrain_override = {
+		 3339
+		}	
+	}
 }
 	
 ##################################################################

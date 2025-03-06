@@ -1590,7 +1590,7 @@ XGC_ideas = {
 		production_efficiency = 0.20
 	}
 	XGC_ideas_4 = {
-		morale_damage = 0.05
+		morale_damage = 0.075
 	}
 	XGC_ideas_5 = {
 		discipline = 0.05
