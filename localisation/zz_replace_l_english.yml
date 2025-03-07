@@ -22,7 +22,7 @@
  CELESTIAL_DECISION_MINIMUM_TO_ENACT:0 "Need a minimum of $MINVALUE|Y$ Imperial Cohesion to take this Decision."
  CELESTIAL_DECISION_NOT_ENOUGH_MANDATE:0 "This Decision costs $MANDATECOST|Y$ Imperial Cohesion, but you only have $CURRENTMANDATE|Y$ Imperial Cohesion."
  CELESTIAL_DECISION_NOT_ENOUGH_STABILITY:0 "You may not enact this reform at the moment as your country is too disorganized. This Decision costs $STABILITYCOST|Y$ Stability, and you cannot go lower than $MINIMUMSTABILITY|Y$!"
- CELESTIAL_DECISION_NOT_EMPEROR:0 "Must be the §YEmperor of Man§! or its Regent to enact Imperial Reforms."
+ CELESTIAL_DECISION_NOT_EMPEROR:0 "Must be the §YEmperor of Man§! or his §YRegent§! to enact Imperial Reforms."
  CURRENT_CELESTIAL_EMPEROR:0 "$RULERNAME|Y$ is the current Regent of the Golden Throne."
  CELESTIAL_EMPIRE_NO_EMPEROR:0 "The Imperium of Man is currently in an interregnum."
  IMPERIAL_MANDATE_DESC:0 "The Imperial Cohesion value represents the authority of the Golden Throne. Imperial Cohesion can be used to enact centralisation decisions within the Imperium of Man."
