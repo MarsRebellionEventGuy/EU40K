@@ -1,8 +1,8 @@
 religion = mechanicus
 culture = mechanicus_culture
-base_tax = 1
-base_production = 1
-base_manpower = 2
+base_tax = 4
+base_production = 6
+base_manpower = 4
 add_core = XOJ
 owner = XOJ
 controller = XOJ

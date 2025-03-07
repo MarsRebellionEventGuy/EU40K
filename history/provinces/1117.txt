@@ -3,9 +3,9 @@ owner = XZV
 controller = XZV
 culture = mechanicus_culture
 religion = mechanicus
-base_tax = 1
-base_production = 4
-base_manpower = 2
+base_tax = 4
+base_production = 6
+base_manpower = 5
 trade_goods = military_equipment
 
 add_permanent_province_modifier = {

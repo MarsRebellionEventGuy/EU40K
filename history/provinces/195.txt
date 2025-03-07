@@ -1,8 +1,8 @@
 religion = chaos_undivided
 culture = chaos_knight_culture
-base_tax = 2
-base_production = 2
-base_manpower = 3
+base_tax = 5
+base_production = 5
+base_manpower = 4
 add_core = XXK
 owner = XXK
 controller = XXK

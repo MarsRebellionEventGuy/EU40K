@@ -1777,6 +1777,8 @@
  desert_mountain:0 "Desert Mountain"
  grasslands:0 "Grasslands"
  coastline:0 "Maiden World"
+dark_city:0 "The Dark City"
+dark_city_desc:0 "Hidden deep within the Webway, Commorragh is a labyrinth of endless spires, arcane portals, and interwoven nodes, a dark sprawling metropolis where thousands of light-years are crossed in a single, effortless stride."
  arctic_desc:0 "Arctic terrain represents the snow and ice-covered areas close to the North Pole."
  forest_desc:0 "Tomb Complexes represent the ancient blackstone sites in which the Necrons had once ruled and, until recently, hibernated."
  hills_desc:0 "Craftworlds represent the ancient, planetoid-sized ships of the bygone Aeldari Empire used by their Asuryani successors to travel the stars."

@@ -3,9 +3,9 @@ owner = XOL
 controller = XOL
 religion = mechanicus
 culture = mechanicus_culture
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 3
+base_production = 4
+base_manpower = 3
 trade_goods = xeno_technology
 
 add_permanent_province_modifier = {

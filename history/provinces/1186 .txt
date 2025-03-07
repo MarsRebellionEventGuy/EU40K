@@ -3,9 +3,9 @@ controller = XDI
 add_core = XDI
 religion = chaos_undivided 
 culture = dark_mechanicum_culture
-base_tax = 1
-base_production = 4
-base_manpower = 2
+base_tax = 4
+base_production = 7
+base_manpower = 4
 trade_goods = military_equipment
 
 add_permanent_province_modifier = {

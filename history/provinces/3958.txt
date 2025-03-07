@@ -1,8 +1,8 @@
 religion = mechanicus
 culture = mechanicus_culture
-base_tax = 1
+base_tax = 2
 base_production = 4
-base_manpower = 2
+base_manpower = 4
 add_core = XOQ
 owner = XOQ
 controller = XOQ

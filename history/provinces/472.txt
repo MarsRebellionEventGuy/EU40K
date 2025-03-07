@@ -1,8 +1,8 @@
 religion = ork
 culture = ork_culture
-base_tax = 1
-base_production = 1
-base_manpower = 2
+base_tax = 3
+base_production = 4
+base_manpower = 7
 add_core = XXF
 owner = XXF
 controller = XXF
