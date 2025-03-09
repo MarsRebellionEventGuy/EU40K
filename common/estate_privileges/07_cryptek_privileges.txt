@@ -46,7 +46,7 @@ estate_crypteks_plas = {
 	penalties = {
 	}
 	benefits = {
-		artillery_power = 0.10
+		artillery_power = 0.05
 		siege_ability = 0.05
 	}
 	ai_will_do = {
@@ -214,7 +214,6 @@ estate_crypteks_canopteks = {
 
 estate_crypteks_priorities = {
 	icon = privilege_aged_paper
-	land_share = 5
 	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
 	influence = 0.00
@@ -233,3 +232,4 @@ estate_crypteks_priorities = {
 		factor = 0
 	}
 }
+
