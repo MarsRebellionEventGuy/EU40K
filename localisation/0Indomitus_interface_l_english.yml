@@ -1,0 +1,63 @@
+﻿l_english:
+ planar_hero_journey:0 "Missions" #§o[Root.DA_TOTAL_COST.GetValue]§!
+ planar_hero_journey.tt:0 "Missions" #§o[Root.DA_TOTAL_COST.GetValue]§!
+ planar_hero_title:0 "The Carcharodons" #§o[Root.DA_TOTAL_COST.GetValue]§!
+ planar_hero_title.tt:0 "The Carcharodons" #§o[Root.DA_TOTAL_COST.GetValue]§!
+ planar_hero_patronage_actions:0 "Loyalty Actions" #§o[Root.DA_TOTAL_COST.GetValue]§!
+ planar_hero_patronage_actions.tt:0 "Loyalty Actions" #§o[Root.DA_TOTAL_COST.GetValue]§!
+ planar_hero_obligation_actions:0 "Favor Actions" #§o[Root.DA_TOTAL_COST.GetValue]§!
+ planar_hero_obligation_actions.tt:0 "Favor Actions" #§o[Root.DA_TOTAL_COST.GetValue]§!
+ planar_hero_dialogue_title:0 "Ave Imperator" #§o[Root.DA_TOTAL_COST.GetValue]§!
+ planar_hero_dialogue_title.tt:0 "" #§o[Root.DA_TOTAL_COST.GetValue]§!
+ planar_hero_dialogue:0 "A spaceborne Chapter with a reputation for brutality. Entrusted with guarding the galaxy's peripheries, Charcharodons raid Imperial colonies for materiel and recruits to sustain their long campaigns in the extragalactic void."#§o[Root.DA_TOTAL_COST.GetValue]§!
+ planar_hero_dialogue.tt:0 "" #§o[Root.DA_TOTAL_COST.GetValue]§!
+
+ planar_hero_placeholder_one_tt:0 "Grant New Homeworld"
+ planar_hero_placeholder_two_tt:0 "Grant Primaris Reinforcements"
+ planar_hero_placeholder_three_tt:0 "Secure the Galactic Peripheries"
+ planar_hero_placeholder_four_tt:0 "Reconcile the Raven Guard"
+ planar_hero_placeholder_five_tt:0 "Realign the Astral Claws"
+ planar_hero_placeholder_six_tt:0 "Sanction Red Tithe"
+ planar_hero_placeholder_seven_tt:0 "Requisition Raven Guard Geneseed"
+ planar_hero_placeholder_eight_tt:0 "Reinforce Abyssal Crusades"
+ planar_hero_placeholder_nine_tt:0 "Repair Archaotech"
+ planar_hero_placeholder_ten_tt:0 "Sanction Grey Tithe"
+ planar_hero_placeholder_eleven_tt:0 "Provide Instructors"
+ planar_hero_placeholder_twelve_tt:0 "Requisition Devourer Strike Team"	
+ planar_hero_placeholder_thirteen_tt:0 "Invite the Reaper Prime"
+ planar_hero_placeholder_fourteen_tt:0 "Sponsor Harvester Prime Expedition"
+ planar_hero_placeholder_fifteen_tt:0 "Deploy Void Brothers"
+ planar_hero_placeholder_sixteen_tt:0 "Rescue Penitent Crusaders"
+ planar_hero_placeholder_seventeen_tt:0 "Enlist Red Brethren"
+ Shark_Favors:0 "Carcharodon Favors"
+ planar_hero_flagship_bonus_tt:0 "We will receive a §YGloriana-Class Battleship§! in a random coastal province.\n§YGloriana-Class Battleships§! receive the following bonus modifiers:\nShip Cannons: §G+50%§!\nNaval Morale: §G+50%§!\nDurability: §G+25%§!\nHull Size Modifier: §G+25%§!\nShip Cannons: §G+33%§!\nCan Transport Units"
+ planar_hero_carcharodons_subject_tt:0 "§YCarcharodon Astra§! will be released as an §YGAutomous Astartes Chapter§! in a random owned province matching the criteria above"
+planar_hero_recruitment_tt:0 "Every owned province with §YLoyalist Astartes§! culture will receive the following:"
+planar_hero_strike_team_tt:0 "We will gain access to the §YDevourer Strike Team§! as a Special Forces group for §Y10§! years"
+planar_hero_archaotech_bonus_tt:0 "Every owned province with the trade good §YArchaotech§! will receive the following:"
+planar_hero_red_tithe_tt:0 "A random owned §YState§! outside of the §YSegmentum Solar§! Region will receive §Y100§! Devastation"
+planar_hero_manpower_tt:0 "Has not been taken in the past §Y10§! years"
+planar_hero_quality_tt:0 "Has not been taken in the past §Y10§! years"
+planar_hero_cooldown_tt:0 "Has not been taken in the past §Y10§! years"
+ planar_hero_mission_one_completed_tt:0 "Mission Not Completed"
+ planar_hero_mission_two_completed_tt:0 "Mission Not Completed"
+ planar_hero_mission_three_completed_tt:0 "Mission Not Completed"
+ planar_hero_mission_four_completed_tt:0 "Mission Not Completed"
+ planar_hero_mission_five_completed_tt:0 "Mission Not Completed"
+ Shark_Recruitment_Bonus:0 "The Reaping"
+ Shark_Archaotech_Modifier:0 "Archaotech Reserves Exploited"
+ Shark_Archaotech_Bonus:0 "Archaotech Excavations"
+ Shark_Chapters_Bonus:0 "Void Brother Reinforcements"
+
+
+
+
+
+
+
+
+
+
+
+
+ purge_button_tt:0 "Purge"
