@@ -4,6 +4,6 @@ controller = XXA
 culture = abhuman_culture
 religion = imperial_cult
 base_tax = 2
-base_production = 1
+base_production = 3
 base_manpower = 2
 trade_goods = clerks

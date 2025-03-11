@@ -1,8 +1,9 @@
 culture = drukhari_culture
 religion = dark_muses
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 3
+base_production = 3
+base_manpower = 5
+trade_goods = slaves
 is_city = yes
 hre = yes
 add_core = XPQ

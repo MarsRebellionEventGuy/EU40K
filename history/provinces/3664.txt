@@ -7,3 +7,4 @@ culture = heretic_astartes_culture
 religion = chaos_undivided
 controller = XKZ
 is_city = yes
+trade_goods = scientific_equipment
