@@ -1,5 +1,13 @@
 spriteTypes = {
 	spriteType = {
+		name = "GFX_purge_button"
+		texturefile = "gfx/interface/purge_button.dds"
+		transparencecheck = yes
+	}
+
+
+
+	spriteType = {
 		name = "GFX_planar_hero_interface_primary"
 		texturefile = "gfx/planar_hero_mechanic/planar_hero_interface_primary.dds"
 	}
