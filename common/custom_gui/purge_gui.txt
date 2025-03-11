@@ -1,0 +1,23 @@
+custom_button = {
+	name = purge_button
+	potential = {
+		OR = {
+			NOT = { culture_group = owner }
+			NOT = { religion_group = owner }
+		}
+	}
+	trigger = {
+		owner = { mil_power = 100 }
+	}
+	effect = {
+		owner = { add_mil_power = -100 }
+		spawn_rebels = {
+			size = 4
+			leader = noble_zealot
+			type = nationalist_rebels
+		}
+		change_culture = owner
+		change_religion = owner
+	}
+	tooltip = purge_button_tt
+}
