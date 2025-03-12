@@ -274,7 +274,7 @@
  estate_necron_nobles_force_conscription_desc:0 "Sometimes warriors do not suffice for the military campaigns of the state. In such cases it is our right to forcefully request support from the Lords itself.\nHowever, this right comes at the heavy cost of privileges for the Lords itself."
  estate_necron_nobles_noble_officer_right:0 "Lords Nemesor Rights"
  estate_necron_nobles_noble_officer_right_desc:0 "Lords shall have the right to lead our soldiers to victory."
- estate_necron_nobles_diet_right:0 "Submission To The [Root.Monarch.GetTitle"
+ estate_necron_nobles_diet_right:0 "Submission To The [Root.Monarch.GetTitle]"
  estate_necron_nobles_diet_right_desc:0 "By the right of their implacable will, the [Root.Monarch.GetTitle may overrule the wishes of the Lords."
  estate_necron_nobles_expedition_rights:0 "Noble Expedition Rights"
  estate_necron_nobles_expedition_rights_desc:0 "The Galaxy offers many opportunities - and our Lords are well aware of it. By granting them the right to start their own expedition without having to worry about their possessions in the homeland, we will be able to recruit the bravest colonists known to man."
