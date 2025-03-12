@@ -1777,6 +1777,8 @@
  desert_mountain:0 "Desert Mountain"
  grasslands:0 "Grasslands"
  coastline:0 "Maiden World"
+webway:0 "Webway"
+webway_desc:0 "A vast, ancient extradimensional maze of passageways so intricate and convoluted that even its most frequent users risk becoming hopelessly lost within its jaws."
 dark_city:0 "The Dark City"
 dark_city_desc:0 "Hidden deep within the Webway, Commorragh is a labyrinth of endless spires, arcane portals, and interwoven nodes, a dark sprawling metropolis where thousands of light-years are crossed in a single, effortless stride."
  arctic_desc:0 "Arctic terrain represents the snow and ice-covered areas close to the North Pole."

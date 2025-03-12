@@ -223,6 +223,14 @@ estate_church = {
 			}
 		}
 	}
+	custom_name = {
+		desc = estate_Wych_Cults
+		trigger = {
+			OR = {
+				primary_culture = drukhari_culture
+			}
+		}
+	}
 
 	custom_name = {
 		desc = estate_seers
