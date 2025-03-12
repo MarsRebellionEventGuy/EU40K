@@ -55,7 +55,7 @@ centralizing_top_government_decision = {
 	empire = celestial_empire
 	trigger = { crown_land_share = 65 } 
 	member = { all_estate_influence_modifier = -0.05 }
-	emperor = { monarch_admin_power = 1 }
+	emperor = { country_admin_power = 1 }
 	
 }
 

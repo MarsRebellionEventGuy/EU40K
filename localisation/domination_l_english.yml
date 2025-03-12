@@ -1201,7 +1201,7 @@
  
  #Estates
  estate_eunuchs:0 "Administratum"
- estate_eunuchs_desc:0 "The Administratum are a powerful Estate within the Imperium of Man. At times their influence is curbed by powerful regents who rein them in with an iron fist. However, should the reigning regent be deemed weak or incapable, they are quick to turn even the Emperor himself into an elaborate puppet."
+ estate_eunuchs_desc:0 "The Administratum are a powerful estate within the Imperium. At times their influence is curbed by powerful regents who rein them in with an iron fist. However, should the reigning regent be deemed weak or incapable, they are quick to turn even the Emperor himself into an elaborate puppet."
  eunuchs_influence_modifier:0 "Administratum Influence"
  eunuchs_loyalty_modifier:0 "Administratum Loyalty Equilibrium"
  eunuchs_privilege_slots:0 "Administratum Max Privileges"
@@ -1227,6 +1227,8 @@
  estate_eunuchs_disaster:0 "Domination of the Administratum"
  curtail_eunuch_estate_decision_title:0 "Curtail the Administratum"
  curtail_eunuch_estate_decision_desc:0 "The laughable attempts of the Administratum to usurp power will cease! We must project power and strip these hungry vultures of their privileges, lest we fall victim to their pursuit for power..."
+
+
  
  #Estate Agendas 
  estate_eunuchs_develop_x_agenda:0 "Increase Development in [agenda_province.GetName]"
