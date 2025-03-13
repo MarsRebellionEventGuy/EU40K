@@ -6,3 +6,15 @@ religion = cegorach
 capital = 3894
 primary_culture = harlequin_culture
 add_government_reform = black_library_reform
+
+1970.12.12 = {
+	monarch = {
+		name = "Black"
+		dynasty= "Council"
+		religion = aeldari
+		culture = asuryani_culture
+		adm = 6
+		dip = 6
+		mil = 2
+	}
+}

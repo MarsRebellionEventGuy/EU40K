@@ -100,6 +100,12 @@
  imperial_sector_subject_title_plural: "Imperial Sectors"
  is_AM_overlord: "Treaty of Olympus"
  is_AM_subject: "Treaty of Olympus"
+milkyway:0 "Milky Way"
+iybraesil_webway_portal:0 "Iybraesil Webway Portal"
+terra_webway_portal:0 "Imperial Webway"
+yme_loc_webway_portal:0 "Yme-Loc Webway Portal"
+kaelor_webway_portal:0 "Kaelor Webway Portal"
+
  
  logos_historica_verita_decision_title: "Logos Historica Verita"
  logos_historica_verita_decision_desc: "The Logos Historica Verita shall be a new arm of the Adeptus Terra, tasked by Lord Guilliman with compiling a complete and accurate record of Mankind’s history, unbridled by the biased and often contradictory forces of superstition and political meddling that have so plagued the Imperium for the past hundred centuries.\n--------------"

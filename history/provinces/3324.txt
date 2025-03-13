@@ -6,5 +6,6 @@ culture = calixis_human_culture
 base_tax = 5
 base_production = 7
 base_manpower = 5
-trade_goods = consumer_goods
+trade_goods = luxury_goods
 is_city = no
+center_of_trade = 1
