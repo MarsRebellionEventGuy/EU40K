@@ -10,7 +10,7 @@ capital = 3344
 	monarch = {
 		name = "Marquis"	
 		dynasty = "Vaulkhere"
-		adm = 3
+		adm = 4
 		dip = 3
 		mil = 4
 	}
