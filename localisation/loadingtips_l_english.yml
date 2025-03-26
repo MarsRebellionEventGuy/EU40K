@@ -1,17 +1,17 @@
 ﻿l_english:
  LOADING_TIP_0:0 "Forget the promise of progress and understanding, for in the grim, dark future there is only war."
- LOADING_TIP_1:0 ""Blood for the Blood God! Skulls for the Skull Throne!"\n- Khornite Battle Cry"
- LOADING_TIP_2:0 "“I am Alpharius.”\n- Omegon"
- LOADING_TIP_3:0 ""If I am guilty of anything it is the simple pursuit of knowledge.”\n- Magnus the Red"
- LOADING_TIP_4:0 "“No world shall be beyond my rule; no enemy shall be beyond my wrath.”\n- Emperor of Mankind"
- LOADING_TIP_5:0 "“All I ever wanted was the truth"\n- Lorgar Aurelian"
- LOADING_TIP_6:0 ""Loyalty is its own reward"\n- Lion El'Jonson"
- LOADING_TIP_7:0 ""Only in death does duty end""
- LOADING_TIP_8:0 ""We is gonna stomp da universe flat and kill anyfink that fights back."\n- Ghazghkull Mag Uruk Thraka"
+ LOADING_TIP_1:0 "Blood for the Blood God! Skulls for the Skull Throne!\n- Khornite Battle Cry"
+ LOADING_TIP_2:0 "I am Alpharius.\n- Omegon"
+ LOADING_TIP_3:0 "If I am guilty of anything it is the simple pursuit of knowledge.\n- Magnus the Red"
+ LOADING_TIP_4:0 "No world shall be beyond my rule; no enemy shall be beyond my wrath.\n- Emperor of Mankind"
+ LOADING_TIP_5:0 "All I ever wanted was the truth\n- Lorgar Aurelian"
+ LOADING_TIP_6:0 "Loyalty is its own reward\n- Lion El'Jonson"
+ LOADING_TIP_7:0 "Only in death does duty end"
+ LOADING_TIP_8:0 "We is gonna stomp da universe flat and kill anyfink that fights back.\n- Ghazghkull Mag Uruk Thraka"
  LOADING_TIP_9:0 ""Heroes of Armageddon! You have withstood the evil savagery of the Orks, and they having nothing left for you to fear." \n- Commissar Sebastian Yarrick"
  LOADING_TIP_10:0 ""There are no bystanders in the war of life and death. Fight it without remorse, for death will surely do the same." \n- Constantin Valdor"
  LOADING_TIP_11:0 ""I have created much for you, in your name. There would be no Imperium without my efforts." \n- Malcador the Sigillite"
- LOADING_TIP_12:0 ""I am a Commissar. I am granted the gift of total authority to judge in the name of the Emperor." \n- Colonel-Commissar Ibram Gaunt"
+ LOADING_TIP_12:0 "I am a Commissar. I am granted the gift of total authority to judge in the name of the Emperor. \n- Colonel-Commissar Ibram Gaunt"
  LOADING_TIP_13:0 "It costs Administrative Power to increase Stability.\nKeep that in mind before you accept a loss in Stability from an event."
  LOADING_TIP_14:0 "The first Idea Group is unlocked at\nAdministrative Technology level 5"
  LOADING_TIP_15:0 "Value your Monarch Points. They are very important\nfor Technology and Ideas."
@@ -95,30 +95,19 @@
  LOADING_TIP_93:0 "The B key can be used to deselect the top army or navy when multiple armies/navies are selected."
  LOADING_TIP_94:0 "For every battle honour, a thousand heroes die alone, unsung, and unremembered."
  LOADING_TIP_95:0 "Never take a gamble you’re not prepared to lose."
- LOADING_TIP_96:0 ""My will be done" \n-Codex Imperialis"
+ LOADING_TIP_96:0 "'My will be done' \n-Codex Imperialis"
  LOADING_TIP_97:0 "At Very ‘Ard difficulty, da meks is as kunnin’ as Mork and has enuff dakka to take da bestest skragas down da boss pole."
  LOADING_TIP_98:1 "Use terrain to your advantage! Place your armies so that if attacked,\nthe attacker gets river crossing or difficult terrain."
  LOADING_TIP_99:0 "An army besieging a fortress in enemy territory will be counted as the attacker in a battle when attacked, incurring terrain penalties."
  LOADING_TIP_100:0 "This game takes a long time to master, don't be surprised to be learning new things after playing a thousand hours."
  LOADING_TIP_101:0 "Ya might lose da scrap, but still win da WAAAGH! Itz wurf fightin on after gettin a krumpin from sum choppy gitz."
- LOADING_TIP_102:0 ""Because sometimes the only victory possible is to keep your opponent from winning." \n- Emperor of mankind"
- LOADING_TIP_103:0 ""Survival isn't enough" \n- Roboute Guilliman"
+ LOADING_TIP_102:0 "Because sometimes the only victory possible is to keep your opponent from winning. \n- Emperor of mankind"
+ LOADING_TIP_103:0 "Survival isn't enough \n- Roboute Guilliman"
  LOADING_TIP_104:0 "Rise, son of Guilliman"
- LOADING_TIP_105:0 ""Cadia broke before the guard did" \n- Cadian proverb"
+ LOADING_TIP_105:0 "Cadia broke before the guard did \n- Cadian proverb"
  LOADING_TIP_106:0 "War is Hell"
  LOADING_TIP_107:0 "The Emperor protects"
  LOADING_TIP_108:0 "A mind without purpose will wander in dark places"
-LOADING_TIP_109:0 "May you never rest in your laurels of victory"
-LOADING_TIP_110:0 "In the darkness between the stars lies untold glory, my son"
+ LOADING_TIP_109:0 "May you never rest in your laurels of victory"
+ LOADING_TIP_110:0 "In the darkness between the stars lies untold glory, my son"
 
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
