@@ -1,0 +1,26 @@
+bookmark = {
+    name = "bookmark5"
+    desc = "bookmark_desc5"
+    date = 1999.1.1       
+    	country = XPB
+		country = XCK
+		country = XPK
+		country = XPL
+		country = XPM
+		country = XPN
+		country = XPO
+		country = XPP
+		country = XPR
+		country = XPQ
+		country = XSN
+	
+    	easy_country = XPB
+		easy_country = XCK
+		easy_country = XPM
+		easy_country = XPQ          
+    # easy_country = <tag>            # Optional. Adds country shield to the selection view with a green glow.
+    
+    default = no                   # Makes this bookmark the automatically selected bookmark on game load. Only use once.
+    
+    # Optional. Executes effects when game is started from this bookmark.
+}

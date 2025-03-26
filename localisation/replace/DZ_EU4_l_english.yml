@@ -55,10 +55,17 @@ bookmark4:0 "The Orphean War"
 # - Incredibly perilous position of Angels Revenant Astartes Chapter
 # - Orpheus Garrison hopeless resistance against Maynarkh
 
+ bookmark5:0 "The Dark City"
+  bookmark_desc5:0 "Commorragh, synonymous with ruin and darkness alike, lies shrouded within the Webway, an extradimensional maze of the Aeldari of old. The city itself is a labyrinth in its own right, where ambition and betrayal are the norm. At the top of this bloodstained hierarchy stands Asdrubael Vect, who rose from slavery to rule the city, serving as an example for all Drukhari. \n \nA system of gateways connects the veiled realm to realspace, allowing the Kabals to indulge in their accursed custom of raiding unsuspecting worlds across the galaxy, spiriting away their citizens for the endless torment awaiting them in the dungeons of the Haemonculi. No one is beyond their reach, and any attempt to conquer the Webway leads only to the mysterious disappearance of the would-be conquistadors…"
+
+#Commorragh Bookmark
+#Important Countries : Kabal of the Black Heart, The Obsidian Rose, Kabal of the Dying Sun, Kabal of the Poisoned Tongue, Kabal of the Flayed Skull, Kabal of the Last Hatred, Kabal of the Bloodied Claw, Kabal of the Falling Moon, Kabal of the Broken Sigil, Kabal of the Iron Thorn, Black Library
+#Important events to mention: 
+# - Vec't rise to power as Emperor
+# - Kabalite raid-centered society
+# - Portals and the Webway
  
  
- bookmark5:0 "The Third Tyrannic War"
- bookmark_desc5:0 "Tyranids"
  bookmark6:0 "Da Great Waaagh!"
  bookmark_desc6:0 "Orks"
  bookmark7:0 "Fourth Sphere of Expansion"
@@ -79,6 +86,8 @@ bookmark4:0 "The Orphean War"
  bookmark_desc11:0 ""
 bookmark12:0 "Rise of the Ynnari"
 bookmark_desc12:0 "Craftwords"
+bookmark13:0 "The Third Tyrannic War"
+ bookmark_desc13:0 "Tyranids"
 <<<<<<< HEAD
  
  bookmark_13:0 "The War of the Beast"
