@@ -825,8 +825,8 @@ NCountry = {
 	FORM_MARRIAGE_HIGHER_LEGITIMACY = -3,			-- Legitimacy Change when forming a royal marriage while having more legitimacy than the other country.
 	ANNEX_OR_INTEGRATE_PRESTIGE = 5.0,				-- Prestige gain on diplomatic annex or integrate
 	PROVINCE_DISCOVERY_PRESTIGE = 0.1,				-- Prestige change when first in tech group to discover first province in a region
-	PROVINCE_DISCOVERY_YEARS_TECHNOLOGY = 50,		-- Years until discoveries spread within technology group
-	PROVINCE_DISCOVERY_YEARS_RELIGION = 100,		-- Years until discoveries spread with religion
+	PROVINCE_DISCOVERY_YEARS_TECHNOLOGY = 1000,		-- Years until discoveries spread within technology group
+	PROVINCE_DISCOVERY_YEARS_RELIGION = 10000,		-- Years until discoveries spread with religion
 
 	START_YEARLY_INFLATION = 0.0, 					-- _CDEF_START_YEARLY
 

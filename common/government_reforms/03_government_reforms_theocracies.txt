@@ -203,21 +203,21 @@ heretic_astartes_reform = {
 	}
 }	
 
-forge_world_reform = {
-	potential = {
-		primary_culture = mechanicus_culture
-	}
-	allow_normal_conversion = no
-	legacy_equivalent = forge_world
-	icon = "forge_world"
-	valid_for_nation_designer = yes
-	nation_designer_cost = 0
-	modifiers = {
-		production_efficiency = 0.15
-		global_regiment_cost = -0.10
-		relation_with_heathens = -50
-	}
-}
+# forge_world_reform = {
+	# potential = {
+		# primary_culture = mechanicus_culture
+	# }
+	# allow_normal_conversion = no
+	# legacy_equivalent = forge_world
+	# icon = "forge_world"
+	# valid_for_nation_designer = yes
+	# nation_designer_cost = 0
+	# modifiers = {
+		# production_efficiency = 0.15
+		# global_regiment_cost = -0.10
+		# relation_with_heathens = -50
+	# }
+# }
 
 chaos_forge_world_reform = {
 	potential = {
@@ -400,7 +400,7 @@ minor_forgeworld_reform = {
     }
 
     modifiers = {
-		production_efficiency = 0.15
+		production_efficiency = 0.10
 		global_regiment_cost = -0.10
 		relation_with_heathens = -50
 		governing_capacity_modifier = -0.5
@@ -440,7 +440,7 @@ forgeworld_reform = {
 		production_efficiency = 0.15
 		global_regiment_cost = -0.10
 		relation_with_heathens = -50
-		governing_capacity_modifier = -0.5
+		governing_capacity_modifier = -0.4
     }
 
     effect = {
@@ -516,9 +516,8 @@ mars_the_red_planet_reform = {				#mars mission reward 	#can create forgeworld s
 	nation_designer_cost = 0 
     potential = {
 		primary_culture = mechanicus_culture
-      		religion = mechanicus
+      	religion = mechanicus
 		tag = XXB
-							
     }
        
     trigger = {
@@ -531,7 +530,7 @@ mars_the_red_planet_reform = {				#mars mission reward 	#can create forgeworld s
 		production_efficiency = 0.15
 		global_regiment_cost = -0.10
 		relation_with_heathens = -50
-		governing_capacity_modifier = -0.5
+		governing_capacity_modifier = -0.25
     }   
 
     effect = {
