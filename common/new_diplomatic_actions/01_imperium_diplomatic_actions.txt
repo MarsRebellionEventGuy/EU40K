@@ -1217,3 +1217,369 @@ join_imperium = {
 		}
 	}
 }
+
+# mutal CTA for IoM and MEC
+call_iom_mechanicus = {
+	category = alliance
+
+	require_acceptance = yes
+
+	is_visible = {
+		is_subject_of = FROM
+		is_subject_of_type = 0_mechanicus_subject_type
+	}
+	is_allowed = {
+		if = {
+			limit = {
+				liberty_desire = 50
+			}
+			custom_trigger_tooltip = {
+				tooltip = FROM_IS_REBELLIOUS_TT
+				liberty_desire = 50
+			}
+		}
+		if = {
+			limit = {
+				is_at_war = no
+			}
+			custom_trigger_tooltip = {
+				tooltip = ROOT_IS_NOT_AT_WAR_TT
+				is_at_war = yes
+			}
+		}
+		if = {
+			limit = {
+				FROM={
+					NOT={
+						owes_favors = { 
+							who = ROOT 
+							value = 25
+						}
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = FROM_HAS_25_FAVORS_TT
+				FROM={
+					owes_favors = { 
+						who = ROOT 
+						value = 25 
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					NOT = {
+						has_opinion = {
+							who = ROOT
+							value = 0
+						}
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = FROM_MUST_HAVE_POSITIVE_OPINION_TT
+				FROM = {
+					has_opinion = {
+						who = ROOT
+						value = 0
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				FROM = { is_at_war = yes }
+			}
+			custom_trigger_tooltip = {
+				tooltip = FROM_IS_AT_WAR_TT
+				FROM = { is_at_war = no }
+			}
+		}
+	}
+	on_accept = {
+		FROM = {
+			add_opinion = {
+				who = ROOT
+				modifier = trade_protectorate_called_into_war
+			}
+			join_all_defensive_wars_of = ROOT
+		}
+		if = {
+			limit = {
+				is_in_war = { attackers = ROOT }
+			}
+			FROM = {
+				add_opinion = {
+					who = ROOT
+					modifier = trade_protectorate_called_into_war
+				}
+				join_all_offensive_wars_of = ROOT
+			}
+		}
+		FROM={
+			add_favors = {
+			   who = ROOT
+			   amount = -25
+			}
+		}
+	}
+	on_decline = {
+		reverse_add_opinion = {
+			who = ROOT
+			modifier = refused_join_war
+		}
+	}
+
+	ai_acceptance = {
+		add_entry = {
+			name = BASE_REJECTION
+			limit = {
+				always = yes
+			}
+			export_to_variable = {
+				variable_name = ai_value
+				value = 1
+			}
+			
+			multiply_variable = {
+				which = ai_value
+				value = -15
+			}
+		}
+        add_entry = {
+            name = DIPLO_OPPINION
+			export_to_variable = {
+				variable_name = ai_value
+				value = opinion
+				who = FROM
+				with = ROOT
+			}
+			multiply_variable = {
+				which = ai_value 
+				value = 0.125
+			}
+        }
+		add_entry = {
+			name = AI_TRUST_TOWARDS_ROOT
+			export_to_variable = {
+				variable_name = ai_value
+				value = trust
+				who = FROM
+				with = ROOT
+			}			
+			subtract_variable = { 
+				which = ai_value
+				value = 50
+			}
+			#1 trust = +4 ai points
+			multiply_variable = {
+				which = ai_value
+				value = 0.4
+			}
+		}
+		add_entry = {
+			name = AI_DIPLOMATIC_REPUTATION
+			export_to_variable = {
+				variable_name = ai_value
+				value = trigger_value:diplomatic_reputation
+			}
+			#1 rep = 3
+			multiply_variable = {
+				which = ai_value
+				value = 3
+			}
+		}
+	}
+	ai_will_do = { # this is a trigger
+		always = yes
+	}
+	
+}
+call_mechanicus_iom = {
+	category = alliance
+
+	require_acceptance = yes
+
+	is_visible = {
+		FROM={
+			is_subject_of = ROOT
+			is_subject_of_type = 0_mechanicus_subject_type
+		}
+	}
+	is_allowed = {
+		if = {
+			limit = {
+				liberty_desire = 50
+			}
+			custom_trigger_tooltip = {
+				tooltip = FROM_IS_REBELLIOUS_TT
+				liberty_desire = 50
+			}
+		}
+		if = {
+			limit = {
+				is_at_war = no
+			}
+			custom_trigger_tooltip = {
+				tooltip = ROOT_IS_NOT_AT_WAR_TT
+				is_at_war = yes
+			}
+		}
+		if = {
+			limit = {
+				FROM={
+					NOT={
+						owes_favors = { 
+							who = ROOT 
+							value = 25 
+						}
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = FROM_HAS_25_FAVORS_TT
+				FROM={
+					owes_favors = { 
+						who = ROOT 
+						value = 25
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				FROM = {
+					NOT = {
+						has_opinion = {
+							who = ROOT
+							value = 0
+						}
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = FROM_MUST_HAVE_POSITIVE_OPINION_TT
+				FROM = {
+					has_opinion = {
+						who = ROOT
+						value = 0
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				FROM = { is_at_war = yes }
+			}
+			custom_trigger_tooltip = {
+				tooltip = FROM_IS_AT_WAR_TT
+				FROM = { is_at_war = no }
+			}
+		}
+	}
+	on_accept = {
+		FROM = {
+			add_opinion = {
+				who = ROOT
+				modifier = trade_protectorate_called_into_war
+			}
+			join_all_defensive_wars_of = ROOT
+		}
+		if = {
+			limit = {
+				is_in_war = { attackers = ROOT }
+			}
+			FROM = {
+				add_opinion = {
+					who = ROOT
+					modifier = trade_protectorate_called_into_war
+				}
+				join_all_offensive_wars_of = ROOT
+			}
+		}
+		add_estate_loyalty = {
+			estate = estate_adeptus_mechanicus
+			loyalty = -5
+		}
+		FROM={
+			add_favors = {
+			   who = ROOT
+			   amount = -25
+			}
+		}
+	}
+	on_decline = {
+		reverse_add_opinion = {
+			who = ROOT
+			modifier = refused_join_war
+		}
+	}
+
+	ai_acceptance = {
+		add_entry = {
+			name = BASE_REJECTION
+			limit = {
+				always = yes
+			}
+			export_to_variable = {
+				variable_name = ai_value
+				value = 1
+			}
+			
+			multiply_variable = {
+				which = ai_value
+				value = -15
+			}
+		}
+        add_entry = {
+            name = DIPLO_OPPINION
+			export_to_variable = {
+				variable_name = ai_value
+				value = opinion
+				who = FROM
+				with = ROOT
+			}
+			multiply_variable = {
+				which = ai_value 
+				value = 0.125
+			}
+        }
+		add_entry = {
+			name = AI_TRUST_TOWARDS_ROOT
+			export_to_variable = {
+				variable_name = ai_value
+				value = trust
+				who = FROM
+				with = ROOT
+			}			
+			subtract_variable = { 
+				which = ai_value
+				value = 50
+			}
+			#1 trust = +4 ai points
+			multiply_variable = {
+				which = ai_value
+				value = 0.4
+			}
+		}
+		add_entry = {
+			name = AI_DIPLOMATIC_REPUTATION
+			export_to_variable = {
+				variable_name = ai_value
+				value = trigger_value:diplomatic_reputation
+			}
+			#1 rep = 3
+			multiply_variable = {
+				which = ai_value
+				value = 3
+			}
+		}
+	}
+	ai_will_do = { # this is a trigger
+		always = yes
+	}
+	
+}

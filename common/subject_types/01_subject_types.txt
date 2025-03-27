@@ -128,9 +128,6 @@ integrated_forgeworld = {
 	}
 }
 
-
-
-
 integrated_major_forgeworld = {
 	copy_from = default
 	

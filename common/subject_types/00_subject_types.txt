@@ -65,7 +65,6 @@ nominal_imperial_world_subject_type = {}
 shield_company_subject_type = {}
 imperial_sector_subject = {}
 
-
 tau_auxiliary = {}
 
 default = {
@@ -1943,7 +1942,7 @@ autonomus_astartes_subject_type = {
 	can_concentrate_development = no
 	can_have_great_projects_moved_by_overlord = no
 	
-	liberty_desire_development_ratio = 0.25
+	liberty_desire_development_ratio = 0.01
 	base_liberty_desire = 10
 	
 	relative_power_class = 0
