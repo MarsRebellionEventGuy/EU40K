@@ -5,10 +5,11 @@ technology_group = eldar
 primary_culture = harlequin_culture
 religion = cegorach
 capital = 3938
+historical_friend = XSN
 
 1970.12.12 = {
 	monarch = {
-		name = ""	
+		name = "Company"	
 		adm = 4
 		dip = 3
 		mil = 5

@@ -66,6 +66,8 @@
  uhulis_sector_sea_area:0 "Uhulis Sector"
  karthago_sector_sea_area:0 "Karthago Sector"
  yarokin_veil_sector_sea_area:0 "Yarokin Veil"
+comorragh_space_sea_area:0 "Commorragh"
+
 
  evisser_trail_sea_region:0 "Trail of Saint Evisser"
  talis_munus_sea_region:0 "Talis Munus Sector"
@@ -134,3 +136,4 @@
  uhulis_sector_sea_region:0 "Uhulis Sector"
  karthago_sector_sea_region:0 "Karthago Sector"
  yarokin_veil_sector_sea_region:0 "Yarokin Veil"
+comorragh_space_sea_region:0 "Commorragh"

@@ -2838,6 +2838,16 @@ if = {
 			discover_country = ROOT
 		}
 	}
+
+if = {
+	limit = {
+		tag = XSO #Dance Without End
+	}
+	webway = {
+		discover_country = ROOT
+	}
+}
+	
 }
 
 # country
