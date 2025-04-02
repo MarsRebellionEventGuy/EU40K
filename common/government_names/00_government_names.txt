@@ -139,7 +139,11 @@ mechanicus_mars_localisation = {
 
 	trigger = {
 		tag = XXB
-		has_reform = forge_world_reform
+		OR={
+			has_reform = minor_forgeworld_reform
+			has_reform = forgeworld_reform
+			has_reform = mars_the_red_planet_reform
+		}
 	}
 }
 
@@ -188,7 +192,11 @@ mechanicus_localisation = {
 
 	trigger = {
 		NOT = { tag = XXB }
-		has_reform = forge_world_reform
+		OR={
+			has_reform = minor_forgeworld_reform
+			has_reform = forgeworld_reform
+			has_reform = mars_the_red_planet_reform
+		}
 	}
 }
 
