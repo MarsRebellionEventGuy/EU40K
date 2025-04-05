@@ -1,8 +1,7 @@
 government = theocracy
 add_government_reform = forge_world_reform
-government_rank = 2
+government_rank = 1
 technology_group = mechanicus
 religion = mechanicus
 primary_culture = mechanicus_culture
-capital = 468
-fixed_capital = 468
+capital = 196
