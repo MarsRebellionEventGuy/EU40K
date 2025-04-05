@@ -1,11 +1,11 @@
 religion = mechanicus
 culture = mechanicus_culture
-base_tax = 1
+base_tax = 3
 base_production = 4
-base_manpower = 2
-add_core = XXB
-owner = XXB
-controller = XXB
+base_manpower = 4
+add_core = ZXB
+owner = ZXB
+controller = ZXB
 trade_goods = military_equipment
 
 add_permanent_province_modifier = {

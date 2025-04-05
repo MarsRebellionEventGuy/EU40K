@@ -1,11 +1,11 @@
-add_core = XXB
-owner = XXB
-controller = XXB
+add_core = XRB
+owner = XRB
+controller = XRB
 religion = mechanicus
 culture = mechanicus_culture
-base_tax = 1
+base_tax = 4
 base_production = 4
-base_manpower = 2
+base_manpower = 3
 trade_goods = military_equipment
 
 add_permanent_province_modifier = {
