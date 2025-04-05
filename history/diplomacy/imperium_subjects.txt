@@ -621,10 +621,10 @@ dependency = {
 	start_date = 1000.8.20
 	end_date = 2100.8.3
 }
-dependency = {
-	subject_type = "nominal_imperial_world_subject_type"
-	first = XXA
-	second = XRA
-	start_date = 1000.8.20
-	end_date = 2100.8.3
-}
+$dependency = {
+$	subject_type = "nominal_imperial_world_subject_type"
+$	first = XXA
+$	second = XRA
+$	start_date = 1000.8.20
+$	end_date = 2100.8.3
+$}
