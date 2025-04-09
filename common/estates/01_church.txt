@@ -190,6 +190,20 @@ estate_church = {
 			419 = { religion = coptic has_owner_religion = yes }
 		}
 	}
+	loyalty_modifier = {
+		desc = EST_MISSING_SYNOD_MINISTRA
+		loyalty = -5
+		trigger = {
+			tag = XXA
+			religion = imperial_cult
+			869 = { 
+				OR={
+					NOT={religion = imperial_cult }
+					has_owner_religion = no 
+				}
+			}
+		}
+	}
 	
 	custom_name = {
 		desc = estate_ecclesiarchy
@@ -334,6 +348,9 @@ estate_church = {
 		estate_church_TIM_yasa_supremacy
 		estate_church_TIM_promote_ijazah
 		estate_church_MUG_promote_divine_religion
+		
+		estate_church_adeptus_ministorum
+		estate_church_militant_apostolic
 	}
 
 	agendas = {

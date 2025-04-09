@@ -353,6 +353,7 @@ estate_inquisition_right_exterminatus = {
 			global_missionary_strength = 0.03
 			development_cost = 0.25
 			stability_cost_modifier = -0.25
+			global_autonomy = -0.10
 		}
 	}
 	ai_will_do = {

@@ -7,7 +7,15 @@ custom_button = {
 	trigger = {
 	}
 	effect = {
-		set_country_flag = planar_hero_interface_active
+		if={
+			limit={
+				has_country_flag = planar_hero_interface_active
+			}
+			clr_country_flag = planar_hero_interface_active
+		}
+		else={
+			set_country_flag = planar_hero_interface_active
+		}
 	}
 }
 
@@ -26,7 +34,7 @@ custom_button = {
 custom_window = {
     name = planar_hero_interface
     potential = {
-	has_country_flag = planar_hero_interface_active
+		has_country_flag = planar_hero_interface_active
     }
 }
 

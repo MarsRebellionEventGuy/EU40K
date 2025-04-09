@@ -348,9 +348,9 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "planar_hero_button"
-			position = { x = 920 y = 680 }
+			position = { x = -450 y = -58 }
 			quadTextureSprite ="GFX_planar_hero_button"
-			Orientation = "CENTER"
+			Orientation = "LOWER_RIGHT"
 			scripted = yes
 			clicksound = back_click
 		}

@@ -22,7 +22,19 @@ estate_adeptus_mechanicus = {
 	}
 	
 	province_independence_weight = {
-		factor = 0
+		factor = 1
+		modifier = {
+			factor = 0.1
+			NOT = { has_terrain = drylands }
+		}
+		modifier = {
+			factor = 1.5
+			religion = mechanicus
+		}
+		modifier = {
+			factor = 2
+			has_terrain = drylands
+		}
 	}
 
 	# Influence modifiers

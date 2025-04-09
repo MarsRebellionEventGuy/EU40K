@@ -304,7 +304,7 @@ drukhari_cult_reform = {
 preserve_highborn_privileges_reform = { #Noble Privileges
 	icon = "imperial_governorate"
 	potential = {
-    		tag = XXA
+    	tag = XXA
 	}
 
 	allow_normal_conversion = yes
@@ -315,7 +315,7 @@ preserve_highborn_privileges_reform = { #Noble Privileges
 elevate_tribal_leaders_reform = {
 	icon = "exodite_government"
 	potential = {
-    		tag = XXA
+    	tag = XXA
 	}
 	trigger = {
 	}
@@ -328,7 +328,7 @@ elevate_tribal_leaders_reform = {
 distribute_warrants_of_trade_reform = {
 	icon = "rogue_trader"
 	potential = {
-    		tag = XXA
+    	tag = XXA
 	}
 	trigger = {
 	}
@@ -339,15 +339,10 @@ distribute_warrants_of_trade_reform = {
 }
 
 
-
-
-
-
-
 restructure_senatorum_reform = { #Bureaucracy
 	icon = "nobles"
 	potential = {
-    		tag = XXA
+    	tag = XXA
 	}
 	trigger = {
 	}
@@ -360,7 +355,7 @@ restructure_senatorum_reform = { #Bureaucracy
 extend_primarchs_scourge_reform = {
 	icon = "guilliman"
 	potential = {
-    		tag = XXA
+    	tag = XXA
 	}
 	trigger = {
 	}
@@ -373,7 +368,7 @@ extend_primarchs_scourge_reform = {
 empower_departmenta_exacta_tithes_reform = {
 	icon = "administratum"
 	potential = {
-    		tag = XXA
+    	tag = XXA
 	}
 	trigger = {
 	}
@@ -386,7 +381,7 @@ empower_departmenta_exacta_tithes_reform = {
 empower_munitorum_reform = {
 	icon = "imperial_knight"
 	potential = {
-    		tag = XXA
+    	tag = XXA
 	}
 	trigger = {
 	}
@@ -399,7 +394,7 @@ empower_munitorum_reform = {
 enforce_codex_astartes_reform = { #Military Doctrines and Organization
 	icon = "astartes"
 	potential = {
-    		tag = XXA
+    	tag = XXA
 	}
 	trigger = {
 	}
@@ -414,7 +409,7 @@ enforce_codex_astartes_reform = { #Military Doctrines and Organization
 integrate_cadian_diaspora_reform = {
 	icon = "cadians"
 	potential = {
-    		tag = XXA
+    	tag = XXA
 	}
 	trigger = {
 	}
@@ -429,7 +424,7 @@ integrate_cadian_diaspora_reform = {
 indomitus_fleets_reform = {
 	icon = "imperial_fleet"
 	potential = {
-    		tag = XXA
+    	tag = XXA
 	}
 	trigger = {
 	}
@@ -444,7 +439,7 @@ indomitus_fleets_reform = {
 kryptman_reform = {
 	icon = "orks_and_tyranids"
 	potential = {
-    		tag = XXA
+    	tag = XXA
 	}
 	trigger = {
 	}
@@ -459,7 +454,7 @@ kryptman_reform = {
 solblades_reform = {
 	icon = "solblades"
 	potential = {
-    		tag = XXA
+    	tag = XXA
 	}
 	trigger = {
 	}

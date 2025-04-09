@@ -7,4 +7,8 @@ spriteTypes = {
 		name = "privilege_aged_paper_rosetta"
 		texturefile = "gfx/interface/privileges/privilege_aged_paper_rosetta.dds"
 	}
+	textSpriteType = {
+		name = "privilege_adeptus_ministorum"
+		texturefile = "gfx/interface/privileges/privilege_adeptus_ministorum.dds"
+	}
 }

@@ -27,17 +27,23 @@ on_startup={
 		3549={
 			add_canal = grendl_stars_portal
 		}
-		XXA={
+		XXA={#Imperium set up
 			set_estate_privilege = estate_eunuchs_palace_bureaucracy_privilege
 			set_estate_privilege = estate_eunuchs_delegate_provincial_administration_privilege
 			set_estate_privilege = estate_eunuchs_imperial_council_privilege
-			set_estate_privilege = estate_church_land_rights
 			set_estate_privilege = estate_nobles_land_rights
 			set_estate_privilege = estate_burghers_economical_boost
 			set_estate_privilege = estate_burghers_private_trade_fleets
 			set_estate_privilege = estate_inquisition_independent_action
 			set_estate_privilege = estate_inquisition_right_exterminatus
 			set_estate_privilege = estate_mechanicus_treaty_olympus
+			set_estate_privilege = estate_church_adeptus_ministorum
+			set_estate_privilege = estate_church_militant_apostolic
+			set_estate_privilege = estate_church_land_rights
+			add_estate_loyalty = {
+				estate = estate_eunuchs
+				loyalty = -15
+			}
 			hire_advisor = {
 				type = irthuhaemotalion
 				name = "Irthu Haemotalion"
@@ -56,7 +62,7 @@ on_startup={
 				skill = 1
 				culture = imperial_culture
 			}
-			add_corruption = 30
+			add_corruption = 50
 			
 		}
 		1 = {
@@ -131,7 +137,7 @@ on_startup={
 			}
 			change_controller = REB
 		}
-		XXB={ 
+		XXB={ #Mechanicus set-up
 			save_global_event_target_as = adeptus_mechanicus_tag 
 			if = {
 				limit={

@@ -11,3 +11,9 @@ estate_inquisition_independent_action_neutral = {
 estate_inquisition_independent_action_loyal = {
 	global_missionary_strength = 0.03
 }
+disloyal_subject_overlord_modifiers={
+	imperial_mandate = -0.01
+}
+disloyal_sector_overlord_modifiers={
+	imperial_mandate = -0.02
+}

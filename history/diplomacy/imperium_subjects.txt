@@ -367,6 +367,20 @@ dependency = {
 	start_date = 1000.8.20
 	end_date = 2100.8.3
 }
+dependency = {
+	subject_type = "autonomus_astartes_subject_type"
+	first = XXA
+	second = XSF
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "autonomus_astartes_subject_type"
+	first = XXA
+	second = XHH
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
 #
 dependency = {
 	subject_type = "imperial_world_subject_type"
@@ -621,10 +635,10 @@ dependency = {
 	start_date = 1000.8.20
 	end_date = 2100.8.3
 }
-$dependency = {
-$	subject_type = "nominal_imperial_world_subject_type"
-$	first = XXA
-$	second = XRA
-$	start_date = 1000.8.20
-$	end_date = 2100.8.3
-$}
+# dependency = {
+	# subject_type = "nominal_imperial_world_subject_type"
+	# first = XXA
+	# second = XRA
+	# start_date = 1000.8.20
+	# end_date = 2100.8.3
+# }

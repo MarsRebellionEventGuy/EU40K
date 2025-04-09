@@ -1855,6 +1855,12 @@ astartes_subject_type = {
 	modifier_overlord = {
 		modifier = astartes_base_overlord_modifiers
 	}
+	modifier_overlord = {
+		modifier = disloyal_subject_overlord_modifiers
+		trigger={
+			liberty_desire = 50
+		}
+	}
 }
 autonomus_astartes_subject_type = {
 	copy_from = astartes_subject_type
@@ -1914,6 +1920,12 @@ autonomus_astartes_subject_type = {
 	modifier_overlord = {
 		modifier = autonomus_astartes_base_overlord_modifiers
 	}
+	modifier_overlord = {
+		modifier = disloyal_subject_overlord_modifiers
+		trigger={
+			liberty_desire = 50
+		}
+	}
 }
 0_mechanicus_subject_type = {
 	copy_from = default
@@ -1935,7 +1947,7 @@ autonomus_astartes_subject_type = {
 
 	start_colonial_war = yes
 
-	takes_diplo_slot = no
+	takes_diplo_slot = yes
 	
 	place_relative_on_throne = no
 	can_send_missionary_to_subject = no
@@ -2102,6 +2114,12 @@ integrated_world_subject_type = {
 	modifier_overlord = {
 		modifier = soyurghal_base_overlord_modifiers
 	}
+	modifier_overlord = {
+		modifier = disloyal_subject_overlord_modifiers
+		trigger={
+			liberty_desire = 50
+		}
+	}
 }
 imperial_world_subject_type = {
 	copy_from = vassal
@@ -2176,6 +2194,12 @@ imperial_world_subject_type = {
 	}
 	modifier_overlord = {
 		modifier = soyurghal_base_overlord_modifiers
+	}
+	modifier_overlord = {
+		modifier = disloyal_subject_overlord_modifiers
+		trigger={
+			liberty_desire = 50
+		}
 	}
 }
 nominal_imperial_world_subject_type = {
@@ -2256,6 +2280,12 @@ nominal_imperial_world_subject_type = {
 	}
 	modifier_overlord = {
 		modifier = nominal_imperial_world_base_overlord_modifiers
+	}
+	modifier_overlord = {
+		modifier = disloyal_subject_overlord_modifiers
+		trigger={
+			liberty_desire = 50
+		}
 	}
 }
 
@@ -2385,6 +2415,12 @@ imperial_sector_subject = {
 			overlord = {
 				has_government_attribute = subject_tax_modifier_25
 			}
+		}
+	}
+	modifier_overlord = {
+		modifier = disloyal_sector_overlord_modifiers
+		trigger={
+			liberty_desire = 50
 		}
 	}
 	
