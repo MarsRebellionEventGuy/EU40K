@@ -337,7 +337,7 @@ estate_inquisition_right_exterminatus = {
 		
 	}
 	on_granted = {
-		
+		custom_tooltip = exterminatus_purge_discount
 	}
 	on_revoked = {
 		
@@ -350,7 +350,6 @@ estate_inquisition_right_exterminatus = {
 			always = yes
 		}
 		modifier = {
-			global_missionary_strength = 0.03
 			development_cost = 0.25
 			stability_cost_modifier = -0.25
 			global_autonomy = -0.10

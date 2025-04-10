@@ -7,10 +7,28 @@ custom_button = {
 		}
 	}
 	trigger = {
-		owner = { mil_power = 100 }
+		owner = { 
+			if = {
+				limit = { has_estate_privilege = estate_inquisition_right_exterminatus }
+				mil_power = 50
+			}
+			else = {
+				mil_power = 100 
+			}
+			TAG = FROM
+		}
 	}
 	effect = {
-		owner = { add_mil_power = -100 }
+		owner = { 
+			if = {
+				limit = { has_estate_privilege = estate_inquisition_right_exterminatus }
+				add_mil_power = -50
+				PREV = { add_devastation = 10 }
+			}
+			else = {
+				add_mil_power = -100
+			}
+		}
 		spawn_rebels = {
 			size = 4
 			leader = noble_zealot

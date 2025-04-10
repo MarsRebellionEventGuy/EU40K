@@ -159,6 +159,7 @@
  estate_inquisition_land_rights_desc: "In order to preform their important tasks protecting the Imperium, the Inquisition will need land to support themselves"
  estate_inquisition_right_exterminatus: "Right of ++EXTERMINATUS++"
  estate_inquisition_right_exterminatus_desc: "In order to fully fight the ruinous influence of the Heratic and the Xeno. The Inquisition must be granted the right of laying ++EXTERMINATUS++ upon fallen planets as needed."
+ exterminatus_purge_discount: "§YThe Purge Action requires less Military Power but causes Devastation§!"
  XXA_increased_ordo_machinum_overwatch: "Ordo Machinum Oversight Increased"
  estate_inquisition_increase_ordo_scriptorum: "Increased Ordo Scriptorum Reach"
  estate_inquisition_increase_ordo_scriptorum_desc: "The Ordo Scriptorum examines and investigates our massive records and requests that arrive to Terra from all over the galaxy. By increasing its reach we ensure that important messages reach the correct person in due time, and not get lost in a 800 page missive."
