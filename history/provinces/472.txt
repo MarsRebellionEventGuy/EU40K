@@ -1,9 +1,10 @@
 religion = ork
 culture = ork_culture
-base_tax = 3
-base_production = 4
-base_manpower = 7
+base_tax = 4
+base_production = 5
+base_manpower = 2
 add_core = XXF
 owner = XXF
 controller = XXF
 trade_goods = military_equipment
+is_city = no

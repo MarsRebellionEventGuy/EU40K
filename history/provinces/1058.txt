@@ -4,12 +4,12 @@ controller = XYP
 religion = mechanicus
 culture = mechanicus_culture
 base_tax = 3
-base_production = 6
-base_manpower = 3
+base_production = 4
+base_manpower = 6
 trade_goods = xeno_technology
-
-add_permanent_province_modifier = {
+add_permanent_province_modifier = { 
 	name = minor_forge_world_mod
 	duration = -1
 	desc = minor_forge_world_mod_desc
 }
+is_city = no

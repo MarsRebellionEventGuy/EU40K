@@ -1,10 +1,10 @@
 add_core = XAS
 owner = XAS
 controller = XAS
-religion = tyranid
+religion = genestealer
 culture = octarius_human_culture
-base_tax = 4
+base_tax = 3
 base_production = 4
-base_manpower = 3
+base_manpower = 2
 trade_goods = agricultural_goods
 is_city = no

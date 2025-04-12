@@ -96,7 +96,7 @@ galactic_core_region = {
 }
 octarius_region = { 
 	areas = { 
-		octarius new_badab kyro badab viridia badab_planet 
+		octarius new_badab kyro badab viridia badab_planet veloria_planet pankallis_area orrok kraidak gryga
 	}
 }
 charadon_region = { 

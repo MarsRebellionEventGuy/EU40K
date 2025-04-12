@@ -1,0 +1,9 @@
+owner = XYN
+add_core = XYN
+controller = XYN
+culture = octarius_human_culture
+religion = genestealer
+is_city = no
+base_tax = 5
+base_manpower = 2
+base_production = 3

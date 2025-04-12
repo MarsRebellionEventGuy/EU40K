@@ -3,8 +3,8 @@ native_ferocity = 6
 native_hostileness = 5
 religion = aeldari
 culture = exodite_culture
-base_tax = 6
+base_tax = 1
 base_production = 5
-base_manpower = 5
+base_manpower = 6
 trade_goods = wraithbone
-
+is_city = no

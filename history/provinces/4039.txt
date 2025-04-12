@@ -1,0 +1,10 @@
+owner = XYB
+culture = tyranid_culture
+religion = tyranid
+controller = XYB
+is_city = no
+add_core = XYN
+add_claim = XYB
+base_tax = 3
+base_manpower = 3
+base_production = 4

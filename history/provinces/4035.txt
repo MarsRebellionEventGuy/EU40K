@@ -1,0 +1,10 @@
+owner = XTJ
+add_core = XTJ
+controller = XTJ
+culture = ork_culture
+religion = genestealer
+is_city = no
+add_core = XYN
+base_tax = 1
+base_manpower = 4
+base_production = 4

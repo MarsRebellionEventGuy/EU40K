@@ -1,0 +1,8 @@
+add_core = XTG
+owner = XTG
+culture = octarius_human_culture
+religion = imperial_cult
+is_city = no
+base_tax = 4
+base_manpower = 3
+base_production = 4

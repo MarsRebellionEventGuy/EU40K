@@ -5,5 +5,6 @@ religion = xeno
 culture = xeno_culture
 base_tax = 4
 base_production = 5
-base_manpower = 5
+base_manpower = 3
 trade_goods = xeno_technology
+is_city = no

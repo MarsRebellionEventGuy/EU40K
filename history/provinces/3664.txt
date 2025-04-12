@@ -1,8 +1,8 @@
 add_core = XKZ
 owner = XKZ
-base_tax = 4
-base_manpower = 5
-base_production = 3
+base_tax = 3
+base_manpower = 2
+base_production = 6
 culture = heretic_astartes_culture
 religion = chaos_undivided
 controller = XKZ

@@ -3,13 +3,13 @@ owner = XBX
 controller = XBX
 religion = mechanicus
 culture = mechanicus_culture
-base_tax = 3
-base_production = 5
-base_manpower = 3
+base_tax = 6
+base_production = 3
+base_manpower = 6
 trade_goods = archaotech
-
-add_permanent_province_modifier = {
+add_permanent_province_modifier = { 
 	name = minor_forge_world_mod
 	duration = -1
 	desc = minor_forge_world_mod_desc
 }
+is_city = no

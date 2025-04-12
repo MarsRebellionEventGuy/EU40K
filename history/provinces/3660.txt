@@ -1,8 +1,8 @@
 culture = drukhari_culture
 religion = dark_muses
 base_tax = 4
-base_production = 4
-base_manpower = 6
+base_production = 1
+base_manpower = 4
 trade_goods = scientific_equipment
 is_city = yes
 hre = yes

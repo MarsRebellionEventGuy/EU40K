@@ -1,0 +1,9 @@
+add_core = XYN
+owner = XYN
+base_tax = 5
+base_manpower = 1
+base_production = 2
+culture = ork_culture
+religion = genestealer
+controller = XYN
+is_city = no

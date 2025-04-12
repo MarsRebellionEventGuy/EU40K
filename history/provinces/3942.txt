@@ -1,9 +1,9 @@
-add_core = XXA
-owner = XXA
+add_core = AAQ
+owner = AAQ
 culture = human_culture
 religion = imperial_cult
-controller = XXA
-base_tax = 2
+controller = AAQ
+base_tax = 5
 base_production = 4
-base_manpower = 2
+base_manpower = 3
 is_city = yes

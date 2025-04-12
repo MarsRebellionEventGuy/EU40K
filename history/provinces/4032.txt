@@ -1,0 +1,11 @@
+add_core = XTF
+owner = XYB
+culture = exodite_culture
+religion = aeldari
+controller = XYB
+is_city = no
+add_claim = XYB
+add_claim = XYN
+base_tax = 3
+base_manpower = 4
+base_production = 5

@@ -5,5 +5,6 @@ religion = greater_good
 culture = earth_caste_culture
 base_tax = 2
 base_production = 4
-base_manpower = 3
+base_manpower = 4
 trade_goods = military_equipment
+is_city = no

@@ -3,8 +3,8 @@ owner = XOR
 controller = XOR
 religion = mechanicus
 culture = mechanicus_culture
-base_tax = 2
-base_production = 4
+base_tax = 4
+base_production = 5
 base_manpower = 3
 trade_goods = consumer_goods
-
+is_city = no

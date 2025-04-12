@@ -1,7 +1,7 @@
 religion = imperial_cult
 culture = macharia_human_culture
-base_tax = 7
-base_production = 7
-base_manpower = 5
+base_tax = 4
+base_production = 6
+base_manpower = 4
 trade_goods = luxury_goods
 is_city = no

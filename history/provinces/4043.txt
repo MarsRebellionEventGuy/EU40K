@@ -1,0 +1,9 @@
+add_core = XYN
+owner = XYN
+base_tax = 3
+base_manpower = 4
+base_production = 3
+culture = ork_culture
+religion = ork
+controller = XYN
+is_city = no

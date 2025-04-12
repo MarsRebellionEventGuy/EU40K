@@ -3,13 +3,13 @@ owner = XBV
 controller = XBV
 religion = mechanicus
 culture = mechanicus_culture
-base_tax = 1
-base_production = 4
+base_tax = 5
+base_production = 1
 base_manpower = 3
 trade_goods = military_equipment
-
-add_permanent_province_modifier = {
+add_permanent_province_modifier = { 
 	name = forge_world_1_mod
 	duration = -1
 	desc = forge_world_1_mod_desc
 }
+is_city = no

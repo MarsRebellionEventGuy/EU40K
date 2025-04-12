@@ -3,12 +3,11 @@ native_ferocity = 7
 native_hostileness = 5
 religion = imperial_cult
 culture = salient_human_culture
-base_tax = 5
-base_production = 5
-base_manpower = 3
+base_tax = 6
+base_production = 3
+base_manpower = 5
 is_city = no
-
-add_permanent_province_modifier = {
+add_permanent_province_modifier = { 
 	name = fallen_forge_world_mod
 	duration = -1
 	desc = fallen_forge_world_mod_desc

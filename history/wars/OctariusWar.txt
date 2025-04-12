@@ -1,0 +1,18 @@
+name = "Octarius War"
+war_goal = {
+	type = take_capital_imperial
+	casus_belli = cb_annex
+	province = 1069
+}
+
+1999.1.1 = {
+	add_attacker = XYB
+	add_defender = XYN
+	add_defender = XZT
+}
+
+2001.1.1 = {
+	rem_attacker = XYB
+	rem_defender = XYN
+	rem_defender = XZT
+}

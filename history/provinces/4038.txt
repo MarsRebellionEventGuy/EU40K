@@ -1,0 +1,9 @@
+add_core = XTH
+owner = XTH
+culture = octarius_human_culture
+religion = imperial_cult
+add_claim = XYN
+is_city = no
+base_tax = 4
+base_manpower = 6
+base_production = 2

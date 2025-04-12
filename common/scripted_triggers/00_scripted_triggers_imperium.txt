@@ -997,6 +997,15 @@ controls_forge_world_trigger = {
 				}
 			}
 		}
+		4024={	
+			custom_trigger_tooltip={
+				tooltip = PREV_OWNS_PLANET
+				OR={
+					owned_by_subject_of = PREV
+					owned_by = PREV
+				}
+			}
+		}
 }
 
 has_5_forge_worlds_trigger = {

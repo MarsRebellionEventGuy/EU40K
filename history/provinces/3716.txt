@@ -1,5 +1,6 @@
-base_tax = 1
-base_manpower = 1
-base_production = 1
+base_tax = 4
+base_manpower = 6
+base_production = 3
 culture = harlequin_culture
 religion = cegorach
+is_city = no

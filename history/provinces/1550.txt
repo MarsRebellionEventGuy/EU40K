@@ -3,13 +3,13 @@ owner = XYB
 controller = XYB
 religion = tyranid
 culture = tyranid_culture
-base_tax = 1
+base_tax = 4
 base_production = 3
-base_manpower = 2
+base_manpower = 6
 trade_goods = military_equipment
-
-add_permanent_province_modifier = {
+add_permanent_province_modifier = { 
 	name = fallen_major_forge_world_mod
 	duration = -1
 	desc = fallen_major_forge_world_mod_desc
 }
+is_city = no

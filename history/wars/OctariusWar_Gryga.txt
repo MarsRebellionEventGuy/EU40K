@@ -1,0 +1,16 @@
+name = "Octarius War - Gryga XIII"
+war_goal = {
+	type = take_border
+	casus_belli = cb_border_war
+	province = 3309
+}
+
+1999.1.1 = {
+	add_attacker = XYN
+	add_defender = XTH
+}
+
+2001.1.1 = {
+	rem_attacker = XYN
+	rem_defender = XTH
+}
