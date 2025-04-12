@@ -661,13 +661,10 @@ invite_into_imperium = {
 		}
 	}
 	on_accept = {
-		if={
+		if={#Astartes Chapter
 			limit={
 				FROM={
-					OR={
-						has_reform = astartes_reform
-						has_reform = death_watch_reform
-					}
+					has_reform = astartes_reform
 				}
 			}
 			create_subject = {
@@ -681,7 +678,26 @@ invite_into_imperium = {
 				}
 			}
 		}
-		else={
+		else_if={#Deathwatch Hold
+			limit={
+				FROM={
+					has_reform = death_watch_reform
+				}
+			}
+			event_target:inquisition_tag={
+				create_subject = {
+					subject_type = deathwatch_subject_type
+					subject = FROM
+				}
+			}
+			3942={
+				change_variable = {
+					which = InquisitionNbDeathwatch
+					value = 1
+				}
+			}
+		}
+		else={#Independant World
 			create_subject = {
 				subject_type = nominal_imperial_world_subject_type
 				subject = FROM
@@ -900,6 +916,20 @@ invite_into_imperium = {
 				value = -0.1
 			}
 		}
+		add_entry = {
+			name = DIPLO_INDEPENDANT_DESIRE_TT
+			limit = {
+				FROM = { has_reform = independant_imperial_governorate_reform }
+			}
+			export_to_variable = {
+				variable_name = ai_value
+				value = 1
+			}
+			multiply_variable = {
+				which = ai_value
+				value = -40
+			}
+		}
 	}
 }
 
@@ -978,10 +1008,7 @@ join_imperium = {
 			if={
 				limit={
 					ROOT={
-						OR={
-							has_reform = astartes_reform
-							has_reform = death_watch_reform
-						}
+						has_reform = astartes_reform
 					}
 				}
 				create_subject = {
@@ -991,6 +1018,25 @@ join_imperium = {
 				1={
 					change_variable = {
 						which = ImperiumNbIndAstartes
+						value = 1
+					}
+				}
+			}
+			else_if={#Deathwatch Hold
+				limit={
+					ROOT={
+						has_reform = death_watch_reform
+					}
+				}
+				event_target:inquisition_tag={
+					create_subject = {
+						subject_type = deathwatch_subject_type
+						subject = ROOT
+					}
+				}
+				3942={
+					change_variable = {
+						which = InquisitionNbDeathwatch
 						value = 1
 					}
 				}

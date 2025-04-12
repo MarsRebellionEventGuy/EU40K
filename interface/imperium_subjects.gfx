@@ -83,4 +83,40 @@ spriteTypes = {
 		name = "GFX_icon_diplomacy_am_imperial_sector_subject_type"
 		texturefile = "gfx/interface/icon_am_imperial_sector_subject.dds"
 	}
+	spriteType = {
+		name = "GFX_icon_inquisition_subject_type"
+		texturefile = "gfx/interface/icon_inquisition_subject.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_diplomacy_lead_inquisition_subject_type"
+		texturefile = "gfx/interface/icon_diplomacy_lead_inquisition.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_diplomacy_am_inquisition_subject_type"
+		texturefile = "gfx/interface/icon_diplomacy_am_inquisition.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_deathwatch_subject_type"
+		texturefile = "gfx/interface/icon_deathwatch_subject.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_diplomacy_lead_deathwatch_subject_type"
+		texturefile = "gfx/interface/icon_diplomacy_lead_deathwatch.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_diplomacy_am_deathwatch_subject_type"
+		texturefile = "gfx/interface/icon_diplomacy_am_deathwatch.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_ministorum_subject_type"
+		texturefile = "gfx/interface/icon_ministorum_subject.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_diplomacy_lead_ministorum_subject_type"
+		texturefile = "gfx/interface/icon_diplomacy_lead_ministorum.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_diplomacy_am_ministorum_subject_type"
+		texturefile = "gfx/interface/icon_diplomacy_am_ministorum.dds"
+	}
 }

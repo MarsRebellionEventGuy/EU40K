@@ -67,7 +67,67 @@ imperial_governorate_reform = {
 	legacy_equivalent = imperial_governorate
 	potential = {
 		NOT = { tag = XXA }
-		primary_culture = human_culture
+		culture_group = imperial_culture_group
+		NOT={primary_culture = knight_culture}
+		NOT={primary_culture = mechanicus_culture}
+		NOT={primary_culture = loyalist_astartes_culture}
+	}
+	trigger = {
+	}
+
+	custom_attributes = {
+		royal_marriage = no
+		queen = no
+		heir = no
+	}
+
+	modifiers = {
+		stability_cost_modifier = -0.1
+		no_stability_loss_on_monarch_death = yes
+	}
+
+	ai = {
+		factor = 0 # AI should never pick this
+	}
+
+	removed_effect = {
+		country_event = { id = dutch_republic.33 }
+	}
+
+	conditional = {
+		allow = { has_dlc = "Res Publica" }
+		queen = no
+		heir = no
+		duration = 10
+		has_term_election = yes
+		is_eligible_for_hre_emperor = no
+		states_general_mechanic = {
+			statists = {
+				all_estate_loyalty_equilibrium = 0.10
+				global_tax_modifier = 0.10
+				legitimacy = -0.5
+			}
+
+			monarchists = {
+				harsh_treatment_cost = -0.33
+				land_forcelimit_modifier = 0.10
+				naval_forcelimit_modifier = 0.10
+				legitimacy = 0.5
+			}
+		}
+	}
+}
+independant_imperial_governorate_reform = {
+	icon = "imperial_governorate"
+	allow_normal_conversion = no
+	legacy_equivalent = imperial_governorate
+	potential = {
+		NOT = { tag = XXA }
+		NOT={is_subject_of = XXA}
+		culture_group = imperial_culture_group
+		NOT={primary_culture = knight_culture}
+		NOT={primary_culture = mechanicus_culture}
+		NOT={primary_culture = loyalist_astartes_culture}
 	}
 	trigger = {
 	}

@@ -199,7 +199,7 @@ XGF_ideas = {
 	}
 }
 
-XTE_ideas = {
+AAC_ideas = {
 	start = {
 		land_morale = 0.20
 		technology_cost = -0.10		
@@ -210,29 +210,29 @@ XTE_ideas = {
 	}	
 
 	trigger = {
-		tag = XTE
+		tag = AAC
 	}
 	free = yes
 	
-	XTE_ideas_1 = {
+	AAC_ideas_1 = {
 		trade_efficiency = 0.10			
 	}
-	XTE_ideas_2 = {
+	AAC_ideas_2 = {
 		production_efficiency = 0.15	
 	}
-	XTE_ideas_3 = {
+	AAC_ideas_3 = {
 		diplomatic_reputation = 2		
 	}
-	XTE_ideas_4 = {
+	AAC_ideas_4 = {
 		discipline = 0.075				
 	}
-	XTE_ideas_5 = {
+	AAC_ideas_5 = {
 		diplomats = 2					
 	}
-	XTE_ideas_6 = {
+	AAC_ideas_6 = {
 		administrative_efficiency = 0.05	
 	}
-	XTE_ideas_7 = {
+	AAC_ideas_7 = {
 		tolerance_heathen = 3			
 	}
 }
@@ -249,7 +249,7 @@ Necron_ideas = {
 
 	trigger = {
 		culture_group = necron_culture_group
-		NOT = { tag = XTE }
+		NOT = { tag = AAC }
 		NOT = { tag = XAA }
 		NOT = { tag = XLS }
 		NOT = { tag = XEV }

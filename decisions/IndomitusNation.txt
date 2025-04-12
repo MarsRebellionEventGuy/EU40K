@@ -117,11 +117,11 @@ country_decisions = {
 			}
 		}
 		effect = {
-          	 	change_tag = XTE					
+          	change_tag = AAC					
 			swap_non_generic_missions = yes
 			on_change_tag_effect = yes
-           		 government_rank = 3 
-            		change_adm = 1
+           	government_rank = 3 
+            change_adm = 1
 			change_dip = 1
 			change_mil = 1
 			set_country_flag = indomitus_formed_country
@@ -137,7 +137,7 @@ country_decisions = {
 			if = {
 				limit = {
 					has_custom_ideas = no
-					NOT = { has_idea_group = XTE_ideas }
+					NOT = { has_idea_group = AAC_ideas }
 				}
 				country_event = { id = ideagroups.1 } #Swap Ideas
 			}

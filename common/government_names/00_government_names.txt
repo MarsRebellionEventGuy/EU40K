@@ -138,12 +138,7 @@ mechanicus_mars_localisation = {
 	}
 
 	trigger = {
-		tag = XXB
-		OR={
-			has_reform = minor_forgeworld_reform
-			has_reform = forgeworld_reform
-			has_reform = mars_the_red_planet_reform
-		}
+		tag = event_target:adeptus_mechanicus_tag
 	}
 }
 
@@ -191,7 +186,7 @@ mechanicus_localisation = {
 	}
 
 	trigger = {
-		NOT = { tag = XXB }
+		NOT = { tag = event_target:adeptus_mechanicus_tag }
 		OR={
 			has_reform = minor_forgeworld_reform
 			has_reform = forgeworld_reform
@@ -292,7 +287,10 @@ imperial_governorate_localisation = {
 	}
 
 	trigger = {
-		has_reform = imperial_governorate_reform
+		OR={
+			has_reform = imperial_governorate_reform
+			has_reform = independant_imperial_governorate_reform
+		}
 	}
 }
 

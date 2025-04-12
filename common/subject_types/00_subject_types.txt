@@ -56,13 +56,16 @@ mongol_brother_realm = {}
 integrated_personal_union = {}
 soyurghal_subject_type = {}
 
+0_mechanicus_subject_type = {}
+0_ministorum_subject_type = {}
+0_inquisition_subject_type = {}
 astartes_subject_type = {}
 autonomus_astartes_subject_type = {}
-0_mechanicus_subject_type = {}
+deathwatch_subject_type = {}
+shield_company_subject_type = {}
 integrated_world_subject_type = {}
 imperial_world_subject_type = {}
 nominal_imperial_world_subject_type = {}
-shield_company_subject_type = {}
 imperial_sector_subject = {}
 
 tau_auxiliary = {}
@@ -1800,133 +1803,6 @@ dummy =
 {
 	copy_from = default
 }
-
-astartes_subject_type = {
-	copy_from = vassal
-	count = tributary_state
-
-	# Graphics:
-	sprite = GFX_icon_astartes_subject_type
-	diplomacy_overlord_sprite = GFX_icon_diplomacy_lead_astartes_subject_type
-	diplomacy_subject_sprite = GFX_icon_diplomacy_am_astartes_subject_type
-
-	# Properties:
-	created_by_overlord = yes
-	extend_trading_range = yes
-
-	takes_diplo_slot = no
-	annex_cost_per_development = 16.0
-	
-	place_relative_on_throne = no
-	can_be_annexed = no
-	
-	relative_power_class = 1 
-	
-	pays_overlord = 0
-	forcelimit_to_overlord = 0.1
-	naval_forcelimit_to_overlord = 0	
-	manpower_to_overlord = 0.1
-	sailors_to_overlord = 0
-	military_focus = 1.0
-	
-	can_fight = {
-		independent_nations = yes
-		other_overlord = all
-	}
-	can_rival = {
-		independent_nations = yes
-		other_overlord = all
-	}
-	can_ally = {
-		same_overlord = all
-		independent_nations = yes
-		other_overlord = all
-	}
-	can_marry = {
-		same_overlord = all
-		independent_nations = yes
-		other_overlord = all
-	}
-	modifier_overlord = clear
-	modifier_subject = clear
-	modifier_subject = {
-		modifier = astartes_base_modifiers
-	}
-	modifier_overlord = {
-		modifier = astartes_base_overlord_modifiers
-	}
-	modifier_overlord = {
-		modifier = disloyal_subject_overlord_modifiers
-		trigger={
-			liberty_desire = 50
-		}
-	}
-}
-autonomus_astartes_subject_type = {
-	copy_from = astartes_subject_type
-	count = tributary_state
-
-	# Graphics:
-	sprite = GFX_icon_autonomus_astartes_subject_type
-	diplomacy_overlord_sprite = GFX_icon_diplomacy_lead_autonomus_astartes_subject_type
-	diplomacy_subject_sprite = GFX_icon_diplomacy_am_autonomus_astartes_subject_type
-
-	# Properties:
-	can_be_annexed = no
-	overlord_protects_external = no
-	overlord_enforce_peace_attacking = yes	
-	joins_overlords_wars = no
-	
-	favors_cost_to_join_offensive_wars = 15
-	
-	relative_power_class = 1 
-	
-	pays_overlord = 0
-	forcelimit_to_overlord = 0
-	naval_forcelimit_to_overlord = 0	
-	manpower_to_overlord = 0.1
-	sailors_to_overlord = 0
-	military_focus = 1.0
-	base_liberty_desire = -10
-	
-	subsidize_armies = yes
-	scutage = no
-	send_officers = yes
-	send_additional_troops = yes
-	
-	can_fight = {
-		independent_nations = yes
-		other_overlord = all
-	}
-	can_rival = {
-		independent_nations = yes
-		other_overlord = all
-	}
-	can_ally = {
-		same_overlord = all
-		independent_nations = yes
-		other_overlord = all
-	}
-	can_marry = {
-		same_overlord = all
-		independent_nations = yes
-		other_overlord = all
-	}
-	modifier_overlord = clear
-	modifier_subject = clear
-	modifier_subject = {
-		modifier = autonomus_astartes_base_modifiers
-	}
-	modifier_overlord = {
-		modifier = autonomus_astartes_base_overlord_modifiers
-	}
-	modifier_overlord = {
-		modifier = disloyal_subject_overlord_modifiers
-		trigger={
-			liberty_desire = 50
-		}
-	}
-}
 0_mechanicus_subject_type = {
 	copy_from = default
 	count = tributary_state
@@ -2053,6 +1929,150 @@ autonomus_astartes_subject_type = {
 	
 	overlord_opinion_modifier = is_AM_overlord
 	subject_opinion_modifier = is_AM_subject
+}
+0_inquisition_subject_type = {
+	copy_from = default
+	count = tributary_state
+
+	# Graphics:
+	sprite = GFX_icon_inquisition_subject_type
+	diplomacy_overlord_sprite = GFX_icon_diplomacy_lead_inquisition_subject_type
+	diplomacy_subject_sprite = GFX_icon_diplomacy_am_inquisition_subject_type
+
+	# Properties:
+	extend_trading_range = yes
+	joins_overlords_wars = no
+	can_be_co_belligerented =  yes
+	
+	can_have_subjects_of_other_types = yes
+	overlord_enforce_peace_attacking = yes	
+	can_transfer_in_peace = no
+
+	start_colonial_war = yes
+
+	takes_diplo_slot = yes
+	
+	place_relative_on_throne = no
+	can_send_missionary_to_subject = no
+	can_concentrate_development = no
+	can_have_great_projects_moved_by_overlord = no
+	
+	liberty_desire_development_ratio = 0.01
+	base_liberty_desire = 10
+	
+	relative_power_class = 0
+	
+	military_focus = 1.0
+	
+	support_loyalists = yes
+	enforce_religion = no
+	siphon_income = yes
+	demand_artifacts = yes
+	block_settlement_growth = no
+	allow_settlement_growth = no
+	grant_administrative_autonomy = yes
+	
+	can_fight = {
+		independent_nations = yes
+		other_overlord = all
+	}
+	can_rival = {
+		independent_nations = yes
+		other_overlord = all
+	}
+	can_ally = {
+		same_overlord = all
+		independent_nations = yes
+		other_overlord = all
+	}
+	can_marry = {
+		same_overlord = all
+		independent_nations = yes
+		other_overlord = all
+	}
+	modifier_overlord = clear
+	modifier_subject = clear
+	# modifier_subject = {
+		# modifier = mechanicus_base_modifiers
+	# }
+	# modifier_overlord = {
+		# modifier = mechanicus_base_overlord_modifiers
+	# }
+	
+	#overlord_opinion_modifier = is_AM_overlord
+	#subject_opinion_modifier = is_AM_subject
+}
+0_ministorum_subject_type = {
+	copy_from = default
+	count = tributary_state
+
+	# Graphics:
+	sprite = GFX_icon_ministorum_subject_type
+	diplomacy_overlord_sprite = GFX_icon_diplomacy_lead_ministorum_subject_type
+	diplomacy_subject_sprite = GFX_icon_diplomacy_am_ministorum_subject_type
+
+	# Properties:
+	extend_trading_range = yes
+	joins_overlords_wars = no
+	can_be_co_belligerented =  yes
+	
+	can_have_subjects_of_other_types = yes
+	overlord_enforce_peace_attacking = yes	
+	can_transfer_in_peace = no
+
+	start_colonial_war = yes
+
+	takes_diplo_slot = yes
+	
+	place_relative_on_throne = no
+	can_send_missionary_to_subject = no
+	can_concentrate_development = no
+	can_have_great_projects_moved_by_overlord = no
+	
+	liberty_desire_development_ratio = 0.01
+	base_liberty_desire = 10
+	
+	relative_power_class = 0
+	
+	military_focus = 1.0
+	
+	support_loyalists = yes
+	enforce_religion = no
+	siphon_income = yes
+	demand_artifacts = yes
+	block_settlement_growth = no
+	allow_settlement_growth = no
+	grant_administrative_autonomy = yes
+	
+	can_fight = {
+		independent_nations = yes
+		other_overlord = all
+	}
+	can_rival = {
+		independent_nations = yes
+		other_overlord = all
+	}
+	can_ally = {
+		same_overlord = all
+		independent_nations = yes
+		other_overlord = all
+	}
+	can_marry = {
+		same_overlord = all
+		independent_nations = yes
+		other_overlord = all
+	}
+	modifier_overlord = clear
+	modifier_subject = clear
+	# modifier_subject = {
+		# modifier = mechanicus_base_modifiers
+	# }
+	# modifier_overlord = {
+		# modifier = mechanicus_base_overlord_modifiers
+	# }
+	
+	#overlord_opinion_modifier = is_AM_overlord
+	#subject_opinion_modifier = is_AM_subject
 }
 integrated_world_subject_type = {
 	copy_from = vassal
@@ -2289,6 +2309,133 @@ nominal_imperial_world_subject_type = {
 	}
 }
 
+astartes_subject_type = {
+	copy_from = vassal
+	count = tributary_state
+
+	# Graphics:
+	sprite = GFX_icon_astartes_subject_type
+	diplomacy_overlord_sprite = GFX_icon_diplomacy_lead_astartes_subject_type
+	diplomacy_subject_sprite = GFX_icon_diplomacy_am_astartes_subject_type
+
+	# Properties:
+	created_by_overlord = yes
+	extend_trading_range = yes
+
+	takes_diplo_slot = no
+	annex_cost_per_development = 16.0
+	
+	place_relative_on_throne = no
+	can_be_annexed = no
+	
+	relative_power_class = 1 
+	
+	pays_overlord = 0
+	forcelimit_to_overlord = 0.1
+	naval_forcelimit_to_overlord = 0	
+	manpower_to_overlord = 0.1
+	sailors_to_overlord = 0
+	military_focus = 1.0
+	
+	can_fight = {
+		independent_nations = yes
+		other_overlord = all
+	}
+	can_rival = {
+		independent_nations = yes
+		other_overlord = all
+	}
+	can_ally = {
+		same_overlord = all
+		independent_nations = yes
+		other_overlord = all
+	}
+	can_marry = {
+		same_overlord = all
+		independent_nations = yes
+		other_overlord = all
+	}
+	modifier_overlord = clear
+	modifier_subject = clear
+	modifier_subject = {
+		modifier = astartes_base_modifiers
+	}
+	modifier_overlord = {
+		modifier = astartes_base_overlord_modifiers
+	}
+	modifier_overlord = {
+		modifier = disloyal_subject_overlord_modifiers
+		trigger={
+			liberty_desire = 50
+		}
+	}
+}
+autonomus_astartes_subject_type = {
+	copy_from = astartes_subject_type
+	count = tributary_state
+
+	# Graphics:
+	sprite = GFX_icon_autonomus_astartes_subject_type
+	diplomacy_overlord_sprite = GFX_icon_diplomacy_lead_autonomus_astartes_subject_type
+	diplomacy_subject_sprite = GFX_icon_diplomacy_am_autonomus_astartes_subject_type
+
+	# Properties:
+	can_be_annexed = no
+	overlord_protects_external = no
+	overlord_enforce_peace_attacking = yes	
+	joins_overlords_wars = no
+	
+	favors_cost_to_join_offensive_wars = 15
+	
+	relative_power_class = 1 
+	
+	pays_overlord = 0
+	forcelimit_to_overlord = 0
+	naval_forcelimit_to_overlord = 0	
+	manpower_to_overlord = 0.1
+	sailors_to_overlord = 0
+	military_focus = 1.0
+	base_liberty_desire = -10
+	
+	subsidize_armies = yes
+	scutage = no
+	send_officers = yes
+	send_additional_troops = yes
+	
+	can_fight = {
+		independent_nations = yes
+		other_overlord = all
+	}
+	can_rival = {
+		independent_nations = yes
+		other_overlord = all
+	}
+	can_ally = {
+		same_overlord = all
+		independent_nations = yes
+		other_overlord = all
+	}
+	can_marry = {
+		same_overlord = all
+		independent_nations = yes
+		other_overlord = all
+	}
+	modifier_overlord = clear
+	modifier_subject = clear
+	modifier_subject = {
+		modifier = autonomus_astartes_base_modifiers
+	}
+	modifier_overlord = {
+		modifier = autonomus_astartes_base_overlord_modifiers
+	}
+	modifier_overlord = {
+		modifier = disloyal_subject_overlord_modifiers
+		trigger={
+			liberty_desire = 50
+		}
+	}
+}
+
 shield_company_subject_type = {
 	copy_from = astartes_subject_type
 	count = tributary_state
@@ -2297,6 +2444,55 @@ shield_company_subject_type = {
 	sprite = GFX_icon_astartes_subject_type
 	diplomacy_overlord_sprite = GFX_icon_diplomacy_lead_astartes_subject_type
 	diplomacy_subject_sprite = GFX_icon_diplomacy_am_astartes_subject_type
+
+	# Properties:
+	created_by_overlord = no
+	overlord_enforce_peace_attacking = yes
+	
+	relative_power_class = 1 
+	
+	pays_overlord = 0
+	forcelimit_to_overlord = 0.1
+	naval_forcelimit_to_overlord = 0	
+	manpower_to_overlord = 0.1
+	sailors_to_overlord = 0
+	military_focus = 1.0
+	
+	can_fight = {
+		independent_nations = yes
+		other_overlord = all
+	}
+	can_rival = {
+		independent_nations = yes
+		other_overlord = all
+	}
+	can_ally = {
+		same_overlord = all
+		independent_nations = yes
+		other_overlord = all
+	}
+	can_marry = {
+		same_overlord = all
+		independent_nations = yes
+		other_overlord = all
+	}
+	modifier_overlord = clear
+	modifier_subject = clear
+	modifier_subject = {
+		modifier = astartes_base_modifiers
+	}
+	modifier_overlord = {
+		modifier = astartes_base_overlord_modifiers
+	}
+}
+deathwatch_subject_type = {
+	copy_from = astartes_subject_type
+	count = tributary_state
+
+	# Graphics:
+	sprite = GFX_icon_deathwatch_subject_type
+	diplomacy_overlord_sprite = GFX_icon_diplomacy_lead_deathwatch_subject_type
+	diplomacy_subject_sprite = GFX_icon_diplomacy_am_deathwatch_subject_type
 
 	# Properties:
 	created_by_overlord = no

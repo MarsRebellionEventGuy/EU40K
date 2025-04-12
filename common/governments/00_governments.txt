@@ -327,6 +327,8 @@ theocracy = {
 				forgeworld_reform
 				xenarite_cult_reform
 				mars_the_red_planet_reform
+				holy_synod_reform
+				lord_inquisitors_reform
 			}
 		}
 		internal_vs_external_mission = {

@@ -1,5 +1,5 @@
 government = monarchy
-add_government_reform = imperial_governorate_reform
+add_government_reform = independant_imperial_governorate_reform
 government_rank = 2
 technology_group = imperial
 religion = imperial_cult

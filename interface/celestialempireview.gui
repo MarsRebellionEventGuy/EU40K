@@ -23,7 +23,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "celestial_label"
-			position = { x = 76 y = 58 }
+			position = { x = 136 y = 58 }
 			format = centre
 			textureFile = ""
 			font = "vic_29"
@@ -35,7 +35,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "emperor_label"
-			position = { x = 178 y = 245 }
+			position = { x = 330 y = 245 }
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 0 y = 0}
@@ -48,7 +48,7 @@ guiTypes = {
 		#### AUTHORITY
 		instantTextBoxType = {
 			name = "influence_label"
-			position = { x = 474 y = 84 }
+			position = { x = 65 y = 89 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 0}
@@ -60,7 +60,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "influence_value"
-			position = { x = 536 y = 120 }
+			position = { x = 111 y = 123 }
 			textureFile = ""
 			font = "vic_29"
 			borderSize = {x = 0 y = 0}
@@ -73,7 +73,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "influence_growth"
-			position = { x = 536 y = 160 }
+			position = { x = 111 y = 163 }
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 0 y = 0}
@@ -88,7 +88,7 @@ guiTypes = {
 		{
 			name ="emperor_shield"
 			quadTextureSprite = "GFX_shield_thin"
-			position = { x= 261 y = 133 }
+			position = { x= 399 y = 133 }
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
@@ -100,7 +100,7 @@ guiTypes = {
 		{
 			name ="benefits_icon"
 			spriteType = "GFX_emperor_of_china_icon"
-			position = { x= 220 y = 207 }
+			position = { x= 360 y = 207 }
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -108,20 +108,20 @@ guiTypes = {
 		{
 			name ="diplomatic_actions_icon"
 			spriteType = "GFX_celestial_more_dip_actions_icon"
-			position = { x= 362 y = 207 }
+			position = { x= 502 y = 207 }
 			Orientation = "UPPER_LEFT"
 		}
 
 		iconType = {
 			name = "meritocracy_icon"
 			spriteType ="GFX_icon_legitimacy"	
-			position = { x= 407 y = 208 }
+			position = { x= 547 y = 208 }
 			frame = 5
 		}		
 		
 		instantTextBoxType = {
 			name = "meritocracy_value"
-			position = { x = 425 y = 211 }
+			position = { x = 565 y = 211 }
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 4 y = 0}
@@ -134,13 +134,13 @@ guiTypes = {
 		iconType = {
 			name = "throne_integrity_icon"
 			spriteType ="GFX_throne_integrity_icon"	
-			position = { x= 122 y = 208 }
+			position = { x= 262 y = 208 }
 			scripted = yes
 		}		
 		
 		instantTextBoxType = {
 			name = "throne_integrity_value"
-			position = { x = 140 y = 211 }
+			position = { x = 280 y = 211 }
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 4 y = 0}
@@ -154,7 +154,7 @@ guiTypes = {
 		{
 			name ="imperium_TI_increase_blackship_loads"
 			quadTextureSprite = "GFX_increase_blackship_loads_icon"
-			position = { x= 105 y = 285 }
+			position = { x= 405 y = 285 }
 			tooltip = ""
 			tooltipText ="imperium_TI_increase_blackship_loads_tt"
 			delayedTooltipText = ""
@@ -166,7 +166,7 @@ guiTypes = {
 		{
 			name ="imperium_TI_convert_STCs"
 			quadTextureSprite = "GFX_convert_STC_icon"
-			position = { x= 105 y = 325 }
+			position = { x= 445 y = 285 }
 			tooltip = ""
 			tooltipText ="imperium_TI_convert_STCs_tt"
 			delayedTooltipText = ""
@@ -175,184 +175,164 @@ guiTypes = {
 			scripted = yes
 		}
 		
-		iconType = 
-		{
+		iconType = {
 			name ="primarch_1_portrait_icon"
 			quadTextureSprite = "GFX_eoc_pimarch_1_portrait_icon"
-			position = { x= 220 y = 290 }
+			position = { x= 110 y = 320 }
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
 			scripted = yes
 		}
-		iconType = 
-		{
+		iconType = {
 			name ="primarch_2_portrait_icon"
 			quadTextureSprite = "GFX_eoc_pimarch_2_portrait_icon"
-			position = { x= 246 y = 290 }
+			position = { x= 136 y = 320 }
 			#tooltipText ="active_primarch_list_tt"
 			#delayedTooltipText = ""
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
 			scripted = yes
 		}
-		iconType = 
-		{
+		iconType = {
 			name ="primarch_3_portrait_icon"
 			quadTextureSprite = "GFX_eoc_pimarch_3_portrait_icon"
-			position = { x= 272 y = 290 }
+			position = { x= 162 y = 320 }
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
 			scripted = yes
 		}
-		iconType = 
-		{
+		iconType = {
 			name ="primarch_4_portrait_icon"
 			quadTextureSprite = "GFX_eoc_pimarch_4_portrait_icon"
-			position = { x= 298 y = 290 }
+			position = { x= 188 y = 320 }
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
 			scripted = yes
 		}
-		iconType = 
-		{
+		iconType = {
 			name ="primarch_5_portrait_icon"
 			quadTextureSprite = "GFX_eoc_pimarch_5_portrait_icon"
-			position = { x= 324 y = 290 }
+			position = { x= 214 y = 320 }
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
 			scripted = yes
 		}
-		iconType = 
-		{
+		iconType = {
 			name ="primarch_6_portrait_icon"
 			quadTextureSprite = "GFX_eoc_pimarch_6_portrait_icon"
-			position = { x= 350 y = 290 }
+			position = { x= 240 y = 320 }
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
 			scripted = yes
 		}
-		iconType = 
-		{
+		iconType = {
 			name ="primarch_7_portrait_icon"
 			quadTextureSprite = "GFX_eoc_pimarch_7_portrait_icon"
-			position = { x= 376 y = 290 }
+			position = { x= 266 y = 320 }
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
 			scripted = yes
 		}
-		iconType = 
-		{
+		iconType = {
 			name ="primarch_8_portrait_icon"
 			quadTextureSprite = "GFX_eoc_pimarch_8_portrait_icon"
-			position = { x= 404 y = 290 }
+			position = { x= 294 y = 320 }
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
 			scripted = yes
 		}
-		iconType = 
-		{
+		iconType = {
 			name ="primarch_9_portrait_icon"
 			quadTextureSprite = "GFX_eoc_pimarch_9_portrait_icon"
-			position = { x= 430 y = 290 }
+			position = { x= 320 y = 320 }
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
 			scripted = yes
 		}
-		iconType = 
-		{
+		iconType = {
 			name ="primarch_10_portrait_icon"
 			quadTextureSprite = "GFX_eoc_pimarch_10_portrait_icon"
-			position = { x= 456 y = 290 }
+			position = { x= 346 y = 320 }
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
 			scripted = yes
 		}
-		iconType = 
-		{
+		iconType = {
 			name ="primarch_11_portrait_icon"
 			quadTextureSprite = "GFX_eoc_pimarch_11_portrait_icon"
-			position = { x= 220 y = 329 }
+			position = { x= 110 y = 359 }
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
 			scripted = yes
 		}
-		iconType = 
-		{
+		iconType = {
 			name ="primarch_12_portrait_icon"
 			quadTextureSprite = "GFX_eoc_pimarch_12_portrait_icon"
-			position = { x= 246 y = 329 }
+			position = { x= 136 y = 359 }
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
 			scripted = yes
 		}
-		iconType = 
-		{
+		iconType = {
 			name ="primarch_13_portrait_icon"
 			quadTextureSprite = "GFX_eoc_pimarch_13_portrait_icon"
-			position = { x= 272 y = 329 }
+			position = { x= 162 y = 359 }
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
 			scripted = yes
 		}
-		iconType = 
-		{
+		iconType = {
 			name ="primarch_14_portrait_icon"
 			quadTextureSprite = "GFX_eoc_pimarch_14_portrait_icon"
-			position = { x= 298 y = 329 }
+			position = { x= 188 y = 359 }
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
 			scripted = yes
 		}
-		iconType = 
-		{
+		iconType = {
 			name ="primarch_15_portrait_icon"
 			quadTextureSprite = "GFX_eoc_pimarch_15_portrait_icon"
-			position = { x= 324 y = 329 }
+			position = { x= 214 y = 359 }
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
 			scripted = yes
 		}
-		iconType = 
-		{
+		iconType = {
 			name ="primarch_16_portrait_icon"
 			quadTextureSprite = "GFX_eoc_pimarch_16_portrait_icon"
-			position = { x= 350 y = 329 }
+			position = { x= 240 y = 359 }
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
 			scripted = yes
 		}
-		iconType = 
-		{
+		iconType = {
 			name ="primarch_17_portrait_icon"
 			quadTextureSprite = "GFX_eoc_pimarch_17_portrait_icon"
-			position = { x= 376 y = 329 }
+			position = { x= 266 y = 359 }
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
 			scripted = yes
 		}
-		iconType = 
-		{
+		iconType = {
 			name ="primarch_18_portrait_icon"
 			quadTextureSprite = "GFX_eoc_pimarch_18_portrait_icon"
-			position = { x= 402 y = 329 }
+			position = { x= 292 y = 359 }
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
 			scripted = yes
 		}
-		iconType = 
-		{
+		iconType = {
 			name ="primarch_19_portrait_icon"
 			quadTextureSprite = "GFX_eoc_pimarch_19_portrait_icon"
-			position = { x= 430 y = 329 }
+			position = { x= 320 y = 359 }
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
 			scripted = yes
 		}
-		iconType = 
-		{
+		iconType = {
 			name ="primarch_20_portrait_icon"
 			quadTextureSprite = "GFX_eoc_pimarch_20_portrait_icon"
-			position = { x= 456 y = 329 }
+			position = { x= 346 y = 359 }
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
 			scripted = yes
@@ -360,7 +340,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "decree_label"
-			position = { x = 184 y = 369 }
+			position = { x = 164 y = 409 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 0}
@@ -395,7 +375,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "subject_label"
-			position = { x = 476 y = 205 }
+			position = { x = 66 y = 210 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 0}
@@ -407,7 +387,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "astartes_label"
-			position = { x = 511 y = 235 }
+			position = { x = 101 y = 240 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 0}
@@ -419,7 +399,7 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "independant_astartes_label"
-			position = { x = 511 y = 257 }
+			position = { x = 101 y = 262 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 0}
@@ -429,10 +409,23 @@ guiTypes = {
 			format = left
 			scripted = yes
 		}
+		instantTextBoxType = {
+			name = "sector_label"
+			position = { x = 101 y = 284 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 4 y = 0}
+			text = "IMPERIUM_SECTOR"
+			maxWidth = 172
+			maxHeight = 32
+			format = left
+			scripted = yes
+		}
+		####Mechanicus
 		guiButtonType = {
 			name ="adeptus_mechanicus_shield"
-			quadTextureSprite = "GFX_shield_small"
-			position = { x= 571 y = 274 }
+			quadTextureSprite = "GFX_shield_medium"
+			position = { x= 684 y = 96 }
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
@@ -441,7 +434,32 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "adeptus_mechanicus_label"
-			position = { x = 491 y = 303 }
+			position = { x = 630 y = 172 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 4 y = 0}
+			maxWidth = 172
+			maxHeight = 48
+			tooltipText ="adeptus_mechanicus_tt"
+			#delayedTooltipText = "adeptus_mechanicus_tt_delayed"
+			format = center
+			scripted = yes
+		}
+		instantTextBoxType = {
+			name = "adeptus_mechanicus_status_label"
+			position = { x = 630 y = 201 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 4 y = 0}
+			maxWidth = 172
+			maxHeight = 48
+			tooltipText = "adeptus_mechanicus_tt_delayed"
+			format = center
+			scripted = yes
+		}
+		instantTextBoxType = {
+			name = "adeptus_mechanicus_forge_worlds_label"
+			position = { x = 630 y = 250 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 0}
@@ -452,11 +470,72 @@ guiTypes = {
 			format = center
 			scripted = yes
 		}
+		####Ecclesicarchy
+		guiButtonType = {
+			name ="adeptus_ministorum_shield"
+			quadTextureSprite = "GFX_shield_medium"
+			position = { x= 678 y = 313 }
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "vic_18_black"
+			scripted = yes
+		}
+		instantTextBoxType = {
+			name = "adeptus_ministorum_label"
+			position = { x = 620 y = 372 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 4 y = 0}
+			text = "adeptus_ministorum_label"
+			maxWidth = 172
+			maxHeight = 48
+			tooltipText ="adeptus_ministorum_tt"
+			delayedTooltipText = "adeptus_ministorum_tt_delayed"
+			format = center
+		}
+		####Inquisition
+		guiButtonType = {
+			name ="inquisition_shield"
+			quadTextureSprite = "GFX_shield_medium"
+			position = { x= 678 y = 480 }
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "vic_18_black"
+			scripted = yes
+		}
+		instantTextBoxType = {
+			name = "inquisition_label"
+			position = { x = 620 y = 538 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 4 y = 0}
+			text = "inquisition_label"
+			maxWidth = 172
+			maxHeight = 48
+			tooltipText ="inquisition_tt"
+			delayedTooltipText = "inquisition_tt_delayed"
+			format = center
+		}
+		instantTextBoxType = {
+			name = "inquisition_deathwatch_label"
+			position = { x = 620 y = 560 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 4 y = 0}
+			maxWidth = 172
+			maxHeight = 48
+			tooltipText ="inquisition_tt"
+			delayedTooltipText = "inquisition_tt_delayed"
+			format = center
+			scripted = yes
+		}
 
 		#### REFORM DECISIONS
 		instantTextBoxType = {
 			name = "decisions_label"
-			position = { x = 460 y = 369 }
+			position = { x = 445 y = 334 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 0}
@@ -468,7 +547,7 @@ guiTypes = {
 		
 		listboxType =  {
 			name ="decree_listbox"
-			position = { x = 129 y = 406 }
+			position = { x = 109 y = 446 }
 			backGround=""
 			size = { x = 270 y = 260 }
 			Orientation = "UPPER_LEFT"
@@ -480,9 +559,9 @@ guiTypes = {
 			
 		listboxType =  {
 			name ="decisions_listbox"
-			position = { x = 425 y = 415 }
+			position = { x = 405 y = 380 }
 			backGround = ""
-			size = { x = 204 y = 272 }
+			size = { x = 204 y = 340 }
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			spacing = 0
@@ -492,7 +571,7 @@ guiTypes = {
 			
 		guiButtonType = {
 			name = "close_button"
-			position = { x= 660 y = 60}
+			position = { x= 775 y = 60}
 			quadTextureSprite ="GFX_closebutton2"
 			tooltip = ""
 			tooltipText =""

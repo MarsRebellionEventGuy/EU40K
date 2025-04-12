@@ -88,20 +88,27 @@ tau_reform = {
 
 astartes_reform = {
 	potential = {
-		primary_culture = loyalist_astartes_culture
-		NOT = {
-			OR = {
-				tag = XHY
-				tag = XCG
-				tag = XHH
-				tag = XJY
-				tag = XZD
-				tag = XJH
-				tag = XEK
-				tag = XGW
-				tag = XFS
-				tag = XLH
+		OR={
+			AND={
+				primary_culture = loyalist_astartes_culture
+				NOT = {
+					OR = {
+						tag = XHY
+						tag = XCG
+						tag = XHH
+						tag = XJY
+						tag = XZD
+						tag = XJH
+						tag = XEK
+						tag = XGW
+						tag = XFS
+						tag = XLH
+						tag = XBD
+					}
+				}
 			}
+			has_reform = astartes_reform
+			have_had_reform = astartes_reform
 		}
 	}
 
@@ -135,18 +142,25 @@ astartes_reform = {
 
 death_watch_reform = {
 	potential = {
-		primary_culture = loyalist_astartes_culture
-		OR = {
-			tag = XHY
-			tag = XCG
-			tag = XHH
-			tag = XJY
-			tag = XZD
-			tag = XJH
-			tag = XEK
-			tag = XGW
-			tag = XFS
-			tag = XLH
+		OR={
+			AND={
+				primary_culture = loyalist_astartes_culture
+				OR = {
+					tag = XHY
+					tag = XCG
+					tag = XHH
+					tag = XJY
+					tag = XZD
+					tag = XJH
+					tag = XEK
+					tag = XGW
+					tag = XFS
+					tag = XLH
+					tag = XBD
+				}
+			}
+			has_reform = death_watch_reform
+			have_had_reform = death_watch_reform
 		}
 	}
 	custom_attributes = {
@@ -378,6 +392,38 @@ harlequin_masque_reform = {
 		own_territory_dice_roll_bonus = 1
 		merc_maintenance_modifier = -0.33
 		governing_capacity_modifier = -0.50
+	}
+}
+
+holy_synod_reform = {
+	potential = {
+		tag = AAM
+	}
+	allow_normal_conversion = no
+	legacy_equivalent = holy_synod
+	icon = "craftworld_reform"
+	valid_for_nation_designer = no
+	nation_designer_cost = 0
+	papacy = yes
+	allow_convert = no
+	modifiers = {
+		prestige_per_development_from_conversion = 0.33
+		tolerance_own = 1
+		church_influence_modifier = 0.2
+	}
+}
+
+lord_inquisitors_reform = {
+	potential = {
+		tag = AAQ
+	}
+	allow_normal_conversion = no
+	legacy_equivalent = lord_inquisitors
+	icon = "ballot_box"
+	valid_for_nation_designer = no
+	nation_designer_cost = 0
+	modifiers = {
+		
 	}
 }
 

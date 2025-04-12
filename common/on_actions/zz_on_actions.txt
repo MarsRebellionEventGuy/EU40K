@@ -27,6 +27,9 @@ on_startup={
 		3549={
 			add_canal = grendl_stars_portal
 		}
+		3334={
+			add_cardinal = yes
+		}
 		XXA={#Imperium set up
 			set_estate_privilege = estate_eunuchs_palace_bureaucracy_privilege
 			set_estate_privilege = estate_eunuchs_delegate_provincial_administration_privilege
@@ -194,6 +197,58 @@ on_startup={
 				clr_country_flag = XXB_has_less_then_5_forge_worlds
 			}
 		}
+		2={
+			set_variable = {
+				value = 0
+				which = MechanicusNbForgeWorlds
+			}
+			every_country={
+				limit={
+					is_subject_of_type = integrated_forgeworld
+				}
+				2={
+					change_variable = {
+						which = MechanicusNbForgeWorlds
+						value = 1
+					}
+				}
+			}
+			every_country={
+				limit={
+					is_subject_of_type = integrated_major_forgeworld
+				}
+				2={
+					change_variable = {
+						which = MechanicusNbForgeWorlds
+						value = 1
+					}
+				}
+			}
+		}
+		AAM={ #Ecclesicarchy set-up
+			save_global_event_target_as = adeptus_ministorum_tag 
+		}
+		AAQ={ #Inquisition set-up
+			save_global_event_target_as = inquisition_tag 
+		}
+		3942={
+			set_variable = {
+				value = 0
+				which = InquisitionNbDeathwatch
+			}
+			every_country={
+				limit={
+					is_subject_of_type = deathwatch_subject_type
+				}
+				3942={
+					change_variable = {
+						which = InquisitionNbDeathwatch
+						value = 1
+					}
+				}
+			}
+		}
+		
 		1 = {
 			set_variable = {
 				value = 97
@@ -295,6 +350,21 @@ on_startup={
 					}
 				}
 			}
+			set_variable = {
+				value = 0
+				which = ImperiumNbSectors
+			}
+			every_country={
+				limit={
+					is_subject_of_type = imperial_sector_subject
+				}
+				1={
+					change_variable = {
+						which = ImperiumNbSectors
+						value = 1
+					}
+				}
+			}
 		}
 	}
 }
@@ -381,6 +451,48 @@ on_annexed = {
 			}
 		}
 	}
+	if = {
+		limit = {
+			ROOT = { 
+				OR={
+					is_subject_of_type = integrated_forgeworld
+					is_subject_of_type = integrated_major_forgeworld
+				}
+			}
+		}
+		2={
+			change_variable = {
+				which = MechanicusNbForgeWorlds
+				value = -1
+			}
+		}
+	}
+	if = {
+		limit = {
+			ROOT = { 
+				is_subject_of_type = imperial_sector_subject
+			}
+		}
+		1={
+			change_variable = {
+				which = ImperiumNbSectors
+				value = -1
+			}
+		}
+	}
+	if = {
+		limit = {
+			ROOT = { 
+				is_subject_of_type = deathwatch_subject_type
+			}
+		}
+		3942={
+			change_variable = {
+				which = InquisitionNbDeathwatch
+				value = -1
+			}
+		}
+	}
 }
 # ROOT = New vassal, FROM = Overlord
 on_create_vassal = {
@@ -457,6 +569,22 @@ on_create_vassal = {
 		1={
 			change_variable = {
 				which = ImperiumNbIndAstartes
+				value = 1
+			}
+		}
+	}
+	if = {
+		limit = {
+			ROOT = { 
+				OR={
+					is_subject_of_type = integrated_forgeworld
+					is_subject_of_type = integrated_major_forgeworld
+				}
+			}
+		}
+		2={
+			change_variable = {
+				which = MechanicusNbForgeWorlds
 				value = 1
 			}
 		}

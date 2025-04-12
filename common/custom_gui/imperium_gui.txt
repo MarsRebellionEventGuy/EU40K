@@ -10,12 +10,28 @@ custom_text_box = {
    tooltip = astartes_label_tt 
 }
 custom_text_box = {
+   name = sector_label #Must match a scripted instantTextBoxType in a .gui file
+   potential = { } #Determines when the text is visible
+   tooltip = sector_label_tt #Can use customizable localisation
+   #To localize it, use the name of the button as a key, can also use customizable localisation
+}
+custom_text_box = {
    name = throne_integrity_value 
    potential = { } 
    tooltip = throne_integrity_tt 
 }
 custom_text_box = {
    name = adeptus_mechanicus_label 
+   potential = { } 
+   #tooltip = adeptus_mechanicus_tt 
+}
+custom_text_box = {
+   name = adeptus_mechanicus_status_label 
+   potential = { } 
+   #tooltip = adeptus_mechanicus_tt 
+}
+custom_text_box = {
+   name = adeptus_mechanicus_forge_worlds_label 
    potential = { } 
    #tooltip = adeptus_mechanicus_tt 
 }
@@ -27,11 +43,46 @@ custom_icon = {
 custom_shield = {
    name = adeptus_mechanicus_shield #Must match a scripted guiButtonType in a .gui file
    potential = { } #Determines when the shield is visible
-   trigger = { } #Determines when the shield is clickable
+   trigger = { 
+	event_target:adeptus_mechanicus_tag ={
+		exists = yes
+	}
+   } #Determines when the shield is clickable
    effect = { } #Effect for clicking
    tooltip = adeptus_mechanicus_label_tt #Can use customizable localisation
    global_event_target = adeptus_mechanicus_tag # Global event target name
    open_country = yes #If clicking opens the country view
+}
+custom_shield = {
+   name = adeptus_ministorum_shield #Must match a scripted guiButtonType in a .gui file
+   potential = { } #Determines when the shield is visible
+   trigger = { 
+	event_target:adeptus_ministorum_tag ={
+		exists = yes
+	}
+   } #Determines when the shield is clickable
+   effect = { } #Effect for clicking
+   tooltip = adeptus_ministorum_label_tt #Can use customizable localisation
+   global_event_target = adeptus_ministorum_tag # Global event target name
+   open_country = yes #If clicking opens the country view
+}
+custom_shield = {
+   name = inquisition_shield #Must match a scripted guiButtonType in a .gui file
+   potential = { } #Determines when the shield is visible
+   trigger = { 
+	event_target:inquisition_tag ={
+		exists = yes
+	}
+   } #Determines when the shield is clickable
+   effect = { } #Effect for clicking
+   tooltip = inquisition_label_tt #Can use customizable localisation
+   global_event_target = inquisition_tag # Global event target name
+   open_country = yes #If clicking opens the country view
+}
+custom_text_box = {
+   name = inquisition_deathwatch_label 
+   potential = { } 
+   #tooltip = adeptus_mechanicus_tt 
 }
 custom_button = {
 	name = imperium_TI_increase_blackship_loads #
