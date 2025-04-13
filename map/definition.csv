@@ -3634,7 +3634,7 @@ province;red;green;blue;x;x
 3634;236;130;46;;x
 3635;237;130;46;;x
 3636;238;130;46;;x
-3637;239;130;46;;
+3637;239;130;46;Jericho Sector;x
 3638;240;130;46;;x
 3639;241;130;46;;x
 3640;242;130;46;;x
@@ -4042,3 +4042,44 @@ province;red;green;blue;x;x
 4043;196;146;90;Darkmont;x
 4044;186;196;143;Rujikar;x
 4045;121;196;173;Gargates;x
+4046;174;157;115;Holdfast I;x
+4047;174;157;116;Holdfast III;x
+4048;174;157;117;Holdfast IV;x
+4049;174;157;118;Holdfast VI;x
+4050;174;157;119;Holdfast VIII;x
+4051;174;157;120;Holdfast IX;x
+4052;174;157;121;Holdfast XII;x
+4053;174;157;122;Holdfast XIV;x
+4054;157;173;91;Barghesi;x
+4055;157;173;90;Barghesi;x
+4056;157;173;89;Barghesi;x
+4057;157;173;88;Barghesi;x
+4058;157;173;87;Barghesi;x
+4059;157;173;86;Barghesi;x
+4060;157;173;85;Barghesi;x
+4061;157;173;84;Barghesi;x
+4062;157;173;83;Barghesi;x
+4063;157;173;82;Barghesi;x
+4064;157;173;81;Barghesi;x
+4065;157;173;80;Barghesi;x
+4066;157;173;79;Barghesi;x
+4067;89;12;15;Jericho Sector;x
+4068;184;193;100;D'Shas'Ka 4;x
+4069;184;193;101;Seriphos Secundus;x
+4070;184;193;102;Bekrin;x
+4071;184;193;103;Mataras I;x
+4072;184;193;104;Mataras II;x
+4073;184;193;105;Mataras III;x
+4074;184;193;106;Magog;x
+4075;184;193;107;Samech;x
+4076;184;193;108;Credos;x
+4077;184;193;109;Erioch;x
+4078;184;193;110;Phonos;x
+4079;184;193;111;Castobel;x
+4080;184;193;112;Jericho-maw gate;x
+4081;135;178;162;Dharrovar;x
+4082;135;178;163;Cholaris;x
+4083;135;178;164;Septum Verda;x
+4084;135;178;165;Nonavore;x
+4085;135;178;166;Fra' Vermis;x
+4086;190;65;170;North Nachmund;x

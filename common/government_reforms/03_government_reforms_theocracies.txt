@@ -397,7 +397,11 @@ harlequin_masque_reform = {
 
 holy_synod_reform = {
 	potential = {
-		tag = AAM
+		OR={
+			tag = AAM
+			has_reform = holy_synod_reform
+			have_had_reform = holy_synod_reform
+		}
 	}
 	allow_normal_conversion = no
 	legacy_equivalent = holy_synod
@@ -415,7 +419,11 @@ holy_synod_reform = {
 
 lord_inquisitors_reform = {
 	potential = {
-		tag = AAQ
+		OR={
+			tag = AAQ
+			has_reform = lord_inquisitors_reform
+			have_had_reform = lord_inquisitors_reform
+		}
 	}
 	allow_normal_conversion = no
 	legacy_equivalent = lord_inquisitors
@@ -423,7 +431,7 @@ lord_inquisitors_reform = {
 	valid_for_nation_designer = no
 	nation_designer_cost = 0
 	modifiers = {
-		
+		prestige_per_development_from_conversion = 0.33
 	}
 }
 
@@ -527,7 +535,7 @@ xenarite_cult_reform = {				#stygies exclusive
     icon = "mechanicus_scaevola"
     potential = {					
         tag = XOB
-	primary_culture = mechanicus_culture
+		primary_culture = mechanicus_culture
       	religion = mechanicus
    }
     trigger = {
@@ -567,9 +575,7 @@ mars_the_red_planet_reform = {				#mars mission reward 	#can create forgeworld s
     }
        
     trigger = {
-		development_in_provinces = {
-			value = 400
-		}
+		total_own_and_non_tributary_subject_development = 400
     }
 
     modifiers = {

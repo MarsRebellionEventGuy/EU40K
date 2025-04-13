@@ -1,0 +1,36 @@
+graphical_culture = westerngfx
+
+color = { 53 53 53 }
+
+historical_idea_groups = {
+	exploration_ideas
+	administrative_ideas
+	quality_ideas
+	maritime_ideas
+	economic_ideas
+	expansion_ideas
+	offensive_ideas
+	naval_ideas
+}
+
+historical_units = {
+
+}
+
+monarch_names = {
+
+}
+
+leader_names = {
+
+}
+
+ship_names = {
+	"Godefroy Magnificat" "Triumph" "Duke Helbrecht" "Legatus Stygies" "Indomitable Wrath" "Dominus Astra" "Divine Right" "Justus Dominus" "Bloodhawk" "Pride of Fenris" "Vae Victis" "Hammer of Scaro" "Praesidium" "Hammerblow" "Guardian of Aquinas" "Warrior Knight" "Thunderchild" "Hammer of Light" "Pax Imperium" "Imperious" "Marquis Lex" "Fist of Russ" "Jovian" "Cypra Probatii" "Flame of Purity" "Righteous Power" "Rhadamanthine" "Hammer of Justice" "Sword of Orion" "Iron Duke" "Ad Liberis" "Valiant" "Glory-strike" "Glorytalon" "Battlewing" "Battlecrest" "Sceptre of Dawn" "Echo of Destiny" "Will of Light" "Mace of Sopriun" "Proxima Opprimere" "Bright Vanguard" "Excelsior Theta" "Ardent Scion" "Vinco Decimus" "Armsman of the Maelstrom" "Guardian of Gidrria" "Bane of Karrit" "Ironforged" "Titan's Prince" "Hand of Tethrom" "Aesculus Vitae" "Octavius Delictum" "Tempesttalon" "Steel Harbinger" "Stalwart Faith" "Stern-heart" "Arrow of Skardega"
+}
+
+army_names = {
+}
+
+fleet_names = {
+}

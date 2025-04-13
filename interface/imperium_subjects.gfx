@@ -119,4 +119,28 @@ spriteTypes = {
 		name = "GFX_icon_diplomacy_am_ministorum_subject_type"
 		texturefile = "gfx/interface/icon_diplomacy_am_ministorum.dds"
 	}
+	spriteType = {
+		name = "GFX_icon_shrine_world_subject_type"
+		texturefile = "gfx/interface/icon_shrine_world_subject.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_diplomacy_lead_shrine_world_subject_type"
+		texturefile = "gfx/interface/icon_diplomacy_lead_shrine_world.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_diplomacy_am_shrine_world_subject_type"
+		texturefile = "gfx/interface/icon_diplomacy_am_shrine_world.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_order_adepta_sororitas_subject_type"
+		texturefile = "gfx/interface/icon_order_adepta_sororitas_subject.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_diplomacy_lead_order_adepta_sororitas_subject_type"
+		texturefile = "gfx/interface/icon_diplomacy_lead_order_adepta_sororitas.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_diplomacy_am_order_adepta_sororitas_subject_type"
+		texturefile = "gfx/interface/icon_diplomacy_am_order_adepta_sororitas.dds"
+	}
 }

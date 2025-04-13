@@ -1,0 +1,10 @@
+add_core = XIV
+owner = XIV
+controller = XIV
+base_tax = 3
+base_manpower = 2
+base_production = 3
+religion = xeno
+culture = xeno_culture
+trade_goods = xeno_technology
+is_city = yes

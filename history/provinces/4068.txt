@@ -1,0 +1,9 @@
+add_core = XGF
+owner = XGF
+culture = jericho_human_culture
+religion = greater_good
+base_tax = 1
+base_manpower = 2
+base_production = 1
+controller = XGF
+is_city = no

@@ -17,3 +17,6 @@ disloyal_subject_overlord_modifiers={
 disloyal_sector_overlord_modifiers={
 	imperial_mandate = -0.02
 }
+blockaded_power_country={
+	naval_forcelimit = -10
+}

@@ -1,0 +1,7 @@
+government = monarchy
+add_government_reform = independant_imperial_governorate_reform
+government_rank = 1
+technology_group = imperial
+religion = rebellious_cult
+primary_culture = jericho_human_culture
+capital = 4069

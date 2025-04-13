@@ -1,0 +1,9 @@
+culture = jericho_human_culture
+religion = rebellious_cult
+is_city = no
+owner = XTP
+base_tax = 5
+base_manpower = 4
+base_production = 2
+controller = XTP
+add_core = XTP

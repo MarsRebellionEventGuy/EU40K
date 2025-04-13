@@ -7,10 +7,12 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 2050;3452;canal;3470;-1;-1;-1;-1;caradryad_portal
 2911;3454;canal;3548;-1;-1;-1;-1;corribra_portal
 2667;3456;canal;3549;-1;-1;-1;-1;grendl_stars_portal
+1207;4067;canal;4080;-1;-1;-1;-1;jericho_warpgate
 1089;3691;canal;1089;-1;-1;-1;-1;iybraesil_webway_portal
 1108;3692;canal;1108;-1;-1;-1;-1;kaelor_webway_portal
 1100;3668;canal;1100;-1;-1;-1;-1;yme_loc_webway_portal
 1;3679;canal;1;-1;-1;-1;-1;terra_webway_portal
+177;4086;canal;4082;-1;-1;-1;-1;nachmund_gauntlet
 217;592;sea;572;-1;-1;-1;-1;
 3769;3758;sea;591;-1;-1;-1;-1;
 1212;4013;sea;899;401;1704;405;1707;lathes_het_hesh
@@ -21,4 +23,5 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 3941;3942;sea;178;-1;-1;-1;-1;saturn-demos
 3943;3942;sea;178;-1;-1;-1;-1;saturn-titan
 3281;3944;sea;9;-1;-1;-1;-1;luna-earth
+2206;3637;sea;573;-1;-1;-1;-1;Velk'Han-Jericho
 -1;-1;;-1;-1;-1;-1;-1;-1

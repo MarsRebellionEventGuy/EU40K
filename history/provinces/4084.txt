@@ -1,0 +1,7 @@
+culture = agripinaa_human_culture
+trade_goods = minerals
+religion = imperial_cult
+is_city = no
+base_tax = 3
+base_manpower = 3
+base_production = 2

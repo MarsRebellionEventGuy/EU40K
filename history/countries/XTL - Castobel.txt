@@ -1,0 +1,16 @@
+government = monarchy
+add_government_reform = imperial_governorate_reform
+government_rank = 1
+technology_group = imperial
+religion = imperial_cult
+primary_culture = jericho_human_culture
+capital = 4079
+
+1970.12.12 = {
+	monarch = {
+		name = "Sebiascor Ebongrave"	
+		adm = 2
+		dip = 3
+		mil = 4
+	}
+}

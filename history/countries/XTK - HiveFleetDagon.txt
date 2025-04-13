@@ -1,0 +1,16 @@
+government = tyranid
+add_government_reform = hive_fleet_reform
+government_rank = 2
+technology_group = tyranid
+religion = tyranid
+primary_culture = tyranid_culture
+capital = 4070
+
+1970.12.12 = {
+	monarch = {
+		name = "Synapse"	
+		adm = 4
+		dip = 4
+		mil = 1
+	}
+}

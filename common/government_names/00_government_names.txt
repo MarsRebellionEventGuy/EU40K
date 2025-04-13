@@ -46,6 +46,106 @@ imperium_localisation = {
 	}
 }
 
+ecclesicarchy = {
+	rank = {
+		1 = HOLYSYNOD
+		2 = HOLYSYNOD
+		3 = HOLYSYNOD
+	}
+
+	ruler_male = {
+		1 = ECCLESIARCH
+		2 = ECCLESIARCH
+		3 = ECCLESIARCH
+	}
+
+	ruler_female = {
+		1 = BISHOP_fem
+		2 = ARCHBISHOP_fem
+		3 = MATRIARCH
+	}
+	
+	consort_male = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+	}
+
+	consort_female = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+	}
+	
+	heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+
+	heir_female = {
+		1 = HEIR_fem
+		2 = HEIR_fem
+		3 = HEIR_fem
+	}
+
+	government_reform = theocracy_mechanic
+
+	trigger = {
+		tag = AAM
+	}
+}
+
+inquisition = {
+	rank = {
+		1 = INQUISITION
+		2 = INQUISITION
+		3 = INQUISITION
+	}
+
+	ruler_male = {
+		1 = INQUISITORIAL_REPRESENTIVE
+		2 = INQUISITORIAL_REPRESENTIVE
+		3 = INQUISITORIAL_REPRESENTIVE
+	}
+
+	ruler_female = {
+		1 = INQUISITORIAL_REPRESENTIVE
+		2 = INQUISITORIAL_REPRESENTIVE
+		3 = INQUISITORIAL_REPRESENTIVE
+	}
+	
+	consort_male = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+	}
+
+	consort_female = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+	}
+	
+	heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+
+	heir_female = {
+		1 = HEIR_fem
+		2 = HEIR_fem
+		3 = HEIR_fem
+	}
+
+	government_reform = theocracy_mechanic
+
+	trigger = {
+		tag = AAQ
+	}
+}
+
 astartes_localisation = {
 	rank = {
 		1 = ASTARTES_RANK_1
@@ -1015,7 +1115,7 @@ necron_localisation = {
 }
 
 
-primarch_localisation = {
+loyalist_primarch_localisation = {
 	rank = {
 		1 = PRIMARCH_RANK
 		2 = PRIMARCH_RANK
@@ -1063,7 +1163,7 @@ primarch_localisation = {
 	}
 }
 
-primarch_localisation = {
+chaos_primarch_localisation = {
 	rank = {
 		1 = CHAOS_PRIMARCH_RANK
 		2 = CHAOS_PRIMARCH_RANK

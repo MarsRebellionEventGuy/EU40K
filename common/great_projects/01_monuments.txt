@@ -3803,12 +3803,14 @@ convent_sanctorum = {
 	can_use_modifiers_trigger = {
 		province_is_or_accepts_culture = yes
 		culture_group = imperial_culture_group	
+		religion = imperial_cult
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
 		province_is_or_accepts_culture = yes
 		culture_group = imperial_culture_group
+		religion = imperial_cult
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?

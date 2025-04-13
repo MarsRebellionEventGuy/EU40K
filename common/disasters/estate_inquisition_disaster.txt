@@ -16,7 +16,7 @@ estate_inquisition_disaster = {
 	}
 	
 	can_start = {
-		has_any_disaster = no
+		NOT={religious_unity = 0.99}
 		estate_influence = {
 			estate = estate_inquisition
 			influence = 100
@@ -26,7 +26,7 @@ estate_inquisition_disaster = {
 	
 	can_stop = {
 		OR = {
-			has_any_disaster = yes
+			religious_unity = 0.99
 			NOT = {
 				estate_influence = {
 					estate = estate_inquisition

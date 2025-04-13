@@ -1,0 +1,10 @@
+culture = agripinaa_human_culture
+trade_goods = consumer_goods
+religion = imperial_cult
+is_city = no
+add_core = XTV
+owner = XTV
+base_tax = 6
+base_manpower = 5
+base_production = 5
+controller = XTV

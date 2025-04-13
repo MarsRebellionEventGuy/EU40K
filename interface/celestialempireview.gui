@@ -494,6 +494,30 @@ guiTypes = {
 			delayedTooltipText = "adeptus_ministorum_tt_delayed"
 			format = center
 		}
+		instantTextBoxType = {
+			name = "shrine_worlds_label"
+			position = { x = 640 y = 400 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 4 y = 0}
+			text = "ECCLESICARCHY_SHRINE_WORLDS"
+			maxWidth = 172
+			maxHeight = 32
+			format = left
+			scripted = yes
+		}
+		instantTextBoxType = {
+			name = "adepta_sororitas_label"
+			position = { x = 640 y = 420 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 4 y = 0}
+			text = "ECCLESICARCHY_ADEPTA_SORORITAS"
+			maxWidth = 172
+			maxHeight = 32
+			format = left
+			scripted = yes
+		}
 		####Inquisition
 		guiButtonType = {
 			name ="inquisition_shield"
@@ -520,7 +544,7 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "inquisition_deathwatch_label"
-			position = { x = 620 y = 560 }
+			position = { x = 640 y = 560 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 0}
@@ -528,7 +552,7 @@ guiTypes = {
 			maxHeight = 48
 			tooltipText ="inquisition_tt"
 			delayedTooltipText = "inquisition_tt_delayed"
-			format = center
+			format = left
 			scripted = yes
 		}
 

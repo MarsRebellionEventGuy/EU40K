@@ -1,0 +1,7 @@
+add_core = XTN
+owner = XTN
+base_tax = 4
+base_manpower = 5
+base_production = 3
+controller = XTN
+is_city = no

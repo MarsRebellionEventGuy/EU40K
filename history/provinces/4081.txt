@@ -1,0 +1,10 @@
+add_core = XQR
+owner = XQR
+culture = chaos_knight_culture
+religion = chaos_undivided
+controller = XQR
+is_city = no
+base_tax = 3
+base_manpower = 2
+base_production = 2
+trade_goods = military_equipment

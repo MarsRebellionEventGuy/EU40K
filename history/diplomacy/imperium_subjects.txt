@@ -6,6 +6,13 @@ dependency = {
 	start_date = 1000.8.20
 	end_date = 2100.8.3
 }
+dependency = {
+	subject_type = "integrated_forgeworld"
+	first = XXB
+	second = XOR
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
 ##Inquisition
 dependency = {
 	subject_type = "0_inquisition_subject_type"
@@ -42,11 +49,74 @@ dependency = {
 	start_date = 1000.8.20
 	end_date = 2100.8.3
 }
+dependency = {
+	subject_type = "deathwatch_subject_type"
+	first = AAQ
+	second = XTO
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
 #Ecclesicarchy
 dependency = {
 	subject_type = "0_ministorum_subject_type"
 	first = XXA
 	second = AAM
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "shrine_world_subject_type"
+	first = AAM
+	second = XTM
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "order_adepta_sororitas_subject_type"
+	first = AAM
+	second = XOO
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "order_adepta_sororitas_subject_type"
+	first = AAM
+	second = XOO
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "order_adepta_sororitas_subject_type"
+	first = AAM
+	second = XTQ
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "order_adepta_sororitas_subject_type"
+	first = AAM
+	second = XTR
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "order_adepta_sororitas_subject_type"
+	first = AAM
+	second = XTS
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "order_adepta_sororitas_subject_type"
+	first = AAM
+	second = XTT
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "order_adepta_sororitas_subject_type"
+	first = AAM
+	second = XTU
 	start_date = 1000.8.20
 	end_date = 2100.8.3
 }
@@ -319,13 +389,6 @@ dependency = {
 	subject_type = "autonomus_astartes_subject_type"
 	first = XXA
 	second = XDG
-	start_date = 1000.8.20
-	end_date = 2100.8.3
-}
-dependency = {
-	subject_type = "autonomus_astartes_subject_type"
-	first = XXA
-	second = XOO
 	start_date = 1000.8.20
 	end_date = 2100.8.3
 }
@@ -674,6 +737,20 @@ dependency = {
 	start_date = 1000.8.20
 	end_date = 2100.8.3
 }
+dependency = {
+	subject_type = "nominal_imperial_world_subject_type"
+	first = XXA
+	second = XTL
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "nominal_imperial_world_subject_type"
+	first = XXA
+	second = XTV
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
 # dependency = {
 	# subject_type = "nominal_imperial_world_subject_type"
 	# first = XXA
@@ -681,3 +758,13 @@ dependency = {
 	# start_date = 1000.8.20
 	# end_date = 2100.8.3
 # }
+
+
+
+dependency = {#Iron Lords are containing Barghesi
+	subject_type = "blockaded_power"
+	first = XIU
+	second = XIV
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}

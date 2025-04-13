@@ -84,6 +84,16 @@ custom_text_box = {
    potential = { } 
    #tooltip = adeptus_mechanicus_tt 
 }
+custom_text_box = {
+   name = shrine_worlds_label 
+   potential = { } 
+   #tooltip = adeptus_mechanicus_tt 
+}
+custom_text_box = {
+   name = adepta_sororitas_label 
+   potential = { } 
+   tooltip = adepta_sororitas_tt 
+}
 custom_button = {
 	name = imperium_TI_increase_blackship_loads #
 	potential = { } #Determines when the button is visible

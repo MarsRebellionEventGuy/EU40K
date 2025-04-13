@@ -2847,7 +2847,17 @@ if = {
 		discover_country = ROOT
 	}
 }
-	
+	if = {
+		limit = {
+			capital_scope = { region = jericho_sector_region }
+		}
+		jericho_sector_region = {
+			discover_country = ROOT
+		}
+		jericho_sector_sea_region = {
+			discover_country = ROOT
+		}
+	}
 }
 
 # country

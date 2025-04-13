@@ -1,0 +1,9 @@
+culture = chaos_culture
+religion = chaos_undivided
+is_city = no
+add_core = XTN
+owner = XTN
+base_tax = 4
+base_manpower = 2
+base_production = 6
+controller = XTN

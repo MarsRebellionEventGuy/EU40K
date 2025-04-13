@@ -14,7 +14,7 @@ segmentum_ultima  = {
 	karthago_region octarius_region prosperan_rift_region fenris_region golgotha_region galactic_core_region palatine_region red_scar_region manachea_region coronid_deeps_region
 	pelegron_cluster_region phantax_region fenright_region nostramo_region huda_gulf_region ghoul_stars_region gulgorahd_region thramas_region chalnath_expanse_region ullanor_region
 	nepthis_region triplex_region bakhar_region grendl_stars_region sargos_region ultima_region tau_region mandragora_region yasan_region nephilim_region
-	loki_region charadon_region vidar_region 
+	loki_region charadon_region vidar_region jericho_sector_region
 }
 eye_of_terror = { 
 	plague_sector_region crone_worlds_region infinite_cascade_region hellforges_region cadian_gate_region 
