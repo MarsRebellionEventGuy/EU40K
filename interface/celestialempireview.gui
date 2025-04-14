@@ -181,6 +181,7 @@ guiTypes = {
 			position = { x= 110 y = 320 }
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
+			tooltipText ="active_primarch_list_tt"
 			scripted = yes
 		}
 		iconType = {
@@ -191,6 +192,7 @@ guiTypes = {
 			#delayedTooltipText = ""
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
+			tooltipText ="active_primarch_list_tt"
 			scripted = yes
 		}
 		iconType = {
@@ -199,6 +201,7 @@ guiTypes = {
 			position = { x= 162 y = 320 }
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
+			tooltipText ="active_primarch_list_tt"
 			scripted = yes
 		}
 		iconType = {
@@ -207,6 +210,7 @@ guiTypes = {
 			position = { x= 188 y = 320 }
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
+			tooltipText ="active_primarch_list_tt"
 			scripted = yes
 		}
 		iconType = {
@@ -215,6 +219,7 @@ guiTypes = {
 			position = { x= 214 y = 320 }
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
+			tooltipText ="active_primarch_list_tt"
 			scripted = yes
 		}
 		iconType = {
@@ -223,6 +228,7 @@ guiTypes = {
 			position = { x= 240 y = 320 }
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
+			tooltipText ="active_primarch_list_tt"
 			scripted = yes
 		}
 		iconType = {
@@ -231,6 +237,7 @@ guiTypes = {
 			position = { x= 266 y = 320 }
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
+			tooltipText ="active_primarch_list_tt"
 			scripted = yes
 		}
 		iconType = {
@@ -239,6 +246,7 @@ guiTypes = {
 			position = { x= 294 y = 320 }
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
+			tooltipText ="active_primarch_list_tt"
 			scripted = yes
 		}
 		iconType = {
@@ -247,6 +255,7 @@ guiTypes = {
 			position = { x= 320 y = 320 }
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
+			tooltipText ="active_primarch_list_tt"
 			scripted = yes
 		}
 		iconType = {
@@ -255,6 +264,7 @@ guiTypes = {
 			position = { x= 346 y = 320 }
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
+			tooltipText ="active_primarch_list_tt"
 			scripted = yes
 		}
 		iconType = {
@@ -263,6 +273,7 @@ guiTypes = {
 			position = { x= 110 y = 359 }
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
+			tooltipText ="active_primarch_list_tt"
 			scripted = yes
 		}
 		iconType = {
@@ -271,6 +282,7 @@ guiTypes = {
 			position = { x= 136 y = 359 }
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
+			tooltipText ="active_primarch_list_tt"
 			scripted = yes
 		}
 		iconType = {
@@ -279,6 +291,7 @@ guiTypes = {
 			position = { x= 162 y = 359 }
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
+			tooltipText ="active_primarch_list_tt"
 			scripted = yes
 		}
 		iconType = {
@@ -287,6 +300,7 @@ guiTypes = {
 			position = { x= 188 y = 359 }
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
+			tooltipText ="active_primarch_list_tt"
 			scripted = yes
 		}
 		iconType = {
@@ -295,6 +309,7 @@ guiTypes = {
 			position = { x= 214 y = 359 }
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
+			tooltipText ="active_primarch_list_tt"
 			scripted = yes
 		}
 		iconType = {
@@ -303,6 +318,7 @@ guiTypes = {
 			position = { x= 240 y = 359 }
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
+			tooltipText ="active_primarch_list_tt"
 			scripted = yes
 		}
 		iconType = {
@@ -311,6 +327,7 @@ guiTypes = {
 			position = { x= 266 y = 359 }
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
+			tooltipText ="active_primarch_list_tt"
 			scripted = yes
 		}
 		iconType = {
@@ -319,6 +336,7 @@ guiTypes = {
 			position = { x= 292 y = 359 }
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
+			tooltipText ="active_primarch_list_tt"
 			scripted = yes
 		}
 		iconType = {
@@ -327,6 +345,7 @@ guiTypes = {
 			position = { x= 320 y = 359 }
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
+			tooltipText ="active_primarch_list_tt"
 			scripted = yes
 		}
 		iconType = {
@@ -335,6 +354,7 @@ guiTypes = {
 			position = { x= 346 y = 359 }
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
+			tooltipText ="active_primarch_list_tt"
 			scripted = yes
 		}
 
@@ -465,8 +485,8 @@ guiTypes = {
 			borderSize = {x = 4 y = 0}
 			maxWidth = 172
 			maxHeight = 48
-			tooltipText ="adeptus_mechanicus_tt"
-			delayedTooltipText = "adeptus_mechanicus_tt_delayed"
+			tooltipText ="adeptus_mechanicus_forge_worlds_tt"
+			#delayedTooltipText = "adeptus_mechanicus_tt_delayed"
 			format = center
 			scripted = yes
 		}
@@ -550,8 +570,6 @@ guiTypes = {
 			borderSize = {x = 4 y = 0}
 			maxWidth = 172
 			maxHeight = 48
-			tooltipText ="inquisition_tt"
-			delayedTooltipText = "inquisition_tt_delayed"
 			format = left
 			scripted = yes
 		}
