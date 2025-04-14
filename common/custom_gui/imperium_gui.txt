@@ -82,12 +82,12 @@ custom_shield = {
 custom_text_box = {
    name = inquisition_deathwatch_label 
    potential = { } 
-   #tooltip = adeptus_mechanicus_tt 
+   tooltip = deathwatch_label_tt 
 }
 custom_text_box = {
    name = shrine_worlds_label 
    potential = { } 
-   #tooltip = adeptus_mechanicus_tt 
+   tooltip = shrine_worlds_tt 
 }
 custom_text_box = {
    name = adepta_sororitas_label 

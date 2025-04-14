@@ -71,6 +71,7 @@
  missing_mechanicus_modifier: "Independant Mechanicus"
  adeptus_mechanicus_tt: "The Adeptus Mechanicus, while being the main manufactoring base of the Imperium, is incredibly autonomus. The Imperium must be careful of how to treat with this manufactoring giant. Too restrictive may lead to manufactoring issues, but being too lax may drive this already independantly minded faction to siding against the Imperium."
  adeptus_mechanicus_tt_delayed: "Mechanicus §YProduction§! directly ties to our §YGoods Produced§! with each tier of production increasing it by §G+5%§!, however major Mechanicus §YProduction Issues§! can cause this bonus to go Negative.\n\nIncreased by:\n -Mechanicus controlling at least 10 Forge Worlds.\n -For every 25 Forge Worlds under Mechanicus control.\n -Low Mechanicus Liberty Desire.\n -Bonuses from certain Missions.\n\nDecreased by:\n -Mechanicus being in a Disaster.\n -High Mechanicus Liberty Desire.\n -Mechancius controling less than 5 Forge Worlds."
+ adeptus_mechanicus_forge_worlds_tt: "The Amount of Forge Worlds that Acknowledge orders from Mars. this includes those worlds directly controled by the Fabricator-General Himself as well as the more autonomus Forge Worlds."
  0_mechanicus_subject_type_title: "Adeptus Mechanicus"
  0_mechanicus_subject_type_long_desc: "The Adeptus Mechanicus is the industrial foundation of the Imperium"
  0_mechanicus_subject_type_is_our: "§YThe Adeptus Mechanicus§!"
@@ -138,10 +139,12 @@
  shrine_worlds_label: "Shrine Worlds: §Y[3334.MinistorumNbShrine.GetValue]§!"
  adepta_sororitas_label: "Orders Miliant: §Y[3334.MinistorumNbSistersOfBattle.GetValue]§!/6"
  adepta_sororitas_tt: "The Orders Militant of the Adepta Sororitas are the Military arm of the Eccelsicarchy. These Sisters of Battle are deployed to defend the faith across the Imperium and are divided into following six Major Orders:\n++++++++++++++++++++++++++++++++++\n  @[XOO.GetTag][XOO.GetName]\n  @[XTQ.GetTag][XTQ.GetName]\n  @[XTR.GetTag][XTR.GetName]\n  @[XTS.GetTag][XTS.GetName]\n  @[XTT.GetTag][XTT.GetName]\n  @[XTU.GetTag][XTU.GetName]"
+ shrine_worlds_tt: "Shrine and Cardinal Worlds are the Worlds that are governed directly by the Eccelsicarchy, They are places of religious significance to the Imperial Cult."
  
  inquisition_label_tt: "The Inquisistion"
  inquisition_label: "Inquisistion"
  inquisition_deathwatch_label: "Deathwatch Holds: §Y[3942.InquisitionNbDeathwatch.GetValue]§!"
+ deathwatch_label_tt: "The Deathwatch are the Chamber Miliant of the Ordo Xenos, formed of battle brothers from across the Astartes Chapters of the Imperium. The Deathwatch is tasked to defend and contain Xenos from their Watch Stations"
  INQUISITION: "Holy Inquisition Order"
  INQUISITORIAL_REPRESENTIVE: "Inquisitorial Representative"
 
