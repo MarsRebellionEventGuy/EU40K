@@ -9,7 +9,8 @@ historical_rival = XKZ
 
 1970.12.12 = {
 	monarch = {
-		name = ""	
+		name = "Newt"
+		dynasty = "Scarforged"
 		adm = 3
 		dip = 3
 		mil = 4

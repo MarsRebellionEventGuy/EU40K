@@ -7,8 +7,9 @@ primary_culture = drukhari_culture
 capital = 3931
 1970.12.12 = { 
 	monarch = { 
-		adm = 3
-		dip = 3
-		mil = 4
+		name = "Viktor"
+		adm = 6
+		dip = 2
+		mil = 6
 	}
 }

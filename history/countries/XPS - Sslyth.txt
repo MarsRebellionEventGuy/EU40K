@@ -6,9 +6,10 @@ religion = dark_muses
 primary_culture = sslyth_culture
 capital = 3344
 1970.12.12 = { 
-	monarch = { 
-		adm = 3
-		dip = 3
-		mil = 4
+	monarch = {
+		name = "Navjaxx" 
+		adm = 2
+		dip = 5
+		mil = 5
 	}
 }

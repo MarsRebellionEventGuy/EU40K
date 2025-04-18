@@ -26,6 +26,6 @@ capital = 3355
 		shock = 6
 		manuever = 3
 		siege = 2
-		birth_date =1976
+		birth_date = 1976
 	}
 }

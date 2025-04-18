@@ -8,8 +8,9 @@ capital = 3344
 
 1970.12.12 = {
 	monarch = {
-		name = ""	
-		adm = 3
+		name = "Vlaanderen"
+		dynasty = "Saurfang"
+		adm = 5
 		dip = 3
 		mil = 4
 	}

@@ -8,9 +8,11 @@ capital = 3344
 
 1970.12.12 = {
 	monarch = {
-		name = ""	
+		name = "Vittoria"
+		dynasty = "Duskborn"
+		female = yes	
 		adm = 3
-		dip = 3
+		dip = 5
 		mil = 4
 	}
 }

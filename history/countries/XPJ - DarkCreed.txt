@@ -8,7 +8,9 @@ capital = 3344
 
 1970.12.12 = {
 	monarch = {
-		name = ""	
+		name = "Florence"
+		dynasty = "Nightingale"
+		female = yes
 		adm = 3
 		dip = 3
 		mil = 4
