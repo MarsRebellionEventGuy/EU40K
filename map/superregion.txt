@@ -20,5 +20,5 @@ eye_of_terror = {
 	plague_sector_region crone_worlds_region infinite_cascade_region hellforges_region cadian_gate_region 
 }
 webway = { 
-	commorragh_region 
+	commorragh_region webway_region
 }

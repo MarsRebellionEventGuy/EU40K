@@ -487,6 +487,8 @@
  commorragh: "Commorragh"
  forge_world_group: "Forge World"
  milkyway:0 "Milky Way"
+webway_region: "Webway"
+commorragh_space_sea_region: "Commorragh"
  iybraesil_webway_portal:0 "Iybraesil Webway Portal"
  terra_webway_portal:0 "Imperial Webway"
  yme_loc_webway_portal:0 "Yme-Loc Webway Portal"

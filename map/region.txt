@@ -332,6 +332,12 @@ commorragh_region = {
 		denied_helix nhexus_arena the_pit west_outer_commorragh east_outer_commorragh south_outer_commorragh 
 	}
 }
+webway_region = { 
+	areas = { 
+		black_library accursed_track acheron angliru antares aperture ark_of_the_covenant asur biel_tanigh bountiful_harvest cairn_of_forgotten_kings calastar caradhras castaways_respite coda crossroads crowstorm decayed_stronghold destroyed_quarters district_7 echo_of_ages entropy epilogue fallen_bastion final_dance final_solution fools_junction gallery_of_suicide gathering_storm genesis hellmark_station hells_highway isolation last_station lost_chapter lost_paradise mortal_reminder netherhold omega_redoubt ossuary overture pilgrims_curse remote_hope shaa_dom shameful_skirmish steam_fortress terminus the_shadow_crucible the_tragic_kindgom the_umbral_plains the_weeping_gate the_wild_fields towering_ruins travelers_woe maze_of_whisphers
+
+	}
+}
 jericho_sector_region = { 
 	areas = { 
 		canis orpheus_salient blood_trinity magog 
