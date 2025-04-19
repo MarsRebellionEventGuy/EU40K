@@ -4,7 +4,10 @@ Imperial_Branch_1 = {
 	ai = yes
 	potential = {
 		NOT = { tag = XXA }
-		primary_culture = human_culture
+		culture_group = imperial_culture_group
+		NOT = { primary_culture = mechanicus_culture }
+		NOT = { primary_culture = knight_culture }
+		NOT = { primary_culture = loyalist_astartes_culture }
 		
 	}
 	has_country_shield = yes
@@ -74,7 +77,10 @@ Imperial_Branch_2 = {
 	ai = yes
 	potential = {
 		NOT = { tag = XXA }
-		primary_culture = human_culture
+		culture_group = imperial_culture_group
+		NOT = { primary_culture = mechanicus_culture }
+		NOT = { primary_culture = knight_culture }
+		NOT = { primary_culture = loyalist_astartes_culture }
 	}
 	has_country_shield = yes
 	
@@ -129,7 +135,10 @@ Imperial_Branch_3 = {
 	ai = yes
 	potential = {
 		NOT = { tag = XXA }
-		primary_culture = human_culture
+		culture_group = imperial_culture_group
+		NOT = { primary_culture = mechanicus_culture }
+		NOT = { primary_culture = knight_culture }
+		NOT = { primary_culture = loyalist_astartes_culture }
 	}
 	has_country_shield = yes
 	
@@ -188,7 +197,10 @@ Imperial_Branch_4 = {
 	ai = yes
 	potential = {
 		NOT = { tag = XXA }
-		primary_culture = human_culture
+		culture_group = imperial_culture_group
+		NOT = { primary_culture = mechanicus_culture }
+		NOT = { primary_culture = knight_culture }
+		NOT = { primary_culture = loyalist_astartes_culture }
 	}
 	has_country_shield = yes
 	
@@ -407,7 +419,10 @@ Imperial_Branch_5 = {
 	ai = yes
 	potential = {
 		NOT = { tag = XXA }
-		primary_culture = human_culture
+		culture_group = imperial_culture_group
+		NOT = { primary_culture = mechanicus_culture }
+		NOT = { primary_culture = knight_culture }
+		NOT = { primary_culture = loyalist_astartes_culture }
 	}
 	has_country_shield = yes
 	

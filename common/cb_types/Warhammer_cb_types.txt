@@ -4,12 +4,18 @@ cb_warhammer = {
 	prerequisites_self = {
 		OR = {
 			AND = {
-				primary_culture = human_culture
+				culture_group = imperial_culture_group
+				NOT = { primary_culture = mechanicus_culture }
+				NOT = { primary_culture = knight_culture }
+				NOT = { primary_culture = loyalist_astartes_culture }
 				NOT = { tag = XXA }
 				mission_completed = Imperial_Mission_4
 			}
 			tag = XXA
-			NOT = { primary_culture = human_culture }
+			NOT = { culture_group = imperial_culture_group }
+			primary_culture = mechanicus_culture
+			primary_culture = knight_culture
+			primary_culture = loyalist_astartes_culture
 		}
 	}
 
@@ -17,7 +23,7 @@ cb_warhammer = {
 		NOT = {
 			border_distance = {
 				who = FROM
-				distance = 65
+				distance = 100
 			}
 		}
 	}
