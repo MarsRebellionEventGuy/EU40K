@@ -236,7 +236,25 @@
  imperium_regency_reform_desc: "The Imperium of Man is ruled by primarch of the Ultramarines and Imperial Regent, Roboute Guilliman. Any power previously held by the High Lords of Terra which extended beyond their primary purpose has been diminished and the Senatorum Imperialis itself has been relegated to a largely ceremonial role."
 
 preserve_highborn_privileges_reform: "Preserve Highborn Privileges"
-preserve_highborn_privileges_reform_desc: ""
+preserve_highborn_privileges_reform_desc: "It would be unwise and foolish to oppose the High Lords of Terra, who have selflessly taken the heavy burden of governance upon their shoulders since time immemorial. For this reason, it is imperative we preserve their hard-earned rights in the upcoming age of reform."
+
+elevate_tribal_leaders_reform: "Elevate Tribal Leaders"
+elevate_tribal_leaders_reform_desc: "Tribal warfare, altough barbaric in nature, can provide a welcome breath of fresh air to our stagnant and rigid military structure, it is thereby wortwhile to elevate the best among these rudimentary leaders to our chain of command."
+
+distribute_warrants_of_trade_reform: "Distribute Warrants of Trade"
+distribute_warrants_of_trade_reform_desc: "There is much profit to gain by adopting an increased mercantile stance within our currently rudimentary economic framework. By expanding the issuance of Warrants of Trade, we can foster a more dynamic quid pro quo between Rogue Traders and the state."
+
+restructure_senatorum_reform: "Reestructure the Senatorum"
+restructure_senatorum_reform_desc: "At its core, the Senatorum Imperialis should act as a meritocratic council of able minded individuals who share Guilliman's vision for mankind. Behind us lay the days of hereditary corruption and nepotism that plagued us for aeons; going forward we will present a united front against our pletora of enemies."
+
+extend_primarchs_scourge_reform: "Extend Primarchs Scourge"
+extend_primarchs_scourge_reform_desc: "The Senatorum has forfeited all credence of legitimacy. Its record of corruption and malpractice renders it untrustworthy, with no assurance that such abuses will not resurface. Its authority must be curtailed further into the role of a ceremonial body, little more than a rubber stamp for the policies of our great Regent."
+
+empower_departmenta_exacta_tithes_reform: "Empower Departamento Exacta Tithes"
+empower_departmenta_exacta_tithes_reform_desc: "The Departamento Exacta oversees all material tributes delivered by our imperial worlds. By strengthening its authority, we ensure ruthless efficiency in the fulfillment of quotas, leaving no shipment delayed and no obligation left unmet in these trying times."
+
+empower_munitorum_reform: "Empower Departamento Munitorum"
+empower_munitorum_reform_desc: "The Departamento Munitorum is charged with the administration, supply, and overall command of the Astra Militarum. It oversees the conscription of recruits from our imperial worlds, ensuring a steady flow of manpower for our endless wars. We would benefit greatly by ensuring that no able-bodied man or woman shirks away from their sacred duty, the right and burden to serve, bleed, and die in the name of the God-Emperor."
 
 enforce_codex_astartes_reform: "Enforce Codex Astartes"
 enforce_codex_astartes_reform_desc: "'The warrior who acts out of honour cannot fail. His duty is honour itself. Even his death, if it is honourable, is a reward and can be no failure, for it has come through duty. Seek honour as you act, therefore, and you will know no fear' -Roboute Guilliman \n The Codex Astartes was conceived as a sacred compendium of the tactics, moral behaviour and discipline that the chapters ought to uphold within their ranks. Enforcing its teachings means forging warriors of unbreakable will in the face of the most abject terror."
@@ -248,7 +266,7 @@ indomitus_fleets_reform: "Indomitus Fleets"
 indomitus_fleets_reform_desc: "The Indomitus Fleets are a manifestation of the Imperium's resolve to reclaim lost worlds and reinforce its authority across the galaxy. By mastering advanced naval warfare strategies and technologies, the Imperium can launch devastating naval barrages to reconquer entire lost systems, sriking fear into the hearts of our enemies while simultaneously boosting the prestige the whole fleet."
 
 kryptman_reform: "Kryptman Methods"
-kryptman_reform_desc: "We have embraced the cunning strategies of Inquisitor Kryptman, whose mastery of subterfuge and attrition tactics allows us to undermine our enemies from within. By employing psychological warfare and calculated maneuvers, we can weaken their resolve in their assaults and enhance our own intelligence-gathering capabilities"
+kryptman_reform_desc: "We have embraced the cunning strategies of Inquisitor Kryptman, whose mastery of subterfuge and attrition tactics allows us to undermine our enemies from within. By employing psychological warfare and calculated maneuvers, we can weaken their resolve in their assaults and enhance our own intelligence-gathering capabilities."
 
 solblades_reform: "Solbades"
 solblades_reform_desc: "The Solblades are elite vessels that embody speed, agility, and precision in void warfare. Utilizing hit-and-run tactics, they relentlessly harass enemy threats, disrupting their formations and weakening their overall resolve. By widely deploying these formidable assets, we can enhance our naval operations, ensuring that our fleets are unmatched in both offensive and defensive engagements."
@@ -274,8 +292,14 @@ navigator_patronage_reform_desc: "The invaluable role of the Navigators in the e
 adeptus_arbites_reform: "Favor the Adeptus Arbites"
 adeptus_arbites_reform_desc: "The Adeptus Arbites serve as the enforcers of law and order throughout our vast domains. By favoring this organization, we can ensure that our continuous conquests do not overextend our ruling capabilities to the point of implosion. However, this support may impair the overall effectiveness of our troops on the ground in quelling unrest."
 
-chartist_captains_reform: ""
-chartist_captains_reform_desc: ""
+chartist_captains_reform: "Chartist Captains"
+chartist_captains_reform_desc: "The Chartist Captains are commanders of the state-owned merchant fleet of the Imperium, which unlike the Rogue Traders, do not possess the nearly limitless power of a Warrant of Trade, instead given rights over specific sectors. However, they can access the political scene by becoming full members of the Senotorum; perhaps that is an idea we should further entartain..."
+
+rogue_trader_domains_reform: "Rogue Trader Domains"
+rogue_trader_domains_reform_desc: "If we were to further enshrine the Warrants of Trade as a mercantile carte-blanche we would benefit from a noticeable increase of our trade volume and efficiency of overall commerce, altought likely at the cost of unforeseen consecuences down the road."
+
+extend_tithes_reform: "Extend Tithe System"
+extend_tithes_reform_desc: "The current Tithe mechanism of resource extraction has become outdated, old privileges and exemptions have rendered a significant chunk of our planets virtually useless in war contributions, this cannot stand any longer. A new and improved mechanism of tributation would ensure an improved and streamlined funneling of resources from previously morose sections of our demesne."
 
 empower_high_lords_reform: "Empower High Lords"
 empower_high_lords_reform_desc: "With the Emperor confined to the Golden Throne, the High Lords of Terra wield immense power over the Imperium’s governance. By acknowledging this reality rather than resisting it, we can guarantee a smoother administration as our estates consolidate into a unified and efficient framework."
@@ -288,6 +312,15 @@ empower_governors_reform_desc: "Across our vast domains, planetary governors ove
 
 ultramarine_model_reform: "Ultramarine Model"
 ultramarine_model_reform_desc: "Transitioning our economy entirely to war, following the Ultramarine model, allows us to streamline our military expenditures, optimize resource allocation, and harness the full potential of our officer corps."
+
+guilliman_authority_reform: "Guilliman's Authority"
+guilliman_authority_reform_desc: "There is no denying it, Guilliman holds full command of the Imperium. Guidance is needed more than ever, for the Emperor’s capacity to govern is severely constrained, with no end in sight. Granting greater powers to the Regent would establish an uncompromising rule, one capable of enacting the desperate reforms we so urgently require."
+
+emperor_authority_reform: "Emperor's Primacy"
+emperor_authority_reform_desc: "Despite Guilliman's apt governance, we must not forget who truly commands the Imperium, he who sits in the golden throne, the target of bilion of prayers and the light of the Astronomican itself. To rule mankind is a heavy task, the hefty weight of history cannot be made to bear by any one man, only a god can."
+
+astartes_authority_reform: "Astartes Supremacy"
+astartes_authority_reform_desc: "Politics on Terra mean little when you're locked in battle with the Archenemy. The Imperium endures by a thread, held together through the blood-soaked victories of the Astra Militarum. It is time, then, to enshrine the Space Marine supremacy within the military governance of the state, securing leadership where strength and sacrifice truly reside."
 
 support_xanthites_reform: "Support Xanthites"
 support_xanthites_reform_desc: "The Xanthites believe that the weapons of the enemy can and must be turned against them, advocating for unorthodox methods to secure the Imperium’s survival. By closely aligning with their philosophy, we open our court to a broader range of advisors, embracing new perspectives in both governance and warfare alike."

@@ -493,6 +493,7 @@ commorragh_space_sea_region: "Commorragh"
  terra_webway_portal:0 "Imperial Webway"
  yme_loc_webway_portal:0 "Yme-Loc Webway Portal"
  kaelor_webway_portal:0 "Kaelor Webway Portal"
+imperium_power_gain_modifier: "Crusade Momentum Gain Modifier"
 
 
 reform_adeptus_administrum_decision_emperor:0 "Reform Administratum"
