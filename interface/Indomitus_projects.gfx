@@ -109,6 +109,11 @@ spriteTypes = {
     }
 	
 	spriteType = {
+		name = "GFX_great_project_jovian_shipyards"    
+		texturefile = "gfx//interface//great_project_jovian_shipyards.dds"
+    }
+	
+	spriteType = {
 		name = "GFX_great_project_terra_webway_portal"    
 		texturefile = "gfx//interface//great_project_webway_gate.dds"
     }

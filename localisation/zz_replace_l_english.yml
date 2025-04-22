@@ -550,3 +550,6 @@ DIPLO_INDEPENDANT_DESIRE_TT: "Desires own Independance"
 blockaded_power_title_plural: "Contained Powers"
 blockaded_power_title: "Contained Power"
 blockaded_power_is_our: "§Y$NAME$§! has been Contained"
+
+jovian_shipyards: "Jovian Shipyards"
+jericho_warpgate: "Jericho Warpgate"

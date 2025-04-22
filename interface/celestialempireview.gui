@@ -181,18 +181,16 @@ guiTypes = {
 			position = { x= 110 y = 320 }
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
-			tooltipText ="active_primarch_list_tt"
 			scripted = yes
 		}
 		iconType = {
 			name ="primarch_2_portrait_icon"
 			quadTextureSprite = "GFX_eoc_pimarch_2_portrait_icon"
 			position = { x= 136 y = 320 }
-			#tooltipText ="active_primarch_list_tt"
+			##tooltipText ="active_primarch_list_tt"
 			#delayedTooltipText = ""
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
-			tooltipText ="active_primarch_list_tt"
 			scripted = yes
 		}
 		iconType = {
@@ -201,7 +199,7 @@ guiTypes = {
 			position = { x= 162 y = 320 }
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
-			tooltipText ="active_primarch_list_tt"
+			#tooltipText ="active_primarch_list_tt"
 			scripted = yes
 		}
 		iconType = {
@@ -210,7 +208,7 @@ guiTypes = {
 			position = { x= 188 y = 320 }
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
-			tooltipText ="active_primarch_list_tt"
+			#tooltipText ="active_primarch_list_tt"
 			scripted = yes
 		}
 		iconType = {
@@ -219,7 +217,7 @@ guiTypes = {
 			position = { x= 214 y = 320 }
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
-			tooltipText ="active_primarch_list_tt"
+			#tooltipText ="active_primarch_list_tt"
 			scripted = yes
 		}
 		iconType = {
@@ -228,7 +226,7 @@ guiTypes = {
 			position = { x= 240 y = 320 }
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
-			tooltipText ="active_primarch_list_tt"
+			#tooltipText ="active_primarch_list_tt"
 			scripted = yes
 		}
 		iconType = {
@@ -237,7 +235,7 @@ guiTypes = {
 			position = { x= 266 y = 320 }
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
-			tooltipText ="active_primarch_list_tt"
+			#tooltipText ="active_primarch_list_tt"
 			scripted = yes
 		}
 		iconType = {
@@ -246,7 +244,7 @@ guiTypes = {
 			position = { x= 294 y = 320 }
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
-			tooltipText ="active_primarch_list_tt"
+			#tooltipText ="active_primarch_list_tt"
 			scripted = yes
 		}
 		iconType = {
@@ -255,7 +253,7 @@ guiTypes = {
 			position = { x= 320 y = 320 }
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
-			tooltipText ="active_primarch_list_tt"
+			#tooltipText ="active_primarch_list_tt"
 			scripted = yes
 		}
 		iconType = {
@@ -264,7 +262,7 @@ guiTypes = {
 			position = { x= 346 y = 320 }
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
-			tooltipText ="active_primarch_list_tt"
+			#tooltipText ="active_primarch_list_tt"
 			scripted = yes
 		}
 		iconType = {
@@ -273,7 +271,7 @@ guiTypes = {
 			position = { x= 110 y = 359 }
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
-			tooltipText ="active_primarch_list_tt"
+			#tooltipText ="active_primarch_list_tt"
 			scripted = yes
 		}
 		iconType = {
@@ -282,7 +280,7 @@ guiTypes = {
 			position = { x= 136 y = 359 }
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
-			tooltipText ="active_primarch_list_tt"
+			#tooltipText ="active_primarch_list_tt"
 			scripted = yes
 		}
 		iconType = {
@@ -291,7 +289,7 @@ guiTypes = {
 			position = { x= 162 y = 359 }
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
-			tooltipText ="active_primarch_list_tt"
+			#tooltipText ="active_primarch_list_tt"
 			scripted = yes
 		}
 		iconType = {
@@ -300,7 +298,7 @@ guiTypes = {
 			position = { x= 188 y = 359 }
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
-			tooltipText ="active_primarch_list_tt"
+			#tooltipText ="active_primarch_list_tt"
 			scripted = yes
 		}
 		iconType = {
@@ -309,7 +307,7 @@ guiTypes = {
 			position = { x= 214 y = 359 }
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
-			tooltipText ="active_primarch_list_tt"
+			#tooltipText ="active_primarch_list_tt"
 			scripted = yes
 		}
 		iconType = {
@@ -318,7 +316,7 @@ guiTypes = {
 			position = { x= 240 y = 359 }
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
-			tooltipText ="active_primarch_list_tt"
+			#tooltipText ="active_primarch_list_tt"
 			scripted = yes
 		}
 		iconType = {
@@ -327,7 +325,7 @@ guiTypes = {
 			position = { x= 266 y = 359 }
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
-			tooltipText ="active_primarch_list_tt"
+			#tooltipText ="active_primarch_list_tt"
 			scripted = yes
 		}
 		iconType = {
@@ -336,7 +334,7 @@ guiTypes = {
 			position = { x= 292 y = 359 }
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
-			tooltipText ="active_primarch_list_tt"
+			#tooltipText ="active_primarch_list_tt"
 			scripted = yes
 		}
 		iconType = {
@@ -345,7 +343,7 @@ guiTypes = {
 			position = { x= 320 y = 359 }
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
-			tooltipText ="active_primarch_list_tt"
+			#tooltipText ="active_primarch_list_tt"
 			scripted = yes
 		}
 		iconType = {
@@ -354,7 +352,7 @@ guiTypes = {
 			position = { x= 346 y = 359 }
 			buttonFont = "vic_18_black"
 			hint_tag = "hint_emperor"
-			tooltipText ="active_primarch_list_tt"
+			#tooltipText ="active_primarch_list_tt"
 			scripted = yes
 		}
 
@@ -516,7 +514,7 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "shrine_worlds_label"
-			position = { x = 640 y = 400 }
+			position = { x = 640 y = 395 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 0}
@@ -528,7 +526,7 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "adepta_sororitas_label"
-			position = { x = 640 y = 420 }
+			position = { x = 640 y = 410 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 0}
