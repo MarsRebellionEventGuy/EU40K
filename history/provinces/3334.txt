@@ -1,6 +1,6 @@
-add_core = XXA
-owner = XXA
-controller = XXA
+add_core = AAM
+owner = AAM
+controller = AAM
 culture = human_culture
 religion = imperial_cult
 base_tax = 5
