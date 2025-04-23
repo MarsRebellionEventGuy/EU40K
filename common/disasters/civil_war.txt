@@ -16,6 +16,7 @@ civil_war = {
 				has_reform = native_hereditary_reform 
 			}
 		}
+		NOT = { has_reform = imperium_regency_reform }
 		is_free_or_tributary_trigger = yes
 		uses_doom = no
 		NOT = { has_country_flag = had_civil_war }

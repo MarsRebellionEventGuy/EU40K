@@ -933,6 +933,12 @@ jovian_shipyards = {
 				culture = dark_mechanicum_culture
 			}
 		}
+		owner={
+			owns_all_provinces = {
+				area = jupiter
+				NOT={province_id = 3940}
+			}
+		}
 	}
 
 	#what to do when it's built
@@ -953,6 +959,12 @@ jovian_shipyards = {
 				culture = dark_mechanicum_culture
 			}
 		}
+		owner={
+			owns_all_provinces = {
+				area = jupiter
+				NOT={province_id = 3940}
+			}
+		}
 	}
 
 	#can our country upgrade it?
@@ -963,6 +975,12 @@ jovian_shipyards = {
 			OR={
 				culture_group = imperial_culture_group	
 				culture = dark_mechanicum_culture
+			}
+		}
+		owner={
+			owns_all_provinces = {
+				area = jupiter
+				NOT={province_id = 3940}
 			}
 		}
 	}

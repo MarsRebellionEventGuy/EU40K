@@ -131,6 +131,7 @@
  monthly_imperium_power: "Monthly Crusade Momentum"
  ability_imperium_mechanic: "Crusade Momentum"
  independant_imperial_governorate_reform: "Independant Governorate"
+ planet_controlled_by_imperium_tt: "Under the Dominion of the §YImperium of Man§!"
  
  adeptus_ministorum_label_tt: "The Adeptus Ministorum, also known as the Ecclesiarchy"
  adeptus_ministorum_label: "Ecclesicarchy"
@@ -147,6 +148,10 @@
  deathwatch_label_tt: "The Deathwatch are the Chamber Miliant of the Ordo Xenos, formed of battle brothers from across the Astartes Chapters of the Imperium. The Deathwatch is tasked to defend and contain Xenos from their Watch Stations"
  INQUISITION: "Holy Inquisition Order"
  INQUISITORIAL_REPRESENTIVE: "Inquisitorial Representative"
+ 
+ imperium_lost_warp_routes_disaster: "Lost Terra Warp Routes"
+ dark_imperium_disaster: "Dark Imperium"
+ imperium_events.9: "Reclaiming Nullus"
 
  logos_historica_verita_decision_title: "Logos Historica Verita"
  logos_historica_verita_decision_desc: "The Logos Historica Verita shall be a new arm of the Adeptus Terra, tasked by Lord Guilliman with compiling a complete and accurate record of Mankind’s history, unbridled by the biased and often contradictory forces of superstition and political meddling that have so plagued the Imperium for the past hundred centuries.\n--------------"
