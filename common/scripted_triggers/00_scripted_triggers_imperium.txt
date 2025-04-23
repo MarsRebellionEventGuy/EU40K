@@ -1058,7 +1058,7 @@ is_controlled_by_imperium = {
 }
 is_aeldari_world = {
 	OR={
-		terrain = hills
-		terrain = coastline
+		has_terrain = hills
+		has_terrain = coastline
 	}
 }

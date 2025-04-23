@@ -6,7 +6,7 @@ spriteTypes = {
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_estate_inquisition_disaster"
+		name = "GFX_disaster_estate_inquisition_disaster"
 		texturefile = "gfx//interface//disasters//estate_inquisition_disaster.dds"
 		noOfFrames = 3
 		loadType = "INGAME"
