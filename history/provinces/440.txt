@@ -1,10 +1,9 @@
 religion = necron
 culture = necron_culture
-base_tax = 4
-base_production = 5
-base_manpower = 3
+base_tax = 10
+base_production = 10
+base_manpower = 11
 add_core = XXC
 owner = XXC
 controller = XXC
 trade_goods = living_metal
-is_city = no

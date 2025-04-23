@@ -7,4 +7,3 @@ base_tax = 6
 base_production = 4
 base_manpower = 6
 trade_goods = wraithbone
-is_city = no

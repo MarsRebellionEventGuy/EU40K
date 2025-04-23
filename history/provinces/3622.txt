@@ -5,6 +5,5 @@ religion = chaos_undivided
 culture = heretic_astartes_culture
 base_tax = 4
 base_production = 4
-base_manpower = 3
+base_manpower = 4
 trade_goods = archaotech
-is_city = no

@@ -3,13 +3,13 @@ controller = XER
 add_core = XER
 religion = chaos_undivided
 culture = dark_mechanicum_culture
-base_tax = 3
+base_tax = 4
 base_production = 5
-base_manpower = 3
+base_manpower = 4
 trade_goods = slaves
-add_permanent_province_modifier = { 
+
+add_permanent_province_modifier = {
 	name = hell_forge_mod
 	duration = -1
 	desc = hell_forge_mod_desc
 }
-is_city = no

@@ -3,8 +3,8 @@ controller = XDO
 add_core = XDO
 religion = mechanicus
 culture = mechanicus_culture
-base_tax = 5
-base_production = 6
-base_manpower = 6
+base_tax = 1
+base_production = 4
+base_manpower = 2
 trade_goods = minerals
-is_city = no
+

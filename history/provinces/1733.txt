@@ -4,6 +4,7 @@ controller = XRI
 religion = ork
 culture = ork_culture
 base_tax = 3
-base_production = 1
+base_production = 3
 base_manpower = 4
-is_city = no
+trade_goods = archaoetech
+

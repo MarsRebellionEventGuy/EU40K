@@ -3,8 +3,8 @@ owner = XOB
 controller = XOB
 religion = mechanicus
 culture = mechanicus_culture
-base_tax = 4
+base_tax = 2
 base_production = 4
-base_manpower = 4
+base_manpower = 3
 trade_goods = xeno_technology
-is_city = no
+

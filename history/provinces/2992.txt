@@ -5,6 +5,6 @@ religion = imperial_cult
 culture = coronid_human_culture
 base_tax = 5
 base_production = 5
-base_manpower = 3
+base_manpower = 4
 trade_goods = minerals
 is_city = no

@@ -5,6 +5,6 @@ religion = imperial_cult
 culture = grail_human_culture
 base_tax = 4
 base_production = 4
-base_manpower = 4
+base_manpower = 3
 trade_goods = military_equipment
 is_city = no

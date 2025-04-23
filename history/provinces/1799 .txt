@@ -3,8 +3,8 @@ owner = XEV
 controller = XEV
 religion = destroyer_cult
 culture = necron_culture
-base_tax = 3
-base_production = 1
-base_manpower = 1
+base_tax = 9
+base_production = 10
+base_manpower = 8
 trade_goods = living_metal
-is_city = no
+

@@ -3,12 +3,13 @@ owner = XFX
 controller = XFX
 religion = imperial_cult
 culture = ullanor_human_culture
-base_tax = 3
-base_production = 6
+base_tax = 4
+base_production = 7
 base_manpower = 4
 trade_goods = clerks
 is_city = no
-add_permanent_province_modifier = { 
+
+add_permanent_province_modifier = {
 	name = minor_forge_world_mod
 	duration = -1
 	desc = minor_forge_world_mod_desc
