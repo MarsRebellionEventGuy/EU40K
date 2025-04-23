@@ -1,0 +1,7 @@
+government = monarchy
+add_government_reform = imperial_governorate_reform
+government_rank = 1
+technology_group = imperial
+religion = imperial_cult
+primary_culture = sabbat_human_culture
+capital = 4090

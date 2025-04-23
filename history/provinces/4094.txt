@@ -1,0 +1,9 @@
+add_core = XEB
+owner = XEB
+base_tax = 1
+base_manpower = 3
+base_production = 1
+culture = chaos_culture
+religion = khorne
+controller = XEB
+is_city = no

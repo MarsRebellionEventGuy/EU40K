@@ -5,3 +5,12 @@ technology_group = imperial
 religion = imperial_cult
 primary_culture = human_culture
 capital = 486
+1970.12.12 = { 
+	monarch = { 
+		name = "Morst"
+		dynasty= "Bolifax"
+		adm = 5
+		dip = 2
+		mil = 4
+	}
+}

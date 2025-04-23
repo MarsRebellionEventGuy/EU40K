@@ -2,3 +2,5 @@ base_tax = 3
 base_manpower = 4
 base_production = 5
 is_city = no
+culture = sabbat_human_culture
+religion = imperial_cult

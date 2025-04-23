@@ -1,0 +1,9 @@
+add_core = XZP
+owner = XZP
+culture = ork_culture
+controller = XZP
+is_city = no
+religion = ork
+base_tax = 2
+base_manpower = 2
+base_production = 1

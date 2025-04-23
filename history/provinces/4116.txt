@@ -1,0 +1,9 @@
+culture = kin_culture
+religion = votann
+is_city = no
+base_tax = 2
+base_manpower = 6
+base_production = 5
+add_core = XUB
+owner = XUB
+controller = XUB

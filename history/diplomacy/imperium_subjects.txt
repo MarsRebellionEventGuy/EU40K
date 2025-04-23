@@ -72,6 +72,20 @@ dependency = {
 	end_date = 2100.8.3
 }
 dependency = {
+	subject_type = "shrine_world_subject_type"
+	first = AAM
+	second = XTY
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "shrine_world_subject_type"
+	first = AAM
+	second = XUE
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
 	subject_type = "order_adepta_sororitas_subject_type"
 	first = AAM
 	second = XOO
@@ -462,6 +476,13 @@ dependency = {
 	start_date = 1000.8.20
 	end_date = 2100.8.3
 }
+dependency = {
+	subject_type = "autonomus_astartes_subject_type"
+	first = XXA
+	second = XUC
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
 #Imperial Worlds
 dependency = {
 	subject_type = "imperial_world_subject_type"
@@ -748,6 +769,27 @@ dependency = {
 	subject_type = "nominal_imperial_world_subject_type"
 	first = XXA
 	second = XTV
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "nominal_imperial_world_subject_type"
+	first = XXA
+	second = XTZ
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "nominal_imperial_world_subject_type"
+	first = XXA
+	second = XUA
+	start_date = 1000.8.20
+	end_date = 2100.8.3
+}
+dependency = {
+	subject_type = "nominal_imperial_world_subject_type"
+	first = XXA
+	second = XUD
 	start_date = 1000.8.20
 	end_date = 2100.8.3
 }

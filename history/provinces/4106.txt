@@ -1,0 +1,6 @@
+culture = ork_culture
+is_city = no
+religion = ork
+base_tax = 2
+base_manpower = 3
+base_production = 2
