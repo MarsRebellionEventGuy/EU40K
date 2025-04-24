@@ -704,6 +704,8 @@ estate_special = {
 			always = yes
 		}
 	}
+	#For Imperium
+
 	#For everyone
 	modifier_definition = {
 		type = loyalty

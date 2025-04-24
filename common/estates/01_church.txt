@@ -196,7 +196,8 @@ estate_church = {
 		trigger = {
 			tag = XXA
 			religion = imperial_cult
-			869 = { 
+			ophelia = { 
+				type = all
 				OR={
 					NOT={religion = imperial_cult }
 					has_owner_religion = no 
@@ -208,11 +209,9 @@ estate_church = {
 	custom_name = {
 		desc = estate_ecclesiarchy
 		trigger = {
-			OR = {
-				primary_culture = human_culture
-				primary_culture = abhuman_culture
-				primary_culture = knight_culture
-			}
+			primary_culture_group = imperial_culture_group
+			NOT={primary_culture = loyalist_astartes_culture}
+			NOT={primary_culture = mechanicus_culture}
 		}
 	}
 

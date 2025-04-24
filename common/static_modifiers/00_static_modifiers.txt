@@ -2368,12 +2368,16 @@ astartes_base_modifiers = {
 }
 astartes_base_overlord_modifiers = {
 	amount_of_banners = 0.05
+	total_astartes_amount = 1
+	num_astartes = 1
 }
 autonomus_astartes_base_modifiers= {
 	
 }
 autonomus_astartes_base_overlord_modifiers={
 	amount_of_banners = 0.05
+	total_astartes_amount = 1
+	num_autonomus_astartes = 1
 }
 mechanicus_base_modifiers={
 	
@@ -2410,9 +2414,19 @@ mechanicus_overlord_modifiers_in_disaster={
 }
 nominal_imperial_world_base_modifiers={
 	administrative_efficiency = 0.05
+	
 }
 nominal_imperial_world_base_overlord_modifiers={
-	
+	num_nominal_worlds = 1
+	total_imperial_worlds = 1
+}
+imperial_world_base_overlord_modifiers={
+	num_imperial_worlds = 1
+	total_imperial_worlds = 1
+}
+integrate_imperial_world_base_overlord_modifiers={
+	num_integrated_worlds = 1
+	total_imperial_worlds = 1
 }
 imperial_world_base_modifiers={
 	

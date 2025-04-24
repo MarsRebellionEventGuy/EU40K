@@ -1,0 +1,10 @@
+add_core = XZA
+add_core = AAM
+owner = XZA
+base_tax = 2
+base_manpower = 2
+base_production = 3
+culture = uhulis_human_culture
+religion = chaos_undivided
+controller = XZA
+is_city = no

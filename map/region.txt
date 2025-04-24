@@ -30,7 +30,7 @@ macharia_region = {
 }
 uhulis_region = { 
 	areas = { 
-		chiros krieg veradan manask graia 
+		chiros krieg veradan manask graia ophelia
 	}
 }
 yarokin_veil_region = { 

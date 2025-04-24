@@ -49,7 +49,7 @@
  adeptus_mechanicus_forge_worlds_label: "Forge Worlds: §Y[2.MechanicusNbForgeWorlds.GetValue]§!"
  adeptus_mechanicus_label_tt: "The Adeptus Mechanicus [Root.GetMechanicusStatus]"
  Mechanicus_united_tag: "is united under the [adeptus_mechanicus_tag.Monarch.GetTitle]"
- Mechanicus_divided_tag: "is currently controlled by [adeptus_mechanicus_tag.GetName]"
+ Mechanicus_divided_tag: "is currently considered by the Imperium to be controlled by [adeptus_mechanicus_tag.GetName], However [adeptus_mechanicus_tag.GetName] doesn't currently control enough of the Mechanicus to be its only candidate."
  Mechanicus_disloyal: "§RDisloyal§!"
  Mechanicus_loyal: "§GLoyal§!"
  Mechanicus_neutral: "§YNeutral§!"

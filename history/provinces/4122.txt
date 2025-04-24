@@ -1,0 +1,10 @@
+add_core = XTT
+add_claim = XZA
+owner = XTT
+base_tax = 4
+base_manpower = 2
+base_production = 2
+culture = human_culture
+religion = imperial_cult
+controller = XTT
+is_city = no

@@ -408,7 +408,6 @@ holy_synod_reform = {
 	icon = "craftworld_reform"
 	valid_for_nation_designer = no
 	nation_designer_cost = 0
-	papacy = yes
 	allow_convert = no
 	modifiers = {
 		prestige_per_development_from_conversion = 0.33

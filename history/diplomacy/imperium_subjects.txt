@@ -2,13 +2,13 @@
 dependency = {
 	subject_type = "0_mechanicus_subject_type"
 	first = XXA
-	second = XXB
+	second = XTE
 	start_date = 1000.8.20
 	end_date = 2100.8.3
 }
 dependency = {
 	subject_type = "integrated_forgeworld"
-	first = XXB
+	first = XTE
 	second = XOR
 	start_date = 1000.8.20
 	end_date = 2100.8.3
