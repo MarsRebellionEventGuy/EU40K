@@ -208,7 +208,7 @@ estate_church = {
 	custom_name = {
 		desc = estate_ecclesiarchy
 		trigger = {
-			primary_culture_group = imperial_culture_group
+			culture_group = imperial_culture_group
 			NOT={primary_culture = loyalist_astartes_culture}
 			NOT={primary_culture = mechanicus_culture}
 		}

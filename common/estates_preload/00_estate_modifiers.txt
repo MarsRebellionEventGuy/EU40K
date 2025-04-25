@@ -709,7 +709,7 @@ estate_special = {
 		type = privileges
 		key = golden_throne_integrity_decay
 		trigger = {
-			tag = XXA
+			is_emperor_of_china = yes
 		}
 	}
 
