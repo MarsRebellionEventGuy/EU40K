@@ -2828,7 +2828,7 @@ imperial_sector_subject = {
 	modifier_overlord = {
 		modifier = loyal_sector_overlord_modifiers
 		trigger={
-			NOT={liberty_desire = 50}
+			NOT={liberty_desire = 25}
 		}
 	}
 	

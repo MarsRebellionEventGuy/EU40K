@@ -705,6 +705,13 @@ estate_special = {
 		}
 	}
 	#For Imperium
+	modifier_definition = {
+		type = privileges
+		key = golden_throne_integrity_decay
+		trigger = {
+			tag = XXA
+		}
+	}
 
 	#For everyone
 	modifier_definition = {

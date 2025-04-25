@@ -197,7 +197,6 @@ estate_church = {
 			tag = XXA
 			religion = imperial_cult
 			ophelia = { 
-				type = all
 				OR={
 					NOT={religion = imperial_cult }
 					has_owner_religion = no 
