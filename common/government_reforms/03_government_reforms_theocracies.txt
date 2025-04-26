@@ -446,7 +446,7 @@ minor_forgeworld_reform = {
 	nation_designer_cost = 0 
     potential = {
 		primary_culture = mechanicus_culture
-      		religion = mechanicus
+      	religion = mechanicus
     }
        
     trigger = {
@@ -468,7 +468,7 @@ forgeworld_reform = {
 	nation_designer_cost = 0 
     potential = {
 		primary_culture = mechanicus_culture
-      		religion = mechanicus
+      	religion = mechanicus
     }
        
     trigger = {
@@ -486,6 +486,7 @@ forgeworld_reform = {
 			tag = XHG
 			tag = XOQ
 			tag = XBV
+			tag = XTE
 		}
     }
 
@@ -570,10 +571,14 @@ mars_the_red_planet_reform = {				#mars mission reward 	#can create forgeworld s
     potential = {
 		primary_culture = mechanicus_culture
       	religion = mechanicus
-		tag = XXB
+		OR={
+			tag = XXB
+			tag = XTE
+		}
     }
        
     trigger = {
+		owns = 2
 		total_own_and_non_tributary_subject_development = 400
     }
 

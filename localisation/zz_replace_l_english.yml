@@ -382,6 +382,8 @@
  XXA_sending_knights: "Imperium Increased Knight Tithe"
  inquisition_loyalty_modifier: "Inquisition Loyalty Equilibrium"
  EST_VAL_MEC_LIBERTY_DESIRE_PERCENTAGE: "Mechancius Liberty Desire"
+ EST_VAL_INQ_LIBERTY_DESIRE_PERCENTAGE: "Inquisition Liberty Desire"
+ EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE: "Ministorum Liberty Desire"
  EST_VAL_MEC_HIGH_PRODUCTION: "Number of Forge Worlds"
  IMPERIUMCANTVASSALNOMINALCANDIDATES: "§RThe Imperium of Man can't vassalise those who are already its vassals.§!"
  reign_in_nominal_world_title: "Regin in Nominal World"
@@ -401,6 +403,7 @@
  CURTAIL_ASTARTES_AUTONOMY_NOT_PASSED_TT: "§YAstartes Autonomy§! §Rhas NOT been§! §YCurtailed§!"
  enables_imperial_truth_tt: "Starts the §YRenassance of the Imperial Truth§! Event Chain."
  invite_into_imperium_tooltip: "Re-establish Contact with this World"
+ mandate:0 "Imperial Cohesion"
  
  vassalize_imperial_worlds_decision_tt: "The Imperium of Man can use Imperial Cohesion to elevate a Nominal World to a direct Imperial World."
  vassalize_imperial_worlds_decision_ct: "The Imperium of Man can no longer elevate Nominal Worlds."
