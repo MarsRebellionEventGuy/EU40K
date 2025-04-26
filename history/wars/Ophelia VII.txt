@@ -1,0 +1,18 @@
+name = "Battle of Ophelia VII"
+war_goal = {
+	type = take_border
+	casus_belli = cb_border_war
+	province = 869
+}
+
+1999.1.1 = {
+	add_attacker = XZA
+	add_defender = AAM
+	add_defender = XTT
+}
+
+2001.1.1 = {
+	rem_attacker = XZA
+	rem_defender = AAM
+	rem_defender = XTT
+}

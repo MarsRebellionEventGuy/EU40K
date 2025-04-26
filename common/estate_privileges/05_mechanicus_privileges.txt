@@ -129,7 +129,7 @@ estate_mechanicus_basilikon_astra_privilege = {
 		navy_tradition_decay = -0.01
 	}
 	modifier_by_land_ownership = {
-		trade_efficiency = 0.2
+		trade_efficiency = -0.2
 	}
 	penalties = {
 		naval_forcelimit = -5
@@ -262,7 +262,7 @@ estate_mechanicus_expand_knight_production = {
 		}
 	}
 	influence = 0.1
-	loyalty = 0.1
+	loyalty = 0.05
 	benefits = { 
 		cavalry_power = 0.10
 	}

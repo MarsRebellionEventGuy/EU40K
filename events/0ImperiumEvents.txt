@@ -250,3 +250,17 @@ country_event = {#Unifiy Ultramar
 		}
 	}
 }
+
+country_event = {
+	id = imperium_events.9
+	title = "imperium_events.9.t"
+	desc = "imperium_events.9.d"
+	picture = CONQUEST_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = "imperium_events.9.a"
+		set_country_flag = had_dark_imperium
+	}
+}

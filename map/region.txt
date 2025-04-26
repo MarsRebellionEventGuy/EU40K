@@ -4,7 +4,7 @@
 ########################################
 segmentum_solar_region = { 
 	areas = { 
-		solar avellorn benediction voss gathalamor xenax keletros solar_star_keeps atoma_prime nox_alpha
+		solar avellorn voss gathalamor xenax keletros solar_star_keeps atoma_prime nox_alpha
 		benediction_planet dulmalin gathalamor_planet vorlese vilamus_planet voss_planet mars_planet veritus saturn jupiter
 	}
 }
@@ -20,7 +20,7 @@ inwit_cluster_region = {
 }
 fenris_region = { 
 	areas = { 
-		fenris armageddon garmon elysia garmon_planet voss_prime_planet
+		fenris armageddon garmon elysia garmon_planet voss_prime_planet harkon
 	}
 }
 macharia_region = { 
@@ -30,7 +30,7 @@ macharia_region = {
 }
 uhulis_region = { 
 	areas = { 
-		chiros krieg veradan manask graia 
+		chiros krieg veradan manask graia ophelia
 	}
 }
 yarokin_veil_region = { 
@@ -40,7 +40,7 @@ yarokin_veil_region = {
 }
 sabbat_worlds_region = { 
 	areas = { 
-		enothis cabal_systems khan_group newfound_trailing atar_median carcaradon_cluster 
+		enothis cabal_systems khan_group newfound_trailing atar_median carcaradon_cluster sanguinary_worlds lyubov urdesh
 	}
 }
 orpheus_region = { 
@@ -147,7 +147,7 @@ forsarr_region = {
 }
 laanah_rifts_region = { 
 	areas = { 
-		laanah_rifts jerulas cando 
+		laanah_rifts jerulas cando viridis
 	}
 }
 tau_region = { 
@@ -203,7 +203,7 @@ trail_evisser_region = {
 }
 salient_stars_region = { 
 	areas = { 
-		methalor bastior guryan stygies sabatine methalor_planet stygies_planet
+		methalor bastior guryan stygies sabatine methalor_planet stygies_planet asmodiox vorsk morpheum vynor
 	}
 }
 hydraphur_region = { 

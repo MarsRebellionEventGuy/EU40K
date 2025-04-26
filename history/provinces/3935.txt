@@ -1,8 +1,8 @@
 add_core = XSM
 owner = XSM
-base_tax = 4
+base_tax = 5
 base_manpower = 5
-base_production = 3
+base_production = 5
 trade_goods = slaves
 culture = drukhari_culture
 religion = dark_muses

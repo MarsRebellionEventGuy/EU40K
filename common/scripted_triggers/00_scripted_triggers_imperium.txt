@@ -1044,3 +1044,21 @@ has_100_forge_worlds_trigger = {
 		amount = 100
 	}
 }
+
+is_controlled_by_imperium = {
+	custom_trigger_tooltip={
+		tooltip = planet_controlled_by_imperium_tt
+		OR = {
+			country_or_subject_holds = ROOT
+			country_or_subject_holds = event_target:adeptus_mechanicus_tag
+			country_or_subject_holds = event_target:adeptus_ministorum_tag
+			country_or_subject_holds = event_target:inquisition_tag
+		}
+	}
+}
+is_aeldari_world = {
+	OR={
+		has_terrain = hills
+		has_terrain = coastline
+	}
+}

@@ -2,7 +2,7 @@ bookmark = {
     name = "bookmark2"
     desc = "bookmark_desc2"
     date = 1999.1.1       
-    	country = XXB             
+    	country = XTE             
     country = XOJ
     country = XOL
     country = XGC
@@ -10,7 +10,7 @@ bookmark = {
     country = XBV
     country = XOB
     country = XFF
-    	easy_country = XXB   
+    	easy_country = XTE   
         easy_country = XOJ         
     # easy_country = <tag>            # Optional. Adds country shield to the selection view with a green glow.
     

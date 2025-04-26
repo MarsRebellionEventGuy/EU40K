@@ -1,0 +1,10 @@
+add_core = XZP
+add_core = XXC
+owner = XZP
+culture = necron_culture
+religion = necron
+controller = XZP
+is_city = no
+base_tax = 1
+base_manpower = 3
+base_production = 2

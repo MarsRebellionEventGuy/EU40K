@@ -1,11 +1,10 @@
-add_core = XXB
-owner = XXB
-controller = XXB
+owner = XTE
+controller = XTE
 religion = mechanicus
 culture = mechanicus_culture
-base_tax = 3
-base_production = 6
-base_manpower = 6
+base_tax = 8
+base_production = 8
+base_manpower = 8
 capital = "Olympus Mons"
 trade_goods = archaotech
 add_permanent_province_modifier = { 
@@ -13,4 +12,5 @@ add_permanent_province_modifier = {
 	duration = -1
 	desc = forge_world_1_mod_desc
 }
+add_core = XTE
 is_city = no

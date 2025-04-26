@@ -7,4 +7,3 @@ base_tax = 5
 base_production = 4
 base_manpower = 5
 trade_goods = luxury_goods
-is_city = no

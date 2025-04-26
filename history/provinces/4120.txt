@@ -1,0 +1,6 @@
+culture = laanah_human_culture
+is_city = no
+religion = imperial_cult
+base_tax = 3
+base_manpower = 3
+base_production = 3

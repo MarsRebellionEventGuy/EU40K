@@ -109,6 +109,11 @@ spriteTypes = {
     }
 	
 	spriteType = {
+		name = "GFX_great_project_jovian_shipyards"    
+		texturefile = "gfx//interface//great_project_jovian_shipyards.dds"
+    }
+	
+	spriteType = {
 		name = "GFX_great_project_terra_webway_portal"    
 		texturefile = "gfx//interface//great_project_webway_gate.dds"
     }
@@ -122,6 +127,62 @@ spriteTypes = {
     }
 	spriteType = {
 		name = "GFX_great_project_yme_loc_webway_portal"    
+		texturefile = "gfx//interface//great_project_webway_gate.dds"
+    }
+	spriteType = {
+		name = "GFX_great_project_lugganath_webway_portal"    
+		texturefile = "gfx//interface//great_project_webway_gate.dds"
+    }
+	spriteType = {
+		name = "GFX_great_project_altansar_webway_portal"    
+		texturefile = "gfx//interface//great_project_webway_gate.dds"
+    }
+	spriteType = {
+		name = "GFX_great_project_saim-hann_webway_portal"    
+		texturefile = "gfx//interface//great_project_webway_gate.dds"
+    }
+	spriteType = {
+		name = "GFX_great_project_biel-tan_webway_portal"    
+		texturefile = "gfx//interface//great_project_webway_gate.dds"
+    }
+	spriteType = {
+		name = "GFX_great_project_athelaq_webway_portal"    
+		texturefile = "gfx//interface//great_project_webway_gate.dds"
+    }
+	spriteType = {
+		name = "GFX_great_project_duriel_webway_portal"    
+		texturefile = "gfx//interface//great_project_webway_gate.dds"
+    }
+	spriteType = {
+		name = "GFX_great_project_nocturne_webway_portal"    
+		texturefile = "gfx//interface//great_project_webway_gate.dds"
+    }
+	spriteType = {
+		name = "GFX_great_project_catachan_webway_portal"    
+		texturefile = "gfx//interface//great_project_webway_gate.dds"
+    }
+	spriteType = {
+		name = "GFX_great_project_naiatoc_webway_portal"    
+		texturefile = "gfx//interface//great_project_webway_gate.dds"
+    }
+	spriteType = {
+		name = "GFX_great_project_elysia_webway_portal"    
+		texturefile = "gfx//interface//great_project_webway_gate.dds"
+    }
+	spriteType = {
+		name = "GFX_great_project_fenris_webway_portal"    
+		texturefile = "gfx//interface//great_project_webway_gate.dds"
+    }
+	spriteType = {
+		name = "GFX_great_project_cegorachi_webway_portal"    
+		texturefile = "gfx//interface//great_project_webway_gate.dds"
+    }
+	spriteType = {
+		name = "GFX_great_project_ulthwe_webway_portal"    
+		texturefile = "gfx//interface//great_project_webway_gate.dds"
+    }
+	spriteType = {
+		name = "GFX_great_project_rhidhol_webway_portal"    
 		texturefile = "gfx//interface//great_project_webway_gate.dds"
     }
 }

@@ -1,8 +1,8 @@
 add_core = XSL
 owner = XSL
-base_tax = 3
-base_manpower = 3
-base_production = 4
+base_tax = 4
+base_manpower = 6
+base_production = 5
 trade_goods = scientific_equipment
 culture = drukhari_culture
 religion = dark_muses

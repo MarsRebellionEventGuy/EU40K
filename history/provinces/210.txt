@@ -1,10 +1,9 @@
 religion = imperial_cult
 culture = human_culture
-base_tax = 6
-base_production = 5
+base_tax = 2
+base_production = 3
 base_manpower = 5
 add_core = XXA
 owner = XXA
 controller = XXA
 trade_goods = military_equipment
-is_city = no

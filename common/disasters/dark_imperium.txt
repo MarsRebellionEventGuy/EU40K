@@ -1,0 +1,51 @@
+dark_imperium_disaster = {
+	ended_by_country_breaking_to_rebels = no
+	potential = {
+		is_emperor_of_china = yes
+		uses_doom = no
+		is_free_or_tributary_trigger = yes
+		normal_or_historical_nations = yes
+		NOT = { has_country_flag = had_dark_imperium }
+	}
+	
+	can_start = {
+		current_age = age_of_discovery
+	}
+	
+	can_stop = { 
+		NOT={ current_age = age_of_discovery }
+	}
+	
+	
+	progress = {
+		modifier = {
+			factor = 100
+			is_emperor_of_china = yes
+		}
+	}
+	
+	can_end = {
+		mission_completed = XXA_returning_to_nullus
+	}
+	
+
+	modifier = {
+		all_power_cost = 0.05
+		imperial_mandate = -0.1
+		reduced_liberty_desire = -5
+	}
+	
+	#on_start = majapahit.3 # The Fall of Majapahit
+	on_end = imperium_events.9 # Reclaiming Nullus
+	
+	on_monthly = {
+		events = {
+			
+		}
+		random_events = {
+			360 = 0
+			
+		}
+	}
+}
+

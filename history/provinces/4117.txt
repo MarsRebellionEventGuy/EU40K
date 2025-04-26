@@ -1,0 +1,9 @@
+culture = loyalist_astartes_culture
+religion = imperial_cult
+is_city = no
+base_tax = 2
+base_manpower = 4
+base_production = 3
+add_core = XUC
+owner = XUC
+controller = XUC

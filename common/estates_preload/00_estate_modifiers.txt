@@ -730,6 +730,15 @@ estate_special = {
 			always = yes
 		}
 	}
+	#For Imperium
+	modifier_definition = {
+		type = privileges
+		key = golden_throne_integrity_decay
+		trigger = {
+			is_emperor_of_china = yes
+		}
+	}
+
 	#For everyone
 	modifier_definition = {
 		type = loyalty

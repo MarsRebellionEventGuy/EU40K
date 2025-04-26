@@ -4,12 +4,12 @@ controller = XKP
 religion = chaos_undivided
 culture = dark_mechanicum_culture
 base_tax = 5
-base_production = 5
-base_manpower = 4
+base_production = 6
+base_manpower = 5
 trade_goods = military_equipment
-add_permanent_province_modifier = { 
+
+add_permanent_province_modifier = {
 	name = hell_forge_mod
 	duration = -1
 	desc = hell_forge_mod_desc
 }
-is_city = no

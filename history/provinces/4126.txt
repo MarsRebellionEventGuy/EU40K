@@ -1,0 +1,9 @@
+add_core = XTU
+owner = XTU
+base_tax = 4
+base_manpower = 2
+base_production = 3
+culture = mandragora_human_culture
+religion = imperial_cult
+controller = XTU
+is_city = no

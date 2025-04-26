@@ -1,0 +1,6 @@
+culture = salient_human_culture
+is_city = no
+religion = imperial_cult
+base_tax = 1
+base_manpower = 2
+base_production = 1

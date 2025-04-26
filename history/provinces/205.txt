@@ -1,10 +1,9 @@
 religion = imperial_cult
 culture = human_culture
-base_tax = 4
-base_production = 4
-base_manpower = 1
+base_tax = 3
+base_production = 3
+base_manpower = 3
 native_size = 2
 native_ferocity = 4
 native_hostileness = 5
 trade_goods = agricultural_goods
-is_city = no

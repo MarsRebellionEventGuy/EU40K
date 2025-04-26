@@ -7,4 +7,3 @@ base_tax = 1
 base_production = 2
 base_manpower = 1
 trade_goods = minerals
-is_city = no

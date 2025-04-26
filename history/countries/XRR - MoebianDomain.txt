@@ -1,14 +1,15 @@
-government = theocracy
-add_government_reform = chaos_cult_reform
-government_rank = 1
-technology_group = chaos
-religion = chaos_undivided
-primary_culture = chaos_culture
-capital = 3600
+government = monarchy
+add_government_reform = imperial_governorate_reform
+government_rank = 2
+technology_group = imperial
+religion = imperial_cult
+primary_culture = human_culture
+capital = 3603
 
 1970.12.12 = {
 	monarch = {
-		name = "Enahl Wolfer"	
+		name = "Constance"
+		dynasty = "Margrave"
 		adm = 2
 		dip = 2
 		mil = 4

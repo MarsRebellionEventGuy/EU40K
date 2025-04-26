@@ -181,6 +181,7 @@ XXA_Logistics = {
 XXA_Indomitus = {
 	naval_forcelimit_modifier = 0.20
 	prestige_from_naval = 0.33
+	monthly_imperium_power = 0.15
 }
 
 genestealer_kellermorph_bonus = {

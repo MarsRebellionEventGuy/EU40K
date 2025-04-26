@@ -2201,7 +2201,7 @@ integrated_world_subject_type = {
 		}
 	}
 	modifier_overlord = {
-		modifier = soyurghal_base_overlord_modifiers
+		modifier = integrate_imperial_world_base_overlord_modifiers
 	}
 	modifier_overlord = {
 		modifier = disloyal_subject_overlord_modifiers
@@ -2282,7 +2282,7 @@ imperial_world_subject_type = {
 		}
 	}
 	modifier_overlord = {
-		modifier = soyurghal_base_overlord_modifiers
+		modifier = imperial_world_base_overlord_modifiers
 	}
 	modifier_overlord = {
 		modifier = disloyal_subject_overlord_modifiers
@@ -2806,7 +2806,7 @@ imperial_sector_subject = {
 	modifier_overlord = clear
 	modifier_subject = clear
 	modifier_overlord = {
-		modifier = self_governing_colony_overlord
+		modifier = sector_overlord_modifiers
 	}
 	modifier_subject = {
 		modifier = trade_protectorate_subject_modifier
@@ -2823,6 +2823,12 @@ imperial_sector_subject = {
 		modifier = disloyal_sector_overlord_modifiers
 		trigger={
 			liberty_desire = 50
+		}
+	}
+	modifier_overlord = {
+		modifier = loyal_sector_overlord_modifiers
+		trigger={
+			NOT={liberty_desire = 25}
 		}
 	}
 	

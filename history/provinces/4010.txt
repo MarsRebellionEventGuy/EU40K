@@ -1,10 +1,9 @@
 owner = XDI
 controller = XDI
 add_core = XDI
-religion = chaos_undivided
+religion = chaos_undivided 
 culture = dark_mechanicum_culture
-base_tax = 4
-base_production = 2
-base_manpower = 4
+base_tax = 1
+base_production = 3
+base_manpower = 2
 trade_goods = minerals
-is_city = no

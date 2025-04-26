@@ -5,3 +5,12 @@ technology_group = imperial
 religion = imperial_cult
 primary_culture = human_culture
 capital = 3334
+
+1999.1.1={
+	uhulis_region = {
+		discover_country = ROOT
+	}
+	uhulis_sector_sea_region = {
+		discover_country = ROOT
+	}
+}

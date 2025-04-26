@@ -1,0 +1,101 @@
+imperium_lost_warp_routes_disaster = {
+	potential = {
+		is_emperor_of_china = yes
+		capital_scope={
+			area = solar
+		}
+	}
+
+	can_start = {
+		calc_true_if = {
+			NOT={
+				owns_all_provinces = {
+					area = vorlese
+				}
+			}
+			NOT={
+				owns_all_provinces = {
+					area = solar_star_keeps
+				}
+			}
+			amount = 2
+		}
+	}
+	
+	can_stop = { 
+		calc_true_if = {
+			NOT={
+				owns_all_provinces = {
+					area = vorlese
+				}
+			}
+			NOT={
+				owns_all_provinces = {
+					area = solar_star_keeps
+				}
+			}
+			amount = 2
+		}
+	}
+	
+	
+	progress = {
+		modifier = {
+			factor = 1
+			NOT={
+				owns_all_provinces = {
+					area = vorlese
+				}
+			}
+		}
+		modifier = {
+			factor = 1
+			NOT={
+				owns_all_provinces = {
+					area = solar_star_keeps
+				}
+			}
+		}
+	}
+	
+	can_end = {
+		owns_all_provinces = {
+			area = vorlese
+		}
+		owns_all_provinces = {
+			area = solar_star_keeps
+		}
+	}
+
+	modifier = {
+		imperial_mandate = -0.1
+		reduced_liberty_desire = -15
+		movement_speed_in_fleet_modifier = -1
+		range = -0.5
+		trade_range_modifier = -0.5
+	}	
+	
+	
+	#on_start = empire_of_china_nomadic_border_events.1
+	#on_end = empire_of_china_nomadic_border_events.2
+	
+	on_monthly = {
+		events = {
+			
+		}
+		random_events = { 
+			#1000 = 0
+			# None
+		}
+	}
+
+	on_start_effect = {
+		
+	}
+
+	#triggered monthly when it is ticking up to 100. The progress is saved in a variable that is <disaster key>_progress
+	on_progress_effect = {
+		
+	}
+}
+

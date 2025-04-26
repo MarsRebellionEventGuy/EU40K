@@ -4,11 +4,10 @@ government_rank = 1
 technology_group = ork
 religion = ork
 primary_culture = ork_culture
-capital = 606
-
-1970.12.12 = {
-	monarch = {
-		name = "Gragnatz Stompkrumpa"	
+capital = 4103
+1970.12.12 = { 
+	monarch = { 
+		name = "Gragnatz Stompkrumpa"
 		adm = 3
 		dip = 5
 		mil = 4
