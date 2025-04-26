@@ -21,7 +21,7 @@ estate_crypteks = {
 	}
 
 	land_ownership_modifier = {
-		church_loyalty_modifier = 0.2
+		crypteks_loyalty_modifier = 0.2
 	}
 
 	province_independence_weight = {

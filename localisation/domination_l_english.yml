@@ -1346,7 +1346,7 @@
  
  #Decisions
  reform_the_administration_of_china_decision_title:0 "Reform the Administration"
- reform_the_administration_of_china_decision_desc:0 "For far too long have the Eunuchs usurped power for themselves. China and the Imperial throne belong to the Emperor. We must therefore cut down their privileges and curb their power in order to save ourselves from certain disaster."
+ reform_the_administration_of_china_decision_desc:0 "For far too long have the Eunuchs usurped power for themselves. The Imperium and the Golden Throne belong to the Emperor. We must therefore cut down their privileges and curb their power in order to save ourselves from certain disaster."
  
  
  
@@ -3964,24 +3964,46 @@
  estate_cossacks_exempt_from_bureaucracy:0 "Exempt from Bureaucracy"
  estate_cossacks_exempt_from_bureaucracy_desc:0 "Nobody likes bureaucracy - and the [Root.GetCossacksName] are no exception to this. While this makes controling the [Root.GetCossacksName] more difficult, exempting them from our administrative institution will at least guarantee their loyalty."
  ####NOMADIC TRIBES PRIVILEGES###
- estate_nomadic_tribes_autonomy_of_the_tribes:0 "Autonomy of the [Root.GetTribesName]"
- estate_nomadic_tribes_autonomy_of_the_tribes_desc:0 "Our realm is large, yet infrastructure is sparse. In order to keep control over the steppes we must allow the [Root.GetTribesName] to have the autonomy to govern their territory on our behalf."
- estate_nomadic_tribes_freedom_of_the_steppes:0 "[Root.GetTribesName] Freedom of the Steppes"
- estate_nomadic_tribes_freedom_of_the_steppes_desc:0 "The steppes are vast. Untouched by settled civilizations, the steppes are our home. The home of [Root.GetUsableName]; the home of the [Root.GetTribesName]. We all shall enjoy the freedom of the steppes."
- estate_nomadic_tribes_freedom_of_the_steppes_gt:0 "Every owned §YSteppes§! province gains the following bonus:"
- estate_nomadic_tribes_freedom_of_the_steppes_rt:0 "The modifier '§YTribal Freedom of the Steppes§!' is removed from all §YSteppes§! provinces."
- estate_nomadic_tribes_freedom_of_the_steppes_mod:0 "Tribal Freedom of the Steppes"
- desc_estate_nomadic_tribes_freedom_of_the_steppes_mod:0 "This province is governed by the Tribes of a horde."
- estate_nomadic_tribes_grant_military_leadership:0 "[Root.GetTribesName] Support in Leadership"
- estate_nomadic_tribes_grant_military_leadership_desc:0 "Leading a realm which is divided in so many tribes is no any task for any great [Root.Monarch.GetTitle]. By considering the [Root.GetTribesName] support in the leadership we can ensure the maintenance of the [Root.GovernmentName]."
- estate_nomadic_tribes_military_service:0 "[Root.GetTribesName] Military Service"
- estate_nomadic_tribes_military_service_desc:0 "While all of the [Root.GetTribesName] contribute to the military, they still keep a force for themselves. Calling them into the greater military service will bolster our strength considerably."
- estate_nomadic_tribes_ensure_tribal_loyalty:0 "Ensure [Root.GetTribesName] Loyalty"
- estate_nomadic_tribes_ensure_tribal_loyalty_desc:0 "The might of the [Root.Monarch.GetTitle] is nothing without the loyalty of [Root.Monarch.GetHerHis] subjects. The loyalty of the [Root.GetTribesName] must be ensured, no matter the cost."
- estate_nomadic_tribes_ensure_tribal_loyalty_gt:2 "The event '§YTribal Succession Crisis§!' will no longer fire for heirs which have at least §Y12§! Monarch Points in total."
- estate_nomadic_tribes_ensure_tribal_loyalty_rt:1 "The event '§YTribal Succession Crisis§!' will now always fire regardless of the Monarch Points of the heir."
- estate_nomadic_tribes_secured_succession:0 "Secured Succession"
- estate_nomadic_tribes_secured_succession_desc:0 "In a [Root.GovernmentName], the succession is secured by strength. Alas, strength is deceptive, and young to-become khans were killed in the past before they had the chance to prove themselves.\nAlthough this will upset the [Root.GetTribesName], the succession must be secured."
+estate_synapses: "Synapses"
+ estate_synapses_desc:0 "Synapses are the Tyranid Psychic Power which coalesces all of the Tyranids into the Hive Mind. It is projected by Synapse Creatures which have greatly increased synapse networks within their cortex and these act as psychic conduits for the Hive Mind to order nearby troops. Without the Synapse guiding them, most Tyranids would revert to a feral state."
+synapses_influence_modifier:0 "Synapses Influence"
+synapses_loyalty_modifier:0 "Synapses Loyalty Equilibrium"
+synapses_privilege_slots:0 "Synapses Max Privileges"
+estate_synapses_ownership:0 "Synapses Land Ownership"
+estate_synapses_disaster:0 "Synaptic Override"
+estate_disasters.27.a.tt:0 "\nIs this the end of our [Root.GetName]?"
+estate_disasters.27.t:0 "The Synapses Seize Power"
+estate_disasters.27.d:0 "The flagrant misshandling of biomass by [Root.Monarch.GetTitle] has prompted the synaptic creatures previously under our control to seize power of [Root.GetName]. Without apt guidance, our lesser organism revert to a feral state, grounding our invasion of the galaxy to a sudden stop!"
+estate_disasters.27.a:0 "Impossible..."
+
+estate_disasters.28.t:0 "Synaptic Node Reestablished!"
+estate_disasters.28.d:0 "The unruly bioforms under our control have been eliminated and the remaining specimens pledge fealty to our marvelous campaings to come! Glory to [Root.GetName] !"
+estate_disasters.28.a:0 "Aut viam inveniam aut faciam"
+
+estate_synapses_norn_queens:0 "Norn Queens"
+estate_synapses_norn_queens_desc:0 "The Norn-Queens are highly intelligent, self-aware bioforms that lead the Tyranid swarms into battle, guiding both their tactics and their evolutionary path as the swarm adapts throughout the campaign. \nReleasing mayor biological assets to them would expedite our reproduction capabilities when we need them most."
+
+estate_synapses_hive_tyrant:0 "Hive Tyrant"
+estate_synapses_hive_tyrant_desc:0 "As one of the most powerful synaptic organisms, the Hive Tyrant serves as a mobile command node and field marshall at the same time, directing the chorus of extinction across the galaxy. \nStrengthening their role deepens the Hive’s dominion over the everchanging flow of war."
+
+estate_synapses_broodlord:0 "Broodlord"
+estate_synapses_broodlord_desc:0 "These independent creatures excel at infiltration and psychological warfare, leading hidden Genestealers in lightning-fast ambushes as we orbit the soon-to-be devoured world. \nGranting them greater biomass enables us to shatter cohesion among enemy ranks before they ever draw their weapons."
+
+estate_synapses_dominatrix:0 "Dominatrix"
+estate_synapses_dominatrix_desc:0 "An immense and rare synaptic beast, its massive psychic aura allows the swarm under its command to operate at maximum efficiency. However, should the Dominatrix fall in battle, its host would be cast into disarray—an event which can ultimately decide whether a planet is consumed successfully or not. \nWe should ensure a sturdy protection of the Dominatrices to fully benefit from their influence."
+
+estate_synapses_maleceptor:0 "Maleceptor"
+estate_synapses_maleceptor_desc:0 "The colossal Maleceptors embody the purest wrath of the Hive Mind. Its very presence nullifies enemy psykers with ease, and its thick armour seamlessly deflects enemy projectiles as it plows through the warzone. \nDeployed against the intelligent species of the galaxy, we should focus on increased production of these organisms as our enemies insist on delaying the inevitable."
+
+estate_synapses_neurolictors:0 "Neurolictors"
+estate_synapses_neurolictors_desc:0 "These elusive synaptic organisms, an evolution of the ordinary Lictor, specialize in stealth and neural disruption, disturbing the senses of our adversaries whilst conjuring dreadful nightmares in their minds—which will soon materialize. \nInvesting increased resources upon the Neurolictors allows us to dispatch key enemy assets and instill paralyzing terror ahead of the main swarm's arrival."
+
+estate_synapses_tyranid_prime:0 "Tyranid Prime"
+estate_synapsess_tyranid_prime_desc:0 "The apex of the Tyranid Warrior strain, these highly intelligent specimens act as commanders on the battlefield, leading a pack of the swarm as one entity, following the tactics and orders of the Prime with surgical precision unmatched by lesser species’ generals. \nBy devoting increased resources to this brood, we can ensure a streamlined chain of command in the invasions to come."
+
+estate_synapses_zoanthrope:0 "Zoanthrope"
+estate_synapses_zoanthrope_desc:0 "Floating synaptic organisms of immense psychic potential, Zoanthropes unleash warp blasts capable of melting tanks and minds alike. \nChanneling additional biomass to them would provide the fleet with devastating ranged dominance against hardened enemy assets."
+
  ####DHIMMI PRIVILEGES###
  estate_dhimmi_administrative_privileges:0 "[Root.GetDhimmiName] Self Government"
  estate_dhimmi_administrative_privileges_desc:0 "The [Root.GetAdjective] provinces are home to many different religions. By letting the [Root.GetDhimmiName] organize their own government in these communities we can ensure stability and peace in these pagan towns and villages."

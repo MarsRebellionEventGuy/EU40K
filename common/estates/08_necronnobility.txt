@@ -19,7 +19,7 @@ estate_necron_nobles = {
 		global_unrest = 2
 	}
 	land_ownership_modifier = {
-		nobles_loyalty_modifier = 0.2
+		necron_nobles_loyalty_modifier = 0.2
 	}
 
 	province_independence_weight = {

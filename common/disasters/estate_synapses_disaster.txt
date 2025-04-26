@@ -1,0 +1,105 @@
+estate_synapses_disaster = {
+	potential = {
+		has_estate = estate_synapses
+		estate_influence = {
+			estate = estate_synapses
+			influence = 60
+		}
+	}
+
+
+	can_start = { 
+		estate_influence = {
+			estate = estate_synapses
+			influence = 100
+		}
+		NOT = { horde_unity = 60 }
+	}
+	
+	can_stop = {
+		OR = {
+			NOT = {
+				estate_influence = {
+					estate = estate_synapses
+					influence = 100
+				}
+			}
+			NOT = { horde_unity = 70 } 
+		}
+	}
+	
+	down_progress = {
+		factor = 0
+		modifier = {
+			factor = 1
+			NOT = {
+				estate_influence = {
+					estate = estate_synapses
+					influence = 100
+				}
+			}
+		}
+
+	}
+	
+	progress = {
+		modifier = {
+			factor = 2
+			NOT = {
+				estate_loyalty = {
+					estate = estate_synapses
+					loyalty = 50
+				}
+			}
+		}
+		modifier = {
+			factor = 3
+			NOT = {
+				estate_loyalty = {
+					estate = estate_synapses
+					loyalty = 40
+				}
+			}
+		}
+		modifier = {
+			factor = 4
+			NOT = {
+				estate_loyalty = {
+					estate = estate_synapses
+					loyalty = 30
+				}
+			}
+		}
+		modifier = {
+			factor = 5
+			NOT = {
+				estate_loyalty = {
+					estate = estate_synapses
+					loyalty = 20
+				}
+			}
+		}
+	}
+	
+	can_end = {
+		custom_trigger_tooltip = {
+			tooltip = EST_CRUSHED_SYNAPSES_TT
+			NOT = { has_country_flag = estate_synapses_in_power }
+		}
+	}
+	
+	modifier = {	
+		land_morale = -0.2
+		raze_power_gain = -1
+		manpower_recovery_speed = -0.5
+		production_efficiency = -0.3
+		global_tax_modifier = -0.3
+		
+	}
+
+	on_start = estate_disasters.19
+	on_end = estate_disasters.20
+	
+	on_monthly = { }
+}
+

@@ -1,0 +1,179 @@
+estate_synapses_norn_queens = {
+	icon = privilege_coup_detat
+	max_absolutism = -10
+	influence = 0.2
+	loyalty = 0.05
+	can_select = {
+	}
+	on_granted = {
+		add_years_of_income = -0.33
+	}
+	penalties = {
+		global_tax_modifier = -0.1
+		production_efficiency = -0.1
+	}
+	benefits = {
+		global_manpower_modifier = 0.25
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+estate_synapses_hive_tyrant = {
+	icon = privilege_timurid_helmet
+	loyalty = 0.05
+	influence = 0.15
+	max_absolutism = -10
+	can_select = {
+	}
+	on_granted = {
+		add_years_of_income = -0.33
+	}
+	penalties = {
+		global_tax_modifier = -0.1
+		production_efficiency = -0.1
+	}
+	benefits = {
+		land_morale = 0.1
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+estate_synapses_broodlord = {
+	icon = privilege_carolean_march
+	max_absolutism = -5
+	influence = 0.05
+	loyalty = 0
+	can_select = {
+	}
+	on_granted = {
+		add_years_of_income = -0.25
+	}
+	penalties = {
+		global_tax_modifier = -0.05
+		production_efficiency = -0.05
+	}
+	benefits = {
+		assault_fort_cost_modifier = -0.25
+		assault_fort_ability = 0.2
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+estate_synapses_dominatrix = {
+	icon = privilege_conscript_cossack_elite
+	max_absolutism = -5
+	influence = 0.05
+	loyalty = 0
+	can_select = {
+	}
+	on_granted = {
+		add_years_of_income = -0.25
+	}
+	penalties = {
+		movement_speed = -0.1
+		global_tax_modifier = -0.05
+		production_efficiency = -0.05
+	}
+	benefits = {
+		infantry_power = 0.15
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+estate_synapses_maleceptor = {
+	icon = privilege_mayan_crown
+	max_absolutism = -5
+	influence = 0.05
+	loyalty = 0
+	can_select = {
+	}
+	on_granted = {
+		add_years_of_income = -0.25
+	}
+	penalties = {
+		global_tax_modifier = -0.05
+		production_efficiency = -0.05
+	}
+	benefits = {
+		fire_damage_received = -0.15
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+estate_synapses_neurolictors = {
+	icon = privilege_military
+	max_absolutism = -5
+	influence = 0.05
+	loyalty = 0
+	can_select = {
+	}
+	on_granted = {
+		add_years_of_income = -0.25
+	}
+	penalties = {
+		global_tax_modifier = -0.05
+		production_efficiency = -0.05
+	}
+	benefits = {
+		regiment_disembark_speed = 0.15
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+estate_synapses_tyranid_prime = {
+	icon = privilege_army_professionalism
+	max_absolutism = -5
+	influence = 0.05
+	loyalty = 0
+	can_select = {
+	}
+	on_granted = {
+		add_years_of_income = -0.25
+	}
+	penalties = {
+		global_tax_modifier = -0.05
+		production_efficiency = -0.05
+	}
+	benefits = {
+		discipline = 0.025 
+		military_tactics = 0.1
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+estate_synapses_zoanthrope = {
+	icon = privilege_comission_merchant_ships_for_war
+	max_absolutism = -5
+	influence = 0.05
+	loyalty = 0
+	can_select = {
+	}
+	on_granted = {
+		add_years_of_income = -0.25
+	}
+	penalties = {
+		global_tax_modifier = -0.05
+		production_efficiency = -0.05
+	}
+	benefits = {
+		backrow_artillery_damage = 0.15 
+		artillery_fire = 0.2
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}

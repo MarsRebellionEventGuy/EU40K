@@ -125,6 +125,7 @@ country_event = {
 				OR = {
 					has_estate = estate_nobles
 					has_estate = estate_necron_nobles
+					has_estate = estate_synapses
 				}
 				OR = {
 					NOT = {	num_of_estate_privileges = { estate = estate_nobles value = 6 } }
@@ -252,6 +253,7 @@ country_event = {
 		clr_country_flag = estate_adeptus_mechanicus_present_agenda
 		clr_country_flag = estate_necron_nobles_present_agenda
 		clr_country_flag = estate_crypteks_present_agenda
+		clr_country_flag = estate_synapses_present_agenda
 		clear_estate_agenda_cache = ROOT
 	}
 
@@ -678,52 +680,6 @@ country_event = {
 		}
 	}
 
-	option = {
-		name = estate_privileges_and_agendas_events.3.h
-		trigger = { has_country_flag = estate_nomadic_tribes_present_agenda }
-		start_estate_agenda = estate_nomadic_tribes
-		goto = estate_nomadic_tribes
-		ai_chance = {
-			factor = 1
-			modifier = {
-				factor = 1.5
-				NOT = {
-					estate_loyalty = {
-						loyalty = 30
-						estate = estate_nomadic_tribes
-					}
-				}
-			}
-			modifier = {
-				factor = 2
-				NOT = {
-					estate_loyalty = {
-						loyalty = 20
-						estate = estate_nomadic_tribes
-					}
-				}
-			}
-			modifier = {
-				factor = 1.5
-				estate_influence = {
-					influence = 70
-					estate = estate_nomadic_tribes
-				}
-			}
-			modifier = {
-				factor = 2
-				is_absolutism_active = yes
-				num_of_estate_privileges = {
-					estate = estate_nomadic_tribes
-					value = 1
-				}
-				estate_loyalty = {
-					estate = estate_nomadic_tribes
-					higher_than_influence = no
-				}
-			}
-		}
-	}
 
 	option = {
 		name = estate_privileges_and_agendas_events.3.i
@@ -1142,6 +1098,52 @@ country_event = {
 				}
 				estate_loyalty = {
 					estate = estate_crypteks
+					higher_than_influence = no
+				}
+			}
+		}
+	}
+	option = {
+		name = estate_privileges_and_agendas_events.3.v
+		trigger = { has_country_flag = estate_synapses_present_agenda }
+		start_estate_agenda = estate_synapses
+		goto = estate_synapses
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 1.5
+				NOT = {
+					estate_loyalty = {
+						loyalty = 30
+						estate = estate_synapses
+					}
+				}
+			}
+			modifier = {
+				factor = 2
+				NOT = {
+					estate_loyalty = {
+						loyalty = 20
+						estate = estate_synapses
+					}
+				}
+			}
+			modifier = {
+				factor = 1.5
+				estate_influence = {
+					influence = 70
+					estate = estate_synapses
+				}
+			}
+			modifier = {
+				factor = 2
+				is_absolutism_active = yes
+				num_of_estate_privileges = {
+					estate = estate_synapses
+					value = 1
+				}
+				estate_loyalty = {
+					estate = estate_synapses
 					higher_than_influence = no
 				}
 			}

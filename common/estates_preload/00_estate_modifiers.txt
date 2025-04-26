@@ -675,6 +675,32 @@ estate_crypteks = {
 	}
 }
 
+estate_synapses = {
+	modifier_definition = {
+		type = loyalty
+		key = synapses_loyalty_modifier
+		trigger = {
+			has_estate = estate_synapses
+		}
+	}
+
+	modifier_definition = {
+		type = influence
+		key = synapses_influence_modifier
+		trigger = {
+			has_estate = estate_synapses
+		}
+	}
+
+	modifier_definition = {
+		type = privileges
+		key = synapses_privilege_slots
+		trigger = {
+			has_estate = estate_synapses
+		}
+	}
+}
+
 #For special scripted modifiers which are not in the code base.
 estate_special = {
 	#For the Republics which only have limited terms

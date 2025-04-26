@@ -12,6 +12,7 @@ interaction = {
 				has_any_estates = yes 
 				has_estate = estate_necron_nobles
 				has_estate = estate_crypteks
+				has_estate = estate_synapses
 			}
 		}
     }
@@ -194,6 +195,7 @@ interaction = {
 				has_any_estates = yes 
 				has_estate = estate_necron_nobles
 				has_estate = estate_crypteks
+				has_estate = estate_synapses
 			}
 		}
 		NOT = { has_government_attribute = blocked_call_diet }
@@ -295,6 +297,7 @@ interaction = {
 				has_any_estates = yes 
 				has_estate = estate_necron_nobles
 				has_estate = estate_crypteks
+				has_estate = estate_synapses
 			}
 		}
         NOT = { crown_land_share = 100 }

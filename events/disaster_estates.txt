@@ -1056,3 +1056,54 @@ country_event = {
 		name = estate_disasters.13.a
 	}
 }
+#Synapses Disaster Opening Event
+country_event = {
+	id = estate_disasters.27
+	title = estate_disasters.27.t
+	desc = estate_disasters.27.d
+	picture = SYNTHETICS_eventPicture
+	
+	major = yes
+	major_trigger = {
+		capital_scope = { continent = asia } 
+	}
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			set_country_flag = estate_synapses_in_power
+			set_country_flag = has_estate_disaster_flag
+		}
+	}
+	
+	option = {
+		name = estate_disasters.27.a	
+		add_stability = -6
+		}
+		custom_tooltip = estate_disasters.27.a.tt
+	}
+}
+
+#Synapses Disaster Ending Event
+country_event = {
+	id = estate_disasters.28
+	title = estate_disasters.28.t
+	desc = estate_disasters.28.d
+	picture = CONQUEST_eventPicture
+	
+	major = yes
+	major_trigger = {
+		capital_scope = { continent = asia } 
+	}
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			clr_country_flag = has_estate_disaster_flag
+		}
+	}
+	
+	option = {
+		name = estate_disasters.28.a
+	}
+}

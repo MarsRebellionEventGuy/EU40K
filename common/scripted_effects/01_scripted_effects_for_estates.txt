@@ -3932,6 +3932,15 @@ pick_random_estate_if_present = {
 			$estate_action$ = estate_crypteks
 			]
 		}
+	1 = { 
+		trigger = {
+			has_estate = estate_synapses
+			NOT = { has_country_flag = estate_synapses_$flag$ }
+		}
+		set_country_flag = estate_synapses_$flag$
+		[[estate_action]
+		$estate_action$ = estate_synapses
+		]
 	}
 }
 
