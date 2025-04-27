@@ -88,7 +88,9 @@ hive_fleet_reform = {
 		culture_conversion_time = -0.33
 		global_institution_spread = -0.20
 		relation_with_heathens = -300
-		reverse_relation_with_heathens = -300
+		reverse_relation_with_heathen_religion = -300
+		diplomats = -2
+		global_manpower_modifier = 0.25
 	}
 	ai = {
 		factor = 1000

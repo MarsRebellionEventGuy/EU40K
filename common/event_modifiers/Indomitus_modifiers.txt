@@ -274,3 +274,8 @@ dead_man_walking = {
 	ae_impact = -0.2
 	sailors_recovery_speed = 2
 }
+
+agenda_looting_zeal = {
+	available_province_loot = 0.15
+	loot_amount = 0.15
+}

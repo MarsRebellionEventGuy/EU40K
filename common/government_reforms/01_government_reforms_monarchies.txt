@@ -577,7 +577,7 @@ autonomy_for_ophelia_reform = { #State and Religion
     		tag = XXA
 	}
 	trigger = {
-		owns = 869
+		869 = { country_or_non_sovereign_subject_holds = ROOT }
 		religion = imperial_cult
 	}
 
@@ -585,6 +585,7 @@ autonomy_for_ophelia_reform = { #State and Religion
 	modifiers = {
 		reverse_relation_with_same_religion = 20
 		prestige_per_development_from_conversion = 0.5
+		tolerance_own = 1
 	}
 }
 

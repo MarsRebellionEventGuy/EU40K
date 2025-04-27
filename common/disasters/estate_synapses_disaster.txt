@@ -44,7 +44,7 @@ estate_synapses_disaster = {
 	
 	progress = {
 		modifier = {
-			factor = 2
+			factor = 0.5
 			NOT = {
 				estate_loyalty = {
 					estate = estate_synapses
@@ -53,7 +53,7 @@ estate_synapses_disaster = {
 			}
 		}
 		modifier = {
-			factor = 3
+			factor = 0.5
 			NOT = {
 				estate_loyalty = {
 					estate = estate_synapses
@@ -62,7 +62,7 @@ estate_synapses_disaster = {
 			}
 		}
 		modifier = {
-			factor = 4
+			factor = 1
 			NOT = {
 				estate_loyalty = {
 					estate = estate_synapses
@@ -71,7 +71,7 @@ estate_synapses_disaster = {
 			}
 		}
 		modifier = {
-			factor = 5
+			factor = 1
 			NOT = {
 				estate_loyalty = {
 					estate = estate_synapses
