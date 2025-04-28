@@ -74,6 +74,39 @@ the_second_war_for_damnos_desc:0 "By my will, this will be the end of them"
 indomitus_general.11.t:0 "Dead Man Walking"
 indomitus_general.11.d:0 "The organics, repulsed from our planet twenty-five cycles ago, have returned to claim what is not theirs to begin with. Refusing to come to terms with reality, they have chosen to organise a fully fledged military campaing against us. \nThey believe their strategy, their numbers, their so-called determination will change the outcome of what has already been long decided. But they are deluded. Their flesh will wither to dust, their weapons will shatter like brittle glass, and their resolve will erode into nothingness. We have endured for eons. \nThey are nothing but a fleeting speck on the canvas of the cosmos, one that is already fading."
 indomitus_general.11.a:0 "And so it begins"
+
 dead_man_walking:0 "Dead Man Walking" 
 dead_man_walking_desc:0 "These organics don't stand a chance."
 
+indomitus_general.12.t:0 "$MONARCHTITLE$ $MONARCH$ Shows Weakness."
+indomitus_general.12.d:0 "We have been way too long at peace, and that means that we are growing decadent and complacent. This is not the $COUNTRY_ADJ$ way, and some synaptic lifeforms have started to proclaim themselves as the new $MONARCHTITLE$."
+indomitus_general.12.a:0 "Purge the traitors!"
+
+indomitus_general.13.t:0"Made to Feast"
+indomitus_general.13.d:0"Our fangs and claws thirst for battle. We, the legions of the Great Devourer, cannot remain idle. The cosmos awaits its rightful conquerors, will we simply let it be tamed by another challenger?"
+indomitus_general.13.a:0"There's a resource shortage..."
+indomitus_general.13.b:0"Biomass is lacking..."
+
+indomitus_general.14.t:0 "Forged in Untold Campaings"
+indomitus_general.14.d:0 "How many planets have we consumed? How many campaings have we undertaken? How many battles have we emerged victorius? Not even the veterans amongst us can tell any more. We breathe, act and revel in the crucible of war, we were made for this, literally."
+indomitus_general.14.a:0"Once more unto the breach."
+indomitus_general.14.b:0"Only the dead have seen the end of war."
+
+indomitus_general.15.t:0 "A New Campaing!"
+indomitus_general.15.d:0 "The unescapable tide of war has reached yet another sector of the cosmos, soon to be devoured by our endless swarm. The petty resistance offered by the inferior species pose no threat to the inexorable approach of destiny manifest."
+indomitus_general.15.a:0 "Looks like meat's back on the menu boys!"
+indomitus_general.15.b:0 "Activate the Genestealers!"
+
+indomitus_general.16.t:0 "Rising Specimen"
+indomitus_general.16.d:0 "A seasoned and renowned Hive Tyrant is rising to prominence through its exploits on the battlefield. Perhaps we could grant it overall command of a section of the swarm in future conquests?"
+indomitus_general.16.a:0 "Absolutely!"
+indomitus_general.16.b:0 "An unwise move."
+
+indomitus_general.17.t:0 "Legendary Bioform."
+indomitus_general.17.d:0 "An outstanding Hive Tyrant has achieved an unprecedented string of victories, demonstrating an unparalleled ability to lead and organize the swarm through its exceptionally strong synaptic field. Undefeated across countless campaigns, we should elevate its rank to serve directly in the [Root.GetName] leadership."
+indomitus_general.17.a:0 "Naturally."
+indomitus_general.17.b:0 "A dangerous precedent."
+
+indomitus_general.18.t:0 "Authority Undermined"
+indomitus_general.18.d:0 "The legitimacy of [Root.Monarch.GetName] is increasingly being challenged by the synaptic creatures within our host, who claim that not enough biomass is being invested in the preparation of a truly worthy invasion swarm!"
+indomitus_general.18.a:0 "Preparations are being made..."

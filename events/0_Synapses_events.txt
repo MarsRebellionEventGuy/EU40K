@@ -1,0 +1,327 @@
+country_event = { #Pretenders rise when country not at war for 2 years
+	id = indomitus_general.12
+	title = indomitus_general.12.t
+	desc = indomitus_general.12.d
+	picture = CHURCH_ESTATE_UPSET_eventPicture
+
+	trigger = {
+		has_reform = hive_fleet_reform
+		is_at_war = no
+		num_of_cities = 10
+		NOT = { war_exhaustion = 1 }
+		has_regency = no
+		NOT = { num_of_rebel_controlled_provinces = 1 }
+		NOT = { had_recent_war = 2 }
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+		modifier = {
+			factor = 0.5
+			mil = 4
+		}
+		modifier = {
+			factor = 10
+			ai = yes
+		}
+	}
+	
+	option = {
+		name = indomitus_general.12.a
+		random_owned_province = {
+			pretender_rebels = 4
+		}
+	}
+}
+
+country_event = { #Idleness Punished
+	id = indomitus_general.13
+	title = indomitus_general.13.t
+	desc = indomitus_general.13.d
+	picture = MONGOL_BANNERS_eventPicture	
+
+	is_triggered_only = yes	
+	
+	trigger = {
+		has_reform = hive_fleet_reform
+		is_at_war = no
+		NOT = { had_recent_war = 2 }
+		}
+	
+
+	mean_time_to_happen = {
+		days = 1
+		
+		modifier = {
+			factor = 1.1
+			NOT = { MIL = 3 }
+		}			
+	}
+
+	option = {
+		name = indomitus_general.13.a
+		ai_chance = { factor = 10 }
+		add_years_of_income = -0.5
+	}
+	option = {
+		name = indomitus_general.13.b
+		ai_chance = { factor = 10 }
+		add_yearly_manpower = -0.7
+	}
+}
+
+country_event = { #Tyranid menace don't get tired
+	id = indomitus_general.14
+	title = indomitus_general.14.t
+	desc = indomitus_general.14.d
+	picture = HORDE_ON_HORSEBACK_eventPicture	
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_reform = hive_fleet_reform
+		war_exhaustion = 2
+		}
+
+	mean_time_to_happen = {
+		days = 1
+		
+	}
+
+	option = {
+		name = indomitus_general.14.a
+		ai_chance = { factor = 10 }
+		add_war_exhaustion = -2
+	}
+	option = {
+		name = indomitus_general.14.b
+		trigger = { has_idea_group = quantity_ideas }		
+		ai_chance = { factor = 90 }
+		add_yearly_manpower = 1.00
+	}	
+} 
+
+country_event = { #Another Campaing
+	id = indomitus_general.15
+	title = indomitus_general.15.t
+	desc = indomitus_general.15.d
+	picture = BATTLE_eventPicture	
+	
+	is_triggered_only = yes	
+
+	trigger = {
+		has_reform = hive_fleet_reform
+		is_at_war = yes
+		NOT = { manpower_percentage = 0.9 }
+		}
+
+	mean_time_to_happen = {
+		days = 1
+
+	}
+
+	option = {
+		name = indomitus_general.15.a
+		ai_chance = { factor = 10 }
+		add_yearly_manpower = 1.00
+	}
+	option = {
+		name = indomitus_general.15.b
+		trigger = { has_idea_group = quality_ideas }		
+		ai_chance = { factor = 90 }
+		add_army_professionalism = 0.05
+	}	
+}
+
+country_event = { #Rising Star
+	id = indomitus_general.16
+	title = indomitus_general.16.t
+	desc = indomitus_general.16.d
+	picture = TOURNAMENT_eventPicture
+	
+	is_triggered_only = yes	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	trigger = {
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_synapses
+				modifier = EST_VAL_RANDOMSYNAPSE_LEADER
+			}
+		}
+	}
+
+	option = {
+		name = indomitus_general.16.a
+		ai_chance = { factor = 50 }
+		add_prestige = 2
+		if = {
+			limit = {
+				has_country_flag = horde_wargames_buff_flag
+			}
+			create_general_with_pips = { tradition = 50 add_shock = 1 add_siege = 1 }
+		}
+		else = {
+			create_general = { tradition = 70 }
+		}
+		if = {
+			limit = {
+				has_estate = estate_synapses
+			}
+			add_estate_loyalty = {
+				estate = estate_synapses
+				loyalty = 15
+			}
+			add_estate_influence_modifier = {
+				desc = EST_VAL_RANDOMSYNAPSE_LEADER
+				estate = estate_synapses
+				influence = 10
+				duration = 3650
+			}
+		}
+	}
+	option = {
+		name = indomitus_general.16.b
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				has_estate = estate_synapses
+				NOT = {
+					estate_loyalty = {
+						estate = estate_synapses
+						loyalty = 40
+					}
+				}
+			}
+		}
+		trigger = {
+			has_estate = estate_synapses
+		}
+		add_estate_loyalty = {
+			estate = estate_synapses
+			loyalty = -15
+		}
+	}
+}
+
+country_event = { #Shining Star
+	id = indomitus_general.17
+	title = indomitus_general.17.t
+	desc = indomitus_general.17.d
+	picture = PIRATE_CAPTAINS_eventPicture
+	
+	is_triggered_only = yes	
+
+	mean_time_to_happen = {
+		days = 1
+
+	}
+	
+	trigger = {
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_synapses
+				modifier = EST_VAL_RANDOMSYNAPSE_LEADER
+			}
+		}
+	}
+
+	option = {
+		name = indomitus_general.17.a
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0.25
+				estate_influence = {
+					estate = estate_synapses
+					influence = 60
+				}
+			}
+		}
+		add_prestige = 10
+		if = {
+			limit = {
+				has_country_flag = horde_wargames_buff_flag
+			}
+			create_general_with_pips = { tradition = 75 add_shock = 1 add_siege = 1 }
+		}
+		else = {
+			create_general = { tradition = 100 }
+		}
+		if = {
+			limit = {
+				has_estate = estate_synapses
+			}
+			add_estate_loyalty = {
+				estate = estate_synapses
+				loyalty = 15
+			}
+			add_estate_influence_modifier = {
+				desc = EST_VAL_RANDOMSYNAPSE_LEADER
+				estate = estate_synapses
+				influence = 10
+				duration = 3650
+			}
+		}
+	}
+	option = {
+		name = indomitus_general.17.b
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				has_estate = estate_synapses
+				NOT = {
+					estate_loyalty = {
+						estate = estate_synapses
+						loyalty = 40
+					}
+				}
+			}
+		}
+		trigger = {
+			has_estate = estate_synapses
+		}
+		add_estate_loyalty = {
+			estate = estate_synapses
+			loyalty = -20
+		}
+	}
+}
+
+country_event = {
+	id = indomitus_general.18
+	title = indomitus_general.18.t
+	desc = indomitus_general.18.d
+	picture = BONFIRE_OF_THE_VANITIES_eventPicture
+	
+	is_triggered_only = yes	
+
+	trigger = {
+		has_reform = hive_fleet_reform
+		NOT = { army_size_percentage = 0.5 }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+
+	}
+
+	option = {
+		name = indomitus_general.18.a
+		ai_chance = { factor = 100 }
+		add_horde_unity = -10
+		add_prestige = -15
+		if = {
+			limit = { has_estate = estate_synapses }
+			add_estate_loyalty = {
+				estate = estate_synapses
+				loyalty = -15
+			}
+		}
+	}
+}
