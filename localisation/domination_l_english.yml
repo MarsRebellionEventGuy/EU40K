@@ -3977,7 +3977,7 @@ estate_disasters.27.d:0 "The flagrant misshandling of biomass by [Root.Monarch.G
 estate_disasters.27.a:0 "Impossible..."
 
 estate_disasters.28.t:0 "Synaptic Node Reestablished!"
-estate_disasters.28.d:0 "The unruly bioforms under our control have been eliminated and the remaining specimens pledge fealty to our marvelous campaings to come! Glory to [Root.GetName] !"
+estate_disasters.28.d:0 "The unruly bioforms under our control have been eliminated and the remaining specimens pledge fealty to our marvelous campaigns to come! Glory to [Root.GetName] !"
 estate_disasters.28.a:0 "Aut viam inveniam aut faciam"
 
 estate_synapses_norn_queens:0 "Norn Queens"

@@ -279,3 +279,13 @@ agenda_looting_zeal = {
 	available_province_loot = 0.15
 	loot_amount = 0.15
 }
+
+maneater = {
+	manpower_recovery_speed = 0.33
+	discipline = 0.05
+}
+
+narvhals = {
+	movement_speed_in_fleet_modifier = -1
+	disengagement_chance = -0.05
+}

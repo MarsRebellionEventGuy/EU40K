@@ -72,7 +72,7 @@ the_second_war_for_damnos:0 "The Second War for Damnos"
 the_second_war_for_damnos_desc:0 "By my will, this will be the end of them"
 
 indomitus_general.11.t:0 "Dead Man Walking"
-indomitus_general.11.d:0 "The organics, repulsed from our planet twenty-five cycles ago, have returned to claim what is not theirs to begin with. Refusing to come to terms with reality, they have chosen to organise a fully fledged military campaing against us. \nThey believe their strategy, their numbers, their so-called determination will change the outcome of what has already been long decided. But they are deluded. Their flesh will wither to dust, their weapons will shatter like brittle glass, and their resolve will erode into nothingness. We have endured for eons. \nThey are nothing but a fleeting speck on the canvas of the cosmos, one that is already fading."
+indomitus_general.11.d:0 "The organics, repulsed from our planet twenty-five cycles ago, have returned to claim what is not theirs to begin with. Refusing to come to terms with reality, they have chosen to organise a fully fledged military campaign against us. \nThey believe their strategy, their numbers, their so-called determination will change the outcome of what has already been long decided. But they are deluded. Their flesh will wither to dust, their weapons will shatter like brittle glass, and their resolve will erode into nothingness. We have endured for eons. \nThey are nothing but a fleeting speck on the canvas of the cosmos, one that is already fading."
 indomitus_general.11.a:0 "And so it begins"
 
 dead_man_walking:0 "Dead Man Walking" 
@@ -87,12 +87,12 @@ indomitus_general.13.d:0"Our fangs and claws thirst for battle. We, the legions 
 indomitus_general.13.a:0"There's a resource shortage..."
 indomitus_general.13.b:0"Biomass is lacking..."
 
-indomitus_general.14.t:0 "Forged in Untold Campaings"
-indomitus_general.14.d:0 "How many planets have we consumed? How many campaings have we undertaken? How many battles have we emerged victorius? Not even the veterans amongst us can tell any more. We breathe, act and revel in the crucible of war, we were made for this, literally."
+indomitus_general.14.t:0 "Forged in Untold Campaigns"
+indomitus_general.14.d:0 "How many planets have we consumed? How many campaigns have we undertaken? How many battles have we emerged victorius? Not even the veterans amongst us can tell any more. We breathe, act and revel in the crucible of war, we were made for this, literally."
 indomitus_general.14.a:0"Once more unto the breach."
 indomitus_general.14.b:0"Only the dead have seen the end of war."
 
-indomitus_general.15.t:0 "A New Campaing!"
+indomitus_general.15.t:0 "A New Campaign!"
 indomitus_general.15.d:0 "The unescapable tide of war has reached yet another sector of the cosmos, soon to be devoured by our endless swarm. The petty resistance offered by the inferior species pose no threat to the inexorable approach of destiny manifest."
 indomitus_general.15.a:0 "Looks like meat's back on the menu boys!"
 indomitus_general.15.b:0 "Activate the Genestealers!"
@@ -110,3 +110,18 @@ indomitus_general.17.b:0 "A dangerous precedent."
 indomitus_general.18.t:0 "Authority Undermined"
 indomitus_general.18.d:0 "The legitimacy of [Root.Monarch.GetName] is increasingly being challenged by the synaptic creatures within our host, who claim that not enough biomass is being invested in the preparation of a truly worthy invasion swarm!"
 indomitus_general.18.a:0 "Preparations are being made..."
+
+indomitus_general.19.t:0 "Pitiful Host!"
+indomitus_general.19.d:0 "Our 'endless' swarm has been reduced to a mere fraction of our potential, greatly distressing the Synapses and upsetting the remaining creatures under our control."
+indomitus_general.19.a:0 "A mere setback."
+
+indomitus_general.20.t:0 "Sovereign"
+indomitus_general.20.d:0 "Today, a lesser species, be it an Ork, a Human, a T'au, a Necron or an Aeldari will gaze upon the night sky with hope and blemish, feeling as tought the galaxy is his to wander and rule. But out of the corner of his eye he will see and feel the most abject horror imaginable, for hundreds of Bio-Ships will appear undetected, unnoticed, unstoppable, to remind him, a mere upstart and usurper who truly rules the universe."
+indomitus_general.20.a:0 "We have become death, destroyers of worlds."
+
+indomitus_general.21.t:0 "Maneater"
+indomitus_general.21.d:0 "The Humans of Terra think highly of themselves, home to a species so stubborn that tought themselves the center of the universe, the masters of all the starts in the sky. How can they dominate the unruly galaxy when they cannot even begin to comprehend it? They are nothing, a mere footnote in our endless rampage amongst the cosmos, their borrowed time is up, it's due we show them who truly governs creation itself."
+indomitus_general.21.a:0 "Alea Iacta Est."
+
+maneater:0 "Maneater"
+maneater_desc:0 "These pretenders are nothing more than pawns in the interstellar game we play."

@@ -9,7 +9,6 @@ country_event = { #Pretenders rise when country not at war for 2 years
 		is_at_war = no
 		num_of_cities = 10
 		NOT = { war_exhaustion = 1 }
-		has_regency = no
 		NOT = { num_of_rebel_controlled_provinces = 1 }
 		NOT = { had_recent_war = 2 }
 	}
@@ -101,7 +100,7 @@ country_event = { #Tyranid menace don't get tired
 	}	
 } 
 
-country_event = { #Another Campaing
+country_event = { #Another Campaign
 	id = indomitus_general.15
 	title = indomitus_general.15.t
 	desc = indomitus_general.15.d
@@ -323,5 +322,121 @@ country_event = {
 				loyalty = -15
 			}
 		}
+	}
+}
+
+country_event = { #Punish Tyranids on substantial army loss/stackwipe
+	id = indomitus_general.19
+	title = indomitus_general.19.t
+	desc = indomitus_general.19.d
+	picture = PROTESTANT_RELIGIOUS_TENSIONS_eventPicture
+	
+	is_triggered_only = yes	
+
+	trigger = {
+		has_reform = hive_fleet_reform
+		NOT = { army_size_percentage = 0.33 }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+
+	}
+
+	option = {
+		name = indomitus_general.19.a
+		ai_chance = { factor = 100 }
+		add_army_tradition = -5
+		add_yearly_manpower = -0.25
+		if = {
+			limit = { has_estate = estate_synapses }
+			add_estate_loyalty = {
+				estate = estate_synapses
+				loyalty = -15
+			}
+		}
+		random = {
+			chance = 33
+			add_stability = -1
+		}
+	}
+}
+
+country_event = { # War is good
+	id = indomitus_general.20
+	title = indomitus_general.20.t
+	desc = indomitus_general.20.d
+	picture = ARTILLERY_eventPicture	
+	
+	
+	is_triggered_only = yes	
+
+	trigger = {
+		has_reform = hive_fleet_reform
+			horde_unity = 99
+			is_at_war = yes	
+	}
+
+	mean_time_to_happen = {
+		days = 1
+
+	}
+
+	option = {
+		name = indomitus_general.20.a
+		add_prestige = 20
+		add_stability_or_adm_power = yes
+	}
+}
+
+
+country_event = { # War againts Imperium
+	id = indomitus_general.21
+	title = indomitus_general.21.t
+	desc = indomitus_general.21.d
+	picture = QIZILBASH_CAVALRY_CHARGING_eventPicture	
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_reform = hive_fleet_reform
+		war_with = XXA
+	}
+
+	mean_time_to_happen = {
+		days = 1
+		}
+
+	option = {
+		name = indomitus_general.21.a
+		add_country_modifier = { 
+			name = maneater
+			duration = 444
+		}
+	}
+}
+
+country_event = { #Narvhals
+	id = indomitus_general.22
+	title = indomitus_general.22.t
+	desc = indomitus_general.22.d
+	picture = ANGRY_MOB_eventPicture
+
+	hidden = yes
+	
+	trigger = {
+		culture_group = tyranid_culture_group
+		NOT = { has_country_modifier = narvhals }
+	}
+	
+	option = {
+		name = indomitus_general.22.a
+		add_country_modifier = { 
+			name = narvhals
+			duration = -1  
+		}
+		remove_country_modifier = { name = webway_ftl }
+		remove_country_modifier = { name = ether_drive_ftl }
 	}
 }
