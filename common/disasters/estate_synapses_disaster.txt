@@ -8,16 +8,19 @@ estate_synapses_disaster = {
 	}
 
 
+
 	can_start = { 
 		estate_influence = {
 			estate = estate_synapses
 			influence = 100
 		}
 		NOT = { horde_unity = 60 }
+		is_at_war = no
 	}
 	
 	can_stop = {
 		OR = {
+			has_any_disaster = yes
 			NOT = {
 				estate_influence = {
 					estate = estate_synapses
@@ -51,6 +54,7 @@ estate_synapses_disaster = {
 					loyalty = 50
 				}
 			}
+			is_at_war = no
 		}
 		modifier = {
 			factor = 0.5
@@ -60,6 +64,7 @@ estate_synapses_disaster = {
 					loyalty = 40
 				}
 			}
+			is_at_war = no
 		}
 		modifier = {
 			factor = 1
@@ -69,6 +74,7 @@ estate_synapses_disaster = {
 					loyalty = 30
 				}
 			}
+			is_at_war = no
 		}
 		modifier = {
 			factor = 1
@@ -78,15 +84,14 @@ estate_synapses_disaster = {
 					loyalty = 20
 				}
 			}
+			is_at_war = no
 		}
 	}
 	
 	can_end = {
-		custom_trigger_tooltip = {
-			tooltip = EST_CRUSHED_SYNAPSES_TT
-			NOT = { has_country_flag = estate_synapses_in_power }
+		always = yes
 		}
-	}
+	
 	
 	modifier = {	
 		land_morale = -0.2
@@ -97,8 +102,8 @@ estate_synapses_disaster = {
 		
 	}
 
-	on_start = estate_disasters.19
-	on_end = estate_disasters.20
+	on_start = estate_disasters.27
+	on_end = estate_disasters.28
 	
 	on_monthly = { }
 }

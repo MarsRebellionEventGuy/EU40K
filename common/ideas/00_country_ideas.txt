@@ -27,19 +27,19 @@ XXA_ideas = {
 		naval_attrition = -0.20
 	}
 	XXA_ideas_3 = {
-		liberty_desire = -10
+		liberty_desire = -15
 	}
 	XXA_ideas_4 = {
-		reinforce_cost_modifier = -0.15
+		reinforce_cost_modifier = -0.33
 	}
 	XXA_ideas_5 = {
-		war_exhaustion_cost = -0.20
+		war_exhaustion_cost = -0.25
 	}
 	XXA_ideas_6 = {
 		vassal_income = 0.33
 	}
 	XXA_ideas_7 = {
-		global_heathen_missionary_strength = 0.02
+		discipline = 0.075
 	}
 }
 
@@ -851,12 +851,12 @@ Chaos_ideas = {
 
 Tyranid_ideas = {
 	start = {
-		recover_army_morale_speed = 0.15
-		manpower_recovery_speed = 0.20	
+		recover_army_morale_speed = 0.2
+		manpower_recovery_speed = 0.2
 	}
 	
 	bonus = {
-		land_forcelimit_modifier = 0.20
+		land_forcelimit_modifier = 0.33
 	}	
 
 	trigger = {
@@ -869,21 +869,23 @@ Tyranid_ideas = {
 	}
 	Tyranid_ideas_2 = {
 		global_regiment_recruit_speed = -0.20
+		infantry_cost = -0.15
 	}
 	Tyranid_ideas_3 = {
-		hostile_attrition = 1
+		regiment_disembark_speed = 0.25
 	}
 	Tyranid_ideas_4 = {
 		landing_penalty = -1
 	}
 	Tyranid_ideas_5 = {
-		development_cost = -0.20
+		production_efficiency = 0.33
 	}
 	Tyranid_ideas_6 = {
-		leader_land_fire = 1
+		infantry_fire = 0.30
 	}
 	Tyranid_ideas_7 = {
-		global_missionary_strength = 0.02
+		movement_speed_in_fleet_modifier = 0.5
+
 	}
 }
 
@@ -1185,7 +1187,7 @@ XKJ_ideas = {
 		manpower_recovery_speed = 0.25
 	}
 	XKJ_ideas_6 = {
-		global_heretic_missionary_strength = 0.02
+		cb_on_religious_enemies = yes
 	}
 	XKJ_ideas_7 = {
 		assault_fort_ability = 0.33
@@ -1347,11 +1349,11 @@ Word_Bearers_ideas = {
 	start = {
 		has_banners = yes
 		may_perform_slave_raid_on_same_religion = yes
-		reverse_relation_with_heretic_religion = 30
+		reverse_relation_with_heretic_religion = 50
 	}
 	
 	bonus = {
-		missionary_maintenance_cost = -0.33
+		cb_on_religious_enemies = yes
 	}	
 
 	trigger = {
@@ -1366,8 +1368,7 @@ Word_Bearers_ideas = {
 		discipline = 0.05
 	}
 	Word_Bearer_ideas_2 = {
-		global_missionary_strength = 0.02
-		prestige_per_development_from_conversion = 0.5
+		manpower_in_true_faith_provinces = 0.33
 	}
 	Word_Bearer_ideas_3 = {
 		build_cost = -0.25
@@ -1718,7 +1719,7 @@ XOL_ideas = {					# Graia
 		movement_speed_in_fleet_modifier = 1
 	}
 	XOL_ideas_5 = { #Stalwart against Orks and Chaos
-		global_missionary_strength = 0.02
+		tolerance_own = 2
 	}
 	XOL_ideas_6 = { #Restoring our Glory
 		development_cost = -0.10

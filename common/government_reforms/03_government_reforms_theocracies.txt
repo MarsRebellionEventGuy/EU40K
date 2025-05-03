@@ -173,7 +173,7 @@ death_watch_reform = {
 	nation_designer_cost = 0
 	modifiers = {
 		drill_gain_modifier = 0.33
-		global_heathen_missionary_strength = 0.02
+		cb_on_religious_enemies = yes
 		land_forcelimit_modifier = 0.33
 		governing_capacity_modifier = -0.50
 		relation_with_heathens = -200
@@ -259,7 +259,7 @@ chaos_cult_reform = {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
 	modifiers = {
-		global_heathen_missionary_strength = 0.02
+		tolerance_own = 2
 		warscore_cost_vs_other_religion = -0.20
 		relation_with_heathens = -50
 	}
@@ -1252,7 +1252,7 @@ the_quest_for_knowledge_reform = {
 
 	allow_normal_conversion = yes
 	modifiers = {
-		missionary_strength = 0.01
+		global_missionary_strength = 0.01
 		development_cost = -0.05
 		institution_spread_from_true_faith = 0.25
 	}
@@ -1268,7 +1268,7 @@ strike_against_the_hereteks_reform = {
 
 	allow_normal_conversion = yes
 	modifiers = {
-		missionary_strength = 0.02
+		global_missionary_strength = 0.02
 		land_morale = 0.10
 	}
 }
@@ -1285,7 +1285,7 @@ the_first_forgeworld_reform = {					#mars exclusive
 	allow_normal_conversion = yes
 	modifiers = {
 		max_absolutism = 10
-		missionary_strength = 0.02
+		global_missionary_strength = 0.02
 		culture_conversion_cost = -0.25
 	}
 }			

@@ -105,7 +105,7 @@ golden_throne = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			global_missionary_strength = 0.01
+			warscore_cost_vs_other_religion = -0.1
 			land_morale = 0.10
 		}
 
@@ -135,7 +135,7 @@ golden_throne = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			global_missionary_strength = 0.01
+			warscore_cost_vs_other_religion = -0.2
 			land_morale = 0.10
 			war_exhaustion_cost = -0.15
 		}
@@ -166,7 +166,7 @@ golden_throne = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			global_missionary_strength = 0.02
+			warscore_cost_vs_other_religion = -0.33
 			land_morale = 0.15
 			war_exhaustion_cost = -0.33
 		}

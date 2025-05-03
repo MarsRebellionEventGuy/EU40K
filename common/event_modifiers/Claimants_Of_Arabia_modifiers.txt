@@ -132,7 +132,7 @@ XXA_Necrons = {
 }
 
 XXA_Eye_Of_Terror = {
-	global_missionary_strength = 0.03
+	warscore_cost_vs_other_religion = -0.33
 	local_culture_conversion_cost = -0.25
 }
 
@@ -208,4 +208,9 @@ genestealer_broodmind_disrupted = {
 genestealer_self_sustaining_broodmind = {
 	stability_cost_modifier = -0.25
 	years_of_nationalism = -5
+}
+
+narvhals = {
+	movement_speed_in_fleet_modifier = -1
+	disengagement_chance = -0.05
 }

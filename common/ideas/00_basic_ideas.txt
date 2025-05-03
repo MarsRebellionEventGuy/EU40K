@@ -199,7 +199,7 @@ theocracy_gov_ideas = {
 	category = MIL
 	
 	bonus = {
-		global_heretic_missionary_strength = 0.01
+		warscore_cost_vs_other_religion = -0.1
 		church_loyalty_modifier = 0.1
 		brahmins_hindu_loyalty_modifier = 0.1
 		brahmins_muslim_loyalty_modifier = 0.1

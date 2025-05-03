@@ -328,3 +328,26 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = indomitus_general.23
+	title = indomitus_general.23.t
+	desc = indomitus_general.23.d
+	picture = IMPALED_SOLDIERS_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = XYB
+		}
+	
+	
+	option = {
+		name = indomitus_general.23.a
+		add_country_modifier = { 
+			name = a_new_leviathan
+			duration = 365
+		}
+	}
+}

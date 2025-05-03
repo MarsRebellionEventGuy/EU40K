@@ -375,7 +375,7 @@ tyranid_group = {
 			available_province_loot = 0.15
 		}
 		province = {
-			local_missionary_strength = -0.02
+			hostile_attrition = 1
 		}
 		
 		heretic = { FERALTYRANIDS }
@@ -392,7 +392,7 @@ tyranid_group = {
 			available_province_loot = 0.15
 		}
 		province = {
-			local_missionary_strength = -0.02
+			hostile_attrition = 1
 		}
 		
 		authority = yes

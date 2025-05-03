@@ -289,3 +289,8 @@ narvhals = {
 	movement_speed_in_fleet_modifier = -1
 	disengagement_chance = -0.05
 }
+
+a_new_leviathan = {
+	manpower_recovery_speed = 0.2
+	infantry_shock = 0.15
+}

@@ -15,7 +15,7 @@
  XXA_ideas_6:0 "Imperial Tithe"
  XXA_ideas_6_desc:0 "The Imperium’s war machine and economy rest on the obligation of the Imperial Tithe. Every world, regardless of size, must contribute to the Emperor’s cause, supplying soldiers, resources, or goods. The Tithe varies; some worlds provide regiments of Astra Militarum, others raw materials or technology. The greater the world’s capacity, the larger its tribute. The Tithe is not just a tax; it is a sacred pact that binds every world of the Imperium into the unyielding march toward the galaxy’s ultimate domination."
  XXA_ideas_7:0 "Blackstone Engineering"
- XXA_ideas_7_desc:0 "The discovery of the Blackstone Pillars represents a monumental leap in humanity’s technological mastery. Once believed to be relics of a long-lost age, these immense and enigmatic structures are now beginning to unveil their secrets to the ingenuity of mankind. The Pillars’ latent power, combined with their near-invulnerability and resistance to the Warp, has proven invaluable in the Imperium’s efforts to reinforce its defenses and extend its dominion.These new assets enable us to breach previously unreachable warpspace, purging the heretics wherever they may hide."
+ XXA_ideas_7_desc:0 "The discovery of the Blackstone Pillars represents a monumental leap in humanity’s technological mastery. Once believed to be relics of a long-lost age, these immense and enigmatic structures are now beginning to unveil their secrets to the ingenuity of mankind. The Pillars’ latent power, combined with their near-invulnerability and resistance to the Warp, has proven invaluable in the Imperium’s efforts to reinforce its defenses and extend its dominion. \nThese new assets enable us to breach previously unreachable warpspace, purging the heretics wherever they may hide."
 
  XXB_ideas:0 "Martian Ideas"
  XXB_ideas_start:0 "Martian Traditions"
@@ -418,8 +418,8 @@
  Tyranid_ideas_1_desc:0 "The constant telepathic communication among the synapses of the Tyrannid hive mind result in the nullification of external psychic abilities. This limits the potential of other species to utilize psykers and engage in telepathic communication."
  Tyranid_ideas_2:0 "Reclamation Pools"
  Tyranid_ideas_2_desc:0 "The Tyranid hive mind is able to efficiently adapt to rapidly produce and adapt bioform variants through the use of reclamation pools."
- Tyranid_ideas_3:0 "Toxic Spores"
- Tyranid_ideas_3_desc:0 "Tyranids are toxic to other forms of life. The spores released by the hive mind’s bioforms are able to render worlds uninhabitable to non-Tyranids."
+ Tyranid_ideas_3:0 "Mycetic Spores"
+ Tyranid_ideas_3_desc:0 "Mycetic Spores are large living shells used to deploy Tyranid organisms into a planet surface from the Bio-Ships in orbit. The spores themselves also attack at nearby enemies and can thusly be used to reinforce faltering areas during our invasions."
  Tyranid_ideas_4:0 "Genestealer Cults"
  Tyranid_ideas_4_desc:0 "The Tyranids are able to hasten their planetary invasions through the subversive activities of genestealers. The reproductive cycle of these bioforms allows them to add the brood minds of their victims and progeny to local brood minds on populated worlds. These genestealer cults rapidly expand and ensure minimal disruption for a subsequent direct invasion."
  Tyranid_ideas_5:0 "Capillary Towers"
@@ -427,7 +427,7 @@
  Tyranid_ideas_6:0 "The Swarmlord"
  Tyranid_ideas_6_desc:0 "The Swarmlord is a legendary Tyranid bioform produced when the hive mind’s latent adaptive potential does not achieve results. Each time the Swarmlord is killed it can be reproduced with its previous experiences and memories intact, ensuring adaptation to any strategy."
  Tyranid_ideas_7:0 "Warp Adaptations"
- Tyranid_ideas_7_desc:0 "Though the Tyranids have generally avoided regions of the Galaxy tainted by the Warp, this has become increasingly infeasible following the creation of the Great Rift. In typical Tyranid fashion, they have responded to this new situation through adaptation. Specialized hive fleets have been evolved with particularly powerful Shadows in the Warp, closing rifts to the Immaterium in their vicinity."
+ Tyranid_ideas_7_desc:0 "Though the Tyranids have generally avoided regions of the Galaxy tainted by the Warp, this has become increasingly unfeasible following the creation of the Great Rift. In typical Tyranid fashion, they have responded to this new situation through adaptation. Specialized hive fleets have evolved with particularly powerful Shadows in the Warp, closing rifts to the Immaterium in their vicinity."
 
  Deathwatch_ideas:0 "Deathwatch Ideas"
  Deathwatch_ideas_start:0 "Deathwatch Traditions"

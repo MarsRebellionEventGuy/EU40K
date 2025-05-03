@@ -21,7 +21,7 @@ loyal_sector_overlord_modifiers={
 	imperial_mandate = 0.01
 }
 sector_overlord_modifiers={
-	merchant = 1
+	merchants = 1
 }
 blockaded_power_country={
 	naval_forcelimit = -10

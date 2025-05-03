@@ -125,3 +125,10 @@ indomitus_general.21.a:0 "Alea Iacta Est."
 
 maneater:0 "Maneater"
 maneater_desc:0 "These pretenders are nothing more than pawns in the interstellar game we play."
+
+indomitus_general.23.t:0 "A New Leviathan"
+indomitus_general.23.d:0 "The Great Devourer prepares itself to feast on yet another corner of the cosmos. Unprovoked aggression in the Octarius Sector has prompted the [Root.GetName] to chastise the feeble Orks for their transgressions. Human and Aeldar factions have joined the conflict, seeking to stem the tide of [Root.GetAdjective] rise... \n \nThey will find no safety in mere numbers, for they will be overwhelmed by ours, endless swarms will descend upon their worlds, our Mycetic Spores will dominate their landscape , soon to be consumed in our eternal cycle of hunger made manifest."
+indomitus_general.23.a:0 "There is no escape from the belly of the beast."
+
+a_new_leviathan:0 "A New Leviathan"
+a_new_leviathan_desc:0 "Out of the shadows in the warp, an empire rises..."

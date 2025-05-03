@@ -1082,7 +1082,7 @@ country_event = {
 		}
 		custom_tooltip = estate_disasters.27.a.tt
 	}
-}
+
 
 #Synapses Disaster Ending Event
 country_event = {

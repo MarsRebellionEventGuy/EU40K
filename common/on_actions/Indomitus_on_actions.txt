@@ -25,6 +25,13 @@ on_startup = {
 		country_event = { 
 			id = indomitus_general.11
 		}
+		
+	}
+	if = {
+		limit = { tag = XYB }
+		country_event = { 
+			id = indomitus_general.23
+		}
 	}
 	if = {
 		limit = {
