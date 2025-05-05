@@ -50,7 +50,7 @@ imperium_events.5.d:0 "The unimaginable has come to pass. The Golden Throne, the
 imperium_events.5.a:0 "Ruina Imperii"
 
 genestealer_events.2.t:0 "Shadow in the Warp"
-imperial_events.2.d:0 "The arrival of the Star Children is imminent! The psychic signature of $MONARCHTITLE$ $MONARCH$ has drawn the hivemind to $CAPITAL$. As the massive psychic signature of the Tyranids envelop the planet, it has become apparent that the cult's fate is to be consumed and utilized as biomass."
+genestealer_events.2.d:0 "The arrival of the Star Children is imminent! The psychic signature of $MONARCHTITLE$ $MONARCH$ has drawn the hivemind to $CAPITAL$. As the massive psychic signature of the Tyranids envelop the planet, it has become apparent that the cult's fate is to be consumed and utilized as biomass."
 genestealer_events.2.a:0 "This is the ascension we were promised."
 genestealer_events.2.b:0 "Our loyalties were misplaced. We must fight back."
 

@@ -8,9 +8,9 @@ capital = 3601
 
 1970.12.12 = {
 	monarch = {
-		name = "Giselwin van der Guile"	
+		name = "Xani Giselwyn"	
 		adm = 3
 		dip = 5
-		mil = 4
+		mil = 5
 	}
 }
