@@ -215,7 +215,8 @@ AAC_ideas = {
 	free = yes
 	
 	AAC_ideas_1 = {
-		trade_efficiency = 0.10			
+		trade_efficiency = 0.10	
+		global_tax_modifier = 0.1
 	}
 	AAC_ideas_2 = {
 		production_efficiency = 0.15	
@@ -2716,20 +2717,21 @@ XSO_ideas = {
 	
 	XSO_ideas_1 = {
 		colonist_placement_chance = 0.2
+		colony_cost_modifier = -0.33
 	}
 	XSO_ideas_2 = {
-		colony_cost_modifier = -0.33
+		may_establish_frontier = yes
+		free_maintenance_on_expl_conq = yes
 	}
 	XSO_ideas_3 = {
 		warscore_from_battles_modifier = 0.5 
 		relation_with_heathens = -200
 	}
 	XSO_ideas_4 = {
-		military_tactics = 0.33
+		military_tactics = 0.3
 	}
 	XSO_ideas_5 = {
-		merc_maintenance_modifier = -0.15
-		allow_mercenary_drill = yes
+		merc_maintenance_modifier = -0.25
 	}
 	XSO_ideas_6 = {
 		force_march_free = yes 

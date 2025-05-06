@@ -294,3 +294,8 @@ a_new_leviathan = {
 	manpower_recovery_speed = 0.2
 	infantry_shock = 0.15
 }
+
+dolmen_gates = {
+	movement_speed_in_fleet_modifier = 0.25
+	siege_blockade_progress = 1
+}

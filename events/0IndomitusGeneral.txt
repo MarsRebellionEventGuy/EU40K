@@ -351,3 +351,28 @@ country_event = {
 		}
 	}
 }
+
+country_event = { #Dolmen Gates
+	id = indomitus_general.24
+	title = indomitus_general.24.t
+	desc = indomitus_general.24.d
+	picture = ANGRY_MOB_eventPicture
+
+	hidden = yes
+	
+	trigger = {
+		culture_group = necron_culture_group
+		NOT = { has_country_modifier = dolmen_gates }
+	}
+	
+	option = {
+		name = indomitus_general.24.a
+		add_country_modifier = { 
+			name = dolmen_gates
+			duration = -1  
+		}
+		remove_country_modifier = { name = webway_ftl }
+		remove_country_modifier = { name = narvhals }
+		remove_country_modifier = { name = ether_drive_ftl }
+	}
+}

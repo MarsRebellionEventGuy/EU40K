@@ -7,6 +7,9 @@
  ether_drive_ftl_desc:0 "The T'au, weilding neither the psychic potential of humans necessary for Warp-based travel nor the knowledge to navigate the Eldar webway, have yet to achieve faster-than-light capabilities. Initial experimentation with the technology via the AL-38 Slipstream Module was placed on hiatus following the mass displacement of settlers involved in the Fourth Sphere of Expansion. The empire has thus continued relying on the ZFR Horizon Accelerator Engine, a propulsion system only capable of reaching near-light speed."
 narvhals:0 "Narvhals"
 narvhals_desc:0 "Tyranid travel does not rely on the warp, but instead on Narvhals, dedicated Bio-Ships that allows the rest of the fleet to travel faster-than-light. They create a corridor of compressed-space using a system's gravity in order to bend the very fabric of the cosmos to their will. However, as the fleet approaches its final destination, strong gravitational forces interfere with this mechanism, forcing a shift to conventional propulsion for the last phase of the journey."
+dolmen_gates:0 "Dolmen Gates"
+dolmen_gates_desc:0 "As Necrons, we voyage the cosmos through the living stone portals known as Dolmen Gates, created millions of years ago, long before our Great Slumber. Though much diminished in number, they still allow us to project our influence swiftly across our section of the galaxy. These gates intersect with segments of the Webway to bridge distant points of the galaxy,but the Webway, now governed by pesky Aeldari pretenders, reacts defensively to our presence, attempting to seal off each breach as it forms."
+
  Imperial_Connections:0 "Noble Connections"
  PDF_Training:0 "Planetary Defense Force Training"
  warp_conversion_zeal:0 "Chaos Conversion Zeal"
