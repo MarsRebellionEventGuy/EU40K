@@ -1,0 +1,105 @@
+country_decisions = {
+	
+	forge_world_restore = {
+		potential = {
+			culture = mechanicus_culture
+			religion = mechanicus
+			any_owned_province = {
+				OR = {
+					has_province_modifier = fallen_forge_world_mod
+					has_province_modifier = fallen_major_forge_world_mod
+				}
+			}
+		}
+		allow = {
+			any_owned_province = {
+				is_core = ROOT
+				controlled_by = ROOT
+				OR = {
+					has_province_modifier = fallen_forge_world_mod
+					has_province_modifier = fallen_major_forge_world_mod
+				}
+				NOT = { has_province_modifier = forge_world_looting }
+				NOT = { has_province_modifier = forge_world_restoration }
+			}
+			stability = 1
+			is_at_war = no
+			adm_power = 200
+			dip_power = 200
+			mil_power = 200
+			treasury = 500
+		}
+		effect = {
+			country_event = { 
+				id = admech_forge_world.1
+			}
+		}
+		ai_will_do = {
+		}
+	}
+	
+	forge_world_upgrade = {
+		potential = {
+			culture = mechanicus_culture
+			religion = mechanicus
+			any_owned_province = {
+				is_in_capital_area = yes
+				OR = {
+					has_province_modifier = forge_world_1_mod
+					has_province_modifier = forge_world_2_mod
+					has_province_modifier = forge_world_3_mod
+				}
+			}
+			
+		}
+		allow = {
+			NOT = { has_province_modifier = forge_world_looting }
+			NOT = { has_province_modifier = forge_world_construction }
+			stability = 1
+			is_at_war = no
+			if = {
+				limit = {
+					any_owned_province = {
+						is_in_capital_area = yes
+						has_province_modifier = forge_world_1_mod
+					}
+				}
+			adm_power = 200
+			dip_power = 200
+			mil_power = 200
+			treasury = 1000
+			}
+			else_if = {
+				limit = {
+					any_owned_province = {
+						is_in_capital_area = yes
+						has_province_modifier = forge_world_2_mod
+					}
+				}
+			adm_power = 300
+			dip_power = 300
+			mil_power = 300
+			treasury = 2500
+			}
+			else_if = {
+				limit = {
+					any_owned_province = {
+						is_in_capital_area = yes
+						has_province_modifier = forge_world_3_mod
+					}
+				}
+			adm_power = 400
+			dip_power = 400
+			mil_power = 400
+			treasury = 5000
+			}
+		}
+		effect = {
+			country_event = { 
+				id = admech_forge_world.2
+			}
+		}
+		ai_will_do = {
+		}
+	}
+}
