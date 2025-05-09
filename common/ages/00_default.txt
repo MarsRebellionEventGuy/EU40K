@@ -521,7 +521,7 @@ age_of_absolutism = {
 		}
 		
 		obj_win_religious_war = {
-			overnment_rank = 3
+			government_rank = 3
 		}
 	}	
 	

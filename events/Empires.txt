@@ -422,21 +422,9 @@ country_event = {
 	trigger = {
 		num_of_cities = 25
 		has_idea_group = exploration_ideas
-		OR = {
-			north_america = { has_discovered = ROOT }
-			south_america = { has_discovered = ROOT }
-			new_world = { has_discovered = ROOT }
-		}
-		capital_scope = {
-			NOT = { continent = north_america }
-			NOT = { continent = south_america }
-			NOT = { continent = new_world }
-		}
-		NOT = { has_country_modifier = naval_improvements }
-		NOT = { has_country_modifier = naval_disarmament }
 
-		army_size = 50
-		navy_size = 1
+		army_size = 25
+		navy_size = 10
 		any_country = {
 			naval_strength = {
 				who = root
@@ -458,7 +446,7 @@ country_event = {
 		}
 		modifier = {
 			factor = 0.9
-			has_idea = vice_roys
+			has_idea = governors
 		}
 		modifier = {
 			factor = 0.9

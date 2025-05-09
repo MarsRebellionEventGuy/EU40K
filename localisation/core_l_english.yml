@@ -110,7 +110,7 @@
  INCOMESOW:0 "Peace"
  INCOMEDTAX:0 "Census taxes"
  INCOMEEXPORTDUTIES:0 "Tolls"
- INCOMEHARBORFEES:0 "Harbor Fees"
+ INCOMEHARBORFEES:0 "Spaceport Fees"
  INCOMEMANUFAC:0 "Manufactory"
  INCOME_WAR_REPARATION:0 "War Reparations"
  EXPENSEAM:1 "Army Maintenance"

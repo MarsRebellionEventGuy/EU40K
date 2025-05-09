@@ -85,12 +85,13 @@ hive_fleet_reform = {
 	modifiers = {
 		no_cost_for_reinforcing = yes
 		culture_conversion_cost = -0.25
-		culture_conversion_time = -0.33
+		culture_conversion_time = -0.5
 		global_institution_spread = -0.20
 		relation_with_heathens = -300
 		reverse_relation_with_heathen_religion = -300
 		diplomats = -2
 		global_manpower_modifier = 0.25
+		num_accepted_cultures = -5
 	}
 	ai = {
 		factor = 1000

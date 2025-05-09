@@ -67,6 +67,7 @@ just_personality = {
 	ruler_allow = {
 		allow = {
 			NOT = { ruler_has_personality = cruel_personality }
+			NOT = { has_reform = hive_fleet_reform }
 		}
 	
 		chance = {
@@ -159,6 +160,7 @@ righteous_personality = {
 		NOT = { is_emperor_of_china = yes }
 		NOT = { government = tribal }
 		NOT = { government = native }
+		NOT = { has_reform = hive_fleet_reform }
 	}
 	
 	chance = {
@@ -211,6 +213,7 @@ tolerant_personality = {
 		}
 		NOT = { 
 			has_idea_group = religious_ideas
+			has_reform = hive_fleet_reform
 		}
 	}
 	
@@ -265,7 +268,7 @@ kind_hearted_personality = {
 		}
 	}
 	allow = {
-		
+		NOT = { has_reform = hive_fleet_reform }
 	}
 	
 	chance = {
@@ -353,7 +356,7 @@ free_thinker_personality = {
 		}
 	}
 	allow = {
-		
+		NOT = { has_reform = hive_fleet_reform }
 	}
 	
 	chance = {
@@ -466,6 +469,7 @@ calm_personality = {
 	}
 	
 	allow = {
+		NOT = { has_reform = hive_fleet_reform }
 	}
 	
 	chance = {
@@ -528,6 +532,7 @@ careful_personality = {
 	}
 	
 	allow = {
+		NOT = { has_reform = hive_fleet_reform }
 		
 	}
 	
@@ -715,6 +720,7 @@ fertile_personality = {
 		government = monarchy
 		NOT = { has_government_attribute = has_harem_events }
 		NOT = { has_government_attribute = states_general_mechanic }
+		NOT = { has_reform = hive_fleet_reform }
 		has_government_attribute = heir
 	}
 	
@@ -821,6 +827,8 @@ benevolent_personality = {
 	}
 	
 	allow = {
+
+		NOT = { has_reform = hive_fleet_reform }
 		
 	}
 	
@@ -872,6 +880,7 @@ zealot_personality = {
 	
 	allow = {
 		NOT = { has_idea_group = humanist_ideas }
+		NOT = { has_reform = hive_fleet_reform }
 	}
 	
 	chance = {
@@ -938,6 +947,7 @@ pious_personality = {
 
 	allow = {
 		government = theocracy
+		NOT = { has_reform = hive_fleet_reform }
 	}
 	
 	chance = {
@@ -1004,6 +1014,7 @@ lawgiver_personality = {
 	}
 	
 	allow = {
+		NOT = { has_reform = hive_fleet_reform }
 		
 	}
 	
@@ -1205,6 +1216,7 @@ architectural_visionary_personality = {
 	}
 	
 	allow = {
+		NOT = { has_reform = hive_fleet_reform }
 	}
 	
 	chance = {
@@ -1265,7 +1277,9 @@ scholar_personality = {
 		}
 	}
 	
-	allow = { }
+	allow = { 
+		NOT = { has_reform = hive_fleet_reform }
+	}
 	
 	chance = { 
 		modifier = {
@@ -1548,7 +1562,7 @@ charismatic_negotiator_personality = {
 
 	allow = {
 		
-		
+		NOT = { has_reform = hive_fleet_reform }
 	}
 	
 	chance = {
@@ -1626,7 +1640,9 @@ silver_tongue_personality = {
 	}
 
 	allow = {
+		NOT = { has_reform = hive_fleet_reform }
 	}
+	
 	
 	chance = {
 		modifier = {
@@ -2127,7 +2143,7 @@ fierce_negotiator_personality = {
 	}
 
 	allow = {
-		
+		NOT = { has_reform = hive_fleet_reform }
 	}
 	
 	chance = {
@@ -2235,7 +2251,7 @@ babbling_buffoon_personality = {
 	}
 
 	allow = {
-		
+		NOT = { has_reform = hive_fleet_reform }
 	}
 	diplomatic_reputation = -1
 	nation_designer_cost = -2
@@ -2438,6 +2454,7 @@ infertile_personality = {
 		government = monarchy
 		NOT = { has_government_attribute = states_general_mechanic }
 		has_government_attribute = heir
+		NOT = { has_reform = hive_fleet_reform }
 	}
 	
 	chance = {
@@ -2535,7 +2552,7 @@ drunkard_personality = {
 	}
 
 	allow = {
-		
+		NOT = { has_reform = hive_fleet_reform }
 	}
 	
 	chance = {
@@ -2951,7 +2968,7 @@ naive_personality = {
 	}
 
 	allow = {
-		
+		NOT = { has_reform = hive_fleet_reform }
 	}
 	
 	chance = {
@@ -3244,6 +3261,7 @@ obsessive_perfectionist_personality = {
 	}
 	
 	allow = {
+		NOT = { has_reform = hive_fleet_reform }
 	}
 	
 	chance = {
@@ -3628,7 +3646,9 @@ reformist_personality = {
 		}
 	}
 	
-	allow = { }
+	allow = {
+		NOT = { has_reform = hive_fleet_reform }
+	 }
 	
 	chance = { }
 	
@@ -3734,6 +3754,7 @@ patron_of_arts_personality = {
 	
 	allow = {
 		NOT = { ruler_has_personality = obsessive_perfectionist_personality }
+		NOT = { has_reform = hive_fleet_reform }
 	}
 	
 	chance = { }
