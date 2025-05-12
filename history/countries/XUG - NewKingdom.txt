@@ -1,0 +1,19 @@
+government = theocracy
+add_government_reform = heretic_astartes_reform
+government_rank = 2
+technology_group = chaos
+religion = tzeentch
+primary_culture = heretic_astartes_culture
+capital = 956
+
+1970.12.12 = {
+	monarch = {
+		name = "Magnus the Red"	
+		adm = 6
+		dip = 4
+		mil = 4
+	}
+	add_ruler_personality = immortal_personality
+	add_ruler_personality = primarch_personality
+	set_ruler_flag = XV_Primarch
+}

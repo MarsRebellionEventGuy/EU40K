@@ -22,43 +22,143 @@ admech_vassalisation_cooldown = {
 
 ### forge world province modifiers
 fallen_forge_world_mod = {
-	province_trade_power_value = 0.5
+	province_trade_power_value = 1.0
 	picture = "icon_fallen_forge_world"
 }
 
 fallen_major_forge_world_mod = {
-	province_trade_power_value = 0.5
+	province_trade_power_value = 1.0
 	picture = "icon_fallen_forge_world"
 }
 
+#forge world province mods
 minor_forge_world_mod = {
 	province_trade_power_value = 10
+	local_development_cost = -0.25
+	local_production_efficiency = 0.1
 	picture = "icon_minor_forge_world"
 }
 
 forge_world_1_mod = {
 	province_trade_power_value = 10
+	local_development_cost = -0.25
+	local_production_efficiency = 0.1
+	custom_tooltip = tooltip_forge_world_1
 	picture = "icon_forge_world"
 }
 
 forge_world_2_mod = {
 	province_trade_power_value = 10
+	local_development_cost = -0.50
+	local_production_efficiency = 0.2
+	custom_tooltip = tooltip_forge_world_2
 	picture = "icon_forge_world"
 }
 
 forge_world_3_mod = {
 	province_trade_power_value = 10
+	local_development_cost = -1.30
+	local_production_efficiency = 0.3
+	custom_tooltip = tooltip_forge_world_3
 	picture = "icon_forge_world"
 }
 
 forge_world_4_mod = {
 	province_trade_power_value = 10
+	local_development_cost = -2.20
+	local_production_efficiency = 0.5
+	custom_tooltip = tooltip_forge_world_4
 	picture = "icon_forge_world"
+}
+
+#forge world area mods
+minor_forge_world_area_mod = {
+	hidden = yes
+	local_production_efficiency = 0.1
+	local_development_cost = -0.05
+}
+
+forge_world_1_area_mod = {
+	hidden = yes
+	local_production_efficiency = 0.1
+	trade_goods_size_modifier = 0.2
+	local_development_cost = -0.05
+}
+
+forge_world_2_area_mod = {
+	hidden = yes
+	local_production_efficiency = 0.1
+	trade_goods_size_modifier = 0.5
+	local_development_cost = -0.30
+}
+
+forge_world_3_area_mod = {
+	hidden = yes
+	local_production_efficiency = 0.1
+	trade_goods_size_modifier = 1.0
+	local_development_cost = -0.5
+}
+
+forge_world_4_area_mod = {
+	hidden = yes
+	local_production_efficiency = 0.1
+	trade_goods_size_modifier = 2.0
+	local_development_cost = -0.80
 }
 
 hell_forge_mod = {
 	province_trade_power_value = 10
+	local_production_efficiency = 0.1
+	trade_goods_size_modifier = 0.5
+	local_regiment_cost = -0.25
 	picture = "icon_hell_forge"
+}
+
+major_hell_forge_mod = {
+	province_trade_power_value = 10
+	local_production_efficiency = 0.2
+	trade_goods_size_modifier = 1.0
+	local_regiment_cost = -0.5
+	picture = "icon_hell_forge"
+}
+
+mekworld_mod = {
+	province_trade_power_value = 10
+	land_forcelimit = 10
+	naval_forcelimit = 10
+	shock_damage = 0.10
+	fire_damage = 0.05
+	global_regiment_cost = -0.10
+}
+
+major_mekworld_mod = {
+	province_trade_power_value = 10
+	land_forcelimit = 20
+	naval_forcelimit = 20
+	shock_damage = 0.20
+	fire_damage = 0.10
+	global_regiment_cost = -0.20
+}
+
+forge_world_restoration = {
+}
+
+forge_world_construction = {
+}
+
+mekworld_construction = {
+}
+
+mekworld_cleansing = {
+}
+
+forge_world_corruption = {
+}
+
+forge_world_looting = {
+}
+
+hell_forge_cleansing = {
 }
 
 XXA_basilikon_astra_expansion={

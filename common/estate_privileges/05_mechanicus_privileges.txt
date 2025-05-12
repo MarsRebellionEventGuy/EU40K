@@ -47,17 +47,10 @@ estate_mechanicus_treaty_olympus = {
 		has_subject_of_type = 0_mechanicus_subject_type
 	}
 	can_revoke = {
-		OR = {
-			crown_land_share = 40
-			AND = {
-				crown_land_share = 30
-				has_estate_privilege = estate_inquisition_increase_ordo_machinum
-			}
+		custom_trigger_tooltip = {
+			tooltip = BYZ_revokable_via_decision
+			always = no
 		}
-		event_target:adeptus_mechanicus_tag={
-			not={liberty_desire = 10}
-		}
-		empire_of_china_reform_passed = centralizated_imperium_decision
 	}
 	on_granted = {
 		
