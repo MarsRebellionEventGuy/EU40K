@@ -5,5 +5,5 @@ religion = tyranid
 culture = tyranid_culture
 base_tax = 3
 base_production = 3
-base_manpower = 4
-trade_goods = agricultural_goods
+base_manpower = 6
+trade_goods = xeno_technology

@@ -1,0 +1,16 @@
+defined_text = {
+    name = PurgeButtonLOC
+
+    text = {
+        localisation_key = string_is_hive_fleet
+		trigger = {
+			has_reform = hive_fleet_reform
+			}
+    }
+	 text = {
+        localisation_key = string_is_not_hive_fleet
+        trigger = {
+            always = yes
+}
+	 }
+	}

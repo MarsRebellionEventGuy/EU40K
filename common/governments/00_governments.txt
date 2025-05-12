@@ -246,22 +246,27 @@ tyranid = {
 		}
 		tribal_cultural_values = {
 			reforms = {
+				final_solution_reform
 			}
 		}
 		tribal_religion = {
 			reforms = {
+				end_of_the_line_reform
 			}
 		}
 		tribal_military_doctrines = {
 			reforms = {
+				tetra_staged_assimilation_protocol_reform
 			}
 		}
 		tribal_modernization = {
 			reforms = {
+			divide_and_devour_reform	
 			}
 		}
 		tribal_reformation = {
 			reforms = {
+			the_great_devourer_reform
 			}
 		}
 	}

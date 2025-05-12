@@ -22,6 +22,7 @@ aristocracy_ideas = {
 	trigger = {
 		has_government_attribute = enables_aristocratic_idea_group
 		NOT = { has_reform = hive_fleet_reform }
+		always = no
 	}
 	
 	noble_knights = {
@@ -163,6 +164,8 @@ horde_gov_ideas = {
 	trigger = {
 		has_government_attribute = enables_horde_idea_group
 		NOT = { has_reform = hive_fleet_reform }
+		NOT = { has_reform = ork_government_reform }
+		always = no
 	}
 	
 	horse_lords = {
@@ -521,6 +524,7 @@ diplomatic_ideas = {
 	category = DIP
 	trigger = {
 		NOT = { has_reform = hive_fleet_reform }
+		NOT = { has_reform = ork_government_reform }
         }
 	bonus = {
 		reduced_stab_impacts = yes
@@ -1428,6 +1432,8 @@ humanist_ideas = {
 
 	trigger = {
 		NOT = { has_reform = hive_fleet_reform }
+		NOT = { religion = destroyer_cult }
+		NOT = { has_reform = ork_government_reform }
         }
 
 	bonus = {
@@ -1627,6 +1633,7 @@ court_ideas = {
 
 	trigger = {
 		NOT = { has_reform = hive_fleet_reform }
+		NOT = { has_reform = ork_government_reform }
         }
 
 	bonus = {

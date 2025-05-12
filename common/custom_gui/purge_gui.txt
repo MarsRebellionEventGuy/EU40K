@@ -12,6 +12,10 @@ custom_button = {
 				limit = { has_estate_privilege = estate_inquisition_right_exterminatus }
 				mil_power = 50
 			}
+			if = {
+				limit = { has_reform = final_solution_reform }
+				mil_power = 33
+			}
 			else = {
 				mil_power = 100 
 			}
@@ -24,6 +28,11 @@ custom_button = {
 				limit = { has_estate_privilege = estate_inquisition_right_exterminatus }
 				add_mil_power = -50
 				PREV = { add_devastation = 10 }
+			}
+			if = {
+				limit = {has_reform = final_solution_reform }
+				add_mil_power = -33
+				PREV = { add_devastation = 100 }
 			}
 			else = {
 				add_mil_power = -100

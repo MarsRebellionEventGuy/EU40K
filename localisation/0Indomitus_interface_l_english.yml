@@ -61,3 +61,6 @@ planar_hero_cooldown_tt:0 "Has not been taken in the past §Y10§! years"
 
 
  purge_button_tt:0 "Purge"
+ purge_button_tt_tyranids:0 "Devour"
+string_is_hive_fleet:0 "Devour"
+string_is_not_hive_fleet:0"Purge"

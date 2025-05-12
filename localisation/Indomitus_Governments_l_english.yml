@@ -399,3 +399,20 @@ drukhari_cult_reform_desc: "A Kabal is a gathering of like-minded individuals, o
 haemonculi_coven_reform_desc: "Deep within The Dark City dwell the Haemonculi Covens, feared even among fellow Drukhari, these deranged flesh-sculptors are entrusted with extracting the psychic essences of the souls taken in the raid all over the galaxty. Their dominion of both body and soul allows them to furnish a new body should a Drukhari fall in battle, making them a neccesary evil in our twisted society."
 
 tyranid_desc: "A hive fleet is a expansive squadron of living Bio-Ships created by the Tyranids for the purpose of gathering the resources and biomass necessary for the reproduction, evolution and expansion of their species, at the expense of the lesser species of the cosmos."
+
+# Tyranid reforms localization
+
+final_solution_reform:0 "Final Solution"
+final_solution_reform_desc:0 "Subversive elements on our soon-to-be-consumed planets are hindering the efficient devouring of the wider galaxy. A thorough and swift sweep is to be carried out by an increased deployment of rear guard organisms, in order to achieve a complete assimilation of each planet's biomass without hindrance in an 80 day timeframe. \n \n§YPurge Action requires far less Military Power but causes 100 Devastation§!"
+
+end_of_the_line_reform:0 "End of the Line"
+end_of_the_line_reform_desc:0 "The lesser species of the cosmos torment themselves with thoughts of the afterlife, weighing gods and causes as if their choices held meaning. Let us ease their minds and free them from they telluric tormnet, for it is through us that they shall meet their maker."
+
+tetra_staged_assimilation_protocol_reform:0 "Tetra-Staged Assimilation Protocol"
+tetra_staged_assimilation_protocol_reform_desc:0 "In our conquest of the galaxy, we can rely on the tried-and-tested four-stage model of our kin.\n\nInvasion - Prepared in advance by our Genestealers and vanguard specimens, a suitable planet, rich in biomass, is swarmed by our ceaseless host.\nPredation - Aerial and ground elements defeat in detail the confused, leaderless, and bereft victims on the surface, employing killing grounds to prevent the formation of unnecessary redoubts.\nConsumption - Feeder organisms ravage the planet’s surface of its precious biological resources, collecting them in Reclamation Pools, as the Capillary Towers channel the material into our ships waiting in orbit.\nAssimilation - Rearguard creatures are left in hiding to prevent recolonization efforts by our enemies, and if the planet somehow recovers, to send a signal back to the fleet for its renewed devouring…"
+
+divide_and_devour_reform:0 "Divide and Devour"
+divide_and_devour_reform_desc:0 "This corner of the cosmos is proving particularly resistant to assimilation; the species within display an uncanny resilience to their inevitable fate. It may be therefore prudent to divide our fleet into multiple cohorts when engaging vast empires, splintering their fragile kingdoms into dust, as they scramble to defend multiple fronts at the same time."
+
+the_great_devourer_reform:0 "The Great Devourer"
+the_great_devourer_reform_desc:0 "Our exponential expansion has brought us into direct contact with the galaxy’s greatest pretenders to dominion. But our mighty fleet has no need to observe, much less respect, their feeble truces or hollow treaties. Why should we? After all, war is a continuation of diplomacy by other means..."
