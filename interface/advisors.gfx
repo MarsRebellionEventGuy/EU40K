@@ -26560,7 +26560,7 @@ spriteTypes = {
 #Dark Mechanicum Advisors
 	spriteType = {
 		name = "GFX_advisor_dark_mechanicum_culture_army_organiser"
-		texturefile = "gfx//interface//advisors//chaos_culture_army_organiser.dds"
+		texturefile = "gfx//interface//advisors//mechanicus_culture_army_organiser.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -26569,7 +26569,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_dark_mechanicum_culture_army_reformer"
-		texturefile = "gfx//interface//advisors//chaos_culture_army_reformer.dds"
+		texturefile = "gfx//interface//advisors//mechanicus_culture_army_reformer.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -26578,7 +26578,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_dark_mechanicum_culture_artist"
-		texturefile = "gfx//interface//advisors//chaos_culture_artist.dds"
+		texturefile = "gfx//interface//advisors//mechanicus_culture_artist.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -26587,7 +26587,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_dark_mechanicum_culture_colonial_governor"
-		texturefile = "gfx//interface//advisors//chaos_culture_colonial_governor.dds"
+		texturefile = "gfx//interface//advisors//mechanicus_culture_colonial_governor.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -26596,7 +26596,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_dark_mechanicum_culture_commandant"
-		texturefile = "gfx//interface//advisors//chaos_culture_commandant.dds"
+		texturefile = "gfx//interface//advisors//mechanicus_culture_commandant.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -26605,7 +26605,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_dark_mechanicum_culture_diplomat"
-		texturefile = "gfx//interface//advisors//chaos_culture_diplomat.dds"
+		texturefile = "gfx//interface//advisors//mechanicus_culture_diplomat.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -26614,7 +26614,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_dark_mechanicum_culture_fortification_expert"
-		texturefile = "gfx//interface//advisors//chaos_culture_fortification_expert.dds"
+		texturefile = "gfx//interface//advisors//mechanicus_culture_fortification_expert.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -26623,7 +26623,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_dark_mechanicum_culture_grand_captain"
-		texturefile = "gfx//interface//advisors//chaos_culture_grand_captain.dds"
+		texturefile = "gfx//interface//advisors//mechanicus_culture_grand_captain.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -26632,7 +26632,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_dark_mechanicum_culture_inquisitor"
-		texturefile = "gfx//interface//advisors//chaos_culture_inquisitor.dds"
+		texturefile = "gfx//interface//advisors//mechanicus_culture_inquisitor.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -26641,7 +26641,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_dark_mechanicum_culture_master_of_mint"
-		texturefile = "gfx//interface//advisors//chaos_culture_master_of_mint.dds"
+		texturefile = "gfx//interface//advisors//mechanicus_culture_master_of_mint.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -26650,7 +26650,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_dark_mechanicum_culture_natural_scientist"
-		texturefile = "gfx//interface//advisors//chaos_culture_natural_scientist.dds"
+		texturefile = "gfx//interface//advisors//mechanicus_culture_natural_scientist.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -26659,7 +26659,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_dark_mechanicum_culture_naval_reformer"
-		texturefile = "gfx//interface//advisors//chaos_culture_naval_reformer.dds"
+		texturefile = "gfx//interface//advisors//mechanicus_culture_naval_reformer.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -26668,7 +26668,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_dark_mechanicum_culture_navigator"
-		texturefile = "gfx//interface//advisors//chaos_culture_navigator.dds"
+		texturefile = "gfx//interface//advisors//mechanicus_culture_navigator.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -26677,7 +26677,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_dark_mechanicum_culture_philosopher"
-		texturefile = "gfx//interface//advisors//chaos_culture_philosopher.dds"
+		texturefile = "gfx//interface//advisors//mechanicus_culture_philosopher.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -26686,7 +26686,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_dark_mechanicum_culture_quartermaster"
-		texturefile = "gfx//interface//advisors//chaos_culture_quartermaster.dds"
+		texturefile = "gfx//interface//advisors//mechanicus_culture_quartermaster.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -26695,7 +26695,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_dark_mechanicum_culture_recruitmaster"
-		texturefile = "gfx//interface//advisors//chaos_culture_recruitmaster.dds"
+		texturefile = "gfx//interface//advisors//mechanicus_culture_recruitmaster.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -26704,7 +26704,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_dark_mechanicum_culture_spymaster"
-		texturefile = "gfx//interface//advisors//chaos_culture_spymaster.dds"
+		texturefile = "gfx//interface//advisors//mechanicus_culture_spymaster.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -26713,7 +26713,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_dark_mechanicum_culture_statesman"
-		texturefile = "gfx//interface//advisors//chaos_culture_statesman.dds"
+		texturefile = "gfx//interface//advisors//mechanicus_culture_statesman.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -26722,7 +26722,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_dark_mechanicum_culture_theologian"
-		texturefile = "gfx//interface//advisors//chaos_culture_theologian.dds"
+		texturefile = "gfx//interface//advisors//mechanicus_culture_theologian.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -26731,7 +26731,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_dark_mechanicum_culture_trader"
-		texturefile = "gfx//interface//advisors//chaos_culture_trader.dds"
+		texturefile = "gfx//interface//advisors//mechanicus_culture_trader.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -26740,7 +26740,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_dark_mechanicum_culture_treasurer"
-		texturefile = "gfx//interface//advisors//chaos_culture_treasurer.dds"
+		texturefile = "gfx//interface//advisors//mechanicus_culture_treasurer.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -26749,7 +26749,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_dark_mechanicum_culture_army_organiser_female"
-		texturefile = "gfx//interface//advisors//chaos_culture_army_organiser_female.dds"
+		texturefile = "gfx//interface//advisors//mechanicus_culture_army_organiser_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -26758,7 +26758,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_dark_mechanicum_culture_army_reformer_female"
-		texturefile = "gfx//interface//advisors//chaos_culture_army_reformer_female.dds"
+		texturefile = "gfx//interface//advisors//mechanicus_culture_army_reformer_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -26767,7 +26767,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_dark_mechanicum_culture_artist_female"
-		texturefile = "gfx//interface//advisors//chaos_culture_artist_female.dds"
+		texturefile = "gfx//interface//advisors//mechanicus_culture_artist_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -26776,7 +26776,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_dark_mechanicum_culture_colonial_governor_female"
-		texturefile = "gfx//interface//advisors//chaos_culture_colonial_governor_female.dds"
+		texturefile = "gfx//interface//advisors//mechanicus_culture_colonial_governor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -26785,7 +26785,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_dark_mechanicum_culture_commandant_female"
-		texturefile = "gfx//interface//advisors//chaos_culture_commandant_female.dds"
+		texturefile = "gfx//interface//advisors//mechanicus_culture_commandant_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -26794,7 +26794,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_dark_mechanicum_culture_diplomat_female"
-		texturefile = "gfx//interface//advisors//chaos_culture_diplomat_female.dds"
+		texturefile = "gfx//interface//advisors//mechanicus_culture_diplomat_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -26803,7 +26803,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_dark_mechanicum_culture_fortification_expert_female"
-		texturefile = "gfx//interface//advisors//chaos_culture_fortification_expert_female.dds"
+		texturefile = "gfx//interface//advisors//mechanicus_culture_fortification_expert_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -26812,7 +26812,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_dark_mechanicum_culture_grand_captain_female"
-		texturefile = "gfx//interface//advisors//chaos_culture_grand_captain_female.dds"
+		texturefile = "gfx//interface//advisors//mechanicus_culture_grand_captain_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -26821,7 +26821,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_dark_mechanicum_culture_inquisitor_female"
-		texturefile = "gfx//interface//advisors//chaos_culture_inquisitor_female.dds"
+		texturefile = "gfx//interface//advisors//mechanicus_culture_inquisitor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -26830,7 +26830,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_dark_mechanicum_culture_master_of_mint_female"
-		texturefile = "gfx//interface//advisors//chaos_culture_master_of_mint_female.dds"
+		texturefile = "gfx//interface//advisors//mechanicus_culture_master_of_mint_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -26839,7 +26839,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_dark_mechanicum_culture_natural_scientist_female"
-		texturefile = "gfx//interface//advisors//chaos_culture_natural_scientist_female.dds"
+		texturefile = "gfx//interface//advisors//mechanicus_culture_natural_scientist_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -26848,7 +26848,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_dark_mechanicum_culture_naval_reformer_female"
-		texturefile = "gfx//interface//advisors//chaos_culture_naval_reformer_female.dds"
+		texturefile = "gfx//interface//advisors//mechanicus_culture_naval_reformer_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -26857,7 +26857,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_dark_mechanicum_culture_navigator_female"
-		texturefile = "gfx//interface//advisors//chaos_culture_navigator_female.dds"
+		texturefile = "gfx//interface//advisors//mechanicus_culture_navigator_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -26866,7 +26866,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_dark_mechanicum_culture_philosopher_female"
-		texturefile = "gfx//interface//advisors//chaos_culture_philosopher_female.dds"
+		texturefile = "gfx//interface//advisors//mechanicus_culture_philosopher_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -26875,7 +26875,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_dark_mechanicum_culture_quartermaster_female"
-		texturefile = "gfx//interface//advisors//chaos_culture_quartermaster_female.dds"
+		texturefile = "gfx//interface//advisors//mechanicus_culture_quartermaster_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -26884,7 +26884,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_dark_mechanicum_culture_recruitmaster_female"
-		texturefile = "gfx//interface//advisors//chaos_culture_recruitmaster_female.dds"
+		texturefile = "gfx//interface//advisors//mechanicus_culture_recruitmaster_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -26893,7 +26893,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_dark_mechanicum_culture_spymaster_female"
-		texturefile = "gfx//interface//advisors//chaos_culture_spymaster_female.dds"
+		texturefile = "gfx//interface//advisors//mechanicus_culture_spymaster_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -26902,7 +26902,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_dark_mechanicum_culture_statesman_female"
-		texturefile = "gfx//interface//advisors//chaos_culture_statesman_female.dds"
+		texturefile = "gfx//interface//advisors//mechanicus_culture_statesman_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -26911,7 +26911,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_dark_mechanicum_culture_theologian_female"
-		texturefile = "gfx//interface//advisors//chaos_culture_theologian_female.dds"
+		texturefile = "gfx//interface//advisors//mechanicus_culture_theologian_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -26920,7 +26920,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_dark_mechanicum_culture_trader_female"
-		texturefile = "gfx//interface//advisors//chaos_culture_trader_female.dds"
+		texturefile = "gfx//interface//advisors//mechanicus_culture_trader_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -26929,7 +26929,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_advisor_dark_mechanicum_culture_treasurer_female"
-		texturefile = "gfx//interface//advisors//chaos_culture_treasurer_female.dds"
+		texturefile = "gfx//interface//advisors//mechanicus_culture_treasurer_female.dds"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
