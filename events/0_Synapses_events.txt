@@ -438,3 +438,229 @@ country_event = { #Narvhals
 		remove_country_modifier = { name = ether_drive_ftl }
 	}
 }
+
+country_event = { # Swarmlord
+	id = indomitus_general.25
+	title = indomitus_general.25.t
+	desc = indomitus_general.25.d
+	picture = PIRATE_CAPTAINS_eventPicture	
+	
+
+	trigger = {
+		has_reform = hive_fleet_reform
+		is_at_war = yes
+	}
+
+	mean_time_to_happen = {
+		months = 300
+		}
+
+	option = {
+		name = indomitus_general.25.a
+			define_general = {
+			name = "The Swarmlord"
+			fire = 6
+			shock = 6
+			manuever = 6
+			siege = 3
+		
+		}
+		add_army_tradition = 20
+	}
+}
+
+country_event = { # Victory over Imperium War
+	id = indomitus_general.26
+	title = indomitus_general.26.t
+	desc = indomitus_general.26.d
+	picture = FLAGSHIP_SUNK_eventPicture	
+	
+	fire_only_once = yes
+
+	trigger = {
+		has_reform = hive_fleet_reform
+		war_with = XXA
+		war_score_against = {
+		who = XXA
+		value = 66
+					}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+		}
+
+	option = {
+		name = indomitus_general.26.a
+		add_country_modifier = { 
+			name = ohmwrecker
+			duration = -1
+		}
+	}
+}
+
+country_event = { # Tyranid control of Terra
+	id = indomitus_general.27
+	title = indomitus_general.27.t
+	desc = indomitus_general.27.d
+	picture = BORDER_TENSION_eventPicture
+	
+	fire_only_once = yes
+
+	trigger = {
+		has_reform = hive_fleet_reform
+		1 = { country_or_non_sovereign_subject_holds = ROOT }
+		1 = { has_owner_religion = yes }
+					}
+	
+
+	mean_time_to_happen = {
+		days = 1
+		}
+
+	option = {
+		name = indomitus_general.27.a
+		add_country_modifier = { 
+			name = endangered_species
+			duration = 7777
+		
+	}
+}
+}
+
+country_event = { # Tyranids made humans extinct
+	id = indomitus_general.28
+	title = indomitus_general.28.t
+	desc = indomitus_general.28.d
+	picture = SIERRA_DE_LA_PLATA_eventPicture
+	
+	fire_only_once = yes
+
+	trigger = {
+		has_reform = hive_fleet_reform
+
+	NOT = {
+			any_province = {
+				culture_group = imperial_culture_group
+				is_empty = no
+				is_wasteland = no
+				NOT = { owned_by = ROOT }
+				continent = milkyway
+			}
+		}
+		
+	}
+	
+
+	mean_time_to_happen = {
+		days = 1
+		}
+
+	option = {
+		name = indomitus_general.28.a
+		add_country_modifier = { 
+			name = humans_extinct
+			duration = -1
+		
+	}
+}
+}
+
+country_event = { # War againts Necrons
+	id = indomitus_general.29
+	title = indomitus_general.29.t
+	desc = indomitus_general.29.d
+	picture = TOURNAMENT_eventPicture	
+	
+	fire_only_once = yes
+
+	trigger = {
+		has_reform = hive_fleet_reform
+		OR = {
+			war_with = XET
+			war_with = XEV
+			war_with = AAC
+}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+		}
+
+	option = {
+		name = indomitus_general.29.a
+		add_country_modifier = { 
+			name = the_walking_metal
+			duration = 720
+		}
+	}
+}
+
+country_event = { # Tyranids made Necrons extinct
+	id = indomitus_general.30
+	title = indomitus_general.30.t
+	desc = indomitus_general.30.d
+
+	picture = LORD_OF_GOTLAND_eventPicture
+	
+	fire_only_once = yes
+
+	trigger = {
+		has_reform = hive_fleet_reform
+		NOT = {
+			any_province = {
+				culture_group = necron_culture_group
+				is_empty = no
+				is_wasteland = no
+				NOT = { owned_by = ROOT }
+				continent = milkyway
+			}
+		}
+		
+	}
+
+	mean_time_to_happen = {
+		days = 1
+		}
+
+	option = {
+		name = indomitus_general.30.a
+		add_country_modifier = { 
+			name = hasta_la_vista
+			duration = -1
+		}
+	}
+}
+
+country_event = { # Tyranid evolution against Necrons
+	id = indomitus_general.31
+	title = indomitus_general.31.t
+	desc = indomitus_general.31.d
+	picture = SWEDEN_LEAGUE_WAR_eventPicture
+	
+	fire_only_once = yes
+
+	trigger = {
+		has_reform = hive_fleet_reform
+		OR = {
+			war_with = XET
+			war_with = XEV
+			war_with = AAC
+		}
+		NOT = {
+			has_country_modifier = the_walking_metal
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+		}
+
+	option = {
+		name = indomitus_general.31.a
+		add_country_modifier = { 
+			name = cutting_edge
+			duration = 365
+		}
+	}
+}

@@ -39,7 +39,7 @@ primarch_regent = {
 
 	imperial_mandate = 0.02
 }
-lost_control_of_tera = {
+lost_control_of_terra = {
 	potential = {
 		is_emperor_of_china = yes
 	}
@@ -73,3 +73,18 @@ is_human = {
 	relation_with_same_culture_group = 50
 }
 
+is_tyranid = {
+	potential = {
+		culture_group = tyranid_culture_group
+	}
+
+	trigger = {
+		culture_group = tyranid_culture_group
+	}
+
+	ai_weight = {
+		factor = 0 # 
+	}
+
+	relation_with_same_culture_group = 75
+}

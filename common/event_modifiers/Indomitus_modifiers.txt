@@ -299,3 +299,31 @@ dolmen_gates = {
 	movement_speed_in_fleet_modifier = 0.25
 	siege_blockade_progress = 1
 }
+
+ohmwrecker = {
+	warscore_cost_vs_other_religion = -0.1
+	discipline = 0.025
+}
+endangered_species = {
+	horde_unity = 2
+	leader_cost = -0.2
+}
+
+humans_extinct = {
+	land_morale = 0.2
+}
+
+the_walking_metal = {
+	manpower_recovery_speed = -0.33
+	shock_damage = -0.2
+}
+
+hasta_la_vista = {
+	morale_damage_received = -0.33
+}
+
+cutting_edge = {
+	shock_damage = 0.1
+	fire_damage = 0.1
+	fire_damage_received = -0.1
+}

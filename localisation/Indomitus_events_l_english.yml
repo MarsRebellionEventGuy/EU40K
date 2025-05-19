@@ -132,3 +132,49 @@ indomitus_general.23.a:0 "There is no escape from the belly of the beast."
 
 a_new_leviathan:0 "A New Leviathan"
 a_new_leviathan_desc:0 "Out of the shadows in the warp, an empire rises..."
+
+indomitus_general.25.t:0 "The Swarmlord is Here!"
+indomitus_general.25.d:0 "The Swarmlord, an extraordinary specimen forged in aeons of strife and conquest, the most powerful creature ever assembled by our kind has pledged its service to our fleet in our present campaing!."
+indomitus_general.25.a:0 "§YTremble before me§!."
+
+indomitus_general.26.t:0 "Man's Downfall"
+indomitus_general.26.d:0 "For centuries, mankind has strived to assert dominion of this corner of the cosmos, the ebb and flow of history has determined that those puny attempts at dominion have ceased alltogether. No Space Marine or Mechanicus contraption can compare to the infinite possibilities and tactical responses of the swarm. The present conflict has proven so. After all the hurdles man overcame to reach this age, we were the ones to finally break them."
+indomitus_general.26.a:0 "§YI am inevitable§."
+
+ohmwrecker:0 "Ohmwrecker"
+ohmwrecker_desc:0 "No galaxy for old men."
+
+endangered_species:0 "Endangered Species"
+endangered_species_desc:0 "With our conquest of their now lusterless halls of Terra, man is becoming an endangered species in the galaxy."
+
+indomitus_general.27.t:0 "Skyfall"
+indomitus_general.27.d:0 "It has come to pass, the crown jewel of humanity rest firmly within our grasp. 'Holy Terra' has fallen to the unrelenting tide of our bioforms. We are now poised to strike at the confused and horrified masses of scattered human remnants across the cosmos in order to turn this into a complete erradication of their species."
+indomitus_general.27.a:0"Excellent."
+
+indomitus_general.28.t:0 "Exterminatus"
+indomitus_general.28.d:0 "After scouring the cosmos to and fro, we found him, the last man was hidden in the mountainous landscape of one of our countless worlds. Barely surviving off the sparse resources available, the last man seemed awfully similar to the first of their kind. \n \nAfter detection by one of our Gargoyles, he knew his fate had been sealed. Rear guard elements converged upon his position, and with inevitability carved into the wind, the last man knew the hunt was over, he fell on his knees in utter surrender, for he knew, that mankind's oddysey had come to a bitter end, ending not with a bang, but a whimper. \n \nJust the final exhale of a species too weary to scream."
+indomitus_general.28.a:0 "§YMankind's long night is over§."
+
+humans_extinct:0 "Humans Purged"
+humans_extinct_desc:0 "A complete and systematic erradication of the feeble human bioform has been achieved by our host!"
+
+indomitus_general.29.t:0 "The Walking Metal"
+indomitus_general.29.d:0 "The Necron kind is one we actively avoid. Tomb Worlds are glossed over and their armadas evaded. We cannot, as opposed to other species, extract nourishment from their living metal constituency. Despite this, hostilities have been increasingly frecuent between our two species and war is the inevitable result of their transgressions. A period of adaptation to their tactics and limited resource extraction from the battlefield will surely render us at a disadvantage for the opening stages of the conflict."
+indomitus_general.29.a:0 "A most unwelcome development."
+
+the_walking_metal:0 "The Walking Metal"
+the_walking_metal_desc:0 "How can claw and teeth feast on metal?"
+
+indomitus_general.30.t:0 "The Second Great Slumber"
+indomitus_general.30.d:0 "The Necron menace proved to be a tough opponent to the host. Gauss weaponry disintegrated into atoms recycled biomass, rendering combat with them a net loss if an atrittion stalemate ensued. Fortunately, with our development of the refractive mucous coating, enhanced acid and physic creatures usage we were able to not only defeat, but drive the walking metal into utter extinction. \n \nA new master has come to take the place of the old ones."
+indomitus_general.30.a:0 "§YAnother one bites the dust§."
+
+hasta_la_vista:0 "Necrons Purged"
+hasta_la_vista_desc:0 "Hasta la vista, baby."
+
+indomitus_general.31.t:0 "Eureka"
+indomitus_general.31.d:0 "Our Norn-Queens have finally come up with the biological solution to our metallic problem. \n \nNewly spawned bioforms are now coated in a refractive mucous layer designed to disrupt Necron Gauss fire. This coating acts as a sacrificial barrier, when struck, the bioform simply sheds the damaged layer and rapidly regenerates a new one. What was once a technological edge for the Necrons is now rendered obsolete. \nSecondly, an increased use of acid and bioplasma to melt down their living metal constituency. \nThirdly, as an answer to their prolific usage of C'tan shards, a consistent usage of Zoanthropes, Neuronthropes and Maleceptors play a key part in our encounters now against the walking metal."
+indomitus_general.31.a:0 "§YShowtime§."
+
+cutting_edge:0 "Cutting Edge"
+cutting_edge_desc:0 "Our Norn-Queens have devised the appropiate countermeasures to the Necron threat."
