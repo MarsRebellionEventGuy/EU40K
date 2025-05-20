@@ -347,13 +347,17 @@ promote_vassal_to_forgeworld = {
 			tag = XXB		
 			AND = {
 				religion = mechanicus		# large forgeworld
-				total_development = 200	
+				OR = {
+					any_owned_province = {
+						is_major_forge_world = yes
+					}
+					total_development = 400	
+				}
 			}
 		}
 		FROM = {
 			is_subject_of = ROOT
 			is_subject_of_type = vassal
-			religion = mechanicus
 		}
 	}
 	is_allowed = {
@@ -366,23 +370,35 @@ promote_vassal_to_forgeworld = {
 				FROM = { liberty_desire = 50 }
 			}
 		}
+		if = {
+			limit = {
+				ROOT = { integrated_forgeworld = 5 }
+			}
+			custom_trigger_tooltip = {
+				tooltip = TO_MANY_FORGEWORLDS_5_TT
+				NOT = {
+					ROOT = { integrated_forgeworld = 5 }
+				}
+			}
+		}
 	}
 	on_accept = {
-		create_subject = {
-			subject_type = integrated_forgeworld
-			subject = FROM
-			keep_liberty_desire = yes
+		ROOT = {
+			create_subject = {
+				subject_type = integrated_forgeworld
+				subject = FROM
+			}
 		}
 	}
 	on_decline = {
 	}
 
 	ai_will_do = { # this is a trigger
-		always = yes
+		always = yes	
 	}
 
 	ai_acceptance = {
-       		add_entry = {
+        add_entry = {
             name = DIPLO_OPPINION
 			export_to_variable = {
 				variable_name = ai_value
@@ -394,7 +410,7 @@ promote_vassal_to_forgeworld = {
 				which = ai_value 
 				value = 0.2
 			}
-        	}
+        }
 		add_entry = {
 			name = AI_TRUST_TOWARDS_ROOT
 			export_to_variable = {
@@ -434,7 +450,7 @@ promote_vassal_to_forgeworld = {
 			}
 			multiply_variable = {
 				which = ai_value
-				value = -1
+				value = -0.5
 			}
 		}
 	}
