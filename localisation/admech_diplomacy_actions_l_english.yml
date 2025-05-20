@@ -9,8 +9,9 @@
  PRIESTHOOD_ALREADY_INFILTRATED_TT:0 "We have infiltrated these world already."
  
  promote_vassal_to_forgeworld_title:0 "Create forgeworld subject"
- promote_vassal_to_forgeworld_desc:0 "We can demand from our faithful vassals to supply us with raw materials for our factories."
+ promote_vassal_to_forgeworld_desc:0 "We will forge a closer connection our faithful vassal so we may use their materials and manufactoria."
  promote_vassal_to_forgeworld_tooltip:0 "Create forgeworld subject"
+ TO_MANY_FORGEWORLDS_TT:0 "We can't handle more forge worlds."
  
  admech_vassalisation_tooltip_has_active_negotiation_root:0 "We are already in a negotiation."
  admech_vassalisation_tooltip_has_active_negotiation_from:0 "They are already in a negotiation."
