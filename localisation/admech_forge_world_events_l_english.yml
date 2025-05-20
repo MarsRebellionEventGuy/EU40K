@@ -1,0 +1,195 @@
+﻿l_english:
+
+#decisions
+forge_world_restore_title:0 "Restore a Forge World"
+forge_world_restore_desc:0 "We have reclaimed the ruins of a forge world. It will be costly, but with time and effort we can rebuild it to it's former glory."
+forge_world_upgrade_title:0 "Expand a Forge World"
+forge_world_upgrade_desc:0 "Our homeworld is among the greatest forges of the Maschine God. If we focus on our internal development, we can increase our legions and the output of our manufactoria even further."
+
+#events restore fw
+admech_forge_world.1.title:0 "The Restoration of a Forge World"
+admech_forge_world.1.desc:0 "By the grace of the Omnissiah our rust-red banners fly above the hive cities of a fallen forge world. After a long and brutal battle our Skitarii legions are marching through the smoldering ruins of manufactoria and worker habs, eliminating the last pockets of resistance. While the fighting comes to an end, our magos logi are gathering to discuss the future of this world. Rebuilding the great forges and restoring the original production capacities will be costly, both in ressources and time, but it will greatly increase value of this world both to the Adeptus Mechanicus and the Imperium."
+admech_forge_world.1.aa:0 "Rebuild the forges of Mars"
+admech_forge_world.1.ab:0 "Rebuild the forges of Voss"
+admech_forge_world.1.ac:0 "Rebuild the forges of Vellung"
+admech_forge_world.1.ad:0 "Rebuild the forges of Paramar"
+admech_forge_world.1.ae:0 "Rebuild the forges of Vanaheim"
+admech_forge_world.1.af:0 "Rebuild the forges of Voss Prime"
+admech_forge_world.1.ag:0 "Rebuild the forges of Jerulas"
+admech_forge_world.1.ah:0 "Rebuild the forges of Phaeton"
+admech_forge_world.1.ai:0 "Rebuild the forges of Trisolian"
+admech_forge_world.1.aj:0 "Rebuild the forges of Cypra Mundi"
+admech_forge_world.1.ak:0 "Rebuild the forges of Stryken"
+admech_forge_world.1.al:0 "Rebuild the forges of Atar Median"
+admech_forge_world.1.am:0 "Rebuild the forges of Arachnus"
+admech_forge_world.1.an:0 "Rebuild the forges of Atar-Plainitia"
+admech_forge_world.1.ao:0 "Rebuild the forges of Kalibrax"
+admech_forge_world.1.ap:0 "Rebuild the forges of Zhao-Arkkad"
+admech_forge_world.1.aq:0 "Rebuild the forges of Sigma Ulstari"
+admech_forge_world.1.ar:0 "Rebuild the forges of Angstrom"
+admech_forge_world.1.as:0 "Rebuild the forges of Agripinaa"
+admech_forge_world.1.at:0 "Rebuild the forges of Shern"
+admech_forge_world.1.au:0 "Rebuild the forges of Stygies VIII"
+admech_forge_world.1.av:0 "Rebuild the forges of Milhand"
+admech_forge_world.1.aw:0 "Rebuild the forges of Myre"
+admech_forge_world.1.ax:0 "Rebuild the forges of Haddrack"
+admech_forge_world.1.ay:0 "Rebuild the forges of the Lathes"
+admech_forge_world.1.az:0 "Rebuild the forges of Belecane"
+admech_forge_world.1.ba:0 "Rebuild the forges of Kiavahr"
+admech_forge_world.1.bb:0 "Rebuild the forges of Lucius"
+admech_forge_world.1.bc:0 "Rebuild the forges of Anvilus"
+admech_forge_world.1.bd:0 "Rebuild the forges of M'khand"
+admech_forge_world.1.be:0 "Rebuild the forges of Canto II"
+admech_forge_world.1.bf:0 "Rebuild the forges of Lentrel Prime"
+admech_forge_world.1.bg:0 "Rebuild the forges of Kolossi"
+admech_forge_world.1.bh:0 "Rebuild the forges of Metalica"
+admech_forge_world.1.bi:0 "Rebuild the forges of Altevfor"
+admech_forge_world.1.bj:0 "Rebuild the forges of Goth"
+admech_forge_world.1.bk:0 "Rebuild the forges of Mpandex"
+admech_forge_world.1.bl:0 "Rebuild the forges of Mezoa"
+admech_forge_world.1.bm:0 "Rebuild the forges of Vindalex"
+admech_forge_world.1.bn:0 "Rebuild the forges of Corinthe"
+admech_forge_world.1.bo:0 "Rebuild the forges of Gulgoradh"
+admech_forge_world.1.bp:0 "Rebuild the forges of Konor"
+admech_forge_world.1.bq:0 "Rebuild the forges of Astorgius"
+admech_forge_world.1.br:0 "Rebuild the forges of Anuria"
+admech_forge_world.1.bs:0 "Rebuild the forges of Triplex Phall"
+admech_forge_world.1.bt:0 "Rebuild the forges of Bastion 019"
+admech_forge_world.1.bu:0 "Rebuild the forges of Utan Magna"
+admech_forge_world.1.bv:0 "Rebuild the forges of Incaladion"
+admech_forge_world.1.bw:0 "Rebuild the forges of Ryza"
+admech_forge_world.1.bx:0 "Rebuild the forges of Graia"
+admech_forge_world.1.by:0 "Rebuild the forges of Hydraphur"
+#destroyed forges
+admech_forge_world.1.bz:0 "Rebuild the forges of Urdesh"
+admech_forge_world.1.ca:0 "Rebuild the forges of Lux Incunabula"
+admech_forge_world.1.cb:0 "Rebuild the forges of Mordax Prime"
+admech_forge_world.1.cc:0 "Rebuild the forges of Artemia Majoris"
+admech_forge_world.1.cd:0 "Rebuild the forges of Gryphonne IV"
+admech_forge_world.1.ce:0 "Rebuild the forges of Tesla Prime"
+admech_forge_world.1.cf:0 "Rebuild the forges of Estaban"
+admech_forge_world.1.cg:0 "Rebuild the forges of Accatran"
+admech_forge_world.1.ch:0 "Rebuild the forges of Kalaghat"
+admech_forge_world.1.ci:0 "Rebuild the forges of Bellus Prime"
+admech_forge_world.1.cj:0 "Rebuild the forges of Tigrus"
+admech_forge_world.1.ck:0 "Rebuild the forges of Hypnoth"
+admech_forge_world.1.cl:0 "Rebuild the forges of Loxar IX"
+admech_forge_world.1.cm:0 "Rebuild the forges of Gathalamor"
+#hell forges
+admech_forge_world.1.cn:0 "Rebuild the forges of Abheilung"
+admech_forge_world.1.co:0 "Rebuild the forges of the Silent Forge"
+admech_forge_world.1.cp:0 "Rebuild the forges of Ordex-Thaag"
+admech_forge_world.1.cq:0 "Rebuild the forges of Sarum"
+admech_forge_world.1.cr:0 "Rebuild the forges of Kantakkha"
+admech_forge_world.1.cs:0 "Rebuild the forges of Cyclothrathe"
+admech_forge_world.1.ct:0 "Rebuild the forges of Olverach"
+admech_forge_world.1.cu:0 "Rebuild the forges of Surtr's Wake"
+admech_forge_world.1.cv:0 "Rebuild the forges of Diesos"
+admech_forge_world.1.cw:0 "Rebuild the forges of the Ironghast Foundry"
+admech_forge_world.1.cx:0 "Rebuild the forges of Xana II"
+admech_forge_world.1.cy:0 "Rebuild the forges of Temporia"
+admech_forge_world.1.cz:0 "Rebuild the forges of Gallium"
+admech_forge_world.1.da:0 "Rebuild the forges of Samech"
+admech_forge_world.1.db:0 "Rebuild the forges of Ulan Huda"
+admech_forge_world.1.ee:0 "Now is not the time"
+
+#events upgrade fw
+admech_forge_world.2.title:0 "Expand the forges"
+admech_forge_world.2.desc:0 "All across the galaxy the Imperium is being attacked by heretics, traitors, and xenos. Our magos logi urge us to divert ressources to increase the output of our forge world."
+admech_forge_world.2.a:0 "Expand the forges of Mars"
+admech_forge_world.2.b:0 "Expand the forges of Voss Prime"
+admech_forge_world.2.c:0 "Expand the forges of Agripinaa"
+admech_forge_world.2.d:0 "Expand the forges of Stygies VIII"
+admech_forge_world.2.e:0 "Expand the forges of the Lathes"
+admech_forge_world.2.f:0 "Expand the forges of Lucius"
+admech_forge_world.2.g:0 "Expand the forges of Metalica"
+admech_forge_world.2.h:0 "Expand the forges of Triplex Phall"
+admech_forge_world.2.i:0 "Expand the forges of Ryza"
+admech_forge_world.2.j:0 "Expand the forges of Graia"
+admech_forge_world.2.k:0 "Now is not the time"
+
+
+#conquest_of_a_forge_world_events
+#admech
+admech_forge_world.6.title:0 "A Holy Forge World conquered"
+admech_forge_world.6.desc:0 "After a long war we have taken a forge world from our rivals."
+admech_forge_world.6.a:0 "Praise the Omnissiah"
+
+#imperium
+admech_forge_world.7.title:0 "A Forge World reclaimed"
+admech_forge_world.7.desc:0 "Millions have fallen but we have brought a forge world of the Adeptus Mechanicus under our direct control. Only time will tell if the cost was worth it."
+admech_forge_world.7.a:0 "More weapons for the Imperium"
+
+#darkmech
+admech_forge_world.8.title:0 "A Forge World enlightened"
+admech_forge_world.8.desc:0 "Most of our weak-minded bretheren have been slaughtered, only few saw the truth and were worth sparing. Now their broken machines will be reborn in the light of the true gods."
+admech_forge_world.8.a:0 "We will corrupt this world"
+admech_forge_world.8.b:0 "Burn it to the ground"
+
+#chaos
+admech_forge_world.9.title:0 "A Forge World conquered"
+admech_forge_world.9.desc:0 "We have crushed the defenses of a loyalist forge world, burned their hives, and sacrificed their worthless soulds to the true gods. The Corpse Emperor couldn't save them, and now their forges will birth new war machines for us."
+admech_forge_world.9.a:0 "Give the forges to the Dark Mechanicum"
+admech_forge_world.9.b:0 "Take what is usable, burn the rest."
+
+#orks
+admech_forge_world.10.title:0 "Cogboy world krumpt!"
+admech_forge_world.10.desc:0 "Dis place is full o' shiny bitz and screechy cogboyz!"
+admech_forge_world.10.a:0 "We'z gonna turn dis inta a proppa Mekworld!"
+admech_forge_world.10.b:0 "Krump it, loot it, den burn da rest!"
+
+#tyranids
+admech_forge_world.11.title:0 "A metal world consumed"
+admech_forge_world.11.desc:0 "World consume. Little biomass. Lots of metals. Hive fleet strong."
+admech_forge_world.11.a:0 "Still hunger"
+
+#necrons
+admech_forge_world.12.title:0 "A pitiful forge cleansed"
+admech_forge_world.12.desc:0 "Our legions have cleansed another world of the fleshbound imposters. These red-robed vermin worships machines, yet theirs were no match for our warforms. Glory to the Dynasty."
+admech_forge_world.12.a:0 "Reduce them to atoms"	
+
+#placeholder for rest
+admech_forge_world.13.title:0 "We have conquered a forge world"
+admech_forge_world.13.desc:0 "All forces of the Imperium and the Adeptus Mechanicus have been defeated. We have full control of the factories of this world."
+admech_forge_world.13.a:0 "Plunder the factories"	
+
+#
+#forge world construction
+#
+
+#forge world upgrade
+admech_forge_world.20.title:0 "Forge World improved"
+admech_forge_world.20.desc:0 "The forges of our forge world are now significantly more productive."
+admech_forge_world.20.a:0 "Praise the Omnissiah!"
+
+#forge world restoration
+admech_forge_world.21.title:0 "Forge World restored"
+admech_forge_world.21.desc:0 "We have retaken a forge world from the enemies of mankind and finally this bastion of the Omnissiah has been restored to its former glory."
+admech_forge_world.21.a:0 "Praise the Omnissiah!"
+
+#forge world corruption darkmech/chaos
+admech_forge_world.22.title:0 "A new Hell Forge"
+admech_forge_world.22.desc:0 "The manufactoria never sleep. Warp energy courses through the maschines and pushes them beyond the wildest dreams of our ignorant brethren. Warp infused automata and demon engines stalk the streets while slaves labour endlessly in the name of the True Gods."
+admech_forge_world.22.a:0 "A new era begins..."
+
+#forge world conversion to mekworld
+admech_forge_world.23.title:0 "A new Mekworld"
+admech_forge_world.23.desc:0 ""We'z done krumpin' da last o' dem spiky cogboyz, nicked all da best bitz, an' turned dis forgey world into a proppa Mekworld! Now da Mekboyz can get ta work buildin’ loads o’ dakka fer da next Waaagh!""
+admech_forge_world.23.a:0 "WAAAAAGH"
+
+#mekworld cleasing
+admech_forge_world.24.title:0 "Mekworld captured"
+admech_forge_world.24.desc:0 "This world is infested by the vile greenskins. This particular tribe shows signs of a greater understanding of technology than usual. We should make sure that these factories never again produce even a single of their grotesk war maschines."
+admech_forge_world.24.a:0 "Burn it all!"
+
+#hell forge cleansing
+admech_forge_world.25.title:0 "Hell Forge captured"
+admech_forge_world.25.desc:0 "We have conquered a world that is home to the Dark Mechanicum. Even so their industrial capacities are impressive, their creations can only be described as repulsive: Unnatural monstrocities, chimeras made of flesh, steel, and warp energy. Nothing short of their total extermination can be acceptable."
+admech_forge_world.25.a:0 "Let none survive!"
+
+
+
+#setting province modifiers at game start
+admech_forge_world.30.title:0 "This should be hidden"
+admech_forge_world.30.desc:0 "Setting province modifiers for Forge Worlds"
+admech_forge_world.30.a:0 "Done"
