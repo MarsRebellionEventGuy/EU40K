@@ -73,34 +73,29 @@ forge_world_4_mod = {
 
 #forge world area mods
 minor_forge_world_area_mod = {
-	hidden = yes
 	local_production_efficiency = 0.1
 	local_development_cost = -0.05
 }
 
 forge_world_1_area_mod = {
-	hidden = yes
 	local_production_efficiency = 0.1
 	trade_goods_size_modifier = 0.2
 	local_development_cost = -0.05
 }
 
 forge_world_2_area_mod = {
-	hidden = yes
 	local_production_efficiency = 0.1
 	trade_goods_size_modifier = 0.5
 	local_development_cost = -0.30
 }
 
 forge_world_3_area_mod = {
-	hidden = yes
 	local_production_efficiency = 0.1
 	trade_goods_size_modifier = 1.0
 	local_development_cost = -0.5
 }
 
 forge_world_4_area_mod = {
-	hidden = yes
 	local_production_efficiency = 0.1
 	trade_goods_size_modifier = 2.0
 	local_development_cost = -0.80

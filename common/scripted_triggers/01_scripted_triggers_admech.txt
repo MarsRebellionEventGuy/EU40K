@@ -1,0 +1,66 @@
+
+is_major_forge_world_tag = {
+	OR = {
+		tag = XXB
+		tag = XFF
+		tag = XDO
+		tag = XOL
+		tag = XGC
+		tag = XOJ
+		tag = XOB
+		tag = XHG
+		tag = XOQ
+		any_owned_province = {
+			OR = {
+				has_province_modifier = forge_world_1_mod
+				has_province_modifier = forge_world_2_mod
+				has_province_modifier = forge_world_3_mod
+				has_province_modifier = forge_world_4_mod
+			}
+		}
+	}
+}
+
+is_major_forge_world = {
+	OR = {
+		has_province_modifier = forge_world_1_mod
+		has_province_modifier = forge_world_2_mod
+		has_province_modifier = forge_world_3_mod
+		has_province_modifier = forge_world_4_mod
+	}
+}
+
+is_forge_world_trigger = {
+	OR = {
+		has_province_modifier = minor_forge_world_mod
+		has_province_modifier = forge_world_1_mod
+		has_province_modifier = forge_world_2_mod
+		has_province_modifier = forge_world_3_mod
+		has_province_modifier = forge_world_4_mod
+	}
+}
+
+forge_world_upgrade_trigger = {
+	OR = {
+		has_province_modifier = forge_world_1_mod
+		has_province_modifier = forge_world_2_mod
+		has_province_modifier = forge_world_3_mod
+	}
+	OR = {
+		is_in_capital_area = yes
+	}
+	religion = mechanicus
+	culture = mechanicus_culture
+	is_core = $owner$
+}
+
+forge_world_restoration_trigger = {
+	OR = {
+		has_province_modifier = fallen_forge_world_mod
+		has_province_modifier = fallen_major_forge_world_mod
+	}
+	NOT = { has_province_modifier = forge_world_restoration }
+	religion = mechanicus
+	culture = mechanicus_culture
+	is_core = $owner$
+}
