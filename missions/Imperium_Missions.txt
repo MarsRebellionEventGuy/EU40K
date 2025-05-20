@@ -265,7 +265,7 @@ XXA_Branch_2 = {
 		position = 4
 		
 		provinces_to_highlight = {
-			continent = segmentum_solar
+			region = segmentum_solar_region
 			OR = {
 				NOT = { country_or_non_sovereign_subject_holds = ROOT }
 				AND = {
@@ -277,8 +277,8 @@ XXA_Branch_2 = {
 		
 		trigger = {
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-				value = 50
-				continent = segmentum_solar
+				value = 70
+				region  = segmentum_solar_region
 				religion_group = emperor_group
 			}
 		}
