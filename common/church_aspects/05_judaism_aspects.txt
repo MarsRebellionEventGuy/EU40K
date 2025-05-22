@@ -153,12 +153,12 @@ imperial_cult_ecclesiarchy_missionarus_galaxia_aspect = { #DIP aspect
 	}
 }
 
-imperial_cult_ecclesiarchy_schola_progenium = { #DIP aspect
+imperial_cult_ecclesiarchy_schola_progenium_aspect = { #DIP aspect
 	cost= 100
 	effect = {
 	}
 	modifier = {
-		reinforce_cost = 0.10
+		reinforce_cost_modifier = -0.15
 	}
 	monarch_power = dip
 	ai_will_do = {
@@ -166,7 +166,7 @@ imperial_cult_ecclesiarchy_schola_progenium = { #DIP aspect
 	}
 }
 
-imperial_cult_ecclesiarchy_officio_assassinorum = { #DIP aspect
+imperial_cult_ecclesiarchy_officio_assassinorum_aspect = { #DIP aspect
 	cost= 100
 	effect = {
 	}

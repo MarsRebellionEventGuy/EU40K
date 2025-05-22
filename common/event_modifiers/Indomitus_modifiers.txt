@@ -327,3 +327,14 @@ cutting_edge = {
 	fire_damage = 0.1
 	fire_damage_received = -0.1
 }
+
+drunken_explorer = {
+	prestige = -0.33
+}
+tyran_province_modifier =  {
+	
+	shock_damage = 0.025
+	fire_damage = 0.025
+	tolerance_own = 1
+	picture = "climate_arid"
+}

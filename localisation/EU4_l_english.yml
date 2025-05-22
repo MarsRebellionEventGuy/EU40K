@@ -4955,7 +4955,7 @@ dark_city_desc:0 "Hidden deep within the Webway, Commorragh is a labyrinth of en
  START_BLOCKADE_MISSION_TOOLTIP:0 "Blockade enemy ports, evading enemy fleets that are not significantly weaker."
  START_INTERCEPT_MISSION_TOOLTIP:0 "Seek out and attack enemy fleets near allied coastlines, focusing on troop transports."
  START_PATROL_MISSION_TOOLTIP:0 "The fleet will start Patrolling between its current location and end destination."
- START_EXPLORE_MISSION_DESC:0 "Send the fleet to explore a region or its coastline or attempt to circumnavigate the globe."
+ START_EXPLORE_MISSION_DESC:0 "Send the fleet to explore a sector or its planets or attempt to circumnavigate the entire galaxy."
  CONFIRM_EXPLORE_SEA:0 "Send the fleet to explore the $REGIONNAME$ region."
  CONFIRM_EXPLORE_COAST:0 "Send the fleet to explore the $REGIONNAME$ (coast) region."
  CURRENT_MISSION:0 "Current Mission:"

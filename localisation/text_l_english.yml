@@ -3836,7 +3836,7 @@ galleyDESCR:0 "The Light Cruiser is a versatile, compact warship designed for sk
  adventuring_merchants:0 "Adventuring Merchants"
  desc_adventuring_merchants:0 "Our merchant adventurers are adventuring more than usual, meaning our trade is yielding yet more profits than before."
  poor_merchants:0 "Merchants Doing Poorly"
- desc_poor_merchants:0 "Usually our merchant adventurers go out and bring back riches from around the globe, at the moment they aren't doing as well as they should."
+ desc_poor_merchants:0 "Usually our merchant adventurers go out and bring back riches from around the galaxy, at the moment they aren't doing as well as they should."
  out_of_date_commerce:0 "Out of date Commerce practices"
  desc_out_of_date_commerce:0 "Our shrewd commercial practices have given our merchants a real advantage, however, at the moment they are not performing as well as they should be."
  excellent_administration:0 "Excellent Administration"

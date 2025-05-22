@@ -168,13 +168,13 @@ if = {
 	stryken_region = {
 		discover_country = ROOT
 		}
-	hydraphur_sea_region = {
+	hydraphur_sector_sea_region = {
 		discover_country = ROOT
 		}
 	hydraphur_region = {
 		discover_country = ROOT
 		}
-	medusan_reach_sea_region = {
+	medusan_reach_sector_sea_region = {
 		discover_country = ROOT
 		}
 	medusan_reach_region = {
@@ -210,10 +210,10 @@ if = {
 	trail_evisser_region  = {
 		discover_country = ROOT
 	}
-	taninim_region  = {
+	stryken_region  = {
 		discover_country = ROOT
 	}
-	taninim_expanse_sea_region  = {
+	taninim_expanse_sector_sea_region  = {
 		discover_country = ROOT
 	}
 	3475 = {
@@ -2834,6 +2834,60 @@ if = {
 			discover_country = ROOT
 		}
 		commorragh_space_sea_region={
+			discover_country = ROOT
+		}
+		3454 = {
+			discover_country = ROOT
+		}
+		3548 = {
+			discover_country = ROOT
+		}
+		3472 = {
+			discover_country = ROOT
+		}
+		3455 = {
+			discover_country = ROOT
+		}
+		3456 = {
+			discover_country = ROOT
+		}
+		3549 = {
+			discover_country = ROOT
+		}
+		3449 = {
+			discover_country = ROOT
+		}
+		3475 = {
+			discover_country = ROOT
+		}
+		3453 = {
+			discover_country = ROOT
+		}
+		3471 = {
+			discover_country = ROOT
+		}
+		3450 = {
+			discover_country = ROOT
+		}
+		3474 = {
+			discover_country = ROOT
+		}
+		3452 = {
+			discover_country = ROOT
+		}
+		3470 = {
+			discover_country = ROOT
+		}
+		3451 = {
+			discover_country = ROOT
+		}
+		3473 = {
+			discover_country = ROOT
+		}
+		3656 = {
+			discover_country = ROOT
+		}
+		1545 = {
 			discover_country = ROOT
 		}
 	}

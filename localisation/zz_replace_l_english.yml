@@ -603,3 +603,8 @@ navis_imperialis_desc:0 "Our mighty Imperial Navy bears the greatest burden in t
 
 living_metal_battleships:0 "Living Metal Battleships"
 living_metal_battleships_desc:0 "Our armada's sheer superiority in combat against the minor species of the galaxy stems from our highly maneuverable vessels, forged from living metal and often emerging unscathed against the primitive weaponry systems of our foes."
+
+#Province Modifiers
+
+tyran_province_modifier:0 "Tyran"
+tyran_province_modifier_desc:0 "Twelve score and sixteen years ago, on the far-flung Mechanicus research station at Tyran, humanity was faced with a novel interstellar enemy, one which multiplies and prospers on the primal instinct of consumption. It was here that the Tyranid menace was first encountered and the history of the galaxy changed forever."

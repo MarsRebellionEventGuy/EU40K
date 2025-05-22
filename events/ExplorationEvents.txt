@@ -1,13 +1,13 @@
 
 ########################################
-# Events for Map the Coastline
+# Exploration Events
 #
-# written by Sara Wendel-Örtqvist
+# written by Sara Wendel-Örtqvist and edited for the mod by Dr4
 ########################################
 
 namespace = exploration_events
 
-# Ordeal in $PROVINCENAME$
+# Trade Offer
 province_event = {
 	id = exploration_events.1
 	title = exploration_events.1.t
@@ -30,20 +30,12 @@ province_event = {
 	option = {
 		name = exploration_events.1.a
 		FROM = {
-			add_years_of_income = 0.05
+			add_years_of_income = 0.15
 		}
-		change_native_hostileness = -1
-	}
-	option = {
-		name = exploration_events.1.b
-		FROM = {
-			add_years_of_income = 0.1
-		}
-		change_native_hostileness = 1
+		change_native_hostileness = 4
 	}
 }
-
-# $PROVINCENAME$ Troopers
+# Bullet to the knee
 province_event = {
 	id = exploration_events.2
 	title = exploration_events.2.t
@@ -66,20 +58,14 @@ province_event = {
 	option = {
 		name = exploration_events.2.a
 		FROM = {
-			add_years_of_income = -0.05
+			add_prestige = 7
+			add_years_of_income = 0.1
 		}
-		change_native_hostileness = -1
-	}
-	option = {
-		name = exploration_events.2.b # Avenge our men
-		FROM = {
-			add_prestige = 5
-		}
-		change_native_hostileness = 1
+		change_native_hostileness = 3
 	}
 }
 
-# Stranger in a Strange Land
+# Pagan Images
 province_event = {
 	id = exploration_events.3
 	title = exploration_events.3.t
@@ -94,11 +80,11 @@ province_event = {
 		is_empty = no
 		owner = {
 			OR = {
-				technology_group = sub_saharan
-				technology_group = north_american
-				technology_group = mesoamerican
-				technology_group = south_american
-				technology_group = andean
+				technology_group = imperial
+				technology_group = tyranid
+				technology_group = ork
+				technology_group = eldar
+				technology_group = chaos
 			}
 		}
 	}
@@ -115,22 +101,11 @@ province_event = {
 		name = exploration_events.3.a
 		FROM = {
 			add_prestige = -5
+			add_treasury = 100
 		}
-		owner = {
-			add_opinion = {
-				who = FROM
-				modifier = opinion_worship
-			}
-		}
-	}
-	option = {
-		name = exploration_events.3.b
-		owner = {
-			add_opinion = {
-				who = FROM
-				modifier = disturbed_ritual
-			}
-		}
+		change_native_hostileness = 3
+		change_native_ferocity = 3
+		change_native_size = -1
 	}
 }
 
@@ -162,7 +137,7 @@ province_event = {
 	}
 }
 
-# The Ship into Summer
+# This Side of Eden
 province_event = {
 	id = exploration_events.5
 	title = exploration_events.5.t
@@ -178,11 +153,11 @@ province_event = {
 		is_empty = no
 		owner = {
 			OR = {
-				technology_group = sub_saharan
-				technology_group = north_american
-				technology_group = mesoamerican
-				technology_group = south_american
-				technology_group = andean
+				technology_group = imperial
+				technology_group = tyranid
+				technology_group = ork
+				technology_group = eldar
+				technology_group = chaos
 			}
 		}
 	}
@@ -196,25 +171,10 @@ province_event = {
 		FROM = {
 			add_treasury = 50
 		}
-		owner = {
-			add_opinion = {
-				who = FROM
-				modifier = angry_natives
-			}
-		}
-	}
-	option = {
-		name = exploration_events.5.b
-		owner = {
-			add_opinion = {
-				who = FROM
-				modifier = friendly_natives
-			}
-		}
 	}
 }
 
-# Unwelcomed Passenger - empty land, bad crops burned
+# Stowaway
 province_event = {
 	id = exploration_events.6
 	title = exploration_events.6.t
@@ -229,6 +189,7 @@ province_event = {
 		is_empty = yes
 		base_tax = 3
 		NOT = { has_province_flag = base_tax_changed }
+		NOT = { culture_group = tyranid_culture_group }
 	}
 	
 	mean_time_to_happen = {
@@ -239,6 +200,10 @@ province_event = {
 		name = exploration_events.6.a
 		add_base_tax = -1
 		set_province_flag = base_tax_changed
+		FROM = {
+			add_prestige = -10
+			add_manpower = -0.001
+		}
 	}
 }
 
@@ -264,6 +229,7 @@ province_event = {
 	option = {
 		name = exploration_events.7.a
 		change_native_hostileness = -5
+		add_base_production = 2
 	}
 }
 
@@ -282,11 +248,11 @@ province_event = {
 		is_empty = no
 		owner = {
 			OR = {
-				technology_group = sub_saharan
-				technology_group = north_american
-				technology_group = mesoamerican
-				technology_group = south_american
-				technology_group = andean
+				technology_group = imperial
+				technology_group = tyranid
+				technology_group = ork
+				technology_group = eldar
+				technology_group = chaos
 			}
 		}
 	}
@@ -305,12 +271,6 @@ province_event = {
 		name = exploration_events.8.b
 		FROM = {
 			add_mil_power = 50
-		}
-		owner = {
-			add_opinion = {
-				who = FROM
-				modifier = angry_natives
-			}
 		}
 	}
 }
@@ -337,16 +297,21 @@ province_event = {
 	option = {
 		name = exploration_events.9.a
 		FROM = {
-			add_dip_power = -25
+			add_dip_power = -15
 		}
 		change_native_hostileness = -2
+		change_native_ferocity = -2
+		change_native_size = -3
 	}
 	option = {
 		name = exploration_events.9.b
 		FROM = {
-			add_prestige = 10
+			add_prestige = -10
 		}
-		change_native_hostileness = 2
+		change_native_hostileness = -5
+		change_native_ferocity = -5
+		change_native_size = -7
+
 	}
 }
 
@@ -363,7 +328,12 @@ province_event = {
 	trigger = {
 		has_dlc = "El Dorado"
 		is_empty = yes
-		has_terrain = jungle
+		has_terrain = marsh
+		has_terrain = steppe
+		has_terrain = grasslands
+		has_terrain = savannah
+		NOT = { culture_group = imperial_culture_group}
+
 	}
 	
 	mean_time_to_happen = {
@@ -373,21 +343,21 @@ province_event = {
 	option = {
 		name = exploration_events.10.a
 		FROM = {
-			add_years_of_income = -0.25
+			add_years_of_income = -0.33
 			add_dip_power = 50
 		}
 	}
 	option = {
 		name = exploration_events.10.b
 		FROM = {
-			add_years_of_income = 0.25
+			add_years_of_income = 0.33
 		}
-		change_native_hostileness = 1
-		change_native_ferocity = 1
+		change_native_hostileness = 2
+		change_native_ferocity = 2
 	}
 }
 
-# A Scattering of Poison
+# Drive-by!
 province_event = {
 	id = exploration_events.11
 	title = exploration_events.11.t
@@ -435,7 +405,6 @@ province_event = {
 		has_dlc = "El Dorado"
 		is_empty = yes
 		FROM = {
-			NOT = { religion_group = muslim }
 			NOT = { has_country_modifier = drunken_explorer }
 		}
 	}
@@ -460,7 +429,7 @@ province_event = {
 	id = exploration_events.13
 	title = exploration_events.13.t
 	desc = exploration_events.13.d
-	picture = COASTLINE_MAP_eventPicture
+	picture = EP_ISLAND_eventPicture
 	goto = root
 
 	is_triggered_only = yes
@@ -469,14 +438,11 @@ province_event = {
 		has_dlc = "El Dorado"
 		is_empty = yes
 		OR = {
-			region = peru_region
-			region = upper_peru_region
-			region = la_plata_region
-			region = south_africa_region
-			region = australia_region
-			region = oceanea_region
+			continent = milkyway
 		}
-		has_climate = arctic
+		has_terrain = coastline
+		has_terrain = farmlands
+		has_terrain = ocean_world
 	}
 	
 	mean_time_to_happen = {
@@ -486,7 +452,7 @@ province_event = {
 	option = {
 		name = exploration_events.13.a
 		FROM = {
-			add_prestige = 5
+			add_prestige = 10
 		}
 	}
 	option = {
@@ -512,12 +478,13 @@ province_event = {
 		is_empty = no
 		owner = {
 			OR = {
-				technology_group = sub_saharan
-				technology_group = north_american
-				technology_group = mesoamerican
-				technology_group = south_american
-				technology_group = andean
+				technology_group = imperial
+				technology_group = tyranid
+				technology_group = ork
+				technology_group = eldar
+				technology_group = chaos
 			}
+			
 		}
 	}
 	
@@ -529,7 +496,7 @@ province_event = {
 		name = exploration_events.14.a
 		FROM = {
 			create_explorer = {
-				tradition = 10
+				tradition = 25
 				culture = root
 				female = yes
 			}
@@ -540,7 +507,7 @@ province_event = {
 		FROM = {
 			add_adm_power = 50
 		}
-	}
+}
 }
 
 # Dead on Arrival
@@ -558,11 +525,11 @@ province_event = {
 		is_empty = no
 		owner = {
 			OR = {
-				technology_group = sub_saharan
-				technology_group = north_american
-				technology_group = mesoamerican
-				technology_group = south_american
-				technology_group = andean
+				technology_group = imperial
+				technology_group = tyranid
+				technology_group = ork
+				technology_group = eldar
+				technology_group = chaos
 			}
 		}
 	}
@@ -579,7 +546,7 @@ province_event = {
 	}
 }
 
-# Circumnavigation - Magellan's Voyage
+# Circumnavigation of the Galaxy
 country_event = {
 	major = yes
 
@@ -592,69 +559,50 @@ country_event = {
 	
 	desc = {
 		trigger = {
-			capital_scope = { continent = europe }
-			NOT = { tag = TUR }
+			capital_scope = { continent = milkyway }
+			NOT = { culture_group = imperial_culture_group}
+			NOT = { culture_group = necron_culture_group } 
+			NOT = { culture_group = tyranid_culture_group } 
+			NOT = { culture_group = tau_culture_group } 
+
 		}
-		desc = exploration_events.16.d #European
+		desc = exploration_events.16.d #General
+	}
+		desc = {
+		trigger = {
+			culture_group = imperial_culture_group
+		}
+		desc = exploration_events.23.d #Imperial
 	}
 	desc = {
 		trigger = {
-			NOT = { culture_group = east_asian } #Chinese
-			NOT = { tag = TUR }
-			capital_scope = {
-				NOT = { region = japan_region }
-				OR = {
-					continent = oceania
-					continent = asia
-				}
-			}
+			 culture_group = necron_culture_group
 		}
-		desc = exploration_events.18.d #Asian
+		desc = exploration_events.18.d #Necron
 	}
 	desc = {
 		trigger = {
-			capital_scope = {
-				continent = africa
-			}
-			NOT = { tag = TUR }
+			culture_group = tyranid_culture_group
 		}
-		desc = exploration_events.19.d #Africa
+		desc = exploration_events.19.d #Tyranid
 	}
 	desc = {
 		trigger = {
-			capital_scope = {
-				NOT = { continent = europe }
-				NOT = { continent = asia }
-				NOT = { continent = africa }
-				NOT = { continent = oceania }
-			}
+			capital_scope = { continent = webway }
 		}
-		desc = exploration_events.20.d #Americas
+		desc = exploration_events.20.d #Webway
 	}
 	desc = {
 		trigger = {
-			culture_group = east_asian
-			capital_scope = { continent = asia }
-			NOT = { tag = TUR }
+			capital_scope = { continent = segmentum_rift }
 		}
-		desc = exploration_events.21.d #Chinese version
+		desc = exploration_events.21.d #Chaos
 	}
 	desc = {
 		trigger = {
-			tag = TUR
-			OR = {
-				capital_scope = { continent = europe }
-				capital_scope = { continent = asia }
-				capital_scope = { continent = africa }
-			}
+			culture_group = tau_culture_group
 		}
-		desc = exploration_events.22.d #Ottoman version
-	}
-	desc = {
-		trigger = {
-			capital_scope = { region = japan_region }
-		}
-		desc = exploration_events.23.d #Japanese version
+		desc = exploration_events.22.d #T'au
 	}
 	
 	trigger = {
@@ -671,34 +619,13 @@ country_event = {
 	option = {
 		name = exploration_events.16.a
 		add_prestige_or_monarch_power = { amount = 100 }
-		add_navy_tradition = 40
-		
-		if = {
-			limit = { 
-				tag = MNG 
-				mission_completed = mng_sail_east
-			}
-			add_country_modifier = {
-				name = mng_first_circumnavigation_modifier
-				duration = -1 
-			}
-		}
-		
-		hidden_effect = {
-			if = {
-				limit = { 
-					NOT = { tag = POR }
-					POR = { 
-						NOT = { mission_completed = dom_portugal_circumnavigation }
-					}
-				}
-				POR = { complete_mission = dom_portugal_circumnavigation }
-			}
-		}
+		add_navy_tradition = 50
+		add_stability_or_adm_power = yes
+		add_mandate = 10
 	}
 }
 
-country_event = {
+country_event = { #Second Circumnavegation
 	id = exploration_events.17
 	title = exploration_events.17.t
 	desc = exploration_events.17.d
@@ -718,15 +645,7 @@ country_event = {
 	
 	option = {
 		name = exploration_events.17.a
-		add_prestige_or_monarch_power = { amount = 10 }
-		add_navy_tradition = 10
-		
-		if = {
-			limit = { 
-				tag = MNG 
-				mission_completed = mng_sail_east
-			}
-			add_mandate = 3 
-		}			
+		add_prestige_or_monarch_power = { amount = 20 }
+		add_navy_tradition = 20		
 	}
 }

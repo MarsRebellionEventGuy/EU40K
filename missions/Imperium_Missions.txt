@@ -13,7 +13,7 @@ XXA_Branch_1 = {
 		position = 3
 		
 		provinces_to_highlight = {
-			area = fenris_region
+			region = fenris_region
 			OR = {
 				NOT = {
 					OR = {

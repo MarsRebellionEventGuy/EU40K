@@ -646,13 +646,15 @@ NCountry = {
 
 
 	EXPLORE_COAST_EVENT_CHANCE = 2,			-- Chance (in %) of getting an event when exploring coasts
-	MIN_TECH_FOR_CIRCUMNAVIGATE = 40,			-- Must have this level of dip tech to circumnavigate the globe
-	CIRCUMNAVIGATION_PROVINCE_1 = 1468,			-- Provinces for circumnavigation (coast of gambia)
-	CIRCUMNAVIGATION_PROVINCE_2 = 1539,			-- Provinces for circumnavigation (magellan strait)
-	CIRCUMNAVIGATION_PROVINCE_3 = 1697,			-- Provinces for circumnavigation (hawaii sea)
-	CIRCUMNAVIGATION_PROVINCE_4 = 1398,			-- Provinces for circumnavigation (hawaii sea)
-	CIRCUMNAVIGATION_PROVINCE_5 = 1446,			-- Provinces for circumnavigation (hawaii sea)
-	CIRCUMNAVIGATION_PROVINCE_6 = 1460,			-- Provinces for circumnavigation (cape of good hope)
+	MIN_TECH_FOR_CIRCUMNAVIGATE = 5,			-- Must have this level of dip tech to circumnavigate the globe
+	CIRCUMNAVIGATION_PROVINCE_1 = 3,			-- Holy Terra
+	CIRCUMNAVIGATION_PROVINCE_2 = 2771,			-- Song of Oblivion
+	CIRCUMNAVIGATION_PROVINCE_3 = 2207,			-- Macragge
+	CIRCUMNAVIGATION_PROVINCE_4 = 2668,			-- Sotha
+	CIRCUMNAVIGATION_PROVINCE_5 = 2540,			-- Baal
+	CIRCUMNAVIGATION_PROVINCE_6 = 900,			-- Hive Tarsus
+	CIRCUMNAVIGATION_PROVINCE_7 = 1949,			-- Harmony
+	CIRCUMNAVIGATION_PROVINCE_7 = 3387,		    -- Port of Lost Souls
 
 	MIN_DEV_FOR_OLD_GREAT_POWER = 100,					-- Countries with less development than this cannot be considered Great Powers
 
