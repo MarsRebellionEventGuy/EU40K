@@ -185,3 +185,19 @@ lucius_defense_mod = {
 	local_defensiveness = 0.1
 	local_fort_maintenance_modifier = -0.1
 }
+
+forge_world_1_subject_limit = {
+	num_of_forge_world = 5
+}
+
+forge_world_2_subject_limit = {
+	num_of_forge_world = 10
+}
+
+forge_world_3_subject_limit = {
+	num_of_forge_world = 15
+}
+
+forge_world_4_subject_limit = {
+	num_of_forge_world = 20
+}
