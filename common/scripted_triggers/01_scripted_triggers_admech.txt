@@ -64,3 +64,39 @@ forge_world_restoration_trigger = {
 	culture = mechanicus_culture
 	is_core = $owner$
 }
+
+reached_forge_world_subject_slot_limit = {
+	variable_arithmetic_trigger = {
+		export_to_variable = {
+			variable_name = current_amount_of_forge_world
+			value = modifier:forge_world_amount_check_influence
+		}
+		export_to_variable = {
+			variable_name = max_amount_of_forge_world
+			value = modifier:num_of_forge_world
+		}
+		check_variable = {
+			which = current_amount_of_forge_world
+			which = max_amount_of_forge_world
+		}
+	}
+}
+
+enough_forge_world_subject_slots = {
+	variable_arithmetic_trigger = {
+		export_to_variable = {
+			variable_name = current_amount_of_forge_world
+			value = modifier:forge_world_amount_check_influence
+		}
+		export_to_variable = {
+			variable_name = max_amount_of_forge_world
+			value = modifier:num_of_forge_world
+		}
+		NOT = {
+			check_variable = {
+				which = current_amount_of_forge_world
+				which = max_amount_of_forge_world
+			}
+		}
+	}
+}
