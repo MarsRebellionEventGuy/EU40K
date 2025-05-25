@@ -1,5 +1,10 @@
 # province
 # FROM = old owner
+on_startup = {
+	events = {
+		id = admech_forge_world.30
+	}
+}
 on_province_owner_change = {
 
 	if = { 
