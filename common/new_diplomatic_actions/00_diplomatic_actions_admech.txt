@@ -358,6 +358,7 @@ promote_vassal_to_forgeworld = {
 		FROM = {
 			is_subject_of = ROOT
 			is_subject_of_type = vassal
+			religion = mechanicus
 		}
 	}
 	is_allowed = {
