@@ -1972,7 +1972,22 @@ province_event = {
 					has_province_modifier = forge_world_1_mod
 				}
 			}
-			owner = { add_prestige = 10}
+			owner = { 
+				add_prestige = 10
+				if = {
+					limit = {
+						NOT = { OR = {
+							has_country_modifier = forge_world_2_subject_limit
+							has_country_modifier = forge_world_3_subject_limit
+							has_country_modifier = forge_world_4_subject_limit
+						}		}
+					}
+					add_country_modifier = {
+						name = forge_world_1_subject_limit
+						duration = -1
+					}
+				}
+			}
 		}
 		if = {
 			limit = {
@@ -1980,7 +1995,21 @@ province_event = {
 					has_province_modifier = forge_world_2_mod
 				}
 			}
-			owner = { add_prestige = 20}
+			owner = { 
+				add_prestige = 20
+				if = {
+					limit = {
+						NOT = { OR = {
+							has_country_modifier = forge_world_3_subject_limit
+							has_country_modifier = forge_world_4_subject_limit
+						}		}
+					}
+					add_country_modifier = {
+						name = forge_world_2_subject_limit
+						duration = -1
+					}
+				}
+			}
 		}
 		if = {
 			limit = {
@@ -1988,7 +2017,20 @@ province_event = {
 					has_province_modifier = forge_world_3_mod
 				}
 			}
-			owner = { add_prestige = 30}
+			owner = { 
+				add_prestige = 30
+				if = {
+					limit = {
+						NOT = {
+							has_country_modifier = forge_world_4_subject_limit
+						}
+					}
+					add_country_modifier = {
+						name = forge_world_3_subject_limit
+						duration = -1
+					}
+				}
+			}
 		}
 		if = {
 			limit = {
@@ -1996,7 +2038,13 @@ province_event = {
 					has_province_modifier = forge_world_4_mod
 				}
 			}
-			owner = { add_prestige = 50}
+			owner = { 
+				add_prestige = 50
+				add_country_modifier = {
+					name = forge_world_4_subject_limit
+					duration = -1
+				}
+			}
 		}
 		
 		ai_chance = {
@@ -3043,6 +3091,14 @@ province_event = {
 					hidden = yes
 				}	}
 			}
+			if = { limit = { owner = { has_country_modifier = forge_world_1_subject_limit }}
+			owner = {
+				remove_country_modifier = forge_world_1_subject_limit
+				add_country_modifier = {
+					name = forge_world_2_subject_limit
+					duration = -1
+				}
+			}}
 		}
 		if = {
 			limit = {
@@ -3062,6 +3118,14 @@ province_event = {
 					hidden = yes
 				}	}
 			}
+			if = { limit = { owner = { has_country_modifier = forge_world_2_subject_limit }}
+			owner = {
+				remove_country_modifier = forge_world_2_subject_limit
+				add_country_modifier = {
+					name = forge_world_3_subject_limit
+					duration = -1
+				}
+			}}
 		}
 		if = {
 			limit = {
@@ -3081,6 +3145,14 @@ province_event = {
 					hidden = yes
 				}	}
 			}
+			if = { limit = { owner = { has_country_modifier = forge_world_3_subject_limit }}
+			owner = {
+				remove_country_modifier = forge_world_3_subject_limit
+				add_country_modifier = {
+					name = forge_world_4_subject_limit
+					duration = -1
+				}
+			}}
 		}
 		}
 	}
@@ -3427,22 +3499,16 @@ province_event = {
 
 
 #setting province modifiers for starting forge worlds
-province_event = {
+country_event = {
 	id = admech_forge_world.30
 	title = "admech_forge_world.30.title"
 	desc = "admech_forge_world.30.desc"
 	picture = NOBLE_ESTATE_DEMANDS_eventPicture
 	
-	fire_only_once = yes
-	hidden = yes
-	
 	trigger = {
-		always = yes
 	}
-	
-	mean_time_to_happen = {
-		days = 1
-	}
+	hidden = yes
+	is_triggered_only = yes
 
 	immediate = {
 		every_province = {
@@ -3476,6 +3542,12 @@ province_event = {
 					name = forge_world_1_area_mod
 					duration = -1
 					hidden = yes
+				}
+			}
+			owner = {
+				add_country_modifier = {
+					name = forge_world_1_subject_limit
+					duration = -1
 				}
 			}
 		}
