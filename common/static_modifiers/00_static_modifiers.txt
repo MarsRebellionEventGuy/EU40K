@@ -1388,6 +1388,7 @@ power_projection_25 = {
 land_forcelimit = {
     free_land_leader_pool = 1.25 #80 Army forcelimit -> +1 free leader
 	num_of_pronoiars = 1
+	num_of_forge_world = 1
 }
 
 #100 Naval Forcelimit = 1
