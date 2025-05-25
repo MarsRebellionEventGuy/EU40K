@@ -129,6 +129,9 @@
 #
 #forge world system
 # 
+
+num_of_forge_world:0 "Max Forge Worlds"
+
  minor_forge_world_mod:0 "Forge World"
  minor_forge_world_mod_desc:0 "A Forge World of little renown. - All provinces in this area owned by a §RMechanicus nation§! gain the additional boni: §GProduction efficiency + 10%, local Development cost -5%§!."
  forge_world_1_mod:0 "Major Forge World (1)"
