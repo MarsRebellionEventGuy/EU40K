@@ -178,3 +178,118 @@ indomitus_general.31.a:0 "§YShowtime§."
 
 cutting_edge:0 "Cutting Edge"
 cutting_edge_desc:0 "Our Norn-Queens have devised the appropiate countermeasures to the Necron threat."
+
+colonial.1.t:0 "The Company"
+colonial.1.d:0 "Our nation is surrounded by territories as yet unclaimed by any of our rivals. Our ambition to expand the lands belonging to the crown has spread into nationalistic fervor within our people, and a new private company has established itself in [Root.GetName] with the ambition of bringing new settlers to the lands of [empty_neighbor_target.GetName] to claim the territory for Glory, Gold, [Root.Owner.Monarch.GetTitle] [Root.Owner.Monarch.GetName], and the [empty_neighbor_target.GetAreaName] Company. \n \nShould we permit the expansion, they will bring a great deal of settlers to the province and rapidly expand [Root.Owner.GetAdjective] influence in the area."
+colonial.1.da:0 "The [This.GetAreaName] Company that was charged with the duty of claiming [This.GetName] in the name of [This.Owner.GetName] has decided instead to expand its borders to an adjacent region close to our colony. The promise of a new life in this uninhabited land is greatly appealing to the [Root.Owner.Culture.GetName] settlers, and should we permit the expansion, it will attract a far greater number of settlers than our existing colony in [This.GetName]."
+colonial.1.a:0 "They will have our support!"
+colonial.1.b:0 "Direct them to an existing settlement."
+
+colonial.2.t:0 "Colonial Discord!"
+colonial.2.d:0 "Disagreements over the overall governance of one of our colonies has escalated into a full blown scuffle between the echelons of provincial administration. The issue has reached all the way up the chain of command to [Root.GetCapitalName]. We must now intervene in the problem, inevitably angering one party over the other."
+colonial.2.a:0 "Favor the Governor!"
+colonial.2.b:0 "Certainly the Captain's argument hold weight..."
+
+colonial.3.t:0 "Thorian Preacher in $PROVINCENAME$"
+colonial.3.d:0 "In the far corners of the [Root.GetName]'s demesne the religious obeisance to established canon is somethimes loose to say the least... \nA particularly zealous inquisitor is openly proselytizing the Thorian faction's doctrine. Surely we cannot allow this to continue."
+colonial.3.a:0 "Yes we can."
+colonial.3.b:0 "Seize him at once!"
+
+thorian_inquisitor:0 "Thorian Inquisitor"
+thorian_inquisitor_desc:0 "A particularly zealous Inquisitor of the Thorian faction is openly preaching is doctrine's beliefs..."
+
+colonial.4.t:0 "Corrupt Governor in $PROVINCENAME$"
+colonial.4.d:0 "The planetary governor in charge of $PROVINCENAME$ day to day administration has been quite overzealous in his tax collection efforts, pocketing a sizeable sum of the amount for himself. \n \nWhile he has been already removed from power and his ill-gotten gains readily returned to the whores and barmen of the province, the question remains whether we should further compensate the people of $PROVINCENAME$ for our evident lapse in jugdement."
+colonial.4.a:0 "Render unto Caesar..."
+colonial.4.b:0 "Proposterous!"
+
+colonial.5.t:0 "The People's Inquisitor"
+colonial.5.d:0 "Our colonization efforts often tend to employ the most deranged, outcast and thieves within the [Root.GetName]. The fact that colonial infraestructure needs to be built wholesale by these particular individuals tends to lead to frecuent scuffles among them, hampering our colonial ambitions. \n \nLuckily, one of our inquisitors rallied these disparate elements behind his cause, and as such $PROVINCENAME$ is already self-sufficient way ahead of schedule. However the inquisitor has taken advantage of the remote location to turn the colony into his personal feud of sorts..."
+colonial.5.a:0 "An understandable compromise."
+colonial.5.b:0 "Tabula rasa."
+
+inquisitors_feud:0 "Inquisitor's Feud"
+inquisitors_feud_desc:0 "An inquisitor has decided to turn this previous colony into his own personal feud."
+
+colonial.6.t:0 "Magdelon Refugees!"
+colonial.6.d:0 "As soon as the human reclamation of $PROVINCENAME$ began, the settlers found themselves surrounded by refugees from the Veiled Region. They tell of the Tyranid abomination approaching towards the Segmentum Solar, devouring everything in its path. They have pledged their service to the settlement, ready to stand their ground against the Great Devourer's tide in the inevitable campaing to come."
+colonial.6.a:0 "Most disturbing news..."
+
+colonial.7.t:0 "Back in Control"
+colonial.7.d:0 "Our advanced colonization efforts in $PROVINCENAME$ have suddenly encountered a hidden Imperial underground cell. This community had been left behind during our shameful evacuation efforts of the past. Rejoiced and overjoyed, these willful elements have readily pledged eternal loyalty to the [Root.Monarch.GetTitle] in his ambition to reunite the galaxy under man's banner."
+colonial.7.a:0 "§YI am the Lightbringer§."
+
+colonial.8.t:0 "A Witch!"
+colonial.8.d:0 "The villagers in $PROVINCENAME$ have caught a witch red-handed as they claim she attempted to blow away the harvest. The town is in outrage and it seems she is likely to be burnt at the stake. Friends of “evidence” and “logic” in our court claim that the proof for her acts of witchery are flimsy and weak at best, and that burning an innocent woman alive is an abomination, but since when have facts and logic played any part in the administration of our state?"
+colonial.8.a:0 "Burn her!"
+colonial.8.b:0 "Wait, she's a Psyker!"
+
+colonial.9.t:0 "A New Settlement"
+colonial.9.d:0 "Our efforts to develop $PROVINCENAME$ go on, but now some of the settlers have rejected the capital city of the colony and begun establishing a new settlement quite far from the official [Root.Owner.GetAdjective] colony in $PROVINCENAME$. Now people flock to the second settlement, and we are left to split our efforts. Should we force the settlers to abandon their second colony and rejoin the official state colony, we shall consolidate our efforts and build our colony in a less efficient but more expedient way."
+colonial.9.a:0 "Unite the colonies."
+colonial.9.b:0 "Allow both colonies to grow."
+
+colonial.10.t:0 "Rival Cities Flourish!"
+colonial.10.d:0 "Our decision to allow both colonies in $PROVINCENAME$ to grow appears to have had some unforeseen benefits. Both colonies are now in direct and fierce competition with each other, each one attempting to attract more settlers than the other. No matter how we stand on this issue, the colonial competition has led to more investments into either colony and has been a great assistance to our efforts to establish a foothold in $PROVINCENAME$."
+colonial.10.a:0 "Competition breeds success."
+colonial.10.b:0 "Appoint separate governors."
+
+colonial.11.t:0 "Rival Cities Struggle!"
+colonial.11.d:0 "Our decision to allow both colonies in $PROVINCENAME$ to grow appears to have had some unforeseen consequences. Both colonies have been attempting to conduct trade and diplomacy with each other, but the vast distance between the two settlements means that traders and diplomats are vulnerable to the elements and enemy incursions attempting to steal our goods. We must find a solution to this issue if the colony in $PROVINCENAME$ is ever to thrive."
+colonial.11.a:0 "They can manage on their own."
+colonial.11.b:0 "I suppose we'll have to build another outpost."
+
+colonial.12.t:0 "The Call of the Wild"
+colonial.12.d:0 "The young men living in $PROVINCENAME$ are far wilder at heart than those back home in the capital. They often wander from the colony to experience life in the wilderness , learn the ways of the natives, and live among them. Many secretly or even openly yearn to cast aside their home to become wanderers and hunters in the great wilderness beyond the borders of [Root.GetName]."
+colonial.12.a:0 "Condemn this foolishness"
+colonial.12.b:0 "Perhaps there is some gain to it."
+
+colonial.13.t:0 "Hunting Dwindles"
+colonial.13.d:0 "As civilization marches on, so does the expansion of our outpost. It seems that the rapid expansion of $PROVINCENAME$ has driven many of the nearby beasts on to wilder lands and the woodlands in which we hunt have become scarce of creatures with meat worth collecting. It would seem that hunting is no longer possible in $PROVINCENAME$."
+colonial.13.a:0 "Timber!"
+colonial.13.b:0 "Maybe they'll finally settle down on their farms!"
+
+colonial.14.t:0 "Missionarus Galaxia Reduction!"
+colonial.14.d:0 "A monastic group from the Missionarus Galaxia of the Ecclesiarchy has traveled to the colonial outposts to establish a mission in the $PROVINCENAME$ colony. They desire to spread the $RELIGION$ to the native people on our colonial fringes. With any luck, the Missionarus may be able to civilize these people and teach them to embrace the true word of the Emperor."
+colonial.14.a:0 "May the Emperor guide their efforts for years to come."
+
+missionarus_galaxia_reduction:0 "Missionarus Galaxia Outpost"
+missionarus_galaxia_reduction_desc:0 "A significant group of the Missionarus Galaxia have established themselves in the region, aiding our colonization and overall governance of the area."
+
+colonial.15.t:0 "Schola Progenium Reduction!"
+colonial.15.d:0 "A sizeable group from the Schola Progenium serving the Adeptus Ministorum has traveled to the colonial outposts to establish a mission in the $PROVINCENAME$ colony, to recruit and raise the orphans left by our ceaseless wars. With any luck, the Schola may be able to civilize and turn these people into brave soldiers and teach them to embrace the true word of the Emperor."
+colonial.15.a:0 "May the Emperor guide their efforts for years to come."
+
+schola_progenium_reduction:0 "Schola Progrenium Outpost"
+schola_progenium_reduction_desc:0 "A significant group of the Schola Progenium have established themselves in the region, aiding our colonization and overall military recruitment of the area"
+
+colonial.16.t:0 "Zombies!"
+colonial.16.d:0 "A sudden Plague Zombies outbreak is ongoing in $PROVINCENAME$! They request inmediate assistance from [Root.GetCapitalName] to deal with the escalating situation on the ground."
+colonial.16.a:0 "Summon the Ordo Sepulturum!"
+colonial.16.b:0 "Distribute weapons amongs the settlers!"
+colonial.16.c:0 "Shit."
+
+colonial.17.t:0 "Colonial Expansion"
+colonial.17.d:0 "Settlements in the fringe and dynamic borders of the empire often tend to have a life of their own. The most recent example is the reshuffling of settlers from $PROVINCENAME$ to [migration_province_target.GetName] instead. There is little we can do to stop them now as [Root.Owner.GetAdjective] villages and towns have already begun appearing all over the [migration_province_target.GetAdjective] hinterlands."
+colonial.17.a:0 "Naturally."
+colonial.17.b:0 "Direct them to an existing settlement."
+
+colonial.18.t:0 "Colonial Migration"
+colonial.18.d:0 "Settlements in the fringe and dynamic borders of the empire often tend to have a life of their own. The most recent example is the reshuffling of settlers from $PROVINCENAME$ to [migration_province_target.GetName] instead. There is little we can do to stop them now as [Root.Owner.GetAdjective] villages and towns have already begun appearing all over the [migration_province_target.GetAdjective] hinterlands."
+colonial.18.a:0 "The grass is greener..."
+
+colonial.19.t:0 "Archaotech Discovered!"
+colonial.19.d:0 "After countless attempts at finding the precious resource, we have finally found some Archaotech in $PROVINCENAME$."
+colonial.19.a:0 "Finally."
+
+colonial.20.t:0 "Growth of the port of $PROVINCENAME$"
+colonial.20.d:0 "The growth of our colony in $PROVINCENAME$ has always been closely associated with the Natural Harbor in the area and over time the province has come to act as something of a local trade hub.\nAs the settlement has grown so has the importance of its harbour acting as the habitual entrepôt for the entire region, handling both local and foreign commerce."
+colonial.20.a:0 "A natural development of our wise administration."
+
+colonial.21.t:0 "Departamento Colonia Intervenes in $PROVINCENAME$"
+colonial.21.d:0 "The growth of our colony in $PROVINCENAME$ has always been marked by its hostile environs. Potential incursions by the nearby xenos hampered the colony's development from its outset. However, the Departamento Colonia has taken the responsability to build up the defenses and military dispositions at $PROVINCENAME$. Administrators at [Root.GetCapitalName] are delighted to hear that as a consecuence, the colony is now self-sufficent!"
+colonial.21.a:0 "Another beacon of hope."
+
+colonial.22.t:0 "$PROVINCENAME$'s Saviors!"
+colonial.22.d:0 "The growth of our colony in $PROVINCENAME$ has been rather slow-paced and filled with mounting problems from its outset. A lack of resources and overall slugishness of the efforts made by the settlers have greatly hampered the speedy development of even basic infraestructure. \n \nFortunatelly, the Departamento Colonia has taken the responsability to organise and bring order to the backwards and disorganized settlement of $PROVINCENAME$. The administration is now privy to the new realities on the ground, the colony quickly recouped lost time and is now the most recent addition to the growing [ROOT.GetName] demesne."
+colonial.22.a:0 "Another jewel in the crown."

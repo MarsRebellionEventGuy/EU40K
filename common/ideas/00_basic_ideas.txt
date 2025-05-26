@@ -1588,7 +1588,7 @@ naval_ideas = {
 		sailors_recovery_speed = 0.25
 		allowed_marine_fraction = 0.25
 	}
-	navys_due = {
+	the_call = {
 		heavy_ship_power = 0.20
 		ship_durability = 0.1
 	}

@@ -67,6 +67,8 @@
  friendly_natives:0 "Friendly Natives"
  drunken_explorer:0 "Drunken Explorer"
  desc_drunken_explorer:0 "An explorer, drunk on fruity liquor, has embarrassed the whole nation and himself."
+ colonial_boom:0 "Colonial Boom"
+ colonial_boom_desc:0 "A surge of colonial fervor within our populace as been channeled directly into this outpost."
  seven_cities_events.1.t:0 "El Dorado"
  seven_cities_events.1.d:0 "An adventurer on his death bed told a tale about a gold covered king who washed the gold off while his attendants threw trinkets of gold and precious stones into the lake. The man claimed to have been rescued by El Hombre Dorado himself and seen the ritual and the golden city with his own eyes. Before he fell ill, he made a crude map that he claims shows the way to El Dorado. Now when we have arrived in $PROVINCENAME$, a landmark corresponds to one of the few roughly drawn on the adventurer's map."
  seven_cities_events.1.a:0 "Follow that map! It will lead to great treasures."

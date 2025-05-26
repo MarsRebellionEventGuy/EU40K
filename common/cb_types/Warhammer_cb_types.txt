@@ -2,6 +2,7 @@ cb_warhammer = {
 	valid_for_subject = no
 
 	prerequisites_self = {
+		NOT = {has_reform = hive_fleet_reform}
 		OR = {
 			AND = {
 				culture_group = imperial_culture_group
@@ -23,7 +24,7 @@ cb_warhammer = {
 		NOT = {
 			border_distance = {
 				who = FROM
-				distance = 100
+				distance = 200
 			}
 		}
 	}
@@ -67,3 +68,51 @@ cb_unify_humanity = {
 
 	war_goal = warhammer_establish_nominal_world
 }
+
+cb_tyranid_invasion = { #Tyranid against everybody except other fleets
+	valid_for_subject = yes
+
+	prerequisites_self = {
+		has_reform = hive_fleet_reform
+	}
+
+	prerequisites = {
+		NOT = {
+			border_distance = {
+				who = FROM
+				distance = 9999
+			}
+			
+		}
+		FROM = {
+			NOT = {has_reform = hive_fleet_reform}
+		}
+
+	}
+	war_goal = tyranid_invasion
+}
+
+cb_tyranid_superiority = { #Tyranid on Tyranid
+	valid_for_subject = yes
+
+	prerequisites_self = {
+		has_reform = hive_fleet_reform
+	}
+
+	prerequisites = {
+		
+		NOT = {
+			border_distance = {
+				who = FROM
+				distance = 9999
+			}
+			
+		}
+		FROM = {
+			has_reform = hive_fleet_reform
+		}
+
+	}
+	war_goal = tyranid_superiority
+}
+	

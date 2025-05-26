@@ -57,3 +57,70 @@ take_great_kabal = {
 
 	war_name = TAKE_GREAT_KABAL_WAR_NAME
 }
+
+tyranid_invasion = {
+	type = superiority
+	
+	attacker = {
+		badboy_factor = 1.2
+		prestige_factor = 1
+		peace_cost_factor = 0.9
+
+		allowed_provinces = {
+			always = yes
+		}
+		
+		peace_options = {
+			po_demand_provinces
+			po_gold
+		}
+		allow_annex = yes
+	}
+	
+	defender = {
+		badboy_factor = 1
+		prestige_factor = 2
+		peace_cost_factor = 1
+
+		peace_options = {
+			po_demand_provinces
+			po_gold
+		}
+	}
+
+	war_name = TYRANID_INVASION_NAME
+}
+
+tyranid_superiority = {
+	type = superiority
+	
+	attacker = {
+		badboy_factor = 0.8
+		prestige_factor = 1.5
+		peace_cost_factor = 0.75
+
+		allowed_provinces = {
+			always = yes
+		}
+		
+		peace_options = {
+			po_demand_provinces
+			po_gold
+			po_become_vassal
+		}
+
+	}
+	
+	defender = {
+		badboy_factor = 0.7
+		prestige_factor = 2
+		peace_cost_factor = 0.8
+
+		peace_options = {
+			po_demand_provinces
+			po_become_vassal
+			po_gold
+		}
+	}
+	war_name = TYRANID_UNIFICATION_NAME
+}

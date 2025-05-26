@@ -201,7 +201,7 @@
  estate_inquisition: "Inquisition"
  estate_inquisition_desc: "The Holy Orders of the Emperor's Inquisition, more commonly known as the Inquisition, are a powerful Estate within the Imperium responsible for guarding the souls of humanity. The purpose of the Inquisition is to identify and destroy the myriad of potential threats to the Imperium and humanity. Such is the Inquisition's power that it answers only to the Emperor."
  estate_inquisition_independent_action: "Right of Independent Action"
- estate_inquisition_independent_action_desc: "The Inquisition was granted its powers from the Emperor of Mankind Himself. and thus it will be difficult to impossible to reign the Inquisition in until this privilege has been ended."
+ estate_inquisition_independent_action_desc: "The Inquisition was granted its powers from the Emperor of Mankind Himself. Thus it will be difficult to impossible to reign the Inquisition in until this privilege has been ended."
  estate_inquisition_land_rights: "Inquisition Land Rights"
  estate_inquisition_land_rights_desc: "In order to preform their important tasks protecting the Imperium, the Inquisition will need land to support themselves"
  estate_inquisition_right_exterminatus: "Right of ++EXTERMINATUS++"
@@ -555,7 +555,7 @@ is_human_desc:0 "We few, we wretched few, we band of brothers."
 is_tyranid:0 "Tyranid"
 is_tyranid_desc:0 "A great feast is upon us!"
 startup_modifier:0 "§YStartup modifiers§"
-mechanic_fixed_rank_no:0 "Does not have a fixed goverment rank"
+mechanic_fixed_rank_no:0 "Does not have a fixed Goverment Rank."
 call_iom_mechanicus_title: "Call for Imperial Aid"
 call_iom_mechanicus_tooltip: "Call the Imperium into our wars in exchange for 25 favors"
 call_mechanicus_iom_title: "Call for Mechanicus Aid"
@@ -608,3 +608,5 @@ living_metal_battleships_desc:0 "Our armada's sheer superiority in combat agains
 
 tyran_province_modifier:0 "Tyran"
 tyran_province_modifier_desc:0 "Twelve score and sixteen years ago, on the far-flung Mechanicus research station at Tyran, humanity was faced with a novel interstellar enemy, one which multiplies and prospers on the primal instinct of consumption. It was here that the Tyranid menace was first encountered and the history of the galaxy changed forever."
+
+
