@@ -16,6 +16,7 @@ integrated_forgeworld_high_development_subject_modifier = {
 integrated_forgeworld_overlord_modifier = {
 	global_trade_power = 0.05
 	global_trade_goods_size_modifier = 0.05
+	forge_world_amount_check_influence = 1
 }
 
 integrated_major_forgeworld_subject_modifier = {

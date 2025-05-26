@@ -796,4 +796,25 @@ estate_special = {
 			has_country_flag = TIM_soyurghals_flag
 		}
 	}
+#For countries with forge world subjects
+	modifier_definition = {
+		type = privileges
+		key = num_of_forge_world
+		trigger = {
+			OR = {
+				culture = mechanicus_culture
+				tag = XXB
+			}
+		}
+	}
+	modifier_definition = {
+		type = privileges
+		key = forge_world_amount_check_influence 
+		trigger = {
+			OR = {
+				culture = mechanicus_culture
+				tag = XXB
+			}
+		}
+	}
 }

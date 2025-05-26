@@ -358,6 +358,7 @@ promote_vassal_to_forgeworld = {
 		FROM = {
 			is_subject_of = ROOT
 			is_subject_of_type = vassal
+			religion = mechanicus
 		}
 	}
 	is_allowed = {
@@ -371,14 +372,10 @@ promote_vassal_to_forgeworld = {
 			}
 		}
 		if = {
-			limit = {
-				ROOT = { integrated_forgeworld = 5 }
-			}
+			limit = { reached_forge_world_subject_limit = yes }
 			custom_trigger_tooltip = {
 				tooltip = TO_MANY_FORGEWORLDS_TT
-				NOT = {
-					ROOT = { integrated_forgeworld = 5 }
-				}
+				enough_forge_world_subject_slots = yes
 			}
 		}
 	}
