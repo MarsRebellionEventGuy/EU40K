@@ -3964,8 +3964,8 @@
  estate_cossacks_exempt_from_bureaucracy:0 "Exempt from Bureaucracy"
  estate_cossacks_exempt_from_bureaucracy_desc:0 "Nobody likes bureaucracy - and the [Root.GetCossacksName] are no exception to this. While this makes controling the [Root.GetCossacksName] more difficult, exempting them from our administrative institution will at least guarantee their loyalty."
  ####NOMADIC TRIBES PRIVILEGES###
-estate_synapses: "Synapses"
- estate_synapses_desc:0 "Synapses are the Tyranid Psychic Power which coalesces all of the Tyranids into the Hive Mind. It is projected by Synapse Creatures which have greatly increased synapse networks within their cortex and these act as psychic conduits for the Hive Mind to order nearby troops. Without the Synapse guiding them, most Tyranids would revert to a feral state."
+estate_synapses:"Synapses"
+estate_synapses_desc:0 "Synapses are a Tyranid psychic phenomenon that unify the wills of individual creatures into the singular purpose of the Hive Mind. \nProjected and amplified by specialized Synapse Creatures, beings with vastly enhanced neural and psychic architecture, they act as living conduits through which the Hive Mind asserts control. \n \nThese organisms relay its commands, shaping the behavior and cohesion of the swarms around them. In the absence of this psychic guidance, most Tyranids descend into a primal, feral state, driven only by the basic instict of hunger.\n\n§TSynapses can be granted special §YPrivileges§! to increase the military strenght of the fleet, however, this requires an investment of biomass in exchange."
 synapses_influence_modifier:0 "Synapses Influence"
 synapses_loyalty_modifier:0 "Synapses Loyalty Equilibrium"
 synapses_privilege_slots:0 "Synapses Max Privileges"
@@ -3990,7 +3990,7 @@ estate_synapses_broodlord:0 "Broodlord"
 estate_synapses_broodlord_desc:0 "These independent creatures excel at infiltration and psychological warfare, leading hidden Genestealers in lightning-fast ambushes as we orbit the soon-to-be devoured world. \nGranting them greater biomass enables us to shatter cohesion among enemy ranks before they ever draw their weapons."
 
 estate_synapses_dominatrix:0 "Dominatrix"
-estate_synapses_dominatrix_desc:0 "An immense and rare synaptic beast, its massive psychic aura allows the swarm under its command to operate at maximum efficiency. However, should the Dominatrix fall in battle, its host would be cast into disarray—an event which can ultimately decide whether a planet is consumed successfully or not. \nWe should ensure a sturdy protection of the Dominatrices to fully benefit from their influence."
+estate_synapses_dominatrix_desc:0 "An immense and rare synaptic beast, its massive psychic aura allows the swarm under its command to operate at maximum efficiency. However, should the Dominatrix fall in battle, its host would be cast into disarray, an event which can ultimately decide whether a planet is consumed successfully or not. \nWe should ensure a sturdy protection of the Dominatrices to fully benefit from their influence."
 
 estate_synapses_maleceptor:0 "Maleceptor"
 estate_synapses_maleceptor_desc:0 "The colossal Maleceptors embody the purest wrath of the Hive Mind. Its very presence nullifies enemy psykers with ease, and its thick armour seamlessly deflects enemy projectiles as it plows through the warzone. \nDeployed against the intelligent species of the galaxy, we should focus on increased production of these organisms as our enemies insist on delaying the inevitable."

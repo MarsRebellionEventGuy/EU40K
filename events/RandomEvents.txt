@@ -5390,6 +5390,7 @@ country_event = {
 	trigger = {
 		stability = 0
 		NOT = { government = tribal }
+		NOT = {has_reform = hive_fleet_reform}
 		NOT = { government = native }
 		any_owned_province = {
 			is_state = yes
@@ -10015,7 +10016,7 @@ country_event = {
 	}
 }
 
-### Scripted by Sara Wendel-Örtqvist ###
+### Scripted by Sara Wendel-ï¿½rtqvist ###
 
 namespace = random_event
 

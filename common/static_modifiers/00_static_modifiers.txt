@@ -588,7 +588,7 @@ base_values = {
 	republican_tradition = 1
 	monthly_fervor_increase = 1
 	vassal_income = 0.10
-	horde_unity = -2
+	horde_unity = -3
 	devotion = -0.5
 	meritocracy = -2
 	governing_capacity = 200
@@ -735,6 +735,7 @@ bankruptcy = {
 
 war = {
 	monthly_militarized_society = 0.1
+	horde_unity = 1
 }
 
 peace = {
@@ -1119,6 +1120,8 @@ prestige = {
 	ghulams_loyalty_modifier = 0.05
 	adeptus_mechanicus_loyalty_modifier = 0.05
 	inquisition_loyalty_modifier = 0.05
+	synapses_loyalty_modifier = 0.05
+	crypteks_loyalty_modifier = 0.05
 }
 
 no_debate_in_parliament = {
@@ -1301,6 +1304,7 @@ is_great_power = {						#Only works with Rights of Man DLC enabled
 	prestige_decay = -0.01
 	embracement_cost = -0.1
 	max_absolutism = 5
+	monthly_splendor = 1
 }
 
 in_golden_era = {

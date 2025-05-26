@@ -3926,7 +3926,7 @@
  INHERITWE_HEADER:0 "$MESSENGER$"
  INHERITWE_1:0 "A Throne Inherited!"
  INHERITWE_2:0 "$MONARCHTITLE$, your charm has certainly done wonders for our nation. Thanks to you, we have"
- INHERITWE_3:0 "inherited"
+ INHERITWE_3:0 "§YInherited§"
  INHERITWE_4:0 "the throne of"
  INHERITWE_5:0 "$INHERITED$"
  INHERITWE_6:0 "Charm and beauty are sometimes as effective as cannons."

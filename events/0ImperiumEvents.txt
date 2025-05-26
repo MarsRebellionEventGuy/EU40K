@@ -233,7 +233,7 @@ country_event = {#test event
 	}
 }
 
-country_event = {#Unifiy Ultramar
+country_event = {#Unify Ultramar
 	id = imperium_events.8
 	title = "imperium_events.8.t"
 	desc = "imperium_events.8.d"

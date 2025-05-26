@@ -103,7 +103,7 @@ estate_synapses_maleceptor = {
 		production_efficiency = -0.05
 	}
 	benefits = {
-		fire_damage_received = -0.15
+		fire_damage_received = -0.10
 	}
 	ai_will_do = {
 		factor = 10
