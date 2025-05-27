@@ -376,3 +376,35 @@ plague_zombies_colony = {
 organised_colony =  {
 	local_colonial_growth = 10
 }
+
+famine_ignored = {
+	trade_goods_size = -0.33
+}
+
+plundered_in_war = {
+	local_tax_modifier = -0.5
+	local_manpower_modifier = -0.5
+}
+
+terrorized_by_special_forces = {
+	local_unrest = 4
+	local_tax_modifier = -0.2
+	local_production_efficiency = -0.2
+}
+
+curtailed_special_forces = {
+	merc_maintenance_modifier = 0.3
+	mercenary_cost = 0.1
+}
+
+tax_relief = {
+	global_tax_modifier = -0.15
+}
+
+decreased_drafting = {
+	global_manpower_modifier = -0.2
+}
+
+screw_them = {
+	global_unrest = 2
+}

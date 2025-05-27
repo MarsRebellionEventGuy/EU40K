@@ -293,3 +293,106 @@ colonial.21.a:0 "Another beacon of hope."
 colonial.22.t:0 "$PROVINCENAME$'s Saviors!"
 colonial.22.d:0 "The growth of our colony in $PROVINCENAME$ has been rather slow-paced and filled with mounting problems from its outset. A lack of resources and overall slugishness of the efforts made by the settlers have greatly hampered the speedy development of even basic infraestructure. \n \nFortunatelly, the Departamento Colonia has taken the responsability to organise and bring order to the backwards and disorganized settlement of $PROVINCENAME$. The administration is now privy to the new realities on the ground, the colony quickly recouped lost time and is now the most recent addition to the growing [ROOT.GetName] demesne."
 colonial.22.a:0 "Another jewel in the crown."
+
+aowar_events.1.t:0 "The Plight of [Root.GetName]"
+aowar_events.1.d:0 "All of [Root.Owner.GetName] suffers in war, but those provinces which lie in the path of the enemy suffer worst. What appears to a soldier or commander as a convenient source of supplies is often all the common people have. \n \nThe hinterlands of [Root.GetCapitalName] have been plundered in this conflict to the point of starvation. They are now reaching out for the government to aid them in recovering, lest the suffering of [Root.Owner.GetName] drag on for years past the eventual peace."
+aowar_events.1.a:0 "Whatever is necessary, we will provide."
+aowar_events.1.b:0 "That money is better spent winning this war."
+
+famine_ignored:0 "Famine Ignored"
+desc_famine_ignored:0 "A famine caused by wartime looting haunts the province, especially after being ignored by the state."
+
+aowar_events.2.t:0 "Skirting the Borders"
+aowar_events.2.d:0 "Sieges can be costly both in time and lives, and we normally take whatever measures necessary to finish them quickly. A siege in the ongoing war has happened to occur close to the border, sparking a discussion about how far the soldiers should go in raiding the countryside.\n\nThe nation on the other side is not our enemy in this war, but perhaps if some of their lands were raided, seemingly by mistake, they would understand. The siege could be greatly aided by these supplies."
+aowar_events.2.a:0 "Finish the siege at once."
+aowar_events.2.a.tt:0 "[This.Owner.GetName] may not be pleased with us..."
+aowar_events.2.b:0 "I'd be wiser to let this conflict remain within the area of operations."
+
+aowar_events.3.t:0 "[From.GetName] Assaulting our Borders"
+aowar_events.3.d:0 "Despite our nations being at peace, we've received reports of [From.GetAdjective] soldiers attacking our borders in [Root.GetName], assaulting our people to resupply. Their ambassadors assure us that this is a simple mistake and that the army has grown a bit desperate in maintaining supplies for an ongoing siege across the border. Mistake or not, [Root.GetName] has suffered for it."
+aowar_events.3.a:0 "This is an unacceptable violation of our sovereignty!"
+aowar_events.3.b:0 "An honest mistake. An apology will suffice."
+
+aowar_events.4.t:0 "Cruelty of Special Forces"
+aowar_events.4.d:0 "War is seldom without brutality. Soldiers are not known for their mercy, but this war has seen some exceptionally vile behavior on the part of our occupying forces. It appears that the special forces we have sent to occupy [war_province.GetAreaName], are unsatisfied with the wages we provide them and have resorted to plundering the area. Their actions have tainted the image of all our troops. As extortion by means of terror and torture becomes commonplace, [Root.GetAdjective] soldiers are reviled as well as feared and stories of their atrocities spread well beyond the borders of the war."
+aowar_events.4.a:0 "We should prevent this from happening in the future."
+aowar_events.4.b:0 "Bellum se ipsum alet! Let them take what they want."
+
+aowar_events.5.t:0 "Special Forces Raid [Root.GetAreaName]"
+aowar_events.5.d:0 "The enemy occupation of [Root.GetAreaName] has come at a great cost for its people. Driven by a mixture of greed and desperation, the special forces hired by our rival, has violently plundered and terrorized local civilians in an attempt to further extort money and resources."
+aowar_events.5.a:0 "A shameful display."
+
+aowar_events.6.t:0 "Refugees from [Root.GetName]"
+aowar_events.6.d:0 "The lingering effects of the war still plague [Root.Owner.GetName]. Some areas have been destroyed to the point of becoming nearly uninhabitable, and people have been forced to move around to survive under these conditions. Some people have left [Root.GetName] entirely, settling in neighboring provinces where the war has left fewer scars."
+aowar_events.6.a:0 "The war may be over, but not our troubles."
+
+terrorized_by_special_forces:0 "Province Terrorized!"
+terrorized_by_special_forces_desc:0 "This province has suffered the unchained looting by a marauding band of Special Forces."
+
+curtailed_special_forces:0 "Special Forces Curtailed"
+curtailed_special_forces_desc:0 "The dishonorable behavior of our hired guns has been thoroughly chastized."
+
+plundered_in_war:0 "Plundered!"
+plundered_in_war_desc:0 "This province has been ravaged by the grim nature of warfare."
+
+aowar_events.7.t:0 "Families Shattered"
+aowar_events.7.d:0 "The recent war took a heavy toll on our people. Many were called, few returned. The families of nobles and commoners alike toiled as they waited for soldiers to return home, but the war ended and they never did. \n \nNow the toiling continues, many being so preoccupied with the work to make up for the lost pair of hands that they barely have time to grieve. Of the ones who have time to think, many are increasingly thinking that we have been throwing away lives too carelessly."
+aowar_events.7.a:0 "We can ease the taxes for some time."
+aowar_events.7.b:0 "Let us be more lenient in our recruitment for a while."
+aowar_events.7.c:0 "This is the price that must be paid for our glorious nation's campaigns."
+
+tax_relief:0 "Tax Relief"
+tax_relief_desc:0 "To alleviate the difficulties of families who are struggling after losing loved ones in the wars, taxes have been decreased."
+
+decreased_recruitment:0 "Decreased Recruitment"
+decreased_recruitment_desc:0 "The loss of many of our soldiers in our recent campaigns has prompted us to shorten the recruitment quotas for now."
+
+screw_them:0 "The Price We Pay"
+screw_them_desc:0 "Our sons, fathers and brothers have and will continue to perish in our endless wars, that is the price of salvation."
+
+aowar_events.8.t:0 "Chaotic Inquisitor"
+aowar_events.8.d:0 "Our Inquisitors have been diligent. With the [Root.Monarch.GetTitle]'s support, those xenos are purged both within and without our domains. The merciless prosecution has put our religious devotion beyond reproach.\n\nStill, there are moments of doubt. One day, in a state of drunkedness, one of them seemingly confessed to have dabbled in Chaos. Curiosity got the best of him and doubts were quenched. \n \nThe inquisitor denies having said or performed such actions, but now we must extricate an official judgement for him."
+aowar_events.8.a:0 "Surely his beliefs would have sheltered him from such actions."
+aowar_events.8.b:0 "Heresy!"
+
+aowar_events.9.t:0 "Unknown Shooter" 
+aowar_events.9.d:0 "[Root.GetName] has a recent history of war, and the [Root.GetAdjective] people increasingly doubt its purposes, but the [Root.Monarch.GetTitle] persists in its ambitions. The soldiers are weary, with many wishing to return home. We have never had reason to consider how badly.\n\nUntil this day. While the troops prepared to face the enemy, a shot rang out, and one of our generals fell to the ground, dead. An enemy sharpshooter? An inside operation to curb our war efforts? Or maybe this was just how badly someone wanted to leave all this behind."
+aowar_events.9.a:0 "We may never know."
+
+aowar_events.10.t:0 "A Change of Character"
+aowar_events.10.d:0 "After the war ended, our ardent diplomatic advisor $DIPLOMAT$ has repeatedly implored [Root.Monarch.GetName] not only to shift foreign policy to avoid future bloodshed, but even suggested that as a nation we should switch priorities. $DIPLOMAT$ posits the question on when will this madness end."
+aowar_events.10.a:0 "We must pursue peace in our time."
+aowar_events.10.b:0 "§YIn this forsaken galaxy there is only war§."
+
+aowar_events.11.t:0 "The Faithful in Enemy Lands"
+aowar_events.11.d:0 "Many soldiers see our ongoing war as a conflict of faiths. This has led to some debate around one of our ongoing sieges, where the local population are [Root.Religion.GetName]. Normally, our troops would supply the siege by taking what we need from the locals, but the pious in our army think we should spare our [Root.Religion.GetName] brothers and sisters, even at the cost of the siege dragging out for longer. Which comes first among the [Root.GetAdjective] people, faith or war?"
+aowar_events.11.a:0 "Spare the faithful."
+aowar_events.11.b:0 "No mercy for enemies of [Root.GetName]!"
+
+aowar_events.12.t:0 "[Root.GetName] Betrayed by Brothers in Faith"
+aowar_events.12.d:0 "When the [Root.Religion.GetName] fools of [Root.GetName] were first attacked by our enemies, they shared their faith, despite our best efforts to make them see the light. Now, having suffered the brutal onslaught of the war, they have seen just how shallow the morality of the [Root.Religion.GetName] really is. After being besieged and raided by the people they trusted, they have bitterly thrown aside their old beliefs, and swore allegiance not only to our country, but to our religion."
+aowar_events.12.a:0 "We will show them the [Root.Owner.Religion.GetName] faith has more integrity than that."
+
+aowar_events.13.t:0 "Unbelievers in [Root.GetName] Waver"
+aowar_events.13.d:0 "While most of our nation fears the [Root.Religion.GetName] invaders, a few citizens seem to welcome them. After [Root.GetName] fell to the enemy, its inhabitants seem to have started considering if they'd be better off in a country headed by rulers of their own faith. \n \nIn an effort to mitigate this betrayal, the local governors have sent a messenger to our court, requesting promises of a more hands-off approach to religious matters in [Root.GetName]. Otherwise, the enemy may already have a hold on the province."
+aowar_events.13.a:0 "We will reward loyalty with respect."
+aowar_events.13.b:0 "We will not accept any disloyalty."
+
+aowar_events.14.t:0 "[Root.Religion.GetName] Defectors"
+aowar_events.14.d:0 "The wise and spiritually enlightened people of [From.GetName] have found, after we occupied their land, that they might benefit from joining us. After all, [From.Owner.GetName] is a [From.Owner.Religion.GetName] country, with little understanding of their ways. If the war goes well, this will certainly help."
+aowar_events.14.a:0 "We may be able to accommodate them..."
+
+aowar_events.15.t:0 "[Root.Religion.GetName] Betrayal in [Root.GetName]!"
+aowar_events.15.d:0 "Our war against the [Root.Religion.GetName] has not gone unnoticed by their local supporters. In [Root.GetName], traitors who hold faith before country have taken the opportunity to rise up and attack us, perhaps hoping to aid the enemy or encourage other [Root.Religion.GetName] nations to join the war."
+aowar_events.15.a:0 "Faith determines the path of all, even the wicked."
+
+aowar_events.16.t:0 "Struggle Without, Struggle Within"
+aowar_events.16.d:0 "Sometimes, we see conflicts on the international stage mirrored within our own borders. Today, we received news that our war with [Root.Religion.GetName] nations has brought about a religious conflict in [Root.GetName], where the [Root.Religion.GetName] and [Root.Owner.Religion.GetName] faiths exist side by side. People who used to be neighbors and friends are attacking each other over what they perceive as the differences between us and our adversaries."
+aowar_events.16.a:0 "Like the war, this conflict must take its course."
+aowar_events.16.b:0 "Unite against the true enemy! You are all [Root.Owner.GetAdjective]!"
+
+aowar_events.17.t:0 "Heretical Toughts!"
+aowar_events.17.d:0 "Recently, I've been having doubts about the dogamtic teachings of our [Root.Religion.GetName]. Who's to say the teaching of our man of faith are the true way forward? How could they hope to interpret the afterlife or the divine at all, if they are mere mortals?"
+aowar_events.17.a:0 "There is a better project to focus my attention on than this."
+aowar_events.17.b:0 "Idle hands truly are the devil's workshop. I shall return to my duties at once."
+aowar_events.17.c:0 "There is a campaing that requieres my attention."
