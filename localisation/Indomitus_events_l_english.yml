@@ -396,3 +396,40 @@ aowar_events.17.d:0 "Recently, I've been having doubts about the dogamtic teachi
 aowar_events.17.a:0 "There is a better project to focus my attention on than this."
 aowar_events.17.b:0 "Idle hands truly are the devil's workshop. I shall return to my duties at once."
 aowar_events.17.c:0 "There is a campaing that requieres my attention."
+
+imperium_events.10.t:0 "Sacred Land"
+imperium_events.10.d:0 "A guardsman will have doubts on the battlefield. No doubt about it. After all, what can possibly surmount the fright and abject terror projected by our myriad of cosmic rivals? \n \nFrom self-replicating beasts to millions-of-year old ancient metallic constructs that seek to reassert their past sovereignty on a galactic scale, and everything in between; the discipline to push forward, face first into these threats instead of running in the opposite direction is sometimes lacking amongs our frontline brethren. \n \nThey must be periodically reminded the cause of their seemingly impossible task, the reason why they wake up in the morning, the why of all their actions, their families, their Emperor, and the sacred soil of Holy Terra, lest it ever be tainted by the filth of the galaxy."
+imperium_events.10.a:0 "§YRemember your why, Guardsman§." 
+
+sacred_land:0 "Sacred Land"
+sacred_land_desc:0 "This is the sacred soil of humanity, by my will, it will not be tainted by the abominations of the galactic teather!"
+
+
+imperium_events.11.t:0 "Legacy"
+imperium_events.11.d:0 "No man is an island, for countless generations he has risen from slumber and into the battlefield, whether there was a war or not, the battles of a man are never ending. Such truth couldn't be more present in our current age. \n \nBesieged on all sides, we look for wisdom in the Library Sanctus and look at the concourse of days gone bye who, despite their great exploits, the fact that most were achieved against a fellow man, sullies their legacy. Notwithstanding that fact, their military lessons will do wonders in establishing a lasting legacy, the tale of mankind's dominion of the starts. "
+imperium_events.11.a:0 "§YThe story of the puny humans that dared.§"
+
+humanity_legacy:0 "Humanity's Legacy"
+humanity_legacy_desc:0 "We have the teachings of our ancestors to rely upon in these trying times."
+
+imperium_events.12.t:0 "Brothers in Arms"
+imperium_events.12.d:0 "In the thick of battle, words matter little to our frontline corps. Actions defy what a man truly is. Once the Mechanicus blessings and the Inquisitors declamations fall silent, there is only you and your brother in arms against damnation's bestiary."
+imperium_events.12.a:0 "We will overcome this, we always have."
+
+xxa_brothers_in_arms:0 "Brothers in Arms"
+xxa_brothers_in_arms:0 "Together, my brothers, this too shall pass."
+
+imperium_events.13.t:0 "Bugsplat!"
+imperium_events.13.d:0 "The filthy Leviathan swarm has buckled under the seemingly unexpected [Root.GetAdjective] resistance! Scores of millions of tyranid bioforms lay scattered around the worlds unfortunate enough to find themselves on the galactic crossfire of the ravenous struggle between mankind and the Great Devourer, who will have to acknowledge a surprising defeat to the Astra Militarum."
+imperium_events.13.a:0 "§YDevour this!§"
+
+bugsplat:0 "Bugsplat!"
+bugsplat_desc:0 "Looks like the unstoppable tide finally found a cliff."
+
+imperium_events.14.t:0 "Im Only Human"
+imperium_events.14.d:0 "Our galactic rivals pride themselves on their longetivity and sturdiness as opposed to our mortal and fragile beings. Our enemies wonder how can a species so brittle, made of flesh and bone can dare to dominate the cosmic playground when it can't even dominate their own mortality?. \n \nThey fail to understand that mortality is not a weakness, it is exactly what makes life worth living, pushing us ever forward in our divine task ahead, for we know our time is now or never.."
+imperium_events.14.a:0 "After all."
+
+imperium_events.15.t:0 "The Calm Before the Storm"
+imperium_events.15.d:0 "A strange feeling pullulates the residents of [Root.Capital.GetCapitalName]. There is peace in our time, a strange phenomenon, that altought its evident allure, the citizens know it will be short-lived. Preparations are being made across all of the Imperium for the inevitable conflicts to come. \n \nOur upper echelons of governance know that in this grim age we live in, lasting peace will always be a mirage. It is therefore imperative we do not sit idly by whilst our enemies garner their forces in the shadows of the warp..."
+imperium_events.15.a:0 "May we never rest in our laurels."

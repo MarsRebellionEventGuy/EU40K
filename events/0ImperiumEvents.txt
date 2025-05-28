@@ -264,3 +264,176 @@ country_event = {
 		set_country_flag = had_dark_imperium
 	}
 }
+
+country_event = { #Sacred Land
+	id = imperium_events.10
+	title = imperium_events.10.t
+	desc = imperium_events.10.d
+	picture = HUSSARS_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = XXA
+		is_at_war = yes
+		}
+	
+
+	mean_time_to_happen = {
+		months = 300
+	}
+
+	option = {
+		name = imperium_events.10.a
+		add_stability_or_adm_power = yes
+		add_country_modifier = {
+			name = sacred_land
+			duration = 1777
+		}
+	}
+
+}
+
+country_event = { #Legacy
+	id = imperium_events.11
+	title = imperium_events.11.t
+	desc = imperium_events.11.d
+	picture = BIG_BOOK_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = XXA
+		is_at_war = yes
+		}
+	
+
+	mean_time_to_happen = {
+		months = 250
+	}
+
+	option = {
+		name = imperium_events.11.a
+		add_mil_power = 50
+		add_country_modifier = {
+			name = humanity_legacy
+			duration = 3500
+		}
+	}
+
+}
+
+country_event = { # Damnation's Bestiary (XXA against Leviathan)
+	id = imperium_events.12
+	title = imperium_events.12.t
+	desc = imperium_events.12.d
+	picture = LAND_MILITARY_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = XXA
+		war_with = XYB
+
+		}
+	
+
+	mean_time_to_happen = {
+		months = 12
+	}
+
+	option = {
+		name = imperium_events.12.a
+		add_mil_power = 100
+		add_country_modifier = {
+			name = xxa_brothers_in_arms
+			duration = 1816
+		}
+	}
+
+}
+
+country_event = { # Bugsplat
+	id = imperium_events.13
+	title = imperium_events.13.t
+	desc = imperium_events.13.d
+	picture = BATTLE_VISTULA_LAGOON_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = XXA
+		war_with = XYB
+		war_score_against = {
+		who = XYB
+		value = 66
+	}	
+
+		}
+	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = imperium_events.13.a
+		add_country_modifier = {
+			name = bugsplat
+			duration = 365
+		}
+	}
+
+}
+
+country_event = { # Im only human
+	id = imperium_events.14
+	title = imperium_events.14.t
+	desc = imperium_events.14.d
+	picture = JURAJ_JANOSIK_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		culture_group = imperial_culture_group
+		}
+	
+
+	mean_time_to_happen = {
+		months = 500
+	}
+
+	option = {
+		name = imperium_events.14.a
+		add_stability_or_adm_power = yes
+		add_army_professionalism = 0.05
+	}
+
+}
+
+country_event = { # The Calm Before the Storm
+	id = imperium_events.15
+	title = imperium_events.15.t
+	desc = imperium_events.15.d
+	picture = MILITARY_CAMP_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = XXA
+		is_at_war = no
+		}
+	
+
+	mean_time_to_happen = {
+		months = 48
+	}
+
+	option = {
+		name = imperium_events.15.a
+		add_mil_power = 33
+		add_dip_power = 33
+		add_adm_power = 33
+	}
+
+}
