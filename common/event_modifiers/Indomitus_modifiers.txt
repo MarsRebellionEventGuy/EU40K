@@ -422,6 +422,25 @@ xxa_brothers_in_arms = {
 	land_morale = 0.15
 }
 bugsplat = {
-	warscore_cost_vs_other_religions = -0.25
+	warscore_cost_vs_other_religion = -0.25
 
+}
+mans_galaxy = {
+	governing_capacity = 400
+	governing_capacity_modifier = 0.25
+	global_trade_goods_size_modifier = 0.33
+	discipline = 0.1
+
+}
+galactic_rulers = {
+	governing_capacity = 600
+	governing_capacity_modifier = 0.33
+	global_trade_goods_size_modifier = 0.5
+	discipline = 0.2
+
+}
+
+wargames = {
+	yearly_army_professionalism = 0.01
+	land_maintenance_modifier = 0.1
 }

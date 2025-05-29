@@ -2,7 +2,7 @@
 # Army Professionalism Events        #
 #                            		 #
 # Written by Henrik Lohmander		 #
-######################################
+
 
 namespace = army_professionalism_events
 
@@ -167,57 +167,6 @@ country_event = {
 			}
 		}
 	}
-	option = {
-		name = army_professionalism_events.1.d2 # plunder the curia treasury
-		trigger = {
-			has_dlc = "Emperor"
-			FROM = {
-				is_capital = yes
-				owned_by = PAP
-			}
-		}
-		highlight = yes
-		ai_chance = {
-			factor = 25
-			modifier = {
-				factor = 0
-				is_core = FROM
-			}
-			modifier = {
-				factor = 0
-				primary_culture = FROM
-			}
-			modifier = {
-				factor = 5
-				has_reform = steppe_horde
-			}
-			modifier = {
-				factor = 100
-				NOT = {
-					religion = catholic
-				}
-			}
-			modifier = {
-				factor = 100
-				religion = catholic
-				OR = {
-					ruler_has_personality = sinner_personality
-					ruler_has_personality = malevolent_personality
-				}
-			}
-		}
-		add_treasury = 1000
-		add_army_professionalism = -0.05
-		add_prestige = -10
-		add_horde_unity = 5
-		add_loot_from_province_effect = yes
-		FROM = {
-			province_event = { id = army_professionalism_events.3 }
-			tooltip = {
-				add_devastation = 100
-				add_base_production = -2
-			}
-		}
 		tooltip = {
 			reduce_curia_treasury_big_effect = yes
 			event_target:attacked_country = {
@@ -232,7 +181,7 @@ country_event = {
 			}
 		}
 	}
-}
+
 
 #Sack of X
 province_event = {
@@ -603,36 +552,37 @@ country_event = {
 	picture = DISCIPLINED_SOLDIERS_eventPicture
 
 	trigger = {
-		has_dlc = "Cradle of Civilization"
 		is_at_war = no
-		army_professionalism = 0.6
+		army_professionalism = 0.4
 		NOT = { army_professionalism = 1 }
 		NOT = { has_country_modifier = wargames }
+		NOT = { culture_group = tyranid_culture_group }
+		NOT = { culture_group = ork_culture_group }
 	}
 	
 	is_triggered_only = yes
 	
 
 	option = {
-		name = army_professionalism_events.8.a #
+		name = army_professionalism_events.8.a 
 		ai_chance = {
-			factor = 75
+			factor = 85
 		}
-		add_years_of_income = -0.25
-		add_yearly_manpower = -0.25
-		add_prestige = 5
-		add_army_professionalism = 0.05
+		add_years_of_income = -0.33
+		add_yearly_manpower = -0.33
+		add_prestige = 10
+		add_army_professionalism = 0.07
 		add_country_modifier = {
-			name = "wargames"
+			name = wargames
 			duration = 3650
 		}
 	}
 	option = {
-		name = army_professionalism_events.8.b #
+		name = army_professionalism_events.8.b 
 		ai_chance = {
-			factor = 25
+			factor = 15
 		}
-		add_prestige = -5
+		add_prestige = -15
 	}
 }
 
@@ -734,9 +684,10 @@ country_event = {
 	picture = DISCIPLINED_SOLDIERS_eventPicture
 
 	trigger = {
-		has_dlc = "Cradle of Civilization"
 		is_at_war = yes
 		NOT = { army_professionalism = 1 }
+		NOT = { culture_group = tyranid_culture_group }
+		NOT = { culture_group = ork_culture_group }
 	}
 	
 	is_triggered_only = yes
@@ -753,10 +704,7 @@ country_event = {
 	}
 
 	option = {
-		name = army_professionalism_events.11.a #
-		ai_chance = {
-			factor = 75
-		}
+		name = army_professionalism_events.11.a 
 		add_army_professionalism = 0.03
 	}
 }

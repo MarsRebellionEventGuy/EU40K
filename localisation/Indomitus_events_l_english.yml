@@ -433,3 +433,38 @@ imperium_events.14.a:0 "After all."
 imperium_events.15.t:0 "The Calm Before the Storm"
 imperium_events.15.d:0 "A strange feeling pullulates the residents of [Root.Capital.GetCapitalName]. There is peace in our time, a strange phenomenon, that altought its evident allure, the citizens know it will be short-lived. Preparations are being made across all of the Imperium for the inevitable conflicts to come. \n \nOur upper echelons of governance know that in this grim age we live in, lasting peace will always be a mirage. It is therefore imperative we do not sit idly by whilst our enemies garner their forces in the shadows of the warp..."
 imperium_events.15.a:0 "May we never rest in our laurels."
+
+imperium_events.16.t:0 "A United Humanity"
+imperium_events.16.d:0 "After countless trials and tribulations, through seemingly ceaseless campaigns we have done it. All of humanity now lives under the banner of [Root.GetName]. \n \nNot even in our wildest dreams could we have imagined this eventual outcome when we first wandered out of [Root.Capital.GetCapitalName] all of those centuries ago. The populace and nobility alike rejoice at the incredible dream we have made manifest. \n \nA new page of glory and prosperity lies ahead in the indomitable human saga."
+imperium_events.16.a:0 "§YThis is a man's galaxy§."
+
+mans_galaxy:0 "Man's Galaxy"
+mans_galaxy_desc:0 "This is now, and henceforth a mankind ruled galaxy until the end of times."
+
+imperium_events.17.t:0 "Cosmic Rulers"
+imperium_events.17.d:0 "After centuries of war, we have finally managed to unify all of the galactic empires under our firm and endless governance. [Root.GetName] shall be remembered not only as the empire that ultimately conquered all there was to conquer, but the ones that pushed their species to eternal dominion of all the stars in the night sky."
+imperium_events.17.a:0 "§YAll ending is the beggining of something new...§"
+
+galactic_rulers:0 "Galactic Rulers"
+galactic_rulers_desc:0 "All of your galaxy belongs to us."
+
+imperium_events.18.t:0 "Blood Sweat and Tears"
+imperium_events.18.d:0 "Out on another campaing, a troubled guardsman approaches one of our generals and asks him a fundamental question;\n \nWhat have we got to offer against the unrelenting tide of enemies that want to replace our authority, destroy us or even consume our entire galaxy? What are those attributes that share both a mere Guardsman and the indomitable and imposing Space Marines? \n \nIll tell you what you can offer the Emperor and your family alike soldier, is that which all men have offered throughout millions of years, every single day; Blood, sweat and tears."
+imperium_events.18.a:0 "Nothing more and nothing less."
+
+imperium_events.19.t:0 "Clair de Lune"
+imperium_events.19.d:0 "In ages past, when mankind was still a species ridden with internecine conflict in our homeworld of Terra, we wandered and gazed upon the night sky and saw the mysterious and tantalizing hue of Luna. That was our first conquest in the rosary of man's eventual bid for galactic dominion. \n \nNow, even after all those centuries lay buried deep in the history books, the boys and girls priveleged enough to be born in Terra, still marvel at the sight of our natural satellite. It is with that same wonder that we explored our planet, first our oceans and then the sky; for we realized that the sky itself was not the limit, our only limit was thinking we had one to begin with."
+imperium_events.19.a:0 "Fly me to the Moon."
+
+imperium_events.20.t:0 "Man's Backyard"
+imperium_events.20.d:0 "Our galactic reclamation efforts are starting to yield their fruits. After decades of hardship and dozens of wars we have finally managed to coalesce the surrounding regions of Terra under our dominion. \n \nThe rest of the warring species of the galaxy only presented token resistance to the conquest of our own cosmic backyard. We can now focus our efforts directly against our rivals..."
+imperium_events.20.a:0 "§YHumanity is back!§"
+
+army_professionalism_events.8.t:0"Wargames"
+army_professionalism_events.8.d:0"Our generals have asked us for funds to conduct a massive reenactment field exercise on a planetary scale. This would be quite costly, and take up a lot of their time, but they insist it would both provide valuable insights to them, be a good way to drill the troops and perhaps intimidate our neighbors as well."
+army_professionalism_events.8.a:0"Certainly!."
+army_professionalism_events.8.b:0"We will soon give them a real war to try their theories in."
+
+army_professionalism_events.11.t:0"Esprit de Corps"
+army_professionalism_events.11.d:0"The strain of a martial lifestyle can under the correct circumstances, lead to the development of a spirit of belonging and cooperation that greatly strengthens the armed forces as a cohesive unit. During our recent conflict, we have seen clear signs that our troops are working better as a unit, and that they have formed strong bonds of loyalty and duty to the [Root.GetAdjective] on a degree that would have seemed hard to imagine just a few years ago."
+army_professionalism_events.11.a:0"This is what separates the [Root.GetAdjective] troops from all others in the galactic scheme."

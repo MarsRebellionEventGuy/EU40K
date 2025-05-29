@@ -1541,7 +1541,7 @@
  EVENT_MESSAGES:0 "Event Messages"
  HAVNT_HEIR_AS_LEADER:0 "The current heir is NOT a general"
  province_razed:0 "Province Razed"
- desc_province_razed:0 "This province has been razed by our nomadic warriors."
+ desc_province_razed:0 "This province has been razed to the ground by our host."
  HAVE_HEIR_AS_LEADER:0 "Current heir is a general"
  HEIR_TO_GENERAL:0 "Appoint Heir to General"
  CONFIRM_LEADER_TITLE:0 "Confirm new leader"

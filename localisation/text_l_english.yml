@@ -1956,7 +1956,7 @@ galleyDESCR:0 "The Light Cruiser is a versatile, compact warship designed for sk
  alert_bankrupt_delayed:0 "Your balance is not good. You are losing $BALANCE$¤ each month."
  alert_low_maintenance_instant:0 "§YLow Maintenance§!"
  alert_low_maintenance_delayed:0 "Your low maintenance has a negative impact on the morale of your units."
- alert_country_at_war_instant:0 "§YCountry is at war!§!"
+ alert_country_at_war_instant:0 "§YAt War!§!"
  alert_country_at_war_delayed:0 "Country is at war with $LIST$."
  alert_truce_will_expire_instant:0 "§YTruce will expire§!"
  alert_truce_will_expire_delayed:0 "$LIST$"
