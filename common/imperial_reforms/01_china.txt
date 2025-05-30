@@ -69,7 +69,7 @@ curtail_inquisition_decision = {
 	} 
 	emperor = { 
 		inquisition_influence_modifier = -0.10
-		inquisition_loyalty_modifier = -0.05
+		inquisition_loyalty_modifier = -0.10
 		global_spy_defence = -0.1
 	}
 	disabled_by = empower_inquisition_decision
@@ -133,6 +133,8 @@ merchant_charter_decision = {
 	emperor = {
 		merchants = 1
 		trade_efficiency = 0.05
+		burghers_loyalty_modifier = 0.05
+		burghers_influence_modifier = 0.1
 	}
 }
 
@@ -266,6 +268,8 @@ reform_ecclesiarchy_decision = {
 	emperor = { 
 		tolerance_own = 3
 		global_missionary_strength = 0.01
+		church_loyalty_modifier = 0.05
+		church_influence_modifier = 0.1
 	}
 	disabled_by = restore_imperial_truth_decision
 }
@@ -301,6 +305,9 @@ restore_imperial_truth_decision = {
 	}
 	on_effect = {
 		custom_tooltip = enables_imperial_truth_tt
+		hidden_effect={
+			country_event = imperium_events.21
+		}
 	}
 	disabled_by = reform_ecclesiarchy_decision
 }
