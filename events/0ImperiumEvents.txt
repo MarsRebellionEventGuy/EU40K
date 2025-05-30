@@ -637,3 +637,16 @@ country_event = { # Man's Backyard
 		}
 	}
 }
+country_event = {
+	id = imperium_events.21
+	title = "imperium_events.21.t"
+	desc = "imperium_events.21.d"
+	picture = CONQUEST_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = "imperium_events.21.a"
+		set_country_flag = restoring_imperial_truth
+	}
+}
