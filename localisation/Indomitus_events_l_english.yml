@@ -469,10 +469,6 @@ army_professionalism_events.11.t:0"Esprit de Corps"
 army_professionalism_events.11.d:0"The strain of a martial lifestyle can under the correct circumstances, lead to the development of a spirit of belonging and cooperation that greatly strengthens the armed forces as a cohesive unit. During our recent conflict, we have seen clear signs that our troops are working better as a unit, and that they have formed strong bonds of loyalty and duty to the [Root.GetAdjective] on a degree that would have seemed hard to imagine just a few years ago."
 army_professionalism_events.11.a:0"This is what separates the [Root.GetAdjective] troops from all others in the galactic scheme."
 
-imperium_events.21.t:0 "A House Divided"
-imperium_events.21.d:0 "An obvious failure in our imperial reintegration policy has led to the shameful situation we found ourselves in. A previously loyal subject of our Imperium has rejected the vows of loyalty tying them to the Emperor and [Root.Monarch.GetName] alike. \n \nA fraticidal war has now been declared, and we must fight against our brothers of yesterday. No matter how this matter ends, humanity as a whole will come up severely weakened after the dust settles..."
-imperium_events.21.a:0 "This cannot stand."
-
 imperium_events.22.t:0 "Terran Nights"
 imperium_events.22.d:0 "We have succeded in the mandate of our beloved Emperor and [Root.Monarch.GetTitle] alike! No xeno filth or traitor have set foot in [Root.Capital.GetCapitalName] ever since the dark days of the Lion's Gate Incursion. \n \nOur expansionist policies have achieved their secondary goal of pushing the frontiers of mankind increasingly away from Holy Terra, with timely assistance from the Navis Imperialis, no ship has been able to make planetfall on our capital world and has thus been able to prosper!"
 imperium_events.22.a:0 "A shining example for all to follow."
@@ -491,3 +487,7 @@ imperium_events.24.a:0 "§YAve Imperator.§"
 imperium_events.25.t:0 "Back from the Brink"
 imperium_events.25.d:0 "The cumbersome state apparatus inherited by 10.000 years of neglect and corruption will surely take its time to properly dismantle. Fortunately, the [Root.Monarch.GetTitle] is laboriously performing the ardous reforms needed in the Imperium for its survival in the dark age we live. \n \nCorruption is steadily declining, whilst the stranglehold the estates of the realm had under the rulership of the High Lords is being dealt with, slowly but surely."
 imperium_events.25.a:0 "§YThe Imperium is not yet lost.§"
+
+imperium_events.26.t:0 "A House Divided"
+imperium_events.26.d:0 "An obvious failure in our imperial reintegration policy has led to the shameful situation we found ourselves in. A previously loyal subject of our Imperium has rejected the vows of loyalty tying them to the Emperor and [Root.Monarch.GetName] alike. \n \nA fraticidal war has now been declared, and we must fight against our brothers of yesterday. No matter how this matter ends, humanity as a whole will come up severely weakened after the dust settles..."
+imperium_events.26.a:0 "This cannot stand."
