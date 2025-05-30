@@ -437,10 +437,18 @@ galactic_rulers = {
 	governing_capacity_modifier = 0.33
 	global_trade_goods_size_modifier = 0.5
 	discipline = 0.2
-
+	colonists = 1
+	colonist_placement_chance = 0.4
+	global_colonial_growth = 75
 }
 
 wargames = {
 	yearly_army_professionalism = 0.01
 	land_maintenance_modifier = 0.1
+}
+
+beacon_of_hope = {
+	diplomatic_reputation = 1
+	imperial_mandate = 0.05
+	trade_goods_size = 0.1
 }

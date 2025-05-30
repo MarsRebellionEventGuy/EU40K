@@ -637,3 +637,160 @@ country_event = { # Man's Backyard
 		}
 	}
 }
+
+country_event = { # A House Divided
+	id = imperium_events.21
+	title = imperium_events.21.t
+	desc = imperium_events.21.d
+	picture = CIVIL_WAR_eventPicture
+
+	fire_only_once = yes
+	major = yes
+
+	trigger = {
+		tag = XXA
+		AND = {
+			defensive_war_with = XGK
+			defensive_war_with = XAD
+			defensive_war_with = XXB
+			defensive_war_with = XTE
+
+		}
+	}
+
+	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = imperium_events.21.a
+		add_stability = -1
+		add_mandate = -20
+		add_prestige = -25
+		}
+}
+
+
+country_event = { # Terran Nights
+	id = imperium_events.22
+	title = imperium_events.22.t
+	desc = imperium_events.22.d
+	picture = CITY_DEVELOPMENT_eventPicture
+
+	fire_only_once = yes
+	
+
+	trigger = {
+		tag = XXA
+		1 ={
+			is_prosperous = yes
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = imperium_events.22.a
+		add_years_of_income = 0.33
+		add_mandate = 10
+	}
+}
+
+country_event = { # Pearl of the Cosmos
+	id = imperium_events.23
+	title = imperium_events.23.t
+	desc = imperium_events.23.d
+	picture = CITY_VIEW_eventPicture
+
+	fire_only_once = yes
+	
+
+	trigger = {
+		tag = XXA
+		development_in_provinces ={
+			value = 150
+			area = solar
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = imperium_events.23.a
+		add_mandate = 15
+		add_stability_or_adm_power = yes
+		1 = {
+		add_province_modifier = {
+			name = beacon_of_hope
+			duration = -1
+			}
+		}
+	}
+}
+
+country_event = { # Ave Imperator
+	id = imperium_events.24
+	title = imperium_events.24.t
+	desc = imperium_events.24.d
+	picture = GOOD_WITH_MONARCH_eventPicture
+
+	fire_only_once = yes
+	
+
+	trigger = {
+		tag = XXA
+		total_development = 600
+		crown_land_share = 50
+		NOT = { corruption = 10 }
+		}
+	
+
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = imperium_events.24.a
+		add_mandate = 30
+		add_stability_or_adm_power = yes
+		add_adm_power = 50
+		add_dip_power = 50
+		add_mil_power = 50
+	}
+}
+
+country_event = { # 
+	id = imperium_events.25
+	title = imperium_events.25.t
+	desc = imperium_events.25.d
+	picture = HRE_eventPicture
+
+	fire_only_once = yes
+	
+
+	trigger = {
+		tag = XXA
+		crown_land_share = 35
+		NOT = { corruption = 50}
+		}
+	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = imperium_events.25.a
+		add_mandate = 10
+		add_stability_or_adm_power = yes
+		add_corruption = -10 
+	}
+}
+
