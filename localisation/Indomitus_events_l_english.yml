@@ -491,3 +491,24 @@ imperium_events.25.a:0 "§YThe Imperium is not yet lost.§"
 imperium_events.26.t:0 "A House Divided"
 imperium_events.26.d:0 "An obvious failure in our imperial reintegration policy has led to the shameful situation we found ourselves in. A previously loyal subject of our Imperium has rejected the vows of loyalty tying them to the Emperor and [Root.Monarch.GetName] alike. \n \nA fraticidal war has now been declared, and we must fight against our brothers of yesterday. No matter how this matter ends, humanity as a whole will come up severely weakened after the dust settles..."
 imperium_events.26.a:0 "This cannot stand."
+
+imperium_events.27.t:0 "Libation"
+imperium_events.27.d:0 "The Emperor is our guiding light\nA beacon of hope for humanity in a galaxy of darkness\n\nAs we serve him\nHe is our greatest servant\n\nAs we pray to him\nHis thoughts are only for us\n\nAnd in dark when the shadows are with us\nThe Emperor is with us, in spirit and in fact."
+imperium_events.27.a:0 "Ave Imperator."
+
+imperium_events.28.t:0 "Litany"
+imperium_events.28.d:0 "Adore the immortal Emperor\nfor he is our protector\n\nAdmire the immortal Emperor\nfor his sacrifice to mankind\n\nExalt the immortal Emperor\nfor his strict guidance\n\nRevere the immortal Emperor\nfor his undying guard\n\nVenerate the immortal Emperor\nfor his holy wisdom\n\nHonor the immortal Emperor\nfor his eternal strength\n\nGlorify the immortal Emperor\nfor his all-seeing vision\n\nPraise the immortal Emperor\nfor his unending rule\n\nHail the immortal Emperor\nfor he is Lord and Master\n\nWorship the immortal Emperor\nfor without him we are nothing."
+imperium_events.28.a:0 "The Emperor Protects."
+
+imperium_events.29.t:0 "Adulation"
+imperium_events.29.d:0 "To be Recited every morning:\n\nO Immortal Emperor; have mercy on us, miserable unworthies that we are.\nO Master of the Galaxy; Protect your flock from the Alien.\nO Keeper of Light; Guide our darkened path with your radiance\n\nWe are your warriors and we are servants of thee,\nWe stand free from blindness of heart,\nFree from hypocrisy, vainglory and deceits,\nBut captive to hatred, malice and anger,\nTo the filth, the alien, the heretic.\n\nBy thy agony and bloody sweat; by thy Golden Throne and thy death,\nBy thy destruction and re-emergence as the God of men,\nKeep and strengthen us,\nWe who fight for thee."
+imperium_events.29.a:0 "Thy will be done."
+
+imperium_events.30.t:0 "Lobesang"
+imperium_events.30.d:0 "Love the Emperor\nFor he is the salvation of mankind\n\nObey his word\nFor he will lead you into the light of the future\n\nHeed his wisdom,\nFor he will protect you from evil\n\nWhisper his prayers with devotion,\nFor they will save your soul\n\nHonor his servants,\nFor they speak with his voice\n\nTremble before his majesty,\nFor we all walk in his immortal shadow."
+imperium_events.30.a:0 "By his will."
+
+imperium_events.31.t:0 "Dominus"
+imperium_events.31.d:0 "A spiritu dominatus. \nDomine, libra nos. \nA morte perpetua. \nDomine, libra nos. \nAve, Imperator. \n \nDomine, libra nos."
+imperium_events.31.a:0 "Domine dirige nos."
+

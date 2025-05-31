@@ -806,3 +806,118 @@ country_event = { # A House Divided
 		add_prestige = -25
 		}
 }
+
+country_event = { # Libation
+	id = imperium_events.27
+	title = imperium_events.27.t
+	desc = imperium_events.27.d
+	picture = PRAYING_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = XXA
+		religion = imperial_cult
+	}
+
+	
+
+	mean_time_to_happen = {
+		months = 111
+	}
+
+	option = {
+		name = imperium_events.27.a
+		add_stability_or_adm_power = yes
+		}
+}
+country_event = { # Litany
+	id = imperium_events.28
+	title = imperium_events.28.t
+	desc = imperium_events.28.d
+	picture = PRAYING_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = XXA
+		religion = imperial_cult
+	}
+
+	mean_time_to_happen = {
+		months = 222
+	}
+
+	option = {
+		name = imperium_events.28.a
+		add_stability_or_adm_power = yes
+	}
+}
+country_event = { # Adulation
+	id = imperium_events.29
+	title = imperium_events.29.t
+	desc = imperium_events.29.d
+	picture = PRAYING_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = XXA
+		religion = imperial_cult
+	}
+
+	mean_time_to_happen = {
+		months = 333
+	}
+
+	option = {
+		name = imperium_events.29.a
+		add_stability_or_adm_power = yes
+	}
+}
+country_event = { # Lobesang
+	id = imperium_events.30
+	title = imperium_events.30.t
+	desc = imperium_events.30.d
+	picture = PRAYING_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = XXA
+		religion = imperial_cult
+	}
+
+	mean_time_to_happen = {
+		months = 444
+	}
+
+	option = {
+		name = imperium_events.30.a
+		add_stability_or_adm_power = yes
+	}
+}
+
+country_event = { # Dominus
+	id = imperium_events.31
+	title = imperium_events.31.t
+	desc = imperium_events.31.d
+	picture = PRAYING_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = XXA
+		religion = imperial_cult
+	}
+
+	mean_time_to_happen = {
+		months = 555
+	}
+
+	option = {
+		name = imperium_events.31.a
+		add_stability_or_adm_power = yes
+	}
+}
+
