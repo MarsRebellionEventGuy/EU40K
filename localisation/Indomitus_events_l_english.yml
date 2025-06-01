@@ -512,3 +512,32 @@ imperium_events.31.t:0 "Dominus"
 imperium_events.31.d:0 "A spiritu dominatus. \nDomine, libra nos. \nA morte perpetua. \nDomine, libra nos. \nAve, Imperator. \n \nDomine, libra nos."
 imperium_events.31.a:0 "Domine dirige nos."
 
+imperium_events.32.t:0 "Ruination"
+imperium_events.32.d:0 "War has come to Terra. The Imperial Palace finds itself besieged by the enemy's forces. As our subjects rally behind our banner to free the Golden Throne from its perilous situation, we can't help but notice that their disappointment is self-evident..."
+imperium_events.32.a:0 "A mere roadbump."
+
+imperium_events.33.t:0 "Breaking Point"
+imperium_events.33.d:0 "Despite our best efforts at liberating the seat of power from external control, the Imperial Palace lays in utter shambles. The untinkable situation we found ourselves in has prompted a severe loss of authority amongst our subjects, who ponder if we are truly destined to govern the stars after all if we can't event keep the enemies at bay in our own throneworld..."
+imperium_events.33.a:0 "Is this the end?"
+
+imperium_events.34.t:0 "Havoc"
+imperium_events.34.d:0 "Our administration is in complete disarray. Mismanagement and unfortunate circumstances have prompted a complete loss of credibily amongst our subjects in our ethos of galactic dominion which will take years to wane... If we make it that far."
+imperium_events.34.a:0 "Will this be our undoing?"
+
+havoc:0 "Havoc"
+havoc_desc:0 "Is this how humanity dies? Not with a bang but with a whisper?"
+
+imperium_events.35.t:0 "Overlord"
+imperium_events.35.d:0 "Our great [Root.Monarch.GetTitle] policies have bear the fruits of patience. Corrupt senators and administrators have been swiftly dealt with. Imperial tithes have been reestablished and enforced across the wide expanse of the [Root.GetName], as previously unruly subjects and sectors are now bending the knee to the [Root.Capital.GetCapitalName]. \n \nIt's baffling to believe such a scenario if we hand't lived the process of it ourselves, for the situation Guilliman inherited was far from a desirable one, but in the end, the rotten and bloated carcass of an empire is no more! What once crawled as a corpse now marches as a juggernaut."
+imperium_events.35.a:0 "§YPatience is a product of age.§"
+
+overlord:0 "Overlord"
+overlod_desc:0 "In defiance of destiny."
+
+imperium_events.36.t:0 "No Step Back"
+imperium_events.36.d:0 "The horrors of the galaxy can push any man to its breaking point. Gazing upon a Carnifex, a Daemon Engine or a legion of inmortal, walking metal changes a man down to its core. Veterans are few and far between, as a Guardsman seldom lasts mere seconds in the thick of the frontlines. \n \nThe present conflict mirrors the situation of manking around the galaxy; faltering, but standing tall against the abject terror conjured by the darkest recesses of the void. There can be no retreat, not when our backs are against the wall, not when history itself calls to us to resist the tide of oblivion."
+imperium_events.36.a:0 "Issue Order 227. No Step Back."
+imperium_events.36.b:0 "There must be another way..."
+
+no_step_back:0 "No Step Back"
+no_step_back_desc:0 "By order of the [Root.Monarch.GetTitle] not an inch of ground will be forfeited!"

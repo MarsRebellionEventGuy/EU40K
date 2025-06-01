@@ -921,3 +921,214 @@ country_event = { # Dominus
 	}
 }
 
+country_event = { # Ruination
+	id = imperium_events.32
+	title = imperium_events.32.t
+	desc = imperium_events.32.d
+	picture = SIEGE_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = XXA
+		is_at_war = yes
+		AND = {
+			1 = {devastation = 50}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = imperium_events.32.a
+		add_stability = -1
+		add_yearly_manpower = 0.25
+		add_mandate = -20
+	}
+}
+country_event = { # Breaking Point
+	id = imperium_events.33
+	title = imperium_events.33.t
+	desc = imperium_events.33.d
+	picture = COUNTRY_COLLAPSE_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = XXA
+		is_at_war = yes
+		AND = {
+			1 = {devastation = 100}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = imperium_events.33.a
+		add_stability = -2
+		add_mandate = -50
+	}
+}
+country_event = { # Havoc
+	id = imperium_events.34
+	title = imperium_events.34.t
+	desc = imperium_events.34.d
+	picture = REVOLT_HUNGARIAN_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = XXA
+		NOT = {imperial_mandate = 1}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = imperium_events.34.a
+		add_stability = -3
+		add_country_modifier = {
+			name = havoc
+			duration = 6666
+		}
+	}
+}
+country_event = { # Overlord
+	id = imperium_events.35
+	title = imperium_events.35.t
+	desc = imperium_events.35.d
+	picture = east_slavic_WESTERNISATION_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = XXA
+		imperial_mandate = 100
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = imperium_events.35.a
+		add_stability = 2
+		add_adm_power = 75
+		add_dip_power = 75
+		add_mil_power = 75
+		add_country_modifier = {
+			name = overlord
+			duration = -1
+		}
+	}
+}
+country_event = { # No Step Back
+	id = imperium_events.36
+	title = imperium_events.36.t
+	desc = imperium_events.36.d
+	picture = SOLDIERS_FREEZING_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = XXA
+
+		AND = {
+
+		OR = {
+	war_score_against = {
+		who = XYB
+		value = -33
+	}
+	war_score_against = {
+		who = XEV
+		value = -33
+	}
+	war_score_against = {
+		who = AAC
+		value = -33
+	}
+	war_score_against = {
+		who = XAA
+		value = -33
+	}
+	war_score_against = {
+		who = XKO
+		value = -33
+	}
+	war_score_against = {
+		who = XET
+		value = -33
+	}
+	war_score_against = {
+		who = XJA
+		value = -33
+	}
+	war_score_against = {
+		who = XKI
+		value = -33
+	}
+	war_score_against = {
+		who = XKZ
+		value = -33
+	}
+	war_score_against = {
+		who = XKQ
+		value = -33
+	}
+	war_score_against = {
+		who = XMT
+		value = -33
+	}
+	war_score_against = {
+		who = XYG
+		value = -33
+	}
+	war_score_against = {
+		who = XKJ
+		value = -33
+	}
+	war_score_against = {
+		who = XKR
+		value = -33
+	}
+	war_score_against = {
+		who = XTK
+		value = -33
+	}
+	war_score_against = {
+		who = XIG
+		value = -33
+			}
+		}
+	}
+}
+
+	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = imperium_events.36.a
+		highlight = yes
+		add_country_modifier = {
+			name = no_step_back
+			duration = -1
+		}
+	}
+
+	option = {
+		name = imperium_events.36.b
+		add_stability = -1
+		
+	}
+}

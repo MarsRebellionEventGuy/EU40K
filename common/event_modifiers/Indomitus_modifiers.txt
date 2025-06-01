@@ -386,3 +386,22 @@ beacon_of_hope = {
 	imperial_mandate = 0.05
 	trade_goods_size = 0.1
 }
+
+no_step_back = {
+	land_morale = -0.05
+	discipline = 0.075
+	infantry_power = 0.15
+	artillery_power = -0.05
+}
+
+havoc = {
+	liberty_desire = 20
+	diplomatic_reputation = -1
+	meritocracy = -2
+}
+
+overlord = {
+	liberty_desire = -7.5
+	meritocracy = 0.5
+	imperial_mandate = 0.1
+}
