@@ -405,3 +405,27 @@ overlord = {
 	meritocracy = 0.5
 	imperial_mandate = 0.1
 }
+
+voyagers = {
+		range = 0.4
+		leader_naval_manuever = 1
+		colonist_placement_chance = 0.1
+}
+
+pioneers = {
+		colonist_placement_chance = 0.05
+		global_colonial_growth = 30
+		envoy_travel_time = -0.25
+}
+
+claimants_of_the_void = {
+		ship_durability = 0.1
+		heavy_ship_power = 0.1
+		global_ship_repair = 0.15
+}
+
+the_age_of_man = {
+		colonist = 1
+		envoy_travel_time = -0.33
+		yearly_prestige = 0.5
+}

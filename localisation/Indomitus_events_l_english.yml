@@ -541,3 +541,35 @@ imperium_events.36.b:0 "There must be another way..."
 
 no_step_back:0 "No Step Back"
 no_step_back_desc:0 "By order of the [Root.Monarch.GetTitle] not an inch of ground will be forfeited!"
+
+imperium_events.37.t:0 "Rise"
+imperium_events.37.d:0 "Against all odds we have managed to reassert our influence and power projection amongs the nations of the galactic concourse! We now stand tall once again, man's comeback reverberates throught the stars, for this fight has only just begun"
+imperium_events.37.a:0 "I'm still standing."
+
+imperium_events.38.t:0 "Voyagers"
+imperium_events.38.d:0 "The history of mankind is one of constant exploration and discovery. In Old Earth, the great frontiers were the oceans, the extremes of the poles, the wastelands that lay beyond the fringes of civilization or the sky itself. \n \nNow, our galaxy calls to us to act and dare to scour it, chart it and settle it, just like our forefathers did all those years ago as they prepared for their journey and waved goodbye, as they slipped the surly bonds of Earth to touch the face of God."
+imperium_events.38.a:0 "§YPer Ardua Ad Astra.§"
+
+voyagers:0 "Voyagers"
+voyagers_desc:0 "§YThis is our calling."
+
+imperium_events.39.t:0 "Pioneers"
+imperium_events.39.d:0 "We've grown used to wonders in this millenium, it's hard to dazzle us. We've grow used to the idea of space and perhaps we forget that we've only begun to scratch the surface of the cosmic playground. We're still pioneers. Somethimes painful things happen. \n \nIt's all part of the process of exploration and discovery. It's all part of taking a chance and expanding man's horizons. The future doesn't belong to the fainthearted, it belongs to the brave who dared to leave the confort of their home port."
+imperium_events.39.a:0 "Nothing ends here."
+
+pioneers:0 "Pioneers"
+pioneers_desc:0 "The future doesn't belong to the fainthearted."
+
+imperium_events.40.t:0 "Smooth Crusades don't Make Good Marines"
+imperium_events.40.d:0 "We chose to endure the hardships the void throws at us, every single day not because it is easy, but because it is hard. What other choise do we have? We bear this cross alone, the task of ensuring the four million years of human history live on depends sorely upon the success of our task. \n \nTo that end we must reassert our authority across the stars. In our slumber, whole sectors were predated by our rivals; It is time we cast off the shame of ignominious retreat and restore our reach to the stars, rekindling colonies across the galaxy. For though a ship may rest safely in harbour, it was not forged to idle, it was built to brave the storms and claim the void."
+imperium_events.40.a:0 "§YIn Ardua Veritatem.§"
+
+claimants_of_the_void:0 "Claimants of the Void"
+claimants_of_the_void_desc:0 "We will claim the void once again or die trying."
+
+imperium_events.41.t:0 "A New Age"
+imperium_events.41.d:0 "What's out there? What untold secrets lay beyond this horizon of ours? What lay beyond this final frontier?. These are questions that man everywhere has been asking for the better part of 50 thousand years. Across all the diferences between us, the indomitable spirit of exploration cannot be suppresed for long. \n \nA man needs to inquire into the unknown until it ceases to be so. We were made to wonder, to travel yonder and to voyage towards a new age."
+imperium_events.41.a:0 "§YThe Age of Man.§"
+
+the_age_of_man:0 "A New Age"
+the_age_of_man_desc:0 "The Age of Man."

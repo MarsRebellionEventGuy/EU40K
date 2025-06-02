@@ -1132,3 +1132,145 @@ country_event = { # No Step Back
 		
 	}
 }
+
+country_event = { # Rise
+	id = imperium_events.37
+	title = imperium_events.37.t
+	desc = imperium_events.37.d
+	picture = altaic_MILITARY_CAMP_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = XXA
+		power_projection = 75
+		num_of_total_ports = 50
+		prestige = 90
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = imperium_events.37.a
+		add_stability_or_adm_power = yes
+		add_mandate = 10
+		add_mil_power = 75
+	}
+}
+
+country_event = { # Voyagers
+	id = imperium_events.38
+	title = imperium_events.38.t
+	desc = imperium_events.38.d
+	picture = muslimgfx_SHIP_SAILING_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = XXA
+		has_age_ability = ab_ottoman_siege_ability
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = imperium_events.38.a
+		add_country_modifier = {
+			name = voyagers
+			duration = 10000
+		}
+		
+	}
+}
+
+country_event = { # Pioneers
+	id = imperium_events.39
+	title = imperium_events.39.t
+	desc = imperium_events.39.d
+	picture = SHIP_SAILING_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = XXA
+		num_of_colonists = 4
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = imperium_events.39.a
+		add_country_modifier = {
+			name = pioneers
+			duration = -1
+		}
+	}
+}
+
+country_event = { # Smooth Crusades don't Make Good Marines
+	id = imperium_events.40
+	title = imperium_events.40.t
+	desc = imperium_events.40.d
+	picture = BYZ_SHIP_SAILING_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = XXA
+		is_year = 2049
+		num_of_colonists = 1
+		grown_by_development = 300
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = imperium_events.40.a
+		add_country_modifier = {
+			name = claimants_of_the_void
+			duration = 14920
+		}
+	}
+}
+
+country_event = { # A New Age
+	id = imperium_events.41
+	title = imperium_events.41.t
+	desc = imperium_events.41.d
+	picture = BARBARY_PIRATES_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = XXA
+		num_of_explorers = 2
+		num_of_heavy_ship = 7
+		num_of_subjects = 40
+		naval_forcelimit = 75
+		naval_maintenance = 1
+		navy_tradition = 33
+		total_development = 700
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = imperium_events.41.a
+		add_stability_or_adm_power = yes
+		add_mandate = 15
+		add_country_modifier = {
+			name = the_age_of_man
+			duration = -1
+		}
+	}
+}
