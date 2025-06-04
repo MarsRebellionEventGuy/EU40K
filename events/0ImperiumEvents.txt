@@ -1274,3 +1274,238 @@ country_event = { # A New Age
 		}
 	}
 }
+country_event = { # Mayflower
+	id = imperium_events.42
+	title = imperium_events.42.t
+	desc = imperium_events.42.d
+	picture = DHOW_AT_SEA_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = XXA
+		at_war_with_religious_enemy = yes
+		grown_by_states = 7
+		great_power_rank = 1
+		naval_forcelimit = 100
+		naval_maintenance = 1
+		navy_tradition = 33
+		num_of_colonists = 2
+		has_naval_doctrine = navis_imperialis
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = imperium_events.42.a
+		random_owned_province = {
+    	limit = { has_port = yes }
+   		ROOT = {
+				7 = {
+					create_flagship = {
+						name = "Mayflower"
+						type = heavy_ship
+					}
+				}
+			}
+		}
+	
+	}
+}
+
+country_event = { # The New Colossus
+	id = imperium_events.43
+	title = imperium_events.43.t
+	desc = imperium_events.43.d
+	picture = ANGLICAN_SERMON_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = XXA
+		is_year = 2033
+		is_at_war = yes
+		has_or_building_flagship = yes
+		grown_by_development = 400
+		total_development = XGK
+		total_development = XAD
+		
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = imperium_events.43.a
+		add_years_of_income = -0.66
+		add_country_modifier = {
+			name = the_new_colossus
+			duration = -1
+		}
+
+	}
+}
+
+country_event = { # Aquila
+	id = imperium_events.44
+	title = imperium_events.44.t
+	desc = imperium_events.44.d
+	picture = HRE_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = XXA
+		total_own_and_non_tributary_subject_development = 1700
+		is_at_war = yes
+		
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = imperium_events.44.a
+		add_stability_or_adm_power = yes
+		add_mandate = 25
+		add_country_modifier = {
+			name = aquila
+			duration = -1
+		}
+	}
+}
+
+country_event = { # The Few
+	id = imperium_events.45
+	title = imperium_events.45.t
+	desc = imperium_events.45.d
+	picture = TRIBUTARY_FLEET_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = XXA
+		full_idea_group = naval_ideas
+		has_naval_doctrine = navis_imperialis
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = imperium_events.45.a
+		highlight = yes
+		add_years_of_income = -0.75
+		add_country_modifier = {
+			name = xxa_the_few
+			duration = -1
+		}
+	}
+
+	option = {
+		name = imperium_events.45.b
+		add_stability = -1
+	}
+}
+
+country_event = { # The Many
+	id = imperium_events.46
+	title = imperium_events.46.t
+	desc = imperium_events.46.d
+	picture = DISCIPLINED_SOLDIERS_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = XXA
+		full_idea_group = quantity_ideas
+		AND ={
+			OR = {
+	is_in_war = {
+		participants = XKZ
+	}
+	is_in_war = {
+		participants = XKQ
+	}
+	is_in_war = {
+		participants = XMT
+	}
+	is_in_war = {
+		participants = XYG
+	}
+	is_in_war = {
+		participants = XKJ
+	}
+	is_in_war = {
+		participants = XKR
+	}
+	is_in_war = {
+		participants = XTK
+	}
+	is_in_war = {
+		participants = XIG
+				}
+			}
+
+		}
+	}
+
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = imperium_events.46.a
+		add_country_modifier = {
+			name = xxa_the_many
+			duration = -1
+		}
+	}
+
+	option = {
+		name = imperium_events.46.b
+		add_stability = -1
+	}
+}
+
+country_event = { # Last Charge
+	id = imperium_events.47
+	title = imperium_events.47.t
+	desc = imperium_events.47.d
+	picture = HUSSARS_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = XXA
+		at_war_with_religious_enemy = yes
+		is_in_war = {
+    	duration = 1826
+		attacker_leader = ROOT
+		war_score = 10
+		}
+		num_of_generals = 1
+		army_tradition = 75
+		
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = imperium_events.47.a
+		kill_leader = {
+    	type = general
+		}
+		add_stability = -1
+		add_army_professionalism = 0.03
+		
+	}
+}

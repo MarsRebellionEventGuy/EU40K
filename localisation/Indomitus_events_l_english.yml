@@ -573,3 +573,43 @@ imperium_events.41.a:0 "§YThe Age of Man.§"
 
 the_age_of_man:0 "A New Age"
 the_age_of_man_desc:0 "The Age of Man."
+
+imperium_events.42.t:0 "Mayflower"
+imperium_events.42.d:0 "War and colonization often do not go hand in hand. Unfortunately, the [Root.GetName] of the 42 millenium knows no peace. Colonial outposts are established under the watchful escort of capital ships. Time and again, the colonial convoys carry more protection than the Rogue Traders armadas themselves, that is the level of commitment we have towards reasserting our galactic sphere of influence. \n \nOne of such escort vessels is the Mayflower, an Apocalypse class Battleship which has been recently reffited as one of the Navis Imperialis flagships, tasked with spearheading the resettlement of entire sectors."
+imperium_events.42.a:0 "There and back again."
+
+imperium_events.43.t:0 "The New Colossus"
+imperium_events.43.d:0 "As a new day beckons, the magnitude of the task at hand sets in anew. We must weave the diplomatic concourse of our subjects, enforcing tithes whilst continuosly expanding the borders of humanity against those who would see us fall into ruin. An integral part of said process is the ressetlement of fallen worlds back into the fatherland. \n \nWhilst we have been successful thus far, we cannot rest in our laurels, not even for a second. Every single action must be carefully orchestrated, every contingency planned, and every unforeseen consequence swifly dealt with. \n \nThere can be no room for error, for the future depends on it, the future of us all." 
+imperium_events.43.a:0 "There will be generations because of you."
+
+the_new_colossus:0 "The New Colossus"
+the_new_colossus_desc:0 "Give me your poor, your tired, your huddled masses yearning to breathe free."
+
+imperium_events.44.t:0 "Aquila"
+imperium_events.44.d:0 "We are surrounded. From all corners of the galaxy our enemies work in contubernium to bring about the downfall of the Aquila whetever it may live on. However, we have steemed the galactic onslaught, for they foolishly failed to realize we are not trapped in this galaxy with them, they are trapped in here with us!"
+imperium_events.44.a:0 "§YIn Hoc Signo Vinces.§"
+
+aquila:0 "The Aquila"
+aquila_desc:0 "§YIn Hoc Signo Vinces."
+
+imperium_events.45.t:0 "The Few"
+imperium_events.45.d:0 "We can't underestimate the magnitude of importance of the Navis Imperialis. A Space Marine can't impact the order of battle if he can't even get to orbit. Galactic supply lines need constant supervision and protection. Settlement efforts require escorts and scouts. Diplomatic envoys need safe passage. \n \nDisproportionaly, the Astra Militarum often carries all the glory of our victories, but it is truly the few serving in the armada that make or break the Imperium of Man"
+imperium_events.45.a:0 "Never was so much owed by so many to so few."
+imperium_events.45.b:0 "An exaggeration."
+
+xxa_the_few:0 "The Few"
+xxa_the_few_desc:0 "Never was so much owed by so many to so few."
+
+imperium_events.46.t:0 "The Many"
+imperium_events.46.d:0 " 'Within that weak sack of meat and bone, uncared for by his god and wept for by none, beats a heart, a human heart that carries with it the strength and courage of all mankind. Within that sack of meat lies the hope, the will, and the fury of every man, woman, and child from every corner of the Imperium. Within that weak sack of meat, festooned in thin armor and weapons only powerful in numbers, beats the heart of a man. \n \nAnd for 10,000 years, the hearts of men have beaten strongly in utter defiance.For 10,000 years, the hearts of men have stood united against a galaxy that despises them for no reason, save that they have the audacity not to lay down and die. For 10,000 years, your black crusades have been pushed back, beaten down, and made a mockery of by weak sacks of flesh with cheap weapons and disposable equipment.Within that weak sack of flesh that you so gleefully mock is no super soldier, no immortal warrior, no creature cast by Chaos like you. \n \nHe is a man, an Imperial Guardsman drawn from some forgotten corner of the Imperium to fight for his species and for the safety of the people he loves. He's a factory worker, a farmer, a storekeeper, a father, a brother, a son, a mere man. And against creatures like you, teeming and numberless, powered by the very will of a thirsting god, he holds the line. And he has held the line for 10,000 years. So, what's your excuse, monster?' \n \n-From a faceless, nameless Guardsman at the frontlines. The Emperor protects."
+imperium_events.46.a:0 "§YRage against the dying of the light!§"
+imperium_events.46.b:0 "Censor it!"
+
+xxa_the_many:0 "The Many"
+xxa_the_many_desc:0 "Millions of man are keeping the hordes of darkness manifest at bay. Let's ensure their sacrifice is not in vain."
+
+imperium_events.47.t:0 "Last Charge"
+imperium_events.47.d:0 "These were the last words received over vox by a great general at the front.\n \n'Everything that you thought had meaning; every hope, dream, or moment of happiness. None of it matters as you lie bleeding out on the battlefield. None of it changes what a bullet does to a body, we all die. But does that mean our lives are meaningless? Does that mean that there was no point in our being born? Would you say that of our slain comrades? What about their lives? Were they meaningless? \n \nThey were not! Their memory serves as an example to us all! The courageous fallen! The anguished fallen! Their lives have meaning because we the living refuse to forget them! And as we ride to certain death, we trust our successors to do the same for us! Because my soldiers do not buckle or yield when faced with the cruelty of this world! My soldiers push forward! My soldiers scream out! My soldiers RAGE!'"
+imperium_events.47.a:0 "§TOnly the dead have seen the end of war..."
+
+
