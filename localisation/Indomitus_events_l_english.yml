@@ -270,12 +270,12 @@ colonial.16.b:0 "Distribute weapons amongs the settlers!"
 colonial.16.c:0 "Shit."
 
 colonial.17.t:0 "Colonial Expansion"
-colonial.17.d:0 "Settlements in the fringe and dynamic borders of the empire often tend to have a life of their own. The most recent example is the reshuffling of settlers from $PROVINCENAME$ to [migration_province_target.GetName] instead. There is little we can do to stop them now as [Root.Owner.GetAdjective] villages and towns have already begun appearing all over the [migration_province_target.GetAdjective] hinterlands."
+colonial.17.d:0 "Settlements in the fringe and dynamic borders of the empire often tend to have a life of their own. The most recent example is the reshuffling of settlers in one of our colonial enterprises. There is little we can do to stop them now as [Root.Owner.GetAdjective] villages and towns have already begun appearing all over the plains."
 colonial.17.a:0 "Naturally."
 colonial.17.b:0 "Direct them to an existing settlement."
 
 colonial.18.t:0 "Colonial Migration"
-colonial.18.d:0 "Settlements in the fringe and dynamic borders of the empire often tend to have a life of their own. The most recent example is the reshuffling of settlers from $PROVINCENAME$ to [migration_province_target.GetName] instead. There is little we can do to stop them now as [Root.Owner.GetAdjective] villages and towns have already begun appearing all over the [migration_province_target.GetAdjective] hinterlands."
+colonial.18.d:0 "Settlements in the fringe and dynamic borders of the empire often tend to have a life of their own. The most recent example is the reshuffling of settlers in one of the colonial sectors. There is little we can do to stop them now as [Root.Owner.GetAdjective] villages and towns have already begun appearing all over the hinterlands."
 colonial.18.a:0 "The grass is greener..."
 
 colonial.19.t:0 "Archaotech Discovered!"
@@ -286,12 +286,12 @@ colonial.20.t:0 "Growth of the port of $PROVINCENAME$"
 colonial.20.d:0 "The growth of our colony in $PROVINCENAME$ has always been closely associated with the Natural Harbor in the area and over time the province has come to act as something of a local trade hub.\nAs the settlement has grown so has the importance of its harbour acting as the habitual entrepôt for the entire region, handling both local and foreign commerce."
 colonial.20.a:0 "A natural development of our wise administration."
 
-colonial.21.t:0 "Departamento Colonia Intervenes in $PROVINCENAME$"
-colonial.21.d:0 "The growth of our colony in $PROVINCENAME$ has always been marked by its hostile environs. Potential incursions by the nearby xenos hampered the colony's development from its outset. However, the Departamento Colonia has taken the responsability to build up the defenses and military dispositions at $PROVINCENAME$. Administrators at [Root.GetCapitalName] are delighted to hear that as a consecuence, the colony is now self-sufficent!"
+colonial.21.t:0 "Departmento Colonia Intervenes in $PROVINCENAME$"
+colonial.21.d:0 "The growth of our colony in $PROVINCENAME$ has always been marked by its hostile environs. Potential incursions by the nearby xenos hampered the colony's development from its outset. However, the Departmento Colonia has taken the responsability to build up the defenses and military dispositions at $PROVINCENAME$. Administrators at [Root.GetCapitalName] are delighted to hear that as a consecuence, the colony is now self-sufficent!"
 colonial.21.a:0 "Another beacon of hope."
 
 colonial.22.t:0 "$PROVINCENAME$'s Saviors!"
-colonial.22.d:0 "The growth of our colony in $PROVINCENAME$ has been rather slow-paced and filled with mounting problems from its outset. A lack of resources and overall slugishness of the efforts made by the settlers have greatly hampered the speedy development of even basic infraestructure. \n \nFortunatelly, the Departamento Colonia has taken the responsability to organise and bring order to the backwards and disorganized settlement of $PROVINCENAME$. The administration is now privy to the new realities on the ground, the colony quickly recouped lost time and is now the most recent addition to the growing [ROOT.GetName] demesne."
+colonial.22.d:0 "The growth of our colony in $PROVINCENAME$ has been rather slow-paced and filled with mounting problems from its outset. A lack of resources and overall slugishness of the efforts made by the settlers have greatly hampered the speedy development of even basic infraestructure. \n \nFortunatelly, the Departmento Colonia has taken the responsability to organise and bring order to the backwards and disorganized settlement of $PROVINCENAME$. The administration is now privy to the new realities on the ground, the colony quickly recouped lost time and is now the most recent addition to the growing [ROOT.GetName] demesne."
 colonial.22.a:0 "Another jewel in the crown."
 
 aowar_events.1.t:0 "The Plight of [Root.GetName]"
@@ -403,7 +403,6 @@ imperium_events.10.a:0 "§YRemember your why, Guardsman§."
 
 sacred_land:0 "Sacred Land"
 sacred_land_desc:0 "This is the sacred soil of humanity, by my will, it will not be tainted by the abominations of the galactic teather!"
-
 
 imperium_events.11.t:0 "Legacy"
 imperium_events.11.d:0 "No man is an island, for countless generations he has risen from slumber and into the battlefield, whether there was a war or not, the battles of a man are never ending. Such truth couldn't be more present in our current age. \n \nBesieged on all sides, we look for wisdom in the Library Sanctus and look at the concourse of days gone bye who, despite their great exploits, the fact that most were achieved against a fellow man, sullies their legacy. Notwithstanding that fact, their military lessons will do wonders in establishing a lasting legacy, the tale of mankind's dominion of the starts. "
@@ -612,4 +611,29 @@ imperium_events.47.t:0 "Last Charge"
 imperium_events.47.d:0 "These were the last words received over vox by a great general at the front.\n \n'Everything that you thought had meaning; every hope, dream, or moment of happiness. None of it matters as you lie bleeding out on the battlefield. None of it changes what a bullet does to a body, we all die. But does that mean our lives are meaningless? Does that mean that there was no point in our being born? Would you say that of our slain comrades? What about their lives? Were they meaningless? \n \nThey were not! Their memory serves as an example to us all! The courageous fallen! The anguished fallen! Their lives have meaning because we the living refuse to forget them! And as we ride to certain death, we trust our successors to do the same for us! Because my soldiers do not buckle or yield when faced with the cruelty of this world! My soldiers push forward! My soldiers scream out! My soldiers RAGE!'"
 imperium_events.47.a:0 "§TOnly the dead have seen the end of war..."
 
+imperium_events.48.t:0 "Croatoan"
+imperium_events.48.d:0 "Strange occurences are the norm on the fringes of civilization. One such recent case has left baffled imperial bureaucrats and the Departmento Colonia alike. The most recent settlement at $PROVINCENAME$ seems to have vanished into thin air. \n \nThe supply dropship found no trace of the settlers which last year prospered in the colonial outskirt, instead, the soldiers found the settlement completely abandoned.  Alas, we may never know what happened to the $PROVINCENAME$ settlers, for the only indication of them were the words carved on a nearby tree; '§TCROATOAN§T'."
+imperium_events.48.a:0 "What the..."
 
+imperium_events.49.t:0 "§PSIGNAL LOST§"
+imperium_events.49.d:0 "Communication with the Imperium Nihilus is nigh impossible. The few vessels that return from the Nachmund Gauntlet testify of horrible, nightmarish conditions on the isolated region, often these soldiers come back changed from the experience, sometimes broken beyond repair. \n \nWorryingly, the abnormal reports coming from Baal have suddenly came to an abrupt end. We can only hope they can withstand on their own against whatever darkness engulfed them... "
+imperium_events.49.a:0 "Oh no..."
+
+imperium_events.50.t:0 "Oblivion"
+imperium_events.50.d:0 "Repeated losses against the cosmic threats have done wonders to smear the our legitimacy in the eyes of our subjects. Entire sectors have been predated and lost to the enemy without an apt response from the [Root.Monarch.GetTitle]. Imperial worlds falter as the tithes continue to decrease in both volume and frecuency due to the lines of communication finding themselves at a breaking point. \n \nSpace Marine chapters find themselves unable to aid the Imperium as their home worlds increasingly find themselves under attack. As the borders of mankind continue to recede, we must ponder... Is this how history will portray us? As wasting the chance we had to save our species?"
+imperium_events.50.a:0 "§OLets hope not...§"
+
+oblivion:0 "Oblivion"
+oblivion_desc:0 "The light of mankind is dimming..."
+
+imperium_events.51.t:0 "Aquila Restituta"
+imperium_events.51.d:0 "We were standing on the precipice of absolute oblivion a few years ago. Our armies retreated en masse, as the Navis Imperialis was complete unable to deal with the evacuation request that numbered in the millions. All seemed lost. \n \nTimes of crisis compel man to act. Thankfully, one such man is [Root.Monarch.GetName]. With sweeping and surgical attacks on the enemy's holds he has managed to restitute the Aquila back on the galactic concourse of the great powers of the galaxy!"
+imperium_events.51.a:0 "§YKeep the Aquila flying!§"
+
+imperium_events.52.t:0 "Infamy"
+imperium_events.52.d:0 "Yesterday, [GetDate] a date which will live in infamy, the [Root.GetName] has suffered a tremendous loss. Roboute Guilliman is dead. [Root.GetAdjective] everywhere weep at the calamitous news. As the mourning recedes, dread takes its place, as our enemies prepare to capitalize on our disjointed forces across the cosmos. \n \nAs [Root.Monarch.GetTitle] [Root.Monarch.GetName] prepares to take the heavy burden left by his predecessor, he can't help but feel that he will never live up to Guilliman's stature. Our subjects feel the same..."
+imperium_events.52.a:0 "No..."
+
+imperium_events.53.t:0 "Mountaintop"
+imperium_events.53.d:0 "A great report from the battle in $PROVINCENAME$ has arrived, my [Root.Monarch.GetTitle]! Our most zealous general has led the soldiers to the top of the steep, harsh mountains of $PROVINCENAME$ under the cover of the night, with a body of picked men, he climbed the colossal peaks that dominate the area with utmost secrecy. \n \nThis was performed with such speed that the [From.GetAdjective] enemies were caught completely off-guard and will surely perish under the superior tactics displayed."
+imperium_events.53.a:0 "§JThe best view comes after the hardest climb.§"

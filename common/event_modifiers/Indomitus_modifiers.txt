@@ -453,3 +453,12 @@ xxa_the_many = {
 		land_morale = 0.1
 		manpower_recovery_speed = 0.25
 }
+
+oblivion = {
+		imperial_mandate = -0.15
+		land_morale = -0.1
+		discipline = -0.05
+		tolerance_own = -1
+		naval_morale = -0.1
+		liberty_desire = 25
+}

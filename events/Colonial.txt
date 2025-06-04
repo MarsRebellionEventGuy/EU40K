@@ -481,6 +481,7 @@ province_event = {
 	
 	mean_time_to_happen = {
 		days = 1
+	}
 	
 	option = {
 		name = colonial.13.a
@@ -560,7 +561,7 @@ province_event = {
 			duration = 2000
 		}
 	}
-	}
+}
 
 
 # Our colony has been struck by Plague Zombies!
@@ -848,7 +849,7 @@ province_event = {
 	}
 }
 
-province_event = { #Departamento Colonia 1
+province_event = { #Departmento Colonia 1
 	id = colonial.21
 	title = colonial.21.t
 	desc = colonial.21.d
@@ -879,7 +880,7 @@ province_event = { #Departamento Colonia 1
 	}
 }
 
-province_event = { #Departamento Colonia 2
+province_event = { #Departmento Colonia 2
 	id = colonial.22
 	title = colonial.22.t
 	desc = colonial.22.d
@@ -907,5 +908,4 @@ province_event = { #Departamento Colonia 2
 		name = colonial.22.a
 		add_colonysize = 400
 	}
-}
 }

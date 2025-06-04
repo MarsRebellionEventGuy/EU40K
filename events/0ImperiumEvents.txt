@@ -1462,6 +1462,7 @@ country_event = { # The Many
 
 	option = {
 		name = imperium_events.46.a
+		add_years_of_income = -0.75
 		add_country_modifier = {
 			name = xxa_the_many
 			duration = -1
@@ -1506,6 +1507,184 @@ country_event = { # Last Charge
 		}
 		add_stability = -1
 		add_army_professionalism = 0.03
+		
+	}
+}
+
+province_event = { # Croatoan
+	id = imperium_events.48
+	title = imperium_events.48.t
+	desc = imperium_events.48.d
+	picture = EP_MANIHOLE_HELMET_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		owner = {
+		tag = XXA
+		colonysize = 200
+		native_ferocity = 5
+		native_hostileness = 5
+		}
+		
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = imperium_events.48.a
+		add_colonysize = -1000
+		
+	}
+}
+
+province_event = { # SIGNAL LOST
+	id = imperium_events.49
+	title = imperium_events.49.t
+	desc = imperium_events.49.d
+	picture = COMET_SIGHTED_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		3252 = {
+		NOT = {owner = {tag = XDJ}}
+		}
+		
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = imperium_events.49.a
+		add_mandate = -5
+		
+	}
+}
+
+country_event = { # Oblivion
+	id = imperium_events.50
+	title = imperium_events.50.t
+	desc = imperium_events.50.d
+	picture = muslimgfx_COUNTRY_COLLAPSE_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = XXA
+		is_great_power = no
+		
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = imperium_events.50.a
+		add_mandate = -100
+		add_country_modifier = {
+			name = oblivion
+			duration = -1
+		}
+		
+	}
+}
+
+country_event = { # Aquila Restituta
+	id = imperium_events.51
+	title = imperium_events.51.t
+	desc = imperium_events.51.d
+	picture = CATHOLIC_RULERS_PRAYING_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = XXA
+		is_great_power = yes
+		has_country_modifier = oblivion
+		
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = imperium_events.51.a
+		add_mandate = 30
+		add_stability_or_adm_power = yes
+		remove_country_modifier = oblivion
+		
+	}
+}
+
+country_event = { # Infamy
+	id = imperium_events.52
+	title = imperium_events.52.t
+	desc = imperium_events.52.d
+	picture = DEATH_OF_HEIR_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = XXA
+		NOT = {has_ruler = "Roboute"}
+		
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = imperium_events.52.a
+		add_stability = -2
+		add_meritocracy = -33
+		prestige = -50
+		add_mandate = -33
+		
+	}
+}
+
+province_event = { # Mountaintop
+	id = imperium_events.53
+	title = imperium_events.53.t
+	desc = imperium_events.53.d
+	picture = MAMLUK_WARRIORS_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		is_year = 2009
+		owner = {
+		tag = XXA
+		at_war_with_religious_enemy = yes
+		has_terrain = mountain
+		unit_in_battle = yes
+		unit_has_leader = yes
+		}
+		
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = imperium_events.53.a
+		add_mil_power = 50
+		add_power_projection = { 
+		amount = 10
+		}
+		random_rival_country = {
+    	limit = { war_with = ROOT }
+    	remove_fow = 6
+		}
 		
 	}
 }
