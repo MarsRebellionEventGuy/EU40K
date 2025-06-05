@@ -462,3 +462,8 @@ oblivion = {
 		naval_morale = -0.1
 		liberty_desire = 25
 }
+
+hospitals = {
+		imperial_mandate = 0.03
+		global_tax_modifier = 0.05
+}

@@ -5,7 +5,6 @@ monarchy = {
 				imperium_regency_reform
 				imperial_governorate_reform
 				imperial_knight_reform
-				farsight_enclaves_reform
 				necron_dynasty_reform
 				league_votann_reform
 				drukhari_cult_reform
@@ -134,6 +133,7 @@ republic = {
 	reform_levels = {
 		oligarchy_merchant_class_noble_elite = {
 			reforms = {
+				farsight_enclaves_reform
 			}
 		}
 		republican_virtues = {
@@ -643,74 +643,6 @@ pre_dharma_mapping = {
 	}
 }
 
-
-republic = {
-	basic_reform = republic_mechanic
-
-	color = { 65 155 220 }
-	legacy_government = {
-	}
-	reform_levels = {
-		oligarchy_merchant_class_noble_elite = {
-			reforms = {
-			}
-		}
-		republican_virtues = {
-			reforms = {
-			}
-		}
-		frequent_elections_vs_consolidation_of_power = {
-			reforms = {
-			}
-		}
-		military_doctrines = {
-			reforms = {
-			}
-		}
-		republic_and_religion = {
-			reforms = {
-			}
-		}
-		federalism_vs_unitarism_vs_confederacy = {
-			reforms = {
-			}
-		}
-		parliamentary_vs_presidential = {
-			reforms = {
-			}
-		}
-		federalism_vs_unitarism_vs_confederacy = {
-			reforms = {
-			}
-		}
-		economical_matters_republic = {
-			reforms = {
-			}
-		}
-		consolidation_of_power_category = {
-			reforms = {
-			}
-		}
-		guiding_principle_of_administration = {
-			reforms = {
-			}
-		}
-		electorate = {
-			reforms = {
-			}
-		}
-		office_selection = {
-			reforms = {
-			}
-		}
-		question_of_dictatorship = {
-			reforms = {
-			}
-		}
-	}
-	exclusive_reforms = {
-	}
-}
 
 tribal = {
 	color = { 220 165 95 }

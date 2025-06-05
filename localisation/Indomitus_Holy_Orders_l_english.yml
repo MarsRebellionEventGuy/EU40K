@@ -1,6 +1,7 @@
 ﻿l_english:
  astartes_order:0 "Sector Jurisdiction"
  astartes_order_full:0 "Sector Jurisdiction"
+ astartes_order_short:0 "Chapter"
  blood_angels_chapter:0 "Blood Angels"
  blood_angels_chapter_desc:0 "Graceful in demeanor and bloodthirsty in battle, the Blood Angels are gifted close-quarters specialists who serve as the Imperium's most renowned deep strike forces."
 
@@ -14,7 +15,7 @@
  salamanders_chapter_desc:0 "Most dedicated to the Astartes' duty to Humanity, the Salamanders are compassionate defenders and gifted craftsmen who serve as the Imperium's most renowned flame weaponry specialists."
 
  iron_hands_chapter:0 "Iron Hands"
- iron_hands_chapter_desc:0 "Rivaling their well-regarded Mechacius allies in extensive bionic augmentation, the Iron Hands are cold and calculating tacticians who serve as the Imperium’s most renowned armored assault forces."
+ iron_hands_chapter_desc:0 "Rivaling their well-regarded Mechacinus allies in extensive bionic augmentations, the Iron Hands are cold and calculating tacticians who serve as the Imperium's most renowned armored assault forces."
 
  imperial_fists_chapter:0 "Imperial Fists"
  imperial_fists_chapter_desc:0 "Most integral to the defense of Terra, the Imperial Fists are accomplished defensive experts who design the Imperium's most impregnable fortifications."

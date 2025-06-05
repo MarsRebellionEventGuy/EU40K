@@ -1,0 +1,43 @@
+song = {
+	name = "sol_invictus" #Legio Symphonica / https://www.youtube.com/channel/UC0v74VkAuYXMRNryAeNNimw
+	
+	chance = {
+		modifier = {
+			factor = 1
+			tag = XXA
+		}		
+	}
+}
+
+song = {
+	name = "iron_without" #Legio Symphonica / https://www.youtube.com/watch?v=9zHhsEXjqkM 
+
+	chance = {
+		modifier = {
+			factor = 1
+			tag = XXA
+		}		
+	}
+}
+
+song = {
+	name = "from_iron_cometh_strength" #Legio Symphonica / https://www.youtube.com/watch?v=1UGG6QuDwq8
+	
+	chance = {
+		modifier = {
+			factor = 1
+			tag = XIF
+		}		
+	}
+}
+
+song = {
+	name = "never_a_silent_night" #Warhammer 40K Official
+	
+	chance = {
+		modifier = {
+			factor = 1
+			tag = XXA
+		}		
+	}
+}

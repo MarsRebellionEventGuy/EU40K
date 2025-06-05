@@ -1,0 +1,19 @@
+music = {
+	name = "sol_invictus"
+	file = "sol_invictus.ogg"
+}
+
+music = {
+	name = "iron_without"
+	file = "iron_without.ogg"
+}
+
+music = {
+	name = "from_iron_cometh_strength"
+	file = "from_iron_cometh_strength.ogg"
+}
+
+music = {
+	name = "never_a_silent_night"
+	file = "never_a_silent_night.ogg"
+}

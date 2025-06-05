@@ -1645,13 +1645,13 @@ country_event = { # Infamy
 		name = imperium_events.52.a
 		add_stability = -2
 		add_meritocracy = -33
-		prestige = -50
+		add_prestige = -50
 		add_mandate = -33
 		
 	}
 }
 
-province_event = { # Mountaintop
+country_event = { # Mountaintop
 	id = imperium_events.53
 	title = imperium_events.53.t
 	desc = imperium_events.53.d
@@ -1661,13 +1661,11 @@ province_event = { # Mountaintop
 
 	trigger = {
 		is_year = 2009
-		owner = {
 		tag = XXA
 		at_war_with_religious_enemy = yes
 		has_terrain = mountain
 		unit_in_battle = yes
 		unit_has_leader = yes
-		}
 		
 	}
 
@@ -1678,13 +1676,214 @@ province_event = { # Mountaintop
 	option = {
 		name = imperium_events.53.a
 		add_mil_power = 50
-		add_power_projection = { 
-		amount = 10
-		}
+		add_army_professionalism = 0.03
 		random_rival_country = {
     	limit = { war_with = ROOT }
     	remove_fow = 6
 		}
+	}
+}
+
+country_event = { #The Weight of Tomorrow
+	id = imperium_events.54
+	title = imperium_events.54.t
+	desc = imperium_events.54.d
+	picture = BANKRUPTCY_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		NOT = {stability = -2}
+		tag = XXA
 		
+		
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = imperium_events.54.a
+		add_mandate = -5
+		add_prestige = -10
+	}
+}
+
+country_event = { # Hallowed Be Thy Name
+	id = imperium_events.55
+	title = imperium_events.55.t
+	desc = imperium_events.55.d
+	picture = RELIGIOUS_CONVERSION_eventPicture
+
+	trigger = {
+
+		tag = XXA
+		1 = {
+			has_siege = no
+			base_tax = 4
+		}
+		
+	}
+
+	mean_time_to_happen = {
+		months = 50
+	}
+
+	option = {
+		name = imperium_events.55.a
+		1 = {
+			add_base_tax = 1
+		}
+	}
+}
+
+country_event = { # Persecuta
+	id = imperium_events.56
+	title = imperium_events.56.t
+	desc = imperium_events.56.d
+	picture = VILLAGE_RAIDED_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = XXA
+		is_year = 2020
+		is_in_war = {
+   		defender_leader = ROOT
+		duration = 100
+		}
+		
+	}
+
+	mean_time_to_happen = {
+		months = 80
+	}
+
+	option = {
+		name = imperium_events.56.a
+		add_adm_power = 15
+		add_dip_power = 15
+		add_mil_power = 30
+		solar = {
+		add_random_development = 1
+		}
+	}
+}
+
+country_event = { # Haven
+	id = imperium_events.57
+	title = imperium_events.57.t
+	desc = imperium_events.57.d
+	picture = REVOLT_HUNGARIAN_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		is_year = 2005
+		tag = XXA
+		num_of_rebel_controlled_provinces = 3
+		
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = imperium_events.57.a
+		add_yearly_manpower = 0.1
+		vorlese = {
+			add_random_development = 6
+		}
+	}
+}
+
+country_event = { # Abnegation
+	id = imperium_events.58
+	title = imperium_events.58.t
+	desc = imperium_events.58.d
+	picture = southamericagfx_MERCHANTS_TALKING_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = XXA
+		crown_land_share = estate_eunuchs
+		NOT = {corruption = 40}
+		religion = imperial_cult
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = imperium_events.58.a
+		highlight = yes
+		add_years_of_income = -0.33
+		add_estate_loyalty = {
+			estate_eunuchs = -10
+		}
+		add_country_modifier = {
+			name = hospitals
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = imperium_events.58.b
+		add_prestige = -10
+	}
+}
+
+country_event = { # Old World Blues
+	id = imperium_events.59
+	title = imperium_events.59.t
+	desc = imperium_events.59.d
+	picture = BYZ_BAD_WITH_MONARCH_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		is_year = 2025
+		tag = XXA
+		at_war = no
+		
+	}
+
+	mean_time_to_happen = {
+		days = 99
+	}
+
+	option = {
+		name = imperium_events.59.a
+		solar = {
+			add_random_development = 10
+		}
+	}
+}
+
+country_event = { # Epilogue
+	id = imperium_events.60
+	title = imperium_events.60.t
+	desc = imperium_events.60.d
+	picture = ROYAL_STRESS_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = XXA
+		NOT = {total_development = 100}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = imperium_events.60.a
+		add_stability = -1
+		add_mandate = -10
 	}
 }

@@ -604,4 +604,15 @@ living_metal_battleships_desc:0 "Our armada's sheer superiority in combat agains
 tyran_province_modifier:0 "Tyran"
 tyran_province_modifier_desc:0 "Twelve score and sixteen years ago, on the far-flung Mechanicus research station at Tyran, humanity was faced with a novel interstellar enemy, one which multiplies and prospers on the primal instinct of consumption. It was here that the Tyranid menace was first encountered and the history of the galaxy changed forever."
 
+#Music Localization
+
+children_of_the_omnissiah:0 "Children of the Omnissiah"
+immortal_imperium:0 "Immortal Imperium"
+sol_invictus:0 "Sol Invictus"
+iron_without:0 "Iron Without"
+from_iron_cometh_strength:0 "From Iron Cometh Strength"
+never_a_silent_night:0 "Never a Silent Night"
+
+CHANNEL_music_040Kmusic:0 "40K Suite"
+
 

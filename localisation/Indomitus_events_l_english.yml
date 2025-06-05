@@ -637,3 +637,35 @@ imperium_events.52.a:0 "No..."
 imperium_events.53.t:0 "Mountaintop"
 imperium_events.53.d:0 "A great report from the battle in $PROVINCENAME$ has arrived, my [Root.Monarch.GetTitle]! Our most zealous general has led the soldiers to the top of the steep, harsh mountains of $PROVINCENAME$ under the cover of the night, with a body of picked men, he climbed the colossal peaks that dominate the area with utmost secrecy. \n \nThis was performed with such speed that the [From.GetAdjective] enemies were caught completely off-guard and will surely perish under the superior tactics displayed."
 imperium_events.53.a:0 "§JThe best view comes after the hardest climb.§"
+
+imperium_events.54.t:0 "The Weight of Tomorrow"
+imperium_events.54.d:0 "Recent developments have left the Imperium shaken to its very foundations. As the populace ponder about what their future will look like under our banner, we can help but contemplate; are we on the right track?"
+imperium_events.54.a:0 "§YTrust the process.§"
+
+imperium_events.55.t:0 "Hallowed Be Thy Name"
+imperium_events.55.d:0 "To set foot upon the sacred soil of Holy Terra is to walk upon hallowed ground, every pilgrim among the countless billions who make the perilous journey each year understands this fundamental truth down to their core. \n \nSo treacherous and arduous is the voyage to the throneworld that many, having braved its trials and tribulations, choose to settle here permanently."
+imperium_events.55.a:0 "§YIn Itinere Veritas.§"
+
+imperium_events.56.t:0 "Persecuta"
+imperium_events.56.d:0 "[Root.GetAdjective] Refugees fleeing from unwarranted aggression have recently made a home for themselves in $PROVINCENAME$. The key information they possess on the latest enemy movements will do wonders in eviscerating our rivals from this plain of existence."
+imperium_events.56.a:0 "On the double!"
+
+imperium_events.57.t:0 "§YHaven§"
+imperium_events.57.d:0 "A significant number of refugees have arrived following the recent rebellious outburts in the country. These wayward elements have pledged the utmost loyalty to the [Root.Monarch.GetTitle] and the [Root.GetName] so far as we promise to avenge their comrades."
+imperium_events.57.a:0 "Your wish is my command."
+
+imperium_events.58.t:0 "Abnegation"
+imperium_events.58.d:0 "The constant influx of pilgrims to [ROOT.GetCapitalName] has for centuries been neglected by the administration. Infrastructure for the faithful, voyaging masses is non-existent, as they spend the sliver of acumen they carry to survive in miserable conditions. \n \nThe [Root.Monarch.GetTitle] has pondered the situation extensively and has devised the repurposing of obsolete Administratum facilities on the road to [ROOT.GetCapitalName] at once. These 'hospitals' will provide apt shelter and substenance to the pilgrims who come from every corner of the galaxy to worship the God-Emperor."
+imperium_events.58.a:0 "§TMore than the miles.§"
+imperium_events.58.b:0 "Our wherewithal is not what it used to be..."
+
+hospitals:0 "Hospitals"
+hospitals_desc:0"Wayfarer, your footprints are the path and nothing more. \nWayfarer, there is no path; the path is made by your strides."
+
+imperium_events.59.t:0 "Old World Blues"
+imperium_events.59.d:0 "The weight of the future and the burden of the present scarcely leave time to reflect on the past, yet this brief interwar period has allowed [Root.Monarch.GetName] to lose himself in thought. \n \nContemplating from orbit the barren wasteland of [ROOT.GetCapitalName], one cannot help but wonder what old "Earth," as the records call it, would have looked like. The elder scrolls speak of a land once filled with natural treasures, gigantic oceans, and lush environs as far as the eye could see, all of which were sacrificed on the altar of progress long ago. \n\nWhat a marvelous sight it must have been to the lucky few who had the chance to experience such beauty in its prime."
+imperium_events.59.a:0 "§MThe blue marble.§"
+
+imperium_events.60.t:0 "Epilogue"
+imperium_events.60.d:0 "A disastrous series of unlucky events have rendered the current situation of [Root.GetName] untenable. Our subjects escape from our graps either willingly or consumed by the malestrom of rising darkness. \n \nAs the light of the Astronomican grows ever dimmer, as the citizens of [Root.GetCapitalName] process the rosary of defeats to our name, they can't help but wonder if this is the end of an era, our era."
+imperium_events.60.a:0 "§YPerhaps mortals are not meant to rule the galaxy...§"
