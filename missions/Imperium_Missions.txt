@@ -6,36 +6,28 @@ XXA_Branch_1 = {
 		tag = XXA
 	}
 	has_country_shield = yes
-	
+
 	XXA_Mission_1 = {
 		icon = mission_astra_militarum
-		required_missions = { XXA_Mission_28 }
 		position = 3
-		
+		required_missions = { XXA_Mission_28 }
 		provinces_to_highlight = {
-			region = fenris_region
+			area = armageddon
 			OR = {
-				NOT = {
-					OR = {
-						country_or_non_sovereign_subject_holds = ROOT
-						owned_by = XZS
-					}
-				}
+				is_controlled_by_imperium = no
 				NOT = { religion_group = emperor_group }
 			}
 		}
-		
 		trigger = {
-			fenris_region = {
+			armageddon = {
 				type = all
 				OR = {
-					country_or_non_sovereign_subject_holds = ROOT
-					owned_by = XZS
+					is_controlled_by_imperium = yes
+					is_aeldari_world = yes
 				}
 				religion_group = emperor_group
 			}
 		}
-		
 		effect = {
 			golgotha_region = {
 				limit = {
@@ -44,98 +36,280 @@ XXA_Branch_1 = {
 				}
 				add_permanent_claim = ROOT
 			}
+			add_mandate = 2
 		}
 	}
 	XXA_Mission_2 = {
 		icon = mission_orks
-		required_missions = { XXA_Mission_1 }
 		position = 4
-		
+		required_missions = { XXA_Mission_1 }
 		provinces_to_highlight = {
 			OR = {
 				AND = {
 					region = golgotha_region
-					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+					NOT = { country_or_subject_holds = ROOT }
 				}
 				owned_by = XZT
 			}
 		}
-		
 		trigger = {
 			golgotha_region = {
 				type = all
-				country_or_non_sovereign_subject_holds = ROOT
+				is_controlled_by_imperium = yes
 			}
 			NOT = { exists = XZT }
 		}
-		
 		effect = {
-			add_country_modifier = { 
+			add_country_modifier = {
 				name = XXA_Ghazghkull_Bonus
-				duration = -1
+				duration = 18250 
 			}
-			custom_tooltip = XXA_Ork_Tooltip
-			tooltip = {
-				add_province_modifier = { 
-					name = XXA_Ork_Bonus
-					duration = -1
+		}
+	}
+	XXA_protect_fenris = {
+		icon = mission_build_up_to_force_limit
+		position = 5
+		required_missions = { XXA_Mission_15 }
+		provinces_to_highlight = {
+			region = fenris_region
+			NOT = { country_or_subject_holds = ROOT }
+		}
+		trigger = {
+			fenris_region = {
+				type = all
+				is_controlled_by_imperium = yes
+			}
+		}
+		effect = { 
+			prosperan_rift_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	XXA_Mission_16 = {
+		icon = mission_new_kingdom
+		position = 6
+		required_missions = { XXA_protect_fenris }
+		trigger = {
+			OR={
+				AND={
+					NOT = { exists = XUG } #
+					3267={
+						OR={
+							is_controlled_by_imperium = yes
+							is_city = no
+						}
+					}
+					957={
+						OR={
+							is_controlled_by_imperium = yes
+							is_city = no
+						}
+					}
+				}
+				has_country_flag = XXA_magnus_redeemed
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = XXA_Psykers_Astronamican
+				duration = 18250
+			}
+			1={
+				change_variable = {
+					which = ImperiumGoldenThroneFailing
+					value = 10
+				}
+				if={
+					limit={
+						check_variable = {
+							which = ImperiumGoldenThroneFailing
+							value = 100
+						}
+					}
+					set_variable = {
+						which = ImperiumGoldenThroneFailing
+						value = 100
+					}
 				}
 			}
-			hidden_effect = {
-				every_owned_province = {
-					limit = {
-						culture_group = ork_culture_group
-					}
-					add_province_modifier = { 
-						name = XXA_Ork_Bonus
+			if={
+				limit={
+					has_country_flag = XXA_magnus_redeemed
+				}
+			}
+			else={
+				3267 = {
+					change_culture = human_culture
+					change_religion = imperial_cult
+					add_province_modifier = {
+						name = XXA_Scouring_Of_Prospero
 						duration = -1
 					}
+					decolonize = THIS
+				}
+				957 = {
+					change_culture = human_culture
+					change_religion = imperial_cult
+					add_province_modifier = {
+						name = XXA_Scouring_Of_Prospero
+						duration = -1
+					}
+					decolonize = THIS
 				}
 			}
 		}
 	}
-	XXA_Mission_3 = {
-		icon = mission_genestealer_revolution
-		required_missions = { XXA_Mission_15 }
-		position = 5
-		
+	XXA_prosperan_rift = {
+		icon = mission_build_up_to_force_limit
+		position = 7
+		required_missions = { XXA_Mission_16 }
 		provinces_to_highlight = {
-			OR = {
-				region = uhulis_region
-				region = amerikon_region
-				region = inwit_cluster_region
+			region = prosperan_rift_region
+			is_controlled_by_imperium = no
+		}
+		trigger = {
+			prosperan_rift_region = {
+				type = all
+				is_controlled_by_imperium = yes
 			}
+		}
+		effect = { }
+	}
+	XXA_checking_in_calgar = {
+		icon = mission_ultramarines_emblem
+		position = 8
+		required_missions = { XXA_damaged_imperium }
+		trigger = {
+			ultima_region={
+				has_discovered = PREV
+			}
+		}
+		effect = { }
+	}
+	XXA_unify_ultramar = {
+		icon = mission_ultramarines_emblem
+		position = 9
+		required_missions = { XXA_checking_in_calgar }
+		trigger = {
+			XGK={
+				is_subject_of_type = imperial_sector_subject
+			}
+		}
+		effect = { }
+	}
+	XXA_defeat_calvernia = {
+		icon = mission_orks
+		position = 12
+		required_missions = { XXA_cordon_impenetra }
+		trigger = {
+			XXF={exists = no}
+		}
+		effect = { }
+	}
+	XXA_segementum_pacificus = {
+		icon = mission_build_up_to_force_limit
+		position = 13
+		required_missions = { XXA_defeat_calvernia }
+		trigger = { }
+		effect = { }
+	}
+	XXA_end_blood_pact = {
+		icon = mission_build_up_to_force_limit
+		position = 14
+		required_missions = { XXA_segementum_pacificus }
+		trigger = {
+			XEB={exists = no}
+		}
+		effect = { }
+	}
+	XXA_securing_sabbat_worlds = {
+		icon = mission_build_up_to_force_limit
+		position = 15
+		required_missions = { XXA_end_blood_pact XXA_solblades }
+		provinces_to_highlight = {
+			region = sabbat_worlds_region
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
-		
-		trigger = {
-			uhulis_region = {
+		trigger = { 
+			sabbat_worlds_region={
 				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			amerikon_region = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			inwit_cluster_region = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
+				OR = {
+					is_controlled_by_imperium = yes
+					is_aeldari_world = yes
+				}
 			}
 		}
-		
-		effect = {
-			add_casus_belli = {
-				target = XYB
-				type = cb_annex
-				months = 36500
+		effect = { }
+	}
+	XXA_restore_hydraphur = {
+		icon = mission_build_up_to_force_limit
+		position = 17
+		required_missions = { XXA_restoring_borders }
+		provinces_to_highlight = {
+			area = hydraphur_planet
+			is_controlled_by_imperium = no
+		}
+		trigger = {
+			hydraphur_planet={
+				type = all
+				is_controlled_by_imperium = yes
 			}
-			add_country_modifier = { 
-				name = XXA_Solblades
-				duration = -1
+		}
+		effect = { 
+			hydraphur_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+					is_controlled_by_imperium = no
+				}
+				add_permanent_claim = ROOT
 			}
 		}
 	}
+	XXA_fortify_medusan_reach = {
+		icon = mission_build_up_to_force_limit
+		position = 19
+		required_missions = { XXA_restore_hydraphur XXA_returning_to_nullus }
+		trigger = { 
+			medusan_reach_region={
+				type = all
+				OR = {
+					is_controlled_by_imperium = yes
+					is_aeldari_world = yes
+				}
+			}
+		}
+		effect = { }
+	}
+	XXA_gothic_sector = {
+		icon = mission_build_up_to_force_limit
+		position = 20
+		required_missions = { XXA_saving_styguis }
+		trigger = { 
+			gothic_region={
+				type = all
+				OR = {
+					is_controlled_by_imperium = yes
+					is_aeldari_world = yes
+				}
+			}
+		}
+		effect = { }
+	}
+	XXA_into_the_deeps = {
+		icon = mission_build_up_to_force_limit
+		position = 21
+		required_missions = { XXA_gothic_sector }
+		trigger = { }
+		effect = { }
+	}
 }
+
 XXA_Branch_2 = {
 	slot = 2
 	generic = no
@@ -147,18 +321,12 @@ XXA_Branch_2 = {
 
 	XXA_Mission_13 = {
 		icon = mission_terra
-		required_missions = {}
 		position = 1
-		
-		provinces_to_highlight = {
-			owned_by = ROOT
-		}
-		
+		required_missions = {  }
 		trigger = {
 			NOT = { has_estate_privilege = estate_church_land_rights }
 			NOT = { has_estate_privilege = estate_nobles_land_rights }
 		}
-		
 		effect = {
 			add_government_power = {
 				mechanic_type = imperium_mechanic
@@ -168,304 +336,13 @@ XXA_Branch_2 = {
 			add_corruption = -10
 		}
 	}
-
-	XXA_Mission_14 = {
-		icon = mission_genestealer_diplomacy
-		required_missions = { XXA_Mission_28 }
-		position = 3
-		
-		provinces_to_highlight = {
-			NOT = { owned_by = ROOT }
-			OR = {
-				province_id = 474
-				province_id = 490
-				province_id = 211
-				province_id = 182
-				province_id = 183
-			}
-		}
-		
-		trigger = {
-			OR={
-				any_subject_country = {
-					is_core = 474
-				}
-				is_core = 474
-			}
-			OR={
-				any_subject_country = {
-					is_core = 490
-				}
-				is_core = 490
-			}
-			OR={
-				any_subject_country = {
-					is_core = 211
-				}
-				is_core = 211
-			}
-			OR={
-				any_subject_country = {
-					is_core = 182
-				}
-				is_core = 182
-			}
-			OR={
-				any_subject_country = {
-					is_core = 183
-				}
-				is_core = 183
-			}
-		}
-		
-		effect = {
-			474 = {
-				add_province_modifier = { 
-					name = XXA_Routed_Chaos
-					duration = 18250 
-				}
-			}
-			490 = {
-				add_province_modifier = { 
-					name = XXA_Routed_Chaos
-					duration = 18250 
-				}
-			}
-			211 = {
-				add_province_modifier = { 
-					name = XXA_Routed_Chaos
-					duration = 18250 
-				}
-			}
-			182 = {
-				add_province_modifier = { 
-					name = XXA_Routed_Chaos
-					duration = 18250 
-				}
-			}
-			183 = {
-				add_province_modifier = { 
-					name = XXA_Routed_Chaos
-					duration = 18250 
-				}
-			}
-			segmentum_solar = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
-		}
-	}
-
-	XXA_Mission_15 = {
-		icon = mission_terra
-		required_missions = { XXA_Mission_14 }
-		position = 4
-		
-		provinces_to_highlight = {
-			region = segmentum_solar_region
-			OR = {
-				NOT = { country_or_non_sovereign_subject_holds = ROOT }
-				AND = {
-					country_or_non_sovereign_subject_holds = ROOT
-					NOT = { religion_group = emperor_group }
-				}
-			}
-		}
-		
-		trigger = {
-			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-				value = 70
-				region  = segmentum_solar_region
-				religion_group = emperor_group
-			}
-		}
-		
-		effect = {
-			prosperan_rift_region = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
-			karthago_region = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
-			amerikon_region = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
-			uhulis_region = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
-			inwit_cluster_region = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
-		}
-	}
-
-	XXA_Mission_16 = {
-		icon = mission_new_kingdom
-		required_missions = { XXA_Mission_15 }
-		position = 5
-		
-		provinces_to_highlight = {
-			region = prosperan_rift_region
-			NOT = { country_or_non_sovereign_subject_holds = ROOT }
-		}
-		
-		trigger = {
-			NOT = { exists = XTG }
-			prosperan_rift_region = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-		}
-		
-		effect = {
-			add_country_modifier = { 
-				name = XXA_Psykers_Astronamican
-				duration = 18250
-			}
-			956 = {
-				change_culture = human_culture
-				change_religion = imperial_cult
-				add_province_modifier = { 
-					name = XXA_Scouring_Of_Prospero
-					duration = -1
-				}
-				decolonize = THIS
-			}
-			957 = {
-				change_culture = human_culture
-				change_religion = imperial_cult
-				add_province_modifier = { 
-					name = XXA_Scouring_Of_Prospero
-					duration = -1
-				}
-				decolonize = THIS
-			}
-		}
-	}
-}
-
-XXA_Branch_3 = {
-	slot = 3
-	generic = no
-	ai = yes
-	potential = {
-		tag = XXA
-	}
-	has_country_shield = yes
-
-	XXA_Mission_27 = {
-		icon = mission_imperial_nobles
-		required_missions = {}
-		position = 1
-		
-		trigger = {
-			NOT = { advisor = irthuhaemotalion }
-			NOT = { advisor = mereldapereth }
-			NOT = { advisor = avelizadrachmar }
-			custom_trigger_tooltip = {
-				tooltip = XXA_Advisor_Mission_Tooltip
-				tag = XXA
-			}
-		}
-		
-		effect = {
-			define_advisor = {
-				name = "Arfon Hoiditma"
-				type = inquisitor
-				skill = 2
-				discount = yes
-			}
-			define_advisor = {
-				name = "Dho Gan Mey"
-				type = naval_reformer
-				skill = 2
-				discount = yes
-			}
-			define_advisor = {
-				name = "Andiramus"
-				type = commandant
-				skill = 2
-				discount = yes
-			}
-		}
-	}
-	XXA_Mission_28 = {
-		icon = mission_guilliman
-		required_missions = { XXA_Mission_13 XXA_Mission_27 XXA_Mission_40 }
-		position = 2
-		
-		provinces_to_highlight = {
-			owned_by = ROOT
-		}
-		
-		trigger = {
-			navy_size_percentage = 1
-			num_of_admirals = 3
-		}
-		
-		effect = {
-			add_country_modifier = { 
-				name = XXA_Indomitus
-				duration = 36500
-			}
-			country_event = { 
-				id = imperium_events.3
-			}
-			fenris_region = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
-			474 = {
-				add_permanent_claim = ROOT
-			}
-			490 = {
-				add_permanent_claim = ROOT
-			}
-			211 = {
-				add_permanent_claim = ROOT
-			}
-			182 = {
-				add_permanent_claim = ROOT
-			}
-			183 = {
-				add_permanent_claim = ROOT
-			}
-		}
-	}
 	XXA_Mission_29 = {
 		icon = mission_necromunda
-		required_missions = { XXA_Mission_28 }
 		position = 3
-		
+		required_missions = { XXA_Mission_28 }
 		provinces_to_highlight = {
 			owner = {
-       				capital_scope = {
+				capital_scope = {
 					OR = {
 						area = western_necromunda
 						area = eastern_necromunda
@@ -490,7 +367,6 @@ XXA_Branch_3 = {
 				}
 			}
 		}
-		
 		trigger = {
 			custom_trigger_tooltip = {
 				tooltip = XXA_Necromunda_Trigger_Tooltip
@@ -534,63 +410,193 @@ XXA_Branch_3 = {
 				}
 			}
 		}
-		
 		effect = {
 			custom_tooltip = XXA_Necromunda_Effect_Tooltip
 			custom_tooltip = XXA_Necromunda_Effect_Tooltip_Two
 			hidden_effect = {
-				XZR = {
-					inherit = XIK
-					inherit = XIN
-					inherit = XIL
-					inherit = XIQ
-					inherit = XIM
-				}
-				create_subject = {
-					subject_type = imperial_world_subject_type
-					subject = XZR
-				}
-				XXA = {
-					declare_war_with_cb = {
-						who = XIO
-						casus_belli = cb_annex
+				if={
+					limit={
+						XZR={
+							exists = no
+						}
+					}
+					XZR = {
+						inherit = XIK
+						inherit = XIN
+						inherit = XIL
+						inherit = XIQ
+						inherit = XIM
+					}
+					every_owned_province={
+						limit={
+							OR={
+								area = western_necromunda
+								area = eastern_necromunda
+							}
+						}
+						cede_province = XZR
+						add_core = XZR
+					}
+					create_subject = {
+						subject_type = imperial_world_subject_type
+						subject = XZR
+					}
+					1={
+						change_variable = {
+							which = ImperiumNbWorlds
+							value = 1
+						}
+						change_variable = {
+							which = ImperiumNbNominalWorlds
+							value = -1
+						}
+					}
+					XXA = {
+						declare_war_with_cb = {
+							who = XIO
+							casus_belli = cb_annex
+						}
+					}
+					XZR = {
+						join_all_offensive_wars_of = XXA
+					}
+					XIH = {
+						join_all_defensive_wars_of = XIO
+					}
+					XIP = {
+						join_all_defensive_wars_of = XIO
+					}
+					XIJ = {
+						join_all_defensive_wars_of = XIO
+					}
+					XII = {
+						join_all_defensive_wars_of = XIO
 					}
 				}
-				XZR = {
-					join_all_offensive_wars_of = XXA
+				else={
+					every_owned_province={
+						limit={
+							OR={
+								area = western_necromunda
+								area = eastern_necromunda
+							}
+						}
+						cede_province = XZR
+						add_core = XZR
+					}
 				}
-				XIH = {
-					join_all_defensive_wars_of = XIO
+			}
+			add_mandate = 2
+		}
+	}
+	XXA_Mission_15 = {
+		icon = mission_terra
+		position = 4
+		required_missions = { XXA_Mission_1 XXA_Mission_29 XXA_Mission_41 }
+		provinces_to_highlight = {
+			superregion = segmentum_solar
+			OR = {
+				NOT = { country_or_subject_holds = ROOT }
+				AND = {
+					country_or_subject_holds = ROOT
+					NOT = { religion_group = emperor_group }
 				}
-				XIP = {
-					join_all_defensive_wars_of = XIO
+			}
+		}
+		trigger = {
+			num_of_provinces_owned_or_owned_by_subjects_with = {
+				value = 90
+				superregion = segmentum_solar
+				religion_group = emperor_group
+			}
+			atoma_prime = {
+				type = all
+				country_or_subject_holds = ROOT
+				religion_group = emperor_group
+			}
+			benediction_planet = {
+				type = all
+				country_or_subject_holds = ROOT
+				religion_group = emperor_group
+			}
+			vorlese = {
+				type = all
+				country_or_subject_holds = ROOT
+				religion_group = emperor_group
+			}
+		}
+		effect = {
+			amerikon_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
 				}
-				XIJ = {
-					join_all_defensive_wars_of = XIO
+				add_permanent_claim = ROOT
+			}
+			uhulis_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
 				}
-				XII = {
-					join_all_defensive_wars_of = XIO
+				add_permanent_claim = ROOT
+			}
+			inwit_cluster_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
 				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	XXA_repluse_scourge_stars = {
+		icon = mission_build_up_to_force_limit
+		position = 5
+		required_missions = { XXA_Mission_15 }
+		provinces_to_highlight = {
+			OR={
+				area = benediction_planet
+				area = veritus
+			}
+			NOT = { country_or_subject_holds = ROOT }
+			NOT={religion_group = emperor_group}
+		}
+		trigger = { 
+			benediction_planet = {
+				type = all
+				country_or_subject_holds = ROOT
+				religion_group = emperor_group
+			}
+			veritus = {
+				type = all
+				country_or_subject_holds = ROOT
+				religion_group = emperor_group
+			}
+		}
+		effect = { 
+			karthago_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
 			}
 		}
 	}
 	XXA_Mission_30 = {
 		icon = mission_catachan
-		required_missions = { XXA_Mission_15 }
-		position = 5
-		
+		position = 6
+		required_missions = { XXA_repluse_scourge_stars }
 		provinces_to_highlight = {
 			region = karthago_region
-			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			is_controlled_by_imperium = no
 		}
-		
 		trigger = {
 			karthago_region = {
 				type = all
-				country_or_non_sovereign_subject_holds = ROOT
+				is_controlled_by_imperium = yes
 			}
 		}
-		
 		effect = {
 			octarius_region = {
 				limit = {
@@ -601,7 +607,636 @@ XXA_Branch_3 = {
 			}
 		}
 	}
+	XXA_purging_corruption = {
+		icon = mission_build_up_to_force_limit
+		position = 8
+		required_missions = { XXA_damaged_imperium }
+		trigger = {
+			NOT={corruption = 15}
+		}
+		effect = { 
+			add_corruption = -5
+			add_mandate = 5
+		}
+	}
+	XXA_countering_greater_good = {
+		icon = mission_build_up_to_force_limit
+		position = 9
+		required_missions = { XXA_inquisition }
+		trigger = { }
+		effect = { }
+	}
+	XXA_retaking_chalnath = {
+		icon = mission_build_up_to_force_limit
+		position = 10
+		required_missions = { XXA_unify_ultramar XXA_countering_greater_good }
+		trigger = {
+			1886={
+				is_controlled_by_imperium = yes
+			}
+		}
+		effect = { }
+	}
+	XXA_blunting_leviathan = {
+		icon = mission_build_up_to_force_limit
+		position = 12
+		required_missions = { XXA_cordon_impenetra }
+		trigger = {
+			XYB={ NOT={total_development = 100} }
+		}
+		effect = { }
+	}
+	XXA_push_to_edge = {
+		icon = mission_build_up_to_force_limit
+		position = 13
+		required_missions = { XXA_blunting_leviathan }
+		trigger = { }
+		effect = { }
+	}
+	XXA_solblades = {
+		icon = mission_build_up_to_force_limit
+		position = 14
+		required_missions = { XXA_segementum_pacificus }
+		trigger = { 
+			has_reform =solblades_reform
+			sabbat_worlds_region ={
+				type = all
+				NOT={
+					religion_group = tyranid_group
+				}
+			}
+		}
+		effect = { }
+	}
+	XXA_secure_nachmund_rift = {
+		icon = mission_build_up_to_force_limit
+		position = 17
+		required_missions = { XXA_restoring_borders }
+		provinces_to_highlight = {
+			area = nachmund_gauntlet
+			is_controlled_by_imperium = no
+		}
+		trigger = { 
+			nachmund_gauntlet= {
+				type = all
+				is_controlled_by_imperium = yes
+			}
+			4082 = {
+				owned_by = ROOT
+				has_great_project = {
+					type = nachmund_gauntlet
+					tier = 1
+				}
+			}			
+		}
+		effect = { 
+			nachmund_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	XXA_returning_to_nullus = {
+		icon = mission_build_up_to_force_limit
+		position = 18
+		required_missions = { XXA_secure_nachmund_rift }
+		trigger = { 
+			num_of_provinces_owned_or_owned_by_subjects_with = {
+				value = 1
+				OR={
+					area = vigilus
+					region = calixis_region
+					region = grendl_stars_region
+					region = styken_region
+					region = stygius_region
+					region = palatine_region
+					region = red_scar_region
+					region = nepthis_region
+				}
+			}
+		}
+		effect = { 
+			end_disaster = dark_imperium_disaster 
+			stygius_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+					is_aeldari_world = no
+				}
+				add_permanent_claim = ROOT
+			}
+			stryken_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+					is_aeldari_world = no
+				}
+				add_permanent_claim = ROOT
+			}
+			medusan_reach_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+					is_aeldari_world = no
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	XXA_saving_styguis = {
+		icon = mission_build_up_to_force_limit
+		position = 19
+		required_missions = { XXA_returning_to_nullus }
+		provinces_to_highlight = {
+			region = stygius_region
+			is_controlled_by_imperium = no
+			is_aeldari_world = no
+		}
+		trigger = { 
+			stygius_region={
+				type = all
+				is_controlled_by_imperium = yes
+				is_aeldari_world = no
+			}
+		}
+		effect = { 
+			gothic_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+					is_aeldari_world = no
+				}
+				add_permanent_claim = ROOT
+			}
+			palatine_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+					is_aeldari_world = no
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	XXA_reclamation_baal = {
+		icon = mission_build_up_to_force_limit
+		position = 20
+		required_missions = { XXA_saving_styguis }
+		trigger = { 
+			baal={
+				type = all
+				owned_by = XDJ
+			}
+		}
+		effect = { }
+	}
+	XXA_lions_protectorate = {
+		icon = mission_build_up_to_force_limit
+		position = 21
+		required_missions = { XXA_reclamation_baal }
+		trigger = { }
+		effect = { }
+	}
 }
+
+XXA_Branch_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = XXA
+	}
+	has_country_shield = yes
+
+	XXA_Mission_27 = {
+		icon = mission_imperial_nobles
+		position = 1
+		required_missions = {  }
+		trigger = {
+			NOT = { advisor = irthuhaemotalion }
+			NOT = { advisor = mereldapereth }
+			NOT = { advisor = avelizadrachmar }
+			custom_trigger_tooltip = {
+				tooltip = XXA_Advisor_Mission_Tooltip
+				tag = XXA
+			}
+		}
+		effect = {
+			define_advisor = {
+				name = "Arfon Hoiditma"
+				type = inquisitor
+				skill = 2
+				discount = yes
+			}
+			define_advisor = {
+				name = "Dho Gan Mey"
+				type = naval_reformer
+				skill = 2
+				discount = yes
+			}
+			define_advisor = {
+				name = "Andiramus"
+				type = commandant
+				skill = 2
+				discount = yes
+			}
+			add_corruption = -10
+		}
+	}
+	XXA_Mission_28 = {
+		icon = mission_guilliman
+		position = 2
+		required_missions = { XXA_Mission_13 XXA_Mission_27 XXA_Mission_40 }
+		trigger = {
+			navy_size_percentage = 1
+			num_of_admirals = 3
+		}
+		effect = {
+			add_country_modifier = {
+				name = XXA_Indomitus
+				duration = 36500
+			}
+			country_event = {
+				id = imperium_events.3
+			}
+			fenris_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			474 = {
+				add_permanent_claim = ROOT
+			}
+			490 = {
+				add_permanent_claim = ROOT
+			}
+			211 = {
+				add_permanent_claim = ROOT
+			}
+			182 = {
+				add_permanent_claim = ROOT
+			}
+			183 = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	XXA_Mission_41 = {
+		icon = mission_logisticarum
+		position = 3
+		required_missions = { XXA_Mission_28 }
+		trigger = {
+			OR = {
+				treasurer = 3
+				naval_reformer = 3
+				army_reformer = 3
+				army_organiser = 3
+				quartermaster = 3
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = XXA_Logistics
+				duration = 18250
+			}
+		}
+	}
+	XXA_Mission_42 = {
+		icon = mission_hub_fort
+		position = 4
+		required_missions = { XXA_Mission_41 }
+		provinces_to_highlight = {
+			owned_by = ROOT
+			NOT = { has_fort_building_trigger = yes }
+		}
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 10
+				has_fort_building_trigger = yes
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = xxa_hub_fortresses
+				duration = -1
+			}
+		}
+	}
+	XXA_ultimaris_decree = {
+		icon = mission_starfort
+		position = 5
+		required_missions = { XXA_Mission_15 XXA_Mission_42 XXA_Mission_Astartes }
+		trigger = { }
+		effect = { }
+	}
+	XXA_holding_approch = {
+		icon = mission_build_up_to_force_limit
+		position = 6
+		required_missions = { XXA_repluse_scourge_stars }
+		provinces_to_highlight = {
+			region = agripinaa_region
+			is_controlled_by_imperium = no
+			is_aeldari_world = no
+		}
+		trigger = { 
+			agripinaa_region={
+				type = all
+				OR={
+					is_controlled_by_imperium = yes
+					is_aeldari_world = yes
+				}
+			}
+		}
+		effect = { 
+			nachmund_gauntlet = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	XXA_damaged_imperium = {
+		icon = mission_build_up_to_force_limit
+		position = 7
+		required_missions = {  }
+		trigger = {
+			NOT={imperial_mandate = 65}
+			num_of_powerful_estates = 1
+			stability = 1
+		}
+		effect = { add_stability = 1 }
+	}
+	XXA_inquisition = {
+		icon = mission_build_up_to_force_limit
+		position = 8
+		required_missions = { XXA_damaged_imperium }
+		trigger = {
+			estate_loyalty = {
+				estate = estate_inquisition
+				loyalty = 60
+			}
+		}
+		effect = { }
+	}
+	XXA_deal_redemptionists = {
+		icon = mission_build_up_to_force_limit
+		position = 9
+		required_missions = { XXA_inquisition }
+		trigger = { tolerance_to_this = 6 }
+		effect = { }
+	}
+	XXA_path_faithful = {
+		icon = mission_build_up_to_force_limit
+		position = 10
+		required_missions = { XXA_deal_redemptionists }
+		trigger = { }
+		effect = { }
+	}
+	XXA_cordon_impenetra = {
+		icon = mission_build_up_to_force_limit
+		position = 11
+		required_missions = {  }
+		trigger = {
+			calc_true_if = {
+				1066 = {
+					is_controlled_by_imperium = yes
+				}
+				3153 = {
+					is_controlled_by_imperium = yes
+				}
+				4041 = {
+					is_controlled_by_imperium = yes
+				}
+				NOT={
+					pankallis_area = {
+						NOT={
+							OR={
+								is_controlled_by_imperium = yes
+								city = no
+							}
+						}
+					}
+				}
+				NOT={
+					golgotha_planet = {
+						NOT={
+							OR={
+								is_controlled_by_imperium = yes
+								city = no
+							}
+						}
+					}
+				}
+				amount = 4
+			}
+		}
+		effect = { }
+	}
+	XXA_purge_octarius_orks = {
+		icon = mission_orks
+		position = 12
+		required_missions = { XXA_cordon_impenetra }
+		provinces_to_highlight = {
+			owned_by = XYN
+		}
+		trigger = {
+			XYN={exists = no}
+		}
+		effect = { }
+	}
+	XXA_mandragoran_stormlord = {
+		icon = mission_build_up_to_force_limit
+		position = 13
+		required_missions = { XXA_pariah_crusade }
+		provinces_to_highlight = {
+			
+		}
+		trigger = { 
+			
+		}
+		effect = { }
+	}
+	XXA_end_tyranid_threat_core = {
+		icon = mission_build_up_to_force_limit
+		position = 15
+		required_missions = { XXA_push_to_edge XXA_solblades }
+		provinces_to_highlight = {
+			OR={
+				region = inwit_cluster_region
+				region = amerikon_region
+				region = uhulis_region
+				region = yarokin_veil_region
+				region = hydraphur_region
+				region = agripinaa_region
+				region = karthago_region
+				region = octarius_region
+				superregion = segmentum_pacificus
+			}
+			religion_group = tyranid_group
+		}
+		trigger = { 
+			segmentum_pacificus ={
+				type = all
+				NOT={
+					religion_group = tyranid_group
+				}
+			}
+			inwit_cluster_region ={
+				type = all
+				NOT={
+					religion_group = tyranid_group
+				}
+			}
+			amerikon_region ={
+				type = all
+				NOT={
+					religion_group = tyranid_group
+				}
+			}
+			uhulis_region ={
+				type = all
+				NOT={
+					religion_group = tyranid_group
+				}
+			}
+			yarokin_veil_region ={
+				type = all
+				NOT={
+					religion_group = tyranid_group
+				}
+			}
+			hydraphur_region ={
+				type = all
+				NOT={
+					religion_group = tyranid_group
+				}
+			}
+			agripinaa_region ={
+				type = all
+				NOT={
+					religion_group = tyranid_group
+				}
+			}
+			karthago_region ={
+				type = all
+				NOT={
+					religion_group = tyranid_group
+				}
+			}
+			octarius_region ={
+				type = all
+				NOT={
+					religion_group = tyranid_group
+				}
+			}
+		}
+		effect = { }
+	}
+	XXA_restoring_borders = {
+		icon = mission_build_up_to_force_limit
+		position = 16
+		required_missions = {  }
+		trigger = {
+			imperial_sector_subject = 5
+		}
+		effect = { }
+	}
+	XXA_deal_kin = {
+		icon = mission_build_up_to_force_limit
+		position = 17
+		required_missions = { XXA_restoring_borders }
+		trigger = { }
+		effect = { }
+	}
+	XXA_dismantle_votann = {
+		icon = mission_build_up_to_force_limit
+		position = 18
+		required_missions = { XXA_deal_kin }
+		trigger = { }
+		effect = { }
+	}
+	XXA_stryken_sector = {
+		icon = mission_build_up_to_force_limit
+		position = 19
+		required_missions = { XXA_returning_to_nullus }
+		provinces_to_highlight = {
+			region = stryken_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = { 
+			stryken_region={
+				type = all
+				is_controlled_by_imperium = yes
+			}
+		}
+		effect = { 
+			askellon_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+					is_aeldari_world = no
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	XXA_conquer_askellon = {
+		icon = mission_build_up_to_force_limit
+		position = 20
+		required_missions = { XXA_stryken_sector }
+		provinces_to_highlight = {
+			region = askellon_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = { 
+			askellon_region={
+				type = all
+				is_controlled_by_imperium = yes
+			}
+		}
+		effect = { }
+	}
+	XXA_dominating_dominate = {
+		icon = mission_build_up_to_force_limit
+		position = 21
+		required_missions = { XXA_conquer_askellon }
+		provinces_to_highlight = {
+			owned_by = XBR
+			NOT={owned_by_subject_of = ROOT}
+		}
+		trigger = {
+			XBR={
+				OR={
+					exists = no
+					is_subject_of = ROOT
+				}
+			}
+		}
+		effect = { }
+	}
+	XXA_humanities_future = {
+		icon = mission_build_up_to_force_limit
+		position = 22
+		required_missions = {  }
+		trigger = {
+			stability = 3
+			empire_of_china_num_reforms_passed = 2
+			empire_of_china_has_active_decree = expand_bureaucracy_decree
+			legitimacy_equivalent = 95
+			reform_level = 5
+			has_any_disaster = no
+		}
+		effect = { }
+	}
+}
+
 XXA_Branch_4 = {
 	slot = 4
 	generic = no
@@ -613,13 +1248,12 @@ XXA_Branch_4 = {
 
 	XXA_Mission_40 = {
 		icon = mission_hybrids
-		required_missions = {}
 		position = 1
-		
+		required_missions = {  }
 		provinces_to_highlight = {
 			owned_by = ROOT
+			has_rebel_faction = heretic_rebels
 		}
-		
 		trigger = {
 			solar = {
 				type = all
@@ -630,81 +1264,18 @@ XXA_Branch_4 = {
 				}
 			}
 		}
-		
 		effect = {
 			solar = { remove_province_modifier = terra_starting_modifier }
 		}
 	}
-	XXA_Mission_41 = {
-		icon = mission_logisticarum
-		required_missions = { XXA_Mission_28 }
-		position = 3
-		
-		provinces_to_highlight = {
-			owned_by = ROOT
-		}
-		
-		trigger = {
-			OR = {
-				treasurer = 3
-				naval_reformer = 3
-				army_reformer = 3
-				army_organiser = 3
-				quartermaster = 3
-			}
-		}
-		
-		effect = {
-			add_country_modifier = { 
-				name = XXA_Logistics
-				duration = 18250
-			}
-		}
-	}
-	XXA_Mission_42 = {
-		icon = mission_hub_fort
-		required_missions = { XXA_Mission_41 }
-		position = 4
-		
-		provinces_to_highlight = {
-			owned_by = ROOT
-			NOT = { has_fort_building_trigger = yes }
-		}
-		
-		trigger = {
-			num_of_owned_provinces_with = {
-				value = 10
-				has_fort_building_trigger = yes
-			}
-		}
-		
-		effect = {
-			add_country_modifier = { 
-				name = xxa_hub_fortresses
-				duration = -1
-			}
-		}
-	}
-}
-XXA_Branch_5 = {
-	slot = 5
-	generic = no
-	ai = yes
-	potential = {
-		tag = XXA
-	}
-	has_country_shield = yes
-
 	XXA_Mission_50 = {
 		icon = mission_noctis
-		required_missions = { XXA_Mission_28 }
 		position = 3
-		
+		required_missions = { XXA_Mission_28 }
 		provinces_to_highlight = {
 			is_empty = yes
 			is_sea = no
 		}
-		
 		trigger = {
 			custom_trigger_tooltip = {
 				tooltip = XXA_Colinization_Tooltip
@@ -714,25 +1285,21 @@ XXA_Branch_5 = {
 				}
 			}
 		}
-		
 		effect = {
-			add_country_modifier = { 
+			add_country_modifier = {
 				name = XXA_Colonization
 				duration = 18250
 			}
 		}
 	}
-
 	XXA_Mission_Astartes = {
 		icon = mission_chapter_ultramarines
-		required_missions = { XXA_Mission_41 }
 		position = 4
-		
+		required_missions = { XXA_Mission_41 XXA_complete_primaris }
 		provinces_to_highlight = {
 			owned_by = ROOT
 			culture = loyalist_astartes_culture
 		}
-		
 		trigger = {
 			custom_trigger_tooltip = {
 				tooltip = XXA_Astartes_Companies_Tooltip
@@ -743,20 +1310,17 @@ XXA_Branch_5 = {
 				value = 120
 			}
 		}
-		
 		effect = {
-			add_country_modifier = { 
+			add_country_modifier = {
 				name = XXA_Chapters
 				duration = -1
 			}
 		}
 	}
-
 	XXA_Mission_Chapters = {
 		icon = mission_aspirant
-		required_missions = { XXA_Mission_Astartes }
 		position = 5
-		
+		required_missions = { XXA_Mission_Astartes }
 		provinces_to_highlight = {
 			owned_by = ROOT
 			NOT = {
@@ -770,7 +1334,6 @@ XXA_Branch_5 = {
 				}
 			}
 		}
-		
 		trigger = {
 			num_of_provinces_owned_or_owned_by_subjects_with = {
 				value = 10
@@ -784,7 +1347,6 @@ XXA_Branch_5 = {
 				}
 			}
 		}
-		
 		effect = {
 			custom_tooltip = XXA_Chapters_Bonus_Tooltip
 			hidden_effect = {
@@ -804,4 +1366,303 @@ XXA_Branch_5 = {
 			}
 		}
 	}
+	XXA_torchbearer_fleets = {
+		icon = mission_build_up_to_force_limit
+		position = 6
+		required_missions = { XXA_Mission_Chapters }
+		trigger = {	
+			manpower_percentage = 1.0
+		}
+		effect = { 
+			every_country = { 
+				limit={
+					primary_culture = loyalist_astartes_culture
+				}
+				add_manpower = 5
+			}
+		}
+	}
+	XXA_contact_carcharodons = {
+		icon = mission_build_up_to_force_limit
+		position = 7
+		required_missions = { XXA_torchbearer_fleets }
+		trigger = { }
+		effect = { }
+	}
+	XXA_rebuilding_damaged_worlds = {
+		icon = mission_build_up_to_force_limit
+		position = 8
+		required_missions = { XXA_damaged_imperium }
+		provinces_to_highlight = {
+			is_controlled_by_imperium = yes
+			is_prosperous = no
+		}
+		trigger = {
+			calc_true_if = {
+				OR={
+					any_subject_country = {
+						capital_scope={
+							is_prosperous = yes
+						}
+					}
+					any_state = {
+						is_prosperous = yes
+					}
+				}
+				amount = 30
+			}
+		}
+		effect = { add_mandate = 10 }
+	}
+	XXA_expand_jupiter_shipyards = {
+		icon = mission_build_up_to_force_limit
+		position = 9
+		required_missions = { XXA_Consolidate_industry }
+		trigger = { 
+			has_great_project = {
+				type = jovian_shipyards
+				tier = 2
+			}
+		}
+		effect = { 
+			add_great_project_tier = {
+				type = jovian_shipyards
+				tier = 1
+			}
+			add_mandate = 5
+		}
+	}
+	XXA_pariah_crusade = {
+		icon = mission_build_up_to_force_limit
+		position = 12
+		required_missions = { XXA_cordon_impenetra XXA_pharos }
+		trigger = { }
+		effect = { }
+	}
+	XXA_humilitate_silent_king = {
+		icon = mission_build_up_to_force_limit
+		position = 13
+		required_missions = { XXA_pariah_crusade }
+		trigger = {
+			XET = {
+				humiliated_by = ROOT
+			}
+		}
+		effect = { }
+	}
+	XXA_orpheus_aid = {
+		icon = mission_build_up_to_force_limit
+		position = 14
+		required_missions = { XXA_push_to_edge }
+		trigger = {
+			orpheus_region = {
+				type = all
+				OR={
+					is_controlled_by_imperium = yes
+					is_city = no
+				}
+			}
+			XAD = {
+				exists = yes
+			}
+		}
+		effect = {
+			every_owned_province = {
+				limit={
+					region = orpheus_region
+				}
+				cede_province = XAD
+			}
+			create_subject = {
+				subject_type = imperial_sector_subject
+				subject = XAD
+			}
+		}
+	}
+	XXA_secure_cadian_gate = {
+		icon = mission_build_up_to_force_limit
+		position = 17
+		required_missions = { XXA_restoring_borders }
+		provinces_to_highlight = {
+			is_controlled_by_imperium = no
+			NOT={has_building = coastal_defence}
+			any_neighbor_province = {
+				province_id = 217
+			}
+		}
+		trigger = { 
+			217={
+				all_neighbor_province = {
+					is_controlled_by_imperium = yes
+					has_building = coastal_defence
+				}
+			}
+		}
+		effect = { }
+	}
+	XXA_retake_cadia = {
+		icon = mission_build_up_to_force_limit
+		position = 18
+		required_missions = { XXA_secure_cadian_gate }
+		trigger = { }
+		effect = { }
+	}
+	XXA_rebuilding_cypra_mundi = {
+		icon = mission_build_up_to_force_limit
+		position = 20
+		required_missions = { XXA_stryken_sector }
+		trigger = { }
+		effect = { }
+	}
+	XXA_fixing_golden_throne = {
+		icon = mission_build_up_to_force_limit
+		position = 23
+		required_missions = { XXA_humanities_future }
+		trigger = { }
+		effect = { }
+	}
+	XXA_drukhari_aid = {
+		icon = mission_build_up_to_force_limit
+		position = 24
+		required_missions = { XXA_fixing_golden_throne }
+		trigger = { }
+		effect = { }
+	}
 }
+
+XXA_Branch_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		tag = XXA
+	}
+	has_country_shield = yes
+
+	XXA_eagles_second_head = {
+		icon = mission_build_up_to_force_limit
+		position = 1
+		required_missions = {  }
+		trigger = {
+			estate_loyalty = {
+				estate = estate_adeptus_mechanicus
+				loyalty = 50
+			}
+			custom_trigger_tooltip ={
+				tooltip= XXB_production_nominal
+				event_target:adeptus_mechanicus_tag={
+					calc_true_if = {
+						NOT={has_country_flag = XXB_has_less_then_5_forge_worlds}
+						has_country_flag = XXB_has_10_forge_worlds
+						has_country_flag = XXB_has_25_forge_worlds
+						has_country_flag = XXB_has_50_forge_worlds
+						has_country_flag = XXB_has_75_forge_worlds
+						has_country_flag = XXB_has_100_forge_worlds
+						NOT={liberty_desire = 30} 
+						NOT={liberty_desire = 50} 
+						has_country_flag = production_increased_1 
+						has_country_flag = production_increased_2 
+						has_any_disaster = no 
+						has_any_disaster = no 
+						amount = 5
+					}
+				}
+			}
+		}
+		effect = { }
+	}
+	XXA_Cawls_project = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { XXA_eagles_second_head }
+		trigger = { manpower > 50 }
+		effect = { add_manpower = -25 }
+	}
+	XXA_complete_primaris = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { XXA_Cawls_project }
+		trigger = { mil_power > 250}
+		effect = {
+			add_mil_power = -250
+			add_government_power = {
+				mechanic_type = imperium_mechanic
+				power_type = imperium_power
+				value = 50
+			} 
+		}
+	}
+	XXA_mechanicus_ties = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { XXA_complete_primaris }
+		trigger = { 
+			event_target:adeptus_mechanicus_tag={
+				owes_favors = { 
+					who = ROOT 
+					value = 35
+				}
+			}
+		}
+		effect = { }
+	}
+	XXA_Consolidate_industry = {
+		icon = mission_build_up_to_force_limit
+		position = 8
+		required_missions = { XXA_damaged_imperium XXA_mechanicus_ties }
+		trigger = { }
+		effect = { }
+	}
+	XXA_pharos = {
+		icon = mission_build_up_to_force_limit
+		position = 11
+		required_missions = { XXA_Consolidate_industry }
+		trigger = { }
+		effect = { }
+	}
+	XXA_aid_metalica = {
+		icon = mission_build_up_to_force_limit
+		position = 12
+		required_missions = { XXA_cordon_impenetra XXA_pharos }
+		trigger = {
+			metalica_planet={
+				type = all
+				country_or_subject_holds = event_target:adeptus_mechanicus_tag
+			}
+			development_in_provinces = {
+				value = 100
+				area = metalica_planet
+			}
+		}
+		effect = { }
+	}
+	XXA_finding_blackstone = {
+		icon = mission_build_up_to_force_limit
+		position = 13
+		required_missions = { XXA_pariah_crusade XXA_aid_metalica }
+		trigger = { }
+		effect = { }
+	}
+	XXA_secrets_pylons = {
+		icon = mission_build_up_to_force_limit
+		position = 15
+		required_missions = { XXA_finding_blackstone }
+		trigger = { }
+		effect = { }
+	}
+	XXA_great_work_cawl = {
+		icon = mission_build_up_to_force_limit
+		position = 19
+		required_missions = { XXA_retake_cadia XXA_secrets_pylons }
+		trigger = { }
+		effect = { }
+	}
+	XXA_closing_malestrom = {
+		icon = mission_build_up_to_force_limit
+		position = 23
+		required_missions = { XXA_humanities_future XXA_great_work_cawl }
+		trigger = { }
+		effect = { }
+	}
+}
+
