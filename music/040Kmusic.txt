@@ -41,3 +41,151 @@ song = {
 		}		
 	}
 }
+
+song = {
+	name = "praetores_de_sanctus_pella" #Legio Symphonica / https://www.youtube.com/watch?v=zrfQTCpPeBg
+	
+	chance = {
+		modifier = {
+			factor = 1
+			tag = XXA
+		}		
+	}
+}
+
+song = {
+	name = "quia_sunt_malleo" #Legio Symphonica / https://www.youtube.com/watch?v=3dZBk7FWJR8   https://www.youtube.com/watch?v=YuHvoSeItT4
+	
+	chance = {
+		modifier = {
+			factor = 2
+			tag = XXA
+		}		
+	}
+}
+
+song = {
+	name = "magna_tizca" #Legio Symphonica /  https://www.youtube.com/watch?v=YuHvoSeItT4
+	
+	chance = {
+		modifier = {
+			factor = 1
+			tag = XXA
+		}		
+	}
+}
+
+song = {
+	name = "mors_mihi_lucrum" #Legio Symphonica /  https://www.youtube.com/watch?v=-JLv-XkPNS0
+	
+	chance = {
+		modifier = {
+			factor = 100
+			tag = XOK
+		}	
+		modifier = {
+			factor = 1
+			tag = XXA
+		}		
+	}
+}
+
+song = {
+	name = "landfall_song" #Legio Symphonica /  https://www.youtube.com/watch?v=GVIDGjZ0F50
+	
+	chance = {
+		modifier = {
+			factor = 10
+			tag = XGK
+		}	
+		modifier = {
+			factor = 1
+			tag = XXA
+		}		
+	}
+}
+
+song = {
+	name = "the_unescapable_truth" #Legio Symphonica /  https://www.youtube.com/watch?v=MKU3ba7SwZA
+	
+	chance = {
+		modifier = {
+			factor = 1
+			tag = XXA
+		}		
+	}
+}
+
+song = {
+	name = "a_sacred_oath" #Legio Symphonica /  https://www.youtube.com/watch?v=BTd6dcj6k8M
+	
+	chance = {
+		modifier = {
+			factor = 1
+			tag = XXA
+		}		
+	}
+}
+
+song = {
+	name = "in_inceptum_finis_est" #Legio Symphonica /  https://www.youtube.com/watch?v=KFWSPNFeUfQ
+	
+	chance = {
+		modifier = {
+			factor = 10
+			tag = XGK
+		}	
+		modifier = {
+			factor = 1
+			tag = XXA
+		}		
+	}
+}
+
+song = {
+	name = "burning_skies" #Legio Symphonica /  https://www.youtube.com/watch?v=4KJs9b7cWOQ
+	
+	chance = {
+		modifier = {
+			factor = 10
+			tag = XGK
+		}	
+		modifier = {
+			factor = 1
+			tag = XXA
+		}		
+	}
+}
+
+song = {
+	name = "echoes_of_the_past" #Legio Symphonica /  https://www.youtube.com/watch?v=f35rFulcemk
+	
+	chance = {
+		modifier = {
+			factor = 1
+			tag = XXA
+		}		
+	}
+}
+
+song = {
+	name = "winter_assault" #Legio Symphonica /  https://www.youtube.com/watch?v=wBXXcpsBgv4
+	
+	chance = {
+		modifier = {
+			factor = 1
+			tag = XXA
+		}		
+	}
+}
+
+song = {
+	name = "what_awaits" #Legio Symphonica /  https://www.youtube.com/watch?v=v83W4M9Sqqg
+	
+	chance = {
+		modifier = {
+			factor = 1
+			tag = XXA
+		}		
+	}
+}

@@ -669,3 +669,7 @@ imperium_events.59.a:0 "§MThe blue marble.§"
 imperium_events.60.t:0 "Epilogue"
 imperium_events.60.d:0 "A disastrous series of unlucky events have rendered the current situation of [Root.GetName] untenable. Our subjects escape from our graps either willingly or consumed by the malestrom of rising darkness. \n \nAs the light of the Astronomican grows ever dimmer, as the citizens of [Root.GetCapitalName] process the rosary of defeats to our name, they can't help but wonder if this is the end of an era, our era."
 imperium_events.60.a:0 "§YPerhaps mortals are not meant to rule the galaxy...§"
+
+astartes_events.5.t:0 "Light of the Imperium!"
+astartes_events.5.d:0 "After countless nights deprived of His guidance, we have finally glimpsed once again, the Light of the Emperor! As vox channels reestablish contact with Holy Terra, we can't help but feel our sense of duty reignited in the face of the untold trials and tribulations that beleaguer our era."
+astartes_events.5.a:0 "§JAve Imperator§M"

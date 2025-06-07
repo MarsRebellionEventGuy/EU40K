@@ -743,7 +743,7 @@ logis_order_reform = {
 	allow_normal_conversion = yes
 	modifiers = {
 		trade_range_modifier = 0.2
-		global_trade_power_modifier = 0.1
+		global_prov_trade_power_modifier = 0.1
 	}
 }
 
@@ -1302,7 +1302,7 @@ learn_from_the_xenos_reform = {					#stygies exclusive
 	allow_normal_conversion = yes
 	modifiers = {
 		development_cost = -0.1
-		burgher_loyalty_modifier = 0.1		
+		burghers_loyalty_modifier = 0.1		
 		fire_damage = 0.10
 	}
 }			
@@ -1451,7 +1451,7 @@ empowered_electropriests_reform = {
 	allow_normal_conversion = yes
 	modifiers = {
 		movement_speed = 0.10
-		unrest = -1
+		global_unrest = -1
 	}
 }
 

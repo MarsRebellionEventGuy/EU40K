@@ -140,6 +140,74 @@ on_startup = {
 			discover_country = ROOT
 		}
 	}
+	if = {
+		limit = {
+			tag = XYB
+		}
+		caradryad_region = {
+			discover_country = ROOT
+		}
+		caradryad_sector_sea_region = {
+			discover_country = ROOT
+		}
+		forsarr_region = {
+			discover_country = ROOT
+		}
+		forsarr_sector_sea_region = {
+			discover_country = ROOT
+		}
+		veiled_region_sector_sea_region = {
+			discover_country = ROOT
+		}
+		karthago_region = {
+			discover_country = ROOT
+		}
+		karthago_sector_sea_region = {
+			discover_country = ROOT
+		}
+		reductus_region = {
+			discover_country = ROOT
+		}
+		reductus_sector_sea_region = {
+			discover_country = ROOT
+		}
+		inwit_cluster_region = {
+			discover_country = ROOT
+		}
+		inwit_cluster_sector_sea_region = {
+			discover_country = ROOT
+		}
+		amerikon_region = {
+			discover_country = ROOT
+		}
+		amerikon_sector_sea_region = {
+			discover_country = ROOT
+		}
+		yarokin_veil_region = {
+			discover_country = ROOT
+		}
+		yarokin_veil_sector_sea_region = {
+			discover_country = ROOT
+		}
+		orpheus_region = {
+			discover_country = ROOT
+		}
+		orpheus_sector_sea_region = {
+			discover_country = ROOT
+		}
+		octarius_sector_sea_region = {
+			discover_country = ROOT
+		}
+		569 = {
+			discover_country = ROOT
+		}
+		570 = {
+			discover_country = ROOT
+		}
+		587 = {
+			discover_country = ROOT
+		}
+	}
 if = {
 	limit = {
 		tag = XCK

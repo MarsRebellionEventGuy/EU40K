@@ -10,6 +10,10 @@ xxa_hub_fortresses = {
 	global_ship_repair = 0.15
 }
 
+sororitas_modifier = {
+	may_recruit_female_generals = yes
+	female_advisor_chance = 5
+}
 terra_starting_modifier = {
 	local_unrest = 3
 	local_tax_modifier = -0.20

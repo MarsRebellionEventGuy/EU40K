@@ -87,4 +87,6 @@ is_tyranid = {
 	}
 
 	relation_with_same_culture_group = 75
+	relation_with_heathens = -300
+	reverse_relation_with_heathen_religion = -300
 }

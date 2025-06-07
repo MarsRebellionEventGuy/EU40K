@@ -73,7 +73,7 @@ monarchy = {
 		}
 		absolute_rule_vs_constitutional = {
 			reforms = {
-				suppress_psychic_awakening_refor
+				suppress_psychic_awakening_reform
 				support_xanthites_reform
 				psychic_ascendancy_reform
 			}

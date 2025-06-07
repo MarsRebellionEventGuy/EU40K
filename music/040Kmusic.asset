@@ -17,3 +17,53 @@ music = {
 	name = "never_a_silent_night"
 	file = "never_a_silent_night.ogg"
 }
+music = {
+	name = "praetores_de_sanctus_pella"
+	file = "praetores_de_sanctus_pella.ogg"
+}
+music = {
+	name = "quia_sunt_malleo"
+	file = "quia_sunt_malleo.ogg"
+}
+music = {
+	name = "magna_tizca"
+	file = "magna_tizca.ogg"
+}
+music = {
+	name = "mors_mihi_lucrum"
+	file = "mors_mihi_lucrum.ogg"
+}
+music = {
+	name = "landfall_song"
+	file = "landfall_song.ogg"
+}
+music = {
+	name = "the_unescapable_truth"
+	file = "the_unescapable_truth.ogg"
+}
+
+music = {
+	name = "a_sacred_oath"
+	file = "a_sacred_oath.ogg"
+}
+
+music = {
+	name = "in_inceptum_finis_est"
+	file = "in_inceptum_finis_est.ogg"
+}
+music = {
+	name = "burning_skies"
+	file = "burning_skies.ogg"
+}
+music = {
+	name = "echoes_of_the_past"
+	file = "echoes_of_the_past.ogg"
+}
+music = {
+	name = "winter_assault"
+	file = "winter_assault.ogg"
+}
+music = {
+	name = "what_awaits"
+	file = "what_awaits.ogg"
+}

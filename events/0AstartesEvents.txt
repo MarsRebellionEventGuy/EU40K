@@ -106,3 +106,36 @@ country_event = {
 		name = "astartes_events.4.a"
 	}
 }
+
+country_event = { #Light of the Imperium
+	id = astartes_events.5
+	title = astartes_events.5.t
+	desc = astartes_events.5.d
+	picture = COMET_SIGHTED_eventPicture
+
+	
+
+	trigger = {
+		is_year = 2006
+		has_faction = astartes_faction_1
+		has_discovered = 1
+		1 = {
+			owner= {tag= XXA}
+		}
+		NOT = {has_country_flag = saw_the_light}
+	}
+
+
+	mean_time_to_happen = {
+		days= 1
+	}
+	
+	option = {
+		name = astartes_events.5.a
+		add_stability_or_adm_power = yes
+		1 = {
+			owner = {add_mandate = 1}
+		}
+		set_country_flag = saw_the_light
+	}
+}

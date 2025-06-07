@@ -38,7 +38,7 @@ ork_government_reform = {
 		no_cost_for_reinforcing = yes
 		loot_amount = 0.50
 		relation_with_heathens = -100
-		reverse_relation_with_heathens = -100
+		reverse_relation_with_heathen_religion = -100
 	}
 
 	ai = {
@@ -87,8 +87,6 @@ hive_fleet_reform = {
 		culture_conversion_cost = -0.25
 		culture_conversion_time = -0.5
 		global_institution_spread = -0.20
-		relation_with_heathens = -300
-		reverse_relation_with_heathen_religion = -300
 		diplomats = -2
 		global_manpower_modifier = 0.25
 		num_accepted_cultures = -5

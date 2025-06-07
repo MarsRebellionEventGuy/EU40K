@@ -1905,7 +1905,7 @@ XLV_ideas = {
 	free = yes
 	
 	XLV_ideas_1 = {
-		colonist = 1
+		colonists = 1
 	}
 	XLV_ideas_2 = {
 		colony_development_boost = 1
