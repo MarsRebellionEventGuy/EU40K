@@ -67,3 +67,35 @@ music = {
 	name = "what_awaits"
 	file = "what_awaits.ogg"
 }
+music = {
+	name = "clad_at_dusk"
+	file = "clad_at_dusk.ogg"
+}
+music = {
+	name = "immortal_song"
+	file = "immortal_song.ogg"
+}
+music = {
+	name = "ave_dominus_nox"
+	file = "ave_dominus_nox.ogg"
+}
+music = {
+	name = "retribution_song"
+	file = "retribution_song.ogg"
+}
+music = {
+	name = "we_walk_in_his_eternal_shadow"
+	file = "we_walk_in_his_eternal_shadow.ogg"
+}
+music = {
+	name = "neteru"
+	file = "neteru.ogg"
+}
+music = {
+	name = "destroyer_song"
+	file = "destroyer_song.ogg"
+}
+music = {
+	name = "parabellum_song"
+	file = "parabellum_song.ogg"
+}
