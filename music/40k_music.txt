@@ -1,0 +1,276 @@
+
+song = {
+	name = "sol_invictus" #Legio Symphonica / https://www.youtube.com/channel/UC0v74VkAuYXMRNryAeNNimw
+	
+	chance = {
+		modifier = {
+			factor = 1
+			tag = XXA
+		}		
+	}
+}
+
+song = {
+	name = "iron_without" #Legio Symphonica / https://www.youtube.com/watch?v=9zHhsEXjqkM 
+
+	chance = {
+		modifier = {
+			factor = 1
+			tag = XXA
+		}		
+	}
+}
+
+song = {
+	name = "from_iron_cometh_strength" #Legio Symphonica / https://www.youtube.com/watch?v=1UGG6QuDwq8
+	
+	chance = {
+		modifier = {
+			factor = 1
+			tag = XIF
+		}		
+	}
+}
+
+song = {
+	name = "never_a_silent_night" #Warhammer 40K Official
+	
+	chance = {
+		modifier = {
+			factor = 1
+			tag = XXA
+		}		
+	}
+}
+
+song = {
+	name = "praetores_de_sanctus_pella" #Legio Symphonica / https://www.youtube.com/watch?v=zrfQTCpPeBg
+	
+	chance = {
+		modifier = {
+			factor = 1
+			tag = XXA
+		}		
+	}
+}
+
+song = {
+	name = "quia_sunt_malleo" #Legio Symphonica / https://www.youtube.com/watch?v=3dZBk7FWJR8   https://www.youtube.com/watch?v=YuHvoSeItT4
+	
+	chance = {
+		modifier = {
+			factor = 2
+			tag = XXA
+		}		
+	}
+}
+
+song = {
+	name = "magna_tizca" #Legio Symphonica /  https://www.youtube.com/watch?v=YuHvoSeItT4
+	
+	chance = {
+		modifier = {
+			factor = 1
+			tag = XXA
+		}		
+	}
+}
+
+song = {
+	name = "mors_mihi_lucrum" #Legio Symphonica /  https://www.youtube.com/watch?v=-JLv-XkPNS0
+	
+	chance = {
+		modifier = {
+			factor = 100
+			tag = XOK
+		}	
+		modifier = {
+			factor = 1
+			tag = XXA
+		}		
+	}
+}
+
+song = {
+	name = "landfall_song" #Legio Symphonica /  https://www.youtube.com/watch?v=GVIDGjZ0F50
+	
+	chance = {
+		modifier = {
+			factor = 10
+			tag = XGK
+		}	
+		modifier = {
+			factor = 1
+			tag = XXA
+		}		
+	}
+}
+
+song = {
+	name = "the_unescapable_truth" #Legio Symphonica /  https://www.youtube.com/watch?v=MKU3ba7SwZA
+	
+	chance = {
+		modifier = {
+			factor = 1
+			tag = XXA
+		}		
+	}
+}
+
+song = {
+	name = "a_sacred_oath" #Legio Symphonica /  https://www.youtube.com/watch?v=BTd6dcj6k8M
+	
+	chance = {
+		modifier = {
+			factor = 1
+			tag = XXA
+		}		
+	}
+}
+
+song = {
+	name = "in_inceptum_finis_est" #Legio Symphonica /  https://www.youtube.com/watch?v=KFWSPNFeUfQ
+	
+	chance = {
+		modifier = {
+			factor = 10
+			tag = XGK
+		}	
+		modifier = {
+			factor = 1
+			tag = XXA
+		}		
+	}
+}
+
+song = {
+	name = "burning_skies" #Legio Symphonica /  https://www.youtube.com/watch?v=4KJs9b7cWOQ
+	
+	chance = {
+		modifier = {
+			factor = 10
+			tag = XGK
+		}	
+		modifier = {
+			factor = 1
+			tag = XXA
+		}		
+	}
+}
+
+song = {
+	name = "echoes_of_the_past" #Legio Symphonica /  https://www.youtube.com/watch?v=f35rFulcemk
+	
+	chance = {
+		modifier = {
+			factor = 1
+			tag = XXA
+		}		
+	}
+}
+
+song = {
+	name = "winter_assault" #Legio Symphonica /  https://www.youtube.com/watch?v=wBXXcpsBgv4
+	
+	chance = {
+		modifier = {
+			factor = 1
+			tag = XXA
+		}		
+	}
+}
+
+song = {
+	name = "what_awaits" #Legio Symphonica /  https://www.youtube.com/watch?v=v83W4M9Sqqg
+	
+	chance = {
+		modifier = {
+			factor = 1
+			tag = XXA
+		}		
+	}
+}
+
+song = {
+	name = "clad_at_dusk" #Legio Symphonica / https://www.youtube.com/watch?v=4rWCeo6Xadw
+	
+	chance = {
+		modifier = {
+			factor = 100
+			culture = drukhari_culture
+		}		
+	}
+}
+song = {
+	name = "immortal_song" #Legio Symphonica / https://www.youtube.com/watch?v=pocf8rJEGEw
+	
+	chance = {
+		modifier = {
+			factor = 100
+			culture = necron_culture
+		}		
+	}
+}
+
+song = {
+	name = "ave_dominus_nox" #Legio Symphonica / https://www.youtube.com/watch?v=A3n-M6eBp4g
+	
+	chance = {
+		modifier = {
+			factor = 1
+			tag = XXA
+		}		
+	}
+}
+
+song = {
+	name = "retribution_song" #Legio Symphonica / https://www.youtube.com/watch?v=AgWPE0-rAms
+	
+	chance = {
+		modifier = {
+			factor = 1
+			culture_group = imperial_culture_group
+		}		
+	}
+}
+
+song = {
+	name = "we_walk_in_his_eternal_shadow" #Legio Symphonica / https://www.youtube.com/watch?v=5TGVC0y5meY
+	
+	chance = {
+		modifier = {
+			factor = 1
+			culture_group = imperial_culture_group
+		}		
+	}
+}
+song = {
+	name = "neteru" #Legio Symphonica / https://www.youtube.com/watch?v=HPkxrhHvQKk
+	
+	chance = {
+		modifier = {
+			factor = 100
+			culture = necron_culture
+		}		
+	}
+}
+song = {
+	name = "destroyer_song" #Legio Symphonica / https://www.youtube.com/watch?v=JF305ZPgpMA
+	
+	chance = {
+		modifier = {
+			factor = 100
+			culture = necron_culture
+		}		
+	}
+}
+song = {
+	name = "parabellum_song" #Legio Symphonica / https://www.youtube.com/watch?v=pNo6w0M1bSo
+	
+	chance = {
+		modifier = {
+			factor = 100
+			culture_group = imperial_culture_group
+		}		
+	}
+}

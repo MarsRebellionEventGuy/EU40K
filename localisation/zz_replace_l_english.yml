@@ -446,6 +446,13 @@ estate_necron_nobles_ownership:0 "Lords Land Ownership"
  imperium_TI_Throne_Integity_95: "Has §YGolden Throne Integrity§! below 95"
  imperium_TI_Throne_Integity_85: "Has §YGolden Throne Integrity§! below 85"
  
+ XXA_cordon_impenetra_title: "Cordon Impenetra"
+ XXA_cordon_impenetra_desc: "The Cordon Impenetra is a blockade around the Octavius Sector to keep the Orks and Tyranids fighting. Securing this Cordon is the first step in ending the threat from both powers."
+ XXA_torchbearer_fleets_title: "Torchbearer Fleets"
+ XXA_holding_approch_title: "Holding the Approach"
+ XXA_protect_fenris_title: "Protection of Fenris"
+ XXA_damaged_imperium_title: "A Damaged Imperium"
+ 
  low_heka_action_tt: "Delegate Authority"
  high_heka_action_tt: "Declare Hekatic Truth"
  heka_action_notavailable:0 "You can only use a §YHekatic Action§! once every §Y5§! years."
@@ -603,36 +610,3 @@ living_metal_battleships_desc:0 "Our armada's sheer superiority in combat agains
 
 tyran_province_modifier:0 "Tyran"
 tyran_province_modifier_desc:0 "Twelve score and sixteen years ago, on the far-flung Mechanicus research station at Tyran, humanity was faced with a novel interstellar enemy, one which multiplies and prospers on the primal instinct of consumption. It was here that the Tyranid menace was first encountered and the history of the galaxy changed forever."
-
-#Music Localization
-
-children_of_the_omnissiah:0 "Children of the Omnissiah"
-immortal_imperium:0 "Immortal Imperium"
-sol_invictus:0 "Sol Invictus"
-iron_without:0 "Iron Without"
-from_iron_cometh_strength:0 "From Iron Cometh Strength"
-never_a_silent_night:0 "Never a Silent Night"
-praetores_de_sanctus_pella:0 "Praetores de Sanctus Pella"
-quia_sunt_malleo:0 "Quia Sunt Malleo"
-magna_tizca:0 "Magna Tizca"
-mors_mihi_lucrum:0 "Mors Mihi Lucrum"
-landfall_song:0 "Landfall"
-the_unescapable_truth:0 "The Unescapable Truth"
-a_sacred_oath:0 "A Sacred Oath"
-in_inceptum_finis_est:0 "In Inceptum Finis Est"
-burning_skies:0 "Burning Skies"
-echoes_of_the_past:0 "Echoes of the Past"
-winter_assault:0 "Winter Assault"
-what_awaits:0 "What Awaits"
-clad_at_dusk:0 "Clad at Dusk"
-immortal_song:0 "Immortal"
-ave_dominus_nox:0 "Ave Dominus Nox"
-retribution_song:0 "Retribution"
-we_walk_in_his_eternal_shadow:0 "We Walk in his Eternal Shadow"
-neteru:0 "Neteru"
-destroyer_song:0 "Destroyer"
-parabellum_song:0 "Parabellum"
-
-CHANNEL_music_040Kmusic:0 "40K Suite"
-
-
