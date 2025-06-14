@@ -245,17 +245,17 @@ province_event = {
 	}
 	
 	option = {
-		name = "indomitus_general.8.a"
-		cede_province = XXB
-		add_territorial_core = XXB
+		name = "indomitus_general.8.b"
+		cede_province = event_target:adeptus_mechanicus_tag
+		add_territorial_core = event_target:adeptus_mechanicus_tag
 		remove_core = XXA
 		set_province_flag = XXA_Forge_World_Decision
 	}
 	option = {
-		name = "indomitus_general.8.b"
+		name = "indomitus_general.8.a"
 		owner = {
 			add_trust = {
-				who = XXB
+				who = event_target:adeptus_mechanicus_tag
 				value = -5
 			}
 		}

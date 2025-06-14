@@ -452,6 +452,16 @@ estate_necron_nobles_ownership:0 "Lords Land Ownership"
  XXA_holding_approch_title: "Holding the Approach"
  XXA_protect_fenris_title: "Protection of Fenris"
  XXA_damaged_imperium_title: "A Damaged Imperium"
+ XXA_purging_corruption_title: "Purging the Corruption"
+ XXA_rebuilding_damaged_worlds_title: "Rebuilding Damaged Worlds"
+ XXA_Cawls_project_title: "Cawls Project"
+ XXA_complete_primaris_title: "Complete Primaris"
+ XXA_orpheus_aid_title: "Aid to Orpheus"
+ XXA_secure_nachmund_rift_title: "Secure The Nachmund Rift"
+ XXA_returning_to_nullus_title: "Returning to Nullus"
+ XXA_saving_styguis_title: "Saving Styguis Sector"
+ 
+ 
  
  low_heka_action_tt: "Delegate Authority"
  high_heka_action_tt: "Declare Hekatic Truth"
