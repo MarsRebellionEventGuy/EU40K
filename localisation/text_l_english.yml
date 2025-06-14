@@ -551,8 +551,6 @@
  naval_suppliesDESC:0 "Naval Supplies represent everything needed in ship construction, from basic wood to tar, ropes, linen, sails, and various other materials. The Baltic was initially the main supplier until North America became an alternate source of supply in the early 18th century. Colonial expansion into America was in part to secure supplies of such vital goods."
  salt:0 "Salt"
  saltDESC:0 "Salt is essential for human life. In addition it was the most common means to preserve food for the long winter months. It was either mineral, brought from mines in Central Europe, or natural, from salt marsh production via evaporation along sunny coastlines."
- slaves:0 "Slaves"
- slavesDESC:0 "Slaves had been a trading commodity since Antiquity but demand increased sharply in the late 16th century when Slaves offered one of the cheapest sources of labor for European plantations in the Americas."
  spices:0 "Spices"
  spicesDESC:0 "Spices were known in Europe since ancient times, mostly for their medicinal value, and for their ability to improve the taste of food. Pepper, ginger, nutmeg, chili, cinnamon, etc. came partly from East Africa but mostly from India, China, and the Spice Islands (current Indonesia), to be traded in Alexandria or the other terminals of the great caravan roads. The European desire for cheaper and more direct supply constituted the main motivation for the very first eastbound sea voyages of discoveries for Portugal."
  sugar:0 "Sugar"

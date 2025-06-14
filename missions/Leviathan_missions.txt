@@ -1,0 +1,1892 @@
+Leviathan_Branch_5 = { 
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		tag = XYB
+	}
+
+Leviathan_34 = { #Appetizer
+		icon = mission_noctis
+		required_missions = { }
+		position = 1
+		
+		provinces_to_highlight = {
+			}
+		
+		
+		trigger = {
+			dominant_religion = tyranid
+			num_of_owned_provinces_with = {
+				value = 100
+				culture = root
+				religion = root
+			}
+		
+			}
+		
+		
+		effect = {
+		
+		add_country_modifier = {
+			name = tyr_morfi_1
+			duration = -1
+			}	
+			extend_golden_age = 50
+				
+			
+		}
+
+	}
+
+Leviathan_35 = { #Menu
+		icon = mission_noctis
+		required_missions = { Leviathan_34 }
+		position = 2
+		
+		provinces_to_highlight = {
+			}
+		
+		
+		trigger = {
+			dominant_religion = tyranid
+			num_of_owned_provinces_with = {
+				value = 200
+				culture = root
+				religion = root
+			}
+		
+			}
+		
+		
+		effect = {
+		
+		add_country_modifier = {
+			name = tyr_morfi_2
+			duration = -1
+			}		
+			remove_country_modifier = tyr_morfi_1
+			extend_golden_age = 50
+		}
+
+		
+		
+	}
+
+Leviathan_36 = { #Feast
+		icon = mission_noctis
+		required_missions = { Leviathan_35 }
+		position = 3
+		
+		provinces_to_highlight = {
+			}
+		
+		
+		trigger = {
+			dominant_religion = tyranid
+			num_of_owned_provinces_with = {
+				value = 300
+				culture = root
+				religion = root
+			}
+		
+			}
+		
+		
+		effect = {
+		
+		add_country_modifier = {
+			name = tyr_morfi_3
+			duration = -1
+			}		
+			remove_country_modifier = tyr_morfi_2
+			extend_golden_age = 50
+		}
+
+		
+		
+	}
+
+Leviathan_37 = { #Banquet
+		icon = mission_noctis
+		required_missions = { Leviathan_36 }
+		position = 4
+		
+		provinces_to_highlight = {
+			}
+		
+		
+		trigger = {
+			dominant_religion = tyranid
+			num_of_owned_provinces_with = {
+				value = 400
+				culture = root
+				religion = root
+			}
+		
+			}
+		
+		
+		effect = {
+		
+		add_country_modifier = {
+			name = tyr_morfi_4
+			duration = -1
+			}		
+			remove_country_modifier = tyr_morfi_3
+			extend_golden_age = 50
+		}
+
+		
+		
+	}
+
+Leviathan_38 = { #Buffet
+		icon = mission_noctis
+		required_missions = { Leviathan_37 }
+		position = 5
+		
+		provinces_to_highlight = {
+			}
+		
+		
+		trigger = {
+			dominant_religion = tyranid
+			num_of_owned_provinces_with = {
+				value = 500
+				culture = root
+				religion = root
+			}
+		
+			}
+		
+		
+		effect = {
+		
+		add_country_modifier = {
+			name = tyr_morfi_5
+			duration = -1
+			}		
+			remove_country_modifier = tyr_morfi_4
+			extend_golden_age = 50
+		}
+
+		
+		
+	}
+}
+
+Leviathan_Branch_1 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = XYB
+	}
+	has_country_shield = yes
+
+
+Leviathan_1 = { #Octarius Prologue
+		icon = mission_noctis
+		required_missions = { }
+		position = 1
+		
+		provinces_to_highlight = {
+			OR = {
+			area = veloria_planet
+			area = pankallis_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			is_city = yes
+		}
+		
+		trigger = {
+			4034 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			4033 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			4026 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			4027 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			4028 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		
+		effect = {
+			add_prestige = 20
+			change_government_reform_progress = 50
+			4034 = {
+				add_core = ROOT
+				remove_core = XTF
+			}
+			4033 = {
+				add_core = ROOT
+			}
+			4026 = {
+				add_core = ROOT
+				remove_core = XTG
+			}
+			4027 = {
+				add_core = ROOT
+				remove_core = XTG
+			}
+			4028 = {
+				add_core = ROOT
+				remove_core = XTG
+			}
+			calverna = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+
+			407 = {add_permanent_claim = ROOT}
+
+			477 = {add_permanent_claim = ROOT}
+
+			arkios = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+
+			336 = {add_permanent_claim = ROOT}
+			
+			1074 = {add_permanent_claim = ROOT}
+
+		}
+	}
+
+	
+
+}
+
+Leviathan_Branch_2 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = XYB
+	}
+	has_country_shield = yes
+
+
+
+	Leviathan_6 = { #Ork Waaagh
+		icon = mission_imperial_flagship
+		required_missions = { Leviathan_1 }
+		position = 2
+		
+		provinces_to_highlight = {
+			owner = {
+				tag = XXD
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			is_city = yes
+		}
+		
+		trigger = {
+			arkios = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			336 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			1074 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		
+		effect = {
+			add_mil_power = 100
+			add_army_tradition = 25
+			ryza = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	Leviathan_7 = { #Expunge
+		icon = mission_logisticarum
+		required_missions = { Leviathan_6 }
+		position = 3
+		
+		provinces_to_highlight = {
+			owner = {
+				tag = XOJ
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			is_city = yes
+		}
+		
+		trigger = {
+			ryza = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		
+		effect = {
+			add_years_of_income = 1.5
+			benediction_planet = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			veritus = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	Leviathan_8 = { #Veritus
+		icon = mission_library_macragge
+		required_missions = { Leviathan_7 }
+		position = 4
+		
+		provinces_to_highlight = {
+			owner = {
+				tag = XTB
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			is_city = yes
+		}
+		
+		trigger = {
+
+			benediction_planet = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			veritus = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		
+		effect = {
+			1 = {
+			owner = {add_mandate = -10}
+		}
+			add_mil_power = 50
+			add_stability_or_adm_power = yes
+			add_yearly_manpower = 1
+			4040 = {
+				add_permanent_claim = ROOT
+			}
+			3152 = {
+				add_permanent_claim = ROOT
+			}
+			4029 = {
+				add_permanent_claim = ROOT
+			}
+			4037 = {
+				add_permanent_claim = ROOT
+			}
+			1065 = {
+				add_permanent_claim = ROOT
+			}
+			1069 = {
+				add_permanent_claim = ROOT
+			}
+			4045 = {
+				add_permanent_claim = ROOT
+			}
+			4042 = {
+				add_permanent_claim = ROOT
+			}
+			4043 = {
+				add_permanent_claim = ROOT
+			}
+			1068 = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+Leviathan_9 = { #Remnants of an Army
+		icon = mission_new_kingdom
+		required_missions = { Leviathan_8 }
+		position = 5
+		
+		provinces_to_highlight = {
+			owner = {
+				tag = XYN
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			is_city = yes
+		}
+		
+		trigger = {
+					4040 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+					3152 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+					4029 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+					4037 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+					1065 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+					1069 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+					4045 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+					4042 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+					4043 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+					1068 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+		
+		effect = {
+		
+			add_mil_power = 50
+			add_sailors = 5000
+
+			mars_planet = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+				}
+			}
+		}
+	}
+
+Leviathan_Branch_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = XYB
+	}
+	has_country_shield = yes
+
+Leviathan_10 = { #The Red Planet
+		icon = mission_hive_mind_synapse
+		required_missions = { Leviathan_9 Leviathan_5 }
+		position = 6
+
+		
+		provinces_to_highlight = {
+			owner = {
+				tag = XTE
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			is_city = yes
+		}
+		
+		trigger = {
+					2 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+					
+				}
+		
+		effect = {
+		1 = {
+			owner = {add_mandate = -25}
+		}
+			add_mil_power = 50
+			change_government_reform_progress = 100
+			change_mil = 1
+			add_estate_loyalty = {
+				estate = estate_synapses
+				loyalty = 15
+			}
+		
+			solar = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+				}
+
+			jupiter = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+				}
+
+			saturn = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+				}
+			}
+		}
+
+Leviathan_11 = { #Terra
+		icon = mission_chapter_peasant
+		required_missions = { Leviathan_10 }
+		position = 7
+		
+		provinces_to_highlight = {
+			OR = {
+				area = solar
+				area = jupiter
+				area = saturn
+			}
+
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			is_city = yes
+			
+		}
+		
+		trigger = {
+					num_of_provinces_owned_or_owned_by_subjects_with = {
+				value = 15
+				area = solar
+				area = jupiter
+				area = saturn
+				1 = {
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			}
+					
+				}
+		
+		effect = {
+		
+			add_mil_power = 500
+			add_estate_loyalty = {
+				estate = estate_synapses
+				loyalty = 33
+			}
+		segmentum_solar = {
+			limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+		}
+			dismantle_empire_of_china = yes
+			destroy_great_project = {
+    		type = golden_throne
+			}
+			set_government_rank = 3
+			}
+		}
+	
+Leviathan_14 = { #North
+		icon = mission_voidship
+		required_missions = { Leviathan_11 }
+		position = 8
+		
+		provinces_to_highlight = {
+			
+		}
+		
+		trigger = { 
+			share_of_starting_income = 3
+			army_size_percentage = 1
+			1 = {religion = tyranid}
+			2 = {religion = tyranid}
+		}
+
+		
+		effect = {
+			change_estate_land_share = {
+				estate = estate_synapses
+				share = -10
+			}
+				hydraphur_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+
+		}
+	}
+
+Leviathan_19 = { #Take-Over
+		icon = mission_astra_militarum
+		required_missions = { Leviathan_14 }
+		position = 9
+		
+		provinces_to_highlight = {
+			area = hydraphur_planet
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		
+		trigger = {
+			hydraphur_planet = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+				is_city = yes
+			}
+
+		}
+
+		
+		effect = {
+			1123 = {
+					create_flagship = {
+						name = "Kraken"
+						type = heavy_ship
+					}
+			}
+			agripinaa_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+					owner = {tag = XZT}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+Leviathan_20 = { #Gatekeeper 
+		icon = mission_hybrids
+		required_missions = { Leviathan_19 }
+		position = 10
+		
+		provinces_to_highlight = {
+			OR = {
+				area = sangua_terra_planet
+				area = agripinaa_planet
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		
+		trigger = {
+			sangua_terra_planet = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			agripinaa_planet = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+		}
+		
+		effect = {
+			add_mil_power = 300
+			medusan_reach_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+Leviathan_21 = { #Medusa's Gaze
+		icon = mission_genestealer_revolution
+		required_missions = { Leviathan_20 }
+		position = 11
+		
+		provinces_to_highlight = {
+			
+			region = medusan_reach_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			is_city = yes
+
+		}
+		
+		trigger = {
+
+			medusan_reach_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+				is_city = yes
+			}
+
+		}
+		
+		effect = {
+			add_reform_progress_big_effect = yes
+			segmentum_obscurus = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+					is_city = yes
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+Leviathan_22 = { #Obscurity
+		icon = mission_genestealer_propaganda
+		required_missions = { Leviathan_21 }
+		position = 12
+		
+		provinces_to_highlight = {
+			
+			OR = {
+			region = hydraphur_region
+			region = agripinaa_region
+			region = medusan_reach_region
+			region = calixis_region
+			region = askellon_region
+			region = stryken_region
+			region = nachmund_region
+			region = stygius_region
+			region = grail_abyss_region
+			region = gothic_region
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			is_city = yes
+
+		}
+		
+		trigger = {
+
+			num_of_provinces_owned_or_owned_by_subjects_with = {
+				value = 85
+			region = hydraphur_region
+			region = agripinaa_region
+			region = medusan_reach_region
+			region = calixis_region
+			region = askellon_region
+			region = stryken_region
+			region = nachmund_region
+			region = stygius_region
+			region = grail_abyss_region
+			region = gothic_region
+
+
+		}
+	}
+		effect = {
+
+			milkyway = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+					owner = {tag = XMT}
+				}
+				add_permanent_claim = ROOT
+			}
+			
+			add_country_modifier = {
+				name = tyr_obscurus
+				duration = -1
+			}
+		}
+	}
+
+Leviathan_23 = { #Back to the Motherland
+		icon = mission_praecental_guard
+		required_missions = { Leviathan_22 }
+		position = 13
+		
+		provinces_to_highlight = {
+			
+			owner = {tag = XMT}
+
+		}
+		
+		trigger = {
+
+			NOT = { exists = XMT }
+
+		}
+	
+		effect = {
+			add_yearly_manpower = 2
+		palatine_region = {
+			limit = {
+				NOT = { is_core = ROOT }
+				NOT = { is_permanent_claim = ROOT }
+			}
+			add_permanent_claim = ROOT
+		}
+		red_scar_region = {
+			limit = {
+				NOT = { is_core = ROOT }
+				NOT = { is_permanent_claim = ROOT }
+			}
+			add_permanent_claim = ROOT
+		}
+		manachea_region = {
+			limit = {
+				NOT = { is_core = ROOT }
+				NOT = { is_permanent_claim = ROOT }
+			}
+			add_permanent_claim = ROOT
+		}
+		coronid_deeps_region = {
+			limit = {
+				NOT = { is_core = ROOT }
+				NOT = { is_permanent_claim = ROOT }
+			}
+			add_permanent_claim = ROOT
+		}
+		pelegron_cluster_region = {
+			limit = {
+				NOT = { is_core = ROOT }
+				NOT = { is_permanent_claim = ROOT }
+			}
+			add_permanent_claim = ROOT
+		}
+		phantax_region = {
+			limit = {
+				NOT = { is_core = ROOT }
+				NOT = { is_permanent_claim = ROOT }
+			}
+			add_permanent_claim = ROOT
+		}
+		fenright_region = {
+			limit = {
+				NOT = { is_core = ROOT }
+				NOT = { is_permanent_claim = ROOT }
+			}
+			add_permanent_claim = ROOT
+		}
+		nostramo_region = {
+			limit = {
+				NOT = { is_core = ROOT }
+				NOT = { is_permanent_claim = ROOT }
+			}
+			add_permanent_claim = ROOT
+		}
+		huda_gulf_region = {
+			limit = {
+				NOT = { is_core = ROOT }
+				NOT = { is_permanent_claim = ROOT }
+			}
+			add_permanent_claim = ROOT
+		}
+		ghoul_stars_region = {
+			limit = {
+				NOT = { is_core = ROOT }
+				NOT = { is_permanent_claim = ROOT }
+			}
+			add_permanent_claim = ROOT
+		}
+		gulgorahd_region = {
+			limit = {
+				NOT = { is_core = ROOT }
+				NOT = { is_permanent_claim = ROOT }
+			}
+			add_permanent_claim = ROOT
+		}
+		thramas_region = {
+			limit = {
+				NOT = { is_core = ROOT }
+				NOT = { is_permanent_claim = ROOT }
+			}
+			add_permanent_claim = ROOT
+		}
+		chalnath_expanse_region = {
+			limit = {
+				NOT = { is_core = ROOT }
+				NOT = { is_permanent_claim = ROOT }
+			}
+			add_permanent_claim = ROOT
+		}
+		ullanor_region = {
+			limit = {
+				NOT = { is_core = ROOT }
+				NOT = { is_permanent_claim = ROOT }
+			}
+			add_permanent_claim = ROOT
+		}
+		nepthis_region = {
+			limit = {
+				NOT = { is_core = ROOT }
+				NOT = { is_permanent_claim = ROOT }
+			}
+			add_permanent_claim = ROOT
+		}
+		triplex_region = {
+			limit = {
+				NOT = { is_core = ROOT }
+				NOT = { is_permanent_claim = ROOT }
+			}
+			add_permanent_claim = ROOT
+		}
+		bakhar_region = {
+			limit = {
+				NOT = { is_core = ROOT }
+				NOT = { is_permanent_claim = ROOT }
+			}
+			add_permanent_claim = ROOT
+			}
+		}
+	}
+
+Leviathan_24 = { #Dawnbringer
+		icon = mission_great_crusade
+		required_missions = { Leviathan_23 }
+		position = 14
+		
+		provinces_to_highlight = {
+			
+			OR = {
+			region = red_scar_region
+			region = manachea_region
+			region = coronid_deeps_region
+			region = pelegron_cluster_region
+			region = phantax_region
+			region = fenright_region
+			region = nostramo_region
+			region = huda_gulf_region
+			region = ghoul_stars_region
+			region = gulgorahd_region
+			region = thramas_region
+			region = chalnath_expanse_region
+			region = ullanor_region
+			region = nepthis_region
+			region = triplex_region
+			region = bakhar_region
+			region = hydraphur_region
+			region = agripinaa_region
+			region = medusan_reach_region
+			region = calixis_region
+			region = askellon_region
+			region = stryken_region
+			region = nachmund_region
+			region = stygius_region
+			region = grail_abyss_region
+			region = gothic_region
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			is_city = yes
+
+		}
+		
+		trigger = {
+
+			num_of_provinces_owned_or_owned_by_subjects_with = {
+				value = 200
+			region = hydraphur_region
+			region = agripinaa_region
+			region = medusan_reach_region
+			region = calixis_region
+			region = askellon_region
+			region = stryken_region
+			region = nachmund_region
+			region = stygius_region
+			region = grail_abyss_region
+			region = gothic_region
+			region = hydraphur_region
+			region = agripinaa_region
+			region = medusan_reach_region
+			region = calixis_region
+			region = askellon_region
+			region = stryken_region
+			region = nachmund_region
+			region = stygius_region
+			region = grail_abyss_region
+			region = gothic_region
+
+			}
+		}
+		effect = {
+
+			add_years_of_income = 3
+			add_stability_or_adm_power = yes
+			add_country_modifier = {
+				name = tyr_nothing
+				duration = -1
+			}
+
+		}
+	}
+
+Leviathan_33 = { #The Great Devouring
+		icon = mission_noctis
+		required_missions = { Leviathan_24 Leviathan_32 Leviathan_26}
+		position = 15
+		
+		provinces_to_highlight = {
+			
+			OR = {
+			continent = milkyway
+			continent = segmentum_rift
+			continent = webway
+			}
+			
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			is_city = yes
+
+		}
+		
+		trigger = {
+
+		NOT = {
+			any_province = {
+				is_empty = no
+				is_wasteland = no
+				NOT = { religion = tyranid }
+			}
+		}	
+		}
+
+		
+		effect = {
+
+			add_years_of_income = 7
+			add_stability = 6
+			add_yearly_manpower = 7
+			add_country_modifier = {
+				name = deluge
+				duration = -1
+			}
+
+		}
+	}
+
+}
+
+Leviathan_Branch_4 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = XYB
+	}
+	has_country_shield = yes
+
+	Leviathan_2 = { #Calverna's Calvary
+		icon = mission_orks
+		required_missions = { Leviathan_1 }
+		position = 2
+		
+		provinces_to_highlight = {
+			OR = {
+			province_id = 407 
+			province_id = 477
+			area = calverna
+			}
+			
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			is_city = yes
+		}
+		
+		trigger = {
+			calverna = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			477 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			407 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		
+		effect = {
+			add_mil_power = 150
+			change_government_reform_progress = 40
+			eastern_necromunda = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			western_necromunda = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+
+Leviathan_3 = { #Necromunda
+		icon = mission_green_world
+		required_missions = { Leviathan_2 }
+		position = 2
+		
+		provinces_to_highlight = {
+			OR = {
+			area = eastern_necromunda
+			area = western_necromunda
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			is_city = yes
+		}
+		
+		trigger = {
+			eastern_necromunda = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			western_necromunda = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		
+		effect = {
+			add_mil_power = 150
+			add_country_modifier = {
+				name = necromundas_bane
+				duration = 1444
+			}
+			nox_alpha = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+Leviathan_4 = { #Nox Alpha
+		icon = mission_starfort
+		required_missions = { Leviathan_3 }
+		position = 2
+		
+		provinces_to_highlight = {
+			area = nox_alpha
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			is_city = yes
+		}
+		
+		trigger = {
+			nox_alpha = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		
+		effect = {
+			add_adm_power = 200
+			add_stability_or_adm_power = yes
+			atoma_prime = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			
+	}
+}
+
+Leviathan_5 = { #Atoma Prime
+		icon = mission_necromunda
+		required_missions = { Leviathan_4 }
+		position = 2
+		
+		provinces_to_highlight = {
+			area = atoma_prime
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			is_city = yes
+		}
+		
+		trigger = {
+			atoma_prime = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		
+		effect = {
+			add_mil_power = 250
+			
+		}
+	}
+}
+
+Leviathan_Branch_7 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = XYB
+	}
+
+	Leviathan_12 = { #West
+		icon = mission_aspirant
+		required_missions = { Leviathan_11 }
+		position = 8
+		
+		provinces_to_highlight = {
+			
+		}
+		
+		trigger = {
+			grown_by_development = 400
+		
+		}
+		
+		effect = {
+		change_estate_land_share = {
+				estate = estate_synapses
+				share = -10
+			}
+			orpheus_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+Leviathan_15 = { #Orpheusian Nights
+		icon = mission_tetrarchy
+		required_missions = { Leviathan_12 }
+		position = 9
+		
+		provinces_to_highlight = {
+			region = orpheus_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			is_city = yes
+		}
+		
+		trigger = {
+			num_of_provinces_owned_or_owned_by_subjects_with = {
+				value = 25
+				region = orpheus_region
+		
+			}
+	}
+		
+		effect = {
+			change_adm = 1
+		cadian_gate = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			segmentum_pacificus = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+Leviathan_16 = { #Into the Eye
+		icon = mission_hub_fort
+		required_missions = { Leviathan_15 }
+		position = 10
+		
+		provinces_to_highlight = {
+			area = cadian_gate
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			is_city = yes
+		}
+		
+		trigger = {
+			cadian_gate = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+				is_city = yes
+			}
+		}
+		
+		effect = {
+
+		segmentum_rift = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			
+		}
+	}
+
+Leviathan_17 = { #Stormrazor
+		icon = mission_terra
+		required_missions = { Leviathan_16 }
+		position = 11
+		
+		provinces_to_highlight = {
+			continent = segmentum_rift
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			is_city = yes
+		}
+		
+		trigger = {
+			segmentum_rift = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+				is_city = yes
+			}
+		}
+		
+		effect = {
+
+		commorragh_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			
+			add_country_modifier = {
+				name = tyr_eye_control
+				duration = -1
+			}
+
+		}
+	}
+
+Leviathan_18 = { #Maze Runner
+		icon = mission_genestealer_diplomacy
+		required_missions = { Leviathan_17 }
+		position = 12
+		
+		provinces_to_highlight = {
+			region = commorragh_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			is_city = yes
+		}
+		
+		trigger = {
+			commorragh_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+				is_city = yes
+			}
+		}
+		
+		effect = {
+			
+		webway = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			
+		}
+	}
+
+Leviathan_25 = { #Pacifier
+		icon = mission_chapter_ultramarines
+		required_missions = { Leviathan_18 }
+		position = 13
+		
+		provinces_to_highlight = {
+			OR = {
+			region = salient_stars_region 
+			region = macharia_region 
+			region = sabbat_worlds_region 
+			region = laanah_rifts_region 
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			is_city = yes
+		}
+		
+		trigger = {
+			num_of_provinces_owned_or_owned_by_subjects_with = {
+				value = 50
+				region = salient_stars_region 
+				region = macharia_region 
+				region = sabbat_worlds_region 
+				region = laanah_rifts_region 
+		
+			}
+		}
+		
+		effect = {
+		add_army_professionalism = 0.1
+		uhulis_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			amerikon_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			caradryad_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			yarokin_veil_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			talis_munus_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			trail_evisser_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			
+		}
+	}
+
+Leviathan_26 = { #Best in the West
+		icon = mission_imperial_nobles
+		required_missions = { Leviathan_25 }
+		position = 14
+		
+		provinces_to_highlight = {
+			OR = {
+			region = salient_stars_region 
+			region = macharia_region 
+			region = sabbat_worlds_region 
+			region = laanah_rifts_region 
+			region = uhulis_region
+			region = amerikon_region
+			region = caradryad_region
+			region = yarokin_veil_region
+			region = talis_munus_region
+			region = trail_evisser_region
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			is_city = yes
+			}
+		
+		
+		trigger = {
+			num_of_provinces_owned_or_owned_by_subjects_with = {
+				value = 200
+				region = salient_stars_region 
+				region = macharia_region 
+				region = sabbat_worlds_region 
+				region = laanah_rifts_region 
+				region = uhulis_region
+				region = orpheus_region
+				region = amerikon_region
+				region = caradryad_region
+				region = yarokin_veil_region
+				region = talis_munus_region
+				region = trail_evisser_region
+				continent = webway
+				continent = segmentum_rift
+		
+			}
+		}
+		
+		effect = {
+		
+		add_country_modifier = {
+			name = best_in_the_west
+			duration = -1
+		}	
+			
+		add_years_of_owned_provinces_manpower = {
+		years = 3
+		trigger = {
+		religion = tyranid
+		owner = {tag = XYB}
+				}
+			}
+		
+			webway = {
+			discover_country = ROOT
+			}
+		}
+	}
+
+
+}
+
+Leviathan_Branch_6 = { 
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		tag = XYB
+	}
+
+	Leviathan_13 = { #East
+		icon = mission_locus
+		required_missions = { Leviathan_11 }
+		position = 8
+		
+		provinces_to_highlight = {
+			
+		}
+		
+		trigger = {
+			num_of_galley = 20
+			num_of_heavy_ship = 5 
+			has_flagship = yes
+			has_naval_doctrine = bio_ships
+		}
+
+		
+		effect = {
+			change_estate_land_share = {
+				estate = estate_synapses
+				share = -10
+			}
+				golgotha_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+					owner = {tag = XZT}
+				}
+				add_permanent_claim = ROOT
+			}
+
+			prosperan_rift_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+					owner = {tag = XZT}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+Leviathan_27 = { #Ghazghkull's Golgotha
+		icon = mission_orks
+		required_missions = { Leviathan_13 }
+		position = 9
+		
+		provinces_to_highlight = {
+			continent = milkyway
+			owner = {tag = XZT}
+			
+		}
+		
+		trigger = {
+				num_of_provinces_owned_or_owned_by_subjects_with = {
+				value = 10
+				region = golgotha_region
+				region = prosperan_rift_region
+		
+			}
+		}
+
+		
+		effect = {
+			change_adm = 1
+				galactic_core_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+Leviathan_28 = { #Kinslayer
+		icon = mission_kellermorph
+		required_missions = { Leviathan_27 }
+		position = 10
+		
+		provinces_to_highlight = {
+			region = galactic_core_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			is_city = yes
+			
+		}
+		
+		trigger = {
+				num_of_provinces_owned_or_owned_by_subjects_with = {
+				value = 15
+				region = galactic_core_region
+		
+			}
+		}
+
+		
+		effect = {
+
+			IF = {
+				limit = {
+				exists = AAC
+				}
+				milkyway = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+					owner = {tag = AAC}
+					
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+				add_manpower = 20
+				milkyway = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+					owner = {tag = XET}
+					
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+Leviathan_29 = { #Dead Silent
+		icon = mission_astropath
+		required_missions = { Leviathan_28 }
+		position = 11
+		
+		provinces_to_highlight = {
+			continent = milkyway
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			owner = {tag = XET}
+			
+			IF = {
+				limit = {
+				exists = AAC
+				continent = milkyway
+				NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				owner = {tag = AAC}
+				}
+		}
+	}
+		trigger = {
+				num_of_provinces_owned_or_owned_by_subjects_with = {
+				value = 11
+				region = nephilim_region
+		
+			}
+			1709 = { country_or_non_sovereign_subject_holds = ROOT}
+		}
+
+		
+		effect = {
+
+			IF = {
+				limit = {
+				exists = AAC
+				}
+				milkyway = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+					owner = {tag = AAC}
+					
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+				milkyway = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+					owner = {tag = XEV}
+					
+				}
+				add_permanent_claim = ROOT
+			}
+				add_prestige = 100
+				add_permanent_power_projection = { 
+					type = 25_permanent_power_projection
+					amount = 25
+					}
+				}
+
+				
+		}
+
+Leviathan_30 = { #Sautek's Folly
+		icon = mission_necron_warriors
+		required_missions = { Leviathan_29 }
+		position = 12
+		
+		provinces_to_highlight = {
+			continent = milkyway
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			owner = {tag = XEV}
+			
+			IF = {
+				limit = {
+				exists = AAC
+				continent = milkyway
+				NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				owner = {tag = AAC}
+				}
+		}
+	}
+		trigger = {
+				NOT = { exists = XEV }
+				NOT = { exists = AAC }
+				NOT = { exists = XET }
+			1931 = { country_or_non_sovereign_subject_holds = ROOT}
+		}
+
+		
+		effect = {
+			add_years_of_income = 2
+			tau_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+					
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+
+	}
+
+Leviathan_31 = { #Tautology
+		icon = mission_spear_of_macragge
+		required_missions = { Leviathan_30 }
+		position = 13
+		
+		provinces_to_highlight = {
+			continent = milkyway
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			owner = {tag = XGF}
+			owner = {tag = XGG}
+			owner = {tag = XGM}
+			owner = {tag = XLV}
+			
+			
+		
+	}
+		trigger = {
+				num_of_provinces_owned_or_owned_by_subjects_with = {
+				value = 42
+				region = tau_region
+		
+			}
+			1898 = { country_or_non_sovereign_subject_holds = ROOT}
+			1898 = {religion = tyranid}
+		}
+
+		
+		effect = {
+
+				add_adm_power = 300
+				milkyway = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+					owner = {tag = XGK}
+					
+				}
+				add_permanent_claim = ROOT
+				}
+				
+				ultima_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+				}
+		}
+
+	}
+
+Leviathan_32 = { #Epilogue
+		icon = mission_fortress_of_hera
+		required_missions = { Leviathan_31 }
+		position = 14
+		
+		provinces_to_highlight = {
+			
+			region = ultima_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			is_city = yes
+			
+
+	}
+		trigger = {
+
+			num_of_provinces_owned_or_owned_by_subjects_with = {
+				value = 50
+				region = ultima_region
+			}
+			NOT = { exists = XGK }
+			3138 = { country_or_non_sovereign_subject_holds = ROOT}
+			3138 = {religion = tyranid}
+		}
+
+		
+		effect = {
+
+			destroy_great_project = {
+    		type = macragge
+			}
+
+				milkyway = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+				}
+			
+			add_country_modifier = {
+				name = damnations_bestiary
+				duration = -1
+			}
+				
+		}
+
+	}
+
+}
+

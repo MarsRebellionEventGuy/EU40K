@@ -673,3 +673,39 @@ imperium_events.60.a:0 "§YPerhaps mortals are not meant to rule the galaxy...§
 astartes_events.5.t:0 "Light of the Imperium!"
 astartes_events.5.d:0 "After countless nights deprived of His guidance, we have finally glimpsed once again, the Light of the Emperor! As vox channels reestablish contact with Holy Terra, we can't help but feel our sense of duty reignited in the face of the untold trials and tribulations that beleaguer our era."
 astartes_events.5.a:0 "§JAve Imperator§M"
+
+necromundas_bane:0 "Necromunda's Bane"
+necromundas_bane_desc:0 "Our ravaging of the populated Necromunda area has granted our Norn-Queens extensive resource extraction knowledge."
+
+tyr_obscurus:0 "Obscurus Campaign"
+tyr_obscurus_desc:0 "The successful outcome of the Segmentum Obscurus campaing has provided an ample source of biomass for us to exploit in the upcoming push eastward!"
+
+tyr_nothing:0 "Dawnbringer"
+tyr_nothing_desc:0 "§OBecome dust!§"
+
+best_in_the_west:0 "Best in the West"
+best_in_the_west_desc:0 "§BWe are the undisputed rulers of the galactic west!§"
+
+damnations_bestiary:0 "Damnation's Bestiary"
+damnations_bestiary_desc:0 "§GThe inferior species of the galactic playground could not stem the unrelenting tide of damnation's bestiary.§"
+
+deluge:0 "Deluge"
+deluge_desc:0 "§YFrom dust you came and to dust you shall return§"
+
+tyr_morfi_1:0 "Appetizer"
+tyr_morfi_1_desc:0 "§YMortals are not meant to rule.§"
+
+tyr_morfi_2:0 "Menu"
+tyr_morfi_2_desc:0 "§YWhat delightful agony shall we inflict today?§"
+
+tyr_morfi_3:0 "Feast"
+tyr_morfi_3_desc:0 "§YEverybody dies, some just need a little help.§"
+
+tyr_morfi_4:0 "Banquet"
+tyr_morfi_4_desc:0 "§YHope is the opiate of the frail.§"
+
+tyr_morfi_5:0 "Buffet"
+tyr_morfi_5_desc:0 "§TThe cycle of life and death continues; We will live, they will die.§"
+
+tyr_eye_control:0 "Eye of Leviathan"
+tyr_eye_control_desc:0 "The chaotic factions are in shambles, as the Eye of Terror has been thoroughly consumed by our host!"

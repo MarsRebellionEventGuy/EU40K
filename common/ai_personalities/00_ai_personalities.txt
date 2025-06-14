@@ -394,25 +394,6 @@ ai_colonialist = {
 			factor = 0
 			NOT = { num_of_colonists = 1 }
 		}
-		modifier = {
-			factor = 3
-			tag = POR
-		}
-		modifier = {
-			factor = 2
-			tag = CAS
-		}
-		modifier = {
-			factor = 2
-			tag = SPA
-		}
-		modifier = {
-			factor = 0.2
-			OR = {
-				tag = POL
-				tag = PLC
-			}
-		}
 	}
 	icon = 5
 }

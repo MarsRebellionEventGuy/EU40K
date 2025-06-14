@@ -13,4 +13,5 @@ capital = 4070
 		dip = 4
 		mil = 1
 	}
+	add_ruler_personality = immortal_personality
 }

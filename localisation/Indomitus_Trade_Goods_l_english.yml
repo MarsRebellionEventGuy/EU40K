@@ -16,13 +16,15 @@
  archaotech: "Archaotech"
  archaotechDESC: "Archaotech refers to highly advanced Human technology from the Dark Age of Technology. Databases known as Standard Template Constructs (STCs) are used to store schematics on such technology and are particularly valuable."
  scientific_equipment: "Scientific Equipment"
- scientific_equipmentDESC: ""
+ scientific_equipmentDESC: "Scientific equipment includes precision instruments, tools, and devices used for study, experimentation, and analysis. Essential to the pursuit of knowledge, these goods are prized by scholars, researchers, and engineers across the stars, regardless of allegiance or creed."
  luxury_goods: "Luxury Goods"
  luxury_goodsDESC: "Luxury goods refer to valuable amenities produced for purposes beyond subsistence. Within the Imperium, access to them remains largely restricted to Highborn."
  promethium: "Promethium"
  promethiumDESC: "Promethium refers to the refined fuel used as fuel for plasma generators and starship drives. It can also be turned into a highly volatile incendiary gel capable of igniting on contact with oxygen."
  clerks: "Clerks"
  clerksDESC: "Clerks refer to bureacrats and skilled laborers which improve the industrial and administrative efficiency of their sectors. They are exceptionally valuable in sustaining logistical networks spanning large swathes of the galaxy."
+ slaves:0 "Slaves"
+ slavesDESC:0 "In the war-torn galactic concourse of the 42nd millenium slaves play an integral role in most societies. From Drukhari 'soul-harvesting' raids to enslaved human populations under foreign flags, to penal labor in the Imperium, the chain-bound masses of the galaxy are traded like cattle amongst the stars."
 
 
 

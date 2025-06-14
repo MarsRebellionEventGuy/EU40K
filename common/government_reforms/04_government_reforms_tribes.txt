@@ -12,9 +12,9 @@ tribe_mechanic = {
 tyranid_mechanic = {
 	monarchy = yes
 	basic_reform = yes # = invisible/does not take up a slot
-	valid_for_nation_designer = no
-	heir = yes
-	queen = yes
+	valid_for_nation_designer = yes
+	heir = no
+	queen = no
 	custom_attributes = {
 		enables_horde_idea_group = yes
 	}

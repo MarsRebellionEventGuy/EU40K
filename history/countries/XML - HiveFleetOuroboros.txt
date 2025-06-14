@@ -13,5 +13,6 @@ capital = 1619
 			dip = 3
 			mil = 6
 		}
+		add_ruler_personality = immortal_personality
 	}
 }
