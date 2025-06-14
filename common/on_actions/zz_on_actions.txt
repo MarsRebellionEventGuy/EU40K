@@ -611,6 +611,19 @@ on_create_vassal = {
 	if = {
 		limit = {
 			ROOT = { 
+				is_subject_of_type = imperial_sector_subject
+			}
+		}
+		1={
+			change_variable = {
+				which = ImperiumNbSectors
+				value = 1
+			}
+		}
+	}
+	if = {
+		limit = {
+			ROOT = { 
 				OR={
 					is_subject_of_type = integrated_forgeworld
 					is_subject_of_type = integrated_major_forgeworld

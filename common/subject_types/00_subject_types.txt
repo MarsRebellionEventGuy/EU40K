@@ -2161,6 +2161,7 @@ integrated_world_subject_type = {
 	
 	forcelimit_to_overlord = 0.1
 	pays_overlord = 1.0
+	liberty_desire_development_ratio = 0.05
 	
 	place_relative_on_throne = no
 	
@@ -2227,6 +2228,8 @@ imperial_world_subject_type = {
 
 	takes_diplo_slot = no
 	annex_cost_per_development = 16.0
+	
+	liberty_desire_development_ratio = 0.05
 	
 	place_relative_on_throne = no
 	
@@ -2312,6 +2315,8 @@ nominal_imperial_world_subject_type = {
 	can_concentrate_development = no
 	can_have_great_projects_moved_by_overlord = no
 	is_voluntary = no
+	
+	liberty_desire_development_ratio = 0.05
 	
 	forcelimit_to_overlord = 0.025
 	
@@ -2405,6 +2410,7 @@ shrine_world_subject_type = {
 	relative_power_class = 1 
 	
 	forcelimit_to_overlord = 0.05
+	liberty_desire_development_ratio = 0.1
 	
 	can_fight = {
 		independent_nations = yes
@@ -2487,6 +2493,7 @@ astartes_subject_type = {
 	manpower_to_overlord = 0.1
 	sailors_to_overlord = 0
 	military_focus = 1.0
+	liberty_desire_development_ratio = 0.05
 	
 	can_fight = {
 		independent_nations = yes
@@ -2547,6 +2554,7 @@ autonomus_astartes_subject_type = {
 	sailors_to_overlord = 0
 	military_focus = 1.0
 	base_liberty_desire = -10
+	liberty_desire_development_ratio = 0.05
 	
 	subsidize_armies = yes
 	scutage = no
@@ -2770,6 +2778,8 @@ imperial_sector_subject = {
 	must_accept_cta_from_overlord = yes 
 	joins_overlords_wars = no
 	favors_cost_to_join_offensive_wars = 25
+	
+	liberty_desire_development_ratio = 0.05
 	
 	relative_power_class = 1 
 	

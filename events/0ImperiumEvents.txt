@@ -570,9 +570,9 @@ country_event = { # Clair de Lune
 		name = imperium_events.19.a
 
 		3944 = {
-		add_base_manpower = 2
-		add_base_tax = 2
-		add_base_production = 2
+			add_base_manpower = 2
+			add_base_tax = 2
+			add_base_production = 2
 		}
 	}
 
@@ -1721,7 +1721,7 @@ country_event = { # Hallowed Be Thy Name
 		tag = XXA
 		1 = {
 			has_siege = no
-			base_tax = 4
+			NOT={base_tax = 6}
 		}
 		
 	}

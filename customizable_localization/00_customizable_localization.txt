@@ -13,4 +13,29 @@ defined_text = {
             always = yes
 }
 	 }
+}
+defined_text = {
+	name = GetStateForm
+
+	text = {
+		localisation_key = string_crown
+		trigger = {
+			government = monarchy
+		}
 	}
+	text = {
+		localisation_key = string_council
+		trigger = {
+			government = republic
+		}
+	}
+	text = { #fallback
+		localisation_key = string_govtname
+		trigger = {
+			NOT = {
+				government = monarchy
+				government = republic
+			}
+		}
+	}
+}

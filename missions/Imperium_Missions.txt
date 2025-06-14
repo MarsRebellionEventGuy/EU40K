@@ -700,7 +700,7 @@ XXA_Branch_2 = {
 		}
 	}
 	XXA_returning_to_nullus = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_voidship
 		position = 18
 		required_missions = { XXA_secure_nachmund_rift }
 		trigger = { 
@@ -974,16 +974,29 @@ XXA_Branch_3 = {
 		effect = { add_stability = 1 }
 	}
 	XXA_inquisition = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_imperial_spies
 		position = 8
 		required_missions = { XXA_damaged_imperium }
 		trigger = {
-			estate_loyalty = {
-				estate = estate_inquisition
-				loyalty = 60
+			OR={
+				estate_loyalty = {
+					estate = estate_inquisition
+					loyalty = 60
+				}
+				event_target:inquisition_tag={	
+					has_opinion = {
+						who = ROOT
+						value = 180
+					}
+				}
 			}
 		}
-		effect = { }
+		effect = {
+			add_estate_loyalty = {
+				estate = estate_inquisition
+				loyalty = 10
+			}
+		}
 	}
 	XXA_deal_redemptionists = {
 		icon = mission_build_up_to_force_limit
@@ -1000,7 +1013,7 @@ XXA_Branch_3 = {
 		effect = { }
 	}
 	XXA_cordon_impenetra = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_imperial_flagship
 		position = 11
 		required_missions = {  }
 		trigger = {
@@ -1367,7 +1380,7 @@ XXA_Branch_4 = {
 		}
 	}
 	XXA_torchbearer_fleets = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_imperial_flagship
 		position = 6
 		required_missions = { XXA_Mission_Chapters }
 		trigger = {	
@@ -1382,13 +1395,13 @@ XXA_Branch_4 = {
 			}
 		}
 	}
-	XXA_contact_carcharodons = {
-		icon = mission_build_up_to_force_limit
-		position = 7
-		required_missions = { XXA_torchbearer_fleets }
-		trigger = { }
-		effect = { }
-	}
+	# XXA_contact_carcharodons = {
+		# icon = mission_build_up_to_force_limit
+		# position = 7
+		# required_missions = { XXA_torchbearer_fleets }
+		# trigger = { }
+		# effect = { }
+	# }
 	XXA_rebuilding_damaged_worlds = {
 		icon = mission_build_up_to_force_limit
 		position = 8
@@ -1415,7 +1428,7 @@ XXA_Branch_4 = {
 		effect = { add_mandate = 10 }
 	}
 	XXA_expand_jupiter_shipyards = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_starfort
 		position = 9
 		required_missions = { XXA_Consolidate_industry }
 		trigger = { 
