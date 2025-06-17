@@ -5,6 +5,7 @@ technology_group = imperial
 religion = imperial_cult
 primary_culture = loyalist_astartes_culture
 capital = 1915
+add_army_professionalism = 0.2
 
 1970.12.12 = {
 		monarch = {
@@ -13,5 +14,4 @@ capital = 1915
 			dip = 3
 			mil = 4
 		}
-	}
 }

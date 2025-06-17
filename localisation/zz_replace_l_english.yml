@@ -621,3 +621,18 @@ living_metal_battleships_desc:0 "Our armada's sheer superiority in combat agains
 
 tyran_province_modifier:0 "Tyran"
 tyran_province_modifier_desc:0 "Twelve score and sixteen years ago, on the far-flung Mechanicus research station at Tyran, humanity was faced with a novel interstellar enemy, one which multiplies and prospers on the primal instinct of consumption. It was here that the Tyranid menace was first encountered and the history of the galaxy changed forever."
+
+luna_province_modifier:0 "Esoterikon Livris"
+luna_province_modifier_desc:0 "The Esoterikon Livris is a great library and archive located on Luna said to be one of the greatest troves of information on Human history in the entire Galaxy."
+
+terra_bibliotekeion_province_modifier:0 "Bibliotekeion Magnifika"
+terra_bibliotekeion_province_modifier_desc:0 "A great library and archive located in our capital, boast one of the biggest compendiums of knowledge on the Human saga."
+
+black_library_province_modifier:0 "The Black Library"
+black_library_province_modifier_desc:0 "A secret repository of ancient knowledge of Chaos and the Warp alike. These elder scrolls contain more information on these subjects than any human would dare fathom."
+
+port_of_lost_souls_province_modifier:0 "Port of Lost Souls"
+port_of_lost_souls_province_modifier_desc:0 "The infamous harbour acts as a point of entry for nearly all the slaves that enter the Dark City. It is from here that their endless torment thus begins."
+
+istvaan_v_province_modifier:0 "Drop Site Massacre"
+istvaan_v_province_modifier_desc:0 "It was here that humanity splintered itself apart all those centuries ago..."

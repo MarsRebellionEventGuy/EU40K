@@ -1,3 +1,66 @@
+Leviathan_Branch_8 = { 
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = XYB
+	}
+
+Leviathan_39 = { #Norn-Queens
+		icon = mission_catachan
+		required_missions = { }
+		position = 1
+		
+		provinces_to_highlight = {
+			}
+		
+		
+		trigger = {
+			root = {has_dip_advisor_3 = yes}
+			root = {has_mil_advisor_3 = yes}
+			root = {has_adm_advisor_3 = yes}
+			has_estate_privilege = estate_synapses_norn_queens
+		
+			}
+		
+		
+		effect = {
+		
+		add_army_professionalism = 0.03
+		add_prestige = 15
+			
+		}
+
+	}
+
+Leviathan_40 = { #Zoat Diplomacy
+		icon = mission_astropath
+		required_missions = { Leviathan_39 }
+		position = 2
+		
+		provinces_to_highlight = {
+			}
+		
+		
+		trigger = {
+			government_rank = 3
+			}
+		
+		
+		effect = {
+		
+		add_country_modifier = {
+			name = zoat_diplomacy
+			duration = -1
+			}	
+				
+			
+		}
+
+	}
+
+}
+
 Leviathan_Branch_5 = { 
 	slot = 5
 	generic = no

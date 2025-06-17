@@ -90,6 +90,9 @@ hive_fleet_reform = {
 		diplomats = -2
 		global_manpower_modifier = 0.25
 		num_accepted_cultures = -5
+		free_land_leader_pool = 2
+		free_navy_leader_pool = 2
+		may_return_manpower_on_disband = yes
 	}
 	ai = {
 		factor = 1000

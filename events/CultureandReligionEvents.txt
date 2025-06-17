@@ -2036,6 +2036,7 @@ country_event = {
 	title = culture_religion_events.10.t
 	desc = {
 		trigger = {
+			NOT = {has_reform = hive_fleet_reform}
 			employed_advisor = {
 				category = ADM
 			}
@@ -3075,6 +3076,7 @@ country_event = {
 
 	trigger = {
 		stability = 1
+		NOT = {has_reform = hive_fleet_reform}
 		any_owned_province = {
 			has_owner_culture = no
 			has_owner_accepted_culture = no

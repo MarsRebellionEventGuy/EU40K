@@ -7,3 +7,9 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 trade_goods = military_equipment
+
+add_permanent_province_modifier = {
+	name = istvaan_v_province_modifier
+	duration = -1
+	desc = istvaan_v_province_modifier_desc
+}

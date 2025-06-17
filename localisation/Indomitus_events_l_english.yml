@@ -117,7 +117,7 @@ indomitus_general.19.a:0 "A mere setback."
 
 indomitus_general.20.t:0 "Sovereign"
 indomitus_general.20.d:0 "Today, a lesser species, be it an Ork, a Human, a T'au, a Necron or an Aeldari will gaze upon the night sky with hope and blemish, feeling as tought the galaxy is his to wander and rule. But out of the corner of his eye he will see and feel the most abject horror imaginable, for hundreds of Bio-Ships will appear undetected, unnoticed, unstoppable, to remind him, a mere upstart and usurper who truly rules the universe."
-indomitus_general.20.a:0 "We have become death, destroyers of worlds."
+indomitus_general.20.a:0 "§YWe have become death, destroyers of worlds.§"
 
 indomitus_general.21.t:0 "Maneater"
 indomitus_general.21.d:0 "The Humans of Terra think highly of themselves, home to a species so stubborn that tought themselves the center of the universe, the masters of all the starts in the sky. How can they dominate the unruly galaxy when they cannot even begin to comprehend it? They are nothing, a mere footnote in our endless rampage amongst the cosmos, their borrowed time is up, it's due we show them who truly governs creation itself."
@@ -302,17 +302,6 @@ aowar_events.1.b:0 "That money is better spent winning this war."
 famine_ignored:0 "Famine Ignored"
 desc_famine_ignored:0 "A famine caused by wartime looting haunts the province, especially after being ignored by the state."
 
-aowar_events.2.t:0 "Skirting the Borders"
-aowar_events.2.d:0 "Sieges can be costly both in time and lives, and we normally take whatever measures necessary to finish them quickly. A siege in the ongoing war has happened to occur close to the border, sparking a discussion about how far the soldiers should go in raiding the countryside.\n\nThe nation on the other side is not our enemy in this war, but perhaps if some of their lands were raided, seemingly by mistake, they would understand. The siege could be greatly aided by these supplies."
-aowar_events.2.a:0 "Finish the siege at once."
-aowar_events.2.a.tt:0 "[This.Owner.GetName] may not be pleased with us..."
-aowar_events.2.b:0 "I'd be wiser to let this conflict remain within the area of operations."
-
-aowar_events.3.t:0 "[From.GetName] Assaulting our Borders"
-aowar_events.3.d:0 "Despite our nations being at peace, we've received reports of [From.GetAdjective] soldiers attacking our borders in [Root.GetName], assaulting our people to resupply. Their ambassadors assure us that this is a simple mistake and that the army has grown a bit desperate in maintaining supplies for an ongoing siege across the border. Mistake or not, [Root.GetName] has suffered for it."
-aowar_events.3.a:0 "This is an unacceptable violation of our sovereignty!"
-aowar_events.3.b:0 "An honest mistake. An apology will suffice."
-
 aowar_events.4.t:0 "Cruelty of Special Forces"
 aowar_events.4.d:0 "War is seldom without brutality. Soldiers are not known for their mercy, but this war has seen some exceptionally vile behavior on the part of our occupying forces. It appears that the special forces we have sent to occupy [war_province.GetAreaName], are unsatisfied with the wages we provide them and have resorted to plundering the area. Their actions have tainted the image of all our troops. As extortion by means of terror and torture becomes commonplace, [Root.GetAdjective] soldiers are reviled as well as feared and stories of their atrocities spread well beyond the borders of the war."
 aowar_events.4.a:0 "We should prevent this from happening in the future."
@@ -392,7 +381,7 @@ aowar_events.16.a:0 "Like the war, this conflict must take its course."
 aowar_events.16.b:0 "Unite against the true enemy! You are all [Root.Owner.GetAdjective]!"
 
 aowar_events.17.t:0 "Heretical Toughts!"
-aowar_events.17.d:0 "Recently, I've been having doubts about the dogamtic teachings of our [Root.Religion.GetName]. Who's to say the teaching of our man of faith are the true way forward? How could they hope to interpret the afterlife or the divine at all, if they are mere mortals?"
+aowar_events.17.d:0 "Recently, I've been having doubts about the dogmatic teachings of our [Root.Religion.GetName]. Who's to say the teaching of our man of faith are the true way forward? How could they hope to interpret the afterlife or the divine at all, if they are mere mortals?"
 aowar_events.17.a:0 "There is a better project to focus my attention on than this."
 aowar_events.17.b:0 "Idle hands truly are the devil's workshop. I shall return to my duties at once."
 aowar_events.17.c:0 "There is a campaing that requieres my attention."
@@ -709,3 +698,9 @@ tyr_morfi_5_desc:0 "§TThe cycle of life and death continues; We will live, they
 
 tyr_eye_control:0 "Eye of Leviathan"
 tyr_eye_control_desc:0 "The chaotic factions are in shambles, as the Eye of Terror has been thoroughly consumed by our host!"
+
+zoat_diplomacy:0 "Zoat Diplomacy"
+zoat_diplomacy_desc:0 "These centauroid slave race of ours will serve nicely as mouthpieces of our endless hunger."
+
+province_purged:0 "Province Purged"
+province_purged_desc:0 "This planet has been thoroughly cleansed of its rebellious elements."

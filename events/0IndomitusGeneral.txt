@@ -347,8 +347,14 @@ country_event = {
 		name = indomitus_general.23.a
 		add_country_modifier = { 
 			name = a_new_leviathan
-			duration = 365
+			duration = 999
 		}
+			create_units_of_type = {
+				amount = 9
+				province = 4032
+				unit_type = Gaunt
+			}
+		
 	}
 }
 

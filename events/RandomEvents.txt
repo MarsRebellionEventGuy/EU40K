@@ -1638,6 +1638,7 @@ country_event = {
 
 	trigger = {
 		NOT = { adm = 5 }
+		NOT = {has_reform = hive_fleet_reform}
 	}
 
 	mean_time_to_happen = {
@@ -3159,6 +3160,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
+		NOT = {has_reform = hive_fleet_reform}
 		OR = {
 			government = monarchy
 			has_reform = noble_elite_reform
@@ -4737,6 +4739,7 @@ country_event = {
 		government = monarchy
 		is_lesser_in_union = no
 		is_revolutionary = no
+		NOT = {has_reform = hive_fleet_reform}
 	}
 
 	mean_time_to_happen = {
@@ -5804,6 +5807,7 @@ country_event = {
 	
 	trigger = {
 		stability = 0
+		NOT = {has_reform = hive_fleet_reform}
 		government = monarchy
 		has_regency = no
 		is_lesser_in_union = no
@@ -6469,6 +6473,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT =  {has_reform = hive_fleet_reform}
 		NOT = { dip = 5 }
 		has_regency = no
 		is_lesser_in_union = no
@@ -7436,6 +7441,7 @@ country_event = {
 	
 	trigger = {
 		stability = 0
+		NOT = {has_reform = hive_fleet_reform}
 		NOT = { has_country_modifier = smugglers_dominating }
 		NOT = { has_country_modifier = cooperation_with_merchant_class }
 	}
@@ -7679,6 +7685,7 @@ country_event = {
 		legitimacy_or_horde_unity = 20
 		has_regency = no
 		is_lesser_in_union = no
+		NOT = {has_reform = hive_fleet_reform}
 	}
 	
 	mean_time_to_happen = {

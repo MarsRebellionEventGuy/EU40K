@@ -273,6 +273,32 @@ tyran_province_modifier =  {
 	picture = "climate_arid"
 }
 
+luna_province_modifier = {
+	
+	technology_cost = -0.1
+}
+
+terra_bibliotekeion_province_modifier = {
+	
+	idea_cost = -0.1
+}
+
+black_library_province_modifier = {
+	
+	idea_cost = -0.2
+	technology_cost = -0.2
+}
+
+port_of_lost_souls_province_modifier = {
+	
+	trade_goods_size_modifier = 0.25
+	province_trade_power_value = 10
+}
+istvaan_v_province_modifier  = {
+	
+	discipline = 0.01
+}
+
 colonial_boom = {
 	local_colonial_growth = 25
 }
@@ -536,4 +562,13 @@ tyr_morfi_5 = {
 
 tyr_eye_control = {
 	tolerance_own = 2
+}
+
+zoat_diplomacy = {
+	diplomats = 1
+	envoy_travel_time = -0.25
+}
+
+province_purged = {
+	local_unrest = -15
 }

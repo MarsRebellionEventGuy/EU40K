@@ -5,6 +5,7 @@ technology_group = eldar
 religion = dark_muses
 primary_culture = drukhari_culture
 capital = 3344
+mercantilism = 25
 
 1970.12.12 = {
 	monarch = {
@@ -14,4 +15,5 @@ capital = 3344
 		dip = 4
 		mil = 4
 	}
+	add_ruler_personality = industrious_personality
 }

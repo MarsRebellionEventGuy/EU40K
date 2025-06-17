@@ -4,7 +4,8 @@ government_rank = 2
 technology_group = tyranid
 religion = tyranid
 primary_culture = tyranid_culture
-capital = 1123
+capital = 1123 #Sternmost
+national_focus = MIL
 
 1970.12.12 = {
 		monarch = {
@@ -14,5 +15,6 @@ capital = 1123
 			mil = 5
 		}
 		add_ruler_personality = immortal_personality
-	}
 }
+
+add_rival = XYN

@@ -2981,7 +2981,8 @@ on_buy_religious_reform = {
 
 on_circumnavigation = {
 	events = {
-
+		exploration_events.16
+		exploration_events.17
 	}
 }
 

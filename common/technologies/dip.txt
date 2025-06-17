@@ -14,7 +14,7 @@ technology = { #Early Ships
 	year = 1850
 	
 	naval_morale			=	2.0
-	range					=	60
+	range					=	100
 	may_fabricate_claims = yes
 
 	enable = war_canoe

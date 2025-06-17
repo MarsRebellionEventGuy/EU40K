@@ -452,7 +452,7 @@ country_event = { # Swarmlord
 	}
 
 	mean_time_to_happen = {
-		months = 300
+		months = 666
 		}
 
 	option = {
@@ -463,7 +463,7 @@ country_event = { # Swarmlord
 			shock = 6
 			manuever = 6
 			siege = 3
-		
+			trait = cruel_tactician_personality
 		}
 		add_army_tradition = 20
 	}

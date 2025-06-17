@@ -45,6 +45,10 @@ custom_button = {
 		}
 		change_culture = owner
 		change_religion = owner
+		add_province_modifier = {
+			name = province_purged
+			duration = 7000
+		}
 	}
 	tooltip = purge_button_tt
 }
