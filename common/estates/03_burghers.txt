@@ -209,7 +209,13 @@ estate_burghers = {
 	custom_name = {
 		desc = estate_rogue_traders
 		trigger = {
-			always = yes
+			NOT = { culture_group = tau_culture_group }
+		}
+	}
+	custom_name = {
+		desc = estate_water_caste
+		trigger = {
+			culture_group = tau_culture_group
 		}
 	}
 

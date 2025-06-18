@@ -152,7 +152,7 @@ laanah_rifts_region = {
 }
 tau_region = { 
 	areas = { 
-		tau_one tau_two tau_three tau_four tau_five tau_six tau_seven pech okassis damocles_nebula
+		tau_one tau_two tau_three tau_four tau_five tau_six pech okassis damocles_nebula
 		radnar pech_planet lubgrahl_planet 
 	}
 }

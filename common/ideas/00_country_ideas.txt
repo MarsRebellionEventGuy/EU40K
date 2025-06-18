@@ -180,7 +180,8 @@ XGF_ideas = {
 		all_estate_loyalty_equilibrium = 0.1
 	}
 	XGF_ideas_2 = {
-		institution_spread_from_true_faith = 0.33
+		#institution_spread_from_true_faith = 0.33 - TODO change when STC finished
+		technology_cost = -0.20
 	}
 	XGF_ideas_3 = {
 		yearly_corruption = -0.1

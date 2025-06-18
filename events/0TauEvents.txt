@@ -1,5 +1,4 @@
 namespace = tau_events
-normal_or_historical_nations = yes
 
 country_event = {
 	id = tau_events.1
@@ -35,12 +34,10 @@ country_event = {
 
 	option = {
 		name = "tau_events.1.a"
-		custom_effect_tooltip = tau_events.1.a_tt
-		
+		add_prestige = -10
 	}
 	option = {
 		name = "tau_events.1.b"
-		custom_effect_tooltip = tau_events.1.b_tt
 		switch_tag = XLV
 	}
 }
@@ -67,7 +64,11 @@ country_event = {
 			subject_type = colony #temp
 			subject = XLV
 		}
-		XLV={country_event = {id = tau_events.3}}
+		XLV = {
+			country_event = {
+				id = tau_events.3
+			}
+		}
 		chalnath_expanse_region = {
 			discover_country = ROOT
 		}
@@ -84,6 +85,162 @@ country_event = {
 
 	option = {
 		name = "tau_events.3.a"
+		add_prestige = 50
+	}
+}
+
+country_event = {
+	id = tau_events.4
+	title = "tau_events.4.t"
+	desc = "tau_events.4.d"
+	picture = ADVISOR_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = "tau_events.4.a"
+		define_ruler = { 
+			name = "Aun'o'T'au'Acaya'Va'Denta"
+			adm = 4
+			dip = 6
+			mil = 2
+			age = 40
+			culture = ROOT
+			Religion = ROOT
+		}
+		if = { 
+			limit = { has_dlc = "Rights of Man" } 
+			hidden_effect = { 
+				add_ruler_personality = immortal_personality 
+			}
+		}
+	}
+	option = {
+		name = "tau_events.4.b"
+		add_prestige = 50
+	}
+}
+
+country_event = {
+	id = tau_events.5
+	title = "tau_events.5.t"
+	desc = "tau_events.5.d"
+	picture = STREET_SPEECH_eventPicture
+
+	trigger = {
+		is_at_war = no
+		religion = greater_good
+		any_owned_province = {
+			has_owner_accepted_culture = no
+			# Ork, Tyranid, Drukahri and Chaos don't want to be assimilated
+			NOT = { culture = ork_culture } 
+			NOT = { culture = freebooter_culture }
+			NOT = { culture = drukhari_culture }
+			NOT = { culture = tyranid_culture }
+			NOT = { culture = genestealer_culture }
+			NOT = { culture = chaos_culture }
+			NOT = { culture = heretic_astartes_culture }
+			NOT = { culture = dark_mechanicum_culture }
+			NOT = { culture = chaos_knight_culture }
+			NOT = { culture = noculture }
+		}
+	}
+	
+	immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					has_owner_accepted_culture = no
+					NOT = { culture = ork_culture }
+					NOT = { culture = freebooter_culture }
+					NOT = { culture = drukhari_culture }
+					NOT = { culture = tyranid_culture }
+					NOT = { culture = genestealer_culture }
+					NOT = { culture = chaos_culture }
+					NOT = { culture = heretic_astartes_culture }
+					NOT = { culture = dark_mechanicum_culture }
+					NOT = { culture = chaos_knight_culture }
+					NOT = { culture = noculture }
+				}
+				save_event_target_as = not_accepted_culture_province
+			}
+		}
+	}
+
+	option = {
+		name = "tau_accepte_assimilation"
+		add_accepted_culture = event_target:not_accepted_culture_province
 		
+		event_target:not_accepted_culture_province = {
+			if = { limit = { culture = human_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_human_culture" duration = -1 } } }
+			if = { limit = { culture = orpheus_human_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_orpheus_human_culture" duration = -1 } } }
+			if = { limit = { culture = caradryad_human_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_caradryad_human_culture" duration = -1 } } }
+			if = { limit = { culture = forsarr_human_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_forsarr_human_culture" duration = -1 } } }
+			if = { limit = { culture = jericho_human_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_jericho_human_culture" duration = -1 } } }
+			if = { limit = { culture = amerikon_human_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_amerikon_human_culture" duration = -1 } } }
+			if = { limit = { culture = yarokin_human_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_yarokin_human_culture" duration = -1 } } }
+			if = { limit = { culture = inwit_human_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_inwit_human_culture" duration = -1 } } }
+			if = { limit = { culture = uhulis_human_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_uhulis_human_culture" duration = -1 } } }
+			if = { limit = { culture = macharia_human_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_macharia_human_culture" duration = -1 } } }
+			if = { limit = { culture = sabbat_human_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_sabbat_human_culture" duration = -1 } } }
+			if = { limit = { culture = salient_human_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_salient_human_culture" duration = -1 } } }
+			if = { limit = { culture = laanah_human_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_laanah_human_culture" duration = -1 } } }
+			if = { limit = { culture = hydraphur_human_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_hydraphur_human_culture" duration = -1 } } }
+			if = { limit = { culture = agripinaa_human_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_agripinaa_human_culture" duration = -1 } } }
+			if = { limit = { culture = fenrisian_human_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_fenrisian_human_culture" duration = -1 } } }
+			if = { limit = { culture = karthago_human_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_karthago_human_culture" duration = -1 } } }
+			if = { limit = { culture = prosperan_human_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_prosperan_human_culture" duration = -1 } } }
+			if = { limit = { culture = golgothan_human_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_golgothan_human_culture" duration = -1 } } }
+			if = { limit = { culture = octarius_human_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_octarius_human_culture" duration = -1 } } }
+			if = { limit = { culture = reductus_human_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_reductus_human_culture" duration = -1 } } }
+			if = { limit = { culture = loki_human_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_loki_human_culture" duration = -1 } } }
+			if = { limit = { culture = nephilim_human_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_nephilim_human_culture" duration = -1 } } }
+			if = { limit = { culture = corribra_human_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_corribra_human_culture" duration = -1 } } }
+			if = { limit = { culture = charadon_human_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_charadon_human_culture" duration = -1 } } }
+			if = { limit = { culture = yasan_human_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_yasan_human_culture" duration = -1 } } }
+			if = { limit = { culture = mandragora_human_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_mandragora_human_culture" duration = -1 } } }
+			if = { limit = { culture = ultiman_human_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_ultiman_human_culture" duration = -1 } } }
+			if = { limit = { culture = sargos_human_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_sargos_human_culture" duration = -1 } } }
+			if = { limit = { culture = grendl_human_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_grendl_human_culture" duration = -1 } } }
+			if = { limit = { culture = triplex_human_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_triplex_human_culture" duration = -1 } } }
+			if = { limit = { culture = ullanor_human_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_ullanor_human_culture" duration = -1 } } }
+			if = { limit = { culture = chalnath_human_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_chalnath_human_culture" duration = -1 } } }
+			if = { limit = { culture = nepthis_human_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_nepthis_human_culture" duration = -1 } } }
+			if = { limit = { culture = gulgorahd_human_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_gulgorahd_human_culture" duration = -1 } } }
+			if = { limit = { culture = thramas_human_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_thramas_human_culture" duration = -1 } } }
+			if = { limit = { culture = fenright_human_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_fenright_human_culture" duration = -1 } } }
+			if = { limit = { culture = nostramo_human_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_nostramo_human_culture" duration = -1 } } }
+			if = { limit = { culture = red_scar_human_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_red_scar_human_culture" duration = -1 } } }
+			if = { limit = { culture = phantax_human_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_phantax_human_culture" duration = -1 } } }
+			if = { limit = { culture = pelegron_human_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_pelegron_human_culture" duration = -1 } } }
+			if = { limit = { culture = coronid_human_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_coronid_human_culture" duration = -1 } } }
+			if = { limit = { culture = manachea_human_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_manachea_human_culture" duration = -1 } } }
+			if = { limit = { culture = palatine_human_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_palatine_human_culture" duration = -1 } } }
+			if = { limit = { culture = gothic_human_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_gothic_human_culture" duration = -1 } } }
+			if = { limit = { culture = stygius_human_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_stygius_human_culture" duration = -1 } } }
+			if = { limit = { culture = grail_human_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_grail_human_culture" duration = -1 } } }
+			if = { limit = { culture = styken_human_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_styken_human_culture" duration = -1 } } }
+			if = { limit = { culture = askellon_human_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_askellon_human_culture" duration = -1 } } }
+			if = { limit = { culture = calixis_human_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_calixis_human_culture" duration = -1 } } }
+			if = { limit = { culture = medusan_human_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_medusan_human_culture" duration = -1 } } }
+			if = { limit = { culture = mechanicus_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_mechanicus_culture" duration = -1 } } }
+			if = { limit = { culture = knight_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_knight_culture" duration = -1 } } }
+			if = { limit = { culture = loyalist_astartes_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_loyalist_astartes_culture" duration = -1 } } }
+			if = { limit = { culture = abhuman_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_abhuman_culture" duration = -1 } } }
+			if = { limit = { culture = asuryani_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_asuryani_culture" duration = -1 } } }
+			if = { limit = { culture = exodite_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_exodite_culture" duration = -1 } } }
+			if = { limit = { culture = harlequin_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_harlequin_culture" duration = -1 } } }
+			if = { limit = { culture = necron_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_necron_culture" duration = -1 } } }
+			if = { limit = { culture = kin_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_kin_culture" duration = -1 } } }
+			if = { limit = { culture = hrud_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_hrud_culture" duration = -1 } } }
+			if = { limit = { culture = slaugth_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_slaugth_culture" duration = -1 } } }
+			if = { limit = { culture = kroot_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_kroot_culture" duration = -1 } } }
+			if = { limit = { culture = vespid_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_vespid_culture" duration = -1 } } }
+			if = { limit = { culture = greet_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_greet_culture" duration = -1 } } }
+			if = { limit = { culture = nagi_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_nagi_culture" duration = -1 } } }
+			if = { limit = { culture = ostense_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_ostense_culture" duration = -1 } } }
+			if = { limit = { culture = xeno_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_xeno_culture" duration = -1 } } }
+			if = { limit = { culture = sslyth_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_sslyth_culture" duration = -1 } } }
+		}
 	}
 }

@@ -1,0 +1,96 @@
+tau_end_imperium_invasion = {
+	years_of_nationalism = -5
+	prestige = 1
+}
+
+tau_revitilise_army = {
+	land_morale = 0.05
+	land_maintenance_modifier = -0.05
+}
+
+tau_fleet_expansion = {
+	naval_morale = 0.1
+	navy_tradition = 1
+	global_sailors_modifier = 0.20
+}
+
+tau_fortify_startide_nexus = {
+	 manpower_recovery_speed = 0.10
+	 build_cost = -0.1
+	 build_time = -0.25
+}
+
+tau_end_farsight = {
+	devotion = 1
+}
+
+tau_assimilate_human_culture = { num_accepted_cultures = 1 }
+tau_assimilate_orpheus_human_culture = { num_accepted_cultures = 1 }
+tau_assimilate_caradryad_human_culture = { num_accepted_cultures = 1 }
+tau_assimilate_forsarr_human_culture = { num_accepted_cultures = 1 }
+tau_assimilate_jericho_human_culture = { num_accepted_cultures = 1 }
+tau_assimilate_amerikon_human_culture = { num_accepted_cultures = 1 }
+tau_assimilate_yarokin_human_culture = { num_accepted_cultures = 1 }
+tau_assimilate_inwit_human_culture = { num_accepted_cultures = 1 }
+tau_assimilate_uhulis_human_culture = { num_accepted_cultures = 1 }
+tau_assimilate_macharia_human_culture = { num_accepted_cultures = 1 }
+tau_assimilate_sabbat_human_culture = { num_accepted_cultures = 1 }
+tau_assimilate_salient_human_culture = { num_accepted_cultures = 1 }
+tau_assimilate_laanah_human_culture = { num_accepted_cultures = 1 }
+tau_assimilate_hydraphur_human_culture = { num_accepted_cultures = 1 }
+tau_assimilate_agripinaa_human_culture = { num_accepted_cultures = 1 }
+tau_assimilate_fenrisian_human_culture = { num_accepted_cultures = 1 }
+tau_assimilate_karthago_human_culture = { num_accepted_cultures = 1 }
+tau_assimilate_prosperan_human_culture = { num_accepted_cultures = 1 }
+tau_assimilate_golgothan_human_culture = { num_accepted_cultures = 1 }
+tau_assimilate_octarius_human_culture = { num_accepted_cultures = 1 }
+tau_assimilate_reductus_human_culture = { num_accepted_cultures = 1 }
+tau_assimilate_loki_human_culture = { num_accepted_cultures = 1 }
+tau_assimilate_nephilim_human_culture = { num_accepted_cultures = 1 }
+tau_assimilate_corribra_human_culture = { num_accepted_cultures = 1 }
+tau_assimilate_charadon_human_culture = { num_accepted_cultures = 1 }
+tau_assimilate_yasan_human_culture = { num_accepted_cultures = 1 }
+tau_assimilate_mandragora_human_culture = { num_accepted_cultures = 1 }
+tau_assimilate_ultiman_human_culture = { num_accepted_cultures = 1 }
+tau_assimilate_sargos_human_culture = { num_accepted_cultures = 1 }
+tau_assimilate_grendl_human_culture = { num_accepted_cultures = 1 }
+tau_assimilate_triplex_human_culture = { num_accepted_cultures = 1 }
+tau_assimilate_ullanor_human_culture = { num_accepted_cultures = 1 }
+tau_assimilate_chalnath_human_culture = { num_accepted_cultures = 1 }
+tau_assimilate_nepthis_human_culture = { num_accepted_cultures = 1 }
+tau_assimilate_gulgorahd_human_culture = { num_accepted_cultures = 1 }
+tau_assimilate_thramas_human_culture = { num_accepted_cultures = 1 }
+tau_assimilate_fenright_human_culture = { num_accepted_cultures = 1 }
+tau_assimilate_nostramo_human_culture = { num_accepted_cultures = 1 }
+tau_assimilate_red_scar_human_culture = { num_accepted_cultures = 1 }
+tau_assimilate_phantax_human_culture = { num_accepted_cultures = 1 }
+tau_assimilate_pelegron_human_culture = { num_accepted_cultures = 1 }
+tau_assimilate_coronid_human_culture = { num_accepted_cultures = 1 }
+tau_assimilate_manachea_human_culture = { num_accepted_cultures = 1 }
+tau_assimilate_palatine_human_culture = { num_accepted_cultures = 1 }
+tau_assimilate_gothic_human_culture = { num_accepted_cultures = 1 }
+tau_assimilate_stygius_human_culture = { num_accepted_cultures = 1 }
+tau_assimilate_grail_human_culture = { num_accepted_cultures = 1 }
+tau_assimilate_styken_human_culture = { num_accepted_cultures = 1 }
+tau_assimilate_askellon_human_culture = { num_accepted_cultures = 1 }
+tau_assimilate_calixis_human_culture = { num_accepted_cultures = 1 }
+tau_assimilate_medusan_human_culture = { num_accepted_cultures = 1 }
+tau_assimilate_mechanicus_culture = { num_accepted_cultures = 1 }
+tau_assimilate_knight_culture = { num_accepted_cultures = 1 }
+tau_assimilate_loyalist_astartes_culture = { num_accepted_cultures = 1 }
+tau_assimilate_abhuman_culture = { num_accepted_cultures = 1 }
+tau_assimilate_asuryani_culture = { num_accepted_cultures = 1 }
+tau_assimilate_exodite_culture = { num_accepted_cultures = 1 }
+tau_assimilate_harlequin_culture = { num_accepted_cultures = 1 }
+tau_assimilate_necron_culture = { num_accepted_cultures = 1 }
+tau_assimilate_kin_culture = { num_accepted_cultures = 1 }
+tau_assimilate_hrud_culture = { num_accepted_cultures = 1 }
+tau_assimilate_slaugth_culture = { num_accepted_cultures = 1 }
+tau_assimilate_kroot_culture = { num_accepted_cultures = 1 }
+tau_assimilate_vespid_culture = { num_accepted_cultures = 1 }
+tau_assimilate_greet_culture = { num_accepted_cultures = 1 }
+tau_assimilate_nagi_culture = { num_accepted_cultures = 1 }
+tau_assimilate_ostense_culture = { num_accepted_cultures = 1 }
+tau_assimilate_xeno_culture = { num_accepted_cultures = 1 }
+tau_assimilate_sslyth_culture = { num_accepted_cultures = 1 }
+tau_assimilate_medusae_culture = { num_accepted_cultures = 1 }
