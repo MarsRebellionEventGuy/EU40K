@@ -18,34 +18,37 @@ republic_mechanic = {
 
 	valid_for_nation_designer = no
 }
-farsight_enclaves_reform = {
-	icon = "farsight_enclaves"
-	allow_normal_conversion = no
-	legacy_equivalent = farsight_enclaves
-	potential = {
-		tag = XGG
-	}
-	trigger = {
-	}
 
-	custom_attributes = {
-		royal_marriage = no
-		queen = no
-		heir = no
-	}
+### TODO : Effacer ici
+# farsight_enclaves_reform = {
+	# icon = "farsight_enclaves"
+	# allow_normal_conversion = no
+	# legacy_equivalent = farsight_enclaves
+	# potential = {
+		# tag = XGG
+	# }
+	# trigger = {
+	# }
 
-	modifiers = {
-		defensiveness = 0.20
-		war_exhaustion_cost = -0.25
-	}
+	# custom_attributes = {
+		# royal_marriage = no
+		# queen = no
+		# heir = no
+	# }
 
-	ai = {
-		factor = 0 # AI should never pick this
-	}
+	# modifiers = {
+		# defensiveness = 0.20
+		# war_exhaustion_cost = -0.25
+	# }
 
-	removed_effect = {
-	}
-}
+	# ai = {
+		# factor = 0 # AI should never pick this
+	# }
+
+	# removed_effect = {
+	# }
+# }
+
 #Oligarchy vs Merchant Class vs Noble Elite
 
 oligarchy_reform = {

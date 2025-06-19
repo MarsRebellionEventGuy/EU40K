@@ -1,0 +1,101 @@
+namespace = farsight_events
+
+country_event = {
+	id = farsight_events.1
+	title = "farsight_events.1.t"
+	desc = "farsight_events.1.d"
+	picture = ANGRY_MOB_eventPicture
+
+	trigger = {
+		is_at_war = no
+		tag = XGG
+		NOT = {
+			has_country_flag = farsight_events.1
+		}
+	}
+	
+	immediate = {
+		set_country_flag = farsight_events.1
+	}
+	
+	option = {
+		name = "Revolt_against_ethereal_tyranny"
+		XGF = {
+			random_owned_province = {
+				spawn_rebels = {
+					type = farsight_rebels
+					size = 3
+					friend = XGG
+				}
+			}
+		}
+	}
+	option = {
+		name = "Hide_ethereal_tyranny"
+		add_prestige = 50
+	}
+}
+
+country_event = {
+	id = farsight_events.2
+	title = "farsight_events.2.t"
+	desc = "farsight_events.2.d"
+	picture = ANGRY_MOB_eventPicture
+
+	trigger = {
+		tag = XGG
+		is_in_war = {
+			attackers = XGF
+			defenders = XGG
+		}
+	}
+	
+	fire_only_once = yes
+
+	option = {
+		name = "They_attack_us"
+		XGF = {
+			every_owned_province = {
+				limit = {
+					culture = fire_caste_culture
+				}
+				spawn_rebels = {
+					type = farsight_rebels
+					size = 5
+					friend = XGG
+				}
+			}
+			every_owned_province = {
+				limit = {
+					NOT = { 
+						culture = fire_caste_culture
+						culture = ethereal_culture						
+					}
+				}
+				spawn_rebels = {
+					type = farsight_rebels
+					size = 3
+					friend = XGG
+				}
+			}
+		}
+	}
+	option = {
+		name = "Surrender"
+		switch_tag = XGF
+		set_global_flag = inherit_farsight
+		
+	}
+	
+	after = {
+		if = {
+			limit = {
+				has_global_flag = inherit_farsight
+			}
+			XGF = {
+				inherit = XGG
+			}
+		}
+		clr_global_flag = inherit_farsight
+	}
+}

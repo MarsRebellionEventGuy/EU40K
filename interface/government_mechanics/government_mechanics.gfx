@@ -1,4 +1,5 @@
 spriteTypes = {
+	### Imperium ###
 	spriteType = {
 		name = "GFX_imperium_frame"
 		texturefile = "gfx/interface/imperium_frame.dds"
@@ -22,4 +23,31 @@ spriteTypes = {
 		loadType = "INGAME"
 		transparencecheck = yes
 	}
+	
+	### Tau ###
+	
+	spriteType = {
+		name = "GFX_tau_mechanic_bg"
+		texturefile = "gfx/interface/government_mechanics/tau_government/tau_mecanic_bg.dds"
+	}
+
+	spriteType = {
+		name = "the_eight_button"
+		texturefile = "gfx//interface//government_mechanics/tau_government/the_eight_button.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "elemental_council_button"
+		texturefile = "gfx//interface//government_mechanics/tau_government/elemental_council_button.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "rejection_of_ethereal_power_button"
+		texturefile = "gfx//interface//government_mechanics/tau_government/rejection_of_ethereal_power_button.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
 }

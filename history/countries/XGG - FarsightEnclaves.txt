@@ -1,4 +1,4 @@
-government = republic
+government = monarchy
 add_government_reform = farsight_enclaves_reform
 government_rank = 1
 technology_group = tau
@@ -13,5 +13,6 @@ capital = 1881
 			dip = 5
 			mil = 5
 		}
+		add_ruler_personality = immortal_personality
 	}
 }
