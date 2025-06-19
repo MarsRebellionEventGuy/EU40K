@@ -8,6 +8,7 @@ monarchy = {
 				necron_dynasty_reform
 				league_votann_reform
 				drukhari_cult_reform
+				farsight_enclaves_reform
 			}
 		}
 		hereditary_vs_nobility = {
@@ -133,7 +134,6 @@ republic = {
 	reform_levels = {
 		oligarchy_merchant_class_noble_elite = {
 			reforms = {
-				farsight_enclaves_reform
 			}
 		}
 		republican_virtues = {

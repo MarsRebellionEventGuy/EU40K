@@ -1,0 +1,5 @@
+farsight_free_tau_from_ethereals = {
+	all_power_cost = -0.25
+	free_policy = 1
+	legitimacy = 2
+}

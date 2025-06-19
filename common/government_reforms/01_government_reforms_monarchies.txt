@@ -23,11 +23,11 @@ imperium_regency_reform = {
 	trigger = {
 	}
 
+	fixed_rank = 3
 	custom_attributes = {
 		royal_marriage = no
 		queen = no
 		heir = no
-		fixed_rank = 3
 		allow_vassal_alliance = yes
 	}
 
@@ -510,7 +510,42 @@ solblades_reform = {
 	}
 }
 
+farsight_enclaves_reform = {
+	icon = "farsight_enclaves"
+	allow_normal_conversion = no
+	legacy_equivalent = farsight_enclaves
+	potential = {
+		tag = XGG
+	}
+	trigger = {
+	}
+	
+	has_parliament = yes
+	custom_attributes = {
+		royal_marriage = no
+		queen = no
+		heir = no
+	}
 
+	modifiers = {
+		defensiveness = 0.20
+		war_exhaustion_cost = -0.25
+	}
+
+	conditional = {
+		allow = { has_dlc = "Domination" }
+		government_abilities = {
+			Kauyon_Montka_mechanic
+		}
+	}
+
+	ai = {
+		factor = 0 # AI should never pick this
+	}
+
+	removed_effect = {
+	}
+}
 
 
 
