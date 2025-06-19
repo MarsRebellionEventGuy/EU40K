@@ -33,6 +33,7 @@ tau_reform = {
 	nation_designer_cost = 0
 	modifiers = {
 		reduced_liberty_desire = 33
+		promote_culture_cost = 100 # if assilimilate system doesn't work, you can juste convert and fight
 	}
 	conditional = {
 		allow = {
@@ -45,44 +46,6 @@ tau_reform = {
 	custom_attributes = {
 		gain_monarch_power_from_force_converting = yes
 		allow_force_tributary = yes
-	}
-	assimilation_cultures = {
-		tau_culture_group = {
-			stability_cost_modifier = -0.1
-			effect = { hidden_effect = { change_variable = { which = cultures_assimilated value = 1 } } }
-			removed_effect = { hidden_effect = { subtract_variable = { which = cultures_assimilated value = 1 } } }
-		}
-		imperial_culture_group = {
-			leader_cost = -0.10
-			effect = { hidden_effect = { change_variable = { which = cultures_assimilated value = 1 } } }
-			removed_effect = { hidden_effect = { subtract_variable = { which = cultures_assimilated value = 1 } } }
-		}
-		ork_culture_group = {
-			loot_amount = 0.15
-			effect = { hidden_effect = { change_variable = { which = cultures_assimilated value = 1 } } }
-			removed_effect = { hidden_effect = { subtract_variable = { which = cultures_assimilated value = 1 } } }
-		}
-		aeldari_culture_group = {
-			yearly_corruption = -0.05
-			effect = { hidden_effect = { change_variable = { which = cultures_assimilated value = 1 } } }
-			removed_effect = { hidden_effect = { subtract_variable = { which = cultures_assimilated value = 1 } } }
-		}
-		necron_culture_group = {
-			technology_cost = -0.05
-			effect = { hidden_effect = { change_variable = { which = cultures_assimilated value = 1 } } }
-			removed_effect = { hidden_effect = { subtract_variable = { which = cultures_assimilated value = 1 } } }
-		}
-		votann_culture_group = {
-			production_efficiency = 0.05
-			effect = { hidden_effect = { change_variable = { which = cultures_assimilated value = 1 } } }
-			removed_effect = { hidden_effect = { subtract_variable = { which = cultures_assimilated value = 1 } } }
-		}
-		xeno_culture_group = {
-			global_unrest = -1
-			effect = { hidden_effect = { change_variable = { which = cultures_assimilated value = 1 } } }
-			removed_effect = { hidden_effect = { subtract_variable = { which = cultures_assimilated value = 1 } } }
-		}
-
 	}
 }
 
