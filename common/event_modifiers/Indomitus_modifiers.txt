@@ -541,30 +541,35 @@ tyr_morfi_1 = {
 	land_maintenance_modifier = -0.1
 	global_supply_limit_modifier = 1
 	military_tactics = 0.1
+	picture = military_tactics
 }
 
 tyr_morfi_2 = {
 	land_maintenance_modifier = -0.15
 	global_supply_limit_modifier = 1
 	military_tactics = 0.2
+	picture = military_tactics
 }
 
 tyr_morfi_3 = {
 	land_maintenance_modifier = -0.2
 	global_supply_limit_modifier = 1
 	military_tactics = 0.3
+	picture = military_tactics
 }
 
 tyr_morfi_4 = {
 	land_maintenance_modifier = -0.25
 	global_supply_limit_modifier = 1.5
 	military_tactics = 0.4
+	picture = military_tactics
 }
 
 tyr_morfi_5 = {
 	land_maintenance_modifier = -0.33
 	global_supply_limit_modifier = 2
 	military_tactics = 0.5
+	picture = military_tactics
 }
 
 tyr_eye_control = {
@@ -578,4 +583,34 @@ zoat_diplomacy = {
 
 province_purged = {
 	local_unrest = -15
+}
+
+tyr_destiny_1 = {
+	overextension_impact_modifier = -0.1
+	administrative_efficiency = 0.02
+	picture = administrative_efficiency
+}
+
+tyr_destiny_2 = {
+	overextension_impact_modifier = -0.15
+	administrative_efficiency = 0.033
+	picture = administrative_efficiency
+}
+
+tyr_destiny_3 = {
+	overextension_impact_modifier = -0.2
+	administrative_efficiency = 0.05
+	picture = administrative_efficiency
+}
+
+tyr_destiny_4 = {
+	overextension_impact_modifier = -0.25
+	administrative_efficiency = 0.075
+	picture = administrative_efficiency
+}
+
+tyr_destiny_5 = {
+	overextension_impact_modifier = -0.30
+	administrative_efficiency = 0.1
+	picture = administrative_efficiency
 }

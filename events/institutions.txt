@@ -2440,6 +2440,7 @@ country_event = {
 	
 	trigger = {
 		is_institution_enabled = printing_press
+		NOT = {has_reform = hive_fleet_reform}
 		NOT = { has_institution = printing_press }
 		any_owned_province = {
 			printing_press = 100
@@ -3261,7 +3262,7 @@ country_event = {
 	}
 }
 
-#Healthy Criticism? - Coffee Houses / Karagöz Etc
+#Healthy Criticism? - Coffee Houses / Karagï¿½z Etc
 province_event = {
 	id = institution_events.73
 	title = institution_events.73.t #Healthy Criticism?

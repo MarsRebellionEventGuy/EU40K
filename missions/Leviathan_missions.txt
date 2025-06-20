@@ -543,7 +543,7 @@ Leviathan_9 = { #Remnants of an Army
 		effect = {
 		
 			add_mil_power = 50
-			add_sailors = 5000
+			add_manpower = 20
 
 			mars_planet = {
 				limit = {
@@ -644,13 +644,16 @@ Leviathan_11 = { #Terra
 		trigger = {
 					num_of_provinces_owned_or_owned_by_subjects_with = {
 				value = 15
+				OR = {
 				area = solar
 				area = jupiter
 				area = saturn
+				}
+				}
 				1 = {
 					country_or_non_sovereign_subject_holds = ROOT
 				}
-			}
+			
 					
 				}
 		
@@ -847,7 +850,8 @@ Leviathan_22 = { #Obscurity
 		trigger = {
 
 			num_of_provinces_owned_or_owned_by_subjects_with = {
-				value = 85
+
+				OR = {
 			region = hydraphur_region
 			region = agripinaa_region
 			region = medusan_reach_region
@@ -858,7 +862,8 @@ Leviathan_22 = { #Obscurity
 			region = stygius_region
 			region = grail_abyss_region
 			region = gothic_region
-
+				}
+				value = 85
 
 		}
 	}
@@ -1064,27 +1069,30 @@ Leviathan_24 = { #Dawnbringer
 		trigger = {
 
 			num_of_provinces_owned_or_owned_by_subjects_with = {
+				OR = {
+			region = hydraphur_region
+			region = agripinaa_region
+			region = medusan_reach_region
+			region = calixis_region
+			region = askellon_region
+			region = stryken_region
+			region = nachmund_region
+			region = stygius_region
+			region = grail_abyss_region
+			region = gothic_region
+			region = hydraphur_region
+			region = agripinaa_region
+			region = medusan_reach_region
+			region = calixis_region
+			region = askellon_region
+			region = stryken_region
+			region = nachmund_region
+			region = stygius_region
+			region = grail_abyss_region
+			region = gothic_region
+				}
 				value = 200
-			region = hydraphur_region
-			region = agripinaa_region
-			region = medusan_reach_region
-			region = calixis_region
-			region = askellon_region
-			region = stryken_region
-			region = nachmund_region
-			region = stygius_region
-			region = grail_abyss_region
-			region = gothic_region
-			region = hydraphur_region
-			region = agripinaa_region
-			region = medusan_reach_region
-			region = calixis_region
-			region = askellon_region
-			region = stryken_region
-			region = nachmund_region
-			region = stygius_region
-			region = grail_abyss_region
-			region = gothic_region
+			
 
 			}
 		}
@@ -1496,11 +1504,15 @@ Leviathan_25 = { #Pacifier
 		
 		trigger = {
 			num_of_provinces_owned_or_owned_by_subjects_with = {
-				value = 50
+
+				OR = {
 				region = salient_stars_region 
 				region = macharia_region 
 				region = sabbat_worlds_region 
 				region = laanah_rifts_region 
+				}
+				value = 50
+				
 		
 			}
 		}
@@ -1578,7 +1590,7 @@ Leviathan_26 = { #Best in the West
 		
 		trigger = {
 			num_of_provinces_owned_or_owned_by_subjects_with = {
-				value = 200
+				OR = {
 				region = salient_stars_region 
 				region = macharia_region 
 				region = sabbat_worlds_region 
@@ -1592,6 +1604,9 @@ Leviathan_26 = { #Best in the West
 				region = trail_evisser_region
 				continent = webway
 				continent = segmentum_rift
+				}
+				value = 200
+				
 		
 			}
 		}
@@ -1683,10 +1698,12 @@ Leviathan_27 = { #Ghazghkull's Golgotha
 		
 		trigger = {
 				num_of_provinces_owned_or_owned_by_subjects_with = {
-				value = 10
+				OR = {
 				region = golgotha_region
 				region = prosperan_rift_region
-		
+				}
+				
+					value = 10
 			}
 		}
 

@@ -3660,6 +3660,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = {has_reform = hive_fleet_reform}
 		num_of_cities = 2
 		any_owned_province = {
 			is_capital = no
@@ -4370,6 +4371,7 @@ country_event = {
 	trigger = {
 		government = monarchy
 		has_regency = no
+		NOT = {has_reform = hive_fleet_reform}
 	}
 
 	mean_time_to_happen = {

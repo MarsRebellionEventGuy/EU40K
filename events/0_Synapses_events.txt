@@ -664,3 +664,237 @@ country_event = { # Tyranid evolution against Necrons
 		}
 	}
 }
+
+country_event = { # 99% Overextension
+	id = indomitus_general.32
+	title = indomitus_general.32.t
+	desc = indomitus_general.32.d
+	picture = muslimgfx_OVEREXTENSION_eventPicture
+	
+	fire_only_once = yes
+
+	trigger = {
+		overextension_percentage = 0.99
+		is_in_war = {
+   	 	attacker_leader = ROOT
+   	 	casus_belli = cb_tyranid_invasion
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+		}
+
+	option = {
+		name = indomitus_general.32.a
+		add_country_modifier = { 
+			name = tyr_destiny_1
+			duration = -1
+		}
+	}
+}
+
+country_event = { # 150% Overextension
+	id = indomitus_general.33
+	title = indomitus_general.33.t
+	desc = indomitus_general.33.d
+	picture = muslimgfx_CONQUEST_eventPicture
+	
+	fire_only_once = yes
+
+	trigger = {
+		overextension_percentage = 1.5
+		is_in_war = {
+   	 	attacker_leader = ROOT
+   	 	casus_belli = cb_tyranid_invasion
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+		}
+
+	option = {
+		name = indomitus_general.33.a
+		add_country_modifier = { 
+			name = tyr_destiny_2
+			duration = -1
+		}
+		remove_country_modifier = tyr_destiny_1
+		
+	}
+}
+country_event = { # 200% Overextension
+	id = indomitus_general.34
+	title = indomitus_general.34.t
+	desc = indomitus_general.34.d
+	picture = muslimgfx_HORDE_ON_HORSEBACK_eventPicture
+	
+	fire_only_once = yes
+
+	trigger = {
+		overextension_percentage = 2
+		is_in_war = {
+   	 	attacker_leader = ROOT
+   	 	casus_belli = cb_tyranid_invasion
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+		}
+
+	option = {
+		name = indomitus_general.34.a
+		add_country_modifier = { 
+			name = tyr_destiny_3
+			duration = -1
+		}
+		remove_country_modifier = tyr_destiny_2
+	}
+}
+country_event = { # 250% Overextension
+	id = indomitus_general.35
+	title = indomitus_general.35.t
+	desc = indomitus_general.35.d
+	picture = TRANSYLVANIA_BETHLEN_INVASION_eventPicture
+	
+	fire_only_once = yes
+
+	trigger = {
+		overextension_percentage = 2.5
+		is_in_war = {
+   	 	attacker_leader = ROOT
+   	 	casus_belli = cb_tyranid_invasion
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+		}
+
+	option = {
+		name = indomitus_general.35.a
+		add_country_modifier = { 
+			name = tyr_destiny_4
+			duration = -1
+		}
+		remove_country_modifier = tyr_destiny_3
+	}
+}
+country_event = { # 300% Overextension
+	id = indomitus_general.36
+	title = indomitus_general.36.t
+	desc = indomitus_general.36.d
+	picture = muslimgfx_COUNTRY_COLLAPSE_eventPicture
+	
+	fire_only_once = yes
+
+	trigger = {
+		overextension_percentage = 3
+		is_in_war = {
+   	 	attacker_leader = ROOT
+   	 	casus_belli = cb_tyranid_invasion
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+		}
+
+	option = {
+		name = indomitus_general.36.a
+		add_country_modifier = { 
+			name = tyr_destiny_5
+			duration = -1
+		}
+		remove_country_modifier = tyr_destiny_4
+	}
+}
+country_event = { #Invasion Exigency
+	id = indomitus_general.37
+	title = indomitus_general.37.t
+	desc = indomitus_general.37.d
+	picture = muslimgfx_FAMINE_eventPicture
+
+	trigger = {
+		culture_group = tyranid_culture_group
+		is_at_war = yes
+		manpower_percentage = 0
+		NOT = {has_country_flag = tyr_emergency_rec}
+		}
+
+	mean_time_to_happen = {
+		days = 1
+		}
+
+	option = {
+		name = indomitus_general.37.a
+		add_yearly_manpower = 0.75
+		add_years_of_income = -0.75
+		add_estate_loyalty = {
+			estate = estate_synapses
+			loyalty = -10
+		}
+		set_country_flag = tyr_emergency_rec
+	}
+}
+country_event = { # Biovore's Deployed!
+	id = indomitus_general.38
+	title = indomitus_general.38.t
+	desc = indomitus_general.38.d
+	picture = muslimgfx_SIEGE_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		culture_group = tyranid_culture_group
+		is_at_war = yes
+		year = 2012
+		mil_tech = 5
+		total_development = 200
+		is_great_power = yes
+		num_of_ports_blockading = 1
+		
+
+	}
+
+	mean_time_to_happen = {
+		days = 100
+		}
+
+	option = {
+		name = indomitus_general.38.a
+		create_units_of_type = {
+				amount = 5
+				province = random_owned_province
+				unit_type = Biovore
+			}
+	}
+}
+country_event = { #Surplus
+	id = indomitus_general.39
+	title = indomitus_general.39.t
+	desc = indomitus_general.39.d
+	picture = muslimgfx_LAND_MILITARY_eventPicture
+	
+	fire_only_once = yes
+
+	trigger = {
+		has_reform = tetra_staged_assimilation_protocol_reform
+		has_idea_group = quantity_ideas
+		has_idea = dire_straits
+		is_at_war = yes 
+	}
+
+	mean_time_to_happen = {
+		days = 1
+		}
+
+	option = {
+		name = indomitus_general.39.a
+		add_yearly_manpower = 3
+		
+	}
+}
+

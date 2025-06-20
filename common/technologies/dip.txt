@@ -17,8 +17,6 @@ technology = { #Early Ships
 	range					=	100
 	may_fabricate_claims = yes
 
-	enable = war_canoe
-
 
 }
 

@@ -169,6 +169,7 @@ technology = {
 	military_tactics 	= 	0.25
 	enable = large_cast_bronze_mortar 
 	enable = houfnice
+	enable = Biovore
 }
 
 technology = {

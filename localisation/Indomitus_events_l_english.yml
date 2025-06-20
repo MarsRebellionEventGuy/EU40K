@@ -714,3 +714,54 @@ cytheria_guerilla_desc:0 "During the 3rd Sphere of Expansion Cytheria fell unto 
 tau_events.4.t:0 "Unfortunate Son"
 tau_events.4.d:0 "By and large our occupation of Cytheria has been accepted by the human populace of the province. However, ever since the planet fell on our 3rd Sphere of Expansion, organized bands of rebellious elements have been ambushing our garrison in the tropical enviroment that dominates the landscape of the region. We will either need to double down on our pacification efforts or accept a compromise with the Catachan rebels."
 tau_events.4.a:0 "§YIt ain't me...§"
+
+indomitus_general.32.t:0 "Rampage"
+indomitus_general.32.d:0 "Our rapid consumption of entire galactic sectors has sent shockwaves rippling through the cosmic arena. They call it madness, for us, it's only destiny."
+indomitus_general.32.a:0 "§YAnd we're just getting started.§"
+
+indomitus_general.33.t:0 "Frenzy"
+indomitus_general.33.d:0 "All these defenseless planets, inferior races crumbling under the sheer weight of our host. What can these feeble organism do against the maelstrom?"
+indomitus_general.33.a:0 "§TDespair.§"                            
+
+indomitus_general.34.t:0 "Tempest"
+indomitus_general.34.d:0 "Why should we show restrain in our conquests? We cannot allow anyone or anything to get in the way of the Great Devouring!"
+indomitus_general.34.a:0 "§BA storm is coming...§"                             
+
+indomitus_general.35.t:0 "Hysteria"
+indomitus_general.35.d:0 "As with many things, the swarm now has an impetu of its own. Before a campaign is even concluded, our creatures are already envisaging the next!"
+indomitus_general.35.a:0 "§YAs they should.§" 
+
+indomitus_general.36.t:0 "Pandemonium"
+indomitus_general.36.d:0 "Just one more campaign... We need MORE BIOMASS!!!"
+indomitus_general.36.a:0 "§OTHERE WILL BE NOTHING§" 
+
+tyr_destiny_1:0 "Rampage"
+tyr_destiny_1_desc:0 "§YThe swarm must grow to meet the needs of the growing swarm.§"
+
+tyr_destiny_2:0 "Frenzy"
+tyr_destiny_2_desc:0 "§TSuch defenseless creatures, heedless of the warnings, will now succumb under our frenzy.§"
+
+tyr_destiny_3:0 "Tempest"
+tyr_destiny_3_desc:0 "§BThere will be no refuge from this storm.§"
+
+tyr_destiny_4:0 "Hysteria"
+tyr_destiny_4_desc:0 "§YOur endless host cannot contain itself in its ravenous hunger for further conquests.§"
+
+tyr_destiny_5:0 "Pandemonium"
+tyr_destiny_5_desc:0 "§OMORE.§"
+
+indomitus_general.37.t:0 "Invasion Exigency!"
+indomitus_general.37.d:0 "The critical lack of reserve bioforms has prompted the Norn-Queens to pump out a one-time emergency batch of creatures to wrap up the present campaign at all costs!"
+indomitus_general.37.a:0 "§TWhathever it takes.§" 
+
+indomitus_general.38.t:0 "Biovores Deployed!"
+indomitus_general.38.d:0 "The lessons learned through our already numerous campaings have produced an unprecedented stroke of luck. By reverse engineering human artillery elements, the Norn-Queens have managed to create a brand new organism to tear down fortifications with ease. These prototypes are already on the field ready to demolish the enemy's strongholds in the current conflict!"
+indomitus_general.38.a:0 "§YBy my will, this shall be finished§" 
+
+indomitus_general.39.t:0 "Surplus"
+indomitus_general.39.d:0 "Our directive of quantity over quality to our Norn-Queen's production of lifeforms has produced unexpected benefits. Given the decades of constant warfare under our host, they know how to best employ the resources available to produce ample batches of bioforms. \n \nA recent operation in our current campaign provided a huge surge of resources, which the Queens have transformed into a significant swarm of its own!"
+indomitus_general.39.a:0 "Delightful." 
+
+indomitus_general.40.t:0 "Sailor's Pledge"
+indomitus_general.40.d:0 "Times like these call for action. Our sailors have look idly upon the situation on the ground for far too long. A significant number of them has pledged their services to the armed forces. A most necessary windfall given our critical reserves of manpower, even if we have to drill them into shape."
+indomitus_general.40.a:0 "On the march."

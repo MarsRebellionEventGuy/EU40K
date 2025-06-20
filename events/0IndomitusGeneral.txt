@@ -382,3 +382,29 @@ country_event = { #Dolmen Gates
 		remove_country_modifier = { name = ether_drive_ftl }
 	}
 }
+
+country_event = { # Sailors into Army
+	id = indomitus_general.40
+	title = indomitus_general.40.t
+	desc = indomitus_general.40.d
+	picture = DHOW_AT_SEA_eventPicture
+	
+
+	trigger = {
+		sailors_percentage = 0.75
+		manpower_percentage = 0
+		is_at_war = yes
+	}
+
+	mean_time_to_happen = {
+		days = 1
+		}
+
+	option = {
+		name = indomitus_general.40.a
+		add_yearly_manpower = 1.00
+		add_yearly_sailors = -1
+		add_army_professionalism = -0.02
+		
+	}
+}

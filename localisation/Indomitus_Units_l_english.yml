@@ -489,6 +489,8 @@
  ViragonDESCR:0 "The largest excavator within our arsenal, esencially the Bio-Titan version of a regular Trygon, a Viragon specializes in the creation of laberinthine tunnels beneath our enemy's position, later emerging from the confines of their hollowed ground to spray its toxins across the warzone."
  Zoanthrope:0 "Zoanthrope"
  ZoanthropeDESCR:0 "Floating synaptic organisms of immense psychic potential, Zoanthropes unleash warp blasts capable of melting tanks and minds alike. Often deployed against Humans and Necron adversaries, as they disrupt the psychic elements of these species."
+ Biovore:0 "Biovore"
+ BiovoreDESCR:0 "Biovores are sluggish, bloated creatures whose only task is to grow and launch Spore Mines towards the enemy at a withered pace."
 
  AccursedCultistTorment:0 "Accursed Cultist Torment"
  AccursedCultistTormentDESCR:0 ""

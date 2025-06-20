@@ -561,6 +561,7 @@ country_event = {
 	trigger = {
 		has_dlc = "Rule Britannia"
 		innovativeness = 5
+		NOT = {has_reform = hive_fleet_reform}
 	}
 
 	mean_time_to_happen = {
