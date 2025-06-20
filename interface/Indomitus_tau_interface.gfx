@@ -11,4 +11,8 @@ spriteTypes = {
 		name = "GFX_icon_diplomacy_am_tau_auxiliary_subject_type"
 		texturefile = "gfx/interface/icon_diplomacy_am_tau_auxiliary.dds"
 	}
+	spriteType = {
+        name = "GFX_great_project_Nexus_Point"	
+        texturefile = "gfx//interface//great_projects//great_project_Nexus_Point.dds"
+    }
 }

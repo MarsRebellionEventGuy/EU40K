@@ -1,0 +1,15 @@
+country_decisions = {
+	# test = {
+		# potential = {
+			# tag = XGF
+		# }
+		# effect = {
+			# chalnath_expanse_sea_region = {
+				# discover_country = ROOT
+			# }
+		# }
+		# ai_will_do = {
+			# factor = 0
+		# }
+	# }
+}
