@@ -30,7 +30,6 @@ test_modifier = {
 	}
 	
 }
-
 # Perpetual Diet
 perpetual_diet = {
 	potential = {

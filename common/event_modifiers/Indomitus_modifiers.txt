@@ -273,6 +273,13 @@ tyran_province_modifier =  {
 	picture = "climate_arid"
 }
 
+cytheria_guerilla = {
+	local_unrest = 3
+	local_tax_modifier = -0.1
+	local_production_efficiency = -0.1
+	picture = "climate_tropical"
+}
+
 luna_province_modifier = {
 	
 	technology_cost = -0.1

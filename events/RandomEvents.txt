@@ -3568,6 +3568,7 @@ country_event = {
 		any_owned_province = {
 			development = 10
 		}
+		NOT = {has_reform = hive_fleet_reform}
 	}
 
 	mean_time_to_happen = {
@@ -5995,6 +5996,7 @@ country_event = {
 	trigger = {
 		stability = 0
 		army_tradition = 50
+		NOT = {has_reform = hive_fleet_reform}
 	}
 
 	mean_time_to_happen = {
@@ -6822,6 +6824,7 @@ country_event = {
 	
 	trigger = {
 		stability = 0
+		NOT = {has_reform = hive_fleet_reform}
 	}
 
 	mean_time_to_happen = {
@@ -7379,6 +7382,7 @@ country_event = {
 		has_regency = no
 		government = monarchy
 		NOT = { has_country_modifier = compromised_spy_defence }
+		NOT = {has_reform = hive_fleet_reform}
 	}
 
 	mean_time_to_happen = {

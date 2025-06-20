@@ -704,3 +704,13 @@ zoat_diplomacy_desc:0 "These centauroid slave race of ours will serve nicely as 
 
 province_purged:0 "Province Purged"
 province_purged_desc:0 "This planet has been thoroughly cleansed of its rebellious elements."
+
+necromunda_unifier:0 "Necromunda's Unifier"
+necromunda_unifier_desc:0 "After untold aeons of strife, we were the ones to finally unify the warring planet under one banner."
+
+cytheria_guerilla:0 "Cytheria Catachan Resistance"
+cytheria_guerilla_desc:0 "During the 3rd Sphere of Expansion Cytheria fell unto the hands of the emerging T'au entity, however, roaming bands of Catachan Jungle Fighters continue to wage a guerilla campaign on the surface."
+
+tau_events.4.t:0 "Unfortunate Son"
+tau_events.4.d:0 "By and large our occupation of Cytheria has been accepted by the human populace of the province. However, ever since the planet fell on our 3rd Sphere of Expansion, organized bands of rebellious elements have been ambushing our garrison in the tropical enviroment that dominates the landscape of the region. We will either need to double down on our pacification efforts or accept a compromise with the Catachan rebels."
+tau_events.4.a:0 "§YIt ain't me...§"

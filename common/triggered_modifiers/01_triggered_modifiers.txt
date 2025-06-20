@@ -89,4 +89,29 @@ is_tyranid = {
 	relation_with_same_culture_group = 75
 	relation_with_heathens = -300
 	reverse_relation_with_heathen_religion = -300
+	loot_amount = 0.20
 }
+
+necromunda_unifier = {
+	
+potential = {
+	}
+		trigger = { 
+			owns = 2841
+			owns = 2838
+			owns = 1111
+			owns = 2843
+			owns = 2840
+			owns = 2842
+			owns = 2839
+			owns = 2846
+			owns = 2844
+			owns = 2845
+		}
+	ai_weight = {
+		factor = 100
+	}
+	global_tax_income = 18
+	prestige = 0.5
+}
+

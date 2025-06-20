@@ -362,7 +362,7 @@ country_event = { #Punish Tyranids on substantial army loss/stackwipe
 	}
 }
 
-country_event = { # War is good
+country_event = { # Sovereign
 	id = indomitus_general.20
 	title = indomitus_general.20.t
 	desc = indomitus_general.20.d

@@ -471,6 +471,7 @@ province_event = {
 				num_of_explorers = 1
 			}
 			adm = 3
+			NOT = {has_reform = hive_fleet_reform}
 		}
 	}
 
