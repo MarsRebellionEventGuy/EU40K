@@ -1,0 +1,13 @@
+country_decisions = {
+	# test = {
+		# potential = {
+			# tag = XGG
+		# }
+		# allow = {}
+		# effect = {
+			# inherit = XEY
+			# inherit = XGL
+			# white_peace = XNA
+		# }
+	# }
+}

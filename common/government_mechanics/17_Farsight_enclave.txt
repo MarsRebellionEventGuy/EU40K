@@ -1,4 +1,4 @@
-Kauyon_Montka_mechanic = {
+farsight_enclaves_mechanic = {
 	alert_icon_gfx = GFX_alerticons_government_mechanics
 	alert_icon_index = 3
 	available = {
@@ -8,7 +8,7 @@ Kauyon_Montka_mechanic = {
 	
 	powers = {
 		the_eight = {
-			max = 200
+			max = 100
 			monarch_power = MIL
 			base_monthly_growth = 0
 			scaled_modifier = {
@@ -19,7 +19,7 @@ Kauyon_Montka_mechanic = {
 			}
 		}
 		elemental_council_power = {
-			max = 200
+			max = 100
 			monarch_power = ADM
 			base_monthly_growth = 0
 			scaled_modifier = {
@@ -30,7 +30,7 @@ Kauyon_Montka_mechanic = {
 			}
 		}
 		rejection_of_ethereal_power = {
-			max = 200
+			max = 100
 			monarch_power = DIP
 			base_monthly_growth = 0
 			scaled_modifier = {
@@ -53,14 +53,22 @@ Kauyon_Montka_mechanic = {
 			}
 		}
 		
-		montka_and_kauyon_mastery = {
-			max = 200
+		farsight_enclaves_liberty = {
+			max = 100
 			base_monthly_growth = 0
 			scaled_modifier = {
 				modifier = {
-					infantry_shock = 1.00
-					infantry_fire = 1.00
-					artillery_fire = 1.00
+					governing_capacity_modifier = 1
+				}
+			}
+			on_max_reached = {
+				if {
+					limit = {
+						has_country_modifier = farsight_free_tau_from_ethereals
+					}
+					country_admin_power = 1
+					country_diplomatic_power = 1
+					country_military_power = 1
 				}
 			}
 		}
@@ -75,27 +83,33 @@ Kauyon_Montka_mechanic = {
 			}
 			effect = {
 				add_government_power = {
-					mechanic_type = Kauyon_Montka_mechanic
-					power_type = montka_and_kauyon_mastery
+					mechanic_type = farsight_enclaves_mechanic
+					power_type = farsight_enclaves_liberty
 					value = 10
 				}
 			}
 			cooldown_years = 5
 			ai_chance = {
-				factor = 0
+				factor = 100
 			}
 		}
 		elemental_council = {
 			icon = elemental_council_button
 			cost_type = elemental_council_power
-			cost = 10
+			cost = 100
 			trigger = { 
 			}
 			effect = { 
+				add_years_of_income = 1
+				add_government_power = {
+					mechanic_type = farsight_enclaves_mechanic
+					power_type = farsight_enclaves_liberty
+					value = 5
+				}
 			}
 			cooldown_years = 5
 			ai_chance = {
-				factor = 0
+				factor = 100
 			}
 		}
 		rejection_of_ethereal = {
@@ -109,7 +123,11 @@ Kauyon_Montka_mechanic = {
 					limit = {
 						has_country_modifier = farsight_free_tau_from_ethereals
 					}
-					add_treasury = 1000
+					random_core_province = {
+						add_base_tax = 1
+						add_base_production = 1
+						add_base_manpower = 1
+					}
 				}
 				else = {
 					clr_country_flag = farsight_events.1
@@ -118,10 +136,15 @@ Kauyon_Montka_mechanic = {
 						tooltip = FARSIGHT_EVENT_1_FROM_GOOV_TOOLTIP
 					}
 				}
+				add_government_power = {
+					mechanic_type = farsight_enclaves_mechanic
+					power_type = farsight_enclaves_liberty
+					value = 5
+				}
 			}
 			cooldown_years = 5
 			ai_chance = {
-				factor = 0
+				factor = 100
 			}
 		}
 	}

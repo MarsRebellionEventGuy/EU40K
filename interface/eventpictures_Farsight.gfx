@@ -1,0 +1,128 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "Cadre_Fight_event_picture"
+		texturefile = "gfx/event_pictures/event_pictures_Farsight/Cadre_Fight.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "Caste_event_picture"
+		texturefile = "gfx/event_pictures/event_pictures_Farsight/Caste.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "Crisis_1_event_picture"
+		texturefile = "gfx/event_pictures/event_pictures_Farsight/Crisis_1.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "Crisis_2_ethetreal_1_event_picture"
+		texturefile = "gfx/event_pictures/event_pictures_Farsight/Crisis_2_ethetreal_1.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "Crisis_4_event_picture"
+		texturefile = "gfx/event_pictures/event_pictures_Farsight/Crisis_4.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "Crisis_build_event_picture"
+		texturefile = "gfx/event_pictures/event_pictures_Farsight/Crisis_build.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "Farsight_aunva_event_picture"
+		texturefile = "gfx/event_pictures/event_pictures_Farsight/Farsight_aunva.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "Farsight_enclave_event_picture"
+		texturefile = "gfx/event_pictures/event_pictures_Farsight/Farsight_enclave.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "Farsight_enclave_2_event_picture"
+		texturefile = "gfx/event_pictures/event_pictures_Farsight/Farsight_enclave_2.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "Ghostkeel_event_picture"
+		texturefile = "gfx/event_pictures/event_pictures_Farsight/Ghostkeel.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "Ghostkeel_2_event_picture"
+		texturefile = "gfx/event_pictures/event_pictures_Farsight/Ghostkeel_2.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "Kroot_event_picture"
+		texturefile = "gfx/event_pictures/event_pictures_Farsight/Kroot.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "Riptide_event_picture"
+		texturefile = "gfx/event_pictures/event_pictures_Farsight/Riptide.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "Shadowsun_event_picture"
+		texturefile = "gfx/event_pictures/event_pictures_Farsight/Shadowsun.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "Stealth_event_picture"
+		texturefile = "gfx/event_pictures/event_pictures_Farsight/Stealth.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "Strike_team_event_picture"
+		texturefile = "gfx/event_pictures/event_pictures_Farsight/Strike_team.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "Strike_team_2_event_picture"
+		texturefile = "gfx/event_pictures/event_pictures_Farsight/Strike_team_2.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "Strike_team_3_event_picture"
+		texturefile = "gfx/event_pictures/event_pictures_Farsight/Strike_team_3.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "Strike_team_patrol_event_picture"
+		texturefile = "gfx/event_pictures/event_pictures_Farsight/Strike_team_patrol.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "tau_vs_tyranid_event_picture"
+		texturefile = "gfx/event_pictures/event_pictures_Farsight/tau_vs_tyranid.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "tau_vs_tyranid_2_event_picture"
+		texturefile = "gfx/event_pictures/event_pictures_Farsight/tau_vs_tyranid_2.dds"
+		alwaystransparent = yes
+	}
+}
