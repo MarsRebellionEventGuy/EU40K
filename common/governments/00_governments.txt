@@ -16,6 +16,7 @@ monarchy = {
 				preserve_highborn_privileges_reform
 				elevate_tribal_leaders_reform
 				distribute_warrants_of_trade_reform
+				caste_liberty_reform
 			}
 		}
 		bureaucracy = {
@@ -24,6 +25,7 @@ monarchy = {
 				extend_primarchs_scourge_reform
 				empower_departmenta_exacta_tithes_reform
 				empower_munitorum_reform
+				elemental_council_reform
 			}
 		}
 		military_doctrines = {
@@ -33,6 +35,9 @@ monarchy = {
 				indomitus_fleets_reform
 				kryptman_reform
 				solblades_reform
+				kauyon_reform
+				montka_reform
+				korvattra_reform
 			}
 		}
 		state_and_religion = {
@@ -40,6 +45,8 @@ monarchy = {
 				autonomy_for_ophelia_reform
 				promote_omnissiah_reform
 				permit_imperial_truth_reform
+				sacrifice_for_the_greater_good_reform
+				save_maximum_life_reform
 			}
 		}
 		growth_of_administration = {
@@ -48,6 +55,10 @@ monarchy = {
 				ultramarines_cadre_reform
 				navigator_patronage_reform
 				adeptus_arbites_reform
+				air_caste_improved_reform
+				water_caste_improved_reform
+				fire_caste_improved_reform
+				earth_caste_improved_reform
 			}
 		}
 		deliberative_assembly = {
@@ -55,6 +66,7 @@ monarchy = {
 				empower_high_lords_reform
 				rule_by_astartes_reform
 				empower_governors_reform
+				all_culture_allowed_reform
 			}
 		}
 		economical_matters = {
@@ -63,6 +75,8 @@ monarchy = {
 				rogue_trader_domains_reform
 				ultramarine_model_reform
 				extend_tithes_reform
+				ovesa_reform
+				worldshaper_reform
 			}
 		}
 		legitimation_of_power = {
@@ -70,6 +84,9 @@ monarchy = {
 				guilliman_authority_reform
 				emperor_authority_reform
 				astartes_authority_reform
+				farsight_is_our_only_leader_reform
+				the_eight_take_more_power_reform
+				the_elemental_council_take_more_power_reform
 			}
 		}
 		absolute_rule_vs_constitutional = {
@@ -77,6 +94,8 @@ monarchy = {
 				suppress_psychic_awakening_reform
 				support_xanthites_reform
 				psychic_ascendancy_reform
+				letat_cest_moi_reform
+				regional_representation_reform
 			}
 		}
 		separation_of_power = {
@@ -84,6 +103,8 @@ monarchy = {
 				golden_throne_repair_reform
 				galactic_domination_reform
 				imperial_webway_network_reform
+				all_hail_farisght_reform
+				we_need_to_forgive_the_ethereal_reform
 			}
 		}
 	}

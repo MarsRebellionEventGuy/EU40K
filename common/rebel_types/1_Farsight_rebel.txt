@@ -12,7 +12,7 @@ farsight_rebels = {
 
 	area = nation
 	defection = tau_culture_group
-	defect_delay = 3			# Held provinces will auto-defect after 18 months, regardless of accept/enforce demands.
+	defect_delay = 6			# Held provinces will auto-defect after 18 months, regardless of accept/enforce demands.
 	independence = tau_culture_group	#What will gain independence (note: ai does not seem to get these rebels if not set to 'none')
 	unit_transfer = no			#yes/no | Units switch allegiance after enforcing demands.
 	gfx_type = culture_province
