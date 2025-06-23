@@ -750,6 +750,7 @@ country_event = { # 200% Overextension
 			name = tyr_destiny_3
 			duration = -1
 		}
+		remove_country_modifier = tyr_destiny_1
 		remove_country_modifier = tyr_destiny_2
 	}
 }
@@ -779,6 +780,8 @@ country_event = { # 250% Overextension
 			name = tyr_destiny_4
 			duration = -1
 		}
+		remove_country_modifier = tyr_destiny_1
+		remove_country_modifier = tyr_destiny_2
 		remove_country_modifier = tyr_destiny_3
 	}
 }
@@ -808,6 +811,9 @@ country_event = { # 300% Overextension
 			name = tyr_destiny_5
 			duration = -1
 		}
+		remove_country_modifier = tyr_destiny_1
+		remove_country_modifier = tyr_destiny_2
+		remove_country_modifier = tyr_destiny_3
 		remove_country_modifier = tyr_destiny_4
 	}
 }
