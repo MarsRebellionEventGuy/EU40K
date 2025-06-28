@@ -1,0 +1,95 @@
+Farsight_branch_Ork = {
+	slot = 1
+	generic = no
+	
+	potential = {
+		tag = XGG
+	}
+	
+	end_dakka_war_mission = {
+		icon = mission_build_up_to_force_limit
+		required_missions = {  }
+		trigger = {
+			is_at_war = no
+		}
+		effect = { 
+			add_claim = 1883
+		}
+		ai_weight = {
+			factor = 10
+		}
+	}
+	
+	remove_ork_from_sector = {
+		icon = mission_build_up_to_force_limit
+		required_missions = { end_dakka_war_mission }
+		trigger = {
+			tau_region = {
+				all_province = {
+					NOT = {
+						culture_group = ork_culture_group
+					}
+				}
+			}
+			NOT = { exists = XGL }
+		}
+		effect = { 
+			
+		}
+		ai_weight = {
+			factor = 10
+		}
+	}
+}
+
+Farsight_col_2 = {
+	slot = 2
+	generic = no
+	
+	potential = {
+		tag = XGG
+	}
+
+	ark_of_omen = {
+		icon = mission_build_up_to_force_limit
+		required_missions = { end_dakka_war_mission }
+		trigger = {
+			NOT = { exists = XGL }
+		}
+		effect = { 
+			country_event = { 
+				id = farsight_events.6
+				days = 30
+				random = 15
+				tooltip = ARK_OF_OMEN_1
+			}
+		}
+		ai_weight = {
+			factor = 10
+		}
+	}
+}
+
+Farsight_col_3 = {
+	slot = 3
+	generic = no
+	
+	potential = {
+		tag = XGG
+	}
+
+	T'au'va = {
+		icon = mission_build_up_to_force_limit
+		trigger = {
+			is_at_war = no
+		}
+		effect = { 
+			country_event = { 
+				id = farsight_events.6
+				days = 30
+				random = 15
+				tooltip = CHOICE_AGAIN_TAU
+			}
+		}
+	}
+}

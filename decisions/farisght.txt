@@ -1,13 +1,21 @@
 country_decisions = {
-	# test = {
-		# potential = {
-			# tag = XGG
-		# }
-		# allow = {}
-		# effect = {
-			# inherit = XEY
-			# inherit = XGL
-			# white_peace = XNA
-		# }
-	# }
+	test = {
+		potential = {
+			tag = XGG
+		}
+		allow = {}
+		effect = {
+			inherit = XGF
+		}
+	}
+    
+    test_2 = {
+        potential = {
+			tag = XGG
+		}
+		allow = {}
+		effect = {
+			change_government_reform_progress = 10000
+		}
+    }
 }

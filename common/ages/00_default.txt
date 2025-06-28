@@ -383,6 +383,7 @@ age_of_reformation = {
 		ab_spain_shock_tactics = {
 			allow = {
 				tag = XGF
+				tag = XGG
 			}
 			effect = { 
 				on_age_ability_taken = { age = age_of_reformation }
