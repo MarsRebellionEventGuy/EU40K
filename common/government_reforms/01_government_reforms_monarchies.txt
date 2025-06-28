@@ -510,12 +510,12 @@ solblades_reform = {
 	}
 }
 
+##### Farsight Enclave #####
 #feudalism_vs_autocracy level
 farsight_enclaves_reform = {
 	icon = "farsight_enclaves"
 
 	allow_normal_conversion = no
-	legacy_equivalent = farsight_enclaves
 	potential = {
 		tag = XGG
 	}
@@ -523,7 +523,6 @@ farsight_enclaves_reform = {
 	}
 	
 	has_parliament = yes
-	fixed_rank = 3 #needed to accepte all culture_group
 	custom_attributes = {
 		royal_marriage = no
 		queen = no
@@ -552,7 +551,7 @@ farsight_enclaves_reform = {
 
 #hereditary_vs_nobility
 caste_liberty_reform = {
-	icon = "farsight_enclaves"
+	icon = "caste_liberty_reform"
 	
 	potential = {
 		culture_group = tau_culture_group
@@ -572,7 +571,7 @@ caste_liberty_reform = {
 
 #bureaucracy
 elemental_council_reform = {
-	icon = "farsight_enclaves"
+	icon = "elemental_council_reform"
 	
 	potential = {
 		culture_group = tau_culture_group
@@ -591,7 +590,7 @@ elemental_council_reform = {
 
 #military_doctrines
 kauyon_reform = {
-	icon = "farsight_enclaves"
+	icon = "kauyon_reform"
 	
 	potential = {
 		culture_group = tau_culture_group
@@ -610,7 +609,7 @@ kauyon_reform = {
 }
 
 montka_reform = {
-	icon = "farsight_enclaves"
+	icon = "montka_reform"
 	
 	potential = {
 		culture_group = tau_culture_group
@@ -629,7 +628,7 @@ montka_reform = {
 }
 
 korvattra_reform = {
-	icon = "farsight_enclaves"
+	icon = "korvattra_reform"
 	
 	potential = {
 		culture_group = tau_culture_group
@@ -649,7 +648,7 @@ korvattra_reform = {
 #state_and_religion
 # sacrifice for the greater good. - save maximum life - venerate T'au'va goddess
 sacrifice_for_the_greater_good_reform = {
-	icon = "farsight_enclaves"
+	icon = "sacrifice_for_the_greater_good_reform"
 	
 	potential = {
 		religion = greater_good
@@ -666,7 +665,7 @@ sacrifice_for_the_greater_good_reform = {
 }
 
 save_maximum_life_reform = {
-	icon = "farsight_enclaves"
+	icon = "save_maximum_life_reform"
 	
 	potential = {
 		religion = greater_good
@@ -684,7 +683,7 @@ save_maximum_life_reform = {
 
 #growth_of_administration
 air_caste_improved_reform = {
-	icon = "farsight_enclaves"
+	icon = "air_caste_improved_reform"
 	potential = {
 		religion = greater_good
 	}
@@ -702,7 +701,7 @@ air_caste_improved_reform = {
 }
 
 fire_caste_improved_reform = {
-	icon = "farsight_enclaves"
+	icon = "fire_caste_improved_reform"
 	potential = {
 		religion = greater_good
 	}
@@ -720,7 +719,7 @@ fire_caste_improved_reform = {
 }
 
 earth_caste_improved_reform = {
-	icon = "farsight_enclaves"
+	icon = "earth_caste_improved_reform"
 	potential = {
 		religion = greater_good
 	}
@@ -738,7 +737,7 @@ earth_caste_improved_reform = {
 }
 
 water_caste_improved_reform = {
-	icon = "farsight_enclaves"
+	icon = "water_caste_improved_reform"
 	potential = {
 		religion = greater_good
 	}
@@ -759,7 +758,7 @@ water_caste_improved_reform = {
 
 #deliberative_assembly
 all_culture_allowed_reform = {
-	icon = "farsight_enclaves"
+	icon = "all_culture_allowed_reform"
 	
 	potential = {
 		culture_group = tau_culture_group
@@ -769,6 +768,7 @@ all_culture_allowed_reform = {
 
     modifiers = {
         years_of_nationalism = -10
+		monthly_rejection_of_ethereal_power = 0.5
     }
 	ai = {
 		factor = 1
@@ -777,7 +777,7 @@ all_culture_allowed_reform = {
 
 #economical_matters
 ovesa_reform = {
-	icon = "farsight_enclaves"
+	icon = "ovesa_reform"
 	
 	potential = {
 		culture_group = tau_culture_group
@@ -789,6 +789,7 @@ ovesa_reform = {
 		parliament_backing_chance = 0.33
 		parliament_effect_duration = -5
 		can_revoke_parliament_seats = yes
+		monthly_the_eight_power = 0.5
 	}
 	ai = {
 		factor = 1
@@ -796,7 +797,7 @@ ovesa_reform = {
 }
 
 worldshaper_reform = {
-	icon = "farsight_enclaves"
+	icon = "worldshaper_reform"
 	
 	potential = {
 		culture_group = tau_culture_group
@@ -817,7 +818,7 @@ worldshaper_reform = {
 
 #legitimation_of_power
 farsight_is_our_only_leader_reform = {
-	icon = "farsight_enclaves" 
+	icon = "farsight_is_our_only_leader_reform" 
 	
 	potential = { 
 		tag = XGG
@@ -832,14 +833,14 @@ farsight_is_our_only_leader_reform = {
 }
 
 the_eight_take_more_power_reform = {
-	icon = "farsight_enclaves"
+	icon = "the_eight_take_more_power_reform"
 	
 	potential = { 
 		tag = XGG
 	}
 	modifiers = {
 		stability_cost_to_declare_war = -1
-		ae_impact = 0.15
+		ae_impact = -0.15
 		max_absolutism = 10
 	}
 	ai = {
@@ -848,7 +849,7 @@ the_eight_take_more_power_reform = {
 }
 
 the_elemental_council_take_more_power_reform = {
-	icon = "farsight_enclaves"
+	icon = "the_elemental_council_take_more_power_reform"
 	potential = { 
 		culture_group = tau_culture_group
 	}
@@ -889,42 +890,72 @@ regional_representation_reform = {
 
 #separation_of_power
 all_hail_farisght_reform = {
-	icon = "farsight_enclaves"
-	potential = { 
-		tag = XGG
-		ruler_has_personality = immortal_personality 
-	}
-	modifiers = {
-		monarch_admin_power = 6
-		monarch_diplomatic_power = 6
-		monarch_military_power = 6
-	}
-}
-
-we_need_to_forgive_the_ethereal_reform = {
-	icon = "farsight_enclaves"
+	icon = "all_hail_farisght_reform"
+	allow_normal_conversion = no
 	potential = { 
 		tag = XGG
 		ruler_has_personality = immortal_personality 
 	}
 	effect = {
-		kill_leader = yes
-		change_government = tau_reform
+		change_adm  = 3
+		change_dip = 1
+		change_mil = 1
+	}
+}
+
+we_need_to_forgive_the_ethereal_reform = {
+	icon = "we_need_to_forgive_the_ethereal_reform"
+	allow_normal_conversion = no
+	potential = { 
+		tag = XGG
+		ruler_has_personality = immortal_personality 
+		NOT = { exist = XGF }
+	}
+	effect = {
+		remove_country_modifier = farsight_free_tau_from_ethereals
+		
+		kill_ruler = yes
 		change_tag = XGF
-		while = {
-			limit = {
-				NOT = {
-					dominant_culture = ethereal_culture
+		change_primary_culture = ethereal_culture
+		change_government = theocracy
+		
+		hidden_effect = {
+			random_core_province = {
+				limit = {
+					NOT = { culture = ethereal_culture }
+					culture_group = tau_culture_group
 				}
+				change_culture = ethereal_culture
 			}
 			random_core_province = {
 				limit = {
 					NOT = { culture = ethereal_culture }
+					culture_group = tau_culture_group
+				}
+				change_culture = ethereal_culture
+			}
+			random_core_province = {
+				limit = {
+					NOT = { culture = ethereal_culture }
+					culture_group = tau_culture_group
+				}
+				change_culture = ethereal_culture
+			}
+			random_core_province = {
+				limit = {
+					NOT = { culture = ethereal_culture }
+					culture_group = tau_culture_group
+				}
+				change_culture = ethereal_culture
+			}
+			random_core_province = {
+				limit = {
+					NOT = { culture = ethereal_culture }
+					culture_group = tau_culture_group
 				}
 				change_culture = ethereal_culture
 			}
 		}
-		
 	}
 }
 

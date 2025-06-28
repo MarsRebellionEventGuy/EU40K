@@ -1,6 +1,6 @@
 government = monarchy
 add_government_reform = farsight_enclaves_reform
-government_rank = 1
+government_rank = 3
 technology_group = tau
 religion = greater_good
 primary_culture = fire_caste_culture

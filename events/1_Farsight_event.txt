@@ -6,20 +6,16 @@ country_event = {
 	desc = "farsight_events.1.d"
 	picture = Farsight_aunva_event_picture
 
+	is_triggered_only = yes
+
 	trigger = {
 		is_at_war = no
 		tag = XGG
-		NOT = {
-			has_country_flag = farsight_events.1
-		}
-	}
-	
-	immediate = {
-		set_country_flag = farsight_events.1
+		exists = XGF
 	}
 	
 	option = {
-		name = "Revolt_against_ethereal_tyranny"
+		name = farsight_events.1.a
 		XGF = {
 			random_owned_province = {
 				spawn_rebels = {
@@ -31,7 +27,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = "Hide_ethereal_tyranny"
+		name = farsight_events.1.b
 		add_prestige = 50
 	}
 }
@@ -53,7 +49,7 @@ country_event = {
 	fire_only_once = yes
 
 	option = {
-		name = "They_attack_us"
+		name = farsight_events.2.a
 		ai_chance = { 
 			factor = 75
 			modifier = {
@@ -93,10 +89,9 @@ country_event = {
 		ai_chance = { 
 			factor = 25 
 		}
-		name = "Surrender"
+		name = farsight_events.2.b
 		switch_tag = XGF
 		set_global_flag = inherit_farsight
-		
 	}
 	
 	after = {
@@ -126,6 +121,7 @@ country_event = {
 	}
 	
 	option = {
+		name = farsight_events.3.a
 		every_core_province = {
 			limit = {
 				culture = ethereal_culture
@@ -140,6 +136,7 @@ country_event = {
 	title = "farsight_events.4.t"
 	desc = "farsight_events.4.d"
 	picture = Farsight_aunva_event_picture
+	fire_only_once = yes
 	
 	hidden = yes
 	trigger = {
@@ -174,5 +171,22 @@ country_event = {
 	
 	option = {
 		set_global_flag = WIN_WAR_OF_DAKKA
+	}
+}
+
+country_event = {
+	id = farsight_events.6 # Farsight Ark of omen chain 1 : Return to Arthas Moloch (spawn chaos)
+	title = "farsight_events.6.t"
+	desc = "farsight_events.6.d"
+	picture = Farsight_aunva_event_picture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = XGG
+	}
+	
+	option = {
+		
 	}
 }

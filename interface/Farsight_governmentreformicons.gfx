@@ -1,0 +1,115 @@
+spriteTypes = {
+	spriteType = {
+		name = "government_reform_caste_liberty_reform"
+		texturefile = "gfx//interface//government_reform_icons//Farsight//caste_liberty_reform.dds"
+		
+	}
+	
+	spriteType = {
+		name = "government_reform_elemental_council_reform"
+		texturefile = "gfx//interface//government_reform_icons//Farsight//elemental_council_reform.dds"
+		
+	}
+	
+	spriteType = {
+		name = "government_reform_kauyon_reform"
+		texturefile = "gfx//interface//government_reform_icons//Farsight//kauyon_reform.dds"
+		
+	}
+	
+	spriteType = {
+		name = "government_reform_montka_reform"
+		texturefile = "gfx//interface//government_reform_icons//Farsight//montka_reform.dds"
+		
+	}
+	
+	spriteType = {
+		name = "government_reform_korvattra_reform"
+		texturefile = "gfx//interface//government_reform_icons//Farsight//korvattra_reform.dds"
+		
+	}
+	
+	spriteType = {
+		name = "government_reform_sacrifice_for_the_greater_good_reform"
+		texturefile = "gfx//interface//government_reform_icons//Farsight//sacrifice_for_the_greater_good_reform.dds"
+		
+	}
+	
+	spriteType = {
+		name = "government_reform_save_maximum_life_reform"
+		texturefile = "gfx//interface//government_reform_icons//Farsight//save_maximum_life_reform.dds"
+		
+	}
+	
+	spriteType = {
+		name = "government_reform_air_caste_improved_reform"
+		texturefile = "gfx//interface//government_reform_icons//Farsight//air_caste_improved_reform.dds"
+		
+	}
+	
+	spriteType = {
+		name = "government_reform_fire_caste_improved_reform"
+		texturefile = "gfx//interface//government_reform_icons//Farsight//fire_caste_improved_reform.dds"
+		
+	}
+	
+	spriteType = {
+		name = "government_reform_earth_caste_improved_reform"
+		texturefile = "gfx//interface//government_reform_icons//Farsight//earth_caste_improved_reform.dds"
+		
+	}
+	
+	spriteType = {
+		name = "government_reform_water_caste_improved_reform"
+		texturefile = "gfx//interface//government_reform_icons//Farsight//water_caste_improved_reform.dds"
+		
+	}
+	
+	spriteType = {
+		name = "government_reform_all_culture_allowed_reform"
+		texturefile = "gfx//interface//government_reform_icons//Farsight//all_culture_allowed_reform.dds"
+		
+	}
+	
+	spriteType = {
+		name = "government_reform_ovesa_reform"
+		texturefile = "gfx//interface//government_reform_icons//Farsight//ovesa_reform.dds"
+		
+	}
+	
+	spriteType = {
+		name = "government_reform_worldshaper_reform"
+		texturefile = "gfx//interface//government_reform_icons//Farsight//worldshaper_reform.dds"
+		
+	}
+	
+	spriteType = {
+		name = "government_reform_farsight_is_our_only_leader_reform"
+		texturefile = "gfx//interface//government_reform_icons//Farsight//farsight_is_our_only_leader_reform.dds"
+		
+	}
+	
+	spriteType = {
+		name = "government_reform_the_eight_take_more_power_reform"
+		texturefile = "gfx//interface//government_reform_icons//Farsight//the_eight_take_more_power_reform.dds"
+		
+	}
+	
+	spriteType = {
+		name = "government_reform_the_elemental_council_take_more_power_reform"
+		texturefile = "gfx//interface//government_reform_icons//Farsight//the_elemental_council_take_more_power_reform.dds"
+		
+	}
+	
+	spriteType = {
+		name = "government_reform_all_hail_farisght_reform"
+		texturefile = "gfx//interface//government_reform_icons//Farsight//all_hail_farisght_reform.dds"
+		
+	}
+	
+	spriteType = {
+		name = "government_reform_we_need_to_forgive_the_ethereal_reform"
+		texturefile = "gfx//interface//government_reform_icons//Farsight//we_need_to_forgive_the_ethereal_reform.dds"
+		
+	}	
+}
