@@ -18,4 +18,18 @@ country_decisions = {
 			change_government_reform_progress = 10000
 		}
     }
+	
+	Move_capital_tau = {
+		potential = {
+			NOT = { exists = XGF }
+			is_core = 1898 # T'au
+		}
+		allow = {
+			NOT = { exists = XGF }
+			is_core = 1898 # T'au
+		}
+		effect = {
+			set_capital = 1898
+		}
+	}
 }

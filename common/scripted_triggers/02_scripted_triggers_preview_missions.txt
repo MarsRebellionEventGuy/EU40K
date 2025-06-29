@@ -1,0 +1,196 @@
+has_branching_missions = {
+	OR = {
+		#Farsight
+		has_mission = fate_of_ultramar
+	}
+}
+
+has_mission_and_key_mismatch = {
+	NOT = { has_mission = $mission$ }
+	can_preview_mission_of_key = { key = $key$ }
+}
+
+has_any_mission_and_key_mismatch = {
+	OR = {	
+		has_mission_and_key_mismatch = { mission = fate_of_ultramar		key = XGG_ULTRAMAR }
+	}
+}
+
+has_preview_mission_flag = {
+	check_variable = {
+		which = can_preview_missions_var
+		value = 1
+	}
+}
+
+can_preview_batch = {
+	has_country_flag = has_batch_$batch$_active
+}
+
+has_any_previewable_batch_active = {
+	OR = {
+		can_preview_batch = { batch = 1 }
+		can_preview_batch = { batch = 2 }
+		can_preview_batch = { batch = 3 }
+	}
+}
+
+has_mission_and_key_mismatch = {
+	OR = {
+		NOT = { has_mission = $mission$ }
+		mission_completed = $mission$
+	}
+	can_preview_mission_of_key = { key = $key$ }
+}
+
+can_preview_mission_of_key_and_batch = {
+	has_country_flag = can_choose_$key$_$batch$_branching_missions
+}
+has_preview_missions_of_key_for_branch_in_batch = {
+	has_country_flag = $key$_loc_preview_$batch$_for_$branch$
+}
+can_preview_mission_of_key = {
+	or = {
+		can_preview_mission_of_key_and_batch = { key = $key$ batch = 1 }
+		can_preview_mission_of_key_and_batch = { key = $key$ batch = 2 }
+		can_preview_mission_of_key_and_batch = { key = $key$ batch = 3 }
+	}
+}
+can_preview_missions = {
+	custom_trigger_tooltip = {
+		tooltip = preview_missions_decision_ct
+		OR = {			
+			can_preview_mission_of_key = { key = XGG_ULTRAMAR }
+		}
+	}
+}
+
+not_in_mission_preview_mode = {
+	if = {
+		limit = {
+			check_variable = {
+				which = can_preview_missions_var
+				value = 1
+			}
+			can_preview_mission_of_key = { key = $key$ }
+		}
+		custom_trigger_tooltip = {
+			tooltip = BYZ_we_are_in_preview
+			always = no
+		}
+	}
+}
+
+has_selected_a_branch = {
+	custom_trigger_tooltip = {
+		tooltip = has_selected_a_branch_tt
+		OR = {
+			
+			# XGG_ULTRAMAR
+			AND = {
+				OR = {
+					has_country_flag = Farsight_assimilate_Ultramar
+					has_country_flag = Farsight_conquest_Ultramar
+				}
+				can_preview_mission_of_key_and_batch = { key = XGG_ULTRAMAR batch = $batch$ }
+			}
+		}
+	}
+}
+
+#do nothing. it's to avoid error
+num_of_mission_branches_3 = {
+	AND = { always = no can_preview_mission_of_key_and_batch = { key = XGG_ULTRAMAR batch = $batch$ } }
+}
+
+#do nothing. it's to avoid error
+num_of_mission_branches_4 = {
+	AND = { always = no can_preview_mission_of_key_and_batch = { key = XGG_ULTRAMAR batch = $batch$ } }
+}
+
+#do nothing. it's to avoid error
+num_of_mission_branches_5 = {
+	AND = { always = no can_preview_mission_of_key_and_batch = { key = XGG_ULTRAMAR batch = $batch$ } }
+}
+
+num_of_mission_branches = {
+	num_of_mission_branches_$value$ = { batch = $batch$ }
+}
+
+currently_selected_branch_1 = {
+	OR = {
+		AND = {
+			can_preview_mission_of_key_and_batch = { key = XGG_ULTRAMAR batch = $batch$ }
+			has_country_flag = Farsight_assimilate_Ultramar
+		}
+	}
+}
+currently_selected_branch_2 = {
+	OR = {
+		AND = {
+			can_preview_mission_of_key_and_batch = { key = XGG_ULTRAMAR batch = $batch$ }
+			has_country_flag = Farsight_conquest_Ultramar
+		}
+	}
+}
+
+#do nothing. it's to avoid error
+currently_selected_branch_3 = {
+	AND = { always = no can_preview_mission_of_key_and_batch = { key = XGG_ULTRAMAR batch = $batch$ } }
+}
+
+#do nothing. it's to avoid error
+currently_selected_branch_4 = {
+	AND = { always = no can_preview_mission_of_key_and_batch = { key = XGG_ULTRAMAR batch = $batch$ } }
+}
+
+#do nothing. it's to avoid error
+currently_selected_branch_5 = {
+	AND = { always = no can_preview_mission_of_key_and_batch = { key = XGG_ULTRAMAR batch = $batch$ } }
+}
+
+currently_selected_branch = {
+	currently_selected_branch_$value$ = { batch = $batch$ }
+}
+
+can_select_branch_1 = {
+	if = {
+		limit = { can_preview_mission_of_key_and_batch = { key = XGG_ULTRAMAR batch = $batch$ } }
+		exists = XGK
+	}
+	else = { hidden_trigger = { or = { always = yes } } }
+}
+
+can_select_branch_2 = {
+	if = {
+		limit = { can_preview_mission_of_key_and_batch = { key = FRA_HRE batch = $batch$ } }
+		is_emperor = no
+	}
+	else = { hidden_trigger = { or = { always = yes } } }
+}
+
+#do nothing. it's to avoid error
+can_select_branch_3 = {
+	hidden_trigger = { or = { always = yes has_country_flag = has_$batch$_batch } }
+}
+
+#do nothing. it's to avoid error
+can_select_branch_4 = {
+	hidden_trigger = { or = { always = yes has_country_flag = has_$batch$_batch } }
+}
+
+#do nothing. it's to avoid error
+can_select_branch_5 = {
+	hidden_trigger = { or = { always = yes has_country_flag = has_$batch$_batch } }
+}
+
+can_select_branch = {
+	can_select_branch_$value$ = { batch = $batch$ }
+}
+
+can_select_current_branch = {
+	if = {
+		limit = { can_preview_mission_of_key_and_batch = { key = FRA_HRE batch = $batch$ } }
+	}
+	else = { hidden_trigger = { or = { always = yes } } }
+}

@@ -190,3 +190,41 @@ country_event = {
 		
 	}
 }
+
+country_event = {
+	id = farsight_events.7 # Ask_help_from_tau
+	title = "farsight_events.7.t"
+	desc = "farsight_events.7.d"
+	picture = Farsight_aunva_event_picture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = XGG
+	}
+	
+	option = {
+		#assimilate path
+		#set_country_flag = Farsight_assimilate_Ultramar
+		enable_branching_mission_review_without_ai = { key = XGG_ULTRAMAR }
+	}
+
+country_event = {
+	id = farsight_events.8 # Fate of Ultramar. Choice between assimilation or conquest
+	title = "farsight_events.8.t"
+	desc = "farsight_events.8.d"
+	picture = Crisis_4_event_picture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = XGG
+	}
+	
+	option = {
+		#assimilate path
+		#set_country_flag = Farsight_assimilate_Ultramar
+		enable_branching_mission_review_without_ai = { key = XGG_ULTRAMAR }
+	}
+
+}

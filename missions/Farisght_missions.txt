@@ -1,4 +1,4 @@
-Farsight_branch_Ork = {
+Farsight_col_1 = {
 	slot = 1
 	generic = no
 	
@@ -8,6 +8,7 @@ Farsight_branch_Ork = {
 	
 	end_dakka_war_mission = {
 		icon = mission_build_up_to_force_limit
+		position = 1
 		required_missions = {  }
 		trigger = {
 			is_at_war = no
@@ -22,6 +23,7 @@ Farsight_branch_Ork = {
 	
 	remove_ork_from_sector = {
 		icon = mission_build_up_to_force_limit
+		position = 2
 		required_missions = { end_dakka_war_mission }
 		trigger = {
 			tau_region = {
@@ -40,6 +42,7 @@ Farsight_branch_Ork = {
 			factor = 10
 		}
 	}
+	
 }
 
 Farsight_col_2 = {
@@ -52,17 +55,13 @@ Farsight_col_2 = {
 
 	ark_of_omen = {
 		icon = mission_build_up_to_force_limit
+		position = 2
 		required_missions = { end_dakka_war_mission }
 		trigger = {
 			NOT = { exists = XGL }
 		}
 		effect = { 
-			country_event = { 
-				id = farsight_events.6
-				days = 30
-				random = 15
-				tooltip = ARK_OF_OMEN_1
-			}
+			country_event = { id = farsight_events.6 }
 		}
 		ai_weight = {
 			factor = 10
@@ -78,18 +77,165 @@ Farsight_col_3 = {
 		tag = XGG
 	}
 
-	T'au'va = {
+	Ask_help_from_tau = {
 		icon = mission_build_up_to_force_limit
+		position = 3
+		
+		required_missions = { ark_of_omen }
 		trigger = {
 			is_at_war = no
 		}
 		effect = { 
-			country_event = { 
-				id = farsight_events.6
-				days = 30
-				random = 15
-				tooltip = CHOICE_AGAIN_TAU
+			country_event = { id = farsight_events.7 }
+		}
+	}
+	
+	revenge_against_ethereal = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		
+		required_missions = { ark_of_omen }
+		trigger = {
+			has_country_flag = betrayed_by_ethereal
+		}
+		effect = { 
+			XGG = { add_historical_rival = XGF }
+			XGF = { add_historical_rival = XGG }
+		}
+	}
+	
+	tauva = {
+		icon = mission_build_up_to_force_limit
+		position = 5
+		
+		required_missions = { revenge_against_ethereal }
+		trigger = {
+			OR = {
+				NOT = {
+					exists = XGF
+				}
+				XGF = {
+					is_subject_of = XGG
+				}
+		}
+		effect = { 
+			if = {
+				limit = { exists = XGF }
+				inherit = XGF
 			}
+			else = {
+				1898 = { center_of_trade = 1 }
+			}
+		}
+	}
+}
+
+Farsight_col_4 = {
+	slot = 4
+	generic = no
+	
+	potential = {
+		tag = XGG
+	}
+	
+	fate_of_ultramar = {
+		icon = mission_build_up_to_force_limit
+		position = 1
+		trigger = {
+			#TODO here : if opinion = 200 or possess a core country of XGK
+			always = yes # test
+		}
+		effect = { 
+			country_event = { id = farsight_events.8 }
+		}
+	}
+}
+
+Farsight_fate_ultramar_blanck = {
+	slot = 4
+	generic = no
+	ai = yes
+	
+	potential = {
+		tag = XGG
+		NOT = { has_country_flag = Farsight_assimilate_Ultramar }
+		NOT = { has_country_flag = Farsight_conquest_Ultramar }
+		has_dlc = "Domination"
+	}
+	has_country_shield = yes
+	
+	Farsight_fate_ultramar_blanck_mission = { 
+		icon = mission_unknown_mission
+		required_missions = { fate_of_ultramar }
+		position = 2
+		trigger = { 
+			custom_trigger_tooltip = {
+				tooltip = selectable_mission_trigger_tt
+				always = no
+			}
+		}
+		effect = { 
+			custom_tooltip = fra_if_choose_to_break_habsburg_ring_by_conquering_swaths_of_the_germanic_provinces_tt
+			custom_tooltip = fra_if_choose_to_claim_emperorship_and_gain_unique_bonuses_that_will_help_us_shape_empire_tt
+		}
+	}
+}
+
+Farsight_fate_ultramar_assimilate_branch = {
+	slot = 4
+	generic = no
+	ai = yes
+	
+	potential = {
+		tag = XGG
+		has_country_flag = Farsight_assimilate_Ultramar
+		has_dlc = "Domination"
+	}
+	has_country_shield = yes
+	
+	Farsight_fate_ultramar_assimilate = { 
+		icon = mission_necron_warriors
+		required_missions = { fate_of_ultramar }
+		position = 2
+		trigger = { 
+			not_in_mission_preview_mode = { key = XGG_ULTRAMAR }
+			XGK = {
+				is_vassal = yes
+			}
+		}
+		effect = { 
+			XGK = {
+				add_liberty_desire = -100
+				change_religion = greater_good
+			}
+		}
+	}
+}
+
+Farsight_fate_ultramar_conquest_branch = {
+	slot = 4
+	generic = no
+	ai = yes
+	
+	potential = {
+		tag = XGG
+		has_country_flag = Farsight_conquest_Ultramar
+		has_dlc = "Domination"
+	}
+	has_country_shield = yes
+	
+	Farsight_fate_ultramar_conquest = { 
+		icon = mission_guilliman
+		required_missions = { fate_of_ultramar }
+		position = 2
+		trigger = { 
+			not_in_mission_preview_mode = { key = XGG_ULTRAMAR }
+			NOT = {
+				exists = XGK
+			}
+		}
+		effect = { 
+			add_war_exhaustion = -5
 		}
 	}
 }

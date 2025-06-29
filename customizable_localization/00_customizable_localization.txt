@@ -39,3 +39,17 @@ defined_text = {
 		}
 	}
 }
+
+
+#Branching Missions
+defined_text = {
+	name = GetCurrentSelectedMissionBranchBatch1
+	text = { localisation_key = Farsight_assimilate_Ultramar				trigger = { has_country_flag = has_batch_1_active has_preview_missions_of_key_for_branch_in_batch = { batch = 1 key = XGG_ULTRAMAR branch = 1 } } }
+	text = { localisation_key = NO_MISSIONS_SELECTED }
+}
+
+defined_text = {
+	name = GetCurrentSelectedMissionBranchBatch2
+	text = { localisation_key = Farsight_conquest_Ultramar 					trigger = { has_country_flag = has_batch_2_active has_preview_missions_of_key_for_branch_in_batch = { batch = 2 key = XGG_ULTRAMAR branch = 1 } } }
+	text = { localisation_key = NO_MISSIONS_SELECTED }
+}
