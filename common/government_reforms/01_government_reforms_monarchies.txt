@@ -918,6 +918,7 @@ we_need_to_forgive_the_ethereal_reform = {
 		change_tag = XGF
 		change_primary_culture = ethereal_culture
 		change_government = theocracy
+		swap_non_generic_missions = yes
 		
 		hidden_effect = {
 			random_core_province = {

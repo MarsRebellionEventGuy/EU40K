@@ -83,3 +83,11 @@
 #unit
  farsight_rebels_name: "Sympathizer of Farsight"
  farsight_rebels_desc: ""
+ 
+#decision
+ move_capital_tau_title: "Move the capital"
+ move_capital_tau_desc: "T'au will be our capital forever"
+ 
+#missions
+ Farsight_assimilate_Ultramar_preview: "Farsight_assimilate_Ultramar preview"
+ Farsight_conquest_Ultramar_preview: "Farsight_conquest_Ultramar preview"
