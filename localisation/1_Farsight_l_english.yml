@@ -79,6 +79,11 @@
   
 #modifier
  FARSIGHT_FREE_TAU_FROM_ETHEREALS_DESC: "We freed T'au from Ethereals"
+ FARSIGHT_WIN_DAKKA_WAR_DESC: "We won the war of Dakka !"
+ FARSIGHT_REMOVE_ORK_FROM_GALAXY_DESC: "They're no more Ork in the galaxy"
+ FARSIGHT_REMOVE_TYRANID_FROM_GALAXY_DESC: "They're no more Tyranid in the galaxy"
+ FARSIGHT_REMOVE_CHAOS_FROM_GALAXY_DESC: "They're no more Chaos in the galaxy"
+ FARSIGHT_REMOVE_DRUKHARI_FROM_GALAXY_DESC: "They're no more Drukhari in the galaxy"
 
 #unit
  farsight_rebels_name: "Sympathizer of Farsight"

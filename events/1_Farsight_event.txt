@@ -206,7 +206,9 @@ country_event = {
 	option = {
 		#assimilate path
 		#set_country_flag = Farsight_assimilate_Ultramar
-		enable_branching_mission_review_without_ai = { key = XGG_ULTRAMAR }
+		#enable_branching_mission_review_without_ai = { key = XGG_ULTRAMAR }
+		
+		#set_country_flag = betrayed_by_ethereal
 	}
 
 country_event = {
@@ -222,9 +224,91 @@ country_event = {
 	}
 	
 	option = {
-		#assimilate path
-		#set_country_flag = Farsight_assimilate_Ultramar
 		enable_branching_mission_review_without_ai = { key = XGG_ULTRAMAR }
 	}
+}
 
+country_event = {
+	id = farsight_events.9 # End of Consolidate_first_expansion_Sphere. rdy for 2nd expansion
+	title = "farsight_events.9.t"
+	desc = "farsight_events.9.d"
+	picture = Crisis_4_event_picture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = XGG
+	}
+	
+	option = {
+		enable_branching_mission_review_without_ai = { key = XGG_SAUTHEK }
+	}
+}
+
+country_event = {
+	id = farsight_events.10 # Fate of necron
+	title = "farsight_events.10.t"
+	desc = "farsight_events.10.d"
+	picture = Crisis_4_event_picture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = XGG
+	}
+	
+	option = {
+		enable_branching_mission_review_without_ai = { key = XGG_SAUTHEK }
+	}
+}
+
+country_event = {
+	id = farsight_events.11 # Fate of Barghesi
+	title = "farsight_events.11.t"
+	desc = "farsight_events.11.d"
+	picture = Crisis_4_event_picture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = XGG
+	}
+	
+	option = {
+		enable_branching_mission_review_without_ai = { key = XGG_BARGHESI }
+	}
+}
+
+country_event = {
+	id = farsight_events.12 # Fate of Iyanden
+	title = "farsight_events.12.t"
+	desc = "farsight_events.12.d"
+	picture = Crisis_4_event_picture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = XGG
+	}
+	
+	option = {
+		enable_branching_mission_review_without_ai = { key = XGG_IYANDEN }
+	}
+}
+
+country_event = {
+	id = farsight_events.13 # End of Consolidate_second_expansion_Sphere. 
+	title = "farsight_events.13.t"
+	desc = "farsight_events.13.d"
+	picture = Crisis_4_event_picture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = XGG
+	}
+	
+	option = {
+		enable_branching_mission_review_without_ai = { key = XGG_IYANDEN }
+	}
 }

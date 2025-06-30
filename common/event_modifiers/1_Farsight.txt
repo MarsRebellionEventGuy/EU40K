@@ -2,3 +2,36 @@ farsight_free_tau_from_ethereals = {
 	all_power_cost = -0.10
 	legitimacy = 1
 }
+
+farsight_win_dakka_war = {
+	morale_damage = 0.1
+	morale_damage_received = -0.1
+}
+
+no_more_ork_in_galaxy = {
+	country_admin_power = 1
+	country_diplomatic_power = 1
+	country_military_power = 1
+	liberty_desire_from_subject_development = -0.25
+}
+
+no_more_druakkari_in_galaxy = {
+	naval_morale_damage = 0.25
+	naval_morale_damage_received = -0.25
+	global_ship_cost = -0.50
+	number_of_cannons_modifier = 0.25
+}
+
+no_more_chaos_in_galaxy = {
+	yearly_corruption = -0.5
+	administrative_efficiency = 0.5
+	province_warscore_cost = -0.5
+	max_absolutism_effect = 0.5
+}
+
+no_more_tyranid_in_galaxy = {
+	development_cost = -0.5
+	min_autonomy = -100
+	advisor_cost = -0.5
+	liberty_desire_from_subject_development = -0.25
+}

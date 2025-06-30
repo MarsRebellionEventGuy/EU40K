@@ -1,149 +1,200 @@
 Farsight_col_1 = {
 	slot = 1
 	generic = no
+	ai = yes
+	has_country_shield = yes
 	
 	potential = {
 		tag = XGG
-	}
-	
-	end_dakka_war_mission = {
+		religion = greater_good
+	}	
+
+	Fate_of_necron = {
 		icon = mission_build_up_to_force_limit
-		position = 1
-		required_missions = {  }
+		position = 9
+		
+		required_missions = { Consolidate_first_expansion_Sphere }
 		trigger = {
-			is_at_war = no
-		}
-		effect = { 
-			add_claim = 1883
-		}
-		ai_weight = {
-			factor = 10
-		}
-	}
-	
-	remove_ork_from_sector = {
-		icon = mission_build_up_to_force_limit
-		position = 2
-		required_missions = { end_dakka_war_mission }
-		trigger = {
-			tau_region = {
-				all_province = {
-					NOT = {
-						culture_group = ork_culture_group
+			XEV = {
+				OR = {
+					has_opinion = {
+						who = ROOT
+						value = 200
 					}
+					core_claim = ROOT
 				}
 			}
-			NOT = { exists = XGL }
 		}
 		effect = { 
-			
-		}
-		ai_weight = {
-			factor = 10
+			country_event = { id = farsight_events.10 }
 		}
 	}
+}
+
+### Farsight fate of necron Choice
+Farsight_fate_of_necron_blanck = {
+	slot = 1
+	generic = no
+	ai = yes
 	
+	potential = {
+		tag = XGG
+		NOT = { has_country_flag = Farsight_assimilate_Sautekh }
+		NOT = { has_country_flag = Farsight_conquest_Sautekh }
+		has_dlc = "Domination"
+	}
+	has_country_shield = yes
+	
+	Farsight_fate_necron_blanck_mission = { 
+		icon = mission_unknown_mission
+		required_missions = { Fate_of_necron }
+		position = 10
+		trigger = { 
+			custom_trigger_tooltip = {
+				tooltip = selectable_mission_trigger_tt
+				always = no
+			}
+		}
+		effect = { 
+			custom_tooltip = Farsight_assimilate_Sautekh_tt
+			custom_tooltip = Farsight_conquest_Sautekh_tt
+		}
+	}
+}
+
+Farsight_fate_of_necron_assimilate_branch = {
+	slot = 1
+	generic = no
+	ai = yes
+	
+	potential = {
+		tag = XGG
+		has_country_flag = Farsight_assimilate_Sautekh
+		has_dlc = "Domination"
+	}
+	has_country_shield = yes
+	
+	Farsight_fate_necron_assimilate = { 
+		icon = mission_necron_warriors
+		required_missions = { Fate_of_necron }
+		position = 10
+		trigger = { 
+			not_in_mission_preview_mode = { key = XGG_SAUTEKH }
+			XEV = {
+				is_vassal = yes
+			}
+		}
+		effect = { 
+			XEV = {
+				add_liberty_desire = -100
+				change_religion = greater_good
+			}
+		}
+	}
+}
+
+Farsight_fate_of_necron_conquest_branch = {
+	slot = 1
+	generic = no
+	ai = yes
+	
+	potential = {
+		tag = XGG
+		has_country_flag = Farsight_conquest_Sautekh
+		has_dlc = "Domination"
+	}
+	has_country_shield = yes
+	
+	Farsight_fate_necron_conquest = { 
+		icon = mission_guilliman
+		required_missions = { Fate_of_necron }
+		position = 10
+		trigger = { 
+			not_in_mission_preview_mode = { key = XGG_SAUTEKH }
+			NOT = {
+				exists = XEV
+			}
+		}
+		effect = { 
+			add_war_exhaustion = -5
+			# TODO
+		}
+	}
 }
 
 Farsight_col_2 = {
 	slot = 2
 	generic = no
+	ai = yes
+	has_country_shield = yes
 	
 	potential = {
 		tag = XGG
+		religion = greater_good
 	}
 
-	ark_of_omen = {
+	Remove_ork_from_sector = {
 		icon = mission_build_up_to_force_limit
 		position = 2
-		required_missions = { end_dakka_war_mission }
+		required_missions = { End_dakka_war_mission }
 		trigger = {
+			tau_region = {
+				type = all
+				NOT = {
+					culture_group = ork_culture_group
+				}
+			}
 			NOT = { exists = XGL }
 		}
 		effect = { 
-			country_event = { id = farsight_events.6 }
+			add_country_modifier = {
+				name = farsight_win_dakka_war
+				duration = 60  
+				desc = FARSIGHT_WIN_DAKKA_WAR_DESC
+			}
 		}
 		ai_weight = {
 			factor = 10
 		}
 	}
-}
 
-Farsight_col_3 = {
-	slot = 3
-	generic = no
-	
-	potential = {
-		tag = XGG
-	}
-
-	Ask_help_from_tau = {
+	Remove_ork_from_galaxy = {
 		icon = mission_build_up_to_force_limit
 		position = 3
-		
-		required_missions = { ark_of_omen }
+		required_missions = { Remove_ork_from_sector }
 		trigger = {
-			is_at_war = no
-		}
-		effect = { 
-			country_event = { id = farsight_events.7 }
-		}
-	}
-	
-	revenge_against_ethereal = {
-		icon = mission_build_up_to_force_limit
-		position = 4
-		
-		required_missions = { ark_of_omen }
-		trigger = {
-			has_country_flag = betrayed_by_ethereal
-		}
-		effect = { 
-			XGG = { add_historical_rival = XGF }
-			XGF = { add_historical_rival = XGG }
-		}
-	}
-	
-	tauva = {
-		icon = mission_build_up_to_force_limit
-		position = 5
-		
-		required_missions = { revenge_against_ethereal }
-		trigger = {
-			OR = {
+			all_province = {
 				NOT = {
-					exists = XGF
+					culture_group = ork_culture_group
 				}
-				XGF = {
-					is_subject_of = XGG
-				}
+			}
 		}
 		effect = { 
-			if = {
-				limit = { exists = XGF }
-				inherit = XGF
-			}
-			else = {
-				1898 = { center_of_trade = 1 }
+			add_country_modifier = {
+				name = no_more_ork_in_galaxy
+				duration = -1
+				desc = FARSIGHT_REMOVE_ORK_FROM_GALAXY_DESC
 			}
 		}
+		ai_weight = {
+			factor = 10
+		}
 	}
-}
 
-Farsight_col_4 = {
-	slot = 4
-	generic = no
-	
-	potential = {
-		tag = XGG
-	}
-	
-	fate_of_ultramar = {
+	Fate_of_ultramar = {
 		icon = mission_build_up_to_force_limit
-		position = 1
+		position = 7
+		required_missions = { Control_tau_region }
 		trigger = {
-			#TODO here : if opinion = 200 or possess a core country of XGK
-			always = yes # test
+			XGK = {
+				OR = {
+					has_opinion = {
+						who = ROOT
+						value = 200
+					}
+					core_claim = ROOT
+				}
+			}
 		}
 		effect = { 
 			country_event = { id = farsight_events.8 }
@@ -151,8 +202,9 @@ Farsight_col_4 = {
 	}
 }
 
+### Farsight fate of ultramar Choice
 Farsight_fate_ultramar_blanck = {
-	slot = 4
+	slot = 2
 	generic = no
 	ai = yes
 	
@@ -166,8 +218,8 @@ Farsight_fate_ultramar_blanck = {
 	
 	Farsight_fate_ultramar_blanck_mission = { 
 		icon = mission_unknown_mission
-		required_missions = { fate_of_ultramar }
-		position = 2
+		required_missions = { Fate_of_ultramar }
+		position = 8
 		trigger = { 
 			custom_trigger_tooltip = {
 				tooltip = selectable_mission_trigger_tt
@@ -175,14 +227,14 @@ Farsight_fate_ultramar_blanck = {
 			}
 		}
 		effect = { 
-			custom_tooltip = fra_if_choose_to_break_habsburg_ring_by_conquering_swaths_of_the_germanic_provinces_tt
-			custom_tooltip = fra_if_choose_to_claim_emperorship_and_gain_unique_bonuses_that_will_help_us_shape_empire_tt
+			custom_tooltip = Farsight_assimilate_Ultramar_tt
+			custom_tooltip = Farsight_conquest_Ultramar_tt
 		}
 	}
 }
 
 Farsight_fate_ultramar_assimilate_branch = {
-	slot = 4
+	slot = 2
 	generic = no
 	ai = yes
 	
@@ -195,8 +247,8 @@ Farsight_fate_ultramar_assimilate_branch = {
 	
 	Farsight_fate_ultramar_assimilate = { 
 		icon = mission_necron_warriors
-		required_missions = { fate_of_ultramar }
-		position = 2
+		required_missions = { Fate_of_ultramar }
+		position = 8
 		trigger = { 
 			not_in_mission_preview_mode = { key = XGG_ULTRAMAR }
 			XGK = {
@@ -213,7 +265,7 @@ Farsight_fate_ultramar_assimilate_branch = {
 }
 
 Farsight_fate_ultramar_conquest_branch = {
-	slot = 4
+	slot = 2
 	generic = no
 	ai = yes
 	
@@ -226,8 +278,8 @@ Farsight_fate_ultramar_conquest_branch = {
 	
 	Farsight_fate_ultramar_conquest = { 
 		icon = mission_guilliman
-		required_missions = { fate_of_ultramar }
-		position = 2
+		required_missions = { Fate_of_ultramar }
+		position = 8
 		trigger = { 
 			not_in_mission_preview_mode = { key = XGG_ULTRAMAR }
 			NOT = {
@@ -238,4 +290,731 @@ Farsight_fate_ultramar_conquest_branch = {
 			add_war_exhaustion = -5
 		}
 	}
+}
+
+Farsight_col_2_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	
+	potential = {
+		tag = XGG
+		religion = greater_good
+	}
+	
+	Farsight_conquest_of_chalnath = {
+		icon = mission_build_up_to_force_limit
+		position = 9
+		
+		required_missions = { Consolidate_first_expansion_Sphere }
+		trigger = {
+			chalnath_expanse_region = {
+				type = all
+				religion = greater_good
+				OR={
+					owned_by = ROOT
+					owned_by_subject_of = ROOT
+				}
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					3088 = {
+						NOT = {
+							has_great_project = {
+								type = Nexus_Point
+								tier = 3
+							}
+						}
+					}
+				}
+				3088 = {
+					add_great_project_tier = {
+						type = Nexus_Point
+						tier = 1
+					}
+				}
+			}
+			
+			else = {
+				3088 = { center_of_trade = 3 }
+			}
+		}
+	}
+
+	Remove_tyranid_from_galaxy = {
+		icon = mission_build_up_to_force_limit
+		position = 11
+		required_missions = { Consolidate_second_expansion_Sphere }
+		trigger = {
+			all_province = {
+				NOT = {
+					culture_group = tyranid_culture_group
+				}
+			}
+		}
+		effect = { 
+			add_country_modifier = {
+				name = no_more_tyranid_in_galaxy
+				duration = -1
+				desc = FARSIGHT_REMOVE_TYRANID_FROM_GALAXY_DESC
+			}
+		}
+		ai_weight = {
+			factor = 10
+		}
+	}
+}
+
+Farsight_col_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	
+	potential = {
+		tag = XGG
+		religion = greater_good
+	}
+	
+	End_dakka_war_mission = {
+		icon = mission_build_up_to_force_limit
+		position = 1
+		required_missions = { }
+		trigger = {
+			is_at_war = no
+		}
+		effect = {
+			add_claim = 1883
+		}
+		ai_weight = {
+			factor = 10
+		}
+	}
+
+	Ark_of_omen = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { End_dakka_war_mission }
+		trigger = {
+			NOT = { exists = XGL }
+		}
+		effect = {
+			country_event = { id = farsight_events.6 }
+		}
+		ai_weight = {
+			factor = 10
+		}
+	}
+
+	Ask_help_from_tau = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		
+		required_missions = { Ark_of_omen }
+		trigger = {
+			1883 = {
+				religion = greater_good
+			}
+		}
+		effect = { 
+			country_event = { id = farsight_events.7 }
+		}
+	}
+
+	Revenge_against_ethereal = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		
+		required_missions = { Ask_help_from_tau }
+		trigger = {
+			has_country_flag = betrayed_by_ethereal
+			# TODO
+		}
+		effect = { 
+			XGG = { add_historical_rival = XGF }
+			XGF = { add_historical_rival = XGG }
+		}
+	}
+
+	Only_one_tauva = {
+		icon = mission_build_up_to_force_limit
+		position = 5
+		
+		required_missions = { Revenge_against_ethereal }
+		trigger = {
+			OR = {
+				NOT = {
+					exists = XGF
+				}
+				XGF = {
+					is_subject_of = XGG
+				}
+			}
+		}
+		effect = {
+			if = {
+				limit = { exists = XGF }
+				inherit = XGF
+			}
+			else = {
+				1898 = { center_of_trade = 1 }
+			}
+		}
+	}
+
+	Control_tau_region = {
+		icon = mission_build_up_to_force_limit
+		position = 6
+		
+		required_missions = { Only_one_tauva }
+		trigger = {
+			tau_region = {
+				type = all
+				religion = greater_good
+				OR={
+					owned_by = ROOT
+					owned_by_subject_of = ROOT
+				}
+			}
+		}
+		effect = { 
+			tau_region = 
+			{
+				add_base_tax = 2
+				add_base_production = 2
+				add_base_manpower = 2
+			}
+		}
+	}
+	
+	Farsight_first_expansion_Sphere = {
+		icon = mission_build_up_to_force_limit
+		position = 7
+		
+		required_missions = { Control_tau_region }
+		trigger = {
+			ultima_region = {
+				type = all
+				religion = greater_good
+				OR={
+					owned_by = ROOT
+					owned_by_subject_of = ROOT
+				}
+			}
+			jericho_sector_region = {
+				type = all
+				religion = greater_good
+				OR={
+					owned_by = ROOT
+					owned_by_subject_of = ROOT
+				}
+			}
+		}
+		effect = { 
+			tau_region = 
+			{
+				add_base_tax = 2
+				add_base_production = 2
+				add_base_manpower = 2
+			}
+		}
+	}
+	
+	Consolidate_first_expansion_Sphere = {
+		icon = mission_build_up_to_force_limit
+		position = 8
+		
+		required_missions = { Farsight_first_expansion_Sphere }
+		trigger = {
+			# TODO : Air Caste 3 agenda, Fire caste 3 agenda, Water caste 3 agenda, Earth caste 3 agenda
+		}
+		effect = { 
+			country_event = { id = farsight_events.9 }
+		}
+	}
+	
+	Farsight_second_expansion_Sphere = {
+		icon = mission_build_up_to_force_limit
+		position = 9
+		
+		required_missions = { Consolidate_first_expansion_Sphere }
+		trigger = {
+			sargos_region = {
+				type = all
+				religion = greater_good
+				OR={
+					owned_by = ROOT
+					owned_by_subject_of = ROOT
+				}
+			}
+			grendl_stars_region = {
+				type = all
+				religion = greater_good
+				OR={
+					owned_by = ROOT
+					owned_by_subject_of = ROOT
+				}
+			}
+			vidar_region = {
+				type = all
+				religion = greater_good
+				OR={
+					owned_by = ROOT
+					owned_by_subject_of = ROOT
+				}
+			}
+			chalnath_expanse_region = {
+				type = all
+				religion = greater_good
+				OR={
+					owned_by = ROOT
+					owned_by_subject_of = ROOT
+				}
+			}
+		}
+		effect = { 
+			tau_region = 
+			{
+				add_base_tax = 2
+				add_base_production = 2
+				add_base_manpower = 2
+			}
+			ultima_region = 
+			{
+				add_base_tax = 2
+				add_base_production = 2
+				add_base_manpower = 2
+			}
+			jericho_sector_region = 
+			{
+				add_base_tax = 2
+				add_base_production = 2
+				add_base_manpower = 2
+			}
+		}
+	}
+	
+	Consolidate_second_expansion_Sphere = {
+		icon = mission_build_up_to_force_limit
+		position = 10
+		
+		required_missions = { Farsight_second_expansion_Sphere }
+		trigger = {
+			# TODO : Air Caste 3 agenda, Fire caste 3 agenda, Water caste 3 agenda, Earth caste 3 agenda
+		}
+		effect = { 
+			country_event = { id = farsight_events.13 }
+		}
+	}
+	
+	Farsight_conquest_of_the_galaxy = {
+		icon = mission_build_up_to_force_limit
+		position = 11
+		
+		required_missions = { Consolidate_second_expansion_Sphere }
+		trigger = {
+			# TODO
+		}
+		effect = { 
+			# TODO
+		}
+	}
+}
+
+Farsight_col_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	has_country_shield = yes	
+	
+	potential = {
+		tag = XGG
+		religion = greater_good
+	}
+
+	Purge_Chaos = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		
+		required_missions = { Ask_help_from_tau }
+		trigger = {
+			tau_region = {
+				type = all
+				NOT = {
+					religion_group = chaos_group
+				}
+			}
+		}
+		effect = { 
+			# TODO
+		}
+		ai_weight = {
+			factor = 10
+		}
+	}
+	
+	Remove_chaos_from_galaxy = {
+		icon = mission_build_up_to_force_limit
+		position = 5
+		
+		required_missions = { Purge_Chaos }
+		trigger = {
+			all_province = {
+				NOT = {
+					religion_group = chaos_group
+				}
+			}
+		}
+		effect = { 
+			add_country_modifier = {
+				name = no_more_chaos_in_galaxy
+				duration = -1 
+				desc = FARSIGHT_REMOVE_CHAOS_FROM_GALAXY_DESC
+			}
+		}
+		ai_weight = {
+			factor = 10
+		}
+	}
+
+}
+
+
+### Farsight fate of Iyanden Choice
+Farsight_fate_iyanden_blanck = {
+	slot = 4
+	generic = no
+	ai = yes
+	
+	potential = {
+		tag = XGG
+		NOT = { has_country_flag = Farsight_assimilate_Iyanden }
+		NOT = { has_country_flag = Farsight_conquest_Iyanden }
+		has_dlc = "Domination"
+	}
+	has_country_shield = yes
+	
+	Farsight_fate_iyanden_blanck_mission = { 
+		icon = mission_unknown_mission
+		required_missions = { Fate_of_Iyanden }
+		position = 8
+		trigger = { 
+			custom_trigger_tooltip = {
+				tooltip = selectable_mission_trigger_tt
+				always = no
+			}
+		}
+		effect = { 
+			custom_tooltip = fra_if_choose_to_break_habsburg_ring_by_conquering_swaths_of_the_germanic_provinces_tt
+			custom_tooltip = fra_if_choose_to_claim_emperorship_and_gain_unique_bonuses_that_will_help_us_shape_empire_tt
+		}
+	}
+}
+
+Farsight_fate_iyanden_assimilate_branch = {
+	slot = 4
+	generic = no
+	ai = yes
+	
+	potential = {
+		tag = XGG
+		has_country_flag = Farsight_assimilate_Iyanden
+		has_dlc = "Domination"
+	}
+	has_country_shield = yes
+	
+	Farsight_fate_iyanden_assimilate = { 
+		icon = mission_necron_warriors
+		required_missions = { Fate_of_Iyanden }
+		position = 8
+		trigger = { 
+			not_in_mission_preview_mode = { key = XGG_IYANDEN }
+			XIA = {
+				is_vassal = yes
+			}
+		}
+		effect = { 
+			XIA = {
+				add_liberty_desire = -100
+				change_religion = greater_good
+			}
+		}
+	}
+}
+
+Farsight_fate_iyanden_conquest_branch = {
+	slot = 4
+	generic = no
+	ai = yes
+	
+	potential = {
+		tag = XGG
+		has_country_flag = Farsight_conquest_Iyanden
+		has_dlc = "Domination"
+	}
+	has_country_shield = yes
+	
+	Farsight_fate_iyanden_conquest = { 
+		icon = mission_guilliman
+		required_missions = { Fate_of_Iyanden }
+		position = 8
+		trigger = { 
+			not_in_mission_preview_mode = { key = XGG_IYANDEN }
+			NOT = {
+				exists = XIA
+			}
+		}
+		effect = { 
+			add_war_exhaustion = -5
+		}
+	}
+}
+
+Farsight_col_4_2 = {
+	slot = 4
+	generic = no
+	ai = yes
+	has_country_shield = yes	
+	
+	potential = {
+		tag = XGG
+		religion = greater_good
+	}
+
+	Fate_of_Barghesi = {
+		icon = mission_build_up_to_force_limit
+		position = 9
+		required_missions = { Consolidate_first_expansion_Sphere }
+		trigger = {
+			XIV = {
+				OR = {
+					has_opinion = {
+						who = ROOT
+						value = 200
+					}
+					core_claim = ROOT
+				}
+			}
+		}
+		effect = { 
+			country_event = { id = farsight_events.11 }
+		}
+	}
+}
+
+### Farsight fate of barghesi Choice
+Farsight_fate_barghesi_blanck = {
+	slot = 4
+	generic = no
+	ai = yes
+	
+	potential = {
+		tag = XGG
+		NOT = { has_country_flag = Farsight_assimilate_Barghesi }
+		NOT = { has_country_flag = Farsight_conquest_Barghesi }
+		has_dlc = "Domination"
+	}
+	has_country_shield = yes
+	
+	Farsight_fate_barghesi_blanck_mission = { 
+		icon = mission_unknown_mission
+		required_missions = { Fate_of_Barghesi }
+		position = 10
+		trigger = { 
+			custom_trigger_tooltip = {
+				tooltip = selectable_mission_trigger_tt
+				always = no
+			}
+		}
+		effect = { 
+			custom_tooltip = fra_if_choose_to_break_habsburg_ring_by_conquering_swaths_of_the_germanic_provinces_tt
+			custom_tooltip = fra_if_choose_to_claim_emperorship_and_gain_unique_bonuses_that_will_help_us_shape_empire_tt
+		}
+	}
+}
+
+Farsight_fate_barghesi_assimilate_branch = {
+	slot = 4
+	generic = no
+	ai = yes
+	
+	potential = {
+		tag = XGG
+		has_country_flag = Farsight_assimilate_Barghesi
+		has_dlc = "Domination"
+	}
+	has_country_shield = yes
+	
+	Farsight_fate_barghesi_assimilate = { 
+		icon = mission_necron_warriors
+		required_missions = { Fate_of_Barghesi }
+		position = 10
+		trigger = { 
+			not_in_mission_preview_mode = { key = XGG_BARGHESI }
+			XIV = {
+				is_vassal = yes
+			}
+		}
+		effect = { 
+			XIV = {
+				add_liberty_desire = -100
+				change_religion = greater_good
+			}
+		}
+	}
+}
+
+Farsight_fate_barghesi_conquest_branch = {
+	slot = 4
+	generic = no
+	ai = yes
+	
+	potential = {
+		tag = XGG
+		has_country_flag = Farsight_conquest_Barghesi
+		has_dlc = "Domination"
+	}
+	has_country_shield = yes
+	
+	Farsight_fate_barghesi_conquest = { 
+		icon = mission_guilliman
+		required_missions = { Fate_of_Barghesi }
+		position = 10
+		trigger = { 
+			not_in_mission_preview_mode = { key = XGG_BARGHESI }
+			NOT = {
+				exists = XIV
+			}
+		}
+		effect = { 
+			add_war_exhaustion = -5
+		}
+	}
+}
+
+Farsight_col_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	has_country_shield = yes	
+	
+	potential = {
+		tag = XGG
+		religion = greater_good
+	}
+
+	Fate_of_Iyanden = {
+		icon = mission_build_up_to_force_limit
+		position = 7
+		
+		required_missions = { Control_tau_region }
+		trigger = {
+			XIA = {
+				OR = {
+					has_opinion = {
+						who = ROOT
+						value = 200
+					}
+					core_claim = ROOT
+				}
+			}
+		}
+		effect = { 
+			country_event = { id = farsight_events.12 }
+		}
+	}
+
+	Understanding_of_webway_technology = {
+		icon = mission_build_up_to_force_limit
+		position = 8
+		
+		required_missions = { Fate_of_Iyanden }
+		trigger = {
+			OR = {
+				has_assimilated_culture = asuryani_culture
+				any_subject_country = {
+					primary_culture = asuryani_culture
+				}
+			}
+			dip_power = 900
+			mil_power = 900
+			adm_power = 900
+		}
+		effect = { 
+			add_adm_power = -900
+			add_dip_power = -900
+			add_mil_power = -900
+			set_country_flag = understanding_of_webway_technology_flag
+			add_country_modifier = { 
+				name = warp_ftl
+				duration = -1
+			}
+			remove_country_modifier = ether_drive_ftl
+		}
+		ai_weight = {
+			factor = 10
+		}
+	}
+	
+	Revenge_for_the_war_of_dark_revelations = {
+		icon = mission_build_up_to_force_limit
+		position = 9
+		
+		required_missions = { Consolidate_first_expansion_Sphere Understanding_of_webway_technology }
+		trigger = {
+			3486 = { has_discovered = ROOT }
+		}
+		effect = { 
+			set_country_flag = revenge_for_the_war_of_dark_revelations_flag
+		}
+		ai_weight = {
+			factor = 10
+		}
+	}
+	
+	Conquest_of_the_webway = {
+		icon = mission_build_up_to_force_limit
+		position = 10
+		
+		required_missions = { Revenge_for_the_war_of_dark_revelations }
+		trigger = {
+			commorragh_region = {
+				is_core = ROOT
+			}
+		}
+		effect = { 
+			webway_region = {
+				add_permanent_claim = ROOT
+			}
+		}
+		ai_weight = {
+			factor = 10
+		}
+	}
+	
+	Remove_drukhari_from_galaxy = {
+		icon = mission_build_up_to_force_limit
+		position = 11
+		
+		required_missions = { Conquest_of_the_webway }
+		trigger = {
+			all_province = {
+				NOT = { culture = drukhari_culture }
+			}
+		}
+		effect = { 
+			add_country_modifier = {
+				name = no_more_druakkari_in_galaxy
+				duration = -1 
+				desc = FARSIGHT_REMOVE_DRUKHARI_FROM_GALAXY_DESC
+			}
+		}
+		ai_weight = {
+			factor = 10
+		}
+	}
+	
 }
