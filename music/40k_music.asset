@@ -126,3 +126,24 @@ music = {
 	name = "adeptus_mechanicus_song"
 	file = "adeptus_mechanicus_song.ogg"
 }
+
+music = {
+	name = "cybernetic_trascendence_song"
+	file = "cybernetic_trascendence_song.ogg"
+}
+music = {
+	name = "schism_of_mars_song"
+	file = "schism_of_mars_song.ogg"
+}
+music = {
+	name = "deep_in_the_mechanicum_song"
+	file = "deep_in_the_mechanicum_song.ogg"
+}
+music = {
+	name = "mechanised_creed_song"
+	file = "mechanised_creed_song.ogg"
+}
+music = {
+	name = "dominus_song"
+	file = "dominus_song.ogg"
+}

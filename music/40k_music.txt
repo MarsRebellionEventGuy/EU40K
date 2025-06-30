@@ -369,3 +369,73 @@ song = {
 		}	
 	}
 }
+
+song = {
+	name = "cybernetic_trascendence_song" #Archotechna / https://www.youtube.com/watch?v=3zQCm2v61lE
+	
+	chance = {
+		modifier = {
+			factor = 10000
+			OR = {
+			tag = XXB
+			tag = XTE
+			}
+		}	
+	}
+}
+
+song = {
+	name = "schism_of_mars_song" #Archotechna / https://www.youtube.com/watch?v=-0rB0BAAm0Y
+	
+	chance = {
+		modifier = {
+			factor = 10000
+			OR = {
+			tag = XXB
+			tag = XTE
+			}
+		}	
+	}
+}
+
+song = {
+	name = "deep_in_the_mechanicum_song" #Archotechna / https://www.youtube.com/watch?v=Mmuy7D8E8NY
+	
+	chance = {
+		modifier = {
+			factor = 10000
+			OR = {
+			tag = XXB
+			tag = XTE
+			}
+		}	
+	}
+}
+
+song = {
+	name = "mechanised_creed_song" #Archotechna / https://www.youtube.com/watch?v=EyxFBsM6aUc
+	
+	chance = {
+		modifier = {
+			factor = 10000
+			OR = {
+			tag = XXB
+			tag = XTE
+			}
+		}	
+	}
+}
+
+song = {
+	name = "dominus_song" #Archotechna / https://www.youtube.com/watch?v=JP9owVAk_ZM
+	
+	chance = {
+		modifier = {
+			factor = 10000
+			OR = {
+			tag = XXB
+			tag = XTE
+			}
+		}	
+	}
+}
