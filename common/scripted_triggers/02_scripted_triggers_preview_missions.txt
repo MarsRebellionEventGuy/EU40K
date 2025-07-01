@@ -1,7 +1,10 @@
 has_branching_missions = {
 	OR = {
 		#Farsight
-		has_mission = fate_of_ultramar
+		has_mission = Fate_of_ultramar
+		has_mission = Fate_of_necron
+		has_mission = Fate_of_Barghesi
+		has_mission = Fate_of_Iyanden
 	}
 }
 
@@ -12,7 +15,10 @@ has_mission_and_key_mismatch = {
 
 has_any_mission_and_key_mismatch = {
 	OR = {	
-		has_mission_and_key_mismatch = { mission = fate_of_ultramar		key = XGG_ULTRAMAR }
+		has_mission_and_key_mismatch = { mission = Fate_of_ultramar		key = XGG_ULTRAMAR }
+		has_mission_and_key_mismatch = { mission = Fate_of_necron		key = XGG_SAUTEKH }
+		has_mission_and_key_mismatch = { mission = Fate_of_Barghesi		key = XGG_BARGHESI }
+		has_mission_and_key_mismatch = { mission = Fate_of_Iyanden		key = XGG_IYANDEN }
 	}
 }
 
@@ -61,6 +67,9 @@ can_preview_missions = {
 		tooltip = preview_missions_decision_ct
 		OR = {			
 			can_preview_mission_of_key = { key = XGG_ULTRAMAR }
+			can_preview_mission_of_key = { key = XGG_SAUTEKH }
+			can_preview_mission_of_key = { key = XGG_BARGHESI }
+			can_preview_mission_of_key = { key = XGG_IYANDEN }
 		}
 	}
 }
@@ -94,6 +103,33 @@ has_selected_a_branch = {
 				}
 				can_preview_mission_of_key_and_batch = { key = XGG_ULTRAMAR batch = $batch$ }
 			}
+			
+			# XGG_SAUTEKH
+			AND = {
+				OR = {
+					has_country_flag = Farsight_assimilate_Sautekh
+					has_country_flag = Farsight_conquest_Sautekh
+				}
+				can_preview_mission_of_key_and_batch = { key = XGG_SAUTEKH batch = $batch$ }
+			}
+			
+			# XGG_BARGHESI
+			AND = {
+				OR = {
+					has_country_flag = Farsight_assimilate_Barghesi
+					has_country_flag = Farsight_conquest_Barghesi
+				}
+				can_preview_mission_of_key_and_batch = { key = XGG_BARGHESI batch = $batch$ }
+			}
+			
+			# XGG_IYANDEN
+			AND = {
+				OR = {
+					has_country_flag = Farsight_assimilate_Iyanden
+					has_country_flag = Farsight_conquest_Iyanden
+				}
+				can_preview_mission_of_key_and_batch = { key = XGG_IYANDEN batch = $batch$ }
+			}
 		}
 	}
 }
@@ -123,6 +159,18 @@ currently_selected_branch_1 = {
 			can_preview_mission_of_key_and_batch = { key = XGG_ULTRAMAR batch = $batch$ }
 			has_country_flag = Farsight_assimilate_Ultramar
 		}
+		AND = {
+			can_preview_mission_of_key_and_batch = { key = XGG_SAUTEKH batch = $batch$ }
+			has_country_flag = Farsight_assimilate_Sautekh
+		}
+		AND = {
+			can_preview_mission_of_key_and_batch = { key = XGG_BARGHESI batch = $batch$ }
+			has_country_flag = Farsight_assimilate_Barghesi
+		}
+		AND = {
+			can_preview_mission_of_key_and_batch = { key = XGG_IYANDEN batch = $batch$ }
+			has_country_flag = Farsight_assimilate_Iyanden
+		}
 	}
 }
 currently_selected_branch_2 = {
@@ -130,6 +178,18 @@ currently_selected_branch_2 = {
 		AND = {
 			can_preview_mission_of_key_and_batch = { key = XGG_ULTRAMAR batch = $batch$ }
 			has_country_flag = Farsight_conquest_Ultramar
+		}
+		AND = {
+			can_preview_mission_of_key_and_batch = { key = XGG_SAUTEKH batch = $batch$ }
+			has_country_flag = Farsight_conquest_Sautekh
+		}
+		AND = {
+			can_preview_mission_of_key_and_batch = { key = XGG_BARGHESI batch = $batch$ }
+			has_country_flag = Farsight_conquest_Barghesi
+		}
+		AND = {
+			can_preview_mission_of_key_and_batch = { key = XGG_IYANDEN batch = $batch$ }
+			has_country_flag = Farsight_conquest_Iyanden
 		}
 	}
 }
@@ -159,8 +219,24 @@ can_select_branch_1 = {
 		exists = XGK
 	}
 	else = { hidden_trigger = { or = { always = yes } } }
+	if = {
+		limit = { can_preview_mission_of_key_and_batch = { key = XGG_SAUTEKH batch = $batch$ } }
+		exists = XEV
+	}
+	else = { hidden_trigger = { or = { always = yes } } }
+	if = {
+		limit = { can_preview_mission_of_key_and_batch = { key = XGG_BARGHESI batch = $batch$ } }
+		exists = XIV
+	}
+	else = { hidden_trigger = { or = { always = yes } } }
+	if = {
+		limit = { can_preview_mission_of_key_and_batch = { key = XGG_IYANDEN batch = $batch$ } }
+		exists = XIA
+	}
+	else = { hidden_trigger = { or = { always = yes } } }
 }
 
+#do nothing. You can always conquer it
 can_select_branch_2 = {
 	if = {
 		limit = { can_preview_mission_of_key_and_batch = { key = FRA_HRE batch = $batch$ } }
@@ -188,6 +264,7 @@ can_select_branch = {
 	can_select_branch_$value$ = { batch = $batch$ }
 }
 
+#do nothing. it's to avoid error
 can_select_current_branch = {
 	if = {
 		limit = { can_preview_mission_of_key_and_batch = { key = FRA_HRE batch = $batch$ } }

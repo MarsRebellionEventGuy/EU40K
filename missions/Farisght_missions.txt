@@ -42,6 +42,7 @@ Farsight_fate_of_necron_blanck = {
 		NOT = { has_country_flag = Farsight_assimilate_Sautekh }
 		NOT = { has_country_flag = Farsight_conquest_Sautekh }
 		has_dlc = "Domination"
+		religion = greater_good
 	}
 	has_country_shield = yes
 	
@@ -71,6 +72,7 @@ Farsight_fate_of_necron_assimilate_branch = {
 		tag = XGG
 		has_country_flag = Farsight_assimilate_Sautekh
 		has_dlc = "Domination"
+		religion = greater_good
 	}
 	has_country_shield = yes
 	
@@ -102,6 +104,7 @@ Farsight_fate_of_necron_conquest_branch = {
 		tag = XGG
 		has_country_flag = Farsight_conquest_Sautekh
 		has_dlc = "Domination"
+		religion = greater_good
 	}
 	has_country_shield = yes
 	
@@ -117,7 +120,8 @@ Farsight_fate_of_necron_conquest_branch = {
 		}
 		effect = { 
 			add_war_exhaustion = -5
-			# TODO
+			add_prestige = 50
+			add_corruption = -2
 		}
 	}
 }
@@ -213,6 +217,7 @@ Farsight_fate_ultramar_blanck = {
 		NOT = { has_country_flag = Farsight_assimilate_Ultramar }
 		NOT = { has_country_flag = Farsight_conquest_Ultramar }
 		has_dlc = "Domination"
+		religion = greater_good
 	}
 	has_country_shield = yes
 	
@@ -242,6 +247,7 @@ Farsight_fate_ultramar_assimilate_branch = {
 		tag = XGG
 		has_country_flag = Farsight_assimilate_Ultramar
 		has_dlc = "Domination"
+		religion = greater_good
 	}
 	has_country_shield = yes
 	
@@ -273,6 +279,7 @@ Farsight_fate_ultramar_conquest_branch = {
 		tag = XGG
 		has_country_flag = Farsight_conquest_Ultramar
 		has_dlc = "Domination"
+		religion = greater_good
 	}
 	has_country_shield = yes
 	
@@ -288,6 +295,8 @@ Farsight_fate_ultramar_conquest_branch = {
 		}
 		effect = { 
 			add_war_exhaustion = -5
+			add_prestige = 50
+			add_corruption = -2
 		}
 	}
 }
@@ -430,8 +439,10 @@ Farsight_col_3 = {
 		
 		required_missions = { Ask_help_from_tau }
 		trigger = {
-			has_country_flag = betrayed_by_ethereal
-			# TODO
+			custom_trigger_tooltip = {
+				tooltip = REVENGE_AGAINST_ETHEREAL_TOOLTIP
+				has_country_flag = betrayed_by_ethereal
+			}
 		}
 		effect = { 
 			XGG = { add_historical_rival = XGF }
@@ -530,6 +541,10 @@ Farsight_col_3 = {
 		required_missions = { Farsight_first_expansion_Sphere }
 		trigger = {
 			# TODO : Air Caste 3 agenda, Fire caste 3 agenda, Water caste 3 agenda, Earth caste 3 agenda
+			#num_of_estate_agendas_completed = {
+			#	estate = estate_nobility
+			#	value = 3
+			#}
 		}
 		effect = { 
 			country_event = { id = farsight_events.9 }
@@ -616,10 +631,10 @@ Farsight_col_3 = {
 		
 		required_missions = { Consolidate_second_expansion_Sphere }
 		trigger = {
-			# TODO
+			is_core = 1
 		}
 		effect = { 
-			# TODO
+			country_event = { id = farsight_events.14 }
 		}
 	}
 }
@@ -649,7 +664,7 @@ Farsight_col_4 = {
 			}
 		}
 		effect = { 
-			# TODO
+			add_stability = 1
 		}
 		ai_weight = {
 			factor = 10
@@ -694,6 +709,7 @@ Farsight_fate_iyanden_blanck = {
 		NOT = { has_country_flag = Farsight_assimilate_Iyanden }
 		NOT = { has_country_flag = Farsight_conquest_Iyanden }
 		has_dlc = "Domination"
+		religion = greater_good
 	}
 	has_country_shield = yes
 	
@@ -708,8 +724,8 @@ Farsight_fate_iyanden_blanck = {
 			}
 		}
 		effect = { 
-			custom_tooltip = fra_if_choose_to_break_habsburg_ring_by_conquering_swaths_of_the_germanic_provinces_tt
-			custom_tooltip = fra_if_choose_to_claim_emperorship_and_gain_unique_bonuses_that_will_help_us_shape_empire_tt
+			custom_tooltip = Farsight_assimilate_Iyanden_tt
+			custom_tooltip = Farsight_conquest_Iyanden_tt
 		}
 	}
 }
@@ -723,6 +739,7 @@ Farsight_fate_iyanden_assimilate_branch = {
 		tag = XGG
 		has_country_flag = Farsight_assimilate_Iyanden
 		has_dlc = "Domination"
+		religion = greater_good
 	}
 	has_country_shield = yes
 	
@@ -754,6 +771,7 @@ Farsight_fate_iyanden_conquest_branch = {
 		tag = XGG
 		has_country_flag = Farsight_conquest_Iyanden
 		has_dlc = "Domination"
+		religion = greater_good
 	}
 	has_country_shield = yes
 	
@@ -816,6 +834,7 @@ Farsight_fate_barghesi_blanck = {
 		NOT = { has_country_flag = Farsight_assimilate_Barghesi }
 		NOT = { has_country_flag = Farsight_conquest_Barghesi }
 		has_dlc = "Domination"
+		religion = greater_good
 	}
 	has_country_shield = yes
 	
@@ -830,8 +849,8 @@ Farsight_fate_barghesi_blanck = {
 			}
 		}
 		effect = { 
-			custom_tooltip = fra_if_choose_to_break_habsburg_ring_by_conquering_swaths_of_the_germanic_provinces_tt
-			custom_tooltip = fra_if_choose_to_claim_emperorship_and_gain_unique_bonuses_that_will_help_us_shape_empire_tt
+			custom_tooltip = Farsight_assimilate_Barghesi_tt
+			custom_tooltip = Farsight_conquest_Barghesi_tt
 		}
 	}
 }
@@ -845,6 +864,7 @@ Farsight_fate_barghesi_assimilate_branch = {
 		tag = XGG
 		has_country_flag = Farsight_assimilate_Barghesi
 		has_dlc = "Domination"
+		religion = greater_good
 	}
 	has_country_shield = yes
 	
@@ -876,6 +896,7 @@ Farsight_fate_barghesi_conquest_branch = {
 		tag = XGG
 		has_country_flag = Farsight_conquest_Barghesi
 		has_dlc = "Domination"
+		religion = greater_good
 	}
 	has_country_shield = yes
 	
@@ -949,7 +970,7 @@ Farsight_col_5 = {
 			add_mil_power = -900
 			set_country_flag = understanding_of_webway_technology_flag
 			add_country_modifier = { 
-				name = warp_ftl
+				name = webway_ftl
 				duration = -1
 			}
 			remove_country_modifier = ether_drive_ftl

@@ -125,4 +125,28 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/event_pictures_Farsight/tau_vs_tyranid_2.dds"
 		alwaystransparent = yes
 	}
+	
+	spriteType = {
+		name = "Necron_and_tau_event_picture"
+		texturefile = "gfx/event_pictures/event_pictures_Farsight/Necron_and_tau.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "Khorne_event_picture"
+		texturefile = "gfx/event_pictures/event_pictures_Farsight/Khorne.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "Iyanden_event_picture"
+		texturefile = "gfx/event_pictures/event_pictures_Farsight/Iyanden.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "Galaxy_event_picture"
+		texturefile = "gfx/event_pictures/event_pictures_Farsight/Galaxy.dds"
+		alwaystransparent = yes
+	}
 }

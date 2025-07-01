@@ -1,5 +1,6 @@
 namespace = farsight_events
 
+# Ethereals reject power
 country_event = {
 	id = farsight_events.1
 	title = "farsight_events.1.t"
@@ -32,6 +33,7 @@ country_event = {
 	}
 }
 
+# Tau attack Farsight
 country_event = {
 	id = farsight_events.2
 	title = "farsight_events.2.t"
@@ -40,6 +42,12 @@ country_event = {
 
 	trigger = {
 		tag = XGG
+		XGG = {
+			religion = greater_good
+		}
+		XGF = {
+			religion = greater_good
+		}
 		is_in_war = {
 			attackers = XGF
 			defenders = XGG
@@ -107,11 +115,12 @@ country_event = {
 	}
 }
 
+# Remove Ethereal culture
 country_event = {
 	id = farsight_events.3
 	title = "farsight_events.3.t"
 	desc = "farsight_events.3.d"
-	picture = Farsight_aunva_event_picture
+	picture = Caste_event_picture
 	
 	trigger = {
 		tag = XGG
@@ -131,11 +140,12 @@ country_event = {
 	}
 }
 
+# Farsight conquest of all Tau
 country_event = {
 	id = farsight_events.4
 	title = "farsight_events.4.t"
 	desc = "farsight_events.4.d"
-	picture = Farsight_aunva_event_picture
+	picture = Strike_team_2_event_picture
 	fire_only_once = yes
 	
 	hidden = yes
@@ -148,13 +158,14 @@ country_event = {
 	
 	option = {
 		add_country_modifier = {
-			name = farsight_free_tau_from_ethereals
+			name = "farsight_free_tau_from_ethereals"
 			duration = -1
 			desc = FARSIGHT_FREE_TAU_FROM_ETHEREALS_DESC
 		}
 	}
 }
 
+# Win war of Dakka
 country_event = {
 	id = farsight_events.5
 	title = "farsight_events.5.t"
@@ -174,11 +185,12 @@ country_event = {
 	}
 }
 
+# Ark Of Omen : first step
 country_event = {
-	id = farsight_events.6 # Farsight Ark of omen chain 1 : Return to Arthas Moloch (spawn chaos)
+	id = farsight_events.6
 	title = "farsight_events.6.t"
 	desc = "farsight_events.6.d"
-	picture = Farsight_aunva_event_picture
+	picture = Farsight_enclave_event_picture
 	
 	is_triggered_only = yes
 	
@@ -187,15 +199,23 @@ country_event = {
 	}
 	
 	option = {
-		
+		name = farsight_events.6.a
+		1883 = {
+			spawn_rebels = {
+				type = arthas_moloch_rebel
+				size = 4
+				leader = Ughalax
+			}
+		}
 	}
 }
 
+# Ask_help_from_tau mission
 country_event = {
-	id = farsight_events.7 # Ask_help_from_tau
+	id = farsight_events.7
 	title = "farsight_events.7.t"
 	desc = "farsight_events.7.d"
-	picture = Farsight_aunva_event_picture
+	picture = Crisis_2_ethetreal_1_event_picture
 	
 	is_triggered_only = yes
 	
@@ -204,18 +224,19 @@ country_event = {
 	}
 	
 	option = {
-		#assimilate path
-		#set_country_flag = Farsight_assimilate_Ultramar
-		#enable_branching_mission_review_without_ai = { key = XGG_ULTRAMAR }
-		
-		#set_country_flag = betrayed_by_ethereal
+		name = farsight_events.7.a
+		add_manpower = -15
+		add_war_exhaustion = 10
+		set_country_flag = betrayed_by_ethereal
 	}
+}
 
+#Fate of Ultramar Mission
 country_event = {
-	id = farsight_events.8 # Fate of Ultramar. Choice between assimilation or conquest
+	id = farsight_events.8
 	title = "farsight_events.8.t"
 	desc = "farsight_events.8.d"
-	picture = Crisis_4_event_picture
+	picture = Farsight_enclave_2_event_picture
 	
 	is_triggered_only = yes
 	
@@ -224,15 +245,17 @@ country_event = {
 	}
 	
 	option = {
+		name = farsight_events.8.a
 		enable_branching_mission_review_without_ai = { key = XGG_ULTRAMAR }
 	}
 }
 
+# End of Consolidate_first_expansion_Sphere.
 country_event = {
-	id = farsight_events.9 # End of Consolidate_first_expansion_Sphere. rdy for 2nd expansion
+	id = farsight_events.9 
 	title = "farsight_events.9.t"
 	desc = "farsight_events.9.d"
-	picture = Crisis_4_event_picture
+	picture = Korvattra_event_picture
 	
 	is_triggered_only = yes
 	
@@ -241,15 +264,25 @@ country_event = {
 	}
 	
 	option = {
-		enable_branching_mission_review_without_ai = { key = XGG_SAUTHEK }
+		name = farsight_events.9.a
+		sargos_region = {
+			add_permanent_claim = ROOT
+		}
+		vidar_region = {
+			add_permanent_claim = ROOT
+		}
+		chalnath_expanse_region = {
+			add_permanent_claim = ROOT
+		}
 	}
 }
 
+# Fate of necron
 country_event = {
-	id = farsight_events.10 # Fate of necron
+	id = farsight_events.10 
 	title = "farsight_events.10.t"
 	desc = "farsight_events.10.d"
-	picture = Crisis_4_event_picture
+	picture = Necron_and_tau_event_picture
 	
 	is_triggered_only = yes
 	
@@ -258,15 +291,17 @@ country_event = {
 	}
 	
 	option = {
+		name = farsight_events.10.a
 		enable_branching_mission_review_without_ai = { key = XGG_SAUTHEK }
 	}
 }
 
+# Fate of Barghesi
 country_event = {
-	id = farsight_events.11 # Fate of Barghesi
+	id = farsight_events.11 
 	title = "farsight_events.11.t"
 	desc = "farsight_events.11.d"
-	picture = Crisis_4_event_picture
+	picture = tau_vs_tyranid_event_picture
 	
 	is_triggered_only = yes
 	
@@ -275,15 +310,17 @@ country_event = {
 	}
 	
 	option = {
+		name = farsight_events.11.a
 		enable_branching_mission_review_without_ai = { key = XGG_BARGHESI }
 	}
 }
 
+# Fate of Iyanden
 country_event = {
-	id = farsight_events.12 # Fate of Iyanden
+	id = farsight_events.12
 	title = "farsight_events.12.t"
 	desc = "farsight_events.12.d"
-	picture = Crisis_4_event_picture
+	picture = Iyanden_event_picture
 	
 	is_triggered_only = yes
 	
@@ -292,15 +329,17 @@ country_event = {
 	}
 	
 	option = {
+		name = farsight_events.12.a
 		enable_branching_mission_review_without_ai = { key = XGG_IYANDEN }
 	}
 }
 
+# End of Consolidate_second_expansion_Sphere.
 country_event = {
-	id = farsight_events.13 # End of Consolidate_second_expansion_Sphere. 
+	id = farsight_events.13  
 	title = "farsight_events.13.t"
 	desc = "farsight_events.13.d"
-	picture = Crisis_4_event_picture
+	picture = Korvattra_event_picture
 	
 	is_triggered_only = yes
 	
@@ -309,6 +348,96 @@ country_event = {
 	}
 	
 	option = {
-		enable_branching_mission_review_without_ai = { key = XGG_IYANDEN }
+		name = farsight_events.13.a
+		segmentum_solar_region = {
+			add_permanent_claim = ROOT
+		}
+	}
+}
+
+# Conquest of the galaxy.
+country_event = {
+	id = farsight_events.14  
+	title = "farsight_events.14.t"
+	desc = "farsight_events.14.d"
+	picture = Galaxy_event_picture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = XGG
+	}
+	
+	option = {
+		name = farsight_events.14.a
+		change_adm = 3
+		change_dip = 1
+		change_mil = 1
+	}
+}
+
+# Ark of Omen - Only hope of farsight
+country_event = {
+	id = farsight_events.15  
+	title = "farsight_events.15.t"
+	desc = "farsight_events.15.d"
+	picture = Stealth_event_picture
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	trigger = {
+		tag = XGG
+		has_country_flag = betrayed_by_ethereal
+	}
+	
+	option = {
+		name = farsight_events.15.a
+		change_mil = 1
+		add_war_exhaustion = -10
+		add_country_modifier = {
+			name = "farsight_monat"
+			duration = 3650
+			desc = FARSIGHT_MONAT
+		}
+	}
+	
+	option = {
+		name = farsight_events.15.b
+		add_country_modifier = {
+			name = "talissera"
+			duration = 365
+			desc = TALISSERA
+		}
+	}
+}
+
+# Ark of Omen - Fall of farsight
+country_event = {
+	id = farsight_events.16  
+	title = "farsight_events.16.t"
+	desc = "farsight_events.16.d"
+	picture = Khorne_event_picture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = XGG
+		has_country_modifier = farsight_monat
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = farsight_events.16.a
+		change_mil = 1
+		change_religion = khorne
+		remove_country_modifier = farsight_monat
+		swap_non_generic_missions = yes
 	}
 }

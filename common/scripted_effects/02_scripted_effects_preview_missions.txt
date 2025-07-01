@@ -70,6 +70,92 @@ select_current_missions_XGG_ULTRAMAR = {
 	}	
 }
 
+select_current_missions_XGG_SAUTEKH = {
+	if = {
+		limit = { has_country_flag = Farsight_assimilate_Sautekh }
+		
+		if = {
+			limit = { exists = XEV }
+			add_casus_belli = {
+				type = cb_vassalize_mission
+				target = XEV
+				months = 60
+			}
+		}
+	}
+	if = {
+		limit = { has_country_flag = Farsight_conquest_Sautekh }
+		tau_region = {
+			limit = { 
+				is_core = XEV
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+			add_permanent_claim = ROOT 
+		}
+		vidar_region = {
+			limit = { 
+				is_core = XEV
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+			add_permanent_claim = ROOT 
+		}
+	}	
+}
+
+select_current_missions_XGG_BARGHESI = {
+	if = {
+		limit = { has_country_flag = Farsight_assimilate_Barghesi }
+		
+		if = {
+			limit = { exists = XIV }
+			add_casus_belli = {
+				type = cb_vassalize_mission
+				target = XIV
+				months = 60
+			}
+		}
+	}
+	if = {
+		limit = { has_country_flag = Farsight_conquest_Barghesi }
+		grendl_stars_region = {
+			limit = { 
+				is_core = XIV
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+			add_permanent_claim = ROOT 
+		}
+	}	
+}
+
+select_current_missions_XGG_IYANDEN = {
+	if = {
+		limit = { has_country_flag = Farsight_assimilate_Iyanden }
+		
+		if = {
+			limit = { exists = XIA }
+			add_casus_belli = {
+				type = cb_vassalize_mission
+				target = XIA
+				months = 60
+			}
+		}
+	}
+	if = {
+		limit = { has_country_flag = Farsight_conquest_Iyanden }
+		ultima_region = {
+			limit = { 
+				is_core = XIA
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+			add_permanent_claim = ROOT 
+		}
+	}	
+}
+
 
 clr_preview_loc_branch = {
 	clr_country_flag = $key$_loc_preview_$batch$_for_1
@@ -102,17 +188,38 @@ select_current_branch = {
 	custom_tooltip = BYZ_end_preview
 	hidden_effect = { clr_country_flag = has_batch_$batch$_active }
 	
-	# Farsight ultramar fate
+	# Farsight fate
 	if = { limit = { can_preview_mission_of_key_and_batch = { key = XGG_ULTRAMAR batch = $batch$ } } select_current_missions = { key = XGG_ULTRAMAR } }
+	if = { limit = { can_preview_mission_of_key_and_batch = { key = XGG_SAUTEKH batch = $batch$ } } select_current_missions = { key = XGG_SAUTEKH } }
+	if = { limit = { can_preview_mission_of_key_and_batch = { key = XGG_BARGHESI batch = $batch$ } } select_current_missions = { key = XGG_BARGHESI } }
+	if = { limit = { can_preview_mission_of_key_and_batch = { key = XGG_IYANDEN batch = $batch$ } } select_current_missions = { key = XGG_IYANDEN } }
 }
 
 clear_all_branching_flags = {
-	#Farsight ultramar fate
+	#Farsight Fate
 	if = {
 		limit = { can_preview_mission_of_key_and_batch = { key = XGG_ULTRAMAR batch = $batch$ } }
 		clr_preview_loc_branch = { key = XGG_ULTRAMAR batch = $batch$ }
 		clr_country_flag = Farsight_assimilate_Ultramar
 		clr_country_flag = Farsight_conquest_Ultramar
+	}
+	if = {
+		limit = { can_preview_mission_of_key_and_batch = { key = XGG_SAUTEKH batch = $batch$ } }
+		clr_preview_loc_branch = { key = XGG_SAUTEKH batch = $batch$ }
+		clr_country_flag = Farsight_assimilate_Sautekh
+		clr_country_flag = Farsight_conquest_Sautekh
+	}
+	if = {
+		limit = { can_preview_mission_of_key_and_batch = { key = XGG_BARGHESI batch = $batch$ } }
+		clr_preview_loc_branch = { key = XGG_BARGHESI batch = $batch$ }
+		clr_country_flag = Farsight_assimilate_Barghesi
+		clr_country_flag = Farsight_conquest_Barghesi
+	}
+	if = {
+		limit = { can_preview_mission_of_key_and_batch = { key = XGG_IYANDEN batch = $batch$ } }
+		clr_preview_loc_branch = { key = XGG_IYANDEN batch = $batch$ }
+		clr_country_flag = Farsight_assimilate_Iyanden
+		clr_country_flag = Farsight_conquest_Iyanden
 	}
 }
 
@@ -121,12 +228,30 @@ set_preview_loc_branch = {
 }
 
 preview_mission_branch_1 = {
-	#Farsight ultramar fate
+	#Farsight fate
 	if = {
 		limit = { can_preview_mission_of_key_and_batch = { key = XGG_ULTRAMAR batch = $batch$ } }
 		set_preview_loc_branch = { key = XGG_ULTRAMAR batch = $batch$ branch = 1 }
 		set_country_flag = Farsight_assimilate_Ultramar
 		custom_tooltip = Farsight_assimilate_Ultramar_preview
+	}
+	if = {
+		limit = { can_preview_mission_of_key_and_batch = { key = XGG_SAUTEKH batch = $batch$ } }
+		set_preview_loc_branch = { key = XGG_SAUTEKH batch = $batch$ branch = 1 }
+		set_country_flag = Farsight_assimilate_Sautekh
+		custom_tooltip = Farsight_assimilate_Sautekh_preview
+	}
+	if = {
+		limit = { can_preview_mission_of_key_and_batch = { key = XGG_BARGHESI batch = $batch$ } }
+		set_preview_loc_branch = { key = XGG_BARGHESI batch = $batch$ branch = 1 }
+		set_country_flag = Farsight_assimilate_Barghesi
+		custom_tooltip = Farsight_assimilate_Barghesi_preview
+	}
+	if = {
+		limit = { can_preview_mission_of_key_and_batch = { key = XGG_IYANDEN batch = $batch$ } }
+		set_preview_loc_branch = { key = XGG_IYANDEN batch = $batch$ branch = 1 }
+		set_country_flag = Farsight_assimilate_Iyanden
+		custom_tooltip = Farsight_assimilate_Iyanden_preview
 	}
 }
 preview_mission_branch_2 = {
@@ -136,6 +261,24 @@ preview_mission_branch_2 = {
 		set_preview_loc_branch = { key = XGG_ULTRAMAR batch = $batch$ branch = 2 }
 		set_country_flag = Farsight_conquest_Ultramar
 		custom_tooltip = Farsight_conquest_Ultramar_preview
+	}
+	if = {
+		limit = { can_preview_mission_of_key_and_batch = { key = XGG_SAUTEKH batch = $batch$ } }
+		set_preview_loc_branch = { key = XGG_SAUTEKH batch = $batch$ branch = 2 }
+		set_country_flag = Farsight_conquest_Sautekh
+		custom_tooltip = Farsight_conquest_Sautekh_preview
+	}
+	if = {
+		limit = { can_preview_mission_of_key_and_batch = { key = XGG_BARGHESI batch = $batch$ } }
+		set_preview_loc_branch = { key = XGG_BARGHESI batch = $batch$ branch = 2 }
+		set_country_flag = Farsight_conquest_Barghesi
+		custom_tooltip = Farsight_conquest_Barghesi_preview
+	}
+	if = {
+		limit = { can_preview_mission_of_key_and_batch = { key = XGG_IYANDEN batch = $batch$ } }
+		set_preview_loc_branch = { key = XGG_IYANDEN batch = $batch$ branch = 2 }
+		set_country_flag = Farsight_conquest_Iyanden
+		custom_tooltip = Farsight_conquest_Iyanden_preview
 	}
 }
 
@@ -175,8 +318,11 @@ clear_preview_mission_key = {
 	}
 }
 clear_preview_mission_keys_for_batch = {
-	#Farsight ultramar fate
+	#Farsight Fate
 	clear_preview_mission_key = { batch = $batch$ key = XGG_ULTRAMAR }
+	clear_preview_mission_key = { batch = $batch$ key = XGG_SAUTEKH }
+	clear_preview_mission_key = { batch = $batch$ key = XGG_BARGHESI }
+	clear_preview_mission_key = { batch = $batch$ key = XGG_IYANDEN }
 	
 	clr_country_flag = has_batch_$batch$_active
 }
@@ -189,8 +335,11 @@ clear_mismatching_mission_key = {
 	}
 }
 clear_mismatching_mission_keys_for_batch = {
-	#Farsight ultramar fate
-	clear_mismatching_mission_key = { mission = fate_of_ultramar				key = XGG_ULTRAMAR batch = $batch$ }
+	#Farsight Fate
+	clear_mismatching_mission_key = { mission = Fate_of_ultramar				key = XGG_ULTRAMAR batch = $batch$ }
+	clear_mismatching_mission_key = { mission = Fate_of_necron					key = XGG_SAUTEKH batch = $batch$ }
+	clear_mismatching_mission_key = { mission = Fate_of_Barghesi				key = XGG_BARGHESI batch = $batch$ }
+	clear_mismatching_mission_key = { mission = Fate_of_Iyanden					key = XGG_IYANDEN batch = $batch$ }
 	
 	clr_country_flag = has_batch_$batch$_active
 	change_variable = {
