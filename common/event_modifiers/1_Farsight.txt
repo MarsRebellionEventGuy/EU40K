@@ -35,3 +35,13 @@ no_more_tyranid_in_galaxy = {
 	advisor_cost = -0.5
 	liberty_desire_from_subject_development = -0.25
 }
+
+farsight_monat = {
+	fire_damage = 1
+	shock_damage = 1
+	discipline = 1
+}
+
+talissera = {
+	reinforce_cost_modifier = -0.10
+}

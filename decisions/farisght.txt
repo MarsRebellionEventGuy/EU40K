@@ -1,14 +1,85 @@
 country_decisions = {
-	test = {
+	Fate_necron_assimilate_test = {
 		potential = {
 			tag = XGG
 		}
 		allow = {}
 		effect = {
-			inherit = XGF
+			vassalize = XEV
+		}
+	}
+	
+	Fate_necron_conquest_test = {
+		potential = {
+			tag = XGG
+		}
+		allow = {}
+		effect = {
+			inherit = XEV
 		}
 	}
     
+	Farsight_assimilate_Ultramar_test = {
+		potential = {
+			tag = XGG
+		}
+		allow = {}
+		effect = {
+			vassalize = XGK
+		}
+	}
+	
+	Farsight_conquest_Ultramar_test = {
+		potential = {
+			tag = XGG
+		}
+		allow = {}
+		effect = {
+			inherit = XGK
+		}
+	}
+    
+	Remove_ork_from_sector_test = {
+		potential = {
+			tag = XGG
+		}
+		allow = {}
+		effect = {
+			tau_region = {
+				type = all
+				change_culture = fire_caste_culture
+			}
+		}
+	}
+	
+	All_culture_from_galaxy = {
+		potential = {
+			tag = XGG
+		}
+		allow = {}
+		effect = {
+			all_province = {
+				type = all
+				change_culture = fire_caste_culture
+			}
+		}
+	}
+	
+	Farsight_conquest_of_chalnath = {
+		potential = {
+			tag = XGG
+		}
+		allow = {}
+		effect = {
+			chalnath_expanse_region = {
+				type = all
+				change_religion = greater_good
+				change_controller = ROOT
+			}
+		}
+	}
+	
+	
     test_2 = {
         potential = {
 			tag = XGG
@@ -19,6 +90,8 @@ country_decisions = {
 		}
     }
 	
+	
+# True Decision
 	Move_capital_tau = {
 		potential = {
 			NOT = { exists = XGF }
