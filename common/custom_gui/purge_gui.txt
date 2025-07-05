@@ -19,7 +19,10 @@ custom_button = {
 			else = {
 				mil_power = 100 
 			}
-			TAG = FROM
+			OR={
+				TAG = FROM
+				is_subject_of = FROM
+			}
 		}
 	}
 	effect = {
