@@ -1,4 +1,4 @@
-graphical_culture = westerngfx
+graphical_culture = easterngfx
 
 color = { 39 46 39 }
 

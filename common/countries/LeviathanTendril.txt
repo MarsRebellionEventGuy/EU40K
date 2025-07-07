@@ -1,9 +1,11 @@
-graphical_culture = westerngfx
+# Leviathan Tendril
+
+graphical_culture = asiangfx
 
 color = { 27 23 59 }
 
 historical_idea_groups = {
-
+	quantity_ideas
 }
 
 historical_units = {
@@ -23,9 +25,10 @@ ship_names = {
 }
 
 army_names = {
-
+	"1st Swarm" "2nd Swarm" "3rd Swarm" "4th Swarm" "5th Swarm" "6th Swarm" "7th Swarm" "8th Swarm" "9th Swarm" "10th Swarm" "11th Swarm" "12th Swarm" "13th Swarm" "14th Swarm" "15th Swarm" "16th Swarm" "17th Swarm" "18th Swarm" "19th Swarm" "20th Swarm" "21st Swarm" "22nd Swarm" "23rd Swarm" "24th Swarm" "25th Swarm" "26th Swarm" "27th Swarm" "28th Swarm" "29th Swarm" "30th Swarm" "31st Swarm" "32nd Swarm" "33rd Swarm" "34th Swarm" "35th Swarm" "36th Swarm" "37th Swarm" "38th Swarm" "39th Swarm" "40th Swarm" "41st Swarm" "42nd Swarm" "43rd Swarm" "44th Swarm" "45th Swarm" "46th Swarm" "47th Swarm" "48th Swarm" "49th Swarm" "50th Swarm" "51st Swarm" "52nd Swarm" "53rd Swarm" "54th Swarm" "55th Swarm" "56th Swarm" "57th Swarm" "58th Swarm" "59th Swarm" "60th Swarm" "61st Swarm" "62nd Swarm" "63rd Swarm" "64th Swarm" "65th Swarm" "66th Swarm" "67th Swarm" "68th Swarm" "69th Swarm" "70th Swarm" "71st Swarm" "72nd Swarm" "73rd Swarm" "74th Swarm" "75th Swarm" "76th Swarm" "77th Swarm" "78th Swarm" "79th Swarm" "80th Swarm" "81st Swarm" "82nd Swarm" "83rd Swarm" "84th Swarm" "85th Swarm" "86th Swarm" "87th Swarm" "88th Swarm" "89th Swarm" "90th Swarm" "91st Swarm" "92nd Swarm" "93rd Swarm" "94th Swarm" "95th Swarm" "96th Swarm" "97th Swarm" "98th Swarm" "99th Swarm"
 }
 
 fleet_names = {
+"1st Invasion Fleet" "2nd Invasion Fleet" "3rd Invasion Fleet" "4th Invasion Fleet" "5th Invasion Fleet" "6th Invasion Fleet" "7th Invasion Fleet" "8th Invasion Fleet" "9th Invasion Fleet" "10th Invasion Fleet" "11th Invasion Fleet" "12th Invasion Fleet" "13th Invasion Fleet" "14th Invasion Fleet" "15th Invasion Fleet" "16th Invasion Fleet" "17th Invasion Fleet" "18th Invasion Fleet" "19th Invasion Fleet" "20th Invasion Fleet" "21st Invasion Fleet" "22nd Invasion Fleet" "23rd Invasion Fleet" "24th Invasion Fleet" "25th Invasion Fleet" "26th Invasion Fleet" "27th Invasion Fleet" "28th Invasion Fleet" "29th Invasion Fleet" "30th Invasion Fleet" "31st Invasion Fleet" "32nd Invasion Fleet" "33rd Invasion Fleet" "34th Invasion Fleet" "35th Invasion Fleet" "36th Invasion Fleet" "37th Invasion Fleet" "38th Invasion Fleet" "39th Invasion Fleet" "40th Invasion Fleet" "41st Invasion Fleet" "42nd Invasion Fleet" "43rd Invasion Fleet" "44th Invasion Fleet" "45th Invasion Fleet" "46th Invasion Fleet" "47th Invasion Fleet" "48th Invasion Fleet" "49th Invasion Fleet" "50th Invasion Fleet" "51st Invasion Fleet" "52nd Invasion Fleet" "53rd Invasion Fleet" "54th Invasion Fleet" "55th Invasion Fleet" "56th Invasion Fleet" "57th Invasion Fleet" "58th Invasion Fleet" "59th Invasion Fleet" "60th Invasion Fleet" "61st Invasion Fleet" "62nd Invasion Fleet" "63rd Invasion Fleet" "64th Invasion Fleet" "65th Invasion Fleet" "66th Invasion Fleet" "67th Invasion Fleet" "68th Invasion Fleet" "69th Invasion Fleet" "70th Invasion Fleet" "71st Invasion Fleet" "72nd Invasion Fleet" "73rd Invasion Fleet" "74th Invasion Fleet" "75th Invasion Fleet" "76th Invasion Fleet" "77th Invasion Fleet" "78th Invasion Fleet" "79th Invasion Fleet" "80th Invasion Fleet" "81st Invasion Fleet" "82nd Invasion Fleet" "83rd Invasion Fleet" "84th Invasion Fleet" "85th Invasion Fleet" "86th Invasion Fleet" "87th Invasion Fleet" "88th Invasion Fleet" "89th Invasion Fleet" "90th Invasion Fleet" "91st Invasion Fleet" "92nd Invasion Fleet" "93rd Invasion Fleet" "94th Invasion Fleet" "95th Invasion Fleet" "96th Invasion Fleet" "97th Invasion Fleet" "98th Invasion Fleet" "99th Invasion Fleet"
 
 }

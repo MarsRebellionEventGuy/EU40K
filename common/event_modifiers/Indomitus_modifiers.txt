@@ -614,3 +614,54 @@ tyr_destiny_5 = {
 	administrative_efficiency = 0.1
 	picture = administrative_efficiency
 }
+
+hydra_anphelion_devoured = {
+	manpower_recovery_speed = 0.15
+	free_leader_pool = 1
+	picture = manpower_recovery_speed
+}
+
+hydra_leviathan_devoured = {
+	manpower_recovery_speed = 0.2
+	infantry_shock = 0.2
+	ignore_coring_distance = yes
+	picture = shock_damage
+}
+
+hydra_leviathan_falls = {
+	stability_cost_to_declare_war = -5
+	manpower_recovery_speed = 1
+}
+
+hydra_tiamet_devoured = {
+	manpower_recovery_speed = 0.2
+	infantry_fire = 0.1
+	siege_ability = 0.15
+	picture = siege_ability
+}
+
+hydra_tendril_devoured = {
+	manpower_recovery_speed = 0.2
+	leader_siege = 1
+	leader_land_manuever = 1
+	picture = leader_siege
+}
+
+hydra_ouroboros_devoured = {
+	manpower_recovery_speed = 0.2
+	discipline = 0.05
+	picture = discipline
+}
+
+hydra_dagon_devoured = {
+	manpower_recovery_speed = 0.25
+	land_morale = 0.1
+	picture = land_morale
+}
+
+hail_hydra = {
+	warscore_cost_vs_other_religion = -0.25
+	manpower_recovery_speed = 0.8
+	discipline = 0.05
+	picture = discipline
+}

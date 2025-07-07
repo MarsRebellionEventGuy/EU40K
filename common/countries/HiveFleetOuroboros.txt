@@ -1,9 +1,11 @@
-graphical_culture = westerngfx
+#Hive Fleet Ouroboros
+
+graphical_culture = asiangfx
 
 color = { 52 52 69 }
 
 historical_idea_groups = {
-
+	quantity_ideas
 }
 
 historical_units = {

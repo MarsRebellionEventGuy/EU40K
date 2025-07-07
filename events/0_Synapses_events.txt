@@ -904,3 +904,33 @@ country_event = { #Surplus
 	}
 }
 
+country_event = { #A Leviathan Falls!
+	id = indomitus_general.41
+	title = indomitus_general.41.t
+	desc = indomitus_general.41.d
+	picture = HORDE_ON_HORSEBACK_eventPicture
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = XJA
+		has_won_war_against = {
+		who = XYB
+		max_years_since = 10
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+		}
+
+	option = {
+		name = indomitus_general.41.a
+		add_country_modifier = {
+			name = hydra_leviathan_falls
+			duration = 3650
+		}
+		
+	}
+}
+

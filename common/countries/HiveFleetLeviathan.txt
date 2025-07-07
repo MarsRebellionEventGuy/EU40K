@@ -1,4 +1,6 @@
-graphical_culture = westerngfx
+#Hive Fleet Leviathan
+
+graphical_culture = asiangfx
 
 color = { 32 0 84 }
 
@@ -19,6 +21,7 @@ leader_names = {
 }
 
 ship_names = {
+	"Behemoth" "Kraken" "Leviathan"
 
 }
 

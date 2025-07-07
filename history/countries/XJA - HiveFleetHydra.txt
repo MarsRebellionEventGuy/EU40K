@@ -10,9 +10,8 @@ capital = 1576
 		monarch = {
 			name = "Synapse"	
 			adm = 4
-			dip = 4
-			mil = 1
+			dip = 0
+			mil = 5
 		}
 		add_ruler_personality = immortal_personality
-	}
 }

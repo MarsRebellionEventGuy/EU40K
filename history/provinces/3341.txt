@@ -3,6 +3,7 @@ owner = XPE
 controller = XPE
 religion = dark_muses
 culture = drukhari_culture
+capital = "The Bottomless Pit"
 base_tax = 4
 base_production = 4
 base_manpower = 7

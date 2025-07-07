@@ -1,4 +1,6 @@
-graphical_culture = westerngfx
+#Ork Empire of Calverna
+
+graphical_culture = easterngfx
 
 color = { 66  89  63 }
 

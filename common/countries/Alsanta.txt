@@ -1,4 +1,6 @@
-graphical_culture = westerngfx
+#Ork Empire of Alsanta
+
+graphical_culture = easterngfx
 
 color = { 124 133 124 }
 

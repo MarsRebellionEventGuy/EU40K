@@ -12,6 +12,8 @@ technology = {
 	# Tech 0
 	year = 1850
 	
+	#Basic Weaponry
+
 	sprite_level = 1
 
 	infantry_fire		= 	0.25
@@ -24,7 +26,8 @@ technology = {
 	# Tech 1
 	year = 1900
 	
-	
+	#Weaponized Plasma
+
 	infantry_shock		= 	0.1
 	infantry_fire 		= 	0.1
 	
@@ -59,7 +62,8 @@ technology = {
 	# Tech 2
 	year = 1950
 	
-	
+	#Melta Weaponry
+
 	infantry_shock		= 	0.2
 	cavalry_shock		= 	0.2
 	
@@ -72,6 +76,7 @@ technology = {
 	# Tech 3
 	year = 1999
 	
+	#Cutting Chain Mechanisms
 	
 	land_morale = 	0.5
 	may_drill = yes
@@ -80,10 +85,8 @@ technology = {
 technology = {
 	# Tech 4
 	year = 2020
-	
 
-	#Pike Square
-	
+	#Laser Weaponry
 
 	land_morale = 	0.5
 	military_tactics 	= 	0.25
@@ -94,7 +97,8 @@ technology = {
 	year = 2040
 	
 	
-	#Standardised Pikes
+	#Advanced Plasteel Engineering
+
 	supply_limit 		= 	0.5
 	infantry_shock		= 	0.15
 	cavalry_shock		= 	0.2
@@ -147,7 +151,8 @@ technology = {
 	year = 2060
 	
 	
-	#Arquebus
+	#Refined Ferrocrete Fortifications
+
 	military_tactics 	= 	0.25
 	infantry_shock		= 	0.30
 	infantry_fire 		= 	0.20
@@ -163,7 +168,8 @@ technology = {
 	year = 2080
 	
 	
-	#The limber
+	#Ceramite Manufacturing
+
 	artillery_fire 		= 	1
 	artillery_shock 	=	0.05
 	military_tactics 	= 	0.25
@@ -178,7 +184,8 @@ technology = {
 	
 
 	
-	#Pike and Shot
+	#Adamantium Engineering
+
 	infantry_fire		= 	0.25
 	cavalry_shock		=	0.8
 
@@ -191,7 +198,7 @@ technology = {
 	year = 2120
 	
 	
-	#Ditch
+	#Wraithbone Production
 	
 	enable = StikkBomma
 	enable = FlashGit
@@ -242,7 +249,8 @@ technology = {
 	year = 2140
 	
 	
-	#Reiter
+	#Engineered Evolution
+
 	maneuver_value 		= 	0.25
 }
 
@@ -251,7 +259,8 @@ technology = {
 	year = 2160
 	
 	
-	#Matchlock Musket
+	#Living Metal Manipulation
+
 	infantry_shock		= 	0.20
 	cavalry_fire		= 	0.5
 
@@ -266,7 +275,8 @@ technology = {
 	year = 2180
 	
 	
-	#Spanish Square
+	#Shuriken Weaponry
+
 	sprite_level = 2
 	
 	supply_limit 		= 	0.5
@@ -308,12 +318,14 @@ technology = {
 	year = 2200
 	
 	
-	#Trunnions
+	#Volkite Thermal Manipulation
+
 	artillery_shock 	= 	0.1
 	artillery_fire 		= 	0.4
 	
 	enable = small_cast_iron_bombard
 	enable = large_cast_iron_bombard
+	enable = Pyrovore
 }
 
 technology = {
@@ -321,7 +333,8 @@ technology = {
 	year = 2220
 	
 	
-	#Star Bastions
+	#Rudimentary Blackstone Engineering
+
 	fort_16th = yes
 	infantry_fire		=	0.3
 	
@@ -333,7 +346,8 @@ technology = {
 	year = 2240
 	
 	
-	#Maurician Infantry
+	#Cybernetic Augmentation
+
 	land_morale 		=	1.0
 	military_tactics	=	0.25
 	
@@ -375,7 +389,8 @@ technology = {
 	year = 2260
 	
 	
-	#Standardisation of Calibre
+	#Darkstar Extraction
+
 	artillery_shock 	= 	0.1
 	artillery_fire 		= 	1.0	
 
@@ -386,19 +401,21 @@ technology = {
 	
 	enable = chambered_demi_cannon
 	enable = demi_culverin
+	enable = Exocrine
 }
 
 technology = {
 	# Tech 17
 	year = 2280
 	
+	#Graviton Weaponry
 	
 	cavalry_shock		=	1.0
 	supply_limit		= 	0.5	
 	
-	enable = maharathan_cavalry		
-	enable = manchu_banner		
-	enable = african_swarm
+	#enable = maharathan_cavalry		
+	#enable = manchu_banner		
+	#enable = african_swarm
 }
 
 technology = {
@@ -406,7 +423,8 @@ technology = {
 	year = 2300
 	
 	
-	#Carbine
+	#Advanced Laser Weaponry
+
 	maneuver_value 		= 	0.25
 
 	
@@ -418,7 +436,8 @@ technology = {
 	year = 2320
 	
 	
-	#Gustavian Infantry
+	#Weaponized Psychic Weaponry
+
 	military_tactics 	= 	0.25
 	supply_limit		=	0.5
 
@@ -442,7 +461,6 @@ technology = {
 	enable = FarstrikeBattlesuit
 
 	enable = CarnifexScreamerKiller
-	enable = CarnifexStoneCrusher
 	enable = CarnifexThornback
 
 	enable = SoulGrinder
@@ -471,12 +489,13 @@ technology = {
 	year = 2340
 	
 	
-	#Killing Grounds
+	#Advanced Automated Systems
 	
 	infantry_fire		= 	0.5
 		
 	enable = swivel_cannon
 	enable = howitzer
+	enable = Mawloc
 
 	combat_width = 2
 }
@@ -485,8 +504,8 @@ technology = {
 	# Tech 21
 	year = 2360
 	
-	
-	#Line Infantry
+	#Monofilament Weaponry
+
 	sprite_level = 3
 	military_tactics 	= 	0.25
 	
@@ -497,8 +516,8 @@ technology = {
 	# Tech 22
 	year = 2380
 	
-	
-	#Cartridge	(1620)?)
+	#Advanced Cloaking
+
 	cavalry_fire		=	0.5
 	artillery_shock 	=	0.1
 	artillery_fire		=	2.0
@@ -514,7 +533,7 @@ technology = {
 	year = 2400
 	
 	
-	#Light Cavalry
+	#Distortion Cannons
 	
 	cavalry_shock		=	1.0
 	military_tactics 	= 	0.25
@@ -566,7 +585,8 @@ technology = {
 	year = 2420
 	
 	
-	#Covered Way
+	#Vortex Manipulation
+
 	fort_18th	= yes	
 	military_tactics 	= 	0.25
 
@@ -577,21 +597,22 @@ technology = {
 	# Tech 25
 	year = 2440
 	
-	
-	#Metallurgy
+	#Gauss Weaponry
+
 	artillery_shock 	=	0.1
 	artillery_fire		=	2.0
 	
 	enable = royal_mortar
 	enable = licorne
+	enable = CarnifexStoneCrusher
 }
 
 technology = {
 	# Tech 26
 	year = 2460
 	
-	
-	#Light Infantry Companies
+	#Weaponized Teleportation
+
 	sprite_level = 4
 
 	land_morale			=	1.0
@@ -617,7 +638,6 @@ technology = {
 	enable = MorralianDeathswornAuxiliary
 
 	enable = Maleceptor
-	enable = Mawloc
 	enable = Trygon
 	enable = Tyrannofex
 
@@ -653,8 +673,8 @@ technology = {
 	# Tech 27
 	year = 2480
 	
-	
-	#Bayonet
+	#Doomsday Cannons
+
 	supply_limit		=	0.5
 	infantry_fire		= 	0.5	
 }
@@ -664,7 +684,8 @@ technology = {
 	year = 2500
 	
 	
-	#Cuirassier
+	#Lightning Arcs
+
 	maneuver_value 		= 	0.25
 	infantry_shock		=	0.5	
 	
@@ -704,18 +725,18 @@ technology = {
 	year = 2520
 	
 	
-	#Defense in Depth
+	#Nanotechnology
 		
 	enable = flying_battery
 	enable = grand_battery
+	enable = Viragon
 }
 
 technology = {
 	# Tech 30
 	year = 2540
 	
-	
-	#Impulse Warfare
+	#Tesla Weaponry
 	#sprite_level = 5	
 	
 	military_tactics	=	0.25
@@ -744,7 +765,6 @@ technology = {
 
 	enable = Nautiloid
 	enable = Viciator
-	enable = Viragon
 	enable = Hierophant
 
 	enable = Bloodcrusher
@@ -778,7 +798,8 @@ technology = {
 	year = 2560
 	
 	
-	#Rifle
+	#Blackstone Engineering
+
 	cavalry_shock		=	1.0
 	infantry_fire		=	1.0
 	supply_limit		=	0.5
@@ -789,7 +810,8 @@ technology = {
 	year = 2580
 	
 	
-	#Field Howitzer
+	#Emphatic Obliteration
+
 	military_tactics	=	0.25
 	artillery_shock		=	0.1
 	artillery_fire		=	2.0	
