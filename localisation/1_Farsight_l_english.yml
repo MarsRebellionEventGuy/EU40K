@@ -147,6 +147,14 @@
  FARSIGHT_MONAT: "The Monat, the Lone Warrior, is an army of one man"
  talissera: "Ta'lissera"
  TALISSERA: "Ta'lissera Ritual serves as a reminder of the sacred bond the group share "
+ assimilate_Necron: "Assimilate Necron"
+ assimilate_Necron_desc: "Assimilate Necron"
+ assimilate_Astartes: "Assimilate Astartes"
+ assimilate_Astartes_desc: "Assimilate Astartes"
+ assimilate_Xeno: "Assimilate Xeno"
+ assimilate_Xeno_desc: "Assimilate Xeno"
+ assimilate_Eldar: "Assimilate Eldar"
+ assimilate_Eldar_desc: "Assimilate Eldar"
 
 #unit
  farsight_rebels_name: "Sympathizer of Farsight"
@@ -171,12 +179,10 @@
  Farsight_fate_necron_assimilate_desc: "We can bring them to the greater good"
  Farsight_fate_necron_conquest_title: "Conquest them"
  Farsight_fate_necron_conquest_desc: "They refuse the greater good, so we will impose it"
- 
  Remove_ork_from_sector_title: "Remove the Ork"
  Remove_ork_from_sector_desc: "It's time to end this War. Exterminate these greenskins."
  Remove_ork_from_galaxy_title: "Orkicide"
  Remove_ork_from_galaxy_desc: "This species will always refuse the greater good. We must get rid of it."
- 
  Fate_of_ultramar_title: "The fate of Ultramar"
  Fate_of_ultramar_desc: "There is a great power of these superhumans called Astartes near us. What policy should we adopt?"
  Farsight_assimilate_Ultramar_tt: "If we choose to vassalize Ultramar, this mission will help the XIII legion to accept the greater good"

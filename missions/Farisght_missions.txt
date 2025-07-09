@@ -10,8 +10,12 @@ Farsight_col_1 = {
 	}	
 
 	Fate_of_necron = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_fate_of_Sautekh
 		position = 9
+		
+		provinces_to_highlight = {
+            owned_by = XEV
+        }
 		
 		required_missions = { Consolidate_first_expansion_Sphere }
 		trigger = {
@@ -50,6 +54,7 @@ Farsight_fate_of_necron_blanck = {
 		icon = mission_unknown_mission
 		required_missions = { Fate_of_necron }
 		position = 10
+		
 		trigger = { 
 			custom_trigger_tooltip = {
 				tooltip = selectable_mission_trigger_tt
@@ -77,19 +82,28 @@ Farsight_fate_of_necron_assimilate_branch = {
 	has_country_shield = yes
 	
 	Farsight_fate_necron_assimilate = { 
-		icon = mission_necron_warriors
+		icon = mission_assimilate_necron
 		required_missions = { Fate_of_necron }
 		position = 10
+		
+		provinces_to_highlight = {
+            owned_by = XEV
+        }
+		
 		trigger = { 
 			not_in_mission_preview_mode = { key = XGG_SAUTEKH }
 			XEV = {
-				is_vassal = yes
+				is_subject_of = yes
 			}
 		}
 		effect = { 
 			XEV = {
 				add_liberty_desire = -100
 				change_religion = greater_good
+			}
+			add_country_modifier = {
+				name = assimilate_Necron
+				duration = -1
 			}
 		}
 	}
@@ -109,9 +123,14 @@ Farsight_fate_of_necron_conquest_branch = {
 	has_country_shield = yes
 	
 	Farsight_fate_necron_conquest = { 
-		icon = mission_guilliman
+		icon = mission_conquest_necron
 		required_missions = { Fate_of_necron }
 		position = 10
+		
+		provinces_to_highlight = {
+            owned_by = XEV
+        }
+		
 		trigger = { 
 			not_in_mission_preview_mode = { key = XGG_SAUTEKH }
 			NOT = {
@@ -119,9 +138,10 @@ Farsight_fate_of_necron_conquest_branch = {
 			}
 		}
 		effect = { 
-			add_war_exhaustion = -5
-			add_prestige = 50
-			add_corruption = -2
+			add_country_modifier = {
+				name = conquest_Necron
+				duration = -1
+			}
 		}
 	}
 }
@@ -138,9 +158,14 @@ Farsight_col_2 = {
 	}
 
 	Remove_ork_from_sector = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_green_world
 		position = 2
 		required_missions = { End_dakka_war_mission }
+		provinces_to_highlight = {
+			region = tau_region
+			culture_group = ork_culture_group
+        }
+		
 		trigger = {
 			tau_region = {
 				type = all
@@ -163,9 +188,13 @@ Farsight_col_2 = {
 	}
 
 	Remove_ork_from_galaxy = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_orks
 		position = 3
 		required_missions = { Remove_ork_from_sector }
+		provinces_to_highlight = {
+            culture_group = ork_culture_group
+        }
+		
 		trigger = {
 			all_province = {
 				NOT = {
@@ -186,9 +215,12 @@ Farsight_col_2 = {
 	}
 
 	Fate_of_ultramar = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_fate_of_Ultramar
 		position = 7
 		required_missions = { Control_tau_region }
+		provinces_to_highlight = {
+            owned_by = XGK
+        }
 		trigger = {
 			XGK = {
 				OR = {
@@ -252,19 +284,26 @@ Farsight_fate_ultramar_assimilate_branch = {
 	has_country_shield = yes
 	
 	Farsight_fate_ultramar_assimilate = { 
-		icon = mission_necron_warriors
+		icon = mission_assimilate_astartes
 		required_missions = { Fate_of_ultramar }
 		position = 8
+		provinces_to_highlight = {
+            owned_by = XGK
+        }
 		trigger = { 
 			not_in_mission_preview_mode = { key = XGG_ULTRAMAR }
 			XGK = {
-				is_vassal = yes
+				is_subject_of = yes
 			}
 		}
 		effect = { 
 			XGK = {
 				add_liberty_desire = -100
 				change_religion = greater_good
+			}
+			add_country_modifier = {
+				name = assimilate_Astartes
+				duration = -1
 			}
 		}
 	}
@@ -284,9 +323,12 @@ Farsight_fate_ultramar_conquest_branch = {
 	has_country_shield = yes
 	
 	Farsight_fate_ultramar_conquest = { 
-		icon = mission_guilliman
+		icon = mission_conquest_astartes
 		required_missions = { Fate_of_ultramar }
 		position = 8
+		provinces_to_highlight = {
+            owned_by = XGK
+        }
 		trigger = { 
 			not_in_mission_preview_mode = { key = XGG_ULTRAMAR }
 			NOT = {
@@ -294,9 +336,10 @@ Farsight_fate_ultramar_conquest_branch = {
 			}
 		}
 		effect = { 
-			add_war_exhaustion = -5
-			add_prestige = 50
-			add_corruption = -2
+			add_country_modifier = {
+				name = conquest_Astartes
+				duration = -1
+			}
 		}
 	}
 }
@@ -315,7 +358,10 @@ Farsight_col_2_2 = {
 	Farsight_conquest_of_chalnath = {
 		icon = mission_build_up_to_force_limit
 		position = 9
-		
+		provinces_to_highlight = {
+			region = chalnath_expanse_region
+			NOT = { religion = greater_good }
+        }
 		required_missions = { Consolidate_first_expansion_Sphere }
 		trigger = {
 			chalnath_expanse_region = {
@@ -354,9 +400,12 @@ Farsight_col_2_2 = {
 	}
 
 	Remove_tyranid_from_galaxy = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_hive_mind_synapse
 		position = 11
 		required_missions = { Consolidate_second_expansion_Sphere }
+		provinces_to_highlight = {
+            culture_group = tyranid_culture_group
+        }
 		trigger = {
 			all_province = {
 				NOT = {
@@ -389,7 +438,7 @@ Farsight_col_3 = {
 	}
 	
 	End_dakka_war_mission = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_noctis
 		position = 1
 		required_missions = { }
 		trigger = {
@@ -404,9 +453,12 @@ Farsight_col_3 = {
 	}
 
 	Ark_of_omen = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_ark_of_omen
 		position = 2
 		required_missions = { End_dakka_war_mission }
+		provinces_to_highlight = {
+			owned_by = XGL
+		}
 		trigger = {
 			NOT = { exists = XGL }
 		}
@@ -419,10 +471,13 @@ Farsight_col_3 = {
 	}
 
 	Ask_help_from_tau = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_ask_help_tau
 		position = 3
 		
 		required_missions = { Ark_of_omen }
+		provinces_to_highlight = {
+			province_id = 1883
+		}
 		trigger = {
 			1883 = {
 				religion = greater_good
@@ -434,7 +489,7 @@ Farsight_col_3 = {
 	}
 
 	Revenge_against_ethereal = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_revenge_against_ethereal
 		position = 4
 		
 		required_missions = { Ask_help_from_tau }
@@ -451,9 +506,11 @@ Farsight_col_3 = {
 	}
 
 	Only_one_tauva = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_tauva
 		position = 5
-		
+		provinces_to_highlight = {
+			owned_by = XGF
+		}
 		required_missions = { Revenge_against_ethereal }
 		trigger = {
 			OR = {
@@ -477,10 +534,14 @@ Farsight_col_3 = {
 	}
 
 	Control_tau_region = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_Control_tau_region
 		position = 6
 		
 		required_missions = { Only_one_tauva }
+		provinces_to_highlight = {
+			region = tau_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
 		trigger = {
 			tau_region = {
 				type = all
@@ -502,10 +563,17 @@ Farsight_col_3 = {
 	}
 	
 	Farsight_first_expansion_Sphere = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_first_sphere
 		position = 7
 		
 		required_missions = { Control_tau_region }
+		provinces_to_highlight = {
+			OR = {
+				region = ultima_region
+				region = jericho_sector_region
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
 		trigger = {
 			ultima_region = {
 				type = all
@@ -535,16 +603,23 @@ Farsight_col_3 = {
 	}
 	
 	Consolidate_first_expansion_Sphere = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_consolidate_sphere
 		position = 8
 		
 		required_missions = { Farsight_first_expansion_Sphere }
 		trigger = {
-			# TODO : Air Caste 3 agenda, Fire caste 3 agenda, Water caste 3 agenda, Earth caste 3 agenda
-			#num_of_estate_agendas_completed = {
-			#	estate = estate_nobility
-			#	value = 3
-			#}
+			num_of_estate_agendas_completed = {
+				estate = estate_nobility
+				value = 2
+			}
+			num_of_estate_agendas_completed = {
+				estate = estate_church
+				value = 2
+			}
+			num_of_estate_agendas_completed = {
+				estate = estate_burghers
+				value = 2
+			}
 		}
 		effect = { 
 			country_event = { id = farsight_events.9 }
@@ -552,10 +627,19 @@ Farsight_col_3 = {
 	}
 	
 	Farsight_second_expansion_Sphere = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_second_sphere
 		position = 9
 		
 		required_missions = { Consolidate_first_expansion_Sphere }
+		provinces_to_highlight = {
+			OR = {
+				region = sargos_region
+				region = grendl_stars_region
+				region = vidar_region
+				region = chalnath_expanse_region
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
 		trigger = {
 			sargos_region = {
 				type = all
@@ -613,12 +697,23 @@ Farsight_col_3 = {
 	}
 	
 	Consolidate_second_expansion_Sphere = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_consolidate_sphere
 		position = 10
 		
 		required_missions = { Farsight_second_expansion_Sphere }
 		trigger = {
-			# TODO : Air Caste 3 agenda, Fire caste 3 agenda, Water caste 3 agenda, Earth caste 3 agenda
+			num_of_estate_agendas_completed = {
+				estate = estate_nobility
+				value = 4
+			}
+			num_of_estate_agendas_completed = {
+				estate = estate_church
+				value = 4
+			}
+			num_of_estate_agendas_completed = {
+				estate = estate_burghers
+				value = 4
+			}
 		}
 		effect = { 
 			country_event = { id = farsight_events.13 }
@@ -626,10 +721,13 @@ Farsight_col_3 = {
 	}
 	
 	Farsight_conquest_of_the_galaxy = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_Control_tau_region
 		position = 11
 		
 		required_missions = { Consolidate_second_expansion_Sphere }
+		provinces_to_highlight = {
+			province_id = 1
+		}
 		trigger = {
 			is_core = 1
 		}
@@ -651,10 +749,14 @@ Farsight_col_4 = {
 	}
 
 	Purge_Chaos = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_purge_chaos
 		position = 4
 		
 		required_missions = { Ask_help_from_tau }
+		provinces_to_highlight = {
+			region = tau_region
+			religion_group = chaos_group
+		}
 		trigger = {
 			tau_region = {
 				type = all
@@ -672,10 +774,13 @@ Farsight_col_4 = {
 	}
 	
 	Remove_chaos_from_galaxy = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_end_of_chaos
 		position = 5
 		
 		required_missions = { Purge_Chaos }
+		provinces_to_highlight = {
+			religion_group = chaos_group
+		}
 		trigger = {
 			all_province = {
 				NOT = {
@@ -744,19 +849,26 @@ Farsight_fate_iyanden_assimilate_branch = {
 	has_country_shield = yes
 	
 	Farsight_fate_iyanden_assimilate = { 
-		icon = mission_necron_warriors
+		icon = mission_assimilate_eldar
 		required_missions = { Fate_of_Iyanden }
 		position = 8
+		provinces_to_highlight = {
+			owned_by = XIA
+		}
 		trigger = { 
 			not_in_mission_preview_mode = { key = XGG_IYANDEN }
 			XIA = {
-				is_vassal = yes
+				is_subject_of = yes
 			}
 		}
 		effect = { 
 			XIA = {
 				add_liberty_desire = -100
 				change_religion = greater_good
+			}
+			add_country_modifier = {
+				name = assimilate_Eldar
+				duration = -1
 			}
 		}
 	}
@@ -776,9 +888,12 @@ Farsight_fate_iyanden_conquest_branch = {
 	has_country_shield = yes
 	
 	Farsight_fate_iyanden_conquest = { 
-		icon = mission_guilliman
+		icon = mission_conquest_eldar
 		required_missions = { Fate_of_Iyanden }
 		position = 8
+		provinces_to_highlight = {
+			owned_by = XIA
+		}
 		trigger = { 
 			not_in_mission_preview_mode = { key = XGG_IYANDEN }
 			NOT = {
@@ -786,7 +901,10 @@ Farsight_fate_iyanden_conquest_branch = {
 			}
 		}
 		effect = { 
-			add_war_exhaustion = -5
+			add_country_modifier = {
+				name = conquest_Eldar
+				duration = -1
+			}
 		}
 	}
 }
@@ -803,9 +921,12 @@ Farsight_col_4_2 = {
 	}
 
 	Fate_of_Barghesi = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_fate_of_Xeno
 		position = 9
 		required_missions = { Consolidate_first_expansion_Sphere }
+		provinces_to_highlight = {
+			owned_by = XIV
+		}
 		trigger = {
 			XIV = {
 				OR = {
@@ -869,19 +990,26 @@ Farsight_fate_barghesi_assimilate_branch = {
 	has_country_shield = yes
 	
 	Farsight_fate_barghesi_assimilate = { 
-		icon = mission_necron_warriors
+		icon = mission_assimilate_xeno
 		required_missions = { Fate_of_Barghesi }
 		position = 10
+		provinces_to_highlight = {
+			owned_by = XIV
+		}
 		trigger = { 
 			not_in_mission_preview_mode = { key = XGG_BARGHESI }
 			XIV = {
-				is_vassal = yes
+				is_subject_of = yes
 			}
 		}
 		effect = { 
 			XIV = {
 				add_liberty_desire = -100
 				change_religion = greater_good
+			}
+			add_country_modifier = {
+				name = assimilate_Xeno
+				duration = -1
 			}
 		}
 	}
@@ -901,9 +1029,12 @@ Farsight_fate_barghesi_conquest_branch = {
 	has_country_shield = yes
 	
 	Farsight_fate_barghesi_conquest = { 
-		icon = mission_guilliman
+		icon = mission_conquest_xeno
 		required_missions = { Fate_of_Barghesi }
 		position = 10
+		provinces_to_highlight = {
+			owned_by = XIV
+		}
 		trigger = { 
 			not_in_mission_preview_mode = { key = XGG_BARGHESI }
 			NOT = {
@@ -911,7 +1042,10 @@ Farsight_fate_barghesi_conquest_branch = {
 			}
 		}
 		effect = { 
-			add_war_exhaustion = -5
+			add_country_modifier = {
+				name = conquest_Xeno
+				duration = -1
+			}
 		}
 	}
 }
@@ -928,10 +1062,13 @@ Farsight_col_5 = {
 	}
 
 	Fate_of_Iyanden = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_fate_of_Iyanden
 		position = 7
 		
 		required_missions = { Control_tau_region }
+		provinces_to_highlight = {
+			owned_by = XIA
+		}
 		trigger = {
 			XIA = {
 				OR = {
@@ -949,7 +1086,7 @@ Farsight_col_5 = {
 	}
 
 	Understanding_of_webway_technology = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_Understanding_of_webway_technology
 		position = 8
 		
 		required_missions = { Fate_of_Iyanden }
@@ -981,10 +1118,13 @@ Farsight_col_5 = {
 	}
 	
 	Revenge_for_the_war_of_dark_revelations = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_Revenge_for_the_war_of_dark_revelations
 		position = 9
 		
 		required_missions = { Consolidate_first_expansion_Sphere Understanding_of_webway_technology }
+		provinces_to_highlight = {
+			province_id = 3486
+		}
 		trigger = {
 			3486 = { has_discovered = ROOT }
 		}
@@ -997,10 +1137,14 @@ Farsight_col_5 = {
 	}
 	
 	Conquest_of_the_webway = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_Conquest_of_the_webway
 		position = 10
 		
 		required_missions = { Revenge_for_the_war_of_dark_revelations }
+		provinces_to_highlight = {
+			region = commorragh_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
 		trigger = {
 			commorragh_region = {
 				is_core = ROOT
@@ -1017,10 +1161,13 @@ Farsight_col_5 = {
 	}
 	
 	Remove_drukhari_from_galaxy = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_Remove_drukhari_from_galaxy
 		position = 11
 		
 		required_missions = { Conquest_of_the_webway }
+		provinces_to_highlight = {
+			culture = drukhari_culture
+		}
 		trigger = {
 			all_province = {
 				NOT = { culture = drukhari_culture }

@@ -1,0 +1,137 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "mission_assimilate_astartes"
+		texturefile = "gfx/interface/Missions/Farsight/assimilate_astartes.dds"
+	}
+	
+	spriteType = {
+		name = "mission_assimilate_eldar"
+		texturefile = "gfx/interface/Missions/Farsight/assimilate_eldar.dds"
+	}
+	
+	spriteType = {
+		name = "mission_assimilate_necron"
+		texturefile = "gfx/interface/Missions/Farsight/assimilate_necron.dds"
+	}
+	
+	spriteType = {
+		name = "mission_assimilate_xeno"
+		texturefile = "gfx/interface/Missions/Farsight/assimilate_xeno.dds"
+	}
+	
+	spriteType = {
+		name = "mission_conquest_astartes"
+		texturefile = "gfx/interface/Missions/Farsight/conquest_astartes.dds"
+	}
+	
+	spriteType = {
+		name = "mission_conquest_eldar"
+		texturefile = "gfx/interface/Missions/Farsight/conquest_eldar.dds"
+	}
+	
+	spriteType = {
+		name = "mission_conquest_necron"
+		texturefile = "gfx/interface/Missions/Farsight/conquest_necron.dds"
+	}
+	
+	spriteType = {
+		name = "mission_conquest_xeno"
+		texturefile = "gfx/interface/Missions/Farsight/conquest_xeno.dds"
+	}
+	
+	spriteType = {
+		name = "mission_fate_of_Xeno"
+		texturefile = "gfx/interface/Missions/Farsight/fate_of_Xeno.dds"
+	}
+	
+	spriteType = {
+		name = "mission_fate_of_Ultramar"
+		texturefile = "gfx/interface/Missions/Farsight/fate_of_Ultramar.dds"
+	}
+	
+	spriteType = {
+		name = "mission_fate_of_Sautekh"
+		texturefile = "gfx/interface/Missions/Farsight/fate_of_Sautekh.dds"
+	}
+	
+	spriteType = {
+		name = "mission_fate_of_Iyanden"
+		texturefile = "gfx/interface/Missions/Farsight/fate_of_Iyanden.dds"
+	}
+	
+	spriteType = {
+		name = "mission_colonize_chalnath"
+		texturefile = "gfx/interface/Missions/Farsight/colonize_chalnath.dds"
+	}
+	
+	spriteType = {
+		name = "mission_ark_of_omen"
+		texturefile = "gfx/interface/Missions/Farsight/ark_of_omen.dds"
+	}
+	
+	spriteType = {
+		name = "mission_ask_help_tau"
+		texturefile = "gfx/interface/Missions/Farsight/ask_help_tau.dds"
+	}
+	
+	spriteType = {
+		name = "mission_revenge_against_ethereal"
+		texturefile = "gfx/interface/Missions/Farsight/revenge_against_ethereal.dds"
+	}
+	
+	spriteType = {
+		name = "mission_tauva"
+		texturefile = "gfx/interface/Missions/Farsight/tauva.dds"
+	}
+	
+	spriteType = {
+		name = "mission_Control_tau_region"
+		texturefile = "gfx/interface/Missions/Farsight/Control_tau_region.dds"
+	}
+	
+	spriteType = {
+		name = "mission_first_sphere"
+		texturefile = "gfx/interface/Missions/Farsight/first_sphere.dds"
+	}
+	
+	spriteType = {
+		name = "mission_second_sphere"
+		texturefile = "gfx/interface/Missions/Farsight/second_sphere.dds"
+	}
+	
+	spriteType = {
+		name = "mission_consolidate_sphere"
+		texturefile = "gfx/interface/Missions/Farsight/consolidate_sphere.dds"
+	}
+	
+	spriteType = {
+		name = "mission_purge_chaos"
+		texturefile = "gfx/interface/Missions/Farsight/purge_chaos.dds"
+	}
+	
+	spriteType = {
+		name = "mission_end_of_chaos"
+		texturefile = "gfx/interface/Missions/Farsight/end_of_chaos.dds"
+	}
+	
+	spriteType = {
+		name = "mission_Understanding_of_webway_technology"
+		texturefile = "gfx/interface/Missions/Farsight/webway.dds"
+	}
+	
+	spriteType = {
+		name = "mission_Revenge_for_the_war_of_dark_revelations"
+		texturefile = "gfx/interface/Missions/Farsight/IncubiMaster.dds"
+	}
+	
+	spriteType = {
+		name = "mission_Conquest_of_the_webway"
+		texturefile = "gfx/interface/Missions/Farsight/control_webway.dds"
+	}
+	
+	spriteType = {
+		name = "mission_Remove_drukhari_from_galaxy"
+		texturefile = "gfx/interface/Missions/Farsight/end_druakhri.dds"
+	}
+}

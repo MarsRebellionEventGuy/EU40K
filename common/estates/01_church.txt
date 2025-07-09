@@ -715,6 +715,17 @@ estate_church = {
 		desc = estate_ethereals
 		trigger = {
 			culture_group = tau_culture_group
+			NOT = {
+				tag = XGG
+			}
+		}
+	}
+	
+	custom_name = {
+		desc = estate_earth_caste
+		trigger = {
+			culture_group = tau_culture_group
+			tag = XGG
 		}
 	}
 
