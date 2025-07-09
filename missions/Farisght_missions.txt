@@ -93,7 +93,7 @@ Farsight_fate_of_necron_assimilate_branch = {
 		trigger = { 
 			not_in_mission_preview_mode = { key = XGG_SAUTEKH }
 			XEV = {
-				is_subject_of = yes
+				is_subject_of = XGG
 			}
 		}
 		effect = { 
@@ -293,7 +293,7 @@ Farsight_fate_ultramar_assimilate_branch = {
 		trigger = { 
 			not_in_mission_preview_mode = { key = XGG_ULTRAMAR }
 			XGK = {
-				is_subject_of = yes
+				is_subject_of = XGG
 			}
 		}
 		effect = { 
@@ -540,7 +540,10 @@ Farsight_col_3 = {
 		required_missions = { Only_one_tauva }
 		provinces_to_highlight = {
 			region = tau_region
-			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			OR = {
+				NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				NOT = { religion = greater_good } 
+			}
 		}
 		trigger = {
 			tau_region = {
@@ -858,7 +861,7 @@ Farsight_fate_iyanden_assimilate_branch = {
 		trigger = { 
 			not_in_mission_preview_mode = { key = XGG_IYANDEN }
 			XIA = {
-				is_subject_of = yes
+				is_subject_of = XGG
 			}
 		}
 		effect = { 
@@ -999,7 +1002,7 @@ Farsight_fate_barghesi_assimilate_branch = {
 		trigger = { 
 			not_in_mission_preview_mode = { key = XGG_BARGHESI }
 			XIV = {
-				is_subject_of = yes
+				is_subject_of = XGG
 			}
 		}
 		effect = { 
