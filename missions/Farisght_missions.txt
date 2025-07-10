@@ -611,18 +611,18 @@ Farsight_col_3 = {
 		
 		required_missions = { Farsight_first_expansion_Sphere }
 		trigger = {
-#			num_of_estate_agendas_completed = {
-#				estate = estate_nobles
-#				value = 2
-#			}
-#			num_of_estate_agendas_completed = {
-#				estate = estate_church
-#				value = 2
-#			}
-#			num_of_estate_agendas_completed = {
-#				estate = estate_burghers
-#				value = 2
-#			}
+			num_of_estate_agendas_completed = {
+				estate = estate_nobles
+				value = 2
+			}
+			num_of_estate_agendas_completed = {
+				estate = estate_church
+				value = 2
+			}
+			num_of_estate_agendas_completed = {
+				estate = estate_burghers
+				value = 2
+			}
 		}
 		effect = { 
 			country_event = { id = farsight_events.9 }
