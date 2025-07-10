@@ -256,6 +256,7 @@
  Understanding_of_webway_technology_desc: "It's a strange technology, but there's nothing we can't understand or replicate."
  Revenge_for_the_war_of_dark_revelations_title: "Revenge against Drukhari"
  Revenge_for_the_war_of_dark_revelations_desc: "The war of dark revelation is a wound that only heals through revenge."
+ revenge_for_the_war_of_dark_revelations_tt: "Allow the tau revenge casus belli against Drukhari"
  Conquest_of_the_webway_title: "T'au Webway"
  Conquest_of_the_webway_desc: "This strange dimension will allow us to get along faster than ever before. And it's packed with so much technology."
  Remove_drukhari_from_galaxy_title: "second fall"
@@ -263,3 +264,9 @@
  
  REVENGE_AGAINST_ETHEREAL_TOOLTIP: "We have been betrayed by the ethereals"
  
+ #casus belli
+ cb_tau_revenge_war: "Tau revenge"
+ cb_tau_revenge_war_desc: "Revenge for the war of Dark Revelations"
+ tau_revenge: ""
+ tau_revenge_desc: "We'll take revenge for the war of Dark Revelations"
+ Dark_revelation_revenge: "$ORDER$$FIRST$-$SECOND$ Dark Revelation revenge War"

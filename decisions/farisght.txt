@@ -13,4 +13,32 @@ country_decisions = {
 			set_capital = 1898
 		}
 	}
+	
+	Colonize_jericho_Maw_gate = {
+		potential = {
+			num_of_provinces_owned_or_owned_by_subjects_with = {
+				value = 6
+				region = jericho_sector_region
+			}
+			NOT = { owns_core_province = 4080 }
+		}
+		allow = {
+			num_of_provinces_owned_or_owned_by_subjects_with = {
+				value = 12
+				region = jericho_sector_region
+			}
+			NOT = { owns_core_province = 4080 }
+		}
+		effect = {
+			4080 = {
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+				cede_province = ROOT
+				add_core = ROOT
+				change_culture = ROOT
+				change_religion = ROOT
+			}
+		}
+	}
 }

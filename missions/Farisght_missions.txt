@@ -611,18 +611,18 @@ Farsight_col_3 = {
 		
 		required_missions = { Farsight_first_expansion_Sphere }
 		trigger = {
-			num_of_estate_agendas_completed = {
-				estate = estate_nobility
-				value = 2
-			}
-			num_of_estate_agendas_completed = {
-				estate = estate_church
-				value = 2
-			}
-			num_of_estate_agendas_completed = {
-				estate = estate_burghers
-				value = 2
-			}
+#			num_of_estate_agendas_completed = {
+#				estate = estate_nobles
+#				value = 2
+#			}
+#			num_of_estate_agendas_completed = {
+#				estate = estate_church
+#				value = 2
+#			}
+#			num_of_estate_agendas_completed = {
+#				estate = estate_burghers
+#				value = 2
+#			}
 		}
 		effect = { 
 			country_event = { id = farsight_events.9 }
@@ -706,7 +706,7 @@ Farsight_col_3 = {
 		required_missions = { Farsight_second_expansion_Sphere }
 		trigger = {
 			num_of_estate_agendas_completed = {
-				estate = estate_nobility
+				estate = estate_nobles
 				value = 4
 			}
 			num_of_estate_agendas_completed = {
@@ -1132,6 +1132,7 @@ Farsight_col_5 = {
 			3486 = { has_discovered = ROOT }
 		}
 		effect = { 
+			custom_tooltip = revenge_for_the_war_of_dark_revelations_tt
 			set_country_flag = revenge_for_the_war_of_dark_revelations_flag
 		}
 		ai_weight = {

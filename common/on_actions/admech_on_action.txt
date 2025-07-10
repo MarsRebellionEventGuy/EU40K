@@ -50,11 +50,14 @@ on_province_owner_change = {
 	
 	if = {
 		limit = {
-			area = {
-				any_province = {
-					has_province_modifier = minor_forge_world_mod
-				}
+			area_for_scope_province = {
+				has_province_modifier = minor_forge_world_mod
 			}
+#			area = {
+#				any_province = {
+#					has_province_modifier = minor_forge_world_mod
+#				}
+#			}
 		}
 		add_province_modifier = {
 			name = minor_forge_world_area_mod
@@ -63,11 +66,14 @@ on_province_owner_change = {
 	}
 	if = {
 		limit = {
-			area = {
-				any_province = {
-					has_province_modifier = forge_world_1_mod
-				}
+			area_for_scope_province = {
+				has_province_modifier = forge_world_1_mod
 			}
+#			area = {
+#				any_province = {
+#					has_province_modifier = forge_world_1_mod
+#				}
+#			}
 		}
 		add_province_modifier = {
 			name = forge_world_1_area_mod
@@ -76,11 +82,14 @@ on_province_owner_change = {
 	}
 	if = {
 		limit = {
-			area = {
-				any_province = {
-					has_province_modifier = forge_world_2_mod
-				}
+			area_for_scope_province = {
+				has_province_modifier = forge_world_2_mod
 			}
+#			area = {
+#				any_province = {
+#					has_province_modifier = forge_world_2_mod
+#				}
+#			}
 		}
 		add_province_modifier = {
 			name = forge_world_2_area_mod
@@ -89,11 +98,14 @@ on_province_owner_change = {
 	}
 	if = {
 		limit = {
-			area = {
-				any_province = {
-					has_province_modifier = forge_world_3_mod
-				}
+			area_for_scope_province = {
+				has_province_modifier = forge_world_3_mod
 			}
+#			area = {
+#				any_province = {
+#					has_province_modifier = forge_world_3_mod
+#				}
+#			}
 		}
 		add_province_modifier = {
 			name = forge_world_3_area_mod
@@ -102,11 +114,14 @@ on_province_owner_change = {
 	}
 	if = {
 		limit = {
-			area = {
-				any_province = {
-					has_province_modifier = forge_world_4_mod
-				}
+			area_for_scope_province = {
+				has_province_modifier = forge_world_4_mod
 			}
+#			area = {
+#				any_province = {
+#					has_province_modifier = forge_world_4_mod
+#				}
+#			}
 		}
 		add_province_modifier = {
 			name = forge_world_4_area_mod

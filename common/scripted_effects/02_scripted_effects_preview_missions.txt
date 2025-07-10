@@ -53,7 +53,7 @@ select_current_missions_XGG_ULTRAMAR = {
 			add_casus_belli = {
 				type = cb_vassalize_mission
 				target = XGK
-				months = 60
+				months = 5000
 			}
 		}
 	}
@@ -79,7 +79,7 @@ select_current_missions_XGG_SAUTEKH = {
 			add_casus_belli = {
 				type = cb_vassalize_mission
 				target = XEV
-				months = 60
+				months = 5000
 			}
 		}
 	}
@@ -113,7 +113,7 @@ select_current_missions_XGG_BARGHESI = {
 			add_casus_belli = {
 				type = cb_vassalize_mission
 				target = XIV
-				months = 60
+				months = 5000
 			}
 		}
 	}
@@ -139,7 +139,7 @@ select_current_missions_XGG_IYANDEN = {
 			add_casus_belli = {
 				type = cb_vassalize_mission
 				target = XIA
-				months = 60
+				months = 5000
 			}
 		}
 	}
