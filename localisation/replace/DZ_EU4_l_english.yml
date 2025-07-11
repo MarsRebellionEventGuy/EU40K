@@ -45,7 +45,7 @@
 # - Necron society divided between reversing biotransference by finding suitable biological bodies (returning to the Necrontyr) or embracing their existence as Necrons and exterminating all life.
 # - Szarekh constructing Pariah Nexus out of Blackstone to eliminate Warp, it has began spreading across the Nephilim Sector and causes Humans to experience "The Stilling"
 
-bookmark4:0 "The Orphean War"
+ bookmark4:0 "The Orphean War"
  bookmark_desc4:0 "The Orpheus Sector, once a proud jewel of the Emperor’s realm, now lies in utter darkness. The Necron Maynarkh Dynasty has awoken, carving a path of annihilation across the stars. Entire systems lie silent, their populations exterminated or enslaved, as the skies echo with the cold, heartless march of metallic legions. The Angels Revenant, their might shattered, retreat into the depths of Libethra, clinging desperately to survival beneath a dying world.\n \nIf humanity falters here, the Necron tide will march unopossed to the Imperium’s heartlands. The defenders of the Orpheus Garrison must defy impossible odds, rising from the ashes to challenge the invader and buy precious time for the Emperor’s light to reach them in their darkest hour."
 
 #Orphean War Bookmark
@@ -56,7 +56,7 @@ bookmark4:0 "The Orphean War"
 # - Orpheus Garrison hopeless resistance against Maynarkh.
 
  bookmark5:0 "The Dark City"
-  bookmark_desc5:0 "Commorragh, synonymous with ruin and darkness alike, lies shrouded within the Webway, an extradimensional maze of the Old Ones. The city itself is a labyrinth in its own right, where ambition and betrayal are the norm. At the top of this bloodstained hierarchy stands Asdrubael Vect, who rose from slavery to rule the city, serving as an example for all Drukhari. \n \nA system of gateways connects the veiled realm to realspace, allowing the Kabals to indulge in their accursed custom of raiding unsuspecting worlds across the galaxy, spiriting away their citizens for the endless torment awaiting them in the dungeons of the Haemonculi. No one is beyond their reach, and any attempt to conquer the Webway leads only to the mysterious disappearance of the would-be conquistadors…"
+ bookmark_desc5:0 "Commorragh, synonymous with ruin and darkness alike, lies shrouded within the Webway, an extradimensional maze of the Old Ones. The city itself is a labyrinth in its own right, where ambition and betrayal are the norm. At the top of this bloodstained hierarchy stands Asdrubael Vect, who rose from slavery to rule the city, serving as an example for all Drukhari. \n \nA system of gateways connects the veiled realm to realspace, allowing the Kabals to indulge in their accursed custom of raiding unsuspecting worlds across the galaxy, spiriting away their citizens for the endless torment awaiting them in the dungeons of the Haemonculi. No one is beyond their reach, and any attempt to conquer the Webway leads only to the mysterious disappearance of the would-be conquistadors…"
 
 #Commorragh Bookmark
 #Important Countries : Kabal of the Black Heart, The Obsidian Rose, Kabal of the Dying Sun, Kabal of the Poisoned Tongue, Kabal of the Flayed Skull, Kabal of the Last Hatred, Kabal of the Bloodied Claw, Kabal of the Falling Moon, Kabal of the Broken Sigil, Kabal of the Iron Thorn, Black Library
@@ -65,8 +65,8 @@ bookmark4:0 "The Orphean War"
 # - Kabalite raid-centered society.
 # - Portals and the Webway.
  
-bookmark6:0 "The Tyrannic Wars"
-bookmark_desc6:0 "Twelve score and sixteen years ago, on the far-flung research station at Tyran, humanity was faced with a novel interstellar enemy, one which multiplies and prospers on the primal instinct of consumption. The Tyranid menace has returned in full force, seeking to extinguish all life in the galaxy and sap every last trace of biomass from this corner of the cosmos. \n \nHive Fleet Leviathan extends its ominous tendrils dangerously close to Terra, although its entanglement in the Octarius War provides an opportunity for Imperial regrouping. Its northern tendril strikes at the Blood Angels, which staunchly resists in the Imperium Nihilus. Hive Fleet Hydra cannibalizes other splinter fleets to achieve dangerous levels of reproductive capability. Diplomacy with any Tyranid lifeform is impossible, for they give no quarter and ask for none. Let that be their epitaph."
+ bookmark6:0 "The Tyrannic Wars"
+ bookmark_desc6:0 "Twelve score and sixteen years ago, on the far-flung research station at Tyran, humanity was faced with a novel interstellar enemy, one which multiplies and prospers on the primal instinct of consumption. The Tyranid menace has returned in full force, seeking to extinguish all life in the galaxy and sap every last trace of biomass from this corner of the cosmos. \n \nHive Fleet Leviathan extends its ominous tendrils dangerously close to Terra, although its entanglement in the Octarius War provides an opportunity for Imperial regrouping. Its northern tendril strikes at the Blood Angels, which staunchly resists in the Imperium Nihilus. Hive Fleet Hydra cannibalizes other splinter fleets to achieve dangerous levels of reproductive capability. Diplomacy with any Tyranid lifeform is impossible, for they give no quarter and ask for none. Let that be their epitaph."
 
 #Tyranid Bookmark
 #Important Countries: Hive Fleet Leviathan, Hive Fleet Hydra, Leviatan Tendril, Hive Fleet Dagon.
@@ -75,8 +75,8 @@ bookmark_desc6:0 "Twelve score and sixteen years ago, on the far-flung research 
 #- Hive Fleet Hydra's unprecedent ability to reproduce, and its cannibalism of other splinter fleets.
 #- Complete disregard for any diplomacy.
 
-bookmark7:0 "The Eye of Terror"
-bookmark_desc7:0 "Cadia has been shattered. Its gate poured with the forces of the Ruinous Powers into the Realspace as the Great Rift threw the galaxy into complete chaos. Chaotic factions have already begun to strike into the shrinking dominion of the False Emperor demesne and his loyalist elements. Piracy, slaughter and vengeance drive the Heretic Astartes into the heart of the Imperium. \n \nLed by the infamous Traitor Primarchs; Perturabo, Lorgar, Fulgrim, Mortarion, Angron, and Magnus the Red, the corrupted legions marshal their dark forces to forge an unending nightmare for the newly resurrected Guilliman, a perpetual torment that will deny him peace and trap him within the clutches of the Noctis Aeterna until his until his will lay utterly broken, like the Empire he rules over."
+ bookmark7:0 "The Eye of Terror"
+ bookmark_desc7:0 "Cadia has been shattered. Its gate poured with the forces of the Ruinous Powers into the Realspace as the Great Rift threw the galaxy into complete chaos. Chaotic factions have already begun to strike into the shrinking dominion of the False Emperor demesne and his loyalist elements. Piracy, slaughter and vengeance drive the Heretic Astartes into the heart of the Imperium. \n \nLed by the infamous Traitor Primarchs; Perturabo, Lorgar, Fulgrim, Mortarion, Angron, and Magnus the Red, the corrupted legions marshal their dark forces to forge an unending nightmare for the newly resurrected Guilliman, a perpetual torment that will deny him peace and trap him within the clutches of the Noctis Aeterna until his until his will lay utterly broken, like the Empire he rules over."
 
 #Eye of Terror Bookmark
 #Important Countries: Emperor's Children, Word Bearers, Butcherhorde, Flawless Host, Death Guard, Talons of Anathrax, Iron Warriors, Thousand Sons, Hedonistarii, Consortium
@@ -87,110 +87,109 @@ bookmark_desc7:0 "Cadia has been shattered. Its gate poured with the forces of t
 
 
 
- bookmark13:0 "Da Great Waaagh!"
- bookmark_desc13:0 "Orks"
- bookmark8:0 "Herald of the Devourer"
- bookmark_desc8:0 "Genestealers"
- bookmark9:0 "Crisis in the Core"
- bookmark_desc9:0 "Votann"
- bookmark10:0 "Enemies Unknown"
- bookmark_desc10:0 "Minor Xenos"
+ # bookmark13:0 "Da Great Waaagh!"
+ # bookmark_desc13:0 "Orks"
+ # bookmark8:0 "Herald of the Devourer"
+ # bookmark_desc8:0 "Genestealers"
+ # bookmark9:0 "Crisis in the Core"
+ # bookmark_desc9:0 "Votann"
+ # bookmark10:0 "Enemies Unknown"
+ # bookmark_desc10:0 "Minor Xenos"
 
 
 
 
 #Not implemented
 
- bookmark11:0 "Legion I: Dark Angels"
- bookmark_desc11:0 ""
-bookmark12:0 "Rise of the Ynnari"
-bookmark_desc12:0 "Craftwords"
-bookmark:0 "Fourth Sphere of Expansion"
- bookmark_desc:0 "T'au"
-<<<<<<< HEAD
+ # bookmark11:0 "Legion I: Dark Angels"
+ # bookmark_desc11:0 ""
+ # bookmark12:0 "Rise of the Ynnari"
+ # bookmark_desc12:0 "Craftwords"
+ # bookmark:0 "Fourth Sphere of Expansion"
+ # bookmark_desc:0 "T'au"
  
- bookmark_13:0 "The War of the Beast"
- bookmark_desc13:0 "In the desolate expanse of the far future, the galaxy teeters on the brink as a new and terrifying threat emerges. Monstrous creatures rise from the shadows, clawing their way to the surface. These savage beasts, fueled by primal instincts and a ravenous hunger for destruction, sweep across the worlds of the Imperium, leaving untold devastation in their wake./nAs reports of Ork attacks flood in from the Outer Rim, panic grips the heart of humanity. The once-proud bastions of civilization find themselves besieged by these relentless foes, their very existence hanging in the balance. The Astra Militarum prepares to rally its forces, while the noble Adeptus Astartes sharpen their blades and ready their war machines, knowing that the fate of the Imperium rests upon their shoulders./nIn this dire hour, alliances will be forged in the fires of desperation, legends will rise from the ashes of conflict, and the inferno of war will be kindled anew, with it comes the promise of glory beyond measure or the ever-looming shadow of annihilation. The War of the Beasts is upon us."
+ # bookmark_13:0 "The War of the Beast"
+ # bookmark_desc13:0 "In the desolate expanse of the far future, the galaxy teeters on the brink as a new and terrifying threat emerges. Monstrous creatures rise from the shadows, clawing their way to the surface. These savage beasts, fueled by primal instincts and a ravenous hunger for destruction, sweep across the worlds of the Imperium, leaving untold devastation in their wake./nAs reports of Ork attacks flood in from the Outer Rim, panic grips the heart of humanity. The once-proud bastions of civilization find themselves besieged by these relentless foes, their very existence hanging in the balance. The Astra Militarum prepares to rally its forces, while the noble Adeptus Astartes sharpen their blades and ready their war machines, knowing that the fate of the Imperium rests upon their shoulders./nIn this dire hour, alliances will be forged in the fires of desperation, legends will rise from the ashes of conflict, and the inferno of war will be kindled anew, with it comes the promise of glory beyond measure or the ever-looming shadow of annihilation. The War of the Beasts is upon us."
  
- crops:0 "Crops"
- cropsDESC:0 "Fresh produce grown from the ground."
+ # crops:0 "Crops"
+ # cropsDESC:0 "Fresh produce grown from the ground."
  
- water:0 "Water"
- waterDESC:0 "Potable water for drinking."
+ # water:0 "Water"
+ # waterDESC:0 "Potable water for drinking."
  
- canned_goods:0 "Canned Goods"
- canned_goodsDESC:0 "Food preserved in cans with a long shelf life."
+ # canned_goods:0 "Canned Goods"
+ # canned_goodsDESC:0 "Food preserved in cans with a long shelf life."
  
- clothing:0 "Clothing"
- clothingDESC:0 "Shirts, pants, hats, and other apparel to cover one's body."
+ # clothing:0 "Clothing"
+ # clothingDESC:0 "Shirts, pants, hats, and other apparel to cover one's body."
  
- office_supplies:0 "Office Supplies"
- office_suppliesDESC:0 "Pencils, paper, staplers, and various things found in offices."
+ # office_supplies:0 "Office Supplies"
+ # office_suppliesDESC:0 "Pencils, paper, staplers, and various things found in offices."
  
- raw_materials:0 "Raw Materials"
- raw_materialsDESC:0 "Wooden logs, scrap metal, stone, and other basic materials that can be refined in various ways."
+ # raw_materials:0 "Raw Materials"
+ # raw_materialsDESC:0 "Wooden logs, scrap metal, stone, and other basic materials that can be refined in various ways."
  
- fuel:0 "Fuel"
- fuelDESC:0 "Gasoline used to power generators and vehicles."
+ # fuel:0 "Fuel"
+ # fuelDESC:0 "Gasoline used to power generators and vehicles."
  
- tools:0 "Tools"
- toolsDESC:0 "Objects used for building or other tasks, such as hammers, screwdrivers, or saws."
+ # tools:0 "Tools"
+ # toolsDESC:0 "Objects used for building or other tasks, such as hammers, screwdrivers, or saws."
  
- refined_goods:0 "Refined Goods"
- refined_goodsDESC:0 "Timber, bricks, pipes and things that have been refined and are ready to use."
+ # refined_goods:0 "Refined Goods"
+ # refined_goodsDESC:0 "Timber, bricks, pipes and things that have been refined and are ready to use."
  
- medical_supplies:0 "Medical Supplies"
- medical_suppliesDESC:0 "Bandages, medicine, and other things essential for medical treatment."
+ # medical_supplies:0 "Medical Supplies"
+ # medical_suppliesDESC:0 "Bandages, medicine, and other things essential for medical treatment."
  
- chemicals:0 "Chemicals"
- chemicalsDESC:0 "Various containers of chemicals used in a variety of applications."
+ # chemicals:0 "Chemicals"
+ # chemicalsDESC:0 "Various containers of chemicals used in a variety of applications."
  
- ammo:0 "Ammunition"
- ammoDESC:0 "Bullets and shells that can be used in firearms."
+ # ammo:0 "Ammunition"
+ # ammoDESC:0 "Bullets and shells that can be used in firearms."
  
- electronics:0 "Electronics"
- electronicsDESC:0 "Phones, laptops, and other bits of electronic objects."
+ # electronics:0 "Electronics"
+ # electronicsDESC:0 "Phones, laptops, and other bits of electronic objects."
  
- vehicle_parts:0 "Vehicle Parts"
- vehicle_partsDESC:0 "Spare parts from the inside of a motor vehicle."
+ # vehicle_parts:0 "Vehicle Parts"
+ # vehicle_partsDESC:0 "Spare parts from the inside of a motor vehicle."
  
- makeshift_weapons:0 "Makeshift Weapons"
- makeshift_weaponsDESC:0 "Clubs, baseball bats with nails, and other homemade weapons."
-=======
- bookmark12:0 "Legion III: Lords of Profligacy"
- bookmark_desc12:0 ""
- bookmark13:0 "Legion IV: Iron Within, Iron Without"
- bookmark_desc13:0 ""
- bookmark14:0 "Legion V: Hordes of Jaghatai"
- bookmark_desc14:0 ""
- bookmark15:0 "Legion VI: Heralds of the Wolftime"
- bookmark_desc15:0 ""
- bookmark16:0 "Legion VII: Defenders of Terra"
- bookmark_desc16:0 ""
- bookmark17:0 "Legion VIII: Ave Dominus Nox"
- bookmark_desc17:0 ""
- bookmark18:0 "Legion IX: Blood Angels"
- bookmark_desc18:0 ""
- bookmark19:0 "Legion X: Iron Hands"
- bookmark_desc19:0 ""
- bookmark19:0 "Legion XII"
- bookmark_desc19:0 ""
- bookmark19:0 "Legion XIII"
- bookmark_desc19:0 ""
- bookmark19:0 "Legion XIV"
- bookmark_desc19:0 ""
- bookmark19:0 "Legion XV"
- bookmark_desc19:0 ""
- bookmark19:0 "Legion XVI"
- bookmark_desc19:0 ""
- bookmark19:0 "Legion XVII"
- bookmark_desc19:0 ""
- bookmark19:0 "Legion XVIII"
- bookmark_desc19:0 ""
- bookmark19:0 "Legion XIX"
- bookmark_desc19:0 ""
- bookmark19:0 "Legion XX: Hydra Dominatus"
- bookmark_desc19:0 ""
+ # makeshift_weapons:0 "Makeshift Weapons"
+ # makeshift_weaponsDESC:0 "Clubs, baseball bats with nails, and other homemade weapons."
+
+ # bookmark12:0 "Legion III: Lords of Profligacy"
+ # bookmark_desc12:0 ""
+ # bookmark13:0 "Legion IV: Iron Within, Iron Without"
+ # bookmark_desc13:0 ""
+ # bookmark14:0 "Legion V: Hordes of Jaghatai"
+ # bookmark_desc14:0 ""
+ # bookmark15:0 "Legion VI: Heralds of the Wolftime"
+ # bookmark_desc15:0 ""
+ # bookmark16:0 "Legion VII: Defenders of Terra"
+ # bookmark_desc16:0 ""
+ # bookmark17:0 "Legion VIII: Ave Dominus Nox"
+ # bookmark_desc17:0 ""
+ # bookmark18:0 "Legion IX: Blood Angels"
+ # bookmark_desc18:0 ""
+ # bookmark19:0 "Legion X: Iron Hands"
+ # bookmark_desc19:0 ""
+ # bookmark19:0 "Legion XII"
+ # bookmark_desc19:0 ""
+ # bookmark19:0 "Legion XIII"
+ # bookmark_desc19:0 ""
+ # bookmark19:0 "Legion XIV"
+ # bookmark_desc19:0 ""
+ # bookmark19:0 "Legion XV"
+ # bookmark_desc19:0 ""
+ # bookmark19:0 "Legion XVI"
+ # bookmark_desc19:0 ""
+ # bookmark19:0 "Legion XVII"
+ # bookmark_desc19:0 ""
+ # bookmark19:0 "Legion XVIII"
+ # bookmark_desc19:0 ""
+ # bookmark19:0 "Legion XIX"
+ # bookmark_desc19:0 ""
+ # bookmark19:0 "Legion XX: Hydra Dominatus"
+ # bookmark_desc19:0 ""
  #bookmark:0 "Warzone: War of the Beasts"
  #bookmark_desc1:0 ""
  #bookmark:0 "Warzone: Darktide"
@@ -207,8 +206,6 @@ bookmark:0 "Fourth Sphere of Expansion"
  #bookmark_desc:0 ""
  #bookmark:0 "Warzone: Orphean War"
  #bookmark_desc:0 ""
->>>>>>> origin/main
- 
 
 
 #buildings
