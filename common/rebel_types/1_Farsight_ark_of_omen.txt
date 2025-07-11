@@ -1,0 +1,73 @@
+# All rebels in province scope
+# All rebels in province scope
+# For siege_won_trigger, siege_won_effect
+# FROM = owner
+# ROOT = province
+# For Other
+# FROM = owner
+# ROOT = Homecountry
+arthas_moloch_rebel = {
+
+	color = { 50 85 210 }
+
+	area = nation
+	religion = chaos_undivided
+	defection = none
+	independence = none
+	unit_transfer = no
+	gfx_type = culture_province
+	will_relocate = yes			#yes/no | Units will relocate if they have sieged all provinces nearby and has to move over sea.
+	
+	resilient = no			#yes/no | Disbands on retreat
+	reinforcing = yes		#yes/no | whether the rebels reinforce themselves
+	general = yes			#yes/no | whether they have a general
+	smart = yes				#yes/no | Does, or does not assault forts, tactically withdraw from battle, etc.
+	
+	artillery = 0.5 	#decimal percentage of army makeup
+	infantry = 0.8
+	cavalry = 0.2
+	
+	morale = 1
+
+	# Possible handle actions
+	handle_action_negotiate = no			#yes/no
+	handle_action_stability = no			#yes/no
+	handle_action_build_core = no			#yes/no
+	handle_action_send_missionary = no		#yes/no	
+	
+	# The rebel type with the highest modifier for this province gets picked
+	spawn_chance = {
+		factor = 1
+	}
+ 
+ 	# This is checked for EACH province in the Area of Operations
+	movement_evaluation = {
+		factor = 1
+	}
+ 
+ 	# Province Scope
+ 	siege_won_trigger = {
+ 	}
+	siege_won_effect = {
+		change_religion = chaos_undivided
+	}
+	
+	# Country scope
+	can_negotiate_trigger = {	#whether the player is allowed to negotiate
+		always = no
+	}
+	
+	# Country scope
+	can_enforce_trigger = {         #any 'demands_enforced_effect' effect will not run unless the trigger evaluates to true
+		always = no
+	}
+	
+	# Localisation for their demands
+	demands_description = "<localisation>"
+	
+	# Country Scope	
+	demands_enforced_effect = {
+			change_religion = chaos_undivided
+		}
+	}
+}

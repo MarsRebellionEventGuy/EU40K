@@ -60,6 +60,7 @@ country_event = { #Tau FTL
 	trigger = {
 		culture_group = tau_culture_group
 		NOT = { has_country_modifier = ether_drive_ftl }
+		NOT = { has_country_flag = understanding_of_webway_technology_flag }
 	}
 	
 	option = {

@@ -23,11 +23,11 @@ imperium_regency_reform = {
 	trigger = {
 	}
 
+	fixed_rank = 3
 	custom_attributes = {
 		royal_marriage = no
 		queen = no
 		heir = no
-		fixed_rank = 3
 		allow_vassal_alliance = yes
 	}
 
@@ -510,15 +510,455 @@ solblades_reform = {
 	}
 }
 
+##### Farsight Enclave #####
+#feudalism_vs_autocracy level
+farsight_enclaves_reform = {
+	icon = "farsight_enclaves"
+
+	allow_normal_conversion = no
+	potential = {
+		tag = XGG
+	}
+	trigger = {
+	}
+	
+	has_parliament = yes
+	custom_attributes = {
+		royal_marriage = no
+		queen = no
+		heir = no
+	}
+
+	modifiers = {
+		defensiveness = 0.20
+		war_exhaustion_cost = -0.25
+	}
+
+	conditional = {
+		allow = { has_dlc = "Domination" }
+		government_abilities = {
+			farsight_enclaves_mechanic
+		}
+	}
+
+	ai = {
+		factor = 0 # AI should never pick this
+	}
+
+	removed_effect = {
+	}
+}
+
+#hereditary_vs_nobility
+caste_liberty_reform = {
+	icon = "caste_liberty_reform"
+	
+	potential = {
+		culture_group = tau_culture_group
+	}
+	trigger = {
+	}
+
+    modifiers = {
+        development_cost_modifier = -0.1
+		all_estate_loyalty_equilibrium = 0.10
+    }
+	ai = {
+		factor = 1
+	}
+
+}
+
+#bureaucracy
+elemental_council_reform = {
+	icon = "elemental_council_reform"
+	
+	potential = {
+		culture_group = tau_culture_group
+	}
+	trigger = {
+	}
+
+    modifiers = {
+        monthly_elemental_council_power = 0.5
+		reform_progress_growth = 0.2
+    }
+	ai = {
+		factor = 1
+	}
+}
+
+#military_doctrines
+kauyon_reform = {
+	icon = "kauyon_reform"
+	
+	potential = {
+		culture_group = tau_culture_group
+	}
+	trigger = {
+	}
+
+    modifiers = {
+        infantry_fire = 2
+		infantry_shock = -1
+		morale_damage = 0.1
+    }
+	ai = {
+		factor = 1
+	}
+}
+
+montka_reform = {
+	icon = "montka_reform"
+	
+	potential = {
+		culture_group = tau_culture_group
+	}
+	trigger = {
+	}
+
+    modifiers = {
+        artillery_fire = 1
+		shock_damage_received = 0.10
+		fire_damage = 0.2
+    }
+	ai = {
+		factor = 1
+	}
+}
+
+korvattra_reform = {
+	icon = "korvattra_reform"
+	
+	potential = {
+		culture_group = tau_culture_group
+	}
+	trigger = {
+	}
+
+    modifiers = {
+        ship_durability = 0.2
+		number_of_cannons_modifier = 0.1
+    }
+	ai = {
+		factor = 1
+	}
+}
+
+#state_and_religion
+# sacrifice for the greater good. - save maximum life - venerate T'au'va goddess
+sacrifice_for_the_greater_good_reform = {
+	icon = "sacrifice_for_the_greater_good_reform"
+	
+	potential = {
+		religion = greater_good
+	}
+	trigger = {
+	}
+
+    modifiers = {
+		warscore_cost_vs_other_religion = -0.25
+    }
+	ai = {
+		factor = 1
+	}
+}
+
+save_maximum_life_reform = {
+	icon = "save_maximum_life_reform"
+	
+	potential = {
+		religion = greater_good
+	}
+	trigger = {
+	}
+
+    modifiers = {
+		global_missionary_strength = 0.1
+    }
+	ai = {
+		factor = 1
+	}
+}
+
+#growth_of_administration
+air_caste_improved_reform = {
+	icon = "air_caste_improved_reform"
+	potential = {
+		religion = greater_good
+	}
+	trigger = {
+	}
+	 modifiers = {
+		caravan_power = 0.2
+		movement_speed_in_fleet_modifier = 1
+		trade_range_modifier = 0.25
+		ship_power_propagation = 0.1
+    }
+	ai = {
+		factor = 1
+	}
+}
+
+fire_caste_improved_reform = {
+	icon = "fire_caste_improved_reform"
+	potential = {
+		religion = greater_good
+	}
+	trigger = {
+	}
+	 modifiers = {
+		army_tradition_decay = -0.02
+		yearly_army_professionalism = 0.01
+		no_cost_for_reinforcing = yes
+		manpower_recovery_speed = 0.10
+    }
+	ai = {
+		factor = 1
+	}
+}
+
+earth_caste_improved_reform = {
+	icon = "earth_caste_improved_reform"
+	potential = {
+		religion = greater_good
+	}
+	trigger = {
+	}
+	 modifiers = {
+		production_efficiency = 0.05
+		global_institution_spread = 0.2
+		development_cost_modifier = -0.05
+		build_cost = -0.1
+    }
+	ai = {
+		factor = 1
+	}
+}
+
+water_caste_improved_reform = {
+	icon = "water_caste_improved_reform"
+	potential = {
+		religion = greater_good
+	}
+	trigger = {
+	}
+	 modifiers = {
+		reduced_liberty_desire = 10
+		liberty_desire_from_subject_development = -0.25
+		annexation_relations_impact = -1
+		global_spy_defence = 0.25
+    }
+	ai = {
+		factor = 1
+	}
+}
 
 
 
+#deliberative_assembly
+all_culture_allowed_reform = {
+	icon = "all_culture_allowed_reform"
+	
+	potential = {
+		culture_group = tau_culture_group
+	}
+	trigger = {
+	}
+
+    modifiers = {
+        years_of_nationalism = -10
+		monthly_rejection_of_ethereal_power = 0.5
+    }
+	ai = {
+		factor = 1
+	}
+}
+
+#economical_matters
+ovesa_reform = {
+	icon = "ovesa_reform"
+	
+	potential = {
+		culture_group = tau_culture_group
+	}
+	trigger = {
+	}
+
+    modifiers = {
+		parliament_backing_chance = 0.33
+		parliament_effect_duration = -5
+		can_revoke_parliament_seats = yes
+		monthly_the_eight_power = 0.5
+	}
+	ai = {
+		factor = 1
+	}
+}
+
+worldshaper_reform = {
+	icon = "worldshaper_reform"
+	
+	potential = {
+		culture_group = tau_culture_group
+	}
+	trigger = {
+	}
+
+    modifiers = {
+		 colonists = 1
+		 colony_cost_modifier = -0.75
+		 colonist_placement_chance = 0.25
+		 global_colonial_growth = 50
+	}
+	ai = {
+		factor = 1
+	}
+}
+
+#legitimation_of_power
+farsight_is_our_only_leader_reform = {
+	icon = "farsight_is_our_only_leader_reform" 
+	
+	potential = { 
+		tag = XGG
+	}
+	modifiers = {
+		max_absolutism = 50
+		max_absolutism_effect = 0.5
+	}
+	ai = {
+		factor = 1
+	}
+}
+
+the_eight_take_more_power_reform = {
+	icon = "the_eight_take_more_power_reform"
+	
+	potential = { 
+		tag = XGG
+	}
+	modifiers = {
+		stability_cost_to_declare_war = -1
+		ae_impact = -0.15
+		max_absolutism = 10
+	}
+	ai = {
+		factor = 1
+	}
+}
+
+the_elemental_council_take_more_power_reform = {
+	icon = "the_elemental_council_take_more_power_reform"
+	potential = { 
+		culture_group = tau_culture_group
+	}
+	modifiers = {
+		diplomatic_annexation_cost = -0.1
+		reduced_liberty_desire = 10
+		governing_capacity = 150
+	}
+	ai = {
+		factor = 1
+	}
+}
 
 
+#absolute_rule_vs_constitutional
+letat_cest_moi_reform = {
+	icon = "letat_cest_moi"
+	allow_normal_conversion = yes
+	modifiers = {
+		governing_capacity = 250
+	}
+	ai = {
+		factor = 1
+	}
+}
 
+regional_representation_reform = {
+	icon = "assembly_hall"
+	allow_normal_conversion = yes
+	modifiers = {
+		min_autonomy_in_territories = -0.05
+		core_creation = -0.05
+	}
+	ai = {
+		factor = 1
+	}
+}
 
+#separation_of_power
+all_hail_farisght_reform = {
+	icon = "all_hail_farisght_reform"
+	allow_normal_conversion = no
+	potential = { 
+		tag = XGG
+		ruler_has_personality = immortal_personality 
+	}
+	modifiers = {
+		free_policy = 1
+		yearly_absolutism = 0.1
+		max_absolutism = 50
+	}
+}
 
-
+we_need_to_forgive_the_ethereal_reform = {
+	icon = "we_need_to_forgive_the_ethereal_reform"
+	allow_normal_conversion = no
+	potential = { 
+		tag = XGG
+		ruler_has_personality = immortal_personality 
+		NOT = { exist = XGF }
+	}
+	effect = {
+		remove_country_modifier = farsight_free_tau_from_ethereals
+		
+		kill_ruler = yes
+		change_tag = XGF
+		change_primary_culture = ethereal_culture
+		change_government = theocracy
+		swap_non_generic_missions = yes
+		
+		hidden_effect = {
+			random_core_province = {
+				limit = {
+					NOT = { culture = ethereal_culture }
+					culture_group = tau_culture_group
+				}
+				change_culture = ethereal_culture
+			}
+			random_core_province = {
+				limit = {
+					NOT = { culture = ethereal_culture }
+					culture_group = tau_culture_group
+				}
+				change_culture = ethereal_culture
+			}
+			random_core_province = {
+				limit = {
+					NOT = { culture = ethereal_culture }
+					culture_group = tau_culture_group
+				}
+				change_culture = ethereal_culture
+			}
+			random_core_province = {
+				limit = {
+					NOT = { culture = ethereal_culture }
+					culture_group = tau_culture_group
+				}
+				change_culture = ethereal_culture
+			}
+			random_core_province = {
+				limit = {
+					NOT = { culture = ethereal_culture }
+					culture_group = tau_culture_group
+				}
+				change_culture = ethereal_culture
+			}
+		}
+	}
+}
 
 
 
