@@ -1,6 +1,6 @@
-add_core = XIU
-owner = XIU
-controller = XIU
+add_core = XUI
+owner = XUI
+controller = XUI
 religion = imperial_cult
 culture = loyalist_astartes_culture
 base_tax = 1

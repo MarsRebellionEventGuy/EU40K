@@ -4529,22 +4529,22 @@ INC_has_any_provinces_to_colonize_with_trigger = {
 	}
 }
 
-has_generic_maya_missions = {
-	OR = {
-		tag = CNP #Can Pech
-		tag = XIU #Xiu
-		tag = YOK #Yokotan 
-		tag = MAY #Maya
-		tag = LAC #Tzotzil
-		tag = COC #Cocomes
-		tag = CTM #Chactemal
-		tag = KIC #K'iche
-		tag = KAQ #Kaqkichel
-		tag = CHT #Chorti
-		tag = ITZ #Itza
-		tag = HST #Huastec
-	}
-}
+# has_generic_maya_missions = {
+	# OR = {
+		# tag = CNP #Can Pech
+		# tag = XIU #Xiu
+		# tag = YOK #Yokotan 
+		# tag = MAY #Maya
+		# tag = LAC #Tzotzil
+		# tag = COC #Cocomes
+		# tag = CTM #Chactemal
+		# tag = KIC #K'iche
+		# tag = KAQ #Kaqkichel
+		# tag = CHT #Chorti
+		# tag = ITZ #Itza
+		# tag = HST #Huastec
+	# }
+# }
 
 is_in_mesoamerica_trigger = {
 	OR = {

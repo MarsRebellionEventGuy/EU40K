@@ -369,7 +369,7 @@ country_decisions = {
 		potential = {
 			NOT = { exists = XZI }
 			OR = {
-				tag = XIU
+				tag = XUI
 				tag = XHO
 			}
 			NOT = { has_country_flag = indomitus_formed_country }

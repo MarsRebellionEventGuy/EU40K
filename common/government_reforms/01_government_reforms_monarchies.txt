@@ -909,7 +909,7 @@ we_need_to_forgive_the_ethereal_reform = {
 	potential = { 
 		tag = XGG
 		ruler_has_personality = immortal_personality 
-		NOT = { exist = XGF }
+		NOT = { exists = XGF }
 	}
 	effect = {
 		remove_country_modifier = farsight_free_tau_from_ethereals
