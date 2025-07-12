@@ -215,26 +215,26 @@ XUH_ideas = {
 	}
 	free = yes
 	
-	AAC_ideas_1 = {
+	XUH_ideas_1 = {
 		trade_efficiency = 0.10	
 		global_tax_modifier = 0.1
 	}
-	AAC_ideas_2 = {
+	XUH_ideas_2 = {
 		production_efficiency = 0.15	
 	}
-	AAC_ideas_3 = {
+	XUH_ideas_3 = {
 		diplomatic_reputation = 2		
 	}
-	AAC_ideas_4 = {
+	XUH_ideas_4 = {
 		discipline = 0.075				
 	}
-	AAC_ideas_5 = {
+	XUH_ideas_5 = {
 		diplomats = 2					
 	}
-	AAC_ideas_6 = {
+	XUH_ideas_6 = {
 		administrative_efficiency = 0.05	
 	}
-	AAC_ideas_7 = {
+	XUH_ideas_7 = {
 		tolerance_heathen = 3			
 	}
 }
