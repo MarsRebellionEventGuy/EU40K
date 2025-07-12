@@ -59,7 +59,7 @@ forge_world_3_mod = {
 	province_trade_power_value = 10
 	local_development_cost = -1.30
 	local_production_efficiency = 0.3
-	custom_tooltip = tooltip_forge_world_3
+	#custom_tooltip = tooltip_forge_world_3 # custom_tooltip is an effect not a modifier
 	picture = "icon_forge_world"
 }
 
@@ -67,7 +67,7 @@ forge_world_4_mod = {
 	province_trade_power_value = 10
 	local_development_cost = -2.20
 	local_production_efficiency = 0.5
-	custom_tooltip = tooltip_forge_world_4
+	# custom_tooltip = tooltip_forge_world_4 # custom_tooltip is an effect not a modifier
 	picture = "icon_forge_world"
 }
 
