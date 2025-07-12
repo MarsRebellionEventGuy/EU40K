@@ -1,6 +1,6 @@
-REB = "countries/Rebels.txt"
-PIR = "countries/Pirates.txt"
-NAT = "countries/Natives.txt"
+#REB = "countries/Rebels.txt"
+#PIR = "countries/Pirates.txt"
+#NAT = "countries/Natives.txt"
 
 #AAA = "countries/AeldariEmpire.txt"
 #AAB = "countries/ImperiumNihilus.txt"

@@ -2570,7 +2570,7 @@ province_event = {
 				}
 			}
 		}
-		immediate = {
+#		immediate = { # immediate can't be in option scope.
 				any_owned_province = {
 					if = {
 						limit = {
@@ -2593,7 +2593,7 @@ province_event = {
 						}
 					}
 				}
-		}
+#		}
 		
 		if = {
 			limit = {
