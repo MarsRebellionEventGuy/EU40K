@@ -620,7 +620,7 @@ the_smart_shall_be_priests_reform = {
 
 	allow_normal_conversion = yes
 	modifiers = {
-		culture_influence_modifier = 0.05
+		church_influence_modifier = 0.05
 		church_loyalty_modifier = 0.1
 		production_efficiency = 0.1
 	}
