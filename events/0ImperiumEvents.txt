@@ -1823,7 +1823,8 @@ country_event = { # Abnegation
 		highlight = yes
 		add_years_of_income = -0.33
 		add_estate_loyalty = {
-			estate_eunuchs = -10
+			estate = estate_eunuchs 
+			loyalty = -10
 		}
 		add_country_modifier = {
 			name = hospitals
@@ -1848,7 +1849,7 @@ country_event = { # Old World Blues
 	trigger = {
 		is_year = 2025
 		tag = XXA
-		at_war = no
+		is_at_war = no
 		
 	}
 

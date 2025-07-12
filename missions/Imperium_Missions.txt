@@ -1039,7 +1039,7 @@ XXA_Branch_3 = {
 						NOT={
 							OR={
 								is_controlled_by_imperium = yes
-								city = no
+								is_city = no
 							}
 						}
 					}
@@ -1049,7 +1049,7 @@ XXA_Branch_3 = {
 						NOT={
 							OR={
 								is_controlled_by_imperium = yes
-								city = no
+								is_city = no
 							}
 						}
 					}

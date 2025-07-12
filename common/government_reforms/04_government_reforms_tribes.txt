@@ -32,7 +32,7 @@ ork_government_reform = {
 	raze_province = yes
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
-	legacy_equivalent = ork_government
+	#legacy_equivalent  = ork_government
 
 	modifiers = {
 		no_cost_for_reinforcing = yes
@@ -54,7 +54,7 @@ exodite_government_reform = {
 	}
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
-	legacy_equivalent = exodite_government
+	#legacy_equivalent  = exodite_government
 
 	modifiers = {
 		own_territory_dice_roll_bonus = 1
@@ -72,7 +72,7 @@ hive_fleet_reform = {
 	potential = {
 		primary_culture = tyranid_culture
 	}
-	legacy_equivalent = hive_fleet
+	#legacy_equivalent  = hive_fleet
 	nomad = yes
 	raze_province = yes
 	valid_for_nation_designer = yes

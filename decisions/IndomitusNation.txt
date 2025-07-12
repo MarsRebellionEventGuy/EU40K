@@ -120,7 +120,7 @@ country_decisions = {
           	change_tag = XUH					
 			swap_non_generic_missions = yes
 			on_change_tag_effect = yes
-           	government_rank = 3 
+
             change_adm = 1
 			change_dip = 1
 			change_mil = 1

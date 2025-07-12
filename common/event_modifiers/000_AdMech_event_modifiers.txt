@@ -228,3 +228,6 @@ Shark_Cooldown_Gloriana = {
 
 Shark_Cooldown_Reaping = {
 }
+
+priesthood_infiltrated = {
+}

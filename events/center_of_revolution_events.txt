@@ -33,10 +33,10 @@ province_event = {
 	}
 	mean_time_to_happen = {
 		years = 600
-		modifier = {
-			factor = 20
-			NOT = { continent = europe }
-		}
+#		modifier = {
+#			factor = 20
+#			NOT = { continent = europe }
+#		}
 		modifier = {
 			factor = 0.75
 			is_capital = yes
@@ -49,15 +49,15 @@ province_event = {
 				}
 			}
 		}
-		modifier = {
-			factor = 0.8
-			NOT = {
-				europe = {
-					NOT = { province_id = root }
-					higher_development_than = root
-				}
-			}
-		}
+#		modifier = {
+#			factor = 0.8
+#			NOT = {
+#				europe = {
+#					NOT = { province_id = root }
+#					higher_development_than = root
+#				}
+#			}
+#		}
 		modifier = {
 			factor = 2
 			is_in_capital_area = no
@@ -468,15 +468,15 @@ province_event = {
 				}
 			}
 		}
-		modifier = {
-			factor = 0.8
-			NOT = {
-				europe = {
-					NOT = { province_id = root }
-					higher_development_than = root
-				}
-			}
-		}
+#		modifier = {
+#			factor = 0.8
+#			NOT = {
+#				europe = {
+#					NOT = { province_id = root }
+#					higher_development_than = root
+#				}
+#			}
+#		}
 		modifier = {
 			factor = 2
 			is_in_capital_area = no
@@ -861,10 +861,10 @@ country_event = {
 	is_triggered_only = yes
 	mean_time_to_happen = {
 		days = 1
-		modifier = {
-			factor = 0.2
-			NOT = { capital_scope = { continent = europe } }
-		}
+#		modifier = {
+#			factor = 0.2
+#			NOT = { capital_scope = { continent = europe } }
+#		}
 	}
 
 	immediate = {
@@ -1005,10 +1005,10 @@ country_event = {
 	}
 	mean_time_to_happen = {
 		days = 1
-		modifier = {
-			factor = 0.2
-			NOT = { capital_scope = { continent = europe } }
-		}
+		# modifier = {
+			# factor = 0.2
+			# NOT = { capital_scope = { continent = europe } }
+		# }
 	}
 	is_triggered_only = yes
 	immediate = {
@@ -1076,10 +1076,10 @@ country_event = {
 	}
 	mean_time_to_happen = {
 		days = 1
-		modifier = {
-			factor = 0.2
-			NOT = { capital_scope = { continent = europe } }
-		}
+		# modifier = {
+			# factor = 0.2
+			# NOT = { capital_scope = { continent = europe } }
+		# }
 	}
 	is_triggered_only = yes
 	immediate = {
@@ -1183,10 +1183,10 @@ country_event = {
 	}
 	mean_time_to_happen = {
 		days = 1
-		modifier = {
-			factor = 0.2
-			NOT = { capital_scope = { continent = europe } }
-		}
+		# modifier = {
+			# factor = 0.2
+			# NOT = { capital_scope = { continent = europe } }
+		# }
 	}
 	is_triggered_only = yes
 	immediate = {
@@ -1229,18 +1229,18 @@ country_event = {
 		random_owned_province = {
 			limit = {
 				development = 30
-				OR = {
-					continent = europe
+#				OR = {
+#					continent = europe
 					NOT = {
 						root = {
 							any_owned_province = {
 								development = 30
-								continent = europe
+#								continent = europe
 								enlightenment = 100
 							}
 						}
 					}
-				}
+#				}
 				enlightenment = 100
 			}
 			spawn_rebels = {

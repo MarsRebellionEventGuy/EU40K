@@ -223,9 +223,10 @@ country_event = {
 			NOT = { has_global_flag = blackbeard_flag }
 			is_year = 1700
 			NOT = { is_year = 1720 }
-			capital_scope = {
-				region = carribeans_region
-			}
+			# capital_scope = {
+				# region = carribeans_region
+			# }
+			always = no
 		}
 		define_ruler = {
 			name = "Edward 'Blackbeard' Teach"
@@ -778,48 +779,49 @@ country_event = {
 			has_dlc = "Lions of the North"
 		}
 		has_government_attribute = is_pirate_republic_reform
-		capital_scope = {
-			region = carribeans_region
-		}
-		if = {
-			limit = {
-				has_dlc = "El Dorado"
-			}
-			carribeans_region = {
-				recent_treasure_ship_passage = yes
-			}
-		}
-		any_country = {
-			capital_scope = {
-				continent = europe
-			}
-			any_subject_country = { # potosi or mexico
-				OR = {
-					owns_core_province = 852
-					owns_core_province = 795
-				}
-			}
-		}
+		# capital_scope = {
+			# region = carribeans_region
+		# }
+        always = no
+		# if = {
+			# limit = {
+				# has_dlc = "El Dorado"
+			# }
+			# carribeans_region = {
+				# recent_treasure_ship_passage = yes
+			# }
+		# }
+		# any_country = {
+			# capital_scope = {
+				# continent = europe
+			# }
+			# any_subject_country = { # potosi or mexico
+				# OR = {
+					# owns_core_province = 852
+					# owns_core_province = 795
+				# }
+			# }
+		# }
 	}
 	
-	immediate = {
-		hidden_effect = {
-			random_country = {
-				limit = {
-					capital_scope = {
-						continent = europe
-					}
-					any_subject_country = { # potosi or mexico
-						OR = {
-							owns_core_province = 852
-							owns_core_province = 795
-						}
-					}
-				}
-				save_event_target_as = sunken_ship_country
-			}
-		}
-	}
+	# immediate = {
+		# hidden_effect = {
+			# random_country = {
+				# limit = {
+					# capital_scope = {
+						# continent = europe
+					# }
+					# any_subject_country = { # potosi or mexico
+						# OR = {
+							# owns_core_province = 852
+							# owns_core_province = 795
+						# }
+					# }
+				# }
+				# save_event_target_as = sunken_ship_country
+			# }
+		# }
+	# }
 	
 	option = {
 		name = "pirates.10.a"
@@ -829,24 +831,24 @@ country_event = {
 		}
 	}
 	
-	option = {
-		name = "pirates.10.b"
-		add_faction_influence = {
-			faction = pr_buccaneers
-			influence = 10
-		}
-		add_yearly_sailors = -5
-		random_list = {
-			10 = {
-				add_years_of_income = 2
-			}
-			90 = {
-				# nothing happens
-			}
-		}
-	}
+	# option = {
+		# name = "pirates.10.b"
+		# add_faction_influence = {
+			# faction = pr_buccaneers
+			# influence = 10
+		# }
+		# add_yearly_sailors = -5
+		# random_list = {
+			# 10 = {
+				# add_years_of_income = 2
+			# }
+			# 90 = {
+				# # nothing happens
+			# }
+		# }
+	# }
 }
-		
+
 # Tyrant Captain
 country_event = {
 	id = pirates.11

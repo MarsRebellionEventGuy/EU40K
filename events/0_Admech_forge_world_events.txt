@@ -1392,8 +1392,6 @@ country_event = {
 	
 	option = {
 		name = admech_forge_world.1.ee		#leave
-		effect = {
-		}
 		
 		ai_chance = {
 		}
@@ -1927,8 +1925,6 @@ country_event = {
 
 	option = {
 		name = admech_forge_world.2.k		#leave
-		effect = {
-		}
 		
 		ai_chance = {
 		}
@@ -2581,7 +2577,7 @@ province_event = {
 							has_province_modifier = mekworld_mod
 						}
 						remove_province_modifier = mekworld_mod
-						add_permanent_province_modifierprovince_modifier = {
+						add_permanent_province_modifier = {
 							name = fallen_forge_world_mod
 							duration = -1
 						}
@@ -2591,7 +2587,7 @@ province_event = {
 							has_province_modifier = major_mekworld_mod
 						}
 						remove_province_modifier = major_mekworld_mod
-						add_permanent_province_modifierprovince_modifier = {
+						add_permanent_province_modifier = {
 							name = fallen_major_forge_world_mod
 							duration = -1
 						}
