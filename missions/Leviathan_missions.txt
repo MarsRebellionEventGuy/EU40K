@@ -1745,13 +1745,13 @@ Leviathan_28 = { #Kinslayer
 
 			IF = {
 				limit = {
-				exists = AAC
+				exists = XUH
 				}
 				milkyway = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_permanent_claim = ROOT }
-					owner = {tag = AAC}
+					owner = {tag = XUH}
 					
 				}
 				add_permanent_claim = ROOT
@@ -1782,10 +1782,10 @@ Leviathan_29 = { #Dead Silent
 			
 			IF = {
 				limit = {
-				exists = AAC
+				exists = XUH
 				continent = milkyway
 				NOT = { country_or_non_sovereign_subject_holds = ROOT }
-				owner = {tag = AAC}
+				owner = {tag = XUH}
 				}
 		}
 	}
@@ -1803,13 +1803,13 @@ Leviathan_29 = { #Dead Silent
 
 			IF = {
 				limit = {
-				exists = AAC
+				exists = XUH
 				}
 				milkyway = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_permanent_claim = ROOT }
-					owner = {tag = AAC}
+					owner = {tag = XUH}
 					
 				}
 				add_permanent_claim = ROOT
@@ -1846,16 +1846,16 @@ Leviathan_30 = { #Sautek's Folly
 			
 			IF = {
 				limit = {
-				exists = AAC
+				exists = XUH
 				continent = milkyway
 				NOT = { country_or_non_sovereign_subject_holds = ROOT }
-				owner = {tag = AAC}
+				owner = {tag = XUH}
 				}
 		}
 	}
 		trigger = {
 				NOT = { exists = XEV }
-				NOT = { exists = AAC }
+				NOT = { exists = XUH }
 				NOT = { exists = XET }
 			1931 = { country_or_non_sovereign_subject_holds = ROOT}
 		}

@@ -117,7 +117,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-          	change_tag = AAC					
+          	change_tag = XUH					
 			swap_non_generic_missions = yes
 			on_change_tag_effect = yes
            	government_rank = 3 

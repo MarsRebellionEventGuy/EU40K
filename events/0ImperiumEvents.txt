@@ -1052,7 +1052,7 @@ country_event = { # No Step Back
 		value = -33
 	}
 	war_score_against = {
-		who = AAC
+		who = XUH
 		value = -33
 	}
 	war_score_against = {

@@ -579,7 +579,7 @@ country_event = { # War againts Necrons
 		OR = {
 			war_with = XET
 			war_with = XEV
-			war_with = AAC
+			war_with = XUH
 }
 	}
 
@@ -645,7 +645,7 @@ country_event = { # Tyranid evolution against Necrons
 		OR = {
 			war_with = XET
 			war_with = XEV
-			war_with = AAC
+			war_with = XUH
 		}
 		NOT = {
 			has_country_modifier = the_walking_metal

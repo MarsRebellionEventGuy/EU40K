@@ -1215,8 +1215,8 @@
  AAA_ADJ:0 "Aeldari" #Aysanri
  AAB:0 "Imperium Nihilus"
  AAB_ADJ:0 "Nihilus"
- AAC:0 "Infinite Empire"
- AAC_ADJ:0 "Necron"
+ XUH:0 "Infinite Empire"
+ XUH_ADJ:0 "Necron"
  AAD:0 "Dark Empire"
  AAD_ADJ:0 "Dark Imperial"
  AAE:0 "World Eaters"
