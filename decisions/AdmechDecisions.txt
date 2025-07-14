@@ -49,12 +49,12 @@ country_decisions = {
 					has_province_modifier = forge_world_2_mod
 					has_province_modifier = forge_world_3_mod
 				}
+				NOT = { has_province_modifier = forge_world_looting }
+				NOT = { has_province_modifier = forge_world_construction }
 			}
 			
 		}
 		allow = {
-			NOT = { has_province_modifier = forge_world_looting }
-			NOT = { has_province_modifier = forge_world_construction }
 			stability = 1
 			is_at_war = no
 			if = {

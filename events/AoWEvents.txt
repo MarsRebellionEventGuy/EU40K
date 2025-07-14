@@ -292,11 +292,9 @@ province_event = {
 			has_province_modifier = plundered_in_war
 			has_province_modifier = famine_ignored
 		}
-			owner = {
+		owner = {
 			NOT = {has_reform = hive_fleet_reform} 
 			NOT = {has_reform = ork_government_reform} 
-			}
-
 		}
 		base_tax = 3
 		owner = {

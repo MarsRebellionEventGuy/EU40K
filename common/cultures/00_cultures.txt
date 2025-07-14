@@ -803,8 +803,6 @@ votann_culture_group = {
 
 tau_culture_group = {
 	graphical_culture = westerngfx
-	country = { has_samurai = yes }
-	province = { local_has_samurai = yes }
 	ethereal_culture = {
 		male_names = {
 			Arra'kon Aun'chau Aun'cho Aun'do Aun'fyr Aun'hhu Aun'jash Aun'kais Aun'kathl Aun'kir Aun'ko Aun'la Aun'la Aun'pau Aun'Ro Aun'shar Aun'shi Aun'taniel Aun'thel Aun'ui Aun'va Aun'vessol Aun'vos Aun'vre Aun'wei

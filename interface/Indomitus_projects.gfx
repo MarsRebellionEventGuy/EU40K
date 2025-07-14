@@ -185,5 +185,10 @@ spriteTypes = {
 		name = "GFX_great_project_rhidhol_webway_portal"    
 		texturefile = "gfx//interface//great_project_webway_gate.dds"
     }
+	
+	spriteType = {
+        name = "GFX_great_project_jericho_warpgate"	
+        texturefile = "gfx//interface//great_projects//great_project_Nexus_Point.dds"
+    }
 }
 
