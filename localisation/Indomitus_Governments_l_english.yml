@@ -13,8 +13,11 @@
  imperium_government_action_tooltip:0 "In §Y5§! years we will receive the following:"
  imperium_government_action_bonus:0 "New Chapters Founded"
 
-
+ IMPERIUM_RANK_1: "Imperium of Man"
+ IMPERIUM_RANK_2: "Imperium of Man"
  IMPERIUM_RANK_3: "Imperium of Man"
+ IMPERIUM_RULER_MALE_1: "Lord Commander"
+ IMPERIUM_RULER_MALE_2: "Lord Commander"
  IMPERIUM_RULER_MALE_3: "Lord Commander"
 
  ASTARTES_RANK_1: "Astartes Chapter"
@@ -27,11 +30,11 @@
 
  ASTARTES_RULER_FEMALE_1: "Canoness"
  ASTARTES_RULER_FEMALE_2: "Canoness Preceptor"
- ASTARTES_RULER_FEMALE_2: "Canoness Superior"
+ ASTARTES_RULER_FEMALE_3: "Canoness Superior"
 
  ASTARTES_HEIR_FEMALE_1: "Palatine"
  ASTARTES_HEIR_FEMALE_2: "Palatine"
- ASTARTES_HEIR_FEMALE_2: "Palatine"
+ ASTARTES_HEIR_FEMALE_3: "Palatine"
 
  MARS_MECHANICUS_RANK_1: "Adeptus Mechanicus"
  MARS_MECHANICUS_RANK_2: "Adeptus Mechanicus"
@@ -44,6 +47,10 @@
  MECHANICUS_RULER_MALE_1: "Archmagos"
  MECHANICUS_RULER_MALE_2: "Fabricator-General"
  MECHANICUS_RULER_MALE_3: "Fabricator-General"
+ 
+ MECHANICUS_RULER_FEMALE_1: "Archmagos"
+ MECHANICUS_RULER_FEMALE_2: "Fabricator-General"
+ MECHANICUS_RULER_FEMALE_3: "Fabricator-General"
 
  DEATH_WATCH_RANK_1: "Watch Fortress"
  DEATH_WATCH_RANK_2: "Chamber Militant"
@@ -53,6 +60,10 @@
  DEATH_WATCH_RULER_MALE_2: "Watch Master"
  DEATH_WATCH_RULER_MALE_3: "Watch Commander"
 
+ DEATH_WATCH_RULER_FEMALE_1: "Watch Captain"
+ DEATH_WATCH_RULER_FEMALE_2: "Watch Master"
+ DEATH_WATCH_RULER_FEMALE_3: "Watch Commander"
+ 
  IMPERIAL_GOVERNORATE_RANK_1: "Imperial Governorate"
  IMPERIAL_GOVERNORATE_RANK_2: "Imperial Garrison"
  IMPERIAL_GOVERNORATE_RANK_3: "Imperial Protectorate"
@@ -84,6 +95,10 @@
  ORK_RULER_MALE_1: "Warchief"
  ORK_RULER_MALE_2: "Warboss"
  ORK_RULER_MALE_3: "Warlord"
+ 
+ ORK_RULER_FEMALE_1: "Warchief"
+ ORK_RULER_FEMALE_2: "Warboss"
+ ORK_RULER_FEMALE_3: "Warlord"
 
  TAU_RANK_1: "Ethereal High Council"
  TAU_RANK_2: "Ethereal High Council"
@@ -185,9 +200,9 @@
  KNIGHTS_RULER_MALE_2: "High King"
  KNIGHTS_RULER_MALE_3: "Princeps"
 
- KNIGHTS_RULER_MALE_1: "Viscountess"
- KNIGHTS_RULER_MALE_2: "High Queen"
- KNIGHTS_RULER_MALE_3: "Princeps"
+ KNIGHTS_RULER_FEMALE_1: "Viscountess"
+ KNIGHTS_RULER_FEMALE_2: "High Queen"
+ KNIGHTS_RULER_FEMALE_3: "Princeps"
 
  CHAOS_KNIGHTS_RANK_1: "Knight House"
  CHAOS_KNIGHTS_RANK_2: "Greater Knight House"
@@ -197,9 +212,9 @@
  CHAOS_KNIGHTS_RULER_MALE_2: "High King"
  CHAOS_KNIGHTS_RULER_MALE_3: "Chaos Lord"
 
- CHAOS_KNIGHTS_RULER_MALE_1: "Viscountess"
- CHAOS_KNIGHTS_RULER_MALE_2: "High Queen"
- CHAOS_KNIGHTS_RULER_MALE_3: "Chaos Lord"
+ CHAOS_KNIGHTS_RULER_FEMALE_1: "Viscountess"
+ CHAOS_KNIGHTS_RULER_FEMALE_2: "High Queen"
+ CHAOS_KNIGHTS_RULER_FEMALE_3: "Chaos Lord"
 
  KIN_RANK_1: "Votann League"
  KIN_RANK_2: "Greater Votann League"
@@ -235,107 +250,107 @@
  imperium_regency_reform: "Imperial Regency"
  imperium_regency_reform_desc: "The Imperium of Man is ruled by primarch of the Ultramarines and Imperial Regent, Roboute Guilliman. Any power previously held by the High Lords of Terra which extended beyond their primary purpose has been diminished and the Senatorum Imperialis itself has been relegated to a largely ceremonial role."
 
-preserve_highborn_privileges_reform: "Preserve Highborn Privileges"
-preserve_highborn_privileges_reform_desc: "It would be unwise and foolish to oppose the High Lords of Terra, who have selflessly taken the heavy burden of governance upon their shoulders since time immemorial. For this reason, it is imperative we preserve their hard-earned rights in the upcoming age of reform."
+ preserve_highborn_privileges_reform: "Preserve Highborn Privileges"
+ preserve_highborn_privileges_reform_desc: "It would be unwise and foolish to oppose the High Lords of Terra, who have selflessly taken the heavy burden of governance upon their shoulders since time immemorial. For this reason, it is imperative we preserve their hard-earned rights in the upcoming age of reform."
 
-elevate_tribal_leaders_reform: "Elevate Tribal Leaders"
-elevate_tribal_leaders_reform_desc: "Tribal warfare, altough barbaric in nature, can provide a welcome breath of fresh air to our stagnant and rigid military structure, it is thereby wortwhile to elevate the best among these rudimentary leaders to our chain of command."
+ elevate_tribal_leaders_reform: "Elevate Tribal Leaders"
+ elevate_tribal_leaders_reform_desc: "Tribal warfare, altough barbaric in nature, can provide a welcome breath of fresh air to our stagnant and rigid military structure, it is thereby wortwhile to elevate the best among these rudimentary leaders to our chain of command."
 
-distribute_warrants_of_trade_reform: "Distribute Warrants of Trade"
-distribute_warrants_of_trade_reform_desc: "There is much profit to gain by adopting an increased mercantile stance within our currently rudimentary economic framework. By expanding the issuance of Warrants of Trade, we can foster a more dynamic quid pro quo between Rogue Traders and the state."
+ distribute_warrants_of_trade_reform: "Distribute Warrants of Trade"
+ distribute_warrants_of_trade_reform_desc: "There is much profit to gain by adopting an increased mercantile stance within our currently rudimentary economic framework. By expanding the issuance of Warrants of Trade, we can foster a more dynamic quid pro quo between Rogue Traders and the state."
 
-restructure_senatorum_reform: "Reestructure the Senatorum"
-restructure_senatorum_reform_desc: "At its core, the Senatorum Imperialis should act as a meritocratic council of able minded individuals who share Guilliman's vision for mankind. Behind us lay the days of hereditary corruption and nepotism that plagued us for aeons; going forward we will present a united front against our pletora of enemies."
+ restructure_senatorum_reform: "Reestructure the Senatorum"
+ restructure_senatorum_reform_desc: "At its core, the Senatorum Imperialis should act as a meritocratic council of able minded individuals who share Guilliman's vision for mankind. Behind us lay the days of hereditary corruption and nepotism that plagued us for aeons; going forward we will present a united front against our pletora of enemies."
 
-extend_primarchs_scourge_reform: "Extend Primarchs Scourge"
-extend_primarchs_scourge_reform_desc: "The Senatorum has forfeited all credence of legitimacy. Its record of corruption and malpractice renders it untrustworthy, with no assurance that such abuses will not resurface. Its authority must be curtailed further into the role of a ceremonial body, little more than a rubber stamp for the policies of our great Lord Commander."
+ extend_primarchs_scourge_reform: "Extend Primarchs Scourge"
+ extend_primarchs_scourge_reform_desc: "The Senatorum has forfeited all credence of legitimacy. Its record of corruption and malpractice renders it untrustworthy, with no assurance that such abuses will not resurface. Its authority must be curtailed further into the role of a ceremonial body, little more than a rubber stamp for the policies of our great Lord Commander."
 
-empower_departmenta_exacta_tithes_reform: "Empower Departamento Exacta Tithes"
-empower_departmenta_exacta_tithes_reform_desc: "The Departamento Exacta oversees all material tributes delivered by our imperial worlds. By strengthening its authority, we ensure ruthless efficiency in the fulfillment of quotas, leaving no shipment delayed and no obligation left unmet in these trying times."
+ empower_departmenta_exacta_tithes_reform: "Empower Departamento Exacta Tithes"
+ empower_departmenta_exacta_tithes_reform_desc: "The Departamento Exacta oversees all material tributes delivered by our imperial worlds. By strengthening its authority, we ensure ruthless efficiency in the fulfillment of quotas, leaving no shipment delayed and no obligation left unmet in these trying times."
 
-empower_munitorum_reform: "Empower Departamento Munitorum"
-empower_munitorum_reform_desc: "The Departamento Munitorum is charged with the administration, supply, and overall command of the Astra Militarum. It oversees the conscription of recruits from our imperial worlds, ensuring a steady flow of manpower for our endless wars. We would benefit greatly by ensuring that no able-bodied man or woman shirks away from their sacred duty, the right and burden to serve, bleed, and die in the name of the God-Emperor."
+ empower_munitorum_reform: "Empower Departamento Munitorum"
+ empower_munitorum_reform_desc: "The Departamento Munitorum is charged with the administration, supply, and overall command of the Astra Militarum. It oversees the conscription of recruits from our imperial worlds, ensuring a steady flow of manpower for our endless wars. We would benefit greatly by ensuring that no able-bodied man or woman shirks away from their sacred duty, the right and burden to serve, bleed, and die in the name of the God-Emperor."
 
-enforce_codex_astartes_reform: "Enforce Codex Astartes"
-enforce_codex_astartes_reform_desc: "'The warrior who acts out of honour cannot fail. His duty is honour itself. Even his death, if it is honourable, is a reward and can be no failure, for it has come through duty. Seek honour as you act, therefore, and you will know no fear' -Roboute Guilliman \n The Codex Astartes was conceived as a sacred compendium of the tactics, moral behaviour and discipline that the chapters ought to uphold within their ranks. Enforcing its teachings means forging warriors of unbreakable will in the face of the most abject terror."
+ enforce_codex_astartes_reform: "Enforce Codex Astartes"
+ enforce_codex_astartes_reform_desc: "'The warrior who acts out of honour cannot fail. His duty is honour itself. Even his death, if it is honourable, is a reward and can be no failure, for it has come through duty. Seek honour as you act, therefore, and you will know no fear' -Roboute Guilliman \n The Codex Astartes was conceived as a sacred compendium of the tactics, moral behaviour and discipline that the chapters ought to uphold within their ranks. Enforcing its teachings means forging warriors of unbreakable will in the face of the most abject terror."
 
-integrate_cadian_diaspora_reform: "Integrate Cadian Diaspora"
-integrate_cadian_diaspora_reform_desc: "To unite the scattered sons and daughters of Cadia is to preserve a legacy forged in the fires of unyielding defiance. Their discipline and battlefield prowess, once the Imperium’s bulwark against the tides of damnation, now strengthen its wider war machine. With their integration, the lessons of Cadia endure, their indomitable spirit prevails, and its reforged warriors march once more, an unbroken testament to the world that fell, but never yielded."
+ integrate_cadian_diaspora_reform: "Integrate Cadian Diaspora"
+ integrate_cadian_diaspora_reform_desc: "To unite the scattered sons and daughters of Cadia is to preserve a legacy forged in the fires of unyielding defiance. Their discipline and battlefield prowess, once the Imperium’s bulwark against the tides of damnation, now strengthen its wider war machine. With their integration, the lessons of Cadia endure, their indomitable spirit prevails, and its reforged warriors march once more, an unbroken testament to the world that fell, but never yielded."
 
-indomitus_fleets_reform: "Indomitus Fleets"
-indomitus_fleets_reform_desc: "The Indomitus Fleets are a manifestation of the Imperium's resolve to reclaim lost worlds and reinforce its authority across the galaxy. By mastering advanced naval warfare strategies and technologies, the Imperium can launch devastating naval barrages to reconquer entire lost systems, sriking fear into the hearts of our enemies while simultaneously boosting the prestige the whole fleet."
+ indomitus_fleets_reform: "Indomitus Fleets"
+ indomitus_fleets_reform_desc: "The Indomitus Fleets are a manifestation of the Imperium's resolve to reclaim lost worlds and reinforce its authority across the galaxy. By mastering advanced naval warfare strategies and technologies, the Imperium can launch devastating naval barrages to reconquer entire lost systems, sriking fear into the hearts of our enemies while simultaneously boosting the prestige the whole fleet."
 
-kryptman_reform: "Kryptman Methods"
-kryptman_reform_desc: "We have embraced the cunning strategies of Inquisitor Kryptman, whose mastery of subterfuge and attrition tactics allows us to undermine our enemies from within. By employing psychological warfare and calculated maneuvers, we can weaken their resolve in their assaults and enhance our own intelligence-gathering capabilities."
+ kryptman_reform: "Kryptman Methods"
+ kryptman_reform_desc: "We have embraced the cunning strategies of Inquisitor Kryptman, whose mastery of subterfuge and attrition tactics allows us to undermine our enemies from within. By employing psychological warfare and calculated maneuvers, we can weaken their resolve in their assaults and enhance our own intelligence-gathering capabilities."
 
-solblades_reform: "Solbades"
-solblades_reform_desc: "The Solblades are elite vessels that embody speed, agility, and precision in void warfare. Utilizing hit-and-run tactics, they relentlessly harass enemy threats, disrupting their formations and weakening their overall resolve. By widely deploying these formidable assets, we can enhance our naval operations, ensuring that our fleets are unmatched in both offensive and defensive engagements."
+ solblades_reform: "Solbades"
+ solblades_reform_desc: "The Solblades are elite vessels that embody speed, agility, and precision in void warfare. Utilizing hit-and-run tactics, they relentlessly harass enemy threats, disrupting their formations and weakening their overall resolve. By widely deploying these formidable assets, we can enhance our naval operations, ensuring that our fleets are unmatched in both offensive and defensive engagements."
 
-autonomy_for_ophelia_reform: "Autonomy for Ophelia"
-autonomy_for_ophelia_reform_desc: "We acknowledge the unique position of Ophelia VII, a vital world  entirely devoted to the teachings of the Imperial Creed. By granting greater autonomy to the  region, we respect its cultural heritage and the fervent devotion of its inhabitants. This policy will not only enhance our relationships with our chapters, but also bolster the prestige of the Imperial faith as it spreads throughout the galaxy."
+ autonomy_for_ophelia_reform: "Autonomy for Ophelia"
+ autonomy_for_ophelia_reform_desc: "We acknowledge the unique position of Ophelia VII, a vital world  entirely devoted to the teachings of the Imperial Creed. By granting greater autonomy to the  region, we respect its cultural heritage and the fervent devotion of its inhabitants. This policy will not only enhance our relationships with our chapters, but also bolster the prestige of the Imperial faith as it spreads throughout the galaxy."
 
-promote_omnissiah_reform: "Promote Omnissiah"
-promote_omnissiah_reform_desc: "We reaffirm our syncretic commitment to the Omnissiah, the Machine God worshipped by the Adeptus Mechanicus of Mars. By promoting the teachings of the Omnissiah and recognizing its connection to the Emperor,  we strengthen our ties with the Red Planet and ensure the continued support of its technocratic elite. With their unconditional support, we vastly reduce the costs associated with governance improvements."
+ promote_omnissiah_reform: "Promote Omnissiah"
+ promote_omnissiah_reform_desc: "We reaffirm our syncretic commitment to the Omnissiah, the Machine God worshipped by the Adeptus Mechanicus of Mars. By promoting the teachings of the Omnissiah and recognizing its connection to the Emperor,  we strengthen our ties with the Red Planet and ensure the continued support of its technocratic elite. With their unconditional support, we vastly reduce the costs associated with governance improvements."
 
-permit_imperial_truth_reform: "Permit Imperial Truth"
-permit_imperial_truth_reform_desc: "Humanity cannot let itself get splintered from within in these trying times. We have therefore instructed the Inquisition to stop the active persecution of believers of the so-called 'Imperial Truth'. We humans must present a united front against the xenos swarm that threatens to extinguish our light forever. Compromises have to be made, or else our own petty squabbling will be our downfall as a species."
+ permit_imperial_truth_reform: "Permit Imperial Truth"
+ permit_imperial_truth_reform_desc: "Humanity cannot let itself get splintered from within in these trying times. We have therefore instructed the Inquisition to stop the active persecution of believers of the so-called 'Imperial Truth'. We humans must present a united front against the xenos swarm that threatens to extinguish our light forever. Compromises have to be made, or else our own petty squabbling will be our downfall as a species."
 
-adeptus_custodes_reform: "Favor the Adeptus Custodes"
-adeptus_custodes_reform_desc: "We have recognized the unmatched prowess and discipline of the Adeptus Custodes, the Emperor’s chosen guardians. By integrating their rigorous training and martial traditions into our overeaching military structure, we can instill a greater sense of duty and excellence in our wider forces. The infusion of the Custodes frame of mind into the Astra Militarum ensures that each soldier is fully concious of their own sense of importance as guardians of both humanity and Emperor alike, regardless of their place in the chain of command."
+ adeptus_custodes_reform: "Favor the Adeptus Custodes"
+ adeptus_custodes_reform_desc: "We have recognized the unmatched prowess and discipline of the Adeptus Custodes, the Emperor’s chosen guardians. By integrating their rigorous training and martial traditions into our overeaching military structure, we can instill a greater sense of duty and excellence in our wider forces. The infusion of the Custodes frame of mind into the Astra Militarum ensures that each soldier is fully concious of their own sense of importance as guardians of both humanity and Emperor alike, regardless of their place in the chain of command."
 
-ultramarines_cadre_reform: "Ultramarine Cadre"
-ultramarines_cadre_reform_desc: "If there is one thing a xenos fears more than a Space Marine, it is an Ultramarine, who sits at the top echelon of this already prestigious cadre of elite soldiers. By incorporating these elements into our military administration, we ensure access to a wide selection of expert veterans who provide invaluable advice on current and future campaigns in the void. Furthermore, by integrating their strategies and principles into our military structure, we can enhance our operational effectiveness and ensure that their legacy of leadership becomes an integral part of our armed forces."
+ ultramarines_cadre_reform: "Ultramarine Cadre"
+ ultramarines_cadre_reform_desc: "If there is one thing a xenos fears more than a Space Marine, it is an Ultramarine, who sits at the top echelon of this already prestigious cadre of elite soldiers. By incorporating these elements into our military administration, we ensure access to a wide selection of expert veterans who provide invaluable advice on current and future campaigns in the void. Furthermore, by integrating their strategies and principles into our military structure, we can enhance our operational effectiveness and ensure that their legacy of leadership becomes an integral part of our armed forces."
 
-navigator_patronage_reform: "Navigator Patronage"
-navigator_patronage_reform_desc: "The invaluable role of the Navigators in the expansion of our reach across the stars cannot be understated. By fostering close ties with these gifted individuals, we can enhance our colonial endeavors and ensure the safe passage of our fleets through the unpredictable tides of the warp. This initiative will not only expand our operational range but also reduce minimize soldier losses experienced on our ships during long voyages."
+ navigator_patronage_reform: "Navigator Patronage"
+ navigator_patronage_reform_desc: "The invaluable role of the Navigators in the expansion of our reach across the stars cannot be understated. By fostering close ties with these gifted individuals, we can enhance our colonial endeavors and ensure the safe passage of our fleets through the unpredictable tides of the warp. This initiative will not only expand our operational range but also reduce minimize soldier losses experienced on our ships during long voyages."
 
-adeptus_arbites_reform: "Favor the Adeptus Arbites"
-adeptus_arbites_reform_desc: "The Adeptus Arbites serve as the enforcers of law and order throughout our vast domains. By favoring this organization, we can ensure that our continuous conquests do not overextend our ruling capabilities to the point of implosion. However, this support may impair the overall effectiveness of our troops on the ground in quelling unrest."
+ adeptus_arbites_reform: "Favor the Adeptus Arbites"
+ adeptus_arbites_reform_desc: "The Adeptus Arbites serve as the enforcers of law and order throughout our vast domains. By favoring this organization, we can ensure that our continuous conquests do not overextend our ruling capabilities to the point of implosion. However, this support may impair the overall effectiveness of our troops on the ground in quelling unrest."
 
-chartist_captains_reform: "Chartist Captains"
-chartist_captains_reform_desc: "The Chartist Captains are commanders of the state-owned merchant fleet of the Imperium, which unlike the Rogue Traders, do not possess the nearly limitless power of a Warrant of Trade, instead given rights over specific sectors. However, they can access the political scene by becoming full members of the Senotorum; perhaps that is an idea we should further entartain..."
+ chartist_captains_reform: "Chartist Captains"
+ chartist_captains_reform_desc: "The Chartist Captains are commanders of the state-owned merchant fleet of the Imperium, which unlike the Rogue Traders, do not possess the nearly limitless power of a Warrant of Trade, instead given rights over specific sectors. However, they can access the political scene by becoming full members of the Senotorum; perhaps that is an idea we should further entartain..."
 
-rogue_trader_domains_reform: "Rogue Trader Domains"
-rogue_trader_domains_reform_desc: "If we were to further enshrine the Warrants of Trade as a mercantile carte-blanche we would benefit from a noticeable increase of our trade volume and efficiency of overall commerce, altought likely at the cost of unforeseen consecuences down the road."
+ rogue_trader_domains_reform: "Rogue Trader Domains"
+ rogue_trader_domains_reform_desc: "If we were to further enshrine the Warrants of Trade as a mercantile carte-blanche we would benefit from a noticeable increase of our trade volume and efficiency of overall commerce, altought likely at the cost of unforeseen consecuences down the road."
 
-extend_tithes_reform: "Extend Tithe System"
-extend_tithes_reform_desc: "The current Tithe mechanism of resource extraction has become outdated, old privileges and exemptions have rendered a significant chunk of our planets virtually useless in war contributions, this cannot stand any longer. A new and improved mechanism of tributation would ensure an improved and streamlined funneling of resources from previously morose sections of our demesne."
+ extend_tithes_reform: "Extend Tithe System"
+ extend_tithes_reform_desc: "The current Tithe mechanism of resource extraction has become outdated, old privileges and exemptions have rendered a significant chunk of our planets virtually useless in war contributions, this cannot stand any longer. A new and improved mechanism of tributation would ensure an improved and streamlined funneling of resources from previously morose sections of our demesne."
 
-empower_high_lords_reform: "Empower High Lords"
-empower_high_lords_reform_desc: "With the Emperor confined to the Golden Throne, the High Lords of Terra wield immense power over the Imperium’s governance. By acknowledging this reality rather than resisting it, we can guarantee a smoother administration as our estates consolidate into a unified and efficient framework."
+ empower_high_lords_reform: "Empower High Lords"
+ empower_high_lords_reform_desc: "With the Emperor confined to the Golden Throne, the High Lords of Terra wield immense power over the Imperium’s governance. By acknowledging this reality rather than resisting it, we can guarantee a smoother administration as our estates consolidate into a unified and efficient framework."
 
-rule_by_astartes_reform: "Rule By Astartes"
-rule_by_astartes_reform_desc: "In a state of perpetual war, it would be foolish not to integrate the armed forces directly into our government. Doing so ensures the cooperation of experienced veterans whilst significantly expanding the number of Space Marines available for our own personal command."
+ rule_by_astartes_reform: "Rule By Astartes"
+ rule_by_astartes_reform_desc: "In a state of perpetual war, it would be foolish not to integrate the armed forces directly into our government. Doing so ensures the cooperation of experienced veterans whilst significantly expanding the number of Space Marines available for our own personal command."
 
-empower_governors_reform: "Empower Governors"
-empower_governors_reform_desc: "Across our vast domains, planetary governors oversee the daily governance and political affairs of their worlds. By granting them greater autonomy in shaping local policies on the ground, we can rest assured that each world will develop efficiently, leveraging its unique resources and characteristics to their fullest potential."
+ empower_governors_reform: "Empower Governors"
+ empower_governors_reform_desc: "Across our vast domains, planetary governors oversee the daily governance and political affairs of their worlds. By granting them greater autonomy in shaping local policies on the ground, we can rest assured that each world will develop efficiently, leveraging its unique resources and characteristics to their fullest potential."
 
-ultramarine_model_reform: "Ultramarine Model"
-ultramarine_model_reform_desc: "Transitioning our economy entirely to war, following the Ultramarine model, allows us to streamline our military expenditures, optimize resource allocation, and harness the full potential of our officer corps."
+ ultramarine_model_reform: "Ultramarine Model"
+ ultramarine_model_reform_desc: "Transitioning our economy entirely to war, following the Ultramarine model, allows us to streamline our military expenditures, optimize resource allocation, and harness the full potential of our officer corps."
 
-guilliman_authority_reform: "Guilliman's Authority"
-guilliman_authority_reform_desc: "There is no denying it, Guilliman holds full command of the Imperium. Guidance is needed more than ever, for the Emperor’s capacity to govern is severely constrained, with no end in sight. Granting greater powers to the Regent would establish an uncompromising rule, one capable of enacting the desperate reforms we so urgently require."
+ guilliman_authority_reform: "Guilliman's Authority"
+ guilliman_authority_reform_desc: "There is no denying it, Guilliman holds full command of the Imperium. Guidance is needed more than ever, for the Emperor’s capacity to govern is severely constrained, with no end in sight. Granting greater powers to the Regent would establish an uncompromising rule, one capable of enacting the desperate reforms we so urgently require."
 
-emperor_authority_reform: "Emperor's Primacy"
-emperor_authority_reform_desc: "Despite Guilliman's apt governance, we must not forget who truly commands the Imperium, he who sits in the golden throne, the target of bilion of prayers and the light of the Astronomican itself. To rule mankind is a heavy task, the hefty weight of history cannot be made to bear by any one man, only a god can."
+ emperor_authority_reform: "Emperor's Primacy"
+ emperor_authority_reform_desc: "Despite Guilliman's apt governance, we must not forget who truly commands the Imperium, he who sits in the golden throne, the target of bilion of prayers and the light of the Astronomican itself. To rule mankind is a heavy task, the hefty weight of history cannot be made to bear by any one man, only a god can."
 
-astartes_authority_reform: "Astartes Supremacy"
-astartes_authority_reform_desc: "Politics on Terra mean little when you're locked in battle with the Archenemy. The Imperium endures by a thread, held together through the blood-soaked victories of the Astra Militarum. It is time, then, to enshrine the Space Marine supremacy within the military governance of the state, securing leadership where strength and sacrifice truly reside."
+ astartes_authority_reform: "Astartes Supremacy"
+ astartes_authority_reform_desc: "Politics on Terra mean little when you're locked in battle with the Archenemy. The Imperium endures by a thread, held together through the blood-soaked victories of the Astra Militarum. It is time, then, to enshrine the Space Marine supremacy within the military governance of the state, securing leadership where strength and sacrifice truly reside."
 
-support_xanthites_reform: "Support Xanthites"
-support_xanthites_reform_desc: "The Xanthites believe that the weapons of the enemy can and must be turned against them, advocating for unorthodox methods to secure the Imperium’s survival. By closely aligning with their philosophy, we open our court to a broader range of advisors, embracing new perspectives in both governance and warfare alike."
+ support_xanthites_reform: "Support Xanthites"
+ support_xanthites_reform_desc: "The Xanthites believe that the weapons of the enemy can and must be turned against them, advocating for unorthodox methods to secure the Imperium’s survival. By closely aligning with their philosophy, we open our court to a broader range of advisors, embracing new perspectives in both governance and warfare alike."
 
-psychic_ascendancy_reform: "Psychic Ascendancy"
-psychic_ascendancy_reform_desc: "The dominance of psykers within our institutions marks a new era for the Imperium, one we can no longer ignore. In this era, the warp-born wield unparalleled influence over governance and strategy. By embracing this evolution fully, we foster unorthodox tought, as new ideas and methods take root at an unprecedented pace."
+ psychic_ascendancy_reform: "Psychic Ascendancy"
+ psychic_ascendancy_reform_desc: "The dominance of psykers within our institutions marks a new era for the Imperium, one we can no longer ignore. In this era, the warp-born wield unparalleled influence over governance and strategy. By embracing this evolution fully, we foster unorthodox tought, as new ideas and methods take root at an unprecedented pace."
 
-golden_throne_repair_reform: "Golden Throne Repair"
-golden_throne_repair_reform_desc: "The Golden Throne, the life-support system for the Emperor, is the cornerstone of our Imperium’s stability. Tragically, it has remained in a state of ruin and disrepair for far too long. We must prioritize its repair and maintenance, allowing the cunning of our Emperor to imbue our future direction of the Imperium. Furthermore, we can apply the lessons learned during the repair of the throne to other great endeavours in our realm."
+ golden_throne_repair_reform: "Golden Throne Repair"
+ golden_throne_repair_reform_desc: "The Golden Throne, the life-support system for the Emperor, is the cornerstone of our Imperium’s stability. Tragically, it has remained in a state of ruin and disrepair for far too long. We must prioritize its repair and maintenance, allowing the cunning of our Emperor to imbue our future direction of the Imperium. Furthermore, we can apply the lessons learned during the repair of the throne to other great endeavours in our realm."
 
-galactic_domination_reform: "Galactic Domination"
-galactic_domination_reform_desc: "The time has come to rise and claim our rightful place as masters of the galaxy. No longer shall we allow putrid xenos or inexplicable void horrors to threaten us with extinction. Now, we shall advance and purge them from their hidden lairs, for all will succumb to the unrelenting, unbreakable, and unconquerable spirit of mankind's destiny."
+ galactic_domination_reform: "Galactic Domination"
+ galactic_domination_reform_desc: "The time has come to rise and claim our rightful place as masters of the galaxy. No longer shall we allow putrid xenos or inexplicable void horrors to threaten us with extinction. Now, we shall advance and purge them from their hidden lairs, for all will succumb to the unrelenting, unbreakable, and unconquerable spirit of mankind's destiny."
 
-imperial_webway_network_reform: "Imperial Webway Network"
-imperial_webway_network_reform_desc: "It is time to ressucitate the great millenia-old Webway Project of the Emperor himself. If we can replace Warp travel with permanent access to the Webway, we can ascertain our diplomatic and military dominion within our sphere of influence far more effectively than through traditional methods of the past."
+ imperial_webway_network_reform: "Imperial Webway Network"
+ imperial_webway_network_reform_desc: "It is time to ressucitate the great millenia-old Webway Project of the Emperor himself. If we can replace Warp travel with permanent access to the Webway, we can ascertain our diplomatic and military dominion within our sphere of influence far more effectively than through traditional methods of the past."
 
  imperial_governorate_reform: "Imperial Governorate"
  imperial_governorate_reform_desc: "Hive worlds and garrisons of the Imperium are ruled autonomously by planetary governors with Administratum representatives maintaining ceremonial positions. Forms of governance vary greatly between worlds, ranging from oligarchic republics to hereditary fiefdoms."
@@ -391,25 +406,25 @@ imperial_webway_network_reform_desc: "It is time to ressucitate the great millen
  hive_fleet_reform: "Hive Fleet"
  hive_fleet_reform_desc: "A Hive Fleet is a vast swarm of Tyranids; bioengineered xenos guided by the Hive Mind, a single psychic will. Tyranids exist only to consume, stripping planets of all life to feed their endless evolution.\nAs the Hive Fleet approaches a new world, it employs advanced bioengineering and adaptive strategies to overwhelm its prey, adapting to threats and environments in real-time."
 
-drukhari_cult_reform_desc: "A Kabal is a gathering of like-minded individuals, operating much like a warband. It recruits from across the city, luring new members in with promises of gold, glory, and the thrill of Realspace raids. When the Kabal musters its strength and surges from the Webway, it descends upon the unsuspecting victims of the cosmos, whoever they may be, in the feared soul-harvesting operations that embody our kind."
+ drukhari_cult_reform_desc: "A Kabal is a gathering of like-minded individuals, operating much like a warband. It recruits from across the city, luring new members in with promises of gold, glory, and the thrill of Realspace raids. When the Kabal musters its strength and surges from the Webway, it descends upon the unsuspecting victims of the cosmos, whoever they may be, in the feared soul-harvesting operations that embody our kind."
 
-haemonculi_coven_reform_desc: "Deep within The Dark City dwell the Haemonculi Covens, feared even among fellow Drukhari, these deranged flesh-sculptors are entrusted with extracting the psychic essences of the souls taken in the raid all over the galaxty. Their dominion of both body and soul allows them to furnish a new body should a Drukhari fall in battle, making them a neccesary evil in our twisted society."
+ haemonculi_coven_reform_desc: "Deep within The Dark City dwell the Haemonculi Covens, feared even among fellow Drukhari, these deranged flesh-sculptors are entrusted with extracting the psychic essences of the souls taken in the raid all over the galaxty. Their dominion of both body and soul allows them to furnish a new body should a Drukhari fall in battle, making them a neccesary evil in our twisted society."
 
-tyranid_desc: "A hive fleet is a expansive squadron of living Bio-Ships created by the Tyranids for the purpose of gathering the resources and biomass necessary for the reproduction, evolution and expansion of their species, at the expense of the lesser species of the cosmos."
+ tyranid_desc: "A hive fleet is a expansive squadron of living Bio-Ships created by the Tyranids for the purpose of gathering the resources and biomass necessary for the reproduction, evolution and expansion of their species, at the expense of the lesser species of the cosmos."
 
 # Tyranid reforms localization
 
-final_solution_reform:0 "Final Solution"
-final_solution_reform_desc:0 "Subversive elements on our soon-to-be-consumed planets are hindering the efficient devouring of the wider galaxy. A thorough and swift sweep is to be carried out by an increased deployment of rear guard organisms, in order to achieve a complete assimilation of each planet's biomass without hindrance in an 80 day timeframe. \n \n§YPurge Action requires far less Military Power but causes 100 Devastation§!"
+ final_solution_reform:0 "Final Solution"
+ final_solution_reform_desc:0 "Subversive elements on our soon-to-be-consumed planets are hindering the efficient devouring of the wider galaxy. A thorough and swift sweep is to be carried out by an increased deployment of rear guard organisms, in order to achieve a complete assimilation of each planet's biomass without hindrance in an 80 day timeframe. \n \n§YPurge Action requires far less Military Power but causes 100 Devastation§!"
 
-end_of_the_line_reform:0 "End of the Line"
-end_of_the_line_reform_desc:0 "The lesser species of the cosmos torment themselves with thoughts of the afterlife, weighing gods and causes as if their choices held meaning. Let us ease their minds and free them from they telluric tormnet, for it is through us that they shall meet their maker."
+ end_of_the_line_reform:0 "End of the Line"
+ end_of_the_line_reform_desc:0 "The lesser species of the cosmos torment themselves with thoughts of the afterlife, weighing gods and causes as if their choices held meaning. Let us ease their minds and free them from they telluric tormnet, for it is through us that they shall meet their maker."
 
-tetra_staged_assimilation_protocol_reform:0 "Tetra-Staged Assimilation Protocol"
-tetra_staged_assimilation_protocol_reform_desc:0 "In our conquest of the galaxy, we can rely on the tried-and-tested four-stage model of our kin.\n\nInvasion - Prepared in advance by our Genestealers and vanguard specimens, a suitable planet, rich in biomass, is swarmed by our ceaseless host.\nPredation - Aerial and ground elements defeat in detail the confused, leaderless, and bereft victims on the surface, employing killing grounds to prevent the formation of unnecessary redoubts.\nConsumption - Feeder organisms ravage the planet’s surface of its precious biological resources, collecting them in Reclamation Pools, as the Capillary Towers channel the material into our ships waiting in orbit.\nAssimilation - Rearguard creatures are left in hiding to prevent recolonization efforts by our enemies, and if the planet somehow recovers, to send a signal back to the fleet for its renewed devouring…"
+ tetra_staged_assimilation_protocol_reform:0 "Tetra-Staged Assimilation Protocol"
+ tetra_staged_assimilation_protocol_reform_desc:0 "In our conquest of the galaxy, we can rely on the tried-and-tested four-stage model of our kin.\n\nInvasion - Prepared in advance by our Genestealers and vanguard specimens, a suitable planet, rich in biomass, is swarmed by our ceaseless host.\nPredation - Aerial and ground elements defeat in detail the confused, leaderless, and bereft victims on the surface, employing killing grounds to prevent the formation of unnecessary redoubts.\nConsumption - Feeder organisms ravage the planet’s surface of its precious biological resources, collecting them in Reclamation Pools, as the Capillary Towers channel the material into our ships waiting in orbit.\nAssimilation - Rearguard creatures are left in hiding to prevent recolonization efforts by our enemies, and if the planet somehow recovers, to send a signal back to the fleet for its renewed devouring…"
 
-divide_and_devour_reform:0 "Divide and Devour"
-divide_and_devour_reform_desc:0 "This corner of the cosmos is proving particularly resistant to assimilation; the species within display an uncanny resilience to their inevitable fate. It may be therefore prudent to divide our fleet into multiple cohorts when engaging vast empires, splintering their fragile kingdoms into dust, as they scramble to defend multiple fronts at the same time."
+ divide_and_devour_reform:0 "Divide and Devour"
+ divide_and_devour_reform_desc:0 "This corner of the cosmos is proving particularly resistant to assimilation; the species within display an uncanny resilience to their inevitable fate. It may be therefore prudent to divide our fleet into multiple cohorts when engaging vast empires, splintering their fragile kingdoms into dust, as they scramble to defend multiple fronts at the same time."
 
-the_great_devourer_reform:0 "The Great Devourer"
-the_great_devourer_reform_desc:0 "Our exponential expansion has brought us into direct contact with the galaxy’s greatest pretenders to dominion. But our mighty fleet has no need to observe, much less respect, their feeble truces or hollow treaties. Why should we? After all, war is a continuation of diplomacy by other means..."
+ the_great_devourer_reform:0 "The Great Devourer"
+ the_great_devourer_reform_desc:0 "Our exponential expansion has brought us into direct contact with the galaxy’s greatest pretenders to dominion. But our mighty fleet has no need to observe, much less respect, their feeble truces or hollow treaties. Why should we? After all, war is a continuation of diplomacy by other means..."
