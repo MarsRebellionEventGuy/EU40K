@@ -207,7 +207,7 @@ country_event = { #Rising Star
 	}
 }
 
-country_event = { #Shining Star
+country_event = { #Legendary Bioform
 	id = indomitus_general.17
 	title = indomitus_general.17.t
 	desc = indomitus_general.17.d

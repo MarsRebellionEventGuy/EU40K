@@ -1070,16 +1070,22 @@ Leviathan_24 = { #Dawnbringer
 
 			num_of_provinces_owned_or_owned_by_subjects_with = {
 				OR = {
-			region = hydraphur_region
-			region = agripinaa_region
-			region = medusan_reach_region
-			region = calixis_region
-			region = askellon_region
-			region = stryken_region
-			region = nachmund_region
-			region = stygius_region
-			region = grail_abyss_region
-			region = gothic_region
+			region = red_scar_region
+			region = manachea_region
+			region = coronid_deeps_region
+			region = pelegron_cluster_region
+			region = phantax_region
+			region = fenright_region
+			region = nostramo_region
+			region = huda_gulf_region
+			region = ghoul_stars_region
+			region = gulgorahd_region
+			region = thramas_region
+			region = chalnath_expanse_region
+			region = ullanor_region
+			region = nepthis_region
+			region = triplex_region
+			region = bakhar_region
 			region = hydraphur_region
 			region = agripinaa_region
 			region = medusan_reach_region
@@ -1091,7 +1097,7 @@ Leviathan_24 = { #Dawnbringer
 			region = grail_abyss_region
 			region = gothic_region
 				}
-				value = 200
+				value = 150
 			
 
 			}

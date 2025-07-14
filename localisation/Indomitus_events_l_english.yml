@@ -793,3 +793,18 @@ hydra_dagon_devoured_desc:0 "Dagon's host could not have possibly fathomed when 
 
 hail_hydra:0 "Hail Hydra"
 hail_hydra_desc:0 "§TAll shall bow to us!§Y"
+
+lev_a_house_divided:0 "A House Divided"
+lev_a_house_divided_desc:0 "Humanity's control over it's northern holdings lay in utter ruin due to the splintering caused by the Great Rift. It would be a shame if such authority were to be permanently replaced..."
+
+lev_gauntlet:0 "Ran The Gauntlet"
+lev_gauntlet_desc:0 "After devouring everything we could find on this side of the Nachmund Gauntlet, we have deprived humanity of its key passage to galactic redemption."
+
+lev_showdown:0 "Showdown"
+lev_showdown_desc:0 "Father I have returned."
+
+lev_symphony:0 "Symphony of Destruction"
+lev_symphony_desc:0 "I bring death."
+
+lev_apex:0 "Apex"
+lev_apex_desc:0 "Eternity is beyond your reach, mortal."
