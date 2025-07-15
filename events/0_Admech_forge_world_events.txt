@@ -2571,7 +2571,7 @@ province_event = {
 			}
 		}
 #		immediate = { # immediate can't be in option scope.
-				any_owned_province = {
+				random_owned_province = {
 					if = {
 						limit = {
 							has_province_modifier = mekworld_mod
