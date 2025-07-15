@@ -34,7 +34,7 @@ wraithbone = {
 	base_price = 4 
 }
 
-archaotech = {
+archeotech = {
 	base_price = 4
 }
 

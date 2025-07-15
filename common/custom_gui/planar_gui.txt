@@ -514,11 +514,11 @@ custom_button = {
 	trigger = {
 		any_owned_province = {
 			NOT = { province_id = 1 }
-			trade_goods = archaotech
+			trade_goods = archeotech
 		}
 		NOT = {
 			any_owned_province = {
-				has_province_modifier = Shark_Archaotech_Bonus
+				has_province_modifier = Shark_archeotech_Bonus
 			}
 		}
 	}
@@ -527,18 +527,18 @@ custom_button = {
 			which = Shark_Favors
 			value = 1
 		}
-		custom_tooltip = planar_hero_archaotech_bonus_tt
+		custom_tooltip = planar_hero_archeotech_bonus_tt
 		tooltip = {
 			add_province_modifier = {
-				name = Shark_Archaotech_Modifier
+				name = Shark_archeotech_Modifier
 				duration = 7300
 			}
 		}
 		hidden_effect = {
 			every_owned_province = {
-				limit = { NOT = { province_id = 1 } trade_goods = archaotech }
+				limit = { NOT = { province_id = 1 } trade_goods = archeotech }
 				add_province_modifier = {
-					name = Shark_Archaotech_Modifier
+					name = Shark_archeotech_Modifier
 					duration = 7300
 				}
 			}
@@ -682,7 +682,7 @@ custom_button = {
 		}
 		NOT = {
 			any_owned_province = {
-				has_province_modifier = Shark_Archaotech_Bonus
+				has_province_modifier = Shark_archeotech_Bonus
 			}
 		}
 	}
@@ -691,18 +691,18 @@ custom_button = {
 			which = Shark_Favors
 			value = -1
 		}
-		custom_tooltip = planar_hero_archaotech_bonus_tt
+		custom_tooltip = planar_hero_archeotech_bonus_tt
 		tooltip = {
 			add_province_modifier = {
-				name = Shark_Archaotech_Bonus
+				name = Shark_archeotech_Bonus
 				duration = 7300
 			}
 		}
 		hidden_effect = {
 			every_owned_province = {
-				limit = { trade_goods = archaotech }
+				limit = { trade_goods = archeotech }
 				add_province_modifier = {
-					name = Shark_Archaotech_Bonus
+					name = Shark_archeotech_Bonus
 					duration = 7300
 				}
 			}

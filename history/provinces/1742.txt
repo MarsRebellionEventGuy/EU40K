@@ -6,5 +6,5 @@ culture = manachea_human_culture
 base_tax = 5
 base_production = 4
 base_manpower = 6
-trade_goods = archaotech
+trade_goods = archeotech
 is_city = no

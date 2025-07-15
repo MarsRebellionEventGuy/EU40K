@@ -6,4 +6,4 @@ culture = kin_culture
 base_tax = 4
 base_production = 5
 base_manpower = 3
-trade_goods = archaotech
+trade_goods = archeotech

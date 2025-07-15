@@ -6,7 +6,7 @@ base_manpower = 3
 add_core = XOT
 owner = XOT
 controller = XOT
-trade_goods = Promethium
+trade_goods = promethium
 
 add_permanent_province_modifier = {
 	name = minor_forge_world_mod

@@ -278,8 +278,8 @@ colonial.18.t:0 "Colonial Migration"
 colonial.18.d:0 "Settlements in the fringe and dynamic borders of the empire often tend to have a life of their own. The most recent example is the reshuffling of settlers in one of the colonial sectors. There is little we can do to stop them now as [Root.Owner.GetAdjective] villages and towns have already begun appearing all over the hinterlands."
 colonial.18.a:0 "The grass is greener..."
 
-colonial.19.t:0 "Archaotech Discovered!"
-colonial.19.d:0 "After countless attempts at finding the precious resource, we have finally found some Archaotech in $PROVINCENAME$."
+colonial.19.t:0 "archeotech Discovered!"
+colonial.19.d:0 "After countless attempts at finding the precious resource, we have finally found some archeotech in $PROVINCENAME$."
 colonial.19.a:0 "Finally."
 
 colonial.20.t:0 "Growth of the port of $PROVINCENAME$"

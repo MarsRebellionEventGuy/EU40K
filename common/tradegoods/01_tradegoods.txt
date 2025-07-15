@@ -232,7 +232,7 @@ wraithbone = { #Indomitus
 	}
 }
 
-archaotech = { #Indomitus
+archeotech = { #Indomitus
 	color = { 0.52 0.68 0.6 }
 	modifier = {
 		general_cost = -0.15

@@ -205,7 +205,7 @@ forge_world_4_subject_limit = {
 Shark_Manpower_Bonus = {
 }
 
-Shark_Archaotech_Modifier = {
+Shark_archeotech_Modifier = {
 }
 
 Shark_Quality_Bonus = {
@@ -217,7 +217,7 @@ Shark_Strike_Team_Bonus = {
 Shark_Recruitment_Bonus = {
 }
 
-Shark_Archaotech_Bonus = {
+Shark_archeotech_Bonus = {
 }
 
 Shark_Chapters_Bonus = {

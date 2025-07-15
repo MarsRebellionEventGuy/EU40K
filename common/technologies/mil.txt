@@ -716,7 +716,7 @@ technology = {
 
 	enable = SolarPatternVoidInfantry
 	enable = OgrynCharonite
-	enable = ArchaotechPistoleer
+	enable = archeotechPistoleer
 
 	enable = ArcoEviscerator
 	enable = Ursurax

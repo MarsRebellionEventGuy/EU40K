@@ -6,5 +6,5 @@ culture = calixis_human_culture
 base_tax = 4
 base_production = 4
 base_manpower = 4
-trade_goods = archaotech
+trade_goods = archeotech
 is_city = no
