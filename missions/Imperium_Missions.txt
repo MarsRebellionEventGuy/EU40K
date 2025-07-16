@@ -1166,7 +1166,7 @@ XXA_Branch_3 = {
 		trigger = {
 			imperial_sector_subject = 5
 		}
-		effect = { }
+		effect = { country_event = imperium_events.37}
 	}
 	XXA_deal_kin = {
 		icon = mission_build_up_to_force_limit
@@ -1253,7 +1253,7 @@ XXA_Branch_3 = {
 			reform_level = 5
 			has_any_disaster = no
 		}
-		effect = { }
+		effect = { country_event = imperium_events.24}
 	}
 }
 
