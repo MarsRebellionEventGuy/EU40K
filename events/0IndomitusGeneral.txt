@@ -393,7 +393,7 @@ country_event = { # Sailors into Army
 
 	trigger = {
 		sailors_percentage = 0.75
-		manpower_percentage = 0
+		NOT = { manpower_percentage = 0.0 }
 		is_at_war = yes
 	}
 
