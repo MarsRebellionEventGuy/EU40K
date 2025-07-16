@@ -665,3 +665,37 @@ hail_hydra = {
 	discipline = 0.05
 	picture = discipline
 }
+
+lev_a_house_divided = {
+	warscore_cost_vs_other_religion = -0.1
+	morale_damage = 0.15
+	core_creation = -0.15
+	picture = imperial_mandate
+}
+
+lev_gauntlet = {
+	trade_efficiency = 0.2
+	merchants = 1
+	picture = trade_efficiency
+}
+
+lev_showdown = {
+	siege_ability = 0.33
+	naval_attrition_in_fleet_modifier = -0.99
+	naval_attrition = -1
+	regiment_disembark_speed = 0.33
+	land_morale = 0.2
+	picture = siege_ability
+}
+
+lev_symphony = {
+	discipline = 0.025
+	all_estate_loyalty_equilibrium = 0.1
+	picture = discipline
+}
+
+lev_apex = {
+	morale_damage_received = -0.1
+	land_morale = 0.05
+	picture = land_morale
+}

@@ -716,10 +716,13 @@ Hydra_14 = { #The Tail End
 				OR = {
 					tag = XMT
 					tag = XML
-					province_id = 3146
-					province_id = 1619
+					
+					AND = {
+						province_id = 3146
+						province_id = 1619
+					}
 				}
-				
+
 			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 			is_city = yes

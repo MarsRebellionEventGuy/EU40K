@@ -9,10 +9,9 @@ capital = 3146
 1970.12.12 = {
 		monarch = {
 			name = "Synapse"	
-			adm = 2
-			dip = 3
-			mil = 1
+			adm = 3
+			dip = 0
+			mil = 3
 		}
 		add_ruler_personality = immortal_personality
-	}
 }

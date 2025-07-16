@@ -71,7 +71,7 @@ tau_assimilate_palatine_human_culture = { num_accepted_cultures = 1 }
 tau_assimilate_gothic_human_culture = { num_accepted_cultures = 1 }
 tau_assimilate_stygius_human_culture = { num_accepted_cultures = 1 }
 tau_assimilate_grail_human_culture = { num_accepted_cultures = 1 }
-tau_assimilate_styken_human_culture = { num_accepted_cultures = 1 }
+tau_assimilate_stryken_human_culture = { num_accepted_cultures = 1 }
 tau_assimilate_askellon_human_culture = { num_accepted_cultures = 1 }
 tau_assimilate_calixis_human_culture = { num_accepted_cultures = 1 }
 tau_assimilate_medusan_human_culture = { num_accepted_cultures = 1 }

@@ -12,6 +12,7 @@ XXA_ideas = {
 	
 	bonus = {
 		recover_army_morale_speed = 0.20
+		
 	}	
 
 	trigger = {
@@ -20,7 +21,8 @@ XXA_ideas = {
 	free = yes
 	
 	XXA_ideas_1 = {
-		loyalty_change_on_revoked = 0.20
+		all_estate_loyalty_equilibrium = 0.1
+		imperial_mandate = 0.01
 	}
 	XXA_ideas_2 = {
 		heavy_ship_cost = -0.15

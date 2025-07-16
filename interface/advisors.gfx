@@ -18976,9 +18976,9 @@ spriteTypes = {
 		loadType = "INGAME"
 	}
 	
-#Styken Advisors
+#Stryken Advisors
 	spriteType = {
-		name = "GFX_advisor_styken_human_culture_army_organiser"
+		name = "GFX_advisor_stryken_human_culture_army_organiser"
 		texturefile = "gfx//interface//advisors//human_culture_army_organiser.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -18987,7 +18987,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_styken_human_culture_army_reformer"
+		name = "GFX_advisor_stryken_human_culture_army_reformer"
 		texturefile = "gfx//interface//advisors//human_culture_army_reformer.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -18996,7 +18996,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_styken_human_culture_artist"
+		name = "GFX_advisor_stryken_human_culture_artist"
 		texturefile = "gfx//interface//advisors//human_culture_artist.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -19005,7 +19005,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_styken_human_culture_colonial_governor"
+		name = "GFX_advisor_stryken_human_culture_colonial_governor"
 		texturefile = "gfx//interface//advisors//human_culture_colonial_governor.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -19014,7 +19014,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_styken_human_culture_commandant"
+		name = "GFX_advisor_stryken_human_culture_commandant"
 		texturefile = "gfx//interface//advisors//human_culture_commandant.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -19023,7 +19023,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_styken_human_culture_diplomat"
+		name = "GFX_advisor_stryken_human_culture_diplomat"
 		texturefile = "gfx//interface//advisors//human_culture_diplomat.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -19032,7 +19032,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_styken_human_culture_fortification_expert"
+		name = "GFX_advisor_stryken_human_culture_fortification_expert"
 		texturefile = "gfx//interface//advisors//human_culture_fortification_expert.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -19041,7 +19041,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_styken_human_culture_grand_captain"
+		name = "GFX_advisor_stryken_human_culture_grand_captain"
 		texturefile = "gfx//interface//advisors//human_culture_grand_captain.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -19050,7 +19050,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_styken_human_culture_inquisitor"
+		name = "GFX_advisor_stryken_human_culture_inquisitor"
 		texturefile = "gfx//interface//advisors//human_culture_inquisitor.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -19059,7 +19059,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_styken_human_culture_master_of_mint"
+		name = "GFX_advisor_stryken_human_culture_master_of_mint"
 		texturefile = "gfx//interface//advisors//human_culture_master_of_mint.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -19068,7 +19068,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_styken_human_culture_natural_scientist"
+		name = "GFX_advisor_stryken_human_culture_natural_scientist"
 		texturefile = "gfx//interface//advisors//human_culture_natural_scientist.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -19077,7 +19077,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_styken_human_culture_naval_reformer"
+		name = "GFX_advisor_stryken_human_culture_naval_reformer"
 		texturefile = "gfx//interface//advisors//human_culture_naval_reformer.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -19086,7 +19086,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_styken_human_culture_navigator"
+		name = "GFX_advisor_stryken_human_culture_navigator"
 		texturefile = "gfx//interface//advisors//human_culture_navigator.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -19095,7 +19095,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_styken_human_culture_philosopher"
+		name = "GFX_advisor_stryken_human_culture_philosopher"
 		texturefile = "gfx//interface//advisors//human_culture_philosopher.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -19104,7 +19104,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_styken_human_culture_quartermaster"
+		name = "GFX_advisor_stryken_human_culture_quartermaster"
 		texturefile = "gfx//interface//advisors//human_culture_quartermaster.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -19113,7 +19113,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_styken_human_culture_recruitmaster"
+		name = "GFX_advisor_stryken_human_culture_recruitmaster"
 		texturefile = "gfx//interface//advisors//human_culture_recruitmaster.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -19122,7 +19122,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_styken_human_culture_spymaster"
+		name = "GFX_advisor_stryken_human_culture_spymaster"
 		texturefile = "gfx//interface//advisors//human_culture_spymaster.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -19131,7 +19131,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_styken_human_culture_statesman"
+		name = "GFX_advisor_stryken_human_culture_statesman"
 		texturefile = "gfx//interface//advisors//human_culture_statesman.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -19140,7 +19140,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_styken_human_culture_theologian"
+		name = "GFX_advisor_stryken_human_culture_theologian"
 		texturefile = "gfx//interface//advisors//human_culture_theologian.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -19149,7 +19149,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_styken_human_culture_trader"
+		name = "GFX_advisor_stryken_human_culture_trader"
 		texturefile = "gfx//interface//advisors//human_culture_trader.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -19158,7 +19158,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_styken_human_culture_treasurer"
+		name = "GFX_advisor_stryken_human_culture_treasurer"
 		texturefile = "gfx//interface//advisors//human_culture_treasurer.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -19167,7 +19167,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_styken_human_culture_army_organiser_female"
+		name = "GFX_advisor_stryken_human_culture_army_organiser_female"
 		texturefile = "gfx//interface//advisors//human_culture_army_organiser_female.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -19176,7 +19176,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_styken_human_culture_army_reformer_female"
+		name = "GFX_advisor_stryken_human_culture_army_reformer_female"
 		texturefile = "gfx//interface//advisors//human_culture_army_reformer_female.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -19185,7 +19185,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_styken_human_culture_artist_female"
+		name = "GFX_advisor_stryken_human_culture_artist_female"
 		texturefile = "gfx//interface//advisors//human_culture_artist_female.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -19194,7 +19194,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_styken_human_culture_colonial_governor_female"
+		name = "GFX_advisor_stryken_human_culture_colonial_governor_female"
 		texturefile = "gfx//interface//advisors//human_culture_colonial_governor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -19203,7 +19203,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_styken_human_culture_commandant_female"
+		name = "GFX_advisor_stryken_human_culture_commandant_female"
 		texturefile = "gfx//interface//advisors//human_culture_commandant_female.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -19212,7 +19212,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_styken_human_culture_diplomat_female"
+		name = "GFX_advisor_stryken_human_culture_diplomat_female"
 		texturefile = "gfx//interface//advisors//human_culture_diplomat_female.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -19221,7 +19221,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_styken_human_culture_fortification_expert_female"
+		name = "GFX_advisor_stryken_human_culture_fortification_expert_female"
 		texturefile = "gfx//interface//advisors//human_culture_fortification_expert_female.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -19230,7 +19230,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_styken_human_culture_grand_captain_female"
+		name = "GFX_advisor_stryken_human_culture_grand_captain_female"
 		texturefile = "gfx//interface//advisors//human_culture_grand_captain_female.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -19239,7 +19239,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_styken_human_culture_inquisitor_female"
+		name = "GFX_advisor_stryken_human_culture_inquisitor_female"
 		texturefile = "gfx//interface//advisors//human_culture_inquisitor_female.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -19248,7 +19248,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_styken_human_culture_master_of_mint_female"
+		name = "GFX_advisor_stryken_human_culture_master_of_mint_female"
 		texturefile = "gfx//interface//advisors//human_culture_master_of_mint_female.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -19257,7 +19257,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_styken_human_culture_natural_scientist_female"
+		name = "GFX_advisor_stryken_human_culture_natural_scientist_female"
 		texturefile = "gfx//interface//advisors//human_culture_natural_scientist_female.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -19266,7 +19266,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_styken_human_culture_naval_reformer_female"
+		name = "GFX_advisor_stryken_human_culture_naval_reformer_female"
 		texturefile = "gfx//interface//advisors//human_culture_naval_reformer_female.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -19275,7 +19275,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_styken_human_culture_navigator_female"
+		name = "GFX_advisor_stryken_human_culture_navigator_female"
 		texturefile = "gfx//interface//advisors//human_culture_navigator_female.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -19284,7 +19284,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_styken_human_culture_philosopher_female"
+		name = "GFX_advisor_stryken_human_culture_philosopher_female"
 		texturefile = "gfx//interface//advisors//human_culture_philosopher_female.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -19293,7 +19293,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_styken_human_culture_quartermaster_female"
+		name = "GFX_advisor_stryken_human_culture_quartermaster_female"
 		texturefile = "gfx//interface//advisors//human_culture_quartermaster_female.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -19302,7 +19302,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_styken_human_culture_recruitmaster_female"
+		name = "GFX_advisor_stryken_human_culture_recruitmaster_female"
 		texturefile = "gfx//interface//advisors//human_culture_recruitmaster_female.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -19311,7 +19311,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_styken_human_culture_spymaster_female"
+		name = "GFX_advisor_stryken_human_culture_spymaster_female"
 		texturefile = "gfx//interface//advisors//human_culture_spymaster_female.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -19320,7 +19320,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_styken_human_culture_statesman_female"
+		name = "GFX_advisor_stryken_human_culture_statesman_female"
 		texturefile = "gfx//interface//advisors//human_culture_statesman_female.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -19329,7 +19329,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_styken_human_culture_theologian_female"
+		name = "GFX_advisor_stryken_human_culture_theologian_female"
 		texturefile = "gfx//interface//advisors//human_culture_theologian_female.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -19338,7 +19338,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_styken_human_culture_trader_female"
+		name = "GFX_advisor_stryken_human_culture_trader_female"
 		texturefile = "gfx//interface//advisors//human_culture_trader_female.dds"
 		noOfFrames = 1
 		norefcount = yes
@@ -19347,7 +19347,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_styken_human_culture_treasurer_female"
+		name = "GFX_advisor_stryken_human_culture_treasurer_female"
 		texturefile = "gfx//interface//advisors//human_culture_treasurer_female.dds"
 		noOfFrames = 1
 		norefcount = yes

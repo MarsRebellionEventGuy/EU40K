@@ -1889,6 +1889,7 @@ dummy =
 	can_have_subjects_of_other_types = yes
 	overlord_enforce_peace_attacking = yes	
 	can_transfer_in_peace = no
+	can_release_in_peace = no
 
 	start_colonial_war = yes
 
@@ -2016,6 +2017,7 @@ dummy =
 	can_have_subjects_of_other_types = yes
 	overlord_enforce_peace_attacking = yes	
 	can_transfer_in_peace = no
+	can_release_in_peace = no
 
 	start_colonial_war = yes
 
@@ -2088,6 +2090,7 @@ dummy =
 	can_have_subjects_of_other_types = yes
 	overlord_enforce_peace_attacking = yes	
 	can_transfer_in_peace = no
+	can_release_in_peace = no
 
 	start_colonial_war = yes
 

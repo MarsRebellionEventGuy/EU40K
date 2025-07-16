@@ -148,6 +148,7 @@
  deathwatch_label_tt: "The Deathwatch are the Chamber Miliant of the Ordo Xenos, formed of battle brothers from across the Astartes Chapters of the Imperium. The Deathwatch is tasked to defend and contain Xenos from their Watch Stations"
  INQUISITION: "Holy Inquisition Order"
  INQUISITORIAL_REPRESENTIVE: "Inquisitorial Representative"
+ IMPERIUM_CANNOT_ATTACK_ITSELF: "A Member of the Imperium of Man can't fight another loyal member without reason"
  
  imperium_lost_warp_routes_disaster: "Lost Terra Warp Routes"
  dark_imperium_disaster: "Dark Imperium"
