@@ -307,6 +307,53 @@ declarewar = {
             }
         }
 	}
+	condition = {
+		tooltip = IMPERIUM_CANNOT_ATTACK_ITSELF
+		potential = {
+			OR={
+				tag = event_target:EmperorOfChina
+				is_subject_of_type = 0_mechanicus_subject_type
+				is_subject_of_type = 0_inquisition_subject_type
+				is_subject_of_type = 0_ministorum_subject_type
+				is_subject_of_type = integrated_world_subject_type
+				is_subject_of_type = imperial_world_subject_type
+				is_subject_of_type = nominal_imperial_world_subject_type
+				is_subject_of_type = shrine_world_subject_type
+				is_subject_of_type = astartes_subject_type
+				is_subject_of_type = autonomus_astartes_subject_type
+				is_subject_of_type = shield_company_subject_type
+				is_subject_of_type = deathwatch_subject_type
+				is_subject_of_type = order_adepta_sororitas_subject_type
+				is_subject_of_type = imperial_sector_subject
+				is_subject_of_type = integrated_forgeworld
+				is_subject_of_type = integrated_major_forgeworld
+			}
+		}
+		allow = {
+			FROM={
+				NOT = {
+					OR={
+						tag = event_target:EmperorOfChina
+						is_subject_of_type = 0_mechanicus_subject_type
+						is_subject_of_type = 0_inquisition_subject_type
+						is_subject_of_type = 0_ministorum_subject_type
+						is_subject_of_type = integrated_world_subject_type
+						is_subject_of_type = imperial_world_subject_type
+						is_subject_of_type = nominal_imperial_world_subject_type
+						is_subject_of_type = shrine_world_subject_type
+						is_subject_of_type = astartes_subject_type
+						is_subject_of_type = autonomus_astartes_subject_type
+						is_subject_of_type = shield_company_subject_type
+						is_subject_of_type = deathwatch_subject_type
+						is_subject_of_type = order_adepta_sororitas_subject_type
+						is_subject_of_type = imperial_sector_subject
+						is_subject_of_type = integrated_forgeworld
+						is_subject_of_type = integrated_major_forgeworld
+					}
+				}
+			}
+		}
+	}
 }
 
 allianceaction = {
