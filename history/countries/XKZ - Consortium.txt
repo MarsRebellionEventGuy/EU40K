@@ -13,6 +13,6 @@ historical_rival = XPF
 			adm = 3
 			dip = 5
 			mil = 3
+			religion = imperial_truth
 		}
 	}
-}

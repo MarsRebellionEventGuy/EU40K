@@ -1540,7 +1540,7 @@ province_event = { # Croatoan
 	}
 }
 
-province_event = { # SIGNAL LOST
+country_event = { # SIGNAL LOST
 	id = imperium_events.49
 	title = imperium_events.49.t
 	desc = imperium_events.49.d
@@ -1572,13 +1572,7 @@ country_event = { # Oblivion
 	desc = imperium_events.50.d
 	picture = muslimgfx_COUNTRY_COLLAPSE_eventPicture
 
-	fire_only_once = yes
-
-	trigger = {
-		tag = XXA
-		is_great_power = no
-		
-	}
+	is_triggered_only = yes
 
 	mean_time_to_happen = {
 		days = 1
@@ -1587,11 +1581,6 @@ country_event = { # Oblivion
 	option = {
 		name = imperium_events.50.a
 		add_mandate = -100
-		add_country_modifier = {
-			name = oblivion
-			duration = -1
-		}
-		
 	}
 }
 
@@ -1601,14 +1590,7 @@ country_event = { # Aquila Restituta
 	desc = imperium_events.51.d
 	picture = CATHOLIC_RULERS_PRAYING_eventPicture
 
-	fire_only_once = yes
-
-	trigger = {
-		tag = XXA
-		is_great_power = yes
-		has_country_modifier = oblivion
-		
-	}
+	is_triggered_only = yes
 
 	mean_time_to_happen = {
 		days = 1
@@ -1617,9 +1599,7 @@ country_event = { # Aquila Restituta
 	option = {
 		name = imperium_events.51.a
 		add_mandate = 30
-		add_stability_or_adm_power = yes
-		remove_country_modifier = oblivion
-		
+		add_stability_or_adm_power = yes	
 	}
 }
 
@@ -1762,9 +1742,6 @@ country_event = { # Persecuta
 
 	option = {
 		name = imperium_events.56.a
-		add_adm_power = 15
-		add_dip_power = 15
-		add_mil_power = 30
 		solar = {
 		add_random_development = 1
 		}
@@ -1823,8 +1800,8 @@ country_event = { # Abnegation
 		highlight = yes
 		add_years_of_income = -0.33
 		add_estate_loyalty = {
-			estate = estate_eunuchs 
-			loyalty = -10
+			estate = estate_eunuchs
+			loyalty	= -10
 		}
 		add_country_modifier = {
 			name = hospitals
@@ -1847,8 +1824,8 @@ country_event = { # Old World Blues
 	fire_only_once = yes
 
 	trigger = {
-		is_year = 2025
-		tag = XXA
+		is_year = 2277
+		is_emperor_of_china = yes
 		is_at_war = no
 		
 	}

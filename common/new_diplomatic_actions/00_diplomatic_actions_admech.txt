@@ -104,7 +104,6 @@ offer_forgeworld_subjugation = {
 	require_acceptance = yes
 
 	is_visible = {
-		ROOT = {
 			AND = {
 				OR = {
 					#has_country_flag = admech_can_propose_forge_subjugation
@@ -114,7 +113,6 @@ offer_forgeworld_subjugation = {
 				}
 				religion = mechanicus
 			}
-		}
 		FROM = {
 			OR = {
 				#has_country_flag = admech_vassalisation_viable_target
