@@ -413,6 +413,8 @@ estate_necron_nobles_ownership:0 "Lords Land Ownership"
  enables_imperial_truth_tt: "Starts the §YRenassance of the Imperial Truth§! Event Chain."
  invite_into_imperium_tooltip: "Re-establish Contact with this World"
  mandate:0 "Imperial Cohesion"
+ declare_forge_world_as_mechanicus_title: "Declare Head of Mechanicus"
+ declare_forge_world_as_mechanicus_desc: "Either through disaster or distrust, the current Fabricator-General is unfit to lead the Adeptus Mechanicus. We can Declare [From.GetName] as the New Head of the Mechanicus"
  
  vassalize_imperial_worlds_decision_tt: "The Imperium of Man can use Imperial Cohesion to elevate a Nominal World to a direct Imperial World."
  vassalize_imperial_worlds_decision_ct: "The Imperium of Man can no longer elevate Nominal Worlds."

@@ -1915,13 +1915,8 @@ declare_forge_world_as_mechanicus = {
 		is_subject = no
 		OR={
 			NOT={0_mechanicus_subject_type = 1}
-			if={
-				limit={
-					NOT={0_mechanicus_subject_type = 1}
-				}
-				event_target:adeptus_mechanicus_tag={
-					NOT={num_of_provinces_in_states = 2}
-				}
+			event_target:adeptus_mechanicus_tag={
+				NOT={num_of_provinces_in_states = 2}
 			}
 			AND={
 				NOT={
@@ -1943,6 +1938,7 @@ declare_forge_world_as_mechanicus = {
 			culture_group = imperial_culture_group
 			religion = mechanicus
 			NOT={has_country_flag = refused_head_of_mechanicus}
+			NOT={tag = event_target:adeptus_mechanicus_tag}
 		}
 	}
 	is_allowed = {
@@ -2001,14 +1997,18 @@ declare_forge_world_as_mechanicus = {
 				FROM = { is_great_power = no }
 			}
 		}
-		OR = {
-			tag = XXB
-			tag = XTE
-			development = 100
+		FROM={
+			OR = {
+				tag = XXB
+				tag = XTE
+				development = 100
+			}
 		}
-		
 	}
 	on_accept = {
+		event_target:adeptus_mechanicus_tag={
+			grant_independence = yes
+		}
 		FROM={
 			save_global_event_target_as = adeptus_mechanicus_tag 
 			if = {
