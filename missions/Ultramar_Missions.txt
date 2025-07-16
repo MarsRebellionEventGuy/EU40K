@@ -269,12 +269,29 @@ Ultramarines_Branch_3 = {
 				owned_by = XSS
 				owned_by = XST
 			}
+			NOT = {
+				owner = {
+					has_opinion = {
+						who = ROOT
+						value = 180
+					}
+				}
+			}
 		}
 		
 		trigger = {
-			trust = { who = XSQ value = 70 }
-			trust = { who = XSS value = 70 }
-			trust = { who = XST value = 70 }
+			reverse_has_opinion = {
+				who = XSQ
+				value = 180
+			}
+			reverse_has_opinion = {
+				who = XSS
+				value = 180
+			}
+			reverse_has_opinion = {
+				who = XST
+				value = 180
+			}
 		}
 		
 		effect = {
@@ -296,10 +313,6 @@ Ultramarines_Branch_3 = {
 			has_adm_advisor_3 = yes
 			has_dip_advisor_3 = yes
 			has_mil_advisor_3 = yes
-			check_variable = {
-				which = XGK_Infrastructure_Count
-				value = 3
-			}	
 		}
 		
 		effect = {
