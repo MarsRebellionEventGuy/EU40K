@@ -207,7 +207,7 @@ country_event = { #Rising Star
 	}
 }
 
-country_event = { #Shining Star
+country_event = { #Legendary Bioform
 	id = indomitus_general.17
 	title = indomitus_general.17.t
 	desc = indomitus_general.17.d
@@ -750,6 +750,7 @@ country_event = { # 200% Overextension
 			name = tyr_destiny_3
 			duration = -1
 		}
+		remove_country_modifier = tyr_destiny_1
 		remove_country_modifier = tyr_destiny_2
 	}
 }
@@ -779,6 +780,8 @@ country_event = { # 250% Overextension
 			name = tyr_destiny_4
 			duration = -1
 		}
+		remove_country_modifier = tyr_destiny_1
+		remove_country_modifier = tyr_destiny_2
 		remove_country_modifier = tyr_destiny_3
 	}
 }
@@ -808,6 +811,9 @@ country_event = { # 300% Overextension
 			name = tyr_destiny_5
 			duration = -1
 		}
+		remove_country_modifier = tyr_destiny_1
+		remove_country_modifier = tyr_destiny_2
+		remove_country_modifier = tyr_destiny_3
 		remove_country_modifier = tyr_destiny_4
 	}
 }
@@ -894,6 +900,36 @@ country_event = { #Surplus
 	option = {
 		name = indomitus_general.39.a
 		add_yearly_manpower = 3
+		
+	}
+}
+
+country_event = { #A Leviathan Falls!
+	id = indomitus_general.41
+	title = indomitus_general.41.t
+	desc = indomitus_general.41.d
+	picture = HORDE_ON_HORSEBACK_eventPicture
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = XJA
+		has_won_war_against = {
+		who = XYB
+		max_years_since = 10
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+		}
+
+	option = {
+		name = indomitus_general.41.a
+		add_country_modifier = {
+			name = hydra_leviathan_falls
+			duration = 3650
+		}
 		
 	}
 }

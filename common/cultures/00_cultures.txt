@@ -518,7 +518,7 @@ imperial_culture_group = {
 			Rudvald Vandire Cythera Ludovicia LaBray Kway Ornatov Ferrindon Haarlock Winterscale Valancius Trrozant Agamemnus Aggranoza Credo Drachmar Draconis Bjargbjorn Brayne Florienborque Crimson Catallus Chimaeros Condotti Garamach Goldenherm Goreman Helmawr Ludovicia Maghernus Madellan Absoluta Ravallion Merdena Roskavier Semper Noctis Nerhm Montante Esterant Valerius Venenum Callidus Vindicare Tharcher Vought Zhi-Meng Umboldt Threstinius Turannigen Angevin Arkthine Aquairre Balorodin Bravus Grim Slayde Sahansun Rathbone Okonawk Nusa Newmarrk Karamazov Rannick Horst Mendax Lymsis Pavo Nepythys Ruthven Rassilo Smythe Spinoza Tsouras Vinculus Tormun Vandevern Greyfax Emagna Aemos Kryptman Matthias Astromar Nomandes Ravenor Rorken Astolyev almenau Staccata Talaris Thysser Valeria Vasmire Vethric Grundvald Falx Swedyr Amaros Andarion Tectos Yoranta Aranthus Tamerocca Carpinus Nompherenti
 		}
 	}
-	styken_human_culture = {
+	stryken_human_culture = {
 		male_names = {
 			Jack Tiber Ackenvol Deinos Lukas Dilen Gerard Antonid Dorian Azahel Maximillius Brakmann Dustyn Caernavar Finneax Andreas Lex Nikolaas Erwell Tyras Ursurkar Armand Mikal Cyrus Galen Leopold Syvar Kasmund Demetrius Hechtor Durov Eugenian Geinst Jarodd Dravin Konstantin Otto Stefan Harkavian Alberich Arneld Henrig Rastomar Gustav Magnus Logan Lysander Macaroth Ollanius Throm Jonathor Octavius Rask Vasquez Orsani Tyrian Sebastus Illyich Yannick Zyvan Aloysius Titus Eskolios Iocanthos Cornelius Simion Ambros Pius Cornelis Goegoric Abelard Obedath Rulf Gideon Caspiel Enos Antonius Thaddeus Iago Abdulias Phaedrus Noum Erekart Volquan Uwoma Veynd Vuneris Vardoman Drakan Trajann Raphael Jethro Giselwin Corwin Konrad Bathasos Advalle Clovis Gallianus Silas Consuldyon Luther Ignatius Ratibor Castinus
 		}
@@ -803,8 +803,6 @@ votann_culture_group = {
 
 tau_culture_group = {
 	graphical_culture = westerngfx
-	country = { has_samurai = yes }
-	province = { local_has_samurai = yes }
 	ethereal_culture = {
 		male_names = {
 			Arra'kon Aun'chau Aun'cho Aun'do Aun'fyr Aun'hhu Aun'jash Aun'kais Aun'kathl Aun'kir Aun'ko Aun'la Aun'la Aun'pau Aun'Ro Aun'shar Aun'shi Aun'taniel Aun'thel Aun'ui Aun'va Aun'vessol Aun'vos Aun'vre Aun'wei

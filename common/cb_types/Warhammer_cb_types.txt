@@ -27,6 +27,11 @@ cb_warhammer = {
 				distance = 200
 			}
 		}
+		FROM={
+			NOT={
+				is_subject_of = ROOT
+			}
+		}
 	}
 
 	war_goal = annex_country_warhammer
@@ -64,6 +69,11 @@ cb_unify_humanity = {
 			}
 		}
 		culture_group = imperial_culture_group
+		FROM={
+			NOT={
+				is_subject_of = ROOT
+			}
+		}
 	}
 
 	war_goal = warhammer_establish_nominal_world
@@ -116,3 +126,16 @@ cb_tyranid_superiority = { #Tyranid on Tyranid
 	war_goal = tyranid_superiority
 }
 	
+cb_tau_revenge_war = {
+	valid_for_subject = no
+	
+	prerequisites_self = {
+		has_country_flag = revenge_for_the_war_of_dark_revelations_flag
+	}
+
+	prerequisites = {
+		FROM = { culture = drukhari_culture } 
+	}
+	
+	war_goal = tau_revenge
+}

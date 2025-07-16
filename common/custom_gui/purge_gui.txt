@@ -2,8 +2,21 @@ custom_button = {
 	name = purge_button
 	potential = {
 		OR = {
-			NOT = { culture_group = owner }
-			NOT = { religion_group = owner }
+			AND = {
+				owner = {
+					culture_group = tau_culture_group
+				}
+				has_owner_accepted_culture = no
+			}
+			AND = {
+				owner = {
+					NOT = { culture_group = tau_culture_group }
+				}
+				OR = {
+					NOT = { culture_group = owner }
+					NOT = { religion_group = owner }
+				}
+			}
 		}
 	}
 	trigger = {
@@ -19,7 +32,10 @@ custom_button = {
 			else = {
 				mil_power = 100 
 			}
-			TAG = FROM
+			OR={
+				TAG = FROM
+				is_subject_of = FROM
+			}
 		}
 	}
 	effect = {

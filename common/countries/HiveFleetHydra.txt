@@ -1,8 +1,9 @@
-graphical_culture = westerngfx
+graphical_culture = asiangfx
 
 color = { 72 34 148 }
 
 historical_idea_groups = {
+	quantity_ideas
 
 }
 
@@ -19,7 +20,7 @@ leader_names = {
 }
 
 ship_names = {
-
+	"Behemoth" "Cerberus" "Cyclop" "Chimera" "Hydra" "Gorgon" "Minotaur" "Kraken"
 }
 
 army_names = {

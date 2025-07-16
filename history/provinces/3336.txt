@@ -1,3 +1,5 @@
+#Navigator's Quarter
+
 add_core = XXA
 owner = XXA
 controller = XXA
@@ -7,3 +9,4 @@ base_tax = 2
 base_production = 4
 base_manpower = 3
 trade_goods = archaotech
+capital = "Palace of the Navigators"

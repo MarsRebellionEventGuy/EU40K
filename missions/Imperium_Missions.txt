@@ -21,10 +21,7 @@ XXA_Branch_1 = {
 		trigger = {
 			armageddon = {
 				type = all
-				OR = {
-					is_controlled_by_imperium = yes
-					is_aeldari_world = yes
-				}
+				is_controlled_by_imperium = yes
 				religion_group = emperor_group
 			}
 		}
@@ -710,7 +707,7 @@ XXA_Branch_2 = {
 					area = vigilus
 					region = calixis_region
 					region = grendl_stars_region
-					region = styken_region
+					region = stryken_region
 					region = stygius_region
 					region = palatine_region
 					region = red_scar_region
@@ -1016,6 +1013,16 @@ XXA_Branch_3 = {
 		icon = mission_imperial_flagship
 		position = 11
 		required_missions = {  }
+		provinces_to_highlight = {
+			OR={
+				province_id = 1066
+				province_id = 3153
+				province_id = 4041
+				area = pankallis_area
+				area = golgotha_planet
+			}
+			is_controlled_by_imperium = no
+		}
 		trigger = {
 			calc_true_if = {
 				1066 = {

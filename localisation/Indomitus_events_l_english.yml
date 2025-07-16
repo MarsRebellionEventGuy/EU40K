@@ -765,3 +765,46 @@ indomitus_general.39.a:0 "Delightful."
 indomitus_general.40.t:0 "Sailor's Pledge"
 indomitus_general.40.d:0 "Times like these call for action. Our sailors have look idly upon the situation on the ground for far too long. A significant number of them has pledged their services to the armed forces. A most necessary windfall given our critical reserves of manpower, even if we have to drill them into shape."
 indomitus_general.40.a:0 "On the march."
+
+hydra_anphelion_devoured:0 "Anphelion Assimilated!"
+hydra_anphelion_devoured_desc:0 "Our brethren of the disastrous Anphelion Project have been 'integrated' into our expanding swarm."
+
+indomitus_general.41.t:0 "A Leviathan Falls!"
+indomitus_general.41.d:0 "Against all odds we have achieved victory against our larger kindred! Now we must double down in our offensive operations, for it would seem that an even newer Leviathan is rising to take the place of the old..."
+indomitus_general.41.a:0 "§YA newer Leviathan indeed.§"
+
+hydra_leviathan_falls:0 "A Newer Leviathan"
+hydra_leviathan_falls_desc:0 "The bigger they are..."
+
+hydra_leviathan_devoured:0 "Leviathan Latched!"
+hydra_leviathan_devoured_desc:0 "The biggest tendril in this section of the cosmos has been thoroughly feasted upon by our unstoppable swarm!"
+
+hydra_tiamet_devoured:0 "Tiamet Toppled!"
+hydra_tiamet_devoured_desc:0 "The secretive splinter fleet that inhabited Ziaphora have been 'integrated' into our host, along with their secrets..."
+
+hydra_tendril_devoured:0 "Tendril Tumbled!"
+hydra_tendril_devoured_desc:0 "The northern scion of the Leviathan fleet could not withstand our mighty host, which now grows ever stronger following their conquest..."
+
+hydra_ouroboros_devoured:0 "Ouroboros Obituary"
+hydra_ouroboros_devoured_desc:0 "At opposite ends of the galactic plain, we've finally located our Ouroboros bioforms just in time to write their epitaph."
+
+hydra_dagon_devoured:0 "Dagon's Downfall"
+hydra_dagon_devoured_desc:0 "Dagon's host could not have possibly fathomed when it broke into the Jericho sector all those years ago that not a T'au, Human or Aeldar would be their ultimate downfall, but a mightier Tyrannic fleet, destined for untold glory amongst the stars."
+
+hail_hydra:0 "Hail Hydra"
+hail_hydra_desc:0 "§TAll shall bow to us!§Y"
+
+lev_a_house_divided:0 "A House Divided"
+lev_a_house_divided_desc:0 "Humanity's control over it's northern holdings lay in utter ruin due to the splintering caused by the Great Rift. It would be a shame if such authority were to be permanently replaced..."
+
+lev_gauntlet:0 "Ran The Gauntlet"
+lev_gauntlet_desc:0 "After devouring everything we could find on this side of the Nachmund Gauntlet, we have deprived humanity of its key passage to galactic redemption."
+
+lev_showdown:0 "Showdown"
+lev_showdown_desc:0 "Father I have returned."
+
+lev_symphony:0 "Symphony of Destruction"
+lev_symphony_desc:0 "I bring death."
+
+lev_apex:0 "Apex"
+lev_apex_desc:0 "Eternity is beyond your reach, mortal."

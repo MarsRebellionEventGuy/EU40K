@@ -20,17 +20,17 @@ monarch_names = {
 }
 
 leader_names = {
-
+	"Lysander" "Antalcidas" "Leonidas"
 }
 
 ship_names = {
-	"Myst Reaper" "Aestra" "Medivh" "Black Rose" "Sparrow" "Laurea" "Xania" "Milo"
+	"Myst Reaper" "Aestra" "Medivh" "Black Rose" "Sparrow" "Laurea" "Xania" "Milo" "Lena" "Nalon" "Caudal" "Aller" "Sella" "Navia" "Trubia" "Deva" "Narcea" "Eo" "Esva" "Piles" "Ibias" 
 }
 
 army_names = {
-
+	"Doombringers"
 }
 
 fleet_names = {
-	"Expeditionary Force"
+	"Expeditionary Force" "Raiding Squadron" "Grand Armada"
 }

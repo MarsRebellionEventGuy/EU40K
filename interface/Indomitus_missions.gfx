@@ -121,5 +121,19 @@ spriteTypes = {
 		texturefile = "gfx/interface/mission_imperial_flagship.dds"
 	}
 
+	spriteType = {
+		name = "mission_hive_tyrant"
+		texturefile = "gfx/interface/mission_hive_tyrant.dds"
+	}
+
+	spriteType = {
+		name = "mission_tyranids_vs_astra_militarum"
+		texturefile = "gfx/interface/mission_tyranids_vs_astra_militarum.dds"
+	}
+
+	spriteType = {
+		name = "mission_hierodule"
+		texturefile = "gfx/interface/mission_hierodule.dds"
+	}
 }
 

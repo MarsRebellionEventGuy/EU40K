@@ -1,4 +1,8 @@
 music = {
+	name = "maintheme"
+	file = "maintheme.ogg"
+}
+music = {
 	name = "sol_invictus"
 	file = "sol_invictus.ogg"
 }
@@ -93,4 +97,53 @@ music = {
 music = {
 	name = "parabellum_song"
 	file = "parabellum_song.ogg"
+}
+music = {
+	name = "sanctum_song"
+	file = "sanctum_song.ogg"
+}
+music = {
+	name = "mars_song"
+	file = "mars_song.ogg"
+}
+music = {
+	name = "holy_terra_song"
+	file = "holy_terra_song.ogg"
+}
+music = {
+	name = "lost_empire_song"
+	file = "lost_empire_song.ogg"
+}
+music = {
+	name = "blessed_canticles_song"
+	file = "blessed_canticles_song.ogg"
+}
+music = {
+	name = "fallen_brothers_song"
+	file = "fallen_brothers_song.ogg"
+}
+music = {
+	name = "adeptus_mechanicus_song"
+	file = "adeptus_mechanicus_song.ogg"
+}
+
+music = {
+	name = "cybernetic_trascendence_song"
+	file = "cybernetic_trascendence_song.ogg"
+}
+music = {
+	name = "schism_of_mars_song"
+	file = "schism_of_mars_song.ogg"
+}
+music = {
+	name = "deep_in_the_mechanicum_song"
+	file = "deep_in_the_mechanicum_song.ogg"
+}
+music = {
+	name = "mechanised_creed_song"
+	file = "mechanised_creed_song.ogg"
+}
+music = {
+	name = "dominus_song"
+	file = "dominus_song.ogg"
 }

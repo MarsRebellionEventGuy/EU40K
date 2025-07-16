@@ -219,7 +219,7 @@ country_event = {
 			if = { limit = { culture = gothic_human_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_gothic_human_culture" duration = -1 } } }
 			if = { limit = { culture = stygius_human_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_stygius_human_culture" duration = -1 } } }
 			if = { limit = { culture = grail_human_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_grail_human_culture" duration = -1 } } }
-			if = { limit = { culture = styken_human_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_styken_human_culture" duration = -1 } } }
+			if = { limit = { culture = stryken_human_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_stryken_human_culture" duration = -1 } } }
 			if = { limit = { culture = askellon_human_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_askellon_human_culture" duration = -1 } } }
 			if = { limit = { culture = calixis_human_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_calixis_human_culture" duration = -1 } } }
 			if = { limit = { culture = medusan_human_culture } ROOT = { add_country_modifier = { name = "tau_assimilate_medusan_human_culture" duration = -1 } } }

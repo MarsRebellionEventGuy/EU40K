@@ -124,3 +124,34 @@ tyranid_superiority = {
 	}
 	war_name = TYRANID_UNIFICATION_NAME
 }
+
+tau_revenge = {
+	type = take_capital
+	attacker = {
+		badboy_factor = 0.5
+		prestige_factor = 2.0
+		peace_cost_factor = 1.0
+		
+		allowed_provinces = { always = yes }
+	
+		peace_options = {
+			po_demand_provinces
+			po_gold
+		}
+	}
+	
+	defender = {
+		badboy_factor = 1.0
+		prestige_factor = 1.0
+		peace_cost_factor = 1.0
+		
+		allowed_provinces = { always = yes }
+	
+		peace_options = {
+			po_demand_provinces
+			po_gold
+		}
+	}
+	
+	war_name = Dark_revelation_revenge
+}

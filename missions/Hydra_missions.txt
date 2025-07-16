@@ -1,0 +1,1003 @@
+Hydra_Branch_1 = { 
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = XJA
+	}
+
+Hydra_20 = { #Lernaen Hydra
+		icon = mission_hive_tyrant
+		required_missions = { }
+		position = 1
+		
+		provinces_to_highlight = {
+			
+			}
+		
+		
+		trigger = {
+		
+			NOT = {great_power_rank = 2}
+
+			}
+		
+		
+		effect = {
+
+			add_manpower = 20
+			add_stability_or_adm_power = yes
+		    add_permanent_power_projection = { 
+					type = 25_permanent_power_projection
+					amount = 25
+					}
+			}
+}
+
+
+Hydra_7 = { #Runaway Souls
+		icon = mission_library_macragge
+		required_missions = { Hydra_6 }
+		position = 7
+		
+		provinces_to_highlight = {
+			OR = {
+			area = eastern_necromunda
+			area = western_necromunda
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			is_city = yes
+			}
+		
+		
+		trigger = {
+			western_necromunda = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			eastern_necromunda = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			}
+		
+		
+		effect = {
+			add_manpower = 5
+		add_permanent_power_projection = { 
+					type = 10_permanent_power_projection
+					amount = 10
+					}
+
+		sabatine = {
+			
+			 
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+					is_city = yes
+				}
+				add_permanent_claim = ROOT
+				}
+				
+			}
+
+	}
+
+
+Hydra_8 = { #No Sabbath
+		icon = mission_hub_fort
+		required_missions = { Hydra_7 }
+		position = 8
+		
+		provinces_to_highlight = {
+
+			area = sabatine
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			is_city = yes
+			}
+		
+		
+		trigger = {
+			sabatine= {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			}
+		
+		
+		effect = {
+			add_army_professionalism = 0.05
+			add_stability_or_adm_power = yes
+
+		hydraphur_planet = {
+			
+			 
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+					is_city = yes
+				}
+				add_permanent_claim = ROOT
+				}
+				
+			}
+
+	}
+
+Hydra_9 = { #Fabled Dockyards
+		icon = mission_imperial_flagship
+		required_missions = { Hydra_8 }
+		position = 9
+		
+		provinces_to_highlight = {
+
+			area = hydraphur_planet
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			is_city = yes
+			}
+		
+		
+		trigger = {
+			hydraphur_planet = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
+			}
+		
+		
+		effect = {
+			add_years_of_income = 1.5
+			3522 = {
+					create_flagship = {
+						name = "Behemoth"
+						type = heavy_ship
+					}
+			}
+
+		medusan_reach_region = {
+			
+			 
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+					is_city = yes
+				}
+				add_permanent_claim = ROOT
+				}
+				
+			}
+
+	}
+
+
+Hydra_10 = { #Tiamet's Saga
+		icon = mission_imperial_nobles
+		required_missions = { Hydra_9 }
+		position = 10
+		
+		provinces_to_highlight = {
+			owner = {
+				tag = XFD
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			is_city = yes
+		}
+		
+		
+		trigger = {
+
+			NOT = { exists = XFD }
+
+		1105 = {
+			country_or_non_sovereign_subject_holds = ROOT 
+		}
+
+			}
+		
+		
+		effect = {
+			add_adm_power = 75
+			add_dip_power = 75
+			add_mil_power = 75
+			add_country_modifier = {
+				name = hydra_tiamet_devoured
+				duration = -1
+			}
+				
+			}
+
+	}
+
+}
+
+Hydra_Branch_2 = { 
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = XJA
+	}
+}
+
+Hydra_Branch_3 = { 
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = XJA
+	}
+
+	Hydra_1 = { #The Many-Headed Hydra
+		icon = mission_voidship
+		required_missions = { }
+		position = 1
+		
+		provinces_to_highlight = {
+			}
+		
+		
+		trigger = {
+			root = {has_mil_advisor = yes}
+			army_size_percentage = 1
+			navy_size_percentage = 1
+			}
+		
+		
+		effect = {
+
+		3995 = {
+			change_religion = root
+			change_culture = root
+		}
+		3994 = {
+			change_religion = root
+			change_culture = root
+		}
+		1576 = {
+			change_religion = root
+			change_culture = root
+		}
+
+		corribra_region = {
+			
+			 
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+					is_city = yes
+				}
+				add_permanent_claim = ROOT
+				}
+				
+			}
+
+	}
+	
+
+	Hydra_2 = { #Aperture
+		icon = mission_starfort
+		required_missions = { Hydra_1 }
+		position = 2
+		
+		provinces_to_highlight = {
+			region = corribra_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			is_city = yes
+			}
+		
+		
+		trigger = {
+			num_of_provinces_owned_or_owned_by_subjects_with = {
+				value = 10
+				region = corribra_region
+				}
+			}
+		
+		
+		effect = {
+			add_manpower = 5
+			add_mil_power = 200
+
+		reductus_region  = {
+			
+			 
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+					is_city = yes
+				}
+				add_permanent_claim = ROOT
+				
+				
+			}
+
+		}
+	}
+
+Hydra_3 = { #Cnidarian Outbreak
+		icon = mission_logisticarum
+		required_missions = { Hydra_2 }
+		position = 3
+		
+		provinces_to_highlight = {
+			region = reductus_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			is_city = yes
+			}
+		
+		
+		trigger = {
+			num_of_provinces_owned_or_owned_by_subjects_with = {
+				value = 13
+				region = reductus_region
+				is_city = yes
+				}
+			}
+		
+		
+		effect = {
+			add_manpower = 10
+			add_mil_power = 250
+			
+
+		inwit_cluster_region = {
+
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = XYB }
+					is_city = yes
+				}
+				add_permanent_claim = ROOT
+				
+			}
+
+		}
+	}
+
+Hydra_4 = { #Inwitian Takeover
+		icon = mission_hierodule
+		required_missions = { Hydra_3 }
+		position = 4
+		
+		provinces_to_highlight = {
+			region = inwit_cluster_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			is_city = yes
+			}
+		
+		
+		trigger = {
+			num_of_provinces_owned_or_owned_by_subjects_with = {
+				value = 10
+				region = inwit_cluster_region
+				is_city = yes
+				}
+			}
+		
+		
+		effect = {
+			add_years_of_income = 2
+			add_army_tradition = 30
+			add_navy_tradition = 30
+
+			
+
+		milkyway = {
+
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+					owner = {tag = XYE}
+					is_city = yes
+				}
+				add_core = ROOT
+				
+			}
+
+		}
+	}
+
+
+
+
+Hydra_5 = { #Anphelion Blues
+		icon = mission_genestealer_propaganda
+		required_missions = { Hydra_4 }
+		position = 5
+		
+		provinces_to_highlight = {
+			owner = {
+				tag = XYE
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			is_city = yes
+			}
+		
+		
+		trigger = {
+		
+			NOT = { exists = XYE }
+			865 = {
+				country_or_non_sovereign_subject_holds = ROOT 
+			}
+		
+		}
+		
+		
+		effect = {
+
+			XJA = { country_event = { id = indomitus_general.25 } }
+
+			add_country_modifier = {
+				name = hydra_anphelion_devoured
+				duration = -1
+			}
+			
+			
+
+		milkyway = {
+
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+					owner = {tag = XYB} 
+					is_city = yes
+				}
+				add_permanent_claim = ROOT
+				
+			}
+
+		}
+	}
+
+Hydra_6 = { #Big Brother
+		icon = mission_noctis
+		required_missions = { Hydra_5 }
+		position = 6
+		
+		provinces_to_highlight = {
+			owner = {
+				tag = XYB
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			is_city = yes
+			}
+		
+		
+		trigger = {
+		
+			NOT = { exists = XYB }
+			1123 = {
+				country_or_non_sovereign_subject_holds = ROOT 
+			}
+		
+		}
+		
+		
+		effect = {
+
+			create_units_of_type = {
+				amount = 10
+				province = 1123
+				unit_type = TyranidPrime
+			}
+			add_country_modifier = {
+				name = hydra_leviathan_devoured
+				duration = -1
+			}
+			
+			
+
+		milkyway = {
+
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+					owner = {
+						OR = {
+							tag = XTK
+							tag = XML
+							tag = XFD
+							tag = XMT
+						}
+						
+					} 
+					is_city = yes
+				}
+				add_permanent_claim = ROOT
+				
+				
+			}
+
+			eastern_necromunda = {
+				
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+					is_city = yes
+			}
+				add_permanent_claim = ROOT
+		}
+			western_necromunda = {
+				
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+					is_city = yes
+			}
+				add_permanent_claim = ROOT
+		}
+
+		mars_planet = {
+			limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+					is_city = yes
+			}
+			add_permanent_claim = ROOT
+		}
+
+		metalica_planet = {
+			limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+					is_city = yes
+			}
+			add_permanent_claim = ROOT
+		}
+		
+	}
+
+}
+
+Hydra_11 = { #The Martian
+		icon = mission_green_world
+		required_missions = { Hydra_6 }
+		position = 7
+		
+		provinces_to_highlight = {
+			area = mars_planet
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			is_city = yes
+			}
+		
+		
+		trigger = {
+		
+			mars_planet = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		
+		}
+		
+		
+		effect = {
+
+			add_splendor = 300
+			add_prestige = 50
+			add_years_of_income = 1
+			
+			1572 = {
+			add_base_production = 3
+			}
+
+			3994 = {
+			add_base_production = 3
+			}
+
+			3995 = {
+			add_base_production = 3
+			}
+
+			1576 = {
+			add_base_production = 3
+			}
+
+			1721 = {
+			add_base_production = 3
+			}
+
+
+			vigilus = {
+				
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+					is_city = yes
+			}
+				add_permanent_claim = ROOT
+		}
+		
+	}
+
+}
+
+
+Hydra_12 = { #Peacemaker 
+		icon = mission_necromunda
+		required_missions = { Hydra_11 }
+		position = 8
+		
+		provinces_to_highlight = {
+			area = vigilus
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			is_city = yes
+			}
+		
+		
+		trigger = {
+		
+			vigilus = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		
+		}
+		
+		
+		effect = {
+
+			change_estate_land_share = {
+				estate = estate_synapses
+				share = -10
+			}
+			add_army_tradition = 25
+
+
+			alaric_prime = {
+				
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+					is_city = yes
+			}
+				add_permanent_claim = ROOT
+		}
+		
+	}
+
+}
+
+Hydra_13 = { #Divide and Consume
+		icon = mission_catachan
+		required_missions = { Hydra_12 }
+		position = 9
+		
+		provinces_to_highlight = {
+			area = alaric_prime
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			is_city = yes
+			}
+		
+		
+		trigger = {
+		
+			alaric_prime = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		
+		}
+		
+		
+		effect = {
+
+			add_manpower = 15
+			add_sailors = 0.33
+
+
+			segmentum_obscurus = {
+				
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+					is_city = yes
+			}
+				add_permanent_claim = ROOT
+		}
+		
+	}
+
+}
+
+Hydra_14 = { #The Tail End
+		icon = mission_spear_of_macragge
+		required_missions = { Hydra_13 }
+		position = 10
+		
+		provinces_to_highlight = {
+			owner = {
+				OR = {
+					tag = XMT
+					tag = XML
+					
+					AND = {
+						province_id = 3146
+						province_id = 1619
+					}
+				}
+
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			is_city = yes
+			}
+		
+		
+		trigger = {
+		
+			NOT = { exists = XMT }
+
+			3146 = {
+				country_or_non_sovereign_subject_holds = ROOT 
+			}
+
+			NOT = { exists = XML }
+
+			1619 = {
+				country_or_non_sovereign_subject_holds = ROOT 
+			}
+		}
+		
+		
+		effect = {
+
+			add_years_of_income = 1
+			add_adm_power = 100
+			add_dip_power = 100
+			add_mil_power = 100
+			add_country_modifier = {
+				name = hydra_ouroboros_devoured
+				duration = -1
+			}
+			add_country_modifier = {
+				name = hydra_tendril_devoured
+				duration = -1
+			}
+
+
+			segmentum_obscurus = {
+				
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+					is_city = yes
+			}
+				add_permanent_claim = ROOT
+		}
+		
+	}
+
+}
+
+Hydra_19 = { #Hail Hydra
+		icon = mission_tyranids_vs_astra_militarum
+		required_missions = { Hydra_18 Hydra_14 Hydra_10}
+		position = 11
+		
+		provinces_to_highlight = {
+			}
+		
+		
+		trigger = {
+		
+			NOT = { exists = XTK }
+		}
+		
+		
+		effect = {
+	
+			add_country_modifier = {
+				name = hail_hydra
+				duration = -1
+					}
+
+			milkyway = {
+
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+					is_city = yes
+					}
+				add_claim  = ROOT
+			}
+			
+		}
+
+	}
+
+}
+
+Hydra_Branch_4 = { 
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = XJA
+	}
+}
+
+Hydra_Branch_5 = { 
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		tag = XJA
+	}
+
+Hydra_15 = { #For Whom The Bell Tolls
+		icon = mission_kellermorph
+		required_missions = { Hydra_6 }
+		position = 7
+		
+		provinces_to_highlight = {
+			area = metalica_planet
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			is_city = yes
+			}
+		
+		
+		trigger = {
+		
+			metalica_planet = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+				is_city = yes
+			}
+		}
+		
+		
+		effect = {
+
+			add_mil_power = 250
+			add_dip_tech = 1
+
+			dhaku = {
+				
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+					is_city = yes
+			}
+				add_permanent_claim = ROOT
+		}
+		
+	}
+
+}
+
+Hydra_16 = { #Phagocytosis
+		icon = mission_imperial_spies
+		required_missions = { Hydra_15 }
+		position = 8
+		
+		provinces_to_highlight = {
+			area = dhaku
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			is_city = yes
+			}
+		
+		
+		trigger = {
+		
+			dhaku = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+				is_city = yes
+			}
+		}
+		
+		
+		effect = {
+
+			add_manpower = 12
+			add_army_tradition = 25
+
+			calth_planet = {
+				
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+					is_city = yes
+			}
+				add_permanent_claim = ROOT
+		}
+		
+	}
+
+}
+
+Hydra_17 = { #Avengers
+		icon = mission_chapter_ultramarines
+		required_missions = { Hydra_16 }
+		position = 9
+		
+		provinces_to_highlight = {
+			area = calth_planet
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			is_city = yes
+			}
+		
+		
+		trigger = {
+		
+			calth_planet = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+				is_city = yes
+			}
+		}
+		
+		
+		effect = {
+	add_army_professionalism = 0.1
+			
+
+			jericho_sector_region = {
+				
+			 
+				
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+					is_city = yes
+					}
+				add_permanent_claim = ROOT
+			}
+			
+		}
+
+	}
+
+
+
+Hydra_18 = { #Dagon's Downfall
+		icon = mission_terra
+		required_missions = { Hydra_17 }
+		position = 10
+		
+		provinces_to_highlight = {
+			owner = {
+				tag = XTK
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			is_city = yes
+			}
+		
+		
+		trigger = {
+		
+			NOT = { exists = XTK }
+
+			4070 = {
+				country_or_non_sovereign_subject_holds = ROOT 
+			}
+		}
+		
+		
+		effect = {
+	
+			add_country_modifier = {
+				name = hydra_dagon_devoured
+				duration = -1
+			}
+
+			milkyway = {
+				
+			 
+				
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+					is_city = yes
+					}
+				add_claim  = ROOT
+			}
+		}
+	}
+}

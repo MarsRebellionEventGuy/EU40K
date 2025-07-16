@@ -1,3 +1,5 @@
+#Biovore
+
 type = artillery
 unit_type = tyranid
 

@@ -1,3 +1,5 @@
+#Summoner's Rift
+
 base_tax = 3
 base_manpower = 4
 base_production = 4
@@ -8,3 +10,4 @@ religion = cegorach
 controller = XSN
 is_city = yes
 trade_goods = clerks
+capital = "Fields of Justice"

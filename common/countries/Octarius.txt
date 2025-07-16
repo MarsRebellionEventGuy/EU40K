@@ -1,4 +1,6 @@
-graphical_culture = westerngfx
+#Ork Empire of Octarius
+
+graphical_culture = easterngfx
 
 color = { 51 79 43 }
 

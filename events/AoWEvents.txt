@@ -291,17 +291,15 @@ province_event = {
 		OR = {
 			has_province_modifier = plundered_in_war
 			has_province_modifier = famine_ignored
-			owner = {
+		}
+		owner = {
 			NOT = {has_reform = hive_fleet_reform} 
 			NOT = {has_reform = ork_government_reform} 
-			}
-
 		}
 		base_tax = 3
 		owner = {
 			is_at_war = no
 		}
-	}
 
 	mean_time_to_happen = {
 		months = 480

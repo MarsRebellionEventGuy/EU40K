@@ -450,7 +450,7 @@ gothic = {
 		}
 	}
 	outgoing = { 
-		name = "styken"
+		name = "stryken"
 		path = { 
 			1468 1460 1453 577 623 621 619 497 837 
 		}
@@ -467,7 +467,7 @@ gothic = {
 		3974 3975 3976 3977 
 	}
 }
-styken = { 
+stryken = { 
 	location = 837
 	color = { 
 		74 116 212 

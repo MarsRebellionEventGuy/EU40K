@@ -491,6 +491,11 @@
  ZoanthropeDESCR:0 "Floating synaptic organisms of immense psychic potential, Zoanthropes unleash warp blasts capable of melting tanks and minds alike. Often deployed against Humans and Necron adversaries, as they disrupt the psychic elements of these species."
  Biovore:0 "Biovore"
  BiovoreDESCR:0 "Biovores are sluggish, bloated creatures whose only task is to grow and launch Spore Mines towards the enemy at a withered pace."
+ Pyrovore:0 "Pyrovore"
+ PyrovoreDESCR:0 "Pyrovores act as support artillery for the Tyrannic hosts, as they hurl searing fireballs from their flamespurt bio-weapon on their backs; as their volatile ichors melt the target when it reached its mark"
+ Exocrine:0 "Exocrine"
+ ExocrineDESCR:0 "Exocrines are mere vessels to their powerful Bio-Plasmic Cannon seared unto their backs, its devastating plasma bolts tearing asunder the Hive Cities of mankind. However, it needs to be still for it to fire, leaving it open to retaliation."
+ 
 
  AccursedCultistTorment:0 "Accursed Cultist Torment"
  AccursedCultistTormentDESCR:0 ""
