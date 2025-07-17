@@ -128,7 +128,7 @@ country_event = {
 		if = {
 			limit = {
 				FROM = {
-					NOT = { development = 50 }			#size s
+					NOT = { total_development = 50 }			#size s
 				}
 			}
 			add_adm_power = -150 
@@ -138,8 +138,8 @@ country_event = {
 		if = {
 			limit = {
 				FROM = {
-					NOT = { development = 200 }			#size m
-					development = 50
+					NOT = { total_development = 200 }			#size m
+					total_development = 50
 				}
 			}
 			add_adm_power = -300 
@@ -149,7 +149,7 @@ country_event = {
 		if = {
 			limit = {
 				FROM = {
-					development = 200				#size l
+					total_development = 200				#size l
 				}
 			}
 			add_adm_power = -450 
