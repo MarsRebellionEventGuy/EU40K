@@ -1942,40 +1942,73 @@ dummy =
 	modifier_overlord = {
 		modifier = mechanicus_base_overlord_modifiers
 	}
+	
 	modifier_overlord = {
 		modifier = mechanicus_overlord_modifiers_5_forge_worlds
 		trigger = {
-			has_country_flag = XXB_has_less_then_5_forge_worlds
+			2={
+				NOT={
+					check_variable = {
+						which = MechanicusNbForgeWorlds
+						value = 5
+					}
+				}
+			}
 		}
 	}
 	modifier_overlord = {
 		modifier = mechanicus_overlord_modifiers_10_forge_worlds
 		trigger = {
-			has_country_flag = XXB_has_10_forge_worlds
+			2={
+				check_variable = {
+					which = MechanicusNbForgeWorlds
+					value = 10
+				}
+			}
 		}
 	}
 	modifier_overlord = {
 		modifier = mechanicus_overlord_modifiers_25_forge_worlds
 		trigger = {
-			has_country_flag = XXB_has_25_forge_worlds
+			2={
+				check_variable = {
+					which = MechanicusNbForgeWorlds
+					value = 25
+				}
+			}
 		}
 	}
 	modifier_overlord = {
 		modifier = mechanicus_overlord_modifiers_50_forge_worlds
 		trigger = {
-			has_country_flag = XXB_has_50_forge_worlds
+			2={
+				check_variable = {
+					which = MechanicusNbForgeWorlds
+					value = 50
+				}
+			}
 		}
 	}
 	modifier_overlord = {
 		modifier = mechanicus_overlord_modifiers_75_forge_worlds
 		trigger = {
-			has_country_flag = XXB_has_75_forge_worlds
+			2={
+				check_variable = {
+					which = MechanicusNbForgeWorlds
+					value = 75
+				}
+			}
 		}
 	}
 	modifier_overlord = {
 		modifier = mechanicus_overlord_modifiers_100_forge_worlds
 		trigger = {
-			has_country_flag = XXB_has_100_forge_worlds
+			2={
+				check_variable = {
+					which = MechanicusNbForgeWorlds
+					value = 100
+				}
+			}
 		}
 	}
 	modifier_overlord = {

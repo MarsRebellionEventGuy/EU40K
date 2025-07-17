@@ -152,6 +152,7 @@
  
  imperium_lost_warp_routes_disaster: "Lost Terra Warp Routes"
  dark_imperium_disaster: "Dark Imperium"
+ fall_of_the_imperium: "Fall of the Imperium"
  imperium_events.9: "Reclaiming Nullus"
 
  logos_historica_verita_decision_title: "Logos Historica Verita"
@@ -415,6 +416,8 @@ estate_necron_nobles_ownership:0 "Lords Land Ownership"
  mandate:0 "Imperial Cohesion"
  declare_forge_world_as_mechanicus_title: "Declare Head of Mechanicus"
  declare_forge_world_as_mechanicus_desc: "Either through disaster or distrust, the current Fabricator-General is unfit to lead the Adeptus Mechanicus. We can Declare [From.GetName] as the New Head of the Mechanicus"
+ BASE_ADMEC_IS_XXB: "The Adeptus Mechanicus is already Unified"
+ BASE_ADMEC_EXISTS: "Replacing Existing Fabricator-General"
  
  vassalize_imperial_worlds_decision_tt: "The Imperium of Man can use Imperial Cohesion to elevate a Nominal World to a direct Imperial World."
  vassalize_imperial_worlds_decision_ct: "The Imperium of Man can no longer elevate Nominal Worlds."

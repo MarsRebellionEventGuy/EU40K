@@ -1,4 +1,4 @@
-#Scripted effects relating to China, with or without DLC.
+#Scripted effects relating to IoM,
 
 boost_eunuchs_effect = {
 	if = {
@@ -11,188 +11,115 @@ boost_eunuchs_effect = {
 		}
 	}
 }
-boost_eunuchs_large_effect = {
-	if = {
-		limit = {
-			NOT = { has_dlc = "Mandate of Heaven" }
-		}
-		add_faction_influence = {
-			faction = enuchs
-			influence = 15
+#recalc ADMEC forge worlds
+recalc_ADMEC_forge_worlds={
+	2={
+		set_variable = {
+			which = MechanicusNbForgeWorlds
+			value = 0
 		}
 	}
-}
-reduce_eunuchs_effect = {
-	if = {
-		limit = {
-			NOT = { has_dlc = "Mandate of Heaven" }
+	event_target:adeptus_mechanicus_tag={
+		every_owned_province = {
+			limit={
+				OR={
+					has_province_modifier = minor_forge_world_mod
+					has_province_modifier = forge_world_1_mod
+					has_province_modifier = forge_world_2_mod
+					has_province_modifier = forge_world_3_mod
+					has_province_modifier = forge_world_4_mod
+					has_province_modifier = minor_forge_world_area_mod
+					has_province_modifier = forge_world_1_area_mod
+					has_province_modifier = forge_world_2_area_mod
+					has_province_modifier = forge_world_3_area_mod
+					has_province_modifier = forge_world_4_area_mod
+				}
+			}
+			2={
+				change_variable = {
+					which = MechanicusNbForgeWorlds
+					value = 1
+				}
+			}
 		}
-		add_faction_influence = {
-			faction = enuchs
-			influence = -10
+		every_subject_country={
+			every_owned_province = {
+				limit={
+					OR={
+						has_province_modifier = minor_forge_world_mod
+						has_province_modifier = forge_world_1_mod
+						has_province_modifier = forge_world_2_mod
+						has_province_modifier = forge_world_3_mod
+						has_province_modifier = forge_world_4_mod
+						has_province_modifier = minor_forge_world_area_mod
+						has_province_modifier = forge_world_1_area_mod
+						has_province_modifier = forge_world_2_area_mod
+						has_province_modifier = forge_world_3_area_mod
+						has_province_modifier = forge_world_4_area_mod
+					}
+				}
+				2={
+					change_variable = {
+						which = MechanicusNbForgeWorlds
+						value = 1
+					}
+				}
+			}
 		}
+		if = {
+				limit={
+					has_100_forge_worlds_trigger = yes
+				}
+				set_country_flag = XXB_has_100_forge_worlds
+			}
+			else={
+				clr_country_flag = XXB_has_100_forge_worlds
+			}
+			if = {
+				limit={
+					has_75_forge_worlds_trigger = yes
+				}
+				set_country_flag = XXB_has_75_forge_worlds
+			}
+			else={
+				clr_country_flag = XXB_has_75_forge_worlds
+			}
+			if = {
+				limit={
+					has_50_forge_worlds_trigger = yes
+				}
+				set_country_flag = XXB_has_50_forge_worlds
+			}
+			else={
+				clr_country_flag = XXB_has_50_forge_worlds
+			}
+			if = {
+				limit={
+					has_25_forge_worlds_trigger = yes
+				}
+				set_country_flag = XXB_has_25_forge_worlds
+			}
+			else={
+				clr_country_flag = XXB_has_25_forge_worlds
+			}
+			if = {
+				limit={
+					has_10_forge_worlds_trigger = yes
+				}
+				set_country_flag = XXB_has_10_forge_worlds
+			}
+			else={
+				clr_country_flag = XXB_has_10_forge_worlds
+			}
+			if = {
+				limit={
+					NOT={has_5_forge_worlds_trigger = yes}
+				}
+				set_country_flag = XXB_has_less_then_5_forge_worlds
+			}
+			else={
+				clr_country_flag = XXB_has_less_then_5_forge_worlds
+			}
 	}
-}
-reduce_eunuchs_large_effect = {
-	if = {
-		limit = {
-			NOT = { has_dlc = "Mandate of Heaven" }
-		}
-		add_faction_influence = {
-			faction = enuchs
-			influence = -15
-		}
-	}
-}
-
-boost_bureaucrats_effect = {
-	if = {
-		limit = {
-			NOT = { has_dlc = "Mandate of Heaven" }
-		}
-		add_faction_influence = {
-			faction = bureaucrats
-			influence = 10
-		}
-	}
-}
-boost_bureaucrats_large_effect = {
-	if = {
-		limit = {
-			NOT = { has_dlc = "Mandate of Heaven" }
-		}
-		add_faction_influence = {
-			faction = bureaucrats
-			influence = 15
-		}
-	}
-}
-reduce_bureaucrats_effect = {
-	if = {
-		limit = {
-			NOT = { has_dlc = "Mandate of Heaven" }
-		}
-		add_faction_influence = {
-			faction = bureaucrats
-			influence = -10
-		}
-	}
-}
-boost_temples_effect = {
-	if = {
-		limit = {
-			NOT = { has_dlc = "Mandate of Heaven" }
-		}
-		add_faction_influence = {
-			faction = temples
-			influence = 10
-		}
-	}
-}
-boost_temples_large_effect = {
-	if = {
-		limit = {
-			NOT = { has_dlc = "Mandate of Heaven" }
-		}
-		add_faction_influence = {
-			faction = temples
-			influence = 15
-		}
-	}
-}
-
-reduce_temples_effect = {
-	if = {
-		limit = {
-			NOT = { has_dlc = "Mandate of Heaven" }
-		}
-		add_faction_influence = {
-			faction = temples
-			influence = -10
-		}
-	}
-}
-reduce_temples_large_effect = {
-	if = {
-		limit = {
-			NOT = { has_dlc = "Mandate of Heaven" }
-		}
-		add_faction_influence = {
-			faction = temples
-			influence = -15
-		}
-	}
-}
-
-add_mandate_effect = {
-	if = {
-		limit = {
-			has_dlc = "Mandate of Heaven"
-			is_emperor_of_china = yes
-		}
-		add_mandate = 5
-	}
-}
-add_mandate_large_effect = {
-	if = {
-		limit = {
-			has_dlc = "Mandate of Heaven"
-			is_emperor_of_china = yes
-		}
-		add_mandate = 10
-	}
-}
-reduce_mandate_effect = {
-	if = {
-		limit = {
-			has_dlc = "Mandate of Heaven"
-			is_emperor_of_china = yes
-		}
-		add_mandate = -5
-	}
-}
-reduce_mandate_large_effect = {
-	if = {
-		limit = {
-			has_dlc = "Mandate of Heaven"
-			is_emperor_of_china = yes
-		}
-		add_mandate = -10
-	}
-}
-add_meritocracy_effect = {
-	if = {
-		limit = {
-			has_dlc = "Mandate of Heaven"
-			is_emperor_of_china = yes
-		}
-		add_meritocracy = 5
-	}
-}
-reduce_meritocracy_effect = {
-	if = {
-		limit = {
-			has_dlc = "Mandate of Heaven"
-			is_emperor_of_china = yes
-		}
-		add_meritocracy = -5
-	}
-}
-reduce_meritocracy_large_effect = {
-	if = {
-		limit = {
-			has_dlc = "Mandate of Heaven"
-			is_emperor_of_china = yes
-		}
-		add_meritocracy = -15
-	}
-}
-add_meritocracy_large_effect = {
-	if = {
-		limit = {
-			has_dlc = "Mandate of Heaven"
-			is_emperor_of_china = yes
-		}
-		add_meritocracy = 15
-	}
+	
 }

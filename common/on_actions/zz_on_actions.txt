@@ -645,6 +645,62 @@ on_province_owner_change = { #
 	if = {
 		limit = {
 			has_saved_global_event_target = adeptus_mechanicus_tag
+			FROM={
+				tag = event_target:adeptus_mechanicus_tag
+				is_subject_of = event_target:adeptus_mechanicus_tag
+			}
+			OR={
+				has_province_modifier = minor_forge_world_mod
+				has_province_modifier = forge_world_1_mod
+				has_province_modifier = forge_world_2_mod
+				has_province_modifier = forge_world_3_mod
+				has_province_modifier = forge_world_4_mod
+				has_province_modifier = minor_forge_world_area_mod
+				has_province_modifier = forge_world_1_area_mod
+				has_province_modifier = forge_world_2_area_mod
+				has_province_modifier = forge_world_3_area_mod
+				has_province_modifier = forge_world_4_area_mod
+			}
+		}
+		2={
+			change_variable = {
+				which = MechanicusNbForgeWorlds
+				value = -1
+			}
+		}
+	}
+	if={
+		limit={
+			has_saved_global_event_target = adeptus_mechanicus_tag
+			owner={
+				OR={
+					tag = event_target:adeptus_mechanicus_tag
+					is_subject_of = event_target:adeptus_mechanicus_tag
+				}
+			}
+			OR={
+				has_province_modifier = minor_forge_world_mod
+				has_province_modifier = forge_world_1_mod
+				has_province_modifier = forge_world_2_mod
+				has_province_modifier = forge_world_3_mod
+				has_province_modifier = forge_world_4_mod
+				has_province_modifier = minor_forge_world_area_mod
+				has_province_modifier = forge_world_1_area_mod
+				has_province_modifier = forge_world_2_area_mod
+				has_province_modifier = forge_world_3_area_mod
+				has_province_modifier = forge_world_4_area_mod
+			}
+		}
+		2={
+			change_variable = {
+				which = MechanicusNbForgeWorlds
+				value = 1
+			}
+		}
+	}
+	if = {
+		limit = {
+			has_saved_global_event_target = adeptus_mechanicus_tag
 			OR={
 				FROM={
 					tag = event_target:adeptus_mechanicus_tag

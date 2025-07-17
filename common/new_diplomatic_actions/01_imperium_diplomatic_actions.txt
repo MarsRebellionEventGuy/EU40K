@@ -2143,6 +2143,22 @@ declare_forge_world_as_mechanicus = {
 			export_to_variable = { variable_name = ai_value value = 1 }
 			multiply_variable = { which = ai_value value = 30 }
         }
+		add_entry = {
+            name = BASE_ADMEC_EXISTS
+			limit = {
+				event_target:adeptus_mechanicus_tag={exists = yes}
+			}
+			export_to_variable = { variable_name = ai_value value = 1 }
+			multiply_variable = { which = ai_value value = -30 }
+        }
+		add_entry = {
+            name = BASE_ADMEC_IS_XXB
+			limit = {
+				event_target:adeptus_mechanicus_tag={tag = XXB}
+			}
+			export_to_variable = { variable_name = ai_value value = 1 }
+			multiply_variable = { which = ai_value value = -1000 }
+        }
         add_entry = {
             name = DIPLO_OPPINION
 			export_to_variable = {
