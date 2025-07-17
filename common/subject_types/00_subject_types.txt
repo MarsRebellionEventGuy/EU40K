@@ -2913,9 +2913,10 @@ integrated_forgeworld = {
 	is_potential_overlord = {
 		OR = {
 			tag = XXB				# Mars
+			tag = XTE				# Mars
 			AND = {
 				religion = mechanicus		# large forgeworld
-				total_development = 400
+				total_development = 200
 			}
 		}
 	}
@@ -3042,6 +3043,7 @@ integrated_major_forgeworld = {
 	is_potential_overlord = {
 		OR = {
 			tag = XXB				# Mars
+			tag = XTE				# Mars
 			AND = {
 				religion = mechanicus		# large forgeworld
 				total_development = 400
