@@ -247,6 +247,7 @@
  estate_church_adeptus_ministorum: "Adeptus Ministorum Primacy"
  estate_church_adeptus_ministorum_desc: "The Ecclesiarchy has managed to make itself into a high level autonomus part of the Imperium as the Adeptus Ministorum. At the same level that the Adeptus Mechancius exists on. Even making its leader one of the High Lords of Terra."
  EST_MISSING_SYNOD_MINISTRA: "Lost the Synod Ministra on Ophelia VII: "
+ lost_right_eagles_head: "Lost the Mechanicus"
  
 estate_necron_nobles_ownership:0 "Lords Land Ownership"
  estate_necron_nobles_land_rights:0 "Establish New Lordships"

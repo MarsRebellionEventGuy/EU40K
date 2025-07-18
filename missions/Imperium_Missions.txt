@@ -1589,7 +1589,14 @@ XXA_Branch_5 = {
 				}
 			}
 		}
-		effect = { }
+		effect = { 
+			event_target:adeptus_mechanicus_tag={
+				add_adm_power = 300
+				add_dip_power = 300
+				add_mil_power = 300
+			}
+			add_stability_or_adm_power = yes
+		}
 	}
 	XXA_Cawls_project = {
 		icon = mission_build_up_to_force_limit
@@ -1624,14 +1631,44 @@ XXA_Branch_5 = {
 				}
 			}
 		}
-		effect = { }
+		effect = { 
+			add_favors = {
+			   who = event_target:adeptus_mechanicus_tag
+			   amount = 10
+			}
+			add_estate_loyalty = {
+				estate = estate_adeptus_mechanicus
+				loyalty = 10
+			}
+			event_target:adeptus_mechanicus_tag={
+				add_liberty_desire = -10
+				add_mercantilism = 5
+				add_years_of_income = 1
+			}
+		}
 	}
 	XXA_Consolidate_industry = {
 		icon = mission_build_up_to_force_limit
 		position = 8
 		required_missions = { XXA_damaged_imperium XXA_mechanicus_ties }
-		trigger = { }
-		effect = { }
+		trigger = {
+			OR={
+				2={
+					check_variable = {
+						which = MechanicusNbForgeWorlds
+						value = 15
+					}
+				} 
+				event_target:adeptus_mechanicus_tag={
+					total_own_and_non_tributary_subject_development = 250
+				}
+			}
+		}
+		effect = { 
+			event_target:adeptus_mechanicus_tag={
+				add_devotion = 20
+			}
+		}
 	}
 	XXA_pharos = {
 		icon = mission_build_up_to_force_limit
@@ -1649,9 +1686,11 @@ XXA_Branch_5 = {
 				type = all
 				country_or_subject_holds = event_target:adeptus_mechanicus_tag
 			}
-			development_in_provinces = {
-				value = 100
-				area = metalica_planet
+			event_target:adeptus_mechanicus_tag={
+				development_in_provinces = {
+					value = 100
+					area = metalica_planet
+				}
 			}
 		}
 		effect = { }

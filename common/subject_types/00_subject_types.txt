@@ -1901,6 +1901,7 @@ dummy =
 	can_have_great_projects_moved_by_overlord = no
 	
 	liberty_desire_development_ratio = 0.01
+	liberty_desire_negative_prestige = 0.1
 	base_liberty_desire = 10
 	
 	relative_power_class = 0

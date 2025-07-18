@@ -1645,3 +1645,30 @@ country_event = { # Epilogue
 		add_mandate = -10
 	}
 }
+
+country_event = { # Fall of the Mechanicus
+	id = imperium_events.61
+	title = imperium_events.61.t
+	desc = imperium_events.61.d
+	picture = VILLAGE_RAIDED_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = imperium_events.61.a
+		
+	}
+}
+country_event = { # Restoration of the Mechanicus
+	id = imperium_events.62
+	title = imperium_events.62.t
+	desc = imperium_events.62.d
+	picture = VILLAGE_RAIDED_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = imperium_events.62.a
+		
+	}
+}
