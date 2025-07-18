@@ -3,7 +3,7 @@ Nexus_Point = {
     start = 3088
 
     # Date built in real life (If you start the game at a date later than this, then the project will show up)
-    date = 1999.01.01
+    date = 2020.01.01
 
     # How much it costs to build
     build_cost = 0
