@@ -2498,7 +2498,7 @@ farm_estate = {
 
 mills = {
 	manufactory = {
-		archaotech
+		archeotech
 		scientific_equipment
 	}
 	onmap = yes

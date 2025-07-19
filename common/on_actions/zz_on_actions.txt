@@ -646,8 +646,10 @@ on_province_owner_change = { #
 		limit = {
 			has_saved_global_event_target = adeptus_mechanicus_tag
 			FROM={
-				tag = event_target:adeptus_mechanicus_tag
-				is_subject_of = event_target:adeptus_mechanicus_tag
+				OR={
+					tag = event_target:adeptus_mechanicus_tag
+					is_subject_of = event_target:adeptus_mechanicus_tag
+				}
 			}
 			OR={
 				has_province_modifier = minor_forge_world_mod

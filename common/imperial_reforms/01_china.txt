@@ -278,7 +278,7 @@ restore_imperial_truth_decision = {
 	empire = celestial_empire 
 	trigger = {
 		not = { empire_of_china_reform_passed = reform_ecclesiarchy_decision }
-		OR={
+		OR = {
 			not = {
 				estate_influence = {
 					estate = estate_inquisition
@@ -303,11 +303,13 @@ restore_imperial_truth_decision = {
 		tolerance_own = -2
 		technology_cost = -0.1
 	}
+	
+	disabled_by = reform_ecclesiarchy_decision
+	
 	on_effect = {
 		custom_tooltip = enables_imperial_truth_tt
-		hidden_effect={
+		hidden_effect = {
 			country_event = imperium_events.21
 		}
 	}
-	disabled_by = reform_ecclesiarchy_decision
 }

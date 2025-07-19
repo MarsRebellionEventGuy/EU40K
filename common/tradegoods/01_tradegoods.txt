@@ -232,7 +232,7 @@ wraithbone = { #Indomitus
 	}
 }
 
-archaotech = { #Indomitus
+archeotech = { #Indomitus
 	color = { 0.52 0.68 0.6 }
 	modifier = {
 		general_cost = -0.15
@@ -423,4 +423,160 @@ cloves = { #Unused
 
 unknown = {
 	color = { 0.5 0.5 0.5 }
+}
+
+chinaware = { #Unused
+	color = { 0.11 0.17 0.4 }
+	modifier = {
+	}
+	province = {
+	}
+
+	chance = {
+		factor = 0
+	}
+}
+
+silk = { #Unused
+	color = { 0.11 0.17 0.4 }
+	modifier = {
+	}
+	province = {
+	}
+
+	chance = {
+		factor = 0
+	}
+}
+
+copper = { #Unused
+	color = { 0.11 0.17 0.4 }
+	modifier = {
+	}
+	province = {
+	}
+
+	chance = {
+		factor = 0
+	}
+}
+
+livestock = { #Unused
+	color = { 0.11 0.17 0.4 }
+	modifier = {
+	}
+	province = {
+	}
+
+	chance = {
+		factor = 0
+	}
+}
+
+cloth = { #Unused
+	color = { 0.11 0.17 0.4 }
+	modifier = {
+	}
+	province = {
+	}
+
+	chance = {
+		factor = 0
+	}
+}
+
+paper = { #Unused
+	color = { 0.11 0.17 0.4 }
+	modifier = {
+	}
+	province = {
+	}
+
+	chance = {
+		factor = 0
+	}
+}
+
+coffee = { #Unused
+	color = { 0.11 0.17 0.4 }
+	modifier = {
+	}
+	province = {
+	}
+
+	chance = {
+		factor = 0
+	}
+}
+
+tobacco = { #Unused
+	color = { 0.11 0.17 0.4 }
+	modifier = {
+	}
+	province = {
+	}
+
+	chance = {
+		factor = 0
+	}
+}
+
+grain = { #Unused
+	color = { 0.11 0.17 0.4 }
+	modifier = {
+	}
+	province = {
+	}
+
+	chance = {
+		factor = 0
+	}
+}
+
+fur = { #Unused
+	color = { 0.11 0.17 0.4 }
+	modifier = {
+	}
+	province = {
+	}
+
+	chance = {
+		factor = 0
+	}
+}
+
+ivory = { #Unused
+	color = { 0.11 0.17 0.4 }
+	modifier = {
+	}
+	province = {
+	}
+
+	chance = {
+		factor = 0
+	}
+}
+
+cotton = { #Unused
+	color = { 0.11 0.17 0.4 }
+	modifier = {
+	}
+	province = {
+	}
+
+	chance = {
+		factor = 0
+	}
+}
+
+livestock = { #Unused
+	color = { 0.11 0.17 0.4 }
+	modifier = {
+	}
+	province = {
+	}
+
+	chance = {
+		factor = 0
+	}
 }

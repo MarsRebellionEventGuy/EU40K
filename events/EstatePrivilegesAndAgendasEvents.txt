@@ -1788,6 +1788,41 @@ country_event = {
 			factor = 0
 		}
 	}
+	
+	
+	#Seize from inquisition
+	option = {
+		name = estate_privileges_and_agendas_events.7.p
+		trigger = {
+			has_estate = estate_inquisition
+			NOT = { estate_has_exempt_from_seize_land_privilege = { estate = estate_inquisition } }
+			estate_territory = {
+				estate = estate_inquisition
+				territory = 5
+			}
+		}
+		seize_land_estate_effect = { estate = estate_inquisition }
+		ai_chance = {
+			factor = 0
+		}
+	}
+	
+	#Seize from Adeptus mechanicus
+	option = {
+		name = estate_privileges_and_agendas_events.7.p
+		trigger = {
+			has_estate = estate_adeptus_mechanicus
+			NOT = { estate_has_exempt_from_seize_land_privilege = { estate = estate_adeptus_mechanicus } }
+			estate_territory = {
+				estate = estate_adeptus_mechanicus
+				territory = 5
+			}
+		}
+		seize_land_estate_effect = { estate = estate_adeptus_mechanicus }
+		ai_chance = {
+			factor = 0
+		}
+	}
 }
 
 #Select Grand Vizier from Estate

@@ -4242,66 +4242,66 @@ estate_burghers_voc_privilege = {
 	}
 }
 
-estate_burghers_hungarian_royal_cities = {
-	icon = privilege_development_efficiency
-	max_absolutism = -5
-	land_share = 5
-	loyalty = 0.1
-	influence = 0.05
-	is_valid = {
-		has_unlocked_estate_privilege = {
-			estate_privilege = estate_burghers_hungarian_royal_cities
-		}
-	}
-	can_select = {
-	}
-	on_granted = {
-		custom_tooltip = estate_burghers_hungarian_royal_cities_tt
-		tooltip = {
-			add_province_modifier = {
-				name = estate_burghers_hungarian_royal_city_modifier
-				duration = -1
-				desc = hun_royal_province_desc
-			}
-		}
-	}
-	on_granted_province = {
-		if = {
-			limit = {
-				region = carpathia_region
-				development = 20
-				province_has_center_of_trade_of_level = 1
-			}
-			add_province_modifier = {
-				name = estate_burghers_hungarian_royal_city_modifier
-				duration = -1
-			}
-		}
-	}
-	on_revoked = {
-		custom_tooltip = estate_burghers_hungarian_royal_cities_rt
-	}
-	on_revoked_province = {
-		if = {
-			limit = { has_province_modifier = estate_burghers_hungarian_royal_city_modifier }
-			remove_province_modifier = estate_burghers_hungarian_royal_city_modifier
-		}
-	}
-	on_invalid = {
-	}
-	on_invalid_province = {
-		if = {
-			limit = { has_province_modifier = estate_burghers_hungarian_royal_city_modifier }
-			remove_province_modifier = estate_burghers_hungarian_royal_city_modifier
-		}
-	}
-	mechanics = {
-		no_estate_crownland_loss_from_developing
-	}
-	ai_will_do = {
-		factor = 100
-	}
-}
+# estate_burghers_hungarian_royal_cities = {
+	# icon = privilege_development_efficiency
+	# max_absolutism = -5
+	# land_share = 5
+	# loyalty = 0.1
+	# influence = 0.05
+	# is_valid = {
+		# has_unlocked_estate_privilege = {
+			# estate_privilege = estate_burghers_hungarian_royal_cities
+		# }
+	# }
+	# can_select = {
+	# }
+	# on_granted = {
+		# custom_tooltip = estate_burghers_hungarian_royal_cities_tt
+		# tooltip = {
+			# add_province_modifier = {
+				# name = estate_burghers_hungarian_royal_city_modifier
+				# duration = -1
+				# desc = hun_royal_province_desc
+			# }
+		# }
+	# }
+	# on_granted_province = {
+		# if = {
+			# limit = {
+				# region = carpathia_region
+				# development = 20
+				# province_has_center_of_trade_of_level = 1
+			# }
+			# add_province_modifier = {
+				# name = estate_burghers_hungarian_royal_city_modifier
+				# duration = -1
+			# }
+		# }
+	# }
+	# on_revoked = {
+		# custom_tooltip = estate_burghers_hungarian_royal_cities_rt
+	# }
+	# on_revoked_province = {
+		# if = {
+			# limit = { has_province_modifier = estate_burghers_hungarian_royal_city_modifier }
+			# remove_province_modifier = estate_burghers_hungarian_royal_city_modifier
+		# }
+	# }
+	# on_invalid = {
+	# }
+	# on_invalid_province = {
+		# if = {
+			# limit = { has_province_modifier = estate_burghers_hungarian_royal_city_modifier }
+			# remove_province_modifier = estate_burghers_hungarian_royal_city_modifier
+		# }
+	# }
+	# mechanics = {
+		# no_estate_crownland_loss_from_developing
+	# }
+	# ai_will_do = {
+		# factor = 100
+	# }
+# }
 
 estate_burghers_INC_mountain_development = {
 	icon = privilege_dev_cost_mountain
@@ -4544,105 +4544,6 @@ estate_burghers_INC_mountain_development = {
 			factor = 0
 			is_absolutism_active = yes
 		}
-	}
-}
-
-estate_burghers_MAY_support_of_chontal_maya = {
-	icon = privilege_mayan_canoes
-	loyalty = 0.1
-	influence = 0
-	max_absolutism = -10
-	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
-	is_valid = {
-		has_country_flag = MAY_chontal_maya_priv_flag
-	}
-	penalties = {
-		galley_power = -0.1
-		heavy_ship_power = -0.1
-	}
-	benefits = {
-		global_ship_trade_power = 0.25
-		trade_efficiency = 0.1
-		trade_range_modifier = 0.5
-	}
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-estate_burghers_MAY_tropical_adaptation = {
-	icon = privilege_jungle_adaptation
-	loyalty = 0.05
-	influence = 0.1
-	max_absolutism = -10
-	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
-	is_valid = {
-		is_mayan_society_trigger = yes
-	}
-	can_select = {
-		any_owned_province = {
-			has_terrain = jungle
-		}
-	}
-	on_granted = {
-		custom_tooltip = MAY_every_province_with_jungle
-		tooltip	= {
-			if = {
-				limit = {
-					has_country_flag = MAY_upgraded_privilege
-				}
-				add_province_modifier = {
-					name = MAY_jungle_reduction_upgrade
-					duration = -1
-				}
-			}
-			else = {
-				add_province_modifier = {
-					name = MAY_jungle_reduction
-					duration = -1
-				}
-			}
-		}
-	}
-	on_granted_province = {
-		if = {
-			limit = {
-				has_terrain = jungle
-			}
-			if = {
-				limit = {
-					owner = { has_country_flag = MAY_upgraded_privilege }
-				}
-				add_province_modifier = {
-					name = MAY_jungle_reduction_upgrade
-					duration = -1
-				}
-			}
-			else = {
-				add_province_modifier = {
-					name = MAY_jungle_reduction
-					duration = -1
-				}
-			}
-		}
-	}
-	on_revoked = {
-		custom_tooltip = MAY_benefits_of_the_privilege_will_be_removed
-		hidden_effect = {
-			every_owned_province = {
-				limit = {
-					OR = {
-						has_province_modifier = MAY_jungle_reduction
-						has_province_modifier = MAY_jungle_reduction_upgrade
-					}
-				}
-				remove_province_modifier = MAY_jungle_reduction
-				remove_province_modifier = MAY_jungle_reduction_upgrade
-			}
-		}
-	}
-	ai_will_do = {
-		factor = 1
 	}
 }
 

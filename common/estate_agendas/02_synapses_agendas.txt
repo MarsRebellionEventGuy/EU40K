@@ -115,9 +115,9 @@ estate_synapses_develop_x = {
 		}
     }
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_synapses
-		}
+#		on_completed_agenda_effect = {
+#			estate = estate_synapses
+#		}
 		add_estate_loyalty = {
 			estate = estate_synapses
 			loyalty = 10
@@ -262,9 +262,9 @@ estate_synapses_develop_y = {
 		}
     }
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_synapses
-		}
+#		on_completed_agenda_effect = {
+#			estate = estate_synapses
+#		}
 		add_estate_loyalty = {
 			estate = estate_synapses
 			loyalty = 10
@@ -322,9 +322,9 @@ estate_synapses_hire_advisor = {
 		}
 	}
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_synapses
-		}
+#		on_completed_agenda_effect = {
+#			estate = estate_synapses
+#		}
 		add_estate_loyalty = {
 			estate = estate_synapses
 			loyalty = 10
@@ -382,9 +382,9 @@ estate_synapses_fire_advisor = {
 		}
 	}
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_synapses
-		}
+#		on_completed_agenda_effect = {
+#			estate = estate_synapses
+#		}
 		add_estate_loyalty = {
 			estate = estate_synapses
 			loyalty = 10
@@ -647,9 +647,9 @@ estate_synapses_develop_z = {
 		}
     }
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_synapses
-		}
+#		on_completed_agenda_effect = {
+#			estate = estate_synapses
+#		}
 		add_estate_loyalty = {
 			estate = estate_synapses
 			loyalty = 10
@@ -1150,9 +1150,9 @@ estate_synapses_raze_a_province = {
 		}
 	}
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_synapses
-		}
+#		on_completed_agenda_effect = {
+#			estate = estate_synapses
+#		}
 		add_estate_loyalty = {
 			estate = estate_synapses
 			loyalty = 10
@@ -1211,9 +1211,9 @@ estate_synapses_restore_horde_unity = {
 		}
 	}
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_synapses
-		}
+#		on_completed_agenda_effect = {
+#			estate = estate_synapses
+#		}
 		add_estate_loyalty = {
 			estate = estate_synapses
 			loyalty = 10
@@ -1361,9 +1361,9 @@ estate_synapses_retake_core = {
 		}
 	}
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_synapses
-		}
+#		on_completed_agenda_effect = {
+#			estate = estate_synapses
+#		}
 		add_estate_loyalty = {
 			estate = estate_synapses
 			loyalty = 10
@@ -1426,9 +1426,9 @@ estate_synapses_crush_revolts = {
 		}
 	}
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_synapses
-		}
+#		on_completed_agenda_effect = {
+#			estate = estate_synapses
+#		}
 		add_estate_loyalty = {
 			estate = estate_synapses
 			loyalty = 10
@@ -1546,9 +1546,9 @@ estate_synapses_convert_province_culture = {
 		}
 	}
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_synapses
-		}
+#		on_completed_agenda_effect = {
+#			estate = estate_synapses
+#		}
 		add_estate_loyalty = {
 			estate = estate_synapses
 			loyalty = 10
@@ -1778,9 +1778,9 @@ estate_synapses_protect_our_culture = {
 		}
 	}
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_synapses
-		}
+#		on_completed_agenda_effect = {
+#			estate = estate_synapses
+#		}
 		if = {
 			limit = {
 				event_target:agenda_province = {
@@ -2045,9 +2045,9 @@ estate_synapses_expand_into_x = {
 		}
 	}
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_synapses
-		}
+#		on_completed_agenda_effect = {
+#			estate = estate_synapses
+#		}
 		add_estate_loyalty = {
 			estate = estate_synapses
 			loyalty = 15
@@ -2329,9 +2329,9 @@ estate_synapses_complete_conquest_of_x = {
 		}
 	}
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_synapses
-		}
+#		on_completed_agenda_effect = {
+#			estate = estate_synapses
+#		}
 		add_estate_loyalty = {
 			estate = estate_synapses
 			loyalty = 15
@@ -2435,9 +2435,9 @@ estate_synapses_build_an_army = {
 		}
 	}
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_synapses
-		}
+#		on_completed_agenda_effect = {
+#			estate = estate_synapses
+#		}
 		add_estate_loyalty = {
 			estate = estate_synapses
 			loyalty = 10
@@ -2527,9 +2527,9 @@ estate_synapses_bigger_army_than_rival = {
 		}
 	}
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_synapses
-		}
+#		on_completed_agenda_effect = {
+#			estate = estate_synapses
+#		}
 		add_estate_loyalty = {
 			estate = estate_synapses
 			loyalty = 10
@@ -2619,9 +2619,9 @@ estate_synapses_three_privileges = {
 		}
 	}
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_synapses
-		}
+#		on_completed_agenda_effect = {
+#			estate = estate_synapses
+#		}
 		add_estate_loyalty = {
 			estate = estate_synapses
 			loyalty = 20
@@ -2753,9 +2753,9 @@ estate_synapses_despoil_x = {
 		}
 	}
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_synapses
-		}
+#		on_completed_agenda_effect = {
+#			estate = estate_synapses
+#		}
 		add_estate_loyalty = {
 			estate = estate_synapses
 			loyalty = 10

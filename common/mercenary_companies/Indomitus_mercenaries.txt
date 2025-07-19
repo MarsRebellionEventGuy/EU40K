@@ -450,7 +450,7 @@ masque_midnight_sorrow = {
 				has_country_flag = harlequin_masques_unlocked
 			}
 			has_reform = black_library_reform
-			is_hre_member = yes
+			is_part_of_hre = yes
 		}
 	}
 	cost_modifier = 0.25
@@ -474,7 +474,7 @@ masque_veiled_path = {
 				has_country_flag = harlequin_masques_unlocked
 			}
 			has_reform = black_library_reform
-			is_hre_member = yes
+			is_part_of_hre = yes
 		}
 	}
 	cost_modifier = 0.25

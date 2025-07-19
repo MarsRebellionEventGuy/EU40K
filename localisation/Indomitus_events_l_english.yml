@@ -278,8 +278,8 @@ colonial.18.t:0 "Colonial Migration"
 colonial.18.d:0 "Settlements in the fringe and dynamic borders of the empire often tend to have a life of their own. The most recent example is the reshuffling of settlers in one of the colonial sectors. There is little we can do to stop them now as [Root.Owner.GetAdjective] villages and towns have already begun appearing all over the hinterlands."
 colonial.18.a:0 "The grass is greener..."
 
-colonial.19.t:0 "Archaotech Discovered!"
-colonial.19.d:0 "After countless attempts at finding the precious resource, we have finally found some Archaotech in $PROVINCENAME$."
+colonial.19.t:0 "archeotech Discovered!"
+colonial.19.d:0 "After countless attempts at finding the precious resource, we have finally found some archeotech in $PROVINCENAME$."
 colonial.19.a:0 "Finally."
 
 colonial.20.t:0 "Growth of the port of $PROVINCENAME$"
@@ -711,9 +711,9 @@ necromunda_unifier_desc:0 "After untold aeons of strife, we were the ones to fin
 cytheria_guerilla:0 "Cytheria Catachan Resistance"
 cytheria_guerilla_desc:0 "During the 3rd Sphere of Expansion Cytheria fell unto the hands of the emerging T'au entity, however, roaming bands of Catachan Jungle Fighters continue to wage a guerilla campaign on the surface."
 
-tau_events.4.t:0 "Unfortunate Son"
-tau_events.4.d:0 "By and large our occupation of Cytheria has been accepted by the human populace of the province. However, ever since the planet fell on our 3rd Sphere of Expansion, organized bands of rebellious elements have been ambushing our garrison in the tropical enviroment that dominates the landscape of the region. We will either need to double down on our pacification efforts or accept a compromise with the Catachan rebels."
-tau_events.4.a:0 "§YIt ain't me...§"
+tau_events.6.t:0 "Unfortunate Son"
+tau_events.6.d:0 "By and large our occupation of Cytheria has been accepted by the human populace of the province. However, ever since the planet fell on our 3rd Sphere of Expansion, organized bands of rebellious elements have been ambushing our garrison in the tropical enviroment that dominates the landscape of the region. We will either need to double down on our pacification efforts or accept a compromise with the Catachan rebels."
+tau_events.6.a:0 "§YIt ain't me...§"
 
 indomitus_general.32.t:0 "Rampage"
 indomitus_general.32.d:0 "Our rapid consumption of entire galactic sectors has sent shockwaves rippling through the cosmic arena. They call it madness, for us, it's only destiny."

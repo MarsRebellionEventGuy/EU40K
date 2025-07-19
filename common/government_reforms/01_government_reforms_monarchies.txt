@@ -15,7 +15,7 @@ monarchy_mechanic = {
 
 imperium_regency_reform = {
 	icon = "imperial_regency"
-	legacy_equivalent = imperium_regency
+	#legacy_equivalent  = imperium_regency
 	allow_normal_conversion = no
 	potential = {
 		tag = XXA
@@ -64,7 +64,7 @@ imperium_regency_reform = {
 imperial_governorate_reform = {
 	icon = "imperial_governorate"
 	allow_normal_conversion = no
-	legacy_equivalent = imperial_governorate
+	#legacy_equivalent  = imperial_governorate
 	potential = {
 		NOT = { tag = XXA }
 		culture_group = imperial_culture_group
@@ -120,7 +120,7 @@ imperial_governorate_reform = {
 independant_imperial_governorate_reform = {
 	icon = "imperial_governorate"
 	allow_normal_conversion = no
-	legacy_equivalent = imperial_governorate
+	#legacy_equivalent  = imperial_governorate
 	potential = {
 		NOT = { tag = XXA }
 		NOT={is_subject_of = XXA}
@@ -178,7 +178,7 @@ independant_imperial_governorate_reform = {
 imperial_knight_reform = {
 	icon = "imperial_knight"
 	allow_normal_conversion = no
-	legacy_equivalent = imperial_knight
+	#legacy_equivalent  = imperial_knight
 	potential = {
 		primary_culture = knight_culture
 	}
@@ -206,7 +206,7 @@ imperial_knight_reform = {
 chaos_knight_reform = {
 	icon = "imperial_knight"
 	allow_normal_conversion = no
-	legacy_equivalent = chaos_knight
+	#legacy_equivalent  = chaos_knight
 	potential = {
 		primary_culture = chaos_knight_culture
 	}
@@ -234,7 +234,7 @@ chaos_knight_reform = {
 necron_dynasty_reform = {
 	icon = "necron_dynasty"
 	allow_normal_conversion = no
-	legacy_equivalent = necron_dynasty
+	#legacy_equivalent  = necron_dynasty
 	potential = {
 		primary_culture = necron_culture
 	}
@@ -266,7 +266,7 @@ necron_dynasty_reform = {
 league_votann_reform = {
 	icon = "league_votann"
 	allow_normal_conversion = no
-	legacy_equivalent = league_votann
+	#legacy_equivalent  = league_votann
 	potential = {
 		primary_culture = kin_culture
 	}
@@ -295,7 +295,7 @@ league_votann_reform = {
 drukhari_cult_reform = {
 	icon = "drukhari_cult"
 	allow_normal_conversion = no
-	legacy_equivalent = drukhari_cult
+	#legacy_equivalent  = drukhari_cult
 	potential = {
 		OR={
 			primary_culture = drukhari_culture
@@ -387,6 +387,7 @@ restructure_senatorum_reform = { #Bureaucracy
 	modifiers = {
 		yearly_corruption = -0.2
 		advisor_cost = -0.15
+		eunuchs_influence_modifier = 0.1
 	}
 }
 
@@ -400,8 +401,9 @@ extend_primarchs_scourge_reform = {
 
 	allow_normal_conversion = yes
 	modifiers = {
-		all_estate_loyalty_equilibrium = 0.15
-		all_estate_influence_modifier = -0.15
+		all_estate_loyalty_equilibrium = -0.05
+		all_estate_influence_modifier = -0.05
+		governing_capacity = 150
 	}
 }
 
@@ -908,7 +910,7 @@ we_need_to_forgive_the_ethereal_reform = {
 	potential = { 
 		tag = XGG
 		ruler_has_personality = immortal_personality 
-		NOT = { exist = XGF }
+		NOT = { exists = XGF }
 	}
 	effect = {
 		remove_country_modifier = farsight_free_tau_from_ethereals
@@ -984,7 +986,7 @@ we_need_to_forgive_the_ethereal_reform = {
 autonomy_for_ophelia_reform = { #State and Religion
 	icon = "ecclesiarchy"
 	potential = {
-    		tag = XXA
+    	tag = XXA
 	}
 	trigger = {
 		869 = { country_or_non_sovereign_subject_holds = ROOT }
@@ -1002,9 +1004,10 @@ autonomy_for_ophelia_reform = { #State and Religion
 promote_omnissiah_reform = {
 	icon = "forge_world"
 	potential = {
-    		tag = XXA
+    	tag = XXA
 	}
 	trigger = {
+		has_subject_of_type = 0_mechanicus_subject_type
 	}
 
 	allow_normal_conversion = yes
@@ -1017,9 +1020,10 @@ promote_omnissiah_reform = {
 permit_imperial_truth_reform = {
 	icon = "emperor"
 	potential = {
-    		tag = XXA
+    	tag = XXA
 	}
 	trigger = {
+		empire_of_china_reform_passed = restore_imperial_truth_decision
 	}
 
 	allow_normal_conversion = yes

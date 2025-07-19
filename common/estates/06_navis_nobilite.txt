@@ -74,17 +74,35 @@ estate_navis_nobilite = {
 	color = { 35 35 150 }
 
 	privileges = {
-		estate_astartes_expand_primaris_production
-		estate_astartes_prioritize_firstborn
-		estate_astartes_enforce_codex_astartes
-		estate_astartes_laxen_codex_astartes
-		estate_astartes_expand_geneseed_tithes
-		estate_astartes_found_new_chapters
-		estate_astartes_mobilize_custodes
-		estate_astartes_mobilize_grey_knights
-		estate_astartes_order_penitent_crusades
-		estate_astartes_settle_fleet_chapters
-		estate_astartes_expand_deathwatch_recruitment
+#		estate_astartes_expand_primaris_production
+#		estate_astartes_prioritize_firstborn
+#		estate_astartes_enforce_codex_astartes
+#		estate_astartes_laxen_codex_astartes
+#		estate_astartes_expand_geneseed_tithes
+#		estate_astartes_found_new_chapters
+#		estate_astartes_mobilize_custodes
+#		estate_astartes_mobilize_grey_knights
+#		estate_astartes_order_penitent_crusades
+#		estate_astartes_settle_fleet_chapters
+#		estate_astartes_expand_deathwatch_recruitment
+# No estate_astartes_privilege file. So I add noble privileges
+
+		estate_nobles_land_rights
+		estate_nobles_nobility_primacy
+		estate_nobles_officer_corp
+		estate_nobles_levies
+		estate_nobles_advisors
+		estate_nobles_right_of_counsel
+		estate_nobles_supremacy_over_crown
+		estate_nobles_junker_primacy
+		estate_nobles_strong_duchies
+		estate_nobles_golden_liberty
+		estate_nobles_veto_heir_apparent
+		estate_nobles_monopoly_of_metals
+		estate_nobles_monopoly_of_livestock
+		estate_nobles_monopoly_of_gems
+		estate_nobles_statutory_rights
+		estate_nobles_command_of_the_military
 	}
 
 	agendas = {

@@ -116,9 +116,9 @@ estate_crypteks_develop_x = {
 		}
     }
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_crypteks
-		}
+#		on_completed_agenda_effect = {
+#			estate = estate_crypteks
+#		}
 		add_estate_loyalty = {
 			estate = estate_crypteks
 			loyalty = 10
@@ -263,9 +263,9 @@ estate_crypteks_develop_y = {
 		}
     }
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_crypteks
-		}
+#		on_completed_agenda_effect = {
+#			estate = estate_crypteks
+#		}
 		add_estate_loyalty = {
 			estate = estate_crypteks
 			loyalty = 10
@@ -323,9 +323,9 @@ estate_crypteks_hire_advisor = {
 		}
 	}
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_crypteks
-		}
+#		on_completed_agenda_effect = {
+#			estate = estate_crypteks
+#		}
 		add_estate_loyalty = {
 			estate = estate_crypteks
 			loyalty = 10
@@ -401,9 +401,9 @@ estate_crypteks_fire_advisor = {
 		}
 	}
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_crypteks
-		}
+#		on_completed_agenda_effect = {
+#			estate = estate_crypteks
+#		}
 		add_estate_loyalty = {
 			estate = estate_crypteks
 			loyalty = 10

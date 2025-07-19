@@ -7,5 +7,5 @@ culture = uhulis_human_culture
 base_tax = 2
 base_production = 1
 base_manpower = 2
-trade_goods = archaotech
+trade_goods = archeotech
 is_city = no

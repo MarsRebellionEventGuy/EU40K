@@ -996,7 +996,7 @@ country_event = { # No Step Back
 		value = -33
 	}
 	war_score_against = {
-		who = AAC
+		who = XUH
 		value = -33
 	}
 	war_score_against = {
@@ -1328,13 +1328,12 @@ province_event = { # Croatoan
 	fire_only_once = yes
 
 	trigger = {
-		owner = {
-		tag = XXA
 		colonysize = 200
 		native_ferocity = 5
 		native_hostileness = 5
+		owner = {
+			tag = XXA
 		}
-		
 	}
 
 	mean_time_to_happen = {

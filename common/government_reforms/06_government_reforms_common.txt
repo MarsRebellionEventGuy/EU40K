@@ -8,7 +8,7 @@ united_cantons_reform = {
 	}
 	valid_for_nation_designer = yes
 	nation_designer_cost = 40
-	legacy_equivalent = united_cantons_legacy
+	#legacy_equivalent  = united_cantons_legacy
 	potential = {
 		NOT = { map_setup = map_setup_random }
 		OR = {
@@ -547,7 +547,7 @@ enforced_autocracy_reform = {
 # Holy State for Jerusalem
 holy_state_reform = {
 	allow_normal_conversion = no
-	legacy_equivalent = holy_state_legacy
+	#legacy_equivalent  = holy_state_legacy
 	icon = "holy_state_reform"
 	valid_for_nation_designer = yes
 	nation_designer_trigger = {
@@ -4638,7 +4638,7 @@ ayyubid_dynasty = {
 	allow_convert = no
 	allow_normal_conversion = no
 	lock_level_when_selected = yes
-	legacy_equivalent = iqta_legacy
+	#legacy_equivalent  = iqta_legacy
 	potential = {
 		religion_group = muslim
 		primary_culture = kurdish
@@ -5301,7 +5301,7 @@ apostolic_kingdom = {
 			was_tag = HUN
 		}
 	}
-	legacy_equivalent = feudal_monarchy
+	#legacy_equivalent  = feudal_monarchy
 	valid_for_nation_designer = no
 
 	nation_designer_trigger = {
@@ -5411,7 +5411,7 @@ extend_the_unio_trium_nationum_reform = {
 imperial_hungarian_government = { #Hungarian alternative of the Imperial Austrian Monarchy
 	icon = "austrian_dual_monarchy_reform"
 	allow_normal_conversion = yes
-	legacy_equivalent = feudal_monarchy
+	#legacy_equivalent  = feudal_monarchy
 	potential = { #added via script
 		has_dlc = "Winds of Change"
 		has_unlocked_government_reform = {

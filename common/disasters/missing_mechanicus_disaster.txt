@@ -8,16 +8,12 @@ lost_right_eagles_head = {
 	
 	can_start = {
 		NOT={
-			any_subject_country={
-				is_subject_of_type = 0_mechanicus_subject_type
-			}
+			has_subject_of_type = 0_mechanicus_subject_type
 		}
 	}
 	
 	can_stop = { 
-		any_subject_country={
-			is_subject_of_type = 0_mechanicus_subject_type
-		}
+		has_subject_of_type = 0_mechanicus_subject_type
 	}
 	
 	
@@ -25,17 +21,13 @@ lost_right_eagles_head = {
 		modifier = {
 			factor = 50
 			NOT={
-				any_subject_country={
-					is_subject_of_type = 0_mechanicus_subject_type
-				}
+				has_subject_of_type = 0_mechanicus_subject_type
 			}
 		}
 	}
 	
 	can_end = {
-		any_subject_country={
-			is_subject_of_type = 0_mechanicus_subject_type
-		}
+		has_subject_of_type = 0_mechanicus_subject_type
 	}
 	
 
@@ -50,7 +42,7 @@ lost_right_eagles_head = {
 		global_prosperity_growth = -0.1
 	}
 	
-	on_start = imperium_events.61 # Oblivion
+	on_start = imperium_events.61 # Loss of a head
 	on_end = imperium_events.62 # Stabilizing an Empire
 	
 	on_monthly = {

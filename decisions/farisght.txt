@@ -1,11 +1,13 @@
 country_decisions = {
 	Move_capital_tau = {
 		potential = {
+			culture_group = tau_culture_group
 			NOT = { exists = XGF }
 			is_core = 1898 # T'au
 			NOT = { capital = 1898 }
 		}
 		allow = {
+			culture_group = tau_culture_group
 			NOT = { exists = XGF }
 			is_core = 1898 # T'au
 		}
@@ -41,4 +43,16 @@ country_decisions = {
 			}
 		}
 	}
+	
+	# test = {
+		# allow = {
+		# }
+		# effect = {
+			# inherit = XGG
+			# inherit = XGF
+		# }
+		# ai_will_do = {
+			# factor = 0
+		# }
+	# }
 }

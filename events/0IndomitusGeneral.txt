@@ -20,8 +20,8 @@ country_event = { #Warp FTL
 			name = warp_ftl
 			duration = -1  
 		}
-		remove_country_modifier = { name = webway_ftl }
-		remove_country_modifier = { name = ether_drive_ftl }
+		remove_country_modifier = webway_ftl
+		remove_country_modifier = ether_drive_ftl
 	}
 }
 
@@ -44,8 +44,8 @@ country_event = { #Webway FTL
 			name = webway_ftl
 			duration = -1  
 		}
-		remove_country_modifier = { name = warp_ftl }
-		remove_country_modifier = { name = ether_drive_ftl }
+		remove_country_modifier = warp_ftl
+		remove_country_modifier = ether_drive_ftl
 	}
 }
 
@@ -69,8 +69,8 @@ country_event = { #Tau FTL
 			name = ether_drive_ftl
 			duration = -1  
 		}
-		remove_country_modifier = { name = warp_ftl }
-		remove_country_modifier = { name = webway_ftl }
+		remove_country_modifier = warp_ftl
+		remove_country_modifier = webway_ftl
 	}
 }
 
@@ -378,9 +378,9 @@ country_event = { #Dolmen Gates
 			name = dolmen_gates
 			duration = -1  
 		}
-		remove_country_modifier = { name = webway_ftl }
-		remove_country_modifier = { name = narvhals }
-		remove_country_modifier = { name = ether_drive_ftl }
+		remove_country_modifier = webway_ftl
+		remove_country_modifier = narvhals
+		remove_country_modifier = ether_drive_ftl
 	}
 }
 
@@ -393,7 +393,7 @@ country_event = { # Sailors into Army
 
 	trigger = {
 		sailors_percentage = 0.75
-		manpower_percentage = 0
+		NOT = { manpower_percentage = 0.0 }
 		is_at_war = yes
 	}
 
