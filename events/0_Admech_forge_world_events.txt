@@ -3368,17 +3368,17 @@ province_event = {
 	desc = "admech_forge_world.24.desc"
 	picture = NOBLE_ESTATE_DEMANDS_eventPicture
 	
-	trigger = {
-		OR = {
-			has_province_modifier = mekworld_mod
-			has_province_modifier = major_mekworld_mod
-		}
-		owner = {
-			NOT = {
-				culture_group = ork_culture_group
-			}
-		}
-	}
+	# trigger = {
+		# OR = {
+			# has_province_modifier = mekworld_mod
+			# has_province_modifier = major_mekworld_mod
+		# }
+		# owner = {
+			# NOT = {
+				# culture_group = ork_culture_group
+			# }
+		# }
+	# }
 	is_triggered_only = yes
 
 	immediate = {
@@ -3436,17 +3436,17 @@ province_event = {
 	desc = "admech_forge_world.25.desc"
 	picture = NOBLE_ESTATE_DEMANDS_eventPicture
 	
-	trigger = {
-		OR = {
-			has_province_modifier = hell_forge_mod
-			has_province_modifier = major_hell_forge_mod
-		}
-		owner = {
-			NOT = {
-				culture_group = chaos_culture_group
-			}
-		}
-	}
+	# trigger = {
+		# OR = {
+			# has_province_modifier = hell_forge_mod
+			# has_province_modifier = major_hell_forge_mod
+		# }
+		# owner = {
+			# NOT = {
+				# culture_group = chaos_culture_group
+			# }
+		# }
+	# }
 	is_triggered_only = yes
 
 	immediate = {
