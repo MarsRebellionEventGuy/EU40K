@@ -127,46 +127,11 @@ ai_diplomat = {
 		}
 		modifier = {
 			factor = 2
-			tag = HAB
+			tag = XXA
 		}		
-		modifier = {
-			factor = 2
-			tag = FRA
-		}		
-		modifier = {
-			factor = 3
-			tag = BYZ
-		}
-		modifier = {
-			factor = 5
-			tag = PAP
-		}		
-		modifier = {
-			factor = 5
-			tag = MNG
-		}
-		modifier = {
-			factor = 10
-			tag = KOR
-		}
-		modifier = {
-			factor = 3
-			OR = {
-				tag = ARA
-				tag = CAS
-			}
-			NOT = { is_year = 1500 }
-		}
 		modifier = {
 			factor = 5
 			has_reform = free_city
-		}
-		modifier = {
-			factor = 5
-			OR = {
-				tag = POL
-				tag = PLC
-			}
 		}
 	}
 	icon = 3
@@ -252,10 +217,6 @@ ai_militarist = {
 			}
 		}
 		modifier = {
-			factor = 2
-			tag = MCH
-		}
-		modifier = {
 			factor = 100
 			invasion_nation = yes
 		}
@@ -268,60 +229,8 @@ ai_militarist = {
 			has_reform = steppe_horde
 		}
 		modifier = {
-			factor = 100
-			OR = {
-				has_reform = daimyo
-				has_reform = indep_daimyo
-				has_reform = shogunate
-			}
-		}
-		modifier = {
-			factor = 100
-			has_reform = chinese_warlord
-		}
-		modifier = {
 			factor = 2
 			is_march = yes
-		}
-		modifier = {
-			factor = 2
-			OR = {
-				tag = TUR
-				tag = CSU
-			}
-		}			
-		modifier = {
-			factor = 0.5
-			tag = FRA
-		}	
-		modifier = {
-			factor = 0.5
-			tag = PAP
-		}		
-		modifier = {
-			factor = 0.5
-			tag = MNG
-		}
-		modifier = {
-			factor = 0.1
-			tag = KOR
-		}
-		modifier = {
-			factor = 10
-			tag = MOS
-		}
-		modifier = {
-			factor = 15
-			OR = {
-				tag = RUS
-				tag = MJZ
-				tag = MCH
-			}
-		}
-		modifier = {
-			factor = 100
-			religion = nahuatl
-			is_religion_reformed = no
 		}
 		modifier = {
 			factor = 0.5
@@ -454,13 +363,6 @@ ai_balanced = {
 			adm = 6
 			dip = 6
 			mil = 6
-		}
-		modifier = {
-			factor = 0.2
-			OR = {
-				tag = POL
-				tag = PLC
-			}
 		}
 	}
 	icon = 6

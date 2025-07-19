@@ -106,7 +106,7 @@ offer_forgeworld_subjugation = {
 	is_visible = {
 			AND = {
 				OR = {
-					#has_country_flag = admech_can_propose_forge_subjugation
+					has_country_flag = admech_can_propose_forge_subjugation
 					NOT = { has_reform = minor_forgeworld_reform }
 					NOT = { has_reform = forge_world_reform }
 					NOT = { overlord_of = FROM }

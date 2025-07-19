@@ -1901,6 +1901,7 @@ dummy =
 	can_have_great_projects_moved_by_overlord = no
 	
 	liberty_desire_development_ratio = 0.01
+	liberty_desire_negative_prestige = 0.1
 	base_liberty_desire = 10
 	
 	relative_power_class = 0
@@ -1942,40 +1943,73 @@ dummy =
 	modifier_overlord = {
 		modifier = mechanicus_base_overlord_modifiers
 	}
+	
 	modifier_overlord = {
 		modifier = mechanicus_overlord_modifiers_5_forge_worlds
 		trigger = {
-			has_country_flag = XXB_has_less_then_5_forge_worlds
+			2={
+				NOT={
+					check_variable = {
+						which = MechanicusNbForgeWorlds
+						value = 5
+					}
+				}
+			}
 		}
 	}
 	modifier_overlord = {
 		modifier = mechanicus_overlord_modifiers_10_forge_worlds
 		trigger = {
-			has_country_flag = XXB_has_10_forge_worlds
+			2={
+				check_variable = {
+					which = MechanicusNbForgeWorlds
+					value = 10
+				}
+			}
 		}
 	}
 	modifier_overlord = {
 		modifier = mechanicus_overlord_modifiers_25_forge_worlds
 		trigger = {
-			has_country_flag = XXB_has_25_forge_worlds
+			2={
+				check_variable = {
+					which = MechanicusNbForgeWorlds
+					value = 25
+				}
+			}
 		}
 	}
 	modifier_overlord = {
 		modifier = mechanicus_overlord_modifiers_50_forge_worlds
 		trigger = {
-			has_country_flag = XXB_has_50_forge_worlds
+			2={
+				check_variable = {
+					which = MechanicusNbForgeWorlds
+					value = 50
+				}
+			}
 		}
 	}
 	modifier_overlord = {
 		modifier = mechanicus_overlord_modifiers_75_forge_worlds
 		trigger = {
-			has_country_flag = XXB_has_75_forge_worlds
+			2={
+				check_variable = {
+					which = MechanicusNbForgeWorlds
+					value = 75
+				}
+			}
 		}
 	}
 	modifier_overlord = {
 		modifier = mechanicus_overlord_modifiers_100_forge_worlds
 		trigger = {
-			has_country_flag = XXB_has_100_forge_worlds
+			2={
+				check_variable = {
+					which = MechanicusNbForgeWorlds
+					value = 100
+				}
+			}
 		}
 	}
 	modifier_overlord = {
@@ -2611,6 +2645,9 @@ shield_company_subject_type = {
 	created_by_overlord = no
 	overlord_enforce_peace_attacking = yes
 	
+	can_transfer_in_peace = no
+	can_release_in_peace = no
+	
 	relative_power_class = 1 
 	
 	pays_overlord = 0
@@ -2659,6 +2696,9 @@ deathwatch_subject_type = {
 	# Properties:
 	created_by_overlord = no
 	overlord_enforce_peace_attacking = yes
+	
+	can_transfer_in_peace = no
+	can_release_in_peace = no
 	
 	relative_power_class = 1 
 	
@@ -2713,6 +2753,9 @@ order_adepta_sororitas_subject_type = {
 	opinion_cost_to_join_offensive_wars = 50
 	opinion_cost_to_join_defensive_wars = 0
 	opinion_cost_instead_of_favors_cost = yes  
+	
+	can_transfer_in_peace = no
+	can_release_in_peace = no
 	
 	relative_power_class = 1 
 	
@@ -2913,9 +2956,10 @@ integrated_forgeworld = {
 	is_potential_overlord = {
 		OR = {
 			tag = XXB				# Mars
+			tag = XTE				# Mars
 			AND = {
 				religion = mechanicus		# large forgeworld
-				total_development = 400
+				total_development = 200
 			}
 		}
 	}
@@ -3042,6 +3086,7 @@ integrated_major_forgeworld = {
 	is_potential_overlord = {
 		OR = {
 			tag = XXB				# Mars
+			tag = XTE				# Mars
 			AND = {
 				religion = mechanicus		# large forgeworld
 				total_development = 400

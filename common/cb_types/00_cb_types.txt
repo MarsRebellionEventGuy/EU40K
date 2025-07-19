@@ -1312,28 +1312,6 @@ cb_flower_wars = {
 	war_goal = take_capital_vassalize_flower_wars
 }
 
-cb_maya_expansion = {
-
-	valid_for_subject = no
-
-	prerequisites_self = {
-		has_dlc = "El Dorado"
-		religion = mesoamerican_religion
-		is_free_or_tributary_trigger = yes
-		is_religion_reformed = no
-	}
-
-	prerequisites = {
-		FROM = {
-			NOT = { is_subject_of = ROOT }
-			religion_group = pagan
-		}
-		is_neighbor_of = FROM
-	}
-
-	war_goal = take_capital_mayan
-}
-
 # Rival Humiliate CB
 cb_humiliate_rotw = {
 	valid_for_subject = no

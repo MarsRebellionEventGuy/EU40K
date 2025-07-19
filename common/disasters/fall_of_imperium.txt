@@ -1,7 +1,7 @@
 fall_of_the_imperium = {
 	ended_by_country_breaking_to_rebels = no
 	potential = {
-		NOT = { has_country_flag = suffered_obilivion }
+		NOT = { has_country_flag = suffered_oblivion }
 		is_free_or_tributary_trigger = yes
 		normal_or_historical_nations = yes
 		is_emperor_of_china = yes

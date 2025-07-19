@@ -91,6 +91,16 @@ estate_adeptus_mechanicus = {
 		loyalty = -5
 	}
 	
+	loyalty_modifier = {
+		desc = EST_VAL_ADMEC_LOST_MARS
+		trigger = {
+			event_target:adeptus_mechanicus_tag = {
+				NOT={owns_core_province = 2}
+			}
+		}
+		loyalty = -10
+	}
+	
 		loyalty_modifier = {
 			desc = EST_VAL_MEC_LIBERTY_DESIRE_PERCENTAGE
 			trigger = {

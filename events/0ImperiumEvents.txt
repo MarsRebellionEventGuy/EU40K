@@ -445,6 +445,7 @@ country_event = { # Mankind unified
 	picture = FEAST_eventPicture
 
 	fire_only_once = yes
+	is_triggered_only = yes ##This is better as a mission reward 
 	major = yes
 
 	trigger = {
@@ -479,28 +480,29 @@ country_event = { # Galaxy Conquest
 	picture = CONQUEST_eventPicture
 
 	fire_only_once = yes
+	is_triggered_only = yes ##This is better as a mission reward 
 	major = yes
 
-	trigger = {
-		NOT = { num_of_custom_nations = 1 }
-		is_random_new_world = no
-		all_country = {
-			OR = {
-				tag = ROOT
-				AND = {
-					is_subject = yes
-					NOT = { is_subject_of_type = tributary_state }
-					overlord = {
-						NOT = { is_subject_of_type = tributary_state }
-						OR = {
-							tag = ROOT
-							is_subject_of = ROOT
-						}
-					}
-				}
-			}
-		}
-	}
+	# trigger = {
+		# NOT = { num_of_custom_nations = 1 }
+		# is_random_new_world = no
+		# all_country = {
+			# OR = {
+				# tag = ROOT
+				# AND = {
+					# is_subject = yes
+					# NOT = { is_subject_of_type = tributary_state }
+					# overlord = {
+						# NOT = { is_subject_of_type = tributary_state }
+						# OR = {
+							# tag = ROOT
+							# is_subject_of = ROOT
+						# }
+					# }
+				# }
+			# }
+		# }
+	# }
 	
 
 	mean_time_to_happen = {
@@ -585,38 +587,39 @@ country_event = { # Man's Backyard
 	picture = HUSSITE_eventPicture
 
 	fire_only_once = yes
+	is_triggered_only = yes ##This is better as a mission reward 
 	major = yes
 
-	trigger = {
-		tag = XXA
-			AND = {
-			fenris_region = {
-				type = all
-					country_or_non_sovereign_subject_holds = ROOT
+	# trigger = {
+		# tag = XXA
+			# AND = {
+			# fenris_region = {
+				# type = all
+					# country_or_non_sovereign_subject_holds = ROOT
 	
-				}
-				segmentum_solar_region = {
-				type = all
-					country_or_non_sovereign_subject_holds = ROOT
+				# }
+				# segmentum_solar_region = {
+				# type = all
+					# country_or_non_sovereign_subject_holds = ROOT
 	
-				}
-				 talis_munus_region = {
-				type = all
-					country_or_non_sovereign_subject_holds = ROOT
+				# }
+				 # talis_munus_region = {
+				# type = all
+					# country_or_non_sovereign_subject_holds = ROOT
 	
-				}
-				 trail_evisser_region = {
-				type = all
-					country_or_non_sovereign_subject_holds = ROOT
+				# }
+				 # trail_evisser_region = {
+				# type = all
+					# country_or_non_sovereign_subject_holds = ROOT
 	
-				}
-				 agripinaa_region = {
-				type = all
-					country_or_non_sovereign_subject_holds = ROOT
+				# }
+				 # agripinaa_region = {
+				# type = all
+					# country_or_non_sovereign_subject_holds = ROOT
 	
-				}
-			}
-		}
+				# }
+			# }
+		# }
 		
 
 	
@@ -674,7 +677,6 @@ country_event = { # Terran Nights
 	option = {
 		name = imperium_events.22.a
 		add_years_of_income = 0.33
-		add_mandate = 10
 	}
 }
 
@@ -701,7 +703,6 @@ country_event = { # Pearl of the Cosmos
 
 	option = {
 		name = imperium_events.23.a
-		add_mandate = 15
 		add_stability_or_adm_power = yes
 		1 = {
 		add_province_modifier = {
@@ -719,14 +720,15 @@ country_event = { # Ave Imperator
 	picture = GOOD_WITH_MONARCH_eventPicture
 
 	fire_only_once = yes
+	is_triggered_only = yes ##This is better as a mission reward 
 	
 
-	trigger = {
-		tag = XXA
-		total_development = 600
-		crown_land_share = 50
-		NOT = { corruption = 10 }
-		}
+	# trigger = {
+		# tag = XXA
+		# total_development = 600
+		# crown_land_share = 50
+		# NOT = { corruption = 10 }
+		# }
 	
 
 
@@ -744,68 +746,39 @@ country_event = { # Ave Imperator
 	}
 }
 
-country_event = { # 
-	id = imperium_events.25
-	title = imperium_events.25.t
-	desc = imperium_events.25.d
-	picture = HRE_eventPicture
+# country_event = { # A House Divided
+	# id = imperium_events.26
+	# title = imperium_events.26.t
+	# desc = imperium_events.26.d
+	# picture = CIVIL_WAR_eventPicture
 
-	fire_only_once = yes
-	
+	# fire_only_once = yes
+	# major = yes
 
-	trigger = {
-		tag = XXA
-		crown_land_share = 35
-		NOT = { corruption = 50}
-		}
-	
+	# trigger = {
+		# tag = XXA
+		# AND = {
+			# defensive_war_with = XGK
+			# defensive_war_with = XAD
+			# defensive_war_with = XXB
+			# defensive_war_with = XTE
 
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = imperium_events.25.a
-		add_mandate = 10
-		add_stability_or_adm_power = yes
-		add_corruption = -10 
-	}
-}
-
-
-country_event = { # A House Divided
-	id = imperium_events.26
-	title = imperium_events.26.t
-	desc = imperium_events.26.d
-	picture = CIVIL_WAR_eventPicture
-
-	fire_only_once = yes
-	major = yes
-
-	trigger = {
-		tag = XXA
-		AND = {
-			defensive_war_with = XGK
-			defensive_war_with = XAD
-			defensive_war_with = XXB
-			defensive_war_with = XTE
-
-		}
-	}
+		# }
+	# }
 
 	
 
-	mean_time_to_happen = {
-		days = 1
-	}
+	# mean_time_to_happen = {
+		# days = 1
+	# }
 
-	option = {
-		name = imperium_events.26.a
-		add_stability = -1
-		add_mandate = -20
-		add_prestige = -25
-		}
-}
+	# option = {
+		# name = imperium_events.26.a
+		# add_stability = -1
+		# add_mandate = -20
+		# add_prestige = -25
+		# }
+# }
 
 country_event = { # Libation
 	id = imperium_events.27
@@ -1000,35 +973,6 @@ country_event = { # Havoc
 		}
 	}
 }
-country_event = { # Overlord
-	id = imperium_events.35
-	title = imperium_events.35.t
-	desc = imperium_events.35.d
-	picture = east_slavic_WESTERNISATION_eventPicture
-
-	fire_only_once = yes
-
-	trigger = {
-		tag = XXA
-		imperial_mandate = 100
-	}
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = imperium_events.35.a
-		add_stability = 2
-		add_adm_power = 75
-		add_dip_power = 75
-		add_mil_power = 75
-		add_country_modifier = {
-			name = overlord
-			duration = -1
-		}
-	}
-}
 country_event = { # No Step Back
 	id = imperium_events.36
 	title = imperium_events.36.t
@@ -1139,18 +1083,7 @@ country_event = { # Rise
 	desc = imperium_events.37.d
 	picture = altaic_MILITARY_CAMP_eventPicture
 
-	fire_only_once = yes
-
-	trigger = {
-		tag = XXA
-		power_projection = 75
-		num_of_total_ports = 50
-		prestige = 90
-	}
-
-	mean_time_to_happen = {
-		days = 1
-	}
+	is_triggered_only = yes
 
 	option = {
 		name = imperium_events.37.a
@@ -1247,22 +1180,7 @@ country_event = { # A New Age
 	desc = imperium_events.41.d
 	picture = BARBARY_PIRATES_eventPicture
 
-	fire_only_once = yes
-
-	trigger = {
-		tag = XXA
-		num_of_explorers = 2
-		num_of_heavy_ship = 7
-		num_of_subjects = 40
-		naval_forcelimit = 75
-		naval_maintenance = 1
-		navy_tradition = 33
-		total_development = 700
-	}
-
-	mean_time_to_happen = {
-		days = 1
-	}
+	is_triggered_only = yes
 
 	option = {
 		name = imperium_events.41.a
@@ -1272,80 +1190,6 @@ country_event = { # A New Age
 			name = the_age_of_man
 			duration = -1
 		}
-	}
-}
-country_event = { # Mayflower
-	id = imperium_events.42
-	title = imperium_events.42.t
-	desc = imperium_events.42.d
-	picture = DHOW_AT_SEA_eventPicture
-
-	fire_only_once = yes
-
-	trigger = {
-		tag = XXA
-		at_war_with_religious_enemy = yes
-		grown_by_states = 7
-		great_power_rank = 1
-		naval_forcelimit = 100
-		naval_maintenance = 1
-		navy_tradition = 33
-		num_of_colonists = 2
-		has_naval_doctrine = navis_imperialis
-	}
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = imperium_events.42.a
-		random_owned_province = {
-    	limit = { has_port = yes }
-   		ROOT = {
-				7 = {
-					create_flagship = {
-						name = "Mayflower"
-						type = heavy_ship
-					}
-				}
-			}
-		}
-	
-	}
-}
-
-country_event = { # The New Colossus
-	id = imperium_events.43
-	title = imperium_events.43.t
-	desc = imperium_events.43.d
-	picture = ANGLICAN_SERMON_eventPicture
-
-	fire_only_once = yes
-
-	trigger = {
-		tag = XXA
-		is_year = 2033
-		is_at_war = yes
-		has_or_building_flagship = yes
-		grown_by_development = 400
-		total_development = XGK
-		total_development = XAD
-		
-	}
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = imperium_events.43.a
-		add_years_of_income = -0.66
-		add_country_modifier = {
-			name = the_new_colossus
-			duration = -1
-		}
-
 	}
 }
 
@@ -1475,42 +1319,6 @@ country_event = { # The Many
 	}
 }
 
-country_event = { # Last Charge
-	id = imperium_events.47
-	title = imperium_events.47.t
-	desc = imperium_events.47.d
-	picture = HUSSARS_eventPicture
-
-	fire_only_once = yes
-
-	trigger = {
-		tag = XXA
-		at_war_with_religious_enemy = yes
-		is_in_war = {
-    	duration = 1826
-		attacker_leader = ROOT
-		war_score = 10
-		}
-		num_of_generals = 1
-		army_tradition = 75
-		
-	}
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = imperium_events.47.a
-		kill_leader = {
-    	type = general
-		}
-		add_stability = -1
-		add_army_professionalism = 0.03
-		
-	}
-}
-
 province_event = { # Croatoan
 	id = imperium_events.48
 	title = imperium_events.48.t
@@ -1520,13 +1328,12 @@ province_event = { # Croatoan
 	fire_only_once = yes
 
 	trigger = {
-		owner = {
-		tag = XXA
 		colonysize = 200
 		native_ferocity = 5
 		native_hostileness = 5
+		owner = {
+			tag = XXA
 		}
-		
 	}
 
 	mean_time_to_happen = {
@@ -1748,34 +1555,6 @@ country_event = { # Persecuta
 	}
 }
 
-country_event = { # Haven
-	id = imperium_events.57
-	title = imperium_events.57.t
-	desc = imperium_events.57.d
-	picture = REVOLT_HUNGARIAN_eventPicture
-
-	fire_only_once = yes
-
-	trigger = {
-		is_year = 2005
-		tag = XXA
-		num_of_rebel_controlled_provinces = 3
-		
-	}
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = imperium_events.57.a
-		add_yearly_manpower = 0.1
-		vorlese = {
-			add_random_development = 6
-		}
-	}
-}
-
 country_event = { # Abnegation
 	id = imperium_events.58
 	title = imperium_events.58.t
@@ -1863,5 +1642,32 @@ country_event = { # Epilogue
 		name = imperium_events.60.a
 		add_stability = -1
 		add_mandate = -10
+	}
+}
+
+country_event = { # Fall of the Mechanicus
+	id = imperium_events.61
+	title = imperium_events.61.t
+	desc = imperium_events.61.d
+	picture = VILLAGE_RAIDED_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = imperium_events.61.a
+		
+	}
+}
+country_event = { # Restoration of the Mechanicus
+	id = imperium_events.62
+	title = imperium_events.62.t
+	desc = imperium_events.62.d
+	picture = VILLAGE_RAIDED_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = imperium_events.62.a
+		
 	}
 }
