@@ -87,7 +87,7 @@
  
  farsight_events.6.t: "Ark of Omen"
  farsight_events.6.d: "The Ark of Omen Unhallowed, sought a Key-Fragment located on the world of Arthas Moloch"
- farsight_events.6.a: "We need to stop Ork at all cost. They'are on Arthas Moloch"
+ farsight_events.6.a: "Orks flee on Arthas Moloch"
   
  farsight_events.7.t: "Ask Help"
  farsight_events.7.d: "Send a request for assisstance to the ethereal council. I surrender if they agree"
@@ -159,12 +159,16 @@
 #unit
  farsight_rebels_name: "Sympathizer of Farsight"
  farsight_rebels_desc: ""
- arthas_moloch_rebel_name: "Ark of Omen chaos Army"
+ farsight_rebels_title: "Sympathizer of Farsight"
+ arthas_moloch_rebel_name: "Ark of Omen chaos army"
  arthas_moloch_rebel_desc: ""
+ arthas_moloch_rebel_title: "Ark of Omen chaos army"
  
 #decision
- move_capital_tau_title: "Move the capital"
- move_capital_tau_desc: "T'au will be our capital forever"
+ Move_capital_tau_title: "Move the capital"
+ Move_capital_tau_desc: "T'au will be our capital forever"
+ Colonize_jericho_Maw_gate_title: "Jericho Maw gate"
+ Colonize_jericho_Maw_gate_desc: "Conquert le jericho maw gate will allow us to travel faster"
  
 #missions
  Fate_of_necron_title: "The fate of the necron"
