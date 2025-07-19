@@ -1020,6 +1020,8 @@ XXA_Branch_3 = {
 				province_id = 4041
 				area = pankallis_area
 				area = golgotha_planet
+				area = orrok
+				area = badab_planet
 			}
 			is_controlled_by_imperium = no
 		}
