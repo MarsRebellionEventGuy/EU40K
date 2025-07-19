@@ -67,7 +67,6 @@ arthas_moloch_rebel = {
 	
 	# Country Scope	
 	demands_enforced_effect = {
-			change_religion = chaos_undivided
-		}
+		change_religion = chaos_undivided
 	}
 }

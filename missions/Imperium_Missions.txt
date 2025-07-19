@@ -1054,6 +1054,26 @@ XXA_Branch_3 = {
 						}
 					}
 				}
+				NOT={
+					orrok = {
+						NOT={
+							OR={
+								is_controlled_by_imperium = yes
+								is_city = no
+							}
+						}
+					}
+				}
+				NOT={
+					badab_planet = {
+						NOT={
+							OR={
+								is_controlled_by_imperium = yes
+								is_city = no
+							}
+						}
+					}
+				}
 				amount = 4
 			}
 		}

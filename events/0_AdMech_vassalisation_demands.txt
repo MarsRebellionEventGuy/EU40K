@@ -1175,10 +1175,12 @@ country_event = {
 	option = {
 		name = admech_vassalisation.40.a			#minimal demands
 		trigger = {
-			FROM = [
-				AND = {	has_country_flag = admech_vassalisation_1_reduced
-						has_country_flag = admech_vassalisation_s
-			}	}
+			FROM = {
+				AND = {	
+					has_country_flag = admech_vassalisation_1_reduced
+					has_country_flag = admech_vassalisation_s
+				}	
+			}
 		}
 		hidden_effect = {
 			set_country_flag = admech_vassalisation_dummy_40a

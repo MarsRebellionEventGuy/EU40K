@@ -1094,6 +1094,7 @@ estate_nobles_strong_duchies = {
 			}
 		}
 		NOT = { has_estate_privilege = estate_nobles_french_strong_duchies }
+		is_emperor_of_china = no
 	}
 	can_select = {
 		custom_trigger_tooltip = {

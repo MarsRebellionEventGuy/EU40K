@@ -2645,6 +2645,9 @@ shield_company_subject_type = {
 	created_by_overlord = no
 	overlord_enforce_peace_attacking = yes
 	
+	can_transfer_in_peace = no
+	can_release_in_peace = no
+	
 	relative_power_class = 1 
 	
 	pays_overlord = 0
@@ -2693,6 +2696,9 @@ deathwatch_subject_type = {
 	# Properties:
 	created_by_overlord = no
 	overlord_enforce_peace_attacking = yes
+	
+	can_transfer_in_peace = no
+	can_release_in_peace = no
 	
 	relative_power_class = 1 
 	
@@ -2747,6 +2753,9 @@ order_adepta_sororitas_subject_type = {
 	opinion_cost_to_join_offensive_wars = 50
 	opinion_cost_to_join_defensive_wars = 0
 	opinion_cost_instead_of_favors_cost = yes  
+	
+	can_transfer_in_peace = no
+	can_release_in_peace = no
 	
 	relative_power_class = 1 
 	

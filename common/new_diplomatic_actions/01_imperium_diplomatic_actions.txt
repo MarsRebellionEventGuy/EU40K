@@ -2001,7 +2001,7 @@ declare_forge_world_as_mechanicus = {
 			OR = {
 				tag = XXB
 				tag = XTE
-				development = 100
+				total_development = 100
 			}
 		}
 	}
@@ -2011,65 +2011,12 @@ declare_forge_world_as_mechanicus = {
 		}
 		FROM={
 			save_global_event_target_as = adeptus_mechanicus_tag 
-			if = {
-				limit={
-					has_100_forge_worlds_trigger = yes
-				}
-				set_country_flag = XXB_has_100_forge_worlds
-			}
-			else={
-				clr_country_flag = XXB_has_100_forge_worlds
-			}
-			if = {
-				limit={
-					has_75_forge_worlds_trigger = yes
-				}
-				set_country_flag = XXB_has_75_forge_worlds
-			}
-			else={
-				clr_country_flag = XXB_has_75_forge_worlds
-			}
-			if = {
-				limit={
-					has_50_forge_worlds_trigger = yes
-				}
-				set_country_flag = XXB_has_50_forge_worlds
-			}
-			else={
-				clr_country_flag = XXB_has_50_forge_worlds
-			}
-			if = {
-				limit={
-					has_25_forge_worlds_trigger = yes
-				}
-				set_country_flag = XXB_has_25_forge_worlds
-			}
-			else={
-				clr_country_flag = XXB_has_25_forge_worlds
-			}
-			if = {
-				limit={
-					has_10_forge_worlds_trigger = yes
-				}
-				set_country_flag = XXB_has_10_forge_worlds
-			}
-			else={
-				clr_country_flag = XXB_has_10_forge_worlds
-			}
-			if = {
-				limit={
-					NOT={has_5_forge_worlds_trigger = yes}
-				}
-				set_country_flag = XXB_has_less_then_5_forge_worlds
-			}
-			else={
-				clr_country_flag = XXB_has_less_then_5_forge_worlds
-			}
 		}
 		create_subject = {
 			subject_type = 0_mechanicus_subject_type
 			subject = FROM
 		}
+		recalc_ADMEC_forge_worlds = yes
 	}
 	on_decline = {
 		FROM={
@@ -2141,7 +2088,7 @@ declare_forge_world_as_mechanicus = {
 				ROOT = { tag = XXA }
 			}
 			export_to_variable = { variable_name = ai_value value = 1 }
-			multiply_variable = { which = ai_value value = 30 }
+			multiply_variable = { which = ai_value value = 15 }
         }
 		add_entry = {
             name = BASE_ADMEC_EXISTS
@@ -2154,10 +2101,37 @@ declare_forge_world_as_mechanicus = {
 		add_entry = {
             name = BASE_ADMEC_IS_XXB
 			limit = {
-				event_target:adeptus_mechanicus_tag={tag = XXB}
+				event_target:adeptus_mechanicus_tag={ 
+					tag = XXB 
+					exists = yes
+				}
 			}
 			export_to_variable = { variable_name = ai_value value = 1 }
 			multiply_variable = { which = ai_value value = -1000 }
+        }
+		add_entry = {
+            name = BASE_ADMEC_IS_MARS
+			limit = {
+				event_target:adeptus_mechanicus_tag={ 
+					tag = XTE 
+					exists = yes
+				}
+			}
+			export_to_variable = { variable_name = ai_value value = 1 }
+			multiply_variable = { which = ai_value value = -50 }
+        }
+		add_entry = {
+            name = STRONGER_THAN_IMPERIUM
+			limit = {
+				FROM={
+					army_strength = {
+						who = ROOT
+						value = 0.66
+					}
+				}
+			}
+			export_to_variable = { variable_name = ai_value value = 1 }
+			multiply_variable = { which = ai_value value = -100 }
         }
         add_entry = {
             name = DIPLO_OPPINION
@@ -2212,7 +2186,7 @@ declare_forge_world_as_mechanicus = {
 			#4 dev = -1
 			multiply_variable = {
 				which = ai_value
-				value = -0.25
+				value = 0.25
 			}
 		}
 		add_entry = {

@@ -157,7 +157,7 @@ country_event = {
 			add_mil_power = -450
 		}
 		FROM = {
-			capital scope = {
+			capital_scope = {
 				add_base_tax = 1
 				add_base_production = 1
 				add_base_manpower = 1
@@ -2345,7 +2345,7 @@ country_event = {
 			hidden = no
 		}
 		hidden_effect = {
-			FROM = 
+			FROM = {
 				set_country_flag = admech_vassalisation_independence_war
 				country_event = {
 					id = admech_vassalisation.62
@@ -2442,5 +2442,20 @@ country_event = {
 
 			}
 		}		
+	}
+}
+
+#debug event - recalc forgeworlds
+country_event = {
+	id = admech_vassalisation.65
+	title = "admech_vassalisation.65.t"
+	desc = "admech_vassalisation.65.desc"
+	picture = CIVIL_WAR_eventPicture
+	
+	is_triggered_only = yes
+		
+	option = {
+		name = admech_vassalisation.65.a
+		recalc_ADMEC_forge_worlds = yes
 	}
 }

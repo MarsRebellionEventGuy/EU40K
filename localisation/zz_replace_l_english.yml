@@ -418,7 +418,13 @@ estate_necron_nobles_ownership:0 "Lords Land Ownership"
  declare_forge_world_as_mechanicus_title: "Declare Head of Mechanicus"
  declare_forge_world_as_mechanicus_desc: "Either through disaster or distrust, the current Fabricator-General is unfit to lead the Adeptus Mechanicus. We can Declare [From.GetName] as the New Head of the Mechanicus"
  BASE_ADMEC_IS_XXB: "The Adeptus Mechanicus is already Unified"
+ BASE_ADMEC_IS_XTE: "The Current Adeptus Mechanicus owns Mars"
+ STRONGER_THAN_IMPERIUM: "Doesn't need Imperium protection"
  BASE_ADMEC_EXISTS: "Replacing Existing Fabricator-General"
+ EST_VAL_ADMEC_LOST_MARS: "Adeptus Mechanicus lost Mars"
+ 
+ imperium_events.61.t: "The Imperiums Missing Head"
+ imperium_events.61.a: "Thankfully, The Emperor Blessed it with Two"
  
  vassalize_imperial_worlds_decision_tt: "The Imperium of Man can use Imperial Cohesion to elevate a Nominal World to a direct Imperial World."
  vassalize_imperial_worlds_decision_ct: "The Imperium of Man can no longer elevate Nominal Worlds."
