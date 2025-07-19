@@ -6,5 +6,5 @@ culture = ork_culture
 base_tax = 3
 base_production = 3
 base_manpower = 4
-trade_goods = archaoetech
+trade_goods = archeotech
 

@@ -33,7 +33,7 @@ imperium_mechanic = {
 					power_type = imperium_power
 					value = 25
 				}
-				has_completed_mission = XXA_Mission_Astartes
+				mission_completed = XXA_Mission_Astartes
 				NOT = { has_country_modifier = imperium_government_action_cost }
 			}
 			effect = {

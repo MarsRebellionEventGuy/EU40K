@@ -13,3 +13,9 @@ astartes_faction_bonus_imperium = {
 astartes_faction_bonus_drill = {
 	astartes_faction_3_influence = 0.10
 }
+
+astartes_temporary_flagship = {
+}
+
+xgk_primaris_bonus = {
+}

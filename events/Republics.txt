@@ -768,12 +768,12 @@ country_event = {
 		num_of_ports = 1
 		NOT = { colony = 1 }
 		maritime_ideas = 2
-		OR = {
-			north_america = { has_discovered = ROOT }
-			south_america = { has_discovered = ROOT }
-			south_china_region = { has_discovered = ROOT }
-			japan_region = { has_discovered = ROOT }
-		}
+#		OR = {
+#			north_america = { has_discovered = ROOT }
+#			south_america = { has_discovered = ROOT }
+#			south_china_region = { has_discovered = ROOT }
+#			japan_region = { has_discovered = ROOT }
+#		}
 		NOT = {
 			has_country_modifier = local_trade_focus
 		}

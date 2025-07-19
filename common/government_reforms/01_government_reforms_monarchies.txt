@@ -15,7 +15,7 @@ monarchy_mechanic = {
 
 imperium_regency_reform = {
 	icon = "imperial_regency"
-	legacy_equivalent = imperium_regency
+	#legacy_equivalent  = imperium_regency
 	allow_normal_conversion = no
 	potential = {
 		tag = XXA
@@ -64,7 +64,7 @@ imperium_regency_reform = {
 imperial_governorate_reform = {
 	icon = "imperial_governorate"
 	allow_normal_conversion = no
-	legacy_equivalent = imperial_governorate
+	#legacy_equivalent  = imperial_governorate
 	potential = {
 		NOT = { tag = XXA }
 		culture_group = imperial_culture_group
@@ -120,7 +120,7 @@ imperial_governorate_reform = {
 independant_imperial_governorate_reform = {
 	icon = "imperial_governorate"
 	allow_normal_conversion = no
-	legacy_equivalent = imperial_governorate
+	#legacy_equivalent  = imperial_governorate
 	potential = {
 		NOT = { tag = XXA }
 		NOT={is_subject_of = XXA}
@@ -178,7 +178,7 @@ independant_imperial_governorate_reform = {
 imperial_knight_reform = {
 	icon = "imperial_knight"
 	allow_normal_conversion = no
-	legacy_equivalent = imperial_knight
+	#legacy_equivalent  = imperial_knight
 	potential = {
 		primary_culture = knight_culture
 	}
@@ -206,7 +206,7 @@ imperial_knight_reform = {
 chaos_knight_reform = {
 	icon = "imperial_knight"
 	allow_normal_conversion = no
-	legacy_equivalent = chaos_knight
+	#legacy_equivalent  = chaos_knight
 	potential = {
 		primary_culture = chaos_knight_culture
 	}
@@ -234,7 +234,7 @@ chaos_knight_reform = {
 necron_dynasty_reform = {
 	icon = "necron_dynasty"
 	allow_normal_conversion = no
-	legacy_equivalent = necron_dynasty
+	#legacy_equivalent  = necron_dynasty
 	potential = {
 		primary_culture = necron_culture
 	}
@@ -266,7 +266,7 @@ necron_dynasty_reform = {
 league_votann_reform = {
 	icon = "league_votann"
 	allow_normal_conversion = no
-	legacy_equivalent = league_votann
+	#legacy_equivalent  = league_votann
 	potential = {
 		primary_culture = kin_culture
 	}
@@ -295,7 +295,7 @@ league_votann_reform = {
 drukhari_cult_reform = {
 	icon = "drukhari_cult"
 	allow_normal_conversion = no
-	legacy_equivalent = drukhari_cult
+	#legacy_equivalent  = drukhari_cult
 	potential = {
 		OR={
 			primary_culture = drukhari_culture
@@ -910,7 +910,7 @@ we_need_to_forgive_the_ethereal_reform = {
 	potential = { 
 		tag = XGG
 		ruler_has_personality = immortal_personality 
-		NOT = { exist = XGF }
+		NOT = { exists = XGF }
 	}
 	effect = {
 		remove_country_modifier = farsight_free_tau_from_ethereals

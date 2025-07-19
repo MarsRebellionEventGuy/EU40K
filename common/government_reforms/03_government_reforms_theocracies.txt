@@ -27,7 +27,7 @@ tau_reform = {
 		primary_culture = ethereal_culture
 	}
 	allow_normal_conversion = no
-	legacy_equivalent = tau_government
+#	legacy_equivalent = tau_government
 	icon = "tau"
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
@@ -89,7 +89,7 @@ astartes_reform = {
 		militarised_society = yes
 	}
 	allow_normal_conversion = no
-	legacy_equivalent = astartes
+#	legacy_equivalent = astartes
 	icon = "astartes"
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
@@ -130,7 +130,7 @@ death_watch_reform = {
 		militarised_society = yes
 	}
 	allow_normal_conversion = no
-	legacy_equivalent = death_watch
+#	legacy_equivalent = death_watch
 	icon = "death_watch"
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
@@ -156,7 +156,7 @@ heretic_astartes_reform = {
 		primary_culture = heretic_astartes_culture
 	}
 	allow_normal_conversion = no
-	legacy_equivalent = heretic_astartes
+#	legacy_equivalent = heretic_astartes
 	icon = "heretic_astartes"
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
@@ -201,7 +201,7 @@ chaos_forge_world_reform = {
 		primary_culture = dark_mechanicum_culture
 	}
 	allow_normal_conversion = no
-	legacy_equivalent = chaos_forge_world
+#	legacy_equivalent = chaos_forge_world
 	icon = "chaos_forge_world"
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
@@ -217,7 +217,7 @@ chaos_cult_reform = {
 		primary_culture = chaos_culture
 	}
 	allow_normal_conversion = no
-	legacy_equivalent = chaos_cult
+#	legacy_equivalent = chaos_cult
 	icon = "chaos_cult"
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
@@ -233,7 +233,7 @@ xeno_government_reform = {
 		culture_group = xeno_culture_group
 	}
 	allow_normal_conversion = no
-	legacy_equivalent = xeno_government
+#	legacy_equivalent = xeno_government
 	icon = "xeno_government"
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
@@ -248,7 +248,7 @@ craftworld_reform = {
 		primary_culture = asuryani_culture
 	}
 	allow_normal_conversion = no
-	legacy_equivalent = craftworld
+#	legacy_equivalent = craftworld
 	icon = "craftworld_reform"
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
@@ -264,7 +264,7 @@ genestealer_cult_reform = {
 		primary_culture = genestealer_culture
 	}
 	allow_normal_conversion = no
-	legacy_equivalent = genestealer_cult
+#	legacy_equivalent = genestealer_cult
 	icon = "craftworld_reform"
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
@@ -277,7 +277,7 @@ genestealer_cult_reform = {
 haemonculi_coven_reform = {
 	icon = "haemonculi_coven"
 	allow_normal_conversion = no
-	legacy_equivalent = haemonculi_coven
+#	legacy_equivalent = haemonculi_coven
 	potential = {
 		primary_culture = drukhari_culture
 		OR={
@@ -326,7 +326,7 @@ black_library_reform = {
 		tag = XSN
 	}
 	allow_normal_conversion = no
-	legacy_equivalent = craftworld
+#	legacy_equivalent = craftworld
 	icon = "craftworld_reform"
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
@@ -347,7 +347,7 @@ harlequin_masque_reform = {
 		primary_culture = harlequin_culture
 	}
 	allow_normal_conversion = no
-	legacy_equivalent = craftworld
+#	legacy_equivalent = craftworld
 	icon = "craftworld_reform"
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
@@ -367,7 +367,7 @@ holy_synod_reform = {
 		}
 	}
 	allow_normal_conversion = no
-	legacy_equivalent = holy_synod
+#	legacy_equivalent = holy_synod
 	icon = "craftworld_reform"
 	valid_for_nation_designer = no
 	nation_designer_cost = 0
@@ -388,7 +388,7 @@ lord_inquisitors_reform = {
 		}
 	}
 	allow_normal_conversion = no
-	legacy_equivalent = lord_inquisitors
+#	legacy_equivalent = lord_inquisitors
 	icon = "ballot_box"
 	valid_for_nation_designer = no
 	nation_designer_cost = 0
@@ -404,7 +404,7 @@ minor_forgeworld_reform = {
    icon = "minor_forgeworld"
    fixed_rank = 1
 	allow_normal_conversion = yes
-	legacy_equivalent = forge_world
+#	legacy_equivalent = forge_world
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0 
     potential = {
@@ -426,7 +426,7 @@ minor_forgeworld_reform = {
 forgeworld_reform = {				
    icon = "forgeworld"
 	allow_normal_conversion = yes
-	legacy_equivalent = forge_world
+#	legacy_equivalent = forge_world
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0 
     potential = {
@@ -461,7 +461,7 @@ forgeworld_reform = {
     }
 
     effect = {
-    	add_country_flag = can_propose_forge_subjugation
+    	set_country_flag = can_propose_forge_subjugation
     }
 
     removed_effect = {
@@ -506,7 +506,7 @@ xenarite_cult_reform = {				#stygies exclusive
 
    fixed_rank = 1
 	allow_normal_conversion = yes
-	legacy_equivalent = forge_world
+#	legacy_equivalent = forge_world
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0     
     modifiers = {
@@ -517,7 +517,7 @@ xenarite_cult_reform = {				#stygies exclusive
     }   
 
     effect = {
-    	add_country_flag = can_propose_forge_subjugation
+    	set_country_flag = can_propose_forge_subjugation
     }
 
     removed_effect = {
@@ -528,7 +528,7 @@ xenarite_cult_reform = {				#stygies exclusive
 mars_the_red_planet_reform = {				#mars mission reward 	#can create forgeworld subjects
    icon = "admech_mars"
 	allow_normal_conversion = yes
-	legacy_equivalent = forge_world
+#	legacy_equivalent = forge_world
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0 
     potential = {
@@ -553,7 +553,7 @@ mars_the_red_planet_reform = {				#mars mission reward 	#can create forgeworld s
     }   
 
     effect = {
-    	add_country_flag = can_propose_forge_subjugation
+    	set_country_flag = can_propose_forge_subjugation
     }
 
     removed_effect = {
@@ -574,7 +574,7 @@ quest_for_knowledge_mysteries_reform = {
 	}
 
 	allow_normal_conversion = yes
-	legacy_equivalent = forge_world
+#	legacy_equivalent = forge_world
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0 
 	modifiers = {
@@ -595,7 +595,7 @@ quest_for_knowledge_warnings_reform = {
 	}
 
 	allow_normal_conversion = yes
-	legacy_equivalent = forge_world
+#	legacy_equivalent = forge_world
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0 
 	modifiers = {
@@ -620,7 +620,7 @@ the_smart_shall_be_priests_reform = {
 
 	allow_normal_conversion = yes
 	modifiers = {
-		culture_influence_modifier = 0.05
+		church_influence_modifier = 0.05
 		church_loyalty_modifier = 0.1
 		production_efficiency = 0.1
 	}

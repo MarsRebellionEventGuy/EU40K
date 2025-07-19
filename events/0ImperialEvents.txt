@@ -24,7 +24,7 @@ country_event = {
 		name = "imperial_events.1.a"
 		switch_tag = XXA
 		XXA = {
-			integrate = event_target:my_country
+			inherit = event_target:my_country
 		}	
 	}
 	option = {

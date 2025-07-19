@@ -360,7 +360,7 @@ dependency = {
 dependency = {
 	subject_type = "autonomus_astartes_subject_type"
 	first = XXA
-	second = XAL
+	second = XUJ
 	start_date = 1000.8.20
 	end_date = 2100.8.3
 }
@@ -805,7 +805,7 @@ dependency = {
 
 dependency = {#Iron Lords are containing Barghesi
 	subject_type = "blockaded_power"
-	first = XIU
+	first = XUI
 	second = XIV
 	start_date = 1000.8.20
 	end_date = 2100.8.3

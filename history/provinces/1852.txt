@@ -6,7 +6,7 @@ culture = necron_culture
 base_tax = 5
 base_production = 5
 base_manpower = 5
-trade_goods = Minerals
+trade_goods = minerals
 
 add_permanent_province_modifier = {
 	name = fallen_forge_world_mod

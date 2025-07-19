@@ -6,5 +6,5 @@ culture = charadon_human_culture
 base_tax = 2
 base_production = 2
 base_manpower = 2
-trade_goods = archaotech
+trade_goods = archeotech
 is_city = no

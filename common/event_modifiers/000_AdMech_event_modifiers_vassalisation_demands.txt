@@ -115,7 +115,7 @@ admech_vassalisation_demands_m_dip_2 = {
 	global_ship_cost = +0.12			#buy foreign ships		
 }
 
-admech_vassalisation_demands_dip_3 = {
+admech_vassalisation_demands_m_dip_3 = {
 	naval_forcelimit_modifier = -0.12	#request for relieve fleets
 }
 

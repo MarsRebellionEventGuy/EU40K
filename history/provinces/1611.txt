@@ -6,7 +6,7 @@ culture = mechanicus_culture
 base_tax = 3
 base_production = 5
 base_manpower = 3
-trade_goods = archaotech
+trade_goods = archeotech
 
 add_permanent_province_modifier = {
 	name = forge_world_1_mod

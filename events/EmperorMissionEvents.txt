@@ -248,13 +248,13 @@ country_event = {
 			estate = all
 			share = -2
 		}
-		normandy_area = {
-			limit = {
-				owned_by = ROOT
-				is_core = NRM
-			}
-			remove_core = NRM
-		}
+		# normandy_area = {
+			# limit = {
+				# owned_by = ROOT
+				# is_core = NRM
+			# }
+			# remove_core = NRM
+		# }
 	}
 }
 

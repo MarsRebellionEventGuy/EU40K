@@ -117,10 +117,10 @@ country_decisions = {
 			}
 		}
 		effect = {
-          	change_tag = AAC					
+          	change_tag = XUH					
 			swap_non_generic_missions = yes
 			on_change_tag_effect = yes
-           	government_rank = 3 
+
             change_adm = 1
 			change_dip = 1
 			change_mil = 1
@@ -137,7 +137,7 @@ country_decisions = {
 			if = {
 				limit = {
 					has_custom_ideas = no
-					NOT = { has_idea_group = AAC_ideas }
+					NOT = { has_idea_group = XUH_ideas }
 				}
 				country_event = { id = ideagroups.1 } #Swap Ideas
 			}
@@ -369,7 +369,7 @@ country_decisions = {
 		potential = {
 			NOT = { exists = XZI }
 			OR = {
-				tag = XIU
+				tag = XUI
 				tag = XHO
 			}
 			NOT = { has_country_flag = indomitus_formed_country }

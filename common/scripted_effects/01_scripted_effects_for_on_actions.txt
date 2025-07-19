@@ -3798,16 +3798,16 @@ on_development_effect = {
 		limit = { owner = { has_country_flag = ned_unlock_flemish_urbanization_flag } region = low_countries_region development = 25 }
 		add_province_modifier = { name = ned_flemish_urbanization duration = -1 }
 	}
-    if = {
-        limit = {
-            owner = { has_estate_privilege = estate_burghers_hungarian_royal_cities }
-            NOT = { has_province_modifier = estate_burghers_hungarian_royal_city_modifier }
-            development = 20
-            region = carpathia_region
-            province_has_center_of_trade_of_level = 1
-        }
-        add_province_modifier = { name = estate_burghers_hungarian_royal_city_modifier duration = -1 }
-    }
+    # if = {
+        # limit = {
+            # owner = { has_estate_privilege = estate_burghers_hungarian_royal_cities }
+            # NOT = { has_province_modifier = estate_burghers_hungarian_royal_city_modifier }
+            # development = 20
+            # region = carpathia_region
+            # province_has_center_of_trade_of_level = 1
+        # }
+        # add_province_modifier = { name = estate_burghers_hungarian_royal_city_modifier duration = -1 }
+    # }
 	if = { 
 		limit = { owner = { has_country_modifier = pru_victory_lower_saxony_modifier } OR = { culture = saxon culture = lower_saxon } }
 		add_nationalism = -3
@@ -4539,26 +4539,26 @@ on_built_tax_building_effect = {
 
 on_capital_moved_effect = {
 	owner = {
-        if = {
-            limit = {
-                has_estate_privilege = estate_burghers_hungarian_royal_cities
-            }
-            carpathia_region = {
-                limit = {
-                    owned_by = ROOT
-                    development = 20
-                    NOT = { has_province_modifier = estate_burghers_hungarian_royal_city_modifier }
-                    province_has_center_of_trade_of_level = 1
-                }
-                add_province_modifier = {
-                    name = estate_burghers_hungarian_royal_city_modifier
-                    duration = -1
-                }
-            }
-            capital_scope = {
-                remove_province_modifier = estate_burghers_hungarian_royal_city_modifier
-            }
-        }
+        # if = {
+            # limit = {
+                # has_estate_privilege = estate_burghers_hungarian_royal_cities
+            # }
+            # carpathia_region = {
+                # limit = {
+                    # owned_by = ROOT
+                    # development = 20
+                    # NOT = { has_province_modifier = estate_burghers_hungarian_royal_city_modifier }
+                    # province_has_center_of_trade_of_level = 1
+                # }
+                # add_province_modifier = {
+                    # name = estate_burghers_hungarian_royal_city_modifier
+                    # duration = -1
+                # }
+            # }
+            # capital_scope = {
+                # remove_province_modifier = estate_burghers_hungarian_royal_city_modifier
+            # }
+        # }
 		if = {
 			limit = {
 				check_variable = {

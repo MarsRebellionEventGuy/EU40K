@@ -2382,16 +2382,16 @@ astartes_base_modifiers = {
 }
 astartes_base_overlord_modifiers = {
 	amount_of_banners = 0.05
-	total_astartes_amount = 1
-	num_astartes = 1
+#	total_astartes_amount = 1 # not a valid modifier
+#	num_astartes = 1 # not a valid modifier
 }
 autonomus_astartes_base_modifiers= {
 	
 }
 autonomus_astartes_base_overlord_modifiers={
 	amount_of_banners = 0.05
-	total_astartes_amount = 1
-	num_autonomus_astartes = 1
+#	total_astartes_amount = 1 # not a valid modifier
+#	num_autonomus_astartes = 1 # not a valid modifier
 }
 mechanicus_base_modifiers={
 	
@@ -2431,16 +2431,16 @@ nominal_imperial_world_base_modifiers={
 	
 }
 nominal_imperial_world_base_overlord_modifiers={
-	num_nominal_worlds = 1
-	total_imperial_worlds = 1
+#	num_nominal_worlds = 1 # not a valid modifier
+#	total_imperial_worlds = 1 # not a valid modifier
 }
 imperial_world_base_overlord_modifiers={
-	num_imperial_worlds = 1
-	total_imperial_worlds = 1
+#	num_imperial_worlds = 1 # not a valid modifier
+#	total_imperial_worlds = 1 # not a valid modifier
 }
 integrate_imperial_world_base_overlord_modifiers={
-	num_integrated_worlds = 1
-	total_imperial_worlds = 1
+#	num_integrated_worlds = 1 # not a valid modifier
+#	total_imperial_worlds = 1 # not a valid modifier
 }
 imperial_world_base_modifiers={
 	

@@ -225,11 +225,9 @@ on_province_owner_change = {
 		limit = {
 			AND = {
 				ROOT = { primary_culture = mechanicus_culture }
-				area = {
-					any_province = {
+				area_for_scope_province = {
 						has_province_modifier = minor_forge_world_mod
 					}
-				}
 			}
 		}
 		add_province_modifier = {
@@ -241,10 +239,8 @@ on_province_owner_change = {
 		limit = {
 			AND = {
 				ROOT = { primary_culture = mechanicus_culture }
-				area = {
-					any_province = {
-						has_province_modifier = forge_world_1_mod
-					}
+				area_for_scope_province = {
+					has_province_modifier = forge_world_1_mod
 				}
 			}
 		}
@@ -257,10 +253,8 @@ on_province_owner_change = {
 		limit = {
 			AND = {
 				ROOT = { primary_culture = mechanicus_culture }
-				area = {
-					any_province = {
-						has_province_modifier = forge_world_2_mod
-					}
+				area_for_scope_province = {
+					has_province_modifier = forge_world_2_mod
 				}
 			}
 		}
@@ -273,10 +267,8 @@ on_province_owner_change = {
 		limit = {
 			AND = {
 				ROOT = { primary_culture = mechanicus_culture }
-				area = {
-					any_province = {
-						has_province_modifier = forge_world_3_mod
-					}
+				area_for_scope_province = {
+					has_province_modifier = forge_world_3_mod
 				}
 			}
 		}
@@ -289,10 +281,8 @@ on_province_owner_change = {
 		limit = {
 			AND = {
 				ROOT = { primary_culture = mechanicus_culture }
-				area = {
-					any_province = {
-						has_province_modifier = forge_world_4_mod
-					}
+				area_for_scope_province = {
+					has_province_modifier = forge_world_4_mod
 				}
 			}
 		}

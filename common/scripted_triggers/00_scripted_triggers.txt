@@ -1907,11 +1907,11 @@ has_any_colonist_idea = {
 		has_idea = lon_conquistadores
 		has_idea = nzh_expand_to_the_east
 		has_idea = hdr_distant_diplomacy	#Colonist is in the ambition
-		has_idea = AUS_outback_stations
+#		has_idea = AUS_outback_stations
 		has_idea = NZL_pokarekare_ana	#Colonist is in the ambition
 		has_idea = WSI_Colonial_Legacy	#Colonist is in the ambition
-		has_idea = asu_colonialism
-		has_idea = adu_expeditionary_sentiment
+#		has_idea = asu_colonialism
+#		has_idea = adu_expeditionary_sentiment
 		has_idea = ICE_nationalism	#Colonist is in the ambition
 		has_idea = maj_nusa_tenggara
 	}
@@ -4443,22 +4443,22 @@ INC_has_any_provinces_to_colonize_with_trigger = {
 	}
 }
 
-has_generic_maya_missions = {
-	OR = {
-		tag = CNP #Can Pech
-		tag = XIU #Xiu
-		tag = YOK #Yokotan 
-		tag = MAY #Maya
-		tag = LAC #Tzotzil
-		tag = COC #Cocomes
-		tag = CTM #Chactemal
-		tag = KIC #K'iche
-		tag = KAQ #Kaqkichel
-		tag = CHT #Chorti
-		tag = ITZ #Itza
-		tag = HST #Huastec
-	}
-}
+# has_generic_maya_missions = {
+	# OR = {
+		# tag = CNP #Can Pech
+		# tag = XIU #Xiu
+		# tag = YOK #Yokotan 
+		# tag = MAY #Maya
+		# tag = LAC #Tzotzil
+		# tag = COC #Cocomes
+		# tag = CTM #Chactemal
+		# tag = KIC #K'iche
+		# tag = KAQ #Kaqkichel
+		# tag = CHT #Chorti
+		# tag = ITZ #Itza
+		# tag = HST #Huastec
+	# }
+# }
 
 is_in_mesoamerica_trigger = {
 	OR = {

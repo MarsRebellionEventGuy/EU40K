@@ -138,504 +138,504 @@ estate_church = {
 		}
 	}
 	loyalty_modifier = {
-			desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
-			trigger = {
-				event_target:adeptus_ministorum_tag = {
-					liberty_desire = 50
-					NOT={liberty_desire = 51}
-				}
+		desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
+		trigger = {
+			event_target:adeptus_ministorum_tag = {
+				liberty_desire = 50
+				NOT={liberty_desire = 51}
 			}
-			loyalty = -1
 		}
-		loyalty_modifier = {
-			desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
-			trigger = {
-				event_target:adeptus_ministorum_tag = {
-					liberty_desire = 51
-					NOT={liberty_desire = 52}
-				}
+		loyalty = -1
+	}
+	loyalty_modifier = {
+		desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
+		trigger = {
+			event_target:adeptus_ministorum_tag = {
+				liberty_desire = 51
+				NOT={liberty_desire = 52}
 			}
-			loyalty = -2
 		}
-		loyalty_modifier = {
-			desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
-			trigger = {
-				event_target:adeptus_ministorum_tag = {
-					liberty_desire = 53
-					NOT={liberty_desire = 54}
-				}
+		loyalty = -2
+	}
+	loyalty_modifier = {
+		desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
+		trigger = {
+			event_target:adeptus_ministorum_tag = {
+				liberty_desire = 53
+				NOT={liberty_desire = 54}
 			}
-			loyalty = -3
 		}
-		loyalty_modifier = {
-			desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
-			trigger = {
-				event_target:adeptus_ministorum_tag = {
-					liberty_desire = 54
-					NOT={liberty_desire = 55}
-				}
+		loyalty = -3
+	}
+	loyalty_modifier = {
+		desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
+		trigger = {
+			event_target:adeptus_ministorum_tag = {
+				liberty_desire = 54
+				NOT={liberty_desire = 55}
 			}
-			loyalty = -4
 		}
-		loyalty_modifier = {
-			desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
-			trigger = {
-				event_target:adeptus_ministorum_tag = {
-					liberty_desire = 55
-					NOT={liberty_desire = 56}
-				}
+		loyalty = -4
+	}
+	loyalty_modifier = {
+		desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
+		trigger = {
+			event_target:adeptus_ministorum_tag = {
+				liberty_desire = 55
+				NOT={liberty_desire = 56}
 			}
-			loyalty = -5
 		}
-		loyalty_modifier = {
-			desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
-			trigger = {
-				event_target:adeptus_ministorum_tag = {
-					liberty_desire = 56
-					NOT={liberty_desire = 57}
-				}
+		loyalty = -5
+	}
+	loyalty_modifier = {
+		desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
+		trigger = {
+			event_target:adeptus_ministorum_tag = {
+				liberty_desire = 56
+				NOT={liberty_desire = 57}
 			}
-			loyalty = -6
 		}
-		loyalty_modifier = {
-			desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
-			trigger = {
-				event_target:adeptus_ministorum_tag = {
-					liberty_desire = 57
-					NOT={liberty_desire = 58}
-				}
+		loyalty = -6
+	}
+	loyalty_modifier = {
+		desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
+		trigger = {
+			event_target:adeptus_ministorum_tag = {
+				liberty_desire = 57
+				NOT={liberty_desire = 58}
 			}
-			loyalty = -7
 		}
-		loyalty_modifier = {
-			desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
-			trigger = {
-				event_target:adeptus_ministorum_tag = {
-					liberty_desire = 58
-					NOT={liberty_desire = 59}
-				}
+		loyalty = -7
+	}
+	loyalty_modifier = {
+		desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
+		trigger = {
+			event_target:adeptus_ministorum_tag = {
+				liberty_desire = 58
+				NOT={liberty_desire = 59}
 			}
-			loyalty = -8
 		}
-		loyalty_modifier = {
-			desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
-			trigger = {
-				event_target:adeptus_ministorum_tag = {
-					liberty_desire = 59
-					NOT={liberty_desire = 60}
-				}
+		loyalty = -8
+	}
+	loyalty_modifier = {
+		desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
+		trigger = {
+			event_target:adeptus_ministorum_tag = {
+				liberty_desire = 59
+				NOT={liberty_desire = 60}
 			}
-			loyalty = -9
 		}
-		loyalty_modifier = {
-			desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
-			trigger = {
-				event_target:adeptus_ministorum_tag = {
-					liberty_desire = 60
-					NOT={liberty_desire = 61}
-				}
+		loyalty = -9
+	}
+	loyalty_modifier = {
+		desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
+		trigger = {
+			event_target:adeptus_ministorum_tag = {
+				liberty_desire = 60
+				NOT={liberty_desire = 61}
 			}
-			loyalty = -10
 		}
-		loyalty_modifier = {
-			desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
-			trigger = {
-				event_target:adeptus_ministorum_tag = {
-					liberty_desire = 61
-					NOT={liberty_desire = 62}
-				}
+		loyalty = -10
+	}
+	loyalty_modifier = {
+		desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
+		trigger = {
+			event_target:adeptus_ministorum_tag = {
+				liberty_desire = 61
+				NOT={liberty_desire = 62}
 			}
-			loyalty = -11
 		}
-		loyalty_modifier = {
-			desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
-			trigger = {
-				event_target:adeptus_ministorum_tag = {
-					liberty_desire = 62
-					NOT={liberty_desire = 63}
-				}
+		loyalty = -11
+	}
+	loyalty_modifier = {
+		desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
+		trigger = {
+			event_target:adeptus_ministorum_tag = {
+				liberty_desire = 62
+				NOT={liberty_desire = 63}
 			}
-			loyalty = -12
 		}
-		loyalty_modifier = {
-			desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
-			trigger = {
-				event_target:adeptus_ministorum_tag = {
-					liberty_desire = 63
-					NOT={liberty_desire = 64}
-				}
+		loyalty = -12
+	}
+	loyalty_modifier = {
+		desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
+		trigger = {
+			event_target:adeptus_ministorum_tag = {
+				liberty_desire = 63
+				NOT={liberty_desire = 64}
 			}
-			loyalty = -13
 		}
-		loyalty_modifier = {
-			desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
-			trigger = {
-				event_target:adeptus_ministorum_tag = {
-					liberty_desire = 64
-					NOT={liberty_desire = 65}
-				}
+		loyalty = -13
+	}
+	loyalty_modifier = {
+		desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
+		trigger = {
+			event_target:adeptus_ministorum_tag = {
+				liberty_desire = 64
+				NOT={liberty_desire = 65}
 			}
-			loyalty = -14
 		}
-		loyalty_modifier = {
-			desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
-			trigger = {
-				event_target:adeptus_ministorum_tag = {
-					liberty_desire = 65
-					NOT={liberty_desire = 66}
-				}
+		loyalty = -14
+	}
+	loyalty_modifier = {
+		desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
+		trigger = {
+			event_target:adeptus_ministorum_tag = {
+				liberty_desire = 65
+				NOT={liberty_desire = 66}
 			}
-			loyalty = -15
 		}
-		loyalty_modifier = {
-			desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
-			trigger = {
-				event_target:adeptus_ministorum_tag = {
-					liberty_desire = 66
-					NOT={liberty_desire = 67}
-				}
+		loyalty = -15
+	}
+	loyalty_modifier = {
+		desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
+		trigger = {
+			event_target:adeptus_ministorum_tag = {
+				liberty_desire = 66
+				NOT={liberty_desire = 67}
 			}
-			loyalty = -16
 		}
-		loyalty_modifier = {
-			desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
-			trigger = {
-				event_target:adeptus_ministorum_tag = {
-					liberty_desire = 67
-					NOT={liberty_desire = 68}
-				}
+		loyalty = -16
+	}
+	loyalty_modifier = {
+		desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
+		trigger = {
+			event_target:adeptus_ministorum_tag = {
+				liberty_desire = 67
+				NOT={liberty_desire = 68}
 			}
-			loyalty = -17
 		}
-		loyalty_modifier = {
-			desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
-			trigger = {
-				event_target:adeptus_ministorum_tag = {
-					liberty_desire = 68
-					NOT={liberty_desire = 69}
-				}
+		loyalty = -17
+	}
+	loyalty_modifier = {
+		desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
+		trigger = {
+			event_target:adeptus_ministorum_tag = {
+				liberty_desire = 68
+				NOT={liberty_desire = 69}
 			}
-			loyalty = -18
 		}
-		loyalty_modifier = {
-			desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
-			trigger = {
-				event_target:adeptus_ministorum_tag = {
-					liberty_desire = 69
-					NOT={liberty_desire = 70}
-				}
+		loyalty = -18
+	}
+	loyalty_modifier = {
+		desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
+		trigger = {
+			event_target:adeptus_ministorum_tag = {
+				liberty_desire = 69
+				NOT={liberty_desire = 70}
 			}
-			loyalty = -19
 		}
-		loyalty_modifier = {
-			desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
-			trigger = {
-				event_target:adeptus_ministorum_tag = {
-					liberty_desire = 70
-					NOT={liberty_desire = 71}
-				}
+		loyalty = -19
+	}
+	loyalty_modifier = {
+		desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
+		trigger = {
+			event_target:adeptus_ministorum_tag = {
+				liberty_desire = 70
+				NOT={liberty_desire = 71}
 			}
-			loyalty = -20
 		}
-		loyalty_modifier = {
-			desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
-			trigger = {
-				event_target:adeptus_ministorum_tag = {
-					liberty_desire = 71
-					NOT={liberty_desire = 72}
-				}
+		loyalty = -20
+	}
+	loyalty_modifier = {
+		desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
+		trigger = {
+			event_target:adeptus_ministorum_tag = {
+				liberty_desire = 71
+				NOT={liberty_desire = 72}
 			}
-			loyalty = -21
 		}
-		loyalty_modifier = {
-			desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
-			trigger = {
-				event_target:adeptus_ministorum_tag = {
-					liberty_desire = 72
-					NOT={liberty_desire = 73}
-				}
+		loyalty = -21
+	}
+	loyalty_modifier = {
+		desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
+		trigger = {
+			event_target:adeptus_ministorum_tag = {
+				liberty_desire = 72
+				NOT={liberty_desire = 73}
 			}
-			loyalty = -22
 		}
-		loyalty_modifier = {
-			desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
-			trigger = {
-				event_target:adeptus_ministorum_tag = {
-					liberty_desire = 73
-					NOT={liberty_desire = 74}
-				}
+		loyalty = -22
+	}
+	loyalty_modifier = {
+		desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
+		trigger = {
+			event_target:adeptus_ministorum_tag = {
+				liberty_desire = 73
+				NOT={liberty_desire = 74}
 			}
-			loyalty = -23
 		}
-		loyalty_modifier = {
-			desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
-			trigger = {
-				event_target:adeptus_ministorum_tag = {
-					liberty_desire = 74
-					NOT={liberty_desire = 75}
-				}
+		loyalty = -23
+	}
+	loyalty_modifier = {
+		desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
+		trigger = {
+			event_target:adeptus_ministorum_tag = {
+				liberty_desire = 74
+				NOT={liberty_desire = 75}
 			}
-			loyalty = -24
 		}
-		loyalty_modifier = {
-			desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
-			trigger = {
-				event_target:adeptus_ministorum_tag = {
-					liberty_desire = 75
-					NOT={liberty_desire = 76}
-				}
+		loyalty = -24
+	}
+	loyalty_modifier = {
+		desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
+		trigger = {
+			event_target:adeptus_ministorum_tag = {
+				liberty_desire = 75
+				NOT={liberty_desire = 76}
 			}
-			loyalty = -25
 		}
-		loyalty_modifier = {
-			desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
-			trigger = {
-				event_target:adeptus_ministorum_tag = {
-					liberty_desire = 76
-					NOT={liberty_desire = 77}
-				}
+		loyalty = -25
+	}
+	loyalty_modifier = {
+		desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
+		trigger = {
+			event_target:adeptus_ministorum_tag = {
+				liberty_desire = 76
+				NOT={liberty_desire = 77}
 			}
-			loyalty = -26
 		}
-		loyalty_modifier = {
-			desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
-			trigger = {
-				event_target:adeptus_ministorum_tag = {
-					liberty_desire = 77
-					NOT={liberty_desire = 78}
-				}
+		loyalty = -26
+	}
+	loyalty_modifier = {
+		desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
+		trigger = {
+			event_target:adeptus_ministorum_tag = {
+				liberty_desire = 77
+				NOT={liberty_desire = 78}
 			}
-			loyalty = -27
 		}
-		loyalty_modifier = {
-			desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
-			trigger = {
-				event_target:adeptus_ministorum_tag = {
-					liberty_desire = 78
-					NOT={liberty_desire = 79}
-				}
+		loyalty = -27
+	}
+	loyalty_modifier = {
+		desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
+		trigger = {
+			event_target:adeptus_ministorum_tag = {
+				liberty_desire = 78
+				NOT={liberty_desire = 79}
 			}
-			loyalty = -28
 		}
-		loyalty_modifier = {
-			desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
-			trigger = {
-				event_target:adeptus_ministorum_tag = {
-					liberty_desire = 79
-					NOT={liberty_desire = 80}
-				}
+		loyalty = -28
+	}
+	loyalty_modifier = {
+		desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
+		trigger = {
+			event_target:adeptus_ministorum_tag = {
+				liberty_desire = 79
+				NOT={liberty_desire = 80}
 			}
-			loyalty = -29
 		}
-		loyalty_modifier = {
-			desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
-			trigger = {
-				event_target:adeptus_ministorum_tag = {
-					liberty_desire = 80
-					NOT={liberty_desire = 81}
-				}
+		loyalty = -29
+	}
+	loyalty_modifier = {
+		desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
+		trigger = {
+			event_target:adeptus_ministorum_tag = {
+				liberty_desire = 80
+				NOT={liberty_desire = 81}
 			}
-			loyalty = -30
 		}
-		loyalty_modifier = {
-			desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
-			trigger = {
-				event_target:adeptus_ministorum_tag = {
-					liberty_desire = 81
-					NOT={liberty_desire = 82}
-				}
+		loyalty = -30
+	}
+	loyalty_modifier = {
+		desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
+		trigger = {
+			event_target:adeptus_ministorum_tag = {
+				liberty_desire = 81
+				NOT={liberty_desire = 82}
 			}
-			loyalty = -31
 		}
-		loyalty_modifier = {
-			desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
-			trigger = {
-				event_target:adeptus_ministorum_tag = {
-					liberty_desire = 82
-					NOT={liberty_desire = 83}
-				}
+		loyalty = -31
+	}
+	loyalty_modifier = {
+		desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
+		trigger = {
+			event_target:adeptus_ministorum_tag = {
+				liberty_desire = 82
+				NOT={liberty_desire = 83}
 			}
-			loyalty = -32
 		}
-		loyalty_modifier = {
-			desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
-			trigger = {
-				event_target:adeptus_ministorum_tag = {
-					liberty_desire = 83
-					NOT={liberty_desire = 84}
-				}
+		loyalty = -32
+	}
+	loyalty_modifier = {
+		desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
+		trigger = {
+			event_target:adeptus_ministorum_tag = {
+				liberty_desire = 83
+				NOT={liberty_desire = 84}
 			}
-			loyalty = -33
 		}
-		loyalty_modifier = {
-			desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
-			trigger = {
-				event_target:adeptus_ministorum_tag = {
-					liberty_desire = 84
-					NOT={liberty_desire = 85}
-				}
+		loyalty = -33
+	}
+	loyalty_modifier = {
+		desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
+		trigger = {
+			event_target:adeptus_ministorum_tag = {
+				liberty_desire = 84
+				NOT={liberty_desire = 85}
 			}
-			loyalty = -34
 		}
-		loyalty_modifier = {
-			desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
-			trigger = {
-				event_target:adeptus_ministorum_tag = {
-					liberty_desire = 85
-					NOT={liberty_desire = 86}
-				}
+		loyalty = -34
+	}
+	loyalty_modifier = {
+		desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
+		trigger = {
+			event_target:adeptus_ministorum_tag = {
+				liberty_desire = 85
+				NOT={liberty_desire = 86}
 			}
-			loyalty = -35
 		}
-		loyalty_modifier = {
-			desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
-			trigger = {
-				event_target:adeptus_ministorum_tag = {
-					liberty_desire = 86
-					NOT={liberty_desire = 87}
-				}
+		loyalty = -35
+	}
+	loyalty_modifier = {
+		desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
+		trigger = {
+			event_target:adeptus_ministorum_tag = {
+				liberty_desire = 86
+				NOT={liberty_desire = 87}
 			}
-			loyalty = -36
 		}
-		loyalty_modifier = {
-			desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
-			trigger = {
-				event_target:adeptus_ministorum_tag = {
-					liberty_desire = 87
-					NOT={liberty_desire = 88}
-				}
+		loyalty = -36
+	}
+	loyalty_modifier = {
+		desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
+		trigger = {
+			event_target:adeptus_ministorum_tag = {
+				liberty_desire = 87
+				NOT={liberty_desire = 88}
 			}
-			loyalty = -37
 		}
-		loyalty_modifier = {
-			desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
-			trigger = {
-				event_target:adeptus_ministorum_tag = {
-					liberty_desire = 88
-					NOT={liberty_desire = 89}
-				}
+		loyalty = -37
+	}
+	loyalty_modifier = {
+		desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
+		trigger = {
+			event_target:adeptus_ministorum_tag = {
+				liberty_desire = 88
+				NOT={liberty_desire = 89}
 			}
-			loyalty = -38
 		}
-		loyalty_modifier = {
-			desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
-			trigger = {
-				event_target:adeptus_ministorum_tag = {
-					liberty_desire = 89
-					NOT={liberty_desire = 90}
-				}
+		loyalty = -38
+	}
+	loyalty_modifier = {
+		desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
+		trigger = {
+			event_target:adeptus_ministorum_tag = {
+				liberty_desire = 89
+				NOT={liberty_desire = 90}
 			}
-			loyalty = -39
 		}
-		loyalty_modifier = {
-			desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
-			trigger = {
-				event_target:adeptus_ministorum_tag = {
-					liberty_desire = 90
-					NOT={liberty_desire = 91}
-				}
+		loyalty = -39
+	}
+	loyalty_modifier = {
+		desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
+		trigger = {
+			event_target:adeptus_ministorum_tag = {
+				liberty_desire = 90
+				NOT={liberty_desire = 91}
 			}
-			loyalty = -40
 		}
-		loyalty_modifier = {
-			desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
-			trigger = {
-				event_target:adeptus_ministorum_tag = {
-					liberty_desire = 91
-					NOT={liberty_desire = 92}
-				}
+		loyalty = -40
+	}
+	loyalty_modifier = {
+		desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
+		trigger = {
+			event_target:adeptus_ministorum_tag = {
+				liberty_desire = 91
+				NOT={liberty_desire = 92}
 			}
-			loyalty = -41
 		}
-		loyalty_modifier = {
-			desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
-			trigger = {
-				event_target:adeptus_ministorum_tag = {
-					liberty_desire = 92
-					NOT={liberty_desire = 93}
-				}
+		loyalty = -41
+	}
+	loyalty_modifier = {
+		desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
+		trigger = {
+			event_target:adeptus_ministorum_tag = {
+				liberty_desire = 92
+				NOT={liberty_desire = 93}
 			}
-			loyalty = -42
 		}
-		loyalty_modifier = {
-			desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
-			trigger = {
-				event_target:adeptus_ministorum_tag = {
-					liberty_desire = 93
-					NOT={liberty_desire = 94}
-				}
+		loyalty = -42
+	}
+	loyalty_modifier = {
+		desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
+		trigger = {
+			event_target:adeptus_ministorum_tag = {
+				liberty_desire = 93
+				NOT={liberty_desire = 94}
 			}
-			loyalty = -43
 		}
-		loyalty_modifier = {
-			desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
-			trigger = {
-				event_target:adeptus_ministorum_tag = {
-					liberty_desire = 94
-					NOT={liberty_desire = 95}
-				}
+		loyalty = -43
+	}
+	loyalty_modifier = {
+		desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
+		trigger = {
+			event_target:adeptus_ministorum_tag = {
+				liberty_desire = 94
+				NOT={liberty_desire = 95}
 			}
-			loyalty = -44
 		}
-		loyalty_modifier = {
-			desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
-			trigger = {
-				event_target:adeptus_ministorum_tag = {
-					liberty_desire = 95
-					NOT={liberty_desire = 96}
-				}
+		loyalty = -44
+	}
+	loyalty_modifier = {
+		desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
+		trigger = {
+			event_target:adeptus_ministorum_tag = {
+				liberty_desire = 95
+				NOT={liberty_desire = 96}
 			}
-			loyalty = -45
 		}
-		loyalty_modifier = {
-			desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
-			trigger = {
-				event_target:adeptus_ministorum_tag = {
-					liberty_desire = 96
-					NOT={liberty_desire = 97}
-				}
+		loyalty = -45
+	}
+	loyalty_modifier = {
+		desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
+		trigger = {
+			event_target:adeptus_ministorum_tag = {
+				liberty_desire = 96
+				NOT={liberty_desire = 97}
 			}
-			loyalty = -46
 		}
-		loyalty_modifier = {
-			desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
-			trigger = {
-				event_target:adeptus_ministorum_tag = {
-					liberty_desire = 97
-					NOT={liberty_desire = 98}
-				}
+		loyalty = -46
+	}
+	loyalty_modifier = {
+		desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
+		trigger = {
+			event_target:adeptus_ministorum_tag = {
+				liberty_desire = 97
+				NOT={liberty_desire = 98}
 			}
-			loyalty = -47
 		}
-		loyalty_modifier = {
-			desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
-			trigger = {
-				event_target:adeptus_ministorum_tag = {
-					liberty_desire = 98
-					NOT={liberty_desire = 99}
-				}
+		loyalty = -47
+	}
+	loyalty_modifier = {
+		desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
+		trigger = {
+			event_target:adeptus_ministorum_tag = {
+				liberty_desire = 98
+				NOT={liberty_desire = 99}
 			}
-			loyalty = -48
 		}
-		loyalty_modifier = {
-			desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
-			trigger = {
-				event_target:adeptus_ministorum_tag = {
-					liberty_desire = 99
-					NOT={liberty_desire = 100}
-				}
+		loyalty = -48
+	}
+	loyalty_modifier = {
+		desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
+		trigger = {
+			event_target:adeptus_ministorum_tag = {
+				liberty_desire = 99
+				NOT={liberty_desire = 100}
 			}
-			loyalty = -49
 		}
-		loyalty_modifier = {
-			desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
-			trigger = {
-				event_target:adeptus_ministorum_tag = {
-					liberty_desire = 100
-				}
+		loyalty = -49
+	}
+	loyalty_modifier = {
+		desc = EST_VAL_MIN_LIBERTY_DESIRE_PERCENTAGE
+		trigger = {
+			event_target:adeptus_ministorum_tag = {
+				liberty_desire = 100
 			}
-			loyalty = -50
 		}
+		loyalty = -50
+	}
 	
 	custom_name = {
 		desc = estate_ecclesiarchy
