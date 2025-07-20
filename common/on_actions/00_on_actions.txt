@@ -4400,7 +4400,6 @@ on_culture_demoted = {
 	judaism_on_culture_country_effect = yes
 	imperial_modifiers_on_culture_country_effect = yes
 	on_culture_demoted_effect = yes
-	#on_culture_demoted_effect_remove_all_free_slots = yes
 	
 	GER_on_culture_demoted = yes
 }
