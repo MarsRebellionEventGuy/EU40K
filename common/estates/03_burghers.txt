@@ -274,7 +274,7 @@ estate_burghers = {
 		estate_burghers_ARB_oasis_development
 		estate_burghers_YEM_coffee_monopoly
 		estate_burghers_persian_rugs
-		estate_burghers_hungarian_royal_cities
+#		estate_burghers_hungarian_royal_cities
 		estate_burghers_italian_coastal_influence
 		estate_burghers_livestock_regulations
 		estate_burghers_arabian_traders
@@ -288,8 +288,8 @@ estate_burghers = {
 		estate_burghers_diversify_fluyts
 		estate_burghers_voc_privilege
 		estate_burghers_INC_mountain_development
-		estate_burghers_MAY_support_of_chontal_maya
-		estate_burghers_MAY_tropical_adaptation
+#		estate_burghers_MAY_support_of_chontal_maya
+#		estate_burghers_MAY_tropical_adaptation
 		estate_burghers_SUN_support_recovering_populations
 		estate_burghers_AZT_sponsor_artisans
 		estate_burghers_AZT_mexican_gold_mines

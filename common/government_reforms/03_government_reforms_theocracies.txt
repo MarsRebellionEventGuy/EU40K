@@ -180,21 +180,21 @@ heretic_astartes_reform = {
 	}
 }	
 
-# forge_world_reform = {
-	# potential = {
-		# primary_culture = mechanicus_culture
-	# }
-	# allow_normal_conversion = no
-	# legacy_equivalent = forge_world
-	# icon = "forge_world"
-	# valid_for_nation_designer = yes
-	# nation_designer_cost = 0
-	# modifiers = {
-		# production_efficiency = 0.15
-		# global_regiment_cost = -0.10
-		# relation_with_heathens = -50
-	# }
-# }
+forge_world_reform = {
+	potential = {
+		primary_culture = mechanicus_culture
+	}
+	allow_normal_conversion = no
+#	legacy_equivalent = forge_world
+	icon = "forge_world"
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	modifiers = {
+		production_efficiency = 0.15
+		global_regiment_cost = -0.10
+		relation_with_heathens = -50
+	}
+}
 
 chaos_forge_world_reform = {
 	potential = {

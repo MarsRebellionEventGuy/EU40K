@@ -1366,61 +1366,6 @@ secularization_of_the_state_reform = {
 	}
 }
 
-#Russia
-holy_synod_reform = {
-	icon = "patriarch"
-	potential = {
-		has_dlc = "Domination"
-		is_revolutionary = no
-		NOT = { has_government_attribute = is_pirate_republic_reform }
-		OR = {
-			have_had_reform = holy_synod_reform
-			has_unlocked_government_reform = {
-				government_reform = holy_synod_reform
-			}
-			has_reform = ruthenian_tsardom
-		}
-	}
-	trigger = {
-		religion = orthodox
-	}
-	modifiers = {
-		manpower_in_true_faith_provinces = 0.05
-		missionaries = 1
-		church_loyalty_modifier = 0.1
-	}
-	custom_attributes = {
-		seizing_land_no_rebels_from_estate_church = yes
-		temples_modifier = yes
-	}
-	effect = {
-		hidden_effect = {
-			every_owned_province = {
-				limit = {
-					has_tax_building_trigger = yes
-				}
-				add_province_modifier = {
-					name = gov_expanded_temple_rights_mod
-					duration = -1
-				}
-			}
-		}
-	}
-	post_removed_effect = {
-		hidden_effect = {
-			every_owned_province = {
-				limit = {
-					has_province_modifier = gov_expanded_temple_rights_mod
-				}
-				remove_province_modifier = gov_expanded_temple_rights_mod
-			}
-		}
-	}
-	ai = {
-		factor = 1
-	}
-}
-
 strengthened_the_patriarchy_reform = {
 	icon = "patriarch"
 	potential = {
