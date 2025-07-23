@@ -263,9 +263,10 @@ if = {
 	halo_stars_sea_region = {
 		discover_country = ROOT
 		}
-	halo_stars_region = {
-		discover_country = ROOT
-		}
+#	halo_stars_region = {
+#		discover_country = ROOT
+#		}
+# Doesn't exist in region.txt
 	fenris_sea_region = {
 		discover_country = ROOT
 							}
@@ -381,7 +382,7 @@ if = {
 		avellorn = {
 			discover_country = ROOT
 		}
-		benediction = {
+		benediction_planet = {
 			discover_country = ROOT
 		}
 		keletros = {
@@ -465,7 +466,7 @@ if = {
 		avellorn = {
 			discover_country = ROOT
 		}
-		benediction = {
+		benediction_planet = {
 			discover_country = ROOT
 		}
 		keletros = {
@@ -557,7 +558,7 @@ if = {
 		avellorn = {
 			discover_country = ROOT
 		}
-		benediction = {
+		benediction_planet = {
 			discover_country = ROOT
 		}
 	}
@@ -1217,7 +1218,7 @@ if = {
 		avellorn = {
 			discover_country = ROOT
 		}
-		benediction = {
+		benediction_planet = {
 			discover_country = ROOT
 		}
 		keletros = {

@@ -416,7 +416,6 @@ wargames = {
 
 beacon_of_hope = {
 	diplomatic_reputation = 1
-	imperial_mandate = 0.05
 	trade_goods_size = 0.1
 }
 
@@ -487,18 +486,8 @@ xxa_the_many = {
 		manpower_recovery_speed = 0.25
 }
 
-oblivion = {
-		imperial_mandate = -0.15
-		land_morale = -0.1
-		discipline = -0.05
-		tolerance_own = -1
-		naval_morale = -0.1
-		liberty_desire = 25
-}
-
 hospitals = {
-		imperial_mandate = 0.03
-		global_tax_modifier = 0.05
+	global_tax_modifier = 0.05
 }
 
 necromundas_bane = {

@@ -9,7 +9,6 @@ capital = 2860
 1970.12.12 = {
 	monarch = {
 		name = "Nikeras"
-		dynasty = ""		
 		adm = 3
 		dip = 1
 		mil = 3

@@ -41,92 +41,49 @@ on_province_owner_change = {
 				culture = mechanicus_culture
 			}
 		}
-		owner = {
 			province_event = {
 				id = admech_forge_world.6
 			}
+	}
+	#mekworld captured
+	if = {
+		limit = {
+			OR = {
+				has_province_modifier = mekworld_mod
+				has_province_modifier = major_mekworld_mod
+			}
+			owner = {
+				NOT = {
+					culture_group = ork_culture_group
+				}
+			}
 		}
+		#owner = {
+			province_event = {
+				id = admech_forge_world.24
+			}
+		#}
 	}
 	
+	#hell forge captured
 	if = {
 		limit = {
-			AND = {
-				ROOT = { primary_culture = mechanicus_culture }
-				area = {
-					any_province = {
-						has_province_modifier = minor_forge_world_mod
-					}
+			OR = {
+				has_province_modifier = hell_forge_mod
+				has_province_modifier = major_hell_forge_mod
+			}
+			owner = {
+				NOT = {
+					culture_group = chaos_culture_group
 				}
 			}
 		}
-		add_province_modifier = {
-			name = minor_forge_world_area_mod
-			duration = -1
-		}
-	}
-	if = {
-		limit = {
-			AND = {
-				ROOT = { primary_culture = mechanicus_culture }
-				area = {
-					any_province = {
-						has_province_modifier = forge_world_1_mod
-					}
-				}
+		#owner = {
+			province_event = {
+				id = admech_forge_world.25
+				days = 5
 			}
-		}
-		add_province_modifier = {
-			name = forge_world_1_area_mod
-			duration = -1
-		}
-	}
-	if = {
-		limit = {
-			AND = {
-				ROOT = { primary_culture = mechanicus_culture }
-				area = {
-					any_province = {
-						has_province_modifier = forge_world_2_mod
-					}
-				}
-			}
-		}
-		add_province_modifier = {
-			name = forge_world_2_area_mod
-			duration = -1
-		}
-	}
-	if = {
-		limit = {
-			AND = {
-				ROOT = { primary_culture = mechanicus_culture }
-				area = {
-					any_province = {
-						has_province_modifier = forge_world_3_mod
-					}
-				}
-			}
-		}
-		add_province_modifier = {
-			name = forge_world_3_area_mod
-			duration = -1
-		}
-	}
-	if = {
-		limit = {
-			AND = {
-				ROOT = { primary_culture = mechanicus_culture }
-				area = {
-					any_province = {
-						has_province_modifier = forge_world_4_mod
-					}
-				}
-			}
-		}
-		add_province_modifier = {
-			name = forge_world_4_area_mod
-			duration = -1
-		}
+		#}
 	}
 	
 	if = {
@@ -143,11 +100,10 @@ on_province_owner_change = {
 				NOT = { culture = mechanicus_culture }
 			}
 		}
-		owner = {
 			province_event = {
 				id = admech_forge_world.7
+				days = 5
 			}
-		}
 	}
 	if = {
 		limit = {
@@ -161,11 +117,10 @@ on_province_owner_change = {
 				culture = dark_mechanicum_culture
 			}
 		}
-		owner = {
 			province_event = {
 				id = admech_forge_world.8
+				days = 5
 			}
-		}
 	}
 	if = {
 		limit = {
@@ -180,11 +135,10 @@ on_province_owner_change = {
 				NOT = { culture = dark_mechanicum_culture}
 			}
 		}
-		owner = {
 			province_event = {
-				id = admech_forge_world.9
+				id = admech_forge_world.9'
+				days = 5
 			}
-		}
 	}
 	if = {
 		limit = {
@@ -198,11 +152,10 @@ on_province_owner_change = {
 				culture_group = ork_culture_group
 			}
 		}
-		owner = {
 			province_event = {
 				id = admech_forge_world.10
+				days = 5
 			}
-		}
 	}
 	if = {
 		limit = {
@@ -216,11 +169,11 @@ on_province_owner_change = {
 				culture_group = tyranid_culture_group
 			}
 		}
-		owner = {
-			province_event = {
-				id = admech_forge_world.11
-			}
+		province_event = {
+			id = admech_forge_world.11
+			days = 5
 		}
+		
 	}
 	if = {
 		limit = {
@@ -234,10 +187,9 @@ on_province_owner_change = {
 				culture_group = necron_culture_group
 			}
 		}
-		owner = {
-			province_event = {
-				id = admech_forge_world.12
-			}
+		province_event = {
+			id = admech_forge_world.12
+			days = 5
 		}
 	}
 	
@@ -264,50 +216,79 @@ on_province_owner_change = {
 				}
 			}
 		}
-		owner = {
-			province_event = {
-				id = admech_forge_world.13
-			}
+		province_event = {
+			id = admech_forge_world.13
+			days = 5
 		}
 	}
-
-	#mekworld captured
 	if = {
 		limit = {
-			OR = {
-				has_province_modifier = mekworld_mod
-				has_province_modifier = major_mekworld_mod
+			AND = {
+				ROOT = { primary_culture = mechanicus_culture }
+				area_for_scope_province = {
+						has_province_modifier = minor_forge_world_mod
+					}
 			}
-			owner = {
-				NOT = {
-					culture_group = ork_culture_group
+		}
+		add_province_modifier = {
+			name = minor_forge_world_area_mod
+			duration = -1
+		}
+	}
+	if = {
+		limit = {
+			AND = {
+				ROOT = { primary_culture = mechanicus_culture }
+				area_for_scope_province = {
+					has_province_modifier = forge_world_1_mod
 				}
 			}
 		}
-		owner = {
-			province_event = {
-				id = admech_forge_world.24
-			}
+		add_province_modifier = {
+			name = forge_world_1_area_mod
+			duration = -1
 		}
 	}
-	
-	#hell forge captured
 	if = {
 		limit = {
-			OR = {
-				has_province_modifier = hell_forge_mod
-				has_province_modifier = major_hell_forge_mod
-			}
-			owner = {
-				NOT = {
-					culture_group = chaos_culture_group
+			AND = {
+				ROOT = { primary_culture = mechanicus_culture }
+				area_for_scope_province = {
+					has_province_modifier = forge_world_2_mod
 				}
 			}
 		}
-		owner = {
-			province_event = {
-				id = admech_forge_world.25
-			}
+		add_province_modifier = {
+			name = forge_world_2_area_mod
+			duration = -1
 		}
 	}
-
+	if = {
+		limit = {
+			AND = {
+				ROOT = { primary_culture = mechanicus_culture }
+				area_for_scope_province = {
+					has_province_modifier = forge_world_3_mod
+				}
+			}
+		}
+		add_province_modifier = {
+			name = forge_world_3_area_mod
+			duration = -1
+		}
+	}
+	if = {
+		limit = {
+			AND = {
+				ROOT = { primary_culture = mechanicus_culture }
+				area_for_scope_province = {
+					has_province_modifier = forge_world_4_mod
+				}
+			}
+		}
+		add_province_modifier = {
+			name = forge_world_4_area_mod
+			duration = -1
+		}
+	}
+}

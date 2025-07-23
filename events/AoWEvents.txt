@@ -328,7 +328,7 @@ country_event = {
 		had_recent_war = 3
 		is_at_war = no
 		NOT = { has_country_modifier = tax_relief }
-		NOT = { has_country_modifier = decreased_recruitment }
+		# NOT = { has_country_modifier = decreased_recruitment } # decreased_recruitment modifier doesn't exist
 		NOT = { has_country_modifier = screw_them }
 		NOT = {has_reform = hive_fleet_reform} 
 		NOT = {has_reform = ork_government_reform} 
@@ -347,14 +347,16 @@ country_event = {
 		}
 	}
 
-	# Let us be more lenient in drafting for the army.
-	option = {
-		name = aowar_events.7.b
-		add_country_modifier = {
-			name = decreased_recruitment
-			duration = 1825
-		}
-	}
+	# # Let us be more lenient in drafting for the army.
+	# option = {
+		# name = aowar_events.7.b
+		# add_country_modifier = {
+			# name = decreased_recruitment
+			# duration = 1825
+		# }
+	# }
+    # decreased_recruitment modifier doesn't exist
+
 
 	# Screw them
 	option = {

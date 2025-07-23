@@ -1392,8 +1392,6 @@ country_event = {
 	
 	option = {
 		name = admech_forge_world.1.ee		#leave
-		effect = {
-		}
 		
 		ai_chance = {
 		}
@@ -1927,8 +1925,6 @@ country_event = {
 
 	option = {
 		name = admech_forge_world.2.k		#leave
-		effect = {
-		}
 		
 		ai_chance = {
 		}
@@ -2574,14 +2570,14 @@ province_event = {
 				}
 			}
 		}
-		immediate = {
-				any_owned_province = {
+#		immediate = { # immediate can't be in option scope.
+				random_owned_province = {
 					if = {
 						limit = {
 							has_province_modifier = mekworld_mod
 						}
 						remove_province_modifier = mekworld_mod
-						add_permanent_province_modifierprovince_modifier = {
+						add_permanent_province_modifier = {
 							name = fallen_forge_world_mod
 							duration = -1
 						}
@@ -2591,13 +2587,13 @@ province_event = {
 							has_province_modifier = major_mekworld_mod
 						}
 						remove_province_modifier = major_mekworld_mod
-						add_permanent_province_modifierprovince_modifier = {
+						add_permanent_province_modifier = {
 							name = fallen_major_forge_world_mod
 							duration = -1
 						}
 					}
 				}
-		}
+#		}
 		
 		if = {
 			limit = {
@@ -3368,17 +3364,17 @@ province_event = {
 	desc = "admech_forge_world.24.desc"
 	picture = NOBLE_ESTATE_DEMANDS_eventPicture
 	
-	trigger = {
-		OR = {
-			has_province_modifier = mekworld_mod
-			has_province_modifier = major_mekworld_mod
-		}
-		owner = {
-			NOT = {
-				culture_group = ork_culture_group
-			}
-		}
-	}
+	# trigger = {
+		# OR = {
+			# has_province_modifier = mekworld_mod
+			# has_province_modifier = major_mekworld_mod
+		# }
+		# owner = {
+			# NOT = {
+				# culture_group = ork_culture_group
+			# }
+		# }
+	# }
 	is_triggered_only = yes
 
 	immediate = {
@@ -3436,17 +3432,17 @@ province_event = {
 	desc = "admech_forge_world.25.desc"
 	picture = NOBLE_ESTATE_DEMANDS_eventPicture
 	
-	trigger = {
-		OR = {
-			has_province_modifier = hell_forge_mod
-			has_province_modifier = major_hell_forge_mod
-		}
-		owner = {
-			NOT = {
-				culture_group = chaos_culture_group
-			}
-		}
-	}
+	# trigger = {
+		# OR = {
+			# has_province_modifier = hell_forge_mod
+			# has_province_modifier = major_hell_forge_mod
+		# }
+		# owner = {
+			# NOT = {
+				# culture_group = chaos_culture_group
+			# }
+		# }
+	# }
 	is_triggered_only = yes
 
 	immediate = {

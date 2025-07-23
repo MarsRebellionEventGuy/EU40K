@@ -12,6 +12,7 @@ XXA_ideas = {
 	
 	bonus = {
 		recover_army_morale_speed = 0.20
+		
 	}	
 
 	trigger = {
@@ -20,7 +21,8 @@ XXA_ideas = {
 	free = yes
 	
 	XXA_ideas_1 = {
-		loyalty_change_on_revoked = 0.20
+		all_estate_loyalty_equilibrium = 0.1
+		imperial_mandate = 0.01
 	}
 	XXA_ideas_2 = {
 		heavy_ship_cost = -0.15
@@ -200,7 +202,7 @@ XGF_ideas = {
 	}
 }
 
-AAC_ideas = {
+XUH_ideas = {
 	start = {
 		land_morale = 0.20
 		technology_cost = -0.10		
@@ -211,30 +213,30 @@ AAC_ideas = {
 	}	
 
 	trigger = {
-		tag = AAC
+		tag = XUH
 	}
 	free = yes
 	
-	AAC_ideas_1 = {
+	XUH_ideas_1 = {
 		trade_efficiency = 0.10	
 		global_tax_modifier = 0.1
 	}
-	AAC_ideas_2 = {
+	XUH_ideas_2 = {
 		production_efficiency = 0.15	
 	}
-	AAC_ideas_3 = {
+	XUH_ideas_3 = {
 		diplomatic_reputation = 2		
 	}
-	AAC_ideas_4 = {
+	XUH_ideas_4 = {
 		discipline = 0.075				
 	}
-	AAC_ideas_5 = {
+	XUH_ideas_5 = {
 		diplomats = 2					
 	}
-	AAC_ideas_6 = {
+	XUH_ideas_6 = {
 		administrative_efficiency = 0.05	
 	}
-	AAC_ideas_7 = {
+	XUH_ideas_7 = {
 		tolerance_heathen = 3			
 	}
 }
@@ -251,7 +253,7 @@ Necron_ideas = {
 
 	trigger = {
 		culture_group = necron_culture_group
-		NOT = { tag = AAC }
+		NOT = { tag = XUH }
 		NOT = { tag = XAA }
 		NOT = { tag = XLS }
 		NOT = { tag = XEV }
@@ -348,7 +350,7 @@ Astartes_ideas = {
 			tag = XOH
 			tag = XDH
 			tag = XZI
-			tag = XIU
+			tag = XUI
 			tag = XHO
 			tag = XYR
 			tag = XBG
@@ -608,7 +610,7 @@ Iron_Hands_ideas = {
 	trigger = {
 		OR = {
 			tag = XZI
-			tag = XIU
+			tag = XUI
 			tag = XHO
 		}
 	}
@@ -1499,7 +1501,7 @@ Chaos_Astartes_ideas = {
 			tag = XOH
 			tag = XDH
 			tag = XZI
-			tag = XIU
+			tag = XUI
 			tag = XHO
 			tag = XYR
 			tag = XBG

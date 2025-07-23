@@ -1,0 +1,58 @@
+lost_right_eagles_head = {
+	ended_by_country_breaking_to_rebels = no
+	potential = {
+		is_free_or_tributary_trigger = yes
+		normal_or_historical_nations = yes
+		is_emperor_of_china = yes
+	}
+	
+	can_start = {
+		NOT={
+			has_subject_of_type = 0_mechanicus_subject_type
+		}
+	}
+	
+	can_stop = { 
+		has_subject_of_type = 0_mechanicus_subject_type
+	}
+	
+	
+	progress = {
+		modifier = {
+			factor = 50
+			NOT={
+				has_subject_of_type = 0_mechanicus_subject_type
+			}
+		}
+	}
+	
+	can_end = {
+		has_subject_of_type = 0_mechanicus_subject_type
+	}
+	
+
+	modifier = {
+		global_trade_goods_size_modifier = -0.33
+		imperial_mandate = -0.2
+		prestige_decay = 0.01
+		inflation_reduction = -0.1
+		development_cost = 1.5
+		build_time = 0.25
+		great_project_upgrade_time = 5.0
+		global_prosperity_growth = -0.1
+	}
+	
+	on_start = imperium_events.61 # Loss of a head
+	on_end = imperium_events.62 # Stabilizing an Empire
+	
+	on_monthly = {
+		events = {
+			
+		}
+		random_events = {
+			360 = 0
+			
+		}
+	}
+}
+

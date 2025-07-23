@@ -6,4 +6,4 @@ culture = human_culture
 base_tax = 4
 base_production = 4
 base_manpower = 4
-trade_goods = research_equipment
+trade_goods = scientific_equipment

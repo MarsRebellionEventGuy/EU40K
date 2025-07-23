@@ -1,0 +1,47 @@
+acts_of_impressment = {
+	category = 1
+	allow = { always = no }
+	effect = { }
+	modifier = { }
+	chance = { factor = 0 }
+}
+
+acts_of_high_admiralty = {
+	category = 1
+	allow = { always = no }
+	effect = { }
+	modifier = { }
+	chance = { factor = 0 }
+}
+
+acts_of_maritime_courage = {
+	category = 1
+	allow = { always = no }
+	effect = { }
+	modifier = { }
+	chance = { factor = 0 }
+}
+
+acts_of_naval_professionalism = {
+	category = 1
+	allow = { always = no }
+	effect = { }
+	modifier = { }
+	chance = { factor = 0 }
+}
+
+acts_of_maritime_professionalism = {
+	category = 1
+	allow = { always = no }
+	effect = { }
+	modifier = { }
+	chance = { factor = 0 }
+}
+
+colonial_venture_act = {
+	category = 1
+	allow = { always = no }
+	effect = { }
+	modifier = { }
+	chance = { factor = 0 }
+}

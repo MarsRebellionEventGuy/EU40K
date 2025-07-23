@@ -23,5 +23,17 @@ spriteTypes = {
 		noOfFrames = 3
 		loadType = "INGAME"
 	}
+	spriteType = {
+		name = "GFX_disaster_fall_of_the_imperium"
+		texturefile = "gfx//interface//disasters//fall_of_the_imperium_disaster.dds"
+		noOfFrames = 3
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_disaster_lost_right_eagles_head"
+		texturefile = "gfx//interface//disasters//lost_right_eagles_head_disaster.dds"
+		noOfFrames = 3
+		loadType = "INGAME"
+	}
 	
 }

@@ -23,6 +23,15 @@ loyal_sector_overlord_modifiers={
 sector_overlord_modifiers={
 	merchants = 1
 }
+imperial_world_base_overlord_modifiers={
+	#governing_capacity = -15
+}
+nominal_imperial_world_base_overlord_modifiers={
+	#governing_capacity = -10
+}
+integrate_imperial_world_base_overlord_modifiers={
+	#governing_capacity = -25
+}
 blockaded_power_country={
 	naval_forcelimit = -10
 }

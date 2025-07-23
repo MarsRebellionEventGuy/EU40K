@@ -172,14 +172,14 @@ custom_button = {
 			}
 		}
 		any_owned_province={
-			trade_goods = archaotech
+			trade_goods = archeotech
 			NOT={ province_id = 1 }
 		}
 	} 
 	effect = { 
 		random_owned_province={
 			limit={
-				trade_goods = archaotech
+				trade_goods = archeotech
 				NOT={ province_id = 1 }
 			}
 			change_trade_goods = unknown

@@ -148,9 +148,11 @@
  deathwatch_label_tt: "The Deathwatch are the Chamber Miliant of the Ordo Xenos, formed of battle brothers from across the Astartes Chapters of the Imperium. The Deathwatch is tasked to defend and contain Xenos from their Watch Stations"
  INQUISITION: "Holy Inquisition Order"
  INQUISITORIAL_REPRESENTIVE: "Inquisitorial Representative"
+ IMPERIUM_CANNOT_ATTACK_ITSELF: "A Member of the Imperium of Man can't fight another loyal member without reason"
  
  imperium_lost_warp_routes_disaster: "Lost Terra Warp Routes"
  dark_imperium_disaster: "Dark Imperium"
+ fall_of_the_imperium: "Fall of the Imperium"
  imperium_events.9: "Reclaiming Nullus"
 
  logos_historica_verita_decision_title: "Logos Historica Verita"
@@ -245,6 +247,8 @@
  estate_church_adeptus_ministorum: "Adeptus Ministorum Primacy"
  estate_church_adeptus_ministorum_desc: "The Ecclesiarchy has managed to make itself into a high level autonomus part of the Imperium as the Adeptus Ministorum. At the same level that the Adeptus Mechancius exists on. Even making its leader one of the High Lords of Terra."
  EST_MISSING_SYNOD_MINISTRA: "Lost the Synod Ministra on Ophelia VII: "
+ lost_right_eagles_head: "Lost the Mechanicus"
+ MechanicusNbForgeWorlds: "Mechanicus Forge Worlds"
  
 estate_necron_nobles_ownership:0 "Lords Land Ownership"
  estate_necron_nobles_land_rights:0 "Establish New Lordships"
@@ -412,6 +416,16 @@ estate_necron_nobles_ownership:0 "Lords Land Ownership"
  enables_imperial_truth_tt: "Starts the §YRenassance of the Imperial Truth§! Event Chain."
  invite_into_imperium_tooltip: "Re-establish Contact with this World"
  mandate:0 "Imperial Cohesion"
+ declare_forge_world_as_mechanicus_title: "Declare Head of Mechanicus"
+ declare_forge_world_as_mechanicus_desc: "Either through disaster or distrust, the current Fabricator-General is unfit to lead the Adeptus Mechanicus. We can Declare [From.GetName] as the New Head of the Mechanicus"
+ BASE_ADMEC_IS_XXB: "The Adeptus Mechanicus is already Unified"
+ BASE_ADMEC_IS_XTE: "The Current Adeptus Mechanicus owns Mars"
+ STRONGER_THAN_IMPERIUM: "Doesn't need Imperium protection"
+ BASE_ADMEC_EXISTS: "Replacing Existing Fabricator-General"
+ EST_VAL_ADMEC_LOST_MARS: "Adeptus Mechanicus lost Mars"
+ 
+ imperium_events.61.t: "The Imperiums Missing Head"
+ imperium_events.61.a: "Thankfully, The Emperor Blessed it with Two"
  
  vassalize_imperial_worlds_decision_tt: "The Imperium of Man can use Imperial Cohesion to elevate a Nominal World to a direct Imperial World."
  vassalize_imperial_worlds_decision_ct: "The Imperium of Man can no longer elevate Nominal Worlds."

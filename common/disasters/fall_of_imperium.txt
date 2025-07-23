@@ -1,0 +1,53 @@
+fall_of_the_imperium = {
+	ended_by_country_breaking_to_rebels = no
+	potential = {
+		NOT = { has_country_flag = suffered_oblivion }
+		is_free_or_tributary_trigger = yes
+		normal_or_historical_nations = yes
+		is_emperor_of_china = yes
+	}
+	
+	can_start = {
+		is_great_power = no
+	}
+	
+	can_stop = { 
+		is_great_power = yes
+	}
+	
+	
+	progress = {
+		modifier = {
+			factor = 100
+			is_great_power = no
+		}
+	}
+	
+	can_end = {
+		is_great_power = yes
+	}
+	
+
+	modifier = {
+		imperial_mandate = -0.15
+		land_morale = -0.1
+		discipline = -0.05
+		tolerance_own = -1
+		naval_morale = -0.1
+		liberty_desire = 25
+	}
+	
+	on_start = imperium_events.50 # Oblivion
+	on_end = imperium_events.51 # Stabilizing an Empire
+	
+	on_monthly = {
+		events = {
+			
+		}
+		random_events = {
+			360 = 0
+			
+		}
+	}
+}
+

@@ -167,20 +167,20 @@ country_event = {
 			}
 		}
 	}
-		tooltip = {
-			reduce_curia_treasury_big_effect = yes
-			event_target:attacked_country = {
-				add_opinion = {
-					who = ROOT
-					modifier = sack_of_x
-				}
-				add_country_modifier = {
-					name = "enemies_sacked_city"
-					duration = 3650
-				}
-			}
-		}
-	}
+    # tooltip = {
+        # reduce_curia_treasury_big_effect = yes
+        # event_target:attacked_country = {
+            # add_opinion = {
+                # who = ROOT
+                # modifier = sack_of_x
+            # }
+            # add_country_modifier = {
+                # name = "enemies_sacked_city"
+                # duration = 3650
+            # }
+        # }
+    # }
+}
 
 
 #Sack of X

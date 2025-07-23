@@ -20,6 +20,7 @@ technology = {
 	infantry_shock 		= 	0.20	
 	cavalry_shock  		= 	0.8	
 	land_morale 		= 	2.0
+
 }
 
 technology = {
@@ -473,7 +474,7 @@ technology = {
 
 	enable = SolarPatternVoidInfantry
 	enable = OgrynCharonite
-	enable = ArchaotechPistoleer
+	enable = archeotechPistoleer
 
 	enable = ArcoEviscerator
 	enable = Ursurax

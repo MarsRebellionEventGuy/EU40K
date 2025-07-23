@@ -915,25 +915,7 @@ has_church_trade_good_trigger = {
 }
 
 has_dharma_elephants_trigger = {
-	OR = {
-		has_dlc = "Dharma"
-		has_dlc = "Dharma - Indian Sultanate Pack"
-		has_dlc = "Dharma - Hindu Unit Pack"
-	}
-	OR = {
-		culture_group = hindusthani
-		culture_group = eastern_aryan
-		culture_group = western_aryan
-		culture_group = dravidian
-		culture_group = central_indic
-		culture_group = southeastasian_group
-		culture_group = burman
-		primary_culture = cham
-		primary_culture = sumatran
-		primary_culture = javanese
-		primary_culture = malayan
-		tag = CDL #Dali
-	}
+	always = no
 }
 
 # This is for when we want to award government reform progress and need to check if that's useful to the player based on dlc ownership
@@ -1030,45 +1012,9 @@ has_any_holy_order = {
 
 can_create_holy_orders = {
 	OR = {
-		AND = {
-			OR = { 
-				AND = { 
-					culture_group = iberian
-					religion = catholic
-				}
-				has_country_flag = enable_holy_orders_flag 
-			}
-			religion_group = christian
-		}
-		AND = {
-			OR = {
-				has_government_attribute = unlock_ottoman_holy_orders
-				primary_culture = andalucian
-				has_country_flag = ARB_grant_access_to_muslim_holy_orders_flag
-			}
-			religion_group = muslim
-		}
 		custom_trigger_tooltip = {
 			tooltip = mng_has_enabled_grand_coordinator_offices_tt
 			has_country_flag = mng_enable_3_grand_coordinators_offices_flag
-		} 
-		AND = {
-			OR = {
-				has_government_attribute = unlock_persia_holy_orders
-				has_country_flag = unlocked_holy_order_savafid_order
-				is_or_was_tag = { tag = ARL }
-			}
-			OR = {
-				religion = shiite
-				religion = ibadi
-			}
-		}
-		AND = {
-			OR = {
-				has_government_attribute = unlock_persia_holy_orders
-				has_country_flag = unlocked_holy_order_zahediyeh_order
-			}
-			religion_group = muslim
 		}
 	}
 }
@@ -1277,17 +1223,7 @@ valid_for_personal_unions_trigger = {
 }
 
 is_shadow_kingdom_eligible_trigger = {
-	is_emperor = no
-	is_part_of_hre = yes
-	OR = {
-		capital_scope = { region = italy_region }
-		AND = {
-			culture_group = latin
-			any_owned_province = {
-				region = italy_region
-			}
-		}
-	}
+	always = no
 }
 
 will_leave_for_shadow_kingdom_trigger = {
@@ -1309,16 +1245,11 @@ will_leave_for_shadow_kingdom_trigger = {
 
 
 is_germanic_but_not_swamp = {
-	culture_group = germanic
-	NOT = { primary_culture = dutch }
-	NOT = { primary_culture = flemish }
-	NOT = { primary_culture = frisian }
+	always = no
 }
 
 is_germanic_but_not_mountains = {
-	culture_group = germanic
-	NOT = { primary_culture = swiss }
-	NOT = { primary_culture = austrian }
+	always = no
 }
 
 #province scope; checks it is highest or joint highest supply limit in the area owned by you (useful for spawning rebels)
@@ -1976,11 +1907,11 @@ has_any_colonist_idea = {
 		has_idea = lon_conquistadores
 		has_idea = nzh_expand_to_the_east
 		has_idea = hdr_distant_diplomacy	#Colonist is in the ambition
-		has_idea = AUS_outback_stations
+#		has_idea = AUS_outback_stations
 		has_idea = NZL_pokarekare_ana	#Colonist is in the ambition
 		has_idea = WSI_Colonial_Legacy	#Colonist is in the ambition
-		has_idea = asu_colonialism
-		has_idea = adu_expeditionary_sentiment
+#		has_idea = asu_colonialism
+#		has_idea = adu_expeditionary_sentiment
 		has_idea = ICE_nationalism	#Colonist is in the ambition
 		has_idea = maj_nusa_tenggara
 	}
@@ -3565,19 +3496,6 @@ is_not_eligible_for_trade_good_tea = {
 			NOT = { area = west_sao_paolo_area } #Yerba Mate
 		}
 		AND = {
-			is_random_new_world = yes #Only the below cultures can get tea in the RNW
-			FROM = {
-				NOT = { culture_group = east_asian }
-				NOT = { culture_group = central_indic }
-				NOT = { culture_group = dravidian }
-				NOT = { culture_group = western_aryan }
-				NOT = { culture_group = hindusthani }
-				NOT = { culture_group = eastern_aryan }
-				NOT = { culture_group = korean_g }
-				NOT = { culture_group = japanese_g }
-			}
-		}
-		AND = {
 			OR = {
 				has_terrain = mountain
 				has_terrain = desert
@@ -4409,11 +4327,7 @@ is_andean_society_trigger = {
 }
 
 is_mayan_society_trigger = {
-	OR = {
-		tag = MAY
-		religion = mesoamerican_religion
-		culture_group = maya
-	}
+	always = no
 }
 
 has_reformed_inti_religion_trigger = {
@@ -4529,22 +4443,22 @@ INC_has_any_provinces_to_colonize_with_trigger = {
 	}
 }
 
-has_generic_maya_missions = {
-	OR = {
-		tag = CNP #Can Pech
-		tag = XIU #Xiu
-		tag = YOK #Yokotan 
-		tag = MAY #Maya
-		tag = LAC #Tzotzil
-		tag = COC #Cocomes
-		tag = CTM #Chactemal
-		tag = KIC #K'iche
-		tag = KAQ #Kaqkichel
-		tag = CHT #Chorti
-		tag = ITZ #Itza
-		tag = HST #Huastec
-	}
-}
+# has_generic_maya_missions = {
+	# OR = {
+		# tag = CNP #Can Pech
+		# tag = XIU #Xiu
+		# tag = YOK #Yokotan 
+		# tag = MAY #Maya
+		# tag = LAC #Tzotzil
+		# tag = COC #Cocomes
+		# tag = CTM #Chactemal
+		# tag = KIC #K'iche
+		# tag = KAQ #Kaqkichel
+		# tag = CHT #Chorti
+		# tag = ITZ #Itza
+		# tag = HST #Huastec
+	# }
+# }
 
 is_in_mesoamerica_trigger = {
 	OR = {
