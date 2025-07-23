@@ -699,3 +699,9 @@ lev_apex = {
 	land_morale = 0.05
 	picture = land_morale
 }
+
+tyr_firestarter = {
+	morale_damage = 0.05
+	siege_ability = 0.05
+	picture = morale_damage
+}

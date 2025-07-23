@@ -1,3 +1,5 @@
+#Freight Yard
+
 add_core = XSM
 owner = XSM
 base_tax = 5
@@ -9,3 +11,4 @@ religion = dark_muses
 hre = yes
 controller = XSM
 is_city = no
+capital = "Soul Cairn"

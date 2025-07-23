@@ -1,3 +1,5 @@
+#Kynesgrove
+
 add_core = XQH
 owner = XQH
 controller = XQH
@@ -9,3 +11,4 @@ base_manpower = 7
 trade_goods = scientific_equipment
 is_city = no
 hre = yes
+capital = "Wayrest"
