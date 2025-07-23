@@ -152,14 +152,17 @@ country_event = {
 		AND = {
 			primary_culture = mechanicus_culture
 			capital_scope = {
-				has_province_modifier = forge_world_1_mod
+				AND = {
+					has_province_modifier = forge_world_1_mod
+					development = 30
+				}
 			}
 			is_at_war = no
 			ai = yes
 		}
 	}
 	mean_time_to_happen = {
-		month = 240
+		month = 120
 		
 		modifier = {
 			factor = 0.9
@@ -195,14 +198,17 @@ country_event = {
 		AND = {
 			primary_culture = mechanicus_culture
 			capital_scope = {
-				has_province_modifier = forge_world_2_mod
+				AND = {
+					has_province_modifier = forge_world_2_mod
+					development = 40
+				}
 			}
 			is_at_war = no
 			ai = yes
 		}
 	}
 	mean_time_to_happen = {
-		month = 360
+		month = 180
 		
 		modifier = {
 			factor = 0.9
@@ -238,14 +244,17 @@ country_event = {
 		AND = {
 			primary_culture = mechanicus_culture
 			capital_scope = {
-				has_province_modifier = forge_world_3_mod
+				AND = {
+					has_province_modifier = forge_world_3_mod
+					development = 50
+				}
 			}
 			is_at_war = no
 			ai = yes
 		}
 	}
 	mean_time_to_happen = {
-		month = 480
+		month = 240
 		
 		modifier = {
 			factor = 0.9
