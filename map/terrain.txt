@@ -458,8 +458,8 @@ terrain = {
 	
 	terrain_21			= { type = farmlands		color = { 	21	 } }	
 
-	chaos_planet				= { type = woods			color = { 	255	 } }
-	ecumenopolis				= { type = woods			color = { 	4	 } }
+	chaos_planet				= { type = woods			color = { 	253	 } }
+	ecumenopolis				= { type = woods			color = { 	252	 } }
 	forge_world				= { type = woods			color = { 	200	 } }
 	craftworld				= { type = woods			color = { 	150	 } }
 }
