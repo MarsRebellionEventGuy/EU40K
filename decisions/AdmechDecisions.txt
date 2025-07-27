@@ -2,6 +2,7 @@ country_decisions = {
 	
 	forge_world_restore = {
 		potential = {
+			ai = no
 			culture = mechanicus_culture
 			religion = mechanicus
 			any_owned_province = {
@@ -40,6 +41,7 @@ country_decisions = {
 	
 	forge_world_upgrade = {
 		potential = {
+			ai = no
 			culture = mechanicus_culture
 			religion = mechanicus
 			any_owned_province = {

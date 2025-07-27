@@ -1,0 +1,326 @@
+# FROM is the nation being annexed
+# ROOT is the nation annexing
+#0_mechanicus_subject_type = {}
+#0_ministorum_subject_type = {}
+#0_inquisition_subject_type = {}
+#astartes_subject_type = {}
+#autonomus_astartes_subject_type = {}
+#deathwatch_subject_type = {}
+#shield_company_subject_type = {}
+#order_adepta_sororitas_subject_type = {}
+#integrated_world_subject_type = {}
+#imperial_world_subject_type = {}
+#nominal_imperial_world_subject_type = {}
+#imperial_sector_subject = {}
+#shrine_world_subject_type = {}
+
+#blockaded_power = {}
+
+#integrated_forgeworld = {}
+#integrated_major_forgeworld = {}
+
+tau_auxiliary = {}
+
+on_annexed = {
+	#template
+	#if = {
+	#	limit = {
+	#		AND = {
+	#			<subject_type> = 1
+	#			NOT = {
+	#				<conditions so a nation can keep this subject type>
+	#			}
+	#		}
+	#	}
+	#	every_subject_country = {
+	#		limit = {
+	#			is_subject_of_type = <subject_type>
+	#		}
+	#		grant_independence = yes
+	#	}
+	#}
+	#template end
+
+	if = {
+		limit = {
+			AND = {
+				0_mechanicus_subject_type = 1
+				NOT = {
+					tag = XXA
+				}
+			}
+		}
+		every_subject_country = {
+			limit = {
+				is_subject_of_type = 0_mechanicus_subject_type
+			}
+			grant_independence = yes
+		}
+	}
+	if = {
+		limit = {
+			AND = {
+				0_ministorum_subject_type = 1
+				NOT = {
+					tag = XXA
+				}
+			}
+		}
+		every_subject_country = {
+			limit = {
+				is_subject_of_type = 0_ministorum_subject_type
+			}
+			grant_independence = yes
+		}
+	}
+	if = {
+		limit = {
+			AND = {
+				0_inquisition_subject_type = 1
+				NOT = {
+					tag = XXA
+				}
+			}
+		}
+		every_subject_country = {
+			limit = {
+				is_subject_of_type = 0_inquisition_subject_type
+			}
+			grant_independence = yes
+		}
+	}
+	if = {
+		limit = {
+			AND = {
+				astartes_subject_type = 1
+				NOT = {
+					tag = XXA
+				}
+			}
+		}
+		every_subject_country = {
+			limit = {
+				is_subject_of_type = astartes_subject_type
+			}
+			grant_independence = yes
+		}
+	}
+	if = {
+		limit = {
+			AND = {
+				autonomus_astartes_subject_type = 1
+				NOT = {
+					tag = XXA
+				}
+			}
+		}
+		every_subject_country = {
+			limit = {
+				is_subject_of_type = autonomus_astartes_subject_type
+			}
+			grant_independence = yes
+		}
+	}
+	if = {
+		limit = {
+			AND = {
+				deathwatch_subject_type = 1
+				NOT = {
+					tag = XXA
+				}
+			}
+		}
+		every_subject_country = {
+			limit = {
+				is_subject_of_type = deathwatch_subject_type
+			}
+			grant_independence = yes
+		}
+	}
+	if = {
+		limit = {
+			AND = {
+				shield_company_subject_type = 1
+				NOT = {
+					tag = XXA
+				}
+			}
+		}
+		every_subject_country = {
+			limit = {
+				is_subject_of_type = shield_company_subject_type
+			}
+			grant_independence = yes
+		}
+	}
+	if = {
+		limit = {
+			AND = {
+				order_adepta_sororitas_subject_type = 1
+				NOT = {
+					tag = XXA
+				}
+			}
+		}
+		every_subject_country = {
+			limit = {
+				is_subject_of_type = order_adepta_sororitas_subject_type
+			}
+			grant_independence = yes
+		}
+	}
+	if = {
+		limit = {
+			AND = {
+				integrated_world_subject_type = 1
+				NOT = {
+					tag = XXA
+				}
+			}
+		}
+		every_subject_country = {
+			limit = {
+				is_subject_of_type = integrated_world_subject_type
+			}
+			grant_independence = yes
+		}
+	}
+	if = {
+		limit = {
+			AND = {
+				imperial_world_subject_type = 1
+				NOT = {
+					tag = XXA
+				}
+			}
+		}
+		every_subject_country = {
+			limit = {
+				is_subject_of_type = imperial_world_subject_type
+			}
+			grant_independence = yes
+		}
+	}
+	if = {
+		limit = {
+			AND = {
+				nominal_imperial_world_subject_type = 1
+				NOT = {
+					tag = XXA
+				}
+			}
+		}
+		every_subject_country = {
+			limit = {
+				is_subject_of_type = nominal_imperial_world_subject_type
+			}
+			grant_independence = yes
+		}
+	}
+	if = {
+		limit = {
+			AND = {
+				imperial_sector_subject = 1
+				NOT = {
+					tag = XXA
+				}
+			}
+		}
+		every_subject_country = {
+			limit = {
+				is_subject_of_type = imperial_sector_subject
+			}
+			grant_independence = yes
+		}
+	}
+	if = {
+		limit = {
+			AND = {
+				shrine_world_subject_type = 1
+				NOT = {
+					tag = XXA
+				}
+			}
+		}
+		every_subject_country = {
+			limit = {
+				is_subject_of_type = shrine_world_subject_type
+			}
+			grant_independence = yes
+		}
+	}
+	if = {
+		limit = {
+			AND = {
+				blockaded_power = 1
+				NOT = {
+				#	<conditions to keep subject type>
+				}
+			}
+		}
+		every_subject_country = {
+			limit = {
+				is_subject_of_type = blockaded_power
+			}
+			grant_independence = yes
+		}
+	}
+	
+	if = {
+		limit = {
+			AND = {
+				integrated_forgeworld = 1
+				NOT = {
+					culture = mechanicus_culture
+				}
+			}
+		}
+		every_subject_country = {
+			limit = {
+				is_subject_of_type = integrated_forgeworld
+			}
+			grant_independence = yes
+		}
+	}
+	if = {
+		limit = {
+			AND = {
+				integrated_major_forgeworld = 1
+				NOT = {
+					AND = {
+						culture = mechanicus_culture
+						OR = {
+							any_owned_province = {	has_province_modifier = { forge_world_1_mod	}
+							any_owned_province = {	has_province_modifier = { forge_world_2_mod	}
+							any_owned_province = {	has_province_modifier = { forge_world_3_mod	}
+							any_owned_province = {	has_province_modifier = { forge_world_4_mod	}
+						}
+					}
+				}
+			}
+		}
+		every_subject_country = {
+			limit = {
+				is_subject_of_type = integrated_major_forgeworld
+			}
+			grant_independence = yes
+		}
+	}
+	
+	if = {
+		limit = {
+			AND = {
+				tau_auxiliary = 1
+				NOT = {
+					culture_group = tau_culture_group
+				}
+			}
+		}
+		every_subject_country = {
+			limit = {
+				is_subject_of_type = tau_auxiliary
+			}
+			grant_independence = yes
+		}
+	}
+}

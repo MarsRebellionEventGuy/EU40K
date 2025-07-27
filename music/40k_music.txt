@@ -68,7 +68,7 @@ song = {
 	
 	chance = {
 		modifier = {
-			factor = 2
+			factor = 1
 			tag = XXA
 		}		
 	}
@@ -90,7 +90,7 @@ song = {
 	
 	chance = {
 		modifier = {
-			factor = 100
+			factor = 1
 			tag = XOK
 		}	
 		modifier = {
@@ -105,7 +105,7 @@ song = {
 	
 	chance = {
 		modifier = {
-			factor = 10
+			factor = 1
 			tag = XGK
 		}	
 		modifier = {
@@ -142,7 +142,7 @@ song = {
 	
 	chance = {
 		modifier = {
-			factor = 10
+			factor = 1
 			tag = XGK
 		}	
 		modifier = {
@@ -157,7 +157,7 @@ song = {
 	
 	chance = {
 		modifier = {
-			factor = 10
+			factor = 1
 			tag = XGK
 		}	
 		modifier = {
@@ -205,7 +205,7 @@ song = {
 	
 	chance = {
 		modifier = {
-			factor = 100
+			factor = 1
 			culture = drukhari_culture
 		}		
 	}
@@ -215,7 +215,7 @@ song = {
 	
 	chance = {
 		modifier = {
-			factor = 100
+			factor = 1
 			culture = necron_culture
 		}		
 	}
@@ -258,7 +258,7 @@ song = {
 	
 	chance = {
 		modifier = {
-			factor = 100
+			factor = 1
 			culture = necron_culture
 		}		
 	}
@@ -268,7 +268,7 @@ song = {
 	
 	chance = {
 		modifier = {
-			factor = 100
+			factor = 1
 			culture = necron_culture
 		}		
 	}
@@ -278,7 +278,7 @@ song = {
 	
 	chance = {
 		modifier = {
-			factor = 100
+			factor = 1
 			culture_group = imperial_culture_group
 		}		
 	}
@@ -289,7 +289,7 @@ song = {
 	
 	chance = {
 		modifier = {
-			factor = 100
+			factor = 1
 			culture_group = imperial_culture_group
 		}		
 	}
@@ -300,7 +300,7 @@ song = {
 	
 	chance = {
 		modifier = {
-			factor = 10000
+			factor = 1
 			OR = {
 			tag = XXB
 			tag = XTE
@@ -314,7 +314,7 @@ song = {
 	
 	chance = {
 		modifier = {
-			factor = 100
+			factor = 1
 			tag = XXA
 		}		
 	}
@@ -325,7 +325,7 @@ song = {
 	
 	chance = {
 		modifier = {
-			factor = 10000
+			factor = 1
 			culture_group = aeldari_culture_group
 		}		
 	}
@@ -336,7 +336,7 @@ song = {
 	
 	chance = {
 		modifier = {
-			factor = 10000
+			factor = 1
 			OR = {
 			tag = XXB
 			tag = XTE
@@ -350,7 +350,7 @@ song = {
 	
 	chance = {
 		modifier = {
-			factor = 100
+			factor = 1
 			culture_group = imperial_culture_group
 		}
 	}
@@ -361,7 +361,7 @@ song = {
 	
 	chance = {
 		modifier = {
-			factor = 10000
+			factor = 1
 			OR = {
 			tag = XXB
 			tag = XTE
@@ -375,7 +375,7 @@ song = {
 	
 	chance = {
 		modifier = {
-			factor = 10000
+			factor = 1
 			OR = {
 			tag = XXB
 			tag = XTE
@@ -389,7 +389,7 @@ song = {
 	
 	chance = {
 		modifier = {
-			factor = 10000
+			factor = 1
 			OR = {
 			tag = XXB
 			tag = XTE
@@ -403,7 +403,7 @@ song = {
 	
 	chance = {
 		modifier = {
-			factor = 10000
+			factor = 1
 			OR = {
 			tag = XXB
 			tag = XTE
@@ -417,7 +417,7 @@ song = {
 	
 	chance = {
 		modifier = {
-			factor = 10000
+			factor = 1
 			OR = {
 			tag = XXB
 			tag = XTE
@@ -431,7 +431,7 @@ song = {
 	
 	chance = {
 		modifier = {
-			factor = 10000
+			factor = 1
 			OR = {
 			tag = XXB
 			tag = XTE

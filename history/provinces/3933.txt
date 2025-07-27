@@ -1,3 +1,5 @@
+#Frozen Heart
+
 add_core = XSI
 owner = XSI
 base_tax = 6
@@ -9,3 +11,4 @@ religion = dark_muses
 hre = yes
 controller = XSI
 is_city = no
+capital = "Winterhold"

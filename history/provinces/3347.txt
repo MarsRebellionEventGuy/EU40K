@@ -1,3 +1,5 @@
+#Middle Darkness
+
 add_core = XQN
 owner = XQN
 controller = XQN
@@ -9,3 +11,4 @@ base_manpower = 3
 trade_goods = minerals
 is_city = no
 hre = yes
+capital = "Dawnguard"

@@ -1,3 +1,5 @@
+#Eridanus
+
 add_core = XQJ
 owner = XQJ
 controller = XQJ
@@ -9,3 +11,4 @@ base_manpower = 5
 trade_goods = promethium
 is_city = no
 hre = yes
+capital = "Stormhaven"

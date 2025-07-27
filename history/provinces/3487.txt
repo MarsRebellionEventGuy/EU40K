@@ -1,3 +1,5 @@
+#Last Whisper
+
 add_core = XQG
 owner = XQG
 controller = XQG
@@ -9,3 +11,4 @@ base_manpower = 4
 trade_goods = clerks
 is_city = no
 hre = yes
+capital = Daggerfall

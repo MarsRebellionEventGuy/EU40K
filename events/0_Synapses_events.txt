@@ -934,3 +934,72 @@ country_event = { #A Leviathan Falls!
 	}
 }
 
+country_event = { #Firestarter
+	id = indomitus_general.42
+	title = indomitus_general.42.t
+	desc = indomitus_general.42.d
+	picture = BORDER_TENSION_eventPicture
+	
+
+	trigger = {
+		culture = tyranid_culture
+		is_at_war = yes
+		is_year = 2012
+		total_development = 100
+		NOT = {has_country_flag = tyr_firestarted}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+		}
+
+	option = {
+		name = indomitus_general.42.a
+		highlight = yes
+		add_years_of_income = -1
+		add_country_modifier = {
+			name = tyr_firestarter
+			duration = -1
+		}
+		set_country_flag = tyr_firestarted
+		play_sound = seize_colony
+	}
+	option = {
+		name = indomitus_general.42.b
+		add_adm_power = 25
+		add_dip_power = 25
+		add_mil_power = 25
+		set_country_flag = tyr_firestarted
+	}
+}
+
+country_event = { #Hellfire
+	id = indomitus_general.43
+	title = indomitus_general.43.t
+	desc = indomitus_general.43.d
+	picture = PORT_BLOCKADED_eventPicture
+	
+
+	trigger = {
+		culture = tyranid_culture
+		num_of_ports_blockading = 1
+		NOT = {has_country_flag = tyr_hellfire}
+		is_in_war = {
+   		attacker_leader = ROOT
+		casus_belli = cb_tyranid_invasion	
+    	duration = 77
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+		}
+
+	option = {
+		name = indomitus_general.43.a
+		add_reform_progress_big_effect = yes
+		add_navy_tradition = 25
+		set_country_flag = tyr_hellfire
+	}
+	
+}

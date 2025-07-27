@@ -9,3 +9,4 @@ base_manpower = 5
 trade_goods = military_equipment
 is_city = no
 hre = yes
+capital = "The Grand Arena"

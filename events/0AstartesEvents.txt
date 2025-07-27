@@ -139,3 +139,83 @@ country_event = { #Light of the Imperium
 		set_country_flag = saw_the_light
 	}
 }
+
+country_event = { #Domine
+	id = astartes_events.6
+	title = astartes_events.6.t
+	desc = astartes_events.6.d
+	picture = CATHOLIC_RULERS_PRAYING_eventPicture
+
+	trigger = {
+		has_faction = astartes_faction_1
+		NOT = {has_country_flag = domine_prayer}
+		is_at_war = yes
+		is_year = 2005
+		religion = imperial_cult
+	}
+
+
+	mean_time_to_happen = {
+		days= 777
+	}
+	
+	option = {
+		name = astartes_events.6.a
+		set_country_flag = domine_prayer
+		add_stability_or_adm_power = yes
+	}
+}
+
+country_event = { #Guide Us
+	id = astartes_events.7
+	title = astartes_events.7.t
+	desc = astartes_events.7.d
+	picture = iberian_PRAYING_eventPicture
+
+	trigger = {
+		has_faction = astartes_faction_1
+		NOT = {has_country_flag = fortitudo_prayer}
+		is_at_war = yes
+		is_year = 2007
+		religion = imperial_cult
+	}
+
+
+	mean_time_to_happen = {
+		days= 777
+	}
+	
+	option = {
+		name = astartes_events.7.a
+		set_country_flag = fortitudo_prayer
+		add_stability_or_adm_power = yes
+	}
+}
+
+
+country_event = { #Faith
+	id = astartes_events.8
+	title = astartes_events.8.t
+	desc = astartes_events.8.d
+	picture = hussite_PRAYING_eventPicture
+
+	trigger = {
+		has_faction = astartes_faction_1
+		NOT = {has_country_flag = faith_prayer}
+		is_at_war = yes
+		is_year = 2003
+		religion = imperial_cult
+	}
+
+
+	mean_time_to_happen = {
+		days= 777
+	}
+	
+	option = {
+		name = astartes_events.7.a
+		set_country_flag = faith_prayer
+		add_stability_or_adm_power = yes
+		add_army_professionalism = 0.03
+	}
+}
