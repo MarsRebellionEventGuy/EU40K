@@ -220,10 +220,11 @@ estate_necron_nobles_nobility_primacy = {
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
 	loyalty = -0.05
 	can_select = {
-		can_select_monarch_power_privilege = {
-			estate = estate_necron_nobles
-			type = mil
-		}
+		always = yes # there is no can_select_mil_privilege_for_estate_nobles for necron. And the noble version return always yes
+#		can_select_monarch_power_privilege = {
+#			estate = estate_necron_nobles
+#			type = mil
+#		}
 	}
 	on_granted = {
 	}
@@ -510,12 +511,12 @@ estate_necron_nobles_royal_court_tasks = {
 	}
 	on_granted = {
 		scaling_with_influence_privilege_tooltip = {
-			estate_privilege = estate_necron_nobles_royal_court_tasks
+			estate_privilege = estate_nobles_royal_court_tasks # estate_necron_nobles_royal_court_tasks_disloyal, loyal and neutral modifier dosen't exist. I use noble one
 		}
 	}
 	on_revoked = {
 		scaling_with_influence_privilege_tooltip = {
-			estate_privilege = estate_necron_nobles_royal_court_tasks
+			estate_privilege = estate_nobles_royal_court_tasks
 		}
 	}
 	influence_scaled_conditional_modifier = {	#Modifier that are applied if the specified conditions are true. At 100% Influence you gain 100% of the modifier.
@@ -703,7 +704,7 @@ estate_necron_nobles_expedition_rights = {
 	
 	on_granted = {
 		scaling_with_loyalty_privilege_tooltip = {
-			estate_privilege = estate_necron_nobles_expedition_rights
+			estate_privilege = estate_nobles_expedition_rights # estate_necron_nobles_expedition_rights_scaling modifier doesn't exist. I use the noble oi=ne
 		}
 		enable_estate_action = {
 			estate_action = RECRUIT_CONQUISTADOR_ESTATES_NOBLES
@@ -711,7 +712,7 @@ estate_necron_nobles_expedition_rights = {
 	}
 	on_invalid = {
 		scaling_with_loyalty_privilege_tooltip = {
-			estate_privilege = estate_necron_nobles_expedition_rights
+			estate_privilege = estate_nobles_expedition_rights
 		}
 		disable_estate_action = {
 			estate_action = RECRUIT_CONQUISTADOR_ESTATES_NOBLES
@@ -719,7 +720,7 @@ estate_necron_nobles_expedition_rights = {
 	}
 	on_revoked = {
 		scaling_with_loyalty_privilege_tooltip = {
-			estate_privilege = estate_necron_nobles_expedition_rights
+			estate_privilege = estate_nobles_expedition_rights
 		}
 		disable_estate_action = {
 			estate_action = RECRUIT_CONQUISTADOR_ESTATES_NOBLES
