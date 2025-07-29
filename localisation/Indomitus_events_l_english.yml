@@ -808,3 +808,27 @@ lev_symphony_desc:0 "I bring death."
 
 lev_apex:0 "Apex"
 lev_apex_desc:0 "Eternity is beyond your reach, mortal."
+
+astartes_events.6.t:0 "Domine"
+astartes_events.6.d:0 "A spiritu dominatus. \nDomine, libra nos. \nA morte perpetua. \nDomine, libra nos. \n \nAve, Imperator."
+astartes_events.6.a:0 "Domine, libra nos."
+
+astartes_events.7.t:0 "Fortitudo"
+astartes_events.7.d:0 "My strength must be unfailing, my sight clear.\nGuide me, my Emperor."
+astartes_events.7.a:0 "§YShow me to the Light.§"
+
+astartes_events.8.t:0 "Faith"
+astartes_events.8.d:0 "Faith be your sword, your shield, your blood and your purpose. \nWithout Faith there is no victory. \nWithout Faith there is no deed that cannot be undone. \nIn His name, all things are righteous and eternal."
+astartes_events.8.a:0 "The Emperor Protects."
+
+indomitus_general.42.t:0 "Firestarter"
+indomitus_general.42.d:0 "As our forces approach the orbit of yet another soon to-be-consumed planet, the Genestealers lay in wait for our inevitable descent. Who is the first one of them to initiate the uprising is entirely up to chance. \n \nHowever, we could designate from the strongest and wisest among them, who should be the Firestarter of each campaign."
+indomitus_general.42.a:0 "Who started the fire?"
+indomitus_general.42.b:0 "Let entropy handle such affairs."
+
+indomitus_general.43.t:0 "Hellfire"
+indomitus_general.43.d:0 "Across the ceaseless expanse, our tendrils have found another victim to feast on. As the hopeless defenders scramble to organize some sort of lackluster defense, the reality of the situation slowly sets in for them. \n \nFire and brimstone will soon manifest itself on their beloved world, soon to be ravaged by unconditional hellfire."
+indomitus_general.43.a:0 "Another light snuffled out!"
+
+tyr_firestarter:0 "Firestarter"
+tyr_firestarter_desc:0 "We have chosen to designate the fittest and the wisest among our Genestealers to lead the subversion of their planet upon landfall."

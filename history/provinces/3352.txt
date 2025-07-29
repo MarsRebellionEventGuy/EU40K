@@ -1,3 +1,5 @@
+#Flayed Mask Dock
+
 add_core = XPY
 owner = XPY
 controller = XPY
@@ -9,3 +11,4 @@ base_manpower = 7
 trade_goods = military_equipment
 is_city = no
 hre = yes
+capital = "Coldharbour"

@@ -172,6 +172,7 @@ country_event = {
 	desc = "farsight_events.5.d"
 	picture = Farsight_aunva_event_picture
 	
+	fire_only_once = yes
 	hidden = yes
 	trigger = {
 		tag = XGG
@@ -181,7 +182,7 @@ country_event = {
 	}
 	
 	option = {
-		set_global_flag = WIN_WAR_OF_DAKKA
+		set_country_flag = WIN_WAR_OF_DAKKA
 	}
 }
 

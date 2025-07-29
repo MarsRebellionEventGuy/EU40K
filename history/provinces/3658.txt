@@ -1,3 +1,5 @@
+#The Dead Zone
+
 culture = drukhari_culture
 religion = dark_muses
 base_tax = 3
@@ -9,3 +11,4 @@ hre = yes
 add_core = XPQ
 owner = XPQ
 controller = XPQ
+capital = "Sovngarde"

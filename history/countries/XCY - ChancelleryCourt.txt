@@ -1,5 +1,5 @@
 government = monarchy
-add_government_reform = chaos_cult
+add_government_reform = chaos_cult_reform
 government_rank = 1
 technology_group = imperial
 religion = chaos_undivided

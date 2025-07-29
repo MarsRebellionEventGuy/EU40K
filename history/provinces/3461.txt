@@ -9,3 +9,4 @@ base_manpower = 7
 trade_goods = luxury_goods
 is_city = no
 hre = yes
+capital = "Dawnstar"

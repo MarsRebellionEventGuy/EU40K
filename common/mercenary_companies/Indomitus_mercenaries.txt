@@ -602,7 +602,7 @@ masque_shattered_mirage = {
 				has_country_flag = harlequin_masques_unlocked
 			}
 			has_reform = black_library_reform
-			has_reform = wych_cult_reform
+			#has_reform = wych_cult_reform
 		}
 	}
 	cost_modifier = 0.25

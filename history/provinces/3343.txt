@@ -9,3 +9,4 @@ base_manpower = 5
 trade_goods = clerks
 is_city = no
 hre = yes
+capital = "Mundus"

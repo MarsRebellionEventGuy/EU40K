@@ -1,3 +1,5 @@
+#Mortal Reminder
+
 add_core = XQI
 owner = XQI
 controller = XQI
@@ -9,3 +11,4 @@ base_manpower = 8
 trade_goods = military_equipment
 is_city = no
 hre = yes
+capital = "Hearthfire"

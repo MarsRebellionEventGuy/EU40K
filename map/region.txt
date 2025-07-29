@@ -5,7 +5,7 @@
 segmentum_solar_region = { 
 	areas = { 
 		solar avellorn voss gathalamor xenax keletros solar_star_keeps atoma_prime nox_alpha
-		benediction_planet dulmalin gathalamor_planet vorlese vilamus_planet voss_planet mars_planet veritus saturn jupiter
+		benediction_planet dulmalin gathalamor_planet vorlese voss_planet mars_planet veritus saturn jupiter
 	}
 }
 talis_munus_region = { 
@@ -203,7 +203,7 @@ trail_evisser_region = {
 }
 salient_stars_region = { 
 	areas = { 
-		methalor bastior guryan stygies sabatine methalor_planet stygies_planet asmodiox vorsk morpheum vynor
+		methalor_planet bastior guryan stygies sabatine methalor_planet stygies_planet asmodiox vorsk morpheum vynor
 	}
 }
 hydraphur_region = { 
@@ -253,7 +253,7 @@ vidar_region = {
 }
 corribra_region = { 
 	areas = { 
-		tesla zodiac necris san_leor orinus tesla_prime_planet
+		zodiac necris san_leor orinus tesla_prime_planet #tesla
 	}
 }
 ullanor_region = { 

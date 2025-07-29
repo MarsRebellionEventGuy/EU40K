@@ -4142,9 +4142,33 @@ re_add_loyalty_from_seized_land = {
 			if = { limit = { estate_has_exempt_from_seize_land_privilege = { estate = estate_janissaries } }	add_estate_loyalty = { estate = estate_janissaries		 loyalty = 15 } }
 			if = { limit = { estate_has_exempt_from_seize_land_privilege = { estate = estate_eunuchs } }		add_estate_loyalty = { estate = estate_eunuchs			 loyalty = 15 } }
 			if = { limit = { estate_has_exempt_from_seize_land_privilege = { estate = estate_qizilbash } }		add_estate_loyalty = { estate = estate_qizilbash		 loyalty = 15 } }
-			if = { limit = { estate_has_exempt_from_seize_land_privilege = { estate = estate_ghulams } }		add_estate_loyalty = { estate = estate_ghulams			 loyalty = 15 } }
-			if = { limit = { estate_has_exempt_from_seize_land_privilege = { estate = estate_inquisition } }	add_estate_loyalty = { estate = estate_inquisition		 loyalty = 15 } }
-			if = { limit = { estate_has_exempt_from_seize_land_privilege = { estate = estate_adeptus_mechanicus } }		add_estate_loyalty = { estate = estate_adeptus_mechanicus			 loyalty = 15 } }
+			if = { limit = { estate_has_exempt_from_seize_land_privilege = { estate = estate_ghulams } }		add_estate_loyalty = { estate = estate_ghulams			 loyalty = 15 } }		
+			if = { 
+				limit = { 
+#					estate_has_exempt_from_seize_land_privilege = { # Don't exist for inquisition in vanilla code
+#						estate = estate_inquisition 
+#					}
+					has_estate = estate_inquisition
+					has_estate_privilege = estate_inquisition_independent_action
+				}	
+				add_estate_loyalty = { 
+					estate = estate_inquisition		 
+					loyalty = 15 
+				} 
+			}
+			if = { 
+				limit = { 
+#					estate_has_exempt_from_seize_land_privilege = { # Don't exist for mechanicus in vanilla code
+#						estate = estate_adeptus_mechanicus 
+#					}
+					has_estate = estate_adeptus_mechanicus
+					has_estate_privilege = estate_mechanicus_treaty_olympus
+				}		
+				add_estate_loyalty = { 
+					estate = estate_adeptus_mechanicus			 
+					loyalty = 15 
+				} 
+			}
 		}
 		else = {
 			if = { limit = { estate_has_exempt_from_seize_land_privilege = { estate = estate_nobles } }			add_estate_loyalty = { estate = estate_nobles			 loyalty = 20 } }
@@ -4162,8 +4186,32 @@ re_add_loyalty_from_seized_land = {
 			if = { limit = { estate_has_exempt_from_seize_land_privilege = { estate = estate_eunuchs } }		add_estate_loyalty = { estate = estate_eunuchs			 loyalty = 20 } }
 			if = { limit = { estate_has_exempt_from_seize_land_privilege = { estate = estate_qizilbash } }		add_estate_loyalty = { estate = estate_qizilbash		 loyalty = 20 } }
 			if = { limit = { estate_has_exempt_from_seize_land_privilege = { estate = estate_ghulams } }		add_estate_loyalty = { estate = estate_ghulams			 loyalty = 20 } }
-			if = { limit = { estate_has_exempt_from_seize_land_privilege = { estate = estate_inquisition } }	add_estate_loyalty = { estate = estate_inquisition		 loyalty = 20 } }
-			if = { limit = { estate_has_exempt_from_seize_land_privilege = { estate = estate_adeptus_mechanicus } }		add_estate_loyalty = { estate = estate_adeptus_mechanicus			 loyalty = 20 } }
+			if = { 
+				limit = { 
+#					estate_has_exempt_from_seize_land_privilege = { # Don't exist for inquisition in vanilla code
+#						estate = estate_inquisition 
+#					}
+					has_estate = estate_inquisition
+					has_estate_privilege = estate_inquisition_independent_action
+				}	
+				add_estate_loyalty = { 
+					estate = estate_inquisition		 
+					loyalty = 20 
+				} 
+			}
+			if = { 
+				limit = { 
+#					estate_has_exempt_from_seize_land_privilege = { # Don't exist for mechanicus in vanilla code
+#						estate = estate_adeptus_mechanicus 
+#					}
+					has_estate = estate_adeptus_mechanicus
+					has_estate_privilege = estate_mechanicus_treaty_olympus
+				}		
+				add_estate_loyalty = { 
+					estate = estate_adeptus_mechanicus			 
+					loyalty = 20 
+				} 
+			}
 		}
 	}
 }

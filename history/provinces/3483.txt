@@ -1,3 +1,5 @@
+#Amon Kaelis
+
 add_core = XPP
 owner = XPP
 controller = XPP
@@ -9,3 +11,4 @@ base_manpower = 6
 trade_goods = military_equipment
 is_city = yes
 hre = yes
+capital = ""

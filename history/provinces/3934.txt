@@ -1,3 +1,5 @@
+#Mistveil Keep
+
 add_core = XSJ
 owner = XSJ
 base_tax = 8
@@ -9,3 +11,4 @@ religion = dark_muses
 hre = yes
 controller = XSJ
 is_city = no
+capital = "Stormhold"

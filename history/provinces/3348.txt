@@ -9,3 +9,4 @@ base_manpower = 3
 trade_goods = scientific_equipment
 is_city = no
 hre = yes
+capital = "Helm's Deep"

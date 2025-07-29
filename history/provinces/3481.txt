@@ -1,3 +1,5 @@
+#Edge of Night
+
 add_core = XQW
 owner = XQW
 controller = XQW
@@ -9,3 +11,4 @@ base_manpower = 6
 trade_goods = military_equipment
 is_city = no
 hre = yes
+capital = "Morrowind"
