@@ -2239,6 +2239,2276 @@ country_event = {
 		}
 	}
 }
+#######################################
+############## DEMANDS ################
+#######################################
+
+#pick a category of demands
+country_event = {
+	id = admech_vassalisation.20
+	title = "admech_vassalisation.20.t"
+	desc = "admech_vassalisation.20.desc"
+	picture = ECONOMY_eventPicture
+	
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = admech_active_subjugation_negotiation
+	}
+	
+	#adm
+	option = {
+		name = admech_vassalisation.20.a
+		hidden_effect = {
+			set_country_flag = admech_vassalisation_demand_1_adm
+			set_country_flag = admech_vassalisation_dummy_20a
+			FROM = {
+				country_event = {
+					id = admech_vassalisation.100
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+
+			}
+		}
+	}
+	
+	#dip
+	option = {
+		name = admech_vassalisation.20.b
+		hidden_effect = {
+			set_country_flag = admech_vassalisation_demand_1_dip
+			set_country_flag = admech_vassalisation_dummy_20b
+			FROM = {
+				country_event = {
+					id = admech_vassalisation.100
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+
+			}
+		}
+	}
+	
+	#mil
+	option = {
+		name = admech_vassalisation.20.c
+		hidden_effect = {
+			set_country_flag = admech_vassalisation_demand_1_mil
+			set_country_flag = admech_vassalisation_dummy_20c
+			FROM = {
+				country_event = {
+					id = admech_vassalisation.100
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+
+			}
+		}
+	}
+}
+
+#list of adm demands
+country_event = {
+	id = admech_vassalisation.21
+	title = "admech_vassalisation.21.t"
+	desc = "admech_vassalisation.21.desc"
+	picture = INVENTION_eventPicture
+	
+	is_triggered_only = yes
+	
+	#option 1/6
+	option = {
+		name = admech_vassalisation.21.a
+		custom_tooltip = admech_vassalisation_demands_tooltip_adm_1
+		hidden_effect = {
+			set_country_flag = admech_vassalisation_demand_1_1			#first number: round; second number: demand number
+			FROM = {
+				#set_country_flag = admech_vassalisation_demand_1_1
+				country_event = { 
+					id = admech_vassalisation.6
+					#days = 10						#test
+					days = 90
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+			}
+		}
+	}
+	#option 2/6
+	option = {
+		name = admech_vassalisation.21.b
+		custom_tooltip = admech_vassalisation_demands_tooltip_adm_2
+		hidden_effect = {
+			set_country_flag = admech_vassalisation_demand_1_2			
+			FROM = {
+				#set_country_flag = admech_vassalisation_demand_1_2
+				country_event = { 
+					id = admech_vassalisation.6
+					#days = 10						#test
+					days = 90
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+			}
+		}
+	}
+	#option 3/6
+	option = {
+		name = admech_vassalisation.21.c
+		custom_tooltip = admech_vassalisation_demands_tooltip_adm_3
+		hidden_effect = {
+			set_country_flag = admech_vassalisation_demand_1_3			
+			FROM = {
+				#set_country_flag = admech_vassalisation_demand_1_3
+				country_event = { 
+					id = admech_vassalisation.6
+					#days = 10						#test
+					days = 90
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+			}
+		}
+	}
+	#option 4/6
+	option = {
+		name = admech_vassalisation.21.d
+		custom_tooltip = admech_vassalisation_demands_tooltip_adm_4
+		hidden_effect = {
+			set_country_flag = admech_vassalisation_demand_1_4			
+			FROM = {
+				#set_country_flag = admech_vassalisation_demand_1_4
+				country_event = { 
+					id = admech_vassalisation.6
+					#days = 10						#test
+					days = 90
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+			}
+		}
+	}
+	#option 5/6
+	option = {
+		name = admech_vassalisation.21.e
+		custom_tooltip = admech_vassalisation_demands_tooltip_adm_5
+		hidden_effect = {
+			set_country_flag = admech_vassalisation_demand_1_5			
+			FROM = {
+				#set_country_flag = admech_vassalisation_demand_1_5
+				country_event = { 
+					id = admech_vassalisation.6
+					#days = 10						#test
+					days = 90
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+			}
+		}
+	}
+	#option 6/6
+	option = {
+		name = admech_vassalisation.21.f
+		custom_tooltip = admech_vassalisation_demands_tooltip_adm_6
+		hidden_effect = {
+			set_country_flag = admech_vassalisation_demand_1_6			
+			FROM = {
+				#set_country_flag = admech_vassalisation_demand_1_6
+				country_event = { 
+					id = admech_vassalisation.6
+					#days = 10						#test
+					days = 90
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+			}
+		}
+	}
+}
+
+#list of dip demands
+country_event = {
+	id = admech_vassalisation.22
+	title = "admech_vassalisation.22.t"
+	desc = "admech_vassalisation.22.desc"
+	picture = SHIP_SAILING_eventPicture
+	
+	is_triggered_only = yes
+	
+	#option 1/6
+	option = {
+		name = admech_vassalisation.22.a
+		custom_tooltip = admech_vassalisation_demands_tooltip_dip_1
+		hidden_effect = {
+			set_country_flag = admech_vassalisation_demand_1_1			#first number: round; second number: demand number
+			FROM = {
+				country_event = { 
+					id = admech_vassalisation.7
+					#days = 10						#test
+					days = 90
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+
+			}
+		}
+	}
+	#option 2/6
+	option = {
+		name = admech_vassalisation.22.b
+		custom_tooltip = admech_vassalisation_demands_tooltip_dip_2
+		hidden_effect = {
+			set_country_flag = admech_vassalisation_demand_1_2		
+			FROM = {
+				country_event = { 
+					id = admech_vassalisation.7
+					#days = 10						#test
+					days = 90
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+
+			}
+		}
+	}
+	#option 3/6
+	option = {
+		name = admech_vassalisation.22.c
+		custom_tooltip = admech_vassalisation_demands_tooltip_dip_3
+		hidden_effect = {
+			set_country_flag = admech_vassalisation_demand_1_3		
+			FROM = {
+				country_event = { 
+					id = admech_vassalisation.7
+					#days = 10						#test
+					days = 90
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+
+			}
+		}
+	}
+	#option 4/6
+	option = {
+		name = admech_vassalisation.22.d
+		custom_tooltip = admech_vassalisation_demands_tooltip_dip_4
+		hidden_effect = {
+			set_country_flag = admech_vassalisation_demand_1_4		
+			FROM = {
+				country_event = { 
+					id = admech_vassalisation.7
+					#days = 10						#test
+					days = 90
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+
+			}
+		}
+	}
+	#option 5/6
+	option = {
+		name = admech_vassalisation.22.e
+		custom_tooltip = admech_vassalisation_demands_tooltip_dip_5
+		hidden_effect = {
+			set_country_flag = admech_vassalisation_demand_1_5		
+			FROM = {
+				country_event = { 
+					id = admech_vassalisation.7
+					#days = 10						#test
+					days = 90
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+
+			}
+		}
+	}
+	#option 6/6
+	option = {
+		name = admech_vassalisation.22.f
+		custom_tooltip = admech_vassalisation_demands_tooltip_dip_6
+		hidden_effect = {
+			set_country_flag = admech_vassalisation_demand_1_6		
+			FROM = {
+				country_event = { 
+					id = admech_vassalisation.7
+					#days = 10						#test
+					days = 90
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+
+			}
+		}
+	}
+}
+
+#list of mil demands
+country_event = {
+	id = admech_vassalisation.23
+	title = "admech_vassalisation.23.t"
+	desc = "admech_vassalisation.23.desc"
+	picture = LAND_MILITARY_eventPicture
+	
+	is_triggered_only = yes
+	
+	#option 1/6
+	option = {
+		name = admech_vassalisation.23.a
+		custom_tooltip = admech_vassalisation_demands_tooltip_mil_1
+		hidden_effect = {
+			set_country_flag = admech_vassalisation_demand_1_1			#first number: round; second number: demand number
+			FROM = {
+				country_event = { 
+					id = admech_vassalisation.8
+					#days = 10						#test
+					days = 90
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+			}
+		}
+	}
+	#option 2/6
+	option = {
+		name = admech_vassalisation.23.b
+		custom_tooltip = admech_vassalisation_demands_tooltip_mil_2
+		hidden_effect = {
+			set_country_flag = admech_vassalisation_demand_1_2		
+			FROM = {
+				country_event = { 
+					id = admech_vassalisation.8
+					#days = 10						#test
+					days = 90
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+			}
+		}
+	}
+	#option 3/6
+	option = {
+		name = admech_vassalisation.23.c
+		custom_tooltip = admech_vassalisation_demands_tooltip_mil_3
+		hidden_effect = {
+			set_country_flag = admech_vassalisation_demand_1_3		
+			FROM = {
+				country_event = { 
+					id = admech_vassalisation.8
+					#days = 10						#test
+					days = 90
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+			}
+		}
+	}
+	#option 4/6
+	option = {
+		name = admech_vassalisation.23.d
+		custom_tooltip = admech_vassalisation_demands_tooltip_mil_4
+		hidden_effect = {
+			set_country_flag = admech_vassalisation_demand_1_4		
+			FROM = {
+				country_event = { 
+					id = admech_vassalisation.8
+					#days = 10						#test
+					days = 90
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+			}
+		}
+	}
+	#option 5/6
+	option = {
+		name = admech_vassalisation.23.e
+		custom_tooltip = admech_vassalisation_demands_tooltip_mil_5
+		hidden_effect = {
+			set_country_flag = admech_vassalisation_demand_1_5		
+			FROM = {
+				country_event = { 
+					id = admech_vassalisation.8
+					#days = 10						#test
+					days = 90
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+			}
+		}
+	}
+	#option 6/6
+	option = {
+		name = admech_vassalisation.23.f
+		custom_tooltip = admech_vassalisation_demands_tooltip_mil_6
+		hidden_effect = {
+			set_country_flag = admech_vassalisation_demand_1_6		
+			FROM = {
+				country_event = { 
+					id = admech_vassalisation.8
+					#days = 10						#test
+					days = 90
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+			}
+		}
+	}
+}
+
+#innitiator - alternatives adm
+country_event = {
+	id = admech_vassalisation.24
+	title = "admech_vassalisation.24.t"
+	desc = "admech_vassalisation.24.desc"
+	picture = INVENTION_eventPicture
+	
+	is_triggered_only = yes
+	
+	#option 1/6
+	option = {
+		name = admech_vassalisation.24.a			
+		trigger = {
+			FROM = { 
+				AND = {	has_country_flag = admech_vassalisation_demand_1_adm
+					NOT = {has_country_flag = admech_vassalisation_demand_1_1}
+		}	}	}	
+		custom_tooltip = admech_vassalisation_demands_tooltip_alt_adm_1
+		hidden_effect = {
+			FROM = {
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_2 } clr_country_flag = admech_vassalisation_demand_1_2}	
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_3 } clr_country_flag = admech_vassalisation_demand_1_3}
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_4 } clr_country_flag = admech_vassalisation_demand_1_4}
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_5 } clr_country_flag = admech_vassalisation_demand_1_5}
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_6 } clr_country_flag = admech_vassalisation_demand_1_6}	
+			#add potential future flags
+				set_country_flag = admech_vassalisation_demand_1_1
+				country_event = { 
+					id = admech_vassalisation.14
+					#days = 10
+					days = 90
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+			}
+		}
+	}
+	#option 2/6
+	option = {
+		name = admech_vassalisation.24.b			
+		trigger = {
+			FROM = { 
+				AND = {	has_country_flag = admech_vassalisation_demand_1_adm
+					NOT = {has_country_flag = admech_vassalisation_demand_1_2}
+		}	}	}	
+		custom_tooltip = admech_vassalisation_demands_tooltip_alt_adm_2
+		hidden_effect = {
+			FROM = {
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_1 } clr_country_flag = admech_vassalisation_demand_1_1}	
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_3 } clr_country_flag = admech_vassalisation_demand_1_3}
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_4 } clr_country_flag = admech_vassalisation_demand_1_4}
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_5 } clr_country_flag = admech_vassalisation_demand_1_5}
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_6 } clr_country_flag = admech_vassalisation_demand_1_6}	
+			#add potential future flags
+				set_country_flag = admech_vassalisation_demand_1_2
+				country_event = { 
+					id = admech_vassalisation.14
+					#days = 10
+					days = 90
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+			}
+		}
+	}
+	#option 3/6
+	option = {
+		name = admech_vassalisation.24.c			
+		trigger = {
+			FROM = { 
+				AND = {	has_country_flag = admech_vassalisation_demand_1_adm
+					NOT = {has_country_flag = admech_vassalisation_demand_1_3}
+		}	}	}	
+		custom_tooltip = admech_vassalisation_demands_tooltip_alt_adm_3
+		hidden_effect = {
+			FROM = {
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_2 } clr_country_flag = admech_vassalisation_demand_1_2}	
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_1 } clr_country_flag = admech_vassalisation_demand_1_1}
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_4 } clr_country_flag = admech_vassalisation_demand_1_4}
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_5 } clr_country_flag = admech_vassalisation_demand_1_5}
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_6 } clr_country_flag = admech_vassalisation_demand_1_6}	
+			#add potential future flags
+				set_country_flag = admech_vassalisation_demand_1_3
+				country_event = { 
+					id = admech_vassalisation.14
+					#days = 10
+					days = 90
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+			}
+		}
+	}
+	#option 4/6
+	option = {
+		name = admech_vassalisation.24.d			
+		trigger = {
+			FROM = { 
+				AND = {	has_country_flag = admech_vassalisation_demand_1_adm
+					NOT = {has_country_flag = admech_vassalisation_demand_1_4}
+		}	}	}	
+		custom_tooltip = admech_vassalisation_demands_tooltip_alt_adm_4
+		hidden_effect = {
+			FROM = {
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_2 } clr_country_flag = admech_vassalisation_demand_1_2}	
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_3 } clr_country_flag = admech_vassalisation_demand_1_3}
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_1 } clr_country_flag = admech_vassalisation_demand_1_1}
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_5 } clr_country_flag = admech_vassalisation_demand_1_5}
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_6 } clr_country_flag = admech_vassalisation_demand_1_6}	
+			#add potential future flags
+				set_country_flag = admech_vassalisation_demand_1_4
+				country_event = { 
+					id = admech_vassalisation.14
+					#days = 10
+					days = 90
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+			}
+		}
+	}
+	#option 5/6
+	option = {
+		name = admech_vassalisation.24.e			
+		trigger = {
+			FROM = { 
+				AND = {	has_country_flag = admech_vassalisation_demand_1_adm
+					NOT = {has_country_flag = admech_vassalisation_demand_1_5}
+		}	}	}	
+		custom_tooltip = admech_vassalisation_demands_tooltip_alt_adm_5
+		hidden_effect = {
+			FROM = {
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_2 } clr_country_flag = admech_vassalisation_demand_1_2}	
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_3 } clr_country_flag = admech_vassalisation_demand_1_3}
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_4 } clr_country_flag = admech_vassalisation_demand_1_4}
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_1 } clr_country_flag = admech_vassalisation_demand_1_5}
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_6 } clr_country_flag = admech_vassalisation_demand_1_6}	
+			#add potential future flags
+				set_country_flag = admech_vassalisation_demand_1_5
+				country_event = { 
+					id = admech_vassalisation.14
+					#days = 10
+					days = 90
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+			}
+		}
+	}
+	#option 6/6
+	option = {
+		name = admech_vassalisation.24.f			
+		trigger = {
+			FROM = { 
+				AND = {	has_country_flag = admech_vassalisation_demand_1_adm
+					NOT = {has_country_flag = admech_vassalisation_demand_1_6}
+		}	}	}	
+		custom_tooltip = admech_vassalisation_demands_tooltip_alt_adm_6
+		hidden_effect = {
+			FROM = {
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_2 } clr_country_flag = admech_vassalisation_demand_1_2}	
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_3 } clr_country_flag = admech_vassalisation_demand_1_3}
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_4 } clr_country_flag = admech_vassalisation_demand_1_4}
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_5 } clr_country_flag = admech_vassalisation_demand_1_5}
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_1 } clr_country_flag = admech_vassalisation_demand_1_1}	
+			#add potential future flags
+				set_country_flag = admech_vassalisation_demand_1_6
+				country_event = { 
+					id = admech_vassalisation.14
+					#days = 10
+					days = 90
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+			}
+		}
+	}
+}
+
+#innitiator - alternatives dip
+country_event = {
+	id = admech_vassalisation.25
+	title = "admech_vassalisation.25.t"
+	desc = "admech_vassalisation.25.desc"
+	picture = SHIP_SAILING_eventPicture
+	
+	is_triggered_only = yes
+	
+	#option 1/6
+	option = {
+		name = admech_vassalisation.25.a
+		trigger = {
+			FROM = { 
+				AND = {	has_country_flag = admech_vassalisation_demand_1_dip
+					NOT = {has_country_flag = admech_vassalisation_demand_1_1}
+		}	}	}
+		custom_tooltip = admech_vassalisation_demands_tooltip_alt_dip_1
+		hidden_effect = {
+			FROM = {
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_2 } clr_country_flag = admech_vassalisation_demand_1_2}	
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_3 } clr_country_flag = admech_vassalisation_demand_1_3}
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_4 } clr_country_flag = admech_vassalisation_demand_1_4}
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_5 } clr_country_flag = admech_vassalisation_demand_1_5}
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_6 } clr_country_flag = admech_vassalisation_demand_1_6}	
+			#add potential future flags
+				set_country_flag = admech_vassalisation_demand_1_1
+				country_event = { 
+					id = admech_vassalisation.15
+					#days = 10
+					days = 90
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+
+			}
+		}
+	}
+	#option 2/6
+	option = {
+		name = admech_vassalisation.25.b
+		trigger = {
+			FROM = { 
+				AND = {	has_country_flag = admech_vassalisation_demand_1_dip
+					NOT = {has_country_flag = admech_vassalisation_demand_1_2}
+		}	}	}
+		custom_tooltip = admech_vassalisation_demands_tooltip_alt_dip_2
+		hidden_effect = {
+			FROM = {
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_1 } clr_country_flag = admech_vassalisation_demand_1_1}	
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_3 } clr_country_flag = admech_vassalisation_demand_1_3}
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_4 } clr_country_flag = admech_vassalisation_demand_1_4}
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_5 } clr_country_flag = admech_vassalisation_demand_1_5}
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_6 } clr_country_flag = admech_vassalisation_demand_1_6}	
+			#add potential future flags
+				set_country_flag = admech_vassalisation_demand_1_2
+				country_event = { 
+					id = admech_vassalisation.15
+					#days = 10
+					days = 90
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+
+			}
+		}
+	}
+	#option 3/6
+	option = {
+		name = admech_vassalisation.25.c
+		trigger = {
+			FROM = { 
+				AND = {	has_country_flag = admech_vassalisation_demand_1_dip
+					NOT = {has_country_flag = admech_vassalisation_demand_1_3}
+		}	}	}
+		custom_tooltip = admech_vassalisation_demands_tooltip_alt_dip_3
+		hidden_effect = {
+			FROM = {
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_2 } clr_country_flag = admech_vassalisation_demand_1_2}	
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_1 } clr_country_flag = admech_vassalisation_demand_1_1}
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_4 } clr_country_flag = admech_vassalisation_demand_1_4}
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_5 } clr_country_flag = admech_vassalisation_demand_1_5}
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_6 } clr_country_flag = admech_vassalisation_demand_1_6}	
+			#add potential future flags
+				set_country_flag = admech_vassalisation_demand_1_3
+				country_event = { 
+					id = admech_vassalisation.15
+					#days = 10
+					days = 90
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+
+			}
+		}
+	}
+	#option 4/6
+	option = {
+		name = admech_vassalisation.25.d
+		trigger = {
+			FROM = { 
+				AND = {	has_country_flag = admech_vassalisation_demand_1_dip
+					NOT = {has_country_flag = admech_vassalisation_demand_1_4}
+		}	}	}
+		custom_tooltip = admech_vassalisation_demands_tooltip_alt_dip_4
+		hidden_effect = {
+			FROM = {
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_2 } clr_country_flag = admech_vassalisation_demand_1_2}	
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_3 } clr_country_flag = admech_vassalisation_demand_1_3}
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_1 } clr_country_flag = admech_vassalisation_demand_1_1}
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_5 } clr_country_flag = admech_vassalisation_demand_1_5}
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_6 } clr_country_flag = admech_vassalisation_demand_1_6}	
+			#add potential future flags
+				set_country_flag = admech_vassalisation_demand_1_4
+				country_event = { 
+					id = admech_vassalisation.15
+					#days = 10
+					days = 90
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+
+			}
+		}
+	}
+	#option 5/6
+	option = {
+		name = admech_vassalisation.25.e
+		trigger = {
+			FROM = { 
+				AND = {	has_country_flag = admech_vassalisation_demand_1_dip
+					NOT = {has_country_flag = admech_vassalisation_demand_1_5}
+		}	}	}
+		custom_tooltip = admech_vassalisation_demands_tooltip_alt_dip_5
+		hidden_effect = {
+			FROM = {
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_2 } clr_country_flag = admech_vassalisation_demand_1_2}	
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_3 } clr_country_flag = admech_vassalisation_demand_1_3}
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_4 } clr_country_flag = admech_vassalisation_demand_1_4}
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_1 } clr_country_flag = admech_vassalisation_demand_1_1}
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_6 } clr_country_flag = admech_vassalisation_demand_1_6}	
+			#add potential future flags
+				set_country_flag = admech_vassalisation_demand_1_5
+				country_event = { 
+					id = admech_vassalisation.15
+					#days = 10
+					days = 90
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+
+			}
+		}
+	}
+	#option 6/6
+	option = {
+		name = admech_vassalisation.25.f
+		trigger = {
+			FROM = { 
+				AND = {	has_country_flag = admech_vassalisation_demand_1_dip
+					NOT = {has_country_flag = admech_vassalisation_demand_1_6}
+		}	}	}
+		custom_tooltip = admech_vassalisation_demands_tooltip_alt_dip_6
+		hidden_effect = {
+			FROM = {
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_2 } clr_country_flag = admech_vassalisation_demand_1_2}	
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_3 } clr_country_flag = admech_vassalisation_demand_1_3}
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_4 } clr_country_flag = admech_vassalisation_demand_1_4}
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_5 } clr_country_flag = admech_vassalisation_demand_1_5}
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_1 } clr_country_flag = admech_vassalisation_demand_1_1}	
+			#add potential future flags
+				set_country_flag = admech_vassalisation_demand_1_6
+				country_event = { 
+					id = admech_vassalisation.15
+					#days = 10
+					days = 90
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+
+			}
+		}
+	}
+}
+
+#innitiator - alternatives mil
+country_event = {
+	id = admech_vassalisation.26
+	title = "admech_vassalisation.26.t"
+	desc = "admech_vassalisation.26.desc"
+	picture = LAND_MILITARY_eventPicture
+	
+	is_triggered_only = yes
+	
+	#option 1/6
+	option = {
+		name = admech_vassalisation.26.a
+		trigger = {
+			FROM = { 
+				AND = {	has_country_flag = admech_vassalisation_demand_1_mil
+					NOT = {has_country_flag = admech_vassalisation_demand_1_1}
+		}	}	}
+		custom_tooltip = admech_vassalisation_demands_tooltip_alt_mil_1
+		hidden_effect = {
+			FROM = {
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_2 } clr_country_flag = admech_vassalisation_demand_1_2}	
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_3 } clr_country_flag = admech_vassalisation_demand_1_3}
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_4 } clr_country_flag = admech_vassalisation_demand_1_4}
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_5 } clr_country_flag = admech_vassalisation_demand_1_5}
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_6 } clr_country_flag = admech_vassalisation_demand_1_6}	
+			#add potential future flags
+				set_country_flag = admech_vassalisation_demand_1_1
+				country_event = { 
+					id = admech_vassalisation.16
+					#days = 10
+					days = 90
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+			}
+		}
+	}
+	#option 2/6
+	option = {
+		name = admech_vassalisation.26.b
+		trigger = {
+			FROM = { 
+				AND = {	has_country_flag = admech_vassalisation_demand_1_mil
+					NOT = {has_country_flag = admech_vassalisation_demand_1_2}
+		}	}	}
+		custom_tooltip = admech_vassalisation_demands_tooltip_alt_mil_2
+		hidden_effect = {
+			FROM = {
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_1 } clr_country_flag = admech_vassalisation_demand_1_1}	
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_3 } clr_country_flag = admech_vassalisation_demand_1_3}
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_4 } clr_country_flag = admech_vassalisation_demand_1_4}
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_5 } clr_country_flag = admech_vassalisation_demand_1_5}
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_6 } clr_country_flag = admech_vassalisation_demand_1_6}	
+			#add potential future flags
+				set_country_flag = admech_vassalisation_demand_1_2
+				country_event = { 
+					id = admech_vassalisation.16
+					#days = 10
+					days = 90
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+			}
+		}
+	}
+	#option 3/6
+	option = {
+		name = admech_vassalisation.26.c
+		trigger = {
+			FROM = { 
+				AND = {	has_country_flag = admech_vassalisation_demand_1_mil
+					NOT = {has_country_flag = admech_vassalisation_demand_1_3}
+		}	}	}
+		custom_tooltip = admech_vassalisation_demands_tooltip_alt_mil_3
+		hidden_effect = {
+			FROM = {
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_2 } clr_country_flag = admech_vassalisation_demand_1_2}	
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_1 } clr_country_flag = admech_vassalisation_demand_1_1}
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_4 } clr_country_flag = admech_vassalisation_demand_1_4}
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_5 } clr_country_flag = admech_vassalisation_demand_1_5}
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_6 } clr_country_flag = admech_vassalisation_demand_1_6}	
+			#add potential future flags
+				set_country_flag = admech_vassalisation_demand_1_3
+				country_event = { 
+					id = admech_vassalisation.16
+					#days = 10
+					days = 90
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+			}
+		}
+	}
+	#option 4/6
+	option = {
+		name = admech_vassalisation.26.d
+		trigger = {
+			FROM = { 
+				AND = {	has_country_flag = admech_vassalisation_demand_1_mil
+					NOT = {has_country_flag = admech_vassalisation_demand_1_4}
+		}	}	}
+		custom_tooltip = admech_vassalisation_demands_tooltip_alt_mil_4
+		hidden_effect = {
+			FROM = {
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_2 } clr_country_flag = admech_vassalisation_demand_1_2}	
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_3 } clr_country_flag = admech_vassalisation_demand_1_3}
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_1 } clr_country_flag = admech_vassalisation_demand_1_1}
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_5 } clr_country_flag = admech_vassalisation_demand_1_5}
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_6 } clr_country_flag = admech_vassalisation_demand_1_6}	
+			#add potential future flags
+				set_country_flag = admech_vassalisation_demand_1_4
+				country_event = { 
+					id = admech_vassalisation.16
+					#days = 10
+					days = 90
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+			}
+		}
+	}
+	#option 5/6
+	option = {
+		name = admech_vassalisation.26.e
+		trigger = {
+			FROM = { 
+				AND = {	has_country_flag = admech_vassalisation_demand_1_mil
+					NOT = {has_country_flag = admech_vassalisation_demand_1_5}
+		}	}	}
+		custom_tooltip = admech_vassalisation_demands_tooltip_alt_mil_5
+		hidden_effect = {
+			FROM = {
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_2 } clr_country_flag = admech_vassalisation_demand_1_2}	
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_3 } clr_country_flag = admech_vassalisation_demand_1_3}
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_4 } clr_country_flag = admech_vassalisation_demand_1_4}
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_1 } clr_country_flag = admech_vassalisation_demand_1_1}
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_6 } clr_country_flag = admech_vassalisation_demand_1_6}	
+			#add potential future flags
+				set_country_flag = admech_vassalisation_demand_1_5
+				country_event = { 
+					id = admech_vassalisation.16
+					#days = 10
+					days = 90
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+			}
+		}
+	}
+	#option 6/6
+	option = {
+		name = admech_vassalisation.26.f
+		trigger = {
+			FROM = { 
+				AND = {	has_country_flag = admech_vassalisation_demand_1_mil
+					NOT = {has_country_flag = admech_vassalisation_demand_1_6}
+		}	}	}
+		custom_tooltip = admech_vassalisation_demands_tooltip_alt_mil_6
+		hidden_effect = {
+			FROM = {
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_2 } clr_country_flag = admech_vassalisation_demand_1_2}	
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_3 } clr_country_flag = admech_vassalisation_demand_1_3}
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_4 } clr_country_flag = admech_vassalisation_demand_1_4}
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_5 } clr_country_flag = admech_vassalisation_demand_1_5}
+				IF = { limit = { has_country_flag = admech_vassalisation_demand_1_1 } clr_country_flag = admech_vassalisation_demand_1_1}	
+			#add potential future flags
+				set_country_flag = admech_vassalisation_demand_1_6
+				country_event = { 
+					id = admech_vassalisation.16
+					#days = 10
+					days = 90
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+			}
+		}
+	}
+}
+
+#innitiator
+#organisation event - sort reduced demand category
+country_event = {
+	id = admech_vassalisation.30
+	title = "admech_vassalisation.30.t"
+	desc = "admech_vassalisation.30.desc"
+	picture = TRADEGOODS_eventPicture				#edit
+	
+	is_triggered_only = yes
+	hidden = yes
+	
+	#adm
+	option = {
+		name = admech_vassalisation.30.a
+		trigger = { 
+			has_country_flag = admech_vassalisation_demand_1_adm
+		}
+		hidden_effect = {
+			set_country_flag = admech_vassalisation_dummy_30a
+			FROM = {
+				country_event = {
+					id = admech_vassalisation.100
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+
+			}
+		}
+	}
+	
+	#dip
+	option = {
+		name = admech_vassalisation.30.b
+		trigger = { 
+			has_country_flag = admech_vassalisation_demand_1_dip
+		}
+		hidden_effect = {
+			set_country_flag = admech_vassalisation_dummy_30b
+			FROM = {
+				country_event = {
+					id = admech_vassalisation.100
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+
+			}
+		}
+	}
+	
+	#mil
+	option = {
+		name = admech_vassalisation.30.c
+		trigger = { 
+			has_country_flag = admech_vassalisation_demand_1_mil
+		}
+		hidden_effect = {
+			set_country_flag = admech_vassalisation_dummy_30c
+			FROM = {
+				country_event = {
+					id = admech_vassalisation.100
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+
+			}
+		}
+	}
+}
+
+
+###
+#organisation events
+#innitiator
+#sorting by size
+country_event = {
+	id = admech_vassalisation.40
+	title = "admech_vassalisation.40.t"
+	desc = "admech_vassalisation.40.desc"
+	picture = ECONOMY_eventPicture
+	
+	is_triggered_only = yes
+	
+	hidden = yes
+
+	option = {
+		name = admech_vassalisation.40.a			#minimal demands
+		trigger = {
+			FROM = {
+				AND = {	
+					has_country_flag = admech_vassalisation_1_reduced
+					has_country_flag = admech_vassalisation_s
+				}	
+			}
+		}
+		hidden_effect = {
+			set_country_flag = admech_vassalisation_dummy_40a
+			FROM = {
+				country_event = { id = admech_vassalisation.100 }		#to event.41
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+
+			}
+		}
+	}
+
+	option = {
+		name = admech_vassalisation.40.b			#demands size s
+		trigger = {
+			FROM = {
+				OR = {	AND = {	has_country_flag = admech_vassalisation_1_reduced
+								has_country_flag = admech_vassalisation_m
+						}
+						AND = {	NOT = { has_country_flag = admech_vassalisation_1_reduced }
+								has_country_flag = admech_vassalisation_s
+						}
+			}	}
+		}
+		hidden_effect = {
+			set_country_flag = admech_vassalisation_dummy_40b
+			FROM = {
+				country_event = { id = admech_vassalisation.100 }		#to event.42
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+
+			}
+		}
+	}
+
+	option = {
+		name = admech_vassalisation.40.c			#demands size m
+		trigger = {
+			FROM = {
+				OR = {	AND = {	has_country_flag = admech_vassalisation_1_reduced
+								has_country_flag = admech_vassalisation_l
+						}
+						AND = {	NOT = { has_country_flag = admech_vassalisation_1_reduced }
+								has_country_flag = admech_vassalisation_m
+						}
+			}	}
+		}
+		hidden_effect = {
+			set_country_flag = admech_vassalisation_dummy_40c
+			FROM = {
+				country_event = { id = admech_vassalisation.100 }		#to event.43
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+
+			}
+		}
+	}
+
+	option = {
+		name = admech_vassalisation.40.d			#demands size l
+		trigger = {
+			FROm = {
+				AND = {	NOT = { has_country_flag = admech_vassalisation_1_reduced }
+						has_country_flag = admech_vassalisation_l
+			}	}
+		}
+		hidden_effect = {
+			set_country_flag = admech_vassalisation_dummy_40d
+			FROM = {
+				country_event = { id = admech_vassalisation.100 }		#to event.44
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+
+			}
+		}
+	}
+}
+
+#innitiator - get-debuff-event
+#minimal demands 	#debuff same as small but only 5 years 
+country_event = {
+	id = admech_vassalisation.41
+	title = "admech_vassalisation.41.t"
+	desc = "admech_vassalisation.41.desc"
+	picture = ECONOMY_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = admech_vassalisation.41.a			
+			create_subject = {
+				subject_type = integrated_forgeworld
+				subject = FROM
+			}
+			add_adm_power = -150 add_dip_power = -150 add_mil_power = -150		
+			add_country_modifier = {
+				name = admech_vassalisation_cooldown
+				duration = 3650							#10 years
+			}			
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_adm  
+								has_country_flag = admech_vassalisation_demand_1_1
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_s_adm_1
+						duration = 1825										
+			}		}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_adm  
+								has_country_flag = admech_vassalisation_demand_1_2
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_s_adm_2
+						duration = 1825										
+			}		}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_adm  
+								has_country_flag = admech_vassalisation_demand_1_3
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_s_adm_3
+						duration = 1825										
+			}		}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_adm  
+								has_country_flag = admech_vassalisation_demand_1_4
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_s_adm_4
+						duration = 1825										
+			}		}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_adm  
+								has_country_flag = admech_vassalisation_demand_1_5
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_s_adm_5
+						duration = 1825										
+			}		}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_adm  
+								has_country_flag = admech_vassalisation_demand_1_6
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_s_adm_6
+						duration = 1825										
+			}		}
+
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_dip 
+								has_country_flag = admech_vassalisation_demand_1_1
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_s_dip_1
+						duration = 1825										
+			}		}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_dip 
+								has_country_flag = admech_vassalisation_demand_1_2
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_s_dip_2
+						duration = 1825										
+			}		}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_dip 
+								has_country_flag = admech_vassalisation_demand_1_3
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_s_dip_3
+						duration = 1825										
+			}		}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_dip 
+								has_country_flag = admech_vassalisation_demand_1_4
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_s_dip_4
+						duration = 1825										
+			}		}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_dip 
+								has_country_flag = admech_vassalisation_demand_1_5
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_s_dip_5
+						duration = 1825										
+			}		}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_dip 
+								has_country_flag = admech_vassalisation_demand_1_6
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_s_dip_6
+						duration = 1825										
+			}		}
+			
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_mil 
+								has_country_flag = admech_vassalisation_demand_1_1
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_s_mil_1
+						duration = 1825										
+			}		}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_mil 
+								has_country_flag = admech_vassalisation_demand_1_2
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_s_mil_2
+						duration = 1825										
+			}		}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_mil 
+								has_country_flag = admech_vassalisation_demand_1_3
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_s_mil_3
+						duration = 1825										
+			}		}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_mil 
+								has_country_flag = admech_vassalisation_demand_1_4
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_s_mil_4
+						duration = 1825										
+			}		}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_mil 
+								has_country_flag = admech_vassalisation_demand_1_5
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_s_mil_5
+						duration = 1825										
+			}		}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_mil 
+								has_country_flag = admech_vassalisation_demand_1_6
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_s_mil_6
+						duration = 1825										
+			}		}
+							
+		hidden_effect = {	
+			set_country_flag = admech_vassalisation_dummy_41
+			FROM = {
+				country_event = { id = admech_vassalisation.100 }
+			}		
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+
+			}
+		}
+	}
+}
+
+
+#size s		#duration 10 years
+country_event = {
+	id = admech_vassalisation.42
+	title = "admech_vassalisation.42.t"
+	desc = "admech_vassalisation.42.desc"
+	picture = ECONOMY_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = admech_vassalisation.42.a	
+			create_subject = {
+				subject_type = integrated_forgeworld
+				subject = FROM
+			}		
+			add_adm_power = -150 add_dip_power = -150 add_mil_power = -150	
+			add_country_modifier = {
+				name = admech_vassalisation_cooldown
+				duration = 3650							#10 years
+			}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_adm 
+								has_country_flag = admech_vassalisation_demand_1_1
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_s_adm_1
+						duration = 3650									
+			}		}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_adm 
+								has_country_flag = admech_vassalisation_demand_1_2
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_s_adm_2
+						duration = 3650									
+			}		}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_adm 
+								has_country_flag = admech_vassalisation_demand_1_3
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_s_adm_3
+						duration = 3650									
+			}		}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_adm 
+								has_country_flag = admech_vassalisation_demand_1_4
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_s_adm_4
+						duration = 3650									
+			}		}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_adm 
+								has_country_flag = admech_vassalisation_demand_1_5
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_s_adm_5
+						duration = 3650									
+			}		}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_adm 
+								has_country_flag = admech_vassalisation_demand_1_6
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_s_adm_6
+						duration = 3650									
+			}		}
+			
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_dip
+								has_country_flag = admech_vassalisation_demand_1_1
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_s_dip_1
+						duration = 3650									
+			}		}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_dip
+								has_country_flag = admech_vassalisation_demand_1_2
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_s_dip_2
+						duration = 3650									
+			}		}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_dip
+								has_country_flag = admech_vassalisation_demand_1_3
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_s_dip_3
+						duration = 3650									
+			}		}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_dip
+								has_country_flag = admech_vassalisation_demand_1_4
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_s_dip_4
+						duration = 3650									
+			}		}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_dip
+								has_country_flag = admech_vassalisation_demand_1_5
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_s_dip_5
+						duration = 3650									
+			}		}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_dip
+								has_country_flag = admech_vassalisation_demand_1_6
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_s_dip_6
+						duration = 3650									
+			}		}
+			
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_mil
+								has_country_flag = admech_vassalisation_demand_1_1
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_s_mil_1
+						duration = 3650									
+			}		}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_mil
+								has_country_flag = admech_vassalisation_demand_1_2
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_s_mil_2
+						duration = 3650									
+			}		}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_mil
+								has_country_flag = admech_vassalisation_demand_1_3
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_s_mil_3
+						duration = 3650									
+			}		}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_mil
+								has_country_flag = admech_vassalisation_demand_1_4
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_s_mil_4
+						duration = 3650									
+			}		}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_mil
+								has_country_flag = admech_vassalisation_demand_1_5
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_s_mil_5
+						duration = 3650								
+			}		}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_mil
+								has_country_flag = admech_vassalisation_demand_1_6
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_s_mil_6
+						duration = 3650									
+			}		}
+		hidden_effect = {
+			set_country_flag = admech_vassalisation_dummy_41
+			FROM = {
+				country_event = { id = admech_vassalisation.100 }
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+
+			}
+		}
+	}
+}
+
+#size m		#duration 10 years
+country_event = {
+	id = admech_vassalisation.43
+	title = "admech_vassalisation.43.t"
+	desc = "admech_vassalisation.43.desc"
+	picture = ECONOMY_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = admech_vassalisation.43.a	
+			create_subject = {
+				subject_type = integrated_forgeworld
+				subject = FROM
+			}
+			add_adm_power = -300 add_dip_power = -300 add_mil_power = -300	
+			add_country_modifier = {
+				name = admech_vassalisation_cooldown
+				duration = 3650							#10 years
+			}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_adm
+								has_country_flag = admech_vassalisation_demand_1_1
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_m_adm_1
+						duration = 3650									
+			}		}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_adm
+								has_country_flag = admech_vassalisation_demand_1_2
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_m_adm_2
+						duration = 3650									
+			}		}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_adm
+								has_country_flag = admech_vassalisation_demand_1_3
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_m_adm_3
+						duration = 3650									
+			}		}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_adm
+								has_country_flag = admech_vassalisation_demand_1_4
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_m_adm_4
+						duration = 3650									
+			}		}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_adm
+								has_country_flag = admech_vassalisation_demand_1_5
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_m_adm_5
+						duration = 3650									
+			}		}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_adm
+								has_country_flag = admech_vassalisation_demand_1_6
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_m_adm_6
+						duration = 3650									
+			}		}
+			
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_dip
+								has_country_flag = admech_vassalisation_demand_1_1
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_m_dip_1
+						duration = 3650									
+			}		}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_dip
+								has_country_flag = admech_vassalisation_demand_1_2
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_m_dip_2
+						duration = 3650									
+			}		}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_dip
+								has_country_flag = admech_vassalisation_demand_1_3
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_m_dip_3
+						duration = 3650									
+			}		}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_dip
+								has_country_flag = admech_vassalisation_demand_1_4
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_m_dip_4
+						duration = 3650								
+			}		}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_dip
+								has_country_flag = admech_vassalisation_demand_1_5
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_m_dip_5
+						duration = 3650									
+			}		}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_dip
+								has_country_flag = admech_vassalisation_demand_1_6
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_m_dip_6
+						duration = 3650									
+			}		}
+			
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_mil
+								has_country_flag = admech_vassalisation_demand_1_1
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_m_mil_1
+						duration = 3650									
+			}		}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_mil
+								has_country_flag = admech_vassalisation_demand_1_2
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_m_mil_2
+						duration = 3650									
+			}		}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_mil
+								has_country_flag = admech_vassalisation_demand_1_3
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_m_mil_3
+						duration = 3650									
+			}		}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_mil
+								has_country_flag = admech_vassalisation_demand_1_4
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_m_mil_4
+						duration = 3650									
+			}		}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_mil
+								has_country_flag = admech_vassalisation_demand_1_5
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_m_mil_5
+						duration = 3650									
+			}		}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_mil
+								has_country_flag = admech_vassalisation_demand_1_6
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_m_mil_6
+						duration = 3650									
+			}		}
+				
+		hidden_effect = {
+			set_country_flag = admech_vassalisation_dummy_41
+			FROM = {
+				country_event = { id = admech_vassalisation.100 }
+			}		
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+
+			}
+		}
+	}
+}
+
+#size l				#duration 10 years
+country_event = {
+	id = admech_vassalisation.44
+	title = "admech_vassalisation.44.t"
+	desc = "admech_vassalisation.44.desc"
+	picture = ECONOMY_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = admech_vassalisation.44.a	
+			create_subject = {
+				subject_type = integrated_forgeworld
+				subject = FROM
+			}
+			add_adm_power = -450 add_dip_power = -450 add_mil_power = -450	
+			add_country_modifier = {
+				name = admech_vassalisation_cooldown
+				duration = 3650							#10 years
+			}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_adm
+								has_country_flag = admech_vassalisation_demand_1_1
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_l_adm_1
+						duration = 3650									
+			}		}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_adm
+								has_country_flag = admech_vassalisation_demand_1_2
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_l_adm_2
+						duration = 3650									
+			}		}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_adm
+								has_country_flag = admech_vassalisation_demand_1_3
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_l_adm_3
+						duration = 3650									
+			}		}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_adm
+								has_country_flag = admech_vassalisation_demand_1_4
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_l_adm_4
+						duration = 3650									
+			}		}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_adm
+								has_country_flag = admech_vassalisation_demand_1_5
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_l_adm_5
+						duration = 3650								
+			}		}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_adm
+								has_country_flag = admech_vassalisation_demand_1_6
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_l_adm_6
+						duration = 3650									
+			}		}
+			
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_dip
+								has_country_flag = admech_vassalisation_demand_1_1
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_l_dip_1
+						duration = 3650									
+			}		}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_dip
+								has_country_flag = admech_vassalisation_demand_1_2
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_l_dip_2
+						duration = 3650									
+			}		}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_dip
+								has_country_flag = admech_vassalisation_demand_1_3
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_l_dip_3
+						duration = 3650									
+			}		}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_dip
+								has_country_flag = admech_vassalisation_demand_1_4
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_l_dip_4
+						duration = 3650								
+			}		}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_dip
+								has_country_flag = admech_vassalisation_demand_1_5
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_l_dip_5
+						duration = 3650									
+			}		}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_dip
+								has_country_flag = admech_vassalisation_demand_1_6
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_l_dip_6
+						duration = 3650									
+			}		}
+			
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_mil
+								has_country_flag = admech_vassalisation_demand_1_1
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_l_mil_1
+						duration = 3650									
+			}		}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_mil
+								has_country_flag = admech_vassalisation_demand_1_2
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_l_mil_2
+						duration = 3650									
+			}		}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_mil
+								has_country_flag = admech_vassalisation_demand_1_3
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_l_mil_3
+						duration = 3650									
+			}		}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_mil
+								has_country_flag = admech_vassalisation_demand_1_4
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_l_mil_4
+						duration = 3650									
+			}		}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_mil
+								has_country_flag = admech_vassalisation_demand_1_5
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_l_mil_5
+						duration = 3650									
+			}		}
+			IF = {
+					limit = {
+						FROM = { 
+							AND = {
+								has_country_flag = admech_vassalisation_demand_1_mil
+								has_country_flag = admech_vassalisation_demand_1_6
+					}	}	}	
+					add_country_modifier = {				
+						name = admech_vassalisation_demands_l_mil_6
+						duration = 3650									
+			}		}
+			
+		hidden_effect = {	
+			set_country_flag = admech_vassalisation_dummy_41
+			FROM = {
+				country_event = { id = admech_vassalisation.100 }
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+
+			}
+		}
+	}
+}
+
+##
+#event to give starting nations flags	- currently unused
+country_event = {
+	id = admech_vassalisation.50
+	title = "admech_vassalisation.50.t"
+	desc = "admech_vassalisation.50.desc"
+	picture = TRADEGOODS_eventPicture
+
+	is_triggered_only = yes
+	
+#	trigger = {
+#		religion = mechanicus
+#	}
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+	fire_only_once = yes
+	hidden = no
+
+	immediate = {
+		every_country = {
+			IF = {
+				limit = {
+					AND = {
+						religion = mechanicus
+						has_reform = minor_forgeworld_reform
+					}
+				}
+				set_country_flag = admech_vassalisation_viable_target
+			}
+			IF = {
+				limit = {
+					AND = {
+						religion = mechanicus
+						NOT = {has_reform = minor_forgeworld_reform}
+					}
+				}
+				set_country_flag = admech_can_propose_forge_subjugation
+			}
+		}
+	}
+	option = {
+		name = admech_vassalisation.50.a
+		hidden_effect = {}
+		ai_chance = {
+			factor = 1
+			modifier = {
+
+			}
+		}
+	}
+}
+
 
 ###
 #liberty desire events
@@ -2436,3 +4706,247 @@ country_event = {
 		recalc_ADMEC_forge_worlds = yes
 	}
 }
+
+#cleanup - to target
+
+#dummy event to get the back-forth-chain going
+country_event = {
+	id = admech_vassalisation.100
+	title = "admech_vassalisation.100.t"
+	desc = "admech_vassalisation.100.desc"
+	picture = TRADEGOODS_eventPicture				#edit
+	
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		FROM = {
+
+			IF = {
+				limit = {
+					has_country_flag = admech_vassalisation_dummy_1
+				}
+				clr_country_flag = admech_vassalisation_dummy_1
+				country_event = {
+					id = admech_vassalisation.20
+				}
+			}
+
+			IF = {
+				limit = {
+					has_country_flag = admech_vassalisation_dummy_6_1c
+				}
+				clr_country_flag = admech_vassalisation_dummy_6_1c
+				country_event = {
+					id = admech_vassalisation.24
+				}
+			}
+
+			IF = {
+				limit = {
+					has_country_flag = admech_vassalisation_dummy_6_2c
+				}
+				clr_country_flag = admech_vassalisation_dummy_6_2c
+				country_event = {
+					id = admech_vassalisation.25
+				}
+			}
+
+			IF = {
+				limit = {
+					has_country_flag = admech_vassalisation_dummy_6_3c
+				}
+				clr_country_flag = admech_vassalisation_dummy_6_3c
+				country_event = {
+					id = admech_vassalisation.26
+				}
+			}
+
+			IF = {
+				limit = {
+					has_country_flag = admech_vassalisation_dummy_20a		
+				}
+				clr_country_flag = admech_vassalisation_dummy_20a
+				country_event = {
+					id = admech_vassalisation.21
+				}
+			}
+
+			IF = {
+				limit = {
+					has_country_flag = admech_vassalisation_dummy_20b
+				}
+				clr_country_flag = admech_vassalisation_dummy_20b
+				country_event = {
+					id = admech_vassalisation.22
+				}
+			}
+
+			IF = {
+				limit = {
+					has_country_flag = admech_vassalisation_dummy_20c
+				}
+				clr_country_flag = admech_vassalisation_dummy_20c
+				country_event = {
+					id = admech_vassalisation.23
+				}
+			}
+
+			IF = {
+				limit = {
+					has_country_flag = admech_vassalisation_dummy_30a
+				}
+				clr_country_flag = admech_vassalisation_dummy_30a
+				country_event = {
+					id = admech_vassalisation.11						#correct?
+				}
+			}
+
+			IF = {
+				limit = {
+					has_country_flag = admech_vassalisation_dummy_30b
+				}
+				clr_country_flag = admech_vassalisation_dummy_30b
+				country_event = {
+					id = admech_vassalisation.12						#correct?
+				}
+			}
+
+			IF = {
+				limit = {
+					has_country_flag = admech_vassalisation_dummy_30c
+				}
+				clr_country_flag = admech_vassalisation_dummy_30c
+				country_event = {
+					id = admech_vassalisation.13						#correct?
+				}
+			}
+
+			IF = {
+				limit = {
+					has_country_flag = admech_vassalisation_dummy_40a
+				}
+				clr_country_flag = admech_vassalisation_dummy_40a
+				country_event = {
+					id = admech_vassalisation.41
+				}
+			}
+
+			IF = {
+				limit = {
+					has_country_flag = admech_vassalisation_dummy_40b
+				}
+				clr_country_flag = admech_vassalisation_dummy_40b
+				country_event = {
+					id = admech_vassalisation.42
+				}
+			}
+
+			IF = {
+				limit = {
+					has_country_flag = admech_vassalisation_dummy_40c
+				}
+				clr_country_flag = admech_vassalisation_dummy_40c
+				country_event = {
+					id = admech_vassalisation.43
+				}
+			}
+
+			IF = {
+				limit = {
+					has_country_flag = admech_vassalisation_dummy_40d
+				}
+				clr_country_flag = admech_vassalisation_dummy_40d
+				country_event = {
+					id = admech_vassalisation.44
+				}
+			}
+			
+			IF = {
+				limit = {
+					has_country_flag = admech_vassalisation_dummy_41
+				}
+				clr_country_flag = admech_vassalisation_dummy_41
+				country_event = {
+					id = admech_vassalisation.101
+				}
+			}			
+
+		}	
+	}
+	option = {
+		name = admech_vassalisation.100.a
+		hidden_effect = {}
+		ai_chance = {
+			factor = 1
+			modifier = {
+
+			}
+		}
+	}
+}
+
+#event vorlage
+country_event = {
+	id = admech_vassalisation.101
+	title = "admech_vassalisation.101.t"
+	desc = "admech_vassalisation.101.desc"
+	picture = TRADEGOODS_eventPicture				#edit
+	
+	is_triggered_only = yes
+
+	hidden = yes
+	
+	immediate = {
+		ROOT = {
+			clr_country_flag = admech_subjugation_round_1
+			clr_country_flag = admech_subjugation_round_2
+			clr_country_flag = admech_vassalisation_1_reduced
+			clr_country_flag = admech_vassalisation_s
+			clr_country_flag = admech_vassalisation_m
+			clr_country_flag = admech_vassalisation_l
+			clr_country_flag = admech_vassalisation_demand_1_adm
+			clr_country_flag = admech_vassalisation_demand_1_dip
+			clr_country_flag = admech_vassalisation_demand_1_mil
+			clr_country_flag = admech_vassalisation_demand_1_1
+			clr_country_flag = admech_vassalisation_demand_1_2
+			clr_country_flag = admech_vassalisation_demand_1_3
+			clr_country_flag = admech_vassalisation_demand_1_4
+			clr_country_flag = admech_vassalisation_demand_1_5
+			clr_country_flag = admech_vassalisation_demand_1_6
+			clr_country_flag = admech_active_subjugation_negotiation
+			clr_country_flag = admech_vassalisation_has_offered_alternative
+		}	
+		FROM = {
+			clr_country_flag = admech_subjugation_round_1
+			clr_country_flag = admech_subjugation_round_2
+			clr_country_flag = admech_vassalisation_1_reduced
+			clr_country_flag = admech_vassalisation_s
+			clr_country_flag = admech_vassalisation_m
+			clr_country_flag = admech_vassalisation_l
+			clr_country_flag = admech_vassalisation_demand_1_adm
+			clr_country_flag = admech_vassalisation_demand_1_dip
+			clr_country_flag = admech_vassalisation_demand_1_mil
+			clr_country_flag = admech_vassalisation_demand_1_1
+			clr_country_flag = admech_vassalisation_demand_1_2
+			clr_country_flag = admech_vassalisation_demand_1_3
+			clr_country_flag = admech_vassalisation_demand_1_4
+			clr_country_flag = admech_vassalisation_demand_1_5
+			clr_country_flag = admech_vassalisation_demand_1_6
+			clr_country_flag = admech_active_subjugation_negotiation
+			clr_country_flag = admech_vassalisation_has_offered_alternative
+		}	
+	}
+	
+	option = {
+		name = admech_vassalisation.101.a
+		hidden_effect = {}
+		ai_chance = {
+			factor = 1
+			modifier = {
+
+			}
+		}
+	}
+}
+
+
