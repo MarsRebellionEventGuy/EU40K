@@ -1,3 +1,5 @@
+culture = chaos_culture
+religion = chaos_undivided
 add_core = XTN
 owner = XTN
 base_tax = 4

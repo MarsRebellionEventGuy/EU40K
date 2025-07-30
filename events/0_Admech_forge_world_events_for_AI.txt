@@ -28,7 +28,7 @@ country_event = {
 		}
 	}
 	mean_time_to_happen = {
-		month = 120
+		months = 120
 		
 		#is a major forge world
 		modifier = {
@@ -162,7 +162,7 @@ country_event = {
 		}
 	}
 	mean_time_to_happen = {
-		month = 120
+		months = 120
 		
 		modifier = {
 			factor = 0.9
@@ -254,7 +254,7 @@ country_event = {
 		}
 	}
 	mean_time_to_happen = {
-		month = 240
+		months = 240
 		
 		modifier = {
 			factor = 0.9
@@ -314,7 +314,7 @@ country_event = {
 		}
 	}
 	mean_time_to_happen = {
-		month = 36
+		months = 36
 		
 		modifier = {
 			factor = 0.9

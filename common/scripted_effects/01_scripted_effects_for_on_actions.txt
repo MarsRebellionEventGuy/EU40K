@@ -2089,63 +2089,63 @@ on_battle_lost_unit_effect = {
 }
 
 on_battle_won_country_effect = {
-	if = {
-		limit = {
-			has_dlc = "Winds of Change"
-			OR = {
-				tag = BOH
-				was_tag = BOH
-			}
-			has_mission = boh_bozi_bojovnici
-			NOT = {
-				mission_completed = boh_bozi_bojovnici
-			}
-		}
-		change_variable = { which = bohemia_num_of_won_battles value = 1 }
-	}
-	if = {
-		limit = {
-			has_dlc = "Winds of Change"
-			OR = {
-				tag = BOH
-				was_tag = BOH
-			}
-			has_mission = boh_shield_of_the_true_faith
-			NOT = {
-				mission_completed = boh_shield_of_the_true_faith
-			}
-			FROM = {
-				NOT = {
-					religion = ROOT
-				}
-			}
-		}
-		change_variable = { which = bohemia_num_of_won_battles_against_heretic_heathen value = 1 }
-	}
+	# if = {
+		# limit = {
+			# has_dlc = "Winds of Change"
+			# OR = {
+				# tag = BOH
+				# was_tag = BOH
+			# }
+			# has_mission = boh_bozi_bojovnici
+			# NOT = {
+				# mission_completed = boh_bozi_bojovnici
+			# }
+		# }
+		# change_variable = { which = bohemia_num_of_won_battles value = 1 }
+	# }
+	# if = {
+		# limit = {
+			# has_dlc = "Winds of Change"
+			# OR = {
+				# tag = BOH
+				# was_tag = BOH
+			# }
+			# has_mission = boh_shield_of_the_true_faith
+			# NOT = {
+				# mission_completed = boh_shield_of_the_true_faith
+			# }
+			# FROM = {
+				# NOT = {
+					# religion = ROOT
+				# }
+			# }
+		# }
+		# change_variable = { which = bohemia_num_of_won_battles_against_heretic_heathen value = 1 }
+	# }
 	change_variable = {
 		which = num_of_battles_won_var
 		value = 1
 	}
-	if = {
-		limit = {
-			tag = NED
-		}
-		change_variable = {
-			which = NEDBattlesWon
-			value = 1
-		}
-	}
-	if = {
-		limit = {
-			ROOT = {
-				religion = jewish
-				has_church_aspect = judaism_purim_teachings_aspect
-			}
-		}
-		ROOT = {
-			add_war_exhaustion = -0.05
-		}
-	}
+	# if = {
+		# limit = {
+			# tag = NED
+		# }
+		# change_variable = {
+			# which = NEDBattlesWon
+			# value = 1
+		# }
+	# }
+	# if = {
+		# limit = {
+			# ROOT = {
+				# religion = jewish
+				# has_church_aspect = judaism_purim_teachings_aspect
+			# }
+		# }
+		# ROOT = {
+			# add_war_exhaustion = -0.05
+		# }
+	# }
 	if = {
 		limit = {
 			ROOT = { has_government_attribute = manpower_from_defeating_armies }
@@ -2191,55 +2191,55 @@ on_battle_won_country_effect = {
 			}
 		}
 	}
-	if = {
-		limit = {
-			ROOT = {
-				tag = ALB
-				NOT = { has_country_flag = albanian_victory }
-			}
-			FROM = {
-				tag = TUR
-			}
-		}
-		ROOT = { set_country_flag = albanian_victory }
-	}
-	count_won_battles_and_reward_at_end = {
-		counting_flag = teu_crusader_battle_counter
-		max_value = 20
-		effect = "
-			country_event = {
-				id = flavor_teu.12
-			}
-		"
-	}
-	count_won_battles_and_reward_at_end = {
-		counting_flag = has_rus_kill_counter
-		max_value = 40
-		effect = "set_country_flag = rus_finished_kill_mission"
-	}
-	if = {
-		limit = {
-			has_country_modifier = geo_bane_khagan
-			FROM = {
-				has_reform = steppe_horde
-			}
-		}
-		add_army_tradition = 0.5
-	}
-	if = {
-		limit = {
-			ROOT = {
-				has_country_modifier = turkoman_triumphant_conquest
-			}
-			FROM = {
-				tag = TIM
-			}
-		}
-		random_list = {
-			20 = { ROOT = { add_manpower = 2 } }
-			80 = { }
-		}
-	}
+	# if = {
+		# limit = {
+			# ROOT = {
+				# tag = ALB
+				# NOT = { has_country_flag = albanian_victory }
+			# }
+			# FROM = {
+				# tag = TUR
+			# }
+		# }
+		# ROOT = { set_country_flag = albanian_victory }
+	# }
+	# count_won_battles_and_reward_at_end = {
+		# counting_flag = teu_crusader_battle_counter
+		# max_value = 20
+		# effect = "
+			# country_event = {
+				# id = flavor_teu.12
+			# }
+		# "
+	# }
+	# count_won_battles_and_reward_at_end = {
+		# counting_flag = has_rus_kill_counter
+		# max_value = 40
+		# effect = "set_country_flag = rus_finished_kill_mission"
+	# }
+	# if = {
+		# limit = {
+			# has_country_modifier = geo_bane_khagan
+			# FROM = {
+				# has_reform = steppe_horde
+			# }
+		# }
+		# add_army_tradition = 0.5
+	# }
+	# if = {
+		# limit = {
+			# ROOT = {
+				# has_country_modifier = turkoman_triumphant_conquest
+			# }
+			# FROM = {
+				# tag = TIM
+			# }
+		# }
+		# random_list = {
+			# 20 = { ROOT = { add_manpower = 2 } }
+			# 80 = { }
+		# }
+	# }
 }
 
 on_battle_ended_effect = {

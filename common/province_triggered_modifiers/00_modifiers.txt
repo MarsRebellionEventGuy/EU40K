@@ -1210,9 +1210,11 @@ ARB_mosque_of_kairouan = {
 #Province modifier
 per_persian_embassy = {
 	potential = {
+		always = no
 		has_global_flag = per_chinese_embassy
 	}
 	trigger = {
+		always = no
 		owner = {
 			custom_trigger_tooltip = {
 				tooltip = per_chinese_embassy_tooltip
@@ -1237,9 +1239,11 @@ per_persian_embassy = {
 #Province modifier
 per_chinese_embassy = {
 	potential = {
+		always = no
 		has_global_flag = per_chinese_embassy
 	}
 	trigger = {
+		always = no
 		owner = {
 			custom_trigger_tooltip = {
 				tooltip = per_chinese_embassy_tooltip

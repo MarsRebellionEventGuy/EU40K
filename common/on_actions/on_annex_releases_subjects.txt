@@ -290,10 +290,10 @@ on_annexed = {
 					AND = {
 						culture = mechanicus_culture
 						OR = {
-							any_owned_province = {	has_province_modifier = { forge_world_1_mod	}
-							any_owned_province = {	has_province_modifier = { forge_world_2_mod	}
-							any_owned_province = {	has_province_modifier = { forge_world_3_mod	}
-							any_owned_province = {	has_province_modifier = { forge_world_4_mod	}
+							any_owned_province = {	has_province_modifier = forge_world_1_mod }
+							any_owned_province = {	has_province_modifier = forge_world_2_mod }
+							any_owned_province = {	has_province_modifier = forge_world_3_mod }
+							any_owned_province = {	has_province_modifier = forge_world_4_mod }
 						}
 					}
 				}
