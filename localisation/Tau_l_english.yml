@@ -18,6 +18,9 @@
  tau_events.4.d: "T'au'va"
  tau_events.4.a: "Aun'va will guide us forever for the highest good"
  tau_events.4.b: "The Greater Good is more important than the individual"
+ tau_events.8.t: "Tau purge"
+ tau_events.8.d: "They refuse the greater good. We can't assimilate them, we need to purge them"
+ tau_events.8.a: "Choose the greater good or die"
  TAU_end_imperium_invasion_title: "End the Imperium Invasion"
  TAU_end_imperium_invasion_desc: "We must win the second battle of Mu'Gulath Bay"
  TAU_study_FTL_methods_title: "Study FTL Methods"
@@ -134,3 +137,12 @@
  estate_ethereals_desc: "The Ethereals serve as 'philosopher kings', and guide the other castes, as well as alien member-races of the T'au empire, towards the enlightenment of the Tau'va, the Greater Good. They serve as the undisputed rulers of the T'au Empire. Their unique role is a combination of spiritual and political duties, and their declarations shape and steer every action of the Empire. Were an Ethereal to order a T'au to kill himself, he would be met with instant obedience. Ethereals themselves rule from the Ethereal Council, with the Ethereal Supreme being the highest ranked of the Caste"
  estate_earth_caste: "Earth Caste"
  estate_earth_caste_desc: "This caste provides for the manufacturing, agricultural, industrial, artisans, and engineering needs of the T'au Empire. By far the largest caste in sheer numbers, it is they who erect dwellings, provide food, and produce new technology. Members of the Earth Caste are often described as plain and dour, possessing a rather stoic outlook on life in general. They were originally the first T'au to build cities and practice agriculture"
+ cb_tau_vassalize_war: "Vassalization for the Greater Good"
+ cb_tau_vassalize_war_desc: "We must lead them to the Greater Good"
+ take_capital_tau_vassalize_desc: "conquert the capital"
+ 
+ 
+# Join the Greater Good peace treaty
+ PEACE_po_join_the_greater_good: "Join the Greater Good"
+ CB_ALLOWED_po_join_the_greater_good: "We ask them to join the greater good"
+ po_join_the_greater_good_desc: "We'll follow the greater good"

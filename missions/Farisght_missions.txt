@@ -366,8 +366,10 @@ Farsight_col_2_2 = {
 		trigger = {
 			chalnath_expanse_region = {
 				type = all
-				religion = greater_good
-				OR={
+				owner = {
+					religion = greater_good
+				}
+				OR = {
 					owned_by = ROOT
 					owned_by_subject_of = ROOT
 				}
@@ -548,7 +550,9 @@ Farsight_col_3 = {
 		trigger = {
 			tau_region = {
 				type = all
-				religion = greater_good
+				owner = {
+					religion = greater_good
+				}
 				OR={
 					owned_by = ROOT
 					owned_by_subject_of = ROOT
@@ -580,7 +584,9 @@ Farsight_col_3 = {
 		trigger = {
 			ultima_region = {
 				type = all
-				religion = greater_good
+				owner = {
+					religion = greater_good
+				}
 				OR={
 					owned_by = ROOT
 					owned_by_subject_of = ROOT
@@ -588,7 +594,9 @@ Farsight_col_3 = {
 			}
 			jericho_sector_region = {
 				type = all
-				religion = greater_good
+				owner = {
+					religion = greater_good
+				}
 				OR={
 					owned_by = ROOT
 					owned_by_subject_of = ROOT
@@ -646,7 +654,9 @@ Farsight_col_3 = {
 		trigger = {
 			sargos_region = {
 				type = all
-				religion = greater_good
+				owner = {
+					religion = greater_good
+				}
 				OR={
 					owned_by = ROOT
 					owned_by_subject_of = ROOT
@@ -654,7 +664,9 @@ Farsight_col_3 = {
 			}
 			grendl_stars_region = {
 				type = all
-				religion = greater_good
+				owner = {
+					religion = greater_good
+				}
 				OR={
 					owned_by = ROOT
 					owned_by_subject_of = ROOT
@@ -662,7 +674,9 @@ Farsight_col_3 = {
 			}
 			vidar_region = {
 				type = all
-				religion = greater_good
+				owner = {
+					religion = greater_good
+				}
 				OR={
 					owned_by = ROOT
 					owned_by_subject_of = ROOT
@@ -670,7 +684,9 @@ Farsight_col_3 = {
 			}
 			chalnath_expanse_region = {
 				type = all
-				religion = greater_good
+				owner = {
+					religion = greater_good
+				}
 				OR={
 					owned_by = ROOT
 					owned_by_subject_of = ROOT
@@ -732,7 +748,7 @@ Farsight_col_3 = {
 			province_id = 1
 		}
 		trigger = {
-			is_core = 1
+			owns_or_subject_of = 1
 		}
 		effect = { 
 			country_event = { id = farsight_events.14 }
@@ -769,7 +785,7 @@ Farsight_col_4 = {
 			}
 		}
 		effect = { 
-			add_stability = 1
+			add_stability_or_adm_power = yes
 		}
 		ai_weight = {
 			factor = 10

@@ -273,3 +273,72 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = tau_events.8
+	title = "tau_events.8.t"
+	desc = "tau_events.8.d"
+	picture = STREET_SPEECH_eventPicture
+
+	trigger = {
+		is_at_war = no
+		religion = greater_good
+		any_core_province = {
+			has_owner_accepted_culture = no
+			# Ork, Tyranid, Drukahri and Chaos don't want to be assimilated
+			OR = {
+				culture = ork_culture
+				culture = freebooter_culture
+				culture = drukhari_culture
+				culture = tyranid_culture
+				culture = genestealer_culture
+				culture = chaos_culture
+				culture = heretic_astartes_culture
+				culture = dark_mechanicum_culture
+				culture = chaos_knight_culture
+				culture = noculture
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	immediate = {
+		random_core_province = {
+			limit = {
+				OR = {
+					culture = ork_culture
+					culture = freebooter_culture
+					culture = drukhari_culture
+					culture = tyranid_culture
+					culture = genestealer_culture
+					culture = chaos_culture
+					culture = heretic_astartes_culture
+					culture = dark_mechanicum_culture
+					culture = chaos_knight_culture
+					culture = noculture
+				}
+			}
+			save_event_target_as = the_province_to_change_culture
+		}
+	}
+	
+	option = {
+		name = "tau_events.8.a"
+		event_target:the_province_to_change_culture = {
+			spawn_rebels = {
+				size = 4
+				leader = noble_zealot
+				type = nationalist_rebels
+			}
+			change_culture = ROOT
+			change_religion = ROOT
+			add_province_modifier = {
+				name = province_purged
+				duration = 7000
+			}
+		}
+	}
+}

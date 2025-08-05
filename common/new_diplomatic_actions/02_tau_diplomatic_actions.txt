@@ -1,0 +1,84 @@
+propose_to_join_the_greater_good = {
+	category = influence
+    
+#    alert_index = <int>             # The alert to use for the action. Refer to static_actions for the indexes. Optional.
+#    alert_tooltip = <key>           # The localisation key to display in the alert tooltip. Optional.
+    
+    require_acceptance = yes
+    
+    # Determines when the action is visible
+    is_visible = {
+        religion = greater_good
+		FROM = {
+			NOT = { religion = greater_good }
+		}
+    }
+    
+    # Determines when the action can be taken
+    is_allowed = {
+		#is_at_war = no
+        FROM = {
+			NOT = { religion = greater_good }
+		}
+		border_distance = {
+			who = FROM
+			distance = 100
+		}
+    }
+    
+    # Which effects to execute on acceptance
+    on_accept = {
+        create_subject = {
+			subject_type = tau_auxiliary
+			subject = FROM
+		}
+    }
+    
+    # Which effects to execute on decline (if declinable). Optional.
+    on_decline = {
+        declare_war_with_cb = {
+			who = FROM
+			casus_belli = cb_tau_vassalize_war
+		}
+    }
+    
+    # Controls the AI's acceptance of the action, if acceptable. Optional.
+    ai_acceptance = {
+		add_entry = {
+			name = TRUST
+			export_to_variable = {
+				variable_name = ai_value
+				value = trust
+				who = FROM
+				with = ROOT
+			}			
+			subtract_variable = { 
+				which = ai_value
+				value = 50
+			}
+			#1 trust = +4 ai points
+			multiply_variable = {
+				which = ai_value
+				value = 0.4
+			}
+		}
+        add_entry = {
+			name = OPINION
+			export_to_variable = {
+				variable_name = ai_value
+				value = opinion
+				who = FROM
+				with = ROOT
+			}
+			multiply_variable = {
+				which = ai_value 
+				value = 0.2
+			}
+		}
+    }
+    
+    # Controls the AI's usage of the action
+    ai_will_do = {
+        always = no
+    }
+}

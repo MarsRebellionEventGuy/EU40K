@@ -484,13 +484,13 @@ xeno_group = {
 		icon = 17
 		country = {
 			years_of_nationalism = -5
-			fire_damage = 0.10
+			liberty_desire_from_subject_development = -0.75
 		}
 		country_as_secondary = {
 			years_of_nationalism = -3
 			fire_damage = 0.05
 		}
-		
+		can_have_secondary_religion = yes
 		heretic = { FARSIGHTHERESY }
 	}
 	hrud = {

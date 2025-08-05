@@ -139,3 +139,11 @@ cb_tau_revenge_war = {
 	
 	war_goal = tau_revenge
 }
+
+cb_tau_vassalize_war = {
+	valid_for_subject = no
+
+	is_triggered_only = yes
+
+	war_goal = take_capital_tau_vassalize
+}

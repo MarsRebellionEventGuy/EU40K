@@ -155,3 +155,32 @@ tau_revenge = {
 	
 	war_name = Dark_revelation_revenge
 }
+
+take_capital_tau_vassalize = {
+	type = take_capital
+	
+	attacker = {
+		badboy_factor = 2
+		prestige_factor = 2
+		peace_cost_factor = 1
+		
+		peace_options = {
+			po_join_the_greater_good
+		}
+	}
+	
+	defender = {
+		badboy_factor = 0.5
+		prestige_factor = 2
+		peace_cost_factor = 1
+
+		peace_options = {
+			po_gold
+			po_demand_provinces
+			po_release_vassals
+			po_release_annexed
+		}
+	}
+
+	war_name = VASSAL_MISSION_WAR_NAME
+}

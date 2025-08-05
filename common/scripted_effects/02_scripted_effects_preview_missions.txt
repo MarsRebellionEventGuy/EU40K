@@ -51,7 +51,7 @@ select_current_missions_XGG_ULTRAMAR = {
 		if = {
 			limit = { exists = XGK }
 			add_casus_belli = {
-				type = cb_vassalize_mission
+				type = cb_tau_vassalize_war
 				target = XGK
 				months = 5000
 			}
@@ -77,7 +77,7 @@ select_current_missions_XGG_SAUTEKH = {
 		if = {
 			limit = { exists = XEV }
 			add_casus_belli = {
-				type = cb_vassalize_mission
+				type = cb_tau_vassalize_war
 				target = XEV
 				months = 5000
 			}
@@ -111,7 +111,7 @@ select_current_missions_XGG_BARGHESI = {
 		if = {
 			limit = { exists = XIV }
 			add_casus_belli = {
-				type = cb_vassalize_mission
+				type = cb_tau_vassalize_war
 				target = XIV
 				months = 5000
 			}
@@ -137,7 +137,7 @@ select_current_missions_XGG_IYANDEN = {
 		if = {
 			limit = { exists = XIA }
 			add_casus_belli = {
-				type = cb_vassalize_mission
+				type = cb_tau_vassalize_war
 				target = XIA
 				months = 5000
 			}
