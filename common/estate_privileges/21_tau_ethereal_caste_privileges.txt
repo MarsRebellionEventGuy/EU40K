@@ -1,8 +1,8 @@
 estate_ethereal_caste_ethereal_cohesion = {
 	icon = privilege_demand_more_troops
 	
-	loyalty = 0.20
-	influence = 0.20
+	loyalty = -0.10
+	influence = 0.10
 	
 	can_select = {
 		advisor = inquisitor
@@ -16,7 +16,7 @@ estate_ethereal_caste_ethereal_cohesion = {
 	}
 	
 	penalties = {
-		estate_ethereal_caste_influence_modifier = 0.1
+		ethereal_caste_influence_modifier = 0.1
 	}
 	benefits = {
 		all_estate_loyalty_equilibrium = 0.1
@@ -34,7 +34,7 @@ estate_ethereal_caste_ethereal_cohesion = {
 estate_ethereal_caste_optimise_fire_caste = {
 	icon = privilege_limited_war_support
 	
-	loyalty = 0.10
+	loyalty = -0.10
 	influence = 0.10
 
 	can_select = {
@@ -55,32 +55,38 @@ estate_ethereal_caste_optimise_fire_caste = {
 	penalties = {
 	}
 	benefits = {
-		if = { 
-			limit = { has_estate = estate_fire_caste_code_of_fire } 
-			land_morale = 0.10
-		}
-		if = { 
-			limit = { has_estate = estate_fire_caste_generalize_the_teaching_of_Puretide } 
-			military_tactics = 0.25
-			drill_gain_modifier = 0.10
-		}
-		if = { 
-			limit = { has_estate = estate_fire_caste_more_Herexevre } 
-			yearly_army_professionalism = 0.01
-		}
-		if = { 
-			limit = { has_estate = estate_fire_caste_more_Shasartol } 
-			country_military_power = 1
-		}
-		if = { 
-			limit = { has_estate = estate_fire_caste_advanced_Kauyon } 
-			leader_land_fire = 1
-		}
-		if = { 
-			limit = { has_estate = estate_fire_caste_advanced_Montka } 
-			leader_siege = 1
-		}
 	}
+	
+	conditional_modifier = {
+ 		trigger = { has_estate_privilege = estate_fire_caste_code_of_fire }
+ 		modifier = { land_morale = 0.10 }
+ 		is_bad = no	
+ 	}
+	conditional_modifier = {
+ 		trigger = { has_estate_privilege = estate_fire_caste_generalize_the_teaching_of_Puretide }
+ 		modifier = { military_tactics = 0.25 drill_gain_modifier = 0.10 }
+ 		is_bad = no	
+ 	}
+	conditional_modifier = {
+ 		trigger = { has_estate_privilege = estate_fire_caste_more_Herexevre }
+ 		modifier = { yearly_army_professionalism = 0.01 }
+ 		is_bad = no	
+ 	}
+	conditional_modifier = {
+ 		trigger = { has_estate_privilege = estate_fire_caste_more_Shasartol }
+ 		modifier = { country_military_power = 1 }
+ 		is_bad = no	
+ 	}
+	conditional_modifier = {
+ 		trigger = { has_estate_privilege = estate_fire_caste_advanced_Kauyon }
+ 		modifier = { leader_land_fire = 1 }
+ 		is_bad = no	
+ 	}
+	conditional_modifier = {
+ 		trigger = { has_estate_privilege = estate_fire_caste_advanced_Montka }
+ 		modifier = { leader_siege = 1 }
+ 		is_bad = no	
+ 	}
 
 	ai_will_do = {
 		factor = 10
@@ -94,7 +100,7 @@ estate_ethereal_caste_optimise_fire_caste = {
 estate_ethereal_caste_optimise_water_caste = {
 	icon = privilege_limited_war_support
 	
-	loyalty = 0.10
+	loyalty = -0.10
 	influence = 0.10
 	
 	can_select = {
@@ -111,32 +117,37 @@ estate_ethereal_caste_optimise_water_caste = {
 	penalties = {
 	}
 	benefits = {
-		if = { 
-			limit = { has_estate = estate_water_caste_deploiement_of_orr } 
-			spy_offence = 0.5
-		}
-		if = { 
-			limit = { has_estate = estate_water_caste_generalize_the_teaching_of_the_golden_ambassador } 
-			diplomatic_reputation = 2
-		}
-		if = { 
-			limit = { has_estate = estate_water_caste_deploiement_of_volescur } 
-			accept_vassalization_reasons = 20
-		}
-		if = { 
-			limit = { has_estate = estate_water_caste_deploiement_of_kartyr } 
-			global_unrest = -2
-		}
-		if = { 
-			limit = { has_estate = estate_water_caste_deploiement_of_kivrai } 
-			native_assimilation = 0.50
-			native_uprising_chance = -0.50
-		}
-		if = { 
-			limit = { has_estate = estate_water_caste_advanced_diplomaty } 
-			country_diplomatic_power = 1
-		}
 	}
+	conditional_modifier = {
+ 		trigger = { has_estate_privilege = estate_water_caste_deploiement_of_orr }
+ 		modifier = { spy_offence = 0.5 }
+ 		is_bad = no	
+ 	}
+	conditional_modifier = {
+ 		trigger = { has_estate_privilege = estate_water_caste_generalize_the_teaching_of_the_golden_ambassador }
+ 		modifier = { diplomatic_reputation = 2 }
+ 		is_bad = no	
+ 	}
+	conditional_modifier = {
+ 		trigger = { has_estate_privilege = estate_water_caste_deploiement_of_volescur }
+ 		modifier = { accept_vassalization_reasons = 20 }
+ 		is_bad = no	
+ 	}
+	conditional_modifier = {
+ 		trigger = { has_estate_privilege = estate_water_caste_deploiement_of_kartyr }
+ 		modifier = { global_unrest = -2 }
+ 		is_bad = no	
+ 	}
+	conditional_modifier = {
+ 		trigger = { has_estate_privilege = estate_water_caste_deploiement_of_kivrai }
+ 		modifier = { native_assimilation = 0.50 native_uprising_chance = -0.50 }
+ 		is_bad = no	
+ 	}
+	conditional_modifier = {
+ 		trigger = { has_estate_privilege = estate_water_caste_advanced_diplomaty }
+ 		modifier = { country_diplomatic_power = 1 }
+ 		is_bad = no	
+ 	}
 
 	ai_will_do = {
 		factor = 10
@@ -150,7 +161,7 @@ estate_ethereal_caste_optimise_water_caste = {
 estate_ethereal_caste_optimise_earth_caste = {
 	icon = privilege_limited_war_support
 	
-	loyalty = 0.10
+	loyalty = -0.10
 	influence = 0.10
 	
 	can_select = {
@@ -167,33 +178,37 @@ estate_ethereal_caste_optimise_earth_caste = {
 	penalties = {
 	}
 	benefits = {
-		if = { 
-			limit = { has_estate = estate_earth_caste_kejata_idea } 
-			build_cost = -0.25
-		}
-		if = { 
-			limit = { has_estate = estate_earth_caste_monetary_control } 
-			inflation_reduction = 0.2
-		}
-		if = { 
-			limit = { has_estate = estate_earth_caste_kabuto_laboratory } 
-			technology_cost = -0.1
-			idea_cost = -0.1
-		}
-		if = { 
-			limit = { has_estate = estate_earth_caste_worldshaper_idea } 
-			development_cost = -0.25
-			development_cost_modifier = -0.25
-		}
-		if = { 
-			limit = { has_estate = estate_earth_caste_tulen_idea } 
-			yearly_innovativeness = 0.5
-		}
-		if = { 
-			limit = { has_estate = estate_earth_caste_fed_and_supplied } 
-			country_administrative_power = 1
-		}
 	}
+	conditional_modifier = {
+ 		trigger = { has_estate_privilege = estate_earth_caste_kejata_idea }
+ 		modifier = { build_cost = -0.25 }
+ 		is_bad = no	
+ 	}
+	conditional_modifier = {
+ 		trigger = { has_estate_privilege = estate_earth_caste_monetary_control }
+ 		modifier = { inflation_reduction = 0.2 }
+ 		is_bad = no	
+ 	}
+	conditional_modifier = {
+ 		trigger = { has_estate_privilege = estate_earth_caste_kabuto_laboratory }
+ 		modifier = { technology_cost = -0.1 idea_cost = -0.1 }
+ 		is_bad = no	
+ 	}
+	conditional_modifier = {
+ 		trigger = { has_estate_privilege = estate_earth_caste_worldshaper_idea }
+ 		modifier = { development_cost = -0.1 development_cost_modifier = -0.1 }
+ 		is_bad = no	
+ 	}
+	conditional_modifier = {
+ 		trigger = { has_estate_privilege = estate_earth_caste_tulen_idea }
+ 		modifier = { yearly_innovativeness = 0.5 }
+ 		is_bad = no	
+ 	}
+	conditional_modifier = {
+ 		trigger = { has_estate_privilege = estate_earth_caste_fed_and_supplied }
+ 		modifier = { country_admin_power = 1 }
+ 		is_bad = no	
+ 	}
 
 	ai_will_do = {
 		factor = 10
@@ -207,7 +222,7 @@ estate_ethereal_caste_optimise_earth_caste = {
 estate_ethereal_caste_optimise_air_caste = {
 	icon = privilege_limited_war_support
 	
-	loyalty = 0.10
+	loyalty = -0.10
 	influence = 0.10
 	
 	can_select = {
@@ -224,31 +239,37 @@ estate_ethereal_caste_optimise_air_caste = {
 	penalties = {
 	}
 	benefits = {
-		if = { 
-			limit = { has_estate = estate_air_caste_navy_training } 
-			navy_tradition = 1
-		}
-		if = { 
-			limit = { has_estate = estate_air_caste_advanced_exchange } 
-			global_trade_goods_size = 1
-		}
-		if = { 
-			limit = { has_estate = estate_air_caste_vanan_legacy } 
-			leader_naval_manuever = 1
-		}
-		if = { 
-			limit = { has_estate = estate_air_caste_training_of_korvatra } 
-			naval_morale_damage_received = -0.2
-		}
-		if = { 
-			limit = { has_estate = estate_air_caste_elite_marine } 
-			own_coast_naval_combat_bonus = 1
-		}
-		if = { 
-			limit = { has_estate = estate_air_caste_transport_efficiency } 
-			all_power_cost = -0.25
-		}
 	}
+	conditional_modifier = {
+ 		trigger = { has_estate_privilege = estate_air_caste_navy_training }
+ 		modifier = { navy_tradition = 1 }
+ 		is_bad = no	
+ 	}
+	conditional_modifier = {
+ 		trigger = { has_estate_privilege = estate_air_caste_advanced_exchange }
+ 		modifier = { global_trade_goods_size = 1 }
+ 		is_bad = no	
+ 	}
+	conditional_modifier = {
+ 		trigger = { has_estate_privilege = estate_air_caste_vanan_legacy }
+ 		modifier = { leader_naval_manuever = 1 }
+ 		is_bad = no	
+ 	}
+	conditional_modifier = {
+ 		trigger = { has_estate_privilege = estate_air_caste_training_of_korvatra }
+ 		modifier = { naval_morale_damage_received = -0.2 }
+ 		is_bad = no	
+ 	}
+	conditional_modifier = {
+ 		trigger = { has_estate_privilege = estate_air_caste_elite_marine }
+ 		modifier = { own_coast_naval_combat_bonus = 1 }
+ 		is_bad = no	
+ 	}
+	conditional_modifier = {
+ 		trigger = { has_estate_privilege = estate_air_caste_transport_efficiency }
+ 		modifier = { all_power_cost = -0.05 }
+ 		is_bad = no	
+ 	}
 
 	ai_will_do = {
 		factor = 10
@@ -262,7 +283,7 @@ estate_ethereal_caste_optimise_air_caste = {
 estate_ethereal_caste_greater_good_control = {
 	icon = privilege_limited_war_support
 	
-	loyalty = 0.10
+	loyalty = -0.10
 	influence = 0.10
 	
 	can_select = {

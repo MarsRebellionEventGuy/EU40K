@@ -1,8 +1,8 @@
 estate_air_caste_navy_training = {
 	icon = privilege_demand_more_troops
 	
-	loyalty = 0.20
-	influence = 0.20
+	loyalty = -0.10
+	influence = 0.10
 	
 	can_select = {
 		advisor = navigator
@@ -34,7 +34,7 @@ estate_air_caste_navy_training = {
 estate_air_caste_advanced_exchange = {
 	icon = privilege_limited_war_support
 	
-	loyalty = 0.10
+	loyalty = -0.10
 	influence = 0.10
 
 	can_select = {
@@ -68,7 +68,7 @@ estate_air_caste_advanced_exchange = {
 estate_air_caste_vanan_legacy = {
 	icon = privilege_limited_war_support
 	
-	loyalty = 0.10
+	loyalty = -0.10
 	influence = 0.10
 	
 	can_select = {
@@ -101,7 +101,7 @@ estate_air_caste_vanan_legacy = {
 estate_air_caste_training_of_korvatra = {
 	icon = privilege_limited_war_support
 	
-	loyalty = 0.10
+	loyalty = -0.10
 	influence = 0.10
 	
 	can_select = {
@@ -116,7 +116,7 @@ estate_air_caste_training_of_korvatra = {
 	}
 	
 	penalties = {
-		global_ship_recruit_speed = -0.2
+		global_ship_recruit_speed = 0.2
 	}
 	benefits = {
 		naval_morale_damage_received = -0.2
@@ -134,7 +134,7 @@ estate_air_caste_training_of_korvatra = {
 estate_air_caste_elite_marine = {
 	icon = privilege_limited_war_support
 	
-	loyalty = 0.10
+	loyalty = -0.10
 	influence = 0.10
 	
 	can_select = {
@@ -167,7 +167,7 @@ estate_air_caste_elite_marine = {
 estate_air_caste_transport_efficiency = {
 	icon = privilege_limited_war_support
 	
-	loyalty = 0.10
+	loyalty = -0.10
 	influence = 0.10
 	
 	can_select = {
@@ -185,7 +185,7 @@ estate_air_caste_transport_efficiency = {
 		advisor_cost = 0.2
 	}
 	benefits = {
-		all_power_cost = -0.25
+		all_power_cost = -0.05
 	}
 
 	ai_will_do = {

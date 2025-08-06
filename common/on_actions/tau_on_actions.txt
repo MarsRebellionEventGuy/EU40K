@@ -1,0 +1,13 @@
+# country
+on_startup = {
+	if = {
+		limit = {
+			culture_group = tau_culture_group
+		}
+		add_country_modifier = { 
+			name = tau_caste_system_modifier
+			duration = -1
+			hidden = yes
+		}
+	}
+}

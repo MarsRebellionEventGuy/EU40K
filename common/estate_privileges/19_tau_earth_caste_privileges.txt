@@ -1,8 +1,8 @@
 estate_earth_caste_kejata_idea = {
 	icon = privilege_demand_more_troops
 	
-	loyalty = 0.20
-	influence = 0.20
+	loyalty = -0.10
+	influence = 0.10
 	
 	can_select = {
 		advisor = natural_scientist
@@ -34,7 +34,7 @@ estate_earth_caste_kejata_idea = {
 estate_earth_caste_monetary_control = {
 	icon = privilege_limited_war_support
 	
-	loyalty = 0.10
+	loyalty = -0.10
 	influence = 0.10
 
 	can_select = {
@@ -68,7 +68,7 @@ estate_earth_caste_monetary_control = {
 estate_earth_caste_kabuto_laboratory = {
 	icon = privilege_limited_war_support
 	
-	loyalty = 0.10
+	loyalty = -0.10
 	influence = 0.10
 	
 	can_select = {
@@ -103,7 +103,7 @@ estate_earth_caste_kabuto_laboratory = {
 estate_earth_caste_worldshaper_idea = {
 	icon = privilege_limited_war_support
 	
-	loyalty = 0.10
+	loyalty = -0.10
 	influence = 0.10
 	
 	can_select = {
@@ -122,8 +122,8 @@ estate_earth_caste_worldshaper_idea = {
 		colony_cost_modifier = 1
 	}
 	benefits = {
-		development_cost = -0.25
-		development_cost_modifier = -0.25
+		development_cost = -0.1
+		development_cost_modifier = -0.1
 	}
 
 	ai_will_do = {
@@ -138,7 +138,7 @@ estate_earth_caste_worldshaper_idea = {
 estate_earth_caste_tulen_idea = {
 	icon = privilege_limited_war_support
 	
-	loyalty = 0.10
+	loyalty = -0.10
 	influence = 0.10
 	
 	can_select = {
@@ -171,7 +171,7 @@ estate_earth_caste_tulen_idea = {
 estate_earth_caste_fed_and_supplied = {
 	icon = privilege_limited_war_support
 	
-	loyalty = 0.10
+	loyalty = -0.10
 	influence = 0.10
 	
 	can_select = {
@@ -186,10 +186,10 @@ estate_earth_caste_fed_and_supplied = {
 	}
 	
 	penalties = {
-		adm_advisor_cost = 0.2
+		advisor_cost = 0.2
 	}
 	benefits = {
-		country_administrative_power = 1
+		country_admin_power = 1
 	}
 
 	ai_will_do = {

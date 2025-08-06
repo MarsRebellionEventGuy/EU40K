@@ -1,8 +1,8 @@
 estate_water_caste_deploiement_of_orr = {
 	icon = privilege_demand_more_troops
 	
-	loyalty = 0.20
-	influence = 0.20
+	loyalty = -0.10
+	influence = 0.10
 	
 	can_select = {
 		advisor = spymaster
@@ -34,7 +34,7 @@ estate_water_caste_deploiement_of_orr = {
 estate_water_caste_generalize_the_teaching_of_the_golden_ambassador = {
 	icon = privilege_limited_war_support
 	
-	loyalty = 0.10
+	loyalty = -0.10
 	influence = 0.10
 
 	can_select = {
@@ -72,7 +72,7 @@ estate_water_caste_generalize_the_teaching_of_the_golden_ambassador = {
 estate_water_caste_deploiement_of_volescur = {
 	icon = privilege_limited_war_support
 	
-	loyalty = 0.10
+	loyalty = -0.10
 	influence = 0.10
 	
 	can_select = {
@@ -108,7 +108,7 @@ estate_water_caste_deploiement_of_volescur = {
 estate_water_caste_deploiement_of_kartyr = {
 	icon = privilege_limited_war_support
 	
-	loyalty = 0.10
+	loyalty = -0.10
 	influence = 0.10
 	
 	can_select = {
@@ -141,7 +141,7 @@ estate_water_caste_deploiement_of_kartyr = {
 estate_water_caste_deploiement_of_kivrai = {
 	icon = privilege_limited_war_support
 	
-	loyalty = 0.10
+	loyalty = -0.10
 	influence = 0.10
 	
 	can_select = {
@@ -175,7 +175,7 @@ estate_water_caste_deploiement_of_kivrai = {
 estate_water_caste_advanced_diplomaty = {
 	icon = privilege_limited_war_support
 	
-	loyalty = 0.10
+	loyalty = -0.10
 	influence = 0.10
 	
 	can_select = {

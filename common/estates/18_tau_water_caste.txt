@@ -63,5 +63,5 @@ estate_water_caste = {
                 #'agendas' includes the names of the estate privileges this estate uses.
                 #Estate agendas can be found in the {{path|common/estates_agendas/*.txt}}
 	}
-	influence_from_dev_modifier = 0.1
+	influence_from_dev_modifier = 0
 }
