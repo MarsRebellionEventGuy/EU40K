@@ -1,0 +1,67 @@
+estate_fire_caste = {
+	icon = 11
+	
+	color = { 200 0 50 }
+	
+	trigger = {
+		culture_group = tau_culture_group
+	}
+	
+	country_modifier_happy = {
+		manpower_recovery_speed = 0.2 
+		land_morale = 0.10
+	}
+	country_modifier_neutral = {
+		manpower_recovery_speed = 0.2 
+	}	
+	country_modifier_angry = {
+		manpower_recovery_speed = -0.1
+		land_morale = -0.10
+	}
+	
+	land_ownership_modifier = {
+		army_tradition = 0.1
+	}
+
+	# Influence modifiers
+	base_influence = 10
+	influence_modifier = {
+		desc = EST_VAL_OTHER_ESTATE_IN_POWER
+		trigger = {
+			has_any_estate_disaster_active = yes
+			has_not_own_estate_disaster_active = { estate = estate_fire_caste }
+		}	
+		influence = -40
+	}
+	
+	loyalty_modifier = {
+		desc = EST_VAL_OTHER_ESTATE_IN_POWER_LOY
+		trigger = {
+			has_any_estate_disaster_active = yes
+			has_not_own_estate_disaster_active = { estate = estate_fire_caste }
+		}
+		loyalty = -20
+	}
+	
+	custom_name = {
+		desc = estate_fire_caste
+		trigger = {
+			always = yes
+		}
+	}
+	
+	privileges = {
+		estate_fire_caste_code_of_fire
+		estate_fire_caste_generalize_the_teaching_of_Puretide
+		estate_fire_caste_more_Herexevre
+		estate_fire_caste_more_Shasartol
+		estate_fire_caste_advanced_Kauyon
+		estate_fire_caste_advanced_Montka
+	}
+
+	agendas = {
+                #'agendas' includes the names of the estate privileges this estate uses.
+                #Estate agendas can be found in the {{path|common/estates_agendas/*.txt}}
+	}
+	influence_from_dev_modifier = 0.1
+}

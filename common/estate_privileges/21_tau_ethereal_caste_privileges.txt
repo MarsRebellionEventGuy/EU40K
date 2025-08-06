@@ -1,0 +1,314 @@
+estate_ethereal_caste_ethereal_cohesion = {
+	icon = privilege_demand_more_troops
+	
+	loyalty = 0.20
+	influence = 0.20
+	
+	can_select = {
+		advisor = inquisitor
+	}
+	on_granted = { 
+		caste_privilege_counter_on_granted_effect = { CASTE = ethereal_caste } 
+	} 
+	
+	on_revoked = { 
+		caste_privilege_counter_on_revoked_effect = { CASTE = ethereal_caste } 
+	}
+	
+	penalties = {
+		estate_ethereal_caste_influence_modifier = 0.1
+	}
+	benefits = {
+		all_estate_loyalty_equilibrium = 0.1
+	}
+
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			ruler_has_personality = embezzler_personality
+		}
+	}
+}
+
+estate_ethereal_caste_optimise_fire_caste = {
+	icon = privilege_limited_war_support
+	
+	loyalty = 0.10
+	influence = 0.10
+
+	can_select = {
+		custom_trigger_tooltip = {
+			tooltip = ethereal_caste_optimise_fire_caste
+			has_tau_caste_privilege = { CASTE = fire_caste }
+		}
+	}
+
+	on_granted = { 
+		caste_privilege_counter_on_granted_effect = { CASTE = ethereal_caste } 
+	} 
+	
+	on_revoked = { 
+		caste_privilege_counter_on_revoked_effect = { CASTE = ethereal_caste } 
+	}
+	
+	penalties = {
+	}
+	benefits = {
+		if = { 
+			limit = { has_estate = estate_fire_caste_code_of_fire } 
+			land_morale = 0.10
+		}
+		if = { 
+			limit = { has_estate = estate_fire_caste_generalize_the_teaching_of_Puretide } 
+			military_tactics = 0.25
+			drill_gain_modifier = 0.10
+		}
+		if = { 
+			limit = { has_estate = estate_fire_caste_more_Herexevre } 
+			yearly_army_professionalism = 0.01
+		}
+		if = { 
+			limit = { has_estate = estate_fire_caste_more_Shasartol } 
+			country_military_power = 1
+		}
+		if = { 
+			limit = { has_estate = estate_fire_caste_advanced_Kauyon } 
+			leader_land_fire = 1
+		}
+		if = { 
+			limit = { has_estate = estate_fire_caste_advanced_Montka } 
+			leader_siege = 1
+		}
+	}
+
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			ruler_has_personality = embezzler_personality
+		}
+	}
+}
+
+estate_ethereal_caste_optimise_water_caste = {
+	icon = privilege_limited_war_support
+	
+	loyalty = 0.10
+	influence = 0.10
+	
+	can_select = {
+		has_tau_caste_privilege = { CASTE = water_caste }
+	}
+	on_granted = { 
+		caste_privilege_counter_on_granted_effect = { CASTE = ethereal_caste } 
+	} 
+	
+	on_revoked = { 
+		caste_privilege_counter_on_revoked_effect = { CASTE = ethereal_caste } 
+	}
+	
+	penalties = {
+	}
+	benefits = {
+		if = { 
+			limit = { has_estate = estate_water_caste_deploiement_of_orr } 
+			spy_offence = 0.5
+		}
+		if = { 
+			limit = { has_estate = estate_water_caste_generalize_the_teaching_of_the_golden_ambassador } 
+			diplomatic_reputation = 2
+		}
+		if = { 
+			limit = { has_estate = estate_water_caste_deploiement_of_volescur } 
+			accept_vassalization_reasons = 20
+		}
+		if = { 
+			limit = { has_estate = estate_water_caste_deploiement_of_kartyr } 
+			global_unrest = -2
+		}
+		if = { 
+			limit = { has_estate = estate_water_caste_deploiement_of_kivrai } 
+			native_assimilation = 0.50
+			native_uprising_chance = -0.50
+		}
+		if = { 
+			limit = { has_estate = estate_water_caste_advanced_diplomaty } 
+			country_diplomatic_power = 1
+		}
+	}
+
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			ruler_has_personality = embezzler_personality
+		}
+	}
+}
+
+estate_ethereal_caste_optimise_earth_caste = {
+	icon = privilege_limited_war_support
+	
+	loyalty = 0.10
+	influence = 0.10
+	
+	can_select = {
+		has_tau_caste_privilege = { CASTE = earth_caste }
+	}
+	on_granted = { 
+		caste_privilege_counter_on_granted_effect = { CASTE = ethereal_caste } 
+	} 
+	
+	on_revoked = { 
+		caste_privilege_counter_on_revoked_effect = { CASTE = ethereal_caste } 
+	}
+	
+	penalties = {
+	}
+	benefits = {
+		if = { 
+			limit = { has_estate = estate_earth_caste_kejata_idea } 
+			build_cost = -0.25
+		}
+		if = { 
+			limit = { has_estate = estate_earth_caste_monetary_control } 
+			inflation_reduction = 0.2
+		}
+		if = { 
+			limit = { has_estate = estate_earth_caste_kabuto_laboratory } 
+			technology_cost = -0.1
+			idea_cost = -0.1
+		}
+		if = { 
+			limit = { has_estate = estate_earth_caste_worldshaper_idea } 
+			development_cost = -0.25
+			development_cost_modifier = -0.25
+		}
+		if = { 
+			limit = { has_estate = estate_earth_caste_tulen_idea } 
+			yearly_innovativeness = 0.5
+		}
+		if = { 
+			limit = { has_estate = estate_earth_caste_fed_and_supplied } 
+			country_administrative_power = 1
+		}
+	}
+
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			ruler_has_personality = embezzler_personality
+		}
+	}
+}
+
+estate_ethereal_caste_optimise_air_caste = {
+	icon = privilege_limited_war_support
+	
+	loyalty = 0.10
+	influence = 0.10
+	
+	can_select = {
+		has_tau_caste_privilege = { CASTE = air_caste }
+	}
+	on_granted = { 
+		caste_privilege_counter_on_granted_effect = { CASTE = ethereal_caste } 
+	} 
+	
+	on_revoked = { 
+		caste_privilege_counter_on_revoked_effect = { CASTE = ethereal_caste } 
+	}
+	
+	penalties = {
+	}
+	benefits = {
+		if = { 
+			limit = { has_estate = estate_air_caste_navy_training } 
+			navy_tradition = 1
+		}
+		if = { 
+			limit = { has_estate = estate_air_caste_advanced_exchange } 
+			global_trade_goods_size = 1
+		}
+		if = { 
+			limit = { has_estate = estate_air_caste_vanan_legacy } 
+			leader_naval_manuever = 1
+		}
+		if = { 
+			limit = { has_estate = estate_air_caste_training_of_korvatra } 
+			naval_morale_damage_received = -0.2
+		}
+		if = { 
+			limit = { has_estate = estate_air_caste_elite_marine } 
+			own_coast_naval_combat_bonus = 1
+		}
+		if = { 
+			limit = { has_estate = estate_air_caste_transport_efficiency } 
+			all_power_cost = -0.25
+		}
+	}
+
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			ruler_has_personality = embezzler_personality
+		}
+	}
+}
+
+estate_ethereal_caste_greater_good_control = {
+	icon = privilege_limited_war_support
+	
+	loyalty = 0.10
+	influence = 0.10
+	
+	can_select = {
+		num_of_estate_privileges = {
+			estate = estate_fire_caste
+			value = 6
+		}
+		num_of_estate_privileges = {
+			estate = estate_water_caste
+			value = 6
+		}
+		num_of_estate_privileges = {
+			estate = estate_earth_caste
+			value = 6
+		}
+		num_of_estate_privileges = {
+			estate = estate_air_caste
+			value = 6
+		}
+		num_of_estate_privileges = {
+			estate = estate_ethereal_caste
+			value = 5
+		}
+	}
+	on_granted = { 
+		caste_privilege_counter_on_granted_effect = { CASTE = ethereal_caste } 
+	} 
+	
+	on_revoked = { 
+		caste_privilege_counter_on_revoked_effect = { CASTE = ethereal_caste } 
+	}
+	
+	penalties = {
+	
+	}
+	benefits = {
+		max_absolutism = 100
+		max_absolutism_effect = 0.5
+		yearly_absolutism = 0.5
+	}
+
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			ruler_has_personality = embezzler_personality
+		}
+	}
+}

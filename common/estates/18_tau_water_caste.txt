@@ -1,0 +1,67 @@
+estate_water_caste = {
+	icon = 12
+	
+	color = { 0 125 200 }
+	
+	trigger = {
+		culture_group = tau_culture_group
+	}
+	
+	country_modifier_happy = {
+		trade_efficiency = 0.2
+		diplomatic_reputation = 1
+	}
+	country_modifier_neutral = {
+		trade_efficiency = 0.1
+	}	
+	country_modifier_angry = {
+		trade_efficiency = -0.1
+		diplomatic_reputation = -1
+	}
+	
+	land_ownership_modifier = {
+		prestige_decay = -0.01
+	}
+	
+	# Influence modifiers
+	base_influence = 10
+	influence_modifier = {
+		desc = EST_VAL_OTHER_ESTATE_IN_POWER
+		trigger = {
+			has_any_estate_disaster_active = yes
+			has_not_own_estate_disaster_active = { estate = estate_water_caste }
+		}	
+		influence = -40
+	}
+	
+	loyalty_modifier = {
+		desc = EST_VAL_OTHER_ESTATE_IN_POWER_LOY
+		trigger = {
+			has_any_estate_disaster_active = yes
+			has_not_own_estate_disaster_active = { estate = estate_water_caste }
+		}
+		loyalty = -20
+	}
+	
+	custom_name = {
+		desc = estate_water_caste
+		trigger = {
+			always = yes
+		}
+	}
+	
+	privileges = {
+         estate_water_caste_deploiement_of_orr
+		 estate_water_caste_generalize_the_teaching_of_the_golden_ambassador
+		 estate_water_caste_deploiement_of_volescur
+		 estate_water_caste_deploiement_of_kartyr
+		 estate_water_caste_deploiement_of_kivrai
+		 estate_water_caste_advanced_diplomaty
+	}
+
+	agendas = {
+                #'agendas' includes the names of the estate privileges this estate uses.
+                #Estate agendas can be found in the {{path|common/estates_agendas/*.txt}}
+	}
+	influence_from_dev_modifier = 0.1
+}

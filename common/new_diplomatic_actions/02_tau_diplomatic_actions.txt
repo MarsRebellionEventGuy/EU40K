@@ -1,9 +1,6 @@
 propose_to_join_the_greater_good = {
 	category = influence
-    
-#    alert_index = <int>             # The alert to use for the action. Refer to static_actions for the indexes. Optional.
-#    alert_tooltip = <key>           # The localisation key to display in the alert tooltip. Optional.
-    
+  
     require_acceptance = yes
     
     # Determines when the action is visible
@@ -16,13 +13,27 @@ propose_to_join_the_greater_good = {
     
     # Determines when the action can be taken
     is_allowed = {
-		#is_at_war = no
+		is_at_war = no
         FROM = {
 			NOT = { religion = greater_good }
+			NOT = {
+				OR = {
+					culture = ork_culture
+					culture = freebooter_culture
+					culture = drukhari_culture
+					culture = tyranid_culture
+					culture = genestealer_culture
+					culture = chaos_culture
+					culture = heretic_astartes_culture
+					culture = dark_mechanicum_culture
+					culture = chaos_knight_culture
+					culture = noculture
+				}
+			}
 		}
 		border_distance = {
 			who = FROM
-			distance = 100
+			distance = 150
 		}
     }
     
@@ -33,7 +44,7 @@ propose_to_join_the_greater_good = {
 			subject = FROM
 		}
     }
-    
+
     # Which effects to execute on decline (if declinable). Optional.
     on_decline = {
         declare_war_with_cb = {
@@ -41,7 +52,7 @@ propose_to_join_the_greater_good = {
 			casus_belli = cb_tau_vassalize_war
 		}
     }
-    
+
     # Controls the AI's acceptance of the action, if acceptable. Optional.
     ai_acceptance = {
 		add_entry = {
@@ -62,7 +73,7 @@ propose_to_join_the_greater_good = {
 				value = 0.4
 			}
 		}
-        add_entry = {
+		add_entry = {
 			name = OPINION
 			export_to_variable = {
 				variable_name = ai_value
@@ -73,6 +84,35 @@ propose_to_join_the_greater_good = {
 			multiply_variable = {
 				which = ai_value 
 				value = 0.2
+			}
+		}
+		add_entry = {
+			name = DIPLO_IS_RIVAL
+			limit = {
+				FROM = {
+					ai_attitude = {
+						who = ROOT
+						attitude = attitude_rivalry
+					}
+				}
+			}
+			export_to_variable = {
+				variable_name = ai_value
+				value = 1
+			}
+			
+			multiply_variable = {
+				which = ai_value
+				value = -1000
+			}
+		}
+		add_entry = {
+			name = VASSALIZE_ACCEPTANCE
+			export_to_variable = {
+				variable_name = ai_value
+				value = modifier:accept_vassalization_reasons
+				who = FROM
+				with = ROOT
 			}
 		}
     }

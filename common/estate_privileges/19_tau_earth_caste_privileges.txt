@@ -1,0 +1,202 @@
+estate_earth_caste_kejata_idea = {
+	icon = privilege_demand_more_troops
+	
+	loyalty = 0.20
+	influence = 0.20
+	
+	can_select = {
+		advisor = natural_scientist
+	}
+	on_granted = { 
+		caste_privilege_counter_on_granted_effect = { CASTE = earth_caste } 
+	} 
+	
+	on_revoked = { 
+		caste_privilege_counter_on_revoked_effect = { CASTE = earth_caste } 
+	}
+	
+	penalties = {
+		adm_advisor_cost = 0.2
+	}
+	benefits = {
+		build_cost = -0.25
+	}
+
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			ruler_has_personality = greedy_personality
+		}
+	}
+}
+
+estate_earth_caste_monetary_control = {
+	icon = privilege_limited_war_support
+	
+	loyalty = 0.10
+	influence = 0.10
+
+	can_select = {
+		advisor = treasurer
+	}
+
+	on_granted = { 
+		caste_privilege_counter_on_granted_effect = { CASTE = earth_caste } 
+	} 
+	
+	on_revoked = { 
+		caste_privilege_counter_on_revoked_effect = { CASTE = earth_caste } 
+	}
+	
+	penalties = {
+		adm_advisor_cost = 0.2
+	}
+	benefits = {
+		inflation_reduction = 0.2
+	}
+
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			ruler_has_personality = greedy_personality
+		}
+	}
+}
+
+estate_earth_caste_kabuto_laboratory = {
+	icon = privilege_limited_war_support
+	
+	loyalty = 0.10
+	influence = 0.10
+	
+	can_select = {
+		advisor = natural_scientist
+	}
+	on_granted = { 
+		caste_privilege_counter_on_granted_effect = { CASTE = earth_caste } 
+	} 
+	
+	on_revoked = { 
+		caste_privilege_counter_on_revoked_effect = { CASTE = earth_caste } 
+	}
+	
+	penalties = {
+		global_tax_modifier = -0.05
+		production_efficiency = -0.05
+	}
+	benefits = {
+		technology_cost = -0.1
+		idea_cost = -0.1
+	}
+
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			ruler_has_personality = greedy_personality
+		}
+	}
+}
+
+estate_earth_caste_worldshaper_idea = {
+	icon = privilege_limited_war_support
+	
+	loyalty = 0.10
+	influence = 0.10
+	
+	can_select = {
+		advisor = colonial_governor
+	}
+	on_granted = { 
+		caste_privilege_counter_on_granted_effect = { CASTE = earth_caste } 
+	} 
+	
+	on_revoked = { 
+		caste_privilege_counter_on_revoked_effect = { CASTE = earth_caste } 
+	}
+	
+	penalties = {
+		global_colonial_growth = -20
+		colony_cost_modifier = 1
+	}
+	benefits = {
+		development_cost = -0.25
+		development_cost_modifier = -0.25
+	}
+
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			ruler_has_personality = obsessive_perfectionist_personality
+		}
+	}
+}
+
+estate_earth_caste_tulen_idea = {
+	icon = privilege_limited_war_support
+	
+	loyalty = 0.10
+	influence = 0.10
+	
+	can_select = {
+		advisor = fortification_expert
+	}
+	on_granted = { 
+		caste_privilege_counter_on_granted_effect = { CASTE = earth_caste } 
+	} 
+	
+	on_revoked = { 
+		caste_privilege_counter_on_revoked_effect = { CASTE = earth_caste } 
+	}
+	
+	penalties = {
+		artillery_cost = 0.10
+	}
+	benefits = {
+		yearly_innovativeness = 0.5
+	}
+
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			ruler_has_personality = greedy_personality
+		}
+	}
+}
+
+estate_earth_caste_fed_and_supplied = {
+	icon = privilege_limited_war_support
+	
+	loyalty = 0.10
+	influence = 0.10
+	
+	can_select = {
+		advisor = master_of_mint
+	}
+	on_granted = { 
+		caste_privilege_counter_on_granted_effect = { CASTE = earth_caste } 
+	} 
+	
+	on_revoked = { 
+		caste_privilege_counter_on_revoked_effect = { CASTE = earth_caste } 
+	}
+	
+	penalties = {
+		adm_advisor_cost = 0.2
+	}
+	benefits = {
+		country_administrative_power = 1
+	}
+
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			ruler_has_personality = greedy_personality
+		}
+	}
+}

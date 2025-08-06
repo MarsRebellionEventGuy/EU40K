@@ -10,6 +10,7 @@ estate_burghers = {
 		NOT = { culture_group = tyranid_culture_group }
 		NOT = { culture_group = aeldari_culture_group }
 		NOT = { culture_group = chaos_culture_group }
+		NOT = { culture_group = tau_culture_group }
 		OR = {
 			has_government_attribute = enables_estate_burghers
 			has_enabled_estate = { estate = estate_burghers }
@@ -209,13 +210,7 @@ estate_burghers = {
 	custom_name = {
 		desc = estate_rogue_traders
 		trigger = {
-			NOT = { culture_group = tau_culture_group }
-		}
-	}
-	custom_name = {
-		desc = estate_water_caste
-		trigger = {
-			culture_group = tau_culture_group
+			alwyas = yes
 		}
 	}
 

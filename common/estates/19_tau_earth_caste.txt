@@ -1,0 +1,67 @@
+estate_earth_caste = {
+	icon = 13
+	
+	color = { 200 100 0 }
+	
+	trigger = {
+		culture_group = tau_culture_group
+	}
+	
+	country_modifier_happy = {
+		production_efficiency = 0.1
+		build_cost = -0.1
+	}
+	country_modifier_neutral = {
+		production_efficiency = 0.05
+	}	
+	country_modifier_angry = {
+		production_efficiency = -0.05
+		build_cost = 0.1
+	}
+	
+	land_ownership_modifier = {
+		yearly_innovativeness = 0.01
+	}
+	
+	# Influence modifiers
+	base_influence = 10
+	influence_modifier = {
+		desc = EST_VAL_OTHER_ESTATE_IN_POWER
+		trigger = {
+			has_any_estate_disaster_active = yes
+			has_not_own_estate_disaster_active = { estate = estate_earth_caste }
+		}	
+		influence = -40
+	}
+	
+	loyalty_modifier = {
+		desc = EST_VAL_OTHER_ESTATE_IN_POWER_LOY
+		trigger = {
+			has_any_estate_disaster_active = yes
+			has_not_own_estate_disaster_active = { estate = estate_earth_caste }
+		}
+		loyalty = -20
+	}
+	
+	custom_name = {
+		desc = estate_earth_caste
+		trigger = {
+			always = yes
+		}
+	}
+	
+	privileges = {
+		estate_earth_caste_kejata_idea
+		estate_earth_caste_monetary_control
+		estate_earth_caste_kabuto_laboratory
+		estate_earth_caste_worldshaper_idea
+		estate_earth_caste_tulen_idea
+		estate_earth_caste_fed_and_supplied
+	}
+
+	agendas = {
+                #'agendas' includes the names of the estate privileges this estate uses.
+                #Estate agendas can be found in the {{path|common/estates_agendas/*.txt}}
+	}
+	influence_from_dev_modifier = 0.1
+}

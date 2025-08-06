@@ -1,0 +1,10 @@
+has_tau_caste_privilege = {
+	OR = {
+		has_country_flag = $CASTE$_privilege_count_1
+		has_country_flag = $CASTE$_privilege_count_2
+		has_country_flag = $CASTE$_privilege_count_3
+		has_country_flag = $CASTE$_privilege_count_4
+		has_country_flag = $CASTE$_privilege_count_5
+		has_country_flag = $CASTE$_privilege_count_6
+	}
+}

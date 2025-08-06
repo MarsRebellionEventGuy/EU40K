@@ -12,6 +12,7 @@ po_join_the_greater_good = {
 	is_make_subject = yes
 	requires_is_allowed = yes
 	applies_to_war_target = yes
+	warscore_cap = 100
 	
 	is_visible = {
 		religion_group = greater_good

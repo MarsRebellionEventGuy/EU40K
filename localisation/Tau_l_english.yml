@@ -133,10 +133,13 @@
  estate_water_caste_desc: "The Water Caste serve the T'au Empire as traders, merchants, public servants, bureaucrats, administrators, diplomats, and ambassadors. They interact with other races when such affairs are not handled by the Fire Caste, and often act as administrators of T'au worlds in the absence of an Ethereal governor. Like water, Water Caste bureaucrats fluidly move between other Castes and alien races incorporated within the Empire to make sure that it flows smoothly. The Water Caste are known for their great linguistic, diplomatic, and negotiation skills. Members of the Water Caste are often the ones who initiate first contact with new species encountered by the Empire, skilfully negotiating their union with the T'au. The members of the Water Caste have a gift for linguistics that has become more and more developed over time, so they able to learn alien languages with ease and show a remarkable ability to emulate and pick up subtlest of communication features"
  estate_fire_caste: "Fire Caste"
  estate_fire_caste_desc: "Members of the Fire Caste are the warriors of the T'au Empire, and as such are most often seen on the field of battle. They have been bred to be the strongest and most aggressive T'au, and weak strains are quickly weeded out. These traits come from the Fire Caste's origin on the plains of T'au, where they were hunters and warriors. Fire Warriors, as soldiers of the Fire Caste are known, spend their entire lifetimes in battle or preparing for it, constantly honing their tactics and working to improve their skills. The strongest of the strong are those T'au from the world of Vior'la, who have slightly greater muscle mass because of the stronger gravity of that planet. The Fire Caste are guided by the Code of Fire, a doctrine of loyalty, martial arts and merciless war tempered by wisdom."
- estate_ethereals: "Ethereals"
- estate_ethereals_desc: "The Ethereals serve as 'philosopher kings', and guide the other castes, as well as alien member-races of the T'au empire, towards the enlightenment of the Tau'va, the Greater Good. They serve as the undisputed rulers of the T'au Empire. Their unique role is a combination of spiritual and political duties, and their declarations shape and steer every action of the Empire. Were an Ethereal to order a T'au to kill himself, he would be met with instant obedience. Ethereals themselves rule from the Ethereal Council, with the Ethereal Supreme being the highest ranked of the Caste"
+ estate_ethereal_caste: "Ethereals"
+ estate_ethereal_caste_desc: "The Ethereals serve as 'philosopher kings', and guide the other castes, as well as alien member-races of the T'au empire, towards the enlightenment of the Tau'va, the Greater Good. They serve as the undisputed rulers of the T'au Empire. Their unique role is a combination of spiritual and political duties, and their declarations shape and steer every action of the Empire. Were an Ethereal to order a T'au to kill himself, he would be met with instant obedience. Ethereals themselves rule from the Ethereal Council, with the Ethereal Supreme being the highest ranked of the Caste"
  estate_earth_caste: "Earth Caste"
  estate_earth_caste_desc: "This caste provides for the manufacturing, agricultural, industrial, artisans, and engineering needs of the T'au Empire. By far the largest caste in sheer numbers, it is they who erect dwellings, provide food, and produce new technology. Members of the Earth Caste are often described as plain and dour, possessing a rather stoic outlook on life in general. They were originally the first T'au to build cities and practice agriculture"
+ estate_air_caste: "Air Caste"
+ estate_air_caste_desc: "The Air Caste is charged with holding the T'au Empire together through the Kor'vattra, the T'au Empire's merchant and war-fleet in addition to operating Tau Orbitals and Fortress Stations. Formerly functioning as messengers, these days they are the T'au Navy and are sometimes called the "Invisible Caste", for they rarely if ever set foot upon planets. "
+
  cb_tau_vassalize_war: "Vassalization for the Greater Good"
  cb_tau_vassalize_war_desc: "We must lead them to the Greater Good"
  take_capital_tau_vassalize_desc: "conquert the capital"
@@ -146,3 +149,9 @@
  PEACE_po_join_the_greater_good: "Join the Greater Good"
  CB_ALLOWED_po_join_the_greater_good: "We ask them to join the greater good"
  po_join_the_greater_good_desc: "We'll follow the greater good"
+
+# estate_air_caste
+ ethereal_caste_optimise_fire_caste: "One or more fire caste privilege"
+ ethereal_caste_optimise_water_caste: "One or more water caste privilege"
+ ethereal_caste_optimise_earth_caste: "One or more earth caste privilege"
+ ethereal_caste_optimise_air_caste: "One or more air caste privilege"

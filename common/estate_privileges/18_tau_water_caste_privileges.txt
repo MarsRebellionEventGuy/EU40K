@@ -1,0 +1,206 @@
+estate_water_caste_deploiement_of_orr = {
+	icon = privilege_demand_more_troops
+	
+	loyalty = 0.20
+	influence = 0.20
+	
+	can_select = {
+		advisor = spymaster
+	}
+	on_granted = { 
+		caste_privilege_counter_on_granted_effect = { CASTE = water_caste } 
+	} 
+	
+	on_revoked = { 
+		caste_privilege_counter_on_revoked_effect = { CASTE = water_caste } 
+	}
+	
+	penalties = {
+		improve_relation_modifier = -0.2
+	}
+	benefits = {
+		spy_offence = 0.5
+	}
+
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			ruler_has_personality = loose_lips_personality
+		}
+	}
+}
+
+estate_water_caste_generalize_the_teaching_of_the_golden_ambassador = {
+	icon = privilege_limited_war_support
+	
+	loyalty = 0.10
+	influence = 0.10
+
+	can_select = {
+		advisor = statesman
+	}
+
+	on_granted = { 
+		caste_privilege_counter_on_granted_effect = { CASTE = water_caste } 
+	} 
+	
+	on_revoked = { 
+		caste_privilege_counter_on_revoked_effect = { CASTE = water_caste } 
+	}
+	
+	penalties = {
+		dip_advisor_cost = 0.2
+	}
+	benefits = {
+		diplomatic_reputation = 2
+	}
+
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			ruler_has_personality = babbling_buffoon_personality
+		}
+		modifier = {
+			factor = 0
+			NOT = { gold_income = 50 }
+		}
+	}
+}
+
+estate_water_caste_deploiement_of_volescur = {
+	icon = privilege_limited_war_support
+	
+	loyalty = 0.10
+	influence = 0.10
+	
+	can_select = {
+		OR = {
+			advisor = diplomat
+			advisor = statesman
+		}
+	}
+	on_granted = { 
+		caste_privilege_counter_on_granted_effect = { CASTE = water_caste } 
+	} 
+	
+	on_revoked = { 
+		caste_privilege_counter_on_revoked_effect = { CASTE = water_caste } 
+	}
+	
+	penalties = {
+		ae_impact = 0.2
+	}
+	benefits = {
+		accept_vassalization_reasons = 20
+	}
+
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			ruler_has_personality = babbling_buffoon_personality
+		}
+	}
+}
+
+estate_water_caste_deploiement_of_kartyr = {
+	icon = privilege_limited_war_support
+	
+	loyalty = 0.10
+	influence = 0.10
+	
+	can_select = {
+		advisor = statesman
+	}
+	on_granted = { 
+		caste_privilege_counter_on_granted_effect = { CASTE = water_caste } 
+	} 
+	
+	on_revoked = { 
+		caste_privilege_counter_on_revoked_effect = { CASTE = water_caste } 
+	}
+	
+	penalties = {
+		autonomy_change_time = 0.25
+	}
+	benefits = {
+		global_unrest = -2
+	}
+
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			ruler_has_personality = babbling_buffoon_personality
+		}
+	}
+}
+
+estate_water_caste_deploiement_of_kivrai = {
+	icon = privilege_limited_war_support
+	
+	loyalty = 0.10
+	influence = 0.10
+	
+	can_select = {
+		advisor = navigator
+	}
+	on_granted = { 
+		caste_privilege_counter_on_granted_effect = { CASTE = water_caste } 
+	} 
+	
+	on_revoked = { 
+		caste_privilege_counter_on_revoked_effect = { CASTE = water_caste } 
+	}
+	
+	penalties = {
+		colonist_placement_chance = -0.01
+	}
+	benefits = {
+		native_assimilation = 0.50
+		native_uprising_chance = -0.50
+	}
+
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			ruler_has_personality = babbling_buffoon_personality
+		}
+	}
+}
+
+estate_water_caste_advanced_diplomaty = {
+	icon = privilege_limited_war_support
+	
+	loyalty = 0.10
+	influence = 0.10
+	
+	can_select = {
+		has_reform = water_caste_improved_reform
+	}
+	on_granted = { 
+		caste_privilege_counter_on_granted_effect = { CASTE = water_caste } 
+	} 
+	
+	on_revoked = { 
+		caste_privilege_counter_on_revoked_effect = { CASTE = water_caste } 
+	}
+	
+	penalties = {
+		advisor_cost = 0.2
+	}
+	benefits = {
+		country_diplomatic_power = 1
+	}
+
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			ruler_has_personality = babbling_buffoon_personality
+		}
+	}
+}

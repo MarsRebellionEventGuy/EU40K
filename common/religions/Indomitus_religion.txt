@@ -484,7 +484,7 @@ xeno_group = {
 		icon = 17
 		country = {
 			years_of_nationalism = -5
-			liberty_desire_from_subject_development = -0.75
+			fire_damage = 0.10
 		}
 		country_as_secondary = {
 			years_of_nationalism = -3
