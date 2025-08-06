@@ -1790,3407 +1790,3407 @@ nachmund_gauntlet = {
 	}
 }
 
-iybraesil_webway_portal = {
-	# province it starts in
-	start = 1089
-	
-	# date built in real life (so anything built during game time will be there if you start a game after that date)
-	date = 1895.06.20
-	
-	#time to build
-	time = {
-		months = 120
-	}
-	
-	#how much to build one
-	build_cost = 10000
-	
-	#can we move it?
-	can_be_moved = no
-	
-	#tier that the project starts at when first placed in the game (be that at game start or when built by a country as the game progresses)
-	starting_tier = 3
-	
-	#project type
-	type = canal
-
-	#can we build it?
-	build_trigger = {
-		FROM = {
-			owns_or_vassal_of = 1089
-		}
-	}
-	
-	#what to do when it's built
-	on_built = {
-		1089={
-			add_canal = iybraesil_webway_portal
-		}
-	}
-	
-	#what to do when it's destroyed
-	on_destroyed = {
-		1089={
-			remove_canal = iybraesil_webway_portal
-		}
-	}
-
-	#can our country use it?
-	can_use_modifiers_trigger = {
-	}
-
-	#can our country upgrade it?
-	can_upgrade_trigger = {
-	}
-
-	#can our country keep it or is it destroyed when we get hold of it?
-	keep_trigger = {
-	}
-
-	#tier data
-	tier_0 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 0
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 0
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 10
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.01
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-
-	tier_1 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 120
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 1000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 20
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.02
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-			owner = { add_prestige = 30 }
-		}
-	}
-
-	tier_2 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 120
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 1000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 30
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.03
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-
-	tier_3 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 120
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 1000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 50
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.05
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-}
-kaelor_webway_portal = {
-	# province it starts in
-	start = 1108
-	
-	# date built in real life (so anything built during game time will be there if you start a game after that date)
-	date = 1895.06.20
-	
-	#time to build
-	time = {
-		months = 120
-	}
-	
-	#how much to build one
-	build_cost = 10000
-	
-	#can we move it?
-	can_be_moved = no
-	
-	#tier that the project starts at when first placed in the game (be that at game start or when built by a country as the game progresses)
-	starting_tier = 3
-	
-	#project type
-	type = canal
-
-	#can we build it?
-	build_trigger = {
-		FROM = {
-			owns_or_vassal_of = 1089
-		}
-	}
-	
-	#what to do when it's built
-	on_built = {
-		1089={
-			add_canal = kaelor_webway_portal
-		}
-	}
-	
-	#what to do when it's destroyed
-	on_destroyed = {
-		1089={
-			remove_canal = kaelor_webway_portal
-		}
-	}
-
-	#can our country use it?
-	can_use_modifiers_trigger = {
-	}
-
-	#can our country upgrade it?
-	can_upgrade_trigger = {
-	}
-
-	#can our country keep it or is it destroyed when we get hold of it?
-	keep_trigger = {
-	}
-
-	#tier data
-	tier_0 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 0
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 0
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 10
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.01
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-
-	tier_1 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 120
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 1000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 20
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.02
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-			owner = { add_prestige = 30 }
-		}
-	}
-
-	tier_2 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 120
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 1000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 30
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.03
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-
-	tier_3 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 120
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 1000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 50
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.05
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-}
-yme_loc_webway_portal = {
-	# province it starts in
-	start = 1100
-	
-	# date built in real life (so anything built during game time will be there if you start a game after that date)
-	date = 1895.06.20
-	
-	#time to build
-	time = {
-		months = 120
-	}
-	
-	#how much to build one
-	build_cost = 10000
-	
-	#can we move it?
-	can_be_moved = no
-	
-	#tier that the project starts at when first placed in the game (be that at game start or when built by a country as the game progresses)
-	starting_tier = 3
-	
-	#project type
-	type = canal
-
-	#can we build it?
-	build_trigger = {
-		FROM = {
-			owns_or_vassal_of = 1089
-		}
-	}
-	
-	#what to do when it's built
-	on_built = {
-		1089={
-			add_canal = yme_loc_webway_portal
-		}
-	}
-	
-	#what to do when it's destroyed
-	on_destroyed = {
-		1089={
-			remove_canal = yme_loc_webway_portal
-		}
-	}
-
-	#can our country use it?
-	can_use_modifiers_trigger = {
-	}
-
-	#can our country upgrade it?
-	can_upgrade_trigger = {
-	}
-
-	#can our country keep it or is it destroyed when we get hold of it?
-	keep_trigger = {
-	}
-
-	#tier data
-	tier_0 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 0
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 0
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 10
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.01
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-
-	tier_1 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 120
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 1000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 20
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.02
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-			owner = { add_prestige = 30 }
-		}
-	}
-
-	tier_2 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 120
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 1000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 30
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.03
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-
-	tier_3 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 120
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 1000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 50
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.05
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-}
-terra_webway_portal = {
-	# province it starts in
-	start = 1
-	
-	# date built in real life (so anything built during game time will be there if you start a game after that date)
-	date = 5000.06.20
-	
-	#time to build
-	time = {
-		months = 120
-	}
-	
-	#how much to build one
-	build_cost = 10000
-	
-	#can we move it?
-	can_be_moved = no
-	
-	#tier that the project starts at when first placed in the game (be that at game start or when built by a country as the game progresses)
-	starting_tier = 3
-	
-	#project type
-	type = canal
-
-	#can we build it?
-	build_trigger = {
-		FROM = {
-			owns_or_vassal_of = 1
-		}
-	}
-	
-	#what to do when it's built
-	on_built = {
-		1={
-			add_canal = terra_webway_portal
-		}
-	}
-	
-	#what to do when it's destroyed
-	on_destroyed = {
-		1={
-			remove_canal = terra_webway_portal
-		}
-	}
-
-	#can our country use it?
-	can_use_modifiers_trigger = {
-	}
-
-	#can our country upgrade it?
-	can_upgrade_trigger = {
-	}
-
-	#can our country keep it or is it destroyed when we get hold of it?
-	keep_trigger = {
-	}
-
-	#tier data
-	tier_0 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 0
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 0
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 10
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.01
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-
-	tier_1 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 120
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 1000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 20
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.02
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-			owner = { add_prestige = 30 }
-		}
-	}
-
-	tier_2 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 120
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 1000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 30
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.03
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-
-	tier_3 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 120
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 1000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 50
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.05
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-}
-lugganath_webway_portal = {
-	# province it starts in
-	start = 736
-	
-	# date built in real life (so anything built during game time will be there if you start a game after that date)
-	date = 1895.06.20
-	
-	#time to build
-	time = {
-		months = 120
-	}
-	
-	#how much to build one
-	build_cost = 10000
-	
-	#can we move it?
-	can_be_moved = no
-	
-	#tier that the project starts at when first placed in the game (be that at game start or when built by a country as the game progresses)
-	starting_tier = 3
-	
-	#project type
-	type = canal
-
-	#can we build it?
-	build_trigger = {
-		FROM = {
-			owns_or_vassal_of = 736
-		}
-	}
-	
-	#what to do when it's built
-	on_built = {
-		736={
-			add_canal = lugganath_webway_portal
-		}
-	}
-	
-	#what to do when it's destroyed
-	on_destroyed = {
-		736={
-			remove_canal = lugganath_webway_portal
-		}
-	}
-
-	#can our country use it?
-	can_use_modifiers_trigger = {
-	}
-
-	#can our country upgrade it?
-	can_upgrade_trigger = {
-	}
-
-	#can our country keep it or is it destroyed when we get hold of it?
-	keep_trigger = {
-	}
-
-	#tier data
-	tier_0 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 0
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 0
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 10
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.01
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-
-	tier_1 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 120
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 1000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 20
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.02
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-			owner = { add_prestige = 30 }
-		}
-	}
-
-	tier_2 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 120
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 1000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 30
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.03
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-
-	tier_3 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 120
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 1000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 50
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.05
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-}
-altansar_webway_portal = {
-	# province it starts in
-	start = 1323
-	
-	# date built in real life (so anything built during game time will be there if you start a game after that date)
-	date = 1895.06.20
-	
-	#time to build
-	time = {
-		months = 120
-	}
-	
-	#how much to build one
-	build_cost = 10000
-	
-	#can we move it?
-	can_be_moved = no
-	
-	#tier that the project starts at when first placed in the game (be that at game start or when built by a country as the game progresses)
-	starting_tier = 3
-	
-	#project type
-	type = canal
-
-	#can we build it?
-	build_trigger = {
-		FROM = {
-			owns_or_vassal_of = 1323
-		}
-	}
-	
-	#what to do when it's built
-	on_built = {
-		1323={
-			add_canal = altansar_webway_portal
-		}
-	}
-	
-	#what to do when it's destroyed
-	on_destroyed = {
-		1323={
-			remove_canal = altansar_webway_portal
-		}
-	}
-
-	#can our country use it?
-	can_use_modifiers_trigger = {
-	}
-
-	#can our country upgrade it?
-	can_upgrade_trigger = {
-	}
-
-	#can our country keep it or is it destroyed when we get hold of it?
-	keep_trigger = {
-	}
-
-	#tier data
-	tier_0 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 0
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 0
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 10
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.01
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-
-	tier_1 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 120
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 1000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 20
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.02
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-			owner = { add_prestige = 30 }
-		}
-	}
-
-	tier_2 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 120
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 1000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 30
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.03
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-
-	tier_3 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 120
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 1000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 50
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.05
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-}
-saim-hann_webway_portal = {
-	# province it starts in
-	start = 253
-	
-	# date built in real life (so anything built during game time will be there if you start a game after that date)
-	date = 1895.06.20
-	
-	#time to build
-	time = {
-		months = 120
-	}
-	
-	#how much to build one
-	build_cost = 10000
-	
-	#can we move it?
-	can_be_moved = no
-	
-	#tier that the project starts at when first placed in the game (be that at game start or when built by a country as the game progresses)
-	starting_tier = 3
-	
-	#project type
-	type = canal
-
-	#can we build it?
-	build_trigger = {
-		FROM = {
-			owns_or_vassal_of = 253
-		}
-	}
-	
-	#what to do when it's built
-	on_built = {
-		253={
-			add_canal = saim-hann_webway_portal
-		}
-	}
-	
-	#what to do when it's destroyed
-	on_destroyed = {
-		253={
-			remove_canal = saim-hann_webway_portal
-		}
-	}
-
-	#can our country use it?
-	can_use_modifiers_trigger = {
-	}
-
-	#can our country upgrade it?
-	can_upgrade_trigger = {
-	}
-
-	#can our country keep it or is it destroyed when we get hold of it?
-	keep_trigger = {
-	}
-
-	#tier data
-	tier_0 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 0
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 0
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 10
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.01
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-
-	tier_1 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 120
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 1000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 20
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.02
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-			owner = { add_prestige = 30 }
-		}
-	}
-
-	tier_2 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 120
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 1000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 30
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.03
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-
-	tier_3 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 120
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 1000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 50
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.05
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-}
-biel-tan_webway_portal = {
-	# province it starts in
-	start = 967
-	
-	# date built in real life (so anything built during game time will be there if you start a game after that date)
-	date = 1895.06.20
-	
-	#time to build
-	time = {
-		months = 120
-	}
-	
-	#how much to build one
-	build_cost = 10000
-	
-	#can we move it?
-	can_be_moved = no
-	
-	#tier that the project starts at when first placed in the game (be that at game start or when built by a country as the game progresses)
-	starting_tier = 3
-	
-	#project type
-	type = canal
-
-	#can we build it?
-	build_trigger = {
-		FROM = {
-			owns_or_vassal_of = 967
-		}
-	}
-	
-	#what to do when it's built
-	on_built = {
-		967={
-			add_canal = biel-tan_webway_portal
-		}
-	}
-	
-	#what to do when it's destroyed
-	on_destroyed = {
-		967={
-			remove_canal = biel-tan_webway_portal
-		}
-	}
-
-	#can our country use it?
-	can_use_modifiers_trigger = {
-	}
-
-	#can our country upgrade it?
-	can_upgrade_trigger = {
-	}
-
-	#can our country keep it or is it destroyed when we get hold of it?
-	keep_trigger = {
-	}
-
-	#tier data
-	tier_0 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 0
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 0
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 10
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.01
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-
-	tier_1 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 120
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 1000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 20
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.02
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-			owner = { add_prestige = 30 }
-		}
-	}
-
-	tier_2 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 120
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 1000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 30
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.03
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-
-	tier_3 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 120
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 1000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 50
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.05
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-}
-athelaq_webway_portal = {
-	# province it starts in
-	start = 1052
-	
-	# date built in real life (so anything built during game time will be there if you start a game after that date)
-	date = 1895.06.20
-	
-	#time to build
-	time = {
-		months = 120
-	}
-	
-	#how much to build one
-	build_cost = 10000
-	
-	#can we move it?
-	can_be_moved = no
-	
-	#tier that the project starts at when first placed in the game (be that at game start or when built by a country as the game progresses)
-	starting_tier = 3
-	
-	#project type
-	type = canal
-
-	#can we build it?
-	build_trigger = {
-		FROM = {
-			owns_or_vassal_of = 1052
-		}
-	}
-	
-	#what to do when it's built
-	on_built = {
-		1052={
-			add_canal = athelaq_webway_portal
-		}
-	}
-	
-	#what to do when it's destroyed
-	on_destroyed = {
-		1052={
-			remove_canal = athelaq_webway_portal
-		}
-	}
-
-	#can our country use it?
-	can_use_modifiers_trigger = {
-	}
-
-	#can our country upgrade it?
-	can_upgrade_trigger = {
-	}
-
-	#can our country keep it or is it destroyed when we get hold of it?
-	keep_trigger = {
-	}
-
-	#tier data
-	tier_0 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 0
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 0
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 10
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.01
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-
-	tier_1 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 120
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 1000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 20
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.02
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-			owner = { add_prestige = 30 }
-		}
-	}
-
-	tier_2 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 120
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 1000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 30
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.03
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-
-	tier_3 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 120
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 1000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 50
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.05
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-}
-duriel_webway_portal = {
-	# province it starts in
-	start = 1549
-	
-	# date built in real life (so anything built during game time will be there if you start a game after that date)
-	date = 2500.06.20
-	
-	#time to build
-	time = {
-		months = 120
-	}
-	
-	#how much to build one
-	build_cost = 10000
-	
-	#can we move it?
-	can_be_moved = no
-	
-	#tier that the project starts at when first placed in the game (be that at game start or when built by a country as the game progresses)
-	starting_tier = 3
-	
-	#project type
-	type = canal
-
-	#can we build it?
-	build_trigger = {
-		FROM = {
-			owns_or_vassal_of = 1549
-		}
-	}
-	
-	#what to do when it's built
-	on_built = {
-		1549={
-			add_canal = duriel_webway_portal
-		}
-	}
-	
-	#what to do when it's destroyed
-	on_destroyed = {
-		1549={
-			remove_canal = duriel_webway_portal
-		}
-	}
-
-	#can our country use it?
-	can_use_modifiers_trigger = {
-	}
-
-	#can our country upgrade it?
-	can_upgrade_trigger = {
-	}
-
-	#can our country keep it or is it destroyed when we get hold of it?
-	keep_trigger = {
-	}
-
-	#tier data
-	tier_0 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 0
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 0
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 10
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.01
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-
-	tier_1 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 120
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 1000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 20
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.02
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-			owner = { add_prestige = 30 }
-		}
-	}
-
-	tier_2 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 120
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 1000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 30
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.03
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-
-	tier_3 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 120
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 1000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 50
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.05
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-}
-nocturne_webway_portal = {
-	# province it starts in
-	start = 3294
-	
-	# date built in real life (so anything built during game time will be there if you start a game after that date)
-	date = 2500.06.20
-	
-	#time to build
-	time = {
-		months = 120
-	}
-	
-	#how much to build one
-	build_cost = 10000
-	
-	#can we move it?
-	can_be_moved = no
-	
-	#tier that the project starts at when first placed in the game (be that at game start or when built by a country as the game progresses)
-	starting_tier = 3
-	
-	#project type
-	type = canal
-
-	#can we build it?
-	build_trigger = {
-		FROM = {
-			owns_or_vassal_of = 3294
-		}
-	}
-	
-	#what to do when it's built
-	on_built = {
-		3294={
-			add_canal = nocturne_webway_portal
-		}
-	}
-	
-	#what to do when it's destroyed
-	on_destroyed = {
-		3294={
-			remove_canal = nocturne_webway_portal
-		}
-	}
-
-	#can our country use it?
-	can_use_modifiers_trigger = {
-	}
-
-	#can our country upgrade it?
-	can_upgrade_trigger = {
-	}
-
-	#can our country keep it or is it destroyed when we get hold of it?
-	keep_trigger = {
-	}
-
-	#tier data
-	tier_0 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 0
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 0
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 10
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.01
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-
-	tier_1 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 120
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 1000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 20
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.02
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-			owner = { add_prestige = 30 }
-		}
-	}
-
-	tier_2 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 120
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 1000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 30
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.03
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-
-	tier_3 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 120
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 1000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 50
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.05
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-}
-catachan_webway_portal = {
-	# province it starts in
-	start = 340
-	
-	# date built in real life (so anything built during game time will be there if you start a game after that date)
-	date = 2200.06.20
-	
-	#time to build
-	time = {
-		months = 120
-	}
-	
-	#how much to build one
-	build_cost = 10000
-	
-	#can we move it?
-	can_be_moved = no
-	
-	#tier that the project starts at when first placed in the game (be that at game start or when built by a country as the game progresses)
-	starting_tier = 3
-	
-	#project type
-	type = canal
-
-	#can we build it?
-	build_trigger = {
-		FROM = {
-			owns_or_vassal_of = 340
-		}
-	}
-	
-	#what to do when it's built
-	on_built = {
-		340={
-			add_canal = catachan_webway_portal
-		}
-	}
-	
-	#what to do when it's destroyed
-	on_destroyed = {
-		340={
-			remove_canal = catachan_webway_portal
-		}
-	}
-
-	#can our country use it?
-	can_use_modifiers_trigger = {
-	}
-
-	#can our country upgrade it?
-	can_upgrade_trigger = {
-	}
-
-	#can our country keep it or is it destroyed when we get hold of it?
-	keep_trigger = {
-	}
-
-	#tier data
-	tier_0 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 0
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 0
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 10
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.01
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-
-	tier_1 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 120
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 1000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 20
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.02
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-			owner = { add_prestige = 30 }
-		}
-	}
-
-	tier_2 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 120
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 1000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 30
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.03
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-
-	tier_3 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 120
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 1000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 50
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.05
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-}
-naiatoc_webway_portal = {
-	# province it starts in
-	start = 1124
-	
-	# date built in real life (so anything built during game time will be there if you start a game after that date)
-	date = 1895.06.20
-	
-	#time to build
-	time = {
-		months = 120
-	}
-	
-	#how much to build one
-	build_cost = 10000
-	
-	#can we move it?
-	can_be_moved = no
-	
-	#tier that the project starts at when first placed in the game (be that at game start or when built by a country as the game progresses)
-	starting_tier = 3
-	
-	#project type
-	type = canal
-
-	#can we build it?
-	build_trigger = {
-		FROM = {
-			owns_or_vassal_of = 1124
-		}
-	}
-	
-	#what to do when it's built
-	on_built = {
-		1124={
-			add_canal = naiatoc_webway_portal
-		}
-	}
-	
-	#what to do when it's destroyed
-	on_destroyed = {
-		1124={
-			remove_canal = naiatoc_webway_portal
-		}
-	}
-
-	#can our country use it?
-	can_use_modifiers_trigger = {
-	}
-
-	#can our country upgrade it?
-	can_upgrade_trigger = {
-	}
-
-	#can our country keep it or is it destroyed when we get hold of it?
-	keep_trigger = {
-	}
-
-	#tier data
-	tier_0 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 0
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 0
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 10
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.01
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-
-	tier_1 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 120
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 1000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 20
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.02
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-			owner = { add_prestige = 30 }
-		}
-	}
-
-	tier_2 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 120
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 1000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 30
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.03
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-
-	tier_3 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 120
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 1000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 50
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.05
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-}
-elysia_webway_portal = {
-	# province it starts in
-	start = 199
-	
-	# date built in real life (so anything built during game time will be there if you start a game after that date)
-	date = 2200.06.20
-	
-	#time to build
-	time = {
-		months = 120
-	}
-	
-	#how much to build one
-	build_cost = 10000
-	
-	#can we move it?
-	can_be_moved = no
-	
-	#tier that the project starts at when first placed in the game (be that at game start or when built by a country as the game progresses)
-	starting_tier = 3
-	
-	#project type
-	type = canal
-
-	#can we build it?
-	build_trigger = {
-		FROM = {
-			owns_or_vassal_of = 199
-		}
-	}
-	
-	#what to do when it's built
-	on_built = {
-		199={
-			add_canal = elysia_webway_portal
-		}
-	}
-	
-	#what to do when it's destroyed
-	on_destroyed = {
-		199={
-			remove_canal = elysia_webway_portal
-		}
-	}
-
-	#can our country use it?
-	can_use_modifiers_trigger = {
-	}
-
-	#can our country upgrade it?
-	can_upgrade_trigger = {
-	}
-
-	#can our country keep it or is it destroyed when we get hold of it?
-	keep_trigger = {
-	}
-
-	#tier data
-	tier_0 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 0
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 0
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 10
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.01
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-
-	tier_1 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 120
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 1000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 20
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.02
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-			owner = { add_prestige = 30 }
-		}
-	}
-
-	tier_2 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 120
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 1000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 30
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.03
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-
-	tier_3 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 120
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 1000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 50
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.05
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-}
-fenris_webway_portal = {
-	# province it starts in
-	start = 3273
-	
-	# date built in real life (so anything built during game time will be there if you start a game after that date)
-	date = 2200.06.20
-	
-	#time to build
-	time = {
-		months = 120
-	}
-	
-	#how much to build one
-	build_cost = 10000
-	
-	#can we move it?
-	can_be_moved = no
-	
-	#tier that the project starts at when first placed in the game (be that at game start or when built by a country as the game progresses)
-	starting_tier = 3
-	
-	#project type
-	type = canal
-
-	#can we build it?
-	build_trigger = {
-		FROM = {
-			owns_or_vassal_of = 3273
-		}
-	}
-	
-	#what to do when it's built
-	on_built = {
-		3273={
-			add_canal = fenris_webway_portal
-		}
-	}
-	
-	#what to do when it's destroyed
-	on_destroyed = {
-		3273={
-			remove_canal = fenris_webway_portal
-		}
-	}
-
-	#can our country use it?
-	can_use_modifiers_trigger = {
-	}
-
-	#can our country upgrade it?
-	can_upgrade_trigger = {
-	}
-
-	#can our country keep it or is it destroyed when we get hold of it?
-	keep_trigger = {
-	}
-
-	#tier data
-	tier_0 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 0
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 0
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 10
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.01
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-
-	tier_1 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 120
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 1000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 20
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.02
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-			owner = { add_prestige = 30 }
-		}
-	}
-
-	tier_2 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 120
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 1000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 30
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.03
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-
-	tier_3 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 120
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 1000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 50
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.05
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-}
-cegorachi_webway_portal = {
-	# province it starts in
-	start = 1998
-	
-	# date built in real life (so anything built during game time will be there if you start a game after that date)
-	date = 1890.06.20
-	
-	#time to build
-	time = {
-		months = 120
-	}
-	
-	#how much to build one
-	build_cost = 10000
-	
-	#can we move it?
-	can_be_moved = no
-	
-	#tier that the project starts at when first placed in the game (be that at game start or when built by a country as the game progresses)
-	starting_tier = 3
-	
-	#project type
-	type = canal
-
-	#can we build it?
-	build_trigger = {
-		FROM = {
-			owns_or_vassal_of = 1998
-		}
-	}
-	
-	#what to do when it's built
-	on_built = {
-		1998={
-			add_canal = cegorachi_webway_portal
-		}
-	}
-	
-	#what to do when it's destroyed
-	on_destroyed = {
-		1998={
-			remove_canal = cegorachi_webway_portal
-		}
-	}
-
-	#can our country use it?
-	can_use_modifiers_trigger = {
-	}
-
-	#can our country upgrade it?
-	can_upgrade_trigger = {
-	}
-
-	#can our country keep it or is it destroyed when we get hold of it?
-	keep_trigger = {
-	}
-
-	#tier data
-	tier_0 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 0
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 0
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 10
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.01
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-
-	tier_1 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 120
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 1000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 20
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.02
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-			owner = { add_prestige = 30 }
-		}
-	}
-
-	tier_2 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 120
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 1000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 30
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.03
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-
-	tier_3 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 120
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 1000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 50
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.05
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-}
-ulthwe_webway_portal = {
-	# province it starts in
-	start = 1080
-	
-	# date built in real life (so anything built during game time will be there if you start a game after that date)
-	date = 1890.06.20
-	
-	#time to build
-	time = {
-		months = 120
-	}
-	
-	#how much to build one
-	build_cost = 10000
-	
-	#can we move it?
-	can_be_moved = no
-	
-	#tier that the project starts at when first placed in the game (be that at game start or when built by a country as the game progresses)
-	starting_tier = 3
-	
-	#project type
-	type = canal
-
-	#can we build it?
-	build_trigger = {
-		FROM = {
-			owns_or_vassal_of = 1080
-		}
-	}
-	
-	#what to do when it's built
-	on_built = {
-		1080={
-			add_canal = ulthwe_webway_portal
-		}
-	}
-	
-	#what to do when it's destroyed
-	on_destroyed = {
-		1080={
-			remove_canal = ulthwe_webway_portal
-		}
-	}
-
-	#can our country use it?
-	can_use_modifiers_trigger = {
-	}
-
-	#can our country upgrade it?
-	can_upgrade_trigger = {
-	}
-
-	#can our country keep it or is it destroyed when we get hold of it?
-	keep_trigger = {
-	}
-
-	#tier data
-	tier_0 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 0
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 0
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 10
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.01
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-
-	tier_1 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 120
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 1000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 20
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.02
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-			owner = { add_prestige = 30 }
-		}
-	}
-
-	tier_2 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 120
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 1000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 30
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.03
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-
-	tier_3 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 120
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 1000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 50
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.05
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-}
-rhidhol_webway_portal = {
-	# province it starts in
-	start = 1999
-	
-	# date built in real life (so anything built during game time will be there if you start a game after that date)
-	date = 1890.06.20
-	
-	#time to build
-	time = {
-		months = 120
-	}
-	
-	#how much to build one
-	build_cost = 10000
-	
-	#can we move it?
-	can_be_moved = no
-	
-	#tier that the project starts at when first placed in the game (be that at game start or when built by a country as the game progresses)
-	starting_tier = 3
-	
-	#project type
-	type = canal
-
-	#can we build it?
-	build_trigger = {
-		FROM = {
-			owns_or_vassal_of = 1999
-		}
-	}
-	
-	#what to do when it's built
-	on_built = {
-		1999={
-			add_canal = rhidhol_webway_portal
-		}
-	}
-	
-	#what to do when it's destroyed
-	on_destroyed = {
-		1999={
-			remove_canal = rhidhol_webway_portal
-		}
-	}
-
-	#can our country use it?
-	can_use_modifiers_trigger = {
-	}
-
-	#can our country upgrade it?
-	can_upgrade_trigger = {
-	}
-
-	#can our country keep it or is it destroyed when we get hold of it?
-	keep_trigger = {
-	}
-
-	#tier data
-	tier_0 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 0
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 0
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 10
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.01
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-
-	tier_1 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 120
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 1000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 20
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.02
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-			owner = { add_prestige = 30 }
-		}
-	}
-
-	tier_2 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 120
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 1000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 30
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.03
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-
-	tier_3 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 120
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 1000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 50
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.05
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-}
-quilan_webway_portal = {
-	# province it starts in
-	start = 1979
-	
-	# date built in real life (so anything built during game time will be there if you start a game after that date)
-	date = 1890.06.20
-	
-	#time to build
-	time = {
-		months = 120
-	}
-	
-	#how much to build one
-	build_cost = 10000
-	
-	#can we move it?
-	can_be_moved = no
-	
-	#tier that the project starts at when first placed in the game (be that at game start or when built by a country as the game progresses)
-	starting_tier = 3
-	
-	#project type
-	type = canal
-
-	#can we build it?
-	build_trigger = {
-		FROM = {
-			owns_or_vassal_of = 1979
-		}
-	}
-	
-	#what to do when it's built
-	on_built = {
-		1979={
-			add_canal = quilan_webway_portal
-		}
-	}
-	
-	#what to do when it's destroyed
-	on_destroyed = {
-		1979={
-			remove_canal = quilan_webway_portal
-		}
-	}
-
-	#can our country use it?
-	can_use_modifiers_trigger = {
-	}
-
-	#can our country upgrade it?
-	can_upgrade_trigger = {
-	}
-
-	#can our country keep it or is it destroyed when we get hold of it?
-	keep_trigger = {
-	}
-
-	#tier data
-	tier_0 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 0
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 0
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 10
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.01
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-
-	tier_1 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 120
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 1000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 20
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.02
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-			owner = { add_prestige = 30 }
-		}
-	}
-
-	tier_2 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 120
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 1000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 30
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.03
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-
-	tier_3 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 120
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 1000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			province_trade_power_value = 50
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			global_trade_power = 0.05
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-}
+# iybraesil_webway_portal = {
+	# # province it starts in
+	# start = 1089
+	
+	# # date built in real life (so anything built during game time will be there if you start a game after that date)
+	# date = 1895.06.20
+	
+	# #time to build
+	# time = {
+		# months = 120
+	# }
+	
+	# #how much to build one
+	# build_cost = 10000
+	
+	# #can we move it?
+	# can_be_moved = no
+	
+	# #tier that the project starts at when first placed in the game (be that at game start or when built by a country as the game progresses)
+	# starting_tier = 3
+	
+	# #project type
+	# type = canal
+
+	# #can we build it?
+	# build_trigger = {
+		# FROM = {
+			# owns_or_vassal_of = 1089
+		# }
+	# }
+	
+	# #what to do when it's built
+	# on_built = {
+		# 1089={
+			# add_canal = iybraesil_webway_portal
+		# }
+	# }
+	
+	# #what to do when it's destroyed
+	# on_destroyed = {
+		# 1089={
+			# remove_canal = iybraesil_webway_portal
+		# }
+	# }
+
+	# #can our country use it?
+	# can_use_modifiers_trigger = {
+	# }
+
+	# #can our country upgrade it?
+	# can_upgrade_trigger = {
+	# }
+
+	# #can our country keep it or is it destroyed when we get hold of it?
+	# keep_trigger = {
+	# }
+
+	# #tier data
+	# tier_0 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 0
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 10
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.01
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+		# }
+	# }
+
+	# tier_1 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 120
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 1000
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 20
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.02
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+			# owner = { add_prestige = 30 }
+		# }
+	# }
+
+	# tier_2 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 120
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 1000
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 30
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.03
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+		# }
+	# }
+
+	# tier_3 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 120
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 1000
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 50
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.05
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+		# }
+	# }
+# }
+# kaelor_webway_portal = {
+	# # province it starts in
+	# start = 1108
+	
+	# # date built in real life (so anything built during game time will be there if you start a game after that date)
+	# date = 1895.06.20
+	
+	# #time to build
+	# time = {
+		# months = 120
+	# }
+	
+	# #how much to build one
+	# build_cost = 10000
+	
+	# #can we move it?
+	# can_be_moved = no
+	
+	# #tier that the project starts at when first placed in the game (be that at game start or when built by a country as the game progresses)
+	# starting_tier = 3
+	
+	# #project type
+	# type = canal
+
+	# #can we build it?
+	# build_trigger = {
+		# FROM = {
+			# owns_or_vassal_of = 1089
+		# }
+	# }
+	
+	# #what to do when it's built
+	# on_built = {
+		# 1089={
+			# add_canal = kaelor_webway_portal
+		# }
+	# }
+	
+	# #what to do when it's destroyed
+	# on_destroyed = {
+		# 1089={
+			# remove_canal = kaelor_webway_portal
+		# }
+	# }
+
+	# #can our country use it?
+	# can_use_modifiers_trigger = {
+	# }
+
+	# #can our country upgrade it?
+	# can_upgrade_trigger = {
+	# }
+
+	# #can our country keep it or is it destroyed when we get hold of it?
+	# keep_trigger = {
+	# }
+
+	# #tier data
+	# tier_0 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 0
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 10
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.01
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+		# }
+	# }
+
+	# tier_1 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 120
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 1000
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 20
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.02
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+			# owner = { add_prestige = 30 }
+		# }
+	# }
+
+	# tier_2 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 120
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 1000
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 30
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.03
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+		# }
+	# }
+
+	# tier_3 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 120
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 1000
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 50
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.05
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+		# }
+	# }
+# }
+# yme_loc_webway_portal = {
+	# # province it starts in
+	# start = 1100
+	
+	# # date built in real life (so anything built during game time will be there if you start a game after that date)
+	# date = 1895.06.20
+	
+	# #time to build
+	# time = {
+		# months = 120
+	# }
+	
+	# #how much to build one
+	# build_cost = 10000
+	
+	# #can we move it?
+	# can_be_moved = no
+	
+	# #tier that the project starts at when first placed in the game (be that at game start or when built by a country as the game progresses)
+	# starting_tier = 3
+	
+	# #project type
+	# type = canal
+
+	# #can we build it?
+	# build_trigger = {
+		# FROM = {
+			# owns_or_vassal_of = 1089
+		# }
+	# }
+	
+	# #what to do when it's built
+	# on_built = {
+		# 1089={
+			# add_canal = yme_loc_webway_portal
+		# }
+	# }
+	
+	# #what to do when it's destroyed
+	# on_destroyed = {
+		# 1089={
+			# remove_canal = yme_loc_webway_portal
+		# }
+	# }
+
+	# #can our country use it?
+	# can_use_modifiers_trigger = {
+	# }
+
+	# #can our country upgrade it?
+	# can_upgrade_trigger = {
+	# }
+
+	# #can our country keep it or is it destroyed when we get hold of it?
+	# keep_trigger = {
+	# }
+
+	# #tier data
+	# tier_0 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 0
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 10
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.01
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+		# }
+	# }
+
+	# tier_1 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 120
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 1000
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 20
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.02
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+			# owner = { add_prestige = 30 }
+		# }
+	# }
+
+	# tier_2 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 120
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 1000
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 30
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.03
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+		# }
+	# }
+
+	# tier_3 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 120
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 1000
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 50
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.05
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+		# }
+	# }
+# }
+# terra_webway_portal = {
+	# # province it starts in
+	# start = 1
+	
+	# # date built in real life (so anything built during game time will be there if you start a game after that date)
+	# date = 5000.06.20
+	
+	# #time to build
+	# time = {
+		# months = 120
+	# }
+	
+	# #how much to build one
+	# build_cost = 10000
+	
+	# #can we move it?
+	# can_be_moved = no
+	
+	# #tier that the project starts at when first placed in the game (be that at game start or when built by a country as the game progresses)
+	# starting_tier = 3
+	
+	# #project type
+	# type = canal
+
+	# #can we build it?
+	# build_trigger = {
+		# FROM = {
+			# owns_or_vassal_of = 1
+		# }
+	# }
+	
+	# #what to do when it's built
+	# on_built = {
+		# 1={
+			# add_canal = terra_webway_portal
+		# }
+	# }
+	
+	# #what to do when it's destroyed
+	# on_destroyed = {
+		# 1={
+			# remove_canal = terra_webway_portal
+		# }
+	# }
+
+	# #can our country use it?
+	# can_use_modifiers_trigger = {
+	# }
+
+	# #can our country upgrade it?
+	# can_upgrade_trigger = {
+	# }
+
+	# #can our country keep it or is it destroyed when we get hold of it?
+	# keep_trigger = {
+	# }
+
+	# #tier data
+	# tier_0 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 0
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 10
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.01
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+		# }
+	# }
+
+	# tier_1 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 120
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 1000
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 20
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.02
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+			# owner = { add_prestige = 30 }
+		# }
+	# }
+
+	# tier_2 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 120
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 1000
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 30
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.03
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+		# }
+	# }
+
+	# tier_3 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 120
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 1000
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 50
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.05
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+		# }
+	# }
+# }
+# lugganath_webway_portal = {
+	# # province it starts in
+	# start = 736
+	
+	# # date built in real life (so anything built during game time will be there if you start a game after that date)
+	# date = 1895.06.20
+	
+	# #time to build
+	# time = {
+		# months = 120
+	# }
+	
+	# #how much to build one
+	# build_cost = 10000
+	
+	# #can we move it?
+	# can_be_moved = no
+	
+	# #tier that the project starts at when first placed in the game (be that at game start or when built by a country as the game progresses)
+	# starting_tier = 3
+	
+	# #project type
+	# type = canal
+
+	# #can we build it?
+	# build_trigger = {
+		# FROM = {
+			# owns_or_vassal_of = 736
+		# }
+	# }
+	
+	# #what to do when it's built
+	# on_built = {
+		# 736={
+			# add_canal = lugganath_webway_portal
+		# }
+	# }
+	
+	# #what to do when it's destroyed
+	# on_destroyed = {
+		# 736={
+			# remove_canal = lugganath_webway_portal
+		# }
+	# }
+
+	# #can our country use it?
+	# can_use_modifiers_trigger = {
+	# }
+
+	# #can our country upgrade it?
+	# can_upgrade_trigger = {
+	# }
+
+	# #can our country keep it or is it destroyed when we get hold of it?
+	# keep_trigger = {
+	# }
+
+	# #tier data
+	# tier_0 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 0
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 10
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.01
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+		# }
+	# }
+
+	# tier_1 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 120
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 1000
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 20
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.02
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+			# owner = { add_prestige = 30 }
+		# }
+	# }
+
+	# tier_2 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 120
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 1000
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 30
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.03
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+		# }
+	# }
+
+	# tier_3 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 120
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 1000
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 50
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.05
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+		# }
+	# }
+# }
+# altansar_webway_portal = {
+	# # province it starts in
+	# start = 1323
+	
+	# # date built in real life (so anything built during game time will be there if you start a game after that date)
+	# date = 1895.06.20
+	
+	# #time to build
+	# time = {
+		# months = 120
+	# }
+	
+	# #how much to build one
+	# build_cost = 10000
+	
+	# #can we move it?
+	# can_be_moved = no
+	
+	# #tier that the project starts at when first placed in the game (be that at game start or when built by a country as the game progresses)
+	# starting_tier = 3
+	
+	# #project type
+	# type = canal
+
+	# #can we build it?
+	# build_trigger = {
+		# FROM = {
+			# owns_or_vassal_of = 1323
+		# }
+	# }
+	
+	# #what to do when it's built
+	# on_built = {
+		# 1323={
+			# add_canal = altansar_webway_portal
+		# }
+	# }
+	
+	# #what to do when it's destroyed
+	# on_destroyed = {
+		# 1323={
+			# remove_canal = altansar_webway_portal
+		# }
+	# }
+
+	# #can our country use it?
+	# can_use_modifiers_trigger = {
+	# }
+
+	# #can our country upgrade it?
+	# can_upgrade_trigger = {
+	# }
+
+	# #can our country keep it or is it destroyed when we get hold of it?
+	# keep_trigger = {
+	# }
+
+	# #tier data
+	# tier_0 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 0
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 10
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.01
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+		# }
+	# }
+
+	# tier_1 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 120
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 1000
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 20
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.02
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+			# owner = { add_prestige = 30 }
+		# }
+	# }
+
+	# tier_2 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 120
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 1000
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 30
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.03
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+		# }
+	# }
+
+	# tier_3 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 120
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 1000
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 50
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.05
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+		# }
+	# }
+# }
+# saim-hann_webway_portal = {
+	# # province it starts in
+	# start = 253
+	
+	# # date built in real life (so anything built during game time will be there if you start a game after that date)
+	# date = 1895.06.20
+	
+	# #time to build
+	# time = {
+		# months = 120
+	# }
+	
+	# #how much to build one
+	# build_cost = 10000
+	
+	# #can we move it?
+	# can_be_moved = no
+	
+	# #tier that the project starts at when first placed in the game (be that at game start or when built by a country as the game progresses)
+	# starting_tier = 3
+	
+	# #project type
+	# type = canal
+
+	# #can we build it?
+	# build_trigger = {
+		# FROM = {
+			# owns_or_vassal_of = 253
+		# }
+	# }
+	
+	# #what to do when it's built
+	# on_built = {
+		# 253={
+			# add_canal = saim-hann_webway_portal
+		# }
+	# }
+	
+	# #what to do when it's destroyed
+	# on_destroyed = {
+		# 253={
+			# remove_canal = saim-hann_webway_portal
+		# }
+	# }
+
+	# #can our country use it?
+	# can_use_modifiers_trigger = {
+	# }
+
+	# #can our country upgrade it?
+	# can_upgrade_trigger = {
+	# }
+
+	# #can our country keep it or is it destroyed when we get hold of it?
+	# keep_trigger = {
+	# }
+
+	# #tier data
+	# tier_0 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 0
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 10
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.01
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+		# }
+	# }
+
+	# tier_1 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 120
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 1000
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 20
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.02
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+			# owner = { add_prestige = 30 }
+		# }
+	# }
+
+	# tier_2 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 120
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 1000
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 30
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.03
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+		# }
+	# }
+
+	# tier_3 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 120
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 1000
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 50
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.05
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+		# }
+	# }
+# }
+# biel-tan_webway_portal = {
+	# # province it starts in
+	# start = 967
+	
+	# # date built in real life (so anything built during game time will be there if you start a game after that date)
+	# date = 1895.06.20
+	
+	# #time to build
+	# time = {
+		# months = 120
+	# }
+	
+	# #how much to build one
+	# build_cost = 10000
+	
+	# #can we move it?
+	# can_be_moved = no
+	
+	# #tier that the project starts at when first placed in the game (be that at game start or when built by a country as the game progresses)
+	# starting_tier = 3
+	
+	# #project type
+	# type = canal
+
+	# #can we build it?
+	# build_trigger = {
+		# FROM = {
+			# owns_or_vassal_of = 967
+		# }
+	# }
+	
+	# #what to do when it's built
+	# on_built = {
+		# 967={
+			# add_canal = biel-tan_webway_portal
+		# }
+	# }
+	
+	# #what to do when it's destroyed
+	# on_destroyed = {
+		# 967={
+			# remove_canal = biel-tan_webway_portal
+		# }
+	# }
+
+	# #can our country use it?
+	# can_use_modifiers_trigger = {
+	# }
+
+	# #can our country upgrade it?
+	# can_upgrade_trigger = {
+	# }
+
+	# #can our country keep it or is it destroyed when we get hold of it?
+	# keep_trigger = {
+	# }
+
+	# #tier data
+	# tier_0 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 0
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 10
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.01
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+		# }
+	# }
+
+	# tier_1 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 120
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 1000
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 20
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.02
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+			# owner = { add_prestige = 30 }
+		# }
+	# }
+
+	# tier_2 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 120
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 1000
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 30
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.03
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+		# }
+	# }
+
+	# tier_3 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 120
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 1000
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 50
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.05
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+		# }
+	# }
+# }
+# athelaq_webway_portal = {
+	# # province it starts in
+	# start = 1052
+	
+	# # date built in real life (so anything built during game time will be there if you start a game after that date)
+	# date = 1895.06.20
+	
+	# #time to build
+	# time = {
+		# months = 120
+	# }
+	
+	# #how much to build one
+	# build_cost = 10000
+	
+	# #can we move it?
+	# can_be_moved = no
+	
+	# #tier that the project starts at when first placed in the game (be that at game start or when built by a country as the game progresses)
+	# starting_tier = 3
+	
+	# #project type
+	# type = canal
+
+	# #can we build it?
+	# build_trigger = {
+		# FROM = {
+			# owns_or_vassal_of = 1052
+		# }
+	# }
+	
+	# #what to do when it's built
+	# on_built = {
+		# 1052={
+			# add_canal = athelaq_webway_portal
+		# }
+	# }
+	
+	# #what to do when it's destroyed
+	# on_destroyed = {
+		# 1052={
+			# remove_canal = athelaq_webway_portal
+		# }
+	# }
+
+	# #can our country use it?
+	# can_use_modifiers_trigger = {
+	# }
+
+	# #can our country upgrade it?
+	# can_upgrade_trigger = {
+	# }
+
+	# #can our country keep it or is it destroyed when we get hold of it?
+	# keep_trigger = {
+	# }
+
+	# #tier data
+	# tier_0 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 0
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 10
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.01
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+		# }
+	# }
+
+	# tier_1 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 120
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 1000
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 20
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.02
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+			# owner = { add_prestige = 30 }
+		# }
+	# }
+
+	# tier_2 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 120
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 1000
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 30
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.03
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+		# }
+	# }
+
+	# tier_3 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 120
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 1000
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 50
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.05
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+		# }
+	# }
+# }
+# duriel_webway_portal = {
+	# # province it starts in
+	# start = 1549
+	
+	# # date built in real life (so anything built during game time will be there if you start a game after that date)
+	# date = 2500.06.20
+	
+	# #time to build
+	# time = {
+		# months = 120
+	# }
+	
+	# #how much to build one
+	# build_cost = 10000
+	
+	# #can we move it?
+	# can_be_moved = no
+	
+	# #tier that the project starts at when first placed in the game (be that at game start or when built by a country as the game progresses)
+	# starting_tier = 3
+	
+	# #project type
+	# type = canal
+
+	# #can we build it?
+	# build_trigger = {
+		# FROM = {
+			# owns_or_vassal_of = 1549
+		# }
+	# }
+	
+	# #what to do when it's built
+	# on_built = {
+		# 1549={
+			# add_canal = duriel_webway_portal
+		# }
+	# }
+	
+	# #what to do when it's destroyed
+	# on_destroyed = {
+		# 1549={
+			# remove_canal = duriel_webway_portal
+		# }
+	# }
+
+	# #can our country use it?
+	# can_use_modifiers_trigger = {
+	# }
+
+	# #can our country upgrade it?
+	# can_upgrade_trigger = {
+	# }
+
+	# #can our country keep it or is it destroyed when we get hold of it?
+	# keep_trigger = {
+	# }
+
+	# #tier data
+	# tier_0 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 0
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 10
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.01
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+		# }
+	# }
+
+	# tier_1 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 120
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 1000
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 20
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.02
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+			# owner = { add_prestige = 30 }
+		# }
+	# }
+
+	# tier_2 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 120
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 1000
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 30
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.03
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+		# }
+	# }
+
+	# tier_3 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 120
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 1000
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 50
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.05
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+		# }
+	# }
+# }
+# nocturne_webway_portal = {
+	# # province it starts in
+	# start = 3294
+	
+	# # date built in real life (so anything built during game time will be there if you start a game after that date)
+	# date = 2500.06.20
+	
+	# #time to build
+	# time = {
+		# months = 120
+	# }
+	
+	# #how much to build one
+	# build_cost = 10000
+	
+	# #can we move it?
+	# can_be_moved = no
+	
+	# #tier that the project starts at when first placed in the game (be that at game start or when built by a country as the game progresses)
+	# starting_tier = 3
+	
+	# #project type
+	# type = canal
+
+	# #can we build it?
+	# build_trigger = {
+		# FROM = {
+			# owns_or_vassal_of = 3294
+		# }
+	# }
+	
+	# #what to do when it's built
+	# on_built = {
+		# 3294={
+			# add_canal = nocturne_webway_portal
+		# }
+	# }
+	
+	# #what to do when it's destroyed
+	# on_destroyed = {
+		# 3294={
+			# remove_canal = nocturne_webway_portal
+		# }
+	# }
+
+	# #can our country use it?
+	# can_use_modifiers_trigger = {
+	# }
+
+	# #can our country upgrade it?
+	# can_upgrade_trigger = {
+	# }
+
+	# #can our country keep it or is it destroyed when we get hold of it?
+	# keep_trigger = {
+	# }
+
+	# #tier data
+	# tier_0 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 0
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 10
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.01
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+		# }
+	# }
+
+	# tier_1 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 120
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 1000
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 20
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.02
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+			# owner = { add_prestige = 30 }
+		# }
+	# }
+
+	# tier_2 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 120
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 1000
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 30
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.03
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+		# }
+	# }
+
+	# tier_3 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 120
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 1000
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 50
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.05
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+		# }
+	# }
+# }
+# catachan_webway_portal = {
+	# # province it starts in
+	# start = 340
+	
+	# # date built in real life (so anything built during game time will be there if you start a game after that date)
+	# date = 2200.06.20
+	
+	# #time to build
+	# time = {
+		# months = 120
+	# }
+	
+	# #how much to build one
+	# build_cost = 10000
+	
+	# #can we move it?
+	# can_be_moved = no
+	
+	# #tier that the project starts at when first placed in the game (be that at game start or when built by a country as the game progresses)
+	# starting_tier = 3
+	
+	# #project type
+	# type = canal
+
+	# #can we build it?
+	# build_trigger = {
+		# FROM = {
+			# owns_or_vassal_of = 340
+		# }
+	# }
+	
+	# #what to do when it's built
+	# on_built = {
+		# 340={
+			# add_canal = catachan_webway_portal
+		# }
+	# }
+	
+	# #what to do when it's destroyed
+	# on_destroyed = {
+		# 340={
+			# remove_canal = catachan_webway_portal
+		# }
+	# }
+
+	# #can our country use it?
+	# can_use_modifiers_trigger = {
+	# }
+
+	# #can our country upgrade it?
+	# can_upgrade_trigger = {
+	# }
+
+	# #can our country keep it or is it destroyed when we get hold of it?
+	# keep_trigger = {
+	# }
+
+	# #tier data
+	# tier_0 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 0
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 10
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.01
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+		# }
+	# }
+
+	# tier_1 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 120
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 1000
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 20
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.02
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+			# owner = { add_prestige = 30 }
+		# }
+	# }
+
+	# tier_2 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 120
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 1000
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 30
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.03
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+		# }
+	# }
+
+	# tier_3 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 120
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 1000
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 50
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.05
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+		# }
+	# }
+# }
+# naiatoc_webway_portal = {
+	# # province it starts in
+	# start = 1124
+	
+	# # date built in real life (so anything built during game time will be there if you start a game after that date)
+	# date = 1895.06.20
+	
+	# #time to build
+	# time = {
+		# months = 120
+	# }
+	
+	# #how much to build one
+	# build_cost = 10000
+	
+	# #can we move it?
+	# can_be_moved = no
+	
+	# #tier that the project starts at when first placed in the game (be that at game start or when built by a country as the game progresses)
+	# starting_tier = 3
+	
+	# #project type
+	# type = canal
+
+	# #can we build it?
+	# build_trigger = {
+		# FROM = {
+			# owns_or_vassal_of = 1124
+		# }
+	# }
+	
+	# #what to do when it's built
+	# on_built = {
+		# 1124={
+			# add_canal = naiatoc_webway_portal
+		# }
+	# }
+	
+	# #what to do when it's destroyed
+	# on_destroyed = {
+		# 1124={
+			# remove_canal = naiatoc_webway_portal
+		# }
+	# }
+
+	# #can our country use it?
+	# can_use_modifiers_trigger = {
+	# }
+
+	# #can our country upgrade it?
+	# can_upgrade_trigger = {
+	# }
+
+	# #can our country keep it or is it destroyed when we get hold of it?
+	# keep_trigger = {
+	# }
+
+	# #tier data
+	# tier_0 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 0
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 10
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.01
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+		# }
+	# }
+
+	# tier_1 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 120
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 1000
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 20
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.02
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+			# owner = { add_prestige = 30 }
+		# }
+	# }
+
+	# tier_2 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 120
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 1000
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 30
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.03
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+		# }
+	# }
+
+	# tier_3 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 120
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 1000
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 50
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.05
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+		# }
+	# }
+# }
+# elysia_webway_portal = {
+	# # province it starts in
+	# start = 199
+	
+	# # date built in real life (so anything built during game time will be there if you start a game after that date)
+	# date = 2200.06.20
+	
+	# #time to build
+	# time = {
+		# months = 120
+	# }
+	
+	# #how much to build one
+	# build_cost = 10000
+	
+	# #can we move it?
+	# can_be_moved = no
+	
+	# #tier that the project starts at when first placed in the game (be that at game start or when built by a country as the game progresses)
+	# starting_tier = 3
+	
+	# #project type
+	# type = canal
+
+	# #can we build it?
+	# build_trigger = {
+		# FROM = {
+			# owns_or_vassal_of = 199
+		# }
+	# }
+	
+	# #what to do when it's built
+	# on_built = {
+		# 199={
+			# add_canal = elysia_webway_portal
+		# }
+	# }
+	
+	# #what to do when it's destroyed
+	# on_destroyed = {
+		# 199={
+			# remove_canal = elysia_webway_portal
+		# }
+	# }
+
+	# #can our country use it?
+	# can_use_modifiers_trigger = {
+	# }
+
+	# #can our country upgrade it?
+	# can_upgrade_trigger = {
+	# }
+
+	# #can our country keep it or is it destroyed when we get hold of it?
+	# keep_trigger = {
+	# }
+
+	# #tier data
+	# tier_0 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 0
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 10
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.01
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+		# }
+	# }
+
+	# tier_1 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 120
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 1000
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 20
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.02
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+			# owner = { add_prestige = 30 }
+		# }
+	# }
+
+	# tier_2 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 120
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 1000
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 30
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.03
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+		# }
+	# }
+
+	# tier_3 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 120
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 1000
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 50
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.05
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+		# }
+	# }
+# }
+# fenris_webway_portal = {
+	# # province it starts in
+	# start = 3273
+	
+	# # date built in real life (so anything built during game time will be there if you start a game after that date)
+	# date = 2200.06.20
+	
+	# #time to build
+	# time = {
+		# months = 120
+	# }
+	
+	# #how much to build one
+	# build_cost = 10000
+	
+	# #can we move it?
+	# can_be_moved = no
+	
+	# #tier that the project starts at when first placed in the game (be that at game start or when built by a country as the game progresses)
+	# starting_tier = 3
+	
+	# #project type
+	# type = canal
+
+	# #can we build it?
+	# build_trigger = {
+		# FROM = {
+			# owns_or_vassal_of = 3273
+		# }
+	# }
+	
+	# #what to do when it's built
+	# on_built = {
+		# 3273={
+			# add_canal = fenris_webway_portal
+		# }
+	# }
+	
+	# #what to do when it's destroyed
+	# on_destroyed = {
+		# 3273={
+			# remove_canal = fenris_webway_portal
+		# }
+	# }
+
+	# #can our country use it?
+	# can_use_modifiers_trigger = {
+	# }
+
+	# #can our country upgrade it?
+	# can_upgrade_trigger = {
+	# }
+
+	# #can our country keep it or is it destroyed when we get hold of it?
+	# keep_trigger = {
+	# }
+
+	# #tier data
+	# tier_0 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 0
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 10
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.01
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+		# }
+	# }
+
+	# tier_1 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 120
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 1000
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 20
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.02
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+			# owner = { add_prestige = 30 }
+		# }
+	# }
+
+	# tier_2 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 120
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 1000
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 30
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.03
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+		# }
+	# }
+
+	# tier_3 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 120
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 1000
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 50
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.05
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+		# }
+	# }
+# }
+# cegorachi_webway_portal = {
+	# # province it starts in
+	# start = 1998
+	
+	# # date built in real life (so anything built during game time will be there if you start a game after that date)
+	# date = 1890.06.20
+	
+	# #time to build
+	# time = {
+		# months = 120
+	# }
+	
+	# #how much to build one
+	# build_cost = 10000
+	
+	# #can we move it?
+	# can_be_moved = no
+	
+	# #tier that the project starts at when first placed in the game (be that at game start or when built by a country as the game progresses)
+	# starting_tier = 3
+	
+	# #project type
+	# type = canal
+
+	# #can we build it?
+	# build_trigger = {
+		# FROM = {
+			# owns_or_vassal_of = 1998
+		# }
+	# }
+	
+	# #what to do when it's built
+	# on_built = {
+		# 1998={
+			# add_canal = cegorachi_webway_portal
+		# }
+	# }
+	
+	# #what to do when it's destroyed
+	# on_destroyed = {
+		# 1998={
+			# remove_canal = cegorachi_webway_portal
+		# }
+	# }
+
+	# #can our country use it?
+	# can_use_modifiers_trigger = {
+	# }
+
+	# #can our country upgrade it?
+	# can_upgrade_trigger = {
+	# }
+
+	# #can our country keep it or is it destroyed when we get hold of it?
+	# keep_trigger = {
+	# }
+
+	# #tier data
+	# tier_0 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 0
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 10
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.01
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+		# }
+	# }
+
+	# tier_1 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 120
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 1000
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 20
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.02
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+			# owner = { add_prestige = 30 }
+		# }
+	# }
+
+	# tier_2 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 120
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 1000
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 30
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.03
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+		# }
+	# }
+
+	# tier_3 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 120
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 1000
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 50
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.05
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+		# }
+	# }
+# }
+# ulthwe_webway_portal = {
+	# # province it starts in
+	# start = 1080
+	
+	# # date built in real life (so anything built during game time will be there if you start a game after that date)
+	# date = 1890.06.20
+	
+	# #time to build
+	# time = {
+		# months = 120
+	# }
+	
+	# #how much to build one
+	# build_cost = 10000
+	
+	# #can we move it?
+	# can_be_moved = no
+	
+	# #tier that the project starts at when first placed in the game (be that at game start or when built by a country as the game progresses)
+	# starting_tier = 3
+	
+	# #project type
+	# type = canal
+
+	# #can we build it?
+	# build_trigger = {
+		# FROM = {
+			# owns_or_vassal_of = 1080
+		# }
+	# }
+	
+	# #what to do when it's built
+	# on_built = {
+		# 1080={
+			# add_canal = ulthwe_webway_portal
+		# }
+	# }
+	
+	# #what to do when it's destroyed
+	# on_destroyed = {
+		# 1080={
+			# remove_canal = ulthwe_webway_portal
+		# }
+	# }
+
+	# #can our country use it?
+	# can_use_modifiers_trigger = {
+	# }
+
+	# #can our country upgrade it?
+	# can_upgrade_trigger = {
+	# }
+
+	# #can our country keep it or is it destroyed when we get hold of it?
+	# keep_trigger = {
+	# }
+
+	# #tier data
+	# tier_0 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 0
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 10
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.01
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+		# }
+	# }
+
+	# tier_1 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 120
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 1000
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 20
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.02
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+			# owner = { add_prestige = 30 }
+		# }
+	# }
+
+	# tier_2 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 120
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 1000
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 30
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.03
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+		# }
+	# }
+
+	# tier_3 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 120
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 1000
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 50
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.05
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+		# }
+	# }
+# }
+# rhidhol_webway_portal = {
+	# # province it starts in
+	# start = 1999
+	
+	# # date built in real life (so anything built during game time will be there if you start a game after that date)
+	# date = 1890.06.20
+	
+	# #time to build
+	# time = {
+		# months = 120
+	# }
+	
+	# #how much to build one
+	# build_cost = 10000
+	
+	# #can we move it?
+	# can_be_moved = no
+	
+	# #tier that the project starts at when first placed in the game (be that at game start or when built by a country as the game progresses)
+	# starting_tier = 3
+	
+	# #project type
+	# type = canal
+
+	# #can we build it?
+	# build_trigger = {
+		# FROM = {
+			# owns_or_vassal_of = 1999
+		# }
+	# }
+	
+	# #what to do when it's built
+	# on_built = {
+		# 1999={
+			# add_canal = rhidhol_webway_portal
+		# }
+	# }
+	
+	# #what to do when it's destroyed
+	# on_destroyed = {
+		# 1999={
+			# remove_canal = rhidhol_webway_portal
+		# }
+	# }
+
+	# #can our country use it?
+	# can_use_modifiers_trigger = {
+	# }
+
+	# #can our country upgrade it?
+	# can_upgrade_trigger = {
+	# }
+
+	# #can our country keep it or is it destroyed when we get hold of it?
+	# keep_trigger = {
+	# }
+
+	# #tier data
+	# tier_0 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 0
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 10
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.01
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+		# }
+	# }
+
+	# tier_1 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 120
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 1000
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 20
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.02
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+			# owner = { add_prestige = 30 }
+		# }
+	# }
+
+	# tier_2 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 120
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 1000
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 30
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.03
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+		# }
+	# }
+
+	# tier_3 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 120
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 1000
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 50
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.05
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+		# }
+	# }
+# }
+# quilan_webway_portal = {
+	# # province it starts in
+	# start = 1979
+	
+	# # date built in real life (so anything built during game time will be there if you start a game after that date)
+	# date = 1890.06.20
+	
+	# #time to build
+	# time = {
+		# months = 120
+	# }
+	
+	# #how much to build one
+	# build_cost = 10000
+	
+	# #can we move it?
+	# can_be_moved = no
+	
+	# #tier that the project starts at when first placed in the game (be that at game start or when built by a country as the game progresses)
+	# starting_tier = 3
+	
+	# #project type
+	# type = canal
+
+	# #can we build it?
+	# build_trigger = {
+		# FROM = {
+			# owns_or_vassal_of = 1979
+		# }
+	# }
+	
+	# #what to do when it's built
+	# on_built = {
+		# 1979={
+			# add_canal = quilan_webway_portal
+		# }
+	# }
+	
+	# #what to do when it's destroyed
+	# on_destroyed = {
+		# 1979={
+			# remove_canal = quilan_webway_portal
+		# }
+	# }
+
+	# #can our country use it?
+	# can_use_modifiers_trigger = {
+	# }
+
+	# #can our country upgrade it?
+	# can_upgrade_trigger = {
+	# }
+
+	# #can our country keep it or is it destroyed when we get hold of it?
+	# keep_trigger = {
+	# }
+
+	# #tier data
+	# tier_0 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 0
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 0
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 10
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.01
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+		# }
+	# }
+
+	# tier_1 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 120
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 1000
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 20
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.02
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+			# owner = { add_prestige = 30 }
+		# }
+	# }
+
+	# tier_2 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 120
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 1000
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 30
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.03
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+		# }
+	# }
+
+	# tier_3 = {
+		# #time to upgrade to this level (0 for tier 0)
+		# upgrade_time = {
+			# months = 120
+		# }
+
+		# #cost to upgrade to this level (0 for tier 0)
+		# cost_to_upgrade = {
+			# factor = 1000
+		# }
+
+		# #what modifiers are added to the province when we have this project here on this tier
+		# province_modifiers = {
+			# province_trade_power_value = 50
+		# }
+
+		# #what modifiers are added to the provinces in the map area when we have this project here on this tier
+		# area_modifier = {
+		# }
+
+		# #what modifiers are added to the country when we have this project here on this tier
+		# country_modifiers = {
+			# global_trade_power = 0.05
+		# }
+
+		# #what effects happen when this tier is achieved
+		# on_upgraded = {
+		# }
+	# }
+# }
 
 
 
