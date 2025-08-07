@@ -8,3 +8,68 @@ has_tau_caste_privilege = {
 		has_country_flag = $CASTE$_privilege_count_6
 	}
 }
+
+root_can_build_indomitus_manufactory_here_trigger = {
+    has_no_manufactory_trigger = yes
+    num_free_building_slots = 1
+	OR = {
+		AND = {
+			trade_goods = naval_supplies
+			ROOT = { dip_tech = 11 }
+		}
+		AND = {
+            OR = {
+                trade_goods = military_equipment
+                trade_goods = minerals
+				trade_goods = promethium
+            }
+			ROOT = { mil_tech = 11 }
+		}
+		AND = {
+            OR = {
+                trade_goods = clerks
+                trade_goods = consumer_goods
+            }
+			ROOT = { adm_tech = 11 }
+		}
+		AND = {
+            OR = {
+                trade_goods = coffee
+                trade_goods = cotton
+                trade_goods = sugar
+                trade_goods = tobacco
+                trade_goods = tea
+                trade_goods = cocoa
+            }
+			ROOT = { adm_tech = 14 }
+		}
+		AND = {
+            OR = {
+                trade_goods = slaves
+                trade_goods = incense
+                trade_goods = luxury_goods
+                trade_goods = xeno_technology
+                trade_goods = living_metal
+                trade_goods = wraithbone
+            }
+			ROOT = { dip_tech = 14 }
+		}
+		AND = {
+            OR = {
+                trade_goods = agricultural_goods
+            }
+			ROOT = { adm_tech = 6 }
+		}
+		AND = {
+            OR = {
+                trade_goods = archeotech
+                trade_goods = scientific_equipment
+            }
+			ROOT = { adm_tech = 16 }
+		}
+		AND = {
+            trade_goods = coal
+			ROOT = { adm_tech = 21 }
+		}
+	}
+}

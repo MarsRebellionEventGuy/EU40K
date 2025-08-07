@@ -60,8 +60,15 @@ estate_air_caste = {
 	}
 
 	agendas = {
-                #'agendas' includes the names of the estate privileges this estate uses.
-                #Estate agendas can be found in the {{path|common/estates_agendas/*.txt}}
+        estate_air_caste_build_port_building_in_y
+        estate_air_caste_increase_trade_power_in_X
+        estate_air_caste_build_a_fleet
+        estate_air_caste_bigger_fleet_than_rival
+        estate_air_caste_protect_against_piracy
+        estate_air_caste_archeotech_trade
+        estate_air_caste_wraithbone_trade
+        estate_air_caste_living_metal_trade
+        estate_air_caste_scientific_equipment_trade
 	}
 	influence_from_dev_modifier = 0
 }

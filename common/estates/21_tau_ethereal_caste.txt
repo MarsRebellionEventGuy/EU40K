@@ -74,8 +74,15 @@ estate_ethereal_caste = {
 	}
 
 	agendas = {
-                #'agendas' includes the names of the estate privileges this estate uses.
-                #Estate agendas can be found in the {{path|common/estates_agendas/*.txt}}
+		estate_ethereal_caste_restore_devotion
+		estate_ethereal_caste_hire_advisor
+		estate_ethereal_caste_fire_advisor
+		estate_ethereal_caste_reduce_war_exhaustion
+		estate_ethereal_caste_recover_stability
+		estate_ethereal_caste_increase_stability
+		estate_ethereal_caste_reduce_overextension
+		estate_ethereal_caste_root_out_heresy
+		estate_ethereal_caste_propagate_religion
 	}
 	influence_from_dev_modifier = 0
 }

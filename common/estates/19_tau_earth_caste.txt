@@ -60,8 +60,14 @@ estate_earth_caste = {
 	}
 
 	agendas = {
-                #'agendas' includes the names of the estate privileges this estate uses.
-                #Estate agendas can be found in the {{path|common/estates_agendas/*.txt}}
+		estate_earth_caste_build_manufactory_in_y
+		estate_earth_caste_build_production_building_in_y
+		estate_earth_caste_develop_x
+		estate_earth_caste_pay_off_loans
+		estate_earth_caste_get_cash
+		estate_earth_caste_reduce_corruption
+		estate_earth_caste_recovery_from_hyperinflation
+		estate_earth_caste_build_university_in_y
 	}
 	influence_from_dev_modifier = 0
 }

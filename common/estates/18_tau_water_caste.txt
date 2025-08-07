@@ -51,17 +51,25 @@ estate_water_caste = {
 	}
 	
 	privileges = {
-         estate_water_caste_deploiement_of_orr
-		 estate_water_caste_generalize_the_teaching_of_the_golden_ambassador
-		 estate_water_caste_deploiement_of_volescur
-		 estate_water_caste_deploiement_of_kartyr
-		 estate_water_caste_deploiement_of_kivrai
-		 estate_water_caste_advanced_diplomaty
+		estate_water_caste_deploiement_of_orr
+		estate_water_caste_generalize_the_teaching_of_the_golden_ambassador
+		estate_water_caste_deploiement_of_volescur
+		estate_water_caste_deploiement_of_kartyr
+		estate_water_caste_deploiement_of_kivrai
+		estate_water_caste_advanced_diplomaty
 	}
 
 	agendas = {
-                #'agendas' includes the names of the estate privileges this estate uses.
-                #Estate agendas can be found in the {{path|common/estates_agendas/*.txt}}
+		estate_water_caste_build_trade_building_in_y
+		estate_water_caste_develop_x
+		estate_water_caste_befriend_rival_of_rival
+		estate_water_caste_relations_with_X
+		estate_water_caste_break_coalition
+		estate_water_caste_support_independence
+		estate_water_caste_hire_advisor
+		estate_water_caste_fire_advisor
+		estate_water_caste_improve_dip_rep
+		estate_water_caste_get_allies
 	}
 	influence_from_dev_modifier = 0
 }

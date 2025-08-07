@@ -60,8 +60,17 @@ estate_fire_caste = {
 	}
 
 	agendas = {
-                #'agendas' includes the names of the estate privileges this estate uses.
-                #Estate agendas can be found in the {{path|common/estates_agendas/*.txt}}
+		estate_fire_caste_build_army_building_in_y
+		estate_fire_caste_build_fort_building_in_y
+		estate_fire_caste_develop_x
+		estate_fire_caste_hire_advisor
+		estate_fire_caste_fire_advisor
+		estate_fire_caste_build_an_army
+		estate_fire_caste_bigger_army_than_rival
+		estate_fire_caste_build_up_manpower_reserves
+		estate_fire_caste_increase_army_professionalism
+		estate_fire_caste_increase_army_tradition
+		estate_fire_caste_restore_legitimacy
 	}
 	influence_from_dev_modifier = 0
 }
