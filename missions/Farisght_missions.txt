@@ -463,6 +463,7 @@ Farsight_col_3 = {
 		}
 		trigger = {
 			NOT = { exists = XGL }
+			1883 = { owned_by = XGG }
 		}
 		effect = {
 			country_event = { id = farsight_events.6 }

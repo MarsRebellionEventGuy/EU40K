@@ -150,8 +150,15 @@
  CB_ALLOWED_po_join_the_greater_good: "We ask them to join the greater good"
  po_join_the_greater_good_desc: "We'll follow the greater good"
 
-# estate_air_caste
+# estate
  ethereal_caste_optimise_fire_caste: "One or more fire caste privilege"
  ethereal_caste_optimise_water_caste: "One or more water caste privilege"
  ethereal_caste_optimise_earth_caste: "One or more earth caste privilege"
  ethereal_caste_optimise_air_caste: "One or more air caste privilege"
+ 
+ tau_cast_system_modifier: "Tau Caste system"
+ local_ethereal_caste_displeased: "Local ethereal caste displeased"
+ local_fire_caste_displeased: "Local fire caste displeased"
+ local_water_caste_displeased: "Local water caste displeased"
+ local_air_caste_displeased: "Local air caste displeased"
+ local_earth_caste_displeased: "Local earth caste displeased"
