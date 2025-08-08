@@ -68,6 +68,8 @@ estate_earth_caste = {
 		estate_earth_caste_reduce_corruption
 		estate_earth_caste_recovery_from_hyperinflation
 		estate_earth_caste_build_university_in_y
+		estate_earth_caste_hire_advisor
+		estate_earth_caste_fire_advisor
 	}
 	influence_from_dev_modifier = 0
 }

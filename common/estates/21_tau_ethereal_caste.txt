@@ -75,14 +75,13 @@ estate_ethereal_caste = {
 
 	agendas = {
 		estate_ethereal_caste_restore_devotion
-		estate_ethereal_caste_hire_advisor
-		estate_ethereal_caste_fire_advisor
 		estate_ethereal_caste_reduce_war_exhaustion
 		estate_ethereal_caste_recover_stability
 		estate_ethereal_caste_increase_stability
 		estate_ethereal_caste_reduce_overextension
 		estate_ethereal_caste_root_out_heresy
 		estate_ethereal_caste_propagate_religion
+		estate_ethereal_caste_build_temple_in_y
 	}
 	influence_from_dev_modifier = 0
 }
