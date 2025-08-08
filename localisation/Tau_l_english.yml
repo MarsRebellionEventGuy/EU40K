@@ -139,6 +139,10 @@
  PEACE_po_join_the_greater_good: "Join the Greater Good"
  CB_ALLOWED_po_join_the_greater_good: "We ask them to join the greater good"
  po_join_the_greater_good_desc: "We'll follow the greater good"
+ propose_to_join_the_greater_good: "Join the T'au'va"
+ propose_to_join_the_greater_good_title: "We invite you to join the greater good"
+ propose_to_join_the_greater_good_tooltip: "Join the T'au'va"
+ propose_to_join_the_greater_good_desc: "We invite you to join the greater good in the T'au Empire. We have much to share with you. You may even retain your beliefs and traditions as long as they do not conflict with the greater good. And please know that refusal would be detrimental."
 
 # estate
  ethereal_caste_optimise_fire_caste: "One or more fire caste privilege"

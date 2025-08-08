@@ -354,9 +354,6 @@ estate_fire_caste_build_army_building_in_y = {
 		}
     }
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_fire_caste
-		}
 		add_estate_loyalty = {
 			estate = estate_fire_caste
 			loyalty = 10
@@ -992,9 +989,6 @@ estate_fire_caste_build_fort_building_in_y = {
 		}
     }
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_fire_caste
-		}
 		add_estate_loyalty = {
 			estate = estate_fire_caste
 			loyalty = 10
@@ -1141,9 +1135,6 @@ estate_fire_caste_develop_x = {
 		}
     }
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_fire_caste
-		}
 		add_estate_loyalty = {
 			estate = estate_fire_caste
 			loyalty = 10
@@ -1201,9 +1192,6 @@ estate_fire_caste_hire_advisor = {
 		}
 	}
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_fire_caste
-		}
 		add_estate_loyalty = {
 			estate = estate_fire_caste
 			loyalty = 10
@@ -1261,9 +1249,6 @@ estate_fire_caste_fire_advisor = {
 		}
 	}
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_fire_caste
-		}
 		add_estate_loyalty = {
 			estate = estate_fire_caste
 			loyalty = 10
@@ -1343,9 +1328,6 @@ estate_fire_caste_build_an_army = {
 		else = { army_size_percentage = 0.75 }
 	}
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_fire_caste
-		}
 		add_estate_loyalty = {
 			estate = estate_fire_caste
 			loyalty = 10
@@ -1434,9 +1416,6 @@ estate_fire_caste_bigger_army_than_rival = {
 		}
 	}
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_fire_caste
-		}
 		add_estate_loyalty = {
 			estate = estate_fire_caste
 			loyalty = 10
@@ -1561,9 +1540,6 @@ estate_fire_caste_build_up_manpower_reserves = {
 		}
 	}
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_fire_caste
-		}
 		add_estate_loyalty = {
 			estate = estate_fire_caste
 			loyalty = 10
@@ -1612,9 +1588,6 @@ estate_fire_caste_increase_army_professionalism = {
 		}
 	}
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_fire_caste
-		}
 		add_estate_loyalty = {
 			estate = estate_fire_caste
 			loyalty = 15
@@ -1662,9 +1635,6 @@ estate_fire_caste_increase_army_tradition = {
 		}
 	}
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_fire_caste
-		}
 		add_estate_loyalty = {
 			estate = estate_fire_caste
 			loyalty = 15
@@ -1724,9 +1694,6 @@ estate_fire_caste_restore_legitimacy = {
 		}
 	}
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_fire_caste
-		}
 		add_estate_loyalty = {
 			estate = estate_fire_caste
 			loyalty = 10

@@ -97,7 +97,7 @@ estate_earth_caste_build_manufactory_in_y = {
 								OR = {
 									trade_goods = military_equipment
                                     trade_goods = minerals
-                                    rade_goods = promethium
+                                    trade_goods = promethium
 								}
 							}
 							has_building = weapons
@@ -160,9 +160,7 @@ estate_earth_caste_build_manufactory_in_y = {
 		}
     }
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_earth_caste
-		}
+ 
 		add_estate_loyalty = {
 			estate = estate_earth_caste
 			loyalty = 10
@@ -421,9 +419,7 @@ estate_earth_caste_build_production_building_in_y = {
 		}
     }
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_earth_caste
-		}
+ 
 		add_estate_loyalty = {
 			estate = estate_earth_caste
 			loyalty = 10
@@ -570,9 +566,7 @@ estate_earth_caste_develop_x = {
 		}
     }
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_earth_caste
-		}
+ 
 		add_estate_loyalty = {
 			estate = estate_earth_caste
 			loyalty = 10
@@ -647,9 +641,7 @@ estate_earth_caste_pay_off_loans = {
 		}
 	}
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_earth_caste
-		}
+ 
 		add_estate_loyalty = {
 			estate = estate_earth_caste
 			loyalty = 10
@@ -702,9 +694,7 @@ estate_earth_caste_get_cash = {
 		num_of_loans = 1
 	}
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_earth_caste
-		}
+ 
 		if = {
 			limit = {
 				inflation = 5
@@ -838,9 +828,7 @@ estate_earth_caste_reduce_corruption = {
 		}
 	}
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_earth_caste
-		}
+ 
 		add_estate_loyalty = {
 			estate = estate_earth_caste
 			loyalty = 10
@@ -885,9 +873,7 @@ estate_earth_caste_recovery_from_hyperinflation = {
 		}
 	}
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_earth_caste
-		}
+ 
 		add_estate_loyalty = {
 			estate = estate_earth_caste
 			loyalty = 10
@@ -1006,9 +992,7 @@ estate_earth_caste_build_university_in_y = {
 		}
     }
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_earth_caste
-		}
+ 
 		add_estate_loyalty = {
 			estate = estate_earth_caste
 			loyalty = 10
@@ -1069,9 +1053,7 @@ estate_earth_caste_hire_advisor = {
 		}
 	}
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_earth_caste
-		}
+ 
 		add_estate_loyalty = {
 			estate = estate_earth_caste
 			loyalty = 10
@@ -1146,9 +1128,7 @@ estate_earth_caste_fire_advisor = {
 		}
 	}
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_earth_caste
-		}
+ 
 		add_estate_loyalty = {
 			estate = estate_earth_caste
 			loyalty = 10

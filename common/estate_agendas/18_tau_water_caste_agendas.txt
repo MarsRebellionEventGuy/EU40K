@@ -295,9 +295,7 @@ estate_water_caste_build_trade_building_in_y = {
 		}
     }
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_water_caste
-		}
+ 
 		add_estate_loyalty = {
 			estate = estate_water_caste
 			loyalty = 10
@@ -446,9 +444,7 @@ estate_water_caste_develop_x = {
 		}
     }
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_water_caste
-		}
+ 
 		add_estate_loyalty = {
 			estate = estate_water_caste
 			loyalty = 10
@@ -651,9 +647,7 @@ estate_water_caste_befriend_rival_of_rival = {
 		}
 	}
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_water_caste
-		}
+ 
 		add_estate_loyalty = {
 			estate = estate_water_caste
 			loyalty = 10
@@ -868,9 +862,7 @@ estate_water_caste_relations_with_X = {
 		}
 	}
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_water_caste
-		}
+ 
 		add_estate_loyalty = {
 			estate = estate_water_caste
 			loyalty = 15
@@ -995,9 +987,7 @@ estate_water_caste_break_coalition = {
 		}
 	}
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_water_caste
-		}
+ 
 		add_estate_loyalty = {
 			estate = estate_water_caste
 			loyalty = 10
@@ -1109,9 +1099,7 @@ estate_water_caste_support_independence = {
 		}
 	}
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_water_caste
-		}
+ 
 		add_estate_loyalty = {
 			estate = estate_water_caste
 			loyalty = 10
@@ -1160,9 +1148,7 @@ estate_water_caste_hire_advisor = {
 		}
 	}
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_water_caste
-		}
+ 
 		add_estate_loyalty = {
 			estate = estate_water_caste
 			loyalty = 10
@@ -1220,9 +1206,7 @@ estate_water_caste_fire_advisor = {
 		}
 	}
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_water_caste
-		}
+ 
 		add_estate_loyalty = {
 			estate = estate_water_caste
 			loyalty = 10
@@ -1274,9 +1258,7 @@ estate_water_caste_improve_dip_rep = {
 		}
 	}
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_water_caste
-		}
+ 
 		add_estate_loyalty = {
 			estate = estate_water_caste
 			loyalty = 10
@@ -1374,9 +1356,7 @@ estate_water_caste_get_allies = {
 		}
 	}
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_water_caste
-		}
+ 
 		add_estate_loyalty = {
 			estate = estate_water_caste
 			loyalty = 10

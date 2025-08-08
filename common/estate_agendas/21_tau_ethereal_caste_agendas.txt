@@ -34,9 +34,6 @@ estate_ethereal_caste_restore_devotion = {
 		}
 	}
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_ethereal_caste
-		}
 		add_estate_loyalty = {
 			estate = estate_ethereal_caste
 			loyalty = 10
@@ -56,145 +53,6 @@ estate_ethereal_caste_restore_devotion = {
 			loyalty = -5
 			duration = 7300
         }
-    }
-}
-
-#This one or the next one will always be valid
-estate_ethereal_caste_hire_advisor = {
-	can_select = {
-		NOT = {
-			employed_advisor = {
-				category = ADM
-			}
-		}
-	}
-	selection_weight = {
-		factor = 1
-	}
-	task_requirements = {
-		if = {
-			limit = {
-				has_estate_agenda_auto_completion = {
-					estate = estate_ethereal_caste
-				}
-			}
-			has_estate_agenda_auto_completion = {
-				estate = estate_ethereal_caste
-			}
-		}
-		else = {
-			employed_advisor = {
-				category = ADM
-			}
-			is_in_deficit = no
-		}
-	}
-    task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_ethereal_caste
-		}
-		add_estate_loyalty = {
-			estate = estate_ethereal_caste
-			loyalty = 10
-		}
-    }
-    failing_effect = {
-		on_failed_agenda_effect = yes
-		clr_auto_complete_flag = yes
-        add_estate_loyalty_modifier = {
-            estate = estate_ethereal_caste
-			desc = EST_VAL_AGENDA_DENIED
-			loyalty = -5
-			duration = 7300
-        }
-    }
-}
-
-estate_ethereal_caste_fire_advisor = {
-	can_select = {
-		employed_advisor = {
-			category = ADM
-		}
-	}
-	selection_weight = {
-		factor = 1
-		modifier = {
-			factor = 0.5
-			always = yes
-		}
-		modifier = {
-			factor = 0.5
-			employed_advisor = {
-				type = theologian
-				religion = root
-			}
-		}
-		modifier = {
-			factor = 2
-			advisor = theologian
-			NOT = {
-				employed_advisor = {
-					type = theologian
-					religion = root
-				}
-			}
-		}
-	}
-	immediate_effect = {
-		hidden_effect = {
-			set_country_flag = need_to_fire_adm_advisor
-		}
-	}
-	on_invalid = {
-		clr_country_flag = need_to_fire_adm_advisor
-	}
-	task_requirements = {
-		if = {
-			limit = {
-				has_estate_agenda_auto_completion = {
-					estate = estate_ethereal_caste
-				}
-			}
-			has_estate_agenda_auto_completion = {
-				estate = estate_ethereal_caste
-			}
-		}
-		else = {
-			custom_trigger_tooltip = {
-				tooltip = fire_adm_advisor_tooltip
-				has_country_flag = just_fired_adm_advisor
-			}
-		}
-	}
-    task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_ethereal_caste
-		}
-		add_estate_loyalty = {
-			estate = estate_ethereal_caste
-			loyalty = 10
-		}
-		clr_country_flag = just_fired_adm_advisor
-		clr_country_flag = need_to_fire_adm_advisor
-	}
-	invalid_trigger = {
-		NOT = {
-			employed_advisor = {
-				category = ADM
-			}
-		}
-		NOT = { has_country_flag = just_fired_adm_advisor }
-	}
-    failing_effect = {
-		on_failed_agenda_effect = yes
-		clr_auto_complete_flag = yes
-        add_estate_loyalty_modifier = {
-            estate = estate_ethereal_caste
-			desc = EST_VAL_AGENDA_DENIED
-			loyalty = -5
-			duration = 7300
-        }
-		clr_country_flag = need_to_fire_adm_advisor
     }
 }
 
@@ -235,9 +93,6 @@ estate_ethereal_caste_reduce_war_exhaustion = {
 		}
 	}
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_ethereal_caste
-		}
 		add_estate_loyalty = {
 			estate = estate_ethereal_caste
 			loyalty = 10
@@ -287,9 +142,6 @@ estate_ethereal_caste_recover_stability = {
 		}
 	}
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_ethereal_caste
-		}
 		add_estate_loyalty = {
 			estate = estate_ethereal_caste
 			loyalty = 10
@@ -336,9 +188,6 @@ estate_ethereal_caste_increase_stability = {
 		}
 	}
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_ethereal_caste
-		}
 		add_estate_loyalty = {
 			estate = estate_ethereal_caste
 			loyalty = 10
@@ -393,9 +242,6 @@ estate_ethereal_caste_reduce_overextension = {
 		}
 	}
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_ethereal_caste
-		}
 		add_estate_loyalty = {
 			estate = estate_ethereal_caste
 			loyalty = 10
@@ -547,9 +393,6 @@ estate_ethereal_caste_root_out_heresy = {
 		}
 	}
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_ethereal_caste
-		}
 		add_estate_loyalty = {
 			estate = estate_ethereal_caste
 			loyalty = 10
@@ -655,9 +498,6 @@ estate_ethereal_caste_propagate_religion = {
 		}
 	}
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_ethereal_caste
-		}
 		add_estate_loyalty = {
 			estate = estate_ethereal_caste
 			loyalty = 15
@@ -876,9 +716,6 @@ estate_ethereal_caste_build_temple_in_y = {
 		}
     }
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_ethereal_caste
-		}
 		add_estate_loyalty = {
 			estate = estate_ethereal_caste
 			loyalty = 10

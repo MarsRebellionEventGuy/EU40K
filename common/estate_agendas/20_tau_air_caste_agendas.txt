@@ -280,9 +280,7 @@ estate_air_caste_build_port_building_in_y = {
 		}
     }
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_air_caste
-		}
+ 
 		add_estate_loyalty = {
 			estate = estate_air_caste
 			loyalty = 10
@@ -580,9 +578,7 @@ estate_air_caste_increase_trade_power_in_X = {
 		}
 	}
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_air_caste
-		}
+ 
 		add_estate_loyalty = {
 			estate = estate_air_caste
 			loyalty = 10
@@ -676,9 +672,7 @@ estate_air_caste_build_a_fleet = {
 		}
 	}
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_air_caste
-		}
+ 
 		add_estate_loyalty = {
 			estate = estate_air_caste
 			loyalty = 10
@@ -772,9 +766,7 @@ estate_air_caste_bigger_fleet_than_rival = {
 		}
 	}
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_air_caste
-		}
+ 
 		add_estate_loyalty = {
 			estate = estate_air_caste
 			loyalty = 10
@@ -957,9 +949,7 @@ estate_air_caste_protect_against_piracy = {
 		}
 	}
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_air_caste
-		}
+ 
 		add_estate_loyalty = {
 			estate = estate_air_caste
 			loyalty = 15
@@ -1017,9 +1007,7 @@ estate_air_caste_archeotech_trade = {
 		}
 	}
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_air_caste
-		}
+ 
 		add_estate_loyalty = {
 			estate = estate_air_caste
 			loyalty = 10
@@ -1081,9 +1069,7 @@ estate_air_caste_wraithbone_trade = {
 		}
 	}
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_air_caste
-		}
+ 
 		add_estate_loyalty = {
 			estate = estate_air_caste
 			loyalty = 10
@@ -1145,9 +1131,7 @@ estate_air_caste_living_metal_trade = {
 		}
 	}
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_air_caste
-		}
+ 
 		add_estate_loyalty = {
 			estate = estate_air_caste
 			loyalty = 10
@@ -1209,9 +1193,7 @@ estate_air_caste_scientific_equipment_trade = {
 		}
 	}
     task_completed_effect = {
-		on_completed_agenda_effect = {
-			estate = estate_air_caste
-		}
+ 
 		add_estate_loyalty = {
 			estate = estate_air_caste
 			loyalty = 10
