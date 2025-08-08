@@ -34,17 +34,6 @@ root_can_build_indomitus_manufactory_here_trigger = {
 		}
 		AND = {
             OR = {
-                trade_goods = coffee
-                trade_goods = cotton
-                trade_goods = sugar
-                trade_goods = tobacco
-                trade_goods = tea
-                trade_goods = cocoa
-            }
-			ROOT = { adm_tech = 14 }
-		}
-		AND = {
-            OR = {
                 trade_goods = slaves
                 trade_goods = incense
                 trade_goods = luxury_goods
@@ -55,9 +44,7 @@ root_can_build_indomitus_manufactory_here_trigger = {
 			ROOT = { dip_tech = 14 }
 		}
 		AND = {
-            OR = {
-                trade_goods = agricultural_goods
-            }
+            trade_goods = agricultural_goods
 			ROOT = { adm_tech = 6 }
 		}
 		AND = {
@@ -66,10 +53,6 @@ root_can_build_indomitus_manufactory_here_trigger = {
                 trade_goods = scientific_equipment
             }
 			ROOT = { adm_tech = 16 }
-		}
-		AND = {
-            trade_goods = coal
-			ROOT = { adm_tech = 21 }
 		}
 	}
 }

@@ -3,6 +3,7 @@ cb_warhammer = {
 
 	prerequisites_self = {
 		NOT = {has_reform = hive_fleet_reform}
+		NOT = { religion = greater_good }
 		OR = {
 			AND = {
 				culture_group = imperial_culture_group

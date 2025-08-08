@@ -1214,3 +1214,64 @@ estate_air_caste_scientific_equipment_trade = {
         }
     }
 }
+
+#Bigger Fleet
+estate_air_caste_build_a_flagship = {
+	can_select = {
+        any_owned_province = {
+            has_port = yes
+        }
+		navy_size = 10
+        has_flagship = no
+	}
+	selection_weight = {
+		factor = 1
+		modifier = {
+			factor = 2
+			navy_size = 50
+		}
+        modifier = {
+			factor = 5
+			navy_size = 100
+		}
+	}
+	task_requirements = {
+		if = {
+			limit = {
+				has_estate_agenda_auto_completion = {
+					estate = estate_air_caste
+				}
+			}
+			has_estate_agenda_auto_completion = {
+				estate = estate_air_caste
+			}
+		}
+		else = {
+			has_flagship = yes
+		}
+	}
+	fail_if = {
+		NOT = {
+			any_owned_province = {
+				has_port = yes
+			}
+		}
+	}
+    task_completed_effect = {
+		add_estate_loyalty = {
+			estate = estate_air_caste
+			loyalty = 10
+		}
+		add_navy_tradition = 20
+	}
+    failing_effect = {
+		on_failed_agenda_effect = yes
+		clr_auto_complete_flag = yes
+        add_estate_loyalty_modifier = {
+            estate = estate_air_caste
+			desc = EST_VAL_AGENDA_DENIED
+			loyalty = -5
+			duration = 7300
+        }
+    }
+}

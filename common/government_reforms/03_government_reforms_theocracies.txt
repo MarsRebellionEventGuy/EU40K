@@ -33,7 +33,7 @@ tau_reform = {
 	nation_designer_cost = 0
 	modifiers = {
 		reduced_liberty_desire = 33
-		promote_culture_cost = 100 # if assilimilate system doesn't work, you can juste convert and fight
+		diplomatic_upkeep = 2
 	}
 	conditional = {
 		allow = {

@@ -4,4 +4,5 @@
 
 tau_caste_system_modifier = {
 	all_estate_loyalty_equilibrium = 0.6
+	promote_culture_cost = 100
 }

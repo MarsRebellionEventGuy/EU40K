@@ -895,7 +895,6 @@ estate_earth_caste_recovery_from_hyperinflation = {
 
 estate_earth_caste_build_university_in_y = {
 	can_select = {
-		government = republic
 		adm_tech = 17
 		any_owned_province = {
 			is_state_core = root

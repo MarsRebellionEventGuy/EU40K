@@ -621,15 +621,19 @@ Farsight_col_3 = {
 		required_missions = { Farsight_first_expansion_Sphere }
 		trigger = {
 			num_of_estate_agendas_completed = {
-				estate = estate_nobles
+				estate = estate_fire_caste
 				value = 2
 			}
 			num_of_estate_agendas_completed = {
-				estate = estate_church
+				estate = estate_water_caste
 				value = 2
 			}
 			num_of_estate_agendas_completed = {
-				estate = estate_burghers
+				estate = estate_earth_caste
+				value = 2
+			}
+            num_of_estate_agendas_completed = {
+				estate = estate_air_caste
 				value = 2
 			}
 		}
@@ -723,16 +727,20 @@ Farsight_col_3 = {
 		required_missions = { Farsight_second_expansion_Sphere }
 		trigger = {
 			num_of_estate_agendas_completed = {
-				estate = estate_nobles
-				value = 4
+				estate = estate_fire_caste
+				value = 3
 			}
 			num_of_estate_agendas_completed = {
-				estate = estate_church
-				value = 4
+				estate = estate_water_caste
+				value = 3
 			}
 			num_of_estate_agendas_completed = {
-				estate = estate_burghers
-				value = 4
+				estate = estate_earth_caste
+				value = 3
+			}
+            num_of_estate_agendas_completed = {
+				estate = estate_air_caste
+				value = 3
 			}
 		}
 		effect = { 

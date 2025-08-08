@@ -37,7 +37,7 @@ arthas_moloch_rebel = {
 	
 	# The rebel type with the highest modifier for this province gets picked
 	spawn_chance = {
-		factor = 1
+		factor = 0
 	}
  
  	# This is checked for EACH province in the Area of Operations

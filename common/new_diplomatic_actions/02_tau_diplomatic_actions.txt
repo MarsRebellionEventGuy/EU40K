@@ -8,14 +8,6 @@ propose_to_join_the_greater_good = {
         religion = greater_good
 		FROM = {
 			NOT = { religion = greater_good }
-		}
-    }
-    
-    # Determines when the action can be taken
-    is_allowed = {
-		is_at_war = no
-        FROM = {
-			NOT = { religion = greater_good }
 			NOT = {
 				OR = {
 					culture = ork_culture
@@ -31,9 +23,18 @@ propose_to_join_the_greater_good = {
 				}
 			}
 		}
-		border_distance = {
-			who = FROM
-			distance = 150
+    }
+    
+    # Determines when the action can be taken
+    is_allowed = {
+		is_at_war = no
+		
+		OR = {
+			dominant_religion = greater_good
+			border_distance = {
+				who = FROM
+				distance = 150
+			}
 		}
     }
     
@@ -113,6 +114,62 @@ propose_to_join_the_greater_good = {
 				value = modifier:accept_vassalization_reasons
 				who = FROM
 				with = ROOT
+			}
+		}
+		add_entry = {
+			name = AI_TOTAL_DEVELOPMENT
+			export_to_variable = {
+				variable_name = ai_value
+				value = total_development
+				who = FROM
+			}
+			#4 dev = -1
+			multiply_variable = {
+				which = ai_value
+				value = -0.25
+			}
+		}
+		add_entry = {
+			name = DIPLO_HAS_AI_HAS_OWN_SUBJECTS_TT
+			limit = {
+				FROM = { num_of_subjects = 1 }
+			}
+			export_to_variable = {
+				variable_name = ai_value
+				value = 1
+			}
+			multiply_variable = {
+				which = ai_value
+				value = -1000
+			}
+		}
+		add_entry = {
+			name = DIPLO_BORDER_DISTANCE_TT
+			export_to_variable = {
+				variable_name = ai_value
+				value = border_distance
+				who = FROM
+				with = ROOT
+			}
+			#2 units = -1
+			multiply_variable = {
+				which = ai_value
+				value = -0.5
+			}
+		}
+		add_entry = {
+			name = DOMINANT_RELIGION
+			limit = {
+				FROM = { dominant_religion = greater_good }
+			}
+			export_to_variable = {
+				variable_name = ai_value
+				value = 1
+			}
+			
+			multiply_variable = {
+				which = ai_value
+				value = 1000
 			}
 		}
     }

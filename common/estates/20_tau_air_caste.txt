@@ -69,6 +69,7 @@ estate_air_caste = {
         estate_air_caste_wraithbone_trade
         estate_air_caste_living_metal_trade
         estate_air_caste_scientific_equipment_trade
+		estate_air_caste_build_a_flagship
 	}
 	influence_from_dev_modifier = 0
 }

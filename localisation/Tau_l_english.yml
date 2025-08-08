@@ -301,6 +301,7 @@
  estate_air_caste_wraithbone_trade: "Control the Wraithbone Trade"
  estate_air_caste_living_metal_trade: "Control the Living Metal Trade"
  estate_air_caste_scientific_equipment_trade: "Control the Scientific Equipment Trade"
+ estate_air_caste_build_a_flagship: "Build a flagship"
  
  estate_air_caste_build_port_building_in_y_desc: "The Air Caste call for the expansion of [agenda_province.GetName]'s spaceport facilities, allowing the province to develop into a valuable naval base for our nation."
  estate_air_caste_increase_trade_power_in_X_desc: "The Air Caste call for us to increase our commercial presence in the [agenda_trade_node.GetTradeNodeName] trade node, an action they claim would greatly increase the prosperity of the nation."
@@ -311,6 +312,7 @@
  estate_air_caste_wraithbone_trade_desc: "Among the opportunities that our outposts in the galaxy offer are the chance to establish control over the sources of wraithbone. The Air Caste urge us to make their acquisition our priority."
  estate_air_caste_living_metal_trade_desc: "Among the opportunities that our outposts in the galaxy offer are the chance to establish control over the sources of living metal. The Air Caste urge us to make their acquisition our priority."
  estate_air_caste_scientific_equipment_trade_desc: "Among the opportunities that our outposts in the galaxy offer are the chance to establish control over the sources of scientific equipment. The Air Caste urge us to make their acquisition our priority."
+ estate_air_caste_build_a_flagship_desc: "The Air Caste bemoan the pitiful state of our fleet. They call for us to expand it significantly with an ambitious shipbuilding program so as to ensure that their trade interests may be protected."
  
  estate_ethereal_caste_ethereal_cohesion: "Ethereal cohesion"
  estate_ethereal_caste_optimise_fire_caste: "Optimizing the fire caste"
@@ -344,3 +346,10 @@
  estate_ethereal_caste_propagate_religion_desc: "The Ethereal Council are pushing for us to use our dominant position in the [agenda_trade_node.GetTradeNodeName] trade node to spread the true faith throughout the region."
  estate_ethereal_caste_build_temple_in_y_desc: "The Ethereal Council urge us to build a magnificent house of worship in [agenda_province.GetName] so that their followers might have an adequate place to congregate in the province."
  
+ estate_privileges_and_agendas_events.3.fc: "Fire Caste"
+ estate_privileges_and_agendas_events.3.wc: "Water Caste"
+ estate_privileges_and_agendas_events.3.etc: "Ethereal Caste"
+ estate_privileges_and_agendas_events.3.ac: "Air Caste"
+ estate_privileges_and_agendas_events.3.ec: "Earth Caste"
+ 
+ estate_ethereal_caste_propagate_religion_trigger_tooltip: "All trade member share the Greater Good"
