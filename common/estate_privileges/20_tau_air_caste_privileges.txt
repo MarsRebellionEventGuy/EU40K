@@ -53,7 +53,7 @@ estate_air_caste_advanced_exchange = {
 		trade_efficiency = -0.05
 	}
 	benefits = {
-		global_trade_goods_size = 1
+		global_trade_goods_size = 0.5
 	}
 
 	ai_will_do = {
@@ -171,7 +171,7 @@ estate_air_caste_transport_efficiency = {
 	influence = 0.10
 	
 	can_select = {
-		advisor = master_of_mint
+		has_reform = air_caste_improved_reform
 	}
 	on_granted = { 
 		caste_privilege_counter_on_granted_effect = { CASTE = air_caste } 

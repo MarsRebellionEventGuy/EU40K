@@ -61,7 +61,7 @@ country_event = {
 	option = {
 		name = "tau_events.2.a"
 		create_subject = {
-			subject_type = colony #temp
+			subject_type = tau_auxiliary
 			subject = XLV
 		}
 		XLV = {
@@ -341,4 +341,44 @@ country_event = {
 			}
 		}
 	}
+}
+
+# Farsight ask for help
+country_event = {
+	id = tau_events.9
+	title = "tau_events.9.t"
+	desc = "tau_events.9.d"
+	picture = Farsight_aunva_event_picture
+    
+    is_triggered_only = yes
+    
+    trigger = {
+    }
+    
+    immediate = {
+    }
+    
+    # Refuse to help Farsight
+    option = {
+        name = "tau_events.9.a"
+        
+        XGG = {
+            set_country_flag = betrayed_by_ethereal
+            country_event = {
+                id = farsight_events.18
+                days = 1
+			}
+        }
+        ai_chance = { factor = 100 }
+    }
+    
+    # Ok to help Farsight
+    option = {
+        name = "tau_events.9.b"
+        
+        inherit = XGG
+        add_manpower = -15
+		add_war_exhaustion = 10
+        ai_chance = { factor = 0 }
+    }
 }

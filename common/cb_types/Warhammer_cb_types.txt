@@ -14,11 +14,15 @@ cb_warhammer = {
 				mission_completed = Imperial_Mission_4
 			}
 			tag = XXA
-			NOT = { culture_group = imperial_culture_group }
+			NOT = { 
+				culture_group = imperial_culture_group 
+			}
 			primary_culture = mechanicus_culture
 			primary_culture = knight_culture
 			primary_culture = loyalist_astartes_culture
 		}
+		
+		
 	}
 
 	prerequisites = {
@@ -28,8 +32,8 @@ cb_warhammer = {
 				distance = 200
 			}
 		}
-		FROM={
-			NOT={
+		FROM = {
+			NOT = {
 				is_subject_of = ROOT
 			}
 		}
@@ -147,4 +151,87 @@ cb_tau_vassalize_war = {
 	is_triggered_only = yes
 
 	war_goal = take_capital_tau_vassalize
+}
+
+cb_tau_return_tau_province = {
+	valid_for_subject = no
+
+	prerequisites_self = {
+		religion = greater_good
+	}
+
+	prerequisites = {
+		FROM = {
+			NOT = { religion = greater_good }
+			any_owned_province = {
+				culture_group = tau_culture_group
+			}
+		}
+	}
+
+	war_goal = take_province_nationalist
+}
+
+cb_tau_expend_tau_empire = {
+	valid_for_subject = no
+
+	prerequisites_self = {
+		religion = greater_good
+	}
+
+	prerequisites = {
+		NOT = {
+			border_distance = {
+				who = FROM
+				distance = 200
+			}
+		}
+		FROM = {
+			NOT = {
+				is_subject_of = ROOT
+			}
+			OR = {
+				primary_culture = ork_culture
+				primary_culture = freebooter_culture
+				primary_culture = drukhari_culture
+				primary_culture = tyranid_culture
+				primary_culture = genestealer_culture
+				primary_culture = chaos_culture
+				primary_culture = heretic_astartes_culture
+				primary_culture = dark_mechanicum_culture
+				primary_culture = chaos_knight_culture
+				primary_culture = noculture
+			}
+		}
+	}
+
+	war_goal = annex_country_warhammer
+}
+
+cb_tau_unite_greater_good = {
+	valid_for_subject = no
+
+	prerequisites = {
+		FROM = {
+			religion = greater_good
+			is_subject = no
+		}
+		ROOT = {
+			religion = greater_good
+			army_strength = {
+				who = FROM
+				value = 1
+			}
+			military_strength = {
+				who = FROM
+				value = 1
+			}
+			naval_strength = {
+				who = FROM
+				value = 1
+			}
+		}
+	}
+
+	war_goal = take_capital_unit_greater_good
 }

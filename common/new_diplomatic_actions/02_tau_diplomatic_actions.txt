@@ -44,6 +44,7 @@ propose_to_join_the_greater_good = {
 			subject_type = tau_auxiliary
 			subject = FROM
 		}
+		FROM = { change_religion = greater_good }
     }
 
     # Which effects to execute on decline (if declinable). Optional.
@@ -108,15 +109,6 @@ propose_to_join_the_greater_good = {
 			}
 		}
 		add_entry = {
-			name = VASSALIZE_ACCEPTANCE
-			export_to_variable = {
-				variable_name = ai_value
-				value = modifier:accept_vassalization_reasons
-				who = FROM
-				with = ROOT
-			}
-		}
-		add_entry = {
 			name = AI_TOTAL_DEVELOPMENT
 			export_to_variable = {
 				variable_name = ai_value
@@ -170,6 +162,38 @@ propose_to_join_the_greater_good = {
 			multiply_variable = {
 				which = ai_value
 				value = 1000
+			}
+		}
+        add_entry = {
+			name = AI_DIPLOMATIC_REPUTATION
+			export_to_variable = {
+				variable_name = ai_value
+				value = trigger_value:diplomatic_reputation
+			}
+			#1 rep = 4
+			multiply_variable = {
+				which = ai_value
+				value = 4
+			}
+		}
+        add_entry = {
+			name = VASSALIZE_ACCEPTANCE
+            limit = {
+				has_estate_privilege = estate_water_caste_deploiement_of_volescur
+			}
+			export_to_variable = {
+				variable_name = ai_value
+				value = 20
+			}
+		}
+        add_entry = {
+			name = VASSALIZE_ACCEPTANCE_IDEA
+            limit = {
+				has_idea = blackmailing
+			}
+			export_to_variable = {
+				variable_name = ai_value
+				value = 15
 			}
 		}
     }

@@ -111,3 +111,11 @@ growing_living_metal_trade = {
 growing_scientific_equipment_trade = {
 	global_tax_income = 25
 }
+
+ethereal_council_control = {
+	no_stability_loss_on_monarch_death = yes
+}
+
+many_species_under_control = {
+	diplomatic_upkeep = 3
+}

@@ -175,7 +175,7 @@ estate_earth_caste_fed_and_supplied = {
 	influence = 0.10
 	
 	can_select = {
-		advisor = master_of_mint
+		has_reform = earth_caste_improved_reform
 	}
 	on_granted = { 
 		caste_privilege_counter_on_granted_effect = { CASTE = earth_caste } 

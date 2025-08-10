@@ -91,7 +91,7 @@
   
  farsight_events.7.t: "Ask Help"
  farsight_events.7.d: "Send a request for assisstance to the ethereal council. I surrender if they agree"
- farsight_events.7.a: "Farsight actions and that the entire Farsight Enclaves would be condemned with him"
+ farsight_events.7.a: "I hope the message arrives on time"
   
  farsight_events.8.t: "Fate of Ultramar"
  farsight_events.8.d: "There is a great power of these superhumans called Astartes near us. What policy should we adopt?"
@@ -130,6 +130,10 @@
  farsight_events.16.d: "We want power ! We reject that any individual life is of less importance than collectivity."
  farsight_events.16.a: "I have the power ! I just need to shed blood ... for the blood god"
 
+ farsight_events.16.t: "They refuse"
+ farsight_events.16.d: "you and your people have been condemned for turning your backs on the Greater Good"
+ farsight_events.16.a: "End of transmission"
+ 
 #modifier
  farsight_free_tau_from_ethereals: "Free from Ethereals"
  FARSIGHT_FREE_TAU_FROM_ETHEREALS_DESC: "We freed T'au from Ethereals"

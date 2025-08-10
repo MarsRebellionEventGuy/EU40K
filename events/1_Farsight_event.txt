@@ -154,8 +154,9 @@ country_event = {
 	hidden = yes
 	trigger = {
 		tag = XGG
-		NOT = {
-			exists = XGF
+		OR = {
+			NOT = { exists = XGF }
+			XGF = { is_subject_of = XGG }
 		}
 	}
 	
@@ -232,7 +233,6 @@ country_event = {
 		name = farsight_events.7.a
 		add_manpower = -15
 		add_war_exhaustion = 10
-		set_country_flag = betrayed_by_ethereal
 	}
 }
 
@@ -246,7 +246,10 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		tag = XGG
+		OR = {
+			tag = XGG
+			tag = XGF
+		}
 	}
 	
 	option = {
@@ -292,7 +295,10 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		tag = XGG
+		OR = {
+			tag = XGG
+			tag = XGF
+		}
 	}
 	
 	option = {
@@ -311,7 +317,10 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		tag = XGG
+		OR = {
+			tag = XGG
+			tag = XGF
+		}
 	}
 	
 	option = {
@@ -330,7 +339,10 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		tag = XGG
+		OR = {
+			tag = XGG
+			tag = XGF
+		}
 	}
 	
 	option = {
@@ -446,5 +458,54 @@ country_event = {
 		change_religion = khorne
 		remove_country_modifier = farsight_monat
 		swap_non_generic_missions = yes
+	}
+}
+
+# all province with a siege on parlement
+country_event = {
+	id = farsight_events.17  
+	title = "farsight_events.17.t"
+	desc = "farsight_events.17.d"
+	picture = Khorne_event_picture
+	
+	hidden = yes
+	
+	trigger = {
+		tag = XGG
+		any_core_province = {
+			has_seat_in_parliament = no
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = farsight_events.17.a
+		every_core_province = {
+			limit = {
+				has_seat_in_parliament = no
+			}
+			set_seat_in_parliament = yes 
+		}
+	}
+}
+
+#Tau refuse to send Help
+country_event = {
+	id = farsight_events.18  
+	title = "farsight_events.18.t"
+	desc = "farsight_events.18.d"
+	picture = Khorne_event_picture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = XGG
+	}
+
+	option = {
+		name = farsight_events.18.a
 	}
 }

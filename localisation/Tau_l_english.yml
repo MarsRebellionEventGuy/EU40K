@@ -21,6 +21,10 @@
  tau_events.8.t: "Tau purge"
  tau_events.8.d: "They refuse the greater good. We can't assimilate them, we need to purge them"
  tau_events.8.a: "Choose the greater good or die"
+ tau_events.9.t: "Farsight ask for help"
+ tau_events.9.d: "Farsight ask us for help with the Molochite. He offers to surrender in exchange."
+ tau_events.9.a: "We refuse. Let him sort it out"
+ tau_events.9.b: "We agree, we accept your surrender"
  TAU_end_imperium_invasion_title: "End the Imperium Invasion"
  TAU_end_imperium_invasion_desc: "We must win the second battle of Mu'Gulath Bay"
  TAU_study_FTL_methods_title: "Study FTL Methods"
@@ -56,6 +60,12 @@
  tau_dont_purge: "T'au don't purge"
  tau_events.5.t: "A new culture to integrate into the Greater Good"
  tau_events.5.d: "The ideal of the Greater Good is to integrate other races and their cultures into T'au culture.\nAny individual life of any given member of the Tau Empire is of less importance than the needs of the Empire itself.\n\nStop resisting the Tau Empire and we are promising that you will be allowed to retain your faith as long as it works in accordance with the Greater Good -- Commander Puretide"
+ Nexus_Point: "Nexus Point"
+ Nexus_Point_desc: "The wormhole created by the 4th expansion sphere" 
+ ETHEREAL_COUNCIL_CONTROL_TOOLTIP: "Ethereal council control"
+ MANY_SPECIES_UNDER_CONTROL: "Many species under control"
+
+# assimilation system
  tau_accepte_assimilation: "We must enable their society to embrace the Greater Good."
  tau_assimilate_human_culture: "Humans accept T'Au'Va" 
  tau_assimilate_orpheus_human_culture: "Orpheus humans accept T'Au'Va" 
@@ -127,23 +137,34 @@
  tau_assimilate_xeno_culture: "Xeno accept T'Au'Va" 
  tau_assimilate_sslyth_culture: "Sslyth accept T'Au'Va" 
  tau_assimilate_medusae_culture: "Medusae accept T'Au'Va" 
- Nexus_Point: "Nexus Point"
- Nexus_Point_desc: "The wormhole created by the 4th expansion sphere" 
 
+# Cassus Belli
  cb_tau_vassalize_war: "Vassalization for the Greater Good"
  cb_tau_vassalize_war_desc: "We must lead them to the Greater Good"
  take_capital_tau_vassalize_desc: "conquert the capital"
- 
- 
-# Join the Greater Good peace treaty
+
  PEACE_po_join_the_greater_good: "Join the Greater Good"
  CB_ALLOWED_po_join_the_greater_good: "We ask them to join the greater good"
  po_join_the_greater_good_desc: "We'll follow the greater good"
  propose_to_join_the_greater_good: "Join the T'au'va"
- propose_to_join_the_greater_good_title: "We invite you to join the greater good"
- propose_to_join_the_greater_good_tooltip: "Join the T'au'va"
+ propose_to_join_the_greater_good_title: "Join the T'au'va"
+ propose_to_join_the_greater_good_tooltip: "We invite you to join the greater good"
  propose_to_join_the_greater_good_desc: "We invite you to join the greater good in the T'au Empire. We have much to share with you. You may even retain your beliefs and traditions as long as they do not conflict with the greater good. And please know that refusal would be detrimental."
 
+ cb_tau_return_tau_province: "Return the Tau province"
+ cb_tau_return_tau_province_desc: "Return the Tau province"
+ cb_tau_expend_tau_empire: "Expand the Tau Empire"
+ cb_tau_expend_tau_empire_desc: "Expand the Tau Empire"
+ cb_tau_unite_greater_good: "Unit the Greater Good"
+ cb_tau_unite_greater_good_desc: "Unit the Greater Good"
+
+ VASSALIZE_ACCEPTANCE: "Vassalization acceptance"
+ VASSALIZE_ACCEPTANCE_IDEA: "Vassalization acceptance from Idea"
+ UNIT_GREATER_GOOD_WAR_NAME: "Unit the greater good"
+ 
+ take_capital_unit_greater_good: "Take capital"
+ take_capital_unit_greater_good_desc: "Take capital to unit the greater good"
+ 
 # estate
  ethereal_caste_optimise_fire_caste: "One or more fire caste privilege"
  ethereal_caste_optimise_water_caste: "One or more water caste privilege"

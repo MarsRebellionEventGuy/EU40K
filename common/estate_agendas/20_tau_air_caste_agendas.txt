@@ -39,10 +39,6 @@ estate_air_caste_build_port_building_in_y = {
 	}
 	selection_weight = {
 		factor = 1
-		modifier = {
-			factor = 0.75
-			always = yes
-		}
 	}
 	pre_effect = {
 		set_variable = {
@@ -330,7 +326,7 @@ estate_air_caste_increase_trade_power_in_X = {
 		}
 	}
 	selection_weight = {
-		factor = 1.5
+		factor = 1
 		modifier = { #a good indication that you should be doing trade stuff
 			factor = 2
 			num_of_merchants = 3
@@ -967,19 +963,61 @@ estate_air_caste_protect_against_piracy = {
     }
 }
 
-#Get 3 archeotech provinces
+#Get archeotech provinces
 estate_air_caste_archeotech_trade = {
 	can_select = {
 		is_at_war = no
-		NOT = { archeotech = 2 }
+		NOT = { archeotech = 11 }
 	}
 	selection_weight = {
-		factor = 2.5
-		modifier = {
-			factor = 1.5
-			num_of_colonists = 1
-		}
+		factor = 1
 	}
+    pre_effect = {
+        if = {
+            limit = { archeotech = 0 }
+            set_country_flag = number_archeotech_var0
+        }
+        if = {
+            limit = { archeotech = 1 }
+            set_country_flag = number_archeotech_var1
+        }
+        if = {
+            limit = { archeotech = 2 }
+            set_country_flag = number_archeotech_var2
+        }
+        if = {
+            limit = { archeotech = 3 }
+            set_country_flag = number_archeotech_var3
+        }
+        if = {
+            limit = { archeotech = 4 }
+            set_country_flag = number_archeotech_var4
+        }
+        if = {
+            limit = { archeotech = 5 }
+            set_country_flag = number_archeotech_var5
+        }
+        if = {
+            limit = { archeotech = 6 }
+            set_country_flag = number_archeotech_var6
+        }
+        if = {
+            limit = { archeotech = 7 }
+            set_country_flag = number_archeotech_var7
+        }
+        if = {
+            limit = { archeotech = 8 }
+            set_country_flag = number_archeotech_var8
+        }
+        if = {
+            limit = { archeotech = 9 }
+            set_country_flag = number_archeotech_var9
+        }
+        if = {
+            limit = { archeotech = 10 }
+            set_country_flag = number_archeotech_var10
+        }
+    }
 	provinces_to_highlight = {
 		trade_goods = archeotech
 		OR = {
@@ -1003,8 +1041,51 @@ estate_air_caste_archeotech_trade = {
 			}
 		}
 		else = {
-			archeotech = 3
-		}
+            if = {
+                limit = { has_country_flag = number_archeotech_var0}
+                archeotech = 1
+            }
+            if = {
+                limit = { has_country_flag = number_archeotech_var1}
+                archeotech = 2
+            }
+            if = {
+                limit = { has_country_flag = number_archeotech_var2}
+                archeotech = 3
+            }
+            if = {
+                limit = { has_country_flag = number_archeotech_var3}
+                archeotech = 4
+            }
+            if = {
+                limit = { has_country_flag = number_archeotech_var4}
+                archeotech = 5
+            }
+            if = {
+                limit = { has_country_flag = number_archeotech_var5}
+                archeotech = 6
+            }
+            if = {
+                limit = { has_country_flag = number_archeotech_var6}
+                archeotech = 7
+            }
+            if = {
+                limit = { has_country_flag = number_archeotech_var7}
+                archeotech = 8
+            }
+            if = {
+                limit = { has_country_flag = number_archeotech_var8}
+                archeotech = 9
+            }
+            if = {
+                limit = { has_country_flag = number_archeotech_var9}
+                archeotech = 10
+            }
+            if = {
+                limit = { has_country_flag = number_archeotech_var10}
+                archeotech = 11
+            }
+        }
 	}
     task_completed_effect = {
  
@@ -1029,19 +1110,61 @@ estate_air_caste_archeotech_trade = {
     }
 }
 
-#Get 3 wraithbone provinces
+#Get wraithbone provinces
 estate_air_caste_wraithbone_trade = {
 	can_select = {
 		is_at_war = no
-		NOT = { wraithbone = 2 }
+		NOT = { wraithbone = 11 }
 	}
 	selection_weight = {
-		factor = 2.5
-		modifier = {
-			factor = 1.5
-			num_of_colonists = 1
-		}
+		factor = 1
 	}
+    pre_effect = {
+        if = {
+            limit = { wraithbone = 0 }
+            set_country_flag = number_wraithbone_var0
+        }
+        if = {
+            limit = { wraithbone = 1 }
+            set_country_flag = number_wraithbone_var1
+        }
+        if = {
+            limit = { wraithbone = 2 }
+            set_country_flag = number_wraithbone_var2
+        }
+        if = {
+            limit = { wraithbone = 3 }
+            set_country_flag = number_wraithbone_var3
+        }
+        if = {
+            limit = { wraithbone = 4 }
+            set_country_flag = number_wraithbone_var4
+        }
+        if = {
+            limit = { wraithbone = 5 }
+            set_country_flag = number_wraithbone_var5
+        }
+        if = {
+            limit = { wraithbone = 6 }
+            set_country_flag = number_wraithbone_var6
+        }
+        if = {
+            limit = { wraithbone = 7 }
+            set_country_flag = number_wraithbone_var7
+        }
+        if = {
+            limit = { wraithbone = 8 }
+            set_country_flag = number_wraithbone_var8
+        }
+        if = {
+            limit = { wraithbone = 9 }
+            set_country_flag = number_wraithbone_var9
+        }
+        if = {
+            limit = { wraithbone = 10 }
+            set_country_flag = number_wraithbone_var10
+        }
+    }
 	provinces_to_highlight = {
 		trade_goods = wraithbone
 		OR = {
@@ -1065,8 +1188,51 @@ estate_air_caste_wraithbone_trade = {
 			}
 		}
 		else = {
-			wraithbone = 3
-		}
+            if = {
+                limit = { has_country_flag = number_wraithbone_var0}
+                wraithbone = 1
+            }
+            if = {
+                limit = { has_country_flag = number_wraithbone_var1}
+                wraithbone = 2
+            }
+            if = {
+                limit = { has_country_flag = number_wraithbone_var2}
+                wraithbone = 3
+            }
+            if = {
+                limit = { has_country_flag = number_wraithbone_var3}
+                wraithbone = 4
+            }
+            if = {
+                limit = { has_country_flag = number_wraithbone_var4}
+                wraithbone = 5
+            }
+            if = {
+                limit = { has_country_flag = number_wraithbone_var5}
+                wraithbone = 6
+            }
+            if = {
+                limit = { has_country_flag = number_wraithbone_var6}
+                wraithbone = 7
+            }
+            if = {
+                limit = { has_country_flag = number_wraithbone_var7}
+                wraithbone = 8
+            }
+            if = {
+                limit = { has_country_flag = number_wraithbone_var8}
+                wraithbone = 9
+            }
+            if = {
+                limit = { has_country_flag = number_wraithbone_var9}
+                wraithbone = 10
+            }
+            if = {
+                limit = { has_country_flag = number_wraithbone_var10}
+                wraithbone = 11
+            }
+        }
 	}
     task_completed_effect = {
  
@@ -1091,19 +1257,61 @@ estate_air_caste_wraithbone_trade = {
     }
 }
 
-#Get 3 living_metal provinces
+#Get living_metal provinces
 estate_air_caste_living_metal_trade = {
 	can_select = {
 		is_at_war = no
-		NOT = { living_metal = 2 }
+		NOT = { living_metal = 11 }
 	}
 	selection_weight = {
-		factor = 2.5
-		modifier = {
-			factor = 1.5
-			num_of_colonists = 1
-		}
+		factor = 1
 	}
+    pre_effect = {
+        if = {
+            limit = { living_metal = 0 }
+            set_country_flag = number_living_metal_var0
+        }
+        if = {
+            limit = { living_metal = 1 }
+            set_country_flag = number_living_metal_var1
+        }
+        if = {
+            limit = { living_metal = 2 }
+            set_country_flag = number_living_metal_var2
+        }
+        if = {
+            limit = { living_metal = 3 }
+            set_country_flag = number_living_metal_var3
+        }
+        if = {
+            limit = { living_metal = 4 }
+            set_country_flag = number_living_metal_var4
+        }
+        if = {
+            limit = { living_metal = 5 }
+            set_country_flag = number_living_metal_var5
+        }
+        if = {
+            limit = { living_metal = 6 }
+            set_country_flag = number_living_metal_var6
+        }
+        if = {
+            limit = { living_metal = 7 }
+            set_country_flag = number_living_metal_var7
+        }
+        if = {
+            limit = { living_metal = 8 }
+            set_country_flag = number_living_metal_var8
+        }
+        if = {
+            limit = { living_metal = 9 }
+            set_country_flag = number_living_metal_var9
+        }
+        if = {
+            limit = { living_metal = 10 }
+            set_country_flag = number_living_metal_var10
+        }
+    }
 	provinces_to_highlight = {
 		trade_goods = living_metal
 		OR = {
@@ -1127,8 +1335,51 @@ estate_air_caste_living_metal_trade = {
 			}
 		}
 		else = {
-			living_metal = 3
-		}
+            if = {
+                limit = { has_country_flag = number_living_metal_var0}
+                living_metal = 1
+            }
+            if = {
+                limit = { has_country_flag = number_living_metal_var1}
+                living_metal = 2
+            }
+            if = {
+                limit = { has_country_flag = number_living_metal_var2}
+                living_metal = 3
+            }
+            if = {
+                limit = { has_country_flag = number_living_metal_var3}
+                living_metal = 4
+            }
+            if = {
+                limit = { has_country_flag = number_living_metal_var4}
+                living_metal = 5
+            }
+            if = {
+                limit = { has_country_flag = number_living_metal_var5}
+                living_metal = 6
+            }
+            if = {
+                limit = { has_country_flag = number_living_metal_var6}
+                living_metal = 7
+            }
+            if = {
+                limit = { has_country_flag = number_living_metal_var7}
+                living_metal = 8
+            }
+            if = {
+                limit = { has_country_flag = number_living_metal_var8}
+                living_metal = 9
+            }
+            if = {
+                limit = { has_country_flag = number_living_metal_var9}
+                living_metal = 10
+            }
+            if = {
+                limit = { has_country_flag = number_living_metal_var10}
+                living_metal = 11
+            }
+        }
 	}
     task_completed_effect = {
  
@@ -1153,27 +1404,64 @@ estate_air_caste_living_metal_trade = {
     }
 }
 
-#Get 3 scientific_equipment provinces
+#Get scientific_equipment provinces
 estate_air_caste_scientific_equipment_trade = {
 	can_select = {
 		is_at_war = no
-		NOT = { scientific_equipment = 2 }
+        NOT = { scientific_equipment = 11 }
 	}
 	selection_weight = {
-		factor = 2.5
-		modifier = {
-			factor = 1.5
-			num_of_colonists = 1
-		}
+		factor = 1
 	}
+    pre_effect = {
+        if = {
+            limit = { scientific_equipment = 0 }
+            set_country_flag = number_scientific_equipment_var0
+        }
+        if = {
+            limit = { scientific_equipment = 1 }
+            set_country_flag = number_scientific_equipment_var1
+        }
+        if = {
+            limit = { scientific_equipment = 2 }
+            set_country_flag = number_scientific_equipment_var2
+        }
+        if = {
+            limit = { scientific_equipment = 3 }
+            set_country_flag = number_scientific_equipment_var3
+        }
+        if = {
+            limit = { scientific_equipment = 4 }
+            set_country_flag = number_scientific_equipment_var4
+        }
+        if = {
+            limit = { scientific_equipment = 5 }
+            set_country_flag = number_scientific_equipment_var5
+        }
+        if = {
+            limit = { scientific_equipment = 6 }
+            set_country_flag = number_scientific_equipment_var6
+        }
+        if = {
+            limit = { scientific_equipment = 7 }
+            set_country_flag = number_scientific_equipment_var7
+        }
+        if = {
+            limit = { scientific_equipment = 8 }
+            set_country_flag = number_scientific_equipment_var8
+        }
+        if = {
+            limit = { scientific_equipment = 9 }
+            set_country_flag = number_scientific_equipment_var9
+        }
+        if = {
+            limit = { scientific_equipment = 10 }
+            set_country_flag = number_scientific_equipment_var10
+        }
+    }
+    
 	provinces_to_highlight = {
 		trade_goods = scientific_equipment
-		OR = {
-			has_port = yes
-			any_neighbor_province = {
-				owned_by = root
-			}
-		}
 		has_discovered = root
 		NOT = { owned_by = root }
 	}
@@ -1189,8 +1477,51 @@ estate_air_caste_scientific_equipment_trade = {
 			}
 		}
 		else = {
-			scientific_equipment = 3
-		}
+            if = {
+                limit = { has_country_flag = number_scientific_equipment_var0}
+                scientific_equipment = 1
+            }
+            if = {
+                limit = { has_country_flag = number_scientific_equipment_var1}
+                scientific_equipment = 2
+            }
+            if = {
+                limit = { has_country_flag = number_scientific_equipment_var2}
+                scientific_equipment = 3
+            }
+            if = {
+                limit = { has_country_flag = number_scientific_equipment_var3}
+                scientific_equipment = 4
+            }
+            if = {
+                limit = { has_country_flag = number_scientific_equipment_var4}
+                scientific_equipment = 5
+            }
+            if = {
+                limit = { has_country_flag = number_scientific_equipment_var5}
+                scientific_equipment = 6
+            }
+            if = {
+                limit = { has_country_flag = number_scientific_equipment_var6}
+                scientific_equipment = 7
+            }
+            if = {
+                limit = { has_country_flag = number_scientific_equipment_var7}
+                scientific_equipment = 8
+            }
+            if = {
+                limit = { has_country_flag = number_scientific_equipment_var8}
+                scientific_equipment = 9
+            }
+            if = {
+                limit = { has_country_flag = number_scientific_equipment_var9}
+                scientific_equipment = 10
+            }
+            if = {
+                limit = { has_country_flag = number_scientific_equipment_var10}
+                scientific_equipment = 11
+            }
+        }
 	}
     task_completed_effect = {
  
