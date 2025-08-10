@@ -109,64 +109,6 @@ estate_burghers = {
 		influence = 5
 	}
 	influence_modifier = {
-		desc = EST_VAL_HANSEATIC_CITY
-		trigger = {
-			NOT = { has_reform = free_city }
-			OR = {
-				capital = 1 #Stockholm
-				capital = 6 #Sk ne
-				capital = 23 #Bergen
-				capital = 36 #Reval
-				capital = 38 #Riga
-				capital = 41 #K nigsberg
-				capital = 43 #Danzig
-				capital = 44 #Hamburg
-				capital = 45 #Lubeck
-				capital = 46 #Wismar
-				capital = 47 #Stralsund
-				capital = 52 #Magdeburg
-				capital = 53 #Luneburg
-				capital = 54 #Stade
-				capital = 56 #Osnabruck
-				capital = 57 #Brunswick
-				capital = 85 #K ln
-				capital = 86 #Munster
-				capital = 90 #Bruges
-				capital = 100 #Groningen
-				capital = 236 #London
-				capital = 238 #Ipswich
-				capital = 274 #Pskov
-				capital = 275 #Polotsk
-				capital = 310 #Novgorod
-				capital = 1744 # Antwerp
-				capital = 1834 # Dorpat
-				capital = 1858 # Stettin
-				capital = 1859 # Torun
-				capital = 1860 # Bishop's Lynn
-				capital = 1874 # Bremen
-				capital = 1936 # Kaunas
-				capital = 2994 # Greifswald
-				capital = 2995 # Stolp
-			}
-		}	
-		influence = 5
-	}
-	influence_modifier = {
-		desc = EST_VAL_EAST_AFRICAN_TRADE_CITIES
-		trigger = {
-			capital_scope = {
-				OR = {
-					area = central_swahili_coast_area
-					area = mombasa_area
-					area = mozambique_area
-					area = northern_swahili_coast_area
-					area = mogadishu_area
-				}
-			}
-		}
-		influence = 5
-	}
-	influence_modifier = {
 		desc = EST_VAL_LOW_TRADE_INCOME
 		trigger = {
 			NOT = { trade_income_percentage = 0.25 }
@@ -295,6 +237,7 @@ estate_burghers = {
 		estate_burghers_AZT_mexican_gold_mines
 		estate_burghers_fugger_family
 		estate_burghers_TIM_gulf_toll
+		estate_burghers_XXA_navis_nobilite
 	}
 
 	agendas = {
@@ -319,9 +262,6 @@ estate_burghers = {
 		estate_burghers_colonise_more_X
 		estate_burghers_colonial_nation
 		estate_burghers_expand_trade_company
-		estate_burghers_trade_post_in_india
-		estate_burghers_trade_post_in_malacca
-		estate_burghers_trade_post_in_china
 		estate_burghers_silk_trade
 		estate_burghers_spice_trade
 		estate_burghers_tea_trade

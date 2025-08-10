@@ -11,4 +11,8 @@ spriteTypes = {
 		name = "privilege_adeptus_ministorum"
 		texturefile = "gfx/interface/privileges/privilege_adeptus_ministorum.dds"
 	}
+	textSpriteType = {
+		name = "privilege_navis_nobilite"
+		texturefile = "gfx/interface/privileges/privilege_navis_nobilite.dds"
+	}
 }

@@ -694,3 +694,8 @@ tyr_firestarter = {
 	siege_ability = 0.05
 	picture = morale_damage
 }
+
+xxa_navis_nobilte_privilege = {
+	min_local_autonomy = 75
+	local_unrest = -5
+}

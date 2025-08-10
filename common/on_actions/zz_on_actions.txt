@@ -40,6 +40,7 @@ on_startup={
 			set_estate_privilege = estate_nobles_land_rights
 			set_estate_privilege = estate_burghers_economical_boost
 			set_estate_privilege = estate_burghers_private_trade_fleets
+			set_estate_privilege = estate_burghers_XXA_navis_nobilite
 			set_estate_privilege = estate_inquisition_independent_action
 			set_estate_privilege = estate_inquisition_right_exterminatus
 			set_estate_privilege = estate_mechanicus_treaty_olympus
