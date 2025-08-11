@@ -492,6 +492,9 @@
  XXA_eagles_second_head_title: "The Eagles Second Head"
  XXA_mechanicus_ties_title: "Mechanicus Ties"
  
+ 
+ EVTNAMEsector_formation_events_1: "Restoration of the [Root.GetName]"
+ 
  low_heka_action_tt: "Delegate Authority"
  high_heka_action_tt: "Declare Hekatic Truth"
  heka_action_notavailable:0 "You can only use a §YHekatic Action§! once every §Y5§! years."

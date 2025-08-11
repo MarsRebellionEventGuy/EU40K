@@ -677,11 +677,15 @@ XXA_Branch_2 = {
 		provinces_to_highlight = {
 			area = nachmund_gauntlet
 			is_controlled_by_imperium = no
+			is_aeldari_world = no
 		}
 		trigger = { 
 			nachmund_gauntlet= {
 				type = all
-				is_controlled_by_imperium = yes
+				OR = {
+					is_controlled_by_imperium = yes
+					is_aeldari_world = yes
+				}
 			}
 			4082 = {
 				owned_by = ROOT
@@ -1789,7 +1793,13 @@ XXA_Branch_5 = {
 		icon = mission_build_up_to_force_limit
 		position = 13
 		required_missions = { XXA_pariah_crusade XXA_aid_metalica }
-		trigger = { }
+		trigger = { 
+			OR={
+				event_target:adeptus_mechanicus_tag={
+					#Mechanicus has finished mission: Secure Blackstone
+				}
+			}
+		}
 		effect = { }
 	}
 	XXA_secrets_pylons = {

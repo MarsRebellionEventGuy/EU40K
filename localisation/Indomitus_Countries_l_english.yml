@@ -1209,6 +1209,19 @@
  XUG_ADJ:0 "New Kingdom"
  
  
+ ZSX:0 "Octarius Sector"
+ ZSX_ADJ:0 "Octarius Sector"
+ ZTB:0 "Inwit Cluster Sector"
+ ZTB_ADJ:0 "Inwit Cluster Sector"
+ ZTE:0 "Karthago Sector"
+ ZTE_ADJ:0 "Karthago Sector"
+ ZTF:0 "Fenris Sector"
+ ZTF_ADJ:0 "Fenris Sector"
+ ZTG:0 "Golgothan Sector"
+ ZTG_ADJ:0 "Golgothan Sector"
+ ZTH:0 "Agripinaa Sector"
+ ZTH_ADJ:0 "Agripinaa Sector"
+ 
  ZXB:0 "Vanaheim"
  ZXB_ADJ:0 "Vanaheim"
  AAA:0 "Aeldari Empire"
@@ -1217,6 +1230,8 @@
  AAB_ADJ:0 "Nihilus"
  XUH:0 "Infinite Empire"
  XUH_ADJ:0 "Necron"
+ AAC:0 "Infinite Empire"
+ AAC_ADJ:0 "Necron"
  AAD:0 "Dark Empire"
  AAD_ADJ:0 "Dark Imperial"
  AAE:0 "World Eaters"
