@@ -19,15 +19,8 @@ Farsight_col_1 = {
 		
 		required_missions = { Consolidate_first_expansion_Sphere }
 		trigger = {
-			XEV = {
-				OR = {
-					has_opinion = {
-						who = ROOT
-						value = 200
-					}
-					core_claim = ROOT
-				}
-			}
+			is_at_war = no
+			has_discovered = 1931 # capital of XEV
 		}
 		effect = { 
 			country_event = { id = farsight_events.10 }
@@ -222,15 +215,8 @@ Farsight_col_2 = {
             owned_by = XGK
         }
 		trigger = {
-			XGK = {
-				OR = {
-					has_opinion = {
-						who = ROOT
-						value = 200
-					}
-					core_claim = ROOT
-				}
-			}
+			is_at_war = no
+			has_discovered = 1915 # capital of XGK
 		}
 		effect = { 
 			country_event = { id = farsight_events.8 }
@@ -956,15 +942,8 @@ Farsight_col_4_2 = {
 			owned_by = XIV
 		}
 		trigger = {
-			XIV = {
-				OR = {
-					has_opinion = {
-						who = ROOT
-						value = 200
-					}
-					core_claim = ROOT
-				}
-			}
+			is_at_war = no
+			has_discovered = 2868 # capital of XIV
 		}
 		effect = { 
 			country_event = { id = farsight_events.11 }
@@ -1098,15 +1077,8 @@ Farsight_col_5 = {
 			owned_by = XIA
 		}
 		trigger = {
-			XIA = {
-				OR = {
-					has_opinion = {
-						who = ROOT
-						value = 200
-					}
-					core_claim = ROOT
-				}
-			}
+			is_at_war = no
+			has_discovered = 2919 # capital of XIA
 		}
 		effect = { 
 			country_event = { id = farsight_events.12 }

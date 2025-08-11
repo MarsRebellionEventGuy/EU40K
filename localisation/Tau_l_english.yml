@@ -65,6 +65,10 @@
  ETHEREAL_COUNCIL_CONTROL_TOOLTIP: "Ethereal council control"
  MANY_SPECIES_UNDER_CONTROL: "Many species under control"
 
+# reform
+assimilation_of_others_reform: "Assimilation of others"
+assimilation_of_others_reform_desc: "When we assimilate a culture, we must let other planets of that culture know the luck of those who follow the greater good"
+
 # assimilation system
  tau_accepte_assimilation: "We must enable their society to embrace the Greater Good."
  tau_assimilate_human_culture: "Humans accept T'Au'Va" 

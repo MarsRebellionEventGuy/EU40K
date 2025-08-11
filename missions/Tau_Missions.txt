@@ -91,15 +91,8 @@ Tau_1 = {
 		
 		required_missions = { }
 		trigger = {
-			XEV = {
-				OR = {
-					has_opinion = {
-						who = ROOT
-						value = 200
-					}
-					core_claim = ROOT
-				}
-			}
+			is_at_war = no
+			has_discovered = 1931 # capital of XEV
 		}
 		effect = { 
 			country_event = { id = farsight_events.10 }
@@ -459,15 +452,8 @@ Tau_2 = {
             owned_by = XGK
         }
 		trigger = {
-			XGK = {
-				OR = {
-					has_opinion = {
-						who = ROOT
-						value = 200
-					}
-					core_claim = ROOT
-				}
-			}
+			is_at_war = no
+			has_discovered = 1915 # capital of XGK
 		}
 		effect = { 
 			country_event = { id = farsight_events.8 }
@@ -582,7 +568,7 @@ Farsight_fate_ultramar_conquest_branch = {
 }
 
 Tau_2.2 = {
-	slot = 1
+	slot = 2
 	generic = no
 	ai = yes
 	potential = {
@@ -668,49 +654,6 @@ TAU_start_3 = {
                 duration = -1  
                 desc = ETHEREAL_COUNCIL_CONTROL_TOOLTIP
             }
-		}
-		ai_weight = {
-			factor = 100
-		}
-	}
-
-	TAU_greater_good_tau_region = {
-		icon = mission_build_up_to_force_limit
-		position = 4
-		required_missions = { TAU_forth_sphere_preperations TAU_end_farsight }
-		provinces_to_highlight = {
-			region = tau_region
-			OR={
-				is_city = no
-				owner={
-					NOT = { religion = greater_good }
-					NOT = { secondary_religion = greater_good }
-					NOT = { is_subject_of = ROOT }
-				}
-			}
-		}
-		trigger = {
-			tau_region = {
-				type = all
-				is_city = yes
-				owner={
-					OR={
-                        tag = ROOT
-                        AND = {
-                            religion = greater_good
-                            is_subject_of = ROOT
-                        }
-					}
-				}
-			}
-		}
-		effect = {
-			tau_region = 
-			{
-				add_base_tax = 2
-				add_base_production = 2
-				add_base_manpower = 2
-			}
 		}
 		ai_weight = {
 			factor = 100
@@ -900,6 +843,49 @@ TAU_start_4 = {
 			factor = 100
 		}
 	}
+	
+	TAU_greater_good_tau_region = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { TAU_forth_sphere_preperations TAU_end_farsight }
+		provinces_to_highlight = {
+			region = tau_region
+			OR={
+				is_city = no
+				owner={
+					NOT = { religion = greater_good }
+					NOT = { secondary_religion = greater_good }
+					NOT = { is_subject_of = ROOT }
+				}
+			}
+		}
+		trigger = {
+			tau_region = {
+				type = all
+				is_city = yes
+				owner={
+					OR={
+                        tag = ROOT
+                        AND = {
+                            religion = greater_good
+                            is_subject_of = ROOT
+                        }
+					}
+				}
+			}
+		}
+		effect = {
+			tau_region = 
+			{
+				add_base_tax = 2
+				add_base_production = 2
+				add_base_manpower = 2
+			}
+		}
+		ai_weight = {
+			factor = 100
+		}
+	}
 
 	Fate_of_Iyanden = {
 		icon = mission_fate_of_Iyanden
@@ -1036,7 +1022,9 @@ TAU_start_5 = {
 	}
 	has_country_shield = yes
 
-    	Understanding_of_webway_technology = {
+
+
+    Understanding_of_webway_technology = {
 		icon = mission_Understanding_of_webway_technology
 		position = 9
 		

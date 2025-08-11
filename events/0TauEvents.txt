@@ -382,3 +382,76 @@ country_event = {
         ai_chance = { factor = 0 }
     }
 }
+
+# No bad culture accepted
+country_event = {
+	id = tau_events.10
+	title = "tau_events.10.t"
+	desc = "tau_events.10.d"
+	picture = Farsight_aunva_event_picture
+    
+    hidden = yes
+    
+    trigger = {
+		OR = {
+			accepted_culture = ork_culture
+			accepted_culture = freebooter_culture
+			accepted_culture = drukhari_culture
+			accepted_culture = tyranid_culture
+			accepted_culture = genestealer_culture
+			accepted_culture = chaos_culture
+			accepted_culture = heretic_astartes_culture
+			accepted_culture = dark_mechanicum_culture
+			accepted_culture = chaos_knight_culture
+			accepted_culture = noculture
+		}
+    }
+    
+    immediate = {
+    }
+    
+    option = {
+        name = "tau_events.10.a"
+        
+		if = { 
+			limit = { accepted_culture = ork_culture }
+			remove_accepted_culture = ork_culture
+		}
+		if = { 
+			limit = { accepted_culture = freebooter_culture }
+			remove_accepted_culture = freebooter_culture
+		}
+		if = { 
+			limit = { accepted_culture = drukhari_culture }
+			remove_accepted_culture = drukhari_culture
+		}
+		if = { 
+			limit = { accepted_culture = tyranid_culture }
+			remove_accepted_culture = tyranid_culture
+		}
+		if = { 
+			limit = { accepted_culture = genestealer_culture }
+			remove_accepted_culture = genestealer_culture
+		}
+		if = { 
+			limit = { accepted_culture = chaos_culture }
+			remove_accepted_culture = chaos_culture
+		}
+		if = { 
+			limit = { accepted_culture = heretic_astartes_culture }
+			remove_accepted_culture = heretic_astartes_culture
+		}
+		if = { 
+			limit = { accepted_culture = dark_mechanicum_culture }
+			remove_accepted_culture = dark_mechanicum_culture
+		}
+		if = { 
+			limit = { accepted_culture = chaos_knight_culture }
+			remove_accepted_culture = chaos_knight_culture
+		}
+		if = { 
+			limit = { accepted_culture = noculture }
+			remove_accepted_culture = noculture
+		}
+	}
+}
