@@ -21,6 +21,15 @@ Farsight_col_1 = {
 		trigger = {
 			is_at_war = no
 			has_discovered = 1931 # capital of XEV
+			XEV = {
+				OR = {
+					has_opinion = {
+						who = ROOT
+						value = 150
+					}
+					core_claim = ROOT
+				}
+			}
 		}
 		effect = { 
 			country_event = { id = farsight_events.10 }
@@ -176,7 +185,7 @@ Farsight_col_2 = {
 			}
 		}
 		ai_weight = {
-			factor = 10
+			factor = 100
 		}
 	}
 
@@ -203,7 +212,7 @@ Farsight_col_2 = {
 			}
 		}
 		ai_weight = {
-			factor = 10
+			factor = 100
 		}
 	}
 
@@ -217,6 +226,15 @@ Farsight_col_2 = {
 		trigger = {
 			is_at_war = no
 			has_discovered = 1915 # capital of XGK
+			XGK = {
+				OR = {
+					has_opinion = {
+						who = ROOT
+						value = 150
+					}
+					core_claim = ROOT
+				}
+			}
 		}
 		effect = { 
 			country_event = { id = farsight_events.8 }
@@ -385,6 +403,9 @@ Farsight_col_2_2 = {
 				3088 = { center_of_trade = 3 }
 			}
 		}
+		ai_weight = {
+			factor = 100
+		}
 	}
 
 	Remove_tyranid_from_galaxy = {
@@ -409,7 +430,7 @@ Farsight_col_2_2 = {
 			}
 		}
 		ai_weight = {
-			factor = 10
+			factor = 100
 		}
 	}
 }
@@ -433,10 +454,20 @@ Farsight_col_3 = {
 			is_at_war = no
 		}
 		effect = {
-			add_claim = 1883
+			add_permanent_claim = 1883
+			if = {
+				limit = {
+					exists = XGL
+					is_subject = no
+				}
+				declare_war_with_cb = {
+					who = XGL
+					casus_belli = cb_annex
+				}
+			}
 		}
 		ai_weight = {
-			factor = 10
+			factor = 100
 		}
 	}
 
@@ -455,7 +486,7 @@ Farsight_col_3 = {
 			country_event = { id = farsight_events.6 }
 		}
 		ai_weight = {
-			factor = 10
+			factor = 100
 		}
 	}
 
@@ -492,6 +523,9 @@ Farsight_col_3 = {
 			XGG = { add_historical_rival = XGF }
 			XGF = { add_historical_rival = XGG }
 		}
+		ai_weight = {
+			factor = 100
+		}
 	}
 
 	Only_one_tauva = {
@@ -519,6 +553,9 @@ Farsight_col_3 = {
 			else = {
 				1898 = { center_of_trade = 1 }
 			}
+		}
+		ai_weight = {
+			factor = 100
 		}
 	}
 
@@ -553,6 +590,9 @@ Farsight_col_3 = {
 				add_base_production = 2
 				add_base_manpower = 2
 			}
+		}
+		ai_weight = {
+			factor = 100
 		}
 	}
 	
@@ -598,6 +638,9 @@ Farsight_col_3 = {
 				add_base_manpower = 2
 			}
 		}
+		ai_weight = {
+			factor = 100
+		}
 	}
 	
 	Consolidate_first_expansion_Sphere = {
@@ -625,6 +668,9 @@ Farsight_col_3 = {
 		}
 		effect = { 
 			country_event = { id = farsight_events.9 }
+		}
+		ai_weight = {
+			factor = 100
 		}
 	}
 	
@@ -704,6 +750,9 @@ Farsight_col_3 = {
 				add_base_manpower = 2
 			}
 		}
+		ai_weight = {
+			factor = 100
+		}
 	}
 	
 	Consolidate_second_expansion_Sphere = {
@@ -732,6 +781,9 @@ Farsight_col_3 = {
 		effect = { 
 			country_event = { id = farsight_events.13 }
 		}
+		ai_weight = {
+			factor = 100
+		}
 	}
 	
 	Farsight_conquest_of_the_galaxy = {
@@ -748,7 +800,11 @@ Farsight_col_3 = {
 		effect = { 
 			country_event = { id = farsight_events.14 }
 		}
+		ai_weight = {
+			factor = 100
+		}
 	}
+	
 }
 
 Farsight_col_4 = {
@@ -783,7 +839,7 @@ Farsight_col_4 = {
 			add_stability_or_adm_power = yes
 		}
 		ai_weight = {
-			factor = 10
+			factor = 100
 		}
 	}
 	
@@ -810,7 +866,7 @@ Farsight_col_4 = {
 			}
 		}
 		ai_weight = {
-			factor = 10
+			factor = 100
 		}
 	}
 
@@ -944,6 +1000,15 @@ Farsight_col_4_2 = {
 		trigger = {
 			is_at_war = no
 			has_discovered = 2868 # capital of XIV
+			XIV = {
+				OR = {
+					has_opinion = {
+						who = ROOT
+						value = 150
+					}
+					core_claim = ROOT
+				}
+			}
 		}
 		effect = { 
 			country_event = { id = farsight_events.11 }
@@ -1079,6 +1144,15 @@ Farsight_col_5 = {
 		trigger = {
 			is_at_war = no
 			has_discovered = 2919 # capital of XIA
+			XIA = {
+				OR = {
+					has_opinion = {
+						who = ROOT
+						value = 150
+					}
+					core_claim = ROOT
+				}
+			}
 		}
 		effect = { 
 			country_event = { id = farsight_events.12 }
@@ -1111,9 +1185,6 @@ Farsight_col_5 = {
 				duration = -1
 			}
 			remove_country_modifier = ether_drive_ftl
-		}
-		ai_weight = {
-			factor = 10
 		}
 	}
 	

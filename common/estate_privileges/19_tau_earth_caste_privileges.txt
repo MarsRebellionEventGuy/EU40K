@@ -6,6 +6,10 @@ estate_earth_caste_kejata_idea = {
 	
 	can_select = {
 		advisor = natural_scientist
+		num_of_estate_agendas_completed = {
+			estate = estate_earth_caste
+			value = 1
+		}
 	}
 	on_granted = { 
 		caste_privilege_counter_on_granted_effect = { CASTE = earth_caste } 
@@ -39,6 +43,10 @@ estate_earth_caste_monetary_control = {
 
 	can_select = {
 		advisor = treasurer
+		num_of_estate_agendas_completed = {
+			estate = estate_earth_caste
+			value = 2
+		}
 	}
 
 	on_granted = { 
@@ -73,6 +81,10 @@ estate_earth_caste_kabuto_laboratory = {
 	
 	can_select = {
 		advisor = natural_scientist
+		num_of_estate_agendas_completed = {
+			estate = estate_earth_caste
+			value = 3
+		}
 	}
 	on_granted = { 
 		caste_privilege_counter_on_granted_effect = { CASTE = earth_caste } 
@@ -108,6 +120,10 @@ estate_earth_caste_worldshaper_idea = {
 	
 	can_select = {
 		advisor = colonial_governor
+		num_of_estate_agendas_completed = {
+			estate = estate_earth_caste
+			value = 4
+		}
 	}
 	on_granted = { 
 		caste_privilege_counter_on_granted_effect = { CASTE = earth_caste } 
@@ -143,6 +159,10 @@ estate_earth_caste_tulen_idea = {
 	
 	can_select = {
 		advisor = fortification_expert
+		num_of_estate_agendas_completed = {
+			estate = estate_earth_caste
+			value = 5
+		}
 	}
 	on_granted = { 
 		caste_privilege_counter_on_granted_effect = { CASTE = earth_caste } 
@@ -156,7 +176,7 @@ estate_earth_caste_tulen_idea = {
 		artillery_cost = 0.10
 	}
 	benefits = {
-		yearly_innovativeness = 0.5
+		yearly_innovativeness = 0.25
 	}
 
 	ai_will_do = {
@@ -176,6 +196,10 @@ estate_earth_caste_fed_and_supplied = {
 	
 	can_select = {
 		has_reform = earth_caste_improved_reform
+		num_of_estate_agendas_completed = {
+			estate = estate_earth_caste
+			value = 6
+		}
 	}
 	on_granted = { 
 		caste_privilege_counter_on_granted_effect = { CASTE = earth_caste } 

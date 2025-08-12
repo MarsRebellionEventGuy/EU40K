@@ -5,6 +5,10 @@ estate_fire_caste_code_of_fire = {
 	influence = 0.10
 	
 	can_select = {
+		num_of_estate_agendas_completed = {
+			estate = estate_fire_caste
+			value = 1
+		}
 	}
 	on_granted = { 
 		caste_privilege_counter_on_granted_effect = { CASTE = fire_caste } 
@@ -37,7 +41,10 @@ estate_fire_caste_generalize_the_teaching_of_Puretide = {
 	influence = 0.10
 
 	can_select = {
-		gold_income = 50
+		num_of_estate_agendas_completed = {
+			estate = estate_fire_caste
+			value = 2
+		}
 	}
 
 	on_granted = { 
@@ -66,10 +73,6 @@ estate_fire_caste_generalize_the_teaching_of_Puretide = {
 			factor = 0
 			ruler_has_personality = craven_personality
 		}
-		modifier = {
-			factor = 0
-			NOT = { gold_income = 50 }
-		}
 	}
 }
 
@@ -80,7 +83,10 @@ estate_fire_caste_more_Herexevre = {
 	influence = 0.10
 	
 	can_select = {
-		manpower = 10
+		num_of_estate_agendas_completed = {
+			estate = estate_fire_caste
+			value = 3
+		}
 	}
 	on_granted = { 
 		caste_privilege_counter_on_granted_effect = { CASTE = fire_caste } 
@@ -94,7 +100,7 @@ estate_fire_caste_more_Herexevre = {
 		manpower_recovery_speed = -0.10
 	}
 	benefits = {
-		yearly_army_professionalism = 0.01
+		yearly_army_professionalism = 0.005
 	}
 
 	ai_will_do = {
@@ -114,39 +120,6 @@ estate_fire_caste_more_Herexevre = {
 	}
 }
 
-estate_fire_caste_more_Shasartol = {
-	icon = privilege_limited_war_support
-	
-	loyalty = -0.10
-	influence = 0.10
-	
-	can_select = {
-		has_reform = fire_caste_improved_reform
-	}
-	on_granted = { 
-		caste_privilege_counter_on_granted_effect = { CASTE = fire_caste } 
-	} 
-	
-	on_revoked = { 
-		caste_privilege_counter_on_revoked_effect = { CASTE = fire_caste } 
-	}
-	
-	penalties = {
-		advisor_cost = 0.2
-	}
-	benefits = {
-		country_military_power = 1
-	}
-
-	ai_will_do = {
-		factor = 10
-		modifier = {
-			factor = 0
-			ruler_has_personality = craven_personality
-		}
-	}
-}
-
 estate_fire_caste_advanced_Kauyon = {
 	icon = privilege_limited_war_support
 	
@@ -155,6 +128,10 @@ estate_fire_caste_advanced_Kauyon = {
 	
 	can_select = {
 		has_reform = fire_caste_improved_reform
+		num_of_estate_agendas_completed = {
+			estate = estate_fire_caste
+			value = 4
+		}
 	}
 	on_granted = { 
 		caste_privilege_counter_on_granted_effect = { CASTE = fire_caste } 
@@ -200,6 +177,10 @@ estate_fire_caste_advanced_Montka = {
 	
 	can_select = {
 		has_reform = fire_caste_improved_reform
+		num_of_estate_agendas_completed = {
+			estate = estate_fire_caste
+			value = 5
+		}
 	}
 	on_granted = { 
 		caste_privilege_counter_on_granted_effect = { CASTE = fire_caste } 
@@ -234,6 +215,43 @@ estate_fire_caste_advanced_Montka = {
 		modifier = {
 			factor = 10
 			has_reform = montka_reform
+		}
+	}
+}
+
+estate_fire_caste_more_Shasartol = {
+	icon = privilege_limited_war_support
+	
+	loyalty = -0.10
+	influence = 0.10
+	
+	can_select = {
+		has_reform = fire_caste_improved_reform
+		num_of_estate_agendas_completed = {
+			estate = estate_fire_caste
+			value = 6
+		}
+	}
+	on_granted = { 
+		caste_privilege_counter_on_granted_effect = { CASTE = fire_caste } 
+	} 
+	
+	on_revoked = { 
+		caste_privilege_counter_on_revoked_effect = { CASTE = fire_caste } 
+	}
+	
+	penalties = {
+		advisor_cost = 0.2
+	}
+	benefits = {
+		country_military_power = 1
+	}
+
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			ruler_has_personality = craven_personality
 		}
 	}
 }

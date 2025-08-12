@@ -6,6 +6,10 @@ estate_air_caste_navy_training = {
 	
 	can_select = {
 		advisor = navigator
+		num_of_estate_agendas_completed = {
+			estate = estate_air_caste
+			value = 1
+		}
 	}
 	on_granted = { 
 		caste_privilege_counter_on_granted_effect = { CASTE = air_caste } 
@@ -39,6 +43,10 @@ estate_air_caste_advanced_exchange = {
 
 	can_select = {
 		advisor = trader
+		num_of_estate_agendas_completed = {
+			estate = estate_air_caste
+			value = 2
+		}
 	}
 
 	on_granted = { 
@@ -53,7 +61,7 @@ estate_air_caste_advanced_exchange = {
 		trade_efficiency = -0.05
 	}
 	benefits = {
-		global_trade_goods_size = 0.5
+		global_trade_goods_size = 0.25
 	}
 
 	ai_will_do = {
@@ -73,6 +81,10 @@ estate_air_caste_vanan_legacy = {
 	
 	can_select = {
 		advisor = naval_reformer
+		num_of_estate_agendas_completed = {
+			estate = estate_air_caste
+			value = 3
+		}
 	}
 	on_granted = { 
 		caste_privilege_counter_on_granted_effect = { CASTE = air_caste } 
@@ -106,6 +118,10 @@ estate_air_caste_training_of_korvatra = {
 	
 	can_select = {
 		advisor = colonial_governor
+		num_of_estate_agendas_completed = {
+			estate = estate_air_caste
+			value = 4
+		}
 	}
 	on_granted = { 
 		caste_privilege_counter_on_granted_effect = { CASTE = air_caste } 
@@ -139,6 +155,10 @@ estate_air_caste_elite_marine = {
 	
 	can_select = {
 		advisor = fortification_expert
+		num_of_estate_agendas_completed = {
+			estate = estate_air_caste
+			value = 5
+		}
 	}
 	on_granted = { 
 		caste_privilege_counter_on_granted_effect = { CASTE = air_caste } 
@@ -172,6 +192,10 @@ estate_air_caste_transport_efficiency = {
 	
 	can_select = {
 		has_reform = air_caste_improved_reform
+		num_of_estate_agendas_completed = {
+			estate = estate_air_caste
+			value = 6
+		}
 	}
 	on_granted = { 
 		caste_privilege_counter_on_granted_effect = { CASTE = air_caste } 

@@ -14,14 +14,14 @@ Tau_1 = {
 		trigger = {
 			OR={
 				any_country = {
-					religion_group = emperor_group
+					culture_group = imperial_culture_group
 					has_spy_network_from = {
 						who = ROOT
 						value = 80
 					}
 				}
                 any_country = {
-                    religion_group = emperor_group
+                    culture_group = imperial_culture_group
                     is_subject_of = ROOT
                 }
 			}
@@ -93,6 +93,15 @@ Tau_1 = {
 		trigger = {
 			is_at_war = no
 			has_discovered = 1931 # capital of XEV
+			XEV = {
+				OR = {
+					has_opinion = {
+						who = ROOT
+						value = 150
+					}
+					core_claim = ROOT
+				}
+			}
 		}
 		effect = { 
 			country_event = { id = farsight_events.10 }
@@ -356,7 +365,7 @@ Tau_2 = {
 		position = 4
 		required_missions = { TAU_forth_sphere_preperations }
 		trigger = {
-			num_accepted_cultures = 10
+			num_accepted_cultures = 8
 		}
 		effect = {
             add_country_modifier = {
@@ -454,6 +463,15 @@ Tau_2 = {
 		trigger = {
 			is_at_war = no
 			has_discovered = 1915 # capital of XGK
+			XGK = {
+				OR = {
+					has_opinion = {
+						who = ROOT
+						value = 150
+					}
+					core_claim = ROOT
+				}
+			}
 		}
 		effect = { 
 			country_event = { id = farsight_events.8 }
@@ -670,6 +688,15 @@ TAU_start_3 = {
 		trigger = {
             is_at_war = no
 			has_discovered = 2868 # capital of XIV
+			XIV = {
+				OR = {
+					has_opinion = {
+						who = ROOT
+						value = 150
+					}
+					core_claim = ROOT
+				}
+			}
 		}
 		effect = { 
 			country_event = { id = farsight_events.11 }
@@ -898,6 +925,15 @@ TAU_start_4 = {
 		trigger = {
 			is_at_war = no
 			has_discovered = 2919 # capital of XIA
+			XIA = {
+				OR = {
+					has_opinion = {
+						who = ROOT
+						value = 150
+					}
+					core_claim = ROOT
+				}
+			}
 		}
 		effect = { 
 			country_event = { id = farsight_events.12 }

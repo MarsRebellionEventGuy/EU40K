@@ -233,6 +233,14 @@ country_event = {
 		name = farsight_events.7.a
 		add_manpower = -15
 		add_war_exhaustion = 10
+		hidden_effect = {
+			XGF = {
+				country_event = {
+					id = tau_events.9
+					days = 5
+				}
+			}
+		}
 	}
 }
 

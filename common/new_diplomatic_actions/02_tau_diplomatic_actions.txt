@@ -28,7 +28,7 @@ propose_to_join_the_greater_good = {
     # Determines when the action can be taken
     is_allowed = {
 		is_at_war = no
-		
+		NOT = { truce_with FROM }
 		OR = {
 			dominant_religion = greater_good
 			border_distance = {
@@ -40,6 +40,20 @@ propose_to_join_the_greater_good = {
     
     # Which effects to execute on acceptance
     on_accept = {
+		if = {
+			limit = {
+				FROM = { is_subject = yes }
+			}
+			random_country = {
+				limit = { overlord_of = FROM }
+				add_aggressive_expansion = {
+					who = ROOT
+					value = 50
+					apply_calc = yes
+				}
+			}
+		}
+	
         create_subject = {
 			subject_type = tau_auxiliary
 			subject = FROM
@@ -180,6 +194,17 @@ propose_to_join_the_greater_good = {
 			name = VASSALIZE_ACCEPTANCE
             limit = {
 				has_estate_privilege = estate_water_caste_deploiement_of_volescur
+			}
+			export_to_variable = {
+				variable_name = ai_value
+				value = 20
+			}
+		}
+		add_entry = {
+			name = VASSALIZE_ACCEPTANCE
+            limit = {
+				has_estate_privilege = estate_water_caste_deploiement_of_volescur
+				has_estate_privilege = estate_ethereal_caste_optimise_water_caste
 			}
 			export_to_variable = {
 				variable_name = ai_value

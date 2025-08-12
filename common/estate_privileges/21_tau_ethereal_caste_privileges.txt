@@ -6,6 +6,10 @@ estate_ethereal_caste_ethereal_cohesion = {
 	
 	can_select = {
 		advisor = inquisitor
+		num_of_estate_agendas_completed = {
+			estate = estate_ethereal_caste
+			value = 1
+		}
 	}
 	on_granted = { 
 		caste_privilege_counter_on_granted_effect = { CASTE = ethereal_caste } 
@@ -42,6 +46,10 @@ estate_ethereal_caste_optimise_fire_caste = {
 			tooltip = ethereal_caste_optimise_fire_caste
 			has_tau_caste_privilege = { CASTE = fire_caste }
 		}
+		num_of_estate_agendas_completed = {
+			estate = estate_ethereal_caste
+			value = 5
+		}
 	}
 
 	on_granted = { 
@@ -69,7 +77,7 @@ estate_ethereal_caste_optimise_fire_caste = {
  	}
 	conditional_modifier = {
  		trigger = { has_estate_privilege = estate_fire_caste_more_Herexevre }
- 		modifier = { yearly_army_professionalism = 0.01 }
+ 		modifier = { yearly_army_professionalism = 0.005 }
  		is_bad = no	
  	}
 	conditional_modifier = {
@@ -104,7 +112,14 @@ estate_ethereal_caste_optimise_water_caste = {
 	influence = 0.10
 	
 	can_select = {
-		has_tau_caste_privilege = { CASTE = water_caste }
+		custom_trigger_tooltip = {
+			tooltip = ethereal_caste_optimise_fire_caste
+			has_tau_caste_privilege = { CASTE = water_caste }
+		}
+		num_of_estate_agendas_completed = {
+			estate = estate_ethereal_caste
+			value = 5		
+		}
 	}
 	on_granted = { 
 		caste_privilege_counter_on_granted_effect = { CASTE = ethereal_caste } 
@@ -165,7 +180,14 @@ estate_ethereal_caste_optimise_earth_caste = {
 	influence = 0.10
 	
 	can_select = {
-		has_tau_caste_privilege = { CASTE = earth_caste }
+		custom_trigger_tooltip = {
+			tooltip = ethereal_caste_optimise_fire_caste
+			has_tau_caste_privilege = { CASTE = earth_caste }
+			}
+		num_of_estate_agendas_completed = {
+			estate = estate_ethereal_caste
+			value = 5
+		}
 	}
 	on_granted = { 
 		caste_privilege_counter_on_granted_effect = { CASTE = ethereal_caste } 
@@ -201,7 +223,7 @@ estate_ethereal_caste_optimise_earth_caste = {
  	}
 	conditional_modifier = {
  		trigger = { has_estate_privilege = estate_earth_caste_tulen_idea }
- 		modifier = { yearly_innovativeness = 0.5 }
+ 		modifier = { yearly_innovativeness = 0.25 }
  		is_bad = no	
  	}
 	conditional_modifier = {
@@ -226,7 +248,14 @@ estate_ethereal_caste_optimise_air_caste = {
 	influence = 0.10
 	
 	can_select = {
-		has_tau_caste_privilege = { CASTE = air_caste }
+		custom_trigger_tooltip = {
+			tooltip = ethereal_caste_optimise_fire_caste
+			has_tau_caste_privilege = { CASTE = air_caste }
+		}
+		num_of_estate_agendas_completed = {
+			estate = estate_ethereal_caste
+			value = 5
+		}
 	}
 	on_granted = { 
 		caste_privilege_counter_on_granted_effect = { CASTE = ethereal_caste } 
@@ -247,7 +276,7 @@ estate_ethereal_caste_optimise_air_caste = {
  	}
 	conditional_modifier = {
  		trigger = { has_estate_privilege = estate_air_caste_advanced_exchange }
- 		modifier = { global_trade_goods_size = 1 }
+ 		modifier = { global_trade_goods_size = 0.25 }
  		is_bad = no	
  	}
 	conditional_modifier = {
@@ -306,6 +335,10 @@ estate_ethereal_caste_greater_good_control = {
 		num_of_estate_privileges = {
 			estate = estate_ethereal_caste
 			value = 5
+		}
+		num_of_estate_agendas_completed = {
+			estate = estate_ethereal_caste
+			value = 6
 		}
 	}
 	on_granted = { 

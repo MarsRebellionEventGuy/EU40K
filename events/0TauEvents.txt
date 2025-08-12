@@ -353,6 +353,7 @@ country_event = {
     is_triggered_only = yes
     
     trigger = {
+		tag = XGF
     }
     
     immediate = {
@@ -362,13 +363,15 @@ country_event = {
     option = {
         name = "tau_events.9.a"
         
-        XGG = {
-            set_country_flag = betrayed_by_ethereal
-            country_event = {
-                id = farsight_events.18
-                days = 1
+		hidden_effect = {
+			XGG = {
+				set_country_flag = betrayed_by_ethereal
+				country_event = {
+					id = farsight_events.18
+					days = 1
+				}
 			}
-        }
+		}
         ai_chance = { factor = 100 }
     }
     
