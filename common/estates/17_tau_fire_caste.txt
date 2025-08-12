@@ -54,9 +54,9 @@ estate_fire_caste = {
 		estate_fire_caste_code_of_fire
 		estate_fire_caste_generalize_the_teaching_of_Puretide
 		estate_fire_caste_more_Herexevre
-		estate_fire_caste_more_Shasartol
 		estate_fire_caste_advanced_Kauyon
 		estate_fire_caste_advanced_Montka
+		estate_fire_caste_more_Shasartol
 	}
 
 	agendas = {

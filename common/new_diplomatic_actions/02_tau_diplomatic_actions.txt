@@ -28,12 +28,13 @@ propose_to_join_the_greater_good = {
     # Determines when the action can be taken
     is_allowed = {
 		is_at_war = no
-		NOT = { truce_with FROM }
-		OR = {
-			dominant_religion = greater_good
-			border_distance = {
-				who = FROM
-				distance = 150
+		FROM = { 
+			NOT = { truce_with ROOT }
+			OR = {
+				dominant_religion = greater_good
+				capital_scope = {
+					trade_range = ROOT
+				}
 			}
 		}
     }

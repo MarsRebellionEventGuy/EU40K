@@ -94,15 +94,33 @@ Farsight_fate_of_necron_assimilate_branch = {
 		
 		trigger = { 
 			not_in_mission_preview_mode = { key = XGG_SAUTEKH }
-			XEV = {
-				is_subject_of = XGG
+			OR = {
+				XEV = {
+					is_subject_of = XGF
+				}
+				AND = {
+					NOT = { exists = XEV }
+					XUH = {
+						is_subject_of = XGF
+					}
+				}
 			}
 		}
-		effect = { 
-			XEV = {
-				add_liberty_desire = -100
-				change_religion = greater_good
+		effect = {
+			if = {
+				limit = { exists = XEV }
+				XEV = {
+					add_liberty_desire = -100
+					change_religion = greater_good
+				}
 			}
+			else = {
+				XUH = {
+					add_liberty_desire = -100
+					change_religion = greater_good
+				}
+			}
+			
 			add_country_modifier = {
 				name = assimilate_Necron
 				duration = -1

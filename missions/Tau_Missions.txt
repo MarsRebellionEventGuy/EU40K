@@ -81,7 +81,7 @@ Tau_1 = {
 		}
 	}
 
-	Fate_of_necron = {
+	TAU_Fate_of_necron = {
 		icon = mission_fate_of_Sautekh
 		position = 8
 		
@@ -111,8 +111,8 @@ Tau_1 = {
 }
 
 
-### Farsight fate of necron Choice
-Farsight_fate_of_necron_blanck = {
+### TAU fate of necron Choice
+TAU_fate_of_necron_blanck = {
 	slot = 1
 	generic = no
 	ai = yes
@@ -128,7 +128,7 @@ Farsight_fate_of_necron_blanck = {
 	
 	Farsight_fate_necron_blanck_mission = { 
 		icon = mission_unknown_mission
-		required_missions = { Fate_of_necron }
+		required_missions = { TAU_Fate_of_necron }
 		position = 9
 		
 		trigger = { 
@@ -144,7 +144,7 @@ Farsight_fate_of_necron_blanck = {
 	}
 }
 
-Farsight_fate_of_necron_assimilate_branch = {
+TAU_fate_of_necron_assimilate_branch = {
 	slot = 1
 	generic = no
 	ai = yes
@@ -157,9 +157,9 @@ Farsight_fate_of_necron_assimilate_branch = {
 	}
 	has_country_shield = yes
 	
-	Farsight_fate_necron_assimilate = { 
+	TAU_fate_necron_assimilate = { 
 		icon = mission_assimilate_necron
-		required_missions = { Fate_of_necron }
+		required_missions = { TAU_Fate_of_necron }
 		position = 9
 		
 		provinces_to_highlight = {
@@ -168,15 +168,33 @@ Farsight_fate_of_necron_assimilate_branch = {
 		
 		trigger = { 
 			not_in_mission_preview_mode = { key = XGG_SAUTEKH }
-			XEV = {
-				is_subject_of = XGF
+			OR = {
+				XEV = {
+					is_subject_of = XGF
+				}
+				AND = {
+					NOT = { exists = XEV }
+					XUH = {
+						is_subject_of = XGF
+					}
+				}
 			}
 		}
-		effect = { 
-			XEV = {
-				add_liberty_desire = -100
-				change_religion = greater_good
+		effect = {
+			if = {
+				limit = { exists = XEV }
+				XEV = {
+					add_liberty_desire = -100
+					change_religion = greater_good
+				}
 			}
+			else = {
+				XUH = {
+					add_liberty_desire = -100
+					change_religion = greater_good
+				}
+			}
+			
 			add_country_modifier = {
 				name = assimilate_Necron
 				duration = -1
@@ -185,7 +203,7 @@ Farsight_fate_of_necron_assimilate_branch = {
 	}
 }
 
-Farsight_fate_of_necron_conquest_branch = {
+TAU_fate_of_necron_conquest_branch = {
 	slot = 1
 	generic = no
 	ai = yes
@@ -200,7 +218,7 @@ Farsight_fate_of_necron_conquest_branch = {
 	
 	Farsight_fate_necron_conquest = { 
 		icon = mission_conquest_necron
-		required_missions = { Fate_of_necron }
+		required_missions = { TAU_Fate_of_necron }
 		position = 9
 		
 		provinces_to_highlight = {
@@ -231,7 +249,7 @@ Tau_1.2 = {
 	}
 	has_country_shield = yes
 
-	Remove_ork_from_sector = {
+	TAU_Remove_ork_from_sector = {
 		icon = mission_green_world
 		position = 11
 		required_missions = { }
@@ -261,10 +279,10 @@ Tau_1.2 = {
 		}
 	}
 
-	Remove_ork_from_galaxy = {
+	TAU_Remove_ork_from_galaxy = {
 		icon = mission_orks
 		position = 12
-		required_missions = { Remove_ork_from_sector }
+		required_missions = { TAU_Remove_ork_from_sector }
 		provinces_to_highlight = {
             culture_group = ork_culture_group
         }
@@ -453,7 +471,7 @@ Tau_2 = {
 	}
 
 
-    Fate_of_ultramar = {
+	TAU_Fate_of_ultramar = {
 		icon = mission_fate_of_Ultramar
 		position = 8
 		required_missions = { }
@@ -480,7 +498,7 @@ Tau_2 = {
 }
 
 ### Farsight fate of ultramar Choice
-Farsight_fate_ultramar_blanck = {
+TAU_fate_ultramar_blanck = {
 	slot = 2
 	generic = no
 	ai = yes
@@ -494,9 +512,9 @@ Farsight_fate_ultramar_blanck = {
 	}
 	has_country_shield = yes
 	
-	Farsight_fate_ultramar_blanck_mission = { 
+	TAU_fate_ultramar_blanck_mission = { 
 		icon = mission_unknown_mission
-		required_missions = { Fate_of_ultramar }
+		required_missions = { TAU_Fate_of_ultramar }
 		position = 9
 		trigger = { 
 			custom_trigger_tooltip = {
@@ -511,7 +529,7 @@ Farsight_fate_ultramar_blanck = {
 	}
 }
 
-Farsight_fate_ultramar_assimilate_branch = {
+TAU_fate_ultramar_assimilate_branch = {
 	slot = 2
 	generic = no
 	ai = yes
@@ -524,9 +542,9 @@ Farsight_fate_ultramar_assimilate_branch = {
 	}
 	has_country_shield = yes
 	
-	Farsight_fate_ultramar_assimilate = { 
+	TAU_fate_ultramar_assimilate = { 
 		icon = mission_assimilate_astartes
-		required_missions = { Fate_of_ultramar }
+		required_missions = { TAU_Fate_of_ultramar }
 		position = 9
 		provinces_to_highlight = {
             owned_by = XGK
@@ -550,7 +568,7 @@ Farsight_fate_ultramar_assimilate_branch = {
 	}
 }
 
-Farsight_fate_ultramar_conquest_branch = {
+TAU_fate_ultramar_conquest_branch = {
 	slot = 2
 	generic = no
 	ai = yes
@@ -563,9 +581,9 @@ Farsight_fate_ultramar_conquest_branch = {
 	}
 	has_country_shield = yes
 	
-	Farsight_fate_ultramar_conquest = { 
+	TAU_fate_ultramar_conquest = { 
 		icon = mission_conquest_astartes
-		required_missions = { Fate_of_ultramar }
+		required_missions = { TAU_Fate_of_ultramar }
 		position = 8
 		provinces_to_highlight = {
             owned_by = XGK
@@ -594,7 +612,7 @@ Tau_2.2 = {
 	}
 	has_country_shield = yes
 
-	Purge_Chaos = {
+	TAU_Purge_Chaos = {
 		icon = mission_purge_chaos
 		position = 11
 		
@@ -619,11 +637,11 @@ Tau_2.2 = {
 		}
 	}
 	
-	Remove_chaos_from_galaxy = {
+	TAU_Remove_chaos_from_galaxy = {
 		icon = mission_end_of_chaos
 		position = 12
 		
-		required_missions = { Purge_Chaos }
+		required_missions = { TAU_Purge_Chaos }
 		provinces_to_highlight = {
 			religion_group = chaos_group
 		}
@@ -678,7 +696,7 @@ TAU_start_3 = {
 		}
 	}
 
-	Fate_of_Barghesi = {
+	TAU_Fate_of_Barghesi = {
 		icon = mission_fate_of_Xeno
 		position = 8
 		required_missions = { }
@@ -705,7 +723,7 @@ TAU_start_3 = {
 }
 
 ### Farsight fate of barghesi Choice
-Farsight_fate_barghesi_blanck = {
+TAU_fate_barghesi_blanck = {
 	slot = 3
 	generic = no
 	ai = yes
@@ -719,9 +737,9 @@ Farsight_fate_barghesi_blanck = {
 	}
 	has_country_shield = yes
 	
-	Farsight_fate_barghesi_blanck_mission = { 
+	TAU_fate_barghesi_blanck_mission = { 
 		icon = mission_unknown_mission
-		required_missions = { Fate_of_Barghesi }
+		required_missions = { TAU_Fate_of_Barghesi }
 		position = 9
 		trigger = { 
 			custom_trigger_tooltip = {
@@ -736,7 +754,7 @@ Farsight_fate_barghesi_blanck = {
 	}
 }
 
-Farsight_fate_barghesi_assimilate_branch = {
+TAU_fate_barghesi_assimilate_branch = {
 	slot = 3
 	generic = no
 	ai = yes
@@ -749,9 +767,9 @@ Farsight_fate_barghesi_assimilate_branch = {
 	}
 	has_country_shield = yes
 	
-	Farsight_fate_barghesi_assimilate = { 
+	TAU_fate_barghesi_assimilate = { 
 		icon = mission_assimilate_xeno
-		required_missions = { Fate_of_Barghesi }
+		required_missions = { TAU_Fate_of_Barghesi }
 		position = 9
 		provinces_to_highlight = {
 			owned_by = XIV
@@ -775,7 +793,7 @@ Farsight_fate_barghesi_assimilate_branch = {
 	}
 }
 
-Farsight_fate_barghesi_conquest_branch = {
+TAU_fate_barghesi_conquest_branch = {
 	slot = 3
 	generic = no
 	ai = yes
@@ -788,9 +806,9 @@ Farsight_fate_barghesi_conquest_branch = {
 	}
 	has_country_shield = yes
 	
-	Farsight_fate_barghesi_conquest = { 
+	TAU_fate_barghesi_conquest = { 
 		icon = mission_conquest_xeno
-		required_missions = { Fate_of_Barghesi }
+		required_missions = { TAU_Fate_of_Barghesi }
 		position = 9
 		provinces_to_highlight = {
 			owned_by = XIV
@@ -819,7 +837,7 @@ TAU_start_3.2 = {
 	}
 	has_country_shield = yes
 
-	Remove_tyranid_from_galaxy = {
+	TAU_Remove_tyranid_from_galaxy = {
 		icon = mission_hive_mind_synapse
 		position = 12
 		required_missions = { }
@@ -914,7 +932,7 @@ TAU_start_4 = {
 		}
 	}
 
-	Fate_of_Iyanden = {
+	TAU_Fate_of_Iyanden = {
 		icon = mission_fate_of_Iyanden
 		position = 8
 		
@@ -943,7 +961,7 @@ TAU_start_4 = {
 
 
 ### Farsight fate of Iyanden Choice
-Farsight_fate_iyanden_blanck = {
+TAU_fate_iyanden_blanck = {
 	slot = 4
 	generic = no
 	ai = yes
@@ -957,9 +975,9 @@ Farsight_fate_iyanden_blanck = {
 	}
 	has_country_shield = yes
 	
-	Farsight_fate_iyanden_blanck_mission = { 
+	TAU_fate_iyanden_blanck_mission = { 
 		icon = mission_unknown_mission
-		required_missions = { Fate_of_Iyanden }
+		required_missions = { TAU_Fate_of_Iyanden }
 		position = 9
 		trigger = { 
 			custom_trigger_tooltip = {
@@ -974,7 +992,7 @@ Farsight_fate_iyanden_blanck = {
 	}
 }
 
-Farsight_fate_iyanden_assimilate_branch = {
+TAU_fate_iyanden_assimilate_branch = {
 	slot = 4
 	generic = no
 	ai = yes
@@ -987,9 +1005,9 @@ Farsight_fate_iyanden_assimilate_branch = {
 	}
 	has_country_shield = yes
 	
-	Farsight_fate_iyanden_assimilate = { 
+	TAU_fate_iyanden_assimilate = { 
 		icon = mission_assimilate_eldar
-		required_missions = { Fate_of_Iyanden }
+		required_missions = { TAU_Fate_of_Iyanden }
 		position = 9
 		provinces_to_highlight = {
 			owned_by = XIA
@@ -1013,7 +1031,7 @@ Farsight_fate_iyanden_assimilate_branch = {
 	}
 }
 
-Farsight_fate_iyanden_conquest_branch = {
+TAU_fate_iyanden_conquest_branch = {
 	slot = 4
 	generic = no
 	ai = yes
@@ -1026,9 +1044,9 @@ Farsight_fate_iyanden_conquest_branch = {
 	}
 	has_country_shield = yes
 	
-	Farsight_fate_iyanden_conquest = { 
+	TAU_fate_iyanden_conquest = { 
 		icon = mission_conquest_eldar
-		required_missions = { Fate_of_Iyanden }
+		required_missions = { TAU_Fate_of_Iyanden }
 		position = 9
 		provinces_to_highlight = {
 			owned_by = XIA
@@ -1060,11 +1078,11 @@ TAU_start_5 = {
 
 
 
-    Understanding_of_webway_technology = {
+    TAU_Understanding_of_webway_technology = {
 		icon = mission_Understanding_of_webway_technology
 		position = 9
 		
-		required_missions = { Fate_of_Iyanden }
+		required_missions = { TAU_Fate_of_Iyanden }
 		trigger = {
 			OR = {
 				has_assimilated_culture = asuryani_culture
@@ -1092,11 +1110,11 @@ TAU_start_5 = {
 		}
 	}
 	
-	Revenge_for_the_war_of_dark_revelations = {
+	TAU_Revenge_for_the_war_of_dark_revelations = {
 		icon = mission_Revenge_for_the_war_of_dark_revelations
 		position = 10
 		
-		required_missions = { Consolidate_first_expansion_Sphere Understanding_of_webway_technology }
+		required_missions = { Consolidate_first_expansion_Sphere TAU_Understanding_of_webway_technology }
 		provinces_to_highlight = {
 			province_id = 3486
 		}
@@ -1112,11 +1130,11 @@ TAU_start_5 = {
 		}
 	}
 	
-	Conquest_of_the_webway = {
+	TAU_Conquest_of_the_webway = {
 		icon = mission_Conquest_of_the_webway
 		position = 11
 		
-		required_missions = { Revenge_for_the_war_of_dark_revelations }
+		required_missions = { TAU_Revenge_for_the_war_of_dark_revelations }
 		provinces_to_highlight = {
 			region = commorragh_region
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
@@ -1136,11 +1154,11 @@ TAU_start_5 = {
 		}
 	}
 	
-	Remove_drukhari_from_galaxy = {
+	TAU_Remove_drukhari_from_galaxy = {
 		icon = mission_Remove_drukhari_from_galaxy
 		position = 12
 		
-		required_missions = { Conquest_of_the_webway }
+		required_missions = { TAU_Conquest_of_the_webway }
 		provinces_to_highlight = {
 			culture = drukhari_culture
 		}

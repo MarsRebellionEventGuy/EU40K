@@ -11,11 +11,11 @@ historical_units = {
 }
 
 monarch_names = {
-
+	O'Shas'chau O'Shas'cho O'Shas'do O'Shas'fyr O'Shas'hhu O'Shas'jash O'Shas'kais O'Shas'kathl O'Shas'kir O'Shas'ko O'Shas'la O'Shas'la O'Shas'pau O'Shas'Ro O'Shas'shar O'Shas'shi O'Shas'taniel O'Shas'thel O'Shas'ui O'Shas'va O'Shas'vessol O'Shas'vos O'Shas'vre O'Shas'wei
 }
 
 leader_names = {
-
+	O'Shas'chau O'Shas'cho O'Shas'do O'Shas'fyr O'Shas'hhu O'Shas'jash O'Shas'kais O'Shas'kathl O'Shas'kir O'Shas'ko O'Shas'la O'Shas'la O'Shas'pau O'Shas'Ro O'Shas'shar O'Shas'shi O'Shas'taniel O'Shas'thel O'Shas'ui O'Shas'va O'Shas'vessol O'Shas'vos O'Shas'vre O'Shas'wei
 }
 
 ship_names = {

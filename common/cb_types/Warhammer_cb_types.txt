@@ -180,15 +180,12 @@ cb_tau_expend_tau_empire = {
 	}
 
 	prerequisites = {
-		NOT = {
-			border_distance = {
-				who = FROM
-				distance = 200
-			}
-		}
 		FROM = {
 			NOT = {
 				is_subject_of = ROOT
+			}
+			capital_scope = {
+				trade_range = ROOT
 			}
 			OR = {
 				primary_culture = ork_culture

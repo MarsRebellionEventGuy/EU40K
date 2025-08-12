@@ -69,22 +69,6 @@ country_event = {
 		}
 		XGF = {
 			every_owned_province = {
-				limit = {
-					culture = fire_caste_culture
-				}
-				spawn_rebels = {
-					type = farsight_rebels
-					size = 5
-					friend = XGG
-				}
-			}
-			every_owned_province = {
-				limit = {
-					NOT = { 
-						culture = fire_caste_culture
-						culture = ethereal_culture						
-					}
-				}
 				spawn_rebels = {
 					type = farsight_rebels
 					size = 3
