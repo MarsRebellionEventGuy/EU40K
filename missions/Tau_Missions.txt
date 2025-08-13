@@ -427,14 +427,16 @@ Tau_2 = {
 			3088 = {
 				has_great_project = {
 					type = Nexus_Point
-					tier = 1
+					tier = 0
 				}
 			}
 		}
 		effect = { 
-			add_great_project_tier = {
-				type = Nexus_Point
-				tier = 1
+			3088 = {
+				add_great_project_tier = {
+					type = Nexus_Point
+					tier = 1
+				}
 			}
 		}
 		ai_weight = {
