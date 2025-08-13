@@ -787,7 +787,7 @@ ethereal_council_reform = {
     		has_reform = tau_reform
 	}
     modifiers = {
-		min_autonomy = 50
+		min_autonomy_in_territories = -0.4
 	}
 }
 

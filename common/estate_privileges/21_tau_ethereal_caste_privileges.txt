@@ -113,7 +113,7 @@ estate_ethereal_caste_optimise_water_caste = {
 	
 	can_select = {
 		custom_trigger_tooltip = {
-			tooltip = ethereal_caste_optimise_fire_caste
+			tooltip = ethereal_caste_optimise_water_caste
 			has_tau_caste_privilege = { CASTE = water_caste }
 		}
 		num_of_estate_agendas_completed = {
@@ -181,7 +181,7 @@ estate_ethereal_caste_optimise_earth_caste = {
 	
 	can_select = {
 		custom_trigger_tooltip = {
-			tooltip = ethereal_caste_optimise_fire_caste
+			tooltip = ethereal_caste_optimise_earth_caste
 			has_tau_caste_privilege = { CASTE = earth_caste }
 			}
 		num_of_estate_agendas_completed = {
@@ -249,7 +249,7 @@ estate_ethereal_caste_optimise_air_caste = {
 	
 	can_select = {
 		custom_trigger_tooltip = {
-			tooltip = ethereal_caste_optimise_fire_caste
+			tooltip = ethereal_caste_optimise_air_caste
 			has_tau_caste_privilege = { CASTE = air_caste }
 		}
 		num_of_estate_agendas_completed = {

@@ -23,7 +23,7 @@ po_join_the_greater_good = {
 	effect = {
 		create_subject = {
 			subject = FROM
-			subject_type = vassal
+			subject_type = tau_auxiliary
 		}
 		FROM = {
 			change_religion = greater_good
