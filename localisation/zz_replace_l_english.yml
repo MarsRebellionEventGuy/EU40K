@@ -417,12 +417,18 @@
  invite_into_imperium_tooltip: "Re-establish Contact with this World"
  mandate:0 "Imperial Cohesion"
  declare_forge_world_as_mechanicus_title: "Declare Head of Mechanicus"
- declare_forge_world_as_mechanicus_desc: "Either through disaster or distrust, the current Fabricator-General is unfit to lead the Adeptus Mechanicus. We can Declare [From.GetName] as the New Head of the Mechanicus"
+ declare_forge_world_as_mechanicus_tooltip: "Either through disaster or distrust, the current Fabricator-General is unfit to lead the Adeptus Mechanicus. We can Declare [From.GetName] as the New Head of the Mechanicus"
  BASE_ADMEC_IS_XXB: "The Adeptus Mechanicus is already Unified"
  BASE_ADMEC_IS_XTE: "The Current Adeptus Mechanicus owns Mars"
+ BASE_ADMEC_IS_MARS: "The Current Adeptus Mechanicus owns Mars"
  STRONGER_THAN_IMPERIUM: "Doesn't need Imperium protection"
  BASE_ADMEC_EXISTS: "Replacing Existing Fabricator-General"
  EST_VAL_ADMEC_LOST_MARS: "Adeptus Mechanicus lost Mars"
+ xxa_navis_nobilte_privilege: "Navis Nobilite Autonomy"
+ estate_burghers_XXA_navis_nobilite: "Navis Nobilite"
+ estate_burghers_XXA_navis_nobilite_desc: "The Navis Nobilite is ancient, Its founding was far before the dawn of the Imperium itself and the Navigators, a unique form of sactioned mutant, is the linchpin of safe warp travel. This has been leveraged for great influence and the Navigator Quarter is autonomus in many ways"
+ 
+ XXA_Octarius_Bonus: "Death of Octarius"
  
  imperium_events.61.t: "The Imperiums Missing Head"
  imperium_events.61.a: "Thankfully, The Emperor Blessed it with Two"
@@ -434,6 +440,7 @@
  vassalize_astartes_decision_tt: "The Imperium of Man can use Imperial Cohesion to curtail an Autonomus Astartes Chapter to a direct Astartes Chapter."
  vassalize_astartes_decision_ct: "The Imperium of Man can no longer Curtail Astartes Autonomy."
  PREV_OWNS_PLANET: "Under Dominion of [Prev.GetName]"
+ 
  primarch_1_portrait_icon: "List of Primarchs:\n\nI    -Lion El'Jonson: [GetPrimarchIStatus]\nII   -§Y+++RECORD REDACTED+++§!\nIII  -§PFulgrim§!: [GetPrimarch_III_Status]\nIV   -§PPerturabo§!: [GetPrimarch_IV_Status]\nV    -Jaghatai Khan: [GetPrimarchV_Status]\nVI   -Leman Russ: [GetPrimarch_VI_Status]\nVII  -Rogal Dorn: [GetPrimarch_VII_Status]\nVIII -§PKonrad Cruze§!: §RDEAD§!\nIX   -Sangunius: §RDEAD§!\nX    -Ferrus Manus: §RDEAD§!\nXI   -§Y+++RECORD REDACTED+++§!\nXII  -§PAngron§!: [GetPrimarch_XII_Status]\nXIII -Robute Guilliman: [GetPrimarch_XIII_Status]\nXIV  -§PMortarion§!: [GetPrimarch_XIV_Status]\nXV   -§PMagnus the Red§!: [GetPrimarch_XV_Status]\nXVI  -§PHorus§!: §RDEAD§!\nXVII -§PLorgar§!: [GetPrimarch_XVII_Status]\nXVIII-Vulkan: [GetPrimarch_VIII_Status]\nXIX  -Corvus Corax: [GetPrimarch_XIX_Status]\nXX   -Alpharius, Omegon: [GetPrimarch_XX_Status]\n "
  active_primarch_list_tt: "List of Primarchs:\n\nI    -Lion El'Jonson: [GetPrimarchIStatus]\nII   -§Y+++RECORD REDACTED+++§!\nIII  -§PFulgrim§!: [GetPrimarch_III_Status]\nIV   -§PPerturabo§!: [GetPrimarch_IV_Status]\nV    -Jaghatai Khan: [GetPrimarchV_Status]\nVI   -Leman Russ: [GetPrimarch_VI_Status]\nVII  -Rogal Dorn: [GetPrimarch_VII_Status]\nVIII -§PKonrad Cruze§!: §RDEAD§!\nIX   -Sangunius: §RDEAD§!\nX    -Ferrus Manus: §RDEAD§!\nXI   -§Y+++RECORD REDACTED+++§!\nXII  -§PAngron§!: [GetPrimarch_XII_Status]\nXIII -Robute Guilliman: [GetPrimarch_XIII_Status]\nXIV  -§PMortarion§!: [GetPrimarch_XIV_Status]\nXV   -§PMagnus the Red§!: [GetPrimarch_XV_Status]\nXVI  -§PHorus§!: §RDEAD§!\nXVII -§PLorgar§!: [GetPrimarch_XVII_Status]\nXVIII-Vulkan: [GetPrimarch_VIII_Status]\nXIX  -Corvus Corax: [GetPrimarch_XIX_Status]\nXX   -Alpharius, Omegon: [GetPrimarch_XX_Status]\n "
  Primarch_Status_MIA: "MIA"
@@ -474,8 +481,19 @@
  XXA_secure_nachmund_rift_title: "Secure The Nachmund Rift"
  XXA_returning_to_nullus_title: "Returning to Nullus"
  XXA_saving_styguis_title: "Saving Styguis Sector"
+ XXA_inquisition_title: "The Inquisition"
+ XXA_Consolidate_industry_title: "Consolidate Industry"
+ XXA_expand_jupiter_shipyards_title: "Expand Jupiter Shipyards"
+ XXA_checking_in_calgar_title: "Checking in on Calgar"
+ XXA_unify_ultramar_title: "Unify Ultramar"
+ XXA_retaking_chalnath_title: "Retaking Chalnath"
+ XXA_aid_metalica_title: "Aid Metalica"
+ XXA_restoring_borders_title: "Restoring Our Borders"
+ XXA_eagles_second_head_title: "The Eagles Second Head"
+ XXA_mechanicus_ties_title: "Mechanicus Ties"
  
  
+ EVTNAMEsector_formation_events_1: "Restoration of the [Root.GetName]"
  
  low_heka_action_tt: "Delegate Authority"
  high_heka_action_tt: "Declare Hekatic Truth"

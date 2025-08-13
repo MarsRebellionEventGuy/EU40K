@@ -14,9 +14,15 @@ imperium_lost_warp_routes_disaster = {
 				}
 			}
 			NOT={
-				owns_all_provinces = {
-					area = solar_star_keeps
+				AND={
+					owns = 465
+					owns = 464
+					owns = 463
+					owns = 466
 				}
+			}
+			NOT={
+				owns = 3336
 			}
 			amount = 2
 		}
@@ -25,15 +31,19 @@ imperium_lost_warp_routes_disaster = {
 	can_stop = { 
 		calc_true_if = {
 			NOT={
-				owns_all_provinces = {
-					area = vorlese
+				NOT={
+					owns_all_provinces = {
+						area = vorlese
+					}
 				}
 			}
-			NOT={
-				owns_all_provinces = {
-					area = solar_star_keeps
-				}
+			AND={
+				owns = 465
+				owns = 464
+				owns = 463
+				owns = 466
 			}
+			owns = 3336
 			amount = 2
 		}
 	}
@@ -56,6 +66,12 @@ imperium_lost_warp_routes_disaster = {
 				}
 			}
 		}
+		modifier = {
+			factor = 1
+			NOT={
+				owns = 3336
+			}
+		}
 	}
 	
 	can_end = {
@@ -65,6 +81,7 @@ imperium_lost_warp_routes_disaster = {
 		owns_all_provinces = {
 			area = solar_star_keeps
 		}
+		owns = 3336
 	}
 
 	modifier = {

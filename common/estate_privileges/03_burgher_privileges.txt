@@ -4700,3 +4700,79 @@ estate_burghers_TIM_gulf_toll = {
 		factor = 1
 	}
 }
+
+estate_burghers_XXA_navis_nobilite = {
+	icon = privilege_navis_nobilite
+	max_absolutism = -10
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
+	influence = 0.1
+	loyalty = 0.05
+	is_valid = {
+		owns_core_province = 3336
+		is_emperor_of_china = yes
+	}
+	can_revoke = {
+		custom_trigger_tooltip = {
+			tooltip = BYZ_revokable_via_decision
+			always = no
+		}
+	}
+	on_granted = {
+		3336 = {
+			add_province_modifier = { 
+				name = xxa_navis_nobilte_privilege
+				duration = -1
+			}
+		}
+	}
+	on_revoked = {
+		3336 = {
+			remove_province_modifier = { 
+				name = xxa_navis_nobilte_privilege
+				duration = -1
+			}
+		}
+	}
+	on_invalid = {
+		3336 = {
+			remove_province_modifier = { 
+				name = xxa_navis_nobilte_privilege
+				duration = -1
+			}
+		}
+	}
+	conditional_modifier = {
+		trigger = {
+			has_country_flag = XXA_navis_nobilite_upgrade_flag
+		}
+		modifier = { 
+			trade_efficiency = 0.1
+		}
+	}
+	conditional_modifier = {
+		trigger = {
+			NOT = { has_country_flag = XXA_navis_nobilite_upgrade_flag }
+		}
+		modifier = { 
+			trade_efficiency = 0.05
+		}
+	}
+	
+	conditional_modifier = {
+		trigger = {
+			NOT = { has_country_flag = XXA_navis_nobilite_upgrade_flag }
+		}
+		modifier = { 
+			global_foreign_trade_power = -0.1
+		}
+		is_bad = yes
+	}
+	
+	
+	penalties = {
+		 
+	}
+	ai_will_do = {
+		factor = 1
+	}
+}

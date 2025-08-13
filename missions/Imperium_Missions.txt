@@ -663,7 +663,12 @@ XXA_Branch_2 = {
 				}
 			}
 		}
-		effect = { }
+		effect = {
+			add_country_modifier = { 
+				name = XXA_Solblades
+				duration = -1
+			}
+		}
 	}
 	XXA_secure_nachmund_rift = {
 		icon = mission_build_up_to_force_limit
@@ -672,11 +677,15 @@ XXA_Branch_2 = {
 		provinces_to_highlight = {
 			area = nachmund_gauntlet
 			is_controlled_by_imperium = no
+			is_aeldari_world = no
 		}
 		trigger = { 
 			nachmund_gauntlet= {
 				type = all
-				is_controlled_by_imperium = yes
+				OR = {
+					is_controlled_by_imperium = yes
+					is_aeldari_world = yes
+				}
 			}
 			4082 = {
 				owned_by = ROOT
@@ -964,8 +973,10 @@ XXA_Branch_3 = {
 		position = 7
 		required_missions = {  }
 		trigger = {
-			NOT={imperial_mandate = 65}
-			num_of_powerful_estates = 1
+			OR={
+				NOT={imperial_mandate = 65}
+				num_of_powerful_estates = 1
+			}
 			stability = 1
 		}
 		effect = { add_stability = 1 }
@@ -1091,7 +1102,12 @@ XXA_Branch_3 = {
 		trigger = {
 			XYN={exists = no}
 		}
-		effect = { }
+		effect = { 
+			add_country_modifier = {
+				name = XXA_Octarius_Bonus
+				duration = 9125
+			}
+		}
 	}
 	XXA_mandragoran_stormlord = {
 		icon = mission_build_up_to_force_limit
@@ -1101,7 +1117,34 @@ XXA_Branch_3 = {
 			
 		}
 		trigger = { 
-			
+			XEV={
+				OR={
+					NOT={
+						num_of_provinces_owned_or_owned_by_subjects_with = {
+							value = 1
+							region = mandragora_region
+						}
+					}
+					NOT={
+						num_of_provinces_owned_or_owned_by_subjects_with = {
+							value = 1
+							region = vidar_region
+						}
+					}
+					NOT={
+						num_of_provinces_owned_or_owned_by_subjects_with = {
+							value = 1
+							region = tau_region
+						}
+					}
+					NOT={
+						num_of_provinces_owned_or_owned_by_subjects_with = {
+							value = 1
+							region = ullanor_region
+						}
+					}
+				}
+			}
 		}
 		effect = { }
 	}
@@ -1201,7 +1244,16 @@ XXA_Branch_3 = {
 		icon = mission_build_up_to_force_limit
 		position = 18
 		required_missions = { XXA_deal_kin }
-		trigger = { }
+		provinces_to_highlight = {
+			region = galactic_core_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = { 
+			galactic_core_region={
+				type = all
+				is_controlled_by_imperium = yes
+			}
+		}
 		effect = { }
 	}
 	XXA_stryken_sector = {
@@ -1479,7 +1531,22 @@ XXA_Branch_4 = {
 		position = 12
 		required_missions = { XXA_cordon_impenetra XXA_pharos }
 		trigger = { }
-		effect = { }
+		effect = { 
+			nephilim_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			inwit_cluster_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
 	}
 	XXA_humilitate_silent_king = {
 		icon = mission_build_up_to_force_limit
@@ -1490,7 +1557,12 @@ XXA_Branch_4 = {
 				humiliated_by = ROOT
 			}
 		}
-		effect = { }
+		effect = { 
+			add_power_projection = { 
+				type = 10_permanent_power_projection
+				amount = 10 
+			}
+		}
 	}
 	XXA_orpheus_aid = {
 		icon = mission_build_up_to_force_limit
@@ -1643,7 +1715,7 @@ XXA_Branch_5 = {
 	}
 	XXA_mechanicus_ties = {
 		icon = mission_build_up_to_force_limit
-		position = 4
+		position = 6
 		required_missions = { XXA_complete_primaris }
 		trigger = { 
 			event_target:adeptus_mechanicus_tag={
@@ -1721,7 +1793,13 @@ XXA_Branch_5 = {
 		icon = mission_build_up_to_force_limit
 		position = 13
 		required_missions = { XXA_pariah_crusade XXA_aid_metalica }
-		trigger = { }
+		trigger = { 
+			OR={
+				event_target:adeptus_mechanicus_tag={
+					#Mechanicus has finished mission: Secure Blackstone
+				}
+			}
+		}
 		effect = { }
 	}
 	XXA_secrets_pylons = {

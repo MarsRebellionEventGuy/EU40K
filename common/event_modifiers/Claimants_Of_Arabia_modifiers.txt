@@ -167,6 +167,10 @@ XXA_Ghazghkull_Bonus = {
 	prestige_decay = -0.02
 	global_prosperity_growth = 0.10
 }
+XXA_Octarius_Bonus = {
+	imperial_mandate = 0.02
+	development_cost = -0.1
+}
 
 XXA_Ork_Bonus = {
 	local_unrest = 1

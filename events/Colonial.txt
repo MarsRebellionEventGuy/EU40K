@@ -286,7 +286,7 @@ province_event = { #Back in Control
 			region = talis_munus_region
 			region = trail_evisser_region
 		}
-		
+		culture_group = imperial_culture_group
 	}
 
 	mean_time_to_happen = {

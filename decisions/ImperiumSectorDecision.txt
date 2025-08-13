@@ -1,0 +1,393 @@
+country_decisions = {
+	XXA_restore_sector_fenris = {
+		major = yes
+		color = { 255 216 0 } #Sector gold
+		potential = {
+			is_emperor_of_china = yes
+			NOT={has_country_flag XXA_sector_decisions_hidden}
+			ZTF={exists=no}
+		}
+		provinces_to_highlight = {
+			region = fenris_region
+			is_controlled_by_imperium = no
+		}
+		allow = {
+			is_at_war = no
+			fenris_region={
+				type = all
+				OR = {
+					is_controlled_by_imperium = yes
+					is_aeldari_world = yes
+				}
+			}
+		}
+		effect = {
+			random_subject_country={
+				limit={
+					capital_scope = {
+						region = fenris_region
+					}
+					OR={
+						is_subject_of_type = integrated_world_subject_type
+						is_subject_of_type = imperial_world_subject_type
+						is_subject_of_type = nominal_imperial_world_subject_type
+					}
+					ai = no
+				}
+				change_tag = ZTF
+				ZTF={set_country_flag = XXA_player_sector}
+			}
+			every_owned_province={
+				limit={
+					region = fenris_region
+				}
+				cede_province = ZTF
+				add_core = ZTF
+				remove_core = ROOT
+			}
+			ZTF={
+				if={
+					limit={
+						NOT={has_country_flag = XXA_player_sector}
+					}
+					change_government = monarchy
+					add_government_reform = imperial_governorate_reform
+					set_government_rank = 2
+					change_technology_group = imperial
+					change_religion = imperial_cult
+					change_primary_culture = fenris_human_culture
+				}
+				country_event = {id = sector_formation_events.1}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	XXA_restore_sector_agripinaa = {
+		major = yes
+		color = { 255 216 0 } #Sector gold
+		potential = {
+			is_emperor_of_china = yes
+			NOT={has_country_flag XXA_sector_decisions_hidden}
+			ZTH={exists=no}
+		}
+		provinces_to_highlight = {
+			region = agripinaa_region
+			is_controlled_by_imperium = no
+		}
+		allow = {
+			is_at_war = no
+			agripinaa_region={
+				type = all
+				OR = {
+					is_controlled_by_imperium = yes
+					is_aeldari_world = yes
+				}
+			}
+		}
+		effect = {
+			random_subject_country={
+				limit={
+					capital_scope = {
+						region = agripinaa_region
+					}
+					OR={
+						is_subject_of_type = integrated_world_subject_type
+						is_subject_of_type = imperial_world_subject_type
+						is_subject_of_type = nominal_imperial_world_subject_type
+					}
+					ai = no
+				}
+				change_tag = ZTH
+				ZTH={set_country_flag = XXA_player_sector}
+			}			
+			every_owned_province={
+				limit={
+					region = agripinaa_region ##
+				}
+				cede_province = ZTH ##
+				add_core = ZTH ##
+				remove_core = ROOT
+			}
+			ZTH={##
+				if={
+					limit={
+						NOT={has_country_flag = XXA_player_sector}
+					}
+					change_government = monarchy
+					add_government_reform = imperial_governorate_reform
+					set_government_rank = 2
+					change_technology_group = imperial
+					change_religion = imperial_cult
+					change_primary_culture = agripinaa_human_culture ##
+				}
+				country_event = {id = sector_formation_events.1}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	XXA_restore_sector_golgotha = {
+		major = yes
+		color = { 255 216 0 } #Sector gold
+		potential = {
+			is_emperor_of_china = yes
+			NOT={has_country_flag XXA_sector_decisions_hidden}
+			ZTG={exists=no}
+		}
+		provinces_to_highlight = {
+			region = golgotha_region
+			is_controlled_by_imperium = no
+		}
+		allow = {
+			is_at_war = no
+			golgotha_region={
+				type = all
+				OR = {
+					is_controlled_by_imperium = yes
+					is_aeldari_world = yes
+				}
+			}
+		}
+		effect = {
+			random_subject_country={
+				limit={
+					capital_scope = {
+						region = golgotha_region
+					}
+					OR={
+						is_subject_of_type = integrated_world_subject_type
+						is_subject_of_type = imperial_world_subject_type
+						is_subject_of_type = nominal_imperial_world_subject_type
+					}
+					ai = no
+				}
+				change_tag = ZTG
+				ZTG={set_country_flag = XXA_player_sector}
+			}			
+			every_owned_province={
+				limit={
+					region = golgotha_region ##
+				}
+				cede_province = ZTG ##
+				add_core = ZTG ##
+				remove_core = ROOT
+			}
+			ZTG={##
+				if={
+					limit={
+						NOT={has_country_flag = XXA_player_sector}
+					}
+					change_government = monarchy
+					add_government_reform = imperial_governorate_reform
+					set_government_rank = 2
+					change_technology_group = imperial
+					change_religion = imperial_cult
+					change_primary_culture = golgothan_human_culture ##
+				}
+				country_event = {id = sector_formation_events.1}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	XXA_restore_sector_karthago = {
+		major = yes
+		color = { 255 216 0 } #Sector gold
+		potential = {
+			is_emperor_of_china = yes
+			NOT={has_country_flag XXA_sector_decisions_hidden}
+			ZTE={exists=no}
+		}
+		provinces_to_highlight = {
+			region = karthago_region
+			is_controlled_by_imperium = no
+		}
+		allow = {
+			is_at_war = no
+			karthago_region={
+				type = all
+				OR = {
+					is_controlled_by_imperium = yes
+					is_aeldari_world = yes
+				}
+			}
+		}
+		effect = {
+			random_subject_country={
+				limit={
+					capital_scope = {
+						region = karthago_region
+					}
+					OR={
+						is_subject_of_type = integrated_world_subject_type
+						is_subject_of_type = imperial_world_subject_type
+						is_subject_of_type = nominal_imperial_world_subject_type
+					}
+					ai = no
+				}
+				change_tag = ZTE
+				ZTE={set_country_flag = XXA_player_sector}
+			}			
+			every_owned_province={
+				limit={
+					region = karthago_region ##
+				}
+				cede_province = ZTE ##
+				add_core = ZTE ##
+				remove_core = ROOT
+			}
+			ZTE={##
+				if={
+					limit={
+						NOT={has_country_flag = XXA_player_sector}
+					}
+					change_government = monarchy
+					add_government_reform = imperial_governorate_reform
+					set_government_rank = 2
+					change_technology_group = imperial
+					change_religion = imperial_cult
+					change_primary_culture = karthago_human_culture ##
+				}
+				country_event = {id = sector_formation_events.1}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	XXA_restore_sector_octarius = {
+		major = yes
+		color = { 255 216 0 } #Sector gold
+		potential = {
+			is_emperor_of_china = yes
+			NOT={has_country_flag XXA_sector_decisions_hidden}
+			ZSX={exists=no}
+		}
+		provinces_to_highlight = {
+			region = octarius_region
+			is_controlled_by_imperium = no
+		}
+		allow = {
+			is_at_war = no
+			octarius_region={
+				type = all
+				OR = {
+					is_controlled_by_imperium = yes
+					is_aeldari_world = yes
+				}
+			}
+		}
+		effect = {
+			random_subject_country={
+				limit={
+					capital_scope = {
+						region = octarius_region
+					}
+					OR={
+						is_subject_of_type = integrated_world_subject_type
+						is_subject_of_type = imperial_world_subject_type
+						is_subject_of_type = nominal_imperial_world_subject_type
+					}
+					ai = no
+				}
+				change_tag = ZSX
+				ZSX={set_country_flag = XXA_player_sector}
+			}			
+			every_owned_province={
+				limit={
+					region = octarius_region ##
+				}
+				cede_province = ZSX ##
+				add_core = ZSX ##
+				remove_core = ROOT
+			}
+			ZSX={##
+				if={
+					limit={
+						NOT={has_country_flag = XXA_player_sector}
+					}
+					change_government = monarchy
+					add_government_reform = imperial_governorate_reform
+					set_government_rank = 2
+					change_technology_group = imperial
+					change_religion = imperial_cult
+					change_primary_culture = octarius_human_culture ##
+				}
+				country_event = {id = sector_formation_events.1}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	XXA_restore_sector_inwit_cluster = {
+		major = yes
+		color = { 255 216 0 } #Sector gold
+		potential = {
+			is_emperor_of_china = yes
+			NOT={has_country_flag XXA_sector_decisions_hidden}
+			ZTB={exists=no}
+		}
+		provinces_to_highlight = {
+			region = inwit_cluster_region
+			is_controlled_by_imperium = no
+		}
+		allow = {
+			is_at_war = no
+			inwit_cluster_region={
+				type = all
+				OR = {
+					is_controlled_by_imperium = yes
+					is_aeldari_world = yes
+				}
+			}
+		}
+		effect = {
+			random_subject_country={
+				limit={
+					capital_scope = {
+						region = inwit_cluster_region
+					}
+					OR={
+						is_subject_of_type = integrated_world_subject_type
+						is_subject_of_type = imperial_world_subject_type
+						is_subject_of_type = nominal_imperial_world_subject_type
+					}
+					ai = no
+				}
+				change_tag = ZTB
+				ZTB={set_country_flag = XXA_player_sector}
+			}			
+			every_owned_province={
+				limit={
+					region = inwit_cluster_region ##
+				}
+				cede_province = ZTB ##
+				add_core = ZTB ##
+				remove_core = ROOT
+			}
+			ZTB={##
+				if={
+					limit={
+						NOT={has_country_flag = XXA_player_sector}
+					}
+					change_government = monarchy
+					add_government_reform = imperial_governorate_reform
+					set_government_rank = 2
+					change_technology_group = imperial
+					change_religion = imperial_cult
+					change_primary_culture = inwit_cluster_human_culture ##
+				}
+				country_event = {id = sector_formation_events.1}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}

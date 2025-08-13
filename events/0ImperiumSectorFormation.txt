@@ -1,0 +1,107 @@
+namespace = sector_formation_events
+
+# Sector is formed
+country_event = {
+	id = sector_formation_events.1
+	title = "EVTNAMEsector_formation_events_1"
+	desc = "EVTDESCsector_formation_events_1"
+	picture = POPE_PREACHING_eventPicture
+	
+	major = no
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAsector_formation_events_1"
+		event_target:EmperorOfChina ={
+			create_subject = {
+				subject_type = imperial_sector_subject
+				subject = ROOT
+			}
+			every_subject_country={
+				limit={
+					capital_scope = {
+						region = fenris_region
+					}
+					OR={
+						is_subject_of_type = integrated_world_subject_type
+						is_subject_of_type = imperial_world_subject_type
+						is_subject_of_type = nominal_imperial_world_subject_type
+					}
+				}
+				country_event = {id = sector_formation_events.2}
+			}
+			every_subject_country={
+				limit={
+					any_owned_province={
+						region = fenris_region
+					}
+					capital_scope = {
+						NOT={region = fenris_region}
+					}
+					OR={
+						is_subject_of_type = integrated_world_subject_type
+						is_subject_of_type = imperial_world_subject_type
+						is_subject_of_type = nominal_imperial_world_subject_type
+						is_subject_of_type = imperial_sector_subject
+					}
+				}
+				country_event = {id = sector_formation_events.3}
+			}
+		}
+	}
+}
+#Sector world is demaned to join sector
+country_event = {
+	id = sector_formation_events.2
+	title = "EVTNAMEsector_formation_events_2"
+	desc = "EVTDESCsector_formation_events_2"
+	picture = POPE_PREACHING_eventPicture
+	
+	major = no
+	
+	is_triggered_only = yes
+	
+	option = {#accept
+		name = "EVTOPTAsector_formation_events_2"
+		FROM={
+			inherit = ROOT
+		}
+	}
+	option = {#refuse (only player and nominals should)
+		name = "EVTOPTBsector_formation_events_2"
+		
+	}
+}
+#Non-sector world is demanded to cede sector territory
+country_event = {
+	id = sector_formation_events.3
+	title = "EVTNAMEsector_formation_events_3"
+	desc = "EVTDESCsector_formation_events_3"
+	picture = POPE_PREACHING_eventPicture
+	
+	major = no
+	
+	is_triggered_only = yes
+	
+	option = {#accept
+		name = "EVTOPTAsector_formation_events_3"
+		PREV={
+			capital_scope = {
+				region={
+					ROOT={
+						every_owned_province={
+							limit={
+								region = PREV_PREV
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	option = {#refuse -
+		name = "EVTOPTBsector_formation_events_3"
+		
+	}
+}
