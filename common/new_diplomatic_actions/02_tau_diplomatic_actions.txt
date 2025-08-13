@@ -28,10 +28,8 @@ propose_to_join_the_greater_good = {
     # Determines when the action can be taken
     is_allowed = {
 		is_at_war = no
-		NOT = { truce_with FROM }
-		NOT = { truce_with ROOT }
 		FROM = { 
-			NOT = { truce_with ROOT }
+			NOT = { truce_with = ROOT }
 			OR = {
 				dominant_religion = greater_good
 				capital_scope = {
