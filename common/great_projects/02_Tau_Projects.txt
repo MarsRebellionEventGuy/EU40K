@@ -287,7 +287,7 @@ Kabuto_laboratory = {
 
         # What modifiers are given to the province the project is located in
         province_modifiers = {
-            institution_growth = 1
+            institution_growth = 6
         }
 
         # What modifiers are given to the area of the province the project is located in
@@ -324,7 +324,7 @@ Kabuto_laboratory = {
 
         # What modifiers are given to the area of the province the project is located in
         area_modifier = {
-            institution_growth = 1
+            institution_growth = 6
         }
 
         # What modifiers are given to the nation that owns the monument
@@ -365,7 +365,7 @@ Kabuto_laboratory = {
 
         # What modifiers are given to the region of the province the project is located in
         region_modifier = {
-            institution_growth = 1
+            institution_growth = 6
         }
 
         # What happens when the upgrade is complete

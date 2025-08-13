@@ -3,6 +3,6 @@
 ##########################################################################
 
 tau_caste_system_modifier = {
-	all_estate_loyalty_equilibrium = 0.6
+	all_estate_loyalty_equilibrium = 0.5
 	promote_culture_cost = 100
 }
