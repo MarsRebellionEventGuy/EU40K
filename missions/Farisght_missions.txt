@@ -96,12 +96,12 @@ Farsight_fate_of_necron_assimilate_branch = {
 			not_in_mission_preview_mode = { key = XGG_SAUTEKH }
 			OR = {
 				XEV = {
-					is_subject_of = XGF
+					is_subject_of = XGG
 				}
 				AND = {
 					NOT = { exists = XEV }
 					XUH = {
-						is_subject_of = XGF
+						is_subject_of = XGG
 					}
 				}
 			}
