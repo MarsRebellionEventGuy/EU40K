@@ -101,3 +101,7 @@ conquest_Eldar = {
 	years_of_nationalism = -5
 	navy_tradition = 0.5
 }
+
+webway_invasion = {
+	range = 0.5
+}

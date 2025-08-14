@@ -1,3 +1,5 @@
+namespace = indomitus_general
+
 country_event = { #Pretenders rise when country not at war for 2 years
 	id = indomitus_general.12
 	title = indomitus_general.12.t

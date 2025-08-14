@@ -1,0 +1,226 @@
+estate_earth_caste_kejata_idea = {
+	icon = privilege_demand_more_troops
+	
+	loyalty = -0.10
+	influence = 0.10
+	
+	can_select = {
+		advisor = natural_scientist
+		num_of_estate_agendas_completed = {
+			estate = estate_earth_caste
+			value = 1
+		}
+	}
+	on_granted = { 
+		caste_privilege_counter_on_granted_effect = { CASTE = earth_caste } 
+	} 
+	
+	on_revoked = { 
+		caste_privilege_counter_on_revoked_effect = { CASTE = earth_caste } 
+	}
+	
+	penalties = {
+		adm_advisor_cost = 0.2
+	}
+	benefits = {
+		build_cost = -0.25
+	}
+
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			ruler_has_personality = greedy_personality
+		}
+	}
+}
+
+estate_earth_caste_monetary_control = {
+	icon = privilege_limited_war_support
+	
+	loyalty = -0.10
+	influence = 0.10
+
+	can_select = {
+		advisor = treasurer
+		num_of_estate_agendas_completed = {
+			estate = estate_earth_caste
+			value = 2
+		}
+	}
+
+	on_granted = { 
+		caste_privilege_counter_on_granted_effect = { CASTE = earth_caste } 
+	} 
+	
+	on_revoked = { 
+		caste_privilege_counter_on_revoked_effect = { CASTE = earth_caste } 
+	}
+	
+	penalties = {
+		adm_advisor_cost = 0.2
+	}
+	benefits = {
+		inflation_reduction = 0.2
+	}
+
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			ruler_has_personality = greedy_personality
+		}
+	}
+}
+
+estate_earth_caste_kabuto_laboratory = {
+	icon = privilege_limited_war_support
+	
+	loyalty = -0.10
+	influence = 0.10
+	
+	can_select = {
+		advisor = natural_scientist
+		num_of_estate_agendas_completed = {
+			estate = estate_earth_caste
+			value = 3
+		}
+	}
+	on_granted = { 
+		caste_privilege_counter_on_granted_effect = { CASTE = earth_caste } 
+	} 
+	
+	on_revoked = { 
+		caste_privilege_counter_on_revoked_effect = { CASTE = earth_caste } 
+	}
+	
+	penalties = {
+		global_tax_modifier = -0.05
+		production_efficiency = -0.05
+	}
+	benefits = {
+		technology_cost = -0.1
+		idea_cost = -0.1
+	}
+
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			ruler_has_personality = greedy_personality
+		}
+	}
+}
+
+estate_earth_caste_worldshaper_idea = {
+	icon = privilege_limited_war_support
+	
+	loyalty = -0.10
+	influence = 0.10
+	
+	can_select = {
+		advisor = colonial_governor
+		num_of_estate_agendas_completed = {
+			estate = estate_earth_caste
+			value = 4
+		}
+	}
+	on_granted = { 
+		caste_privilege_counter_on_granted_effect = { CASTE = earth_caste } 
+	} 
+	
+	on_revoked = { 
+		caste_privilege_counter_on_revoked_effect = { CASTE = earth_caste } 
+	}
+	
+	penalties = {
+		global_colonial_growth = -20
+		colony_cost_modifier = 1
+	}
+	benefits = {
+		development_cost = -0.1
+		development_cost_modifier = -0.1
+	}
+
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			ruler_has_personality = obsessive_perfectionist_personality
+		}
+	}
+}
+
+estate_earth_caste_tulen_idea = {
+	icon = privilege_limited_war_support
+	
+	loyalty = -0.10
+	influence = 0.10
+	
+	can_select = {
+		advisor = fortification_expert
+		num_of_estate_agendas_completed = {
+			estate = estate_earth_caste
+			value = 5
+		}
+	}
+	on_granted = { 
+		caste_privilege_counter_on_granted_effect = { CASTE = earth_caste } 
+	} 
+	
+	on_revoked = { 
+		caste_privilege_counter_on_revoked_effect = { CASTE = earth_caste } 
+	}
+	
+	penalties = {
+		artillery_cost = 0.10
+	}
+	benefits = {
+		yearly_innovativeness = 0.25
+	}
+
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			ruler_has_personality = greedy_personality
+		}
+	}
+}
+
+estate_earth_caste_fed_and_supplied = {
+	icon = privilege_limited_war_support
+	
+	loyalty = -0.10
+	influence = 0.10
+	
+	can_select = {
+		has_reform = earth_caste_improved_reform
+		num_of_estate_agendas_completed = {
+			estate = estate_earth_caste
+			value = 6
+		}
+	}
+	on_granted = { 
+		caste_privilege_counter_on_granted_effect = { CASTE = earth_caste } 
+	} 
+	
+	on_revoked = { 
+		caste_privilege_counter_on_revoked_effect = { CASTE = earth_caste } 
+	}
+	
+	penalties = {
+		advisor_cost = 0.2
+	}
+	benefits = {
+		country_admin_power = 1
+	}
+
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			ruler_has_personality = greedy_personality
+		}
+	}
+}

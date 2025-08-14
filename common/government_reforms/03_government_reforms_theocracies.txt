@@ -33,7 +33,7 @@ tau_reform = {
 	nation_designer_cost = 0
 	modifiers = {
 		reduced_liberty_desire = 33
-		promote_culture_cost = 100 # if assilimilate system doesn't work, you can juste convert and fight
+		diplomatic_upkeep = 2
 	}
 	conditional = {
 		allow = {
@@ -180,21 +180,21 @@ heretic_astartes_reform = {
 	}
 }	
 
-# forge_world_reform = {
-	# potential = {
-		# primary_culture = mechanicus_culture
-	# }
-	# allow_normal_conversion = no
-	# legacy_equivalent = forge_world
-	# icon = "forge_world"
-	# valid_for_nation_designer = yes
-	# nation_designer_cost = 0
-	# modifiers = {
-		# production_efficiency = 0.15
-		# global_regiment_cost = -0.10
-		# relation_with_heathens = -50
-	# }
-# }
+forge_world_reform = {
+	potential = {
+		primary_culture = mechanicus_culture
+	}
+	allow_normal_conversion = no
+#	legacy_equivalent = forge_world
+	icon = "forge_world"
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	modifiers = {
+		production_efficiency = 0.15
+		global_regiment_cost = -0.10
+		relation_with_heathens = -50
+	}
+}
 
 chaos_forge_world_reform = {
 	potential = {
@@ -604,8 +604,23 @@ quest_for_knowledge_warnings_reform = {
 	}
 }
 
+assimilation_of_others_reform = {
+    icon = "caste_liberty_reform"
+	
+	potential = {
+		culture_group = tau_culture_group
+	}
+	trigger = {
+	}
 
-
+    modifiers = {
+        relation_with_accepted_culture = 5
+		vassal_income = 0.2
+    }
+	ai = {
+		factor = 1
+	}
+}
 
 #Education of the State 3
 
@@ -660,9 +675,50 @@ the_rest_shall_be_menials_reform = {
 	}
 }
 
+mission_to_kill_pirates_reform = {
+	icon = "mission_to_kill_pirates_reform"
+	allow_normal_conversion = yes
+	trigger = {
+		num_of_ports = 1
+	}
+	modifiers = {
+		global_sailors_modifier = 0.2
+		naval_forcelimit_modifier = 0.25
+		capture_ship_chance = 0.33
+		allowed_marine_fraction = 0.1
+	}
+}
 
+balanced_mission_reform = {
+	icon = "generic_people"
+	allow_normal_conversion = yes
+	modifiers = {
+		devotion = 0.5
+		national_focus_years = -10
+	}
+}
 
-#Clergy in Administration 4
+commercial_mission_reform = {
+	icon = "merchant"
+	allow_normal_conversion = yes
+	modifiers = {
+		global_trade_power = 0.1
+		merchants = 1
+	}
+}
+
+mission_to_protect_reform = {
+	icon = "castle"
+	allow_normal_conversion = yes
+	modifiers = {
+		defensiveness = 0.1
+		missionaries = 1
+		prestige_per_development_from_conversion = 0.2
+	}
+
+}
+
+#Religoius doctrine 4
 
 magos_order_reform = {
 	icon = "ordo_magos"
@@ -725,7 +781,15 @@ artisan_order_reform = {
 	}
 }
 
-
+ethereal_council_reform = {
+	icon = "auxilia_myrmidon"
+	potential = {
+    		has_reform = tau_reform
+	}
+    modifiers = {
+		min_autonomy_in_territories = -0.4
+	}
+}
 
 #Military Doctrine 5
 
@@ -924,7 +988,61 @@ abominable_intelligence_reform	 = {				#heretek exclusive
 	}
 }		
 
+kauyon_reform = {
+	icon = "kauyon_reform"
+	
+	potential = {
+		culture_group = tau_culture_group
+	}
+	trigger = {
+	}
 
+    modifiers = {
+        infantry_fire = 2
+		infantry_shock = -1
+		morale_damage = 0.1
+    }
+	ai = {
+		factor = 1
+	}
+}
+
+montka_reform = {
+	icon = "montka_reform"
+	
+	potential = {
+		culture_group = tau_culture_group
+	}
+	trigger = {
+	}
+
+    modifiers = {
+        artillery_fire = 1
+		shock_damage_received = 0.10
+		fire_damage = 0.2
+    }
+	ai = {
+		factor = 1
+	}
+}
+
+korvattra_reform = {
+	icon = "korvattra_reform"
+	
+	potential = {
+		culture_group = tau_culture_group
+	}
+	trigger = {
+	}
+
+    modifiers = {
+        ship_durability = 0.2
+		number_of_cannons_modifier = 0.1
+    }
+	ai = {
+		factor = 1
+	}
+}
 
 #Secularization 6
 
@@ -992,7 +1110,43 @@ magos_militarum_reform = {
 	}
 }
 
+education_of_the_advisors_reform = {
+	icon = "arabic_scripture"
+    potential = {
+        NOT = { primary_culture = mechanicus_culture }
+    }
+    
+	allow_normal_conversion = yes
+	modifiers = {
+		advisor_cost = -0.15
+	}
+}
 
+education_of_the_missionaries_reform = {
+	icon = "church"
+	allow_normal_conversion = yes
+    potential = {
+        NOT = { primary_culture = mechanicus_culture }
+    }
+	modifiers = {
+		global_missionary_strength = 0.02
+		#power_points_per_development_from_conversion = 0.25	#For 1.36
+		missionary_maintenance_cost = -0.5
+		max_absolutism = 5
+	}
+}
+
+education_of_the_people_reform = {
+	icon = "peasants"
+	allow_normal_conversion = yes
+    potential = {
+        NOT = { primary_culture = mechanicus_culture }
+    }
+	modifiers = {
+		idea_cost = -0.05
+		institution_spread_from_true_faith = 0.33
+	}
+}
 
 #Clercy in Administration 7
 
@@ -1061,7 +1215,77 @@ allied_knight_houses_reform = {
 	}
 }
 
+air_caste_improved_reform = {
+	icon = "air_caste_improved_reform"
+	potential = {
+		religion = greater_good
+	}
+	trigger = {
+	}
+	 modifiers = {
+		caravan_power = 0.2
+		movement_speed_in_fleet_modifier = 1
+		trade_range_modifier = 0.25
+		ship_power_propagation = 0.1
+    }
+	ai = {
+		factor = 1
+	}
+}
 
+fire_caste_improved_reform = {
+	icon = "fire_caste_improved_reform"
+	potential = {
+		religion = greater_good
+	}
+	trigger = {
+	}
+	 modifiers = {
+		army_tradition_decay = -0.02
+		yearly_army_professionalism = 0.01
+		no_cost_for_reinforcing = yes
+		manpower_recovery_speed = 0.10
+    }
+	ai = {
+		factor = 1
+	}
+}
+
+earth_caste_improved_reform = {
+	icon = "earth_caste_improved_reform"
+	potential = {
+		religion = greater_good
+	}
+	trigger = {
+	}
+	 modifiers = {
+		production_efficiency = 0.05
+		global_institution_spread = 0.2
+		development_cost_modifier = -0.05
+		build_cost = -0.1
+    }
+	ai = {
+		factor = 1
+	}
+}
+
+water_caste_improved_reform = {
+	icon = "water_caste_improved_reform"
+	potential = {
+		religion = greater_good
+	}
+	trigger = {
+	}
+	 modifiers = {
+		reduced_liberty_desire = 10
+		liberty_desire_from_subject_development = -0.25
+		annexation_relations_impact = -1
+		global_spy_defence = 0.25
+    }
+	ai = {
+		factor = 1
+	}
+}
 
 #Economic Matters 8
 
@@ -1186,6 +1410,110 @@ increased_consumer_goods_reform = {
 	}
 }
 
+new_world_exploitation_reform = {
+	icon = "compass"
+	allow_normal_conversion = yes
+	potential = {
+		NOT = { primary_culture = mechanicus_culture }
+	}
+	trigger = {
+		OR = {
+			full_idea_group = expansion_ideas
+			full_idea_group = exploration_ideas
+		}
+	}
+	modifiers = {
+		colonists = 1 
+	}
+	ai = {
+		factor = 1
+	}
+}
+
+mercantilistic_approach_reform = {
+	icon = "paper_with_seal"
+	allow_normal_conversion = yes
+	potential = {
+		NOT = { primary_culture = mechanicus_culture }
+	}
+	modifiers = {
+		mercantilism_cost = -0.1
+		global_own_trade_power = 0.15
+		placed_merchant_power = 5
+	}
+	ai = {
+		factor = 1
+	}
+}
+
+free_trade_reform = {
+	icon = "merchant"
+	allow_normal_conversion = yes
+	potential = {
+		NOT = { primary_culture = mechanicus_culture }
+	}
+	modifiers = {
+		global_institution_spread = 0.25
+		global_foreign_trade_power = 0.2
+	}
+	ai = {
+		factor = 1
+	}
+}
+
+lockean_proviso_reform = {
+	icon = "paper_money_map"
+	allow_normal_conversion = yes
+	potential = {
+		NOT = { primary_culture = mechanicus_culture }
+	}
+	trigger = {
+		OR = { 
+			full_idea_group = economic_ideas
+			full_idea_group = infrastructure_ideas 
+		}
+	}
+	modifiers = {
+		development_cost = -0.05
+		global_trade_goods_size_modifier = 0.05
+	}
+	ai = {
+		factor = 1
+	}
+}
+
+embrace_the_economic_theory_reform = {
+	icon = "dutch_flag"
+	allow_normal_conversion = yes
+	potential = {
+		NOT = { primary_culture = mechanicus_culture }
+	}
+	modifiers = {
+		interest = -0.5
+		inflation_reduction = 0.2
+	}
+	ai = {
+		factor = 1
+	}
+}
+
+war_economy_reform = {
+	icon = "war_economy"
+	allow_normal_conversion = yes
+	potential = {
+		NOT = { primary_culture = mechanicus_culture }
+	}
+	trigger = {
+	}
+	modifiers = {
+		war_taxes_cost_modifier = -0.5
+		global_regiment_cost = -0.1
+		global_ship_cost = -0.1
+	}
+	ai = {
+		factor = 1
+	}
+}
 
 
 #Divine Cause 9
@@ -1271,6 +1599,30 @@ learn_from_the_xenos_reform = {					#stygies exclusive
 }			
 
 
+combat_heresy_reform = {
+	icon = "soldiers_2"
+	allow_normal_conversion = yes
+    potential = {
+        NOT = { primary_culture = mechanicus_culture }
+    }
+    
+	modifiers = {
+		land_morale = 0.1
+		shock_damage = 0.05
+	}
+}
+
+pursuit_of_knowledge_reform = {
+	icon = "religious_leader"
+	allow_normal_conversion = yes
+    potential = {
+        NOT = { primary_culture = mechanicus_culture }
+    }
+	modifiers = {
+		technology_cost = -0.05
+	}
+}
+
 
 #Separation of Powers 10
 
@@ -1319,7 +1671,50 @@ a_mechanized_crusade_reform = {
 	}
 }
 
+divine_guidance_reform = {
+	icon = "divine_guidance_reform"
+	allow_normal_conversion = yes
+    potential = {
+    		NOT = { primary_culture = mechanicus_culture }
+	}
+	modifiers = {
+		max_absolutism = 15
+	}
+    ai = {
+        factor = 1
+    }
+}
 
+theocratic_democracy_reform = {
+	icon = "ballot_box"
+    potential = {
+    		NOT = { primary_culture = mechanicus_culture }
+	}
+	modifiers = {
+		global_unrest = -1
+	}
+	has_parliament = yes
+
+    ai = {
+		factor = 1
+	}
+}
+
+constitional_theocracy_reform = {
+	icon = "assembly_hall"
+	allow_normal_conversion = yes
+
+    potential = {
+    	NOT = { primary_culture = mechanicus_culture }
+	}
+	modifiers = {
+		years_of_nationalism = -10
+	}
+	
+	ai = {
+		factor = 1
+	}
+}
 
 #The Nature of Our Faith 11
 
@@ -1373,6 +1768,104 @@ omnissiahs_will_reform = {
 }
 
 
+church_and_state_reform = {
+	potential = {
+		NOT = {
+			primary_culture = mechanicus_culture
+		}
+	}
+	icon = "church_and_state_reform"
+	allow_normal_conversion = yes
+	modifiers = {
+		free_policy = 1
+	}
+	ai = {
+		factor = 0
+	}
+}
+
+god_and_man_reform = {
+	potential = {
+		NOT = {
+			primary_culture = mechanicus_culture
+		}
+	}
+	icon = "religious_leader"
+	allow_normal_conversion = yes
+	modifiers = {
+		missionaries = 1
+		tolerance_own = 2
+	}
+	ai = {
+		factor = 0
+	}
+}
+
+religious_harmony_reform = {
+	icon = "religious_harmony_reform"
+	allow_normal_conversion = yes
+    potential = {
+    		NOT = { primary_culture = mechanicus_culture }
+	}
+	modifiers = {
+		tolerance_heathen = 1
+		tolerance_heretic = 1
+	}
+	ai = {
+		factor = 0
+	}
+}
+
+organising_our_religion_reform = {
+	icon = "organising_our_religion_reform"
+	allow_normal_conversion = yes
+    potential = {
+    		NOT = { primary_culture = mechanicus_culture }
+	}
+	
+	modifiers = {
+		yearly_absolutism = 1
+		devotion = 1
+	}
+	ai = {
+		factor = 3
+	}
+}
+
+faith_and_power_reform = {
+	icon = "soldiers_5"
+	allow_normal_conversion = yes
+    potential = {
+    		NOT = { primary_culture = mechanicus_culture }
+	}
+	modifiers = {
+		morale_damage_received = -0.1
+	}
+	custom_attributes = {
+		winning_battles_increases_legitimacy = yes
+	}
+	rulers_can_be_generals = yes
+	ai = {
+		factor = 0
+	}
+}
+
+belief_and_unity_reform = {
+	icon = "strength_of_the_khalsa"
+	allow_normal_conversion = yes
+    potential = {
+    		NOT = { primary_culture = mechanicus_culture }
+	}
+	modifiers = {
+		religious_unity = 0.5
+		num_accepted_cultures = 2
+	}
+	ai = {
+		factor = 0
+	}
+}
+
+
 #Culture, Faith and State 12
 
 one_magos_above_all_reform = {
@@ -1418,6 +1911,64 @@ empowered_electropriests_reform = {
 	}
 }
 
+
+religious_culture_reform = {
+	icon = "mission_to_civilize_reform"
+	allow_normal_conversion = yes
+	potential = {
+    		NOT = { primary_culture = mechanicus_culture }
+	}
+	modifiers = {
+		governing_capacity = 250
+	}
+	ai = {
+		factor = 1
+	}
+}
+
+harmonization_of_cultures_reform = {
+	icon = "generic_people"
+	allow_normal_conversion = yes
+	potential = {
+    		NOT = { primary_culture = mechanicus_culture }
+	}
+	modifiers = {
+		promote_culture_cost = -0.5
+		same_culture_advisor_cost = -0.2
+	}
+	ai = {
+		factor = 1
+	}
+}
+
+cultural_safe_haven_reform = {
+	icon = "man_and_children"
+	allow_normal_conversion = yes
+	potential = {
+    		NOT = { primary_culture = mechanicus_culture }
+	}
+	modifiers = {
+		manpower_in_accepted_culture_provinces = 0.1
+		manpower_in_culture_group_provinces = 0.1
+	}
+	ai = {
+		factor = 1
+	}
+}
+
+taxation_of_the_foreigners_reform = {
+	icon = "government_for_people_reform"
+	allow_normal_conversion = yes
+	potential = {
+    		NOT = { primary_culture = mechanicus_culture }
+	}
+	modifiers = {
+		global_tax_modifier = 0.5
+	}
+	ai = {
+		factor = 1
+	}
+}
 
 
 #Global Religion 13
@@ -1481,5 +2032,96 @@ stcs_recovered_reform = {					#Adeptus Mechanicus is reunified
 	modifiers = {
 		development_cost_modifier = -0.05
 		global_trade_goods_size_modifier = 0.1
+	}
+}
+
+religion_in_one_country_reform = {
+	icon = "rioting_burning_2"
+	allow_normal_conversion = yes
+	potential = {
+		NOT = {
+			primary_culture = mechanicus_culture
+		}
+	}
+	modifiers = {
+		warscore_cost_vs_other_religion = -0.3
+	}
+	ai = {
+		factor = 3
+	}
+}
+
+many_fingers_of_god_reform = {
+	icon = "asian_scripture"
+	allow_normal_conversion = yes
+    potential = {
+    		NOT = { primary_culture = mechanicus_culture }
+	}
+	modifiers = {
+		tolerance_heretic = 2	
+		tolerance_heathen = 2
+	}
+	ai = {
+		factor = 3
+	}
+}
+
+priestly_autonomy_reform = {
+	icon = "strength_of_the_khalsa"
+	allow_normal_conversion = yes
+    potential = {
+    		NOT = { primary_culture = mechanicus_culture }
+	}	
+	modifiers = {
+		administrative_efficiency = 0.025
+		min_autonomy_in_territories = -0.05
+	}
+	ai = {
+		factor = 3
+	}
+}
+
+state_of_theologians_reform = {
+	icon = "clergyman"
+	allow_normal_conversion = yes
+    potential = {
+    		NOT = { primary_culture = mechanicus_culture }
+	}
+	modifiers = {
+		advisor_pool = 2
+		advisor_cost = -0.2
+	}
+	ai = {
+		factor = 3
+	}
+}
+
+divinity_through_craftsmanship_reform = {
+	icon = "peasant_republic"
+	allow_normal_conversion = yes
+    potential = {
+    		NOT = { primary_culture = mechanicus_culture }
+	}
+	modifiers = {
+		development_cost_modifier = -0.025
+		global_trade_goods_size_modifier = 0.1
+	}
+	ai = {
+		factor = 3
+	}
+}
+
+proclaim_religious_head_reform = {
+	icon = "shaman"
+	allow_normal_conversion = yes
+    potential = {
+    		NOT = { primary_culture = mechanicus_culture }
+	}
+	modifiers = {
+		warscore_cost_vs_other_religion = -0.25
+		diplomatic_reputation = 1
+	}
+	ai = {
+		factor = 3
 	}
 }

@@ -1,0 +1,1157 @@
+
+estate_earth_caste_build_manufactory_in_y = {
+	can_select = {
+		any_owned_province = {
+			is_state_core = root
+			root_can_build_indomitus_manufactory_here_trigger = yes
+		}
+		monthly_income = 30
+	}
+	selection_weight = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			OR = {
+				current_age = age_of_discovery
+				current_age = age_of_reformation
+			}
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { monthly_income = 40 }
+		}
+		modifier = {
+			factor = 2
+			monthly_income = 60
+		}
+		modifier = {
+			factor = 2
+			is_institution_enabled = manufactories
+			NOT = { has_institution = manufactories }
+		}
+	}
+	pre_effect = {
+		random_owned_province = {
+			limit = {
+				is_state_core = root
+				root_can_build_indomitus_manufactory_here_trigger = yes
+			}
+			save_event_target_as = agenda_province
+		}
+		random_owned_province = {
+			limit = {
+				is_state_core = root
+				base_production = 5
+				root_can_build_indomitus_manufactory_here_trigger = yes
+			}
+			save_event_target_as = agenda_province
+		}
+		random_owned_province = {
+			limit = {
+				is_state_core = root
+				base_production = 10
+				root_can_build_indomitus_manufactory_here_trigger = yes
+			}
+			save_event_target_as = agenda_province
+		}
+	}
+	provinces_to_highlight = {
+		province_id = event_target:agenda_province
+	}
+	fail_if = {
+		event_target:agenda_province = {
+			NOT = { owned_by = root }
+		}
+	}
+    task_requirements = {
+		if = {
+			limit = {
+				has_estate_agenda_auto_completion = {
+					estate = estate_earth_caste
+				}
+			}
+			has_estate_agenda_auto_completion = {
+				estate = estate_earth_caste
+			}
+		}
+		else = {
+			event_target:agenda_province = {
+				custom_trigger_tooltip = {
+					tooltip = has_manufactory_trigger_tooltip
+					OR = {
+						if = {
+							limit = {
+								OR = {
+									trade_goods = coffee
+                                    trade_goods = cotton
+                                    trade_goods = sugar
+                                    trade_goods = tobacco
+                                    trade_goods = tea
+                                    trade_goods = cocoa
+								}
+							}
+							has_building = plantations
+						}
+						else_if = {
+							limit = {
+								OR = {
+									trade_goods = military_equipment
+                                    trade_goods = minerals
+                                    trade_goods = promethium
+								}
+							}
+							has_building = weapons
+						}
+						else_if = {
+							limit = {
+								OR = {
+									trade_goods = clerks
+                                    trade_goods = consumer_goods
+								}
+							}
+							has_building = textile
+						}
+						else_if = {
+							limit = {
+								OR = {
+                                    trade_goods = slaves
+                                    trade_goods = incense
+                                    trade_goods = luxury_goods
+                                    trade_goods = xeno_technology
+                                    trade_goods = living_metal
+                                    trade_goods = wraithbone
+								}
+							}
+							has_building = tradecompany
+						}
+						else_if = {
+							limit = {
+								OR = {
+									trade_goods = agricultural_goods
+								}
+							}
+							has_building = farm_estate
+						}
+						else_if = {
+							limit = {
+								OR = {
+									trade_goods = archeotech
+                                    trade_goods = scientific_equipment
+								}
+							}
+							has_building = mills
+						}
+						else_if = {
+							limit = {
+								trade_goods = coal
+							}
+							has_building = furnace
+						}
+						else = {
+							has_building = wharf
+						}
+						has_building = ramparts
+						has_building = soldier_households
+						has_building = impressment_offices
+						has_building = state_house
+					}
+				}
+			}
+		}
+    }
+    task_completed_effect = {
+ 
+		add_estate_loyalty = {
+			estate = estate_earth_caste
+			loyalty = 10
+		}
+		event_target:agenda_province = {
+			add_base_manpower = 1
+			add_province_modifier = {
+				name = prospering_production
+				duration = 5475
+			}
+		}
+    }
+    failing_effect = {
+		on_failed_agenda_effect = yes
+		clr_auto_complete_flag = yes
+		event_target:agenda_province = {
+			if = {
+				limit = { owned_by = root }
+				add_named_unrest = {
+					name = local_earth_caste_displeased
+					value = 5
+				}
+			}
+		}
+        add_estate_loyalty_modifier = {
+            estate = estate_earth_caste
+			desc = EST_VAL_AGENDA_DENIED
+			loyalty = -5
+			duration = 7300
+        }
+    }
+}
+
+estate_earth_caste_build_production_building_in_y = {
+	can_select = {
+		adm_tech = 6
+		any_owned_province = {
+			is_state_core = root
+			NOT = { has_building = counting_house }
+			OR = {
+				AND = {
+					NOT = { has_building = workshop }
+					num_free_building_slots = 1
+				}
+				AND = {
+					ROOT = { adm_tech = 24 }
+					OR = {
+						has_building = workshop
+						num_free_building_slots = 1
+					}
+				}
+			}
+			NOT = { trade_goods = gold }
+		}
+	}
+	selection_weight = {
+		factor = 1
+		modifier = {
+			factor = 0.65
+			NOT = {
+				any_owned_province = {
+					is_state_core = root
+					base_production = 4
+					NOT = { has_building = counting_house }
+					OR = {
+						AND = {
+							NOT = { has_building = workshop }
+							num_free_building_slots = 1
+						}
+						AND = {
+							ROOT = { adm_tech = 24 }
+							OR = {
+								has_building = workshop
+								num_free_building_slots = 1
+							}
+						}
+					}
+					NOT = { trade_goods = gold }
+				}
+			}
+		}
+		modifier = {
+			factor = 1.2
+			any_owned_province = {
+				is_state_core = root
+				OR = {
+					base_production = 7
+					has_building = wharf
+					has_building = weapons
+					has_building = textile
+					has_building = tradecompany
+					has_building = farm_estate
+					has_building = mills
+					has_building = plantations
+					has_building = furnace
+				}
+				NOT = { has_building = counting_house }
+				OR = {
+					AND = {
+						NOT = { has_building = workshop }
+						num_free_building_slots = 1
+					}
+					AND = {
+						ROOT = { adm_tech = 24 }
+						OR = {
+							has_building = workshop
+							num_free_building_slots = 1
+						}
+					}
+				}
+				NOT = { trade_goods = gold }
+			}
+		}
+	}
+	pre_effect = {
+		set_variable = {
+			which = estate_earth_caste_build_production_building_in_y_var
+			value = 0
+		}
+		random_owned_province = {
+			limit = {
+				is_state_core = root
+				NOT = { has_building = counting_house }
+				OR = {
+					AND = {
+						NOT = { has_building = workshop }
+						num_free_building_slots = 1
+					}
+					AND = {
+						ROOT = { adm_tech = 24 }
+						OR = {
+							has_building = workshop
+							num_free_building_slots = 1
+						}
+					}
+				}
+				NOT = { trade_goods = gold }
+			}
+			save_event_target_as = agenda_province
+		}
+		random_owned_province = {
+			limit = {
+				is_state_core = root
+				base_production = 4
+				NOT = { has_building = counting_house }
+				OR = {
+					AND = {
+						NOT = { has_building = workshop }
+						num_free_building_slots = 1
+					}
+					AND = {
+						ROOT = { adm_tech = 24 }
+						OR = {
+							has_building = workshop
+							num_free_building_slots = 1
+						}
+					}
+				}
+				NOT = { trade_goods = gold }
+			}
+			save_event_target_as = agenda_province
+		}
+		random_owned_province = {
+			limit = {
+				is_state_core = root
+				OR = {
+					base_production = 7
+					has_building = wharf
+					has_building = weapons
+					has_building = textile
+					has_building = tradecompany
+					has_building = farm_estate
+					has_building = mills
+					has_building = plantations
+					has_building = furnace
+				}
+				NOT = { has_building = counting_house }
+				OR = {
+					AND = {
+						NOT = { has_building = workshop }
+						num_free_building_slots = 1
+					}
+					AND = {
+						ROOT = { adm_tech = 24 }
+						OR = {
+							has_building = workshop
+							num_free_building_slots = 1
+						}
+					}
+				}
+				NOT = { trade_goods = gold }
+			}
+			save_event_target_as = agenda_province
+		}
+		event_target:agenda_province = {
+			if = {
+				limit = {
+					has_building = workshop
+				}
+				ROOT = {
+					set_variable = {
+						which = estate_earth_caste_build_production_building_in_y_var
+						value = 2
+					}
+				}
+			}
+			else = {
+				ROOT = {
+					set_variable = {
+						which = estate_earth_caste_build_production_building_in_y_var
+						value = 1
+					}
+				}
+			}
+		}
+	}
+	provinces_to_highlight = {
+		province_id = event_target:agenda_province
+	}
+	fail_if = {
+		event_target:agenda_province = {
+			NOT = { owned_by = root }
+		}
+	}
+    task_requirements = {
+		if = {
+			limit = {
+				has_estate_agenda_auto_completion = {
+					estate = estate_earth_caste
+				}
+			}
+			has_estate_agenda_auto_completion = {
+				estate = estate_earth_caste
+			}
+		}
+		else = {
+			if = {
+				limit = {
+					check_variable = {
+						which = estate_earth_caste_build_production_building_in_y_var
+						value = 2
+					}
+				}
+				event_target:agenda_province = {
+					has_building = counting_house
+				}
+			}
+			else = {
+				event_target:agenda_province = {
+					OR = {
+						has_building = workshop
+						has_building = counting_house
+					}
+				}
+			}
+		}
+    }
+    task_completed_effect = {
+ 
+		add_estate_loyalty = {
+			estate = estate_earth_caste
+			loyalty = 10
+		}
+		event_target:agenda_province = {
+            add_base_production = 1
+        }
+    }
+    failing_effect = {
+		on_failed_agenda_effect = yes
+		clr_auto_complete_flag = yes
+		event_target:agenda_province = {
+			if = {
+				limit = { owned_by = root }
+				add_named_unrest = {
+					name = local_earth_caste_displeased
+					value = 5
+				}
+			}
+		}
+        add_estate_loyalty_modifier = {
+            estate = estate_earth_caste
+			desc = EST_VAL_AGENDA_DENIED
+			loyalty = -5
+			duration = 7300
+        }
+    }
+}
+
+estate_earth_caste_develop_x = {
+	selection_weight = {
+		factor = 1
+	}
+	can_select = {
+		capital_scope = {
+			is_state_core = root
+		}
+	}
+	pre_effect = {
+		random_list = {
+			1 = {
+				random_owned_province = {
+					limit = {
+						is_state_core = root
+						area_for_scope_province = {
+							is_capital_of = root
+						}
+					}
+					save_event_target_as = agenda_province
+				}
+			}
+			2 = {
+				trigger = {
+					any_owned_province = {
+						is_state_core = root
+						OR = {
+							AND = {
+								religion = root
+								OR = {
+									culture = root
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						region_for_scope_province = {
+							is_capital_of = root
+						}
+					}
+				}
+				random_owned_province = {
+					limit = {
+						is_state_core = root
+						OR = {
+							AND = {
+								religion = root
+								OR = {
+									culture = root
+									has_owner_accepted_culture = yes
+								}
+							}
+						}
+						region_for_scope_province = {
+							is_capital_of = root
+						}
+					}
+					save_event_target_as = agenda_province
+				}
+			}
+			1 = {
+				random_owned_province = {
+					limit = {
+						is_state_core = root
+					}
+					save_event_target_as = agenda_province
+				}
+			}
+		}
+		event_target:agenda_province = {
+			if = {
+				limit = {
+					check_variable = {
+						which = province_adm_var
+						value = 1
+					}
+				}
+				set_variable = {
+					which = province_adm_var
+					value = 0
+				}
+			}
+			export_to_variable = {
+				which = province_adm_var
+				value = trigger_value:base_tax
+			}
+			change_variable = {
+				which = province_adm_var
+				value = 2
+			}
+		}
+	}
+	provinces_to_highlight = {
+		province_id = event_target:agenda_province
+	}
+	fail_if = {
+		event_target:agenda_province = {
+			NOT = { owned_by = root }
+		}
+	}
+    task_requirements = {
+		if = {
+			limit = {
+				has_estate_agenda_auto_completion = {
+					estate = estate_earth_caste
+				}
+			}
+			has_estate_agenda_auto_completion = {
+				estate = estate_earth_caste
+			}
+		}
+		else = {
+			event_target:agenda_province = {
+				base_tax = "province_adm_var"
+			}
+		}
+    }
+    task_completed_effect = {
+ 
+		add_estate_loyalty = {
+			estate = estate_earth_caste
+			loyalty = 10
+		}
+		add_prestige = 10
+    }
+    failing_effect = {
+		on_failed_agenda_effect = yes
+		clr_auto_complete_flag = yes
+		event_target:agenda_province = {
+			if = {
+				limit = { owned_by = root }
+				add_named_unrest = {
+					name = local_earth_caste_displeased
+					value = 5
+				}
+			}
+		}
+        add_estate_loyalty_modifier = {
+            estate = estate_earth_caste
+			desc = EST_VAL_AGENDA_DENIED
+			loyalty = -5
+			duration = 7300
+        }
+    }
+}
+
+#Pay off loans
+estate_earth_caste_pay_off_loans = {
+	can_select = {
+		num_of_loans = 5
+		is_bankrupt = no
+	}
+	selection_weight = {
+		factor = 2
+		modifier = {
+			factor = 0.5
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 1.5
+			num_of_loans = 10
+		}
+		modifier = {
+			factor = 1.5
+			num_of_loans = 15
+		}
+		modifier = {
+			factor = 1.5
+			num_of_loans = 20
+		}
+	}
+	fail_if = {
+		is_bankrupt = yes
+	}
+	task_requirements = {
+		if = {
+			limit = {
+				has_estate_agenda_auto_completion = {
+					estate = estate_earth_caste
+				}
+			}
+			has_estate_agenda_auto_completion = {
+				estate = estate_earth_caste
+			}
+		}
+		else = {
+			NOT = { num_of_loans = 1 }
+			hidden_trigger = {
+				is_bankrupt = no
+			}
+		}
+	}
+    task_completed_effect = {
+ 
+		add_estate_loyalty = {
+			estate = estate_earth_caste
+			loyalty = 10
+		}
+		generate_scaled_advisor_of_type_and_religion_effect = {
+			type = master_of_mint
+			religion = root
+			discount = yes
+		}
+    }
+    failing_effect = {
+		on_failed_agenda_effect = yes
+		clr_auto_complete_flag = yes
+        add_estate_loyalty_modifier = {
+            estate = estate_earth_caste
+			desc = EST_VAL_AGENDA_DENIED
+			loyalty = -5
+			duration = 7300
+        }
+    }
+}
+
+#Get a treasury
+estate_earth_caste_get_cash = {
+	can_select = {
+		NOT = { years_of_income = 0.5 }
+		NOT = { num_of_loans = 1 }
+		is_at_war = no
+	}
+	selection_weight = {
+		factor = 1
+	}
+	task_requirements = {
+		if = {
+			limit = {
+				has_estate_agenda_auto_completion = {
+					estate = estate_earth_caste
+				}
+			}
+			has_estate_agenda_auto_completion = {
+				estate = estate_earth_caste
+			}
+		}
+		else = {
+			years_of_income = 2.5
+			NOT = { num_of_loans = 1 }
+		}
+	}
+	fail_if = {
+		num_of_loans = 1
+	}
+    task_completed_effect = {
+ 
+		if = {
+			limit = {
+				inflation = 5
+			}
+			add_estate_loyalty = {
+				estate = estate_earth_caste
+				loyalty = 10
+			}
+			generate_scaled_advisor_of_type_and_religion_effect = {
+				type = master_of_mint
+				religion = root
+				discount = yes
+			}
+		}
+		else = {
+			add_estate_loyalty = {
+				estate = estate_earth_caste
+				loyalty = 10
+			}
+			add_country_modifier = {
+				name = growing_economy
+				duration = 5475
+			}
+		}
+	}
+    failing_effect = {
+		on_failed_agenda_effect = yes
+		clr_auto_complete_flag = yes
+        add_estate_loyalty_modifier = {
+            estate = estate_earth_caste
+			desc = EST_VAL_AGENDA_DENIED
+			loyalty = -5
+			duration = 7300
+        }
+    }
+}
+
+#Reduce corruption
+estate_earth_caste_reduce_corruption = {
+	can_select = {
+		corruption = 5
+		is_bankrupt = no
+		NOT = { has_country_modifier = freedom_from_corruption }
+	}
+	selection_weight = {
+		factor = 1.5
+		modifier = {
+			factor = 0.5
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 2
+			corruption = 10
+		}
+		modifier = {
+			factor = 1.5
+			corruption = 15
+		}
+		modifier = {
+			factor = 1.5
+			corruption = 20
+		}
+	}
+	pre_effect = {
+		set_variable = {
+			which = estate_earth_caste_reduce_corruption_var
+			value = 0
+		}
+		if = {
+			limit = {
+				NOT = {
+					corruption = 10
+				}
+			}
+			set_variable = {
+				which = estate_earth_caste_reduce_corruption_var
+				value = 1
+			}
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					corruption = 15
+				}
+			}
+			set_variable = {
+				which = estate_earth_caste_reduce_corruption_var
+				value = 2
+			}
+		}
+		else = {
+			set_variable = {
+				which = estate_earth_caste_reduce_corruption_var
+				value = 3
+			}
+		}
+	}
+	task_requirements = {
+		if = {
+			limit = {
+				has_estate_agenda_auto_completion = {
+					estate = estate_earth_caste
+				}
+			}
+			has_estate_agenda_auto_completion = {
+				estate = estate_earth_caste
+			}
+		}
+		else = {
+			if = {
+				limit = {
+					check_variable = {
+						which = estate_earth_caste_reduce_corruption_var
+						value = 3
+					}
+				}
+				NOT = { corruption = 10 }
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						which = estate_earth_caste_reduce_corruption_var
+						value = 2
+					}
+				}
+				NOT = { corruption = 5 }
+			}
+			else = {
+				NOT = { corruption = 1 }
+			}
+		}
+	}
+    task_completed_effect = {
+ 
+		add_estate_loyalty = {
+			estate = estate_earth_caste
+			loyalty = 10
+		}
+		add_country_modifier = {
+			name = freedom_from_corruption
+			duration = 5475
+		}
+    }
+    failing_effect = {
+		on_failed_agenda_effect = yes
+		clr_auto_complete_flag = yes
+        add_estate_loyalty_modifier = {
+            estate = estate_earth_caste
+			desc = EST_VAL_AGENDA_DENIED
+			loyalty = -5
+			duration = 7300
+        }
+    }
+}
+
+estate_earth_caste_recovery_from_hyperinflation = {
+	can_select = {
+		inflation = 30
+	}
+	selection_weight = {
+		factor = 5
+	}
+	task_requirements = {
+		if = {
+			limit = {
+				has_estate_agenda_auto_completion = {
+					estate = estate_earth_caste
+				}
+			}
+			has_estate_agenda_auto_completion = {
+				estate = estate_earth_caste
+			}
+		}
+		else = {
+			NOT = { inflation = 15 }
+		}
+	}
+    task_completed_effect = {
+ 
+		add_estate_loyalty = {
+			estate = estate_earth_caste
+			loyalty = 10
+		}
+		add_stability_or_adm_power = yes
+		add_inflation = -10
+    }
+    failing_effect = {
+		on_failed_agenda_effect = yes
+		clr_auto_complete_flag = yes
+        add_estate_loyalty_modifier = {
+            estate = estate_earth_caste
+			desc = EST_VAL_AGENDA_DENIED
+			loyalty = -5
+			duration = 7300
+        }
+    }
+}
+
+estate_earth_caste_build_university_in_y = {
+	can_select = {
+		adm_tech = 17
+		any_owned_province = {
+			is_state_core = root
+			NOT = { has_building = university }
+			OR = {
+				development = 10
+				is_capital = yes
+			}
+		}
+	}
+	selection_weight = {
+		factor = 1
+		modifier = {
+			factor = 0.75
+			NOT = {
+				any_owned_province = {
+					is_state_core = root
+					NOT = { has_building = university }
+					development = 15
+				}
+			}
+		}
+		modifier = {
+			factor = 1.2
+			any_owned_province = {
+				is_state_core = root
+				NOT = { has_building = university }
+				development = 20
+			}
+		}
+		modifier = {
+			factor = 2
+			is_institution_enabled = enlightenment
+			NOT = { has_institution = enlightenment }
+		}
+	}
+	pre_effect = {
+		random_owned_province = {
+			limit = {
+				is_state_core = root
+				NOT = { has_building = university }
+				development = 10
+			}
+			save_event_target_as = agenda_province
+		}
+		random_owned_province = {
+			limit = {
+				is_state_core = root
+				NOT = { has_building = university }
+				development = 15
+			}
+			save_event_target_as = agenda_province
+		}
+		random_owned_province = {
+			limit = {
+				is_state_core = root
+				NOT = { has_building = university }
+				development = 20
+			}
+			save_event_target_as = agenda_province
+		}
+		random_owned_province = {
+			limit = {
+				is_state_core = root
+				NOT = { has_building = university }
+				is_capital = yes
+			}
+			save_event_target_as = agenda_province
+		}
+	}
+	provinces_to_highlight = {
+		province_id = event_target:agenda_province
+	}
+	fail_if = {
+		event_target:agenda_province = {
+			NOT = { owned_by = root }
+		}
+	}
+    task_requirements = {
+		if = {
+			limit = {
+				has_estate_agenda_auto_completion = {
+					estate = estate_earth_caste
+				}
+			}
+			has_estate_agenda_auto_completion = {
+				estate = estate_earth_caste
+			}
+		}
+		else = {
+			event_target:agenda_province = {
+				has_building = university
+			}
+		}
+    }
+    task_completed_effect = {
+ 
+		add_estate_loyalty = {
+			estate = estate_earth_caste
+			loyalty = 10
+		}
+		add_adm_power = 35
+		add_dip_power = 35
+		add_mil_power = 35
+    }
+    failing_effect = {
+		on_failed_agenda_effect = yes
+		clr_auto_complete_flag = yes
+		event_target:agenda_province = {
+			if = {
+				limit = { owned_by = root }
+				add_named_unrest = {
+					name = local_earth_caste_displeased
+					value = 5
+				}
+			}
+		}
+        add_estate_loyalty_modifier = {
+            estate = estate_earth_caste
+			desc = EST_VAL_AGENDA_DENIED
+			loyalty = -5
+			duration = 7300
+        }
+    }
+}
+
+#This one or the next one will always be valid
+estate_earth_caste_hire_advisor = {
+	can_select = {
+		NOT = {
+			employed_advisor = {
+				category = ADM
+			}
+		}
+	}
+	selection_weight = {
+		factor = 1
+	}
+	task_requirements = {
+		if = {
+			limit = {
+				has_estate_agenda_auto_completion = {
+					estate = estate_earth_caste
+				}
+			}
+			has_estate_agenda_auto_completion = {
+				estate = estate_earth_caste
+			}
+		}
+		else = {
+			employed_advisor = {
+				category = ADM
+			}
+			is_in_deficit = no
+		}
+	}
+    task_completed_effect = {
+ 
+		add_estate_loyalty = {
+			estate = estate_earth_caste
+			loyalty = 10
+		}
+    }
+    failing_effect = {
+		on_failed_agenda_effect = yes
+		clr_auto_complete_flag = yes
+        add_estate_loyalty_modifier = {
+            estate = estate_earth_caste
+			desc = EST_VAL_AGENDA_DENIED
+			loyalty = -5
+			duration = 7300
+        }
+    }
+}
+
+estate_earth_caste_fire_advisor = {
+	can_select = {
+		employed_advisor = {
+			category = ADM
+		}
+	}
+	selection_weight = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			always = yes
+		}
+		modifier = {
+			factor = 0.5
+			employed_advisor = {
+				type = theologian
+				religion = root
+			}
+		}
+		modifier = {
+			factor = 2
+			advisor = theologian
+			NOT = {
+				employed_advisor = {
+					type = theologian
+					religion = root
+				}
+			}
+		}
+	}
+	immediate_effect = {
+		hidden_effect = {
+			set_country_flag = need_to_fire_adm_advisor
+		}
+	}
+	on_invalid = {
+		clr_country_flag = need_to_fire_adm_advisor
+	}
+	task_requirements = {
+		if = {
+			limit = {
+				has_estate_agenda_auto_completion = {
+					estate = estate_earth_caste
+				}
+			}
+			has_estate_agenda_auto_completion = {
+				estate = estate_earth_caste
+			}
+		}
+		else = {
+			custom_trigger_tooltip = {
+				tooltip = fire_adm_advisor_tooltip
+				has_country_flag = just_fired_adm_advisor
+			}
+		}
+	}
+    task_completed_effect = {
+ 
+		add_estate_loyalty = {
+			estate = estate_earth_caste
+			loyalty = 10
+		}
+		clr_country_flag = just_fired_adm_advisor
+		clr_country_flag = need_to_fire_adm_advisor
+	}
+	invalid_trigger = {
+		NOT = {
+			employed_advisor = {
+				category = ADM
+			}
+		}
+		NOT = { has_country_flag = just_fired_adm_advisor }
+	}
+    failing_effect = {
+		on_failed_agenda_effect = yes
+		clr_auto_complete_flag = yes
+        add_estate_loyalty_modifier = {
+            estate = estate_earth_caste
+			desc = EST_VAL_AGENDA_DENIED
+			loyalty = -5
+			duration = 7300
+        }
+		clr_country_flag = need_to_fire_adm_advisor
+    }
+}

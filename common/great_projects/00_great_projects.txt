@@ -31,16 +31,12 @@ askellon_portal = {
 	
 	#what to do when it's built
 	on_built = {
-		3475={
-			add_canal = askellon_portal
-		}
+		add_canal = askellon_portal
 	}
 	
 	#what to do when it's destroyed
 	on_destroyed = {
-		3475={
-			remove_canal = askellon_portal
-		}
+		remove_canal = askellon_portal
 	}
 
 	#can our country use it?
@@ -210,16 +206,12 @@ grail_stars_portal = {
 	
 	#what to do when it's built
 	on_built = {
-		3474={
-			add_canal = grail_stars_portal
-		}
+		add_canal = grail_stars_portal
 	}
 	
 	#what to do when it's destroyed
 	on_destroyed = {
-		3474={
-			remove_canal = grail_stars_portal
-		}
+		remove_canal = grail_stars_portal
 	}
 
 	#can our country use it?
@@ -389,16 +381,12 @@ nostramo_portal = {
 	
 	#what to do when it's built
 	on_built = {
-		3473={
-			add_canal = nostramo_portal
-		}
+		add_canal = nostramo_portal
 	}
 	
 	#what to do when it's destroyed
 	on_destroyed = {
-		3473={
-			remove_canal = nostramo_portal
-		}
+		remove_canal = nostramo_portal
 	}
 
 	#can our country use it?
@@ -568,16 +556,12 @@ mandragora_portal = {
 	
 	#what to do when it's built
 	on_built = {
-		3472={
-			add_canal = mandragora_portal
-		}
+		add_canal = mandragora_portal
 	}
 	
 	#what to do when it's destroyed
 	on_destroyed = {
-		3472={
-			remove_canal = mandragora_portal
-		}
+		remove_canal = mandragora_portal
 	}
 
 	#can our country use it?
@@ -747,16 +731,12 @@ yarokin_portal = {
 	
 	#what to do when it's built
 	on_built = {
-		3471={
-			add_canal = yarokin_portal
-		}
+		add_canal = yarokin_portal
 	}
 	
 	#what to do when it's destroyed
 	on_destroyed = {
-		3471={
-			remove_canal = yarokin_portal
-		}
+		remove_canal = yarokin_portal
 	}
 
 	#can our country use it?
@@ -933,9 +913,7 @@ caradryad_portal = {
 	
 	#what to do when it's destroyed
 	on_destroyed = {
-		3470={
-			remove_canal = caradryad_portal
-		}
+		remove_canal = caradryad_portal
 	}
 
 	#can our country use it?
@@ -1105,16 +1083,12 @@ corribra_portal = {
 	
 	#what to do when it's built
 	on_built = {
-		3548={
-			add_canal = corribra_portal
-		}
+		add_canal = corribra_portal
 	}
 	
 	#what to do when it's destroyed
 	on_destroyed = {
-		3548={
-			remove_canal = corribra_portal
-		}
+		remove_canal = corribra_portal
 	}
 
 	#can our country use it?
@@ -1284,16 +1258,12 @@ grendl_stars_portal = {
 	
 	#what to do when it's built
 	on_built = {
-		3549={
-			add_canal = grendl_stars_portal
-		}
+		add_canal = grendl_stars_portal
 	}
 	
 	#what to do when it's destroyed
 	on_destroyed = {
-		3549={
-			remove_canal = grendl_stars_portal
-		}
+		remove_canal = grendl_stars_portal
 	}
 
 	#can our country use it?
@@ -1463,16 +1433,12 @@ jericho_warpgate = {
 	
 	#what to do when it's built
 	on_built = {
-		4080={
-			add_canal = jericho_warpgate
-		}
+		add_canal = jericho_warpgate
 	}
 	
 	#what to do when it's destroyed
 	on_destroyed = {
-		4080={
-			remove_canal = jericho_warpgate
-		}
+		remove_canal = jericho_warpgate
 	}
 
 	#can our country use it?
@@ -1643,16 +1609,12 @@ nachmund_gauntlet = {
 	
 	#what to do when it's built
 	on_built = {
-		4082={
-			add_canal = nachmund_gauntlet
-		}
+		add_canal = nachmund_gauntlet
 	}
 	
 	#what to do when it's destroyed
 	on_destroyed = {
-		4082={
-			remove_canal = nachmund_gauntlet
-		}
+		remove_canal = nachmund_gauntlet
 	}
 
 	#can our country use it?

@@ -33,7 +33,7 @@ country_event = {
 	}
 }
 
-# Tau attack Farsight
+# Tau Civil War
 country_event = {
 	id = farsight_events.2
 	title = "farsight_events.2.t"
@@ -69,22 +69,6 @@ country_event = {
 		}
 		XGF = {
 			every_owned_province = {
-				limit = {
-					culture = fire_caste_culture
-				}
-				spawn_rebels = {
-					type = farsight_rebels
-					size = 5
-					friend = XGG
-				}
-			}
-			every_owned_province = {
-				limit = {
-					NOT = { 
-						culture = fire_caste_culture
-						culture = ethereal_culture						
-					}
-				}
 				spawn_rebels = {
 					type = farsight_rebels
 					size = 3
@@ -98,7 +82,10 @@ country_event = {
 			factor = 25 
 		}
 		name = farsight_events.2.b
-		switch_tag = XGF
+		if = {
+			limit = { ai = no }
+			switch_tag = XGF
+		}
 		set_global_flag = inherit_farsight
 	}
 	
@@ -151,8 +138,9 @@ country_event = {
 	hidden = yes
 	trigger = {
 		tag = XGG
-		NOT = {
-			exists = XGF
+		OR = {
+			NOT = { exists = XGF }
+			XGF = { is_subject_of = XGG }
 		}
 	}
 	
@@ -179,6 +167,7 @@ country_event = {
 		NOT = {
 			exists = XGL
 		}
+		1883 = { owned_by = XGG }
 	}
 	
 	option = {
@@ -228,7 +217,14 @@ country_event = {
 		name = farsight_events.7.a
 		add_manpower = -15
 		add_war_exhaustion = 10
-		set_country_flag = betrayed_by_ethereal
+		hidden_effect = {
+			XGF = {
+				country_event = {
+					id = tau_events.9
+					days = 5
+				}
+			}
+		}
 	}
 }
 
@@ -242,7 +238,10 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		tag = XGG
+		OR = {
+			tag = XGG
+			tag = XGF
+		}
 	}
 	
 	option = {
@@ -288,12 +287,15 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		tag = XGG
+		OR = {
+			tag = XGG
+			tag = XGF
+		}
 	}
 	
 	option = {
 		name = farsight_events.10.a
-		enable_branching_mission_review_without_ai = { key = XGG_SAUTHEK }
+		enable_branching_mission_review_without_ai = { key = XGG_SAUTEKH }
 	}
 }
 
@@ -307,7 +309,10 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		tag = XGG
+		OR = {
+			tag = XGG
+			tag = XGF
+		}
 	}
 	
 	option = {
@@ -326,7 +331,10 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		tag = XGG
+		OR = {
+			tag = XGG
+			tag = XGF
+		}
 	}
 	
 	option = {
@@ -404,6 +412,7 @@ country_event = {
 			duration = 3650
 			desc = FARSIGHT_MONAT
 		}
+		ai_chance = { factor = 0 }
 	}
 	
 	option = {
@@ -413,6 +422,7 @@ country_event = {
 			duration = 365
 			desc = TALISSERA
 		}
+		ai_chance = { factor = 100 }
 	}
 }
 
@@ -431,7 +441,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 1
+		months = 12
 	}
 	
 	option = {
@@ -440,5 +450,55 @@ country_event = {
 		change_religion = khorne
 		remove_country_modifier = farsight_monat
 		swap_non_generic_missions = yes
+	}
+}
+
+# all province with a siege on parlement
+country_event = {
+	id = farsight_events.17  
+	title = "farsight_events.17.t"
+	desc = "farsight_events.17.d"
+	picture = Khorne_event_picture
+	
+	hidden = yes
+	
+	trigger = {
+		tag = XGG
+		any_core_province = {
+			has_seat_in_parliament = no
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = farsight_events.17.a
+		every_core_province = {
+			limit = {
+				has_seat_in_parliament = no
+			}
+			set_seat_in_parliament = yes 
+		}
+	}
+}
+
+#Tau refuse to send Help
+country_event = {
+	id = farsight_events.18  
+	title = "farsight_events.18.t"
+	desc = "farsight_events.18.d"
+	picture = Khorne_event_picture
+	
+	is_triggered_only = yes
+	hidden = yes
+	
+	trigger = {
+		tag = XGG
+	}
+
+	option = {
+		name = farsight_events.18.a
 	}
 }

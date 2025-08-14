@@ -15,4 +15,8 @@ spriteTypes = {
         name = "GFX_great_project_Nexus_Point"	
         texturefile = "gfx//interface//great_projects//great_project_Nexus_Point.dds"
     }
+	spriteType = {
+        name = "GFX_great_project_Kabuto_laboratory"	
+        texturefile = "gfx//interface//great_projects//great_project_Kabuto_laboratory.dds"
+    }
 }

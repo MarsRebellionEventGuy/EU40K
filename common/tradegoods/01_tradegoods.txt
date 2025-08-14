@@ -151,6 +151,10 @@ slaves = { #Indomitus
 			factor = 5
 			culture_group = chaos_culture_group
 		}
+		modifier = {
+			factor = 5
+			culture = drukhari_culture
+		}
 	}
 }
 

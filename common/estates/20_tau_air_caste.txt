@@ -1,0 +1,75 @@
+estate_air_caste = {
+	icon = 14
+	
+	color = { 50 250 250 }
+	
+	trigger = {
+		culture_group = tau_culture_group
+	}
+	
+	country_modifier_happy = {
+		naval_morale = 0.1
+		envoy_travel_time = -0.2
+	}
+	country_modifier_neutral = {
+		naval_morale = 0.1
+	}	
+	country_modifier_angry = {
+		naval_morale = -0.1
+		envoy_travel_time = 0.2
+	}
+	
+	land_ownership_modifier = {
+		navy_tradition = 0.1
+	}
+	
+	# Influence modifiers
+	base_influence = 10
+	influence_modifier = {
+		desc = EST_VAL_OTHER_ESTATE_IN_POWER
+		trigger = {
+			has_any_estate_disaster_active = yes
+			has_not_own_estate_disaster_active = { estate = estate_air_caste }
+		}	
+		influence = -40
+	}
+	
+	loyalty_modifier = {
+		desc = EST_VAL_OTHER_ESTATE_IN_POWER_LOY
+		trigger = {
+			has_any_estate_disaster_active = yes
+			has_not_own_estate_disaster_active = { estate = estate_air_caste }
+		}
+		loyalty = -20
+	}
+	
+	custom_name = {
+		desc = estate_air_caste
+		trigger = {
+			always = yes
+		}
+	}
+	
+	privileges = {
+		estate_air_caste_navy_training
+		estate_air_caste_advanced_exchange
+		estate_air_caste_vanan_legacy
+		estate_air_caste_training_of_korvatra
+		estate_air_caste_elite_marine
+		estate_air_caste_transport_efficiency
+	}
+
+	agendas = {
+        estate_air_caste_build_port_building_in_y
+        estate_air_caste_increase_trade_power_in_X
+        estate_air_caste_build_a_fleet
+        estate_air_caste_bigger_fleet_than_rival
+        estate_air_caste_protect_against_piracy
+        estate_air_caste_archeotech_trade
+        estate_air_caste_wraithbone_trade
+        estate_air_caste_living_metal_trade
+        estate_air_caste_scientific_equipment_trade
+		estate_air_caste_build_a_flagship
+	}
+	influence_from_dev_modifier = 0
+}
