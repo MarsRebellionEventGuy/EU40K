@@ -492,6 +492,7 @@ country_event = {
 	picture = Khorne_event_picture
 	
 	is_triggered_only = yes
+	hidden = yes
 	
 	trigger = {
 		tag = XGG
