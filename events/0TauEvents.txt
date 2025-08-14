@@ -396,6 +396,7 @@ country_event = {
     hidden = yes
     
     trigger = {
+		religion = greater_good
 		OR = {
 			accepted_culture = ork_culture
 			accepted_culture = freebooter_culture
@@ -406,7 +407,6 @@ country_event = {
 			accepted_culture = heretic_astartes_culture
 			accepted_culture = dark_mechanicum_culture
 			accepted_culture = chaos_knight_culture
-			accepted_culture = noculture
 		}
     }
     
@@ -451,10 +451,6 @@ country_event = {
 		if = { 
 			limit = { accepted_culture = chaos_knight_culture }
 			remove_accepted_culture = chaos_knight_culture
-		}
-		if = { 
-			limit = { accepted_culture = noculture }
-			remove_accepted_culture = noculture
 		}
 	}
 }
