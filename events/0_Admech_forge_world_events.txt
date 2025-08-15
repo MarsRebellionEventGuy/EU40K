@@ -1429,7 +1429,7 @@ country_event = {
 					}
 					add_province_modifier = {
 						name = forge_world_construction
-						duration = 7300
+						duration = 14600
 					}
 				}
 				if = {
@@ -1441,7 +1441,7 @@ country_event = {
 					}
 					add_province_modifier = {
 						name = forge_world_construction
-						duration = 5475
+						duration = 10950
 					}
 				}
 				if = {
@@ -1453,7 +1453,7 @@ country_event = {
 					}
 					add_province_modifier = {
 						name = forge_world_construction
-						duration = 3650
+						duration = 7300
 					}
 				}
 				set_province_flag = forge_world_construction
@@ -1481,7 +1481,7 @@ country_event = {
 					}
 					add_province_modifier = {
 						name = forge_world_construction
-						duration = 7300
+						duration = 14600
 					}
 				}
 				if = {
@@ -1493,7 +1493,7 @@ country_event = {
 					}
 					add_province_modifier = {
 						name = forge_world_construction
-						duration = 5475
+						duration = 10950
 					}
 				}
 				if = {
@@ -1505,7 +1505,7 @@ country_event = {
 					}
 					add_province_modifier = {
 						name = forge_world_construction
-						duration = 3650
+						duration = 7300
 					}
 				}
 				set_province_flag = forge_world_construction
@@ -1533,7 +1533,7 @@ country_event = {
 					}
 					add_province_modifier = {
 						name = forge_world_construction
-						duration = 7300
+						duration = 14600
 					}
 				}
 				if = {
@@ -1545,7 +1545,7 @@ country_event = {
 					}
 					add_province_modifier = {
 						name = forge_world_construction
-						duration = 5475
+						duration = 10950
 					}
 				}
 				if = {
@@ -1557,7 +1557,7 @@ country_event = {
 					}
 					add_province_modifier = {
 						name = forge_world_construction
-						duration = 3650
+						duration = 7300
 					}
 				}
 				set_province_flag = forge_world_construction
@@ -1584,7 +1584,7 @@ country_event = {
 					}
 					add_province_modifier = {
 						name = forge_world_construction
-						duration = 7300
+						duration = 14600
 					}
 				}
 				if = {
@@ -1596,7 +1596,7 @@ country_event = {
 					}
 					add_province_modifier = {
 						name = forge_world_construction
-						duration = 5475
+						duration = 10950
 					}
 				}
 				if = {
@@ -1608,7 +1608,7 @@ country_event = {
 					}
 					add_province_modifier = {
 						name = forge_world_construction
-						duration = 3650
+						duration = 7300
 					}
 				}
 				set_province_flag = forge_world_construction
@@ -1635,7 +1635,7 @@ country_event = {
 					}
 					add_province_modifier = {
 						name = forge_world_construction
-						duration = 7300
+						duration = 14600
 					}
 				}
 				if = {
@@ -1647,7 +1647,7 @@ country_event = {
 					}
 					add_province_modifier = {
 						name = forge_world_construction
-						duration = 5475
+						duration = 10950
 					}
 				}
 				if = {
@@ -1659,7 +1659,7 @@ country_event = {
 					}
 					add_province_modifier = {
 						name = forge_world_construction
-						duration = 3650
+						duration = 7300
 					}
 				}
 				set_province_flag = forge_world_construction
@@ -1686,7 +1686,7 @@ country_event = {
 					}
 					add_province_modifier = {
 						name = forge_world_construction
-						duration = 7300
+						duration = 14600
 					}
 				}
 				if = {
@@ -1698,7 +1698,7 @@ country_event = {
 					}
 					add_province_modifier = {
 						name = forge_world_construction
-						duration = 5475
+						duration = 10950
 					}
 				}
 				if = {
@@ -1710,7 +1710,7 @@ country_event = {
 					}
 					add_province_modifier = {
 						name = forge_world_construction
-						duration = 3650
+						duration = 7300
 					}
 				}
 				set_province_flag = forge_world_construction
@@ -1737,7 +1737,7 @@ country_event = {
 					}
 					add_province_modifier = {
 						name = forge_world_construction
-						duration = 7300
+						duration = 14600
 					}
 				}
 				if = {
@@ -1749,7 +1749,7 @@ country_event = {
 					}
 					add_province_modifier = {
 						name = forge_world_construction
-						duration = 5475
+						duration = 10950
 					}
 				}
 				if = {
@@ -1761,7 +1761,7 @@ country_event = {
 					}
 					add_province_modifier = {
 						name = forge_world_construction
-						duration = 3650
+						duration = 7300
 					}
 				}
 				set_province_flag = forge_world_construction
@@ -1788,7 +1788,7 @@ country_event = {
 					}
 					add_province_modifier = {
 						name = forge_world_construction
-						duration = 7300
+						duration = 14600
 					}
 				}
 				if = {
@@ -1800,7 +1800,7 @@ country_event = {
 					}
 					add_province_modifier = {
 						name = forge_world_construction
-						duration = 5475
+						duration = 10950
 					}
 				}
 				if = {
@@ -1812,7 +1812,7 @@ country_event = {
 					}
 					add_province_modifier = {
 						name = forge_world_construction
-						duration = 3650
+						duration = 7300
 					}
 				}
 				set_province_flag = forge_world_construction
@@ -1839,7 +1839,7 @@ country_event = {
 					}
 					add_province_modifier = {
 						name = forge_world_construction
-						duration = 7300
+						duration = 14600
 					}
 				}
 				if = {
@@ -1851,7 +1851,7 @@ country_event = {
 					}
 					add_province_modifier = {
 						name = forge_world_construction
-						duration = 5475
+						duration = 10950
 					}
 				}
 				if = {
@@ -1863,7 +1863,7 @@ country_event = {
 					}
 					add_province_modifier = {
 						name = forge_world_construction
-						duration = 3650
+						duration = 7300
 					}
 				}
 				set_province_flag = forge_world_construction
@@ -1890,7 +1890,7 @@ country_event = {
 					}
 					add_province_modifier = {
 						name = forge_world_construction
-						duration = 7300
+						duration = 14600
 					}
 				}
 				if = {
@@ -1902,7 +1902,7 @@ country_event = {
 					}
 					add_province_modifier = {
 						name = forge_world_construction
-						duration = 5475
+						duration = 10950
 					}
 				}
 				if = {
@@ -1914,7 +1914,7 @@ country_event = {
 					}
 					add_province_modifier = {
 						name = forge_world_construction
-						duration = 3650
+						duration = 7300
 					}
 				}
 				set_province_flag = forge_world_construction
@@ -3559,3 +3559,4 @@ country_event = {
 	}
 
 }
+
