@@ -502,3 +502,29 @@ country_event = {
 		name = farsight_events.18.a
 	}
 }
+
+#test
+country_event = {
+	id = farsight_events.19  
+	title = "farsight_events.19.t"
+	desc = "farsight_events.19.d"
+	picture = Khorne_event_picture
+	
+
+	trigger = {
+		tag = XGG
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = farsight_events.19.a
+		milkyway = {
+			random_area_province = { 
+				discover_country = XGG
+			}
+		}
+	}
+}

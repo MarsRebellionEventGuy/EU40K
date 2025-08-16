@@ -126,7 +126,7 @@ TAU_fate_of_necron_blanck = {
 	}
 	has_country_shield = yes
 	
-	Farsight_fate_necron_blanck_mission = { 
+	TAU_fate_necron_blanck_mission = { 
 		icon = mission_unknown_mission
 		required_missions = { TAU_Fate_of_necron }
 		position = 9
@@ -216,7 +216,7 @@ TAU_fate_of_necron_conquest_branch = {
 	}
 	has_country_shield = yes
 	
-	Farsight_fate_necron_conquest = { 
+	TAU_fate_necron_conquest = { 
 		icon = mission_conquest_necron
 		required_missions = { TAU_Fate_of_necron }
 		position = 9
