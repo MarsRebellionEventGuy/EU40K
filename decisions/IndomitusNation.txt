@@ -7,7 +7,7 @@ country_decisions = {
 			NOT = { has_country_flag = indomitus_formed_country }
 		}
 		provinces_to_highlight = {
-			continent = segmentum_ultima
+			superregion = segmentum_ultima
 			NOT = { is_core = ROOT }
 		}
 		allow = {
@@ -16,7 +16,7 @@ country_decisions = {
 			num_of_owned_provinces_with = {
 				value = 50
 				is_core = ROOT
-				continent = segmentum_ultima
+				superregion = segmentum_ultima
 			}
 		}
 		effect = {
@@ -101,7 +101,7 @@ country_decisions = {
 				}
 			}
 			any_country = {
-				culture = necron_culture
+				primary_culture = necron_culture
 				NOT = {
 					OR = {
 						army_strength = {
@@ -239,7 +239,7 @@ country_decisions = {
 					}
 				}
 				AND = {
-					has_terrain = forge_world
+					has_terrain = drylands
 					OR = {
 						NOT = { is_core = ROOT }
 						NOT = { religion = ROOT }
@@ -254,7 +254,7 @@ country_decisions = {
 			}
 			num_of_owned_provinces_with = {
 				value = 5
-				has_terrain = forge_world
+				has_terrain = drylands
 				religion = ROOT
 			}
 		}
@@ -274,8 +274,8 @@ country_decisions = {
 			hidden_effect = {
 				every_province = {
 					limit = {
-						has_terrain = forge_world
-						religion = cult_mechanicus
+						has_terrain = drylands
+						religion = mechanicus
 					}
 					add_permanent_claim = ROOT
 				}

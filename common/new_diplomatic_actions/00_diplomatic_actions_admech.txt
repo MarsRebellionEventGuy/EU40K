@@ -104,15 +104,13 @@ offer_forgeworld_subjugation = {
 	require_acceptance = yes
 
 	is_visible = {
-			AND = {
-				OR = {
-					has_country_flag = admech_can_propose_forge_subjugation
-					NOT = { has_reform = minor_forgeworld_reform }
-					NOT = { has_reform = forge_world_reform }
-					NOT = { overlord_of = FROM }
-				}
-				religion = mechanicus
-			}
+		OR = {
+			has_country_flag = admech_can_propose_forge_subjugation
+			NOT = { has_reform = minor_forgeworld_reform }
+			NOT = { has_reform = forge_world_reform }
+			NOT = { overlord_of = FROM }
+		}
+		religion = mechanicus
 		FROM = {
 			OR = {
 				#has_country_flag = admech_vassalisation_viable_target
@@ -164,7 +162,7 @@ offer_forgeworld_subjugation = {
 		}
 	}
 	is_allowed = {
-		IF = {
+		if = {
 			limit = { ROOT = { has_country_flag = admech_active_subjugation_negotiation } }
 			custom_trigger_tooltip = {
 				tooltip = admech_vassalisation_tooltip_has_active_negotiation_root
@@ -178,7 +176,7 @@ offer_forgeworld_subjugation = {
 		#		ROOT = { NOT = { has_country_modifier = admech_vassalisation_cooldown } } 
 		#	}
 		#}
-		IF = {
+		if = {
 			limit = { FROM = { has_country_flag = admech_active_subjugation_negotiation } }
 			custom_trigger_tooltip = {
 				tooltip = admech_vassalisation_tooltip_has_active_negotiation_from
@@ -186,54 +184,56 @@ offer_forgeworld_subjugation = {
 			}
 		}	
 
-		IF = {		#is this correct?
+		if = {		#is this correct?
 			limit = { 
 				FROM = { 
-					AND = {	
-						is_subject = yes
-						NOT = { 
-							AND = {	
-								is_subject_of_type = nominal_imperial_world_subject_type
-								is_subject_of_type = imperial_world_subject_type
-								is_subject_of_type = integrated_world_subject_type
-							}
-						}
-					}	
+					is_subject = yes
+					NOT = { 
+						is_subject_of_type = nominal_imperial_world_subject_type
+						is_subject_of_type = imperial_world_subject_type
+						is_subject_of_type = integrated_world_subject_type
+					}
 				}
 			}
 			custom_trigger_tooltip = {
 				tooltip = admech_vassalisation_tooltip_from_is_subject
 				FROM = { 
 					NOT = {	
-						AND = {	
-							is_subject = yes
-							NOT = { 
-								AND = {	
-									is_subject_of_type = nominal_imperial_world_subject_type
-									is_subject_of_type = imperial_world_subject_type
-									is_subject_of_type = integrated_world_subject_type
-								}
-							}
+						is_subject = yes
+						NOT = { 
+							is_subject_of_type = nominal_imperial_world_subject_type
+							is_subject_of_type = imperial_world_subject_type
+							is_subject_of_type = integrated_world_subject_type
 						}
 					}	
 				}
 			}
 		}
-		IF = {		#is this correct?
-			limit = { FROM = { OR = {	is_subject = no
-							 OR = {	is_subject_of_type = nominal_imperial_world_subject_type
-									is_subject_of_type = imperial_world_subject_type
-									is_subject_of_type = integrated_world_subject_type
-							}	
-			}	}	   }
+		if = {		#is this correct? # I don't think so.
+			limit = { 
+				FROM = { 
+					OR = {	
+						is_subject = no
+						is_subject_of_type = nominal_imperial_world_subject_type
+						is_subject_of_type = imperial_world_subject_type
+						is_subject_of_type = integrated_world_subject_type
+					}	
+				}	   
+			}
 			custom_trigger_tooltip = {
 				tooltip = admech_vassalisation_tooltip_part_of_imperium
-				FROM = { NOT = {	AND = {	is_subject = yes
-								NOT = { OR = {	is_subject_of_type = nominal_imperial_world_subject_type
-										is_subject_of_type = imperial_world_subject_type
-										is_subject_of_type = integrated_world_subject_type
-							}	}	}
-				}	}	
+				FROM = { 
+					NOT = {
+						is_subject = yes
+						NOT = { 
+							OR = {	
+								is_subject_of_type = nominal_imperial_world_subject_type
+								is_subject_of_type = imperial_world_subject_type
+								is_subject_of_type = integrated_world_subject_type
+							}	
+						}
+					}	
+				}	
 			}
 		}	
 	}

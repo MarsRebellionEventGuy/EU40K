@@ -64,10 +64,10 @@
  Nexus_Point_desc: "The wormhole created by the 4th expansion sphere" 
  ETHEREAL_COUNCIL_CONTROL_TOOLTIP: "Ethereal council control"
  MANY_SPECIES_UNDER_CONTROL: "Many species under control"
-
+ 
 # reform
-assimilation_of_others_reform: "Assimilation of others"
-assimilation_of_others_reform_desc: "When we assimilate a culture, we must let other planets of that culture know the luck of those who follow the greater good"
+ assimilation_of_others_reform: "Assimilation of others"
+ assimilation_of_others_reform_desc: "When we assimilate a culture, we must let other planets of that culture know the luck of those who follow the greater good"
 
 # assimilation system
  tau_accepte_assimilation: "We must enable their society to embrace the Greater Good."
@@ -455,4 +455,6 @@ assimilation_of_others_reform_desc: "When we assimilate a culture, we must let o
  TAU_Remove_drukhari_from_galaxy_title: "second fall"
  TAU_Remove_drukhari_from_galaxy_desc: "Our revenge for Rubikon will be complete when the Drukhari have all disappeared from the galaxy."
  
+ Kabuto_laboratory: "Kabuto Laboratory"
+ Kabuto_laboratory_desc: "Fio'vre Ka'buto is a famed Tau Earth Caste scientist of the Tau Empire. Ka'buto is most renowned for leading the program that created the AL-38 Slipstream Module, giving the Tau their first true method of FTL trave"
  

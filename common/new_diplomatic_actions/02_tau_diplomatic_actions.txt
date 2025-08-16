@@ -10,16 +10,16 @@ propose_to_join_the_greater_good = {
 			NOT = { religion = greater_good }
 			NOT = {
 				OR = {
-					culture = ork_culture
-					culture = freebooter_culture
-					culture = drukhari_culture
-					culture = tyranid_culture
-					culture = genestealer_culture
-					culture = chaos_culture
-					culture = heretic_astartes_culture
-					culture = dark_mechanicum_culture
-					culture = chaos_knight_culture
-					culture = noculture
+					primary_culture = ork_culture
+					primary_culture = freebooter_culture
+					primary_culture = drukhari_culture
+					primary_culture = tyranid_culture
+					primary_culture = genestealer_culture
+					primary_culture = chaos_culture
+					primary_culture = heretic_astartes_culture
+					primary_culture = dark_mechanicum_culture
+					primary_culture = chaos_knight_culture
+					primary_culture = noculture
 				}
 			}
 		}

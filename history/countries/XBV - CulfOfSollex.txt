@@ -15,4 +15,4 @@ capital = 1209
 			female = yes
 		}
 	}
-}
+

@@ -22,7 +22,7 @@ country_event = {#Ynnari ideals reach commorragh
 		random_owned_province = {
 			limit = {
 				can_have_center_of_reformation_trigger = {
-					RELIGION = ynnari
+					religion = ynnari
 				}
 			}
 			change_religion = ynnari

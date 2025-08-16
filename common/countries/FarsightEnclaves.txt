@@ -11,11 +11,45 @@ historical_units = {
 }
 
 monarch_names = {
-	O'Shas'chau O'Shas'cho O'Shas'do O'Shas'fyr O'Shas'hhu O'Shas'jash O'Shas'kais O'Shas'kathl O'Shas'kir O'Shas'ko O'Shas'la O'Shas'la O'Shas'pau O'Shas'Ro O'Shas'shar O'Shas'shi O'Shas'taniel O'Shas'thel O'Shas'ui O'Shas'va O'Shas'vessol O'Shas'vos O'Shas'vre O'Shas'wei
+	Shas'O T'au = 1
+	Shas'O T'aun = 1
+	Shas'O D'yanoi = 1
+	Shas'O Bork'an = 1
+	Shas'O Dal'yth = 1
+	Shas'O Fal'shia = 1
+	Shas'O Vior'la = 1
+	Shas'O Sa'cea = 1
+	Shas'O Fi'rios = 1
+	Shas'O Ksi'M'Yen = 1
+	Shas'O Sha'Galudd = 1
+	Shas'O Ke'Lshan = 1
+	Shas'O Au'taal = 1
+	Shas'O N'dras = 1
+	Shas'O Elsy'eir = 1
+	Shas'O Tash'var = 1
+	Shas'O Vash'ya = 1 
+	Shas'O T'olku = 1
 }
 
 leader_names = {
-	O'Shas'chau O'Shas'cho O'Shas'do O'Shas'fyr O'Shas'hhu O'Shas'jash O'Shas'kais O'Shas'kathl O'Shas'kir O'Shas'ko O'Shas'la O'Shas'la O'Shas'pau O'Shas'Ro O'Shas'shar O'Shas'shi O'Shas'taniel O'Shas'thel O'Shas'ui O'Shas'va O'Shas'vessol O'Shas'vos O'Shas'vre O'Shas'wei
+	Shas'O T'au
+	Shas'O T'aun
+	Shas'O D'yanoi
+	Shas'O Bork'an
+	Shas'O Dal'yth
+	Shas'O Fal'shia
+	Shas'O Vior'la
+	Shas'O Sa'cea
+	Shas'O Fi'rios
+	Shas'O Ksi'M'Yen
+	Shas'O Sha'Galudd
+	Shas'O Ke'Lshan
+	Shas'O Au'taal
+	Shas'O N'dras
+	Shas'O Elsy'eir
+	Shas'O Tash'var
+	Shas'O Vash'ya
+	Shas'O T'olku
 }
 
 ship_names = {

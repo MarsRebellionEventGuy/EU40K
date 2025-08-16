@@ -106,7 +106,7 @@ country_event = {
 			mil = 2
 			age = 40
 			culture = ROOT
-			Religion = ROOT
+			religion = ROOT
 		}
 		if = { 
 			limit = { has_dlc = "Rights of Man" } 
@@ -126,6 +126,10 @@ country_event = {
 	title = "tau_events.5.t"
 	desc = "tau_events.5.d"
 	picture = STREET_SPEECH_eventPicture
+
+	mean_time_to_happen = {
+		days = 1
+	}
 
 	trigger = {
 		is_at_war = no

@@ -1,5 +1,5 @@
 government = theocracy
-add_government_reform = hive_world_reform
+add_government_reform = hive_fleet_reform
 government_rank = 1
 technology_group = imperial
 religion = imperial_cult
@@ -13,4 +13,3 @@ capital = 479
 		mil = 3
 	}
 }
-add_government_reform = hive_world_reform

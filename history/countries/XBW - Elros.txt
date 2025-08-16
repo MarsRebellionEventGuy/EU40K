@@ -1,5 +1,5 @@
 government = republic
-add_government_reform = hive_world_reform
+add_government_reform = hive_fleet_reform
 government_rank = 1
 technology_group = imperial
 religion = death_cult
@@ -14,4 +14,3 @@ capital = 1396
 		female = yes
 	}
 }
-add_government_reform = hive_world_reform

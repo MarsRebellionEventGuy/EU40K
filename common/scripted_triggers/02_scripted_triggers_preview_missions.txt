@@ -14,11 +14,6 @@ has_branching_missions = {
 	}
 }
 
-has_mission_and_key_mismatch = {
-	NOT = { has_mission = $mission$ }
-	can_preview_mission_of_key = { key = $key$ }
-}
-
 has_any_mission_and_key_mismatch = {
 	OR = {	
 		has_mission_and_key_mismatch = { mission = Fate_of_ultramar		key = XGG_ULTRAMAR }
