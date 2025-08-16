@@ -38,57 +38,57 @@ forge_world_upgrade_4_cost = {
 
 forge_world_loot_1 = {
 	add_adm_power = 50
-	add_adm_power = 50
-	add_adm_power = 50
+	add_dip_power = 50
+	add_mil_power = 50
 	add_prestige = 10
 }
 
 forge_world_loot_2 = {
 	add_adm_power = 100
-	add_adm_power = 100
-	add_adm_power = 100			
+	add_dip_power = 100
+	add_mil_power = 100			
 	add_prestige = 20
 }
 
 forge_world_loot_3 = {
 	add_adm_power = 150
-	add_adm_power = 150
-	add_adm_power = 150
+	add_dip_power = 150
+	add_mil_power = 150
 	add_prestige = 30
 }
 
 forge_world_loot_4 = {
 	add_adm_power = 200
-	add_adm_power = 200
-	add_adm_power = 200
+	add_dip_power = 200
+	add_mil_power = 200
 	add_prestige = 50
 }
 
 mekworld_loot_1 = {
 	add_adm_power = 50
-	add_adm_power = 50
-	add_adm_power = 50
+	add_dip_power = 50
+	add_mil_power = 50
 	add_prestige = 10
 }
 
 mekworld_loot_2 = {
 	add_adm_power = 50
-	add_adm_power = 50
-	add_adm_power = 50
+	add_dip_power = 50
+	add_mil_power = 50
 	add_prestige = 10
 }
 
 hell_forge_loot_1 = {
 	add_adm_power = 50
-	add_adm_power = 50
-	add_adm_power = 50
+	add_dip_power = 50
+	add_mil_power = 50
 	add_prestige = 10
 }
 
 hell_forge_loot_2 = {
 	add_adm_power = 50
-	add_adm_power = 50
-	add_adm_power = 50
+	add_dip_power = 50
+	add_mil_power = 50
 	add_prestige = 10
 }
 
@@ -116,3 +116,4 @@ forge_world_vassalization_cost_l = {
 	add_mil_power = -450
 
 }
+
