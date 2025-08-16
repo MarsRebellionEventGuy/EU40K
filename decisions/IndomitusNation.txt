@@ -254,7 +254,7 @@ country_decisions = {
 			}
 			num_of_owned_provinces_with = {
 				value = 5
-				has_terrain = forge_world
+				has_terrain = drylands
 				religion = ROOT
 			}
 		}
@@ -274,7 +274,7 @@ country_decisions = {
 			hidden_effect = {
 				every_province = {
 					limit = {
-						has_terrain = forge_world
+						has_terrain = drylands
 						religion = cult_mechanicus
 					}
 					add_permanent_claim = ROOT
