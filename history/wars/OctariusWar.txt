@@ -1,8 +1,8 @@
 name = "Octarius War"
 war_goal = {
-	type = take_capital_imperial
+	type = annex_country # same type than cb_annex
 	casus_belli = cb_annex
-#	province = 1069
+	province = 1187
 }
 
 1999.1.1 = {

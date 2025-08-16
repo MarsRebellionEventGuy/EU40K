@@ -1,8 +1,8 @@
 name = "Devastation of Baal"
 war_goal = {
-	type = take_border
+	# same type than tyranid_invasion
+	type = tyranid_invasion 
 	casus_belli = cb_tyranid_invasion
-#	province = 3252
 }
 
 1999.1.1 = {
