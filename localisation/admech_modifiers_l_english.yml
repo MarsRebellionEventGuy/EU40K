@@ -1,118 +1,20 @@
-﻿l_english:
- #demands size s
- admech_vassalisation_demands_s_adm_1:0 "Shared Secrets"
- admech_vassalisation_demands_s_adm_2:0 "Diverted Industry Output"
- admech_vassalisation_demands_s_adm_3:0 "Shared STCs"
- admech_vassalisation_demands_s_adm_4:0 "Foreign Development"
- admech_vassalisation_demands_s_adm_5:0 "Aid in Foreign Reforms"
- admech_vassalisation_demands_s_adm_6:0 "Meddle in Foreign Politics"
-
- admech_vassalisation_demands_s_dip_1:0 "Voidsmen to Allies" 
- admech_vassalisation_demands_s_dip_2:0 "Voidships for allies"
- admech_vassalisation_demands_s_dip_3:0 "Diverted Naval Supplies"
- admech_vassalisation_demands_s_dip_4:0 "Support to Foreign Diplomats"
- admech_vassalisation_demands_s_dip_5:0 "Foreign Trade Rights"
- admech_vassalisation_demands_s_dip_6:0 "Diverted Raw Materials"
-
- admech_vassalisation_demands_s_mil_1:0 "Training for Allied Priests"
- admech_vassalisation_demands_s_mil_2:0 "Expedition to Allies"
- admech_vassalisation_demands_s_mil_3:0 "Shared Weapon Technologies"
- admech_vassalisation_demands_s_mil_4:0 "Shared Strategies"
- admech_vassalisation_demands_s_mil_5:0 "Titans Lended"
- admech_vassalisation_demands_s_mil_6:0 "Diverted Legion Supplies"
- 
- #demands size m
- admech_vassalisation_demands_m_adm_1:0 "Shared Secrets"
- admech_vassalisation_demands_m_adm_2:0 "Diverted Industry Output"
- admech_vassalisation_demands_m_adm_3:0 "Shared STCs"
- admech_vassalisation_demands_m_adm_4:0 "Foreign Development"
- admech_vassalisation_demands_m_adm_5:0 "Aid in Foreign Reforms"
- admech_vassalisation_demands_m_adm_6:0 "Meddle in Foreign Politics"
-
- admech_vassalisation_demands_m_dip_1:0 "Voidsmen to Allies" 
- admech_vassalisation_demands_m_dip_2:0 "Voidships for Allies"
- admech_vassalisation_demands_m_dip_3:0 "Diverted Naval Supplies"
- admech_vassalisation_demands_m_dip_4:0 "Support to Foreign Diplomats"
- admech_vassalisation_demands_m_dip_5:0 "Foreign Trade Rights"
- admech_vassalisation_demands_m_dip_6:0 "Diverted Raw Materials"
-
- admech_vassalisation_demands_m_mil_1:0 "Training for Allied Priests"
- admech_vassalisation_demands_m_mil_2:0 "Expedition to Allies"
- admech_vassalisation_demands_m_mil_3:0 "Shared Weapon Technologies"
- admech_vassalisation_demands_m_mil_4:0 "Shared Strategies"
- admech_vassalisation_demands_m_mil_5:0 "Titans Lended"
- admech_vassalisation_demands_m_mil_6:0 "Diverted Legion Supplies"
- 
- #demands size l
- admech_vassalisation_demands_l_adm_1:0 "Shared Secrets"
- admech_vassalisation_demands_l_adm_2:0 "Diverted Industry Output"
- admech_vassalisation_demands_l_adm_3:0 "Shared STCs"
- admech_vassalisation_demands_l_adm_4:0 "Foreign Development"
- admech_vassalisation_demands_l_adm_5:0 "Aid in Foreign Reforms"
- admech_vassalisation_demands_l_adm_6:0 "Meddle in Foreign Politics"
-
- admech_vassalisation_demands_l_dip_1:0 "Voidsmen to Allies" 
- admech_vassalisation_demands_l_dip_2:0 "Voidships for Allies"
- admech_vassalisation_demands_l_dip_3:0 "Diverted Naval Supplies"
- admech_vassalisation_demands_l_dip_4:0 "Support to Foreign Diplomats"
- admech_vassalisation_demands_l_dip_5:0 "Foreign Trade Rights"
- admech_vassalisation_demands_l_dip_6:0 "Diverted Raw Materials"
-
- admech_vassalisation_demands_l_mil_1:0 "Training for Allied Priests"
- admech_vassalisation_demands_l_mil_2:0 "Expedition to Allies"
- admech_vassalisation_demands_l_mil_3:0 "Shared Weapon Technologies"
- admech_vassalisation_demands_l_mil_4:0 "Shared Strategies"
- admech_vassalisation_demands_l_mil_5:0 "Titans Lended"
- admech_vassalisation_demands_l_mil_6:0 "Diverted Legion Supplies"
- 
- #demands tooltip
- admech_vassalisation_demands_tooltip_adm_1:0 "If they accept we will gain political power and development in our capital most of which will be base tax"
- admech_vassalisation_demands_tooltip_adm_2:0 "If they accept we will gain political power and development in our capital most of which will be base tax"
- admech_vassalisation_demands_tooltip_adm_3:0 "If they accept we will gain political power and development in our capital most of which will be base tax"
- admech_vassalisation_demands_tooltip_adm_4:0 "If they accept we will gain political power and development in our capital most of which will be base tax"
- admech_vassalisation_demands_tooltip_adm_5:0 "If they accept we will gain political power and development in our capital most of which will be base tax"
- admech_vassalisation_demands_tooltip_adm_6:0 "If they accept we will gain political power and development in our capital most of which will be base tax"
- 
- admech_vassalisation_demands_tooltip_dip_1:0 "If they accept we will gain political power and development in our capital most of which will be production"
- admech_vassalisation_demands_tooltip_dip_2:0 "If they accept we will gain political power and development in our capital most of which will be production"
- admech_vassalisation_demands_tooltip_dip_3:0 "If they accept we will gain political power and development in our capital most of which will be production"
- admech_vassalisation_demands_tooltip_dip_4:0 "If they accept we will gain political power and development in our capital most of which will be production"
- admech_vassalisation_demands_tooltip_dip_5:0 "If they accept we will gain political power and development in our capital most of which will be production"
- admech_vassalisation_demands_tooltip_dip_6:0 "If they accept we will gain political power and development in our capital most of which will be production"
- 
- admech_vassalisation_demands_tooltip_mil_1:0 "If they accept we will gain political power and development in our capital most of which will be manpower"
- admech_vassalisation_demands_tooltip_mil_2:0 "If they accept we will gain political power and development in our capital most of which will be manpower"
- admech_vassalisation_demands_tooltip_mil_3:0 "If they accept we will gain political power and development in our capital most of which will be manpower"
- admech_vassalisation_demands_tooltip_mil_4:0 "If they accept we will gain political power and development in our capital most of which will be manpower"
- admech_vassalisation_demands_tooltip_mil_5:0 "If they accept we will gain political power and development in our capital most of which will be manpower"
- admech_vassalisation_demands_tooltip_mil_6:0 "If they accept we will gain political power and development in our capital most of which will be manpower"
- 
- #demands tooltip - offer alternative
- admech_vassalisation_demands_tooltip_alt_adm_1:0 "This will increase our technology cost"
- admech_vassalisation_demands_tooltip_alt_adm_2:0 "This will reduce our production efficiency"
- admech_vassalisation_demands_tooltip_alt_adm_3:0 "This will reduce our yearly innovativeness"
- admech_vassalisation_demands_tooltip_alt_adm_4:0 "This will increase our development cost"
- admech_vassalisation_demands_tooltip_alt_adm_5:0 "This will reduce our reform progress growth"
- admech_vassalisation_demands_tooltip_alt_adm_6:0 "This will increase the influence of all estates"
- 
- admech_vassalisation_demands_tooltip_alt_dip_1:0 "This will reduce our global sailors"
- admech_vassalisation_demands_tooltip_alt_dip_2:0 "This will increase our ship cost"
- admech_vassalisation_demands_tooltip_alt_dip_3:0 "This will reduce our naval force limit"
- admech_vassalisation_demands_tooltip_alt_dip_4:0 "This will reduce our improve relations modifier"
- admech_vassalisation_demands_tooltip_alt_dip_5:0 "This will reduce our trade efficiency"
- admech_vassalisation_demands_tooltip_alt_dip_6:0 "This will reduce our global goods produced modifier"
- 
- admech_vassalisation_demands_tooltip_alt_mil_1:0 "This will increase our yearly army tradition decay"
- admech_vassalisation_demands_tooltip_alt_mil_2:0 "This will reduce our land force limit"
- admech_vassalisation_demands_tooltip_alt_mil_3:0 "This will reduce our army moral"
- admech_vassalisation_demands_tooltip_alt_mil_4:0 "This will reduce our discipline"
- admech_vassalisation_demands_tooltip_alt_mil_5:0 "This will reduce the combat ability of our infantry and artillery"
- admech_vassalisation_demands_tooltip_alt_mil_6:0 "This will increase our land maintenance"
-
+l_english:
  admech_vassalisation_refused:0 "An Offer Denied"
  admech_vassalisation_abandoned:0 "Negotiation Abandoned"
- admech_vassalisation_cooldown:0 "Had Recent Negotiation"
+ admech_vassalisation_cooldown:0 "Recent Negotiations"
  priesthood_infiltrated:0 "Priesthood Infiltrated"
+ admech_active_negotiation:0 "Active negotiations"
+ 
+ ###
+ 
+ admech_vassalisation_demands:0 "Tribute for loyality"
+ admech_active_negotiation:0 "Active negotiations"
+ admech_vassalisation_offer_0:0 "They offer nothing"
+ admech_vassalisation_offer_1:0 "A poor offer"
+ admech_vassalisation_offer_2:0 "A fair offer"
+ admech_vassalisation_offer_3:0 "A generous offer"
+ 
+ ###
 
  ###forge world subjects
  integrated_forgeworld_subject_modifier:0 ""
@@ -122,7 +24,7 @@
  integrated_major_forgeworld_subject_modifier:0 ""
  integrated_major_forgeworld_overlord_modifier:0 ""
 
-  ###province modifiers
+ ###province modifiers
  lucius_defense_mod:0 "Core Defenses"
  lucius_defense_mod_desc:0 "Once the few entry points are sealed, the hollow core of Lucius is only accessable via teleportarium. Thus it is almost impossible to fully conquer the forge world."
 
@@ -130,7 +32,11 @@
 #forge world system
 # 
 
-num_of_forge_world:0 "Max Forge Worlds"
+ num_of_forge_world:0 "Max Forge World subjects"
+ forge_world_1_subject_limit:0 "Major Forge World (1)"
+ forge_world_2_subject_limit:0 "Major Forge World (2)"
+ forge_world_3_subject_limit:0 "Major Forge World (3)"
+ forge_world_4_subject_limit:0 "Major Forge World (4)"
 
  minor_forge_world_mod:0 "Forge World"
  minor_forge_world_mod_desc:0 "A Forge World of little renown. - All provinces in this area owned by a §RMechanicus nation§! gain the additional boni: §GProduction efficiency + 10%, local Development cost -5%§!."
