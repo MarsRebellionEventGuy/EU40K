@@ -3,57 +3,63 @@ on_startup={
 		limit = { NOT = { has_global_flag = imperium_setup } }
 		set_global_flag = imperium_setup
 		set_hre_religion_treaty = no
-		3475 = {
-			add_great_project = {
-				type = askellon_portal
-				instant = yes
-			}
-		}
-		3474 = {
-			add_great_project = {
-				type = grail_stars_portal
-				instant = yes
-			}
-		}
-		3473 = {
-			add_great_project = {
-				type = nostramo_portal
-				instant = yes
-			}
-		}
-		3472 = {
-			add_great_project = {
-				type = mandragora_portal
-				instant = yes
-			}
-		}
-		3471 = {
-			add_great_project = {
-				type = yarokin_portal
-				instant = yes
-			}
-		}
-		3470 = {
-			add_great_project = {
-				type = caradryad_portal
-				instant = yes
-			}
-		}
-		3548 = {
-			add_great_project = {
-				type = corribra_portal
-				instant = yes
-			}
-		}
-		3549 = {
-			add_great_project = {
-				type = grendl_stars_portal
-				instant = yes
-			}
-		}
+		# 3475 = {
+			# add_great_project = {
+				# type = askellon_portal
+				# instant = yes
+			# }
+		# }
+		# 3474 = {
+			# add_great_project = {
+				# type = grail_stars_portal
+				# instant = yes
+			# }
+		# }
+		# 3473 = {
+			# add_great_project = {
+				# type = nostramo_portal
+				# instant = yes
+			# }
+		# }
+		# 3472 = {
+			# add_great_project = {
+				# type = mandragora_portal
+				# instant = yes
+			# }
+		# }
+		# 3471 = {
+			# add_great_project = {
+				# type = yarokin_portal
+				# instant = yes
+			# }
+		# }
+		# 3470 = {
+			# add_great_project = {
+				# type = caradryad_portal
+				# instant = yes
+			# }
+		# }
+		# 3548 = {
+			# add_great_project = {
+				# type = corribra_portal
+				# instant = yes
+			# }
+		# }
+		# 3549 = {
+			# add_great_project = {
+				# type = grendl_stars_portal
+				# instant = yes
+			# }
+		# }
 		4080 = {
 			add_great_project = {
 				type = jericho_warpgate
+				instant = yes
+			}
+		}
+        4082 = {
+			add_great_project = {
+				type = nachmund_gauntlet
 				instant = yes
 			}
 		}
