@@ -1,237 +1,35 @@
-﻿l_english:
- admech_vassalisation.101.t:0 "AdMech Cleanup - hidden"
- admech_vassalisation.101.desc:0 "Just removing some flags for next time"
- admech_vassalisation.101.a:0 "All gone now" 
+l_english:
+ admech_vassalisation.1.t:0 "[From.GetName] demands loyality" 
+ admech_vassalisation.1.desc:0 "Diplomats from [From.GetName] have arrived on our forge world and asks us to submit to their rule. In case we accept their offer we would maintain our autonomy in internal matters while surrender our foreign politics to their will. Furthermore we will have to pay tribute in form of industrail goods and raw resources."
+ admech_vassalisation.1.a:0 "Preposterous! Send them away."
+ admech_vassalisation.1.b:0 "We will enter negotiations."
+
+ admech_vassalisation.2.t:0 "[From.GetName] refuses our offer"
+ admech_vassalisation.2.desc:0 "The foolish priests of [From.GetName] have refused our generous offer. After lenghtly negotiations our diplomats were forced to depart without achieving anything worth noting. Their calculations must be have been horrendously inaccurate if they believe that they are better off on their own."
+ admech_vassalisation.2.a:0 "Rust and ruin! They will regret this!"
+
+ admech_vassalisation.3.t:0 "[From.GetName] wants to enter negotiations"
+ admech_vassalisation.3.desc:0 "The wise priesthood of [From.GetName] has welcomed our delegations with the proper protocols and rites. It is not certain whether this is a good omen for our proposal or just politness between followers of the Omnissiah, it at least allows our diplomats to present our request. Now it is up to us to propose an offer fitting for the size and might of their forge world to sway them to our side." 
+ admech_vassalisation.3.a:0 "We don't offer, we demand!"
+ admech_vassalisation.3.b:0 "Propose a humble offer."
+ admech_vassalisation.3.c:0 "Propose a fair offer."
+ admech_vassalisation.3.d:0 "Propose a generous offer."
+
+ admech_vassalisation.4.t:0 "[From.GetName] makes an offer"
+ admech_vassalisation.4.desc:0 "The diplomats of [From.GetName] have presented us with an offer. Our priesthood is divided on the matter and behind closed doors fierce debates rage. Will many see value in forming an alliance with [From.GetName] there are also many voices who would prefer for us to forge our own destiny."
+ admech_vassalisation.4.a:0 "Accept their offer."
+ admech_vassalisation.4.b:0 "We remain independent."
+
+ admech_vassalisation.5.t:0 "[From.GetName] accepts our offer"
+ admech_vassalisation.5.desc:0 "Even though some members of their priesthood have voiced their disaproval, they nevertheless have come to the conclusion that it is in their best interest to accept our leadership and protection and agreed to accept our offer. The meetings have ended and our diplomats have departed on good terms with a signed treaty. May the blessing of the Omnissiah be upon them."
+ admech_vassalisation.5.a:0 "We welcome them in our ranks."
+
+ admech_vassalisation.6.t:0 "event 6 [From.GetName] rejects our offer"
+ admech_vassalisation.6.desc:0 "After promising innitial meetings between our envoys and the representetives of [From.GetName] any progress has quickly stalled and is has become apparent that no agreement will be reached. Our diplomats were forced to depart without achieving anything worth noting. Their calculations must be have been horrendously inaccurate if they believe that they are better off on their own."
+ admech_vassalisation.6.a:0 "Rust and ruin! They will regret this!"
  
- admech_vassalisation.100.t:0 "Test - hidden"
- admech_vassalisation.100.desc:0 "This event keeps the FROM-chain for the negotiation events going."
- admech_vassalisation.100.a:0 "Back to you"
-
- admech_vassalisation.1.t:0 "An offer" 
- admech_vassalisation.1.desc:0 "[From.GetName] asks us to submit to their rule. In case we accept their offer we would maintain our autonomy in internal matters while surrender our foreign politics to their will. "
- admech_vassalisation.1.a:0 "We will recognize their authority"
- admech_vassalisation.1.b:0 "We will remain independent"
- admech_vassalisation.1.c:0 "We demand privileges in exchange for our independence"
-
- admech_vassalisation.2.t:0 "[From.GetName] accepts our offer"
- admech_vassalisation.2.desc:0 "The wise priesthood of [From.GetName] has come to the conclusion that it is in their best interest to accept our leadership and protection."
- admech_vassalisation.2.a:0 "Good"
-
- admech_vassalisation.3.t:0 "[From.GetName] refuses our offer"
- admech_vassalisation.3.desc:0 "The foolish priests of [From.GetName] have refused our generous offer. Their calculations must be have been horrendously inaccurate if they believe that they are better off on their own."
- admech_vassalisation.3.a:0 "Then they shall bow through force"
- admech_vassalisation.3.b:0 "Let them be - for now"
-
- admech_vassalisation.4.t:0 "[From.GetName] wants war"
- admech_vassalisation.4.desc:0 "[From.GetName] has asked us to surrender to their rule and we have refused. The following meetings have been deemed useless and we have ended the negotiations. Before departing, their envoys have stated clearly that they are set on returning to our world but this time with a war fleet and a battle congregation. By the Omnissiah, we will show them that steel doesn't bend."
- admech_vassalisation.4.a:0 "Prepare our defenses"
-
- admech_vassalisation.5.t:0 "[From.GetName] accepts our refusal"
- admech_vassalisation.5.desc:0 "Even so their diplomats have voiced their disaproval for our decision, they nevertheless have accepted it. The meetings have ended and they have departed on good terms."
- admech_vassalisation.5.a:0 "We applaud their wisdom"
-
- admech_vassalisation.6.t:0 "[From.GetName] wants to negotiate"
- admech_vassalisation.6.desc:0 "First meetings between our envoys and the representetives of [From.GetName] have ended with promising results. While the forge world might not be willing to accept our leadership at this moment, their priests have listed a number of demands and privileges regarding their forges. They promise to join us, should we accept these."                             #adm
- admech_vassalisation.6.a:0 "Their demands are fair"
- admech_vassalisation.6.b:0 "To much. We offer to pay half of that"
- admech_vassalisation.6.c:0 "We shall offer an alternative"
- admech_vassalisation.6.d:0 "Nonsense, we demand their surrender"
- admech_vassalisation.6.e:0 "This is going nowhere"
-
- admech_vassalisation.7.t:0 "[From.GetName] wants to negotiate"
- admech_vassalisation.7.desc:0 "First meetings between our envoys and the representetives of [From.GetName] have ended with promising results. While the forge world might not be willing to accept our leadership at this moment, their priests have listed a number of demands and privileges regarding their fleets. They promise to join us, should we accept these."                             #dip
- admech_vassalisation.7.a:0 "Their demands are fair"
- admech_vassalisation.7.b:0 "To much. We offer to pay half of that"
- admech_vassalisation.7.c:0 "We shall offer an alternative"
- admech_vassalisation.7.d:0 "Nonsense, we demand their surrender"
- admech_vassalisation.7.e:0 "This is going nowhere"
-
- admech_vassalisation.8.t:0 "[From.GetName] wants to negotiate"
- admech_vassalisation.8.desc:0 "First meetings between our envoys and the representetives of [From.GetName] have ended with promising results. While the forge world might not be willing to accept our leadership at this moment, their priests have listed a number of demands and privileges regarding their armies. They promise to join us, should we accept these."                             #mil
- admech_vassalisation.8.a:0 "Their demands are fair"
- admech_vassalisation.8.b:0 "To much. We offer to pay half of that"
- admech_vassalisation.8.c:0 "We shall offer an alternative"
- admech_vassalisation.8.d:0 "Nonsense, we demand their surrender"
- admech_vassalisation.8.e:0 "This is going nowhere"
-
- admech_vassalisation.9.t:0 "[From.GetName] accepts our demands"
- admech_vassalisation.9.desc:0 "In exchange for us to recognize their authority over us, we have made a list of demands. Now the diplomats of [From.GetName] have accepted them."
- admech_vassalisation.9.a:0 "A peace with honour"
-
- admech_vassalisation.10.t:0 "[From.GetName] offers reduced terms"
- admech_vassalisation.10.desc:0 "In exchange for us to recognize their authority over us, we have made a list of demands. [From.GetName] is not willing to pay in full but their diplomats are offering to meet reduced terms."
- admech_vassalisation.10.a:0 "Better than nothing"
- admech_vassalisation.10.b:0 "Not enough"
-
- admech_vassalisation.11.t:0 "[From.GetName] accepts our counteroffer"
- admech_vassalisation.11.desc:0 "The wise priesthood of [From.GetName] has come to the conclusion that it is in their best interest to accept our leadership and our offers."
- admech_vassalisation.11.a:0 "Material well spent"
-
- admech_vassalisation.12.t:0 "[From.GetName] accepts our counteroffer"
- admech_vassalisation.12.desc:0 "The wise priesthood of [From.GetName] has come to the conclusion that it is in their best interest to accept our leadership and our offers."
- admech_vassalisation.12.a:0 "Influence well spent"
-
- admech_vassalisation.13.t:0 "[From.GetName] accepts our counteroffer"
- admech_vassalisation.13.desc:0 "The wise priesthood of [From.GetName] has come to the conclusion that it is in their best interest to accept our leadership and our offers."
- admech_vassalisation.13.a:0 "Weapons well spent"
-
-#fill in names for all demand types
-
- admech_vassalisation.14.t:0 "[From.GetName] proposes alternative terms"
- admech_vassalisation.14.desc:0 "The delegation from [From.GetName] has heard our terms and we have given them time to discuss them among themselves. Now they stand before us and propose and alternative."
- admech_vassalisation.14.a:0 "They offer scientific knowledge - accept"
- admech_vassalisation.14.b:0 "They offer new production processes - accept"
- admech_vassalisation.14.c:0 "They offer rare STCs - accept"
- admech_vassalisation.14.d:0 "They offer development plans - accept"
- admech_vassalisation.14.e:0 "They offer assistance in reforms - accept"
- admech_vassalisation.14.f:0 "They offer aid against our opposition - accept"
- admech_vassalisation.14.g:0 "Tell them to leave"
-
- admech_vassalisation.15.t:0 "[From.GetName] proposes alternative terms"
- admech_vassalisation.15.desc:0 "The delegation from [From.GetName] has heard our terms and we have given them time to discuss them among themselves. Now they stand before us and propose and alternative."
- admech_vassalisation.15.a:0 "They offer voidsmen - accept"
- admech_vassalisation.15.b:0 "They offer voidships - accept"
- admech_vassalisation.15.c:0 "They offer fleet supplies - accept"
- admech_vassalisation.15.d:0 "They offer diplomatic support - accept"
- admech_vassalisation.15.e:0 "They offer trade rights - accept"
- admech_vassalisation.15.f:0 "They offer raw materials - accept"
- admech_vassalisation.15.g:0 "Tell them to leave"
-
- admech_vassalisation.16.t:0 "[From.GetName] proposes alternative terms"
- admech_vassalisation.16.desc:0 "The delegation from [From.GetName] has heard our terms and we have given them time to discuss them among themselves. Now they stand before us and propose and alternative."
- admech_vassalisation.16.a:0 "They offer strategic training - accept"
- admech_vassalisation.16.b:0 "They offer skitarii and servitors - accept"
- admech_vassalisation.16.c:0 "They offer improved weaponry - accept"
- admech_vassalisation.16.d:0 "They offer new combat doctrines - accept"
- admech_vassalisation.16.e:0 "They offer titan support - accept"
- admech_vassalisation.16.f:0 "They offer army supplies - accept"
- admech_vassalisation.16.g:0 "Tell them to leave"
-
- admech_vassalisation.17.t:0 "[From.GetName] demands our submission"
- admech_vassalisation.17.desc:0 "We were willing to negotiate but [From.GetName] won't even entertain the idea. Perhaps we should bow to them to avoid a war. Or perhaps this is just a trick."
- admech_vassalisation.17.a:0 "[ROOT.GetName] will bow to [From.GetName]"
- admech_vassalisation.17.b:0 "The negotiations are over"
-
- admech_vassalisation.18.t:0 "[From.GetName] ends the negotiations"
- admech_vassalisation.18.desc:0 "Dispite our best efforts to find a compromise the diplomats of [From.GetName] have ended the negotiations and departed back to their homeworld."
- admech_vassalisation.18.a:0 "Let them leave"
-
-#Demands - not fully implemented in the files yet
-
- admech_vassalisation.20.t:0 "What shall we demand?"
- admech_vassalisation.20.desc:0 "We can choose between three directions: Either we demand support for our internal affairs, namly our Magi and our facotries, or for our external affairs, so our war fleets and merchant fleets, or for our ground forces."                      #explain what adm, dip, mil contains
- admech_vassalisation.20.a:0 "Technology and industrial support"
- admech_vassalisation.20.b:0 "Voidships and trade rights"
- admech_vassalisation.20.c:0 "Support for our Legions"
-
-
- admech_vassalisation.21.t:0 "Technology and industrial support"         #adm demands
- admech_vassalisation.21.desc:0 "What shall we demand?"
- admech_vassalisation.21.a:0 "Scientific secrets"                        #name the demands correctly
- admech_vassalisation.21.b:0 "Increase manufactorum outputs"
- admech_vassalisation.21.c:0 "Innovative STCs"
- admech_vassalisation.21.d:0 "Large-scale development plans"
- admech_vassalisation.21.e:0 "Assistance for internal reforms"
- admech_vassalisation.21.f:0 "Help to oppress our opposition"
-
- admech_vassalisation.22.t:0 "Voidships and trade rights"                #dip demands
- admech_vassalisation.22.desc:0 "What shall we demand?"
- admech_vassalisation.22.a:0 "Trained voidsmen"
- admech_vassalisation.22.b:0 "Voidships for our fleets"
- admech_vassalisation.22.c:0 "Supplies for our fleets"
- admech_vassalisation.22.d:0 "Support for our diplomats"
- admech_vassalisation.22.e:0 "Exclusive trade rights"
- admech_vassalisation.22.f:0 "Supply of raw materials"
-
- admech_vassalisation.23.t:0 "Support for our legions"                   #mil demands
- admech_vassalisation.23.desc:0 "What shall we demand?"
- admech_vassalisation.23.a:0 "Training for our war-domini"
- admech_vassalisation.23.b:0 "Reserves for our armies"
- admech_vassalisation.23.c:0 "Improved weaponry"
- admech_vassalisation.23.d:0 "New combat doctrines"
- admech_vassalisation.23.e:0 "Titan support"
- admech_vassalisation.23.f:0 "Supplies for our legions"
-
-#alternatives - use terms from 21-23
-
- admech_vassalisation.24.t:0 "What will we offer instead?"
- admech_vassalisation.24.desc:0 "The priesthood of [From.GetName] has made their demands but the fabricator-general has denied them. What will we offer them instead to sway them to our cause?"
- admech_vassalisation.24.a:0 "We will share our secret knowledge with them"
- admech_vassalisation.24.b:0 "We can increase the output of their forges"
- admech_vassalisation.24.c:0 "We can share some STCs with them"
- admech_vassalisation.24.d:0 "We can offer aid for large-scale planetary development"
- admech_vassalisation.24.e:0 "We can aid in internal reforms"
- admech_vassalisation.24.f:0 "We can help stabilze their ranks"
-
- admech_vassalisation.25.t:0 "What will we offer instead?"
- admech_vassalisation.25.desc:0 "The priesthood of [From.GetName] has made their demands but the fabricator-general has denied them. What will we offer them instead to sway them to our cause?"
- admech_vassalisation.25.a:0 "We will send them trained voidsmen"
- admech_vassalisation.25.b:0 "We will send them voidships"
- admech_vassalisation.25.c:0 "We offer supply for their fleets"
- admech_vassalisation.25.d:0 "Our agents will support their diplomats"
- admech_vassalisation.25.e:0 "We offer exclusive trade rights"
- admech_vassalisation.25.f:0 "We offer raw materials for their forges"
-
- admech_vassalisation.26.t:0 "What will we offer instead?"
- admech_vassalisation.26.desc:0 "The priesthood of [From.GetName] has made their demands but the fabricator-general has denied them. What will we offer them instead to sway them to our cause?"
- admech_vassalisation.26.a:0 "Offer to train their war domini"
- admech_vassalisation.26.b:0 "Offer to send soldiers"
- admech_vassalisation.26.c:0 "Offer to send weaponry"
- admech_vassalisation.26.d:0 "Offer to share combat doctrines"
- admech_vassalisation.26.e:0 "Offer titan support"
- admech_vassalisation.26.f:0 "Offer to supply their armies"
-
- admech_vassalisation.30.t:0 "Sorts by reduced demand category"
- admech_vassalisation.30.desc:0 "This should be hidden."
- admech_vassalisation.30.a:0 "ADM"
- admech_vassalisation.30.b:0 "DIP"
- admech_vassalisation.30.c:0 "MIL"
-
- admech_vassalisation.40.t:0 "Sorts by size of target"
- admech_vassalisation.40.desc:0 "This should be hidden."
- admech_vassalisation.40.a:0 "Minimum"
- admech_vassalisation.40.b:0 "Small"
- admech_vassalisation.40.c:0 "Medium"
- admech_vassalisation.40.d:0 "Large"
-
- admech_vassalisation.41.t:0 "[From.GetName] accepts the alternative offer"                 #minimal demands
- admech_vassalisation.41.desc:0 "The priesthood of [From.GetName] has considered our alternative proposal and has finally reached an agreement. At this very moment treaties are signed and another voice joins our chorus to the glory of the Machine God."
- admech_vassalisation.41.a:0 "Praise the Omnissiah"
-    
- admech_vassalisation.42.t:0 "[From.GetName] accepts the alternative offer"                 #small demands
- admech_vassalisation.42.desc:0 "The priesthood of [From.GetName] has considered our alternative proposal and has finally reached an agreement. At this very moment treaties are signed and another voice joins our chorus to the glory of the Machine God."
- admech_vassalisation.42.a:0 "Praise the Omnissiah"
-
- admech_vassalisation.43.t:0 "[From.GetName] accepts the alternative offer"                 #medium demands
- admech_vassalisation.43.desc:0 "The priesthood of [From.GetName] has considered our alternative proposal and has finally reached an agreement. At this very moment treaties are signed and another voice joins our chorus to the glory of the Machine God."
- admech_vassalisation.43.a:0 "Praise the Omnissiah"
-
- admech_vassalisation.44.t:0 "L[From.GetName] accepts the alternative offer"                #large demands
- admech_vassalisation.44.desc:0 "The priesthood of [From.GetName] has considered our alternative proposal and has finally reached an agreement. At this very moment treaties are signed and another voice joins our chorus to the glory of the Machine God."
- admech_vassalisation.44.a:0 "Praise the Omnissiah"
+ TT_admech_vassalisation_offer_0:0 "There is a §Ylow§! chance that they will submit." 
+ TT_admech_vassalisation_offer_1:0 "There is a §Ydecent§! chance that they will submit."
+ TT_admech_vassalisation_offer_2:0 "There is a §Yhigh§! chance that they will submit."
+ TT_admech_vassalisation_offer_3:0 "They are §Yguaranteed§! to submit."
  
- admech_vassalisation.50.t:0 "The 42nd Millenium"
- admech_vassalisation.50.desc:0 "As Cadia fell and the Cicatrix Maledictum tore the galaxy apart the Empire of the Machine God was shattered. Contact between forge worlds was lost, millenia old supply lines ceased to exist, ancient forges were lost to the terrors of the warp, to xenos, and the hereteks. But now, as the warpstorms subside and Lord-Regent Roboute Guilliman declared the Indominatus Crusade, our time has come to reforge our empire and restore the greatness of the Adeptus Mechanicus."
- admech_vassalisation.50.a:0 "Praise the Omnissiah."
- 
- admech_vassalisation.60.t:0 "Forge our own destiny"
- admech_vassalisation.60.desc:0 "[Overlord.GetName] has grown weak and many among our ranks question whether they are still fit to guide us. Maybe it is time to choose our own path again."
- admech_vassalisation.60.a:0 "Cut our ties to [Overlord.GetName]"
- admech_vassalisation.60.b:0 "Stay with [Overlord.GetName] for now"
- 
- admech_vassalisation.61.t:0 "[From.GetName] declares independece"
- admech_vassalisation.61.desc:0 "The treacherous priesthood of [From.GetName] has turned against us and declared independence. Our ambassadors have already been forced to leave the planet and only small number of loyal agents remains on the forge world. If we want to act against this development we will have to do it now. However these are difficult times and many priests of the Ordo Logi question whether we can spare the ressources for such a campaign."
- admech_vassalisation.61.a:0 "We will retake this forge"
- admech_vassalisation.61.b:0 "We can't spare the ressources"
- 
- admech_vassalisation.62.t:0 "[From.GetName] prepares war against us"
- admech_vassalisation.62.desc:0 "[From.GetName] refuses to let us go peacefully. They are mobilizing a expedition fleet against us at this very moment. We must prepare our defenses."
- admech_vassalisation.62.a:0 "So be it"
-
- admech_vassalisation.63.t:0 "[From.GetName] accepts our independence"
- admech_vassalisation.63.desc:0 "We have received a message from [From.GetName]. Their priesthood is understandably not excited about our decleration but has we have calculated a majority of them has deceided that we should remain on peaceful terms. Any future meeting between us will again be one of equals instead of master and apprentice."
- admech_vassalisation.63.a:0 "Good"
- 
- admech_vassalisation.64.t:0 "clear forge independence flag"
- admech_vassalisation.64.desc:0 "this should be hidden"
- admech_vassalisation.64.a:0 "done"
