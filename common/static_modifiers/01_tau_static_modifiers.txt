@@ -8,15 +8,15 @@ tau_caste_system_modifier = {
 	
 	
 	#debug and test
-	envoy_travel_time = -0.9
-	colonists = 1000
-	colony_cost_modifier = -10
-	global_unrest = -200
-	autonomy_change_time = -0.99
-	min_autonomy_in_territories = -0.9
-	reduced_liberty_desire = 1000
-	governing_capacity = 10000
-	range = 50
-	movement_speed_in_fleet_modifier = 10
-	free_navy_leader_pool = 10
+	# envoy_travel_time = -0.9
+	# colonists = 1000
+	# colony_cost_modifier = -10
+	# global_unrest = -200
+	# autonomy_change_time = -0.99
+	# min_autonomy_in_territories = -0.9
+	# reduced_liberty_desire = 1000
+	# governing_capacity = 10000
+	# range = 50
+	# movement_speed_in_fleet_modifier = 10
+	# free_navy_leader_pool = 10
 }
