@@ -699,3 +699,11 @@ xxa_navis_nobilte_privilege = {
 	min_local_autonomy = 75
 	local_unrest = -5
 }
+
+gates_of_hell = {
+	picture = fire_damage
+	loot_amount = 0.2
+	available_province_loot = 0.15
+	fire_damage = 0.1
+	movement_speed_onto_off_boat_modifier = 0.2
+}
