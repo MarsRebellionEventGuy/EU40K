@@ -1,0 +1,17 @@
+government = theocracy
+add_government_reform = forgeworld_reform
+government_rank = 2
+technology_group = mechanicus
+religion = mechanicus
+primary_culture = mechanicus_culture
+capital = 1550
+fixed_capital = 1550
+
+1970.12.12 = {
+	monarch = {
+		name = "Honoradon Veylac"	
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
