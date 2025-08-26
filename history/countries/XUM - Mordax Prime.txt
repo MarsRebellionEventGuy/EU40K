@@ -1,0 +1,17 @@
+government = theocracy
+add_government_reform = minor_forgeworld_reform
+government_rank = 1
+technology_group = mechanicus
+religion = mechanicus
+primary_culture = mechanicus_culture
+capital = 1094
+fixed_capital = 1094
+
+1970.12.12 = {
+	monarch = {
+		name = "Drovak Kor-Alhpa"	
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

@@ -237,3 +237,4 @@ country_event = { #Faith
 		add_army_professionalism = 0.03
 	}
 }
+

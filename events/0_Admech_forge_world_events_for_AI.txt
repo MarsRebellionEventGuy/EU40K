@@ -153,7 +153,7 @@ country_event = {
 		}
 	}
 	mean_time_to_happen = {
-		months = 120
+		months = 240
 		
 		modifier = {
 			factor = 0.9
@@ -199,8 +199,7 @@ country_event = {
 		}
 	}
 	mean_time_to_happen = {
-		months = 180
-	
+		months = 360
 		modifier = {
 			factor = 0.9
 			stability = 3
@@ -245,7 +244,7 @@ country_event = {
 		}
 	}
 	mean_time_to_happen = {
-		months = 240
+		months = 480
 		
 		modifier = {
 			factor = 0.9
@@ -294,10 +293,6 @@ country_event = {
 						has_province_modifier = forge_world_3_mod
 						NOT = { development = 50 }
 					}
-					AND = {
-						has_province_modifier = forge_world_4_mod
-						NOT = { development = 60 }
-					}
 				}
 			}
 			is_at_war = no
@@ -305,7 +300,7 @@ country_event = {
 		}
 	}
 	mean_time_to_happen = {
-		months = 36
+		months = 100
 		
 		modifier = {
 			factor = 0.9
@@ -341,3 +336,4 @@ country_event = {
 	}
 	
 }
+

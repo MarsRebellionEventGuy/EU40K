@@ -70,7 +70,7 @@ country_decisions = {
 			adm_power = 200
 			dip_power = 200
 			mil_power = 200
-			treasury = 1000
+			treasury = 2000
 			}
 			else_if = {
 				limit = {
@@ -83,7 +83,7 @@ country_decisions = {
 			adm_power = 300
 			dip_power = 300
 			mil_power = 300
-			treasury = 2500
+			treasury = 5000
 			}
 			else_if = {
 				limit = {
@@ -96,7 +96,7 @@ country_decisions = {
 			adm_power = 400
 			dip_power = 400
 			mil_power = 400
-			treasury = 5000
+			treasury = 10000
 			}
 		}
 		effect = {
@@ -108,3 +108,4 @@ country_decisions = {
 		}
 	}
 }
+

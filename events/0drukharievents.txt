@@ -48,3 +48,100 @@ country_event = {#Ynnari ideals reach commorragh
 		}
 	}
 }
+
+country_event = { #Gates of Hell
+	id = drukhari_events.2
+	title = drukhari_events.2.t
+	desc = drukhari_events.2.d
+	picture = muslimgfx_COUNTRY_COLLAPSE_eventPicture
+
+	fire_only_once = yes
+
+	major = yes
+
+	trigger = {
+		is_in_war = {
+			defenders = XXA
+			war_score = 25
+		}
+		religion = dark_muses
+	}
+
+
+	mean_time_to_happen = {
+		days= 1
+	}
+	
+	option = {
+		name = drukhari_events.2.a
+		set_global_flag = gates_of_hell
+		add_permanent_power_projection = { 
+		type = 25_permanent_power_projection
+		amount = 25 
+		}
+		add_country_modifier = {
+			name = gates_of_hell
+			duration = -1
+		}
+	}
+}
+
+country_event = { #Carpetbaggers!
+	id = drukhari_events.3
+	title = drukhari_events.3.t
+	desc = drukhari_events.3.d
+	picture = SCOTTISH_MERCENARIES_eventPicture
+
+
+	trigger = {
+		NOT = {has_country_flag = carpetbaggers}
+		at_war_with_religious_enemy = yes
+		is_in_war = {
+			war_score = 66
+		}
+		religion = dark_muses
+	}
+
+
+	mean_time_to_happen = {
+		days= 1000
+	}
+	
+	option = {
+		name = drukhari_events.3.a
+		random_owned_province = {
+  		limit = { has_port = yes }
+    	galley = ROOT
+		}
+		random_owned_province = {
+  		limit = { has_port = yes }
+    	galley = ROOT
+		}
+		random_owned_province = {
+  		limit = { has_port = yes }
+    	galley = ROOT
+		}
+		random_owned_province = {
+  		limit = { has_port = yes }
+    	galley = ROOT
+		}
+		random_owned_province = {
+  		limit = { has_port = yes }
+    	galley = ROOT
+		}
+		random_owned_province = {
+  		limit = { has_port = yes }
+    	galley = ROOT
+		}
+		random_owned_province = {
+  		limit = { has_port = yes }
+    	galley = ROOT
+		}
+		set_country_flag = carpetbaggers
+	}
+	option = {
+		name = drukhari_events.3.b
+		add_sailors = 2000
+		set_country_flag = carpetbaggers
+	}
+}

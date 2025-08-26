@@ -104,18 +104,29 @@ offer_forgeworld_subjugation = {
 	require_acceptance = yes
 
 	is_visible = {
-		OR = {
-			has_country_flag = admech_can_propose_forge_subjugation
-			NOT = { has_reform = minor_forgeworld_reform }
-			NOT = { has_reform = forge_world_reform }
-			NOT = { overlord_of = FROM }
-		}
-		religion = mechanicus
+		ROOT = {
+			OR = {
+				tag = XXB
+				AND = {
+					religion = mechanicus
+					culture = mechanicus_culture
+					any_owned_province = {
+						is_major_forge_world = yes
+					}
+				}
+			}
+		}}
 		FROM = {
 			OR = {
-				#has_country_flag = admech_vassalisation_viable_target
-				has_reform = minor_forgeworld_reform
-				has_reform = forge_world_reform
+				AND = {
+					religion = mechanicus
+					culture = mechanicus_culture
+					NOT = {
+						any_owned_province = {
+							is_major_forge_world = yes
+						}
+					}
+				}
 				AND = {
 					tag = XXF
 					ROOT = { 
@@ -162,27 +173,25 @@ offer_forgeworld_subjugation = {
 		}
 	}
 	is_allowed = {
-		if = {
-			limit = { ROOT = { has_country_flag = admech_active_subjugation_negotiation } }
-			custom_trigger_tooltip = {
-				tooltip = admech_vassalisation_tooltip_has_active_negotiation_root
-				ROOT = { NOT = { has_country_flag = admech_active_subjugation_negotiation } } 
-			}
-		}	
 		#IF = {
-		#	limit = { ROOT = { has_country_modifier = admech_vassalisation_cooldown } }
+		#	limit = { ROOT = { has_country_flag = admech_active_subjugation_negotiation } }
 		#	custom_trigger_tooltip = {
-		#		tooltip = admech_vassalisation_tooltip_negotiation_cooldown
-		#		ROOT = { NOT = { has_country_modifier = admech_vassalisation_cooldown } } 
+		#		tooltip = admech_vassalisation_tooltip_has_active_negotiation_root
+		#		ROOT = { NOT = { has_country_flag = admech_active_subjugation_negotiation } } 
 		#	}
-		#}
+		#}	
 		if = {
-			limit = { FROM = { has_country_flag = admech_active_subjugation_negotiation } }
+			limit = { reached_forge_world_subject_slot_limit = yes }
 			custom_trigger_tooltip = {
-				tooltip = admech_vassalisation_tooltip_has_active_negotiation_from
-				FROM = { NOT = { has_country_flag = admech_active_subjugation_negotiation } } 
+				tooltip = TO_MANY_FORGEWORLDS_TT
+				enough_forge_world_subject_slots = yes
 			}
-		}	
+		}
+		AND = { 
+			NOT = {	FROM = {	has_country_modifier = admech_active_negotiation } }
+			NOT = {	ROOT = {	has_country_modifier = admech_vassalisation_cooldown } }
+			NOT = {	ROOT = {	has_country_modifier = admech_active_negotiation } }
+		}
 
 		if = {		#is this correct?
 			limit = { 
@@ -238,21 +247,11 @@ offer_forgeworld_subjugation = {
 		}	
 	}
 	on_accept = {
-		FROM = { 
-			country_event = {
-				id = admech_vassalisation.1
-				days = 10
-			}
-		}
 		hidden_effect = {
-			ROOT = {
-				set_country_flag = admech_active_subjugation_negotiation
-#				set_country_flag = admech_has_offered_subjugation_to_@FROM
-			}
 			FROM = {
-#				set_country_flag = admech_has_been_offered_subjugation_by_@ROOT	
-				set_country_flag = admech_active_subjugation_negotiation	
-				set_country_flag = admech_has_been_offered_subjugation_trigger
+				country_event { 
+					id = admech_vassalisation.1 
+				}
 			}
 		}
 	}

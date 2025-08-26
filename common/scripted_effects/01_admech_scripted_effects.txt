@@ -19,76 +19,76 @@ forge_world_upgrade_2_cost = {
 	adm_power_cost = 200
 	dip_power_cost = 200
 	mil_power_cost = 200
-	add_treasury = -1000
+	add_treasury = -2000
 }
 
 forge_world_upgrade_3_cost = {
 	adm_power_cost = 300
 	dip_power_cost = 300
 	mil_power_cost = 300
-	add_treasury = -2500
+	add_treasury = -5000
 }
 
 forge_world_upgrade_4_cost = {
 	adm_power_cost = 400
 	dip_power_cost = 400
 	mil_power_cost = 400
-	add_treasury = -5000
+	add_treasury = -10000
 }
 
 forge_world_loot_1 = {
 	add_adm_power = 50
-	add_adm_power = 50
-	add_adm_power = 50
+	add_dip_power = 50
+	add_mil_power = 50
 	add_prestige = 10
 }
 
 forge_world_loot_2 = {
 	add_adm_power = 100
-	add_adm_power = 100
-	add_adm_power = 100			
+	add_dip_power = 100
+	add_mil_power = 100			
 	add_prestige = 20
 }
 
 forge_world_loot_3 = {
 	add_adm_power = 150
-	add_adm_power = 150
-	add_adm_power = 150
+	add_dip_power = 150
+	add_mil_power = 150
 	add_prestige = 30
 }
 
 forge_world_loot_4 = {
 	add_adm_power = 200
-	add_adm_power = 200
-	add_adm_power = 200
+	add_dip_power = 200
+	add_mil_power = 200
 	add_prestige = 50
 }
 
 mekworld_loot_1 = {
 	add_adm_power = 50
-	add_adm_power = 50
-	add_adm_power = 50
+	add_dip_power = 50
+	add_mil_power = 50
 	add_prestige = 10
 }
 
 mekworld_loot_2 = {
 	add_adm_power = 50
-	add_adm_power = 50
-	add_adm_power = 50
+	add_dip_power = 50
+	add_mil_power = 50
 	add_prestige = 10
 }
 
 hell_forge_loot_1 = {
 	add_adm_power = 50
-	add_adm_power = 50
-	add_adm_power = 50
+	add_dip_power = 50
+	add_mil_power = 50
 	add_prestige = 10
 }
 
 hell_forge_loot_2 = {
 	add_adm_power = 50
-	add_adm_power = 50
-	add_adm_power = 50
+	add_dip_power = 50
+	add_mil_power = 50
 	add_prestige = 10
 }
 
@@ -114,4 +114,6 @@ forge_world_vassalization_cost_l = {
 	add_adm_power = -450 
 	add_dip_power = -450 
 	add_mil_power = -450
+
 }
+

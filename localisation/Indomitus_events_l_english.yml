@@ -832,3 +832,19 @@ indomitus_general.43.a:0 "Another light snuffled out!"
 
 tyr_firestarter:0 "Firestarter"
 tyr_firestarter_desc:0 "We have chosen to designate the fittest and the wisest among our Genestealers to lead the subversion of their planet upon landfall."
+
+drukhari_events.2.t:0 "Gates of Hell"
+drukhari_events.2.d:0 "Across the galactic concourse, humanity crumbles under the pressure of a plethora of factions, poised to benefit from the ravaging of the rotten carcass that is the Imperium. \n \nOne such faction are the wicked Drukhari. Etching themselves out of their hideout in the Webway, reaver raiding parties scour the darkened skies of the previously ascendant humanity, seizing the souls of the inmensely populated hive cities in scores never seen before. \n \nAs the Navis Imperialis falters to the augmented pressure of Drukhari incursions, citizens of the Imperium live in abject fear as the gates of hell render themselves opened upon thee."
+drukhari_events.2.a:0 "§YAs they should.§"
+
+drukhari_events.3.t:0 "Carpetbaggers!"
+drukhari_events.3.d:0 "My $MONARCHTITLE$'s! im pleased to report that due to our success in the latest raids, a surge of raiders have assembled themselves across the city, ready to embark into Realspace under our banner! \nAs they await orders atop their reavers, their destiny is yours to command unto the battlefield."
+drukhari_events.3.a:0 "Let those engines roar!"
+drukhari_events.3.b:0 "We need more pilots!"
+
+gates_of_hell:0 "Gates of Hell"
+gates_of_hell_desc:0 "For the panic-struck residents of the Imperial heartlands our arrival is the manifestation of hell itself. For us, it was just another campaign."
+
+imperial_events.3.t:0 "Vigilus Falls!"
+imperial_events.3.d:0 "'The fate of this distant world is worth a thousand others. If it falls, if the Nachmund Gauntlet collapses, the Imperium Nihilus is all but lost to us. The empire of Terra will soon follow.'"
+imperial_events.3.a:0 "-Tigurius. Chief Librarian of the Ultramarines."

@@ -3064,7 +3064,7 @@ integrated_forgeworld = {
 
 
 	# Modifiers:
-	modifier_subject = clear # Forgeworlds don't get the ordinary subject_nation penalty 
+	# Forgeworlds don't get the ordinary subject_nation penalty 
 	modifier_subject = {
 		modifier = integrated_forgeworld_subject_modifier
 	}
@@ -3194,7 +3194,7 @@ integrated_major_forgeworld = {
 
 
 	# Modifiers:
-	modifier_subject = clear # Forgeworlds don't get the ordinary subject_nation penalty 
+	# Forgeworlds don't get the ordinary subject_nation penalty 
 	modifier_subject = {
 		modifier = integrated_major_forgeworld_subject_modifier
 	}
