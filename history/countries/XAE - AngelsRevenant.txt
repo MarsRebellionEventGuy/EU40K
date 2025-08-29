@@ -16,4 +16,3 @@ historical_friend = XAD
 			mil = 4
 		}
 	}
-}

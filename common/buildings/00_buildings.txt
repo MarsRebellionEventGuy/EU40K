@@ -1953,29 +1953,6 @@ conscription_center = {
 
 	make_obsolete = regimental_camp
 
-#	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
-#	on_built = {
-#		FROM = {
-#			add_army_professionalism = 0.01
-#		}
-#	}
-#
-#	# THIS = Province, FROM = Destroyer, Will not be called on buildings made obsolete!
-#	on_destroyed = {
-#		FROM = {
-#			add_army_professionalism = -0.02
-#		}
-#	}
-#
-#	# THIS = Province, FROM = Destroyer, Will not be called on buildings destroyed!
-#	on_obsolete = {
-#		hidden_effect = {
-#			FROM = {
-#				add_army_professionalism = -0.01
-#			}
-#		}
-#	}
-
 	modifier = {
 		land_forcelimit = 2
 	}
@@ -2025,17 +2002,6 @@ conscription_center = {
 		}
 		if = {
 			limit = {
-				FROM = {
-					mission_completed = jap_tanegashima_teppo
-					has_dlc = "Cradle of Civilization" 
-				}
-			}
-			FROM = {
-				add_army_professionalism = -0.001
-			}
-		}
-		if = {
-			limit = {
 				has_province_modifier = azt_conscription_households
 			}
 			remove_province_modifier = azt_conscription_households
@@ -2074,40 +2040,6 @@ fort_18th = {
 	on_built = {
 		if = {
 			limit = {
-				FROM = { has_government_attribute = on_fort_built_nobles_loyalty }
-			}
-			FROM = {
-				if = {
-					limit = {
-						has_estate = estate_nobles
-					}
-					add_estate_loyalty = {
-						estate = estate_nobles
-						loyalty = 5
-					}
-				}
-				if = {
-					limit = {
-						has_estate = estate_maratha
-					}
-					add_estate_loyalty = {
-						estate = estate_maratha
-						loyalty = 5
-					}
-				}
-				if = {
-					limit = {
-						has_estate = estate_rajput
-					}
-					add_estate_loyalty = {
-						estate = estate_rajput
-						loyalty = 5
-					}
-				}
-			}
-		}
-		if = {
-			limit = {
 				owner = {
 					has_estate_privilege = estate_nobles_development_of_castles
 				}
@@ -2116,36 +2048,6 @@ fort_18th = {
 			add_province_modifier = {
 				name = estate_nobles_development_of_castles_mod
 				duration = -1
-			}
-		}
-		if = {
-			limit = {
-				owner = {
-					has_country_flag = ned_buffed_forts_flag
-					NOT = {
-						full_idea_group = defensive_ideas
-					}
-				}
-				region = low_countries_region
-			}
-			add_province_modifier = {
-				name = ned_low_countries_fort_buff
-				duration = -1
-				hidden = yes
-			}
-		}
-		else_if = {
-			limit = {
-				owner = {
-					has_country_flag = ned_buffed_forts_flag
-					full_idea_group = defensive_ideas
-				}
-				region = low_countries_region
-			}
-			add_province_modifier = {
-				name = ned_low_countries_fort_buff_buffed
-				duration = -1
-				hidden = yes
 			}
 		}
 		if = {

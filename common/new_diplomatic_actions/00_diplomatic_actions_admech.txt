@@ -193,56 +193,56 @@ offer_forgeworld_subjugation = {
 			NOT = {	ROOT = {	has_country_modifier = admech_active_negotiation } }
 		}
 
-		IF = {		#is this correct?
+		if = {		#is this correct?
 			limit = { 
 				FROM = { 
-					AND = {	
-						is_subject = yes
-						NOT = { 
-							AND = {	
-								is_subject_of_type = nominal_imperial_world_subject_type
-								is_subject_of_type = imperial_world_subject_type
-								is_subject_of_type = integrated_world_subject_type
-							}
-						}
-					}	
+					is_subject = yes
+					NOT = { 
+						is_subject_of_type = nominal_imperial_world_subject_type
+						is_subject_of_type = imperial_world_subject_type
+						is_subject_of_type = integrated_world_subject_type
+					}
 				}
 			}
 			custom_trigger_tooltip = {
 				tooltip = admech_vassalisation_tooltip_from_is_subject
 				FROM = { 
 					NOT = {	
-						AND = {	
-							is_subject = yes
-							NOT = { 
-								AND = {	
-									is_subject_of_type = nominal_imperial_world_subject_type
-									is_subject_of_type = imperial_world_subject_type
-									is_subject_of_type = integrated_world_subject_type
-								}
-							}
+						is_subject = yes
+						NOT = { 
+							is_subject_of_type = nominal_imperial_world_subject_type
+							is_subject_of_type = imperial_world_subject_type
+							is_subject_of_type = integrated_world_subject_type
 						}
 					}	
 				}
 			}
 		}
-		IF = {		
-			limit = { FROM = { 
-							OR = {	is_subject = no
-							 		OR = {	is_subject_of_type = nominal_imperial_world_subject_type
-											is_subject_of_type = imperial_world_subject_type
-											is_subject_of_type = integrated_world_subject_type
-									}	
-			}	}	   }
+		if = {		#is this correct? # I don't think so.
+			limit = { 
+				FROM = { 
+					OR = {	
+						is_subject = no
+						is_subject_of_type = nominal_imperial_world_subject_type
+						is_subject_of_type = imperial_world_subject_type
+						is_subject_of_type = integrated_world_subject_type
+					}	
+				}	   
+			}
 			custom_trigger_tooltip = {
 				tooltip = admech_vassalisation_tooltip_part_of_imperium
-				FROM = { NOT = {	AND = {	is_subject = yes
-								NOT = { OR = {	
-										is_subject_of_type = nominal_imperial_world_subject_type
-										is_subject_of_type = imperial_world_subject_type
-										is_subject_of_type = integrated_world_subject_type
-							}	}	}
-				}	}	
+				FROM = { 
+					NOT = {
+						is_subject = yes
+						NOT = { 
+							OR = {	
+								is_subject_of_type = nominal_imperial_world_subject_type
+								is_subject_of_type = imperial_world_subject_type
+								is_subject_of_type = integrated_world_subject_type
+							}	
+						}
+					}	
+				}	
 			}
 		}	
 	}

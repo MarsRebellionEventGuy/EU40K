@@ -94,3 +94,28 @@ tau_assimilate_ostense_culture = { num_accepted_cultures = 1 }
 tau_assimilate_xeno_culture = { num_accepted_cultures = 1 }
 tau_assimilate_sslyth_culture = { num_accepted_cultures = 1 }
 tau_assimilate_medusae_culture = { num_accepted_cultures = 1 }
+
+# modifier for estate
+growing_archeotech_trade = {
+	global_tax_income = 25
+}
+
+growing_wraithbone_trade = {
+	global_tax_income = 25
+}
+
+growing_living_metal_trade = {
+	global_tax_income = 25
+}
+
+growing_scientific_equipment_trade = {
+	global_tax_income = 25
+}
+
+ethereal_council_control = {
+	no_stability_loss_on_monarch_death = yes
+}
+
+many_species_under_control = {
+	diplomatic_upkeep = 3
+}

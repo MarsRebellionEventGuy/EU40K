@@ -1,0 +1,231 @@
+propose_to_join_the_greater_good = {
+	category = influence
+  
+    require_acceptance = yes
+    
+    # Determines when the action is visible
+    is_visible = {
+        religion = greater_good
+		FROM = {
+			NOT = { religion = greater_good }
+			NOT = {
+				OR = {
+					primary_culture = ork_culture
+					primary_culture = freebooter_culture
+					primary_culture = drukhari_culture
+					primary_culture = tyranid_culture
+					primary_culture = genestealer_culture
+					primary_culture = chaos_culture
+					primary_culture = heretic_astartes_culture
+					primary_culture = dark_mechanicum_culture
+					primary_culture = chaos_knight_culture
+					primary_culture = noculture
+				}
+			}
+		}
+    }
+    
+    # Determines when the action can be taken
+    is_allowed = {
+		is_at_war = no
+		FROM = { 
+			NOT = { truce_with = ROOT }
+			OR = {
+				dominant_religion = greater_good
+				capital_scope = {
+					trade_range = ROOT
+				}
+			}
+		}
+    }
+    
+    # Which effects to execute on acceptance
+    on_accept = {
+		if = {
+			limit = {
+				FROM = { is_subject = yes }
+			}
+			random_country = {
+				limit = { overlord_of = FROM }
+				add_aggressive_expansion = {
+					who = ROOT
+					value = 50
+					apply_calc = yes
+				}
+			}
+		}
+	
+        create_subject = {
+			subject_type = tau_auxiliary
+			subject = FROM
+		}
+		FROM = { change_religion = greater_good }
+    }
+
+    # Which effects to execute on decline (if declinable). Optional.
+    on_decline = {
+        declare_war_with_cb = {
+			who = FROM
+			casus_belli = cb_tau_vassalize_war
+		}
+    }
+
+    # Controls the AI's acceptance of the action, if acceptable. Optional.
+    ai_acceptance = {
+		add_entry = {
+			name = TRUST
+			export_to_variable = {
+				variable_name = ai_value
+				value = trust
+				who = FROM
+				with = ROOT
+			}			
+			subtract_variable = { 
+				which = ai_value
+				value = 50
+			}
+			#1 trust = +4 ai points
+			multiply_variable = {
+				which = ai_value
+				value = 0.4
+			}
+		}
+		add_entry = {
+			name = OPINION
+			export_to_variable = {
+				variable_name = ai_value
+				value = opinion
+				who = FROM
+				with = ROOT
+			}
+			multiply_variable = {
+				which = ai_value 
+				value = 0.2
+			}
+		}
+		add_entry = {
+			name = DIPLO_IS_RIVAL
+			limit = {
+				FROM = {
+					ai_attitude = {
+						who = ROOT
+						attitude = attitude_rivalry
+					}
+				}
+			}
+			export_to_variable = {
+				variable_name = ai_value
+				value = 1
+			}
+			
+			multiply_variable = {
+				which = ai_value
+				value = -1000
+			}
+		}
+		add_entry = {
+			name = AI_TOTAL_DEVELOPMENT
+			export_to_variable = {
+				variable_name = ai_value
+				value = total_development
+				who = FROM
+			}
+			#4 dev = -1
+			multiply_variable = {
+				which = ai_value
+				value = -0.25
+			}
+		}
+		add_entry = {
+			name = DIPLO_HAS_AI_HAS_OWN_SUBJECTS_TT
+			limit = {
+				FROM = { num_of_subjects = 1 }
+			}
+			export_to_variable = {
+				variable_name = ai_value
+				value = 1
+			}
+			multiply_variable = {
+				which = ai_value
+				value = -1000
+			}
+		}
+		add_entry = {
+			name = DIPLO_BORDER_DISTANCE_TT
+			export_to_variable = {
+				variable_name = ai_value
+				value = border_distance
+				who = FROM
+				with = ROOT
+			}
+			#2 units = -1
+			multiply_variable = {
+				which = ai_value
+				value = -0.5
+			}
+		}
+		add_entry = {
+			name = DOMINANT_RELIGION
+			limit = {
+				FROM = { dominant_religion = greater_good }
+			}
+			export_to_variable = {
+				variable_name = ai_value
+				value = 1
+			}
+			
+			multiply_variable = {
+				which = ai_value
+				value = 1000
+			}
+		}
+        add_entry = {
+			name = AI_DIPLOMATIC_REPUTATION
+			export_to_variable = {
+				variable_name = ai_value
+				value = trigger_value:diplomatic_reputation
+			}
+			#1 rep = 4
+			multiply_variable = {
+				which = ai_value
+				value = 4
+			}
+		}
+        add_entry = {
+			name = VASSALIZE_ACCEPTANCE
+            limit = {
+				has_estate_privilege = estate_water_caste_deploiement_of_volescur
+			}
+			export_to_variable = {
+				variable_name = ai_value
+				value = 20
+			}
+		}
+		add_entry = {
+			name = VASSALIZE_ACCEPTANCE
+            limit = {
+				has_estate_privilege = estate_water_caste_deploiement_of_volescur
+				has_estate_privilege = estate_ethereal_caste_optimise_water_caste
+			}
+			export_to_variable = {
+				variable_name = ai_value
+				value = 20
+			}
+		}
+        add_entry = {
+			name = VASSALIZE_ACCEPTANCE_IDEA
+            limit = {
+				has_idea = blackmailing
+			}
+			export_to_variable = {
+				variable_name = ai_value
+				value = 15
+			}
+		}
+    }
+    
+    # Controls the AI's usage of the action
+    ai_will_do = {
+        always = no
+    }
+}

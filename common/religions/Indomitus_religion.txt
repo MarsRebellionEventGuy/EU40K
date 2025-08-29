@@ -491,7 +491,6 @@ xeno_group = {
 			fire_damage = 0.05
 		}
 		can_have_secondary_religion = yes
-		
 		heretic = { FARSIGHTHERESY }
 	}
 	hrud = {
