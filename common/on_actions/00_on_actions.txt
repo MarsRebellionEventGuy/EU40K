@@ -4400,6 +4400,7 @@ on_culture_demoted = {
 	judaism_on_culture_country_effect = yes
 	imperial_modifiers_on_culture_country_effect = yes
 	on_culture_demoted_effect = yes
+	#on_culture_demoted_effect_remove_all_free_slots = yes
 	
 	GER_on_culture_demoted = yes
 }
@@ -4444,7 +4445,49 @@ on_dependency_lost = {
 # ROOT = New vassal, FROM = Overlord
 on_create_vassal = {
 	on_religion_change_estate_privileges_effect = yes
-
+	if = {
+		limit = {
+			tag = TUR
+			HUN = { has_country_modifier = hun_avenge_varna }
+		}
+		HUN = { remove_country_modifier = hun_avenge_varna }
+	}
+	if = {
+		limit = {
+			ai = no
+			tag = BOH
+			has_dlc = "Winds of Change"
+			not_in_mission_preview_mode = { key = BOH_RELIGION }
+			NOT = { mission_completed = boh_hussite_regency }
+		}
+		enable_branching_mission_review_without_ai  = {
+			key = BOH_RELIGION
+		}
+	}
+    if = {
+        limit = {
+			ai = no
+            tag = HSN
+            has_dlc = "Winds of Change"
+			not_in_mission_preview_mode = { key = HSN }
+			NOT = { mission_completed = hsn_fate_of_anatolia }
+        }
+        enable_branching_mission_review_without_ai  = {
+            key = HSN
+        }
+    }
+    if = {
+        limit = {
+			ai = no
+            tag = HSN
+            has_dlc = "Winds of Change"
+			not_in_mission_preview_mode = { key = HSN2 }
+			NOT = { mission_completed = hsn_sultan_shah }
+        }
+        enable_branching_mission_review_without_ai  = {
+            key = HSN2
+        }
+    }
 	if = {
 		limit = {
 			has_dlc = "Emperor"
@@ -4456,7 +4499,15 @@ on_create_vassal = {
 		add_government_reform = junior_revolutionary_republic_reform
 		set_country_flag = had_revolution
 	}
-
+	if = {
+		limit = {
+			tag = PAP
+		}
+		change_government = theocracy
+		change_religion = catholic
+		add_government_reform = papacy_reform
+		adopt_reform_progress = FROM
+	}
 	if = {
 		limit = { NOT = { is_year = 1445 } }
 		set_country_flag = released_in_1444
@@ -4561,7 +4612,67 @@ on_flagship_destroyed = {
 
 # this = Released country, FROM = Releasing country
 on_country_released = {
-
+	if = {
+		limit = {
+			ai = no
+			tag = BOH
+			has_dlc = "Winds of Change"
+			not_in_mission_preview_mode = { key = BOH_RELIGION }
+			NOT = { mission_completed = boh_hussite_regency }
+		}
+		enable_branching_mission_review_without_ai  = {
+			key = BOH_RELIGION
+		}
+	}
+    if = {
+        limit = {
+			ai = no
+            tag = HSN
+            has_dlc = "Winds of Change"
+			not_in_mission_preview_mode = { key = HSN }
+			NOT = { mission_completed = hsn_fate_of_anatolia }
+        }
+        enable_branching_mission_review_without_ai  = {
+            key = HSN
+        }
+    }
+    if = {
+        limit = {
+			ai = no
+            tag = HSN
+            has_dlc = "Winds of Change"
+			not_in_mission_preview_mode = { key = HSN2 }
+			NOT = { mission_completed = hsn_sultan_shah }
+        }
+        enable_branching_mission_review_without_ai  = {
+            key = HSN2
+        }
+    }
+	if = {
+		limit = {
+			tag = PAP
+		}
+		change_government = theocracy
+		change_religion = catholic
+		add_government_reform = papacy_reform
+		adopt_reform_progress = FROM
+	}
+	if = {
+		limit = {
+			FROM = { has_reform = religious_permanent_revolution_reform }
+			NOT = { tag = PAP }
+		}
+		change_religion = FROM
+		adopt_reform_progress = FROM
+		add_country_modifier = {
+			name = global_holy_war_released_modifier
+			duration = 3650
+			hidden = yes
+		}
+		capital_scope = {
+			change_religion = FROM
+		}
+	}
 	if = {
 		limit = { NOT = { is_year = 1445 } }
 		set_country_flag = released_in_1444
@@ -4704,6 +4815,19 @@ on_change_revolution_target = {
 # this = curia controller (enactor of the bull)
 on_golden_bull_enacted = {
 	set_country_flag = enacted_golden_bull
+	if = {
+		limit = { 
+			FRA = { has_country_flag = gain_25_random_pp_and_10_pi_per_bull_flag } 
+		}
+		FRA = {
+			random_list = {
+				10 = { add_adm_power = 25 }
+				10 = { add_dip_power = 25 }
+				10 = { add_mil_power = 25 }
+			}
+			add_papal_influence = 10 
+		}
+	}
 }
 
 

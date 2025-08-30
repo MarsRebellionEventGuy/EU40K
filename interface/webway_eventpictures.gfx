@@ -1,8 +1,0 @@
-spriteTypes = {
-
-	spriteType = {
-		name = "Explosion_Webway_event_picture"
-		texturefile = "gfx/event_pictures/event_pictures_Webway/explosion.dds"
-		alwaystransparent = yes
-	}
-}

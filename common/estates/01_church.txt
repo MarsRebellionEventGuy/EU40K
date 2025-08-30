@@ -8,7 +8,6 @@ estate_church = {
 		NOT = { culture_group = necron_culture_group }
 		NOT = { culture_group = ork_culture_group }
 		NOT = { culture_group = tyranid_culture_group }
-		NOT = { culture_group = tau_culture_group }
 		if = {
 			limit = {
 				religion_group = dharmic
@@ -709,6 +708,24 @@ estate_church = {
 		desc = estate_grimnyr
 		trigger = {
 			culture_group = votann_culture_group
+		}
+	}
+
+	custom_name = {
+		desc = estate_ethereals
+		trigger = {
+			culture_group = tau_culture_group
+			NOT = {
+				tag = XGG
+			}
+		}
+	}
+	
+	custom_name = {
+		desc = estate_earth_caste
+		trigger = {
+			culture_group = tau_culture_group
+			tag = XGG
 		}
 	}
 

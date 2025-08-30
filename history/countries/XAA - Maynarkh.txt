@@ -19,3 +19,4 @@ historical_rival = XAD
 			mil = 6
 		}
 	}
+}

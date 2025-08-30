@@ -43,7 +43,10 @@ philosopher = {
 	
 	# Bonus
 	prestige = 1
-
+	skill_scaled_modifier = {
+		trigger = { owner = {  has_government_attribute = reform_progress_from_advisors  } }
+		modifier = { reform_progress_growth = 0.03 }
+	}
 	skill_scaled_modifier = {
 		trigger = { 
 			owner = { 
@@ -173,7 +176,10 @@ natural_scientist = {
 	
 	# Bonus
 	production_efficiency = 0.10
-
+	skill_scaled_modifier = {
+		trigger = { owner = {  has_government_attribute = reform_progress_from_advisors  } }
+		modifier = { reform_progress_growth = 0.03 }
+	}
 	skill_scaled_modifier = {
 		trigger = { 
 			owner = { 
@@ -293,7 +299,10 @@ artist = {
 	
 	# Bonus
 	stability_cost_modifier = -0.10
-
+	skill_scaled_modifier = {
+		trigger = { owner = {  has_government_attribute = reform_progress_from_advisors  } }
+		modifier = { reform_progress_growth = 0.03 }
+	}
 	skill_scaled_modifier = {
 		trigger = { 
 			owner = { 
@@ -436,7 +445,10 @@ treasurer = {
 	
 	# Bonus
 	global_tax_modifier = 0.1
-
+	skill_scaled_modifier = {
+		trigger = { owner = {  has_government_attribute = reform_progress_from_advisors  } }
+		modifier = { reform_progress_growth = 0.03 }
+	}
 	skill_scaled_modifier = {
 		trigger = { 
 			owner = { 
@@ -567,7 +579,10 @@ theologian = {
 	
 	# Bonus
 	global_unrest = -2
-
+	skill_scaled_modifier = {
+		trigger = { owner = {  has_government_attribute = reform_progress_from_advisors  } }
+		modifier = { reform_progress_growth = 0.03 }
+	}
 	skill_scaled_modifier = {
 		trigger = { 
 			owner = { 
@@ -718,7 +733,10 @@ master_of_mint = {
 	
 	# Bonus
 	inflation_reduction = 0.10
-
+	skill_scaled_modifier = {
+		trigger = { owner = {  has_government_attribute = reform_progress_from_advisors  } }
+		modifier = { reform_progress_growth = 0.03 }
+	}
 	skill_scaled_modifier = {
 		trigger = { 
 			owner = { 
@@ -858,7 +876,10 @@ inquisitor = {
 	
 	# Bonus
 	global_missionary_strength = 0.02
-
+	skill_scaled_modifier = {
+		trigger = { owner = {  has_government_attribute = reform_progress_from_advisors  } }
+		modifier = { reform_progress_growth = 0.03 }
+	}
 	skill_scaled_modifier = {
 		trigger = { 
 			owner = { 
@@ -1138,6 +1159,17 @@ naval_reformer = {
 		}
 		modifier = {
 			culture_conversion_cost = -0.05
+		}
+	}
+	
+	skill_scaled_modifier = {
+		trigger = {
+			owner = { 
+				mission_completed = BYZ_warehouse_of_the_east
+			}
+		}
+		modifier = {
+			global_trade_power = 0.03
 		}
 	}
 	
@@ -1773,7 +1805,17 @@ army_organiser = {
 	# Bonus
 	land_forcelimit_modifier = 0.10
 
-
+	skill_scaled_modifier = {
+		trigger = {
+			owner = { 
+				mission_completed = BYZ_foreign_officers
+			}
+		}
+		modifier = { 
+			mercenary_cost = -0.03
+		}
+	}
+	
 	skill_scaled_modifier = {
 		trigger = {
 			owner = { 

@@ -1,31 +1,8 @@
 graphical_culture = westerngfx
 color = { 53 53 72 }
 
-historical_idea_groups = {
-	expansion_ideas
-	
-}
+	historical_idea_groups = {
+		expansion_ideas
+		
+	}
 
-historical_units = {
-
-}
-
-monarch_names = {
-
-}
-
-leader_names = {
-
-}
-
-ship_names = {
-
-}
-
-army_names = {
-
-}
-
-fleet_names = {
-
-}

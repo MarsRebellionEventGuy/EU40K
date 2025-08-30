@@ -19,13 +19,11 @@ Farsight_col_1 = {
 		
 		required_missions = { Consolidate_first_expansion_Sphere }
 		trigger = {
-			is_at_war = no
-			has_discovered = 1931 # capital of XEV
 			XEV = {
 				OR = {
 					has_opinion = {
 						who = ROOT
-						value = 150
+						value = 200
 					}
 					core_claim = ROOT
 				}
@@ -94,33 +92,15 @@ Farsight_fate_of_necron_assimilate_branch = {
 		
 		trigger = { 
 			not_in_mission_preview_mode = { key = XGG_SAUTEKH }
-			OR = {
-				XEV = {
-					is_subject_of = XGG
-				}
-				AND = {
-					NOT = { exists = XEV }
-					XUH = {
-						is_subject_of = XGG
-					}
-				}
+			XEV = {
+				is_subject_of = XGG
 			}
 		}
-		effect = {
-			if = {
-				limit = { exists = XEV }
-				XEV = {
-					add_liberty_desire = -100
-					change_religion = greater_good
-				}
+		effect = { 
+			XEV = {
+				add_liberty_desire = -100
+				change_religion = greater_good
 			}
-			else = {
-				XUH = {
-					add_liberty_desire = -100
-					change_religion = greater_good
-				}
-			}
-			
 			add_country_modifier = {
 				name = assimilate_Necron
 				duration = -1
@@ -203,7 +183,7 @@ Farsight_col_2 = {
 			}
 		}
 		ai_weight = {
-			factor = 100
+			factor = 10
 		}
 	}
 
@@ -230,7 +210,7 @@ Farsight_col_2 = {
 			}
 		}
 		ai_weight = {
-			factor = 100
+			factor = 10
 		}
 	}
 
@@ -242,13 +222,11 @@ Farsight_col_2 = {
             owned_by = XGK
         }
 		trigger = {
-			is_at_war = no
-			has_discovered = 1915 # capital of XGK
 			XGK = {
 				OR = {
 					has_opinion = {
 						who = ROOT
-						value = 150
+						value = 200
 					}
 					core_claim = ROOT
 				}
@@ -388,10 +366,8 @@ Farsight_col_2_2 = {
 		trigger = {
 			chalnath_expanse_region = {
 				type = all
-				owner = {
-					religion = greater_good
-				}
-				OR = {
+				religion = greater_good
+				OR={
 					owned_by = ROOT
 					owned_by_subject_of = ROOT
 				}
@@ -421,9 +397,6 @@ Farsight_col_2_2 = {
 				3088 = { center_of_trade = 3 }
 			}
 		}
-		ai_weight = {
-			factor = 100
-		}
 	}
 
 	Remove_tyranid_from_galaxy = {
@@ -448,7 +421,7 @@ Farsight_col_2_2 = {
 			}
 		}
 		ai_weight = {
-			factor = 100
+			factor = 10
 		}
 	}
 }
@@ -472,20 +445,10 @@ Farsight_col_3 = {
 			is_at_war = no
 		}
 		effect = {
-			add_permanent_claim = 1883
-			if = {
-				limit = {
-					exists = XGL
-					is_subject = no
-				}
-				declare_war_with_cb = {
-					who = XGL
-					casus_belli = cb_annex
-				}
-			}
+			add_claim = 1883
 		}
 		ai_weight = {
-			factor = 100
+			factor = 10
 		}
 	}
 
@@ -498,13 +461,12 @@ Farsight_col_3 = {
 		}
 		trigger = {
 			NOT = { exists = XGL }
-			1883 = { owned_by = XGG }
 		}
 		effect = {
 			country_event = { id = farsight_events.6 }
 		}
 		ai_weight = {
-			factor = 100
+			factor = 10
 		}
 	}
 
@@ -541,9 +503,6 @@ Farsight_col_3 = {
 			XGG = { add_historical_rival = XGF }
 			XGF = { add_historical_rival = XGG }
 		}
-		ai_weight = {
-			factor = 100
-		}
 	}
 
 	Only_one_tauva = {
@@ -572,9 +531,6 @@ Farsight_col_3 = {
 				1898 = { center_of_trade = 1 }
 			}
 		}
-		ai_weight = {
-			factor = 100
-		}
 	}
 
 	Control_tau_region = {
@@ -592,9 +548,7 @@ Farsight_col_3 = {
 		trigger = {
 			tau_region = {
 				type = all
-				owner = {
-					religion = greater_good
-				}
+				religion = greater_good
 				OR={
 					owned_by = ROOT
 					owned_by_subject_of = ROOT
@@ -608,9 +562,6 @@ Farsight_col_3 = {
 				add_base_production = 2
 				add_base_manpower = 2
 			}
-		}
-		ai_weight = {
-			factor = 100
 		}
 	}
 	
@@ -629,9 +580,7 @@ Farsight_col_3 = {
 		trigger = {
 			ultima_region = {
 				type = all
-				owner = {
-					religion = greater_good
-				}
+				religion = greater_good
 				OR={
 					owned_by = ROOT
 					owned_by_subject_of = ROOT
@@ -639,9 +588,7 @@ Farsight_col_3 = {
 			}
 			jericho_sector_region = {
 				type = all
-				owner = {
-					religion = greater_good
-				}
+				religion = greater_good
 				OR={
 					owned_by = ROOT
 					owned_by_subject_of = ROOT
@@ -656,9 +603,6 @@ Farsight_col_3 = {
 				add_base_manpower = 2
 			}
 		}
-		ai_weight = {
-			factor = 100
-		}
 	}
 	
 	Consolidate_first_expansion_Sphere = {
@@ -668,27 +612,20 @@ Farsight_col_3 = {
 		required_missions = { Farsight_first_expansion_Sphere }
 		trigger = {
 			num_of_estate_agendas_completed = {
-				estate = estate_fire_caste
+				estate = estate_nobles
 				value = 2
 			}
 			num_of_estate_agendas_completed = {
-				estate = estate_water_caste
+				estate = estate_church
 				value = 2
 			}
 			num_of_estate_agendas_completed = {
-				estate = estate_earth_caste
-				value = 2
-			}
-            num_of_estate_agendas_completed = {
-				estate = estate_air_caste
+				estate = estate_burghers
 				value = 2
 			}
 		}
 		effect = { 
 			country_event = { id = farsight_events.9 }
-		}
-		ai_weight = {
-			factor = 100
 		}
 	}
 	
@@ -709,9 +646,7 @@ Farsight_col_3 = {
 		trigger = {
 			sargos_region = {
 				type = all
-				owner = {
-					religion = greater_good
-				}
+				religion = greater_good
 				OR={
 					owned_by = ROOT
 					owned_by_subject_of = ROOT
@@ -719,9 +654,7 @@ Farsight_col_3 = {
 			}
 			grendl_stars_region = {
 				type = all
-				owner = {
-					religion = greater_good
-				}
+				religion = greater_good
 				OR={
 					owned_by = ROOT
 					owned_by_subject_of = ROOT
@@ -729,9 +662,7 @@ Farsight_col_3 = {
 			}
 			vidar_region = {
 				type = all
-				owner = {
-					religion = greater_good
-				}
+				religion = greater_good
 				OR={
 					owned_by = ROOT
 					owned_by_subject_of = ROOT
@@ -739,9 +670,7 @@ Farsight_col_3 = {
 			}
 			chalnath_expanse_region = {
 				type = all
-				owner = {
-					religion = greater_good
-				}
+				religion = greater_good
 				OR={
 					owned_by = ROOT
 					owned_by_subject_of = ROOT
@@ -768,9 +697,6 @@ Farsight_col_3 = {
 				add_base_manpower = 2
 			}
 		}
-		ai_weight = {
-			factor = 100
-		}
 	}
 	
 	Consolidate_second_expansion_Sphere = {
@@ -780,27 +706,20 @@ Farsight_col_3 = {
 		required_missions = { Farsight_second_expansion_Sphere }
 		trigger = {
 			num_of_estate_agendas_completed = {
-				estate = estate_fire_caste
-				value = 3
+				estate = estate_nobles
+				value = 4
 			}
 			num_of_estate_agendas_completed = {
-				estate = estate_water_caste
-				value = 3
+				estate = estate_church
+				value = 4
 			}
 			num_of_estate_agendas_completed = {
-				estate = estate_earth_caste
-				value = 3
-			}
-            num_of_estate_agendas_completed = {
-				estate = estate_air_caste
-				value = 3
+				estate = estate_burghers
+				value = 4
 			}
 		}
 		effect = { 
 			country_event = { id = farsight_events.13 }
-		}
-		ai_weight = {
-			factor = 100
 		}
 	}
 	
@@ -813,16 +732,12 @@ Farsight_col_3 = {
 			province_id = 1
 		}
 		trigger = {
-			owns_or_subject_of = 1
+			is_core = 1
 		}
 		effect = { 
 			country_event = { id = farsight_events.14 }
 		}
-		ai_weight = {
-			factor = 100
-		}
 	}
-	
 }
 
 Farsight_col_4 = {
@@ -854,10 +769,10 @@ Farsight_col_4 = {
 			}
 		}
 		effect = { 
-			add_stability_or_adm_power = yes
+			add_stability = 1
 		}
 		ai_weight = {
-			factor = 100
+			factor = 10
 		}
 	}
 	
@@ -884,7 +799,7 @@ Farsight_col_4 = {
 			}
 		}
 		ai_weight = {
-			factor = 100
+			factor = 10
 		}
 	}
 
@@ -1016,13 +931,11 @@ Farsight_col_4_2 = {
 			owned_by = XIV
 		}
 		trigger = {
-			is_at_war = no
-			has_discovered = 2868 # capital of XIV
 			XIV = {
 				OR = {
 					has_opinion = {
 						who = ROOT
-						value = 150
+						value = 200
 					}
 					core_claim = ROOT
 				}
@@ -1160,13 +1073,11 @@ Farsight_col_5 = {
 			owned_by = XIA
 		}
 		trigger = {
-			is_at_war = no
-			has_discovered = 2919 # capital of XIA
 			XIA = {
 				OR = {
 					has_opinion = {
 						who = ROOT
-						value = 150
+						value = 200
 					}
 					core_claim = ROOT
 				}
@@ -1204,6 +1115,9 @@ Farsight_col_5 = {
 			}
 			remove_country_modifier = ether_drive_ftl
 		}
+		ai_weight = {
+			factor = 10
+		}
 	}
 	
 	Revenge_for_the_war_of_dark_revelations = {
@@ -1220,10 +1134,6 @@ Farsight_col_5 = {
 		effect = { 
 			custom_tooltip = revenge_for_the_war_of_dark_revelations_tt
 			set_country_flag = revenge_for_the_war_of_dark_revelations_flag
-			add_country_modifier = { 
-				name = webway_invasion
-				duration = -1
-			}
 		}
 		ai_weight = {
 			factor = 10

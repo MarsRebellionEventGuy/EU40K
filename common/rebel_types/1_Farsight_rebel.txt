@@ -37,7 +37,7 @@ farsight_rebels = {
 	
 	# The rebel type with the highest modifier for this province gets picked
 	spawn_chance = {
-		factor = 0
+		factor = 1
 	}
  
  	# This is checked for EACH province in the Area of Operations

@@ -1,3 +1,42 @@
+united_cantons_reform = {
+	icon = "united_cantons_reform"
+	allow_normal_conversion = yes
+	modifiers = {
+		governing_capacity = -50
+		free_policy = 1
+		mercenary_manpower = 0.5
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = 40
+	#legacy_equivalent  = united_cantons_legacy
+	potential = {
+		NOT = { map_setup = map_setup_random }
+		OR = {
+			primary_culture = swiss
+			have_had_reform = united_cantons_reform
+		}
+	}
+	ai = {
+		factor = 10 #unique
+		
+		modifier = {
+			factor = 2
+			NOT = {
+				num_of_cities = 11
+			}
+		}
+		
+		modifier = {
+			factor = 0
+			is_subject = yes
+		}
+	}
+
+	custom_attributes = {
+		mercs_do_not_cost_army_professionalism = yes
+	}
+}
+
 parliamentary_reform = {
 	icon = "judge"
 	modifiers = {
@@ -1361,6 +1400,61 @@ secularization_of_the_state_reform = {
 		no_religion_penalty = yes
 	}
 	
+	ai = {
+		factor = 1
+	}
+}
+
+#Russia
+holy_synod_reform = {
+	icon = "patriarch"
+	potential = {
+		has_dlc = "Domination"
+		is_revolutionary = no
+		NOT = { has_government_attribute = is_pirate_republic_reform }
+		OR = {
+			have_had_reform = holy_synod_reform
+			has_unlocked_government_reform = {
+				government_reform = holy_synod_reform
+			}
+			has_reform = ruthenian_tsardom
+		}
+	}
+	trigger = {
+		religion = orthodox
+	}
+	modifiers = {
+		manpower_in_true_faith_provinces = 0.05
+		missionaries = 1
+		church_loyalty_modifier = 0.1
+	}
+	custom_attributes = {
+		seizing_land_no_rebels_from_estate_church = yes
+		temples_modifier = yes
+	}
+	effect = {
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_tax_building_trigger = yes
+				}
+				add_province_modifier = {
+					name = gov_expanded_temple_rights_mod
+					duration = -1
+				}
+			}
+		}
+	}
+	post_removed_effect = {
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = gov_expanded_temple_rights_mod
+				}
+				remove_province_modifier = gov_expanded_temple_rights_mod
+			}
+		}
+	}
 	ai = {
 		factor = 1
 	}

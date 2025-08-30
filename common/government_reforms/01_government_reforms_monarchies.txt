@@ -789,7 +789,7 @@ ovesa_reform = {
     modifiers = {
 		parliament_backing_chance = 0.33
 		parliament_effect_duration = -5
-		num_of_parliament_issues = 2
+		can_revoke_parliament_seats = yes
 		monthly_the_eight_power = 0.5
 	}
 	ai = {

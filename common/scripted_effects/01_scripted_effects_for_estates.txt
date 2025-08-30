@@ -3942,56 +3942,6 @@ pick_random_estate_if_present = {
 			$estate_action$ = estate_synapses
 			]
 		}
-        1 = { 
-			trigger = {
-				has_estate = estate_fire_caste
-				NOT = { has_country_flag = estate_fire_caste_$flag$ }
-			}
-			set_country_flag = estate_fire_caste_$flag$
-			[[estate_action]
-			$estate_action$ = estate_fire_caste
-			]
-		}
-        1 = { 
-			trigger = {
-				has_estate = estate_water_caste
-				NOT = { has_country_flag = estate_water_caste_$flag$ }
-			}
-			set_country_flag = estate_water_caste_$flag$
-			[[estate_action]
-			$estate_action$ = estate_water_caste
-			]
-		}
-        1 = { 
-			trigger = {
-				has_estate = estate_earth_caste
-				NOT = { has_country_flag = estate_earth_caste_$flag$ }
-			}
-			set_country_flag = estate_earth_caste_$flag$
-			[[estate_action]
-			$estate_action$ = estate_earth_caste
-			]
-		}
-        1 = { 
-			trigger = {
-				has_estate = estate_air_caste
-				NOT = { has_country_flag = estate_air_caste_$flag$ }
-			}
-			set_country_flag = estate_air_caste_$flag$
-			[[estate_action]
-			$estate_action$ = estate_air_caste
-			]
-		}
-        1 = { 
-			trigger = {
-				has_estate = estate_ethereal_caste
-				NOT = { has_country_flag = estate_ethereal_caste_$flag$ }
-			}
-			set_country_flag = estate_ethereal_caste_$flag$
-			[[estate_action]
-			$estate_action$ = estate_ethereal_caste
-			]
-		}
 	}
 }
 

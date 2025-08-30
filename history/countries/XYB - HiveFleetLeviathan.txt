@@ -7,8 +7,6 @@ primary_culture = tyranid_culture
 capital = 1123 #Sternmost
 national_focus = MIL
 
-historical_rival = XYN
-
 1970.12.12 = {
 		monarch = {
 			name = "Synapse"	
@@ -18,3 +16,5 @@ historical_rival = XYN
 		}
 		add_ruler_personality = immortal_personality
 }
+
+add_rival = XYN

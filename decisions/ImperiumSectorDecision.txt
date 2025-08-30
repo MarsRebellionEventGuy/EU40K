@@ -4,7 +4,7 @@ country_decisions = {
 		color = { 255 216 0 } #Sector gold
 		potential = {
 			is_emperor_of_china = yes
-			NOT={has_country_flag = XXA_sector_decisions_hidden}
+			NOT={has_country_flag XXA_sector_decisions_hidden}
 			ZTF={exists=no}
 		}
 		provinces_to_highlight = {
@@ -69,7 +69,7 @@ country_decisions = {
 		color = { 255 216 0 } #Sector gold
 		potential = {
 			is_emperor_of_china = yes
-			NOT={has_country_flag = XXA_sector_decisions_hidden}
+			NOT={has_country_flag XXA_sector_decisions_hidden}
 			ZTH={exists=no}
 		}
 		provinces_to_highlight = {
@@ -134,7 +134,7 @@ country_decisions = {
 		color = { 255 216 0 } #Sector gold
 		potential = {
 			is_emperor_of_china = yes
-			NOT={has_country_flag = XXA_sector_decisions_hidden}
+			NOT={has_country_flag XXA_sector_decisions_hidden}
 			ZTG={exists=no}
 		}
 		provinces_to_highlight = {
@@ -199,7 +199,7 @@ country_decisions = {
 		color = { 255 216 0 } #Sector gold
 		potential = {
 			is_emperor_of_china = yes
-			NOT={has_country_flag = XXA_sector_decisions_hidden}
+			NOT={has_country_flag XXA_sector_decisions_hidden}
 			ZTE={exists=no}
 		}
 		provinces_to_highlight = {
@@ -264,7 +264,7 @@ country_decisions = {
 		color = { 255 216 0 } #Sector gold
 		potential = {
 			is_emperor_of_china = yes
-			NOT={has_country_flag = XXA_sector_decisions_hidden}
+			NOT={has_country_flag XXA_sector_decisions_hidden}
 			ZSX={exists=no}
 		}
 		provinces_to_highlight = {
@@ -329,7 +329,7 @@ country_decisions = {
 		color = { 255 216 0 } #Sector gold
 		potential = {
 			is_emperor_of_china = yes
-			NOT={has_country_flag = XXA_sector_decisions_hidden}
+			NOT={has_country_flag XXA_sector_decisions_hidden}
 			ZTB={exists=no}
 		}
 		provinces_to_highlight = {

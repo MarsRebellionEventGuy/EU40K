@@ -2897,30 +2897,23 @@ tau_auxiliary = {
 	diplomacy_overlord_sprite = GFX_icon_diplomacy_lead_tau_auxiliary_subject_type
 	diplomacy_subject_sprite = GFX_icon_diplomacy_am_tau_auxiliary_subject_type
 	
-	is_potential_overlord = { 
-		religion = greater_good 
-	}
-	
 	# Properties:
-	can_fight_independence_war = yes
-	transfer_trade_power = yes
-	overlord_protects_external = yes
-	counts_for_borders = yes
-	overlord_enforce_peace_attacking = yes
-	can_use_claims = yes
-	gets_help_with_rebels = yes
-	share_rebel_popup = yes
-	separatists_become_subjects = yes
-	allows_taking_land_without_independence = yes
-	can_transfer_in_peace = yes
-	can_be_annexed = yes
 	has_power_projection = yes
 	takes_diplo_slot = yes
-	trust_on_start = 100
+	gets_help_with_rebels = no
+	separatists_become_subjects = yes
+	allows_taking_land_without_independence = yes
+	forms_trade_companies = no
+	can_concentrate_development = no
 	liberty_desire_development_ratio = 0.25
+	trust_on_start = 100
 	military_focus = 1.2
 	forcelimit_to_overlord = 0.05
+
 	relative_power_class = 1
+	should_quit_wars_on_activation = yes
+	
+	is_march = no
 	
 	# Subject Interactions
 	request_extra_levies = yes

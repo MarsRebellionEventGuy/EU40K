@@ -103,27 +103,36 @@ country_event = {
 	option = {
 		name = ai_forge_world.1.a
 		
-		# don't need to be so complexe. it's a hidden event and the trigger do the filter
-		
-		random_owned_province = {
-			limit = { 
-				has_province_modifier = fallen_major_forge_world_mod 
+		if = {
+			limit = {
+				any_owned_province = {
+					has_province_modifier = fallen_major_forge_world_mod
+				}
+				save_event_target_as = target_restore_forge_world
 			}
-			remove_province_modifier = fallen_major_forge_world_mod
-			add_permanent_province_modifier = {
-				name = forge_world_1_mod
-				duration = -1
+			event_target:target_restore_forge_world = {
+				remove_province_modifier = fallen_major_forge_world_mod
+				add_permanent_province_modifier = {
+					name = forge_world_1_mod
+					duration = -1
+				}
 			}
 			forge_world_restoration_cost = yes
 		}
-		random_owned_province = {
-			limit = { 
-				has_province_modifier = fallen_forge_world_mod 
+		
+		else_if = {
+			limit = {
+				any_owned_province = {
+					has_province_modifier = fallen_forge_world_mod
+				}
+				save_event_target_as = target_restore_forge_world
 			}
-			remove_province_modifier = fallen_forge_world_mod
-			add_permanent_province_modifier = {
-				name = minor_forge_world_mod
-				duration = -1
+			event_target:target_restore_forge_world = {
+				remove_province_modifier = fallen_forge_world_mod
+				add_permanent_province_modifier = {
+					name = minor_forge_world_mod
+					duration = -1
+				}
 			}
 			forge_world_restoration_cost = yes
 		}
@@ -199,7 +208,8 @@ country_event = {
 		}
 	}
 	mean_time_to_happen = {
-		months = 360
+		month = 360
+		
 		modifier = {
 			factor = 0.9
 			stability = 3

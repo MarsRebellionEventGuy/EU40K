@@ -301,7 +301,6 @@ province_event = {
 			is_at_war = no
 		}
 	}
-
 	mean_time_to_happen = {
 		months = 480
 	}

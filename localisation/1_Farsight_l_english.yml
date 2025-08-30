@@ -86,12 +86,12 @@
  farsight_events.5.a: "Hidden 5.a"
  
  farsight_events.6.t: "Ark of Omen"
- farsight_events.6.d: "The Ark of Omen Unhallowed sought a Key-Fragment located on the world of Arthas Moloch"
- farsight_events.6.a: "Orks flee on Arthas Moloch"
+ farsight_events.6.d: "The Ark of Omen Unhallowed, sought a Key-Fragment located on the world of Arthas Moloch"
+ farsight_events.6.a: "We need to stop Ork at all cost. They'are on Arthas Moloch"
   
  farsight_events.7.t: "Ask Help"
  farsight_events.7.d: "Send a request for assisstance to the ethereal council. I surrender if they agree"
- farsight_events.7.a: "I hope the message arrives on time"
+ farsight_events.7.a: "Farsight actions and that the entire Farsight Enclaves would be condemned with him"
   
  farsight_events.8.t: "Fate of Ultramar"
  farsight_events.8.d: "There is a great power of these superhumans called Astartes near us. What policy should we adopt?"
@@ -130,10 +130,6 @@
  farsight_events.16.d: "We want power ! We reject that any individual life is of less importance than collectivity."
  farsight_events.16.a: "I have the power ! I just need to shed blood ... for the blood god"
 
- farsight_events.16.t: "They refuse"
- farsight_events.16.d: "you and your people have been condemned for turning your backs on the Greater Good"
- farsight_events.16.a: "End of transmission"
- 
 #modifier
  farsight_free_tau_from_ethereals: "Free from Ethereals"
  FARSIGHT_FREE_TAU_FROM_ETHEREALS_DESC: "We freed T'au from Ethereals"
@@ -163,16 +159,12 @@
 #unit
  farsight_rebels_name: "Sympathizer of Farsight"
  farsight_rebels_desc: ""
- farsight_rebels_title: "Sympathizer of Farsight"
- arthas_moloch_rebel_name: "Ark of Omen chaos army"
+ arthas_moloch_rebel_name: "Ark of Omen chaos Army"
  arthas_moloch_rebel_desc: ""
- arthas_moloch_rebel_title: "Ark of Omen chaos army"
  
 #decision
- Move_capital_tau_title: "Move the capital"
- Move_capital_tau_desc: "T'au will be our capital forever"
- Colonize_jericho_Maw_gate_title: "Jericho Maw gate"
- Colonize_jericho_Maw_gate_desc: "Conquert le jericho maw gate will allow us to travel faster"
+ move_capital_tau_title: "Move the capital"
+ move_capital_tau_desc: "T'au will be our capital forever"
  
 #missions
  Fate_of_necron_title: "The fate of the necron"
@@ -195,8 +187,8 @@
  Fate_of_ultramar_desc: "There is a great power of these superhumans called Astartes near us. What policy should we adopt?"
  Farsight_assimilate_Ultramar_tt: "If we choose to vassalize Ultramar, this mission will help the XIII legion to accept the greater good"
  Farsight_conquest_Ultramar_tt: "However, if we choose to conquer them, this mission will help us to invade them"
- Farsight_assimilate_Ultramar_preview: "Vassalization of Ultramar"
- Farsight_conquest_Ultramar_preview: "Conquest of Ultramar"
+ Farsight_assimilate_Ultramar_preview: "Farsight_assimilate_Ultramar preview"
+ Farsight_conquest_Ultramar_preview: "Farsight_conquest_Ultramar preview"
  Farsight_fate_ultramar_blanck_mission_title: "Assimilate or Conquer"
  Farsight_fate_ultramar_blanck_mission_desc: "We have to make a choice"
  Farsight_fate_ultramar_assimilate_title: "Vassalization of XIII legion"
@@ -238,8 +230,8 @@
  Fate_of_Iyanden_desc: "These eldar are different. We can communicate with them and perhaps lead them to the greater good."
  Farsight_assimilate_Iyanden_tt: "If we choose to vassalize Iyanden, this mission will help the eldar to accept the greater good"
  Farsight_conquest_Iyanden_tt: "However, if we choose to conquer them, this mission will help us to invade them"
- Farsight_assimilate_Iyanden_preview: "Vassalization of Iyanden Craftworld"
- Farsight_conquest_Iyanden_preview: "Conquest of Iyanden Craftworld"
+ Farsight_assimilate_Iyanden_preview: "Farsight_assimilate_Iyanden preview"
+ Farsight_conquest_Iyanden_preview: "Farsight_conquest_Iyanden preview"
  Farsight_fate_iyanden_blanck_mission_title: "Assimilate or Conquer"
  Farsight_fate_iyanden_blanck_mission_desc: "We have to make a choice"
  Farsight_fate_iyanden_assimilate_title: "Vassalization of Iyanden Craftworld"
@@ -251,8 +243,8 @@
  Fate_of_Barghesi_desc: "They're violent, but we can help them. Like the Kroot, the greater good is the solution"
  Farsight_assimilate_Barghesi_tt: "If we choose to vassalize the Barghesi, this mission will help the Barghesi to accept the greater good"
  Farsight_conquest_Barghesi_tt: "However, if we choose to conquer them, this mission will help us to invade them"
- Farsight_assimilate_Barghesi_preview: "Vassalization of the Barghesi"
- Farsight_conquest_Barghesi_preview: "Conquest of the Barghesi"
+ Farsight_assimilate_Barghesi_preview: "Farsight_assimilate_Barghesi preview"
+ Farsight_conquest_Barghesi_preview: "Farsight_conquest_Barghesi preview"
  Farsight_fate_barghesi_blanck_mission_title: "Assimilate or Conquer"
  Farsight_fate_barghesi_blanck_mission_desc: "We have to make a choice"
  Farsight_fate_barghesi_assimilate_title: "Vassalization of the Barghesi"

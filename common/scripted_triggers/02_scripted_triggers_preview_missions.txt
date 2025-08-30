@@ -5,13 +5,12 @@ has_branching_missions = {
 		has_mission = Fate_of_necron
 		has_mission = Fate_of_Barghesi
 		has_mission = Fate_of_Iyanden
-		
-		#TAU
-		has_mission = TAU_Fate_of_ultramar
-		has_mission = TAU_Fate_of_necron
-		has_mission = TAU_Fate_of_Barghesi
-		has_mission = TAU_Fate_of_Iyanden
 	}
+}
+
+has_mission_and_key_mismatch = {
+	NOT = { has_mission = $mission$ }
+	can_preview_mission_of_key = { key = $key$ }
 }
 
 has_any_mission_and_key_mismatch = {
@@ -20,10 +19,6 @@ has_any_mission_and_key_mismatch = {
 		has_mission_and_key_mismatch = { mission = Fate_of_necron		key = XGG_SAUTEKH }
 		has_mission_and_key_mismatch = { mission = Fate_of_Barghesi		key = XGG_BARGHESI }
 		has_mission_and_key_mismatch = { mission = Fate_of_Iyanden		key = XGG_IYANDEN }
-		has_mission_and_key_mismatch = { mission = TAU_Fate_of_ultramar		key = XGG_ULTRAMAR }
-		has_mission_and_key_mismatch = { mission = TAU_Fate_of_necron		key = XGG_SAUTEKH }
-		has_mission_and_key_mismatch = { mission = TAU_Fate_of_Barghesi		key = XGG_BARGHESI }
-		has_mission_and_key_mismatch = { mission = TAU_Fate_of_Iyanden		key = XGG_IYANDEN }
 	}
 }
 

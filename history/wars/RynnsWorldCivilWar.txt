@@ -1,17 +1,16 @@
-# name = "Chaos Invasion of Rynn's World"
-# war_goal = {
-	# type = take_border
-	# casus_belli = cb_border_war
-	# province = 3084
-# }
+name = "Chaos Invasion of Rynn's World"
+war_goal = {
+	type = take_border
+	casus_belli = cb_border_war
+	province = 3084
+}
 
-# 1999.1.1 = {
-	# add_attacker = XVV
-	# add_defender = XLI
-# }
+1999.1.1 = {
+	add_attacker = XVV
+	add_defender = XLI
+}
 
-# 2001.1.1 = {
-	# rem_attacker = XVV
-	# rem_defender = XLI
-# }
-# XVV doesn't exist
+2001.1.1 = {
+	rem_attacker = XVV
+	rem_defender = XLI
+}

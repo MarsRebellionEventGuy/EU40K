@@ -1,5 +1,5 @@
 government = theocracy
-add_government_reform = heretic_astartes_reform
+add_government_reform = heretic_astartes
 government_rank = 1
 technology_group = chaos
 religion = chaos_undivided
@@ -13,3 +13,4 @@ capital = 1078
 		mil = 1
 	}
 }
+add_government_reform = heretic_astartes

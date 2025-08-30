@@ -19,7 +19,23 @@ country_event = {
 	major = yes
 	
 	trigger = {
-		always = no
+		is_religion_enabled = protestant
+		religion_years = { protestant = 15 }
+		NOT = { is_religion_enabled = reformed }
+		is_defender_of_faith = no
+		OR = {
+			religion = catholic
+			religion = protestant
+		}
+		NOT = { has_reform = papacy_reform }
+		capital_scope = {
+			continent = europe
+		}
+		any_owned_province = {
+			can_have_center_of_reformation_trigger = {
+					RELIGION = reformed
+			}
+		}
 	}
 	
 	mean_time_to_happen = {

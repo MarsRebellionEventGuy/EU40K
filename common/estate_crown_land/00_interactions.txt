@@ -196,11 +196,6 @@ interaction = {
 				has_estate = estate_necron_nobles
 				has_estate = estate_crypteks
 				has_estate = estate_synapses
-				has_estate = estate_fire_caste
-				has_estate = estate_water_caste
-				has_estate = estate_earth_caste
-				has_estate = estate_air_caste
-				has_estate = estate_ethereal_caste
 			}
 		}
 		NOT = { has_government_attribute = blocked_call_diet }
@@ -305,7 +300,6 @@ interaction = {
 				has_estate = estate_synapses
 			}
 		}
-		NOT = { culture_group = tau_culture_group }
         NOT = { crown_land_share = 100 }
         NOT = { num_of_rebel_armies = 1 }
 		NOT = { num_of_rebel_controlled_provinces = 1 }

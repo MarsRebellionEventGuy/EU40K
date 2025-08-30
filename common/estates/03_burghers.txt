@@ -10,7 +10,6 @@ estate_burghers = {
 		NOT = { culture_group = tyranid_culture_group }
 		NOT = { culture_group = aeldari_culture_group }
 		NOT = { culture_group = chaos_culture_group }
-		NOT = { culture_group = tau_culture_group }
 		OR = {
 			has_government_attribute = enables_estate_burghers
 			has_enabled_estate = { estate = estate_burghers }
@@ -27,6 +26,13 @@ estate_burghers = {
 				NOT = { has_estate = estate_jains }
 			}
 		}
+		#NOT = { has_government_attribute = is_merchant_republic }
+		#NOT = { has_reform = veche_republic }
+		#NOT = { has_reform = trading_city }
+		#OR = {
+		#	NOT = { has_reform = celestial_empire }
+		#	has_dlc = "Mandate of Heaven"
+		#}
 	}
 
 	# These scale with loyalty & power
@@ -145,7 +151,13 @@ estate_burghers = {
 	custom_name = {
 		desc = estate_rogue_traders
 		trigger = {
-			always = yes
+			NOT = { culture_group = tau_culture_group }
+		}
+	}
+	custom_name = {
+		desc = estate_water_caste
+		trigger = {
+			culture_group = tau_culture_group
 		}
 	}
 
@@ -204,6 +216,7 @@ estate_burghers = {
 		estate_burghers_ARB_oasis_development
 		estate_burghers_YEM_coffee_monopoly
 		estate_burghers_persian_rugs
+		estate_burghers_hungarian_royal_cities
 		estate_burghers_italian_coastal_influence
 		estate_burghers_livestock_regulations
 		estate_burghers_arabian_traders
@@ -217,6 +230,8 @@ estate_burghers = {
 		estate_burghers_diversify_fluyts
 		estate_burghers_voc_privilege
 		estate_burghers_INC_mountain_development
+		estate_burghers_MAY_support_of_chontal_maya
+		estate_burghers_MAY_tropical_adaptation
 		estate_burghers_SUN_support_recovering_populations
 		estate_burghers_AZT_sponsor_artisans
 		estate_burghers_AZT_mexican_gold_mines

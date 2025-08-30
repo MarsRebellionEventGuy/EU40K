@@ -40,14 +40,12 @@ feudalism = {
 	on_start = ind_institution_events.1
 
 	can_embrace = {
-		# owner = { 
-			# OR = {
-				# technology_group = imperial
-				# technology_group = mechanicus
-			# }
-		# }
-        # for the other technology_group until STC is finish
-        always = yes
+		owner = { 
+			OR = {
+				technology_group = imperial
+				technology_group = mechanicus
+			}
+		}
 	}
 
 	embracement_speed = {
@@ -160,13 +158,12 @@ renaissance = {
 	
 	
 	can_embrace = {
-		# owner = { 
-			# OR = {
-				# technology_group = imperial
-				# technology_group = mechanicus
-			# }
-		# }
-        owner = { has_institution = feudalism }
+		owner = { 
+			OR = {
+				technology_group = imperial
+				technology_group = mechanicus
+			}
+		}
 	}
 
 
@@ -281,8 +278,7 @@ new_world_i = {
 	
 	
 	can_embrace = {
-		#always = yes
-        owner = { has_institution = renaissance }
+		always = yes
 	}
 
 
@@ -345,8 +341,7 @@ printing_press = {
 	
 	
 	can_embrace = {
-		#always = yes
-        owner = { has_institution = new_world_i }
+		always = yes
 	}
 
 	
@@ -410,8 +405,7 @@ global_trade = {
 	
 	
 	can_embrace = {
-		#always = yes
-        owner = { has_institution = printing_press }
+		always = yes
 	}
 
 	
@@ -472,8 +466,7 @@ manufactories = {
 	
 	
 	can_embrace = {
-		#always = yes
-        owner = { has_institution = global_trade }
+		always = yes
 	}
 
 	
@@ -535,8 +528,7 @@ enlightenment = {
 	
 	
 	can_embrace = {
-		#always = yes
-        owner = { has_institution = manufactories }
+		always = yes
 	}
 
 	
@@ -598,8 +590,7 @@ industrialization = {
 	
 	
 	can_embrace = {
-		#always = yes
-        owner = { has_institution = enlightenment }
+		always = yes
 	}
 
 	

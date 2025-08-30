@@ -361,7 +361,6 @@ theocracy = {
 			reforms = {
 				quest_for_knowledge_mysteries_reform
 				quest_for_knowledge_warnings_reform
-				assimilation_of_others_reform
 			}
 
 		}
@@ -370,10 +369,6 @@ theocracy = {
 				the_smart_shall_be_priests_reform
 				the_strong_shall_be_skitarii_reform
 				the_rest_shall_be_menials_reform
-				mission_to_kill_pirates_reform
-				balanced_mission_reform
-				commercial_mission_reform
-				mission_to_protect_reform
 			}
 		}
 		military_doctrines = {
@@ -391,9 +386,6 @@ theocracy = {
 				expedition_fleets_reform 
 				patrole_fleets_reform
 				abominable_intelligence_reform
-				kauyon_reform
-				montka_reform
-				korvattra_reform
 			}
 		}
 		religoius_doctrine = {
@@ -402,7 +394,6 @@ theocracy = {
 				genetor_order_reform
 				logis_order_reform
 				artisan_order_reform
-				ethereal_council_reform
 			}
 		}
 		clergy_in_administration = {
@@ -411,10 +402,6 @@ theocracy = {
 				expand_the_lower_ranks_reform
 				rogue_trader_houses_reform
 				allied_knight_houses_reform
-				air_caste_improved_reform
-				fire_caste_improved_reform
-				earth_caste_improved_reform
-				water_caste_improved_reform
 			}
 		}
 		secularization = {
@@ -423,9 +410,6 @@ theocracy = {
 				grant_power_to_the_orders_reform
 				mindslaves_reform
 				magos_militarum_reform
-				education_of_the_advisors_reform
-				education_of_the_missionaries_reform
-				education_of_the_people_reform
 			}
 		}
 		economical_matters = {
@@ -436,12 +420,6 @@ theocracy = {
 				expand_mining_reform
 				asteroid_mining_reform
 				increased_consumer_goods_reform
-				new_world_exploitation_reform
-				mercantilistic_approach_reform
-				free_trade_reform
-				lockean_proviso_reform
-				embrace_the_economic_theory_reform
-				war_economy_reform
 			}
 		}
 		divine_cause = {
@@ -451,8 +429,6 @@ theocracy = {
 				strike_against_the_hereteks_reform
 				the_first_forgeworld_reform
 				learn_from_the_xenos_reform
-				combat_heresy_reform
-				pursuit_of_knowledge_reform
 			}
 		}
 		separation_of_power_theocracy = {
@@ -460,9 +436,6 @@ theocracy = {
 				ally_of_the_throne_reform
 				mars_and_terra_reform
 				a_mechanized_crusade_reform
-				divine_guidance_reform
-				theocratic_democracy_reform
-				constitional_theocracy_reform
 			}
 		}
 		nature_of_faith = {
@@ -470,12 +443,6 @@ theocracy = {
 				the_certainty_of_steel_reform
 				revered_machine_spirits_reform
 				omnissiahs_will_reform
-				church_and_state_reform
-				god_and_man_reform
-				religious_harmony_reform
-				organising_our_religion_reform
-				faith_and_power_reform
-				belief_and_unity_reform
 			}
 		}
 		culture_within_the_state = {
@@ -483,10 +450,6 @@ theocracy = {
 				one_magos_above_all_reform
 				a_council_of_equals_reform
 				empowered_electropriests_reform
-				religious_culture_reform
-				harmonization_of_cultures_reform
-				cultural_safe_haven_reform
-				taxation_of_the_foreigners_reform
 			}
 		}
 		faith_and_the_world = {
@@ -495,12 +458,6 @@ theocracy = {
 				our_empire_reform
 				all_is_steel_reform
 				stcs_recovered_reform
-				religion_in_one_country_reform
-				many_fingers_of_god_reform
-				priestly_autonomy_reform
-				state_of_theologians_reform
-				divinity_through_craftsmanship_reform
-				proclaim_religious_head_reform
 			}
 		}
 	}

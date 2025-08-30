@@ -1233,7 +1233,7 @@
  XUS_ADJ:0 "loxarian"
  XUT:0 "Tesla Prime"
  XUT_ADJ:0 "Tesla Prime"
-
+ 
  ZSX:0 "Octarius Sector"
  ZSX_ADJ:0 "Octarius Sector"
  ZTB:0 "Inwit Cluster Sector"
@@ -1246,6 +1246,7 @@
  ZTG_ADJ:0 "Golgothan Sector"
  ZTH:0 "Agripinaa Sector"
  ZTH_ADJ:0 "Agripinaa Sector"
+ 
  ZXB:0 "Vanaheim"
  ZXB_ADJ:0 "Vanaheim"
  AAA:0 "Aeldari Empire"
@@ -1377,7 +1378,6 @@
  kin_culture:0 "Kin"
 
  tau_culture_group:0 "T'au"
- tau_culture:0 "T'au"
  ethereal_culture:0 "Ethereal Caste"
  fire_caste_culture:0 "Fire Caste"
  water_caste_culture:0 "Water Caste"

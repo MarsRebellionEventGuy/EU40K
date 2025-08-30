@@ -46,6 +46,18 @@ enable_branching_mission_review_without_ai = {
 
 select_current_missions_XGG_ULTRAMAR = {
 	if = {
+		limit = { has_country_flag = Farsight_assimilate_Ultramar }
+		
+		if = {
+			limit = { exists = XGK }
+			add_casus_belli = {
+				type = cb_vassalize_mission
+				target = XGK
+				months = 5000
+			}
+		}
+	}
+	if = {
 		limit = { has_country_flag = Farsight_conquest_Ultramar }
 		ultima_region = {
 			limit = { 
@@ -59,6 +71,18 @@ select_current_missions_XGG_ULTRAMAR = {
 }
 
 select_current_missions_XGG_SAUTEKH = {
+	if = {
+		limit = { has_country_flag = Farsight_assimilate_Sautekh }
+		
+		if = {
+			limit = { exists = XEV }
+			add_casus_belli = {
+				type = cb_vassalize_mission
+				target = XEV
+				months = 5000
+			}
+		}
+	}
 	if = {
 		limit = { has_country_flag = Farsight_conquest_Sautekh }
 		tau_region = {
@@ -82,6 +106,18 @@ select_current_missions_XGG_SAUTEKH = {
 
 select_current_missions_XGG_BARGHESI = {
 	if = {
+		limit = { has_country_flag = Farsight_assimilate_Barghesi }
+		
+		if = {
+			limit = { exists = XIV }
+			add_casus_belli = {
+				type = cb_vassalize_mission
+				target = XIV
+				months = 5000
+			}
+		}
+	}
+	if = {
 		limit = { has_country_flag = Farsight_conquest_Barghesi }
 		grendl_stars_region = {
 			limit = { 
@@ -95,6 +131,18 @@ select_current_missions_XGG_BARGHESI = {
 }
 
 select_current_missions_XGG_IYANDEN = {
+	if = {
+		limit = { has_country_flag = Farsight_assimilate_Iyanden }
+		
+		if = {
+			limit = { exists = XIA }
+			add_casus_belli = {
+				type = cb_vassalize_mission
+				target = XIA
+				months = 5000
+			}
+		}
+	}
 	if = {
 		limit = { has_country_flag = Farsight_conquest_Iyanden }
 		ultima_region = {
@@ -292,12 +340,6 @@ clear_mismatching_mission_keys_for_batch = {
 	clear_mismatching_mission_key = { mission = Fate_of_necron					key = XGG_SAUTEKH batch = $batch$ }
 	clear_mismatching_mission_key = { mission = Fate_of_Barghesi				key = XGG_BARGHESI batch = $batch$ }
 	clear_mismatching_mission_key = { mission = Fate_of_Iyanden					key = XGG_IYANDEN batch = $batch$ }
-	
-	#TAU
-	clear_mismatching_mission_key = { mission = TAU_Fate_of_ultramar				key = XGG_ULTRAMAR batch = $batch$ }
-	clear_mismatching_mission_key = { mission = TAU_Fate_of_necron					key = XGG_SAUTEKH batch = $batch$ }
-	clear_mismatching_mission_key = { mission = TAU_Fate_of_Barghesi				key = XGG_BARGHESI batch = $batch$ }
-	clear_mismatching_mission_key = { mission = TAU_Fate_of_Iyanden					key = XGG_IYANDEN batch = $batch$ }
 	
 	clr_country_flag = has_batch_$batch$_active
 	change_variable = {
