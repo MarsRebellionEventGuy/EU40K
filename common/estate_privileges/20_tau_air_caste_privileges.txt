@@ -1,0 +1,222 @@
+estate_air_caste_navy_training = {
+	icon = privilege_demand_more_troops
+	
+	loyalty = -0.10
+	influence = 0.10
+	
+	can_select = {
+		advisor = navigator
+		num_of_estate_agendas_completed = {
+			estate = estate_air_caste
+			value = 1
+		}
+	}
+	on_granted = { 
+		caste_privilege_counter_on_granted_effect = { CASTE = air_caste } 
+	} 
+	
+	on_revoked = { 
+		caste_privilege_counter_on_revoked_effect = { CASTE = air_caste } 
+	}
+	
+	penalties = {
+		global_ship_cost = 0.1
+	}
+	benefits = {
+		navy_tradition = 1
+	}
+
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			ruler_has_personality = drunkard_personality
+		}
+	}
+}
+
+estate_air_caste_advanced_exchange = {
+	icon = privilege_limited_war_support
+	
+	loyalty = -0.10
+	influence = 0.10
+
+	can_select = {
+		advisor = trader
+		num_of_estate_agendas_completed = {
+			estate = estate_air_caste
+			value = 2
+		}
+	}
+
+	on_granted = { 
+		caste_privilege_counter_on_granted_effect = { CASTE = air_caste } 
+	} 
+	
+	on_revoked = { 
+		caste_privilege_counter_on_revoked_effect = { CASTE = air_caste } 
+	}
+	
+	penalties = {
+		trade_efficiency = -0.05
+	}
+	benefits = {
+		global_trade_goods_size = 0.25
+	}
+
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			ruler_has_personality = drunkard_personality
+		}
+	}
+}
+
+estate_air_caste_vanan_legacy = {
+	icon = privilege_limited_war_support
+	
+	loyalty = -0.10
+	influence = 0.10
+	
+	can_select = {
+		advisor = naval_reformer
+		num_of_estate_agendas_completed = {
+			estate = estate_air_caste
+			value = 3
+		}
+	}
+	on_granted = { 
+		caste_privilege_counter_on_granted_effect = { CASTE = air_caste } 
+	} 
+	
+	on_revoked = { 
+		caste_privilege_counter_on_revoked_effect = { CASTE = air_caste } 
+	}
+	
+	penalties = {
+		admiral_cost = 0.2
+	}
+	benefits = {
+		leader_naval_manuever = 1
+	}
+
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			ruler_has_personality = drunkard_personality
+		}
+	}
+}
+
+estate_air_caste_training_of_korvatra = {
+	icon = privilege_limited_war_support
+	
+	loyalty = -0.10
+	influence = 0.10
+	
+	can_select = {
+		advisor = colonial_governor
+		num_of_estate_agendas_completed = {
+			estate = estate_air_caste
+			value = 4
+		}
+	}
+	on_granted = { 
+		caste_privilege_counter_on_granted_effect = { CASTE = air_caste } 
+	} 
+	
+	on_revoked = { 
+		caste_privilege_counter_on_revoked_effect = { CASTE = air_caste } 
+	}
+	
+	penalties = {
+		global_ship_recruit_speed = 0.2
+	}
+	benefits = {
+		naval_morale_damage_received = -0.2
+	}
+
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			ruler_has_personality = drunkard_personality
+		}
+	}
+}
+
+estate_air_caste_elite_marine = {
+	icon = privilege_limited_war_support
+	
+	loyalty = -0.10
+	influence = 0.10
+	
+	can_select = {
+		advisor = fortification_expert
+		num_of_estate_agendas_completed = {
+			estate = estate_air_caste
+			value = 5
+		}
+	}
+	on_granted = { 
+		caste_privilege_counter_on_granted_effect = { CASTE = air_caste } 
+	} 
+	
+	on_revoked = { 
+		caste_privilege_counter_on_revoked_effect = { CASTE = air_caste } 
+	}
+	
+	penalties = {
+		sailors_recovery_speed = -0.2
+	}
+	benefits = {
+		own_coast_naval_combat_bonus = 1
+	}
+
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			ruler_has_personality = drunkard_personality
+		}
+	}
+}
+
+estate_air_caste_transport_efficiency = {
+	icon = privilege_limited_war_support
+	
+	loyalty = -0.10
+	influence = 0.10
+	
+	can_select = {
+		has_reform = air_caste_improved_reform
+		num_of_estate_agendas_completed = {
+			estate = estate_air_caste
+			value = 6
+		}
+	}
+	on_granted = { 
+		caste_privilege_counter_on_granted_effect = { CASTE = air_caste } 
+	} 
+	
+	on_revoked = { 
+		caste_privilege_counter_on_revoked_effect = { CASTE = air_caste } 
+	}
+	
+	penalties = {
+		advisor_cost = 0.2
+	}
+	benefits = {
+		all_power_cost = -0.05
+	}
+
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			ruler_has_personality = drunkard_personality
+		}
+	}
+}

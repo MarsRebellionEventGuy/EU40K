@@ -8,13 +8,17 @@ country_event = {
 	picture = CONQUEST_eventPicture
 
 	hidden = yes
-
+	mean_time_to_happen = {
+		months = 1
+	}
+	
 	trigger = {
 		has_faction = astartes_faction_1
 		estate_loyalty = {
 			estate = estate_nobles
 			loyalty = 60
 		}
+		NOT = { has_country_modifier = astartes_faction_bonus_professionalism } 
 	}
 
 	immediate = {
@@ -36,10 +40,14 @@ country_event = {
 	picture = CONQUEST_eventPicture
 
 	hidden = yes
-
+	mean_time_to_happen = {
+		months = 1
+	}
+	
 	trigger = {
 		has_faction = astartes_faction_1
 		army_professionalism = 0.50
+		NOT = { has_country_modifier = astartes_faction_bonus_professionalism } 
 	}
 
 	immediate = {
@@ -61,13 +69,18 @@ country_event = {
 	picture = CONQUEST_eventPicture
 
 	hidden = yes
-
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
 	trigger = {
 		has_faction = astartes_faction_1
 		reverse_has_opinion = {
 			who = XXA
 			value = 100
 		}
+		NOT = { has_country_modifier = astartes_faction_bonus_imperium } 
 	}
 
 	immediate = {
@@ -90,9 +103,14 @@ country_event = {
 
 	hidden = yes
 
+	mean_time_to_happen = {
+		months = 1
+	}
+
 	trigger = {
 		has_faction = astartes_faction_1
 		num_of_regiments_at_full_drill = 10
+		NOT = { has_country_modifier = astartes_faction_bonus_drill } 
 	}
 
 	immediate = {

@@ -18,11 +18,45 @@ historical_units = {
 }
 
 monarch_names = {
-
+	Aun'O T'au = 1
+	Aun'O T'aun = 1
+	Aun'O D'yanoi = 1
+	Aun'O Bork'an = 1
+	Aun'O Dal'yth = 1
+	Aun'O Fal'shia = 1
+	Aun'O Vior'la = 1
+	Aun'O Sa'cea = 1
+	Aun'O Fi'rios = 1
+	Aun'O Ksi'M'Yen = 1
+	Aun'O Sha'Galudd = 1
+	Aun'O Ke'Lshan = 1
+	Aun'O Au'taal = 1
+	Aun'O N'dras = 1
+	Aun'O Elsy'eir = 1
+	Aun'O Tash'var = 1
+	Aun'O Vash'ya = 1 
+	Aun'O T'olku = 1
 }
 
 leader_names = {
-
+	Shas'O T'au
+	Shas'O T'aun
+	Shas'O D'yanoi
+	Shas'O Bork'an
+	Shas'O Dal'yth
+	Shas'O Fal'shia
+	Shas'O Vior'la
+	Shas'O Sa'cea
+	Shas'O Fi'rios
+	Shas'O Ksi'M'Yen
+	Shas'O Sha'Galudd
+	Shas'O Ke'Lshan
+	Shas'O Au'taal
+	Shas'O N'dras
+	Shas'O Elsy'eir
+	Shas'O Tash'var
+	Shas'O Vash'ya
+	Shas'O T'olku
 }
 
 ship_names = {

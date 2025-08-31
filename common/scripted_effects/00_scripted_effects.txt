@@ -1017,32 +1017,6 @@ restore_old_nation_on_formation_effect = {
 			}
 			else_if = {
 				limit = {
-					government = theocracy
-					has_reform = united_cantons_reform
-				}
-				event_target:old_tag_target = {
-					change_government = theocracy
-					add_government_reform = united_cantons_reform
-					define_ruler = {
-						claim = 95
-					}
-				}
-			}
-			else_if = {
-				limit = {
-					has_reform = united_cantons_reform
-				}
-				event_target:old_tag_target = {
-					change_government = republic
-					add_government_reform = united_cantons_reform
-					#set_legacy_government = united_cantons_legacy
-					define_ruler = {
-						claim = 95
-					}
-				}
-			}
-			else_if = {
-				limit = {
 					has_reform = merchants_reform
 				}
 				event_target:old_tag_target = {
@@ -4326,73 +4300,7 @@ add_ship_construction_scaled_to_ports = {
 		}
 	}
 }
-add_ship_construction_scaled_to_ports_MAY = {	
-	random_owned_province = {
-		limit = {
-			has_port = yes
-		}
-		if = {
-			limit = {
-				owner = {
-					num_of_ports = 10
-				}
-			}
-			add_unit_construction = {
-				amount = 10
-				type = heavy_ship
-				speed = 0.5
-				cost = 0
-			}
-		}
-		else_if = {
-			limit = {
-				owner = {
-					num_of_ports = 8
-				}
-			}
-			add_unit_construction = {
-				amount = 8
-				type = heavy_ship
-				speed = 0.5
-				cost = 0
-			}
-		}
-		else_if = {
-			limit = {
-				owner = {
-					num_of_ports = 6
-				}
-			}
-			add_unit_construction = {
-				amount = 6
-				type = heavy_ship
-				speed = 0.5
-				cost = 0
-			}
-		}
-		else_if = {
-			limit = {
-				owner = {
-					num_of_ports = 4
-				}
-			}
-			add_unit_construction = {
-				amount = 4
-				type = heavy_ship
-				speed = 0.5
-				cost = 0
-			}
-		}
-		else = {
-			add_unit_construction = {
-				amount = 2
-				type = heavy_ship
-				speed = 0.5
-				cost = 0
-			}
-		}
-	}
-}
+
 add_ship_construction_scaled_to_ports_MAY = {	
 	random_owned_province = {
 		limit = {
