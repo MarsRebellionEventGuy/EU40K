@@ -115,7 +115,7 @@ offer_forgeworld_subjugation = {
 					}
 				}
 			}
-		}}
+		}
 		FROM = {
 			OR = {
 				AND = {
