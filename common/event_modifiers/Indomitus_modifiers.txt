@@ -707,3 +707,10 @@ gates_of_hell = {
 	fire_damage = 0.1
 	movement_speed_onto_off_boat_modifier = 0.2
 }
+
+tyr_the_new_order = {
+	picture = imperial_mandate
+	manpower_in_accepted_culture_provinces = 0.25
+	discipline = 0.025
+	trade_goods_size = 0.1
+}

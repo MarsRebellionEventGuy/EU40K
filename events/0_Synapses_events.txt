@@ -1005,3 +1005,31 @@ country_event = { #Hellfire
 	}
 	
 }
+
+country_event = { #The New Order
+	id = indomitus_general.44
+	title = indomitus_general.44.t
+	desc = indomitus_general.44.d
+	picture = muslimgfx_RAMADAN_eventPicture
+	
+
+	trigger = {
+		culture_group = tyranid_culture_group
+		has_unified_culture_group = yes
+		is_subject = no
+		}
+	
+
+	mean_time_to_happen = {
+		days = 1
+		}
+
+	option = {
+		name = indomitus_general.44.a
+		add_country_modifier = {
+			name = tyr_the_new_order
+			duration = -1
+		}
+	}
+	
+}

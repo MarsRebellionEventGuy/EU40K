@@ -1,0 +1,33 @@
+namespace = chaos_events
+
+country_event = { #Journeyman
+	id = chaos_events.1
+	title = chaos_events.1.t
+	desc = chaos_events.1.d
+	picture = JURAJ_JANOSIK_eventPicture
+
+	
+
+	trigger = {
+		religion_group = chaos_group
+		NOT = { has_country_flag = journeyman_flag}
+	}
+
+	mean_time_to_happen = {
+		days = 1000
+	}
+	
+
+	option = {
+		name = chaos_events.1.a
+		set_country_flag = journeyman_flag
+		add_manpower = 0.001
+		add_years_of_income = 0.33
+	}
+	option = {
+		name = chaos_events.1.b
+		set_country_flag = journeyman_flag	
+		add_manpower = -0.001
+		add_years_of_income = 0.33
+	}	
+}

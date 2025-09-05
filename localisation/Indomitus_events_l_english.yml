@@ -821,6 +821,19 @@ astartes_events.8.t:0 "Faith"
 astartes_events.8.d:0 "Faith be your sword, your shield, your blood and your purpose. \nWithout Faith there is no victory. \nWithout Faith there is no deed that cannot be undone. \nIn His name, all things are righteous and eternal."
 astartes_events.8.a:0 "The Emperor Protects."
 
+astartes_events.9.t:0 "Outlander"
+astartes_events.9.d:0 "Radars first laid eye on the vessel. A lone signal spiraling down through the cosmic emptiness. Marines scrambled to battle positions, fearing a Tyrannic Bio-Ship or a Necron Tomb Ship. To the relief of the PDF stationed on-site, the signal talked back, altought in a dialect long forgotten on these shores. \n \nThe ship, or rather, it's remains, crash-landed a few miles from camp. The unknown outlander presented a grim outlook. The mask that hid his countenance peeled off from the crash, revealing a Vessorine Jannisary, far away from home.\n \nHe explained that his party had been caught off guard by a sudden warp storm, losing all but his ship to the maddening tempest. With a single engine, he managed to barely set couse for the nearest planet. Lucky for him, that planet happened to be ours. \n \nFrom his experience, his days as mercenary are all but over, however, he offers to teach our young recruits the tactics he has learned from decades of roaming the galactic playground."
+astartes_events.9.a:0 "Let him train the new recruits."
+astartes_events.9.b:0 "Seize him and his assets!"
+
+astartes_events.10.t:0 "Ties That Bind"
+astartes_events.10.d:0 "A long, long time ago, a crashing ship descended upon our orbit. In it, a seasoned warrior sought refuge and protection under our banner. How did we act back then?\n \nWe gave the old mercenary a small regiment of young recruits, who winded up becoming one of the sharpest and fiercest among our ranks. Such outcome could not have been predicted on that fateful day, nor what happened just a few minutes ago. \nA larger group of Vessorine mercenaries arrived, following the fallen ship's beacon in search for answers. Thankfully, the now retired and ailing mercenary under our wing was able to reunite with his long-awaited comrades in arms. As a parting gift for the decades of hospitality, a generous sum of booty, the fruit of countless campaings has been donated by the band."
+astartes_events.10.a:0 "In omnibus caritas."
+
+astartes_events.11.t:0 "Retribution"
+astartes_events.11.d:0 "A long, long time ago, a crashing ship descended upon our orbit. In it, a seasoned warrior sought refuge and protection under our banner. How did we act back then?\n \nWe robbed and seized the old refuge seeking mercenary. Now, decades later, the consecuences of our actions have resurfaced. A band of Vessorine Jannisaries came looking for their missing comrade, having tracked his location from the ship's last signal. Whilst we tried to disuade them, the truth has a nasty habit of clawing it's way back up... \n \nOnce they found out that the old partner of them had died in miserable conditions in a holding cell, robbed of his 'earnings' by our distrustful host, they began a lighting-speed ransack of our hinterlands, before drifting away faster than our ships could manage..."
+astartes_events.11.a:0 "Veritas liberabit vos..."
+
 indomitus_general.42.t:0 "Firestarter"
 indomitus_general.42.d:0 "As our forces approach the orbit of yet another soon to-be-consumed planet, the Genestealers lay in wait for our inevitable descent. Who is the first one of them to initiate the uprising is entirely up to chance. \n \nHowever, we could designate from the strongest and wisest among them, who should be the Firestarter of each campaign."
 indomitus_general.42.a:0 "Who started the fire?"
@@ -848,3 +861,15 @@ gates_of_hell_desc:0 "For the panic-struck residents of the Imperial heartlands 
 imperial_events.3.t:0 "Vigilus Falls!"
 imperial_events.3.d:0 "'The fate of this distant world is worth a thousand others. If it falls, if the Nachmund Gauntlet collapses, the Imperium Nihilus is all but lost to us. The empire of Terra will soon follow.'"
 imperial_events.3.a:0 "-Tigurius. Chief Librarian of the Ultramarines."
+
+indomitus_general.44.t:0 "The New Order"
+indomitus_general.44.d:0 "The Tyrannic race entered this galaxy divided by tendrils of strategic relevance to the consumption of this corner of the cosmos. However, the myriad of enemies rallied together to avoid the utter collapse of this corner of the cosmos to our fangs... \n \nThereafter it became imperative we reorganized our race under a single Hive Fleet, for we will need all the biomass we can get our reclamation pools into, as our enemies prepare for the final onslaught, it is up to us to impose a new and everlasting galactic order."
+indomitus_general.44.a:0 "§TThese will be the last days of Terra.§" 
+
+tyr_the_new_order:0 "The New Order"
+tyr_the_new_order_desc:0 "§Are you willing to face the abyss, human?§"
+
+chaos_events.1.t:0 "Journeyman"
+chaos_events.1.d:0 "The Warp is a harsh mistress. It swallows whole untold ships every day, filled with bold yet unwitting sailors. One such case has surprisingly manifested itself before us. A single vessel has arrived, bewitched by the void to our realm. \n \nFrom the derelict ship, a now heavily corrupted rogue trader emerged, dazzled and falling to the ground under the sudden pull of the atmosphere. The exhausted lips parted to pronounce the words that had plagued his mind ever so often; 'Where am I?'."
+chaos_events.1.a:0 "Home."
+chaos_events.1.b:0 "Terminus."
