@@ -5,6 +5,7 @@ astartes_unit_bonus = {
 sororitas_modifier = {
 	may_recruit_female_generals = yes
 	female_advisor_chance = 5
+	manpower_recovery_speed = 0.3
 }
 
 tau_unit_bonus = {
@@ -713,4 +714,12 @@ tyr_the_new_order = {
 	manpower_in_accepted_culture_provinces = 0.25
 	discipline = 0.025
 	trade_goods_size = 0.1
+}
+
+apotheosis_chaos = {
+	picture = land_morale
+	land_morale = 0.2
+	morale_damage = 0.1
+	siege_ability = 0.15
+	warscore_cost_vs_other_religion = -0.25
 }

@@ -1671,3 +1671,58 @@ country_event = { # Restoration of the Mechanicus
 		
 	}
 }
+
+country_event = { #Odyssey
+	id = imperium_events.63
+	title = imperium_events.63.t
+	desc = imperium_events.63.d
+	picture = BYZ_BAD_WITH_MONARCH_eventPicture
+
+	trigger = {
+		NOT = {has_faction = astartes_faction_1}
+		culture_group = imperial_culture_group
+		NOT = {has_country_flag = man_odyssey}
+		is_year = 2026
+	}
+
+
+	mean_time_to_happen = {
+		days = 1969
+	}
+	
+	option = {
+		name = imperium_events.63.a
+		add_prestige = 20
+		add_stability_or_adm_power = yes
+		set_country_flag = man_odyssey
+	}
+
+}
+
+country_event = { #Lacrimosa
+	id = imperium_events.64
+	title = imperium_events.64.t
+	desc = imperium_events.64.d
+	picture = muslimgfx_DEATH_OF_HEIR_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = XXA
+		NOT = { corruption = 10 }
+		is_year = 2012
+	}
+
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = imperium_events.64.a
+		add_reform_progress_small_effect = yes
+		add_corruption = -1
+		add_years_of_income = -0.2
+	}
+
+}

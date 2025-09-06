@@ -13,6 +13,7 @@ xxa_hub_fortresses = {
 sororitas_modifier = {
 	may_recruit_female_generals = yes
 	female_advisor_chance = 5
+	manpower_recovery_speed = 0.3
 }
 terra_starting_modifier = {
 	local_unrest = 3

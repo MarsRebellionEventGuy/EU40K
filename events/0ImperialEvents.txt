@@ -157,3 +157,54 @@ country_event = { #Vigilus Falls
 	}	
 
 }
+
+country_event = { #The Line We Walk / Sororitas Startup
+	id = imperial_events.4
+	title = imperial_events.4.t
+	desc = imperial_events.4.d
+	picture = wihgfx_FEMALES_eventPicture
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	
+	option = {
+		name = imperial_events.4.a
+		add_manpower = 10
+		add_treasury = 100
+		create_general = { tradition = 75 }
+		create_units_of_type = {
+				amount = 5
+				province = 2008
+				unit_type = Grenadier
+			}
+
+	}	
+
+}
+
+country_event = { #End of the Line / Sororitas Failure
+	id = imperial_events.5
+	title = imperial_events.5.t
+	desc = imperial_events.5.d
+	picture = ROYAL_STRESS_eventPicture
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = XOO
+		is_in_war = {
+			war_score = -90
+			}
+		NOT = {is_year = 2030}
+		}
+
+	
+	option = {
+		name = imperial_events.5.a
+		add_stability = -6
+			}
+
+}	
+

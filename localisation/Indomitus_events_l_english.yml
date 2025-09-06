@@ -152,7 +152,7 @@ indomitus_general.27.d:0 "It has come to pass, the crown jewel of humanity rest 
 indomitus_general.27.a:0"Excellent."
 
 indomitus_general.28.t:0 "Exterminatus"
-indomitus_general.28.d:0 "After scouring the cosmos to and fro, we found him, the last man was hidden in the mountainous landscape of one of our countless worlds. Barely surviving off the sparse resources available, the last man seemed awfully similar to the first of their kind. \n \nAfter detection by one of our Gargoyles, he knew his fate had been sealed. Rear guard elements converged upon his position, and with inevitability carved into the wind, the last man knew the hunt was over, he fell on his knees in utter surrender, for he knew, that mankind's oddysey had come to a bitter end, ending not with a bang, but a whimper. \n \nJust the final exhale of a species too weary to scream."
+indomitus_general.28.d:0 "After scouring the cosmos to and fro, we found him, the last man was hidden in the mountainous landscape of one of our countless worlds. Barely surviving off the sparse resources available, the last man seemed awfully similar to the first of their kind. \n \nAfter detection by one of our Gargoyles, he knew his fate had been sealed. Rear guard elements converged upon his position, and with inevitability carved into the wind, the last man knew the hunt was over, he fell on his knees in utter surrender, for he knew, that mankind's odyssey had come to a bitter end, ending not with a bang, but a whimper. \n \nJust the final exhale of a species too weary to scream."
 indomitus_general.28.a:0 "§YMankind's long night is over§."
 
 humans_extinct:0 "Humans Purged"
@@ -867,9 +867,36 @@ indomitus_general.44.d:0 "The Tyrannic race entered this galaxy divided by tendr
 indomitus_general.44.a:0 "§TThese will be the last days of Terra.§" 
 
 tyr_the_new_order:0 "The New Order"
-tyr_the_new_order_desc:0 "§Are you willing to face the abyss, human?§"
+tyr_the_new_order_desc:0 "§YAre you willing to face the abyss, human?§"
 
 chaos_events.1.t:0 "Journeyman"
 chaos_events.1.d:0 "The Warp is a harsh mistress. It swallows whole untold ships every day, filled with bold yet unwitting sailors. One such case has surprisingly manifested itself before us. A single vessel has arrived, bewitched by the void to our realm. \n \nFrom the derelict ship, a now heavily corrupted rogue trader emerged, dazzled and falling to the ground under the sudden pull of the atmosphere. The exhausted lips parted to pronounce the words that had plagued his mind ever so often; 'Where am I?'."
 chaos_events.1.a:0 "Home."
 chaos_events.1.b:0 "Terminus."
+
+imperium_events.63.t:0 "Odyssey"
+imperium_events.63.d:0 "It was a quiet night. The gentle caress of the wind eased the scarred mind of the retired guardsman. Granted the quiet respite of dying in peace in a faraway colony also robbed him of his death in combat amongst brothers in arms. \n \nHis days of combat lay in the past, for mutilation forever tainted his hithertho renowned combat skills. Now a new adventure awaits him. His son broke the silence with a poignant conundrum. \n'Dad why did you spent so much time fighting for the Emperor?'\nThe veteran smiled, knowing that his progeny will inevitably be subjected to the same glory and horrors as he and countless others have endured. He smiled where many would worry or grovel, for he knew that not only did those experiences forged him into a man of the utmost character, but also served his duty to the divine. \n \nAfter a long pause he replied;"
+imperium_events.63.a:0 "§YIn the darkness between the stars lies untold glory, my son.§"
+
+imperium_events.64.t:0 "Lacrimosa"
+imperium_events.64.d:0 "The unprecedented reforms of the Guilliman era have cleared mountaintops of redundant bureocracy, as important files sank to the bottom of the pile, drowned by sheer negligence and stupidity. One such kind were reports from the front pertaining to our battle casualties. \nBesides organizing reinforcements and tactical manouvers, such reports also serve a much forgotten custom; to notify the next of kin of the guardsmen passing. \n \nSuch dreaded notification can tear a family asunder, especially the mothers of our soldiers, who for years wondered as to the faith of their long lost sons and daughters in the crucible of war. As these warrior undertook the ultimate sacrifice for our cause, it is imperative we provide closure to the loved ones that got left behind."
+imperium_events.64.a:0 "§YHonor the dead. Fight for the living.§"
+
+imperial_events.4.t:0 "The Line We Walk"
+imperial_events.4.d:0 "Sisters! Gather around me! We've been tasked by the Sisterhood to cleanse this region from the abundant menaces therein. Substancial forces are deployed already and more are on their way to our location. Ample resources are being invested into our monumental task ahead. \n\nHowever, our situation is extremely perilous. Across our very doorstep lie the bellicose Sautekh Necrons, eager to stamp out our fire of staunch resistance. \nFurthermore, our brethren in this desolate region are few and far between. We can expect little material or troop support when the inevitable occurs..."
+imperial_events.4.a:0 "§YWe shall seek the Emperor's forgiveness in the darkest places of the night.§" 
+
+chaos_events.2.t:0 "Worlds Collide"
+chaos_events.2.d:0 "The eternal war between Chaos and the Imperium of Man is comming to it's zenith. Reports from the Imperial Palace speak of a renewed assault by untold legions of the Dark Gods on their doorstep. \nOnly time will tell if this is just another footnote in Imperial records or its last entry. \n \nAs the heavens tear themselves apart and Terra trembles, humanity faces its final hour in the crucible of war."
+chaos_events.2.a:0 "The Third Siege of Terra is upon us!"
+
+chaos_events.3.t:0 "The Seat of Power"
+chaos_events.3.d:0 "It is done. After 10.000 years of hatred and toil, the forces of Chaos have ocuppied the now lusterless halls of the Imperial Palace. The Emperor was quickly evacuated by the Mechanicus loyalist, who deviced a last-minute contraption whilst the enemy pounded at the gates. \n \nAs the Chaotic warbands ransack and pillage the grandiose chambers of the imperial complex, shockwaves of the cataclysmic event reverberate through the Imperium. Or what is left of it. \n \nAmidst all the uncertainty that plagues humanity, one thing is certain; Nothing lasts forever."
+chaos_events.3.a:0 "Memento Homo."
+
+apotheosis_chaos:0 "Apotheosis"
+apotheosis_chaos_desc:0 "Look at what you made me do, Father."
+
+imperial_events.5.t:0 "End Of The Line"
+imperial_events.5.d:0 "We knew that our mission was a challenging one. But we did not expect such fierceness from the metallic hordes. Ours was always a task comprised of the utmost danger, one we would most likely fail. That is precisely what has come to pass. \n \nDespite our best efforts, we are being pushed back out of our outpost across the entire sector. We must retreat to the heart of mankind to regroup and reassess what went astray in our campaing. A beacon of hope remains, for the critically of our task cannot be understated. We will return to these long forgotten sectors and avenge our fallen sisters, one way or the other. "
+imperial_events.5.a:0 "§YPain is an ally. Pain is a friend. Pain is truth.§" 

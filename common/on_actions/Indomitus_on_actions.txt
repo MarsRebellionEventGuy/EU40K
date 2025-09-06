@@ -43,6 +43,12 @@ on_startup = {
 			duration = -1
 		}
 	}
+	if = {
+		limit = { tag = XOO }
+		country_event = { 
+			id = imperial_events.4
+		}
+	}	
 	592 = {
 		discover_country = ROOT
 	}
