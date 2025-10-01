@@ -900,3 +900,29 @@ apotheosis_chaos_desc:0 "Look at what you made me do, Father."
 imperial_events.5.t:0 "End Of The Line"
 imperial_events.5.d:0 "We knew that our mission was a challenging one. But we did not expect such fierceness from the metallic hordes. Ours was always a task comprised of the utmost danger, one we would most likely fail. That is precisely what has come to pass. \n \nDespite our best efforts, we are being pushed back out of our outpost across the entire sector. We must retreat to the heart of mankind to regroup and reassess what went astray in our campaing. A beacon of hope remains, for the critically of our task cannot be understated. We will return to these long forgotten sectors and avenge our fallen sisters, one way or the other. "
 imperial_events.5.a:0 "§YPain is an ally. Pain is a friend. Pain is truth.§" 
+
+imperium_events.65.t:0 "Widowmaker"
+imperium_events.65.d:0 "The allure of eternal companionship, the intoxicating feeling of allowing one's defenses to crumble in the presence of a kindred soul, the penetrating gaze of a weathered man; now robbed of its candor and blemish as another life is claimed in the maelstrom of warfare.\n \nA rampaging Tyranid bioform, aptly named the “Widowmaker” by our genetors, is severely disrupting our present campaign against the Great Devourer. It will take some time before our magos biologis devises a reliable means of countering this menace. Until then, it seems the common guardsman will pay the price."
+imperium_events.65.a:0 "And his beloved back at home as well..."
+
+imperial_events.6.t:0 "First Blood"
+imperial_events.6.d:0 "A name echoed deep in the mountainous valleys, calling forth those deranged enough to pilot in the ravines and ranges that cover the Nocturne landscape. Tu'Shan manifested himself on the hilly settlement, provoking cheers and praises from the local populace. The motive of his visit to such a place was simple; a formal trial was about to take place, as the two strongest, fastest and biggest men in the village vied for the same woman. \n \nOther areas of the galaxy would solve such a matter with treacheary, intrigue and murder. Not here. Honor and reputation are everything in our society. Tushan himself was impressed at the countenance of both individuals as they set forth upon the improvished fighting grounds. A classic sword duel would settle the dispute at the sight of first blood.\nAfter a ceremonial salute and solemn overture by the Chapter Master, the embittered brawl began in earnest. Such a display of swordmanship had rarely been seen in such a place, the crowd stood agast as the contest stood in the balance, any man could seal his fate in one fateful movement. And sooner rather than latter, such a thing ocurred. \n \nTriumphally the winner lifted his sword, crowned with the essence of the now defeated suitor. Tushan approached him and said;"
+imperial_events.6.a:0 "§BA marvelous display, noble warrior.§"
+imperial_events.6.b:0 "§OWe shall transform this settlement, together.§" 
+imperial_events.6.c:0 "§OThe Emperor himself needs more man like yourself!§"
+
+imperial_events.7.t:0 "Beneath A Blackened Sky"
+imperial_events.7.d:0 "The hour of reckoning is upon us. The dreaded catastrophe we have been preparing for so long has finally manifested its fangs upon our skies. The Tyranids are here,despite our best efforts to prepare against the rampaging tide of the Great Devourer, our capital is under siege by these abominations. \nAs the skies blacken with the roar of doomsday cannons, it would seem to many that yet another light in the human rosary is about to be extinguished..."
+imperial_events.7.a:0 "§YNot if I have anything to say about it!§"
+
+imperium_events.66.t:0 "Timber"
+imperium_events.66.d:0 "In an era where danger abounds and stalk at every corner, colonial ventures are extremely risky. It takes the Departamento Colonia a great deal of effort to convince potential settlers from our hive cities to extricate themselves from the safety of established civilization into the danger-filled cosmic void. However, in one of our burgeoning colonies, it would seem that a surplus of basic wood materials have eased the tired minds of the settlers. Has the planet does not present an inmediate danger, they have taken the liberty to build quaint houses made from these rustic materials. \n \nThe widespread presence of fertile ground has compelled incoming families to reclaim the area faster than our projections anticipated. The news are having immediate impact upon our potential candidates for settlement... "
+imperium_events.66.a:0 "40 acres and a servitor!"
+
+astartes_events.12.t:0 "Ordained Dragonfire Rounds"
+astartes_events.12.d:0 "After a planned reclamation of the cosmic vecinity, we can now afford luxuries we would have tought impossible a couple of decades ago. One such symptom of opulence is the idea being floated around in our upper echelons of chapter governance. It has been suggested that investing in a permanent deployment of Dragonfire rounds for our rank and file marines and not just the Sternguard veterans, would contribute massively to our ongoing scuffle in the cosmic playground."
+astartes_events.12.a:0 "§JOrdain them!§"
+astartes_events.12.b:0 "We do not possess the wherewithal at the present moment."
+
+dragonfire_rounds:0 "Widespread Dragonfire Rounds"
+dragonfire_rounds_desc:0 "No fortress can hold me down."

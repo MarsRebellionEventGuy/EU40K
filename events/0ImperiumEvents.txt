@@ -1726,3 +1726,65 @@ country_event = { #Lacrimosa
 	}
 
 }
+
+country_event = { #Widowmaker
+	id = imperium_events.65
+	title = imperium_events.65.t
+	desc = imperium_events.65.d
+	picture = muslimgfx_DEATH_OF_HEIR_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = XXA
+		is_in_war = {
+			defender_leader = XXA
+			war_score = -25
+			casus_belli = cb_tyranid_invasion
+		}
+
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = imperium_events.65.a
+		add_yearly_manpower = -0.33
+		add_army_tradition = -10
+	}
+
+}
+
+province_event = { #Timber
+	id = imperium_events.66
+	title = imperium_events.66.t
+	desc = imperium_events.66.d
+	picture = COLONIZATION_eventPicture
+
+	
+
+	trigger = {
+		colonysize = 100
+		native_ferocity = 1
+		native_hostileness = 1
+		has_terrain = farmlands
+		owner = {
+			tag = XXA
+		}
+		
+
+	}
+
+	mean_time_to_happen = {
+		days = 720
+	}
+	
+	option = {
+		name = imperium_events.66.a
+		add_colonysize = 150
+		add_base_tax = 2
+	}
+
+}

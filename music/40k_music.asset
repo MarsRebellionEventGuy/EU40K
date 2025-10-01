@@ -147,3 +147,7 @@ music = {
 	name = "dominus_song"
 	file = "dominus_song.ogg"
 }
+music = {
+	name = "de_profundis"
+	file = "de_profundis.ogg"
+}

@@ -327,3 +327,41 @@ country_event = { #Retribution
 
 	
 }
+
+country_event = { #Ordained Dragonfire Rounds
+	id = astartes_events.12
+	title = astartes_events.12.t
+	desc = astartes_events.12.d
+	picture = HUSSARS_eventPicture
+
+
+	trigger = {
+		has_faction = astartes_faction_1
+		total_development = 200
+		is_at_war = yes
+		is_year = 2007
+		NOT = {has_country_flag = dr4gonfire_rounds_event}
+	}
+
+
+	mean_time_to_happen = {
+		days= 1
+	}
+	
+	option = {
+		name = astartes_events.12.a
+		add_years_of_income = -1
+		add_country_modifier = {
+			name = dragonfire_rounds
+			duration = -1
+		}
+		set_country_flag = dr4gonfire_rounds_event
+	}
+
+	option = {
+		name = astartes_events.12.b
+		add_prestige = -1
+		set_country_flag = dr4gonfire_rounds_event
+	}
+	
+}
