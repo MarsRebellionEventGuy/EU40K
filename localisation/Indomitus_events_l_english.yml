@@ -152,7 +152,7 @@ indomitus_general.27.d:0 "It has come to pass, the crown jewel of humanity rest 
 indomitus_general.27.a:0"Excellent."
 
 indomitus_general.28.t:0 "Exterminatus"
-indomitus_general.28.d:0 "After scouring the cosmos to and fro, we found him, the last man was hidden in the mountainous landscape of one of our countless worlds. Barely surviving off the sparse resources available, the last man seemed awfully similar to the first of their kind. \n \nAfter detection by one of our Gargoyles, he knew his fate had been sealed. Rear guard elements converged upon his position, and with inevitability carved into the wind, the last man knew the hunt was over, he fell on his knees in utter surrender, for he knew, that mankind's oddysey had come to a bitter end, ending not with a bang, but a whimper. \n \nJust the final exhale of a species too weary to scream."
+indomitus_general.28.d:0 "After scouring the cosmos to and fro, we found him, the last man was hidden in the mountainous landscape of one of our countless worlds. Barely surviving off the sparse resources available, the last man seemed awfully similar to the first of their kind. \n \nAfter detection by one of our Gargoyles, he knew his fate had been sealed. Rear guard elements converged upon his position, and with inevitability carved into the wind, the last man knew the hunt was over, he fell on his knees in utter surrender, for he knew, that mankind's odyssey had come to a bitter end, ending not with a bang, but a whimper. \n \nJust the final exhale of a species too weary to scream."
 indomitus_general.28.a:0 "§YMankind's long night is over§."
 
 humans_extinct:0 "Humans Purged"
@@ -821,6 +821,19 @@ astartes_events.8.t:0 "Faith"
 astartes_events.8.d:0 "Faith be your sword, your shield, your blood and your purpose. \nWithout Faith there is no victory. \nWithout Faith there is no deed that cannot be undone. \nIn His name, all things are righteous and eternal."
 astartes_events.8.a:0 "The Emperor Protects."
 
+astartes_events.9.t:0 "Outlander"
+astartes_events.9.d:0 "Radars first laid eye on the vessel. A lone signal spiraling down through the cosmic emptiness. Marines scrambled to battle positions, fearing a Tyrannic Bio-Ship or a Necron Tomb Ship. To the relief of the PDF stationed on-site, the signal talked back, altought in a dialect long forgotten on these shores. \n \nThe ship, or rather, it's remains, crash-landed a few miles from camp. The unknown outlander presented a grim outlook. The mask that hid his countenance peeled off from the crash, revealing a Vessorine Jannisary, far away from home.\n \nHe explained that his party had been caught off guard by a sudden warp storm, losing all but his ship to the maddening tempest. With a single engine, he managed to barely set couse for the nearest planet. Lucky for him, that planet happened to be ours. \n \nFrom his experience, his days as mercenary are all but over, however, he offers to teach our young recruits the tactics he has learned from decades of roaming the galactic playground."
+astartes_events.9.a:0 "Let him train the new recruits."
+astartes_events.9.b:0 "Seize him and his assets!"
+
+astartes_events.10.t:0 "Ties That Bind"
+astartes_events.10.d:0 "A long, long time ago, a crashing ship descended upon our orbit. In it, a seasoned warrior sought refuge and protection under our banner. How did we act back then?\n \nWe gave the old mercenary a small regiment of young recruits, who winded up becoming one of the sharpest and fiercest among our ranks. Such outcome could not have been predicted on that fateful day, nor what happened just a few minutes ago. \nA larger group of Vessorine mercenaries arrived, following the fallen ship's beacon in search for answers. Thankfully, the now retired and ailing mercenary under our wing was able to reunite with his long-awaited comrades in arms. As a parting gift for the decades of hospitality, a generous sum of booty, the fruit of countless campaings has been donated by the band."
+astartes_events.10.a:0 "In omnibus caritas."
+
+astartes_events.11.t:0 "Retribution"
+astartes_events.11.d:0 "A long, long time ago, a crashing ship descended upon our orbit. In it, a seasoned warrior sought refuge and protection under our banner. How did we act back then?\n \nWe robbed and seized the old refuge seeking mercenary. Now, decades later, the consecuences of our actions have resurfaced. A band of Vessorine Jannisaries came looking for their missing comrade, having tracked his location from the ship's last signal. Whilst we tried to disuade them, the truth has a nasty habit of clawing it's way back up... \n \nOnce they found out that the old partner of them had died in miserable conditions in a holding cell, robbed of his 'earnings' by our distrustful host, they began a lighting-speed ransack of our hinterlands, before drifting away faster than our ships could manage..."
+astartes_events.11.a:0 "Veritas liberabit vos..."
+
 indomitus_general.42.t:0 "Firestarter"
 indomitus_general.42.d:0 "As our forces approach the orbit of yet another soon to-be-consumed planet, the Genestealers lay in wait for our inevitable descent. Who is the first one of them to initiate the uprising is entirely up to chance. \n \nHowever, we could designate from the strongest and wisest among them, who should be the Firestarter of each campaign."
 indomitus_general.42.a:0 "Who started the fire?"
@@ -848,3 +861,68 @@ gates_of_hell_desc:0 "For the panic-struck residents of the Imperial heartlands 
 imperial_events.3.t:0 "Vigilus Falls!"
 imperial_events.3.d:0 "'The fate of this distant world is worth a thousand others. If it falls, if the Nachmund Gauntlet collapses, the Imperium Nihilus is all but lost to us. The empire of Terra will soon follow.'"
 imperial_events.3.a:0 "-Tigurius. Chief Librarian of the Ultramarines."
+
+indomitus_general.44.t:0 "The New Order"
+indomitus_general.44.d:0 "The Tyrannic race entered this galaxy divided by tendrils of strategic relevance to the consumption of this corner of the cosmos. However, the myriad of enemies rallied together to avoid the utter collapse of this corner of the cosmos to our fangs... \n \nThereafter it became imperative we reorganized our race under a single Hive Fleet, for we will need all the biomass we can get our reclamation pools into, as our enemies prepare for the final onslaught, it is up to us to impose a new and everlasting galactic order."
+indomitus_general.44.a:0 "§TThese will be the last days of Terra.§" 
+
+tyr_the_new_order:0 "The New Order"
+tyr_the_new_order_desc:0 "§YAre you willing to face the abyss, human?§"
+
+chaos_events.1.t:0 "Journeyman"
+chaos_events.1.d:0 "The Warp is a harsh mistress. It swallows whole untold ships every day, filled with bold yet unwitting sailors. One such case has surprisingly manifested itself before us. A single vessel has arrived, bewitched by the void to our realm. \n \nFrom the derelict ship, a now heavily corrupted rogue trader emerged, dazzled and falling to the ground under the sudden pull of the atmosphere. The exhausted lips parted to pronounce the words that had plagued his mind ever so often; 'Where am I?'."
+chaos_events.1.a:0 "Home."
+chaos_events.1.b:0 "Terminus."
+
+imperium_events.63.t:0 "Odyssey"
+imperium_events.63.d:0 "It was a quiet night. The gentle caress of the wind eased the scarred mind of the retired guardsman. Granted the quiet respite of dying in peace in a faraway colony also robbed him of his death in combat amongst brothers in arms. \n \nHis days of combat lay in the past, for mutilation forever tainted his hithertho renowned combat skills. Now a new adventure awaits him. His son broke the silence with a poignant conundrum. \n'Dad why did you spent so much time fighting for the Emperor?'\nThe veteran smiled, knowing that his progeny will inevitably be subjected to the same glory and horrors as he and countless others have endured. He smiled where many would worry or grovel, for he knew that not only did those experiences forged him into a man of the utmost character, but also served his duty to the divine. \n \nAfter a long pause he replied;"
+imperium_events.63.a:0 "§YIn the darkness between the stars lies untold glory, my son.§"
+
+imperium_events.64.t:0 "Lacrimosa"
+imperium_events.64.d:0 "The unprecedented reforms of the Guilliman era have cleared mountaintops of redundant bureocracy, as important files sank to the bottom of the pile, drowned by sheer negligence and stupidity. One such kind were reports from the front pertaining to our battle casualties. \nBesides organizing reinforcements and tactical manouvers, such reports also serve a much forgotten custom; to notify the next of kin of the guardsmen passing. \n \nSuch dreaded notification can tear a family asunder, especially the mothers of our soldiers, who for years wondered as to the faith of their long lost sons and daughters in the crucible of war. As these warrior undertook the ultimate sacrifice for our cause, it is imperative we provide closure to the loved ones that got left behind."
+imperium_events.64.a:0 "§YHonor the dead. Fight for the living.§"
+
+imperial_events.4.t:0 "The Line We Walk"
+imperial_events.4.d:0 "Sisters! Gather around me! We've been tasked by the Sisterhood to cleanse this region from the abundant menaces therein. Substancial forces are deployed already and more are on their way to our location. Ample resources are being invested into our monumental task ahead. \n\nHowever, our situation is extremely perilous. Across our very doorstep lie the bellicose Sautekh Necrons, eager to stamp out our fire of staunch resistance. \nFurthermore, our brethren in this desolate region are few and far between. We can expect little material or troop support when the inevitable occurs..."
+imperial_events.4.a:0 "§YWe shall seek the Emperor's forgiveness in the darkest places of the night.§" 
+
+chaos_events.2.t:0 "Worlds Collide"
+chaos_events.2.d:0 "The eternal war between Chaos and the Imperium of Man is comming to it's zenith. Reports from the Imperial Palace speak of a renewed assault by untold legions of the Dark Gods on their doorstep. \nOnly time will tell if this is just another footnote in Imperial records or its last entry. \n \nAs the heavens tear themselves apart and Terra trembles, humanity faces its final hour in the crucible of war."
+chaos_events.2.a:0 "The Third Siege of Terra is upon us!"
+
+chaos_events.3.t:0 "The Seat of Power"
+chaos_events.3.d:0 "It is done. After 10.000 years of hatred and toil, the forces of Chaos have ocuppied the now lusterless halls of the Imperial Palace. The Emperor was quickly evacuated by the Mechanicus loyalist, who deviced a last-minute contraption whilst the enemy pounded at the gates. \n \nAs the Chaotic warbands ransack and pillage the grandiose chambers of the imperial complex, shockwaves of the cataclysmic event reverberate through the Imperium. Or what is left of it. \n \nAmidst all the uncertainty that plagues humanity, one thing is certain; Nothing lasts forever."
+chaos_events.3.a:0 "Memento Homo."
+
+apotheosis_chaos:0 "Apotheosis"
+apotheosis_chaos_desc:0 "Look at what you made me do, Father."
+
+imperial_events.5.t:0 "End Of The Line"
+imperial_events.5.d:0 "We knew that our mission was a challenging one. But we did not expect such fierceness from the metallic hordes. Ours was always a task comprised of the utmost danger, one we would most likely fail. That is precisely what has come to pass. \n \nDespite our best efforts, we are being pushed back out of our outpost across the entire sector. We must retreat to the heart of mankind to regroup and reassess what went astray in our campaing. A beacon of hope remains, for the critically of our task cannot be understated. We will return to these long forgotten sectors and avenge our fallen sisters, one way or the other. "
+imperial_events.5.a:0 "§YPain is an ally. Pain is a friend. Pain is truth.§" 
+
+imperium_events.65.t:0 "Widowmaker"
+imperium_events.65.d:0 "The allure of eternal companionship, the intoxicating feeling of allowing one's defenses to crumble in the presence of a kindred soul, the penetrating gaze of a weathered man; now robbed of its candor and blemish as another life is claimed in the maelstrom of warfare.\n \nA rampaging Tyranid bioform, aptly named the “Widowmaker” by our genetors, is severely disrupting our present campaign against the Great Devourer. It will take some time before our magos biologis devises a reliable means of countering this menace. Until then, it seems the common guardsman will pay the price."
+imperium_events.65.a:0 "And his beloved back at home as well..."
+
+imperial_events.6.t:0 "First Blood"
+imperial_events.6.d:0 "A name echoed deep in the mountainous valleys, calling forth those deranged enough to pilot in the ravines and ranges that cover the Nocturne landscape. Tu'Shan manifested himself on the hilly settlement, provoking cheers and praises from the local populace. The motive of his visit to such a place was simple; a formal trial was about to take place, as the two strongest, fastest and biggest men in the village vied for the same woman. \n \nOther areas of the galaxy would solve such a matter with treacheary, intrigue and murder. Not here. Honor and reputation are everything in our society. Tushan himself was impressed at the countenance of both individuals as they set forth upon the improvished fighting grounds. A classic sword duel would settle the dispute at the sight of first blood.\nAfter a ceremonial salute and solemn overture by the Chapter Master, the embittered brawl began in earnest. Such a display of swordmanship had rarely been seen in such a place, the crowd stood agast as the contest stood in the balance, any man could seal his fate in one fateful movement. And sooner rather than latter, such a thing ocurred. \n \nTriumphally the winner lifted his sword, crowned with the essence of the now defeated suitor. Tushan approached him and said;"
+imperial_events.6.a:0 "§BA marvelous display, noble warrior.§"
+imperial_events.6.b:0 "§OWe shall transform this settlement, together.§" 
+imperial_events.6.c:0 "§OThe Emperor himself needs more man like yourself!§"
+
+imperial_events.7.t:0 "Beneath A Blackened Sky"
+imperial_events.7.d:0 "The hour of reckoning is upon us. The dreaded catastrophe we have been preparing for so long has finally manifested its fangs upon our skies. The Tyranids are here,despite our best efforts to prepare against the rampaging tide of the Great Devourer, our capital is under siege by these abominations. \nAs the skies blacken with the roar of doomsday cannons, it would seem to many that yet another light in the human rosary is about to be extinguished..."
+imperial_events.7.a:0 "§YNot if I have anything to say about it!§"
+
+imperium_events.66.t:0 "Timber"
+imperium_events.66.d:0 "In an era where danger abounds and stalk at every corner, colonial ventures are extremely risky. It takes the Departamento Colonia a great deal of effort to convince potential settlers from our hive cities to extricate themselves from the safety of established civilization into the danger-filled cosmic void. However, in one of our burgeoning colonies, it would seem that a surplus of basic wood materials have eased the tired minds of the settlers. Has the planet does not present an inmediate danger, they have taken the liberty to build quaint houses made from these rustic materials. \n \nThe widespread presence of fertile ground has compelled incoming families to reclaim the area faster than our projections anticipated. The news are having immediate impact upon our potential candidates for settlement... "
+imperium_events.66.a:0 "40 acres and a servitor!"
+
+astartes_events.12.t:0 "Ordained Dragonfire Rounds"
+astartes_events.12.d:0 "After a planned reclamation of the cosmic vecinity, we can now afford luxuries we would have tought impossible a couple of decades ago. One such symptom of opulence is the idea being floated around in our upper echelons of chapter governance. It has been suggested that investing in a permanent deployment of Dragonfire rounds for our rank and file marines and not just the Sternguard veterans, would contribute massively to our ongoing scuffle in the cosmic playground."
+astartes_events.12.a:0 "§JOrdain them!§"
+astartes_events.12.b:0 "We do not possess the wherewithal at the present moment."
+
+dragonfire_rounds:0 "Widespread Dragonfire Rounds"
+dragonfire_rounds_desc:0 "No fortress can hold me down."

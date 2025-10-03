@@ -1,0 +1,102 @@
+namespace = chaos_events
+
+country_event = { #Journeyman
+	id = chaos_events.1
+	title = chaos_events.1.t
+	desc = chaos_events.1.d
+	picture = JURAJ_JANOSIK_eventPicture
+
+	
+
+	trigger = {
+		religion_group = chaos_group
+		NOT = { has_country_flag = journeyman_flag}
+	}
+
+	mean_time_to_happen = {
+		days = 1000
+	}
+	
+
+	option = {
+		name = chaos_events.1.a
+		set_country_flag = journeyman_flag
+		add_manpower = 0.001
+		add_years_of_income = 0.33
+	}
+	option = {
+		name = chaos_events.1.b
+		set_country_flag = journeyman_flag	
+		add_manpower = -0.001
+		add_years_of_income = 0.33
+	}	
+}
+
+country_event = { #Worlds Collide
+	id = chaos_events.2
+	title = chaos_events.2.t
+	desc = chaos_events.2.d
+	picture = SIEGE_PRAGUE_CASTLE_eventPicture
+
+	fire_only_once = yes
+	major = yes
+
+	trigger = {
+		religion_group = chaos_group
+		1 = {
+			owned_by = XXA
+			sieged_by = ROOT
+			devastation = 5
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 7
+	}
+	
+
+	option = {
+		name = chaos_events.2.a
+		add_yearly_manpower = 4
+		1 = { 
+			owner = {
+				add_mandate = -15
+				add_prestige = -20
+				add_stability = -1
+			}
+			
+		}
+	}
+}
+
+country_event = { #The Seat of Power
+	id = chaos_events.3
+	title = chaos_events.3.t
+	desc = chaos_events.3.d
+	picture = NUSANTARA_THRONE_eventPicture
+
+	fire_only_once = yes
+	major = yes
+
+	trigger = {
+		1 = {
+			owned_by = {religion_group = chaos_group}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+
+	option = {
+		name = chaos_events.3.a
+		add_treasury = 1000
+		add_stability = 3
+
+		add_country_modifier = {
+			name = apotheosis_chaos
+			duration = 36500
+		}
+	}
+}

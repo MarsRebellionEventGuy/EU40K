@@ -238,3 +238,130 @@ country_event = { #Faith
 	}
 }
 
+country_event = { #Outlander
+	id = astartes_events.9
+	title = astartes_events.9.t
+	desc = astartes_events.9.d
+	picture = 20_Monsoon_eventPicture
+
+	trigger = {
+		has_faction = astartes_faction_1
+		NOT = {has_country_flag = outlander_arrived}
+		NOT = {has_country_flag = outlander_arrived_seized}
+		1255 = {
+			is_controlled_by_imperium = no
+		}
+		is_year = 2005
+	}
+
+
+	mean_time_to_happen = {
+		days= 7777
+	}
+	
+	option = {
+		name = astartes_events.9.a
+		set_country_flag = outlander_arrived
+		add_manpower = 0.001
+		add_army_professionalism = 0.05
+		add_army_tradition = 5
+		add_prestige = -25
+		add_years_of_income = -0.2
+	}
+
+	option = {
+		name = astartes_events.9.b
+		set_country_flag = outlander_arrived_seized
+		add_years_of_income = 1
+		add_prestige = 5
+	}
+}
+
+country_event = { #Ties That Bind
+	id = astartes_events.10
+	title = astartes_events.10.t
+	desc = astartes_events.10.d
+	picture = SCOTTISH_MERCENARIES_eventPicture
+
+	trigger = {
+		has_faction = astartes_faction_1
+		has_country_flag = outlander_arrived
+		is_year = 2040
+	}
+
+
+	mean_time_to_happen = {
+		days= 1
+	}
+	
+	option = {
+		name = astartes_events.10.a
+		add_years_of_income = 5
+	}
+
+	
+}
+
+country_event = { #Retribution
+	id = astartes_events.11
+	title = astartes_events.11.t
+	desc = astartes_events.11.d
+	picture = PROTESTANT_CATHOLIC_DEBATE_eventPicture
+
+	trigger = {
+		has_faction = astartes_faction_1
+		has_country_flag = outlander_arrived_seized
+		is_year = 2040
+	}
+
+
+	mean_time_to_happen = {
+		days= 1
+	}
+	
+	option = {
+		name = astartes_events.11.a
+		add_years_of_income = -2
+		add_prestige = -30
+	}
+
+	
+}
+
+country_event = { #Ordained Dragonfire Rounds
+	id = astartes_events.12
+	title = astartes_events.12.t
+	desc = astartes_events.12.d
+	picture = HUSSARS_eventPicture
+
+
+	trigger = {
+		has_faction = astartes_faction_1
+		total_development = 200
+		is_at_war = yes
+		is_year = 2007
+		NOT = {has_country_flag = dr4gonfire_rounds_event}
+	}
+
+
+	mean_time_to_happen = {
+		days= 1
+	}
+	
+	option = {
+		name = astartes_events.12.a
+		add_years_of_income = -1
+		add_country_modifier = {
+			name = dragonfire_rounds
+			duration = -1
+		}
+		set_country_flag = dr4gonfire_rounds_event
+	}
+
+	option = {
+		name = astartes_events.12.b
+		add_prestige = -1
+		set_country_flag = dr4gonfire_rounds_event
+	}
+	
+}
