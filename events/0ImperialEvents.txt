@@ -208,3 +208,73 @@ country_event = { #End of the Line / Sororitas Failure
 
 }	
 
+country_event = { # First Blood
+	id = imperial_events.6
+	title = imperial_events.6.t
+	desc = imperial_events.6.d
+	picture = TOURNAMENT_eventPicture
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = XAJ
+		is_at_war = no
+		is_year = 2007
+		}
+
+	
+	option = {
+		name = imperial_events.6.a
+		add_stability_or_adm_power = yes
+			}
+
+	option = {
+		name = imperial_events.6.b
+		3295 = {
+			add_base_manpower = 1
+			add_base_tax = 1
+			add_base_production = 2
+		}
+			}
+	
+			option = {
+		name = imperial_events.6.c
+		define_general = {
+			name = "Montiel"
+			fire = 3
+			shock = 3
+			manuever = 4
+			siege = 2
+			trait = hardy_warrior_personality 
+		}
+			}
+
+}	
+
+country_event = { # Beneath A Blackened Sky
+	id = imperial_events.7
+	title = imperial_events.7.t
+	desc = imperial_events.7.d
+	picture = BORDER_TENSION_eventPicture
+
+	fire_only_once = yes
+	
+	trigger = {
+		is_in_war = {
+			casus_belli = cb_tyranid_invasion
+		}
+		NOT = {grown_by_development = 100}
+		capital_scope = {
+					controller = { 
+						tag = ROOT
+					}
+					has_siege = yes
+				}
+			}
+	
+	option = {
+		name = imperial_events.7.a
+		add_stability = -1
+		}
+}
+

@@ -409,3 +409,143 @@ country_event = { # Sailors into Army
 		
 	}
 }
+
+country_event = { #Macragge's Honour Flagship
+	id = indomitus_general.45
+	title = indomitus_general.45.t
+	desc = indomitus_general.45.d
+	picture = ANGRY_MOB_eventPicture
+
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+		tag = XXA
+	}
+	
+	option = {
+		name = indomitus_general.45.a
+		hidden_effect = {
+			ROOT = {
+				3336 = {
+					create_flagship = {
+						name = "Macragge's Honour"
+						type = heavy_ship
+					}
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Invincible Reason Flagship
+	id = indomitus_general.47
+	title = indomitus_general.47.t
+	desc = indomitus_general.47.d
+	picture = ANGRY_MOB_eventPicture
+
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+		tag = XCX
+	}
+	
+	option = {
+		name = indomitus_general.47.a
+		hidden_effect = {
+			ROOT = {
+				1643 = {
+					create_flagship = {
+						name = "Invincible Reason"
+						type = heavy_ship
+					}
+				}
+			}
+		}
+	}
+}`
+
+country_event = { #Flamewrought
+	id = indomitus_general.48
+	title = indomitus_general.48.t
+	desc = indomitus_general.48.d
+	picture = ANGRY_MOB_eventPicture
+
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+		tag = XAJ
+	}
+	
+	option = {
+		name = indomitus_general.48.a
+		hidden_effect = {
+			ROOT = {
+				3293 = {
+					create_flagship = {
+						name = "Flamewrought"
+						type = heavy_ship
+					}
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Terminus Est Flagship
+	id = indomitus_general.49
+	title = indomitus_general.49.t
+	desc = indomitus_general.49.d
+	picture = ANGRY_MOB_eventPicture
+
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+		tag = XKI
+	}
+	
+	option = {
+		name = indomitus_general.49.a
+		hidden_effect = {
+			ROOT = {
+				2809 = {
+					create_flagship = {
+						name = "Terminus Est"
+						type = heavy_ship
+					}
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Vengeful Spirit Flagship
+	id = indomitus_general.50
+	title = indomitus_general.50.t
+	desc = indomitus_general.50.d
+	picture = ANGRY_MOB_eventPicture
+
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+		tag = XKP
+	}
+	
+	option = {
+		name = indomitus_general.50.a
+		hidden_effect = {
+			ROOT = {
+				2816 = {
+					create_flagship = {
+						name = "Vengeful Spirit"
+						type = heavy_ship
+					}
+				}
+			}
+		}
+	}
+}

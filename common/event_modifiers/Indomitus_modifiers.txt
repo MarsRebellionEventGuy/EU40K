@@ -723,3 +723,10 @@ apotheosis_chaos = {
 	siege_ability = 0.15
 	warscore_cost_vs_other_religion = -0.25
 }
+
+dragonfire_rounds = {
+	picture = fire_damage
+	fire_damage = 0.05
+	morale_damage = 0.05
+	siege_ability = 0.1
+}
