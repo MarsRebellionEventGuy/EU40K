@@ -1,0 +1,75 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "STC_1_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_STC/STC_1_eventPicture.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "STC_2_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_STC/STC_2_eventPicture.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "STC_3_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_STC/STC_3_eventPicture.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "STC_4_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_STC/STC_4_eventPicture.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "STC_5_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_STC/STC_5_eventPicture.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "STC_6_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_STC/STC_6_eventPicture.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "STC_7_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_STC/STC_7_eventPicture.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "STC_8_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_STC/STC_8_eventPicture.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "STC_9_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_STC/STC_9_eventPicture.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "STC_10_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_STC/STC_10_eventPicture.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "STC_11_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_STC/STC_11_eventPicture.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "STC_12_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_STC/STC_12_eventPicture.dds"
+		alwaystransparent = yes
+	}
+
+}

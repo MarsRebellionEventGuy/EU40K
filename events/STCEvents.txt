@@ -1,0 +1,6192 @@
+
+
+
+namespace = stc_events
+
+
+country_event = { #Test
+	id = stc_events.1000
+	title = stc_events.1000
+	desc = stc_events.1000
+	picture = STC_3_eventPicture
+	hidden = yes
+	
+	trigger = {
+		technology_group = mechanicus
+		NOT = { has_country_flag = on_stc_hunt }
+		always = no
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = exploration_events.24.a
+		ai_chance = { factor = 100 }
+		set_country_flag = on_stc_hunt
+		set_country_flag = stc_on_203
+	}
+}
+
+country_event = { #Rumours
+	id = stc_events.1
+	title = stc_events.1.t
+	desc = stc_events.1.d
+	picture = STC_3_eventPicture
+	goto = stc_location
+	
+	trigger = {
+		OR = {
+			has_country_flag = stc_on_1055
+			has_country_flag = stc_on_1059
+			has_country_flag = stc_on_1060
+			has_country_flag = stc_on_1063
+			has_country_flag = stc_on_1067
+			has_country_flag = stc_on_1070
+			has_country_flag = stc_on_1072
+			has_country_flag = stc_on_1075
+			has_country_flag = stc_on_1077
+			has_country_flag = stc_on_1082
+			has_country_flag = stc_on_1083
+			has_country_flag = stc_on_1085
+			has_country_flag = stc_on_1090
+			has_country_flag = stc_on_1091
+			has_country_flag = stc_on_1092
+			has_country_flag = stc_on_1093
+			has_country_flag = stc_on_1094
+			has_country_flag = stc_on_1106
+			has_country_flag = stc_on_1110
+			has_country_flag = stc_on_1112
+			has_country_flag = stc_on_1115
+			has_country_flag = stc_on_1119
+			has_country_flag = stc_on_1121
+			has_country_flag = stc_on_1128
+			has_country_flag = stc_on_1168
+			has_country_flag = stc_on_1174
+			has_country_flag = stc_on_1184
+			has_country_flag = stc_on_1192
+			has_country_flag = stc_on_1193
+			has_country_flag = stc_on_1194
+			has_country_flag = stc_on_1254
+			has_country_flag = stc_on_1255
+			has_country_flag = stc_on_1308
+			has_country_flag = stc_on_1309
+			has_country_flag = stc_on_1310
+			has_country_flag = stc_on_1311
+			has_country_flag = stc_on_1312
+			has_country_flag = stc_on_1317
+			has_country_flag = stc_on_1318
+			has_country_flag = stc_on_1319
+			has_country_flag = stc_on_1320
+			has_country_flag = stc_on_1324
+			has_country_flag = stc_on_1325
+			has_country_flag = stc_on_1330
+			has_country_flag = stc_on_1402
+			has_country_flag = stc_on_1403
+			has_country_flag = stc_on_1404
+			has_country_flag = stc_on_1405
+			has_country_flag = stc_on_1557
+			has_country_flag = stc_on_1559
+			has_country_flag = stc_on_1561
+			has_country_flag = stc_on_1562
+			has_country_flag = stc_on_1563
+			has_country_flag = stc_on_1567
+			has_country_flag = stc_on_1578
+			has_country_flag = stc_on_1579
+			has_country_flag = stc_on_1583
+			has_country_flag = stc_on_1584
+			has_country_flag = stc_on_1586
+			has_country_flag = stc_on_1594
+			has_country_flag = stc_on_1595
+			has_country_flag = stc_on_1596
+			has_country_flag = stc_on_1598
+			has_country_flag = stc_on_1604
+			has_country_flag = stc_on_1605
+			has_country_flag = stc_on_1606
+			has_country_flag = stc_on_1608
+			has_country_flag = stc_on_1609
+			has_country_flag = stc_on_1613
+			has_country_flag = stc_on_1614
+			has_country_flag = stc_on_1615
+			has_country_flag = stc_on_1616
+			has_country_flag = stc_on_1618
+			has_country_flag = stc_on_1620
+			has_country_flag = stc_on_1623
+			has_country_flag = stc_on_1625
+			has_country_flag = stc_on_1626
+			has_country_flag = stc_on_1627
+			has_country_flag = stc_on_1628
+			has_country_flag = stc_on_1630
+			has_country_flag = stc_on_1634
+			has_country_flag = stc_on_1635
+			has_country_flag = stc_on_1636
+			has_country_flag = stc_on_1637
+			has_country_flag = stc_on_1638
+			has_country_flag = stc_on_1639
+			has_country_flag = stc_on_1640
+			has_country_flag = stc_on_1642
+			has_country_flag = stc_on_1644
+			has_country_flag = stc_on_1645
+			has_country_flag = stc_on_1646
+			has_country_flag = stc_on_1648
+			has_country_flag = stc_on_1649
+			has_country_flag = stc_on_1654
+			has_country_flag = stc_on_1655
+			has_country_flag = stc_on_1658
+			has_country_flag = stc_on_1659
+			has_country_flag = stc_on_1661
+			has_country_flag = stc_on_1663
+			has_country_flag = stc_on_1664
+			has_country_flag = stc_on_1665
+			has_country_flag = stc_on_1666
+			has_country_flag = stc_on_1669
+			has_country_flag = stc_on_1671
+			has_country_flag = stc_on_1672
+			has_country_flag = stc_on_1673
+			has_country_flag = stc_on_1677
+			has_country_flag = stc_on_1679
+			has_country_flag = stc_on_1680
+			has_country_flag = stc_on_1681
+			has_country_flag = stc_on_1684
+			has_country_flag = stc_on_1687
+			has_country_flag = stc_on_1690
+			has_country_flag = stc_on_1696
+			has_country_flag = stc_on_1697
+			has_country_flag = stc_on_1698
+			has_country_flag = stc_on_1704
+			has_country_flag = stc_on_1712
+			has_country_flag = stc_on_1714
+			has_country_flag = stc_on_1715
+			has_country_flag = stc_on_1716
+			has_country_flag = stc_on_1719
+			has_country_flag = stc_on_1722
+			has_country_flag = stc_on_1724
+			has_country_flag = stc_on_1725
+			has_country_flag = stc_on_1726
+			has_country_flag = stc_on_1727
+			has_country_flag = stc_on_1732
+			has_country_flag = stc_on_1735
+			has_country_flag = stc_on_1736
+			has_country_flag = stc_on_1738
+			has_country_flag = stc_on_1739
+			has_country_flag = stc_on_1741
+			has_country_flag = stc_on_1742
+			has_country_flag = stc_on_1743
+			has_country_flag = stc_on_1744
+			has_country_flag = stc_on_1746
+			has_country_flag = stc_on_1749
+			has_country_flag = stc_on_1751
+			has_country_flag = stc_on_1752
+			has_country_flag = stc_on_1753
+			has_country_flag = stc_on_1754
+			has_country_flag = stc_on_1758
+			has_country_flag = stc_on_1761
+			has_country_flag = stc_on_1764
+			has_country_flag = stc_on_1766
+			has_country_flag = stc_on_1767
+			has_country_flag = stc_on_1768
+			has_country_flag = stc_on_1769
+			has_country_flag = stc_on_1771
+			has_country_flag = stc_on_1773
+			has_country_flag = stc_on_1774
+			has_country_flag = stc_on_1775
+			has_country_flag = stc_on_1780
+			has_country_flag = stc_on_1782
+			has_country_flag = stc_on_1783
+			has_country_flag = stc_on_1784
+			has_country_flag = stc_on_1785
+			has_country_flag = stc_on_1786
+			has_country_flag = stc_on_1787
+			has_country_flag = stc_on_1788
+			has_country_flag = stc_on_1790
+			has_country_flag = stc_on_1795
+			has_country_flag = stc_on_1796
+			has_country_flag = stc_on_1804
+			has_country_flag = stc_on_1805
+			has_country_flag = stc_on_1817
+			has_country_flag = stc_on_1819
+			has_country_flag = stc_on_1820
+			has_country_flag = stc_on_1822
+			has_country_flag = stc_on_1824
+			has_country_flag = stc_on_1825
+			has_country_flag = stc_on_1829
+			has_country_flag = stc_on_1830
+			has_country_flag = stc_on_1832
+			has_country_flag = stc_on_1833
+			has_country_flag = stc_on_1834
+			has_country_flag = stc_on_1836
+			has_country_flag = stc_on_1837
+			has_country_flag = stc_on_1838
+			has_country_flag = stc_on_1839
+			has_country_flag = stc_on_1840
+			has_country_flag = stc_on_1846
+			has_country_flag = stc_on_1848
+			has_country_flag = stc_on_1849
+			has_country_flag = stc_on_1851
+			has_country_flag = stc_on_1853
+			has_country_flag = stc_on_1855
+			has_country_flag = stc_on_1856
+			has_country_flag = stc_on_1857
+			has_country_flag = stc_on_1858
+			has_country_flag = stc_on_1862
+			has_country_flag = stc_on_1863
+			has_country_flag = stc_on_1865
+			has_country_flag = stc_on_1866
+			has_country_flag = stc_on_1867
+			has_country_flag = stc_on_187
+			has_country_flag = stc_on_1870
+			has_country_flag = stc_on_1872
+			has_country_flag = stc_on_1873
+			has_country_flag = stc_on_1887
+			has_country_flag = stc_on_1889
+			has_country_flag = stc_on_1899
+			has_country_flag = stc_on_190
+			has_country_flag = stc_on_1907
+			has_country_flag = stc_on_1908
+			has_country_flag = stc_on_1926
+			has_country_flag = stc_on_1927
+			has_country_flag = stc_on_193
+			has_country_flag = stc_on_1932
+			has_country_flag = stc_on_1934
+			has_country_flag = stc_on_1935
+			has_country_flag = stc_on_1940
+			has_country_flag = stc_on_1941
+			has_country_flag = stc_on_1984
+			has_country_flag = stc_on_1985
+			has_country_flag = stc_on_1987
+			has_country_flag = stc_on_1989
+			has_country_flag = stc_on_1993
+			has_country_flag = stc_on_1996
+			has_country_flag = stc_on_2004
+			has_country_flag = stc_on_2009
+			has_country_flag = stc_on_2016
+			has_country_flag = stc_on_202
+			has_country_flag = stc_on_2021
+			has_country_flag = stc_on_2024
+			has_country_flag = stc_on_2025
+			has_country_flag = stc_on_2026
+			has_country_flag = stc_on_203
+			has_country_flag = stc_on_2030
+			has_country_flag = stc_on_2031
+			has_country_flag = stc_on_2032
+			has_country_flag = stc_on_2033
+			has_country_flag = stc_on_2034
+			has_country_flag = stc_on_2035
+			has_country_flag = stc_on_2037
+			has_country_flag = stc_on_2038
+			has_country_flag = stc_on_2039
+			has_country_flag = stc_on_2040
+			has_country_flag = stc_on_2041
+			has_country_flag = stc_on_2043
+			has_country_flag = stc_on_205
+			has_country_flag = stc_on_207
+			has_country_flag = stc_on_209
+			has_country_flag = stc_on_252
+			has_country_flag = stc_on_2795
+			has_country_flag = stc_on_2800
+			has_country_flag = stc_on_2801
+			has_country_flag = stc_on_2804
+			has_country_flag = stc_on_2805
+			has_country_flag = stc_on_2806
+			has_country_flag = stc_on_2807
+			has_country_flag = stc_on_2808
+			has_country_flag = stc_on_2817
+			has_country_flag = stc_on_2822
+			has_country_flag = stc_on_2824
+			has_country_flag = stc_on_2825
+			has_country_flag = stc_on_2828
+			has_country_flag = stc_on_2829
+			has_country_flag = stc_on_2830
+			has_country_flag = stc_on_2831
+			has_country_flag = stc_on_2847
+			has_country_flag = stc_on_2848
+			has_country_flag = stc_on_2849
+			has_country_flag = stc_on_2851
+			has_country_flag = stc_on_2852
+			has_country_flag = stc_on_2853
+			has_country_flag = stc_on_2854
+			has_country_flag = stc_on_2855
+			has_country_flag = stc_on_2858
+			has_country_flag = stc_on_2859
+			has_country_flag = stc_on_2861
+			has_country_flag = stc_on_2862
+			has_country_flag = stc_on_2863
+			has_country_flag = stc_on_2864
+			has_country_flag = stc_on_2870
+			has_country_flag = stc_on_2875
+			has_country_flag = stc_on_2876
+			has_country_flag = stc_on_2877
+			has_country_flag = stc_on_2878
+			has_country_flag = stc_on_2879
+			has_country_flag = stc_on_2880
+			has_country_flag = stc_on_2881
+			has_country_flag = stc_on_2882
+			has_country_flag = stc_on_2884
+			has_country_flag = stc_on_2890
+			has_country_flag = stc_on_2891
+			has_country_flag = stc_on_2892
+			has_country_flag = stc_on_2893
+			has_country_flag = stc_on_2894
+			has_country_flag = stc_on_2895
+			has_country_flag = stc_on_2897
+			has_country_flag = stc_on_2898
+			has_country_flag = stc_on_2901
+			has_country_flag = stc_on_2920
+			has_country_flag = stc_on_2922
+			has_country_flag = stc_on_2927
+			has_country_flag = stc_on_2928
+			has_country_flag = stc_on_2929
+			has_country_flag = stc_on_2931
+			has_country_flag = stc_on_2932
+			has_country_flag = stc_on_2933
+			has_country_flag = stc_on_2934
+			has_country_flag = stc_on_2935
+			has_country_flag = stc_on_2936
+			has_country_flag = stc_on_2937
+			has_country_flag = stc_on_2938
+			has_country_flag = stc_on_2939
+			has_country_flag = stc_on_2940
+			has_country_flag = stc_on_2941
+			has_country_flag = stc_on_2942
+			has_country_flag = stc_on_2943
+			has_country_flag = stc_on_2945
+			has_country_flag = stc_on_2946
+			has_country_flag = stc_on_2947
+			has_country_flag = stc_on_2948
+			has_country_flag = stc_on_2950
+			has_country_flag = stc_on_2952
+			has_country_flag = stc_on_2953
+			has_country_flag = stc_on_2954
+			has_country_flag = stc_on_2955
+			has_country_flag = stc_on_2956
+			has_country_flag = stc_on_2962
+			has_country_flag = stc_on_2964
+			has_country_flag = stc_on_2965
+			has_country_flag = stc_on_2967
+			has_country_flag = stc_on_2968
+			has_country_flag = stc_on_2969
+			has_country_flag = stc_on_2970
+			has_country_flag = stc_on_2971
+			has_country_flag = stc_on_2972
+			has_country_flag = stc_on_2986
+			has_country_flag = stc_on_2990
+			has_country_flag = stc_on_2992
+			has_country_flag = stc_on_2993
+			has_country_flag = stc_on_2995
+			has_country_flag = stc_on_2996
+			has_country_flag = stc_on_2997
+			has_country_flag = stc_on_3091
+			has_country_flag = stc_on_3095
+			has_country_flag = stc_on_3106
+			has_country_flag = stc_on_3107
+			has_country_flag = stc_on_3110
+			has_country_flag = stc_on_3111
+			has_country_flag = stc_on_3112
+			has_country_flag = stc_on_3113
+			has_country_flag = stc_on_3118
+			has_country_flag = stc_on_3119
+			has_country_flag = stc_on_3120
+			has_country_flag = stc_on_3121
+			has_country_flag = stc_on_3122
+			has_country_flag = stc_on_3123
+			has_country_flag = stc_on_3124
+			has_country_flag = stc_on_3129
+			has_country_flag = stc_on_3130
+			has_country_flag = stc_on_3131
+			has_country_flag = stc_on_3132
+			has_country_flag = stc_on_3133
+			has_country_flag = stc_on_3144
+			has_country_flag = stc_on_3152
+			has_country_flag = stc_on_3153
+			has_country_flag = stc_on_3156
+			has_country_flag = stc_on_3290
+			has_country_flag = stc_on_3291
+			has_country_flag = stc_on_333
+			has_country_flag = stc_on_342
+			has_country_flag = stc_on_343
+			has_country_flag = stc_on_3499
+			has_country_flag = stc_on_3500
+			has_country_flag = stc_on_3503
+			has_country_flag = stc_on_3504
+			has_country_flag = stc_on_3505
+			has_country_flag = stc_on_3506
+			has_country_flag = stc_on_3511
+			has_country_flag = stc_on_3512
+			has_country_flag = stc_on_3513
+			has_country_flag = stc_on_3514
+			has_country_flag = stc_on_3570
+			has_country_flag = stc_on_3571
+			has_country_flag = stc_on_3572
+			has_country_flag = stc_on_3573
+			has_country_flag = stc_on_3574
+			has_country_flag = stc_on_3581
+			has_country_flag = stc_on_3622
+			has_country_flag = stc_on_3623
+			has_country_flag = stc_on_3624
+			has_country_flag = stc_on_3625
+			has_country_flag = stc_on_3646
+			has_country_flag = stc_on_3949
+			has_country_flag = stc_on_3950
+			has_country_flag = stc_on_3996
+			has_country_flag = stc_on_3997
+			has_country_flag = stc_on_3998
+			has_country_flag = stc_on_3999
+			has_country_flag = stc_on_4000
+			has_country_flag = stc_on_413
+			has_country_flag = stc_on_415
+			has_country_flag = stc_on_417
+			has_country_flag = stc_on_446
+			has_country_flag = stc_on_447
+			has_country_flag = stc_on_448
+			has_country_flag = stc_on_449
+			has_country_flag = stc_on_450
+			has_country_flag = stc_on_452
+			has_country_flag = stc_on_453
+			has_country_flag = stc_on_454
+			has_country_flag = stc_on_455
+			has_country_flag = stc_on_456
+			has_country_flag = stc_on_473
+			has_country_flag = stc_on_475
+			has_country_flag = stc_on_482
+			has_country_flag = stc_on_489
+			has_country_flag = stc_on_491
+			has_country_flag = stc_on_737
+			has_country_flag = stc_on_741
+			has_country_flag = stc_on_743
+			has_country_flag = stc_on_745
+			has_country_flag = stc_on_746
+			has_country_flag = stc_on_747
+			has_country_flag = stc_on_748
+			has_country_flag = stc_on_749
+			has_country_flag = stc_on_750
+			has_country_flag = stc_on_751
+			has_country_flag = stc_on_752
+			has_country_flag = stc_on_810
+			has_country_flag = stc_on_813
+			has_country_flag = stc_on_822
+			has_country_flag = stc_on_824
+			has_country_flag = stc_on_825
+			has_country_flag = stc_on_832
+			has_country_flag = stc_on_837
+			has_country_flag = stc_on_946
+			has_country_flag = stc_on_957
+			has_country_flag = stc_on_958
+			has_country_flag = stc_on_959
+			has_country_flag = stc_on_961
+			has_country_flag = stc_on_963
+			has_country_flag = stc_on_964
+			has_country_flag = stc_on_965
+			has_country_flag = stc_on_966
+			has_country_flag = stc_on_970
+			has_country_flag = stc_on_972
+			has_country_flag = stc_on_975
+			has_country_flag = stc_on_976
+			has_country_flag = stc_on_981
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				has_country_flag = stc_on_1055
+			}
+			1055 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1059
+			}
+			1059 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1060
+			}
+			1060 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1063
+			}
+			1063 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1067
+			}
+			1067 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1070
+			}
+			1070 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1072
+			}
+			1072 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1075
+			}
+			1075 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1077
+			}
+			1077 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1082
+			}
+			1082 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1083
+			}
+			1083 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1085
+			}
+			1085 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1090
+			}
+			1090 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1091
+			}
+			1091 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1092
+			}
+			1092 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1093
+			}
+			1093 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1094
+			}
+			1094 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1106
+			}
+			1106 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1110
+			}
+			1110 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1112
+			}
+			1112 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1115
+			}
+			1115 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1119
+			}
+			1119 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1121
+			}
+			1121 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1128
+			}
+			1128 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1168
+			}
+			1168 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1174
+			}
+			1174 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1184
+			}
+			1184 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1192
+			}
+			1192 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1193
+			}
+			1193 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1194
+			}
+			1194 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1254
+			}
+			1254 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1255
+			}
+			1255 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1308
+			}
+			1308 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1309
+			}
+			1309 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1310
+			}
+			1310 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1311
+			}
+			1311 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1312
+			}
+			1312 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1317
+			}
+			1317 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1318
+			}
+			1318 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1319
+			}
+			1319 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1320
+			}
+			1320 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1324
+			}
+			1324 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1325
+			}
+			1325 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1330
+			}
+			1330 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1402
+			}
+			1402 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1403
+			}
+			1403 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1404
+			}
+			1404 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1405
+			}
+			1405 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1557
+			}
+			1557 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1559
+			}
+			1559 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1561
+			}
+			1561 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1562
+			}
+			1562 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1563
+			}
+			1563 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1567
+			}
+			1567 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1578
+			}
+			1578 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1579
+			}
+			1579 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1583
+			}
+			1583 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1584
+			}
+			1584 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1586
+			}
+			1586 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1594
+			}
+			1594 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1595
+			}
+			1595 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1596
+			}
+			1596 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1598
+			}
+			1598 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1604
+			}
+			1604 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1605
+			}
+			1605 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1606
+			}
+			1606 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1608
+			}
+			1608 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1609
+			}
+			1609 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1613
+			}
+			1613 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1614
+			}
+			1614 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1615
+			}
+			1615 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1616
+			}
+			1616 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1618
+			}
+			1618 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1620
+			}
+			1620 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1623
+			}
+			1623 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1625
+			}
+			1625 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1626
+			}
+			1626 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1627
+			}
+			1627 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1628
+			}
+			1628 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1630
+			}
+			1630 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1634
+			}
+			1634 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1635
+			}
+			1635 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1636
+			}
+			1636 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1637
+			}
+			1637 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1638
+			}
+			1638 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1639
+			}
+			1639 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1640
+			}
+			1640 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1642
+			}
+			1642 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1644
+			}
+			1644 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1645
+			}
+			1645 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1646
+			}
+			1646 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1648
+			}
+			1648 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1649
+			}
+			1649 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1654
+			}
+			1654 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1655
+			}
+			1655 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1658
+			}
+			1658 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1659
+			}
+			1659 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1661
+			}
+			1661 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1663
+			}
+			1663 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1664
+			}
+			1664 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1665
+			}
+			1665 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1666
+			}
+			1666 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1669
+			}
+			1669 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1671
+			}
+			1671 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1672
+			}
+			1672 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1673
+			}
+			1673 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1677
+			}
+			1677 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1679
+			}
+			1679 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1680
+			}
+			1680 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1681
+			}
+			1681 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1684
+			}
+			1684 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1687
+			}
+			1687 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1690
+			}
+			1690 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1696
+			}
+			1696 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1697
+			}
+			1697 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1698
+			}
+			1698 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1704
+			}
+			1704 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1712
+			}
+			1712 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1714
+			}
+			1714 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1715
+			}
+			1715 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1716
+			}
+			1716 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1719
+			}
+			1719 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1722
+			}
+			1722 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1724
+			}
+			1724 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1725
+			}
+			1725 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1726
+			}
+			1726 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1727
+			}
+			1727 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1732
+			}
+			1732 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1735
+			}
+			1735 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1736
+			}
+			1736 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1738
+			}
+			1738 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1739
+			}
+			1739 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1741
+			}
+			1741 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1742
+			}
+			1742 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1743
+			}
+			1743 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1744
+			}
+			1744 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1746
+			}
+			1746 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1749
+			}
+			1749 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1751
+			}
+			1751 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1752
+			}
+			1752 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1753
+			}
+			1753 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1754
+			}
+			1754 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1758
+			}
+			1758 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1761
+			}
+			1761 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1764
+			}
+			1764 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1766
+			}
+			1766 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1767
+			}
+			1767 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1768
+			}
+			1768 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1769
+			}
+			1769 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1771
+			}
+			1771 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1773
+			}
+			1773 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1774
+			}
+			1774 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1775
+			}
+			1775 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1780
+			}
+			1780 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1782
+			}
+			1782 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1783
+			}
+			1783 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1784
+			}
+			1784 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1785
+			}
+			1785 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1786
+			}
+			1786 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1787
+			}
+			1787 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1788
+			}
+			1788 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1790
+			}
+			1790 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1795
+			}
+			1795 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1796
+			}
+			1796 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1804
+			}
+			1804 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1805
+			}
+			1805 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1817
+			}
+			1817 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1819
+			}
+			1819 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1820
+			}
+			1820 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1822
+			}
+			1822 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1824
+			}
+			1824 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1825
+			}
+			1825 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1829
+			}
+			1829 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1830
+			}
+			1830 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1832
+			}
+			1832 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1833
+			}
+			1833 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1834
+			}
+			1834 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1836
+			}
+			1836 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1837
+			}
+			1837 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1838
+			}
+			1838 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1839
+			}
+			1839 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1840
+			}
+			1840 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1846
+			}
+			1846 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1848
+			}
+			1848 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1849
+			}
+			1849 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1851
+			}
+			1851 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1853
+			}
+			1853 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1855
+			}
+			1855 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1856
+			}
+			1856 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1857
+			}
+			1857 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1858
+			}
+			1858 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1862
+			}
+			1862 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1863
+			}
+			1863 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1865
+			}
+			1865 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1866
+			}
+			1866 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1867
+			}
+			1867 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_187
+			}
+			187 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1870
+			}
+			1870 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1872
+			}
+			1872 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1873
+			}
+			1873 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1887
+			}
+			1887 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1889
+			}
+			1889 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1899
+			}
+			1899 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_190
+			}
+			190 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1907
+			}
+			1907 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1908
+			}
+			1908 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1926
+			}
+			1926 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1927
+			}
+			1927 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_193
+			}
+			193 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1932
+			}
+			1932 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1934
+			}
+			1934 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1935
+			}
+			1935 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1940
+			}
+			1940 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1941
+			}
+			1941 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1984
+			}
+			1984 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1985
+			}
+			1985 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1987
+			}
+			1987 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1989
+			}
+			1989 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1993
+			}
+			1993 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_1996
+			}
+			1996 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2004
+			}
+			2004 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2009
+			}
+			2009 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2016
+			}
+			2016 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_202
+			}
+			202 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2021
+			}
+			2021 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2024
+			}
+			2024 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2025
+			}
+			2025 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2026
+			}
+			2026 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_203
+			}
+			203 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2030
+			}
+			2030 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2031
+			}
+			2031 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2032
+			}
+			2032 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2033
+			}
+			2033 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2034
+			}
+			2034 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2035
+			}
+			2035 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2037
+			}
+			2037 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2038
+			}
+			2038 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2039
+			}
+			2039 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2040
+			}
+			2040 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2041
+			}
+			2041 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2043
+			}
+			2043 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_205
+			}
+			205 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_207
+			}
+			207 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_209
+			}
+			209 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_252
+			}
+			252 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2795
+			}
+			2795 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2800
+			}
+			2800 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2801
+			}
+			2801 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2804
+			}
+			2804 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2805
+			}
+			2805 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2806
+			}
+			2806 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2807
+			}
+			2807 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2808
+			}
+			2808 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2817
+			}
+			2817 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2822
+			}
+			2822 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2824
+			}
+			2824 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2825
+			}
+			2825 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2828
+			}
+			2828 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2829
+			}
+			2829 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2830
+			}
+			2830 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2831
+			}
+			2831 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2847
+			}
+			2847 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2848
+			}
+			2848 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2849
+			}
+			2849 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2851
+			}
+			2851 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2852
+			}
+			2852 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2853
+			}
+			2853 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2854
+			}
+			2854 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2855
+			}
+			2855 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2858
+			}
+			2858 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2859
+			}
+			2859 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2861
+			}
+			2861 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2862
+			}
+			2862 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2863
+			}
+			2863 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2864
+			}
+			2864 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2870
+			}
+			2870 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2875
+			}
+			2875 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2876
+			}
+			2876 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2877
+			}
+			2877 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2878
+			}
+			2878 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2879
+			}
+			2879 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2880
+			}
+			2880 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2881
+			}
+			2881 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2882
+			}
+			2882 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2884
+			}
+			2884 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2890
+			}
+			2890 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2891
+			}
+			2891 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2892
+			}
+			2892 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2893
+			}
+			2893 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2894
+			}
+			2894 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2895
+			}
+			2895 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2897
+			}
+			2897 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2898
+			}
+			2898 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2901
+			}
+			2901 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2920
+			}
+			2920 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2922
+			}
+			2922 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2927
+			}
+			2927 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2928
+			}
+			2928 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2929
+			}
+			2929 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2931
+			}
+			2931 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2932
+			}
+			2932 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2933
+			}
+			2933 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2934
+			}
+			2934 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2935
+			}
+			2935 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2936
+			}
+			2936 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2937
+			}
+			2937 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2938
+			}
+			2938 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2939
+			}
+			2939 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2940
+			}
+			2940 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2941
+			}
+			2941 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2942
+			}
+			2942 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2943
+			}
+			2943 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2945
+			}
+			2945 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2946
+			}
+			2946 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2947
+			}
+			2947 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2948
+			}
+			2948 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2950
+			}
+			2950 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2952
+			}
+			2952 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2953
+			}
+			2953 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2954
+			}
+			2954 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2955
+			}
+			2955 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2956
+			}
+			2956 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2962
+			}
+			2962 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2964
+			}
+			2964 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2965
+			}
+			2965 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2967
+			}
+			2967 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2968
+			}
+			2968 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2969
+			}
+			2969 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2970
+			}
+			2970 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2971
+			}
+			2971 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2972
+			}
+			2972 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2986
+			}
+			2986 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2990
+			}
+			2990 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2992
+			}
+			2992 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2993
+			}
+			2993 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2995
+			}
+			2995 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2996
+			}
+			2996 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_2997
+			}
+			2997 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_3091
+			}
+			3091 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_3095
+			}
+			3095 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_3106
+			}
+			3106 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_3107
+			}
+			3107 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_3110
+			}
+			3110 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_3111
+			}
+			3111 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_3112
+			}
+			3112 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_3113
+			}
+			3113 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_3118
+			}
+			3118 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_3119
+			}
+			3119 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_3120
+			}
+			3120 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_3121
+			}
+			3121 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_3122
+			}
+			3122 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_3123
+			}
+			3123 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_3124
+			}
+			3124 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_3129
+			}
+			3129 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_3130
+			}
+			3130 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_3131
+			}
+			3131 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_3132
+			}
+			3132 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_3133
+			}
+			3133 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_3144
+			}
+			3144 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_3152
+			}
+			3152 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_3153
+			}
+			3153 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_3156
+			}
+			3156 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_3290
+			}
+			3290 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_3291
+			}
+			3291 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_333
+			}
+			333 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_342
+			}
+			342 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_343
+			}
+			343 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_3499
+			}
+			3499 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_3500
+			}
+			3500 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_3503
+			}
+			3503 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_3504
+			}
+			3504 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_3505
+			}
+			3505 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_3506
+			}
+			3506 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_3511
+			}
+			3511 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_3512
+			}
+			3512 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_3513
+			}
+			3513 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_3514
+			}
+			3514 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_3570
+			}
+			3570 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_3571
+			}
+			3571 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_3572
+			}
+			3572 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_3573
+			}
+			3573 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_3574
+			}
+			3574 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_3581
+			}
+			3581 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_3622
+			}
+			3622 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_3623
+			}
+			3623 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_3624
+			}
+			3624 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_3625
+			}
+			3625 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_3646
+			}
+			3646 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_3949
+			}
+			3949 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_3950
+			}
+			3950 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_3996
+			}
+			3996 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_3997
+			}
+			3997 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_3998
+			}
+			3998 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_3999
+			}
+			3999 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_4000
+			}
+			4000 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_413
+			}
+			413 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_415
+			}
+			415 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_417
+			}
+			417 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_446
+			}
+			446 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_447
+			}
+			447 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_448
+			}
+			448 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_449
+			}
+			449 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_450
+			}
+			450 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_452
+			}
+			452 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_453
+			}
+			453 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_454
+			}
+			454 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_455
+			}
+			455 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_456
+			}
+			456 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_473
+			}
+			473 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_475
+			}
+			475 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_482
+			}
+			482 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_489
+			}
+			489 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_491
+			}
+			491 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_737
+			}
+			737 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_741
+			}
+			741 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_743
+			}
+			743 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_745
+			}
+			745 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_746
+			}
+			746 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_747
+			}
+			747 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_748
+			}
+			748 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_749
+			}
+			749 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_750
+			}
+			750 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_751
+			}
+			751 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_752
+			}
+			752 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_810
+			}
+			810 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_813
+			}
+			813 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_822
+			}
+			822 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_824
+			}
+			824 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_825
+			}
+			825 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_832
+			}
+			832 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_837
+			}
+			837 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_946
+			}
+			946 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_957
+			}
+			957 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_958
+			}
+			958 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_959
+			}
+			959 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_961
+			}
+			961 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_963
+			}
+			963 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_964
+			}
+			964 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_965
+			}
+			965 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_966
+			}
+			966 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_970
+			}
+			970 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_972
+			}
+			972 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_975
+			}
+			975 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_976
+			}
+			976 = {
+				save_event_target_as = stc_location
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = stc_on_981
+			}
+			981 = {
+				save_event_target_as = stc_location
+			}
+		}
+		clr_country_flag = stc_on_1055
+		clr_country_flag = stc_on_1059
+		clr_country_flag = stc_on_1060
+		clr_country_flag = stc_on_1063
+		clr_country_flag = stc_on_1067
+		clr_country_flag = stc_on_1070
+		clr_country_flag = stc_on_1072
+		clr_country_flag = stc_on_1075
+		clr_country_flag = stc_on_1077
+		clr_country_flag = stc_on_1082
+		clr_country_flag = stc_on_1083
+		clr_country_flag = stc_on_1085
+		clr_country_flag = stc_on_1090
+		clr_country_flag = stc_on_1091
+		clr_country_flag = stc_on_1092
+		clr_country_flag = stc_on_1093
+		clr_country_flag = stc_on_1094
+		clr_country_flag = stc_on_1106
+		clr_country_flag = stc_on_1110
+		clr_country_flag = stc_on_1112
+		clr_country_flag = stc_on_1115
+		clr_country_flag = stc_on_1119
+		clr_country_flag = stc_on_1121
+		clr_country_flag = stc_on_1128
+		clr_country_flag = stc_on_1168
+		clr_country_flag = stc_on_1174
+		clr_country_flag = stc_on_1184
+		clr_country_flag = stc_on_1192
+		clr_country_flag = stc_on_1193
+		clr_country_flag = stc_on_1194
+		clr_country_flag = stc_on_1254
+		clr_country_flag = stc_on_1255
+		clr_country_flag = stc_on_1308
+		clr_country_flag = stc_on_1309
+		clr_country_flag = stc_on_1310
+		clr_country_flag = stc_on_1311
+		clr_country_flag = stc_on_1312
+		clr_country_flag = stc_on_1317
+		clr_country_flag = stc_on_1318
+		clr_country_flag = stc_on_1319
+		clr_country_flag = stc_on_1320
+		clr_country_flag = stc_on_1324
+		clr_country_flag = stc_on_1325
+		clr_country_flag = stc_on_1330
+		clr_country_flag = stc_on_1402
+		clr_country_flag = stc_on_1403
+		clr_country_flag = stc_on_1404
+		clr_country_flag = stc_on_1405
+		clr_country_flag = stc_on_1557
+		clr_country_flag = stc_on_1559
+		clr_country_flag = stc_on_1561
+		clr_country_flag = stc_on_1562
+		clr_country_flag = stc_on_1563
+		clr_country_flag = stc_on_1567
+		clr_country_flag = stc_on_1578
+		clr_country_flag = stc_on_1579
+		clr_country_flag = stc_on_1583
+		clr_country_flag = stc_on_1584
+		clr_country_flag = stc_on_1586
+		clr_country_flag = stc_on_1594
+		clr_country_flag = stc_on_1595
+		clr_country_flag = stc_on_1596
+		clr_country_flag = stc_on_1598
+		clr_country_flag = stc_on_1604
+		clr_country_flag = stc_on_1605
+		clr_country_flag = stc_on_1606
+		clr_country_flag = stc_on_1608
+		clr_country_flag = stc_on_1609
+		clr_country_flag = stc_on_1613
+		clr_country_flag = stc_on_1614
+		clr_country_flag = stc_on_1615
+		clr_country_flag = stc_on_1616
+		clr_country_flag = stc_on_1618
+		clr_country_flag = stc_on_1620
+		clr_country_flag = stc_on_1623
+		clr_country_flag = stc_on_1625
+		clr_country_flag = stc_on_1626
+		clr_country_flag = stc_on_1627
+		clr_country_flag = stc_on_1628
+		clr_country_flag = stc_on_1630
+		clr_country_flag = stc_on_1634
+		clr_country_flag = stc_on_1635
+		clr_country_flag = stc_on_1636
+		clr_country_flag = stc_on_1637
+		clr_country_flag = stc_on_1638
+		clr_country_flag = stc_on_1639
+		clr_country_flag = stc_on_1640
+		clr_country_flag = stc_on_1642
+		clr_country_flag = stc_on_1644
+		clr_country_flag = stc_on_1645
+		clr_country_flag = stc_on_1646
+		clr_country_flag = stc_on_1648
+		clr_country_flag = stc_on_1649
+		clr_country_flag = stc_on_1654
+		clr_country_flag = stc_on_1655
+		clr_country_flag = stc_on_1658
+		clr_country_flag = stc_on_1659
+		clr_country_flag = stc_on_1661
+		clr_country_flag = stc_on_1663
+		clr_country_flag = stc_on_1664
+		clr_country_flag = stc_on_1665
+		clr_country_flag = stc_on_1666
+		clr_country_flag = stc_on_1669
+		clr_country_flag = stc_on_1671
+		clr_country_flag = stc_on_1672
+		clr_country_flag = stc_on_1673
+		clr_country_flag = stc_on_1677
+		clr_country_flag = stc_on_1679
+		clr_country_flag = stc_on_1680
+		clr_country_flag = stc_on_1681
+		clr_country_flag = stc_on_1684
+		clr_country_flag = stc_on_1687
+		clr_country_flag = stc_on_1690
+		clr_country_flag = stc_on_1696
+		clr_country_flag = stc_on_1697
+		clr_country_flag = stc_on_1698
+		clr_country_flag = stc_on_1704
+		clr_country_flag = stc_on_1712
+		clr_country_flag = stc_on_1714
+		clr_country_flag = stc_on_1715
+		clr_country_flag = stc_on_1716
+		clr_country_flag = stc_on_1719
+		clr_country_flag = stc_on_1722
+		clr_country_flag = stc_on_1724
+		clr_country_flag = stc_on_1725
+		clr_country_flag = stc_on_1726
+		clr_country_flag = stc_on_1727
+		clr_country_flag = stc_on_1732
+		clr_country_flag = stc_on_1735
+		clr_country_flag = stc_on_1736
+		clr_country_flag = stc_on_1738
+		clr_country_flag = stc_on_1739
+		clr_country_flag = stc_on_1741
+		clr_country_flag = stc_on_1742
+		clr_country_flag = stc_on_1743
+		clr_country_flag = stc_on_1744
+		clr_country_flag = stc_on_1746
+		clr_country_flag = stc_on_1749
+		clr_country_flag = stc_on_1751
+		clr_country_flag = stc_on_1752
+		clr_country_flag = stc_on_1753
+		clr_country_flag = stc_on_1754
+		clr_country_flag = stc_on_1758
+		clr_country_flag = stc_on_1761
+		clr_country_flag = stc_on_1764
+		clr_country_flag = stc_on_1766
+		clr_country_flag = stc_on_1767
+		clr_country_flag = stc_on_1768
+		clr_country_flag = stc_on_1769
+		clr_country_flag = stc_on_1771
+		clr_country_flag = stc_on_1773
+		clr_country_flag = stc_on_1774
+		clr_country_flag = stc_on_1775
+		clr_country_flag = stc_on_1780
+		clr_country_flag = stc_on_1782
+		clr_country_flag = stc_on_1783
+		clr_country_flag = stc_on_1784
+		clr_country_flag = stc_on_1785
+		clr_country_flag = stc_on_1786
+		clr_country_flag = stc_on_1787
+		clr_country_flag = stc_on_1788
+		clr_country_flag = stc_on_1790
+		clr_country_flag = stc_on_1795
+		clr_country_flag = stc_on_1796
+		clr_country_flag = stc_on_1804
+		clr_country_flag = stc_on_1805
+		clr_country_flag = stc_on_1817
+		clr_country_flag = stc_on_1819
+		clr_country_flag = stc_on_1820
+		clr_country_flag = stc_on_1822
+		clr_country_flag = stc_on_1824
+		clr_country_flag = stc_on_1825
+		clr_country_flag = stc_on_1829
+		clr_country_flag = stc_on_1830
+		clr_country_flag = stc_on_1832
+		clr_country_flag = stc_on_1833
+		clr_country_flag = stc_on_1834
+		clr_country_flag = stc_on_1836
+		clr_country_flag = stc_on_1837
+		clr_country_flag = stc_on_1838
+		clr_country_flag = stc_on_1839
+		clr_country_flag = stc_on_1840
+		clr_country_flag = stc_on_1846
+		clr_country_flag = stc_on_1848
+		clr_country_flag = stc_on_1849
+		clr_country_flag = stc_on_1851
+		clr_country_flag = stc_on_1853
+		clr_country_flag = stc_on_1855
+		clr_country_flag = stc_on_1856
+		clr_country_flag = stc_on_1857
+		clr_country_flag = stc_on_1858
+		clr_country_flag = stc_on_1862
+		clr_country_flag = stc_on_1863
+		clr_country_flag = stc_on_1865
+		clr_country_flag = stc_on_1866
+		clr_country_flag = stc_on_1867
+		clr_country_flag = stc_on_187
+		clr_country_flag = stc_on_1870
+		clr_country_flag = stc_on_1872
+		clr_country_flag = stc_on_1873
+		clr_country_flag = stc_on_1887
+		clr_country_flag = stc_on_1889
+		clr_country_flag = stc_on_1899
+		clr_country_flag = stc_on_190
+		clr_country_flag = stc_on_1907
+		clr_country_flag = stc_on_1908
+		clr_country_flag = stc_on_1926
+		clr_country_flag = stc_on_1927
+		clr_country_flag = stc_on_193
+		clr_country_flag = stc_on_1932
+		clr_country_flag = stc_on_1934
+		clr_country_flag = stc_on_1935
+		clr_country_flag = stc_on_1940
+		clr_country_flag = stc_on_1941
+		clr_country_flag = stc_on_1984
+		clr_country_flag = stc_on_1985
+		clr_country_flag = stc_on_1987
+		clr_country_flag = stc_on_1989
+		clr_country_flag = stc_on_1993
+		clr_country_flag = stc_on_1996
+		clr_country_flag = stc_on_2004
+		clr_country_flag = stc_on_2009
+		clr_country_flag = stc_on_2016
+		clr_country_flag = stc_on_202
+		clr_country_flag = stc_on_2021
+		clr_country_flag = stc_on_2024
+		clr_country_flag = stc_on_2025
+		clr_country_flag = stc_on_2026
+		clr_country_flag = stc_on_203
+		clr_country_flag = stc_on_2030
+		clr_country_flag = stc_on_2031
+		clr_country_flag = stc_on_2032
+		clr_country_flag = stc_on_2033
+		clr_country_flag = stc_on_2034
+		clr_country_flag = stc_on_2035
+		clr_country_flag = stc_on_2037
+		clr_country_flag = stc_on_2038
+		clr_country_flag = stc_on_2039
+		clr_country_flag = stc_on_2040
+		clr_country_flag = stc_on_2041
+		clr_country_flag = stc_on_2043
+		clr_country_flag = stc_on_205
+		clr_country_flag = stc_on_207
+		clr_country_flag = stc_on_209
+		clr_country_flag = stc_on_252
+		clr_country_flag = stc_on_2795
+		clr_country_flag = stc_on_2800
+		clr_country_flag = stc_on_2801
+		clr_country_flag = stc_on_2804
+		clr_country_flag = stc_on_2805
+		clr_country_flag = stc_on_2806
+		clr_country_flag = stc_on_2807
+		clr_country_flag = stc_on_2808
+		clr_country_flag = stc_on_2817
+		clr_country_flag = stc_on_2822
+		clr_country_flag = stc_on_2824
+		clr_country_flag = stc_on_2825
+		clr_country_flag = stc_on_2828
+		clr_country_flag = stc_on_2829
+		clr_country_flag = stc_on_2830
+		clr_country_flag = stc_on_2831
+		clr_country_flag = stc_on_2847
+		clr_country_flag = stc_on_2848
+		clr_country_flag = stc_on_2849
+		clr_country_flag = stc_on_2851
+		clr_country_flag = stc_on_2852
+		clr_country_flag = stc_on_2853
+		clr_country_flag = stc_on_2854
+		clr_country_flag = stc_on_2855
+		clr_country_flag = stc_on_2858
+		clr_country_flag = stc_on_2859
+		clr_country_flag = stc_on_2861
+		clr_country_flag = stc_on_2862
+		clr_country_flag = stc_on_2863
+		clr_country_flag = stc_on_2864
+		clr_country_flag = stc_on_2870
+		clr_country_flag = stc_on_2875
+		clr_country_flag = stc_on_2876
+		clr_country_flag = stc_on_2877
+		clr_country_flag = stc_on_2878
+		clr_country_flag = stc_on_2879
+		clr_country_flag = stc_on_2880
+		clr_country_flag = stc_on_2881
+		clr_country_flag = stc_on_2882
+		clr_country_flag = stc_on_2884
+		clr_country_flag = stc_on_2890
+		clr_country_flag = stc_on_2891
+		clr_country_flag = stc_on_2892
+		clr_country_flag = stc_on_2893
+		clr_country_flag = stc_on_2894
+		clr_country_flag = stc_on_2895
+		clr_country_flag = stc_on_2897
+		clr_country_flag = stc_on_2898
+		clr_country_flag = stc_on_2901
+		clr_country_flag = stc_on_2920
+		clr_country_flag = stc_on_2922
+		clr_country_flag = stc_on_2927
+		clr_country_flag = stc_on_2928
+		clr_country_flag = stc_on_2929
+		clr_country_flag = stc_on_2931
+		clr_country_flag = stc_on_2932
+		clr_country_flag = stc_on_2933
+		clr_country_flag = stc_on_2934
+		clr_country_flag = stc_on_2935
+		clr_country_flag = stc_on_2936
+		clr_country_flag = stc_on_2937
+		clr_country_flag = stc_on_2938
+		clr_country_flag = stc_on_2939
+		clr_country_flag = stc_on_2940
+		clr_country_flag = stc_on_2941
+		clr_country_flag = stc_on_2942
+		clr_country_flag = stc_on_2943
+		clr_country_flag = stc_on_2945
+		clr_country_flag = stc_on_2946
+		clr_country_flag = stc_on_2947
+		clr_country_flag = stc_on_2948
+		clr_country_flag = stc_on_2950
+		clr_country_flag = stc_on_2952
+		clr_country_flag = stc_on_2953
+		clr_country_flag = stc_on_2954
+		clr_country_flag = stc_on_2955
+		clr_country_flag = stc_on_2956
+		clr_country_flag = stc_on_2962
+		clr_country_flag = stc_on_2964
+		clr_country_flag = stc_on_2965
+		clr_country_flag = stc_on_2967
+		clr_country_flag = stc_on_2968
+		clr_country_flag = stc_on_2969
+		clr_country_flag = stc_on_2970
+		clr_country_flag = stc_on_2971
+		clr_country_flag = stc_on_2972
+		clr_country_flag = stc_on_2986
+		clr_country_flag = stc_on_2990
+		clr_country_flag = stc_on_2992
+		clr_country_flag = stc_on_2993
+		clr_country_flag = stc_on_2995
+		clr_country_flag = stc_on_2996
+		clr_country_flag = stc_on_2997
+		clr_country_flag = stc_on_3091
+		clr_country_flag = stc_on_3095
+		clr_country_flag = stc_on_3106
+		clr_country_flag = stc_on_3107
+		clr_country_flag = stc_on_3110
+		clr_country_flag = stc_on_3111
+		clr_country_flag = stc_on_3112
+		clr_country_flag = stc_on_3113
+		clr_country_flag = stc_on_3118
+		clr_country_flag = stc_on_3119
+		clr_country_flag = stc_on_3120
+		clr_country_flag = stc_on_3121
+		clr_country_flag = stc_on_3122
+		clr_country_flag = stc_on_3123
+		clr_country_flag = stc_on_3124
+		clr_country_flag = stc_on_3129
+		clr_country_flag = stc_on_3130
+		clr_country_flag = stc_on_3131
+		clr_country_flag = stc_on_3132
+		clr_country_flag = stc_on_3133
+		clr_country_flag = stc_on_3144
+		clr_country_flag = stc_on_3152
+		clr_country_flag = stc_on_3153
+		clr_country_flag = stc_on_3156
+		clr_country_flag = stc_on_3290
+		clr_country_flag = stc_on_3291
+		clr_country_flag = stc_on_333
+		clr_country_flag = stc_on_342
+		clr_country_flag = stc_on_343
+		clr_country_flag = stc_on_3499
+		clr_country_flag = stc_on_3500
+		clr_country_flag = stc_on_3503
+		clr_country_flag = stc_on_3504
+		clr_country_flag = stc_on_3505
+		clr_country_flag = stc_on_3506
+		clr_country_flag = stc_on_3511
+		clr_country_flag = stc_on_3512
+		clr_country_flag = stc_on_3513
+		clr_country_flag = stc_on_3514
+		clr_country_flag = stc_on_3570
+		clr_country_flag = stc_on_3571
+		clr_country_flag = stc_on_3572
+		clr_country_flag = stc_on_3573
+		clr_country_flag = stc_on_3574
+		clr_country_flag = stc_on_3581
+		clr_country_flag = stc_on_3622
+		clr_country_flag = stc_on_3623
+		clr_country_flag = stc_on_3624
+		clr_country_flag = stc_on_3625
+		clr_country_flag = stc_on_3646
+		clr_country_flag = stc_on_3949
+		clr_country_flag = stc_on_3950
+		clr_country_flag = stc_on_3996
+		clr_country_flag = stc_on_3997
+		clr_country_flag = stc_on_3998
+		clr_country_flag = stc_on_3999
+		clr_country_flag = stc_on_4000
+		clr_country_flag = stc_on_413
+		clr_country_flag = stc_on_415
+		clr_country_flag = stc_on_417
+		clr_country_flag = stc_on_446
+		clr_country_flag = stc_on_447
+		clr_country_flag = stc_on_448
+		clr_country_flag = stc_on_449
+		clr_country_flag = stc_on_450
+		clr_country_flag = stc_on_452
+		clr_country_flag = stc_on_453
+		clr_country_flag = stc_on_454
+		clr_country_flag = stc_on_455
+		clr_country_flag = stc_on_456
+		clr_country_flag = stc_on_473
+		clr_country_flag = stc_on_475
+		clr_country_flag = stc_on_482
+		clr_country_flag = stc_on_489
+		clr_country_flag = stc_on_491
+		clr_country_flag = stc_on_737
+		clr_country_flag = stc_on_741
+		clr_country_flag = stc_on_743
+		clr_country_flag = stc_on_745
+		clr_country_flag = stc_on_746
+		clr_country_flag = stc_on_747
+		clr_country_flag = stc_on_748
+		clr_country_flag = stc_on_749
+		clr_country_flag = stc_on_750
+		clr_country_flag = stc_on_751
+		clr_country_flag = stc_on_752
+		clr_country_flag = stc_on_810
+		clr_country_flag = stc_on_813
+		clr_country_flag = stc_on_822
+		clr_country_flag = stc_on_824
+		clr_country_flag = stc_on_825
+		clr_country_flag = stc_on_832
+		clr_country_flag = stc_on_837
+		clr_country_flag = stc_on_946
+		clr_country_flag = stc_on_957
+		clr_country_flag = stc_on_958
+		clr_country_flag = stc_on_959
+		clr_country_flag = stc_on_961
+		clr_country_flag = stc_on_963
+		clr_country_flag = stc_on_964
+		clr_country_flag = stc_on_965
+		clr_country_flag = stc_on_966
+		clr_country_flag = stc_on_970
+		clr_country_flag = stc_on_972
+		clr_country_flag = stc_on_975
+		clr_country_flag = stc_on_976
+		clr_country_flag = stc_on_981
+	}
+	
+	option = {
+		name = stc_events.1.a
+		ai_chance = { factor = 100 }
+		random_list = {
+			50 = {
+				country_event = {
+					id = stc_events.2
+					days = 6
+					random = 3
+				}
+			}
+			50 = {
+				country_event = {
+					id = stc_events.3
+					days = 6
+					random = 3
+				}
+			}
+		}
+	}
+	option = {
+		name = stc_events.1.b
+		ai_chance = { factor = 0 }
+		clr_country_flag = on_stc_hunt
+		add_prestige = -5
+	}
+}
+
+country_event = { #Rumours Negative
+	id = stc_events.2
+	title = stc_events.2.t
+	desc = stc_events.2.d
+	picture = STC_3_eventPicture
+	goto = stc_location
+
+	is_triggered_only = yes
+	
+	option = {
+		name = stc_events.2.a
+		ai_chance = { factor = 100 }
+		add_dip_power = -150
+		random_list = {
+			46.25 = {
+				country_event = {
+					id = stc_events.2
+					days = 6
+					random = 3
+				}
+			}
+			46.25 = {
+				country_event = {
+					id = stc_events.3
+					days = 6
+					random = 3
+				}
+			}
+			7.5 = {
+				country_event = {
+					id = stc_events.4
+					days = 6
+					random = 3
+				}
+			}
+		}
+	}
+	option = {
+		name = stc_events.2.b
+		ai_chance = { factor = 0 }
+		country_event = {
+			id = stc_events.4
+			days = 3
+		}
+	}
+}
+
+country_event = { #Rumours Positive
+	id = stc_events.3
+	title = stc_events.3.t
+	desc = stc_events.3.d
+	picture = STC_3_eventPicture
+	goto = stc_location
+
+	is_triggered_only = yes
+	
+	option = {
+		name = stc_events.3.a
+		ai_chance = { factor = 100 }
+		random_list = {
+			62.5 = {
+				country_event = {
+					id = stc_events.5
+					days = 6
+					random = 3
+				}
+			}
+			30 = {
+				country_event = {
+					id = stc_events.2
+					days = 6
+					random = 3
+				}
+			}
+			7.5 = {
+				country_event = {
+					id = stc_events.4
+					days = 6
+					random = 3
+				}
+			}
+		}
+	}
+	option = {
+		name = stc_events.3.b
+		ai_chance = { factor = 0 }
+		random_list = {
+			92.5 = {
+				country_event = {
+					id = stc_events.5
+					days = 8 #1080
+					random = 3
+				}
+			}
+			7.5 = {
+				country_event = {
+					id = stc_events.4
+					days = 6
+					random = 3
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Rumours False
+	id = stc_events.4
+	title = stc_events.4.t
+	desc = stc_events.4.d
+	picture = STC_3_eventPicture
+	goto = stc_location
+
+	is_triggered_only = yes
+	
+	option = {
+		name = stc_events.4.a
+		ai_chance = { factor = 100 }
+		clr_country_flag = on_stc_hunt
+		add_prestige = -15
+	}
+}
+
+country_event = { #Expedition
+	id = stc_events.5
+	title = stc_events.5.t
+	desc = stc_events.5.d
+	picture = STC_4_eventPicture
+	goto = stc_location
+
+	is_triggered_only = yes
+	
+	option = {
+		name = stc_events.5.a
+		ai_chance = { factor = 100 }
+		random_list = {
+			50 = {
+				country_event = {
+					id = stc_events.6
+					days = 6
+					random = 3
+				}
+			}
+			50 = {
+				country_event = {
+					id = stc_events.7
+					days = 6
+					random = 3
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Expedition Negative
+	id = stc_events.6
+	title = stc_events.6.t
+	desc = stc_events.6.d
+	picture = STC_4_eventPicture
+	goto = stc_location
+
+	is_triggered_only = yes
+	
+	option = {
+		name = stc_events.6.a
+		ai_chance = { factor = 100 }
+		if = {
+			limit = {
+				NOT = {
+					monthly_income = 12.5
+				}
+			}
+			add_treasury = -150
+		}
+		else = {
+			add_years_of_income = -1
+		}
+		random_list = {
+			46.25 = {
+				country_event = {
+					id = stc_events.6
+					days = 6
+					random = 3
+				}
+			}
+			46.25 = {
+				country_event = {
+					id = stc_events.7
+					days = 6
+					random = 3
+				}
+			}
+			7.5 = {
+				country_event = {
+					id = stc_events.8
+					days = 6
+					random = 3
+				}
+			}
+		}
+	}
+	option = {
+		name = stc_events.6.b
+		ai_chance = { factor = 0 }
+		country_event = {
+			id = stc_events.9
+			days = 6
+			random = 3
+		}
+	}
+}
+
+country_event = { #Expedition Positive
+	id = stc_events.7
+	title = stc_events.7.t
+	desc = stc_events.7.d
+	picture = STC_4_eventPicture
+	goto = stc_location
+
+	is_triggered_only = yes
+	
+	option = {
+		name = stc_events.7.a
+		ai_chance = { factor = 100 }
+		random_list = {
+			62.5 = {
+				country_event = {
+					id = stc_events.10
+					days = 6
+					random = 3
+				}
+			}
+			30 = {
+				country_event = {
+					id = stc_events.6
+					days = 6
+					random = 3
+				}
+			}
+			7.5 = {
+				country_event = {
+					id = stc_events.8
+					days = 6
+					random = 3
+				}
+			}
+		}
+	}
+	option = {
+		name = stc_events.7.b
+		ai_chance = { factor = 0 }
+		random_list = {
+			92.5 = {
+				country_event = {
+					id = stc_events.10
+					days = 8 #1080
+					random = 3
+				}
+			}
+			7.5 = {
+				country_event = {
+					id = stc_events.8
+					days = 6
+					random = 3
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Momentum Failure
+	id = stc_events.8
+	title = stc_events.8.t
+	desc = stc_events.8.d
+	picture = STC_4_eventPicture
+	goto = stc_location
+
+	is_triggered_only = yes
+	
+	option = {
+		name = stc_events.8.a
+		ai_chance = { factor = 100 }
+		clr_country_flag = on_stc_hunt
+		add_prestige = -15
+	}
+}
+
+country_event = { #Alt Rumours
+	id = stc_events.9
+	title = stc_events.9.t
+	desc = stc_events.9.d
+	picture = STC_3_eventPicture
+	goto = stc_location
+
+	is_triggered_only = yes
+	
+	option = {
+		name = stc_events.9.a
+		ai_chance = { factor = 100 }
+		random_list = {
+			50 = {
+				country_event = {
+					id = stc_events.2
+					days = 6
+					random = 3
+				}
+			}
+			50 = {
+				country_event = {
+					id = stc_events.3
+					days = 6
+					random = 3
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Appointment
+	id = stc_events.10
+	title = stc_events.10.t
+	desc = stc_events.10.d
+	picture = STC_8_eventPicture
+	goto = stc_location
+
+	is_triggered_only = yes
+	
+	option = {
+		name = stc_events.10.a
+		ai_chance = { factor = 100 }
+		random_list = {
+			50 = {
+				country_event = {
+					id = stc_events.11
+					days = 6
+					random = 3
+				}
+			}
+			50 = {
+				country_event = {
+					id = stc_events.12
+					days = 6
+					random = 3
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Appointment Negative
+	id = stc_events.11
+	title = stc_events.11.t
+	desc = stc_events.11.d
+	picture = STC_8_eventPicture
+	goto = stc_location
+
+	is_triggered_only = yes
+	
+	option = {
+		name = stc_events.11.a
+		ai_chance = { factor = 100 }
+		add_adm_power = -150
+		random_list = {
+			46.25 = {
+				country_event = {
+					id = stc_events.11
+					days = 6
+					random = 3
+				}
+			}
+			46.25 = {
+				country_event = {
+					id = stc_events.12
+					days = 6
+					random = 3
+				}
+			}
+			7.5 = {
+				country_event = {
+					id = stc_events.13
+					days = 6
+					random = 3
+				}
+			}
+		}
+	}
+	option = {
+		name = stc_events.11.b
+		ai_chance = { factor = 0 }
+		country_event = {
+			id = stc_events.14
+			days = 6
+			random = 3
+		}
+	}
+}
+
+country_event = { #Appointment Positive
+	id = stc_events.12
+	title = stc_events.12.t
+	desc = stc_events.12.d
+	picture = STC_8_eventPicture
+	goto = stc_location
+
+	is_triggered_only = yes
+	
+	option = {
+		name = stc_events.12.a
+		ai_chance = { factor = 100 }
+		random_list = {
+			62.5 = {
+				country_event = {
+					id = stc_events.15
+					days = 6
+					random = 3
+				}
+			}
+			30 = {
+				country_event = {
+					id = stc_events.11
+					days = 6
+					random = 3
+				}
+			}
+			7.5 = {
+				country_event = {
+					id = stc_events.13
+					days = 6
+					random = 3
+				}
+			}
+		}
+	}
+	option = {
+		name = stc_events.12.b
+		ai_chance = { factor = 0 }
+		random_list = {
+			92.5 = {
+				country_event = {
+					id = stc_events.15
+					days = 8 #1080
+					random = 3
+				}
+			}
+			7.5 = {
+				country_event = {
+					id = stc_events.13
+					days = 6
+					random = 3
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Assasination Failure
+	id = stc_events.13
+	title = stc_events.13.t
+	desc = stc_events.13.d
+	picture = STC_12_eventPicture
+	goto = stc_location
+
+	is_triggered_only = yes
+	
+	option = {
+		name = stc_events.13.a
+		ai_chance = { factor = 100 }
+		clr_country_flag = on_stc_hunt
+		add_prestige = -15
+	}
+}
+
+country_event = { #Alt Expedition
+	id = stc_events.14
+	title = stc_events.14.t
+	desc = stc_events.14.d
+	picture = STC_4_eventPicture
+	goto = stc_location
+
+	is_triggered_only = yes
+	
+	option = {
+		name = stc_events.14.a
+		ai_chance = { factor = 100 }
+		random_list = {
+			50 = {
+				country_event = {
+					id = stc_events.6
+					days = 6
+					random = 3
+				}
+			}
+			50 = {
+				country_event = {
+					id = stc_events.7
+					days = 6
+					random = 3
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Sweeps
+	id = stc_events.15
+	title = stc_events.15.t
+	desc = stc_events.15.d
+	picture = STC_2_eventPicture
+	goto = stc_location
+
+	is_triggered_only = yes
+	
+	option = {
+		name = stc_events.15.a
+		ai_chance = { factor = 100 }
+		random_list = {
+			50 = {
+				country_event = {
+					id = stc_events.16
+					days = 6
+					random = 3
+				}
+			}
+			50 = {
+				country_event = {
+					id = stc_events.17
+					days = 6
+					random = 3
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Sweeps Negative
+	id = stc_events.16
+	title = stc_events.16.t
+	desc = stc_events.16.d
+	picture = STC_2_eventPicture
+	goto = stc_location
+
+	is_triggered_only = yes
+	
+	option = {
+		name = stc_events.16.a
+		ai_chance = { factor = 100 }
+		add_yearly_manpower = -1
+		random_list = {
+			46.25 = {
+				country_event = {
+					id = stc_events.16
+					days = 6
+					random = 3
+				}
+			}
+			46.25 = {
+				country_event = {
+					id = stc_events.17
+					days = 6
+					random = 3
+				}
+			}
+			7.5 = {
+				country_event = {
+					id = stc_events.18
+					days = 6
+					random = 3
+				}
+			}
+		}
+	}
+	option = {
+		name = stc_events.16.b
+		ai_chance = { factor = 0 }
+		country_event = {
+			id = stc_events.19
+			days = 6
+			random = 3
+		}
+	}
+}
+
+country_event = { #Sweeps Positive
+	id = stc_events.17
+	title = stc_events.17.t
+	desc = stc_events.17.d
+	picture = STC_2_eventPicture
+	goto = stc_location
+
+	is_triggered_only = yes
+	
+	option = {
+		name = stc_events.17.a
+		ai_chance = { factor = 100 }
+		random_list = {
+			62.5 = {
+				country_event = {
+					id = stc_events.20
+					days = 6
+					random = 3
+				}
+			}
+			30 = {
+				country_event = {
+					id = stc_events.16
+					days = 6
+					random = 3
+				}
+			}
+			7.5 = {
+				country_event = {
+					id = stc_events.18
+					days = 6
+					random = 3
+				}
+			}
+		}
+	}
+	option = {
+		name = stc_events.17.b
+		ai_chance = { factor = 0 }
+		random_list = {
+			92.5 = {
+				country_event = {
+					id = stc_events.20
+					days = 8 #1080
+					random = 3
+				}
+			}
+			7.5 = {
+				country_event = {
+					id = stc_events.18
+					days = 6
+					random = 3
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Xenos Failure
+	id = stc_events.18
+	title = stc_events.18.t
+	desc = stc_events.18.d
+	picture = STC_10_eventPicture
+	goto = stc_location
+
+	is_triggered_only = yes
+	
+	option = {
+		name = stc_events.18.a
+		ai_chance = { factor = 100 }
+		event_target:stc_location = {
+			change_trade_goods = xeno_technology
+		}
+		clr_country_flag = on_stc_hunt
+		add_prestige = -10
+	}
+}
+
+country_event = { #Alt Appointment
+	id = stc_events.19
+	title = stc_events.19.t
+	desc = stc_events.19.d
+	picture = STC_8_eventPicture
+	goto = stc_location
+
+	is_triggered_only = yes
+	
+	option = {
+		name = stc_events.19.a
+		ai_chance = { factor = 100 }
+		random_list = {
+			50 = {
+				country_event = {
+					id = stc_events.11
+					days = 6
+					random = 3
+				}
+			}
+			50 = {
+				country_event = {
+					id = stc_events.12
+					days = 6
+					random = 3
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Complex
+	id = stc_events.20
+	title = stc_events.20.t
+	desc = stc_events.20.d
+	picture = STC_9_eventPicture
+	goto = stc_location
+
+	is_triggered_only = yes
+	
+	option = {
+		name = stc_events.20.a
+		ai_chance = { factor = 100 }
+		random_list = {
+			50 = {
+				country_event = {
+					id = stc_events.21
+					days = 6
+					random = 3
+				}
+			}
+			50 = {
+				country_event = {
+					id = stc_events.22
+					days = 6
+					random = 3
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Complex Negative
+	id = stc_events.21
+	title = stc_events.21.t
+	desc = stc_events.21.d
+	picture = STC_9_eventPicture
+	goto = stc_location
+
+	is_triggered_only = yes
+	
+	option = {
+		name = stc_events.21.a
+		ai_chance = { factor = 100 }
+		add_mil_power = -150
+		random_list = {
+			46.25 = {
+				country_event = {
+					id = stc_events.21
+					days = 6
+					random = 3
+				}
+			}
+			46.25 = {
+				country_event = {
+					id = stc_events.22
+					days = 6
+					random = 3
+				}
+			}
+			7.5 = {
+				country_event = {
+					id = stc_events.23
+					days = 6
+					random = 3
+				}
+			}
+		}
+	}
+	option = {
+		name = stc_events.21.b
+		ai_chance = { factor = 0 }
+		country_event = {
+			id = stc_events.24
+			days = 6
+			random = 3
+		}
+	}
+}
+
+country_event = { #Complex Positive
+	id = stc_events.22
+	title = stc_events.22.t
+	desc = stc_events.22.d
+	picture = STC_9_eventPicture
+	goto = stc_location
+
+	is_triggered_only = yes
+	
+	option = {
+		name = stc_events.22.a
+		ai_chance = { factor = 100 }
+		random_list = {
+			62.5 = {
+				country_event = {
+					id = stc_events.25
+					days = 6
+					random = 3
+				}
+			}
+			30 = {
+				country_event = {
+					id = stc_events.21
+					days = 6
+					random = 3
+				}
+			}
+			7.5 = {
+				country_event = {
+					id = stc_events.23
+					days = 6
+					random = 3
+				}
+			}
+		}
+	}
+	option = {
+		name = stc_events.22.b
+		ai_chance = { factor = 0 }
+		random_list = {
+			92.5 = {
+				country_event = {
+					id = stc_events.25
+					days = 8 #1080
+					random = 3
+				}
+			}
+			7.5 = {
+				country_event = {
+					id = stc_events.23
+					days = 6
+					random = 3
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Xenos Failure 2
+	id = stc_events.23
+	title = stc_events.23.t
+	desc = stc_events.23.d
+	picture = STC_10_eventPicture
+	goto = stc_location
+
+	is_triggered_only = yes
+	
+	option = {
+		name = stc_events.23.a
+		ai_chance = { factor = 100 }
+		event_target:stc_location = {
+			change_trade_goods = xeno_technology
+		}
+		clr_country_flag = on_stc_hunt
+		add_prestige = -10
+	}
+}
+
+country_event = { #Alt Sweeps
+	id = stc_events.24
+	title = stc_events.24.t
+	desc = stc_events.24.d
+	picture = STC_2_eventPicture
+	goto = stc_location
+
+	is_triggered_only = yes
+	
+	option = {
+		name = stc_events.24.a
+		ai_chance = { factor = 100 }
+		random_list = {
+			50 = {
+				country_event = {
+					id = stc_events.16
+					days = 6
+					random = 3
+				}
+			}
+			50 = {
+				country_event = {
+					id = stc_events.17
+					days = 6
+					random = 3
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Excavation
+	id = stc_events.25
+	title = stc_events.25.t
+	desc = stc_events.25.d
+	picture = STC_6_eventPicture
+	goto = stc_location
+
+	is_triggered_only = yes
+	
+	option = {
+		name = stc_events.25.a
+		ai_chance = { factor = 100 }
+		random_list = {
+			50 = {
+				country_event = {
+					id = stc_events.26
+					days = 6
+					random = 3
+				}
+			}
+			50 = {
+				country_event = {
+					id = stc_events.27
+					days = 6
+					random = 3
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Excavation Negative
+	id = stc_events.26
+	title = stc_events.26.t
+	desc = stc_events.26.d
+	picture = STC_6_eventPicture
+	goto = stc_location
+
+	is_triggered_only = yes
+	
+	option = {
+		name = stc_events.26.a
+		ai_chance = { factor = 100 }
+		add_devotion = -25
+		random_list = {
+			46.25 = {
+				country_event = {
+					id = stc_events.26
+					days = 6
+					random = 3
+				}
+			}
+			46.25 = {
+				country_event = {
+					id = stc_events.27
+					days = 6
+					random = 3
+				}
+			}
+			7.5 = {
+				country_event = {
+					id = stc_events.28
+					days = 6
+					random = 3
+				}
+			}
+		}
+	}
+	option = {
+		name = stc_events.26.b
+		ai_chance = { factor = 0 }
+		country_event = {
+			id = stc_events.29
+			days = 6
+			random = 3
+		}
+	}
+}
+
+country_event = { #Excavation Positive
+	id = stc_events.27
+	title = stc_events.27.t
+	desc = stc_events.27.d
+	picture = STC_6_eventPicture
+	goto = stc_location
+
+	is_triggered_only = yes
+	
+	option = {
+		name = stc_events.27.a
+		ai_chance = { factor = 100 }
+		random_list = {
+			62.5 = {
+				country_event = {
+					id = stc_events.30
+					days = 6
+					random = 3
+				}
+			}
+			30 = {
+				country_event = {
+					id = stc_events.26
+					days = 6
+					random = 3
+				}
+			}
+			7.5 = {
+				country_event = {
+					id = stc_events.28
+					days = 6
+					random = 3
+				}
+			}
+		}
+	}
+	option = {
+		name = stc_events.27.b
+		ai_chance = { factor = 0 }
+		random_list = {
+			92.5 = {
+				country_event = {
+					id = stc_events.30
+					days = 8 #1080
+					random = 3
+				}
+			}
+			7.5 = {
+				country_event = {
+					id = stc_events.28
+					days = 6
+					random = 3
+				}
+			}
+		}
+	}
+}
+
+country_event = { #AI Failure
+	id = stc_events.28
+	title = stc_events.28.t
+	desc = stc_events.28.d
+	picture = STC_7_eventPicture
+	goto = stc_location
+
+	is_triggered_only = yes
+	
+	option = {
+		name = stc_events.28.a
+		ai_chance = { factor = 100 }
+		event_target:stc_location = {
+			add_random_development = -3
+			change_trade_goods = archeotech
+		}
+		clr_country_flag = on_stc_hunt
+		add_prestige = -5
+	}
+}
+
+country_event = { #Alt Complex
+	id = stc_events.29
+	title = stc_events.29.t
+	desc = stc_events.29.d
+	picture = STC_9_eventPicture
+	goto = stc_location
+
+	is_triggered_only = yes
+	
+	option = {
+		name = stc_events.29.a
+		ai_chance = { factor = 100 }
+		random_list = {
+			50 = {
+				country_event = {
+					id = stc_events.21
+					days = 6
+					random = 3
+				}
+			}
+			50 = {
+				country_event = {
+					id = stc_events.22
+					days = 6
+					random = 3
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Analysis
+	id = stc_events.30
+	title = stc_events.30.t
+	desc = stc_events.30.d
+	picture = STC_11_eventPicture
+	goto = stc_location
+
+	is_triggered_only = yes
+	
+	option = {
+		name = stc_events.30.a
+		ai_chance = { factor = 100 }
+		random_list = {
+			50 = {
+				country_event = {
+					id = stc_events.31
+					days = 6
+					random = 3
+				}
+			}
+			50 = {
+				country_event = {
+					id = stc_events.32
+					days = 6
+					random = 3
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Analysis Negative
+	id = stc_events.31
+	title = stc_events.31.t
+	desc = stc_events.31.d
+	picture = STC_11_eventPicture
+	goto = stc_location
+
+	is_triggered_only = yes
+	
+	option = {
+		name = stc_events.31.a
+		ai_chance = { factor = 100 }
+		add_corruption = 10
+		random_list = {
+			46.25 = {
+				country_event = {
+					id = stc_events.31
+					days = 6
+					random = 3
+				}
+			}
+			46.25 = {
+				country_event = {
+					id = stc_events.32
+					days = 6
+					random = 3
+				}
+			}
+			7.5 = {
+				country_event = {
+					id = stc_events.33
+					days = 6
+					random = 3
+				}
+			}
+		}
+	}
+	option = {
+		name = stc_events.31.b
+		ai_chance = { factor = 0 }
+		country_event = {
+			id = stc_events.34
+			days = 6
+			random = 3
+		}
+	}
+}
+
+country_event = { #Analysis Positive
+	id = stc_events.32
+	title = stc_events.32.t
+	desc = stc_events.32.d
+	picture = STC_11_eventPicture
+	goto = stc_location
+
+	is_triggered_only = yes
+	
+	option = {
+		name = stc_events.32.a
+		ai_chance = { factor = 100 }
+		random_list = {
+			62.5 = {
+				country_event = {
+					id = stc_events.35
+					days = 6
+					random = 3
+				}
+			}
+			30 = {
+				country_event = {
+					id = stc_events.31
+					days = 6
+					random = 3
+				}
+			}
+			7.5 = {
+				country_event = {
+					id = stc_events.33
+					days = 6
+					random = 3
+				}
+			}
+		}
+	}
+	option = {
+		name = stc_events.32.b
+		ai_chance = { factor = 0 }
+		random_list = {
+			92.5 = {
+				country_event = {
+					id = stc_events.35
+					days = 8 #1080
+					random = 3
+				}
+			}
+			7.5 = {
+				country_event = {
+					id = stc_events.33
+					days = 6
+					random = 3
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Chaos Failure
+	id = stc_events.33
+	title = stc_events.33.t
+	desc = stc_events.33.d
+	picture = STC_1_eventPicture
+	goto = stc_location
+
+	is_triggered_only = yes
+	
+	option = {
+		name = stc_events.33.a
+		ai_chance = { factor = 100 }
+		event_target:stc_location = {
+			add_random_development = -3
+			change_trade_goods = archeotech
+		}
+		clr_country_flag = on_stc_hunt
+		add_prestige = -5
+	}
+}
+
+country_event = { #Alt Excavation
+	id = stc_events.34
+	title = stc_events.34.t
+	desc = stc_events.34.d
+	picture = STC_6_eventPicture
+	goto = stc_location
+
+	is_triggered_only = yes
+	
+	option = {
+		name = stc_events.34.a
+		ai_chance = { factor = 100 }
+		random_list = {
+			50 = {
+				country_event = {
+					id = stc_events.26
+					days = 6
+					random = 3
+				}
+			}
+			50 = {
+				country_event = {
+					id = stc_events.27
+					days = 6
+					random = 3
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Success!
+	id = stc_events.35
+	title = stc_events.35.t
+	desc = stc_events.35.d
+	picture = STC_5_eventPicture
+	goto = stc_location
+
+	is_triggered_only = yes
+	
+	option = {
+		name = stc_events.35.a
+		ai_chance = { factor = 100 }
+		event_target:stc_location = {
+			change_trade_goods = archeotech 
+		}
+		clr_country_flag = on_stc_hunt
+		add_prestige = 15
+		capital_scope = {
+			random_list = {
+				10 = {
+					set_global_flag = arc_riveting_found
+					add_province_modifier = {
+						name = origin_of_arc_riveting
+						duration = -1  
+						desc = origin_of_arc_riveting_tooltip
+					}
+					save_global_event_target_as = origin_of_arc_riveting
+					owner = { set_country_flag = heard_about_arc_riveting }
+					add_institution_embracement = {
+						which = renaissance
+						value = 100
+					}
+					modifier = {
+						factor = 0
+						has_global_flag = arc_riveting_found
+					}
+				}
+				10 = {
+					set_global_flag = data_loom_found
+					add_province_modifier = {
+						name = origin_of_data_loom
+						duration = -1  
+						desc = origin_of_data_loom_tooltip
+					}
+					save_global_event_target_as = origin_of_data_loom
+					owner = { set_country_flag = heard_about_data_loom }
+					add_institution_embracement = {
+						which = new_world_i
+						value = 100
+					}
+					modifier = {
+						factor = 0
+						has_global_flag = data_loom_found
+					}
+				}
+				10 = {
+					set_global_flag = multi_laser_found
+					add_province_modifier = {
+						name = origin_of_multi_laser
+						duration = -1  
+						desc = origin_of_multi_laser_tooltip
+					}
+					save_global_event_target_as = origin_of_multi_laser
+					owner = { set_country_flag = heard_about_multi_laser }
+					add_institution_embracement = {
+						which = printing_press
+						value = 100
+					}
+					modifier = {
+						factor = 0
+						has_global_flag = multi_laser_found
+					}
+				}
+				10 = {
+					set_global_flag = holoprojector_found
+					add_province_modifier = {
+						name = origin_of_holoprojector
+						duration = -1  
+						desc = origin_of_holoprojector_tooltip
+					}
+					save_global_event_target_as = origin_of_holoprojector
+					owner = { set_country_flag = heard_about_holoprojector }
+					add_institution_embracement = {
+						which = global_trade
+						value = 100
+					}
+					modifier = {
+						factor = 0
+						has_global_flag = holoprojector_found
+					}
+				}
+				10 = {
+					set_global_flag = rockcrete_found
+					add_province_modifier = {
+						name = origin_of_rockcrete
+						duration = -1  
+						desc = origin_of_rockcrete_tooltip
+					}
+					save_global_event_target_as = origin_of_rockcrete
+					owner = { set_country_flag = heard_about_rockcrete }
+					add_institution_embracement = {
+						which = manufactories
+						value = 100
+					}
+					modifier = {
+						factor = 0
+						has_global_flag = rockcrete_found
+					}
+				}
+				10 = {
+					set_global_flag = volus_salve_found
+					add_province_modifier = {
+						name = origin_of_volus_salve
+						duration = -1  
+						desc = origin_of_volus_salve_tooltip
+					}
+					save_global_event_target_as = origin_of_volus_salve
+					owner = { set_country_flag = heard_about_volus_salve }
+					add_institution_embracement = {
+						which = enlightenment
+						value = 100
+					}
+					modifier = {
+						factor = 0
+						has_global_flag = volus_salve_found
+					}
+				}
+				10 = {
+					set_global_flag = gyrus_drive_found
+					add_province_modifier = {
+						name = origin_of_gyrus_drive
+						duration = -1  
+						desc = origin_of_gyrus_drive_tooltip
+					}
+					save_global_event_target_as = origin_of_gyrus_drive
+					owner = { set_country_flag = heard_about_gyrus_drive }
+					add_institution_embracement = {
+						which = industrialization
+						value = 100
+					}
+					modifier = {
+						factor = 0
+						has_global_flag = gyrus_drive_found
+					}
+				}
+			}
+		}
+	}
+}
+
+country_event = { #global arc riveting found
+	id = stc_events.36
+	title = stc_events.36
+	desc = stc_events.36
+	picture = STC_2_eventPicture
+	goto = stc_location
+	
+	trigger = {
+		has_global_flag = arc_riveting_found
+		NOT = { has_country_flag = heard_about_arc_riveting }
+		any_known_country = {
+			has_country_flag = heard_about_arc_riveting
+		}
+		OR = {
+			technology_group = imperial
+			AND = {
+				technology_group = mechanicus
+				religion_group = emperor_group
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		set_country_flag = heard_about_arc_riveting
+		event_target:origin_of_arc_riveting = { save_event_target_as = stc_location }
+	}
+	
+	option = {
+		name = stc_events.36.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = { #global data loom found
+	id = stc_events.37
+	title = stc_events.37
+	desc = stc_events.37
+	picture = STC_2_eventPicture
+	goto = stc_location
+	
+	trigger = {
+		has_global_flag = data_loom_found
+		NOT = { has_country_flag = heard_about_data_loom }
+		any_known_country = {
+			has_country_flag = heard_about_data_loom
+		}
+		OR = {
+			technology_group = imperial
+			AND = {
+				technology_group = mechanicus
+				religion_group = emperor_group
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		set_country_flag = heard_about_data_loom
+		event_target:origin_of_data_loom = { save_event_target_as = stc_location }
+	}
+	
+	option = {
+		name = stc_events.37.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = { #global multi laser found
+	id = stc_events.38
+	title = stc_events.38
+	desc = stc_events.38
+	picture = STC_2_eventPicture
+	goto = stc_location
+	
+	trigger = {
+		has_global_flag = multi_laser_found
+		NOT = { has_country_flag = heard_about_multi_laser }
+		any_known_country = {
+			has_country_flag = heard_about_multi_laser
+		}
+		OR = {
+			technology_group = imperial
+			AND = {
+				technology_group = mechanicus
+				religion_group = emperor_group
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		set_country_flag = heard_about_multi_laser
+		event_target:origin_of_multi_laser = { save_event_target_as = stc_location }
+	}
+	
+	option = {
+		name = stc_events.38.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = { #global holoprojector found
+	id = stc_events.39
+	title = stc_events.39
+	desc = stc_events.39
+	picture = STC_2_eventPicture
+	goto = stc_location
+	
+	trigger = {
+		has_global_flag = holoprojector_found
+		NOT = { has_country_flag = heard_about_holoprojector }
+		any_known_country = {
+			has_country_flag = heard_about_holoprojector
+		}
+		OR = {
+			technology_group = imperial
+			AND = {
+				technology_group = mechanicus
+				religion_group = emperor_group
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		set_country_flag = heard_about_holoprojector
+		event_target:origin_of_holoprojector = { save_event_target_as = stc_location }
+	}
+	
+	option = {
+		name = stc_events.39.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = { #global rockcrete found
+	id = stc_events.40
+	title = stc_events.40
+	desc = stc_events.40
+	picture = STC_2_eventPicture
+	goto = stc_location
+	
+	trigger = {
+		has_global_flag = rockcrete_found
+		NOT = { has_country_flag = heard_about_rockcrete }
+		any_known_country = {
+			has_country_flag = heard_about_rockcrete
+		}
+		OR = {
+			technology_group = imperial
+			AND = {
+				technology_group = mechanicus
+				religion_group = emperor_group
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		set_country_flag = heard_about_rockcrete
+		event_target:origin_of_rockcrete = { save_event_target_as = stc_location }
+	}
+	
+	option = {
+		name = stc_events.40.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = { #global volus salve found
+	id = stc_events.41
+	title = stc_events.41
+	desc = stc_events.41
+	picture = STC_2_eventPicture
+	goto = stc_location
+	
+	trigger = {
+		has_global_flag = volus_salve_found
+		NOT = { has_country_flag = heard_about_volus_salve }
+		any_known_country = {
+			has_country_flag = heard_about_volus_salve
+		}
+		OR = {
+			technology_group = imperial
+			AND = {
+				technology_group = mechanicus
+				religion_group = emperor_group
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		set_country_flag = heard_about_volus_salve
+		event_target:origin_of_volus_salve = { save_event_target_as = stc_location }
+	}
+	
+	option = {
+		name = stc_events.41.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = { #global gyrus drive found
+	id = stc_events.42
+	title = stc_events.42
+	desc = stc_events.42
+	picture = STC_2_eventPicture
+	goto = stc_location
+	
+	trigger = {
+		has_global_flag = gyrus_drive_found
+		NOT = { has_country_flag = heard_about_gyrus_drive }
+		any_known_country = {
+			has_country_flag = heard_about_gyrus_drive
+		}
+		OR = {
+			technology_group = imperial
+			AND = {
+				technology_group = mechanicus
+				religion_group = emperor_group
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		set_country_flag = heard_about_gyrus_drive
+		event_target:origin_of_gyrus_drive = { save_event_target_as = stc_location }
+	}
+	
+	option = {
+		name = stc_events.42.a
+		ai_chance = { factor = 100 }
+	}
+}

@@ -278,7 +278,7 @@ colonial.18.t:0 "Colonial Migration"
 colonial.18.d:0 "Settlements in the fringe and dynamic borders of the empire often tend to have a life of their own. The most recent example is the reshuffling of settlers in one of the colonial sectors. There is little we can do to stop them now as [Root.Owner.GetAdjective] villages and towns have already begun appearing all over the hinterlands."
 colonial.18.a:0 "The grass is greener..."
 
-colonial.19.t:0 "archeotech Discovered!"
+colonial.19.t:0 "Archeotech Discovered!"
 colonial.19.d:0 "After countless attempts at finding the precious resource, we have finally found some archeotech in $PROVINCENAME$."
 colonial.19.a:0 "Finally."
 
@@ -900,3 +900,129 @@ apotheosis_chaos_desc:0 "Look at what you made me do, Father."
 imperial_events.5.t:0 "End Of The Line"
 imperial_events.5.d:0 "We knew that our mission was a challenging one. But we did not expect such fierceness from the metallic hordes. Ours was always a task comprised of the utmost danger, one we would most likely fail. That is precisely what has come to pass. \n \nDespite our best efforts, we are being pushed back out of our outpost across the entire sector. We must retreat to the heart of mankind to regroup and reassess what went astray in our campaing. A beacon of hope remains, for the critically of our task cannot be understated. We will return to these long forgotten sectors and avenge our fallen sisters, one way or the other. "
 imperial_events.5.a:0 "§YPain is an ally. Pain is a friend. Pain is truth.§" 
+
+stc_events.1.t:0 "Rumours Of An STC"
+stc_events.1.d:0 "[stc_location.GetName]"
+
+stc_events.2.t:0 "Skeptics Emerge"
+stc_events.2.d:0 "[stc_location.GetName]"
+
+stc_events.3.t:0 "Rumours Seem Reliable"
+stc_events.3.d:0 "[stc_location.GetName]"
+
+stc_events.4.t:0 "Rumours Disproven"
+stc_events.4.d:0 "[stc_location.GetName]"
+
+stc_events.5.t:0 "Funding An Expedition"
+stc_events.5.d:0 "[stc_location.GetName]"
+
+stc_events.6.t:0 "Lack Of Volunteers"
+stc_events.6.d:0 "[stc_location.GetName]"
+
+stc_events.7.t:0 "Explorators Gathering"
+stc_events.7.d:0 "[stc_location.GetName]"
+
+stc_events.8.t:0 "Failure To Gain Momentum"
+stc_events.8.d:0 "[stc_location.GetName]"
+
+stc_events.9.t:0 "Back To The Drawing Data Slate"
+stc_events.9.d:0 "[stc_location.GetName]"
+
+stc_events.10.t:0 "Appointing A Magos Explorator"
+stc_events.10.d:0 "[stc_location.GetName]"
+
+stc_events.11.t:0 "Merits Questioned"
+stc_events.11.d:0 "[stc_location.GetName]"
+
+stc_events.12.t:0 "Our Candidate Has Support"
+stc_events.12.d:0 "[stc_location.GetName]"
+
+stc_events.13.t:0 "Assasination!"
+stc_events.13.d:0 "[stc_location.GetName]"
+
+stc_events.14.t:0 "Maintaining Interest"
+stc_events.14.d:0 "[stc_location.GetName]"
+
+stc_events.15.t:0 "Planetary Sweeps"
+stc_events.15.d:0 "[stc_location.GetName]"
+
+stc_events.16.t:0 "Nothing Found"
+stc_events.16.d:0 "[stc_location.GetName]"
+
+stc_events.17.t:0 "Anomalous Constructs"
+stc_events.17.d:0 "[stc_location.GetName]"
+
+stc_events.18.t:0 "Xenos Origins"
+stc_events.18.d:0 "[stc_location.GetName]"
+
+stc_events.19.t:0 "Pressured Resignation"
+stc_events.19.d:0 "[stc_location.GetName]"
+
+stc_events.20.t:0 "Complex Located"
+stc_events.20.d:0 "[stc_location.GetName]"
+
+stc_events.21.t:0 "Need For More Skitarii"
+stc_events.21.d:0 "[stc_location.GetName]"
+
+stc_events.22.t:0 "Successful Entry"
+stc_events.22.d:0 "[stc_location.GetName]"
+
+stc_events.23.t:0 "Xenos Origins"
+stc_events.23.d:0 "[stc_location.GetName]"
+
+stc_events.24.t:0 "Illogical Assault"
+stc_events.24.d:0 "[stc_location.GetName]"
+
+stc_events.25.t:0 "Archeotech Excavation"
+stc_events.25.d:0 "[stc_location.GetName]"
+
+stc_events.26.t:0 "Abominable Intelligence!"
+stc_events.26.d:0 "[stc_location.GetName]"
+
+stc_events.27.t:0 "Artifacts Found"
+stc_events.27.d:0 "[stc_location.GetName]"
+
+stc_events.28.t:0 "Men Of Iron Reawaken!"
+stc_events.28.d:0 "[stc_location.GetName]"
+
+stc_events.29.t:0 "Expansive Compound"
+stc_events.29.d:0 "[stc_location.GetName]"
+
+stc_events.30.t:0 "Artifact Analysis"
+stc_events.30.d:0 "[stc_location.GetName]"
+
+stc_events.31.t:0 "Hints Of Corruption"
+stc_events.31.d:0 "[stc_location.GetName]"
+
+stc_events.32.t:0 "Confirmation Of An STC"
+stc_events.32.d:0 "[stc_location.GetName]"
+
+stc_events.33.t:0 "Infernal Component"
+stc_events.33.d:0 "[stc_location.GetName]"
+
+stc_events.34.t:0 "Worthless Fragment"
+stc_events.34.d:0 "[stc_location.GetName]"
+
+stc_events.35.t:0 "STC Recovered!"
+stc_events.35.d:0 "[stc_location.GetName]"
+
+stc_events.36.t:0 "STC Recovered!"
+stc_events.36.d:0 "[stc_location.GetName]"
+
+stc_events.37.t:0 "STC Recovered!"
+stc_events.37.d:0 "[stc_location.GetName]"
+
+stc_events.38.t:0 "STC Recovered!"
+stc_events.38.d:0 "[stc_location.GetName]"
+
+stc_events.39.t:0 "STC Recovered!"
+stc_events.39.d:0 "[stc_location.GetName]"
+
+stc_events.40.t:0 "STC Recovered!"
+stc_events.40.d:0 "[stc_location.GetName]"
+
+stc_events.41.t:0 "STC Recovered!"
+stc_events.41.d:0 "[stc_location.GetName]"
+
+stc_events.42.t:0 "STC Recovered!"
+stc_events.42.d:0 "[stc_location.GetName]"

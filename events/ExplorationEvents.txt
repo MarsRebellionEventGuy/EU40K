@@ -649,3 +649,3595 @@ country_event = { #Second Circumnavegation
 		add_navy_tradition = 20		
 	}
 }
+
+province_event = { #STC Hunt Offer
+	id = exploration_events.24
+	title = exploration_events.24.t
+	desc = exploration_events.24.d
+	picture = STC_3_eventPicture
+	hidden = yes
+	goto = root
+
+	is_triggered_only = yes
+	
+	trigger = {
+		is_empty = yes
+		FROM = {
+			technology_group = mechanicus
+			religion = mechanicus
+			NOT = { has_country_flag = on_stc_hunt }
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = exploration_events.24.a
+		ai_chance = { factor = 100 }
+		FROM = {
+			set_country_flag = on_stc_hunt
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1055
+					}
+				}
+				set_country_flag = stc_on_1055
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1059
+					}
+				}
+				set_country_flag = stc_on_1059
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1060
+					}
+				}
+				set_country_flag = stc_on_1060
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1063
+					}
+				}
+				set_country_flag = stc_on_1063
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1067
+					}
+				}
+				set_country_flag = stc_on_1067
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1070
+					}
+				}
+				set_country_flag = stc_on_1070
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1072
+					}
+				}
+				set_country_flag = stc_on_1072
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1075
+					}
+				}
+				set_country_flag = stc_on_1075
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1077
+					}
+				}
+				set_country_flag = stc_on_1077
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1082
+					}
+				}
+				set_country_flag = stc_on_1082
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1083
+					}
+				}
+				set_country_flag = stc_on_1083
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1085
+					}
+				}
+				set_country_flag = stc_on_1085
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1090
+					}
+				}
+				set_country_flag = stc_on_1090
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1091
+					}
+				}
+				set_country_flag = stc_on_1091
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1092
+					}
+				}
+				set_country_flag = stc_on_1092
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1093
+					}
+				}
+				set_country_flag = stc_on_1093
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1094
+					}
+				}
+				set_country_flag = stc_on_1094
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1106
+					}
+				}
+				set_country_flag = stc_on_1106
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1110
+					}
+				}
+				set_country_flag = stc_on_1110
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1112
+					}
+				}
+				set_country_flag = stc_on_1112
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1115
+					}
+				}
+				set_country_flag = stc_on_1115
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1119
+					}
+				}
+				set_country_flag = stc_on_1119
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1121
+					}
+				}
+				set_country_flag = stc_on_1121
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1128
+					}
+				}
+				set_country_flag = stc_on_1128
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1168
+					}
+				}
+				set_country_flag = stc_on_1168
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1174
+					}
+				}
+				set_country_flag = stc_on_1174
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1184
+					}
+				}
+				set_country_flag = stc_on_1184
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1192
+					}
+				}
+				set_country_flag = stc_on_1192
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1193
+					}
+				}
+				set_country_flag = stc_on_1193
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1194
+					}
+				}
+				set_country_flag = stc_on_1194
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1254
+					}
+				}
+				set_country_flag = stc_on_1254
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1255
+					}
+				}
+				set_country_flag = stc_on_1255
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1308
+					}
+				}
+				set_country_flag = stc_on_1308
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1309
+					}
+				}
+				set_country_flag = stc_on_1309
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1310
+					}
+				}
+				set_country_flag = stc_on_1310
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1311
+					}
+				}
+				set_country_flag = stc_on_1311
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1312
+					}
+				}
+				set_country_flag = stc_on_1312
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1317
+					}
+				}
+				set_country_flag = stc_on_1317
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1318
+					}
+				}
+				set_country_flag = stc_on_1318
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1319
+					}
+				}
+				set_country_flag = stc_on_1319
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1320
+					}
+				}
+				set_country_flag = stc_on_1320
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1324
+					}
+				}
+				set_country_flag = stc_on_1324
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1325
+					}
+				}
+				set_country_flag = stc_on_1325
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1330
+					}
+				}
+				set_country_flag = stc_on_1330
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1402
+					}
+				}
+				set_country_flag = stc_on_1402
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1403
+					}
+				}
+				set_country_flag = stc_on_1403
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1404
+					}
+				}
+				set_country_flag = stc_on_1404
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1405
+					}
+				}
+				set_country_flag = stc_on_1405
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1557
+					}
+				}
+				set_country_flag = stc_on_1557
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1559
+					}
+				}
+				set_country_flag = stc_on_1559
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1561
+					}
+				}
+				set_country_flag = stc_on_1561
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1562
+					}
+				}
+				set_country_flag = stc_on_1562
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1563
+					}
+				}
+				set_country_flag = stc_on_1563
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1567
+					}
+				}
+				set_country_flag = stc_on_1567
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1578
+					}
+				}
+				set_country_flag = stc_on_1578
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1579
+					}
+				}
+				set_country_flag = stc_on_1579
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1583
+					}
+				}
+				set_country_flag = stc_on_1583
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1584
+					}
+				}
+				set_country_flag = stc_on_1584
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1586
+					}
+				}
+				set_country_flag = stc_on_1586
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1594
+					}
+				}
+				set_country_flag = stc_on_1594
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1595
+					}
+				}
+				set_country_flag = stc_on_1595
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1596
+					}
+				}
+				set_country_flag = stc_on_1596
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1598
+					}
+				}
+				set_country_flag = stc_on_1598
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1604
+					}
+				}
+				set_country_flag = stc_on_1604
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1605
+					}
+				}
+				set_country_flag = stc_on_1605
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1606
+					}
+				}
+				set_country_flag = stc_on_1606
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1608
+					}
+				}
+				set_country_flag = stc_on_1608
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1609
+					}
+				}
+				set_country_flag = stc_on_1609
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1613
+					}
+				}
+				set_country_flag = stc_on_1613
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1614
+					}
+				}
+				set_country_flag = stc_on_1614
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1615
+					}
+				}
+				set_country_flag = stc_on_1615
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1616
+					}
+				}
+				set_country_flag = stc_on_1616
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1618
+					}
+				}
+				set_country_flag = stc_on_1618
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1620
+					}
+				}
+				set_country_flag = stc_on_1620
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1623
+					}
+				}
+				set_country_flag = stc_on_1623
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1625
+					}
+				}
+				set_country_flag = stc_on_1625
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1626
+					}
+				}
+				set_country_flag = stc_on_1626
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1627
+					}
+				}
+				set_country_flag = stc_on_1627
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1628
+					}
+				}
+				set_country_flag = stc_on_1628
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1630
+					}
+				}
+				set_country_flag = stc_on_1630
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1634
+					}
+				}
+				set_country_flag = stc_on_1634
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1635
+					}
+				}
+				set_country_flag = stc_on_1635
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1636
+					}
+				}
+				set_country_flag = stc_on_1636
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1637
+					}
+				}
+				set_country_flag = stc_on_1637
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1638
+					}
+				}
+				set_country_flag = stc_on_1638
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1639
+					}
+				}
+				set_country_flag = stc_on_1639
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1640
+					}
+				}
+				set_country_flag = stc_on_1640
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1642
+					}
+				}
+				set_country_flag = stc_on_1642
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1644
+					}
+				}
+				set_country_flag = stc_on_1644
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1645
+					}
+				}
+				set_country_flag = stc_on_1645
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1646
+					}
+				}
+				set_country_flag = stc_on_1646
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1648
+					}
+				}
+				set_country_flag = stc_on_1648
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1649
+					}
+				}
+				set_country_flag = stc_on_1649
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1654
+					}
+				}
+				set_country_flag = stc_on_1654
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1655
+					}
+				}
+				set_country_flag = stc_on_1655
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1658
+					}
+				}
+				set_country_flag = stc_on_1658
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1659
+					}
+				}
+				set_country_flag = stc_on_1659
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1661
+					}
+				}
+				set_country_flag = stc_on_1661
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1663
+					}
+				}
+				set_country_flag = stc_on_1663
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1664
+					}
+				}
+				set_country_flag = stc_on_1664
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1665
+					}
+				}
+				set_country_flag = stc_on_1665
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1666
+					}
+				}
+				set_country_flag = stc_on_1666
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1669
+					}
+				}
+				set_country_flag = stc_on_1669
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1671
+					}
+				}
+				set_country_flag = stc_on_1671
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1672
+					}
+				}
+				set_country_flag = stc_on_1672
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1673
+					}
+				}
+				set_country_flag = stc_on_1673
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1677
+					}
+				}
+				set_country_flag = stc_on_1677
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1679
+					}
+				}
+				set_country_flag = stc_on_1679
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1680
+					}
+				}
+				set_country_flag = stc_on_1680
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1681
+					}
+				}
+				set_country_flag = stc_on_1681
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1684
+					}
+				}
+				set_country_flag = stc_on_1684
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1687
+					}
+				}
+				set_country_flag = stc_on_1687
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1690
+					}
+				}
+				set_country_flag = stc_on_1690
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1696
+					}
+				}
+				set_country_flag = stc_on_1696
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1697
+					}
+				}
+				set_country_flag = stc_on_1697
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1698
+					}
+				}
+				set_country_flag = stc_on_1698
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1704
+					}
+				}
+				set_country_flag = stc_on_1704
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1712
+					}
+				}
+				set_country_flag = stc_on_1712
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1714
+					}
+				}
+				set_country_flag = stc_on_1714
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1715
+					}
+				}
+				set_country_flag = stc_on_1715
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1716
+					}
+				}
+				set_country_flag = stc_on_1716
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1719
+					}
+				}
+				set_country_flag = stc_on_1719
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1722
+					}
+				}
+				set_country_flag = stc_on_1722
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1724
+					}
+				}
+				set_country_flag = stc_on_1724
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1725
+					}
+				}
+				set_country_flag = stc_on_1725
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1726
+					}
+				}
+				set_country_flag = stc_on_1726
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1727
+					}
+				}
+				set_country_flag = stc_on_1727
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1732
+					}
+				}
+				set_country_flag = stc_on_1732
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1735
+					}
+				}
+				set_country_flag = stc_on_1735
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1736
+					}
+				}
+				set_country_flag = stc_on_1736
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1738
+					}
+				}
+				set_country_flag = stc_on_1738
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1739
+					}
+				}
+				set_country_flag = stc_on_1739
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1741
+					}
+				}
+				set_country_flag = stc_on_1741
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1742
+					}
+				}
+				set_country_flag = stc_on_1742
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1743
+					}
+				}
+				set_country_flag = stc_on_1743
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1744
+					}
+				}
+				set_country_flag = stc_on_1744
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1746
+					}
+				}
+				set_country_flag = stc_on_1746
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1749
+					}
+				}
+				set_country_flag = stc_on_1749
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1751
+					}
+				}
+				set_country_flag = stc_on_1751
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1752
+					}
+				}
+				set_country_flag = stc_on_1752
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1753
+					}
+				}
+				set_country_flag = stc_on_1753
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1754
+					}
+				}
+				set_country_flag = stc_on_1754
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1758
+					}
+				}
+				set_country_flag = stc_on_1758
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1761
+					}
+				}
+				set_country_flag = stc_on_1761
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1764
+					}
+				}
+				set_country_flag = stc_on_1764
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1766
+					}
+				}
+				set_country_flag = stc_on_1766
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1767
+					}
+				}
+				set_country_flag = stc_on_1767
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1768
+					}
+				}
+				set_country_flag = stc_on_1768
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1769
+					}
+				}
+				set_country_flag = stc_on_1769
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1771
+					}
+				}
+				set_country_flag = stc_on_1771
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1773
+					}
+				}
+				set_country_flag = stc_on_1773
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1774
+					}
+				}
+				set_country_flag = stc_on_1774
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1775
+					}
+				}
+				set_country_flag = stc_on_1775
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1780
+					}
+				}
+				set_country_flag = stc_on_1780
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1782
+					}
+				}
+				set_country_flag = stc_on_1782
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1783
+					}
+				}
+				set_country_flag = stc_on_1783
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1784
+					}
+				}
+				set_country_flag = stc_on_1784
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1785
+					}
+				}
+				set_country_flag = stc_on_1785
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1786
+					}
+				}
+				set_country_flag = stc_on_1786
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1787
+					}
+				}
+				set_country_flag = stc_on_1787
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1788
+					}
+				}
+				set_country_flag = stc_on_1788
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1790
+					}
+				}
+				set_country_flag = stc_on_1790
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1795
+					}
+				}
+				set_country_flag = stc_on_1795
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1796
+					}
+				}
+				set_country_flag = stc_on_1796
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1804
+					}
+				}
+				set_country_flag = stc_on_1804
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1805
+					}
+				}
+				set_country_flag = stc_on_1805
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1817
+					}
+				}
+				set_country_flag = stc_on_1817
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1819
+					}
+				}
+				set_country_flag = stc_on_1819
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1820
+					}
+				}
+				set_country_flag = stc_on_1820
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1822
+					}
+				}
+				set_country_flag = stc_on_1822
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1824
+					}
+				}
+				set_country_flag = stc_on_1824
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1825
+					}
+				}
+				set_country_flag = stc_on_1825
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1829
+					}
+				}
+				set_country_flag = stc_on_1829
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1830
+					}
+				}
+				set_country_flag = stc_on_1830
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1832
+					}
+				}
+				set_country_flag = stc_on_1832
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1833
+					}
+				}
+				set_country_flag = stc_on_1833
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1834
+					}
+				}
+				set_country_flag = stc_on_1834
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1836
+					}
+				}
+				set_country_flag = stc_on_1836
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1837
+					}
+				}
+				set_country_flag = stc_on_1837
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1838
+					}
+				}
+				set_country_flag = stc_on_1838
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1839
+					}
+				}
+				set_country_flag = stc_on_1839
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1840
+					}
+				}
+				set_country_flag = stc_on_1840
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1846
+					}
+				}
+				set_country_flag = stc_on_1846
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1848
+					}
+				}
+				set_country_flag = stc_on_1848
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1849
+					}
+				}
+				set_country_flag = stc_on_1849
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1851
+					}
+				}
+				set_country_flag = stc_on_1851
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1853
+					}
+				}
+				set_country_flag = stc_on_1853
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1855
+					}
+				}
+				set_country_flag = stc_on_1855
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1856
+					}
+				}
+				set_country_flag = stc_on_1856
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1857
+					}
+				}
+				set_country_flag = stc_on_1857
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1858
+					}
+				}
+				set_country_flag = stc_on_1858
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1862
+					}
+				}
+				set_country_flag = stc_on_1862
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1863
+					}
+				}
+				set_country_flag = stc_on_1863
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1865
+					}
+				}
+				set_country_flag = stc_on_1865
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1866
+					}
+				}
+				set_country_flag = stc_on_1866
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1867
+					}
+				}
+				set_country_flag = stc_on_1867
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 187
+					}
+				}
+				set_country_flag = stc_on_187
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1870
+					}
+				}
+				set_country_flag = stc_on_1870
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1872
+					}
+				}
+				set_country_flag = stc_on_1872
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1873
+					}
+				}
+				set_country_flag = stc_on_1873
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1887
+					}
+				}
+				set_country_flag = stc_on_1887
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1889
+					}
+				}
+				set_country_flag = stc_on_1889
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1899
+					}
+				}
+				set_country_flag = stc_on_1899
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 190
+					}
+				}
+				set_country_flag = stc_on_190
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1907
+					}
+				}
+				set_country_flag = stc_on_1907
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1908
+					}
+				}
+				set_country_flag = stc_on_1908
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1926
+					}
+				}
+				set_country_flag = stc_on_1926
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1927
+					}
+				}
+				set_country_flag = stc_on_1927
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 193
+					}
+				}
+				set_country_flag = stc_on_193
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1932
+					}
+				}
+				set_country_flag = stc_on_1932
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1934
+					}
+				}
+				set_country_flag = stc_on_1934
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1935
+					}
+				}
+				set_country_flag = stc_on_1935
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1940
+					}
+				}
+				set_country_flag = stc_on_1940
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1941
+					}
+				}
+				set_country_flag = stc_on_1941
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1984
+					}
+				}
+				set_country_flag = stc_on_1984
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1985
+					}
+				}
+				set_country_flag = stc_on_1985
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1987
+					}
+				}
+				set_country_flag = stc_on_1987
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1989
+					}
+				}
+				set_country_flag = stc_on_1989
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1993
+					}
+				}
+				set_country_flag = stc_on_1993
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 1996
+					}
+				}
+				set_country_flag = stc_on_1996
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2004
+					}
+				}
+				set_country_flag = stc_on_2004
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2009
+					}
+				}
+				set_country_flag = stc_on_2009
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2016
+					}
+				}
+				set_country_flag = stc_on_2016
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 202
+					}
+				}
+				set_country_flag = stc_on_202
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2021
+					}
+				}
+				set_country_flag = stc_on_2021
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2024
+					}
+				}
+				set_country_flag = stc_on_2024
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2025
+					}
+				}
+				set_country_flag = stc_on_2025
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2026
+					}
+				}
+				set_country_flag = stc_on_2026
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 203
+					}
+				}
+				set_country_flag = stc_on_203
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2030
+					}
+				}
+				set_country_flag = stc_on_2030
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2031
+					}
+				}
+				set_country_flag = stc_on_2031
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2032
+					}
+				}
+				set_country_flag = stc_on_2032
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2033
+					}
+				}
+				set_country_flag = stc_on_2033
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2034
+					}
+				}
+				set_country_flag = stc_on_2034
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2035
+					}
+				}
+				set_country_flag = stc_on_2035
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2037
+					}
+				}
+				set_country_flag = stc_on_2037
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2038
+					}
+				}
+				set_country_flag = stc_on_2038
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2039
+					}
+				}
+				set_country_flag = stc_on_2039
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2040
+					}
+				}
+				set_country_flag = stc_on_2040
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2041
+					}
+				}
+				set_country_flag = stc_on_2041
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2043
+					}
+				}
+				set_country_flag = stc_on_2043
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 205
+					}
+				}
+				set_country_flag = stc_on_205
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 207
+					}
+				}
+				set_country_flag = stc_on_207
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 209
+					}
+				}
+				set_country_flag = stc_on_209
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 252
+					}
+				}
+				set_country_flag = stc_on_252
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2795
+					}
+				}
+				set_country_flag = stc_on_2795
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2800
+					}
+				}
+				set_country_flag = stc_on_2800
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2801
+					}
+				}
+				set_country_flag = stc_on_2801
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2804
+					}
+				}
+				set_country_flag = stc_on_2804
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2805
+					}
+				}
+				set_country_flag = stc_on_2805
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2806
+					}
+				}
+				set_country_flag = stc_on_2806
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2807
+					}
+				}
+				set_country_flag = stc_on_2807
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2808
+					}
+				}
+				set_country_flag = stc_on_2808
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2817
+					}
+				}
+				set_country_flag = stc_on_2817
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2822
+					}
+				}
+				set_country_flag = stc_on_2822
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2824
+					}
+				}
+				set_country_flag = stc_on_2824
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2825
+					}
+				}
+				set_country_flag = stc_on_2825
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2828
+					}
+				}
+				set_country_flag = stc_on_2828
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2829
+					}
+				}
+				set_country_flag = stc_on_2829
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2830
+					}
+				}
+				set_country_flag = stc_on_2830
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2831
+					}
+				}
+				set_country_flag = stc_on_2831
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2847
+					}
+				}
+				set_country_flag = stc_on_2847
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2848
+					}
+				}
+				set_country_flag = stc_on_2848
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2849
+					}
+				}
+				set_country_flag = stc_on_2849
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2851
+					}
+				}
+				set_country_flag = stc_on_2851
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2852
+					}
+				}
+				set_country_flag = stc_on_2852
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2853
+					}
+				}
+				set_country_flag = stc_on_2853
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2854
+					}
+				}
+				set_country_flag = stc_on_2854
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2855
+					}
+				}
+				set_country_flag = stc_on_2855
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2858
+					}
+				}
+				set_country_flag = stc_on_2858
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2859
+					}
+				}
+				set_country_flag = stc_on_2859
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2861
+					}
+				}
+				set_country_flag = stc_on_2861
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2862
+					}
+				}
+				set_country_flag = stc_on_2862
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2863
+					}
+				}
+				set_country_flag = stc_on_2863
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2864
+					}
+				}
+				set_country_flag = stc_on_2864
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2870
+					}
+				}
+				set_country_flag = stc_on_2870
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2875
+					}
+				}
+				set_country_flag = stc_on_2875
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2876
+					}
+				}
+				set_country_flag = stc_on_2876
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2877
+					}
+				}
+				set_country_flag = stc_on_2877
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2878
+					}
+				}
+				set_country_flag = stc_on_2878
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2879
+					}
+				}
+				set_country_flag = stc_on_2879
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2880
+					}
+				}
+				set_country_flag = stc_on_2880
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2881
+					}
+				}
+				set_country_flag = stc_on_2881
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2882
+					}
+				}
+				set_country_flag = stc_on_2882
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2884
+					}
+				}
+				set_country_flag = stc_on_2884
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2890
+					}
+				}
+				set_country_flag = stc_on_2890
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2891
+					}
+				}
+				set_country_flag = stc_on_2891
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2892
+					}
+				}
+				set_country_flag = stc_on_2892
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2893
+					}
+				}
+				set_country_flag = stc_on_2893
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2894
+					}
+				}
+				set_country_flag = stc_on_2894
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2895
+					}
+				}
+				set_country_flag = stc_on_2895
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2897
+					}
+				}
+				set_country_flag = stc_on_2897
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2898
+					}
+				}
+				set_country_flag = stc_on_2898
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2901
+					}
+				}
+				set_country_flag = stc_on_2901
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2920
+					}
+				}
+				set_country_flag = stc_on_2920
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2922
+					}
+				}
+				set_country_flag = stc_on_2922
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2927
+					}
+				}
+				set_country_flag = stc_on_2927
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2928
+					}
+				}
+				set_country_flag = stc_on_2928
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2929
+					}
+				}
+				set_country_flag = stc_on_2929
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2931
+					}
+				}
+				set_country_flag = stc_on_2931
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2932
+					}
+				}
+				set_country_flag = stc_on_2932
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2933
+					}
+				}
+				set_country_flag = stc_on_2933
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2934
+					}
+				}
+				set_country_flag = stc_on_2934
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2935
+					}
+				}
+				set_country_flag = stc_on_2935
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2936
+					}
+				}
+				set_country_flag = stc_on_2936
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2937
+					}
+				}
+				set_country_flag = stc_on_2937
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2938
+					}
+				}
+				set_country_flag = stc_on_2938
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2939
+					}
+				}
+				set_country_flag = stc_on_2939
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2940
+					}
+				}
+				set_country_flag = stc_on_2940
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2941
+					}
+				}
+				set_country_flag = stc_on_2941
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2942
+					}
+				}
+				set_country_flag = stc_on_2942
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2943
+					}
+				}
+				set_country_flag = stc_on_2943
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2945
+					}
+				}
+				set_country_flag = stc_on_2945
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2946
+					}
+				}
+				set_country_flag = stc_on_2946
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2947
+					}
+				}
+				set_country_flag = stc_on_2947
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2948
+					}
+				}
+				set_country_flag = stc_on_2948
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2950
+					}
+				}
+				set_country_flag = stc_on_2950
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2952
+					}
+				}
+				set_country_flag = stc_on_2952
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2953
+					}
+				}
+				set_country_flag = stc_on_2953
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2954
+					}
+				}
+				set_country_flag = stc_on_2954
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2955
+					}
+				}
+				set_country_flag = stc_on_2955
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2956
+					}
+				}
+				set_country_flag = stc_on_2956
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2962
+					}
+				}
+				set_country_flag = stc_on_2962
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2964
+					}
+				}
+				set_country_flag = stc_on_2964
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2965
+					}
+				}
+				set_country_flag = stc_on_2965
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2967
+					}
+				}
+				set_country_flag = stc_on_2967
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2968
+					}
+				}
+				set_country_flag = stc_on_2968
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2969
+					}
+				}
+				set_country_flag = stc_on_2969
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2970
+					}
+				}
+				set_country_flag = stc_on_2970
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2971
+					}
+				}
+				set_country_flag = stc_on_2971
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2972
+					}
+				}
+				set_country_flag = stc_on_2972
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2986
+					}
+				}
+				set_country_flag = stc_on_2986
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2990
+					}
+				}
+				set_country_flag = stc_on_2990
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2992
+					}
+				}
+				set_country_flag = stc_on_2992
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2993
+					}
+				}
+				set_country_flag = stc_on_2993
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2995
+					}
+				}
+				set_country_flag = stc_on_2995
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2996
+					}
+				}
+				set_country_flag = stc_on_2996
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 2997
+					}
+				}
+				set_country_flag = stc_on_2997
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 3091
+					}
+				}
+				set_country_flag = stc_on_3091
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 3095
+					}
+				}
+				set_country_flag = stc_on_3095
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 3106
+					}
+				}
+				set_country_flag = stc_on_3106
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 3107
+					}
+				}
+				set_country_flag = stc_on_3107
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 3110
+					}
+				}
+				set_country_flag = stc_on_3110
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 3111
+					}
+				}
+				set_country_flag = stc_on_3111
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 3112
+					}
+				}
+				set_country_flag = stc_on_3112
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 3113
+					}
+				}
+				set_country_flag = stc_on_3113
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 3118
+					}
+				}
+				set_country_flag = stc_on_3118
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 3119
+					}
+				}
+				set_country_flag = stc_on_3119
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 3120
+					}
+				}
+				set_country_flag = stc_on_3120
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 3121
+					}
+				}
+				set_country_flag = stc_on_3121
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 3122
+					}
+				}
+				set_country_flag = stc_on_3122
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 3123
+					}
+				}
+				set_country_flag = stc_on_3123
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 3124
+					}
+				}
+				set_country_flag = stc_on_3124
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 3129
+					}
+				}
+				set_country_flag = stc_on_3129
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 3130
+					}
+				}
+				set_country_flag = stc_on_3130
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 3131
+					}
+				}
+				set_country_flag = stc_on_3131
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 3132
+					}
+				}
+				set_country_flag = stc_on_3132
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 3133
+					}
+				}
+				set_country_flag = stc_on_3133
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 3144
+					}
+				}
+				set_country_flag = stc_on_3144
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 3152
+					}
+				}
+				set_country_flag = stc_on_3152
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 3153
+					}
+				}
+				set_country_flag = stc_on_3153
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 3156
+					}
+				}
+				set_country_flag = stc_on_3156
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 3290
+					}
+				}
+				set_country_flag = stc_on_3290
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 3291
+					}
+				}
+				set_country_flag = stc_on_3291
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 333
+					}
+				}
+				set_country_flag = stc_on_333
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 342
+					}
+				}
+				set_country_flag = stc_on_342
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 343
+					}
+				}
+				set_country_flag = stc_on_343
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 3499
+					}
+				}
+				set_country_flag = stc_on_3499
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 3500
+					}
+				}
+				set_country_flag = stc_on_3500
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 3503
+					}
+				}
+				set_country_flag = stc_on_3503
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 3504
+					}
+				}
+				set_country_flag = stc_on_3504
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 3505
+					}
+				}
+				set_country_flag = stc_on_3505
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 3506
+					}
+				}
+				set_country_flag = stc_on_3506
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 3511
+					}
+				}
+				set_country_flag = stc_on_3511
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 3512
+					}
+				}
+				set_country_flag = stc_on_3512
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 3513
+					}
+				}
+				set_country_flag = stc_on_3513
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 3514
+					}
+				}
+				set_country_flag = stc_on_3514
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 3570
+					}
+				}
+				set_country_flag = stc_on_3570
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 3571
+					}
+				}
+				set_country_flag = stc_on_3571
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 3572
+					}
+				}
+				set_country_flag = stc_on_3572
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 3573
+					}
+				}
+				set_country_flag = stc_on_3573
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 3574
+					}
+				}
+				set_country_flag = stc_on_3574
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 3581
+					}
+				}
+				set_country_flag = stc_on_3581
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 3622
+					}
+				}
+				set_country_flag = stc_on_3622
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 3623
+					}
+				}
+				set_country_flag = stc_on_3623
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 3624
+					}
+				}
+				set_country_flag = stc_on_3624
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 3625
+					}
+				}
+				set_country_flag = stc_on_3625
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 3646
+					}
+				}
+				set_country_flag = stc_on_3646
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 3949
+					}
+				}
+				set_country_flag = stc_on_3949
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 3950
+					}
+				}
+				set_country_flag = stc_on_3950
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 3996
+					}
+				}
+				set_country_flag = stc_on_3996
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 3997
+					}
+				}
+				set_country_flag = stc_on_3997
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 3998
+					}
+				}
+				set_country_flag = stc_on_3998
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 3999
+					}
+				}
+				set_country_flag = stc_on_3999
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 4000
+					}
+				}
+				set_country_flag = stc_on_4000
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 413
+					}
+				}
+				set_country_flag = stc_on_413
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 415
+					}
+				}
+				set_country_flag = stc_on_415
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 417
+					}
+				}
+				set_country_flag = stc_on_417
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 446
+					}
+				}
+				set_country_flag = stc_on_446
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 447
+					}
+				}
+				set_country_flag = stc_on_447
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 448
+					}
+				}
+				set_country_flag = stc_on_448
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 449
+					}
+				}
+				set_country_flag = stc_on_449
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 450
+					}
+				}
+				set_country_flag = stc_on_450
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 452
+					}
+				}
+				set_country_flag = stc_on_452
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 453
+					}
+				}
+				set_country_flag = stc_on_453
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 454
+					}
+				}
+				set_country_flag = stc_on_454
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 455
+					}
+				}
+				set_country_flag = stc_on_455
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 456
+					}
+				}
+				set_country_flag = stc_on_456
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 473
+					}
+				}
+				set_country_flag = stc_on_473
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 475
+					}
+				}
+				set_country_flag = stc_on_475
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 482
+					}
+				}
+				set_country_flag = stc_on_482
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 489
+					}
+				}
+				set_country_flag = stc_on_489
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 491
+					}
+				}
+				set_country_flag = stc_on_491
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 737
+					}
+				}
+				set_country_flag = stc_on_737
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 741
+					}
+				}
+				set_country_flag = stc_on_741
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 743
+					}
+				}
+				set_country_flag = stc_on_743
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 745
+					}
+				}
+				set_country_flag = stc_on_745
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 746
+					}
+				}
+				set_country_flag = stc_on_746
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 747
+					}
+				}
+				set_country_flag = stc_on_747
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 748
+					}
+				}
+				set_country_flag = stc_on_748
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 749
+					}
+				}
+				set_country_flag = stc_on_749
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 750
+					}
+				}
+				set_country_flag = stc_on_750
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 751
+					}
+				}
+				set_country_flag = stc_on_751
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 752
+					}
+				}
+				set_country_flag = stc_on_752
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 810
+					}
+				}
+				set_country_flag = stc_on_810
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 813
+					}
+				}
+				set_country_flag = stc_on_813
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 822
+					}
+				}
+				set_country_flag = stc_on_822
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 824
+					}
+				}
+				set_country_flag = stc_on_824
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 825
+					}
+				}
+				set_country_flag = stc_on_825
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 832
+					}
+				}
+				set_country_flag = stc_on_832
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 837
+					}
+				}
+				set_country_flag = stc_on_837
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 946
+					}
+				}
+				set_country_flag = stc_on_946
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 957
+					}
+				}
+				set_country_flag = stc_on_957
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 958
+					}
+				}
+				set_country_flag = stc_on_958
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 959
+					}
+				}
+				set_country_flag = stc_on_959
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 961
+					}
+				}
+				set_country_flag = stc_on_961
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 963
+					}
+				}
+				set_country_flag = stc_on_963
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 964
+					}
+				}
+				set_country_flag = stc_on_964
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 965
+					}
+				}
+				set_country_flag = stc_on_965
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 966
+					}
+				}
+				set_country_flag = stc_on_966
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 970
+					}
+				}
+				set_country_flag = stc_on_970
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 972
+					}
+				}
+				set_country_flag = stc_on_972
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 975
+					}
+				}
+				set_country_flag = stc_on_975
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 976
+					}
+				}
+				set_country_flag = stc_on_976
+			}
+			if = {
+				limit = {
+					ROOT = {
+						province_id = 981
+					}
+				}
+				set_country_flag = stc_on_981
+			}
+		}
+	}
+}

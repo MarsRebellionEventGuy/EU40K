@@ -35,7 +35,7 @@ feudalism = {
 		province_id = 442
 	}
 	
-	start_chance = 0
+	start_chance = 1000000
 	
 	on_start = ind_institution_events.1
 
@@ -48,6 +48,11 @@ feudalism = {
 		# }
         # for the other technology_group until STC is finish
         always = yes
+		owner = {
+			OR = {
+				religion_group = emperor_group
+			}
+		}
 	}
 
 	embracement_speed = {
@@ -92,7 +97,6 @@ feudalism = {
 			
 			custom_trigger_tooltip = {
 				tooltip = tooltip_feudalism_embraced
-				is_owned_by_trade_company = no
 				owner = {
 					has_institution = feudalism
 				}
@@ -147,17 +151,9 @@ renaissance = {
 	}
 	
 	can_start = {
-		province_id = 442
+		always = no
 	}
-	start_chance = 100		#in 100 for when a province can_start
-	
-	
-	on_start = institution_events.2
-	
-	
-	
-
-	
+	start_chance = 0		#in 100 for when a province can_start
 	
 	can_embrace = {
 		# owner = { 
@@ -167,6 +163,15 @@ renaissance = {
 			# }
 		# }
         owner = { has_institution = feudalism }
+		owner = {
+			OR = {
+				technology_group = imperial
+				AND = {
+					technology_group = mechanicus
+					religion_group = emperor_group
+				}
+			}
+		}
 	}
 
 
@@ -180,7 +185,7 @@ renaissance = {
 				tooltip = IND_INST_WORD
 				owner = {
 					any_known_country = {
-						has_institution = feudalism
+						has_institution = renaissance
 					}
 				}
 			}
@@ -197,7 +202,7 @@ renaissance = {
 				tooltip = IND_INST_CAPITAL
 				owner = {
 					capital_scope = {
-						feudalism = 100
+						renaissance = 100
 					}
 				}
 			}
@@ -207,15 +212,14 @@ renaissance = {
 			scale = yes
 			potential = {
 				owner = {
-					has_institution = feudalism
+					has_institution = renaissance
 				}
 			}
 			
 			custom_trigger_tooltip = {
-				tooltip = tooltip_feudalism_embraced
-				is_owned_by_trade_company = no
+				tooltip = tooltip_renaissance_embraced
 				owner = {
-					has_institution = feudalism
+					has_institution = renaissance
 				}
 			}
 		}
@@ -268,27 +272,73 @@ new_world_i = {
 	}
 	
 	can_start = {
-		province_id = 442
+		always = no
 	}
-	start_chance = 100		#in 100 for when a province can_start
-	
-	
-	on_start = institution_events.3
-	
-	
-	
-
-	
+	start_chance = 0		#in 100 for when a province can_start
 	
 	can_embrace = {
 		#always = yes
         owner = { has_institution = renaissance }
+		owner = {
+			OR = {
+				technology_group = imperial
+				AND = {
+					technology_group = mechanicus
+					religion_group = emperor_group
+				}
+			}
+		}
 	}
 
 
 	
 	embracement_speed = {
-		
+		modifier = {
+			factor = 0.5
+			scale = yes
+			
+			custom_trigger_tooltip = {
+				tooltip = IND_INST_WORD
+				owner = {
+					any_known_country = {
+						has_institution = new_world_i
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 1
+			scale = yes
+			force_potential = yes
+			potential = {
+				is_capital = no
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = IND_INST_CAPITAL
+				owner = {
+					capital_scope = {
+						new_world_i = 100
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			scale = yes
+			potential = {
+				owner = {
+					has_institution = new_world_i
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = tooltip_new_world_i_embraced
+				owner = {
+					has_institution = new_world_i
+				}
+			}
+		}
 	}
 	
 	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. {Or it has a more than long term goal...}
@@ -336,22 +386,73 @@ printing_press = {
 	}
 	
 	can_start = {
-		province_id = 442
+		always = no
 	}
-	start_chance = 100		#in 100 for when a province can_start
-	
-	
-	on_start = institution_events.4
+	start_chance = 0		#in 100 for when a province can_start
 	
 	
 	can_embrace = {
 		#always = yes
         owner = { has_institution = new_world_i }
+		owner = {
+			OR = {
+				technology_group = imperial
+				AND = {
+					technology_group = mechanicus
+					religion_group = emperor_group
+				}
+			}
+		}
 	}
 
 	
 	embracement_speed = {
-		
+		modifier = {
+			factor = 0.5
+			scale = yes
+			
+			custom_trigger_tooltip = {
+				tooltip = IND_INST_WORD
+				owner = {
+					any_known_country = {
+						has_institution = printing_press
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 1
+			scale = yes
+			force_potential = yes
+			potential = {
+				is_capital = no
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = IND_INST_CAPITAL
+				owner = {
+					capital_scope = {
+						printing_press = 100
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			scale = yes
+			potential = {
+				owner = {
+					has_institution = printing_press
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = tooltip_new_world_i_embraced
+				owner = {
+					has_institution = printing_press
+				}
+			}
+		}
 	}
 	
 	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. {Or it has a more than long term goal...}
@@ -401,22 +502,72 @@ global_trade = {
 	}
 	
 	can_start = {
-		province_id = 442
+		always = no
 	}
-	start_chance = 100		#in 100 for when a province can_start
-	
-	
-	on_start = institution_events.5
-	
+	start_chance = 0		#in 100 for when a province can_start
 	
 	can_embrace = {
 		#always = yes
         owner = { has_institution = printing_press }
+		owner = {
+			OR = {
+				technology_group = imperial
+				AND = {
+					technology_group = mechanicus
+					religion_group = emperor_group
+				}
+			}
+		}
 	}
 
 	
 	embracement_speed = {
-		
+		modifier = {
+			factor = 0.5
+			scale = yes
+			
+			custom_trigger_tooltip = {
+				tooltip = IND_INST_WORD
+				owner = {
+					any_known_country = {
+						has_institution = global_trade
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 1
+			scale = yes
+			force_potential = yes
+			potential = {
+				is_capital = no
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = IND_INST_CAPITAL
+				owner = {
+					capital_scope = {
+						global_trade = 100
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			scale = yes
+			potential = {
+				owner = {
+					has_institution = global_trade
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = tooltip_new_world_i_embraced
+				owner = {
+					has_institution = global_trade
+				}
+			}
+		}
 	}
 	
 	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. {Or it has a more than long term goal...}
@@ -463,22 +614,72 @@ manufactories = {
 	}
 	
 	can_start = {
-		province_id = 442
+		always = no
 	}
-	start_chance = 100		#in 100 for when a province can_start
-	
-	
-	on_start = institution_events.6
-	
+	start_chance = 0		#in 100 for when a province can_start
 	
 	can_embrace = {
 		#always = yes
         owner = { has_institution = global_trade }
+		owner = {
+			OR = {
+				technology_group = imperial
+				AND = {
+					technology_group = mechanicus
+					religion_group = emperor_group
+				}
+			}
+		}
 	}
 
 	
 	embracement_speed = {
-		
+		modifier = {
+			factor = 0.5
+			scale = yes
+			
+			custom_trigger_tooltip = {
+				tooltip = IND_INST_WORD
+				owner = {
+					any_known_country = {
+						has_institution = manufactories
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 1
+			scale = yes
+			force_potential = yes
+			potential = {
+				is_capital = no
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = IND_INST_CAPITAL
+				owner = {
+					capital_scope = {
+						manufactories = 100
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			scale = yes
+			potential = {
+				owner = {
+					has_institution = manufactories
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = tooltip_new_world_i_embraced
+				owner = {
+					has_institution = manufactories
+				}
+			}
+		}
 	}
 	
 	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. {Or it has a more than long term goal...}
@@ -526,22 +727,73 @@ enlightenment = {
 	}
 	
 	can_start = {
-		province_id = 442
+		always = no
 	}
-	start_chance = 100		#in 100 for when a province can_start
-	
-	
-	on_start = institution_events.7
+	start_chance = 0		#in 100 for when a province can_start
 	
 	
 	can_embrace = {
 		#always = yes
         owner = { has_institution = manufactories }
+		owner = {
+			OR = {
+				technology_group = imperial
+				AND = {
+					technology_group = mechanicus
+					religion_group = emperor_group
+				}
+			}
+		}
 	}
 
 	
 	embracement_speed = {
-		
+		modifier = {
+			factor = 0.5
+			scale = yes
+			
+			custom_trigger_tooltip = {
+				tooltip = IND_INST_WORD
+				owner = {
+					any_known_country = {
+						has_institution = enlightenment
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 1
+			scale = yes
+			force_potential = yes
+			potential = {
+				is_capital = no
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = IND_INST_CAPITAL
+				owner = {
+					capital_scope = {
+						enlightenment = 100
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			scale = yes
+			potential = {
+				owner = {
+					has_institution = enlightenment
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = tooltip_new_world_i_embraced
+				owner = {
+					has_institution = enlightenment
+				}
+			}
+		}
 	}
 	
 	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. {Or it has a more than long term goal...}
@@ -589,22 +841,73 @@ industrialization = {
 	}
 	
 	can_start = {
-		province_id = 442
+		always = no
 	}
-	start_chance = 100		#in 100 for when a province can_start
-	
-	
-	on_start = institution_events.80
+	start_chance = 0		#in 100 for when a province can_start
 	
 	
 	can_embrace = {
 		#always = yes
         owner = { has_institution = enlightenment }
+		owner = {
+			OR = {
+				technology_group = imperial
+				AND = {
+					technology_group = mechanicus
+					religion_group = emperor_group
+				}
+			}
+		}
 	}
 
 	
 	embracement_speed = {
-		
+		modifier = {
+			factor = 0.5
+			scale = yes
+			
+			custom_trigger_tooltip = {
+				tooltip = IND_INST_WORD
+				owner = {
+					any_known_country = {
+						has_institution = industrialization
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 1
+			scale = yes
+			force_potential = yes
+			potential = {
+				is_capital = no
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = IND_INST_CAPITAL
+				owner = {
+					capital_scope = {
+						industrialization = 100
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			scale = yes
+			potential = {
+				owner = {
+					has_institution = industrialization
+				}
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = tooltip_new_world_i_embraced
+				owner = {
+					has_institution = industrialization
+				}
+			}
+		}
 	}
 	
 	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. {Or it has a more than long term goal...}

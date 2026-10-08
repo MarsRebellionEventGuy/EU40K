@@ -2727,6 +2727,46 @@ necronmanpowerdepleted = {
 usedhekaaction = {
 }
 
+origin_of_astraeus = {
+	local_development_cost = -0.1
+	province_trade_power_modifier = 0.1
+}
+
+origin_of_arc_riveting = {
+	local_development_cost = -0.1
+	province_trade_power_modifier = 0.1
+}
+
+origin_of_data_loom = {
+	local_development_cost = -0.1
+	province_trade_power_modifier = 0.1
+}
+
+origin_of_multi_laser = {
+	local_development_cost = -0.1
+	province_trade_power_modifier = 0.1
+}
+
+origin_of_holoprojector = {
+	local_development_cost = -0.1
+	province_trade_power_modifier = 0.1
+}
+
+origin_of_rockcrete = {
+	local_development_cost = -0.1
+	province_trade_power_modifier = 0.1
+}
+
+origin_of_volus_salve = {
+	local_development_cost = -0.1
+	province_trade_power_modifier = 0.1
+}
+
+origin_of_gyrus_drive = {
+	local_development_cost = -0.1
+	province_trade_power_modifier = 0.1
+}
+
 agenda_looting_zeal = {
 	available_province_loot = 0.15
 	loot_amount = 0.15
